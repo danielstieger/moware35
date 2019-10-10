@@ -150,7 +150,7 @@ function hwInitAfterDomReady(){
                 EB.Barcode.gs1dataBarLimited = true;
                 EB.Barcode.pdf417 = true;
                 EB.Barcode.qrCode = true;
-                EB.Barcode.dataMatrix = true;
+                EB.Barcode.datamatrix = true;
 
 
                 svLog('hwEnableScan', 'calling EB.Barcode.enable()');

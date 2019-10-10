@@ -14490,15 +14490,6 @@
             <property role="3SKdUp" value="conclusions and buttons installed above (this method is called by pagepaneselcrtl)" />
           </node>
         </node>
-        <node concept="3cpWs8" id="4L33b_GspFu" role="3cqZAp">
-          <node concept="3cpWsn" id="4L33b_GspFx" role="3cpWs9">
-            <property role="TrG5h" value="scanConclusionPresent" />
-            <node concept="10P_77" id="4L33b_GspFs" role="1tU5fm" />
-            <node concept="3clFbT" id="4L33b_GspR3" role="33vP2m">
-              <property role="3clFbU" value="false" />
-            </node>
-          </node>
-        </node>
         <node concept="1Dw8fO" id="27BPRG5Paih" role="3cqZAp">
           <node concept="3clFbS" id="27BPRG5Paij" role="2LFqv$">
             <node concept="3SKdUt" id="27BPRG5PbJx" role="3cqZAp">
@@ -14544,49 +14535,6 @@
                   <node concept="2OwXpG" id="27BPRG5PbWp" role="2OqNvi">
                     <ref role="2Oxat5" to="28jr:27BPRG5MzcZ" resolve="enabled" />
                   </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="4L33b_Gsq06" role="3cqZAp">
-              <node concept="3clFbS" id="4L33b_Gsq08" role="3clFbx">
-                <node concept="3clFbF" id="4L33b_GstmR" role="3cqZAp">
-                  <node concept="37vLTI" id="4L33b_GstoQ" role="3clFbG">
-                    <node concept="3clFbT" id="4L33b_GstpF" role="37vLTx">
-                      <property role="3clFbU" value="true" />
-                    </node>
-                    <node concept="37vLTw" id="4L33b_GstmP" role="37vLTJ">
-                      <ref role="3cqZAo" node="4L33b_GspFx" resolve="scanConclusionPresent" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="4L33b_GsrkQ" role="3clFbw">
-                <node concept="liA8E" id="4L33b_GsrCk" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                  <node concept="2OqwBi" id="4L33b_GsqW$" role="37wK5m">
-                    <node concept="2OqwBi" id="4L33b_GsqfC" role="2Oq$k0">
-                      <node concept="37vLTw" id="4L33b_Gsq8U" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
-                      </node>
-                      <node concept="liA8E" id="4L33b_GsqFc" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
-                        <node concept="3cpWs3" id="4L33b_GsqQ8" role="37wK5m">
-                          <node concept="3cmrfG" id="4L33b_GsqQK" role="3uHU7w">
-                            <property role="3cmrfH" value="1" />
-                          </node>
-                          <node concept="37vLTw" id="4L33b_GsqK3" role="3uHU7B">
-                            <ref role="3cqZAo" node="27BPRG5Paik" resolve="i" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2OwXpG" id="4L33b_GsrdT" role="2OqNvi">
-                      <ref role="2Oxat5" to="28jr:3Rw9V4pLec0" resolve="hotkey" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="4LNQ1dLxlWJ" role="2Oq$k0">
-                  <property role="Xl_RC" value="UPD" />
                 </node>
               </node>
             </node>
@@ -14643,7 +14591,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4L33b_GsxAR" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="4L33b_Gsy3o" role="3clFbw">
             <node concept="1rXfSq" id="4L33b_GsxQi" role="2Oq$k0">

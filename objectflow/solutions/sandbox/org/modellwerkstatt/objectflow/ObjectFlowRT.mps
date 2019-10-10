@@ -5654,7 +5654,7 @@
       <node concept="3clFbS" id="4L33b_FHuPN" role="3clF47">
         <node concept="3clFbF" id="4L33b_FHwXA" role="3cqZAp">
           <node concept="1rXfSq" id="4L33b_FHwX$" role="3clFbG">
-            <ref role="37wK5l" to="w7gk:3_5k9VmQ$7u" resolve="setReadOnly" />
+            <ref role="37wK5l" node="5pAvdzL_eMW" resolve="setReadOnly" />
             <node concept="3clFbT" id="4L33b_FHwZJ" role="37wK5m">
               <property role="3clFbU" value="true" />
             </node>
@@ -5680,6 +5680,64 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5pAvdzL_eMW" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnly" />
+      <node concept="37vLTG" id="5pAvdzL_eMX" role="3clF46">
+        <property role="TrG5h" value="r" />
+        <node concept="10P_77" id="5pAvdzL_eMY" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="5pAvdzL_eMZ" role="3clF45" />
+      <node concept="3Tm1VV" id="5pAvdzL_eN0" role="1B3o_S" />
+      <node concept="3clFbS" id="5pAvdzL_eNi" role="3clF47">
+        <node concept="3clFbJ" id="5pAvdzL_qxY" role="3cqZAp">
+          <node concept="3clFbS" id="5pAvdzL_qy0" role="3clFbx">
+            <node concept="YS8fn" id="5pAvdzL_rsP" role="3cqZAp">
+              <node concept="2ShNRf" id="5pAvdzL_ruy" role="YScLw">
+                <node concept="1pGfFk" id="5pAvdzL_$m7" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="5pAvdzL_$qT" role="37wK5m">
+                    <property role="Xl_RC" value="Sessions set to read-onlay can not be reseted to read/write again." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="5pAvdzL_qDH" role="3clFbw">
+            <node concept="3clFbC" id="5pAvdzL_r9D" role="3uHU7w">
+              <node concept="3clFbT" id="5pAvdzL_rmh" role="3uHU7w">
+                <property role="3clFbU" value="true" />
+              </node>
+              <node concept="2OqwBi" id="5pAvdzL_qSA" role="3uHU7B">
+                <node concept="Xjq3P" id="5pAvdzL_qQ2" role="2Oq$k0" />
+                <node concept="2OwXpG" id="5pAvdzL_qVu" role="2OqNvi">
+                  <ref role="2Oxat5" to="w7gk:3_5k9VmQvsG" resolve="readOnly" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="5pAvdzL_q_b" role="3uHU7B">
+              <node concept="37vLTw" id="5pAvdzL_qzY" role="3uHU7B">
+                <ref role="3cqZAo" node="5pAvdzL_eMX" resolve="r" />
+              </node>
+              <node concept="3clFbT" id="5pAvdzL_ro_" role="3uHU7w">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5pAvdzL_eNm" role="3cqZAp">
+          <node concept="3nyPlj" id="5pAvdzL_eNl" role="3clFbG">
+            <ref role="37wK5l" to="w7gk:3_5k9VmQ$7u" resolve="setReadOnly" />
+            <node concept="37vLTw" id="5pAvdzL_eNk" role="37wK5m">
+              <ref role="3cqZAo" node="5pAvdzL_eMX" resolve="r" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5pAvdzL_eNj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="4L33b_FHuPO" role="jymVt">
@@ -43507,7 +43565,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2019.31 (s3) (dev " />
+            <property role="Xl_RC" value="moware 2019.32 (s4) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
