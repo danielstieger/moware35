@@ -71,6 +71,9 @@
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
         <child id="1164903700860" name="catchClause" index="TEXxN" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
@@ -7546,28 +7549,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="3ooJmL_yul6" role="3cqZAp" />
-            <node concept="3clFbF" id="3ooJmL_ymZU" role="3cqZAp">
-              <node concept="37vLTI" id="3ooJmL_ynMk" role="3clFbG">
-                <node concept="37vLTw" id="3ooJmL_ymZS" role="37vLTJ">
-                  <ref role="3cqZAo" node="3ooJmL_rU_N" resolve="appPrintService" />
-                </node>
-                <node concept="2OqwBi" id="2vHEu_NG_jy" role="37vLTx">
-                  <node concept="37vLTw" id="2vHEu_NG_gh" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
-                  </node>
-                  <node concept="liA8E" id="2vHEu_NG_Dz" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:2vHEu_NBRze" resolve="createConfiguredUserPrintService" />
-                    <node concept="37vLTw" id="938$CrLtDa" role="37wK5m">
-                      <ref role="3cqZAo" node="2ppo89mf0K9" resolve="appToolkitWindow" />
-                    </node>
-                    <node concept="37vLTw" id="omQbG9SSiH" role="37wK5m">
-                      <ref role="3cqZAo" node="7aUgYCzs8js" resolve="userEnv" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="3ooJmL_ysw8" role="3cqZAp" />
             <node concept="3SKdUt" id="20ohnkbKBme" role="3cqZAp">
               <node concept="3SKdUq" id="20ohnkbKBDz" role="3SKWNk">
                 <property role="3SKdUp" value="set some status information " />
@@ -8212,14 +8193,63 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="2vHEu_NHmmL" role="3cqZAp" />
-            <node concept="3clFbH" id="6j4XqQEIP4T" role="3cqZAp" />
             <node concept="3clFbF" id="3y7CfyfpR3J" role="3cqZAp">
               <node concept="1rXfSq" id="3y7CfyfpR3H" role="3clFbG">
                 <ref role="37wK5l" node="3nLGOmWzIoC" resolve="reevalEnabledInMenus" />
               </node>
             </node>
             <node concept="3clFbH" id="Sdc_RvDl4E" role="3cqZAp" />
+            <node concept="3SKdUt" id="6DdGzN5Gkg2" role="3cqZAp">
+              <node concept="3SKdUq" id="6DdGzN5Gkg4" role="3SKWNk">
+                <property role="3SKdUp" value="we need a user specific print instance here / user service instance." />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="6DdGzN5GlP7" role="3cqZAp">
+              <node concept="3SKdUq" id="6DdGzN5GlP9" role="3SKWNk" />
+            </node>
+            <node concept="3clFbF" id="3ooJmL_ymZU" role="3cqZAp">
+              <node concept="37vLTI" id="3ooJmL_ynMk" role="3clFbG">
+                <node concept="37vLTw" id="3ooJmL_ymZS" role="37vLTJ">
+                  <ref role="3cqZAo" node="3ooJmL_rU_N" resolve="appPrintService" />
+                </node>
+                <node concept="2OqwBi" id="2vHEu_NG_jy" role="37vLTx">
+                  <node concept="37vLTw" id="2vHEu_NG_gh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
+                  </node>
+                  <node concept="liA8E" id="2vHEu_NG_Dz" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:2vHEu_NBRze" resolve="createConfiguredUserPrintService" />
+                    <node concept="37vLTw" id="938$CrLtDa" role="37wK5m">
+                      <ref role="3cqZAo" node="2ppo89mf0K9" resolve="appToolkitWindow" />
+                    </node>
+                    <node concept="37vLTw" id="omQbG9SSiH" role="37wK5m">
+                      <ref role="3cqZAo" node="7aUgYCzs8js" resolve="userEnv" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6DdGzN6eb0S" role="3cqZAp" />
+            <node concept="3SKdUt" id="6DdGzN6ecxF" role="3cqZAp">
+              <node concept="3SKdUq" id="6DdGzN6ecxH" role="3SKWNk">
+                <property role="3SKdUp" value="used to init batchjob environmentents" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6DdGzN6e84_" role="3cqZAp">
+              <node concept="2OqwBi" id="6DdGzN6e8NR" role="3clFbG">
+                <node concept="37vLTw" id="6DdGzN6e84z" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2ppo89mdSpM" resolve="applicationBehaviour" />
+                </node>
+                <node concept="liA8E" id="6DdGzN6e9e1" role="2OqNvi">
+                  <ref role="37wK5l" to="yg8v:6DdGzN6dJLV" resolve="userLoggedIn" />
+                  <node concept="37vLTw" id="6DdGzN6e9_Y" role="37wK5m">
+                    <ref role="3cqZAo" node="7aUgYCzs8js" resolve="userEnv" />
+                  </node>
+                  <node concept="Xjq3P" id="6DdGzN6e9YI" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6DdGzN6eaaH" role="3cqZAp" />
+            <node concept="3clFbH" id="6DdGzN5GhrQ" role="3cqZAp" />
             <node concept="3SKdUt" id="2LxPC2g_6bz" role="3cqZAp">
               <node concept="3SKdUq" id="2LxPC2g_6b_" role="3SKWNk">
                 <property role="3SKdUp" value="TODO: Remove this one here ... once dbg done" />
@@ -11488,6 +11518,13 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6DdGzN5GAs6" role="jymVt" />
+    <node concept="312cEg" id="6DdGzN5GGfQ" role="jymVt">
+      <property role="TrG5h" value="lastRequestedRedirect" />
+      <node concept="3Tm6S6" id="6DdGzN5GJ9B" role="1B3o_S" />
+      <node concept="17QB3L" id="6DdGzN5GJnN" role="1tU5fm" />
+      <node concept="10Nm6u" id="6DdGzN5GJTK" role="33vP2m" />
+    </node>
     <node concept="3clFb_" id="3ooJmL_yMTr" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -11499,6 +11536,16 @@
         <node concept="17QB3L" id="3ooJmL_yMTw" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="3ooJmL_yMT$" role="3clF47">
+        <node concept="3clFbF" id="6DdGzN5GKmQ" role="3cqZAp">
+          <node concept="37vLTI" id="6DdGzN5GKvC" role="3clFbG">
+            <node concept="37vLTw" id="6DdGzN5GKNH" role="37vLTx">
+              <ref role="3cqZAo" node="3ooJmL_yMTv" resolve="url" />
+            </node>
+            <node concept="37vLTw" id="6DdGzN5GKmO" role="37vLTJ">
+              <ref role="3cqZAo" node="6DdGzN5GGfQ" resolve="lastRequestedRedirect" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3ooJmL_yUwx" role="3cqZAp">
           <node concept="2OqwBi" id="3ooJmL_yUwy" role="3clFbG">
             <node concept="37vLTw" id="3ooJmL_yUwz" role="2Oq$k0">
@@ -11514,29 +11561,36 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="3ooJmL_z$t5" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getUserPrintService" />
-      <node concept="3uibUv" id="3ooJmL_z$t6" role="3clF45">
-        <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
-      </node>
-      <node concept="3Tm1VV" id="3ooJmL_z$t7" role="1B3o_S" />
-      <node concept="2AHcQZ" id="3ooJmL_z$tc" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-      <node concept="3clFbS" id="3ooJmL_z$tg" role="3clF47">
-        <node concept="YS8fn" id="3ooJmL_zBCG" role="3cqZAp">
-          <node concept="2ShNRf" id="3ooJmL_zBI7" role="YScLw">
-            <node concept="1pGfFk" id="3ooJmL_zGLe" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="3ooJmL_zGR0" role="37wK5m">
-                <property role="Xl_RC" value="Do not call getUserPrintService(). It is deprecated with moware mmrs 2019" />
-              </node>
+    <node concept="3clFb_" id="6DdGzN5GNX2" role="jymVt">
+      <property role="TrG5h" value="getLastRequestedRedirectAndReset" />
+      <node concept="17QB3L" id="6DdGzN5GQXk" role="3clF45" />
+      <node concept="3Tm1VV" id="6DdGzN5GNX5" role="1B3o_S" />
+      <node concept="3clFbS" id="6DdGzN5GNX6" role="3clF47">
+        <node concept="3cpWs8" id="6DdGzN5HbQ5" role="3cqZAp">
+          <node concept="3cpWsn" id="6DdGzN5HbQ8" role="3cpWs9">
+            <property role="TrG5h" value="red" />
+            <node concept="17QB3L" id="6DdGzN5HbQ4" role="1tU5fm" />
+            <node concept="37vLTw" id="6DdGzN5HcoX" role="33vP2m">
+              <ref role="3cqZAo" node="6DdGzN5GGfQ" resolve="lastRequestedRedirect" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6DdGzN5HcOs" role="3cqZAp">
+          <node concept="37vLTI" id="6DdGzN5HcX1" role="3clFbG">
+            <node concept="10Nm6u" id="6DdGzN5HdgR" role="37vLTx" />
+            <node concept="37vLTw" id="6DdGzN5HcOq" role="37vLTJ">
+              <ref role="3cqZAo" node="6DdGzN5GGfQ" resolve="lastRequestedRedirect" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6DdGzN5Hdpc" role="3cqZAp">
+          <node concept="37vLTw" id="6DdGzN5Hdvo" role="3cqZAk">
+            <ref role="3cqZAo" node="6DdGzN5HbQ8" resolve="red" />
           </node>
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6DdGzN5G0tY" role="jymVt" />
     <node concept="3clFb_" id="3ooJmL_zHe8" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -33569,6 +33623,8 @@
     <property role="TrG5h" value="LoginController" />
     <node concept="3Tm1VV" id="r$jHpF3wNg" role="1B3o_S" />
     <node concept="2tJIrI" id="r$jHpF3BDR" role="jymVt" />
+    <node concept="2tJIrI" id="6DdGzN5F_Kj" role="jymVt" />
+    <node concept="2tJIrI" id="6DdGzN5F_Qx" role="jymVt" />
     <node concept="3clFb_" id="r$jHpEYDXt" role="jymVt">
       <property role="TrG5h" value="checkLoginPrepareUserEnv" />
       <node concept="37vLTG" id="vsIEjNuDgI" role="3clF46">
@@ -33664,7 +33720,11 @@
                 <node concept="37vLTw" id="r$jHpF3F$I" role="37wK5m">
                   <ref role="3cqZAo" node="r$jHpEYI$E" resolve="env" />
                 </node>
-                <node concept="10Nm6u" id="3ooJmL_Gl$r" role="37wK5m" />
+                <node concept="2ShNRf" id="6DdGzN5FAdC" role="37wK5m">
+                  <node concept="HV5vD" id="6DdGzN5FCoe" role="2ShVmc">
+                    <ref role="HV5vE" node="6DdGzN5FB2F" resolve="LoginControllerUserService" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -37052,6 +37112,223 @@
     <node concept="3Tm1VV" id="2M4KcIQWRgJ" role="1B3o_S" />
     <node concept="3uibUv" id="2M4KcIQWRgK" role="1zkMxy">
       <ref role="3uigEE" node="3GQ300QoB23" resolve="UxEvent" />
+    </node>
+  </node>
+  <node concept="312cEu" id="6DdGzN5FB2F">
+    <property role="TrG5h" value="LoginControllerUserService" />
+    <node concept="2tJIrI" id="6DdGzN5FB4H" role="jymVt" />
+    <node concept="2tJIrI" id="6DdGzN5FB4J" role="jymVt" />
+    <node concept="3clFb_" id="6DdGzN5FB55" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="logAsUser" />
+      <node concept="37vLTG" id="6DdGzN5FB56" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="6DdGzN5FB57" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6DdGzN5FB58" role="3clF45" />
+      <node concept="3Tm1VV" id="6DdGzN5FB59" role="1B3o_S" />
+      <node concept="3clFbS" id="6DdGzN5FB5g" role="3clF47">
+        <node concept="YS8fn" id="6DdGzN5FBjl" role="3cqZAp">
+          <node concept="2ShNRf" id="6DdGzN5FBkI" role="YScLw">
+            <node concept="1pGfFk" id="6DdGzN5FBPV" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6DdGzN5FBRI" role="37wK5m">
+                <property role="Xl_RC" value="User not logged in, UserService not accessible." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6DdGzN5FB5h" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="renderPrint" />
+      <node concept="37vLTG" id="6DdGzN5FB5i" role="3clF46">
+        <property role="TrG5h" value="documentFilename" />
+        <node concept="17QB3L" id="6DdGzN5FB5j" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5k" role="3clF46">
+        <property role="TrG5h" value="xsltTemplateName" />
+        <node concept="17QB3L" id="6DdGzN5FB5l" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5m" role="3clF46">
+        <property role="TrG5h" value="xmlGraphData" />
+        <node concept="17QB3L" id="6DdGzN5FB5n" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5o" role="3clF46">
+        <property role="TrG5h" value="barcode" />
+        <node concept="3uibUv" id="6DdGzN5FB5p" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="6DdGzN5FB5q" role="3clF45">
+        <ref role="3uigEE" to="guwi:~File" resolve="File" />
+      </node>
+      <node concept="3Tm1VV" id="6DdGzN5FB5r" role="1B3o_S" />
+      <node concept="3clFbS" id="6DdGzN5FB5t" role="3clF47">
+        <node concept="YS8fn" id="6DdGzN5FBXS" role="3cqZAp">
+          <node concept="2ShNRf" id="6DdGzN5FBXT" role="YScLw">
+            <node concept="1pGfFk" id="6DdGzN5FBXU" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6DdGzN5FBXV" role="37wK5m">
+                <property role="Xl_RC" value="User not logged in, UserService not accessible." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6DdGzN5FB5w" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="renderView" />
+      <node concept="37vLTG" id="6DdGzN5FB5x" role="3clF46">
+        <property role="TrG5h" value="documentFilename" />
+        <node concept="17QB3L" id="6DdGzN5FB5y" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5z" role="3clF46">
+        <property role="TrG5h" value="xsltTemplateName" />
+        <node concept="17QB3L" id="6DdGzN5FB5$" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5_" role="3clF46">
+        <property role="TrG5h" value="xmlGraphData" />
+        <node concept="17QB3L" id="6DdGzN5FB5A" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5B" role="3clF46">
+        <property role="TrG5h" value="barcode" />
+        <node concept="3uibUv" id="6DdGzN5FB5C" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="6DdGzN5FB5D" role="3clF45">
+        <ref role="3uigEE" to="guwi:~File" resolve="File" />
+      </node>
+      <node concept="3Tm1VV" id="6DdGzN5FB5E" role="1B3o_S" />
+      <node concept="3clFbS" id="6DdGzN5FB5G" role="3clF47">
+        <node concept="YS8fn" id="6DdGzN5FBYN" role="3cqZAp">
+          <node concept="2ShNRf" id="6DdGzN5FBYO" role="YScLw">
+            <node concept="1pGfFk" id="6DdGzN5FBYP" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6DdGzN5FBYQ" role="37wK5m">
+                <property role="Xl_RC" value="User not logged in, UserService not accessible." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6DdGzN5FB5J" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="render" />
+      <node concept="37vLTG" id="6DdGzN5FB5K" role="3clF46">
+        <property role="TrG5h" value="documentFilename" />
+        <node concept="17QB3L" id="6DdGzN5FB5L" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5M" role="3clF46">
+        <property role="TrG5h" value="xsltTemplateName" />
+        <node concept="17QB3L" id="6DdGzN5FB5N" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5O" role="3clF46">
+        <property role="TrG5h" value="xmlGraphData" />
+        <node concept="17QB3L" id="6DdGzN5FB5P" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6DdGzN5FB5Q" role="3clF46">
+        <property role="TrG5h" value="barcode" />
+        <node concept="3uibUv" id="6DdGzN5FB5R" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="6DdGzN5FB5S" role="3clF45">
+        <ref role="3uigEE" to="guwi:~File" resolve="File" />
+      </node>
+      <node concept="3Tm1VV" id="6DdGzN5FB5T" role="1B3o_S" />
+      <node concept="3clFbS" id="6DdGzN5FB5V" role="3clF47">
+        <node concept="YS8fn" id="6DdGzN5FBZP" role="3cqZAp">
+          <node concept="2ShNRf" id="6DdGzN5FBZQ" role="YScLw">
+            <node concept="1pGfFk" id="6DdGzN5FBZR" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6DdGzN5FBZS" role="37wK5m">
+                <property role="Xl_RC" value="User not logged in, UserService not accessible." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6DdGzN5FB5Y" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="view" />
+      <property role="IEkAT" value="false" />
+      <node concept="37vLTG" id="6DdGzN5FB5Z" role="3clF46">
+        <property role="TrG5h" value="pdfFile" />
+        <node concept="3uibUv" id="6DdGzN5FB60" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~File" resolve="File" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6DdGzN5FB61" role="3clF45" />
+      <node concept="3Tm1VV" id="6DdGzN5FB62" role="1B3o_S" />
+      <node concept="3clFbS" id="6DdGzN5FB64" role="3clF47">
+        <node concept="YS8fn" id="6DdGzN5FC0S" role="3cqZAp">
+          <node concept="2ShNRf" id="6DdGzN5FC0T" role="YScLw">
+            <node concept="1pGfFk" id="6DdGzN5FC0U" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6DdGzN5FC0V" role="37wK5m">
+                <property role="Xl_RC" value="User not logged in, UserService not accessible." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6DdGzN5FB65" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="print" />
+      <node concept="3cqZAl" id="6DdGzN5FB66" role="3clF45" />
+      <node concept="3Tm1VV" id="6DdGzN5FB67" role="1B3o_S" />
+      <node concept="37vLTG" id="6DdGzN5FB69" role="3clF46">
+        <property role="TrG5h" value="pdfFile" />
+        <node concept="3uibUv" id="6DdGzN5FB6a" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~File" resolve="File" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="6DdGzN5FB6b" role="3clF47">
+        <node concept="YS8fn" id="6DdGzN5FC1P" role="3cqZAp">
+          <node concept="2ShNRf" id="6DdGzN5FC1Q" role="YScLw">
+            <node concept="1pGfFk" id="6DdGzN5FC1R" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6DdGzN5FC1S" role="37wK5m">
+                <property role="Xl_RC" value="User not logged in, UserService not accessible." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6DdGzN5FB6c" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="openUrl" />
+      <node concept="3Tm1VV" id="6DdGzN5FB6e" role="1B3o_S" />
+      <node concept="3cqZAl" id="6DdGzN5FB6f" role="3clF45" />
+      <node concept="37vLTG" id="6DdGzN5FB6g" role="3clF46">
+        <property role="TrG5h" value="url" />
+        <node concept="17QB3L" id="6DdGzN5FB6h" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6DdGzN5FB6i" role="3clF47">
+        <node concept="YS8fn" id="6DdGzN5FC2U" role="3cqZAp">
+          <node concept="2ShNRf" id="6DdGzN5FC2V" role="YScLw">
+            <node concept="1pGfFk" id="6DdGzN5FC2W" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6DdGzN5FC2X" role="37wK5m">
+                <property role="Xl_RC" value="User not logged in, UserService not accessible." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="6DdGzN5FB2G" role="1B3o_S" />
+    <node concept="3uibUv" id="6DdGzN5FB4g" role="EKbjA">
+      <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
     </node>
   </node>
 </model>

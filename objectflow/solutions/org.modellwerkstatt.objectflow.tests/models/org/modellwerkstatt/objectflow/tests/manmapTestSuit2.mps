@@ -4459,7 +4459,7 @@
       </node>
       <node concept="2CPvp3" id="33KhHQReTgo" role="2CJdiS" />
       <node concept="2CJ4_Q" id="33KhHQRXcHL" role="2CJdiS">
-        <ref role="2CJ4_N" node="4LC0Y0L2pbw" resolve="DEP_UserEnvironmentInformation" />
+        <ref role="2CJ4_N" node="4LC0Y0L2pbw" resolve="UserRelatedStuff" />
       </node>
       <node concept="2CPvp3" id="5MCXLSo4_Gv" role="2CJdiS" />
       <node concept="2CJf3v" id="77cIZASxKuH" role="2CJdiS">
@@ -4478,12 +4478,6 @@
         <property role="TrG5h" value="consoleAppFactory" />
         <node concept="Xl_RD" id="6Rdz00zW6jE" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleAppFactory" />
-        </node>
-      </node>
-      <node concept="2CJf3v" id="6cn6oSxhWk7" role="2CJdiS">
-        <property role="TrG5h" value="userServices" />
-        <node concept="Xl_RD" id="6cn6oSxhWk8" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleUserServices" />
         </node>
       </node>
       <node concept="2CJ4_Q" id="5MCXLSo4_DS" role="2CJdiS">
@@ -4838,11 +4832,17 @@
     </node>
     <node concept="2CPvp3" id="4LC0Y0L2pbt" role="2CGBMS" />
     <node concept="2CJoq6" id="4LC0Y0L2pbw" role="2CGBMS">
-      <property role="TrG5h" value="DEP_UserEnvironmentInformation" />
+      <property role="TrG5h" value="UserRelatedStuff" />
       <node concept="2CJf3v" id="4LC0Y0L2pbx" role="2CJdiS">
         <property role="TrG5h" value="userEnviormentInformation" />
         <node concept="Xl_RD" id="4LC0Y0L2pby" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.UserEnvironmentInformation" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="6kxUNO4jiG$" role="2CJdiS">
+        <property role="TrG5h" value="userServices" />
+        <node concept="Xl_RD" id="6kxUNO4jiG_" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleUserServices" />
         </node>
       </node>
     </node>
@@ -35875,7 +35875,7 @@
       </node>
       <node concept="2CPvp3" id="6VW5G60I4vy" role="2CJdiS" />
       <node concept="2CJ4_Q" id="6VW5G60I4vz" role="2CJdiS">
-        <ref role="2CJ4_N" node="4LC0Y0L2pbw" resolve="DEP_UserEnvironmentInformation" />
+        <ref role="2CJ4_N" node="4LC0Y0L2pbw" resolve="UserRelatedStuff" />
       </node>
       <node concept="2CPvp3" id="6VW5G60I4v$" role="2CJdiS" />
       <node concept="2CJf3v" id="6VW5G60I4v_" role="2CJdiS">

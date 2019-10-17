@@ -8806,61 +8806,28 @@
         </node>
         <node concept="3cpWs8" id="5H_LKg_XjHf" role="3cqZAp">
           <node concept="3cpWsn" id="5H_LKg_XjHi" role="3cpWs9">
-            <property role="TrG5h" value="redirectRequestedByPrintService" />
+            <property role="TrG5h" value="redirectRequestedByUserService" />
             <node concept="17QB3L" id="5H_LKg_XnYH" role="1tU5fm" />
             <node concept="10Nm6u" id="5H_LKg_Xo6J" role="33vP2m" />
           </node>
         </node>
-        <node concept="3clFbJ" id="5H_LKg_Xp9W" role="3cqZAp">
-          <node concept="3clFbS" id="5H_LKg_Xp9Y" role="3clFbx">
-            <node concept="3SKdUt" id="5H_LKg_XtEX" role="3cqZAp">
-              <node concept="3SKdUq" id="5H_LKg_XtEZ" role="3SKWNk">
-                <property role="3SKdUp" value="null or not null?" />
-              </node>
+        <node concept="3clFbF" id="6DdGzN5Hidp" role="3cqZAp">
+          <node concept="37vLTI" id="6DdGzN5HiVF" role="3clFbG">
+            <node concept="37vLTw" id="6DdGzN5Hidn" role="37vLTJ">
+              <ref role="3cqZAo" node="5H_LKg_XjHi" resolve="redirectRequestedByUserService" />
             </node>
-            <node concept="3clFbF" id="5H_LKg_XtVD" role="3cqZAp">
-              <node concept="37vLTI" id="5H_LKg_Xu2a" role="3clFbG">
-                <node concept="37vLTw" id="5H_LKg_XtVB" role="37vLTJ">
-                  <ref role="3cqZAo" node="5H_LKg_XjHi" resolve="redirectRequestedByPrintService" />
-                </node>
-                <node concept="2OqwBi" id="5H_LKg_XsSk" role="37vLTx">
-                  <node concept="1eOMI4" id="5H_LKg_Xs0a" role="2Oq$k0">
-                    <node concept="10QFUN" id="5H_LKg_Xs0b" role="1eOMHV">
-                      <node concept="3uibUv" id="5H_LKg_Xs0c" role="10QFUM">
-                        <ref role="3uigEE" node="HwuXnDNBRX" resolve="IH2UserPrintService" />
-                      </node>
-                      <node concept="2OqwBi" id="5H_LKg_Xsjv" role="10QFUP">
-                        <node concept="37vLTw" id="5H_LKg_Xscg" role="2Oq$k0">
-                          <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                        </node>
-                        <node concept="liA8E" id="5H_LKg_XsO3" role="2OqNvi">
-                          <ref role="37wK5l" to="1e0c:3ooJmL_z$t5" resolve="getUserPrintService" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="5H_LKg_XtdL" role="2OqNvi">
-                    <ref role="37wK5l" node="HwuXnDNBWs" resolve="getUrlToOpenWhileProcessingThisRequest" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3y3z36" id="5H_LKg_Xr1d" role="3clFbw">
-            <node concept="10Nm6u" id="5H_LKg_XrD5" role="3uHU7w" />
-            <node concept="2OqwBi" id="5H_LKg_XqbT" role="3uHU7B">
+            <node concept="2OqwBi" id="5H_LKg_XqbT" role="37vLTx">
               <node concept="37vLTw" id="5H_LKg_XpPi" role="2Oq$k0">
                 <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
               </node>
               <node concept="liA8E" id="5H_LKg_XqXk" role="2OqNvi">
-                <ref role="37wK5l" to="1e0c:3ooJmL_z$t5" resolve="getUserPrintService" />
+                <ref role="37wK5l" to="1e0c:6DdGzN5GNX2" resolve="getLastRequestedRedirectAndReset" />
               </node>
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="5H_LKg_Xna4" role="3cqZAp" />
-        <node concept="3clFbH" id="5H_LKg_XBDn" role="3cqZAp" />
-        <node concept="3clFbH" id="5H_LKg_XBIr" role="3cqZAp" />
+        <node concept="3clFbH" id="6DdGzN5HlHV" role="3cqZAp" />
         <node concept="3clFbJ" id="7uReT0jTh_s" role="3cqZAp">
           <node concept="3eNFk2" id="5H_LKg_Xel9" role="3eNLev">
             <node concept="3clFbS" id="5H_LKg_Xelb" role="3eOfB_">
@@ -8928,7 +8895,7 @@
                     <ref role="3cqZAo" node="64PSf$EHfho" resolve="response" />
                   </node>
                   <node concept="37vLTw" id="5H_LKg_Xp7a" role="37wK5m">
-                    <ref role="3cqZAo" node="5H_LKg_XjHi" resolve="redirectRequestedByPrintService" />
+                    <ref role="3cqZAo" node="5H_LKg_XjHi" resolve="redirectRequestedByUserService" />
                   </node>
                 </node>
               </node>
@@ -9175,7 +9142,7 @@
             <node concept="3y3z36" id="5H_LKg_Xoff" role="3uHU7w">
               <node concept="10Nm6u" id="5H_LKg_Xolb" role="3uHU7w" />
               <node concept="37vLTw" id="5H_LKg_Xn7Q" role="3uHU7B">
-                <ref role="3cqZAo" node="5H_LKg_XjHi" resolve="redirectRequestedByPrintService" />
+                <ref role="3cqZAo" node="5H_LKg_XjHi" resolve="redirectRequestedByUserService" />
               </node>
             </node>
             <node concept="3clFbC" id="5H_LKg_XmD1" role="3uHU7B">
@@ -12808,20 +12775,6 @@
           </node>
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="3HP615" id="HwuXnDNBRX">
-    <property role="TrG5h" value="IH2UserPrintService" />
-    <node concept="3Tm1VV" id="HwuXnDNBRY" role="1B3o_S" />
-    <node concept="3uibUv" id="HwuXnDNBUe" role="3HQHJm">
-      <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
-    </node>
-    <node concept="3clFb_" id="HwuXnDNBWs" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getUrlToOpenWhileProcessingThisRequest" />
-      <node concept="17QB3L" id="HwuXnDNBXP" role="3clF45" />
-      <node concept="3Tm1VV" id="HwuXnDNBWv" role="1B3o_S" />
-      <node concept="3clFbS" id="HwuXnDNBWw" role="3clF47" />
     </node>
   </node>
   <node concept="312cEu" id="1DW7q9hHeAn">

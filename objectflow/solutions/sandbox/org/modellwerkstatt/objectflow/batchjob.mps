@@ -18419,9 +18419,10 @@
                 <node concept="Xl_RD" id="7tfEsbGV_mm" role="3uHU7B">
                   <property role="Xl_RC" value="" />
                 </node>
-                <node concept="2YIFZM" id="7tfEsbGV_mn" role="3uHU7w">
-                  <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
-                  <ref role="37wK5l" to="28jr:3$bhckDyxQs" resolve="getSqlServerDateTime" />
+                <node concept="2ShNRf" id="6DdGzN6JpUW" role="3uHU7w">
+                  <node concept="1pGfFk" id="6DdGzN6Jqnw" role="2ShVmc">
+                    <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;()" resolve="DateTime" />
+                  </node>
                 </node>
               </node>
             </node>

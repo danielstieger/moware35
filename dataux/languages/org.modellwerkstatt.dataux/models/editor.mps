@@ -2719,7 +2719,7 @@
           <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
         </node>
         <node concept="3F0ifn" id="2N7eHMabhRC" role="3EZMnx">
-          <property role="3F0ifm" value=" //adjust userEnvironment" />
+          <property role="3F0ifm" value=" //adjust userEnvironment (only executed when UI present)" />
           <ref role="1k5W1q" to="z8tr:3g5RX4qMHze" resolve="O2Hint" />
         </node>
       </node>
