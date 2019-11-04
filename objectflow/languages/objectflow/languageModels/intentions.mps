@@ -6546,5 +6546,41 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="4Iw7xyH$5I9">
+    <property role="3GE5qa" value="Service" />
+    <property role="TrG5h" value="OperationCallToggleFormat" />
+    <ref role="2ZfgGC" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+    <node concept="2S6ZIM" id="4Iw7xyH$5Ia" role="2ZfVej">
+      <node concept="3clFbS" id="4Iw7xyH$5Ib" role="2VODD2">
+        <node concept="3clFbF" id="4Iw7xyH$8RR" role="3cqZAp">
+          <node concept="Xl_RD" id="4Iw7xyH$8RQ" role="3clFbG">
+            <property role="Xl_RC" value="Toggle operation call format." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4Iw7xyH$5Ic" role="2ZfgGD">
+      <node concept="3clFbS" id="4Iw7xyH$5Id" role="2VODD2">
+        <node concept="3clFbF" id="4Iw7xyH$8YQ" role="3cqZAp">
+          <node concept="37vLTI" id="4Iw7xyH$9gQ" role="3clFbG">
+            <node concept="3fqX7Q" id="4Iw7xyH$9iE" role="37vLTx">
+              <node concept="2OqwBi" id="4Iw7xyH$9pC" role="3fr31v">
+                <node concept="2Sf5sV" id="4Iw7xyH$9kA" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4Iw7xyH$9_v" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:4Iw7xyH$5$Q" resolve="longFormat" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4Iw7xyH$92J" role="37vLTJ">
+              <node concept="2Sf5sV" id="4Iw7xyH$8YP" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4Iw7xyH$9cS" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:4Iw7xyH$5$Q" resolve="longFormat" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
