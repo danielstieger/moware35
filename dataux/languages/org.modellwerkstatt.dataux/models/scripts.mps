@@ -1060,6 +1060,42 @@
     <property role="TrG5h" value="Moware2019Analytics" />
     <property role="_Wzho" value="MoWare 2019.X Analytics" />
     <property role="2BwPS$" value="MoWare" />
+    <node concept="_XfAh" id="7P5oTwjJZQi" role="_YvDr">
+      <property role="_XH9r" value="ZZ_ Useage of Builder Stuff" />
+      <ref role="_XDHR" to="un0u:5kAqSpTXdTO" resolve="BuilderExpression" />
+      <node concept="_ZGcI" id="7P5oTwjJZQk" role="_XPhp">
+        <node concept="3clFbS" id="7P5oTwjJZQm" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="_XfAh" id="7P5oTwjKfjg" role="_YvDr">
+      <property role="_XH9r" value="ZZ_ Useage of Builder with Docu" />
+      <ref role="_XDHR" to="un0u:5kAqSpTXdTO" resolve="BuilderExpression" />
+      <node concept="_ZGcI" id="7P5oTwjKfjh" role="_XPhp">
+        <node concept="3clFbS" id="7P5oTwjKfji" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7P5oTwjKfnF" role="_XDHO">
+        <node concept="3clFbS" id="7P5oTwjKfnG" role="2VODD2">
+          <node concept="3clFbF" id="7P5oTwjKfoj" role="3cqZAp">
+            <node concept="2OqwBi" id="7P5oTwjKf_g" role="3clFbG">
+              <node concept="2OqwBi" id="7P5oTwjKfqU" role="2Oq$k0">
+                <node concept="_YI3z" id="7P5oTwjKfoi" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7P5oTwjKfvc" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:47Xw2PuhMlm" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="7P5oTwjKfHj" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="7P5oTwjJZUY" role="_YvDr">
+      <property role="_XH9r" value="ZZ_ Useage of Test-Data Concept" />
+      <ref role="_XDHR" to="un0u:1rbZyOz8U$h" resolve="TestData" />
+      <node concept="_ZGcI" id="7P5oTwjJZUZ" role="_XPhp">
+        <node concept="3clFbS" id="7P5oTwjJZV0" role="2VODD2" />
+      </node>
+    </node>
     <node concept="_XfAh" id="57zzBRHXxy9" role="_YvDr">
       <property role="_XH9r" value="Command with FINAL_CANCEL in use" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
@@ -1560,6 +1596,28 @@
                   <ref role="uo_Cq" to="un0u:I5W9GWEMY0" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="1XGeAjvnNvw" role="_YvDr">
+      <property role="_XH9r" value="Entities with inheritence" />
+      <ref role="_XDHR" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+      <node concept="_ZGcI" id="1XGeAjvnNvy" role="_XPhp">
+        <node concept="3clFbS" id="1XGeAjvnNv$" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="1XGeAjvo213" role="_XDHO">
+        <node concept="3clFbS" id="1XGeAjvo214" role="2VODD2">
+          <node concept="3clFbF" id="1XGeAjvnN$2" role="3cqZAp">
+            <node concept="2OqwBi" id="1XGeAjvnOsp" role="3clFbG">
+              <node concept="2OqwBi" id="1XGeAjvnNGy" role="2Oq$k0">
+                <node concept="_YI3z" id="1XGeAjvnN$1" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1XGeAjvnO36" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:gXzkM_H" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="1XGeAjvnVVX" role="2OqNvi" />
             </node>
           </node>
         </node>

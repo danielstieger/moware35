@@ -6211,8 +6211,8 @@
         </node>
       </node>
     </node>
-    <node concept="2aJ2om" id="7VvoHcKSjFK" role="CpUAK">
-      <ref role="2$4xQ3" node="7VvoHcIUOo9" resolve="OBJECTFLOW_S_TEST" />
+    <node concept="2aJ2om" id="5ezFCU4tGMw" role="CpUAK">
+      <ref role="2$4xQ3" node="2znuo4brrMb" resolve="OBJECTFLOW_S_COMMAND" />
     </node>
   </node>
   <node concept="24kQdi" id="4Bj5Y4mzKa_">
@@ -11062,6 +11062,16 @@
     <node concept="PMmxH" id="7yNVvqMQeBT" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5ezFCU4sr5b">
+    <property role="3GE5qa" value="Builder" />
+    <ref role="1XX52x" to="tpee:hwliAcM" resolve="InstanceMethodCallOperation" />
+    <node concept="3F0ifn" id="5ezFCU4sD3n" role="2wV5jI">
+      <property role="3F0ifm" value="Hello DAN" />
+    </node>
+    <node concept="2aJ2om" id="5ezFCU4sD3l" role="CpUAK">
+      <ref role="2$4xQ3" node="7VvoHcIUOo9" resolve="OBJECTFLOW_S_TEST" />
     </node>
   </node>
 </model>
