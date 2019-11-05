@@ -6584,7 +6584,7 @@
                             <ref role="3cqZAo" node="3iJaUC7cu6d" resolve="sender" />
                           </node>
                           <node concept="liA8E" id="3iJaUC7cxrm" role="2OqNvi">
-                            <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
+                            <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                             <node concept="37vLTw" id="3iJaUC7cxN9" role="37wK5m">
                               <ref role="3cqZAo" node="3iJaUC7cu6f" resolve="ev" />
                             </node>
@@ -6761,7 +6761,7 @@
                                                 <ref role="3cqZAo" node="2ppo89mcqqg" resolve="sender" />
                                               </node>
                                               <node concept="liA8E" id="2o7h3aE0D9N" role="2OqNvi">
-                                                <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
+                                                <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                                                 <node concept="2ShNRf" id="938$CrV_19" role="37wK5m">
                                                   <node concept="1pGfFk" id="938$CrV_sj" role="2ShVmc">
                                                     <ref role="37wK5l" to="1e0c:SQhsWRTq7b" resolve="InfoAndCloseEvent" />
@@ -12206,7 +12206,7 @@
                                   <ref role="3cqZAo" node="5_bDd1d9OZK" resolve="commandContainer" />
                                 </node>
                                 <node concept="liA8E" id="2o7h3aEaybP" role="2OqNvi">
-                                  <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
+                                  <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                                   <node concept="2ShNRf" id="2o7h3aEaydh" role="37wK5m">
                                     <node concept="1pGfFk" id="2o7h3aEbypK" role="2ShVmc">
                                       <ref role="37wK5l" to="1e0c:zBgVaD6ku7" resolve="ConclusionEvent" />
@@ -12345,7 +12345,7 @@
                                           <ref role="3cqZAo" node="5_bDd1d9OZK" resolve="commandContainer" />
                                         </node>
                                         <node concept="liA8E" id="4LNQ1dLm5GJ" role="2OqNvi">
-                                          <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
+                                          <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                                           <node concept="2ShNRf" id="4LNQ1dLm5GK" role="37wK5m">
                                             <node concept="1pGfFk" id="4LNQ1dLm5GL" role="2ShVmc">
                                               <ref role="37wK5l" to="1e0c:zBgVaD6ku7" resolve="ConclusionEvent" />
@@ -28916,7 +28916,7 @@
                               <ref role="3cqZAo" node="5_bDd1d9OZK" resolve="commandContainer" />
                             </node>
                             <node concept="liA8E" id="2o7h3aEavJR" role="2OqNvi">
-                              <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
+                              <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                               <node concept="2ShNRf" id="2o7h3aEavLB" role="37wK5m">
                                 <node concept="1pGfFk" id="2o7h3aEawxE" role="2ShVmc">
                                   <ref role="37wK5l" to="1e0c:zBgVaD67P_" resolve="KeyEvent" />
