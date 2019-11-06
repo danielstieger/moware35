@@ -182,6 +182,9 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
+        <property id="8355037393041754995" name="isNative" index="2aFKle" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -1192,6 +1195,22 @@
         <node concept="3clFbF" id="xFWXJRYTsY" role="3cqZAp">
           <node concept="37vLTw" id="xFWXJRYTsX" role="3clFbG">
             <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_PJNZXksos" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getRightPartComponent" />
+      <node concept="3Tm1VV" id="1_PJNZXksou" role="1B3o_S" />
+      <node concept="3uibUv" id="1_PJNZXksov" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3clFbS" id="1_PJNZXksow" role="3clF47">
+        <node concept="3clFbF" id="1_PJNZXkvw0" role="3cqZAp">
+          <node concept="1rXfSq" id="1_PJNZXkvvY" role="3clFbG">
+            <ref role="37wK5l" node="xFWXJRXBDG" resolve="getEditor" />
           </node>
         </node>
       </node>
@@ -2225,6 +2244,22 @@
                 <property role="Xl_RC" value="not implemented." />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_PJNZXkAYV" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getRightPartComponent" />
+      <node concept="3Tm1VV" id="1_PJNZXkAYW" role="1B3o_S" />
+      <node concept="3uibUv" id="1_PJNZXkAYX" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3clFbS" id="1_PJNZXkAYY" role="3clF47">
+        <node concept="3clFbF" id="1_PJNZXkAYZ" role="3cqZAp">
+          <node concept="1rXfSq" id="1_PJNZXkAZ0" role="3clFbG">
+            <ref role="37wK5l" node="xFWXJRZuyr" resolve="getEditor" />
           </node>
         </node>
       </node>
@@ -3291,6 +3326,22 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="1_PJNZXkDf2" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getRightPartComponent" />
+      <node concept="3Tm1VV" id="1_PJNZXkDf3" role="1B3o_S" />
+      <node concept="3uibUv" id="1_PJNZXkDf4" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3clFbS" id="1_PJNZXkDf5" role="3clF47">
+        <node concept="3clFbF" id="1_PJNZXkDf6" role="3cqZAp">
+          <node concept="1rXfSq" id="1_PJNZXkDf7" role="3clFbG">
+            <ref role="37wK5l" node="6KBCmIOKPC2" resolve="getEditor" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="2rVYvNSmcWB" role="jymVt" />
     <node concept="3clFb_" id="2rVYvNSmemK" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -4266,6 +4317,22 @@
                 <property role="Xl_RC" value="not implemented for VTextAreaEditor." />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_PJNZXkFz0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getRightPartComponent" />
+      <node concept="3Tm1VV" id="1_PJNZXkFz1" role="1B3o_S" />
+      <node concept="3uibUv" id="1_PJNZXkFz2" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3clFbS" id="1_PJNZXkFz3" role="3clF47">
+        <node concept="3clFbF" id="1_PJNZXkFz4" role="3cqZAp">
+          <node concept="1rXfSq" id="1_PJNZXkFz5" role="3clFbG">
+            <ref role="37wK5l" node="6KBCmIORgzc" resolve="getEditor" />
           </node>
         </node>
       </node>
@@ -7008,6 +7075,22 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="1_PJNZXkIgv" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getRightPartComponent" />
+      <node concept="3Tm1VV" id="1_PJNZXkIgw" role="1B3o_S" />
+      <node concept="3uibUv" id="1_PJNZXkIgx" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3clFbS" id="1_PJNZXkIgy" role="3clF47">
+        <node concept="3clFbF" id="1_PJNZXkIgz" role="3cqZAp">
+          <node concept="1rXfSq" id="1_PJNZXkIg$" role="3clFbG">
+            <ref role="37wK5l" node="1l2SXGvX1I2" resolve="getEditor" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="1l2SXGvX1Ig" role="jymVt" />
     <node concept="3clFb_" id="1DW7q9ialwY" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -9743,6 +9826,22 @@
                 <property role="Xl_RC" value="not implemented for VDateOrTimeEditor." />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_PJNZXkKSe" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getRightPartComponent" />
+      <node concept="3Tm1VV" id="1_PJNZXkKSf" role="1B3o_S" />
+      <node concept="3uibUv" id="1_PJNZXkKSg" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3clFbS" id="1_PJNZXkKSh" role="3clF47">
+        <node concept="3clFbF" id="1_PJNZXkKSi" role="3cqZAp">
+          <node concept="1rXfSq" id="1_PJNZXkKSj" role="3clFbG">
+            <ref role="37wK5l" node="hObkZkEYTh" resolve="getEditor" />
           </node>
         </node>
       </node>

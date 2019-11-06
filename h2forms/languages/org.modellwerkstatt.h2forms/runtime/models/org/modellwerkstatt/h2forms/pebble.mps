@@ -3762,7 +3762,7 @@
                     <ref role="3cqZAo" node="2xnCXJMgViT" resolve="cmdContainer" />
                   </node>
                   <node concept="liA8E" id="2xnCXJMh1eW" role="2OqNvi">
-                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
+                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                     <node concept="2ShNRf" id="2xnCXJMh1AE" role="37wK5m">
                       <node concept="1pGfFk" id="2xnCXJMh3DP" role="2ShVmc">
                         <ref role="37wK5l" to="1e0c:zBgVaD6ku7" resolve="ConclusionEvent" />
@@ -13393,7 +13393,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="46JJF8ILGkD" role="jymVt" />
     <node concept="3clFb_" id="6Ocik2nHGbj" role="jymVt">
       <property role="TrG5h" value="calcLabels" />
       <node concept="37vLTG" id="1XNrVwo2Rto" role="3clF46">
@@ -14557,6 +14556,22 @@
       <node concept="3clFbS" id="46JJF8IMn1S" role="3clF47">
         <node concept="3clFbF" id="46JJF8IQ_F2" role="3cqZAp">
           <node concept="Xjq3P" id="46JJF8IQ_EZ" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_PJNZXksos" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getRightPartComponent" />
+      <node concept="3Tm1VV" id="1_PJNZXksou" role="1B3o_S" />
+      <node concept="3uibUv" id="1_PJNZXksov" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3clFbS" id="1_PJNZXksow" role="3clF47">
+        <node concept="3clFbF" id="1_PJNZXku9J" role="3cqZAp">
+          <node concept="1rXfSq" id="1_PJNZXku9H" role="3clFbG">
+            <ref role="37wK5l" node="46JJF8IMn1F" resolve="getEditor" />
+          </node>
         </node>
       </node>
     </node>

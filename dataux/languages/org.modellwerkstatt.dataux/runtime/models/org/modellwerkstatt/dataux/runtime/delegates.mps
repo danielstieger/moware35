@@ -5173,6 +5173,29 @@
       <node concept="3cqZAl" id="5Y1b9tRikdk" role="3clF45" />
       <node concept="3Tm1VV" id="5Y1b9tRikdl" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tRikdm" role="3clF47">
+        <node concept="3clFbJ" id="1_PJNZXbzVF" role="3cqZAp">
+          <node concept="3clFbS" id="1_PJNZXbzVH" role="3clFbx">
+            <node concept="YS8fn" id="1_PJNZXb_0J" role="3cqZAp">
+              <node concept="2ShNRf" id="1_PJNZXb_21" role="YScLw">
+                <node concept="1pGfFk" id="1_PJNZXbAC1" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="3cpWs3" id="1_PJNZXbAPH" role="37wK5m">
+                    <node concept="37vLTw" id="1_PJNZXbASU" role="3uHU7w">
+                      <ref role="3cqZAo" node="5Y1b9tQYCst" resolve="propertyName" />
+                    </node>
+                    <node concept="Xl_RD" id="1_PJNZXbADo" role="3uHU7B">
+                      <property role="Xl_RC" value="Issue update conclusion and an elementHook are not supported at the same time for delegate " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="1_PJNZXb$Yl" role="3clFbw">
+            <ref role="3cqZAo" node="5QUXFIhRKUq" resolve="issuesUpdate" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1_PJNZXbBo3" role="3cqZAp" />
         <node concept="3clFbF" id="52pTiJH2FC0" role="3cqZAp">
           <node concept="37vLTI" id="52pTiJH2FDp" role="3clFbG">
             <node concept="37vLTw" id="52pTiJH2FE_" role="37vLTx">
@@ -5285,6 +5308,32 @@
       <node concept="3cqZAl" id="3yfWYM0VcCB" role="3clF45" />
       <node concept="3Tm1VV" id="3yfWYM0VcCC" role="1B3o_S" />
       <node concept="3clFbS" id="3yfWYM0VcCF" role="3clF47">
+        <node concept="3clFbJ" id="1_PJNZXbAWi" role="3cqZAp">
+          <node concept="3clFbS" id="1_PJNZXbAWj" role="3clFbx">
+            <node concept="YS8fn" id="1_PJNZXbAWk" role="3cqZAp">
+              <node concept="2ShNRf" id="1_PJNZXbAWl" role="YScLw">
+                <node concept="1pGfFk" id="1_PJNZXbAWm" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="3cpWs3" id="1_PJNZXbAWn" role="37wK5m">
+                    <node concept="37vLTw" id="1_PJNZXbAWo" role="3uHU7w">
+                      <ref role="3cqZAo" node="5Y1b9tQYCst" resolve="propertyName" />
+                    </node>
+                    <node concept="Xl_RD" id="1_PJNZXbAWp" role="3uHU7B">
+                      <property role="Xl_RC" value="Issue update conclusion and an elementHook are not supported at the same time for delegate " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="1_PJNZXbB65" role="3clFbw">
+            <node concept="10Nm6u" id="1_PJNZXbB9z" role="3uHU7w" />
+            <node concept="37vLTw" id="1_PJNZXbB2q" role="3uHU7B">
+              <ref role="3cqZAo" node="52pTiJGYAqi" resolve="dataUxElementHook" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1_PJNZXbBhn" role="3cqZAp" />
         <node concept="3clFbF" id="5QUXFIhRNaW" role="3cqZAp">
           <node concept="37vLTI" id="5QUXFIhRNdW" role="3clFbG">
             <node concept="3clFbT" id="5QUXFIhRNfZ" role="37vLTx">
