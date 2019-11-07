@@ -2634,9 +2634,9 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="issueUpdateConclusion" />
       <node concept="37vLTG" id="39T4LQUt_Dl" role="3clF46">
-        <property role="TrG5h" value="newFocusHolder" />
+        <property role="TrG5h" value="issuer" />
         <node concept="3uibUv" id="39T4LQUyEBe" role="1tU5fm">
-          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="7P$uL5PmjB3" role="3clF45" />
@@ -2650,7 +2650,7 @@
             <node concept="liA8E" id="7P$uL5Pmm1$" role="2OqNvi">
               <ref role="37wK5l" node="7P$uL5PlkPD" resolve="issueUpdateConclusion" />
               <node concept="37vLTw" id="39T4LQUtBQA" role="37wK5m">
-                <ref role="3cqZAo" node="39T4LQUt_Dl" resolve="newFocusHolder" />
+                <ref role="3cqZAo" node="39T4LQUt_Dl" resolve="issuer" />
               </node>
             </node>
           </node>
@@ -3900,7 +3900,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="7P$uL5PrtX1" role="3HQHJm">
-      <ref role="3uigEE" node="7P$uL5PrtJA" resolve="IUpdateConclusionResolver" />
+      <ref role="3uigEE" node="7P$uL5PrtJA" resolve="IUpdateConclusionReceiver" />
     </node>
   </node>
   <node concept="312cEu" id="3972coxdHhr">
@@ -5212,9 +5212,9 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="issueUpdateConclusion" />
       <node concept="37vLTG" id="39T4LQUtEPE" role="3clF46">
-        <property role="TrG5h" value="newFocusHolder" />
+        <property role="TrG5h" value="issuer" />
         <node concept="3uibUv" id="39T4LQUyHoM" role="1tU5fm">
-          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="7P$uL5PmqUy" role="3clF45" />
@@ -7335,7 +7335,7 @@
               <node concept="37vLTG" id="39T4LQUtyjf" role="3clF46">
                 <property role="TrG5h" value="newFocusHolder" />
                 <node concept="3uibUv" id="39T4LQUyC30" role="1tU5fm">
-                  <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+                  <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
                 </node>
               </node>
               <node concept="3cqZAl" id="7P$uL5PpKt9" role="3clF45" />
@@ -16710,16 +16710,21 @@
                   <property role="3SKdUp" value="flag might have changed any entities " />
                 </node>
               </node>
-              <node concept="3clFbF" id="2U6PE9kEGwZ" role="3cqZAp">
-                <node concept="2OqwBi" id="2U6PE9kEKlp" role="3clFbG">
-                  <node concept="37vLTw" id="5yru0E43HII" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
-                  </node>
-                  <node concept="liA8E" id="2U6PE9kELzK" role="2OqNvi">
-                    <ref role="37wK5l" node="3972coxdHiG" resolve="reloadViews" />
+              <node concept="1X3_iC" id="1_PJNZZb8r1" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="2U6PE9kEGwZ" role="8Wnug">
+                  <node concept="2OqwBi" id="2U6PE9kEKlp" role="3clFbG">
+                    <node concept="37vLTw" id="5yru0E43HII" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+                    </node>
+                    <node concept="liA8E" id="2U6PE9kELzK" role="2OqNvi">
+                      <ref role="37wK5l" node="3972coxdHiG" resolve="reloadViews" />
+                    </node>
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="1_PJNZZb8Gu" role="3cqZAp" />
               <node concept="3SKdUt" id="75iQIEaagHA" role="3cqZAp">
                 <node concept="3SKdUq" id="75iQIEaahsr" role="3SKWNk">
                   <property role="3SKdUp" value="then show flag message" />
@@ -16762,11 +16767,15 @@
                   <property role="3SKdUp" value="does that lead to a request focus after a flag. Is necessary, right?" />
                 </node>
               </node>
-              <node concept="3clFbF" id="MdbUSGQKrs" role="3cqZAp">
-                <node concept="1rXfSq" id="MdbUSGQKrt" role="3clFbG">
-                  <ref role="37wK5l" node="5twmJXHcVTo" resolve="fg_requestFocusAndFinalAfterEventOnCurrentForm" />
-                  <node concept="3clFbT" id="5YG5DD8RAc7" role="37wK5m">
-                    <property role="3clFbU" value="false" />
+              <node concept="1X3_iC" id="1_PJNZZb94U" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="MdbUSGQKrs" role="8Wnug">
+                  <node concept="1rXfSq" id="MdbUSGQKrt" role="3clFbG">
+                    <ref role="37wK5l" node="5twmJXHcVTo" resolve="fg_requestFocusAndFinalAfterEventOnCurrentForm" />
+                    <node concept="3clFbT" id="5YG5DD8RAc7" role="37wK5m">
+                      <property role="3clFbU" value="false" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -34182,14 +34191,14 @@
   </node>
   <node concept="3HP615" id="7P$uL5PrtJA">
     <property role="3GE5qa" value="interfaces" />
-    <property role="TrG5h" value="IUpdateConclusionResolver" />
+    <property role="TrG5h" value="IUpdateConclusionReceiver" />
     <node concept="3clFb_" id="7P$uL5PlkPD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="issueUpdateConclusion" />
       <node concept="37vLTG" id="6XlAUcpLkhq" role="3clF46">
         <property role="TrG5h" value="newFocusHolder" />
         <node concept="3uibUv" id="39T4LQUxPPQ" role="1tU5fm">
-          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="7P$uL5PlkPF" role="3clF45" />
@@ -34199,7 +34208,7 @@
     <node concept="2tJIrI" id="39T4LQUxL_e" role="jymVt" />
     <node concept="3HP615" id="39T4LQUxLAj" role="jymVt">
       <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="IFocusReceiver" />
+      <property role="TrG5h" value="IFocusAbleDelegate" />
       <node concept="3clFb_" id="39T4LQUxP0o" role="jymVt">
         <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="isEnabled" />
@@ -34231,17 +34240,6 @@
         <node concept="10P_77" id="5QUXFIhRGo$" role="3clF45" />
         <node concept="3Tm1VV" id="5QUXFIhRGkI" role="1B3o_S" />
         <node concept="3clFbS" id="5QUXFIhRGkJ" role="3clF47" />
-      </node>
-      <node concept="3clFb_" id="2ImrVgXfgzu" role="jymVt">
-        <property role="1EzhhJ" value="true" />
-        <property role="TrG5h" value="focusChanged" />
-        <node concept="37vLTG" id="2ImrVgXfk6U" role="3clF46">
-          <property role="TrG5h" value="received" />
-          <node concept="10P_77" id="2ImrVgXfk8N" role="1tU5fm" />
-        </node>
-        <node concept="3cqZAl" id="2ImrVgXfgzw" role="3clF45" />
-        <node concept="3Tm1VV" id="2ImrVgXfgzx" role="1B3o_S" />
-        <node concept="3clFbS" id="2ImrVgXfgzy" role="3clF47" />
       </node>
       <node concept="3Tm1VV" id="39T4LQUxLAk" role="1B3o_S" />
     </node>

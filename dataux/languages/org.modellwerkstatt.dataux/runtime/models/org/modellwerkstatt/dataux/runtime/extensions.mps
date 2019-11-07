@@ -434,6 +434,7 @@
       <node concept="3Tm1VV" id="52pTiJH2PkD" role="1B3o_S" />
       <node concept="3clFbS" id="52pTiJH2PkE" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="1_PJNZY9M7K" role="jymVt" />
     <node concept="3clFb_" id="2ImrVgXfcG7" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="keyReleasedEvent" />
@@ -441,6 +442,15 @@
       <node concept="3Tm1VV" id="2ImrVgXfcGa" role="1B3o_S" />
       <node concept="3clFbS" id="2ImrVgXfcGb" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1_PJNZY9Mli" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="issueUpdateConclusionAfterContentChange" />
+      <node concept="3clFbS" id="1_PJNZY9Mll" role="3clF47" />
+      <node concept="3Tm1VV" id="1_PJNZY9Mlm" role="1B3o_S" />
+      <node concept="3cqZAl" id="1_PJNZY9Mh4" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="1_PJNZY9MuS" role="jymVt" />
     <node concept="3clFb_" id="2ImrVgXfOI5" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getDelegateUiImpl" />
@@ -462,7 +472,7 @@
       <property role="TrG5h" value="T" />
     </node>
     <node concept="3uibUv" id="3Ojm3Uuz01u" role="3HQHJm">
-      <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+      <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
     </node>
   </node>
   <node concept="3HP615" id="3PmCowOXue4">
@@ -526,7 +536,7 @@
     <property role="1EXbeo" value="false" />
     <node concept="3Tm1VV" id="3Ojm3UunEzm" role="1B3o_S" />
     <node concept="3uibUv" id="3Ojm3UunEzn" role="EKbjA">
-      <ref role="3uigEE" to="1e0c:7P$uL5PrtJA" resolve="IUpdateConclusionResolver" />
+      <ref role="3uigEE" to="1e0c:7P$uL5PrtJA" resolve="IUpdateConclusionReceiver" />
     </node>
     <node concept="3uibUv" id="3Ojm3UunEzo" role="EKbjA">
       <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
@@ -688,7 +698,7 @@
         <property role="TrG5h" value="newFocusHolder" />
         <property role="3TUv4t" value="false" />
         <node concept="3uibUv" id="3Ojm3UunE$r" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+          <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
         </node>
       </node>
       <node concept="3clFbS" id="3Ojm3UunE$s" role="3clF47">
@@ -917,7 +927,7 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="lastFocussed" />
             <node concept="3uibUv" id="3Ojm3UunE_G" role="1tU5fm">
-              <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+              <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
             </node>
             <node concept="1rXfSq" id="3Ojm3UunE_H" role="33vP2m">
               <ref role="37wK5l" node="3Ojm3UunEAZ" resolve="delegateWithFocus" />
@@ -965,7 +975,7 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="manualMarkFocussed" />
             <node concept="3uibUv" id="3Ojm3UunEA8" role="1tU5fm">
-              <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+              <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
             </node>
             <node concept="1rXfSq" id="3Ojm3UunEA9" role="33vP2m">
               <ref role="37wK5l" node="3Ojm3UunEAZ" resolve="delegateWithFocus" />
@@ -1071,7 +1081,7 @@
       </node>
       <node concept="3Tm1VV" id="3Ojm3UunEBr" role="1B3o_S" />
       <node concept="3uibUv" id="3Ojm3UunEBs" role="3clF45">
-        <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+        <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionReceiver.IFocusAbleDelegate" />
       </node>
     </node>
     <node concept="2tJIrI" id="2HA1n4gc0Zo" role="jymVt" />
