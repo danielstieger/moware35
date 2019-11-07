@@ -663,7 +663,7 @@
     <property role="1pbfSe" value="966553330" />
     <property role="3GE5qa" value="delegates.options" />
     <property role="TrG5h" value="IssueUpdateDOption" />
-    <property role="34LRSv" value="ISSUE UPDATE CONCL/SCANABLE" />
+    <property role="34LRSv" value="ISSUE UPDATE/SCANABLE" />
     <property role="R4oN_" value="trig. update conclusion if available" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
