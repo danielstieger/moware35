@@ -468,6 +468,13 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -6875,59 +6882,47 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3puWk9zJALd" role="3cqZAp">
-          <node concept="2OqwBi" id="3puWk9zJALe" role="3clFbG">
-            <node concept="10M0yZ" id="3puWk9zJALf" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="3puWk9zJALg" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="3puWk9zJALh" role="37wK5m">
-                <node concept="37vLTw" id="1_PJNZYyrGN" role="3uHU7w">
-                  <ref role="3cqZAo" node="6XcJi1gB$Do" resolve="markedByProgrammer" />
-                </node>
-                <node concept="Xl_RD" id="3puWk9zJALj" role="3uHU7B">
-                  <property role="Xl_RC" value="map_DelegateForm() markedByProgrammer: " />
+        <node concept="1X3_iC" id="3n6HPRZuTMf" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="3puWk9zJALd" role="8Wnug">
+            <node concept="2OqwBi" id="3puWk9zJALe" role="3clFbG">
+              <node concept="10M0yZ" id="3puWk9zJALf" role="2Oq$k0">
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              </node>
+              <node concept="liA8E" id="3puWk9zJALg" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="3cpWs3" id="3puWk9zJALh" role="37wK5m">
+                  <node concept="37vLTw" id="1_PJNZYyrGN" role="3uHU7w">
+                    <ref role="3cqZAo" node="6XcJi1gB$Do" resolve="markedByProgrammer" />
+                  </node>
+                  <node concept="Xl_RD" id="3puWk9zJALj" role="3uHU7B">
+                    <property role="Xl_RC" value="map_DelegateForm() markedByProgrammer: " />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1_PJNZYIPoS" role="3cqZAp">
-          <node concept="2OqwBi" id="1_PJNZYIPoT" role="3clFbG">
-            <node concept="10M0yZ" id="1_PJNZYIPoU" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="1_PJNZYIPoV" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="1_PJNZYIPoW" role="37wK5m">
-                <node concept="Xl_RD" id="1_PJNZYIPoY" role="3uHU7B">
-                  <property role="Xl_RC" value="map_DelegateForm() issuer: " />
-                </node>
-                <node concept="37vLTw" id="1_PJNZYIQnR" role="3uHU7w">
-                  <ref role="3cqZAo" node="1_PJNZYsukf" resolve="updateIssuer" />
-                </node>
+        <node concept="1X3_iC" id="3n6HPRZuU94" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="1_PJNZYIPoS" role="8Wnug">
+            <node concept="2OqwBi" id="1_PJNZYIPoT" role="3clFbG">
+              <node concept="10M0yZ" id="1_PJNZYIPoU" role="2Oq$k0">
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1_PJNZZ80K1" role="3cqZAp">
-          <node concept="2OqwBi" id="1_PJNZZ80JY" role="3clFbG">
-            <node concept="10M0yZ" id="1_PJNZZ80JZ" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="1_PJNZZ80K0" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="1_PJNZZ81Gz" role="37wK5m">
-                <node concept="2YIFZM" id="1_PJNZZ8290" role="3uHU7w">
-                  <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
-                  <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                </node>
-                <node concept="Xl_RD" id="1_PJNZZ81fm" role="3uHU7B">
-                  <property role="Xl_RC" value="\n\n" />
+              <node concept="liA8E" id="1_PJNZYIPoV" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="3cpWs3" id="1_PJNZYIPoW" role="37wK5m">
+                  <node concept="Xl_RD" id="1_PJNZYIPoY" role="3uHU7B">
+                    <property role="Xl_RC" value="map_DelegateForm() issuer: " />
+                  </node>
+                  <node concept="37vLTw" id="1_PJNZYIQnR" role="3uHU7w">
+                    <ref role="3cqZAo" node="1_PJNZYsukf" resolve="updateIssuer" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -6936,20 +6931,6 @@
         <node concept="3clFbH" id="1_PJNZZ83SN" role="3cqZAp" />
         <node concept="3clFbJ" id="1_PJNZYyrNw" role="3cqZAp">
           <node concept="3clFbS" id="1_PJNZYyrNy" role="3clFbx">
-            <node concept="3clFbF" id="1_PJNZYyv_o" role="3cqZAp">
-              <node concept="2OqwBi" id="1_PJNZYyv_l" role="3clFbG">
-                <node concept="10M0yZ" id="1_PJNZYyv_m" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="1_PJNZYyv_n" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="Xl_RD" id="1_PJNZYyvEa" role="37wK5m">
-                    <property role="Xl_RC" value="updateIssuer will get focus again! " />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="1_PJNZYytet" role="3cqZAp">
               <node concept="2OqwBi" id="1_PJNZYyuA_" role="3clFbG">
                 <node concept="37vLTw" id="1_PJNZYyter" role="2Oq$k0">
