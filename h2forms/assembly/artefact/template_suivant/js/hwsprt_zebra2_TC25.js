@@ -197,3 +197,13 @@ function hwExit(){
         svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);
     }
 }
+
+function hwMinimize(){
+    try {
+        EB.Sip.resetToDefault();
+        EB.Sip.show();
+        EB.Application.minimize();
+    } catch(err) {
+        svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);
+    }
+}
