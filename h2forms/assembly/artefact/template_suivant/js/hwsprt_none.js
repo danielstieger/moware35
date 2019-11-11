@@ -35,3 +35,7 @@ function hwFlagBeep(t) {
 function hwExit(){
 
 }
+
+function hwMinimize(){
+
+}

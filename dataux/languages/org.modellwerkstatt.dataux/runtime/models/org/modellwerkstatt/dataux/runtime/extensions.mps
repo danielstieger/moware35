@@ -450,7 +450,21 @@
       <node concept="3Tm1VV" id="1_PJNZY9Mlm" role="1B3o_S" />
       <node concept="3cqZAl" id="1_PJNZY9Mh4" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="1_PJNZY9MuS" role="jymVt" />
+    <node concept="3clFb_" id="32SBLyAXNVD" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setForcedNumericalEditor" />
+      <node concept="3cqZAl" id="32SBLyAXNVF" role="3clF45" />
+      <node concept="3Tm1VV" id="32SBLyAXNVG" role="1B3o_S" />
+      <node concept="3clFbS" id="32SBLyAXNVH" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="32SBLyAXPxs" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setFolded" />
+      <node concept="3cqZAl" id="32SBLyAXPxt" role="3clF45" />
+      <node concept="3Tm1VV" id="32SBLyAXPxu" role="1B3o_S" />
+      <node concept="3clFbS" id="32SBLyAXPxv" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="32SBLyAXNQU" role="jymVt" />
     <node concept="3clFb_" id="2ImrVgXfOI5" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getDelegateUiImpl" />

@@ -6,12 +6,17 @@
 </div>
 
 <div class="w3-bar sv-branding-gray" onclick="svHideAllContainsDropdown()">
-    <img class="w3-left" src="{{ client.staticContentUrlPrefix }}/images/mpreis.png{{ page.ncs }}">
+    <img class="w3-left" src="{{ client.staticContentUrlPrefix }}/images/logo-small.png{{ page.ncs }}">
     <div class="w3-bar-item sv-bartitle"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
     <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
         <button type="button" class="w3-bar-item w3-button" onclick="svLogout();">Logout</button>
         <button type="button" class="w3-bar-item w3-button" onclick="hwExit();">Exit Browser</button>
     </div>
+{% if client.device equals "ZEBRAEB_TC56" or client.device equals "ZEBRAEB_TC25" %}
+    <div class="w3-right">
+        <button id="minimizeSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: hwMinimize();"><i class="material-icons">power_settings_new</i></button>
+    </div>
+{% endif %}
 </div>
 {% include "./messages.peb" %}
 <div class="w3-panel w3-row-padding sv-tile-panel">

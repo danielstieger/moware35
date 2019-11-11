@@ -50,7 +50,12 @@ function zzScanReceived(params){
     }
 
     svDisableNavigation();
-    $('input[scanable="true"]').value = params['data'];
+
+    var listOfScanFields = $$('input[scanable="true"]');
+    listOfScanFields[0].value = params['data'];
+    if (listOfScanFields.length >= 2) {
+        listOfScanFields[1].value = params['type'];
+    }
 
     zzDisableScan();
     saveSubmitDueScan();
@@ -189,5 +194,16 @@ function hwExit(){
         EB.Application.quit();
     } catch(err) {
         svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);
+    }
+}
+
+
+function hwMinimize(){
+    try {
+        EB.Sip.resetToDefault();
+        EB.Sip.show();
+        EB.Application.minimize();
+    } catch(err) {
+        svLog('hwMinimize', 'EX while trying EB.Application.quit. ' + err);
     }
 }

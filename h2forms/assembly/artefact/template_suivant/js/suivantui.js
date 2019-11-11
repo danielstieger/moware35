@@ -18,7 +18,7 @@ var $$ = function(query) {
 
 
 function svLog(methodName, msg) {
-    console.log('- '+ methodName + "(): " + msg);
+    // console.log('- '+ methodName + "(): " + msg);
     // alert('- '+ methodName + "(): " + msg);
 }
 

@@ -50,12 +50,16 @@ function zzScanReceived(params){
     }
 
     svDisableNavigation();
-    $('input[scanable="true"]').value = params['data'];
+
+    var listOfScanFields = $$('input[scanable="true"]');
+    listOfScanFields[0].value = params['data'];
+    if (listOfScanFields.length >= 2) {
+        listOfScanFields[1].value = params['type'];
+    }
 
     zzDisableScan();
     saveSubmitDueScan();
 }
-
 function zzScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
@@ -150,7 +154,7 @@ function hwInitAfterDomReady(){
                 EB.Barcode.gs1dataBarLimited = true;
                 EB.Barcode.pdf417 = true;
                 EB.Barcode.qrCode = true;
-                EB.Barcode.dataMatrix = true;
+                EB.Barcode.datamatrix = true;
 
 
                 svLog('hwEnableScan', 'calling EB.Barcode.enable()');
@@ -195,5 +199,15 @@ function hwExit(){
         EB.Application.quit();
     } catch(err) {
         svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);
+    }
+}
+
+function hwMinimize(){
+    try {
+        EB.Sip.resetToDefault();
+        EB.Sip.show();
+        EB.Application.minimize();
+    } catch(err) {
+        svLog('hwMinimize', 'EX while trying EB.Application.quit. ' + err);
     }
 }

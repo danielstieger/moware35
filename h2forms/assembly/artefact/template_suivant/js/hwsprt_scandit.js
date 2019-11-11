@@ -46,7 +46,7 @@ function scScanReceived(scanSession){
 
     if (scanSession.newlyRecognizedCodes.length == 1){
         var data = scanSession.newlyRecognizedCodes[0].data;
-        $('input[scanable="true"]').value = data;
+        $$('input[scanable="true"]')[0].value = data;
 
         // svLog('scScanReceived', 'submitting now')
 
@@ -147,5 +147,10 @@ function hwFlagBeep(t){
 }
 
 function hwExit(){
+
+}
+
+
+function hwMinimize(){
 
 }
