@@ -11840,7 +11840,7 @@
                                     <ref role="3cqZAo" node="6go2Mrswmnz" resolve="cmdContainer" />
                                   </node>
                                   <node concept="liA8E" id="r$jHpEL45r" role="2OqNvi">
-                                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
+                                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                                     <node concept="2ShNRf" id="r$jHpEL45s" role="37wK5m">
                                       <node concept="1pGfFk" id="r$jHpEL45t" role="2ShVmc">
                                         <ref role="37wK5l" to="1e0c:zBgVaD6ku7" resolve="ConclusionEvent" />
@@ -24462,7 +24462,6 @@
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="3clFbH" id="5GiT4fwGGGP" role="3cqZAp" />
                                   <node concept="3clFbF" id="5GiT4fwFznw" role="3cqZAp">
                                     <node concept="2OqwBi" id="5GiT4fwFzCu" role="3clFbG">
                                       <node concept="1eOMI4" id="5GiT4fwFznu" role="2Oq$k0">
@@ -24514,7 +24513,7 @@
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="5GiT4fwFjCK" role="2OqNvi">
-                                      <ref role="37wK5l" to="250q:5Y1b9tRd28d" resolve="getEditor" />
+                                      <ref role="37wK5l" to="250q:1_PJNZXbNkj" resolve="getRightPartComponent" />
                                     </node>
                                   </node>
                                   <node concept="37vLTw" id="5GiT4fwFfyN" role="3uHU7B">
@@ -25116,7 +25115,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="xFWXJRYvAm" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:5Y1b9tRd28d" resolve="getEditor" />
+                    <ref role="37wK5l" to="250q:1_PJNZXbNkj" resolve="getRightPartComponent" />
                   </node>
                 </node>
               </node>
@@ -28025,7 +28024,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="4M9afjaZr$L" role="2OqNvi">
-                      <ref role="37wK5l" to="1e0c:7BWfrtCZte1" resolve="receiveProcess" />
+                      <ref role="37wK5l" to="1e0c:7BWfrtCZte1" resolve="receiveAndProcess" />
                       <node concept="2ShNRf" id="4M9afjaZrAz" role="37wK5m">
                         <node concept="1pGfFk" id="4M9afjaZsJN" role="2ShVmc">
                           <ref role="37wK5l" to="1e0c:zBgVaD67P_" resolve="KeyEvent" />
