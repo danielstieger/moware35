@@ -3,7 +3,6 @@
 {% block content %}
 <br><table>
 {% for itm in page.mainLandingMenu %}	
-	{% if itm.tile %}
 		{% if itm.enabled %}
 		<tr class="bigactive" onClick="SaveSubmit('{{ statics.mainLandingPagePath }}/{{ itm.uri }}/');" navicrtl="command_{{ itm.uri }}">
 			<td colspan="1"> <span> {{ itm.label }} </span> </td>
@@ -16,7 +15,6 @@
 		<tr class="bigpassive"> <td colspan="1"> <span> {{ itm.label }} </span> </td></tr>
 		<tr class="lightpassive"> <td colspan="1"> &nbsp; </td></tr>
 		{% endif %}
-	{% endif %}
 {% endfor %}
 </table>
 {% endblock content %}

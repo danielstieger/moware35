@@ -34,8 +34,9 @@ function saveSubmitDueGo(){
 }
 
 
-function openPage(page) {
-  if (! svHideAllContainsDropdown()) {
+function openPage(page, fromDropDown) {
+
+  if (fromDropDown || ! svHideAllContainsDropdown()) {
       svDisableNavigation();
       window.location = page;
   }

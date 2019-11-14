@@ -1,3 +1,8 @@
+{% macro imgAndLabel(act) %}
+{% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>{% endif %}&nbsp;
+{{ act.label }}
+{% endmacro %}
+
 {% extends "./base.peb" %}
 {% block content %}
 <div class="w3-container w3-row sv-status-gray">
@@ -12,24 +17,36 @@
         <button type="button" class="w3-bar-item w3-button" onclick="svLogout();">Logout</button>
         <button type="button" class="w3-bar-item w3-button" onclick="hwExit();">Exit Browser</button>
     </div>
-{% if client.device equals "ZEBRAEB_TC56" or client.device equals "ZEBRAEB_TC25" %}
+
     <div class="w3-right">
-        <button id="minimizeSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: hwMinimize();"><i class="material-icons">power_settings_new</i></button>
+        {% if client.device equals "ZEBRAEB_TC56" or client.device equals "ZEBRAEB_TC25" %}
+        <button id="minimizeSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: hwMinimize();"><i class="material-icons">swap_horiz</i></button>
+        {% endif %}
+
+        {% if page.startMenu is not null %}
+        <div class="w3-dropdown-click w3-right">
+            <button type="button" class="w3-button sv-layout-menu-item" onClick="svShowDropdown(event, $('#Dropdown_landing'));"> <i class="material-icons"> more_vert </i> </button>
+            <div id="Dropdown_landing" class="w3-dropdown-content svdropdown-wide w3-bar-block w3-card" style="right:0">
+            {% for act in page.startMenu %}
+                <button type="button" class="w3-bar-item w3-button" {% if not act.enabled %} disabled {% else %}
+                        onClick="openPage('{{ statics.mainLandingPagePath }}/{{ act.uri }}/', true);"{% endif %}>{{ imgAndLabel(act) }}</button>
+            {% endfor %}
+            </div>
+        </div>
+        {% endif %}
     </div>
-{% endif %}
+
 </div>
 {% include "./messages.peb" %}
 <div class="w3-panel w3-row-padding sv-tile-panel">
 {% for itm in page.mainLandingMenu %}
-{% if itm.tile %}
     <div class="w3-col s12 m6 sv-nav">
         <div class="w3-container sv-tile {% if not itm.enabled %}sv-disabled{% endif %}" style="border-color: {{ defCol(itm.color) }}!important"
-             {% if itm.enabled %} onClick="javascript: openPage('{{ statics.mainLandingPagePath }}/{{ itm.uri }}/');"{% endif %}>
+             {% if itm.enabled %} onClick="javascript: openPage('{{ statics.mainLandingPagePath }}/{{ itm.uri }}/', false);"{% endif %}>
             <h1 style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | first }} {% if itm.cntNumStr is not null %}<span class="w3-badge sv-tile-badge-h1">{{ itm.cntNumStr }}</span>{% endif %}</h1>
             <p style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | last }} </p>
         </div>
     </div>
-{% endif %}
 {% endfor %}
 </div>
 {% endblock %}
