@@ -480,6 +480,10 @@
       <concept id="774207833082557394" name="org.modellwerkstatt.manmap.structure.AutoidOption" flags="ng" index="jyRCY">
         <child id="774207833082557396" name="sequenceName" index="jyRCS" />
       </concept>
+      <concept id="5435761382091049341" name="org.modellwerkstatt.manmap.structure.KeyOnlyReferenceMapping" flags="ng" index="sfnPg">
+        <reference id="5435761382095695081" name="entityMapping" index="sXxz4" />
+        <reference id="5435761382095695083" name="keyOnlyRef" index="sXxz6" />
+      </concept>
       <concept id="481177942876864883" name="org.modellwerkstatt.manmap.structure.SqlStringFieldRef" flags="ng" index="wgbQT">
         <reference id="481177942876864961" name="sqlstringField" index="wgbOb" />
       </concept>
@@ -41531,6 +41535,7 @@
       <node concept="Xl_RD" id="4HJH2PnklrO" role="2CNmdL">
         <property role="Xl_RC" value="Int Value" />
       </node>
+      <node concept="jyRCx" id="4HJH2PnHrJv" role="0orDa" />
     </node>
     <node concept="1bOX9e" id="4HJH2Pnklrz" role="TxmiU">
       <property role="2RkwnN" value="totalAmount" />
@@ -41684,8 +41689,8 @@
         </node>
       </node>
       <node concept="_YKpA" id="4HJH2PnklqB" role="2RkE6I">
-        <node concept="3uibUv" id="4HJH2PnklqC" role="_ZDj9">
-          <ref role="3uigEE" node="612_n8HbChx" resolve="InvoicePosition" />
+        <node concept="3uibUv" id="4HJH2PnFvD5" role="_ZDj9">
+          <ref role="3uigEE" node="4HJH2PnkkY5" resolve="NewInvoicePos" />
         </node>
       </node>
       <node concept="33xdnN" id="4HJH2PnklqD" role="0orDa" />
@@ -41869,10 +41874,11 @@
           <property role="Xl_RC" value="COD_HEAD" />
         </node>
       </node>
-      <node concept="12kdtm" id="4HJH2Pnkr2P" role="3caO6$">
+      <node concept="12kdtm" id="4HJH2PnAhpG" role="3caO6$">
         <ref role="12kdtj" node="4HJH2Pnklqx" resolve="positions" />
-        <node concept="1VRMpY" id="4HJH2Pnkr2R" role="1VRwC$">
-          <ref role="1VRMpX" node="4HJH2Pnkos7" resolve="MapNewInvoicePos" />
+        <node concept="sfnPg" id="4HJH2PnDont" role="1VRwC$">
+          <ref role="sXxz4" node="4HJH2Pnkos7" resolve="MapNewInvoicePos" />
+          <ref role="sXxz6" node="4HJH2PnkqXr" />
         </node>
       </node>
       <node concept="jyGaT" id="4HJH2PnkorR" role="jyGaQ" />
@@ -41893,6 +41899,7 @@
             <property role="Xl_RC" value="S_MMT_INVOICEPOS" />
           </node>
         </node>
+        <node concept="2fr8A1" id="4HJH2PnHogm" role="jzqmW" />
       </node>
       <node concept="12nEzJ" id="4HJH2PnkoMN" role="3caO6$">
         <ref role="12nL8z" node="4HJH2PnklF_" resolve="posAvalue" />
@@ -41924,6 +41931,43 @@
         <property role="Xl_RC" value="MMT_INVOICEPOS" />
       </node>
     </node>
+  </node>
+  <node concept="wbJL_" id="4HJH2PnNs0v">
+    <property role="3GE5qa" value="NewInvoice" />
+    <property role="TrG5h" value="NewInvRepo" />
+    <node concept="wbJLE" id="4HJH2PnNs0N" role="jymVt">
+      <property role="TrG5h" value="findAllNewInvoices" />
+      <node concept="_YKpA" id="4HJH2PnNs1t" role="3clF45">
+        <node concept="3uibUv" id="4HJH2PnNs1E" role="_ZDj9">
+          <ref role="3uigEE" node="4HJH2PnkkW2" resolve="NewInvoice" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4HJH2PnNs0P" role="1B3o_S" />
+      <node concept="3clFbS" id="4HJH2PnNs0Q" role="3clF47">
+        <node concept="3clFbF" id="4HJH2PnNs1Z" role="3cqZAp">
+          <node concept="jybIQ" id="4HJH2PnNs1X" role="3clFbG">
+            <property role="1v8G3g" value="false" />
+            <property role="HScZ5" value="true" />
+            <ref role="P14SV" node="4HJH2PnkorQ" resolve="MapNewInvoice" />
+            <node concept="jxyYR" id="4HJH2PnNs2J" role="jxX7b">
+              <node concept="3eOSWO" id="4HJH2PnNs9g" role="jxyYK">
+                <node concept="3cmrfG" id="4HJH2PnNs9p" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="3_7ulE" id="4HJH2PnNs3i" role="3uHU7B">
+                  <ref role="3_688M" node="4HJH2PnNs1X" />
+                  <ref role="2OG787" node="4HJH2PnkoJH" />
+                </node>
+              </node>
+            </node>
+            <node concept="GVA6h" id="4HJH2PnNscW" role="GVuqE">
+              <ref role="GVA6j" node="4HJH2PnAhpG" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="4HJH2PnNs0w" role="1B3o_S" />
   </node>
 </model>
 

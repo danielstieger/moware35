@@ -229,7 +229,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="mappedfieldRef" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6Ivalsgg0WD" resolve="MappedFieldRef" />
+      <ref role="20lvS9" node="4HJH2PnkGBW" resolve="IReferenceMapping" />
     </node>
     <node concept="1TJgyj" id="Kou8LeiaZv" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -256,7 +256,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6Ivalsgg0WD">
-    <property role="3GE5qa" value="mapping" />
+    <property role="3GE5qa" value="mapping.refmapping" />
     <property role="TrG5h" value="MappedFieldRef" />
     <property role="1pbfSe" value="2078226560" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -269,6 +269,9 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="refMapping" />
       <ref role="20lvS9" node="7kypvuIzY7I" resolve="ReferenceMapping" />
+    </node>
+    <node concept="PrWs8" id="4HJH2PnkHn$" role="PzmwI">
+      <ref role="PrY4T" node="4HJH2PnkGBW" resolve="IReferenceMapping" />
     </node>
   </node>
   <node concept="1TIwiD" id="EYyuKpcML6">
@@ -495,7 +498,7 @@
   </node>
   <node concept="1TIwiD" id="7kypvuIzY7I">
     <property role="TrG5h" value="ReferenceMapping" />
-    <property role="3GE5qa" value="mapping" />
+    <property role="3GE5qa" value="mapping.refmapping" />
     <property role="1pbfSe" value="598886373" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7kypvuI$5QU" role="1TKVEi">
@@ -1153,6 +1156,30 @@
     <property role="1pbfSe" value="944706346" />
     <property role="3GE5qa" value="mapping.tableoptions" />
     <property role="TrG5h" value="IAutoIdProvider" />
+  </node>
+  <node concept="1TIwiD" id="4HJH2PnkG_X">
+    <property role="1pbfSe" value="1564312150" />
+    <property role="3GE5qa" value="mapping.refmapping" />
+    <property role="TrG5h" value="KeyOnlyReferenceMapping" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4HJH2PnAqND" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="entityMapping" />
+      <ref role="20lvS9" node="Kou8LehH1E" resolve="EntityMapping" />
+    </node>
+    <node concept="1TJgyj" id="4HJH2PnAqNF" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="keyOnlyRef" />
+      <ref role="20lvS9" node="3JsUq_Sf9jY" resolve="IKeyMapping" />
+    </node>
+    <node concept="PrWs8" id="4HJH2PnkHml" role="PzmwI">
+      <ref role="PrY4T" node="4HJH2PnkGBW" resolve="IReferenceMapping" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4HJH2PnkGBW">
+    <property role="1pbfSe" value="1564312023" />
+    <property role="3GE5qa" value="mapping.refmapping" />
+    <property role="TrG5h" value="IReferenceMapping" />
   </node>
 </model>
 

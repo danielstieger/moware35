@@ -7876,7 +7876,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7kypvuI$5QY">
-    <property role="3GE5qa" value="mapping" />
+    <property role="3GE5qa" value="mapping.refmapping" />
     <ref role="13h7C2" to="r5tz:7kypvuIzY7I" resolve="ReferenceMapping" />
     <node concept="13hLZK" id="7kypvuI$5QZ" role="13h7CW">
       <node concept="3clFbS" id="7kypvuI$5R0" role="2VODD2" />
@@ -8196,8 +8196,8 @@
                 <ref role="3Tt5mk" to="r5tz:6IvalsggidN" />
               </node>
             </node>
-            <node concept="3TrEf2" id="1NLiuQti4RD" role="2OqNvi">
-              <ref role="3Tt5mk" to="r5tz:6Ivalsgg0WE" />
+            <node concept="2qgKlT" id="4HJH2Pnmpeq" role="2OqNvi">
+              <ref role="37wK5l" node="4HJH2Pnmp5I" resolve="getRefferedEntityMapping" />
             </node>
           </node>
         </node>
@@ -8227,8 +8227,8 @@
                   <ref role="3Tt5mk" to="r5tz:6IvalsggidN" />
                 </node>
               </node>
-              <node concept="3TrEf2" id="1H_ywRYvK3I" role="2OqNvi">
-                <ref role="3Tt5mk" to="r5tz:6Ivalsgg0WE" />
+              <node concept="2qgKlT" id="4HJH2PnmpiR" role="2OqNvi">
+                <ref role="37wK5l" node="4HJH2Pnmp5I" resolve="getRefferedEntityMapping" />
               </node>
             </node>
             <node concept="2qgKlT" id="1H_ywRYvK3S" role="2OqNvi">
@@ -10233,6 +10233,211 @@
     </node>
     <node concept="13hLZK" id="3RwvUFpX7YQ" role="13h7CW">
       <node concept="3clFbS" id="3RwvUFpX7YR" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="4HJH2Pnmp5t">
+    <property role="3GE5qa" value="mapping.refmapping" />
+    <ref role="13h7C2" to="r5tz:4HJH2PnkGBW" resolve="IReferenceMapping" />
+    <node concept="13i0hz" id="4HJH2Pnmp5I" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getRefferedEntityMapping" />
+      <node concept="3Tm1VV" id="4HJH2Pnmp5J" role="1B3o_S" />
+      <node concept="3Tqbb2" id="4HJH2Pnmp6w" role="3clF45">
+        <ref role="ehGHo" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
+      </node>
+      <node concept="3clFbS" id="4HJH2Pnmp5L" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="4HJH2PnmsZz" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getRefferedEntityKeyMapping" />
+      <node concept="3Tm1VV" id="4HJH2PnmsZ$" role="1B3o_S" />
+      <node concept="3Tqbb2" id="4HJH2PnmsZ_" role="3clF45">
+        <ref role="ehGHo" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+      </node>
+      <node concept="3clFbS" id="4HJH2PnmsZA" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="4HJH2PntzTF" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getReferenceProperty" />
+      <node concept="3Tm1VV" id="4HJH2PntzTG" role="1B3o_S" />
+      <node concept="3Tqbb2" id="4HJH2PntzTH" role="3clF45">
+        <ref role="ehGHo" to="tpee:huRhdFY" resolve="Property" />
+      </node>
+      <node concept="3clFbS" id="4HJH2PntzTI" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="4HJH2Pnobci" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getRefferedEntityName" />
+      <node concept="3Tm1VV" id="4HJH2Pnobcj" role="1B3o_S" />
+      <node concept="17QB3L" id="4HJH2Pnobcy" role="3clF45" />
+      <node concept="3clFbS" id="4HJH2Pnobcl" role="3clF47">
+        <node concept="3clFbF" id="4HJH2Pnoc6Y" role="3cqZAp">
+          <node concept="2OqwBi" id="4HJH2Pnoc9q" role="3clFbG">
+            <node concept="BsUDl" id="4HJH2Pnoc6X" role="2Oq$k0">
+              <ref role="37wK5l" node="4HJH2Pnmp5I" resolve="getRefferedEntityMapping" />
+            </node>
+            <node concept="3TrcHB" id="4HJH2Pnoceb" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="4HJH2Pnmp5u" role="13h7CW">
+      <node concept="3clFbS" id="4HJH2Pnmp5v" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="4HJH2PnmuWB">
+    <property role="3GE5qa" value="mapping.refmapping" />
+    <ref role="13h7C2" to="r5tz:6Ivalsgg0WD" resolve="MappedFieldRef" />
+    <node concept="13hLZK" id="4HJH2PnmuWC" role="13h7CW">
+      <node concept="3clFbS" id="4HJH2PnmuWD" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4HJH2PnmuWS" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRefferedEntityMapping" />
+      <ref role="13i0hy" node="4HJH2Pnmp5I" resolve="getRefferedEntityMapping" />
+      <node concept="3Tm1VV" id="4HJH2PnmuWT" role="1B3o_S" />
+      <node concept="3clFbS" id="4HJH2PnmuWW" role="3clF47">
+        <node concept="3clFbF" id="4HJH2PnmuXr" role="3cqZAp">
+          <node concept="2OqwBi" id="4HJH2PnmuZp" role="3clFbG">
+            <node concept="13iPFW" id="4HJH2PnmuXq" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4HJH2Pnmv3a" role="2OqNvi">
+              <ref role="3Tt5mk" to="r5tz:6Ivalsgg0WE" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4HJH2PnmuWX" role="3clF45">
+        <ref role="ehGHo" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="4HJH2PnmuWY" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRefferedEntityKeyMapping" />
+      <ref role="13i0hy" node="4HJH2PnmsZz" resolve="getRefferedEntityKeyMapping" />
+      <node concept="3Tm1VV" id="4HJH2PnmuWZ" role="1B3o_S" />
+      <node concept="3clFbS" id="4HJH2PnmuX2" role="3clF47">
+        <node concept="3clFbF" id="4HJH2Pnmv4J" role="3cqZAp">
+          <node concept="2OqwBi" id="4HJH2PnmvgR" role="3clFbG">
+            <node concept="2OqwBi" id="4HJH2Pnmv6H" role="2Oq$k0">
+              <node concept="13iPFW" id="4HJH2Pnmv4I" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4HJH2Pnmvau" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:6Ivalsgg0WF" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="4HJH2PnmvqT" role="2OqNvi">
+              <ref role="3Tt5mk" to="r5tz:7kypvuI$5QU" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4HJH2PnmuX3" role="3clF45">
+        <ref role="ehGHo" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="4HJH2Pnt$2m" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getReferenceProperty" />
+      <ref role="13i0hy" node="4HJH2PntzTF" resolve="getReferenceProperty" />
+      <node concept="3Tm1VV" id="4HJH2Pnt$2n" role="1B3o_S" />
+      <node concept="3clFbS" id="4HJH2Pnt$2q" role="3clF47">
+        <node concept="3clFbF" id="4HJH2Pnt$4c" role="3cqZAp">
+          <node concept="2OqwBi" id="4HJH2Pnt$fK" role="3clFbG">
+            <node concept="2OqwBi" id="4HJH2Pnt$6a" role="2Oq$k0">
+              <node concept="13iPFW" id="4HJH2Pnt$4b" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4HJH2Pnt$9V" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:6Ivalsgg0WF" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="4HJH2Pnt$lj" role="2OqNvi">
+              <ref role="3Tt5mk" to="r5tz:7kypvuIzY7K" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4HJH2Pnt$2r" role="3clF45">
+        <ref role="ehGHo" to="tpee:huRhdFY" resolve="Property" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="4HJH2Pnocz$">
+    <property role="3GE5qa" value="mapping.refmapping" />
+    <ref role="13h7C2" to="r5tz:4HJH2PnkG_X" resolve="KeyOnlyReferenceMapping" />
+    <node concept="13hLZK" id="4HJH2Pnocz_" role="13h7CW">
+      <node concept="3clFbS" id="4HJH2PnoczA" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4HJH2PnoczP" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRefferedEntityMapping" />
+      <ref role="13i0hy" node="4HJH2Pnmp5I" resolve="getRefferedEntityMapping" />
+      <node concept="3Tm1VV" id="4HJH2PnoczQ" role="1B3o_S" />
+      <node concept="3clFbS" id="4HJH2PnoczT" role="3clF47">
+        <node concept="3clFbF" id="4HJH2PnDovr" role="3cqZAp">
+          <node concept="2OqwBi" id="4HJH2PnDoxp" role="3clFbG">
+            <node concept="13iPFW" id="4HJH2PnDovq" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4HJH2PnDo_3" role="2OqNvi">
+              <ref role="3Tt5mk" to="r5tz:4HJH2PnAqND" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4HJH2PnoczU" role="3clF45">
+        <ref role="ehGHo" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="4HJH2PnoczV" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRefferedEntityKeyMapping" />
+      <ref role="13i0hy" node="4HJH2PnmsZz" resolve="getRefferedEntityKeyMapping" />
+      <node concept="3Tm1VV" id="4HJH2PnoczW" role="1B3o_S" />
+      <node concept="3clFbS" id="4HJH2PnoczZ" role="3clF47">
+        <node concept="3clFbF" id="4HJH2PnDoP6" role="3cqZAp">
+          <node concept="2OqwBi" id="4HJH2PnDoR4" role="3clFbG">
+            <node concept="13iPFW" id="4HJH2PnDoP5" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4HJH2PnDoUI" role="2OqNvi">
+              <ref role="3Tt5mk" to="r5tz:4HJH2PnAqNF" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4HJH2Pnoc$0" role="3clF45">
+        <ref role="ehGHo" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="4HJH2Pnt$nQ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getReferenceProperty" />
+      <ref role="13i0hy" node="4HJH2PntzTF" resolve="getReferenceProperty" />
+      <node concept="3Tm1VV" id="4HJH2Pnt$nR" role="1B3o_S" />
+      <node concept="3clFbS" id="4HJH2Pnt$nU" role="3clF47">
+        <node concept="3clFbF" id="4HJH2PnDo_I" role="3cqZAp">
+          <node concept="2OqwBi" id="4HJH2PnDoKt" role="3clFbG">
+            <node concept="2OqwBi" id="4HJH2PnDoBG" role="2Oq$k0">
+              <node concept="13iPFW" id="4HJH2PnDo_H" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4HJH2PnDoFm" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:4HJH2PnAqNF" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="4HJH2PnDoNf" role="2OqNvi">
+              <ref role="37wK5l" node="FaoLX6jltb" resolve="getKeyProperty" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4HJH2Pnt$nV" role="3clF45">
+        <ref role="ehGHo" to="tpee:huRhdFY" resolve="Property" />
+      </node>
     </node>
   </node>
 </model>
