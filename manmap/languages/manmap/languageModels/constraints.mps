@@ -2091,6 +2091,23 @@
           </node>
         </node>
       </node>
+      <node concept="Bn3R3" id="6fvTt2jOL6O" role="Bn3R6">
+        <node concept="3clFbS" id="6fvTt2jOL6P" role="2VODD2">
+          <node concept="3clFbF" id="6fvTt2jOLoj" role="3cqZAp">
+            <node concept="2OqwBi" id="6fvTt2jOLyy" role="3clFbG">
+              <node concept="2OqwBi" id="6fvTt2jOLqs" role="2Oq$k0">
+                <node concept="Bn53e" id="6fvTt2jOLoi" role="2Oq$k0" />
+                <node concept="2qgKlT" id="6fvTt2jOLu1" role="2OqNvi">
+                  <ref role="37wK5l" to="lfe3:FaoLX6jltb" resolve="getKeyProperty" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="6fvTt2jOLNj" role="2OqNvi">
+                <ref role="3TsBF5" to="tpee:huRkwj$" resolve="propertyName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
