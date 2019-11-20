@@ -81,7 +81,7 @@
         <module reference="5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.objectflow.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities>
-        <mapping-priority-rule kind="strictly_together">
+        <mapping-priority-rule kind="strictly_after">
           <greater-priority-mapping>
             <generator generatorUID="6533ac7b-4d34-40f7-a1bd-37b8dd08dd50(org.modellwerkstatt.objectflow#7099872270191970661)" />
             <external-mapping>

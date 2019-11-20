@@ -10087,6 +10087,46 @@
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
     </node>
+    <node concept="13i0hz" id="4PEV5$Q8IPe" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRepoName" />
+      <ref role="13i0hy" to="lfe3:4PEV5$Q8HzE" resolve="getRepoName" />
+      <node concept="3Tm1VV" id="4PEV5$Q8IPf" role="1B3o_S" />
+      <node concept="3clFbS" id="4PEV5$Q8IPi" role="3clF47">
+        <node concept="3clFbF" id="4PEV5$Q8J2n" role="3cqZAp">
+          <node concept="2OqwBi" id="4PEV5$Q8Jdz" role="3clFbG">
+            <node concept="13iPFW" id="4PEV5$Q8J2m" role="2Oq$k0" />
+            <node concept="3TrcHB" id="4PEV5$Q8J_K" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4PEV5$Q8IPj" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="4PEV5$Q8IPk" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRepoMethods" />
+      <ref role="13i0hy" to="lfe3:4PEV5$Q8Isf" resolve="getRepoMethods" />
+      <node concept="3Tm1VV" id="4PEV5$Q8IPl" role="1B3o_S" />
+      <node concept="3clFbS" id="4PEV5$Q8IPp" role="3clF47">
+        <node concept="3clFbF" id="4PEV5$Q8JCO" role="3cqZAp">
+          <node concept="2OqwBi" id="4PEV5$Q8JO3" role="3clFbG">
+            <node concept="13iPFW" id="4PEV5$Q8JCN" role="2Oq$k0" />
+            <node concept="2qgKlT" id="4PEV5$Q8Kcu" role="2OqNvi">
+              <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="4PEV5$Q8IPq" role="3clF45">
+        <node concept="3Tqbb2" id="4PEV5$Q8IPr" role="A3Ik2">
+          <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="5tU8YWFObaB">
     <property role="3GE5qa" value="LogPrint" />

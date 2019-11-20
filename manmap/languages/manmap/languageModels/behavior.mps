@@ -11018,5 +11018,31 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="4PEV5$Q8Hzp">
+    <ref role="13h7C2" to="r5tz:EYyuKpdQjB" resolve="IRepository" />
+    <node concept="13i0hz" id="4PEV5$Q8HzE" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getRepoName" />
+      <node concept="3Tm1VV" id="4PEV5$Q8HzF" role="1B3o_S" />
+      <node concept="17QB3L" id="4PEV5$Q8Iu2" role="3clF45" />
+      <node concept="3clFbS" id="4PEV5$Q8HzH" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="4PEV5$Q8Isf" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getRepoMethods" />
+      <node concept="3Tm1VV" id="4PEV5$Q8Isg" role="1B3o_S" />
+      <node concept="A3Dl8" id="4PEV5$Q8Ish" role="3clF45">
+        <node concept="3Tqbb2" id="4PEV5$Q8Isi" role="A3Ik2">
+          <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4PEV5$Q8Isj" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="4PEV5$Q8Hzq" role="13h7CW">
+      <node concept="3clFbS" id="4PEV5$Q8Hzr" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
