@@ -3888,6 +3888,10 @@
       <property role="TrG5h" value="getCurrentTableName" />
       <node concept="17QB3L" id="4ChE6Yflrha" role="3clF45" />
       <node concept="3Tm1VV" id="4ChE6Yflrhb" role="1B3o_S" />
+      <node concept="37vLTG" id="5Wi2c3mSDQu" role="3clF46">
+        <property role="TrG5h" value="requestedTableName" />
+        <node concept="17QB3L" id="5Wi2c3mSE01" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="4ChE6Yflrhd" role="3clF46">
         <property role="TrG5h" value="session" />
         <node concept="3uibUv" id="4ChE6Yflrhe" role="1tU5fm">

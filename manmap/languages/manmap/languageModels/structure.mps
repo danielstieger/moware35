@@ -372,7 +372,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="joinOption" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="4ufYzPFopNU" resolve="IJoinOption" />
+      <ref role="20lvS9" node="5Wi2c3mecZT" resolve="IQueryOption" />
     </node>
     <node concept="1TJgyj" id="EYyuKpelwB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -555,14 +555,23 @@
     <node concept="PrWs8" id="4ufYzPFopNV" role="PzmwI">
       <ref role="PrY4T" node="4ufYzPFopNU" resolve="IJoinOption" />
     </node>
-    <node concept="PrWs8" id="1H_ywRYvK1Z" role="PzmwI">
-      <ref role="PrY4T" node="1H_ywRYu6Y6" resolve="IMappingInstance" />
-    </node>
   </node>
   <node concept="PlHQZ" id="4ufYzPFopNU">
     <property role="3GE5qa" value="query" />
     <property role="TrG5h" value="IJoinOption" />
     <property role="1pbfSe" value="1292789961" />
+    <node concept="1TJgyj" id="5Wi2c3mveHg" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5Wi2c3ml7kW" resolve="AdditionalTableReference" />
+    </node>
+    <node concept="PrWs8" id="5Wi2c3med0M" role="PrDN$">
+      <ref role="PrY4T" node="5Wi2c3mecZT" resolve="IQueryOption" />
+    </node>
+    <node concept="PrWs8" id="5Wi2c3mxrx1" role="PrDN$">
+      <ref role="PrY4T" node="1H_ywRYu6Y6" resolve="IMappingInstance" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4ufYzPFoIJ7">
     <property role="3GE5qa" value="query" />
@@ -587,9 +596,6 @@
     </node>
     <node concept="PrWs8" id="4ufYzPFoIJ8" role="PzmwI">
       <ref role="PrY4T" node="4ufYzPFopNU" resolve="IJoinOption" />
-    </node>
-    <node concept="PrWs8" id="1H_ywRYu6Ya" role="PzmwI">
-      <ref role="PrY4T" node="1H_ywRYu6Y6" resolve="IMappingInstance" />
     </node>
   </node>
   <node concept="1TIwiD" id="1H_ywRYu6XB">
@@ -685,6 +691,12 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="5Wi2c3mo0s4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="hm5BQDIYNw" resolve="SaveOption" />
     </node>
     <node concept="1TJgyj" id="75DS814sa2r" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -795,6 +807,7 @@
     <node concept="PrWs8" id="35a9wK6uwRY" role="PzmwI">
       <ref role="PrY4T" node="35a9wK6uwRL" resolve="ITableOption" />
     </node>
+    <node concept="asaX9" id="5Wi2c3mcfRD" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3NdPOdMTnQl">
     <property role="3GE5qa" value="customsql" />
@@ -1180,6 +1193,48 @@
     <property role="1pbfSe" value="1564312023" />
     <property role="3GE5qa" value="mapping.refmapping" />
     <property role="TrG5h" value="IReferenceMapping" />
+  </node>
+  <node concept="1TIwiD" id="5Wi2c3mcfQf">
+    <property role="1pbfSe" value="893584975" />
+    <property role="3GE5qa" value="mapping.tableoptions" />
+    <property role="TrG5h" value="AdditionalTableName" />
+    <property role="34LRSv" value="ALTERNATIVE_ACCESS" />
+    <property role="R4oN_" value="secondary table name" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5Wi2c3mcgeH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tablename" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="PrWs8" id="5Wi2c3mcgaK" role="PzmwI">
+      <ref role="PrY4T" node="35a9wK6uwRL" resolve="ITableOption" />
+    </node>
+    <node concept="PrWs8" id="5Wi2c3mcgbP" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5Wi2c3mecZT">
+    <property role="1pbfSe" value="894097593" />
+    <property role="3GE5qa" value="query" />
+    <property role="TrG5h" value="IQueryOption" />
+  </node>
+  <node concept="1TIwiD" id="5Wi2c3ml7kW">
+    <property role="1pbfSe" value="895909372" />
+    <property role="3GE5qa" value="query" />
+    <property role="TrG5h" value="AdditionalTableReference" />
+    <property role="34LRSv" value="USE" />
+    <property role="R4oN_" value="alternative access / table name" />
+    <ref role="1TJDcQ" node="hm5BQDIYNw" resolve="SaveOption" />
+    <node concept="1TJgyj" id="5Wi2c3ml7pg" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="alternativeAccess" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5Wi2c3mcfQf" resolve="AdditionalTableName" />
+    </node>
+    <node concept="PrWs8" id="5Wi2c3ml7n_" role="PzmwI">
+      <ref role="PrY4T" node="5Wi2c3mecZT" resolve="IQueryOption" />
+    </node>
   </node>
 </model>
 

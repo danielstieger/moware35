@@ -462,6 +462,9 @@
       </concept>
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
+      <concept id="6850547607504223631" name="org.modellwerkstatt.manmap.structure.AdditionalTableName" flags="ng" index="298Jlf">
+        <child id="6850547607504225197" name="tablename" index="298KHH" />
+      </concept>
       <concept id="774207833082839987" name="org.modellwerkstatt.manmap.structure.SortByQuery" flags="ng" index="jxcDv">
         <property id="774207833082860964" name="sortDirection" index="jx1L8" />
         <child id="774207833082840017" name="toComparable" index="jxcCX" />
@@ -42101,6 +42104,12 @@
         </node>
       </node>
       <node concept="jyGaT" id="4HJH2PnkorR" role="jyGaQ" />
+      <node concept="298Jlf" id="5Wi2c3mmzSu" role="jyGaQ">
+        <property role="TrG5h" value="ARCHIV" />
+        <node concept="Xl_RD" id="5Wi2c3mmzSw" role="298KHH">
+          <property role="Xl_RC" value="MMT_INVOCE" />
+        </node>
+      </node>
       <node concept="Xl_RD" id="4HJH2PnkorS" role="12gAQd">
         <property role="Xl_RC" value="MMT_INVOICE" />
       </node>
@@ -42180,10 +42189,6 @@
                     <ref role="2OG787" node="6fvTt2jOXsv" />
                   </node>
                 </node>
-              </node>
-              <node concept="GVA6h" id="4HJH2PnNscW" role="GVuqE">
-                <property role="3OYyqA" value="false" />
-                <ref role="GVA6j" node="4HJH2PnAhpG" />
               </node>
             </node>
             <node concept="1uHKPH" id="6fvTt2kn3F6" role="2OqNvi" />

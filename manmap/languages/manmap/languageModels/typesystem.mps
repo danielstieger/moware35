@@ -3522,5 +3522,57 @@
       <ref role="1YaFvo" to="r5tz:Kou8LeiaZq" resolve="ListMapping" />
     </node>
   </node>
+  <node concept="18kY7G" id="5Wi2c3mo1Do">
+    <property role="TrG5h" value="check_AdditionalTableReference" />
+    <property role="3GE5qa" value="query" />
+    <node concept="3clFbS" id="5Wi2c3mo1Dp" role="18ibNy">
+      <node concept="3clFbJ" id="5Wi2c3mo2K$" role="3cqZAp">
+        <node concept="3clFbS" id="5Wi2c3mo2KA" role="3clFbx">
+          <node concept="2MkqsV" id="5Wi2c3mo2OV" role="3cqZAp">
+            <node concept="Xl_RD" id="5Wi2c3mo2Ph" role="2MkJ7o">
+              <property role="Xl_RC" value="Only one alternative access/table name options is applicable as option." />
+            </node>
+            <node concept="1YBJjd" id="5Wi2c3mo2TH" role="2OEOjV">
+              <ref role="1YBMHb" node="5Wi2c3mo1Dr" resolve="additionalTableReference" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="5Wi2c3mo21j" role="3clFbw">
+          <node concept="2OqwBi" id="5Wi2c3mo1G6" role="2Oq$k0">
+            <node concept="1YBJjd" id="5Wi2c3mo1E2" role="2Oq$k0">
+              <ref role="1YBMHb" node="5Wi2c3mo1Dr" resolve="additionalTableReference" />
+            </node>
+            <node concept="2TvwIu" id="5Wi2c3mo1KR" role="2OqNvi" />
+          </node>
+          <node concept="2HwmR7" id="5Wi2c3mo2xl" role="2OqNvi">
+            <node concept="1bVj0M" id="5Wi2c3mo2xn" role="23t8la">
+              <node concept="3clFbS" id="5Wi2c3mo2xo" role="1bW5cS">
+                <node concept="3clFbF" id="5Wi2c3mo2zc" role="3cqZAp">
+                  <node concept="2OqwBi" id="5Wi2c3mo2_H" role="3clFbG">
+                    <node concept="37vLTw" id="5Wi2c3mo2zb" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5Wi2c3mo2xp" resolve="it" />
+                    </node>
+                    <node concept="1mIQ4w" id="5Wi2c3mo2CV" role="2OqNvi">
+                      <node concept="chp4Y" id="5Wi2c3mo2FT" role="cj9EA">
+                        <ref role="cht4Q" to="r5tz:5Wi2c3ml7kW" resolve="AdditionalTableReference" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="5Wi2c3mo2xp" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="5Wi2c3mo2xq" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5Wi2c3mo1Dr" role="1YuTPh">
+      <property role="TrG5h" value="additionalTableReference" />
+      <ref role="1YaFvo" to="r5tz:5Wi2c3ml7kW" resolve="AdditionalTableReference" />
+    </node>
+  </node>
 </model>
 
