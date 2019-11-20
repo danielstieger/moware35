@@ -1223,7 +1223,7 @@
     <property role="1pbfSe" value="895909372" />
     <property role="3GE5qa" value="query" />
     <property role="TrG5h" value="AdditionalTableReference" />
-    <property role="34LRSv" value="USE" />
+    <property role="34LRSv" value="ON" />
     <property role="R4oN_" value="alternative access / table name" />
     <ref role="1TJDcQ" node="hm5BQDIYNw" resolve="SaveOption" />
     <node concept="1TJgyj" id="5Wi2c3ml7pg" role="1TKVEi">

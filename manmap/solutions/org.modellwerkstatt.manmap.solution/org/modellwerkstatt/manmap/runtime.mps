@@ -619,6 +619,10 @@
         <property role="TrG5h" value="readOnly" />
         <node concept="10P_77" id="2P7gGuynu$M" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="5Wi2c3mUz4z" role="3clF46">
+        <property role="TrG5h" value="requestedTableName" />
+        <node concept="17QB3L" id="5Wi2c3mUz4$" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="2P7gGuymGE7" role="3clF46">
         <property role="TrG5h" value="session" />
         <node concept="3uibUv" id="2P7gGuymGE9" role="1tU5fm">
