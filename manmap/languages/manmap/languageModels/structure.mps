@@ -1198,7 +1198,7 @@
     <property role="1pbfSe" value="893584975" />
     <property role="3GE5qa" value="mapping.tableoptions" />
     <property role="TrG5h" value="AdditionalTableName" />
-    <property role="34LRSv" value="ALTERNATIVE_ACCESS" />
+    <property role="34LRSv" value="ALTERNATIVE_TABLE" />
     <property role="R4oN_" value="secondary table name" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5Wi2c3mcgeH" role="1TKVEi">
