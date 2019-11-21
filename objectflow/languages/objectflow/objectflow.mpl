@@ -25,6 +25,8 @@
         <dependency reexport="false">5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.objectflow.runtime)</dependency>
         <dependency reexport="false">51f51d1f-630c-4bde-a927-015e1db534ee(org.modellwerkstatt.manmap#871579071900374031)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+        <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -81,17 +83,41 @@
         <module reference="5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.objectflow.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities>
-        <mapping-priority-rule kind="strictly_after">
+        <mapping-priority-rule kind="strictly_together">
           <greater-priority-mapping>
             <generator generatorUID="6533ac7b-4d34-40f7-a1bd-37b8dd08dd50(org.modellwerkstatt.objectflow#7099872270191970661)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:0f3fe0d4-49eb-4050-b993-eee758a48da2(org.modellwerkstatt.objectflow.gen.repo@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="51f51d1f-630c-4bde-a927-015e1db534ee(org.modellwerkstatt.manmap#871579071900374031)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:03ecb556-c3b8-4490-964e-e30f12ad09e3(org.modellwerkstatt.manmap.generator.template.main@generator)" nodeID="*" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_after">
+          <greater-priority-mapping>
+            <generator generatorUID="6533ac7b-4d34-40f7-a1bd-37b8dd08dd50(org.modellwerkstatt.objectflow#7099872270191970661)" />
+            <external-mapping>
+              <mapping-set>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:ad1b6f40-df5e-4550-9fe5-c68f480ac1fd(org.modellwerkstatt.objectflow.gen.main@generator)" nodeID="*" />
+                </mapping-set-element>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:40343a23-b83c-48e4-804f-f24d0cac9fd5(org.modellwerkstatt.objectflow.gen.entity@generator)" nodeID="*" />
+                </mapping-set-element>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:f4d775ea-0f25-448d-9ccd-6caf35650eee(org.modellwerkstatt.objectflow.gen.javaext@generator)" nodeID="*" />
+                </mapping-set-element>
+              </mapping-set>
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="51f51d1f-630c-4bde-a927-015e1db534ee(org.modellwerkstatt.manmap#871579071900374031)" />
+            <external-mapping>
+              <mapping-node modelUID="r:03ecb556-c3b8-4490-964e-e30f12ad09e3(org.modellwerkstatt.manmap.generator.template.main@generator)" nodeID="*" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
