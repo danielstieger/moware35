@@ -364,6 +364,10 @@
     <property role="R4oN_" value="call component method" />
     <property role="1pbfSe" value="580839380" />
     <ref role="1TJDcQ" to="tpee:fz7wK6G" resolve="BaseMethodCall" />
+    <node concept="1TJgyi" id="1ygYGZii3PD" role="1TKVEl">
+      <property role="TrG5h" value="longFormat" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="2P7gGuypd_d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="sessionExpression" />

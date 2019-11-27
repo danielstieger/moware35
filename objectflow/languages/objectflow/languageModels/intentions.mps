@@ -3823,7 +3823,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="TestDebugAllRemove" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7v69" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7v6a" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7v6g" role="3cqZAp">
@@ -3914,7 +3914,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="TestDebugAllAdd" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7DfL" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7DfM" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7DfN" role="3cqZAp">
@@ -3990,7 +3990,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="DontExecAddAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7Evz" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7Ev$" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7Ev_" role="3cqZAp">
@@ -4066,7 +4066,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="DontExecRemoveAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7HSd" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7HSe" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7HSf" role="3cqZAp">
@@ -4517,7 +4517,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="WriteDontCompareRemoveAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="6WBZVtQXiTp" role="2ZfVej">
       <node concept="3clFbS" id="6WBZVtQXiTq" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXiTr" role="3cqZAp">
@@ -4608,7 +4608,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="WriteDontCompareAddAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="6WBZVtQXj5z" role="2ZfVej">
       <node concept="3clFbS" id="6WBZVtQXj5$" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXj5_" role="3cqZAp">
@@ -4719,7 +4719,7 @@
                 <node concept="2Xjw5R" id="2i3o0heds4C" role="2OqNvi">
                   <node concept="1xMEDy" id="2i3o0heds4E" role="1xVPHs">
                     <node concept="chp4Y" id="2i3o0hedw9g" role="ri$Ld">
-                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
                     </node>
                   </node>
                 </node>
@@ -6071,7 +6071,7 @@
           <node concept="3cpWsn" id="1ZjRqWrr5Wj" role="3cpWs9">
             <property role="TrG5h" value="ts" />
             <node concept="3Tqbb2" id="1ZjRqWrr5We" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+              <ref role="ehGHo" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
             </node>
             <node concept="2YIFZM" id="1ZjRqWrr61Z" role="33vP2m">
               <ref role="37wK5l" to="3ojc:1ZjRqWr8OMX" resolve="getOrCreateTestSuitForRepo" />
@@ -6355,6 +6355,42 @@
               </node>
             </node>
             <node concept="3w_OXm" id="1Ddwjyi_lfE" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1ygYGZipHr8">
+    <property role="3GE5qa" value="Service" />
+    <property role="TrG5h" value="ToglleFormatForCall" />
+    <ref role="2ZfgGC" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+    <node concept="2S6ZIM" id="1ygYGZipHr9" role="2ZfVej">
+      <node concept="3clFbS" id="1ygYGZipHra" role="2VODD2">
+        <node concept="3clFbF" id="1ygYGZipHti" role="3cqZAp">
+          <node concept="Xl_RD" id="1ygYGZipHth" role="3clFbG">
+            <property role="Xl_RC" value="Toggle format for operation call." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1ygYGZipHrb" role="2ZfgGD">
+      <node concept="3clFbS" id="1ygYGZipHrc" role="2VODD2">
+        <node concept="3clFbF" id="1ygYGZipHB4" role="3cqZAp">
+          <node concept="37vLTI" id="1ygYGZipIjc" role="3clFbG">
+            <node concept="3fqX7Q" id="1ygYGZipIlg" role="37vLTx">
+              <node concept="2OqwBi" id="1ygYGZipIsm" role="3fr31v">
+                <node concept="2Sf5sV" id="1ygYGZipInk" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1ygYGZipIBv" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:1ygYGZii3PD" resolve="longFormat" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1ygYGZipHEX" role="37vLTJ">
+              <node concept="2Sf5sV" id="1ygYGZipHB3" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1ygYGZipI7N" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:1ygYGZii3PD" resolve="longFormat" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
