@@ -6368,7 +6368,7 @@
       <node concept="3clFbS" id="1ygYGZipHra" role="2VODD2">
         <node concept="3clFbF" id="1ygYGZipHti" role="3cqZAp">
           <node concept="Xl_RD" id="1ygYGZipHth" role="3clFbG">
-            <property role="Xl_RC" value="Toggle format for operation call." />
+            <property role="Xl_RC" value="Aadjust format for Operation Call." />
           </node>
         </node>
       </node>
