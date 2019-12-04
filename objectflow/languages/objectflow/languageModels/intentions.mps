@@ -6555,7 +6555,7 @@
       <node concept="3clFbS" id="4Iw7xyH$5Ib" role="2VODD2">
         <node concept="3clFbF" id="4Iw7xyH$8RR" role="3cqZAp">
           <node concept="Xl_RD" id="4Iw7xyH$8RQ" role="3clFbG">
-            <property role="Xl_RC" value="Toggle editor for operation call." />
+            <property role="Xl_RC" value="AAdjust editor for operation call." />
           </node>
         </node>
       </node>

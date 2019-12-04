@@ -113,7 +113,7 @@ function SVLongTouchHandler(attachButton, dropdownMenu) {
   };
 
   this.timer = null;
-  this.touchduration = 2000;
+  this.touchduration = 6000;
 
   this.requestSystemMenu = function(e) {
       timer = setTimeout(self.onlongtouch, self.touchduration);

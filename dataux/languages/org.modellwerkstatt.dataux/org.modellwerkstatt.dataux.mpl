@@ -79,13 +79,13 @@
           <greater-priority-mapping>
             <generator generatorUID="f03a7921-cd7f-46c5-a394-6f69238857f8(org.modellwerkstatt.dataux#9014591971156139015)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:cd0aaf01-bf37-4ee6-bc79-b5d81f353d08(org.modellwerkstatt.dataux.generator.template.main@generator)" nodeID="9014591971156139016" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="6533ac7b-4d34-40f7-a1bd-37b8dd08dd50(org.modellwerkstatt.objectflow#7099872270191970661)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:ad1b6f40-df5e-4550-9fe5-c68f480ac1fd(org.modellwerkstatt.objectflow.gen.main@generator)" nodeID="6220831822432810258" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
