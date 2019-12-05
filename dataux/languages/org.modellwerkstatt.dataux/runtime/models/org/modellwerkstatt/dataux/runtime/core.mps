@@ -22366,9 +22366,7 @@
       <property role="TrG5h" value="currentSequence" />
       <node concept="3Tmbuc" id="7HqAtYG4H3B" role="1B3o_S" />
       <node concept="17QB3L" id="7HqAtYG4Xok" role="1tU5fm" />
-      <node concept="Xl_RD" id="7HqAtYG4Xyx" role="33vP2m">
-        <property role="Xl_RC" value="no seq." />
-      </node>
+      <node concept="Xl_RD" id="7HqAtYG4Xyx" role="33vP2m" />
     </node>
     <node concept="2tJIrI" id="5YG5DD8Xtih" role="jymVt" />
     <node concept="2tJIrI" id="4cdUWYrG7u2" role="jymVt" />
@@ -22952,8 +22950,18 @@
                 <ref role="1PxDUh" node="3GQ300QoB23" resolve="UxEvent" />
                 <ref role="3cqZAo" node="39R747sCXQ8" resolve="SPACE_N_DELIM" />
               </node>
-              <node concept="37vLTw" id="cMAJ_Mg$sd" role="37wK5m">
-                <ref role="3cqZAo" node="63IPdUQIquU" resolve="msg" />
+              <node concept="3cpWs3" id="2Z16q9RSwnf" role="37wK5m">
+                <node concept="3cpWs3" id="2Z16q9RSwFo" role="3uHU7B">
+                  <node concept="Xl_RD" id="2Z16q9RSwHc" role="3uHU7w">
+                    <property role="Xl_RC" value="*" />
+                  </node>
+                  <node concept="37vLTw" id="2Z16q9RSwvC" role="3uHU7B">
+                    <ref role="3cqZAo" node="7HqAtYG4FRu" resolve="currentSequence" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="cMAJ_Mg$sd" role="3uHU7w">
+                  <ref role="3cqZAo" node="63IPdUQIquU" resolve="msg" />
+                </node>
               </node>
             </node>
           </node>

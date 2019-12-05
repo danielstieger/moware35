@@ -6878,9 +6878,7 @@
                 </node>
                 <node concept="3cpWs3" id="1TowlBncz3D" role="3uHU7B">
                   <node concept="3cpWs3" id="7HqAtYG4Vg2" role="3uHU7B">
-                    <node concept="Xl_RD" id="7HqAtYG4Vg3" role="3uHU7B">
-                      <property role="Xl_RC" value="frm " />
-                    </node>
+                    <node concept="Xl_RD" id="7HqAtYG4Vg3" role="3uHU7B" />
                     <node concept="2OqwBi" id="7HqAtYG4WrU" role="3uHU7w">
                       <node concept="37vLTw" id="7HqAtYG4WrV" role="2Oq$k0">
                         <ref role="3cqZAo" node="5hYsHqQ_VNp" resolve="request" />
@@ -6894,7 +6892,7 @@
                     </node>
                   </node>
                   <node concept="Xl_RD" id="1TowlBnczn$" role="3uHU7w">
-                    <property role="Xl_RC" value=" / cur " />
+                    <property role="Xl_RC" value="/" />
                   </node>
                 </node>
               </node>
