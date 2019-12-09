@@ -622,9 +622,6 @@
       <concept id="7955334847797796420" name="org.modellwerkstatt.manmap.structure.SqlStringPropRef" flags="ng" index="1Q8hyx">
         <reference id="7955334847797839919" name="fieldMapping" index="1Q8sVa" />
       </concept>
-      <concept id="7955334847797796413" name="org.modellwerkstatt.manmap.structure.SqlStringEntityRef" flags="ng" index="1Q8hzo">
-        <reference id="7955334847797830692" name="entityMapping" index="1Q8qb1" />
-      </concept>
       <concept id="7955334847797738396" name="org.modellwerkstatt.manmap.structure.SqlString" flags="ng" index="1Q8zPT">
         <child id="7955334847797796239" name="text" index="1Q8hHE" />
       </concept>
@@ -23824,31 +23821,7 @@
       <node concept="1Q8zPT" id="1lpzdTmrIN2" role="2_xi3e">
         <node concept="19SGf9" id="1lpzdTmrIN4" role="1Q8hHE">
           <node concept="19SUe$" id="1lpzdTmrIN5" role="19SJt6">
-            <property role="19SUeA" value="SELECT \n" />
-          </node>
-          <node concept="1Q8hyx" id="1lpzdTmrJE4" role="19SJt6">
-            <ref role="1Q8sVa" node="4eJAcMlClmt" />
-          </node>
-          <node concept="19SUe$" id="1lpzdTmrJE5" role="19SJt6">
-            <property role="19SUeA" value=" as col1, \n" />
-          </node>
-          <node concept="1Q8hyx" id="1lpzdTmrJE6" role="19SJt6">
-            <ref role="1Q8sVa" node="4eJAcMlClxi" />
-          </node>
-          <node concept="19SUe$" id="1lpzdTmrJE7" role="19SJt6">
-            <property role="19SUeA" value=" as col2,\n" />
-          </node>
-          <node concept="1Q8hyx" id="1lpzdTmrJE8" role="19SJt6">
-            <ref role="1Q8sVa" node="4eJAcMlClxn" />
-          </node>
-          <node concept="19SUe$" id="1lpzdTmrJE9" role="19SJt6">
-            <property role="19SUeA" value=" as col3\nFROM " />
-          </node>
-          <node concept="1Q8hzo" id="1lpzdTmrJEa" role="19SJt6">
-            <ref role="1Q8qb1" node="4eJAcMlChd_" resolve="MapAuditEntity" />
-          </node>
-          <node concept="19SUe$" id="1lpzdTmrJE3" role="19SJt6">
-            <property role="19SUeA" value=" " />
+            <property role="19SUeA" value="SELECT \nKEY_ID as col1, \nTXT_TEXT as col2,\nDAT_CREATEDAT as col3\nFROM MMT_AUDITENTITY " />
           </node>
         </node>
       </node>
@@ -24165,31 +24138,7 @@
             <node concept="1Q8zPT" id="4r0DqI1982c" role="33vP2m">
               <node concept="19SGf9" id="4r0DqI1982e" role="1Q8hHE">
                 <node concept="19SUe$" id="4r0DqI1982f" role="19SJt6">
-                  <property role="19SUeA" value="SELECT " />
-                </node>
-                <node concept="1Q8hyx" id="1lpzdTmrJ4O" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClmt" />
-                </node>
-                <node concept="19SUe$" id="1lpzdTmrJ4P" role="19SJt6">
-                  <property role="19SUeA" value=", " />
-                </node>
-                <node concept="1Q8hyx" id="1lpzdTmrJ4Q" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxi" />
-                </node>
-                <node concept="19SUe$" id="1lpzdTmrJ4R" role="19SJt6">
-                  <property role="19SUeA" value=", " />
-                </node>
-                <node concept="1Q8hyx" id="1lpzdTmrJ4S" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxn" />
-                </node>
-                <node concept="19SUe$" id="1lpzdTmrJ4T" role="19SJt6">
-                  <property role="19SUeA" value=" FROM " />
-                </node>
-                <node concept="1Q8hzo" id="1lpzdTmrJ4U" role="19SJt6">
-                  <ref role="1Q8qb1" node="4eJAcMlChd_" resolve="MapAuditEntity" />
-                </node>
-                <node concept="19SUe$" id="1lpzdTmrJ5k" role="19SJt6">
-                  <property role="19SUeA" value="" />
+                  <property role="19SUeA" value="SELECT KEY_ID, TXT_TEXT, DAT_CREATEDAT FROM MMT_AUDITENTITY" />
                 </node>
               </node>
             </node>
@@ -24699,61 +24648,7 @@
             <node concept="1Q8zPT" id="1y3D6gOo1T4" role="33vP2m">
               <node concept="19SGf9" id="1y3D6gOo1T6" role="1Q8hHE">
                 <node concept="19SUe$" id="1y3D6gOo1T7" role="19SJt6">
-                  <property role="19SUeA" value="SELECT " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5au" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClmt" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5at" role="19SJt6">
-                  <property role="19SUeA" value=",\n       " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5a_" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxi" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5a$" role="19SJt6">
-                  <property role="19SUeA" value=",\n       " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5aI" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxk" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5aH" role="19SJt6">
-                  <property role="19SUeA" value=",\n       " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5aT" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxn" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5aS" role="19SJt6">
-                  <property role="19SUeA" value=",\n       " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5b6" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxp" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5b5" role="19SJt6">
-                  <property role="19SUeA" value=",\n       " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5bl" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxr" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5bk" role="19SJt6">
-                  <property role="19SUeA" value=",\n       " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5bA" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClxt" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5b_" role="19SJt6">
-                  <property role="19SUeA" value="\n\nFROM " />
-                </node>
-                <node concept="1Q8hzo" id="1y3D6gOo5aa" role="19SJt6">
-                  <ref role="1Q8qb1" node="4eJAcMlChd_" resolve="MapAuditEntity" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5ab" role="19SJt6">
-                  <property role="19SUeA" value=" where " />
-                </node>
-                <node concept="1Q8hyx" id="1y3D6gOo5eZ" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClmt" />
-                </node>
-                <node concept="19SUe$" id="1y3D6gOo5eY" role="19SJt6">
-                  <property role="19SUeA" value=" = ? " />
+                  <property role="19SUeA" value="SELECT KEY_ID,\n       TXT_TEXT,\n       TXT_STATUS,\n       DAT_CREATEDAT,\n       NUM_CREATEDBY,\n       DAT_MODIFIEDAT,\n       NUM_MODIFIEDBY\n\nFROM MMT_AUDITENTITY where KEY_ID = ? " />
                 </node>
               </node>
             </node>
@@ -24982,11 +24877,9 @@
         <node concept="3cpWs6" id="4r0DqI1Q2mJ" role="3cqZAp">
           <node concept="1Q8zPT" id="4r0DqI1Q2o7" role="3cqZAk">
             <node concept="19SGf9" id="4r0DqI1Q2o9" role="1Q8hHE">
-              <node concept="19SUe$" id="4r0DqI1Q2qO" role="19SJt6" />
-              <node concept="1Q8hzo" id="4r0DqI1Q2qN" role="19SJt6">
-                <ref role="1Q8qb1" node="4eJAcMlClQ5" resolve="MapAuditEntity_VARIANTS" />
+              <node concept="19SUe$" id="4r0DqI1Q2qO" role="19SJt6">
+                <property role="19SUeA" value="MMT_AUDITENTITY" />
               </node>
-              <node concept="19SUe$" id="4r0DqI1Q2qP" role="19SJt6" />
             </node>
           </node>
         </node>
@@ -25031,19 +24924,7 @@
               <node concept="1Q8zPT" id="5ztwEZdH5T1" role="1ea49x">
                 <node concept="19SGf9" id="5ztwEZdH5T2" role="1Q8hHE">
                   <node concept="19SUe$" id="5ztwEZdH5T3" role="19SJt6">
-                    <property role="19SUeA" value="SELECT count(*) from " />
-                  </node>
-                  <node concept="1Q8hzo" id="5ztwEZdH5Wp" role="19SJt6">
-                    <ref role="1Q8qb1" node="2i3o0he2ppg" resolve="MapAccountAudit" />
-                  </node>
-                  <node concept="19SUe$" id="5ztwEZdH5Wq" role="19SJt6">
-                    <property role="19SUeA" value=" WHERE " />
-                  </node>
-                  <node concept="1Q8hyx" id="5ztwEZdH5Wu" role="19SJt6">
-                    <ref role="1Q8sVa" node="4eJAcMlClHd" />
-                  </node>
-                  <node concept="19SUe$" id="5ztwEZdH5Wv" role="19SJt6">
-                    <property role="19SUeA" value=" == ?" />
+                    <property role="19SUeA" value="SELECT count(*) from MMT_KONTOAUDIT WHERE NUM_INTVAL == ?" />
                   </node>
                 </node>
               </node>
@@ -25070,19 +24951,7 @@
             <node concept="1Q8zPT" id="5ztwEZdH7Vr" role="2KoP_5">
               <node concept="19SGf9" id="5ztwEZdH7Vs" role="1Q8hHE">
                 <node concept="19SUe$" id="5ztwEZdH7Vt" role="19SJt6">
-                  <property role="19SUeA" value="UPDATE " />
-                </node>
-                <node concept="1Q8hzo" id="5ztwEZdH7YT" role="19SJt6">
-                  <ref role="1Q8qb1" node="2i3o0he2ppg" resolve="MapAccountAudit" />
-                </node>
-                <node concept="19SUe$" id="5ztwEZdH7YU" role="19SJt6">
-                  <property role="19SUeA" value=" WHERE " />
-                </node>
-                <node concept="1Q8hyx" id="5ztwEZdH7YV" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClHd" />
-                </node>
-                <node concept="19SUe$" id="5ztwEZdH7YW" role="19SJt6">
-                  <property role="19SUeA" value=" == ?" />
+                  <property role="19SUeA" value="UPDATE MMT_KONTOAUDIT WHERE NUM_INTVAL == ?" />
                 </node>
               </node>
             </node>
@@ -25100,19 +24969,7 @@
             <node concept="1Q8zPT" id="7dEVQYbDsVF" role="2KoP_5">
               <node concept="19SGf9" id="7dEVQYbDsVG" role="1Q8hHE">
                 <node concept="19SUe$" id="7dEVQYbDsVH" role="19SJt6">
-                  <property role="19SUeA" value="UPDATE " />
-                </node>
-                <node concept="1Q8hzo" id="7dEVQYbDsVR" role="19SJt6">
-                  <ref role="1Q8qb1" node="2i3o0he2ppg" resolve="MapAccountAudit" />
-                </node>
-                <node concept="19SUe$" id="7dEVQYbDsVS" role="19SJt6">
-                  <property role="19SUeA" value=" SET " />
-                </node>
-                <node concept="1Q8hyx" id="7fPCQJn8r2N" role="19SJt6">
-                  <ref role="1Q8sVa" node="2i3o0he2qNo" />
-                </node>
-                <node concept="19SUe$" id="7fPCQJn8r2M" role="19SJt6">
-                  <property role="19SUeA" value="= 0 WHERE (1 = 0)" />
+                  <property role="19SUeA" value="UPDATE MMT_KONTOAUDIT SET NUM_TOTALVAL= 0 WHERE (1 = 0)" />
                 </node>
               </node>
             </node>
