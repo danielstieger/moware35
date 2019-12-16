@@ -24633,7 +24633,7 @@
             <node concept="1Q8zPT" id="1y3D6gOo1T4" role="33vP2m">
               <node concept="19SGf9" id="1y3D6gOo1T6" role="1Q8hHE">
                 <node concept="19SUe$" id="1y3D6gOo1T7" role="19SJt6">
-                  <property role="19SUeA" value="SELECT KEY_ID,&#10;       TXT_TEXT,&#10;       TXT_STATUS,&#10;       DAT_CREATEDAT,&#10;       NUM_CREATEDBY&#10;       DAT_MODIFIEDAT,&#10;       NUM_MODIFIEDBY&#10;&#10;FROM MMT_AUDITENTITY where KEY_ID = ? " />
+                  <property role="19SUeA" value="SELECT KEY_ID,&#10;       TXT_TEXT,&#10;       TXT_STATUS,&#10;       DAT_CREATEDAT,&#10;       NUM_CREATEDBY,&#10;       DAT_MODIFIEDAT,&#10;       NUM_MODIFIEDBY&#10;&#10;FROM MMT_AUDITENTITY where KEY_ID = ? " />
                 </node>
               </node>
             </node>
