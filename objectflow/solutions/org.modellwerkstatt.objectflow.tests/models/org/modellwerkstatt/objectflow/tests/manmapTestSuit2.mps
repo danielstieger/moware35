@@ -619,9 +619,6 @@
         <reference id="5159282717680535116" name="fieldMapping" index="2OG787" />
         <reference id="1974135804380645439" name="mappingSource" index="3_688M" />
       </concept>
-      <concept id="7955334847797796420" name="org.modellwerkstatt.manmap.structure.SqlStringPropRef" flags="ng" index="1Q8hyx">
-        <reference id="7955334847797839919" name="fieldMapping" index="1Q8sVa" />
-      </concept>
       <concept id="7955334847797738396" name="org.modellwerkstatt.manmap.structure.SqlString" flags="ng" index="1Q8zPT">
         <child id="7955334847797796239" name="text" index="1Q8hHE" />
       </concept>
@@ -23833,13 +23830,7 @@
       <node concept="1Q8zPT" id="1lpzdTmrIYL" role="2_xi3e">
         <node concept="19SGf9" id="1lpzdTmrIYN" role="1Q8hHE">
           <node concept="19SUe$" id="1lpzdTmyDA5" role="19SJt6">
-            <property role="19SUeA" value="WHERE " />
-          </node>
-          <node concept="1Q8hyx" id="1lpzdTmrJEk" role="19SJt6">
-            <ref role="1Q8sVa" node="4eJAcMlClmt" />
-          </node>
-          <node concept="19SUe$" id="1lpzdTmrJEl" role="19SJt6">
-            <property role="19SUeA" value=" &gt; 0" />
+            <property role="19SUeA" value="WHERE KEY_ID &gt; 0" />
           </node>
         </node>
       </node>
@@ -23849,13 +23840,7 @@
       <node concept="1Q8zPT" id="1lpzdTmy_dW" role="2_xi3e">
         <node concept="19SGf9" id="1lpzdTmy_dY" role="1Q8hHE">
           <node concept="19SUe$" id="1lpzdTmy_dZ" role="19SJt6">
-            <property role="19SUeA" value="WHERE " />
-          </node>
-          <node concept="1Q8hyx" id="1lpzdTmy_BK" role="19SJt6">
-            <ref role="1Q8sVa" node="4eJAcMlClmt" />
-          </node>
-          <node concept="19SUe$" id="1lpzdTmy_BL" role="19SJt6">
-            <property role="19SUeA" value=" = ?" />
+            <property role="19SUeA" value="WHERE KEY_ID = ?" />
           </node>
         </node>
       </node>
@@ -24648,7 +24633,7 @@
             <node concept="1Q8zPT" id="1y3D6gOo1T4" role="33vP2m">
               <node concept="19SGf9" id="1y3D6gOo1T6" role="1Q8hHE">
                 <node concept="19SUe$" id="1y3D6gOo1T7" role="19SJt6">
-                  <property role="19SUeA" value="SELECT KEY_ID,\n       TXT_TEXT,\n       TXT_STATUS,\n       DAT_CREATEDAT,\n       NUM_CREATEDBY,\n       DAT_MODIFIEDAT,\n       NUM_MODIFIEDBY\n\nFROM MMT_AUDITENTITY where KEY_ID = ? " />
+                  <property role="19SUeA" value="SELECT KEY_ID,&#10;       TXT_TEXT,&#10;       TXT_STATUS,&#10;       DAT_CREATEDAT,&#10;       NUM_CREATEDBY&#10;       DAT_MODIFIEDAT,&#10;       NUM_MODIFIEDBY&#10;&#10;FROM MMT_AUDITENTITY where KEY_ID = ? " />
                 </node>
               </node>
             </node>
