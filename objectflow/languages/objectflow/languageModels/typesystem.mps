@@ -138,6 +138,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
@@ -5860,30 +5861,6 @@
     <node concept="1YaCAy" id="3hMfwBJp$z6" role="1YuTPh">
       <property role="TrG5h" value="dateTimeLiteral" />
       <ref role="1YaFvo" to="un0u:vASbTzXMHK" resolve="DateTimeLiteral" />
-    </node>
-  </node>
-  <node concept="2sgARr" id="2vvVhmsxN1l">
-    <property role="3GE5qa" value="Status" />
-    <property role="TrG5h" value="StatusSubTypeObject" />
-    <node concept="3clFbS" id="2vvVhmsxN1m" role="2sgrp5">
-      <node concept="3cpWs6" id="2vvVhmsxNGP" role="3cqZAp">
-        <node concept="2c44tf" id="2vvVhmsxNH7" role="3cqZAk">
-          <node concept="3uibUv" id="2WQ7pT7cLg5" role="2c44tc">
-            <ref role="3uigEE" to="28jr:2TdURcTX4e$" resolve="IOFXStatusOperations" />
-            <node concept="33vP2l" id="2WQ7pT7iv80" role="11_B2D">
-              <node concept="2c44te" id="2WQ7pT7iv8g" role="lGtFl">
-                <node concept="1YBJjd" id="2WQ7pT7iv8r" role="2c44t1">
-                  <ref role="1YBMHb" node="2vvVhmsxNGA" resolve="statusType" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="2vvVhmsxNGA" role="1YuTPh">
-      <property role="TrG5h" value="statusType" />
-      <ref role="1YaFvo" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
     </node>
   </node>
   <node concept="1YbPZF" id="3mhGZDXGHFs">
@@ -14647,6 +14624,24 @@
     <node concept="1YaCAy" id="59p98S7zckd" role="1YuTPh">
       <property role="TrG5h" value="stringLiteralTransAttribut" />
       <ref role="1YaFvo" to="un0u:5_hm6iIdeoj" resolve="StringLiteralTransAttribut" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="2xpwZ52F9oW">
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusTypeToInterface" />
+    <node concept="3clFbS" id="2xpwZ52F9oX" role="2sgrp5">
+      <node concept="3cpWs6" id="2xpwZ52F9qg" role="3cqZAp">
+        <node concept="2c44tf" id="2xpwZ52F9r2" role="3cqZAk">
+          <node concept="3uibUv" id="2xpwZ52F9sw" role="2c44tc">
+            <ref role="3uigEE" to="28jr:2TdURcTX4e$" resolve="IOFXStatusOperations" />
+            <node concept="3qTvmN" id="2xpwZ52Fj3L" role="11_B2D" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2xpwZ52F9oZ" role="1YuTPh">
+      <property role="TrG5h" value="statusType" />
+      <ref role="1YaFvo" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
     </node>
   </node>
 </model>

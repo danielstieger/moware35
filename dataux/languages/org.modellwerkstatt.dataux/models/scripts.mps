@@ -4377,6 +4377,13 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="2xpwZ52i4v3" role="_YvDr">
+      <property role="_XH9r" value="Search for isNotEmpty for Christian Pinky" />
+      <ref role="_XDHR" to="tpee:hP7Rvtz" resolve="IsNotEmptyOperation" />
+      <node concept="_ZGcI" id="2xpwZ52i4v5" role="_XPhp">
+        <node concept="3clFbS" id="2xpwZ52i4v7" role="2VODD2" />
+      </node>
+    </node>
   </node>
   <node concept="_UgoZ" id="3sIS$IKsEjM">
     <property role="2BwPSy" value="migration" />
