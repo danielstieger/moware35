@@ -16,6 +16,11 @@ var $$ = function(query) {
   return document.querySelectorAll(query);
 };
 
+var navigationDisabled = false;
+
+function isSvNavDisabled() {
+    return navigationDisabled;
+}
 
 function svLog(methodName, msg) {
     // console.log('- '+ methodName + "(): " + msg);
@@ -71,6 +76,11 @@ function svShowTableActionButtons(e, tableItemRowDiv) {
 }
 
 function svDisableNavigation() {
+  navigationDisabled = true;
+  $$('button').forEach(function(item){
+      item.disabled = 'true';
+    });
+
   $$('.sv-nav, button').forEach(function(item){
     item.className += ' w3-disabled'; /* sv-navDisabled */
   });
@@ -150,4 +160,33 @@ function SVLongTouchHandler(attachButton, dropdownMenu) {
      this.attachButton.addEventListener("touchcancel", this.cancelSystemMenu);
      console.log(' registration done ..... ');
    }
+}
+
+function getDbLog() {
+    return '' + sessionStorage.getItem("suivantLog") + '\n';
+}
+function dbLog(methodName, msg) {
+    msg = methodName + "(): " + msg + ' (nb ' + navigationDisabled + ')';
+    var messages = sessionStorage.getItem("suivantLog");
+
+    if (messages) {
+        var lines = messages.split(/\r?\n/);
+        var newMessage = ""
+
+        if (lines.length > 15) {
+            for (i = 1; i < lines.length; i++) {
+                newMessage += lines[i] + '\n';
+            }
+            newMessage += msg;
+
+        } else {
+            newMessage = messages + "\n" + msg;
+        }
+
+        sessionStorage.setItem("suivantLog", newMessage);
+
+    } else {
+        sessionStorage.setItem("suivantLog", msg);
+
+    }
 }

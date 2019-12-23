@@ -41,7 +41,7 @@ function scScanReceived(scanSession){
 
     console.log('scScanReceived() running scan pickers callback!');
 
-    svDisableNavigation();
+    // svDisableNavigation();
     scDisableScan();
 
     if (scanSession.newlyRecognizedCodes.length == 1){
