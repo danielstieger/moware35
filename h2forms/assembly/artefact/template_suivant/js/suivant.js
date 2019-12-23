@@ -18,7 +18,6 @@
 
 var systemMenuHandler;
 
-
 function svScanEnabled(){
     return ($('input[name="scanconclusion"]') != null);
 }
@@ -43,16 +42,21 @@ function openPage(page) {
 
 function tableSelectAndExec(selectionstr, valstr, eventSource){
     var origScrollPos = parseInt(window.scrollY);
-
+    dbLog('tableSelectAndExec', 'with ' + selectionstr + ' / ' + valstr + ' / ' + eventSource + ' before hideconent');
 
     if (! svHideAllContainsDropdown()) {
-        svDisableNavigation();
+        if (! isSvNavDisabled()) {
+            svDisableNavigation();
 
-        var f = $('form');
-        f.NaviCrtl.value=valstr;
-        f.ScrollPosition.value = origScrollPos;
-        f.SelectionId.value=selectionstr;
-        f.submit();
+            dbLog('tableSelectAndExec', 'before form submit.');
+
+            var f = $('form');
+            f.NaviCrtl.value=valstr;
+            f.ScrollPosition.value = origScrollPos;
+            f.SelectionId.value=selectionstr;
+            f.DebugInformation.value = getDbLog();
+            f.submit();
+        }
     }
 }
 
@@ -66,14 +70,20 @@ function layoutSelectAndExec(selectionstr, valstr, dropdown){
 
 function saveSubmit(submitParameter){
     var origScrollPos = parseInt(window.scrollY);
+    dbLog('saveSubmit', 'with ' + submitParameter + ' before hideconent');
 
     if (! svHideAllContainsDropdown()) {
-        svDisableNavigation();
+        if (! isSvNavDisabled()) {
+            svDisableNavigation();
 
-        var f = $('form');
-        f.ScrollPosition.value = origScrollPos;
-        f.NaviCrtl.value = submitParameter;
-    	f.submit();
+            dbLog('saveSubmit', 'before form submit');
+
+            var f = $('form');
+            f.ScrollPosition.value = origScrollPos;
+            f.NaviCrtl.value = submitParameter;
+            f.DebugInformation.value = getDbLog();
+            f.submit();
+        }
     }
 }
 
@@ -111,5 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
             svAdjustFocus();
         	}, 400);
 
+    navigationDisabled = false;
     svLog('DOMContentLoader', 'init done ' + hwStackInfo());
+    dbLog('DOMContentLoader', 'init done ' + hwStackInfo());
 });

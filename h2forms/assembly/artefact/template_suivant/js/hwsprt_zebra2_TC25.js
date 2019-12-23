@@ -49,7 +49,7 @@ function zzScanReceived(params){
         return;
     }
 
-    svDisableNavigation();
+    //svDisableNavigation();
     $('input[scanable="true"]').value = params['data'];
 
     zzDisableScan();
@@ -67,7 +67,8 @@ function zzScanSubmit(){
 function zzDefaultGoSubmit(){
     // svLog('hwDefaultOkSubmit', 'default ok submit called');
 
-    svDisableNavigation();
+    // no longer allowed, Dez 19
+    // svDisableNavigation();
     saveSubmitDueGo();
 }
 
