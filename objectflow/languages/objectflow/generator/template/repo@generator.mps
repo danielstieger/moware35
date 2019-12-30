@@ -65,6 +65,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -586,6 +587,34 @@
       </node>
       <node concept="2AHcQZ" id="5cU7ygsSRMN" role="2AJF6D">
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="312cEg" id="4vOTo2yLZtS" role="jymVt">
+      <property role="TrG5h" value="localServiceNAme" />
+      <node concept="3Tm6S6" id="4vOTo2yLZtT" role="1B3o_S" />
+      <node concept="3uibUv" id="4vOTo2yM7Uo" role="1tU5fm">
+        <ref role="3uigEE" node="6W_Qo9f2MoE" resolve="map_ModelRepository" />
+      </node>
+      <node concept="Xjq3P" id="4vOTo2yM1hl" role="33vP2m" />
+      <node concept="17Uvod" id="4vOTo2yM33L" role="lGtFl">
+        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+        <property role="2qtEX9" value="name" />
+        <node concept="3zFVjK" id="4vOTo2yM33O" role="3zH0cK">
+          <node concept="3clFbS" id="4vOTo2yM33P" role="2VODD2">
+            <node concept="3clFbF" id="4vOTo2yM3c2" role="3cqZAp">
+              <node concept="2YIFZM" id="4vOTo2yM3gp" role="3clFbG">
+                <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
+                <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
+                <node concept="2OqwBi" id="4vOTo2yM3vJ" role="37wK5m">
+                  <node concept="30H73N" id="4vOTo2yM3kf" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4vOTo2yM5NM" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="2LoYshK_egm" role="jymVt" />
