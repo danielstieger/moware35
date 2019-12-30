@@ -1512,8 +1512,8 @@
                 <node concept="3cpWs3" id="1BhX7GRYv2q" role="3cqZAk">
                   <node concept="2OqwBi" id="1BhX7GRY_KL" role="3uHU7B">
                     <node concept="uNquD" id="1BhX7GRYv2n" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="1BhX7GRY_Lq" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:1BhX7GRY_KU" resolve="getNameWihoutBo" />
+                    <node concept="3TrcHB" id="2LoYshIAJQd" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="1BhX7GRYv2v" role="3uHU7w">
