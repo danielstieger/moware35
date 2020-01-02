@@ -31,6 +31,7 @@
     <import index="ey3s" ref="r:d3df241e-bcd2-4499-9490-fa2ee2437c81(org.modellwerkstatt.objectflow.events)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -138,7 +139,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
@@ -239,6 +239,7 @@
         <child id="1176543945045" name="subtypeExpression" index="3JuY14" />
         <child id="1176543950311" name="supertypeExpression" index="3JuZjQ" />
       </concept>
+      <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -14629,11 +14630,17 @@
     <property role="3GE5qa" value="Status" />
     <property role="TrG5h" value="StatusTypeToInterface" />
     <node concept="3clFbS" id="2xpwZ52F9oX" role="2sgrp5">
-      <node concept="3cpWs6" id="2xpwZ52F9qg" role="3cqZAp">
-        <node concept="2c44tf" id="2xpwZ52F9r2" role="3cqZAk">
-          <node concept="3uibUv" id="2xpwZ52F9sw" role="2c44tc">
+      <node concept="3cpWs6" id="1WA0UCK7ZAz" role="3cqZAp">
+        <node concept="2c44tf" id="1WA0UCK7ZB8" role="3cqZAk">
+          <node concept="3uibUv" id="1WA0UCK7ZC3" role="2c44tc">
             <ref role="3uigEE" to="28jr:2TdURcTX4e$" resolve="IOFXStatusOperations" />
-            <node concept="3qTvmN" id="2LoYshM5p7j" role="11_B2D" />
+            <node concept="33vP2l" id="1WA0UCK7ZCi" role="11_B2D">
+              <node concept="2c44te" id="1WA0UCK7ZCy" role="lGtFl">
+                <node concept="1YBJjd" id="1WA0UCK7ZCH" role="2c44t1">
+                  <ref role="1YBMHb" node="2xpwZ52F9oZ" resolve="statusType" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -14641,6 +14648,103 @@
     <node concept="1YaCAy" id="2xpwZ52F9oZ" role="1YuTPh">
       <property role="TrG5h" value="statusType" />
       <ref role="1YaFvo" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1WA0UCL95by">
+    <property role="TrG5h" value="BUG_CLOSUREANDSTATUS" />
+    <node concept="3clFbS" id="1WA0UCL95bz" role="18ibNy">
+      <node concept="3SKdUt" id="1WA0UCL8CN2" role="3cqZAp">
+        <node concept="3SKdUq" id="1WA0UCL8CN4" role="3SKWNk">
+          <property role="3SKdUp" value="since cl gen is executed after our entity gen, we can not " />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="1WA0UCL8CNy" role="3cqZAp">
+        <node concept="3SKdUq" id="1WA0UCL8CN$" role="3SKWNk">
+          <property role="3SKdUp" value="later gen StatusType to ClassifierType. Our rule will no longer be called. " />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="1WA0UCL8CNJ" role="3cqZAp">
+        <node concept="3SKdUq" id="1WA0UCL8CNL" role="3SKWNk">
+          <property role="3SKdUp" value="this results in strange subtyping rule getting relied upon (IOFXStatusOperation&lt;&lt;THE STATUS HERE&gt;&gt;) which leads to " />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="1WA0UCL8CO0" role="3cqZAp">
+        <node concept="3SKdUq" id="1WA0UCL8CO2" role="3SKWNk">
+          <property role="3SKdUp" value="stackoverflow when executed on itself .." />
+        </node>
+      </node>
+      <node concept="3clFbH" id="1WA0UCL95Ig" role="3cqZAp" />
+      <node concept="3cpWs8" id="1WA0UCLaabG" role="3cqZAp">
+        <node concept="3cpWsn" id="1WA0UCLaabJ" role="3cpWs9">
+          <property role="TrG5h" value="clType" />
+          <node concept="3Tqbb2" id="1WA0UCLaabE" role="1tU5fm" />
+          <node concept="2OqwBi" id="1WA0UCLaaie" role="33vP2m">
+            <node concept="1YBJjd" id="1WA0UCLaaif" role="2Oq$k0">
+              <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
+            </node>
+            <node concept="3JvlWi" id="1WA0UCLaaig" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1WA0UCL95bO" role="3cqZAp">
+        <node concept="2OqwBi" id="1WA0UCL95Bp" role="3clFbw">
+          <node concept="1mIQ4w" id="1WA0UCL95Fq" role="2OqNvi">
+            <node concept="chp4Y" id="1WA0UCLaa8Z" role="cj9EA">
+              <ref role="cht4Q" to="tp2c:htajhBZ" resolve="FunctionType" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="1WA0UCLaaoD" role="2Oq$k0">
+            <ref role="3cqZAo" node="1WA0UCLaabJ" resolve="clType" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="1WA0UCL95bQ" role="3clFbx">
+          <node concept="3cpWs8" id="1WA0UCLaaqt" role="3cqZAp">
+            <node concept="3cpWsn" id="1WA0UCLaaqw" role="3cpWs9">
+              <property role="TrG5h" value="innerType" />
+              <node concept="3Tqbb2" id="1WA0UCLaaqr" role="1tU5fm">
+                <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+              </node>
+              <node concept="2OqwBi" id="1WA0UCLaaz7" role="33vP2m">
+                <node concept="1PxgMI" id="1WA0UCLaav7" role="2Oq$k0">
+                  <ref role="1PxNhF" to="tp2c:htajhBZ" resolve="FunctionType" />
+                  <node concept="37vLTw" id="1WA0UCLaar4" role="1PxMeX">
+                    <ref role="3cqZAo" node="1WA0UCLaabJ" resolve="clType" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="1WA0UCLaaEn" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tp2c:htajldL" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="1WA0UCLaaFC" role="3cqZAp">
+            <node concept="3clFbS" id="1WA0UCLaaFE" role="3clFbx">
+              <node concept="2MkqsV" id="1WA0UCL8D03" role="3cqZAp">
+                <node concept="Xl_RD" id="1WA0UCL8D0i" role="2MkJ7o">
+                  <property role="Xl_RC" value="MoWare MMRS. We do have a bug here. Do not use closure literals on status type without castring :(" />
+                </node>
+                <node concept="1YBJjd" id="1WA0UCL8D43" role="2OEOjV">
+                  <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1WA0UCLaaIq" role="3clFbw">
+              <node concept="37vLTw" id="1WA0UCLaaG1" role="2Oq$k0">
+                <ref role="3cqZAo" node="1WA0UCLaaqw" resolve="innerType" />
+              </node>
+              <node concept="1mIQ4w" id="1WA0UCLaaRq" role="2OqNvi">
+                <node concept="chp4Y" id="1WA0UCLaaSp" role="cj9EA">
+                  <ref role="cht4Q" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1WA0UCL95b_" role="1YuTPh">
+      <property role="TrG5h" value="closureLiteral" />
+      <ref role="1YaFvo" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
     </node>
   </node>
 </model>
