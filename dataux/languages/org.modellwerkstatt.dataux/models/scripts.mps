@@ -4841,5 +4841,74 @@
       </node>
     </node>
   </node>
+  <node concept="_UgoZ" id="6BFRDZyBlvN">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="MoWareMRStoMMRS2019_5" />
+    <property role="2BwPS$" value="MoWareMMRS_2019" />
+    <property role="_Wzho" value="(4) Check before migrating tests" />
+    <node concept="_XfAh" id="6BFRDZyBlvO" role="_YvDr">
+      <property role="_XH9r" value="Dependent Test-Methods using run-command (necessary?)" />
+      <ref role="_XDHR" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+      <node concept="_ZGcI" id="6BFRDZyBlvP" role="_XPhp">
+        <node concept="3clFbS" id="6BFRDZyBlvQ" role="2VODD2">
+          <node concept="3clFbH" id="6BFRDZyBlwX" role="3cqZAp" />
+        </node>
+      </node>
+      <node concept="_Y34e" id="6BFRDZyBlwY" role="_XDHO">
+        <node concept="3clFbS" id="6BFRDZyBlwZ" role="2VODD2">
+          <node concept="3clFbF" id="6BFRDZyBo2s" role="3cqZAp">
+            <node concept="1Wc70l" id="6BFRDZyBwJq" role="3clFbG">
+              <node concept="3eOSWO" id="6BFRDZyBCRH" role="3uHU7w">
+                <node concept="3cmrfG" id="6BFRDZyBCRN" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="6BFRDZyBzx3" role="3uHU7B">
+                  <node concept="2OqwBi" id="6BFRDZyBxUb" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6BFRDZyBwYz" role="2Oq$k0">
+                      <node concept="_YI3z" id="6BFRDZyBwLG" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6BFRDZyBxs6" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:fzclF7Z" />
+                      </node>
+                    </node>
+                    <node concept="2Rf3mk" id="6BFRDZyByjo" role="2OqNvi">
+                      <node concept="1xMEDy" id="6BFRDZyByjq" role="1xVPHs">
+                        <node concept="chp4Y" id="6BFRDZyBytx" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:7TJOmj72Lm4" resolve="OFXRunCmd" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="6BFRDZyBAZe" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="3eOSWO" id="6BFRDZyBwyW" role="3uHU7B">
+                <node concept="2OqwBi" id="6BFRDZyBqjo" role="3uHU7B">
+                  <node concept="2OqwBi" id="6BFRDZyBoe5" role="2Oq$k0">
+                    <node concept="_YI3z" id="6BFRDZyBo2r" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="6BFRDZyBoAV" role="2OqNvi">
+                      <ref role="3TtcxE" to="tpee:fzclF7Y" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="6BFRDZyBuq7" role="2OqNvi" />
+                </node>
+                <node concept="3cmrfG" id="6BFRDZyBwz2" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="6BFRDZyBDG$" role="_YvDr">
+      <property role="_XH9r" value="Check session-handling (new auto-handling better?)" />
+      <ref role="_XDHR" to="un0u:2KwTCJyjbv$" resolve="OFXTestNewSessionExpression" />
+      <node concept="_ZGcI" id="6BFRDZyBDG_" role="_XPhp">
+        <node concept="3clFbS" id="6BFRDZyBDGA" role="2VODD2">
+          <node concept="3clFbH" id="6BFRDZyBDGB" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
