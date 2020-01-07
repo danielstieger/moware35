@@ -27493,7 +27493,6 @@
       <property role="TrG5h" value="MapSELECT should report nice messages on errors." />
       <node concept="3cqZAl" id="5ztwEZdH50f" role="3clF45" />
       <node concept="3clFbS" id="5ztwEZdH4WM" role="3clF47">
-        <node concept="3clFbH" id="6VW5G61xwUd" role="3cqZAp" />
         <node concept="3clFbJ" id="6VW5G61xwXx" role="3cqZAp">
           <node concept="3clFbS" id="6VW5G61xwXz" role="3clFbx">
             <node concept="3SKdUt" id="6VW5G61xx3D" role="3cqZAp">
