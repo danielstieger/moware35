@@ -2376,6 +2376,9 @@
     <node concept="PrWs8" id="61VVfi2ZEVD" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="2m3V4yOwXPK" role="PzmwI">
+      <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    </node>
   </node>
   <node concept="1TIwiD" id="61VVfi2SpDA">
     <property role="1pbfSe" value="480409766" />
