@@ -14679,8 +14679,13 @@
           <property role="TrG5h" value="clType" />
           <node concept="3Tqbb2" id="1WA0UCLaabE" role="1tU5fm" />
           <node concept="2OqwBi" id="1WA0UCLaaie" role="33vP2m">
-            <node concept="1YBJjd" id="1WA0UCLaaif" role="2Oq$k0">
-              <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
+            <node concept="2OqwBi" id="7mD_E071icy" role="2Oq$k0">
+              <node concept="1YBJjd" id="1WA0UCLaaif" role="2Oq$k0">
+                <ref role="1YBMHb" node="1WA0UCL95b_" resolve="selectOperation" />
+              </node>
+              <node concept="3TrEf2" id="7mD_E071in5" role="2OqNvi">
+                <ref role="3Tt5mk" to="tp2q:hv$um0C" />
+              </node>
             </node>
             <node concept="3JvlWi" id="1WA0UCLaaig" role="2OqNvi" />
           </node>
@@ -14724,7 +14729,7 @@
                   <property role="Xl_RC" value="MoWare MMRS. We do have a bug here. Do not use closure literals on status type without castring :(" />
                 </node>
                 <node concept="1YBJjd" id="1WA0UCL8D43" role="2OEOjV">
-                  <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
+                  <ref role="1YBMHb" node="1WA0UCL95b_" resolve="selectOperation" />
                 </node>
               </node>
             </node>
@@ -14743,8 +14748,8 @@
       </node>
     </node>
     <node concept="1YaCAy" id="1WA0UCL95b_" role="1YuTPh">
-      <property role="TrG5h" value="closureLiteral" />
-      <ref role="1YaFvo" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
+      <property role="TrG5h" value="selectOperation" />
+      <ref role="1YaFvo" to="tp2q:hv$u5Zu" resolve="SelectOperation" />
     </node>
   </node>
 </model>

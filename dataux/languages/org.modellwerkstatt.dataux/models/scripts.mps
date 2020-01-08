@@ -9,6 +9,7 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
+    <import index="3xwt" ref="r:1f97d4af-95e4-4353-b2e9-86b0f0e8d221(org.modellwerkstatt.dataux.plugin)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
@@ -4932,6 +4933,48 @@
                   </node>
                 </node>
                 <node concept="34oBXx" id="4wgjvSokHrh" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="7mD_E06mtrt">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="MoWareMRStoMMRS2019_6" />
+    <property role="2BwPS$" value="MoWareMMRS_2019" />
+    <property role="_Wzho" value="(5) Check usage of old Service concepts" />
+    <node concept="_XfAh" id="7mD_E06mtru" role="_YvDr">
+      <property role="_XH9r" value="Using field or constructer (check alternatives)" />
+      <ref role="_XDHR" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+      <node concept="_ZGcI" id="7mD_E06mtrv" role="_XPhp">
+        <node concept="3clFbS" id="7mD_E06mtrw" role="2VODD2">
+          <node concept="3clFbH" id="7mD_E06mtrx" role="3cqZAp" />
+        </node>
+      </node>
+      <node concept="_Y34e" id="7mD_E06mtry" role="_XDHO">
+        <node concept="3clFbS" id="7mD_E06mtrz" role="2VODD2">
+          <node concept="3clFbF" id="7mD_E06muxd" role="3cqZAp">
+            <node concept="22lmx$" id="7mD_E06ICjT" role="3clFbG">
+              <node concept="3y3z36" id="7mD_E06mvs6" role="3uHU7w">
+                <node concept="2OqwBi" id="7mD_E06mv8b" role="3uHU7B">
+                  <node concept="2OqwBi" id="7mD_E06muGw" role="2Oq$k0">
+                    <node concept="_YI3z" id="7mD_E06muxc" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="7mD_E06mv4X" role="2OqNvi">
+                      <ref role="37wK5l" to="tpek:4_LVZ3pC27C" resolve="fields" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="7mD_E06mvcB" role="2OqNvi" />
+                </node>
+                <node concept="3cmrfG" id="7mD_E06mvyU" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+              <node concept="2YIFZM" id="7mD_E06BPHn" role="3uHU7B">
+                <ref role="1Pybhc" to="3xwt:7mD_E06lRvH" resolve="SHlpr" />
+                <ref role="37wK5l" to="3xwt:7mD_E06BuE1" resolve="relevantConstructor" />
+                <node concept="_YI3z" id="7mD_E06BPNW" role="37wK5m" />
               </node>
             </node>
           </node>
