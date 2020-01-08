@@ -27572,8 +27572,34 @@
             <node concept="3clFbH" id="2KwTCJyzBrh" role="3cqZAp" />
             <node concept="3clFbF" id="5buytp$2XL2" role="3cqZAp">
               <node concept="1rXfSq" id="5buytp$2XL3" role="3clFbG">
-                <ref role="37wK5l" node="7ECLRBgCPoJ" resolve="__run" />
-                <node concept="10Nm6u" id="5buytp$2XLa" role="37wK5m" />
+                <ref role="37wK5l" node="75eQhu6CGzc" resolve="simpleTestMethod" />
+                <node concept="10Nm6u" id="5buytp$2XLa" role="37wK5m">
+                  <node concept="1W57fq" id="4wgjvSoMv$n" role="lGtFl">
+                    <node concept="3IZrLx" id="4wgjvSoMv$p" role="3IZSJc">
+                      <node concept="3clFbS" id="4wgjvSoMv$r" role="2VODD2">
+                        <node concept="3clFbF" id="4wgjvSoMvTw" role="3cqZAp">
+                          <node concept="3clFbT" id="4wgjvSoMvTv" role="3clFbG">
+                            <property role="3clFbU" value="false" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4wgjvSoMuqn" role="37wK5m">
+                  <node concept="37vLTw" id="4wgjvSoMuc$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2KwTCJyovtB" resolve="__localApplicationFactory" />
+                  </node>
+                  <node concept="liA8E" id="4wgjvSoMuCS" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                    <node concept="37vLTw" id="4wgjvSoMuPQ" role="37wK5m">
+                      <ref role="3cqZAo" node="6U6qQMZCQic" resolve="__userEnvironment" />
+                    </node>
+                    <node concept="37vLTw" id="4wgjvSoMv9D" role="37wK5m">
+                      <ref role="3cqZAo" node="6cn6oSwfFa6" resolve="__userServices" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="37vLTw" id="5buytp$2XLb" role="37wK5m">
                   <ref role="3cqZAo" node="7ECLRBgDT4x" resolve="__testSuitReport" />
                 </node>

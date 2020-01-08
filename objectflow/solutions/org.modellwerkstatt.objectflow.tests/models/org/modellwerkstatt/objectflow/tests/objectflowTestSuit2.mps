@@ -2230,15 +2230,16 @@
       <property role="TrG5h" value="Edit Invoice and conclude with done should run startTransactionAndFlush()" />
       <node concept="3cqZAl" id="26QcchVSznF" role="3clF45" />
       <node concept="3clFbS" id="33MfvTmU9rk" role="3clF47">
-        <node concept="3cpWs8" id="4wgjvSojlR9" role="3cqZAp">
-          <node concept="3cpWsn" id="4wgjvSojlRa" role="3cpWs9">
+        <node concept="3cpWs8" id="4wgjvSoDLeJ" role="3cqZAp">
+          <node concept="3cpWsn" id="4wgjvSoDLeK" role="3cpWs9">
             <property role="TrG5h" value="inv1" />
-            <node concept="3uibUv" id="4wgjvSojlRb" role="1tU5fm">
+            <node concept="3uibUv" id="4wgjvSoDLeL" role="1tU5fm">
               <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
             </node>
-            <node concept="2juh7L" id="4wgjvSojmcp" role="33vP2m">
-              <ref role="37wK5l" to="mbq3:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
-              <node concept="Xl_RD" id="4wgjvSojmcC" role="37wK5m">
+            <node concept="1odsa" id="4wgjvSoDLh9" role="33vP2m">
+              <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <ref role="37wK5l" to="mbq3:4wgjvSoeJVM" resolve="createInvoiceGraphWith4Positions_onDB" />
+              <node concept="Xl_RD" id="4wgjvSoDLic" role="37wK5m">
                 <property role="Xl_RC" value="cancelgo" />
               </node>
             </node>
@@ -2267,7 +2268,7 @@
             <node concept="10Nm6u" id="26QcchVS$ap" role="2_HrWp" />
             <node concept="2OqwBi" id="26QcchVS$dt" role="2_HrWp">
               <node concept="37vLTw" id="4wgjvSojomD" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSojlRa" resolve="inv1" />
+                <ref role="3cqZAo" node="4wgjvSoDLeK" resolve="inv1" />
               </node>
               <node concept="2S8uIT" id="26QcchVS$es" role="2OqNvi">
                 <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
@@ -2310,15 +2311,16 @@
       <property role="TrG5h" value="Edit Invoice and conclude with cancel should NOT run startTransactionAndFlush()" />
       <node concept="3cqZAl" id="26QcchVZAtW" role="3clF45" />
       <node concept="3clFbS" id="33MfvTmU9qO" role="3clF47">
-        <node concept="3cpWs8" id="4wgjvSojpkj" role="3cqZAp">
-          <node concept="3cpWsn" id="4wgjvSojpkk" role="3cpWs9">
+        <node concept="3cpWs8" id="4wgjvSoDLCn" role="3cqZAp">
+          <node concept="3cpWsn" id="4wgjvSoDLCo" role="3cpWs9">
             <property role="TrG5h" value="inv1" />
-            <node concept="3uibUv" id="4wgjvSojpkl" role="1tU5fm">
+            <node concept="3uibUv" id="4wgjvSoDLCp" role="1tU5fm">
               <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
             </node>
-            <node concept="2juh7L" id="4wgjvSojpkm" role="33vP2m">
-              <ref role="37wK5l" to="mbq3:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
-              <node concept="Xl_RD" id="4wgjvSojpkn" role="37wK5m">
+            <node concept="1odsa" id="4wgjvSoDLCq" role="33vP2m">
+              <ref role="37wK5l" to="mbq3:4wgjvSoeJVM" resolve="createInvoiceGraphWith4Positions_onDB" />
+              <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <node concept="Xl_RD" id="4wgjvSoDLCr" role="37wK5m">
                 <property role="Xl_RC" value="cancelgo" />
               </node>
             </node>
@@ -2348,7 +2350,7 @@
             <node concept="10Nm6u" id="26QcchVZAtR" role="2_HrWp" />
             <node concept="2OqwBi" id="26QcchVZAtS" role="2_HrWp">
               <node concept="37vLTw" id="4wgjvSojqN7" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSojpkk" resolve="inv1" />
+                <ref role="3cqZAo" node="4wgjvSoDLCo" resolve="inv1" />
               </node>
               <node concept="2S8uIT" id="26QcchVZAtU" role="2OqNvi">
                 <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
@@ -2388,15 +2390,16 @@
       <property role="TrG5h" value="Edit Invoice and conclude with cancel in command init should NOT run startTransactionAndFlush()" />
       <node concept="3cqZAl" id="26QcchW0msJ" role="3clF45" />
       <node concept="3clFbS" id="33MfvTmU9so" role="3clF47">
-        <node concept="3cpWs8" id="4wgjvSojrJ5" role="3cqZAp">
-          <node concept="3cpWsn" id="4wgjvSojrJ6" role="3cpWs9">
+        <node concept="3cpWs8" id="4wgjvSoDMls" role="3cqZAp">
+          <node concept="3cpWsn" id="4wgjvSoDMlt" role="3cpWs9">
             <property role="TrG5h" value="inv1" />
-            <node concept="3uibUv" id="4wgjvSojrJ7" role="1tU5fm">
+            <node concept="3uibUv" id="4wgjvSoDMlu" role="1tU5fm">
               <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
             </node>
-            <node concept="2juh7L" id="4wgjvSojrJ8" role="33vP2m">
-              <ref role="37wK5l" to="mbq3:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
-              <node concept="Xl_RD" id="4wgjvSojrJ9" role="37wK5m">
+            <node concept="1odsa" id="4wgjvSoDMlv" role="33vP2m">
+              <ref role="37wK5l" to="mbq3:4wgjvSoeJVM" resolve="createInvoiceGraphWith4Positions_onDB" />
+              <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <node concept="Xl_RD" id="4wgjvSoDMlw" role="37wK5m">
                 <property role="Xl_RC" value="cancelgo" />
               </node>
             </node>
@@ -2426,7 +2429,7 @@
             <node concept="10Nm6u" id="26QcchW0msE" role="2_HrWp" />
             <node concept="2OqwBi" id="26QcchW0msF" role="2_HrWp">
               <node concept="37vLTw" id="4wgjvSojtgh" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSojrJ6" resolve="inv1" />
+                <ref role="3cqZAo" node="4wgjvSoDMlt" resolve="inv1" />
               </node>
               <node concept="2S8uIT" id="26QcchW0msH" role="2OqNvi">
                 <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
@@ -2475,15 +2478,16 @@
       <property role="TrG5h" value="Edit Invoice and conclude with cancel in page init should NOT run startTransactionAndFlush()" />
       <node concept="3cqZAl" id="26QcchW05yO" role="3clF45" />
       <node concept="3clFbS" id="33MfvTmU9qY" role="3clF47">
-        <node concept="3cpWs8" id="4wgjvSojtT$" role="3cqZAp">
-          <node concept="3cpWsn" id="4wgjvSojtT_" role="3cpWs9">
+        <node concept="3cpWs8" id="4wgjvSoDMEC" role="3cqZAp">
+          <node concept="3cpWsn" id="4wgjvSoDMED" role="3cpWs9">
             <property role="TrG5h" value="inv1" />
-            <node concept="3uibUv" id="4wgjvSojtTA" role="1tU5fm">
+            <node concept="3uibUv" id="4wgjvSoDMEE" role="1tU5fm">
               <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
             </node>
-            <node concept="2juh7L" id="4wgjvSojtTB" role="33vP2m">
-              <ref role="37wK5l" to="mbq3:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
-              <node concept="Xl_RD" id="4wgjvSojtTC" role="37wK5m">
+            <node concept="1odsa" id="4wgjvSoDMEF" role="33vP2m">
+              <ref role="37wK5l" to="mbq3:4wgjvSoeJVM" resolve="createInvoiceGraphWith4Positions_onDB" />
+              <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <node concept="Xl_RD" id="4wgjvSoDMEG" role="37wK5m">
                 <property role="Xl_RC" value="cancelgo" />
               </node>
             </node>
@@ -2512,7 +2516,7 @@
             <node concept="10Nm6u" id="26QcchW05yJ" role="2_HrWp" />
             <node concept="2OqwBi" id="26QcchW05yK" role="2_HrWp">
               <node concept="37vLTw" id="4wgjvSojvr2" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSojtT_" resolve="inv1" />
+                <ref role="3cqZAo" node="4wgjvSoDMED" resolve="inv1" />
               </node>
               <node concept="2S8uIT" id="26QcchW05yM" role="2OqNvi">
                 <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
@@ -2562,15 +2566,16 @@
       <property role="TrG5h" value="Edit Invoice and conclude with cancel in page conclusion should NOT run startTransactionAndFlush()" />
       <node concept="3cqZAl" id="26QcchW05Os" role="3clF45" />
       <node concept="3clFbS" id="33MfvTmU9q2" role="3clF47">
-        <node concept="3cpWs8" id="4wgjvSojwoQ" role="3cqZAp">
-          <node concept="3cpWsn" id="4wgjvSojwoR" role="3cpWs9">
+        <node concept="3cpWs8" id="4wgjvSoDMZM" role="3cqZAp">
+          <node concept="3cpWsn" id="4wgjvSoDMZN" role="3cpWs9">
             <property role="TrG5h" value="inv1" />
-            <node concept="3uibUv" id="4wgjvSojwoS" role="1tU5fm">
+            <node concept="3uibUv" id="4wgjvSoDMZO" role="1tU5fm">
               <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
             </node>
-            <node concept="2juh7L" id="4wgjvSojwoT" role="33vP2m">
-              <ref role="37wK5l" to="mbq3:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
-              <node concept="Xl_RD" id="4wgjvSojwoU" role="37wK5m">
+            <node concept="1odsa" id="4wgjvSoDMZP" role="33vP2m">
+              <ref role="37wK5l" to="mbq3:4wgjvSoeJVM" resolve="createInvoiceGraphWith4Positions_onDB" />
+              <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <node concept="Xl_RD" id="4wgjvSoDMZQ" role="37wK5m">
                 <property role="Xl_RC" value="cancelgo" />
               </node>
             </node>
@@ -2600,7 +2605,7 @@
             <node concept="10Nm6u" id="26QcchW05On" role="2_HrWp" />
             <node concept="2OqwBi" id="26QcchW05Oo" role="2_HrWp">
               <node concept="37vLTw" id="4wgjvSojxUx" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSojwoR" resolve="inv1" />
+                <ref role="3cqZAo" node="4wgjvSoDMZN" resolve="inv1" />
               </node>
               <node concept="2S8uIT" id="26QcchW05Oq" role="2OqNvi">
                 <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
@@ -2648,15 +2653,16 @@
       <property role="TrG5h" value="Edit Invoice and conclude with cancel in service should NOT run startTransactionAndFlush()" />
       <node concept="3cqZAl" id="26QcchW06fW" role="3clF45" />
       <node concept="3clFbS" id="33MfvTmU9s0" role="3clF47">
-        <node concept="3cpWs8" id="4wgjvSojyRL" role="3cqZAp">
-          <node concept="3cpWsn" id="4wgjvSojyRM" role="3cpWs9">
+        <node concept="3cpWs8" id="4wgjvSoDNkT" role="3cqZAp">
+          <node concept="3cpWsn" id="4wgjvSoDNkU" role="3cpWs9">
             <property role="TrG5h" value="inv1" />
-            <node concept="3uibUv" id="4wgjvSojyRN" role="1tU5fm">
+            <node concept="3uibUv" id="4wgjvSoDNkV" role="1tU5fm">
               <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
             </node>
-            <node concept="2juh7L" id="4wgjvSojyRO" role="33vP2m">
-              <ref role="37wK5l" to="mbq3:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
-              <node concept="Xl_RD" id="4wgjvSojyRP" role="37wK5m">
+            <node concept="1odsa" id="4wgjvSoDNkW" role="33vP2m">
+              <ref role="37wK5l" to="mbq3:4wgjvSoeJVM" resolve="createInvoiceGraphWith4Positions_onDB" />
+              <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <node concept="Xl_RD" id="4wgjvSoDNkX" role="37wK5m">
                 <property role="Xl_RC" value="cancelgo" />
               </node>
             </node>
@@ -2686,7 +2692,7 @@
             <node concept="10Nm6u" id="26QcchW06fR" role="2_HrWp" />
             <node concept="2OqwBi" id="26QcchW06fS" role="2_HrWp">
               <node concept="37vLTw" id="4wgjvSoj$qz" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSojyRM" resolve="inv1" />
+                <ref role="3cqZAo" node="4wgjvSoDNkU" resolve="inv1" />
               </node>
               <node concept="2S8uIT" id="26QcchW06fU" role="2OqNvi">
                 <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
@@ -3267,7 +3273,7 @@
     </node>
     <node concept="1DF_5m" id="26QcchVZyX8" role="3yMuLx" />
     <node concept="1DZZI9" id="5MCXLSnMjIB" role="38MLOi">
-      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="Creators" />
+      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="DBinit" />
     </node>
     <node concept="3yPF9F" id="33MfvTmU9sB" role="3yMuLx">
       <property role="TrG5h" value="Edit Invoice Position by posnumber" />
@@ -6588,7 +6594,7 @@
     <property role="TrG5h" value="Test Wizzard" />
     <ref role="2WPtWl" to="mbq3:6VW5G62DV5y" resolve="MPreisOFXLdapConfig" />
     <node concept="1DZZI9" id="7pudXbEMBFo" role="38MLOi">
-      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="Creators" />
+      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="DBinit" />
     </node>
     <node concept="1DF_5m" id="7pudXbEJVMw" role="3yMuLx" />
     <node concept="3yPF9F" id="7pudXbF8zQy" role="3yMuLx">
@@ -11630,7 +11636,7 @@
       <property role="xWaIK" value="0" />
     </node>
     <node concept="1DZZI9" id="7KkzKQQ8X96" role="38MLOi">
-      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="Creators" />
+      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="DBinit" />
     </node>
   </node>
   <node concept="il5tC" id="3Rw9V4qhf8E">
@@ -16383,7 +16389,7 @@
       </node>
     </node>
     <node concept="1DZZI9" id="3U0QWztNAxZ" role="38MLOi">
-      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="Creators" />
+      <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="DBinit" />
     </node>
   </node>
   <node concept="3ugp7m" id="2wQSPIg8w5K">
