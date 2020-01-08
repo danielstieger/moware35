@@ -4845,7 +4845,7 @@
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="MoWareMRStoMMRS2019_5" />
     <property role="2BwPS$" value="MoWareMMRS_2019" />
-    <property role="_Wzho" value="(4) Check before migrating tests" />
+    <property role="_Wzho" value="(4) Check before migrating TEST Suits" />
     <node concept="_XfAh" id="6BFRDZyBlvO" role="_YvDr">
       <property role="_XH9r" value="Dependent Test-Methods using run-command (necessary?)" />
       <ref role="_XDHR" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
@@ -4906,6 +4906,35 @@
       <node concept="_ZGcI" id="6BFRDZyBDG_" role="_XPhp">
         <node concept="3clFbS" id="6BFRDZyBDGA" role="2VODD2">
           <node concept="3clFbH" id="6BFRDZyBDGB" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="4wgjvSokC0M" role="_YvDr">
+      <property role="_XH9r" value="OFXTestMEethods still using dependent tests" />
+      <ref role="_XDHR" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+      <node concept="_ZGcI" id="4wgjvSokC0N" role="_XPhp">
+        <node concept="3clFbS" id="4wgjvSokC0O" role="2VODD2">
+          <node concept="3clFbH" id="4wgjvSokC0P" role="3cqZAp" />
+        </node>
+      </node>
+      <node concept="_Y34e" id="4wgjvSokC1o" role="_XDHO">
+        <node concept="3clFbS" id="4wgjvSokC1p" role="2VODD2">
+          <node concept="3clFbF" id="4wgjvSokC2u" role="3cqZAp">
+            <node concept="3eOSWO" id="4wgjvSokJdA" role="3clFbG">
+              <node concept="3cmrfG" id="4wgjvSokJdG" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="4wgjvSokE18" role="3uHU7B">
+                <node concept="2OqwBi" id="4wgjvSokCe7" role="2Oq$k0">
+                  <node concept="_YI3z" id="4wgjvSokC2t" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="4wgjvSokCAY" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:61VVfi2MoK2" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="4wgjvSokHrh" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
