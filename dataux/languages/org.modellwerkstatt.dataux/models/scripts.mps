@@ -1155,7 +1155,7 @@
                           <node concept="liA8E" id="qAMqEl5cV5" role="2OqNvi">
                             <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                             <node concept="Xl_RD" id="qAMqEl5d5n" role="37wK5m">
-                              <property role="Xl_RC" value="fromStringForManmap" />
+                              <property role="Xl_RC" value="fromString" />
                             </node>
                           </node>
                         </node>

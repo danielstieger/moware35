@@ -3506,7 +3506,7 @@
                   <node concept="1DoJHT" id="3RwvUFqi9QV" role="3clFbG">
                     <property role="1Dpdpm" value="setter" />
                     <node concept="1niqFM" id="3RwvUFqifgg" role="1EOqxR">
-                      <property role="1npL6y" value="fromStringForManmap" />
+                      <property role="1npL6y" value="fromString" />
                       <property role="1npUBZ" value="StatusFqName" />
                       <node concept="2OqwBi" id="3RwvUFqi9QW" role="2U24H$">
                         <node concept="37vLTw" id="3RwvUFqi9QX" role="2Oq$k0">
@@ -10820,7 +10820,7 @@
                 <property role="1Dpdpm" value="setField" />
                 <node concept="1niqFM" id="3RwvUFpWWgk" role="1EOqxR">
                   <property role="1npUBZ" value="StatusFQName" />
-                  <property role="1npL6y" value="fromStringForManmap" />
+                  <property role="1npL6y" value="fromString" />
                   <node concept="2OqwBi" id="7kypvuI$E5E" role="2U24H$">
                     <node concept="3VmV3z" id="7kypvuI$E5m" role="2Oq$k0">
                       <property role="3VnrPo" value="__stringTypeHandler" />
