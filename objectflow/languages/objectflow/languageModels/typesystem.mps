@@ -14626,30 +14626,6 @@
       <ref role="1YaFvo" to="un0u:5_hm6iIdeoj" resolve="StringLiteralTransAttribut" />
     </node>
   </node>
-  <node concept="2sgARr" id="2xpwZ52F9oW">
-    <property role="3GE5qa" value="Status" />
-    <property role="TrG5h" value="StatusTypeToInterface" />
-    <node concept="3clFbS" id="2xpwZ52F9oX" role="2sgrp5">
-      <node concept="3cpWs6" id="1WA0UCK7ZAz" role="3cqZAp">
-        <node concept="2c44tf" id="1WA0UCK7ZB8" role="3cqZAk">
-          <node concept="3uibUv" id="1WA0UCK7ZC3" role="2c44tc">
-            <ref role="3uigEE" to="28jr:2TdURcTX4e$" resolve="IOFXStatusOperations" />
-            <node concept="33vP2l" id="1WA0UCK7ZCi" role="11_B2D">
-              <node concept="2c44te" id="1WA0UCK7ZCy" role="lGtFl">
-                <node concept="1YBJjd" id="1WA0UCK7ZCH" role="2c44t1">
-                  <ref role="1YBMHb" node="2xpwZ52F9oZ" resolve="statusType" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="2xpwZ52F9oZ" role="1YuTPh">
-      <property role="TrG5h" value="statusType" />
-      <ref role="1YaFvo" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
-    </node>
-  </node>
   <node concept="18kY7G" id="1WA0UCL95by">
     <property role="TrG5h" value="BUG_CLOSUREANDSTATUS" />
     <node concept="3clFbS" id="1WA0UCL95bz" role="18ibNy">
@@ -14750,6 +14726,30 @@
     <node concept="1YaCAy" id="1WA0UCL95b_" role="1YuTPh">
       <property role="TrG5h" value="selectOperation" />
       <ref role="1YaFvo" to="tp2q:hv$u5Zu" resolve="SelectOperation" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="6puUMiQ$SaR">
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusTypeSubtyping" />
+    <node concept="3clFbS" id="6puUMiQ$SaS" role="2sgrp5">
+      <node concept="3cpWs6" id="6puUMiQ$Sb0" role="3cqZAp">
+        <node concept="2c44tf" id="6puUMiQ$Sb_" role="3cqZAk">
+          <node concept="3uibUv" id="6puUMiQ$Scw" role="2c44tc">
+            <ref role="3uigEE" to="28jr:2TdURcTX4e$" resolve="IOFXStatusOperations" />
+            <node concept="33vP2l" id="6puUMiQ$ScL" role="11_B2D">
+              <node concept="2c44te" id="6puUMiQ$Sd1" role="lGtFl">
+                <node concept="1YBJjd" id="6puUMiQ$Sdb" role="2c44t1">
+                  <ref role="1YBMHb" node="6puUMiQ$SaU" resolve="statusType" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6puUMiQ$SaU" role="1YuTPh">
+      <property role="TrG5h" value="statusType" />
+      <ref role="1YaFvo" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
     </node>
   </node>
 </model>
