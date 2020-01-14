@@ -4639,12 +4639,35 @@
       </node>
       <node concept="3clFbJ" id="7yNVvqObLI3" role="3cqZAp">
         <node concept="3clFbS" id="7yNVvqObLI5" role="3clFbx">
-          <node concept="2MkqsV" id="7yNVvqObS5Q" role="3cqZAp">
-            <node concept="Xl_RD" id="7yNVvqObS65" role="2MkJ7o">
-              <property role="Xl_RC" value="Successor command pattern is not supported with compound actions." />
+          <node concept="3clFbJ" id="v5O1QhoTmM" role="3cqZAp">
+            <node concept="3clFbS" id="v5O1QhoTmO" role="3clFbx">
+              <node concept="3SKdUt" id="v5O1Qhp69p" role="3cqZAp">
+                <node concept="3SKdUq" id="v5O1Qhp69r" role="3SKWNk">
+                  <property role="3SKdUp" value="just one successor without condition. this is allowed for autocon. " />
+                </node>
+              </node>
+              <node concept="3clFbH" id="v5O1Qhpd5E" role="3cqZAp" />
             </node>
-            <node concept="1YBJjd" id="7yNVvqObS7T" role="2OEOjV">
-              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
+            <node concept="2OqwBi" id="v5O1QhpAsb" role="3clFbw">
+              <node concept="1YBJjd" id="v5O1QhpAna" role="2Oq$k0">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
+              </node>
+              <node concept="2qgKlT" id="v5O1QhpARJ" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:v5O1Qhpp2V" resolve="isPredecessorWithSingleUnconditionedSuccessor" />
+              </node>
+            </node>
+            <node concept="9aQIb" id="v5O1Qhpcrn" role="9aQIa">
+              <node concept="3clFbS" id="v5O1Qhpcro" role="9aQI4">
+                <node concept="2MkqsV" id="7yNVvqObS5Q" role="3cqZAp">
+                  <node concept="Xl_RD" id="7yNVvqObS65" role="2MkJ7o">
+                    <property role="Xl_RC" value="Successor command pattern is not supported with compound actions." />
+                  </node>
+                  <node concept="1YBJjd" id="7yNVvqObS7T" role="2OEOjV">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="v5O1Qhpd63" role="3cqZAp" />
+              </node>
             </node>
           </node>
         </node>

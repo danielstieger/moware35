@@ -14649,83 +14649,165 @@
           <property role="3SKdUp" value="stackoverflow when executed on itself .." />
         </node>
       </node>
-      <node concept="3clFbH" id="1WA0UCL95Ig" role="3cqZAp" />
-      <node concept="3cpWs8" id="1WA0UCLaabG" role="3cqZAp">
-        <node concept="3cpWsn" id="1WA0UCLaabJ" role="3cpWs9">
-          <property role="TrG5h" value="clType" />
-          <node concept="3Tqbb2" id="1WA0UCLaabE" role="1tU5fm" />
-          <node concept="2OqwBi" id="1WA0UCLaaie" role="33vP2m">
-            <node concept="2OqwBi" id="7mD_E071icy" role="2Oq$k0">
-              <node concept="1YBJjd" id="1WA0UCLaaif" role="2Oq$k0">
-                <ref role="1YBMHb" node="1WA0UCL95b_" resolve="selectOperation" />
-              </node>
-              <node concept="3TrEf2" id="7mD_E071in5" role="2OqNvi">
-                <ref role="3Tt5mk" to="tp2q:hv$um0C" />
-              </node>
-            </node>
-            <node concept="3JvlWi" id="1WA0UCLaaig" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="1WA0UCL95bO" role="3cqZAp">
-        <node concept="2OqwBi" id="1WA0UCL95Bp" role="3clFbw">
-          <node concept="1mIQ4w" id="1WA0UCL95Fq" role="2OqNvi">
-            <node concept="chp4Y" id="1WA0UCLaa8Z" role="cj9EA">
-              <ref role="cht4Q" to="tp2c:htajhBZ" resolve="FunctionType" />
+      <node concept="3clFbH" id="v5O1QhH0qF" role="3cqZAp" />
+      <node concept="3clFbJ" id="v5O1QhGZmL" role="3cqZAp">
+        <node concept="3clFbS" id="v5O1QhGZmN" role="3clFbx">
+          <node concept="3SKdUt" id="v5O1QhH0pF" role="3cqZAp">
+            <node concept="3SKdUq" id="v5O1QhH0pH" role="3SKWNk">
+              <property role="3SKdUp" value="only for select, not for forEach()" />
             </node>
           </node>
-          <node concept="37vLTw" id="1WA0UCLaaoD" role="2Oq$k0">
-            <ref role="3cqZAo" node="1WA0UCLaabJ" resolve="clType" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="1WA0UCL95bQ" role="3clFbx">
-          <node concept="3cpWs8" id="1WA0UCLaaqt" role="3cqZAp">
-            <node concept="3cpWsn" id="1WA0UCLaaqw" role="3cpWs9">
-              <property role="TrG5h" value="innerType" />
-              <node concept="3Tqbb2" id="1WA0UCLaaqr" role="1tU5fm">
-                <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+          <node concept="3cpWs8" id="1WA0UCLaabG" role="3cqZAp">
+            <node concept="3cpWsn" id="1WA0UCLaabJ" role="3cpWs9">
+              <property role="TrG5h" value="clType" />
+              <node concept="3Tqbb2" id="1WA0UCLaabE" role="1tU5fm" />
+              <node concept="2OqwBi" id="1WA0UCLaaie" role="33vP2m">
+                <node concept="1YBJjd" id="1WA0UCLaaif" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
+                </node>
+                <node concept="3JvlWi" id="1WA0UCLaaig" role="2OqNvi" />
               </node>
-              <node concept="2OqwBi" id="1WA0UCLaaz7" role="33vP2m">
-                <node concept="1PxgMI" id="1WA0UCLaav7" role="2Oq$k0">
-                  <ref role="1PxNhF" to="tp2c:htajhBZ" resolve="FunctionType" />
-                  <node concept="37vLTw" id="1WA0UCLaar4" role="1PxMeX">
-                    <ref role="3cqZAo" node="1WA0UCLaabJ" resolve="clType" />
+            </node>
+          </node>
+          <node concept="3clFbJ" id="1WA0UCL95bO" role="3cqZAp">
+            <node concept="2OqwBi" id="1WA0UCL95Bp" role="3clFbw">
+              <node concept="1mIQ4w" id="1WA0UCL95Fq" role="2OqNvi">
+                <node concept="chp4Y" id="1WA0UCLaa8Z" role="cj9EA">
+                  <ref role="cht4Q" to="tp2c:htajhBZ" resolve="FunctionType" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="1WA0UCLaaoD" role="2Oq$k0">
+                <ref role="3cqZAo" node="1WA0UCLaabJ" resolve="clType" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1WA0UCL95bQ" role="3clFbx">
+              <node concept="3cpWs8" id="1WA0UCLaaqt" role="3cqZAp">
+                <node concept="3cpWsn" id="1WA0UCLaaqw" role="3cpWs9">
+                  <property role="TrG5h" value="innerType" />
+                  <node concept="3Tqbb2" id="1WA0UCLaaqr" role="1tU5fm">
+                    <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+                  </node>
+                  <node concept="2OqwBi" id="1WA0UCLaaz7" role="33vP2m">
+                    <node concept="1PxgMI" id="1WA0UCLaav7" role="2Oq$k0">
+                      <ref role="1PxNhF" to="tp2c:htajhBZ" resolve="FunctionType" />
+                      <node concept="37vLTw" id="1WA0UCLaar4" role="1PxMeX">
+                        <ref role="3cqZAo" node="1WA0UCLaabJ" resolve="clType" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="1WA0UCLaaEn" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tp2c:htajldL" />
+                    </node>
                   </node>
                 </node>
-                <node concept="3TrEf2" id="1WA0UCLaaEn" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tp2c:htajldL" />
+              </node>
+              <node concept="3clFbJ" id="1WA0UCLaaFC" role="3cqZAp">
+                <node concept="3clFbS" id="1WA0UCLaaFE" role="3clFbx">
+                  <node concept="3cpWs8" id="YHavMgOTep" role="3cqZAp">
+                    <node concept="3cpWsn" id="YHavMgOTes" role="3cpWs9">
+                      <property role="TrG5h" value="sl" />
+                      <node concept="3Tqbb2" id="YHavMgOTen" role="1tU5fm">
+                        <ref role="ehGHo" to="tpee:fzclF80" resolve="StatementList" />
+                      </node>
+                      <node concept="2OqwBi" id="YHavMgORfw" role="33vP2m">
+                        <node concept="1YBJjd" id="YHavMgORcf" role="2Oq$k0">
+                          <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
+                        </node>
+                        <node concept="3TrEf2" id="YHavMh4cCT" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tp2c:htbW58J" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="YHavMgORbX" role="3cqZAp">
+                    <node concept="3clFbS" id="YHavMgORbZ" role="3clFbx">
+                      <node concept="2MkqsV" id="YHavMgP3H1" role="3cqZAp">
+                        <node concept="Xl_RD" id="YHavMgP3Hg" role="2MkJ7o">
+                          <property role="Xl_RC" value="MoWare MMRS known bug. ClosureLiterals with Status result-type should contain only one ExpressionStatement." />
+                        </node>
+                        <node concept="2OqwBi" id="YHavMh4d3C" role="2OEOjV">
+                          <node concept="1YBJjd" id="YHavMgP3Mz" role="2Oq$k0">
+                            <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
+                          </node>
+                          <node concept="1mfA1w" id="YHavMh4dk8" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="22lmx$" id="YHavMgOYGW" role="3clFbw">
+                      <node concept="3fqX7Q" id="YHavMgPPxn" role="3uHU7w">
+                        <node concept="2OqwBi" id="YHavMgPPxp" role="3fr31v">
+                          <node concept="2OqwBi" id="YHavMgPPxq" role="2Oq$k0">
+                            <node concept="2OqwBi" id="YHavMgPPxr" role="2Oq$k0">
+                              <node concept="37vLTw" id="YHavMgPPxs" role="2Oq$k0">
+                                <ref role="3cqZAo" node="YHavMgOTes" resolve="sl" />
+                              </node>
+                              <node concept="3Tsc0h" id="YHavMgPPxt" role="2OqNvi">
+                                <ref role="3TtcxE" to="tpee:fzcqZ_x" />
+                              </node>
+                            </node>
+                            <node concept="1uHKPH" id="YHavMgPPxu" role="2OqNvi" />
+                          </node>
+                          <node concept="1mIQ4w" id="YHavMgPPxv" role="2OqNvi">
+                            <node concept="chp4Y" id="YHavMgPPxw" role="cj9EA">
+                              <ref role="cht4Q" to="tpee:fzclF8j" resolve="ExpressionStatement" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3y3z36" id="YHavMgOYiX" role="3uHU7B">
+                        <node concept="2OqwBi" id="YHavMgOUNp" role="3uHU7B">
+                          <node concept="2OqwBi" id="YHavMgOTL$" role="2Oq$k0">
+                            <node concept="37vLTw" id="YHavMgOTDG" role="2Oq$k0">
+                              <ref role="3cqZAo" node="YHavMgOTes" resolve="sl" />
+                            </node>
+                            <node concept="3Tsc0h" id="YHavMgOU1z" role="2OqNvi">
+                              <ref role="3TtcxE" to="tpee:fzcqZ_x" />
+                            </node>
+                          </node>
+                          <node concept="34oBXx" id="YHavMgOX6a" role="2OqNvi" />
+                        </node>
+                        <node concept="3cmrfG" id="YHavMgOYrE" role="3uHU7w">
+                          <property role="3cmrfH" value="1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="YHavMgORbR" role="3cqZAp" />
+                  <node concept="3clFbH" id="YHavMgORbK" role="3cqZAp" />
+                  <node concept="3clFbH" id="YHavMgORbN" role="3cqZAp" />
+                </node>
+                <node concept="2OqwBi" id="1WA0UCLaaIq" role="3clFbw">
+                  <node concept="37vLTw" id="1WA0UCLaaG1" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1WA0UCLaaqw" resolve="innerType" />
+                  </node>
+                  <node concept="1mIQ4w" id="1WA0UCLaaRq" role="2OqNvi">
+                    <node concept="chp4Y" id="1WA0UCLaaSp" role="cj9EA">
+                      <ref role="cht4Q" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbJ" id="1WA0UCLaaFC" role="3cqZAp">
-            <node concept="3clFbS" id="1WA0UCLaaFE" role="3clFbx">
-              <node concept="2MkqsV" id="1WA0UCL8D03" role="3cqZAp">
-                <node concept="Xl_RD" id="1WA0UCL8D0i" role="2MkJ7o">
-                  <property role="Xl_RC" value="MoWare MMRS. We do have a bug here. Do not use closure literals on status type without castring :(" />
-                </node>
-                <node concept="1YBJjd" id="1WA0UCL8D43" role="2OEOjV">
-                  <ref role="1YBMHb" node="1WA0UCL95b_" resolve="selectOperation" />
-                </node>
-              </node>
+          <node concept="3clFbH" id="v5O1QhGZmM" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="v5O1QhGZWW" role="3clFbw">
+          <node concept="2OqwBi" id="v5O1QhGZt3" role="2Oq$k0">
+            <node concept="1YBJjd" id="v5O1QhGZo2" role="2Oq$k0">
+              <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
             </node>
-            <node concept="2OqwBi" id="1WA0UCLaaIq" role="3clFbw">
-              <node concept="37vLTw" id="1WA0UCLaaG1" role="2Oq$k0">
-                <ref role="3cqZAo" node="1WA0UCLaaqw" resolve="innerType" />
-              </node>
-              <node concept="1mIQ4w" id="1WA0UCLaaRq" role="2OqNvi">
-                <node concept="chp4Y" id="1WA0UCLaaSp" role="cj9EA">
-                  <ref role="cht4Q" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
-                </node>
-              </node>
+            <node concept="1mfA1w" id="v5O1QhGZLF" role="2OqNvi" />
+          </node>
+          <node concept="1mIQ4w" id="v5O1QhH0av" role="2OqNvi">
+            <node concept="chp4Y" id="v5O1QhH0b0" role="cj9EA">
+              <ref role="cht4Q" to="tp2q:hv$u5Zu" resolve="SelectOperation" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="1YaCAy" id="1WA0UCL95b_" role="1YuTPh">
-      <property role="TrG5h" value="selectOperation" />
-      <ref role="1YaFvo" to="tp2q:hv$u5Zu" resolve="SelectOperation" />
+      <property role="TrG5h" value="closureLiteral" />
+      <ref role="1YaFvo" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
     </node>
   </node>
   <node concept="2sgARr" id="6puUMiQ$SaR">

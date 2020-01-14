@@ -4982,5 +4982,62 @@
       </node>
     </node>
   </node>
+  <node concept="_UgoZ" id="v5O1QgViY4">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="MoWareMRStoMMRS2019_7" />
+    <property role="2BwPS$" value="MoWareMMRS_2019" />
+    <property role="_Wzho" value="(6) Marke 'know what doing' for op calls in testsuits only." />
+    <node concept="_XfAh" id="v5O1QgViY5" role="_YvDr">
+      <property role="_XH9r" value="Mark OPs in testsuit" />
+      <ref role="_XDHR" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+      <node concept="_ZGcI" id="v5O1QgViY6" role="_XPhp">
+        <node concept="3clFbS" id="v5O1QgViY7" role="2VODD2">
+          <node concept="3clFbF" id="v5O1QgVlNY" role="3cqZAp">
+            <node concept="37vLTI" id="v5O1QgVmcP" role="3clFbG">
+              <node concept="3clFbT" id="v5O1QgVmdf" role="37vLTx">
+                <property role="3clFbU" value="true" />
+              </node>
+              <node concept="2OqwBi" id="v5O1QgVlRL" role="37vLTJ">
+                <node concept="_YI3z" id="v5O1QgVlNW" role="2Oq$k0" />
+                <node concept="3TrcHB" id="v5O1QgVm1y" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:7PeCy_MumjV" resolve="knowWhatDoing" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="v5O1QgViY9" role="_XDHO">
+        <node concept="3clFbS" id="v5O1QgViYa" role="2VODD2">
+          <node concept="3clFbF" id="v5O1QgVjw$" role="3cqZAp">
+            <node concept="1Wc70l" id="v5O1QgVkkE" role="3clFbG">
+              <node concept="2OqwBi" id="v5O1QgVkW9" role="3uHU7w">
+                <node concept="2OqwBi" id="v5O1QgVkti" role="2Oq$k0">
+                  <node concept="_YI3z" id="v5O1QgVknH" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="v5O1QgVkE6" role="2OqNvi">
+                    <node concept="1xMEDy" id="v5O1QgVkE8" role="1xVPHs">
+                      <node concept="chp4Y" id="v5O1QgVkHM" role="ri$Ld">
+                        <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="v5O1QgVlIW" role="2OqNvi" />
+              </node>
+              <node concept="2OqwBi" id="v5O1QgVk5N" role="3uHU7B">
+                <node concept="2OqwBi" id="v5O1QgVj_T" role="2Oq$k0">
+                  <node concept="_YI3z" id="v5O1QgVjwz" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="v5O1QgVjU8" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:2P7gGuypd_d" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="v5O1QgVkdm" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
