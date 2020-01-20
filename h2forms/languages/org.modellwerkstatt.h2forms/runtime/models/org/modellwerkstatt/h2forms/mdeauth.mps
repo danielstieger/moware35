@@ -22,6 +22,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -460,14 +461,27 @@
             </node>
           </node>
           <node concept="3eNFk2" id="6PcZc$6eYwK" role="3eNLev">
-            <node concept="2OqwBi" id="6PcZc$6eYBw" role="3eO9$A">
-              <node concept="Xl_RD" id="6PcZc$6eYAm" role="2Oq$k0">
-                <property role="Xl_RC" value="com.scandit.enterprisebrowser" />
+            <node concept="22lmx$" id="7YzIafO7vcP" role="3eO9$A">
+              <node concept="2OqwBi" id="7YzIafO7vh9" role="3uHU7w">
+                <node concept="37vLTw" id="7YzIafO7veZ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="7YzIafO7vj0" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <node concept="Xl_RD" id="7YzIafO7vku" role="37wK5m">
+                    <property role="Xl_RC" value="Scandit" />
+                  </node>
+                </node>
               </node>
-              <node concept="liA8E" id="6PcZc$6eYDT" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="37vLTw" id="6PcZc$6eYFf" role="37wK5m">
-                  <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
+              <node concept="2OqwBi" id="6PcZc$6eYBw" role="3uHU7B">
+                <node concept="Xl_RD" id="6PcZc$6eYAm" role="2Oq$k0">
+                  <property role="Xl_RC" value="com.scandit.enterprisebrowser" />
+                </node>
+                <node concept="liA8E" id="6PcZc$6eYDT" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="37vLTw" id="6PcZc$6eYFf" role="37wK5m">
+                    <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
+                  </node>
                 </node>
               </node>
             </node>
