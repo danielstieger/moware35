@@ -16719,13 +16719,24 @@
         <node concept="3cpWs6" id="3NtYyHZN1DY" role="3cqZAp">
           <node concept="2OqwBi" id="2IXpZ5Jm8Jo" role="3cqZAk">
             <node concept="2OqwBi" id="3NtYyHZN2eN" role="2Oq$k0">
-              <node concept="37vLTw" id="3NtYyHZN29m" role="2Oq$k0">
-                <ref role="3cqZAo" node="2LoYshJC2QR" resolve="name" />
+              <node concept="2OqwBi" id="5_OUUFYbUaL" role="2Oq$k0">
+                <node concept="37vLTw" id="3NtYyHZN29m" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2LoYshJC2QR" resolve="name" />
+                </node>
+                <node concept="liA8E" id="5_OUUFYbUnS" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="5_OUUFYbUqL" role="37wK5m">
+                    <property role="Xl_RC" value="-" />
+                  </node>
+                  <node concept="Xl_RD" id="5_OUUFYbUAH" role="37wK5m">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
               </node>
               <node concept="liA8E" id="3NtYyHZN2UB" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
                 <node concept="Xl_RD" id="3NtYyHZN2Yv" role="37wK5m">
-                  <property role="Xl_RC" value="[^\\dA-Za-z_-]" />
+                  <property role="Xl_RC" value="[^\\dA-Za-z_]" />
                 </node>
                 <node concept="Xl_RD" id="3NtYyHZN3b3" role="37wK5m">
                   <property role="Xl_RC" value="_" />
