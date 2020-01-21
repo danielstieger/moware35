@@ -373,7 +373,17 @@
         <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
       </node>
     </node>
-    <node concept="2tJIrI" id="59qqFijcp$9" role="jymVt" />
+    <node concept="3clFb_" id="2IXpZ5J4bHg" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createCommandContainer" />
+      <node concept="3clFbS" id="2IXpZ5J4bHj" role="3clF47" />
+      <node concept="3Tm1VV" id="2IXpZ5J4bHk" role="1B3o_S" />
+      <node concept="3uibUv" id="2IXpZ5J4bBX" role="3clF45">
+        <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2IXpZ5J4byI" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBdaPD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createToolkitFormContainer" />

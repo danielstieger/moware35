@@ -49,4 +49,5 @@
     </div>
 {% endfor %}
 </div>
+<div class="w3-container"><div class="w3-right sv-tiny"> Device {{ client.device }} </div> </div>
 {% endblock %}
