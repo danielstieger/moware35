@@ -4403,5 +4403,52 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="51llZt55MSr">
+    <property role="1pbfSe" value="1788049902" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="Guard" />
+    <property role="34LRSv" value="guard" />
+    <property role="R4oN_" value="ensure condition always true" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="51llZt55NgM" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="51llZt55RjC" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="desc" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="51llZt55NQc" resolve="ProblemMessage" />
+    </node>
+    <node concept="1TJgyj" id="51llZt55RjF" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="translatedEx" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="51llZt55NQc">
+    <property role="1pbfSe" value="1788045949" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="ProblemMessage" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="51llZt55OgY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="problem" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="51llZt55Oh0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="instance" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="51llZt55Oh3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="solution" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
