@@ -6627,5 +6627,70 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="51llZt687vl">
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="TwoLinerForCheck" />
+    <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Check" />
+    <node concept="2S6ZIM" id="51llZt687vm" role="2ZfVej">
+      <node concept="3clFbS" id="51llZt687vn" role="2VODD2">
+        <node concept="3clFbF" id="51llZt687wK" role="3cqZAp">
+          <node concept="Xl_RD" id="51llZt687wJ" role="3clFbG">
+            <property role="Xl_RC" value="Toggle two-line editor for check." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="51llZt687vo" role="2ZfgGD">
+      <node concept="3clFbS" id="51llZt687vp" role="2VODD2">
+        <node concept="3clFbF" id="51llZt687HM" role="3cqZAp">
+          <node concept="37vLTI" id="51llZt6882x" role="3clFbG">
+            <node concept="3fqX7Q" id="51llZt6882Y" role="37vLTx">
+              <node concept="2OqwBi" id="51llZt6888g" role="3fr31v">
+                <node concept="2Sf5sV" id="51llZt6884C" role="2Oq$k0" />
+                <node concept="3TrcHB" id="51llZt688fX" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:51llZt686Mc" resolve="twoLined" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="51llZt687Kx" role="37vLTJ">
+              <node concept="2Sf5sV" id="51llZt687HL" role="2Oq$k0" />
+              <node concept="3TrcHB" id="51llZt687Ri" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:51llZt686Mc" resolve="twoLined" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="51llZt6khXb">
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="AddOptionToCheck" />
+    <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Check" />
+    <node concept="2S6ZIM" id="51llZt6khXc" role="2ZfVej">
+      <node concept="3clFbS" id="51llZt6khXd" role="2VODD2">
+        <node concept="3clFbF" id="51llZt6khY$" role="3cqZAp">
+          <node concept="Xl_RD" id="51llZt6khYz" role="3clFbG">
+            <property role="Xl_RC" value="Add options to this check" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="51llZt6khXe" role="2ZfgGD">
+      <node concept="3clFbS" id="51llZt6khXf" role="2VODD2">
+        <node concept="3clFbF" id="51llZt6ki4A" role="3cqZAp">
+          <node concept="2OqwBi" id="51llZt6kiCP" role="3clFbG">
+            <node concept="2OqwBi" id="51llZt6ki7l" role="2Oq$k0">
+              <node concept="2Sf5sV" id="51llZt6ki4_" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="51llZt6kie7" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:51llZt6clG5" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="51llZt6kjn2" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

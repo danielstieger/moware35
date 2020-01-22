@@ -4424,7 +4424,7 @@
     </node>
     <node concept="1TJgyj" id="51llZt55RjF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="translatedEx" />
+      <property role="20kJfa" value="forwardedEx" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
@@ -4448,6 +4448,48 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="solution" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="51llZt605sG">
+    <property role="1pbfSe" value="1772769501" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="Check" />
+    <property role="34LRSv" value=":" />
+    <property role="R4oN_" value="check condition or report problem" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyi" id="51llZt686Mc" role="1TKVEl">
+      <property role="TrG5h" value="twoLined" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="51llZt605Go" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="51llZt605Gq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="problemdesc" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="51llZt55NQc" resolve="ProblemMessage" />
+    </node>
+    <node concept="1TJgyj" id="51llZt6clG5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="51llZt6ckhQ" resolve="CheckOptionRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="51llZt6ckhQ">
+    <property role="1pbfSe" value="1769563027" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="CheckOptionRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="51llZt6ckhR" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="option" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fKQsSyN" resolve="EnumConstantDeclaration" />
     </node>
   </node>
 </model>
