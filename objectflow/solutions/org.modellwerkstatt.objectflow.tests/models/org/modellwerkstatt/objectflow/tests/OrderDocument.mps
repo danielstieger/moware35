@@ -1173,7 +1173,7 @@
         <node concept="3clFbH" id="51llZt6ckdw" role="3cqZAp" />
         <node concept="3clFbF" id="51llZt6poJl" role="3cqZAp">
           <node concept="1mgVXT" id="51llZt6poNr" role="3clFbG">
-            <property role="1mgVXS" value="1.0bdbd" />
+            <property role="1mgVXS" value="1.0bd" />
           </node>
         </node>
         <node concept="3clFbH" id="51llZt6poO6" role="3cqZAp" />
