@@ -94,6 +94,10 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -113,7 +117,13 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
@@ -137,7 +147,6 @@
       <concept id="1202077725299" name="jetbrains.mps.baseLanguage.structure.DefaultSetAccessor" flags="ng" index="3xqBd$">
         <child id="1202077744034" name="visibility" index="3xqFEP" />
       </concept>
-      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -155,7 +164,6 @@
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
-      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
@@ -180,6 +188,16 @@
         <property id="5788629615599709324" name="twoLined" index="mtjHV" />
         <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
         <child id="5788629615597607704" name="condition" index="mlgNJ" />
+      </concept>
+      <concept id="7919209473516657581" name="org.modellwerkstatt.objectflow.structure.StatusElementReference" flags="ng" index="2vefiz">
+        <reference id="7919209473516657582" name="statusElement" index="2vefiw" />
+      </concept>
+      <concept id="7919209473516657270" name="org.modellwerkstatt.objectflow.structure.StatusOfOperator" flags="ng" index="2veflS">
+        <child id="7919209473516657611" name="statusElements" index="2vefj5" />
+        <child id="7919209473516657283" name="statusLeftSide" index="2vefmd" />
+      </concept>
+      <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T">
+        <child id="7919209473506369827" name="preconditions" index="2vDWSH" />
       </concept>
       <concept id="8009046666043401703" name="org.modellwerkstatt.objectflow.structure.ModelRepository" flags="ig" index="wbJL_" />
       <concept id="8009046666042261418" name="org.modellwerkstatt.objectflow.structure.ValueObject" flags="ig" index="xR6oC">
@@ -293,6 +311,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1113,99 +1138,81 @@
   </node>
   <node concept="2EH5hC" id="51llZt4Wh6z">
     <property role="TrG5h" value="ODS" />
-    <node concept="3clFb_" id="51llZt4XRYL" role="jymVt">
+    <node concept="2vDG_T" id="6RAFKVMu98R" role="jymVt">
       <property role="TrG5h" value="order" />
-      <node concept="37vLTG" id="51llZt4XSb9" role="3clF46">
+      <node concept="37vLTG" id="6RAFKVMEX1B" role="3clF46">
         <property role="TrG5h" value="od" />
-        <node concept="3uibUv" id="51llZt4XSbQ" role="1tU5fm">
+        <node concept="3uibUv" id="6RAFKVMEX2H" role="1tU5fm">
           <ref role="3uigEE" node="51llZt4WfOY" resolve="OrderDocument" />
         </node>
       </node>
-      <node concept="3cqZAl" id="51llZt4XRYM" role="3clF45" />
-      <node concept="3Tm1VV" id="51llZt6ckcc" role="1B3o_S" />
-      <node concept="3clFbS" id="51llZt4XRYO" role="3clF47">
-        <node concept="3clFbH" id="51llZt6ckdY" role="3cqZAp" />
-        <node concept="mlg3r" id="51llZt686n6" role="3cqZAp">
-          <property role="mtjHV" value="true" />
-          <node concept="1Wc70l" id="51llZt686vQ" role="mlgNJ">
-            <node concept="3y3z36" id="51llZt686CO" role="3uHU7w">
-              <node concept="2XvMaL" id="51llZt686Fc" role="3uHU7w">
-                <ref role="2XvMaQ" node="51llZt4WidE" resolve="OrderDocStatus" />
-                <ref role="1Vchh_" node="51llZt4Wik0" resolve="Revisioned" />
+      <node concept="mlg3r" id="51llZt686n6" role="2vDWSH">
+        <property role="mtjHV" value="true" />
+        <node concept="3fqX7Q" id="6RAFKVNaD85" role="mlgNJ">
+          <node concept="1eOMI4" id="6RAFKVNaD8h" role="3fr31v">
+            <node concept="2veflS" id="6RAFKVNaDkV" role="1eOMHV">
+              <node concept="2vefiz" id="6RAFKVNaDmb" role="2vefj5">
+                <ref role="2vefiw" node="51llZt4WidF" resolve="Draft" />
               </node>
-              <node concept="2OqwBi" id="51llZt686zD" role="3uHU7B">
-                <node concept="37vLTw" id="51llZt686xH" role="2Oq$k0">
-                  <ref role="3cqZAo" node="51llZt4XSb9" resolve="od" />
+              <node concept="2vefiz" id="6RAFKVNaDoh" role="2vefj5">
+                <ref role="2vefiw" node="51llZt4Wik0" resolve="Revisioned" />
+              </node>
+              <node concept="2OqwBi" id="6RAFKVNaD8d" role="2vefmd">
+                <node concept="37vLTw" id="6RAFKVNaD8e" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6RAFKVMEX1B" resolve="od" />
                 </node>
-                <node concept="2S8uIT" id="51llZt686_V" role="2OqNvi">
+                <node concept="2S8uIT" id="6RAFKVNaD8f" role="2OqNvi">
                   <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
                 </node>
               </node>
             </node>
-            <node concept="3y3z36" id="51llZt686qR" role="3uHU7B">
-              <node concept="2OqwBi" id="51llZt686ow" role="3uHU7B">
-                <node concept="37vLTw" id="51llZt686nW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="51llZt4XSb9" resolve="od" />
-                </node>
-                <node concept="2S8uIT" id="51llZt686pr" role="2OqNvi">
-                  <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
-                </node>
-              </node>
-              <node concept="2XvMaL" id="51llZt686sP" role="3uHU7w">
-                <ref role="2XvMaQ" node="51llZt4WidE" resolve="OrderDocStatus" />
-                <ref role="1Vchh_" node="51llZt4WidF" resolve="Draft" />
-              </node>
-            </node>
-          </node>
-          <node concept="lgADV" id="51llZt686n9" role="mlgNH">
-            <node concept="35AVbj" id="51llZt686na" role="lgxf9">
-              <property role="35AVef" value="One can order only in state Draft or state Revisioned" />
-            </node>
-            <node concept="37vLTw" id="51llZt686L8" role="lgxeR">
-              <ref role="3cqZAo" node="51llZt4XSb9" resolve="od" />
-            </node>
-            <node concept="35AVbj" id="51llZt686LC" role="lgxeO">
-              <property role="35AVef" value="You have to revision this order document first." />
-            </node>
           </node>
         </node>
-        <node concept="3clFbH" id="51llZt686nG" role="3cqZAp" />
-        <node concept="3clFbH" id="51llZt6ckdw" role="3cqZAp" />
-        <node concept="3clFbF" id="51llZt6poJl" role="3cqZAp">
-          <node concept="1mgVXT" id="51llZt6poNr" role="3clFbG">
-            <property role="1mgVXS" value="1.0bd" />
+        <node concept="lgADV" id="51llZt686n9" role="mlgNH">
+          <node concept="35AVbj" id="51llZt686na" role="lgxf9">
+            <property role="35AVef" value="One can order only in state Draft or state Revisioned" />
+          </node>
+          <node concept="37vLTw" id="51llZt686L8" role="lgxeR">
+            <ref role="3cqZAo" node="6RAFKVMEX1B" resolve="od" />
+          </node>
+          <node concept="35AVbj" id="51llZt686LC" role="lgxeO">
+            <property role="35AVef" value="You have to revision this order document first." />
           </node>
         </node>
-        <node concept="3clFbH" id="51llZt6poO6" role="3cqZAp" />
-        <node concept="3SKdUt" id="51llZt4XSHY" role="3cqZAp">
-          <node concept="3SKdUq" id="51llZt4XSI0" role="3SKWNk">
-            <property role="3SKdUp" value="at least on position, status draft or revisioned" />
+      </node>
+      <node concept="3cqZAl" id="6RAFKVMu98U" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVNh02X" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMu98W" role="3clF47">
+        <node concept="3clFbH" id="6RAFKVNh02l" role="3cqZAp" />
+        <node concept="3clFbH" id="6RAFKVNpjK2" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="51llZt4XS9u" role="jymVt">
+      <property role="TrG5h" value="complete" />
+      <node concept="3cqZAl" id="51llZt4XS9v" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVNh03j" role="1B3o_S" />
+      <node concept="3clFbS" id="51llZt4XS9x" role="3clF47">
+        <node concept="3clFbJ" id="6RAFKVNpjLr" role="3cqZAp">
+          <node concept="3clFbS" id="6RAFKVNpjLt" role="3clFbx">
+            <node concept="3clFbH" id="6RAFKVNpjLs" role="3cqZAp" />
           </node>
-        </node>
-        <node concept="3clFbF" id="51llZt4XScI" role="3cqZAp">
-          <node concept="37vLTI" id="51llZt4XSf_" role="3clFbG">
-            <node concept="2XvMaL" id="51llZt4XSh3" role="37vLTx">
-              <ref role="2XvMaQ" node="51llZt4WidE" resolve="OrderDocStatus" />
-              <ref role="1Vchh_" node="51llZt4Wigi" resolve="Ordered" />
+          <node concept="2veflS" id="6RAFKVNpjRG" role="3clFbw">
+            <node concept="2vefiz" id="6RAFKVNpjTc" role="2vefj5">
+              <ref role="2vefiw" node="51llZt4Wiih" resolve="Completed" />
             </node>
-            <node concept="2OqwBi" id="51llZt4XSdg" role="37vLTJ">
-              <node concept="37vLTw" id="51llZt4XScH" role="2Oq$k0">
-                <ref role="3cqZAo" node="51llZt4XSb9" resolve="od" />
+            <node concept="2vefiz" id="6RAFKVNpjVM" role="2vefj5">
+              <ref role="2vefiw" node="51llZt4WidF" resolve="Draft" />
+            </node>
+            <node concept="2OqwBi" id="6RAFKVNpjMx" role="2vefmd">
+              <node concept="37vLTw" id="6RAFKVNpjLT" role="2Oq$k0">
+                <ref role="3cqZAo" node="51llZt4XSau" resolve="od" />
               </node>
-              <node concept="2S8uIT" id="51llZt4XSea" role="2OqNvi">
+              <node concept="2S8uIT" id="6RAFKVNpjNx" role="2OqNvi">
                 <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
               </node>
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="51llZt4XSGG" role="jymVt" />
-    <node concept="3clFb_" id="51llZt4XS9u" role="jymVt">
-      <property role="TrG5h" value="complete" />
-      <node concept="3cqZAl" id="51llZt4XS9v" role="3clF45" />
-      <node concept="3Tm1VV" id="51llZt4XS9w" role="1B3o_S" />
-      <node concept="3clFbS" id="51llZt4XS9x" role="3clF47">
         <node concept="3SKdUt" id="51llZt4XSJK" role="3cqZAp">
           <node concept="3SKdUq" id="51llZt4XSJM" role="3SKWNk">
             <property role="3SKdUp" value="status has to be ordered" />
@@ -1730,12 +1737,16 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="51llZt4XST$" role="3cqZAp">
-          <node concept="1odsa" id="51llZt4XSTy" role="3clFbG">
-            <ref role="1ods_" node="51llZt4Wh6z" resolve="ODS" />
-            <ref role="37wK5l" node="51llZt4XRYL" resolve="order" />
-            <node concept="37vLTw" id="51llZt4XSWg" role="37wK5m">
-              <ref role="3cqZAo" node="51llZt4XSLd" resolve="od" />
+        <node concept="1X3_iC" id="6RAFKVNqYOx" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="51llZt4XST$" role="8Wnug">
+            <node concept="1odsa" id="51llZt4XSTy" role="3clFbG">
+              <ref role="1ods_" node="51llZt4Wh6z" resolve="ODS" />
+              <ref role="37wK5l" node="6RAFKVMu98R" resolve="order" />
+              <node concept="37vLTw" id="51llZt4XSWg" role="37wK5m">
+                <ref role="3cqZAo" node="51llZt4XSLd" resolve="od" />
+              </node>
             </node>
           </node>
         </node>
@@ -2249,15 +2260,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="51llZt5F69v" role="3cqZAp">
-          <node concept="1odsa" id="51llZt5F69w" role="3clFbG">
-            <ref role="1ods_" node="51llZt4Wh6z" resolve="ODS" />
-            <ref role="37wK5l" node="51llZt4XRYL" resolve="order" />
-            <node concept="37vLTw" id="51llZt5F69x" role="37wK5m">
-              <ref role="3cqZAo" node="51llZt5F69h" resolve="od" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="51llZt5F69y" role="3cqZAp" />
         <node concept="3clFbF" id="51llZt5F69z" role="3cqZAp">
           <node concept="37vLTI" id="51llZt5F69$" role="3clFbG">
@@ -2272,15 +2274,6 @@
               <node concept="2S8uIT" id="51llZt5F69C" role="2OqNvi">
                 <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="51llZt5F69D" role="3cqZAp">
-          <node concept="1odsa" id="51llZt5F69E" role="3clFbG">
-            <ref role="37wK5l" node="51llZt4XRYL" resolve="order" />
-            <ref role="1ods_" node="51llZt4Wh6z" resolve="ODS" />
-            <node concept="37vLTw" id="51llZt5F69F" role="37wK5m">
-              <ref role="3cqZAo" node="51llZt5F69h" resolve="od" />
             </node>
           </node>
         </node>

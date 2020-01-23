@@ -2666,33 +2666,41 @@
                   </node>
                 </node>
               </node>
-              <node concept="22lmx$" id="5xcCl6o0FBD" role="3clFbw">
-                <node concept="22lmx$" id="5xcCl6o0EYV" role="3uHU7B">
-                  <node concept="22lmx$" id="5xcCl6o0EYW" role="3uHU7B">
-                    <node concept="3clFbC" id="5xcCl6o0EYX" role="3uHU7B">
-                      <node concept="otxO1" id="5xcCl6o0EYY" role="3uHU7B" />
-                      <node concept="3TUQnm" id="5xcCl6o0EYZ" role="3uHU7w">
-                        <ref role="3TV0OU" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
-                      </node>
-                    </node>
-                    <node concept="3clFbC" id="5xcCl6o0EZ0" role="3uHU7w">
-                      <node concept="otxO1" id="5xcCl6o0EZ1" role="3uHU7B" />
-                      <node concept="3TUQnm" id="5xcCl6o0EZ2" role="3uHU7w">
-                        <ref role="3TV0OU" to="tpee:fzclF84" resolve="ConstructorDeclaration" />
-                      </node>
-                    </node>
+              <node concept="22lmx$" id="6RAFKVMgzFx" role="3clFbw">
+                <node concept="3clFbC" id="6RAFKVMg$sW" role="3uHU7w">
+                  <node concept="3TUQnm" id="6RAFKVMg$zY" role="3uHU7w">
+                    <ref role="3TV0OU" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
                   </node>
-                  <node concept="3clFbC" id="5xcCl6o0EZ3" role="3uHU7w">
-                    <node concept="otxO1" id="5xcCl6o0EZ5" role="3uHU7B" />
-                    <node concept="3TUQnm" id="5xcCl6o0EZ4" role="3uHU7w">
-                      <ref role="3TV0OU" to="tpee:1hodSy9TH5A" resolve="PlaceholderMember" />
-                    </node>
-                  </node>
+                  <node concept="otxO1" id="6RAFKVMgzMz" role="3uHU7B" />
                 </node>
-                <node concept="3clFbC" id="5xcCl6o0GkC" role="3uHU7w">
-                  <node concept="otxO1" id="5xcCl6o0FVW" role="3uHU7B" />
-                  <node concept="3TUQnm" id="5xcCl6o0GCF" role="3uHU7w">
-                    <ref role="3TV0OU" to="tpee:fz12cDC" resolve="FieldDeclaration" />
+                <node concept="22lmx$" id="5xcCl6o0FBD" role="3uHU7B">
+                  <node concept="22lmx$" id="5xcCl6o0EYV" role="3uHU7B">
+                    <node concept="22lmx$" id="5xcCl6o0EYW" role="3uHU7B">
+                      <node concept="3clFbC" id="5xcCl6o0EYX" role="3uHU7B">
+                        <node concept="otxO1" id="5xcCl6o0EYY" role="3uHU7B" />
+                        <node concept="3TUQnm" id="5xcCl6o0EYZ" role="3uHU7w">
+                          <ref role="3TV0OU" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+                        </node>
+                      </node>
+                      <node concept="3clFbC" id="5xcCl6o0EZ0" role="3uHU7w">
+                        <node concept="otxO1" id="5xcCl6o0EZ1" role="3uHU7B" />
+                        <node concept="3TUQnm" id="5xcCl6o0EZ2" role="3uHU7w">
+                          <ref role="3TV0OU" to="tpee:fzclF84" resolve="ConstructorDeclaration" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbC" id="5xcCl6o0EZ3" role="3uHU7w">
+                      <node concept="otxO1" id="5xcCl6o0EZ5" role="3uHU7B" />
+                      <node concept="3TUQnm" id="5xcCl6o0EZ4" role="3uHU7w">
+                        <ref role="3TV0OU" to="tpee:1hodSy9TH5A" resolve="PlaceholderMember" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="5xcCl6o0GkC" role="3uHU7w">
+                    <node concept="otxO1" id="5xcCl6o0FVW" role="3uHU7B" />
+                    <node concept="3TUQnm" id="5xcCl6o0GCF" role="3uHU7w">
+                      <ref role="3TV0OU" to="tpee:fz12cDC" resolve="FieldDeclaration" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -5249,6 +5257,16 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6RAFKVMR_J3">
+    <property role="3GE5qa" value="Status" />
+    <ref role="1M2myG" to="un0u:6RAFKVMR_IH" resolve="StatusElementReference" />
+    <node concept="1N5Pfh" id="6RAFKVMR_J4" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:6RAFKVMR_II" />
+      <node concept="1dDu$B" id="6RAFKVMR_J8" role="1N6uqs">
+        <ref role="1dDu$A" to="un0u:3VCHlE3_rxm" resolve="StatusElement" />
       </node>
     </node>
   </node>

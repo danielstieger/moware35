@@ -4492,5 +4492,76 @@
       <ref role="20lvS9" to="tpee:fKQsSyN" resolve="EnumConstantDeclaration" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6RAFKVMg6pR">
+    <property role="1pbfSe" value="1613174149" />
+    <property role="3GE5qa" value="Service" />
+    <property role="TrG5h" value="ServiceInstanceMethodDeclaration" />
+    <property role="34LRSv" value="service method" />
+    <property role="R4oN_" value="standard service method" />
+    <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+    <node concept="1TJgyj" id="6RAFKVMgm4z" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="preconditions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="51llZt605sG" resolve="Check" />
+    </node>
+    <node concept="1TJgyj" id="6RAFKVMgmil" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="domainEvent" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6RAFKVMgm4_" resolve="DomainEvent" />
+    </node>
+    <node concept="PrWs8" id="6RAFKVMF6tV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6RAFKVMgm4_">
+    <property role="1pbfSe" value="1613238323" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="DomainEvent" />
+    <property role="34LRSv" value="domain event" />
+    <property role="R4oN_" value="issued on sucess " />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6RAFKVMgm5e" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="humanMessage" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6RAFKVMR_DQ">
+    <property role="1pbfSe" value="1623525764" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusOfOperator" />
+    <property role="R4oN_" value="status operator one of" />
+    <property role="34LRSv" value="of" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="6RAFKVMR_E3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="statusLeftSide" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="6RAFKVMR_Jb" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="statusElements" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="6RAFKVMR_IH" resolve="StatusElementReference" />
+    </node>
+    <node concept="PrWs8" id="6RAFKVMR_Jr" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6RAFKVMR_IH">
+    <property role="1pbfSe" value="1623526075" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusElementReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6RAFKVMR_II" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="statusElement" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3VCHlE3_rxm" resolve="StatusElement" />
+    </node>
+  </node>
 </model>
 

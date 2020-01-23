@@ -53592,7 +53592,7 @@
           <node concept="1rXfSq" id="51llZt5Pq0Z" role="3cqZAk">
             <ref role="37wK5l" node="51llZt5Plye" resolve="hasOption" />
             <node concept="Rm8GO" id="51llZt5Pu2B" role="37wK5m">
-              <ref role="Rm8GQ" node="51llZt5Ptbk" resolve="WARNING_ONLY" />
+              <ref role="Rm8GQ" node="51llZt5Ptbk" resolve="WARNING_HINT" />
               <ref role="1Px2BO" node="51llZt5Ptbj" resolve="IOFXProblem.Opt" />
             </node>
           </node>
@@ -53625,6 +53625,22 @@
             <ref role="37wK5l" node="51llZt5Plye" resolve="hasOption" />
             <node concept="Rm8GO" id="51llZt5Puw1" role="37wK5m">
               <ref role="Rm8GQ" node="51llZt5Ptbm" resolve="JOB_ITEM_ALREAD_DONE" />
+              <ref role="1Px2BO" node="51llZt5Ptbj" resolve="IOFXProblem.Opt" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg3qe" role="jymVt">
+      <property role="TrG5h" value="isStopProcessing" />
+      <node concept="10P_77" id="6RAFKVMg3qf" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg3qg" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg3qh" role="3clF47">
+        <node concept="3cpWs6" id="6RAFKVMg3qi" role="3cqZAp">
+          <node concept="1rXfSq" id="6RAFKVMg3qj" role="3cqZAk">
+            <ref role="37wK5l" node="51llZt5Plye" resolve="hasOption" />
+            <node concept="Rm8GO" id="6RAFKVMg3MB" role="37wK5m">
+              <ref role="Rm8GQ" node="6RAFKVMg2lI" resolve="STOP" />
               <ref role="1Px2BO" node="51llZt5Ptbj" resolve="IOFXProblem.Opt" />
             </node>
           </node>
@@ -53703,12 +53719,86 @@
     <property role="3GE5qa" value="OFXArchitecture" />
     <property role="TrG5h" value="IOFXProblem" />
     <node concept="2tJIrI" id="51llZt5Pk2c" role="jymVt" />
+    <node concept="3clFb_" id="6RAFKVMg4G0" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getProblemDescOrNull" />
+      <node concept="17QB3L" id="6RAFKVMg4QZ" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg4G3" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg4G4" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg4TC" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getInstanceDescOrNull" />
+      <node concept="17QB3L" id="6RAFKVMg4TD" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg4TE" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg4TF" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg52_" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getSolutionDescOrNull" />
+      <node concept="17QB3L" id="6RAFKVMg52A" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg52B" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg52C" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6RAFKVMg4xP" role="jymVt" />
+    <node concept="3clFb_" id="6RAFKVMg5RN" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getForwardedEx" />
+      <node concept="3uibUv" id="6RAFKVMg64e" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+      </node>
+      <node concept="3Tm1VV" id="6RAFKVMg5RQ" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg5RR" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6RAFKVMg5ik" role="jymVt" />
+    <node concept="3clFb_" id="6RAFKVMg44Y" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="hasForwardedEx" />
+      <node concept="10P_77" id="6RAFKVMg46k" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg451" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg452" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg5r7" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isFromGuard" />
+      <node concept="10P_77" id="6RAFKVMg5r8" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg5r9" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg5ra" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg46t" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isWarningOnly" />
+      <node concept="10P_77" id="6RAFKVMg46u" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg46v" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg46w" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg46N" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isJobIgnore" />
+      <node concept="10P_77" id="6RAFKVMg46O" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg46P" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg46Q" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg47d" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isJobItemAlreadDone" />
+      <node concept="10P_77" id="6RAFKVMg47e" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg47f" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg47g" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6RAFKVMg47F" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isStopProcessing" />
+      <node concept="10P_77" id="6RAFKVMg47G" role="3clF45" />
+      <node concept="3Tm1VV" id="6RAFKVMg47H" role="1B3o_S" />
+      <node concept="3clFbS" id="6RAFKVMg47I" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="51llZt5PtbX" role="jymVt" />
     <node concept="Qs71p" id="51llZt5Ptbj" role="jymVt">
       <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="Opt" />
       <node concept="QsSxf" id="51llZt5Ptbk" role="Qtgdg">
-        <property role="TrG5h" value="WARNING_ONLY" />
+        <property role="TrG5h" value="WARNING_HINT" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="51llZt5Ptbl" role="Qtgdg">
@@ -53717,6 +53807,10 @@
       </node>
       <node concept="QsSxf" id="51llZt5Ptbm" role="Qtgdg">
         <property role="TrG5h" value="JOB_ITEM_ALREAD_DONE" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="6RAFKVMg2lI" role="Qtgdg">
+        <property role="TrG5h" value="STOP" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="51llZt5Ptbn" role="1B3o_S" />
