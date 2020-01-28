@@ -12035,6 +12035,7 @@
     <ref role="1XX52x" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
     <node concept="3EZMnI" id="6RAFKVMg6DZ" role="2wV5jI">
       <property role="3EZMnw" value="true" />
+      <property role="S$Qs1" value="true" />
       <node concept="VPM3Z" id="6RAFKVMg6E0" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
@@ -12231,6 +12232,32 @@
         </node>
       </node>
       <node concept="l2Vlx" id="6RAFKVMg6Eh" role="2iSdaV" />
+      <node concept="1HlG4h" id="5G28P6H1Nbo" role="AHCbl">
+        <node concept="1HfYo3" id="5G28P6H1Nbq" role="1HlULh">
+          <node concept="3TQlhw" id="5G28P6H1Nbs" role="1Hhtcw">
+            <node concept="3clFbS" id="5G28P6H1Nbu" role="2VODD2">
+              <node concept="3clFbF" id="5G28P6H1Nw$" role="3cqZAp">
+                <node concept="3cpWs3" id="5G28P6H1P5D" role="3clFbG">
+                  <node concept="Xl_RD" id="5G28P6H1Pbz" role="3uHU7w">
+                    <property role="Xl_RC" value=" ... " />
+                  </node>
+                  <node concept="3cpWs3" id="5G28P6H1NF7" role="3uHU7B">
+                    <node concept="Xl_RD" id="5G28P6H1NzK" role="3uHU7B">
+                      <property role="Xl_RC" value="// service method " />
+                    </node>
+                    <node concept="2OqwBi" id="5G28P6H1NTo" role="3uHU7w">
+                      <node concept="pncrf" id="5G28P6H1NHy" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="5G28P6H1Oqt" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6RAFKVMgm5l">
@@ -12281,6 +12308,14 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5G28P6GvTqt">
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <ref role="1XX52x" to="un0u:5G28P6GvTqn" resolve="ChangeGraphStatement" />
+    <node concept="PMmxH" id="5G28P6GvTqv" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
     </node>
   </node>
 </model>

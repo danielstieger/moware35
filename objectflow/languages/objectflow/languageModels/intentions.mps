@@ -6666,6 +6666,7 @@
   <node concept="2S6QgY" id="51llZt6khXb">
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <property role="TrG5h" value="AddOptionToCheck" />
+    <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Check" />
     <node concept="2S6ZIM" id="51llZt6khXc" role="2ZfVej">
       <node concept="3clFbS" id="51llZt6khXd" role="2VODD2">

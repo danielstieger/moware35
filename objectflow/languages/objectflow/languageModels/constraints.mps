@@ -1969,6 +1969,9 @@
                   <node concept="3gn64h" id="1OXzSoFmAs" role="3gmYPZ">
                     <ref role="3gnhBz" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
                   </node>
+                  <node concept="3gn64h" id="5G28P6GlRj9" role="3gmYPZ">
+                    <ref role="3gnhBz" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -5267,6 +5270,30 @@
       <ref role="1N5Vy1" to="un0u:6RAFKVMR_II" />
       <node concept="1dDu$B" id="6RAFKVMR_J8" role="1N6uqs">
         <ref role="1dDu$A" to="un0u:3VCHlE3_rxm" resolve="StatusElement" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5G28P6GvTqx">
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <ref role="1M2myG" to="un0u:5G28P6GvTqn" resolve="ChangeGraphStatement" />
+    <node concept="nKS2y" id="5G28P6GvTse" role="1MLUbF">
+      <node concept="3clFbS" id="5G28P6GvTsf" role="2VODD2">
+        <node concept="3clFbF" id="5G28P6GvTtk" role="3cqZAp">
+          <node concept="2OqwBi" id="5G28P6GvU6Q" role="3clFbG">
+            <node concept="2OqwBi" id="5G28P6GvTxf" role="2Oq$k0">
+              <node concept="nLn13" id="5G28P6G$pA9" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="5G28P6GvTCU" role="2OqNvi">
+                <node concept="1xMEDy" id="5G28P6GvTCW" role="1xVPHs">
+                  <node concept="chp4Y" id="5G28P6GvTEC" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="5G28P6GvTSD" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="5G28P6GvV03" role="2OqNvi" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
