@@ -15236,7 +15236,31 @@
     </node>
     <node concept="1YaCAy" id="6RAFKVN9JyG" role="1YuTPh">
       <property role="TrG5h" value="statusInOperator" />
-      <ref role="1YaFvo" to="un0u:6RAFKVMR_DQ" resolve="StatusInOperator" />
+      <ref role="1YaFvo" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="5G28P6Ha0oZ">
+    <property role="TrG5h" value="typeof_DomainEvent" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <node concept="3clFbS" id="5G28P6Ha0p0" role="18ibNy">
+      <node concept="1Z5TYs" id="5G28P6Ha0rb" role="3cqZAp">
+        <node concept="mw_s8" id="5G28P6Ha0rU" role="1ZfhKB">
+          <node concept="2c44tf" id="5G28P6Ha0rQ" role="mwGJk">
+            <node concept="17QB3L" id="5G28P6Ha0sd" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="5G28P6Ha0re" role="1ZfhK$">
+          <node concept="1Z2H0r" id="5G28P6Ha0p6" role="mwGJk">
+            <node concept="1YBJjd" id="5G28P6Ha0pX" role="1Z2MuG">
+              <ref role="1YBMHb" node="5G28P6Ha0p2" resolve="domainEvent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5G28P6Ha0p2" role="1YuTPh">
+      <property role="TrG5h" value="domainEvent" />
+      <ref role="1YaFvo" to="un0u:6RAFKVMgm4_" resolve="DomainEvent" />
     </node>
   </node>
 </model>

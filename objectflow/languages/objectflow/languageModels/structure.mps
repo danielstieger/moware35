@@ -4526,7 +4526,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="humanMessage" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="6RAFKVMR_DQ">

@@ -202,7 +202,11 @@
         <child id="7919209473516657283" name="statusLeftSide" index="2vefmd" />
       </concept>
       <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T">
+        <child id="7919209473506370709" name="domainEvent" index="2vDWIr" />
         <child id="7919209473506369827" name="preconditions" index="2vDWSH" />
+      </concept>
+      <concept id="7919209473506369829" name="org.modellwerkstatt.objectflow.structure.DomainEvent" flags="ng" index="2vDWSF">
+        <child id="7919209473506369870" name="humanMessage" index="2vDWT0" />
       </concept>
       <concept id="8009046666043401703" name="org.modellwerkstatt.objectflow.structure.ModelRepository" flags="ig" index="wbJL_" />
       <concept id="8009046666042261418" name="org.modellwerkstatt.objectflow.structure.ValueObject" flags="ig" index="xR6oC">
@@ -1530,9 +1534,13 @@
     </node>
     <node concept="2tJIrI" id="5G28P6H2tWf" role="jymVt" />
     <node concept="2tJIrI" id="5G28P6H36IJ" role="jymVt" />
-    <node concept="2tJIrI" id="5G28P6H36rf" role="jymVt" />
     <node concept="2vDG_T" id="5G28P6GWIES" role="jymVt">
       <property role="TrG5h" value="revision" />
+      <node concept="2vDWSF" id="5G28P6Hb1ID" role="2vDWIr">
+        <node concept="35AVbj" id="5G28P6Hb1Jg" role="2vDWT0">
+          <property role="35AVef" value="OrderDocument revisioned" />
+        </node>
+      </node>
       <node concept="mlg3r" id="5G28P6GWITu" role="2vDWSH">
         <node concept="3fqX7Q" id="5G28P6GWJ6F" role="mlgNJ">
           <node concept="2veflS" id="5G28P6GWJ6H" role="3fr31v">
@@ -1660,6 +1668,84 @@
                 <ref role="2S8YL0" node="51llZt4WhQm" resolve="remark" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5G28P6HpBKi" role="jymVt" />
+    <node concept="2vDG_T" id="5G28P6HpBFx" role="jymVt">
+      <property role="TrG5h" value="checkAndComplete" />
+      <node concept="37vLTG" id="5G28P6HpBPI" role="3clF46">
+        <property role="TrG5h" value="doc" />
+        <node concept="3uibUv" id="5G28P6HpBQ6" role="1tU5fm">
+          <ref role="3uigEE" node="51llZt4WfOY" resolve="OrderDocument" />
+        </node>
+      </node>
+      <node concept="10P_77" id="5G28P6HpBJF" role="3clF45" />
+      <node concept="3Tm1VV" id="5G28P6HpBF_" role="1B3o_S" />
+      <node concept="3clFbS" id="5G28P6HpBFA" role="3clF47">
+        <node concept="3clFbH" id="5G28P6HpBSG" role="3cqZAp" />
+        <node concept="3cpWs8" id="5G28P6HpC$N" role="3cqZAp">
+          <node concept="3cpWsn" id="5G28P6HpC$Q" role="3cpWs9">
+            <property role="TrG5h" value="someChecks" />
+            <node concept="10P_77" id="5G28P6HpC$L" role="1tU5fm" />
+            <node concept="3eOVzh" id="5G28P6HpCHi" role="33vP2m">
+              <node concept="3cmrfG" id="5G28P6HpCHy" role="3uHU7w">
+                <property role="3cmrfH" value="10" />
+              </node>
+              <node concept="3cmrfG" id="5G28P6HpCD4" role="3uHU7B">
+                <property role="3cmrfH" value="1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5G28P6HpCx8" role="3cqZAp" />
+        <node concept="3Rvrn6" id="5G28P6HpBSz" role="3cqZAp" />
+        <node concept="3clFbH" id="5G28P6HpBS_" role="3cqZAp" />
+        <node concept="3clFbF" id="5G28P6HpBTq" role="3cqZAp">
+          <node concept="37vLTI" id="5G28P6HpBVW" role="3clFbG">
+            <node concept="2XvMaL" id="5G28P6HpBZV" role="37vLTx">
+              <ref role="2XvMaQ" node="51llZt4WidE" resolve="OrderDocStatus" />
+              <ref role="1Vchh_" node="51llZt4Wiih" resolve="Completed" />
+            </node>
+            <node concept="2OqwBi" id="5G28P6HpBU5" role="37vLTJ">
+              <node concept="37vLTw" id="5G28P6HpBTo" role="2Oq$k0">
+                <ref role="3cqZAo" node="5G28P6HpBPI" resolve="doc" />
+              </node>
+              <node concept="2S8uIT" id="5G28P6HpBUZ" role="2OqNvi">
+                <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5G28P6HpCq9" role="3cqZAp">
+          <node concept="37vLTw" id="5G28P6HpCLd" role="3cqZAk">
+            <ref role="3cqZAo" node="5G28P6HpC$Q" resolve="someChecks" />
+          </node>
+        </node>
+      </node>
+      <node concept="2vDWSF" id="5G28P6HpBQn" role="2vDWIr">
+        <node concept="35AVbj" id="5G28P6HpBRT" role="2vDWT0">
+          <property role="35AVef" value="Document checked" />
+        </node>
+      </node>
+      <node concept="mlg3r" id="5G28P6HpC8g" role="2vDWSH">
+        <node concept="2veflS" id="5G28P6HpClT" role="mlgNJ">
+          <node concept="2vefiz" id="5G28P6HpClU" role="2vefj5">
+            <ref role="2vefiw" node="51llZt4Wiih" resolve="Completed" />
+          </node>
+          <node concept="2OqwBi" id="5G28P6HpClV" role="2vefmd">
+            <node concept="37vLTw" id="5G28P6HpClW" role="2Oq$k0">
+              <ref role="3cqZAo" node="5G28P6HpBPI" resolve="doc" />
+            </node>
+            <node concept="2S8uIT" id="5G28P6HpClX" role="2OqNvi">
+              <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
+            </node>
+          </node>
+        </node>
+        <node concept="lgADV" id="5G28P6HpC8i" role="mlgNH">
+          <node concept="35AVbj" id="5G28P6HpC8j" role="lgxf9">
+            <property role="35AVef" value="OrderDocument state can not be completed." />
           </node>
         </node>
       </node>
@@ -2888,7 +2974,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="5G28P6H028M" role="3yMuLx">
-      <property role="TrG5h" value="Service Method preconditions lead to problems attached to session." />
+      <property role="TrG5h" value="Service Method preconditions lead to problems attached to session (+ domain event)." />
       <node concept="3cqZAl" id="5G28P6H02fl" role="3clF45" />
       <node concept="3clFbS" id="5G28P6H028Q" role="3clF47">
         <node concept="3cpWs8" id="5G28P6H02fp" role="3cqZAp">
@@ -3022,6 +3108,101 @@
           </node>
         </node>
         <node concept="3clFbH" id="5G28P6H02qs" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="5G28P6Hql$O" role="3yMuLx">
+      <property role="TrG5h" value="Service Method with boolean return and domain event leads to no problems." />
+      <node concept="3cqZAl" id="5G28P6Hql$P" role="3clF45" />
+      <node concept="3clFbS" id="5G28P6Hql$Q" role="3clF47">
+        <node concept="3cpWs8" id="5G28P6Hql$R" role="3cqZAp">
+          <node concept="3cpWsn" id="5G28P6Hql$S" role="3cpWs9">
+            <property role="TrG5h" value="doc" />
+            <node concept="3uibUv" id="5G28P6Hql$T" role="1tU5fm">
+              <ref role="3uigEE" node="51llZt4WfOY" resolve="OrderDocument" />
+            </node>
+            <node concept="1odsa" id="5G28P6Hql$U" role="33vP2m">
+              <ref role="1ods_" node="51llZt4Wh7q" resolve="ODTF" />
+              <ref role="37wK5l" node="51llZt4Wp6H" resolve="createOrderDocument" />
+              <node concept="Xl_RD" id="5G28P6Hql$V" role="37wK5m">
+                <property role="Xl_RC" value="precond" />
+              </node>
+              <node concept="3cmrfG" id="5G28P6Hql$W" role="37wK5m">
+                <property role="3cmrfH" value="5" />
+              </node>
+              <node concept="1mgVXT" id="5G28P6Hql$X" role="37wK5m">
+                <property role="1mgVXS" value="10.0bd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5G28P6Hql$Y" role="3cqZAp" />
+        <node concept="3clFbF" id="5G28P6Hql$Z" role="3cqZAp">
+          <node concept="37vLTI" id="5G28P6Hql_0" role="3clFbG">
+            <node concept="2XvMaL" id="5G28P6Hql_1" role="37vLTx">
+              <ref role="2XvMaQ" node="51llZt4WidE" resolve="OrderDocStatus" />
+              <ref role="1Vchh_" node="51llZt4WidF" resolve="Draft" />
+            </node>
+            <node concept="2OqwBi" id="5G28P6Hql_2" role="37vLTJ">
+              <node concept="37vLTw" id="5G28P6Hql_3" role="2Oq$k0">
+                <ref role="3cqZAo" node="5G28P6Hql$S" resolve="doc" />
+              </node>
+              <node concept="2S8uIT" id="5G28P6Hql_4" role="2OqNvi">
+                <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5G28P6HqqWd" role="3cqZAp">
+          <node concept="3cpWsn" id="5G28P6HqqWg" role="3cpWs9">
+            <property role="TrG5h" value="wasOk" />
+            <node concept="10P_77" id="5G28P6HqqWb" role="1tU5fm" />
+            <node concept="1odsa" id="5G28P6Hqr8G" role="33vP2m">
+              <ref role="1ods_" node="51llZt4Wh6z" resolve="ODS" />
+              <ref role="37wK5l" node="5G28P6HpBFx" resolve="checkAndComplete" />
+              <node concept="37vLTw" id="5G28P6Hqr9l" role="37wK5m">
+                <ref role="3cqZAo" node="5G28P6Hql$S" resolve="doc" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5G28P6Hql_a" role="3cqZAp">
+          <node concept="2veflS" id="5G28P6Hql_b" role="1gVkn0">
+            <node concept="2vefiz" id="5G28P6HqrlK" role="2vefj5">
+              <ref role="2vefiw" node="51llZt4Wiih" resolve="Completed" />
+            </node>
+            <node concept="2OqwBi" id="5G28P6Hql_d" role="2vefmd">
+              <node concept="37vLTw" id="5G28P6Hql_e" role="2Oq$k0">
+                <ref role="3cqZAo" node="5G28P6Hql$S" resolve="doc" />
+              </node>
+              <node concept="2S8uIT" id="5G28P6Hql_f" role="2OqNvi">
+                <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5G28P6HqrnO" role="3cqZAp">
+          <node concept="3clFbC" id="5G28P6HqrzI" role="1gVkn0">
+            <node concept="3clFbT" id="5G28P6Hqr$e" role="3uHU7w">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="5G28P6Hqryt" role="3uHU7B">
+              <ref role="3cqZAo" node="5G28P6HqqWg" resolve="wasOk" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5G28P6HqrUd" role="3cqZAp">
+          <node concept="3clFbC" id="5G28P6Hqs57" role="1gVkn0">
+            <node concept="3clFbT" id="5G28P6Hqs5H" role="3uHU7w">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="2OqwBi" id="5G28P6Hqs2M" role="3uHU7B">
+              <node concept="3y28L$" id="5G28P6Hqs2g" role="2Oq$k0" />
+              <node concept="liA8E" id="5G28P6Hqs3R" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:5G28P6GBhZW" resolve="changeGraphPassed" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1DF_5m" id="5G28P6GWivM" role="3yMuLx" />

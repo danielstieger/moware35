@@ -12042,6 +12042,12 @@
       <node concept="PMmxH" id="6aS1KHf_Efx" role="3EZMnx">
         <ref role="PMmxG" to="tpen:6aS1KHf_xVK" resolve="HasAnnotation_AnnotationComponent" />
       </node>
+      <node concept="3F0ifn" id="5G28P6H8JWM" role="3EZMnx">
+        <property role="3F0ifm" value=" " />
+        <node concept="lj46D" id="5G28P6H8K9w" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F2HdR" id="6RAFKVMgmio" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:6RAFKVMgm4z" />
         <node concept="l2Vlx" id="6RAFKVMgmiq" role="2czzBx" />
@@ -12064,6 +12070,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="lj46D" id="5G28P6H3J0n" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3EZMnI" id="hHIJFsl" role="3EZMnx">
@@ -12265,7 +12274,7 @@
     <ref role="1XX52x" to="un0u:6RAFKVMgm4_" resolve="DomainEvent" />
     <node concept="3EZMnI" id="6RAFKVMgm64" role="2wV5jI">
       <node concept="3F0ifn" id="6RAFKVMgm6b" role="3EZMnx">
-        <property role="3F0ifm" value="issue domain event" />
+        <property role="3F0ifm" value="// -&gt; domain event/clear graph change" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="6RAFKVMgmih" role="3EZMnx">
