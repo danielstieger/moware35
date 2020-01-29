@@ -5039,5 +5039,33 @@
       </node>
     </node>
   </node>
+  <node concept="_UgoZ" id="ZnB5NwLOCe">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="MoWareMRStoMMRS2019_8" />
+    <property role="2BwPS$" value="MoWareMMRS_2019" />
+    <property role="_Wzho" value="(7) Check convertability for processes" />
+    <node concept="_XfAh" id="ZnB5NwLOCf" role="_YvDr">
+      <property role="_XH9r" value="OnTriggers referring to complex conditions" />
+      <ref role="_XDHR" to="un0u:1Csx3LqAMK0" resolve="OnTriggerTransition" />
+      <node concept="_ZGcI" id="ZnB5NwLOCg" role="_XPhp">
+        <node concept="3clFbS" id="ZnB5NwLOCh" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="ZnB5NwLOCo" role="_XDHO">
+        <node concept="3clFbS" id="ZnB5NwLOCp" role="2VODD2">
+          <node concept="3clFbF" id="ZnB5NwLPh$" role="3cqZAp">
+            <node concept="2OqwBi" id="ZnB5NwLPxT" role="3clFbG">
+              <node concept="2OqwBi" id="ZnB5NwLPkd" role="2Oq$k0">
+                <node concept="_YI3z" id="ZnB5NwLPhz" role="2Oq$k0" />
+                <node concept="3TrEf2" id="ZnB5NwLPsh" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:1Csx3LqAGdh" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="ZnB5NwLPCY" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
