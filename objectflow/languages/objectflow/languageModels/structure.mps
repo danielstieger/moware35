@@ -167,6 +167,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="Service" />
     <property role="1pbfSe" value="758408554" />
+    <property role="34LRSv" value="Component" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="54AO9SbtAe6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -4494,7 +4495,7 @@
   </node>
   <node concept="1TIwiD" id="6RAFKVMg6pR">
     <property role="1pbfSe" value="1613174149" />
-    <property role="3GE5qa" value="Service" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <property role="TrG5h" value="ServiceInstanceMethodDeclaration" />
     <property role="34LRSv" value="service method" />
     <property role="R4oN_" value="standard service method" />
@@ -4510,6 +4511,12 @@
       <property role="20kJfa" value="domainEvent" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6RAFKVMgm4_" resolve="DomainEvent" />
+    </node>
+    <node concept="1TJgyj" id="ZnB5NvHJ5M" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="ZnB5NvHJ5L" resolve="IServiceInstanceMethodOption" />
     </node>
     <node concept="PrWs8" id="6RAFKVMF6tV" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -4570,6 +4577,11 @@
     <property role="34LRSv" value="CHANGE_GRAPH" />
     <property role="R4oN_" value="start changing things from here on" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+  </node>
+  <node concept="PlHQZ" id="ZnB5NvHJ5L">
+    <property role="1pbfSe" value="275870259" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="IServiceInstanceMethodOption" />
   </node>
 </model>
 

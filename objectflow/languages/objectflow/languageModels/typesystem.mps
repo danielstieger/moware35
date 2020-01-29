@@ -15079,7 +15079,7 @@
   </node>
   <node concept="18kY7G" id="6RAFKVMgm$8">
     <property role="TrG5h" value="check_ServiceInstanceMethodDeclaration" />
-    <property role="3GE5qa" value="Service" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <node concept="3clFbS" id="6RAFKVMgm$9" role="18ibNy">
       <node concept="3clFbJ" id="6RAFKVMgm$R" role="3cqZAp">
         <node concept="22lmx$" id="6RAFKVMyplU" role="3clFbw">

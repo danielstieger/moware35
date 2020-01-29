@@ -209,6 +209,9 @@
         <child id="7919209473506369870" name="humanMessage" index="2vDWT0" />
       </concept>
       <concept id="8009046666043401703" name="org.modellwerkstatt.objectflow.structure.ModelRepository" flags="ig" index="wbJL_" />
+      <concept id="8009046666043401704" name="org.modellwerkstatt.objectflow.structure.ModelRepositoryMethod" flags="ig" index="wbJLE">
+        <property id="8009046666043401713" name="methodType" index="wbJLN" />
+      </concept>
       <concept id="8009046666042261418" name="org.modellwerkstatt.objectflow.structure.ValueObject" flags="ig" index="xR6oC">
         <child id="8009046666042261535" name="equalProperties" index="xR1At" />
       </concept>
@@ -844,6 +847,13 @@
   <node concept="wbJL_" id="51llZt4WfRz">
     <property role="TrG5h" value="ORDERDOCUMENTS" />
     <property role="3GE5qa" value="persistance" />
+    <node concept="wbJLE" id="ZnB5NvGE$1" role="jymVt">
+      <property role="TrG5h" value="dosomething" />
+      <property role="wbJLN" value="READONLY" />
+      <node concept="3cqZAl" id="ZnB5NvGE$2" role="3clF45" />
+      <node concept="3Tm1VV" id="ZnB5NvGE$3" role="1B3o_S" />
+      <node concept="3clFbS" id="ZnB5NvGE$4" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="51llZt4WfR$" role="1B3o_S" />
   </node>
   <node concept="2EH5hC" id="51llZt4WfSA">

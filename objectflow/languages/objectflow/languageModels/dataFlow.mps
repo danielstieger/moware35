@@ -1108,7 +1108,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="5G28P6Ha0xR">
-    <property role="3GE5qa" value="Service" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <ref role="3_znuS" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
     <node concept="3__wT9" id="5G28P6Ha0xS" role="3_A6iZ">
       <node concept="3clFbS" id="5G28P6Ha0xT" role="2VODD2">
