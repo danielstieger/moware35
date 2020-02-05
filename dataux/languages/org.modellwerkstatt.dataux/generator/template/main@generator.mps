@@ -13617,8 +13617,8 @@
                                               <ref role="3Tt5mk" to="un0u:1uLDEXGwbba" />
                                             </node>
                                           </node>
-                                          <node concept="2qgKlT" id="4h8Goff31Il" role="2OqNvi">
-                                            <ref role="37wK5l" to="70o0:ao4XGS$LBz" resolve="DEPRECATED_getColorFromDocu" />
+                                          <node concept="2qgKlT" id="6PQp3Pc_oSc" role="2OqNvi">
+                                            <ref role="37wK5l" to="70o0:1uKMA6MOJgE" resolve="getColor" />
                                           </node>
                                         </node>
                                       </node>
