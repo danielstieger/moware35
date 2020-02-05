@@ -54,6 +54,7 @@
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
+        <child id="1223387335081" name="query" index="3n$kyP" />
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
@@ -79,6 +80,7 @@
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
+      <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="1165424453110" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item" flags="ng" index="1oHujT">
         <property id="1165424453111" name="matchingText" index="1oHujS" />
         <child id="1165424453112" name="handlerFunction" index="1oHujR" />
@@ -1405,6 +1407,24 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="pVoyu" id="3wpfxM_8rkF" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+        <node concept="3nzxsE" id="3wpfxM_8rp7" role="3n$kyP">
+          <node concept="3clFbS" id="3wpfxM_8rp8" role="2VODD2">
+            <node concept="3clFbF" id="3wpfxM_8rqh" role="3cqZAp">
+              <node concept="2OqwBi" id="3wpfxM_8rsS" role="3clFbG">
+                <node concept="pncrf" id="3wpfxM_8rqg" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3wpfxM_8r_G" role="2OqNvi">
+                  <ref role="3TsBF5" to="r5tz:3wpfxM_6QG8" resolve="onNewLine" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="lj46D" id="3wpfxM_8WQ$" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
     <node concept="3EZMnI" id="36k2UwsyCdX" role="6VMZX">

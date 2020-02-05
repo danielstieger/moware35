@@ -609,6 +609,10 @@
       <property role="TrG5h" value="option" />
       <ref role="AX2Wp" node="7AUhyiG0C$8" resolve="MappingReferenceOption" />
     </node>
+    <node concept="1TJgyi" id="3wpfxM_6QG8" role="1TKVEl">
+      <property role="TrG5h" value="onNewLine" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="4upt4JNagpc" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="fieldMapping" />

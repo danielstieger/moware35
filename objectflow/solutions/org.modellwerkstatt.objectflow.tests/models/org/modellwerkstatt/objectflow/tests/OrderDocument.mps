@@ -1605,8 +1605,6 @@
     <node concept="2tJIrI" id="3wpfxM_3V87" role="jymVt" />
     <node concept="2tJIrI" id="3wpfxM_3VcU" role="jymVt" />
     <node concept="2tJIrI" id="3wpfxM_3VhI" role="jymVt" />
-    <node concept="2tJIrI" id="3wpfxM_3Vmz" role="jymVt" />
-    <node concept="2tJIrI" id="51llZt4XSFM" role="jymVt" />
     <node concept="2vDG_T" id="5G28P6G$BxE" role="jymVt">
       <property role="TrG5h" value="lotsOfProblems" />
       <node concept="37vLTG" id="5G28P6G$BH0" role="3clF46">

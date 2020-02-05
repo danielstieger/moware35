@@ -610,6 +610,7 @@
         <reference id="8489315365185882444" name="rowMapperField" index="3tYT8k" />
       </concept>
       <concept id="1974135804380344167" name="org.modellwerkstatt.manmap.structure.MappingReference" flags="ng" index="3_7ulE">
+        <property id="4042330433291774728" name="onNewLine" index="2t0_kk" />
         <property id="8771400347576083753" name="option" index="3lIecd" />
         <reference id="5159282717680535116" name="fieldMapping" index="2OG787" />
         <reference id="1974135804380645439" name="mappingSource" index="3_688M" />
@@ -3977,6 +3978,7 @@
               <node concept="jxyYR" id="4eJAcMlkJSI" role="jxX7b">
                 <node concept="3clFbC" id="4eJAcMlkKBe" role="jxyYK">
                   <node concept="3_7ulE" id="4eJAcMlkK7Z" role="3uHU7B">
+                    <property role="2t0_kk" value="true" />
                     <ref role="3_688M" node="4eJAcMlkJs5" />
                     <ref role="2OG787" node="70qPrkCybXm" />
                   </node>
@@ -23163,7 +23165,7 @@
                         <ref role="1Vchh_" node="5LYSiLABM5i" resolve="on" />
                       </node>
                       <node concept="liA8E" id="qAMqEldOra" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2WQ7pT7itWQ" resolve="fromStringForManmap" />
+                        <ref role="37wK5l" to="28jr:2WQ7pT7itWQ" resolve="fromString" />
                         <node concept="2OqwBi" id="1Mr6ahDhpJ2" role="37wK5m">
                           <node concept="37vLTw" id="1Mr6ahDhpiW" role="2Oq$k0">
                             <ref role="3cqZAo" node="1Mr6ahDgSlP" resolve="row" />
@@ -23327,7 +23329,7 @@
                         <ref role="1Vchh_" node="5LYSiLABM5i" resolve="on" />
                       </node>
                       <node concept="liA8E" id="qAMqEldOre" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2WQ7pT7itWQ" resolve="fromStringForManmap" />
+                        <ref role="37wK5l" to="28jr:2WQ7pT7itWQ" resolve="fromString" />
                         <node concept="2OqwBi" id="1y3D6gOos6E" role="37wK5m">
                           <node concept="37vLTw" id="1y3D6gOorN8" role="2Oq$k0">
                             <ref role="3cqZAo" node="1y3D6gOo5oh" resolve="row" />
@@ -31215,6 +31217,7 @@
               <node concept="jxyYR" id="3UVBaKgE7GW" role="jxX7b">
                 <node concept="3clFbC" id="3UVBaKgE8hv" role="jxyYK">
                   <node concept="3_7ulE" id="3UVBaKgE8eO" role="3uHU7B">
+                    <property role="2t0_kk" value="true" />
                     <ref role="3_688M" node="3UVBaKgE7Ec" />
                     <ref role="2OG787" node="3UVBaKgE78m" />
                   </node>
@@ -31271,6 +31274,7 @@
                     <ref role="3cqZAo" node="3UVBaKgE97Q" resolve="key" />
                   </node>
                   <node concept="3_7ulE" id="3UVBaKgEb5l" role="3uHU7B">
+                    <property role="2t0_kk" value="false" />
                     <ref role="3_688M" node="3UVBaKgE97Y" />
                     <ref role="2OG787" node="3UVBaKgDnKB" />
                   </node>

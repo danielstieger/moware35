@@ -345,5 +345,41 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="3wpfxM_6R52">
+    <property role="3GE5qa" value="query" />
+    <property role="TrG5h" value="NewLineMappingRef" />
+    <ref role="2ZfgGC" to="r5tz:1H_ywRYu6XB" resolve="MappingReference" />
+    <node concept="2S6ZIM" id="3wpfxM_6R53" role="2ZfVej">
+      <node concept="3clFbS" id="3wpfxM_6R54" role="2VODD2">
+        <node concept="3clFbF" id="3wpfxM_6Rwg" role="3cqZAp">
+          <node concept="Xl_RD" id="3wpfxM_6Rwf" role="3clFbG">
+            <property role="Xl_RC" value="On new Line (toggle)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3wpfxM_6R55" role="2ZfgGD">
+      <node concept="3clFbS" id="3wpfxM_6R56" role="2VODD2">
+        <node concept="3clFbF" id="3wpfxM_6RGt" role="3cqZAp">
+          <node concept="37vLTI" id="3wpfxM_6RRV" role="3clFbG">
+            <node concept="3fqX7Q" id="3wpfxM_6RTq" role="37vLTx">
+              <node concept="2OqwBi" id="3wpfxM_6RWc" role="3fr31v">
+                <node concept="2Sf5sV" id="3wpfxM_6RTS" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3wpfxM_6S3_" role="2OqNvi">
+                  <ref role="3TsBF5" to="r5tz:3wpfxM_6QG8" resolve="onNewLine" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3wpfxM_6RI7" role="37vLTJ">
+              <node concept="2Sf5sV" id="3wpfxM_6RGs" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3wpfxM_6RLZ" role="2OqNvi">
+                <ref role="3TsBF5" to="r5tz:3wpfxM_6QG8" resolve="onNewLine" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
