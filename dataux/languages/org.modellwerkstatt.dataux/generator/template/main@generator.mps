@@ -12362,7 +12362,7 @@
       </node>
     </node>
     <node concept="312cEg" id="59p98S7GZUD" role="jymVt">
-      <property role="TrG5h" value="__translationProvider" />
+      <property role="TrG5h" value="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
       <node concept="3Tm6S6" id="59p98S7GZUE" role="1B3o_S" />
       <node concept="3uibUv" id="59p98S7H1HR" role="1tU5fm">
         <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
@@ -12495,7 +12495,7 @@
                       <ref role="37wK5l" to="yg8v:5ol$Nw048o" resolve="configureLabel" />
                       <node concept="2OqwBi" id="59p98S7HaaL" role="37wK5m">
                         <node concept="37vLTw" id="59p98S7Ha5v" role="2Oq$k0">
-                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__translationProvider" />
+                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
                         </node>
                         <node concept="liA8E" id="59p98S7Hakn" role="2OqNvi">
                           <ref role="37wK5l" to="28jr:Da7Daffh4p" resolve="translateSingle" />
@@ -12599,7 +12599,7 @@
                       <ref role="37wK5l" to="yg8v:1H_Z5rzYt4J" resolve="configureLabel" />
                       <node concept="2OqwBi" id="1H_Z5rzYRRs" role="37wK5m">
                         <node concept="37vLTw" id="1H_Z5rzYRRt" role="2Oq$k0">
-                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__translationProvider" />
+                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
                         </node>
                         <node concept="liA8E" id="1H_Z5rzYRRu" role="2OqNvi">
                           <ref role="37wK5l" to="28jr:Da7Daffh4p" resolve="translateSingle" />
@@ -12778,7 +12778,7 @@
                       <ref role="37wK5l" to="yg8v:5ol$Nw048o" resolve="configureLabel" />
                       <node concept="2OqwBi" id="59p98S7HbiI" role="37wK5m">
                         <node concept="37vLTw" id="59p98S7HbiJ" role="2Oq$k0">
-                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__translationProvider" />
+                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
                         </node>
                         <node concept="liA8E" id="59p98S7HbiK" role="2OqNvi">
                           <ref role="37wK5l" to="28jr:Da7Daffh4p" resolve="translateSingle" />
@@ -12880,7 +12880,7 @@
                       <ref role="37wK5l" to="yg8v:1H_Z5rzYt4J" resolve="configureLabel" />
                       <node concept="2OqwBi" id="1H_Z5rzYPeG" role="37wK5m">
                         <node concept="37vLTw" id="1H_Z5rzYPeH" role="2Oq$k0">
-                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__translationProvider" />
+                          <ref role="3cqZAo" node="59p98S7GZUD" resolve="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
                         </node>
                         <node concept="liA8E" id="1H_Z5rzYPeI" role="2OqNvi">
                           <ref role="37wK5l" to="28jr:Da7Daffh4p" resolve="translateSingle" />
@@ -13489,7 +13489,7 @@
                                   <ref role="37wK5l" to="yg8v:5ol$Nw048o" resolve="configureLabel" />
                                   <node concept="2OqwBi" id="59p98S7Hclu" role="37wK5m">
                                     <node concept="37vLTw" id="59p98S7Hclv" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="59p98S7GZUD" resolve="__translationProvider" />
+                                      <ref role="3cqZAo" node="59p98S7GZUD" resolve="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
                                     </node>
                                     <node concept="liA8E" id="59p98S7Hclw" role="2OqNvi">
                                       <ref role="37wK5l" to="28jr:Da7Daffh4p" resolve="translateSingle" />
@@ -14676,7 +14676,7 @@
         </node>
       </node>
       <node concept="312cEg" id="59p98S7HjUp" role="jymVt">
-        <property role="TrG5h" value="__transProvider" />
+        <property role="TrG5h" value="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
         <node concept="3Tm6S6" id="59p98S7HjUq" role="1B3o_S" />
         <node concept="3uibUv" id="59p98S7HoYx" role="1tU5fm">
           <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
@@ -17063,7 +17063,7 @@
                                     <ref role="37wK5l" to="yg8v:5ol$Nw048o" resolve="configureLabel" />
                                     <node concept="2OqwBi" id="59p98S7HdSb" role="37wK5m">
                                       <node concept="37vLTw" id="59p98S7Hp9f" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="59p98S7HjUp" resolve="__transProvider" />
+                                        <ref role="3cqZAo" node="59p98S7HjUp" resolve="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
                                       </node>
                                       <node concept="liA8E" id="59p98S7HdSd" role="2OqNvi">
                                         <ref role="37wK5l" to="28jr:Da7Daffh4p" resolve="translateSingle" />
