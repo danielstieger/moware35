@@ -150,7 +150,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 3.3.5 / moware 2020 (exp_4)" />
+          <property role="3MwjfP" value="MPS 3.3.5 / moware 2020.1 (first)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -366,12 +366,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1JLTjCmZpbc" role="3bR37C">
-          <node concept="3bR9La" id="1JLTjCmZpbd" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYw" resolve="jetbrains.mps.baseLanguage.search" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1JLTjCmZpbe" role="3bR37C">
           <node concept="3bR9La" id="1JLTjCmZpbf" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -426,6 +420,18 @@
         <node concept="1SiIV0" id="2khgGfhCfNc" role="3bR37C">
           <node concept="1Busua" id="2khgGfhCfNd" role="1SiIV1">
             <ref role="1Busuk" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3P4lfams4rX" role="3bR37C">
+          <node concept="3bR9La" id="3P4lfams4rY" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3P4lfams4rZ" role="3bR37C">
+          <node concept="3bR9La" id="3P4lfams4s0" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>

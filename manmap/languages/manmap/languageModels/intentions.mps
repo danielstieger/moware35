@@ -348,6 +348,7 @@
   <node concept="2S6QgY" id="3wpfxM_6R52">
     <property role="3GE5qa" value="query" />
     <property role="TrG5h" value="NewLineMappingRef" />
+    <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="r5tz:1H_ywRYu6XB" resolve="MappingReference" />
     <node concept="2S6ZIM" id="3wpfxM_6R53" role="2ZfVej">
       <node concept="3clFbS" id="3wpfxM_6R54" role="2VODD2">
