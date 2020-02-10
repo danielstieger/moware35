@@ -19,6 +19,11 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2forms.js{{ page.ncs }}"></script>
+	{% elseif client.device equals "ZEBRAEB_TC25" %}
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2formsTC25.js{{ page.ncs }}"></script>
+
 	{% else %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2forms.js{{ page.ncs }}"></script>
 	{% endif %}
