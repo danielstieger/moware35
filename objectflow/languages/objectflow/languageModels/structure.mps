@@ -4577,6 +4577,12 @@
     <property role="34LRSv" value="CHANGE_GRAPH" />
     <property role="R4oN_" value="start changing things from here on" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="fK9aQHS" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="statements" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
   </node>
   <node concept="PlHQZ" id="ZnB5NvHJ5L">
     <property role="1pbfSe" value="275870259" />

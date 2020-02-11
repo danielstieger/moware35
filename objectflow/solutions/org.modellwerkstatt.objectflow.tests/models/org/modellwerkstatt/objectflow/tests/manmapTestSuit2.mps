@@ -201,6 +201,7 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -426,6 +427,7 @@
       </concept>
       <concept id="7192042020165155288" name="org.modellwerkstatt.objectflow.structure.ContainerVariableReference" flags="ng" index="3urNR4" />
       <concept id="8394088404405502420" name="org.modellwerkstatt.objectflow.structure.NotPersistedOption" flags="ng" index="1xFgGU" />
+      <concept id="594565203027877250" name="org.modellwerkstatt.objectflow.structure.Session" flags="ng" index="3y28L$" />
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
       <concept id="569389511234497392" name="org.modellwerkstatt.objectflow.structure.DateTimeLiteral" flags="ng" index="1$4sJe">
         <property id="569389511234497418" name="fromServer" index="1$4sGO" />
@@ -43225,8 +43227,8 @@
     <node concept="312cEg" id="4wgjvSoeJVI" role="jymVt">
       <property role="TrG5h" value="appFactory" />
       <node concept="3Tm6S6" id="4wgjvSoeJVJ" role="1B3o_S" />
-      <node concept="3uibUv" id="4wgjvSoeJVK" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:3J6KGB_wf8g" resolve="OFXSimpleAppFactory" />
+      <node concept="3uibUv" id="7agSOE7Scgr" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
       </node>
       <node concept="2AHcQZ" id="4wgjvSoeJVL" role="2AJF6D">
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
@@ -43234,6 +43236,37 @@
     </node>
     <node concept="2tJIrI" id="4wgjvSoiabY" role="jymVt" />
     <node concept="2tJIrI" id="4wgjvSoiaq1" role="jymVt" />
+    <node concept="3clFb_" id="7agSOE7SefY" role="jymVt">
+      <property role="TrG5h" value="CREATE_SESSION" />
+      <node concept="3uibUv" id="7agSOE7SfFJ" role="3clF45">
+        <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+      </node>
+      <node concept="3Tm1VV" id="7agSOE7Seg1" role="1B3o_S" />
+      <node concept="3clFbS" id="7agSOE7Seg2" role="3clF47">
+        <node concept="3cpWs6" id="7agSOE7SfRw" role="3cqZAp">
+          <node concept="2OqwBi" id="7agSOE7Sg4t" role="3cqZAk">
+            <node concept="37vLTw" id="7agSOE7SfVD" role="2Oq$k0">
+              <ref role="3cqZAo" node="4wgjvSoeJVI" resolve="appFactory" />
+            </node>
+            <node concept="liA8E" id="7agSOE7SggR" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+              <node concept="2OqwBi" id="7agSOE7Sgv_" role="37wK5m">
+                <node concept="3y28L$" id="7agSOE7SgpS" role="2Oq$k0" />
+                <node concept="liA8E" id="7agSOE7SgGb" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7agSOE7Sh3G" role="37wK5m">
+                <node concept="3y28L$" id="7agSOE7SgXG" role="2Oq$k0" />
+                <node concept="liA8E" id="7agSOE7ShgB" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:4d3Pnf44_kV" resolve="getUserServices" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4wgjvSoeJVM" role="jymVt">
       <property role="TrG5h" value="createInvoiceGraphWith4Positions_onDB" />
       <node concept="3Tm1VV" id="4wgjvSoeJVN" role="1B3o_S" />
@@ -43563,13 +43596,8 @@
             <node concept="37vLTw" id="4wgjvSoeJXM" role="37wK5m">
               <ref role="3cqZAo" node="4wgjvSoeJVT" resolve="invoice" />
             </node>
-            <node concept="2OqwBi" id="4wgjvSoich7" role="37wK5m">
-              <node concept="37vLTw" id="4wgjvSoicfu" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSoeJVI" resolve="appFactory" />
-              </node>
-              <node concept="liA8E" id="4wgjvSoicjK" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:xCUXDOmVot" resolve="newSession" />
-              </node>
+            <node concept="1rXfSq" id="7agSOE7SlP9" role="37wK5m">
+              <ref role="37wK5l" node="7agSOE7SefY" resolve="CREATE_SESSION" />
             </node>
           </node>
         </node>
@@ -44267,13 +44295,8 @@
             <node concept="37vLTw" id="4wgjvSoeK24" role="37wK5m">
               <ref role="3cqZAo" node="4wgjvSoeJZY" resolve="extendedInvoice" />
             </node>
-            <node concept="2OqwBi" id="4wgjvSoifW0" role="37wK5m">
-              <node concept="37vLTw" id="4wgjvSoifUl" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSoeJVI" resolve="appFactory" />
-              </node>
-              <node concept="liA8E" id="4wgjvSoifYF" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:xCUXDOmVot" resolve="newSession" />
-              </node>
+            <node concept="1rXfSq" id="7agSOE7SlWS" role="37wK5m">
+              <ref role="37wK5l" node="7agSOE7SefY" resolve="CREATE_SESSION" />
             </node>
           </node>
         </node>
@@ -44635,13 +44658,8 @@
             <node concept="3uibUv" id="4wgjvSoeK4p" role="1tU5fm">
               <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
             </node>
-            <node concept="2OqwBi" id="4wgjvSoiiDP" role="33vP2m">
-              <node concept="37vLTw" id="4wgjvSoiiBt" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSoeJVI" resolve="appFactory" />
-              </node>
-              <node concept="liA8E" id="4wgjvSoiiIs" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:xCUXDOmVot" resolve="newSession" />
-              </node>
+            <node concept="1rXfSq" id="7agSOE7Smey" role="33vP2m">
+              <ref role="37wK5l" node="7agSOE7SefY" resolve="CREATE_SESSION" />
             </node>
           </node>
         </node>
@@ -44851,13 +44869,8 @@
             <node concept="3uibUv" id="4wgjvSoeK5J" role="1tU5fm">
               <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
             </node>
-            <node concept="2OqwBi" id="4wgjvSoijXh" role="33vP2m">
-              <node concept="37vLTw" id="4wgjvSoijUT" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSoeJVI" resolve="appFactory" />
-              </node>
-              <node concept="liA8E" id="4wgjvSoik3S" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:xCUXDOmVot" resolve="newSession" />
-              </node>
+            <node concept="1rXfSq" id="7agSOE7Sm13" role="33vP2m">
+              <ref role="37wK5l" node="7agSOE7SefY" resolve="CREATE_SESSION" />
             </node>
           </node>
         </node>
@@ -45484,13 +45497,8 @@
             <node concept="37vLTw" id="4wgjvSoeK9D" role="37wK5m">
               <ref role="3cqZAo" node="4wgjvSoeK78" resolve="invoice" />
             </node>
-            <node concept="2OqwBi" id="4wgjvSoinrw" role="37wK5m">
-              <node concept="37vLTw" id="4wgjvSoinpR" role="2Oq$k0">
-                <ref role="3cqZAo" node="4wgjvSoeJVI" resolve="appFactory" />
-              </node>
-              <node concept="liA8E" id="4wgjvSoinut" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:xCUXDOmVot" resolve="newSession" />
-              </node>
+            <node concept="1rXfSq" id="7agSOE7Sm8z" role="37wK5m">
+              <ref role="37wK5l" node="7agSOE7SefY" resolve="CREATE_SESSION" />
             </node>
             <node concept="10Nm6u" id="4wgjvSoeK9F" role="2f8TIa" />
           </node>
