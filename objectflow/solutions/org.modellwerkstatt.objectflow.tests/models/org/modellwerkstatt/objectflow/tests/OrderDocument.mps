@@ -629,7 +629,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6mpCyrQUjYl" role="jymVt" />
-    <node concept="2tJIrI" id="6mpCyrQUjZX" role="jymVt" />
     <node concept="3clFb_" id="6mpCyrQUklh" role="jymVt">
       <property role="TrG5h" value="passed" />
       <node concept="37vLTG" id="6mpCyrQUkuB" role="3clF46">
@@ -712,6 +711,43 @@
               <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
               <node concept="37vLTw" id="6mpCyrQUlnm" role="37wK5m">
                 <ref role="3cqZAo" node="6mpCyrQUl8l" resolve="pointName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4DaB5G8SZa4" role="jymVt">
+      <property role="TrG5h" value="isCase" />
+      <node concept="37vLTG" id="4DaB5G8SZm5" role="3clF46">
+        <property role="TrG5h" value="caseString" />
+        <node concept="17QB3L" id="4DaB5G8SZoX" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="4DaB5G8SZf4" role="3clF45" />
+      <node concept="3Tm1VV" id="4DaB5G8SZa7" role="1B3o_S" />
+      <node concept="3clFbS" id="4DaB5G8SZa8" role="3clF47">
+        <node concept="3clFbF" id="4DaB5G8SZpZ" role="3cqZAp">
+          <node concept="2OqwBi" id="4DaB5G8SZzM" role="3clFbG">
+            <node concept="2OqwBi" id="4DaB5G8SZuq" role="2Oq$k0">
+              <node concept="2OqwBi" id="4DaB5G8SZqI" role="2Oq$k0">
+                <node concept="Xjq3P" id="4DaB5G8SZpY" role="2Oq$k0" />
+                <node concept="2S8uIT" id="4DaB5G8SZrU" role="2OqNvi">
+                  <ref role="2S8YL0" node="51llZt4WhQm" resolve="remark" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4DaB5G8SZxD" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4DaB5G8SZBE" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="2OqwBi" id="4DaB5G8SZFU" role="37wK5m">
+                <node concept="37vLTw" id="4DaB5G8SZDm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4DaB5G8SZm5" resolve="caseString" />
+                </node>
+                <node concept="liA8E" id="4DaB5G8SZLI" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                </node>
               </node>
             </node>
           </node>

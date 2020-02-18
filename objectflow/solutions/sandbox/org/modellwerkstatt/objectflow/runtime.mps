@@ -5979,6 +5979,31 @@
       </node>
       <node concept="3Tm1VV" id="7VbqtSRQ1cV" role="1B3o_S" />
       <node concept="3clFbS" id="7VbqtSRQ1cW" role="3clF47">
+        <node concept="3clFbJ" id="4DaB5G9bmp4" role="3cqZAp">
+          <node concept="3clFbS" id="4DaB5G9bmp6" role="3clFbx">
+            <node concept="YS8fn" id="4DaB5G9bo_V" role="3cqZAp">
+              <node concept="2ShNRf" id="4DaB5G9boBE" role="YScLw">
+                <node concept="1pGfFk" id="4DaB5G9bwno" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="4DaB5G9bwpo" role="37wK5m">
+                    <property role="Xl_RC" value="This can not happen. Session Problems are 0, but getLastProblem_Lgcy requesgted." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="4DaB5G9bodB" role="3clFbw">
+            <node concept="3cmrfG" id="4DaB5G9bovY" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="4DaB5G9bn_E" role="3uHU7B">
+              <node concept="37vLTw" id="4DaB5G9bmta" role="2Oq$k0">
+                <ref role="3cqZAo" node="1T2Sm8TZw9M" resolve="sessionProblems" />
+              </node>
+              <node concept="34oBXx" id="4DaB5G9bnKp" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7VbqtSRQs$V" role="3cqZAp">
           <node concept="2OqwBi" id="7VbqtSRQsI0" role="3clFbG">
             <node concept="37vLTw" id="7VbqtSRQs$U" role="2Oq$k0">

@@ -377,4 +377,41 @@ CONCLUSION $ Abbrechen
 
 
 
+# Case 18: predecessor term in final ok.   
+# What happens here?
+#
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.Predecessor $ OD Case18:
+- Predecessor $ INIT CMD $ Predecessor
+
+NOOP
+- Predecessor $ INIT CMD $ MainDoc
+
+NOOP
+- Predecessor $ OPEN UI
+
+BASIS CMD START $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.GraphEdit $ Pos 2
+- GraphEdit $ OPEN UI
+
+CONCLUSION $ Ok
+- GraphEdit $ FLAG
+# TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO 
+# Wrong behaviour here. This should indeed lead to a flag, but preserving pages state. 
+#
+# 
+CONCLUSION $ OK
+- Predecessor $ GLOBAL CMD TERM $ EX
+
+CONCLUSION $ Abbrechen
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+
+
+
+# NEXT TESTS:
+# (1) Compound Statement, checks, ex, 
+# (2) Compound Statement with Predecessor
+# (3) Multi Patternms for all combinations !
+
+
 
