@@ -472,6 +472,128 @@ NOOP
 
 
 
+# Case 23: OFXShutdown
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.MainDoc $ OD Case23:
+- MainDoc $ OPEN UI $
+
+BASIS CMD START $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.GraphEdit $ Pos 2
+- GraphEdit $ OPEN UI
+
+CONCLUSION $ Ok
+- MainDoc $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+NOOP
+- MainDoc $ CANCEL NODLG $ guard 
+
+
+# Case 24: OFXShutdown
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.MainDoc $ OD Case24:
+- MainDoc $ OPEN UI $
+
+BASIS CMD START $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.GraphEdit $ Pos 2
+- GraphEdit $ OPEN UI
+
+CONCLUSION $ Ok
+- MainDoc $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+NOOP
+- MainDoc $ CANCEL NODLG $ guard 
+
+
+
+
+# Interestingly, cmd-init is hanled correctly with 'Info And Close' 
+#
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.Predecessor $ OD Case25:
+- Predecessor $ INIT CMD $ Predecessor
+
+NOOP
+- Predecessor $ INFO AND CLOSE $ OFXShutDownSessionEx
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ Predecessor
+
+
+
+
+
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.Predecessor $ OD Case26:
+- Predecessor $ INIT CMD $ Predecessor
+
+NOOP
+- Predecessor $ INIT CMD $ MainDoc
+
+NOOP
+- Predecessor $ INFO AND CLOSE $ OFXShutDownSessionEx
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+
+
+
+
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.Predecessor $ OD Case27:
+- Predecessor $ INIT CMD $ Predecessor
+
+NOOP
+- Predecessor $ INIT CMD $ MainDoc
+
+NOOP
+- Predecessor $ OPEN UI
+
+BASIS CMD START $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.GraphEdit $ Pos 2
+- GraphEdit $ INIT CMD
+
+NOOP
+- GraphEdit $ INFO AND CLOSE $ OFXShutDownSessionEx
+
+NOOP
+- Predecessor $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+NOOP
+- Predecessor $ CANCEL NODLG $ guard 
+
+
+
+
+
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.Predecessor $ OD Case28:
+- Predecessor $ INIT CMD $ Predecessor
+
+NOOP
+- Predecessor $ INIT CMD $ MainDoc
+
+NOOP
+- Predecessor $ OPEN UI
+
+BASIS CMD START $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.GraphEdit $ Pos 2
+- GraphEdit $ OPEN UI
+
+CONCLUSION $ Ok
+- Predecessor $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+NOOP
+- Predecessor $ CANCEL NODLG $ guard
+
+
 
 
 # NEXT TESTS:
