@@ -53969,7 +53969,7 @@
             <node concept="3cpWs3" id="51llZt5PviQ" role="3uHU7B">
               <node concept="3cpWs3" id="51llZt5Pvbx" role="3uHU7B">
                 <node concept="Xl_RD" id="51llZt5Pv7N" role="3uHU7B">
-                  <property role="Xl_RC" value="Shutdown due to guard " />
+                  <property role="Xl_RC" value="Shutdown due to guard '" />
                 </node>
                 <node concept="2OqwBi" id="51llZt5Pvfr" role="3uHU7w">
                   <node concept="37vLTw" id="51llZt5PvdJ" role="2Oq$k0">

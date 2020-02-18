@@ -2971,8 +2971,21 @@
           <property role="Xl_RC" value="All running commands are now terminated. The app will be restarted, press a key." />
         </node>
       </node>
+      <node concept="QsSxf" id="4DaB5G9A1K$" role="Qtgdg">
+        <property role="TrG5h" value="GUARD_MSG" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="4DaB5G9A2kH" role="37wK5m">
+          <property role="Xl_RC" value="Guard Auslösung" />
+        </node>
+        <node concept="10Nm6u" id="4DaB5G9A2qH" role="37wK5m" />
+        <node concept="10Nm6u" id="4DaB5G9A2sA" role="37wK5m" />
+        <node concept="Xl_RD" id="4DaB5G9A2uq" role="37wK5m">
+          <property role="Xl_RC" value="Guard trigered" />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
+      <node concept="2tJIrI" id="4DaB5G9A1mY" role="jymVt" />
       <node concept="2tJIrI" id="4ysbFF_K0QT" role="jymVt" />
       <node concept="312cEg" id="2zlZ_in69hT" role="jymVt">
         <property role="TrG5h" value="langDefault" />

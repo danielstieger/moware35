@@ -408,6 +408,72 @@ CONCLUSION $ Abbrechen
 
 
 
+#      #      #      #      #      #      #      #      #      #      #      #      #      #      #     
+#                                G  U  A  R  D 
+#      #      #      #      #      #      #      #      #      #      #      #      #      #      #
+
+# Case 19:
+# OFXShutdown
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.MainDoc $ OD Case19:
+- MainDoc $ INIT CMD $
+
+NOOP
+- MainDoc $ INFO AND CLOSE $ OFXShutDownSessionEx
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+
+
+
+# Case 20:
+# OFXShutdown
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.MainDoc $ OD Case20:
+- MainDoc $ OPEN UI $
+
+CONCLUSION $ save
+- SearchTestCases $ GLOBAL CMD TERM $ EX
+
+
+
+
+# Case 21: OFXShutdown
+# Since Exceptions (including OFXShutdownSession) are handled in main EventCommandContainer
+# Loop, we do not receive any specific problem events. In case of cmd-init, things are handled
+# differently. We do receive a InfoAndClose there.  
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.MainDoc $ OD Case21:
+- MainDoc $ OPEN UI $
+
+CONCLUSION $ save
+- SearchTestCases $ GLOBAL CMD TERM $ EX
+
+
+
+
+
+# Case 22: OFXShutdown
+# again this fucking reporting problem. 
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.MainDoc $ OD Case22:
+- MainDoc $ OPEN UI $
+
+BASIS CMD START $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.GraphEdit $ Pos 2
+- GraphEdit $ INFO AND CLOSE $ OFXShutDownSessionEx
+
+NOOP
+- MainDoc $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ MainDoc
+
+NOOP
+- MainDoc $ CANCEL NODLG $ guard 
+
+
+
+
+
+
 # NEXT TESTS:
 # (1) Compound Statement, checks, ex, 
 # (2) Compound Statement with Predecessor
