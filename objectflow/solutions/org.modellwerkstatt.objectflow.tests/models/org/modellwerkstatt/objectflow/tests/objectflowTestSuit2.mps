@@ -209,7 +209,6 @@
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
-      <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
@@ -11790,16 +11789,6 @@
   <node concept="2EH5hC" id="6BKPvpDdBsW">
     <property role="TrG5h" value="PlatformAndVariantService" />
     <property role="3GE5qa" value="infra" />
-    <node concept="312cEg" id="6BKPvpDdBaX" role="jymVt">
-      <property role="TrG5h" value="userEnv" />
-      <node concept="3Tm6S6" id="6BKPvpDdBaY" role="1B3o_S" />
-      <node concept="3uibUv" id="6BKPvpDdBeH" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
-      </node>
-      <node concept="2AHcQZ" id="6BKPvpDdBiW" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="6BKPvpDdBC7" role="jymVt" />
     <node concept="3clFb_" id="6BKPvpDdADR" role="jymVt">
       <property role="TrG5h" value="dependsOnVariant" />
@@ -11865,12 +11854,15 @@
       <node concept="3cqZAl" id="6BKPvpDdBEP" role="3clF45" />
       <node concept="3Tm1VV" id="6BKPvpDdBEQ" role="1B3o_S" />
       <node concept="3clFbS" id="6BKPvpDdBER" role="3clF47">
-        <node concept="3clFbF" id="6BKPvpDdBGv" role="3cqZAp">
-          <node concept="2OqwBi" id="6BKPvpDdBHm" role="3clFbG">
-            <node concept="37vLTw" id="6BKPvpDdBGu" role="2Oq$k0">
-              <ref role="3cqZAo" node="6BKPvpDdBaX" resolve="userEnv" />
+        <node concept="3clFbF" id="1Z4DonC19FE" role="3cqZAp">
+          <node concept="2OqwBi" id="1Z4DonC19Iw" role="3clFbG">
+            <node concept="2OqwBi" id="1Z4DonC19Gi" role="2Oq$k0">
+              <node concept="3y28L$" id="1Z4DonC19FC" role="2Oq$k0" />
+              <node concept="liA8E" id="1Z4DonC19HT" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+              </node>
             </node>
-            <node concept="liA8E" id="6BKPvpDdBJk" role="2OqNvi">
+            <node concept="liA8E" id="1Z4DonC19LW" role="2OqNvi">
               <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
               <node concept="Xl_RD" id="6BKPvpDdBKd" role="37wK5m">
                 <property role="Xl_RC" value="SUGAR" />
@@ -11885,14 +11877,17 @@
       <node concept="3cqZAl" id="6BKPvpDdBN5" role="3clF45" />
       <node concept="3Tm1VV" id="6BKPvpDdBN6" role="1B3o_S" />
       <node concept="3clFbS" id="6BKPvpDdBN7" role="3clF47">
-        <node concept="3clFbF" id="6BKPvpDdBN8" role="3cqZAp">
-          <node concept="2OqwBi" id="6BKPvpDdBN9" role="3clFbG">
-            <node concept="37vLTw" id="6BKPvpDdBNa" role="2Oq$k0">
-              <ref role="3cqZAo" node="6BKPvpDdBaX" resolve="userEnv" />
+        <node concept="3clFbF" id="1Z4DonC19Rf" role="3cqZAp">
+          <node concept="2OqwBi" id="1Z4DonC19Rg" role="3clFbG">
+            <node concept="2OqwBi" id="1Z4DonC19Rh" role="2Oq$k0">
+              <node concept="3y28L$" id="1Z4DonC19Ri" role="2Oq$k0" />
+              <node concept="liA8E" id="1Z4DonC19Rj" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+              </node>
             </node>
-            <node concept="liA8E" id="6BKPvpDdBNb" role="2OqNvi">
+            <node concept="liA8E" id="1Z4DonC19Rk" role="2OqNvi">
               <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
-              <node concept="Xl_RD" id="6BKPvpDdBNc" role="37wK5m">
+              <node concept="Xl_RD" id="1Z4DonC19Rl" role="37wK5m">
                 <property role="Xl_RC" value="BABY" />
               </node>
             </node>

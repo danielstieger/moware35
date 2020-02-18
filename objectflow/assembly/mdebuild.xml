@@ -1,0 +1,79 @@
+<!--
+
+
+ Build.xml: Building an mde application with h2forms 
+            based on moware plugin R5
+            
+ daniel stieger, summer 2016, dornbirn
+
+ 
+ 
+ 
+ set JAVA_HOME=c:\javaexe\MPS324\jre
+ set PATH=%PATH%;c:\javaexe\ant_MPS25\bin
+ 
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+ export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ 
+-->
+ 
+<project name="MdeApplication" default="default">      
+  
+  <!-- **** include files setup **************************************************************** -->
+  <include file="./bmoware.xml" as="bmoware"/>
+  <include file="./moware.xml" as="moware"/>
+
+
+  <!-- **** app specific definitions **************************************************************** -->
+  <property name="appName"              value="CmdTests" />
+  <property name="appMainclass"         value="org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OrderApp" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/objectflow/tests/OrderDocumentUi/MPreisLolaMDEConfig.xml" /> 
+  <property name="appHomeScreen"        value="${appName}" />
+    
+  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
+ 
+ 
+        
+  <!-- **** solutions to incorporate in this build ************************************************** -->
+  <property name="solultionSimpleGen"   value="../solutions/org.modellwerkstatt.objectflow.tests/classes_gen" />
+  <property name="appBuildVersion"      value="0.99" />
+  
+  <echo>
+    Run by ${user.name} on Java Home : ${java.home}
+    Building VERSION ${appBuildVersion} of ${appMainclass}
+	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}    
+  </echo>
+
+
+
+
+
+  <target name="default" depends="bmoware.mowarePluginAdoption, moware.h2forms">
+  
+    <mkdir dir="work/WEB-INF/classes"/>
+    <copy todir="work/WEB-INF/classes">
+      <fileset dir="${solultionSimpleGen}" />
+    </copy>
+    
+    <mkdir dir="dist"/>  
+    <jar destfile="dist/${appName}.war" basedir="${mowareWorkDir}" update="false">
+      <manifest>
+        <attribute name="Main-Class" value="${appMainclass}" />
+        <attribute name="Version"    value="${appBuildVersion}" />
+      </manifest>
+    </jar>
+    
+  </target>
+  
+  <target name="clean" description="Delete old work and dist directories">
+	<delete dir="work"/>
+    <delete dir="dist"/>
+  </target>
+  
+  <target name="redeploy" depends="default">
+  	<copy todir="${tomcatHomeDir}/webapps/${appName}">
+  		<fileset dir="work" />
+  	</copy>
+  </target>
+</project>
