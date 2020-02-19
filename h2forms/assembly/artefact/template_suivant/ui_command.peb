@@ -53,11 +53,11 @@
 <div class="w3-bar"> <span class="w3-bar-item"> - </span> </div>
 
 {% if flagText is not null %}
-<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">{{ flagText }}</div>
+<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">{{ flagText|raw }}</div>
 {% endif %}
 
 {% if notificationText is not null %}
-<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">{{ notificationText }}</div>
+<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">{{ notificationText|raw }}</div>
 {% endif %}
 
 {% include "./messages.peb" %}

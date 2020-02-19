@@ -2975,12 +2975,12 @@
         <property role="TrG5h" value="GUARD_MSG" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4DaB5G9A2kH" role="37wK5m">
-          <property role="Xl_RC" value="Guard Auslösung" />
+          <property role="Xl_RC" value="Guard nicht erfuellt!" />
         </node>
         <node concept="10Nm6u" id="4DaB5G9A2qH" role="37wK5m" />
         <node concept="10Nm6u" id="4DaB5G9A2sA" role="37wK5m" />
         <node concept="Xl_RD" id="4DaB5G9A2uq" role="37wK5m">
-          <property role="Xl_RC" value="Guard trigered" />
+          <property role="Xl_RC" value="Guard not fulfilled." />
         </node>
       </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
