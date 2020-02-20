@@ -596,6 +596,187 @@ NOOP
 
 
 
+# * * * * * * * * * * * * * * * * * * * * * * * * C O M P O U N D  * * * * * * * * * * * * * * * * * * * * * * * *
+# case 29: run compound command without problems.
+# also here strange logging, since autocons are executed before open ui ...  
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OuterCompound $ OD Case29:
+- OuterCompound $ INIT CMD
+
+NOOP
+- GraphEdit $ INIT CMD
+
+NOOP
+- GraphEdit $ CONCLUSION $ AutoCon
+
+NOOP
+- OuterCompound $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- OuterCompound $ CONCLUSION $ AutoCon
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ OuterCompound 
+
+
+
+
+
+# case 30: check in outer init
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OuterCompound $ OD Case30:
+- OuterCompound $ INIT CMD
+
+NOOP
+- OuterCompound $ INFO AND CLOSE $ Case30:
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ OuterCompound 
+
+
+
+
+
+# case 31: check in outer conclusion
+# Warum Unterscheidung in InfoAndClose CancelNoDlg. I would strongly suggest to harmonize these to
+# to make things easier to understand. 
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OuterCompound $ OD Case31:
+- OuterCompound $ INIT CMD
+
+NOOP
+- GraphEdit $ INIT CMD
+
+NOOP
+- GraphEdit $ CONCLUSION $ AutoCon
+
+NOOP
+- OuterCompound $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- OuterCompound $ CONCLUSION $ AutoCon
+
+NOOP
+- OuterCompound $ CANCEL WITHDLG $ Case31:
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ CANCEL 
+
+
+
+# case 32: check in ge init of compound
+# events turned around -> especially cancel nodlg vs. global term of same cmd.
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OuterCompound $ OD Case32:
+- OuterCompound $ INIT CMD
+
+NOOP
+- GraphEdit $ INIT CMD
+
+NOOP
+- GraphEdit $ INFO AND CLOSE $ Case32:
+
+NOOP
+- OuterCompound $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ CANCEL 
+
+NOOP
+- OuterCompound $ CANCEL NODLG $ CANCEL
+
+
+
+
+# case 33: check in ge conc of compound
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OuterCompound $ OD Case33:
+- OuterCompound $ INIT CMD
+
+NOOP
+- GraphEdit $ INIT CMD
+
+NOOP
+- GraphEdit $ CONCLUSION $ AutoCon
+
+NOOP
+- GraphEdit $ CANCEL WITHDLG $ Case33:
+
+NOOP
+- OuterCompound $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ CANCEL 
+
+NOOP
+- OuterCompound $ CANCEL NODLG $ CANCEL
+
+
+
+# . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   M   U    L   T   I
+# . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   M   U    L   T   I
+
+# case multistart1 
+# logging of events COMPLETELY FUCKED UP
+
+CASE $ org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OuterCompound $ OD multiexec1	
+- OuterCompound $ INIT CMD
+
+NOOP
+- GraphEdit $ INIT CMD
+
+NOOP
+- GraphEdit $ CONCLUSION $ AutoCon
+
+NOOP
+- SearchTestCases $ PUSH SEL
+### STRANGE PUSH SEL HERE - should be first. 
+
+NOOP
+- GraphEdit $ CLOSE CONT
+
+NOOP
+- OuterCompound $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- OuterCompound $ CONCLUSION $ AutoCon
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ OuterCompound 
+
+
+
+# Second one. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+NOOP
+- SearchTestCases $ PUSH SEL
+
+NOOP
+- OuterCompound $ INIT CMD
+
+# This one triggered the multistart again
+NOOP
+- OuterCompound $ CLOSE CONT
+
+NOOP
+- GraphEdit $ INIT CMD
+
+NOOP
+- GraphEdit $ CONCLUSION $ AutoCon
+
+NOOP
+- GraphEdit $ CLOSE CONT
+
+NOOP
+- OuterCompound $ GLOBAL CMD TERM $ GraphEdit
+
+NOOP
+- OuterCompound $ CONCLUSION $ AutoCon
+
+NOOP
+- SearchTestCases $ GLOBAL CMD TERM $ OuterCompound 
+ 
+NOOP
+- OuterCompound $ CLOSE CONT
+
+
+
+
+
 # NEXT TESTS:
 # (1) Compound Statement, checks, ex, 
 # (2) Compound Statement with Predecessor

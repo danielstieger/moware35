@@ -1214,6 +1214,34 @@
         </node>
       </node>
     </node>
+    <node concept="osYL8" id="5LHzrvqTXH_" role="1MLXOK">
+      <node concept="3clFbS" id="5LHzrvqTXHA" role="2VODD2">
+        <node concept="3clFbJ" id="4DaB5G9qZ97" role="3cqZAp">
+          <node concept="3clFbC" id="51llZt55R2i" role="3clFbw">
+            <node concept="oXsJc" id="51llZt55QVr" role="3uHU7B" />
+            <node concept="28GBK8" id="51llZt55R6y" role="3uHU7w">
+              <ref role="28GBKb" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+              <ref role="28H3Ia" to="1btx:7yNVvqNVkqb" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4DaB5G9qZ9b" role="3clFbx">
+            <node concept="3cpWs6" id="4DaB5G9qZ9c" role="3cqZAp">
+              <node concept="3clFbC" id="4DaB5G9qZ9e" role="3cqZAk">
+                <node concept="otxO1" id="4DaB5G9qZ9f" role="3uHU7B" />
+                <node concept="3TUQnm" id="4DaB5G9qZ9g" role="3uHU7w">
+                  <ref role="3TV0OU" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5LHzrvqTYLN" role="3cqZAp">
+          <node concept="3clFbT" id="5LHzrvqTYLM" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1M2fIO" id="2rqRJfqYMgU">
     <property role="3GE5qa" value="uimodule" />

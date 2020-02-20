@@ -20006,6 +20006,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="U8r3YpXFSV" role="3cqZAp" />
+        <node concept="3SKdUt" id="5LHzrvr4dul" role="3cqZAp">
+          <node concept="3SKdUq" id="5LHzrvr4dun" role="3SKWNk">
+            <property role="3SKdUp" value=" do not kill parent with this when in autocon mode (see EventCmdContainer globalTermev)" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="4DaB5G9H_QD" role="3cqZAp">
           <node concept="3clFbS" id="4DaB5G9H_QF" role="3clFbx">
             <node concept="3clFbF" id="4DaB5G9Bq$9" role="3cqZAp">
@@ -20035,8 +20040,15 @@
               </node>
             </node>
           </node>
-          <node concept="37vLTw" id="4DaB5G9HFi3" role="3clFbw">
-            <ref role="3cqZAo" node="4DaB5G9Hurf" resolve="killParentGo" />
+          <node concept="1Wc70l" id="5LHzrvr3ZSU" role="3clFbw">
+            <node concept="3fqX7Q" id="5LHzrvr464A" role="3uHU7w">
+              <node concept="1rXfSq" id="5LHzrvr464C" role="3fr31v">
+                <ref role="37wK5l" node="63VjT6lViBN" resolve="isAutoConNoUi" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4DaB5G9HFi3" role="3uHU7B">
+              <ref role="3cqZAo" node="4DaB5G9Hurf" resolve="killParentGo" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="4DaB5G9HiW9" role="3cqZAp" />
@@ -26457,7 +26469,6 @@
         <node concept="3clFbH" id="6HvFgwciEVd" role="3cqZAp" />
         <node concept="3clFbJ" id="1w1DleK08MH" role="3cqZAp">
           <node concept="3clFbS" id="1w1DleK08MJ" role="3clFbx">
-            <node concept="3clFbH" id="1w1DleK0aID" role="3cqZAp" />
             <node concept="3clFbJ" id="5Ld38uCpBO3" role="3cqZAp">
               <node concept="3clFbS" id="5Ld38uCpBO5" role="3clFbx">
                 <node concept="3clFbF" id="2ppo89mg0w0" role="3cqZAp">
@@ -26487,7 +26498,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1w1DleK08MI" role="3cqZAp" />
           </node>
           <node concept="3fqX7Q" id="1w1DleK09pZ" role="3clFbw">
             <node concept="1rXfSq" id="1w1DleK09Uy" role="3fr31v">
@@ -26495,8 +26505,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6HvFgwciFn7" role="3cqZAp" />
-        <node concept="3clFbH" id="5Ld38uCp$H4" role="3cqZAp" />
+        <node concept="3clFbH" id="5LHzrvr19Q_" role="3cqZAp" />
         <node concept="3clFbJ" id="2ppo89mfYQt" role="3cqZAp">
           <node concept="3clFbS" id="2ppo89mfYQv" role="3clFbx">
             <node concept="3clFbF" id="2ppo89mfZOM" role="3cqZAp">
@@ -30748,20 +30757,6 @@
                         </node>
                         <node concept="3eNFk2" id="63VjT6lX_ff" role="3eNLev">
                           <node concept="3clFbS" id="63VjT6lX_fh" role="3eOfB_">
-                            <node concept="3clFbF" id="40Ob5xFse1s" role="3cqZAp">
-                              <node concept="2OqwBi" id="40Ob5xFse1p" role="3clFbG">
-                                <node concept="10M0yZ" id="40Ob5xFse1q" role="2Oq$k0">
-                                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                                </node>
-                                <node concept="liA8E" id="40Ob5xFse1r" role="2OqNvi">
-                                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                                  <node concept="Xl_RD" id="40Ob5xFsekf" role="37wK5m">
-                                    <property role="Xl_RC" value="This is the single autoCon here. " />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
                             <node concept="3cpWs8" id="63VjT6m0w0J" role="3cqZAp">
                               <node concept="3cpWsn" id="63VjT6m0w0M" role="3cpWs9">
                                 <property role="TrG5h" value="ccHash" />
@@ -36019,7 +36014,7 @@
       <node concept="3clFbS" id="6mdtRStxwEO" role="3clF47">
         <node concept="3clFbF" id="6mdtRStxwIr" role="3cqZAp">
           <node concept="Xl_RD" id="6mdtRStxwIq" role="3clFbG">
-            <property role="Xl_RC" value="EV PUSH_SEL" />
+            <property role="Xl_RC" value="PUSH SEL" />
           </node>
         </node>
       </node>

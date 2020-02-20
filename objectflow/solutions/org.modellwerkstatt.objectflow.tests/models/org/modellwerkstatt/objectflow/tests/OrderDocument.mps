@@ -68,11 +68,18 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="5862977038373003187" name="jetbrains.mps.baseLanguage.structure.LocalPropertyReference" flags="nn" index="338YkY">
         <reference id="5862977038373003188" name="property" index="338YkT" />
       </concept>
@@ -2247,7 +2254,27 @@
           </node>
         </node>
         <node concept="3clFbH" id="3wpfxM_3S$P" role="3cqZAp" />
-        <node concept="3clFbH" id="3wpfxM_3S57" role="3cqZAp" />
+        <node concept="3clFbF" id="5LHzrvqZ_yy" role="3cqZAp">
+          <node concept="37vLTI" id="5LHzrvqZ_Lc" role="3clFbG">
+            <node concept="1eOMI4" id="5LHzrvqZAgM" role="37vLTx">
+              <node concept="10QFUN" id="5LHzrvqZAgJ" role="1eOMHV">
+                <node concept="10Oyi0" id="5LHzrvqZAir" role="10QFUM" />
+                <node concept="2YIFZM" id="5LHzrvqZAgO" role="10QFUP">
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5LHzrvqZ_BN" role="37vLTJ">
+              <node concept="37vLTw" id="5LHzrvqZ_yw" role="2Oq$k0">
+                <ref role="3cqZAo" node="51llZt4Wpe3" resolve="od" />
+              </node>
+              <node concept="2S8uIT" id="5LHzrvqZ_Hb" role="2OqNvi">
+                <ref role="2S8YL0" node="51llZt4WfP5" resolve="id" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3wpfxM_3S6T" role="3cqZAp" />
         <node concept="3clFbF" id="51llZt4WqJG" role="3cqZAp">
           <node concept="2OqwBi" id="51llZt4WqOK" role="3clFbG">
