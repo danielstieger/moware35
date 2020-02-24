@@ -18676,45 +18676,6 @@
               </node>
               <node concept="3clFbJ" id="6$YiAc0ADFC" role="3cqZAp">
                 <node concept="3clFbS" id="6$YiAc0ADFE" role="3clFbx">
-                  <node concept="3clFbF" id="5O582ufag$3" role="3cqZAp">
-                    <node concept="2OqwBi" id="5O582ufag$0" role="3clFbG">
-                      <node concept="10M0yZ" id="5O582ufag$1" role="2Oq$k0">
-                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                      </node>
-                      <node concept="liA8E" id="5O582ufag$2" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                        <node concept="3cpWs3" id="5O582ufahbn" role="37wK5m">
-                          <node concept="37vLTw" id="5O582ufahbo" role="3uHU7w">
-                            <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
-                          </node>
-                          <node concept="3cpWs3" id="5O582ufahbp" role="3uHU7B">
-                            <node concept="3cpWs3" id="5O582ufahbq" role="3uHU7B">
-                              <node concept="3cpWs3" id="5O582ufahbr" role="3uHU7B">
-                                <node concept="3cpWs3" id="5O582ufahbs" role="3uHU7B">
-                                  <node concept="Xl_RD" id="5O582ufahbt" role="3uHU7B">
-                                    <property role="Xl_RC" value="fg.handleChildTerminate() NPE " />
-                                  </node>
-                                  <node concept="37vLTw" id="5O582ufahbu" role="3uHU7w">
-                                    <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
-                                  </node>
-                                </node>
-                                <node concept="Xl_RD" id="5O582ufahbv" role="3uHU7w">
-                                  <property role="Xl_RC" value=" pre=" />
-                                </node>
-                              </node>
-                              <node concept="37vLTw" id="5O582ufahbw" role="3uHU7w">
-                                <ref role="3cqZAo" node="1LBGCxvYOOc" resolve="predecessorCommand" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="5O582ufahbx" role="3uHU7w">
-                              <property role="Xl_RC" value=" closed=" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3clFbF" id="6$YiAc0AVoU" role="3cqZAp">
                     <node concept="2OqwBi" id="6$YiAc0AYzb" role="3clFbG">
                       <node concept="37vLTw" id="6$YiAc0AVoS" role="2Oq$k0">

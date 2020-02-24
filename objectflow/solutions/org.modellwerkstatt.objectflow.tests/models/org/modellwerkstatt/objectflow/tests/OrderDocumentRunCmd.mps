@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7725e697-93aa-412a-ad96-5f6c800e1e2d(org.modellwerkstatt.objectflow.tests.OrderDocumentJob)">
+<model ref="r:7725e697-93aa-412a-ad96-5f6c800e1e2d(org.modellwerkstatt.objectflow.tests.OrderDocumentRunCmd)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
@@ -8,8 +8,9 @@
   </languages>
   <imports>
     <import index="t63u" ref="r:baf75629-a6b8-444b-8c70-75a1defa71e9(org.modellwerkstatt.objectflow.tests.OrderDocument)" />
-    <import index="mbq3" ref="r:7e4701a9-41c8-48f8-85a5-b51defdf8297(org.modellwerkstatt.objectflow.tests.manmapTestSuit2)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
+    <import index="65du" ref="r:7920ecff-ecc2-4304-af30-ebf2b1309ccb(org.modellwerkstatt.objectflow.tests.OrderDocumentUi)" />
+    <import index="7kfk" ref="r:cc76ad46-6947-4cc7-9f41-029160c9ce20(org.modellwerkstatt.objectflow.tests.config)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -96,35 +97,15 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="406105322043152820" name="org.modellwerkstatt.objectflow.structure.ComponentsScanning" flags="ng" index="20ptWn">
-        <child id="406105322043152971" name="componentBaseName" index="20ptNC" />
-      </concept>
       <concept id="6525155817176738379" name="org.modellwerkstatt.objectflow.structure.PageInitConceptFunc" flags="ig" index="20qEzJ" />
       <concept id="6525155817176754757" name="org.modellwerkstatt.objectflow.structure.CommandVoidStatementList" flags="ig" index="20qIzx" />
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
         <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
       </concept>
-      <concept id="3526396426289727497" name="org.modellwerkstatt.objectflow.structure.OFXConfigPropOverwrite" flags="ng" index="26L8Vk">
-        <reference id="3526396426289727551" name="property" index="26L8Vy" />
-        <child id="3526396426289727549" name="value" index="26L8Vw" />
-      </concept>
       <concept id="4678401045862675371" name="org.modellwerkstatt.objectflow.structure.CommandCreationInfo" flags="ng" index="27Aftt">
         <property id="4678401045864276002" name="refName" index="27oQjk" />
         <child id="4678401045862675913" name="keyReference" index="27Af4Z" />
         <child id="4678401045862675827" name="msg" index="27Af65" />
-      </concept>
-      <concept id="1440642197017487130" name="org.modellwerkstatt.objectflow.structure.StaticRessources" flags="ng" index="il5tC">
-        <child id="3146313690717155086" name="labels" index="2kzhMJ" />
-        <child id="3146313690715522546" name="platforms" index="2kDvpj" />
-      </concept>
-      <concept id="1440642197017487635" name="org.modellwerkstatt.objectflow.structure.Label" flags="ng" index="il5_x">
-        <child id="3146313690717155575" name="specification" index="2kzgdm" />
-      </concept>
-      <concept id="3146313690717155301" name="org.modellwerkstatt.objectflow.structure.LabelSpecification" flags="ng" index="2kzhL4">
-        <child id="1440642197017487671" name="text" index="il5_5" />
-      </concept>
-      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q">
-        <child id="7604036740764640824" name="variantDeclarations" index="3hNl4o" />
       </concept>
       <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
         <child id="5788629615582331966" name="problem" index="lgxf9" />
@@ -143,27 +124,6 @@
         <reference id="3875131616719438755" name="process" index="2_Hrwf" />
         <child id="3875131616719439029" name="actualArgument" index="2_HrWp" />
       </concept>
-      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
-        <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
-        <child id="406105322043153886" name="dependencyResolution" index="20ptHX" />
-        <child id="478945708906902061" name="elements" index="2CGBMS" />
-      </concept>
-      <concept id="478945708907022307" name="org.modellwerkstatt.objectflow.structure.OFXConfigInclude" flags="ng" index="2CJ4_Q">
-        <reference id="478945708907022310" name="element" index="2CJ4_N" />
-        <child id="478945708912703715" name="properties" index="2CPvpQ" />
-      </concept>
-      <concept id="478945708907003617" name="org.modellwerkstatt.objectflow.structure.OFXConfigConstructorArg" flags="ng" index="2CJf1O">
-        <child id="478945708935709196" name="value" index="2DqwMp" />
-        <child id="478945708935709194" name="type" index="2DqwMv" />
-      </concept>
-      <concept id="478945708907003466" name="org.modellwerkstatt.objectflow.structure.OFXConfigInstance" flags="ng" index="2CJf3v">
-        <child id="478945708907022272" name="elements" index="2CJ4_l" />
-        <child id="478945708907003567" name="className" index="2CJf0U" />
-      </concept>
-      <concept id="478945708906907667" name="org.modellwerkstatt.objectflow.structure.OFXConfigSection" flags="ng" index="2CJoq6">
-        <child id="478945708906994221" name="elements" index="2CJdiS" />
-      </concept>
-      <concept id="478945708912703702" name="org.modellwerkstatt.objectflow.structure.OFXConfigEmpty" flags="ng" index="2CPvp3" />
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
       <concept id="9110730801960129924" name="org.modellwerkstatt.objectflow.structure.OFXRunCmd" flags="ng" index="2Tpcjw">
         <child id="9110730801960131774" name="commandCall" index="2TpcRq" />
@@ -198,7 +158,6 @@
         <reference id="8113764509539932973" name="classifier" index="16PnFS" />
         <child id="8113764509540567394" name="contains" index="16NUyR" />
       </concept>
-      <concept id="7604036740764640594" name="org.modellwerkstatt.objectflow.structure.VariantDeclaration" flags="ng" index="3hNl9M" />
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
       </concept>
@@ -313,7 +272,7 @@
   </registry>
   <node concept="2WPaUQ" id="4DaB5G8SV3w">
     <property role="TrG5h" value="RunCmdTests" />
-    <ref role="2WPtWl" node="7agSOE7KjuS" resolve="MPreisLolaJobTestConfig" />
+    <ref role="2WPtWl" to="7kfk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
     <node concept="3yPF9F" id="4DaB5G8SV8j" role="3yMuLx">
       <property role="TrG5h" value="RunCmd with single GraphOwner does not result in any problems" />
       <node concept="3cqZAl" id="4DaB5G8SV8l" role="3clF45" />
@@ -3246,7 +3205,7 @@
       <ref role="3gcvY6" to="t63u:51llZt4WfOY" resolve="OrderDocument" />
       <node concept="10qiFn" id="4DaB5G8T0$r" role="10qiF9">
         <property role="TrG5h" value="SaveNClose" />
-        <ref role="2DFCCC" node="7agSOE7AYh6" resolve="SaveNClose" />
+        <ref role="2DFCCC" to="7kfk:7agSOE7AYh6" resolve="SaveNClose" />
         <node concept="20qIzx" id="4DaB5G8T0Ct" role="10ot2L">
           <node concept="3clFbS" id="4DaB5G8T0Cu" role="2VODD2">
             <node concept="mlg3r" id="4DaB5G99Qq4" role="3cqZAp">
@@ -3453,7 +3412,7 @@
       <ref role="3gcvY6" to="t63u:51llZt4WfQk" resolve="OrderDocumentPos" />
       <node concept="10qiFn" id="4DaB5G8T0L2" role="10qiF9">
         <property role="TrG5h" value="ok" />
-        <ref role="2DFCCC" node="7agSOE7KglE" resolve="Ok" />
+        <ref role="2DFCCC" to="7kfk:7agSOE7KglE" resolve="Ok" />
         <node concept="20qIzx" id="4DaB5G8T0Mj" role="10ot2L">
           <node concept="3clFbS" id="4DaB5G8T0Mk" role="2VODD2">
             <node concept="mlg3r" id="4DaB5G9n7ur" role="3cqZAp">
@@ -3859,148 +3818,6 @@
         <node concept="3Oe$u_" id="4DaB5G8T0rK" role="3$nDjG">
           <ref role="3O0p26" to="t63u:51llZt4WimJ" resolve="status" />
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="il5tC" id="7agSOE7AYgY">
-    <property role="TrG5h" value="JobTestRessources" />
-    <node concept="il5_x" id="7agSOE7AYh6" role="2kzhMJ">
-      <property role="TrG5h" value="SaveNClose" />
-      <node concept="2kzhL4" id="7agSOE7AYh7" role="2kzgdm">
-        <node concept="Xl_RD" id="7agSOE7AYh8" role="il5_5">
-          <property role="Xl_RC" value="Save &amp; Close" />
-        </node>
-      </node>
-    </node>
-    <node concept="il5_x" id="7agSOE7KglE" role="2kzhMJ">
-      <property role="TrG5h" value="Ok" />
-      <node concept="2kzhL4" id="7agSOE7KglF" role="2kzgdm">
-        <node concept="Xl_RD" id="7agSOE7KglG" role="il5_5">
-          <property role="Xl_RC" value="Ok" />
-        </node>
-      </node>
-    </node>
-    <node concept="2kDv1q" id="7agSOE7AYh0" role="2kDvpj">
-      <property role="TrG5h" value="Default" />
-      <node concept="3hNl9M" id="7agSOE7AYh2" role="3hNl4o" />
-    </node>
-  </node>
-  <node concept="2CG7Z0" id="7agSOE7KjuS">
-    <property role="TrG5h" value="MPreisLolaJobTestConfig" />
-    <property role="2320hu" value="2018-08-07T11:43:47.117+02:00" />
-    <property role="3GE5qa" value="config" />
-    <node concept="2CJf3v" id="7agSOE7KjuT" role="2CGBMS">
-      <property role="TrG5h" value="FUCKINGLDAP_REMOVE" />
-      <node concept="Xl_RD" id="7agSOE7KjuU" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoLdapService" />
-      </node>
-      <node concept="2CJf1O" id="7agSOE7KjuV" role="2CJ4_l">
-        <node concept="Xl_RD" id="7agSOE7KjuW" role="2DqwMp">
-          <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
-        </node>
-        <node concept="Xl_RD" id="7agSOE7KjuX" role="2DqwMv">
-          <property role="Xl_RC" value="0" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="7agSOE7KjuY" role="2CJ4_l">
-        <node concept="Xl_RD" id="7agSOE7KjuZ" role="2DqwMp">
-          <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
-        </node>
-        <node concept="Xl_RD" id="7agSOE7Kjv0" role="2DqwMv">
-          <property role="Xl_RC" value="1" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="7agSOE7Kjv1" role="2CJ4_l">
-        <node concept="Xl_RD" id="7agSOE7Kjv2" role="2DqwMp">
-          <property role="Xl_RC" value="pwd" />
-        </node>
-        <node concept="Xl_RD" id="7agSOE7Kjv3" role="2DqwMv">
-          <property role="Xl_RC" value="2" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="7agSOE7Kjv4" role="2CJ4_l">
-        <node concept="Xl_RD" id="7agSOE7Kjv5" role="2DqwMp">
-          <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
-        </node>
-        <node concept="Xl_RD" id="7agSOE7Kjv6" role="2DqwMv">
-          <property role="Xl_RC" value="3" />
-        </node>
-      </node>
-    </node>
-    <node concept="2CPvp3" id="7agSOE7Kjvd" role="2CGBMS" />
-    <node concept="2CJoq6" id="7agSOE7Kjve" role="2CGBMS">
-      <property role="TrG5h" value="ManMapTestSuitBasics" />
-      <node concept="2CPvp3" id="7agSOE7Kjvf" role="2CJdiS" />
-      <node concept="2CJ4_Q" id="7agSOE7Kjvg" role="2CJdiS">
-        <ref role="2CJ4_N" to="mbq3:4LC0Y0L2pa6" resolve="MPREIS_Winter2014_FatClient_TestConfig" />
-        <node concept="26L8Vk" id="7agSOE7Kjvh" role="2CPvpQ">
-          <ref role="26L8Vy" to="mbq3:3drXVOoNMYE" resolve="user" />
-          <node concept="Xl_RD" id="7agSOE7Kjvi" role="26L8Vw">
-            <property role="Xl_RC" value="reko" />
-          </node>
-        </node>
-        <node concept="26L8Vk" id="7agSOE7Kjvj" role="2CPvpQ">
-          <ref role="26L8Vy" to="mbq3:3drXVOoNMYW" resolve="password" />
-          <node concept="Xl_RD" id="7agSOE7Kjvk" role="26L8Vw">
-            <property role="Xl_RC" value="test" />
-          </node>
-        </node>
-      </node>
-      <node concept="2CPvp3" id="7agSOE7Kjvl" role="2CJdiS" />
-      <node concept="2CJf3v" id="7agSOE7Kjv8" role="2CJdiS">
-        <property role="TrG5h" value="currentPlatform" />
-        <node concept="Xl_RD" id="7agSOE7Kjv9" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.OrderDocumentJob.JobTestRessources_Default" />
-        </node>
-        <node concept="2CJf1O" id="7agSOE7Kjva" role="2CJ4_l">
-          <node concept="Xl_RD" id="7agSOE7Kjvb" role="2DqwMp">
-            <property role="Xl_RC" value="SUGAR" />
-          </node>
-          <node concept="Xl_RD" id="7agSOE7Kjvc" role="2DqwMv">
-            <property role="Xl_RC" value="0" />
-          </node>
-        </node>
-      </node>
-      <node concept="2CPvp3" id="7agSOE7Kjvn" role="2CJdiS" />
-      <node concept="2CJf3v" id="77cIZASxKuH" role="2CJdiS">
-        <property role="TrG5h" value="lockService" />
-        <node concept="Xl_RD" id="77cIZASxKuJ" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeLockService" />
-        </node>
-      </node>
-      <node concept="2CJf3v" id="1lpzdTmkvSe" role="2CJdiS">
-        <property role="TrG5h" value="printFactory" />
-        <node concept="Xl_RD" id="1lpzdTmkvSg" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
-        </node>
-      </node>
-      <node concept="2CJf3v" id="6Rdz00zW6jD" role="2CJdiS">
-        <property role="TrG5h" value="consoleAppFactory" />
-        <node concept="Xl_RD" id="6Rdz00zW6jE" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleAppFactory" />
-        </node>
-      </node>
-      <node concept="2CJf3v" id="4LC0Y0L2pbx" role="2CJdiS">
-        <property role="TrG5h" value="userEnviormentInformation" />
-        <node concept="Xl_RD" id="4LC0Y0L2pby" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.UserEnvironmentInformation" />
-        </node>
-      </node>
-      <node concept="2CJf3v" id="6kxUNO4jiG$" role="2CJdiS">
-        <property role="TrG5h" value="userServices" />
-        <node concept="Xl_RD" id="6kxUNO4jiG_" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleUserServices" />
-        </node>
-      </node>
-      <node concept="2CPvp3" id="4DaB5G8T9CM" role="2CJdiS" />
-      <node concept="2CJ4_Q" id="7agSOE7Kjvu" role="2CJdiS">
-        <ref role="2CJ4_N" to="mbq3:4LC0Y0L2pbc" resolve="MPREIS_BasicInfrastructure" />
-      </node>
-    </node>
-    <node concept="2CPvp3" id="7agSOE7Kjvv" role="2CGBMS" />
-    <node concept="20ptWn" id="7agSOE7Kjvw" role="20ptHX">
-      <node concept="Xl_RD" id="7agSOE7Kjvx" role="20ptNC">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
       </node>
     </node>
   </node>
