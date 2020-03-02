@@ -6693,5 +6693,59 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="4DRDXIzbUDo">
+    <property role="3GE5qa" value="Service" />
+    <property role="TrG5h" value="OperationCallRemoveSession" />
+    <ref role="2ZfgGC" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+    <node concept="2S6ZIM" id="4DRDXIzbUDp" role="2ZfVej">
+      <node concept="3clFbS" id="4DRDXIzbUDq" role="2VODD2">
+        <node concept="3clFbF" id="4DRDXIzbUEP" role="3cqZAp">
+          <node concept="Xl_RD" id="4DRDXIzbUEO" role="3clFbG">
+            <property role="Xl_RC" value="Remove custom session given in this Operation Call." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4DRDXIzbUDr" role="2ZfgGD">
+      <node concept="3clFbS" id="4DRDXIzbUDs" role="2VODD2">
+        <node concept="3clFbF" id="4DRDXIzbW6o" role="3cqZAp">
+          <node concept="2OqwBi" id="4DRDXIzbWw3" role="3clFbG">
+            <node concept="2OqwBi" id="4DRDXIzbWah" role="2Oq$k0">
+              <node concept="2Sf5sV" id="4DRDXIzbW6n" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4DRDXIzbWkc" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:2P7gGuypd_d" />
+              </node>
+            </node>
+            <node concept="1PgB_6" id="4DRDXIzbW$c" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4DRDXIzbWB2" role="3cqZAp">
+          <node concept="37vLTI" id="4DRDXIzbX2z" role="3clFbG">
+            <node concept="3clFbT" id="4DRDXIzbX4v" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="2OqwBi" id="4DRDXIzbWF2" role="37vLTJ">
+              <node concept="2Sf5sV" id="4DRDXIzbWB0" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4DRDXIzbWQ6" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:7PeCy_MumjV" resolve="knowWhatDoing" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="4DRDXIzbUTe" role="2ZfVeh">
+      <node concept="3clFbS" id="4DRDXIzbUTf" role="2VODD2">
+        <node concept="3clFbF" id="4DRDXIzbUUn" role="3cqZAp">
+          <node concept="2OqwBi" id="4DRDXIzbUZG" role="3clFbG">
+            <node concept="2Sf5sV" id="4DRDXIzbUUm" role="2Oq$k0" />
+            <node concept="2qgKlT" id="4DRDXIzbW2_" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:1jAcMFYhmRN" resolve="isCustomSessionGiven" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
