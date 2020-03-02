@@ -2360,7 +2360,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="OFXTestMethod" />
     <property role="34LRSv" value="Simple Test" />
-    <property role="R4oN_" value="without session handling" />
+    <property role="R4oN_" value="with session handling" />
     <ref role="1TJDcQ" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
     <node concept="1TJgyj" id="61VVfi2MoK2" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
