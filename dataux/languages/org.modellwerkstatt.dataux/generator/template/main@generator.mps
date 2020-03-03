@@ -13285,7 +13285,26 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4h8Goff379f" role="3cqZAp" />
+        <node concept="3clFbJ" id="2BE1RYKamGK" role="3cqZAp">
+          <node concept="3clFbS" id="2BE1RYKamGM" role="3clFbx">
+            <node concept="YS8fn" id="2BE1RYKan0A" role="3cqZAp">
+              <node concept="2ShNRf" id="2BE1RYKan2l" role="YScLw">
+                <node concept="1pGfFk" id="2BE1RYKasYf" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="Xl_RD" id="2BE1RYKat0j" role="37wK5m">
+                    <property role="Xl_RC" value="Session is null while calculating tiles. This can not happen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="2BE1RYKamVS" role="3clFbw">
+            <node concept="10Nm6u" id="2BE1RYKamYb" role="3uHU7w" />
+            <node concept="37vLTw" id="2BE1RYKamS6" role="3uHU7B">
+              <ref role="3cqZAo" node="4h8Goff3miC" resolve="__manMapSession" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4h8Goff3830" role="3cqZAp">
           <node concept="2OqwBi" id="4h8Goff382X" role="3clFbG">
             <node concept="10M0yZ" id="4h8Goff382Y" role="2Oq$k0">
@@ -13340,8 +13359,8 @@
                       </node>
                       <node concept="liA8E" id="4h8Goff3pxm" role="2OqNvi">
                         <ref role="37wK5l" to="yg8v:6zVU6_jnID6" resolve="calcAndSetCurrentTileLabel" />
-                        <node concept="37vLTw" id="4h8Goff3pAP" role="37wK5m">
-                          <ref role="3cqZAo" node="4h8Goff3kr4" resolve="session" />
+                        <node concept="37vLTw" id="2BE1RYKaETf" role="37wK5m">
+                          <ref role="3cqZAo" node="4h8Goff3miC" resolve="__manMapSession" />
                         </node>
                       </node>
                     </node>
