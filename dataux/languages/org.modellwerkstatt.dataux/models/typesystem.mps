@@ -19,7 +19,6 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -50,9 +49,6 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -5808,17 +5804,6 @@
           </node>
         </node>
         <node concept="3clFbS" id="2N7eHMaggxZ" role="3clFbx">
-          <node concept="3clFbF" id="2N7eHMajWGr" role="3cqZAp">
-            <node concept="2OqwBi" id="2N7eHMajWGo" role="3clFbG">
-              <node concept="10M0yZ" id="2N7eHMajWGp" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              </node>
-              <node concept="liA8E" id="2N7eHMajWGq" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println():void" resolve="println" />
-              </node>
-            </node>
-          </node>
           <node concept="3clFbJ" id="2N7eHMaghs7" role="3cqZAp">
             <node concept="3eOSWO" id="2N7eHMakl3l" role="3clFbw">
               <node concept="2OqwBi" id="2N7eHMagiQ7" role="3uHU7B">
