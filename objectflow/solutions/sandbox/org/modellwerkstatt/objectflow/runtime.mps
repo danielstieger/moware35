@@ -28892,30 +28892,99 @@
         </node>
       </node>
       <node concept="3clFbS" id="qAMqEmqxKy" role="3clF47">
-        <node concept="3clFbF" id="qAMqEmqxKz" role="3cqZAp">
-          <node concept="37vLTI" id="qAMqEmqxK$" role="3clFbG">
-            <node concept="2OqwBi" id="qAMqEmqxK_" role="37vLTx">
-              <node concept="37vLTw" id="qAMqEmqxKA" role="2Oq$k0">
-                <ref role="3cqZAo" node="qAMqEmqxKv" resolve="statusElements" />
-              </node>
-              <node concept="liA8E" id="qAMqEmqxKB" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.toArray(java.lang.Object[]):java.lang.Object[]" resolve="toArray" />
-                <node concept="2OqwBi" id="qAMqEmqxKC" role="37wK5m">
-                  <node concept="37vLTw" id="qAMqEmqxKD" role="2Oq$k0">
-                    <ref role="3cqZAo" node="qAMqEmqxJO" resolve="defaultStatus" />
+        <node concept="3SKdUt" id="4w$X5IS$vO" role="3cqZAp">
+          <node concept="3SKdUq" id="4w$X5IS$vQ" role="3SKWNk">
+            <property role="3SKdUp" value="quite complicated, since toArray(defaultStatus) does not work here." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4w$X5ISi6a" role="3cqZAp">
+          <node concept="37vLTI" id="4w$X5ISi_T" role="3clFbG">
+            <node concept="37vLTw" id="4w$X5ISi68" role="37vLTJ">
+              <ref role="3cqZAo" node="qAMqEmqxJV" resolve="enabledElements" />
+            </node>
+            <node concept="1eOMI4" id="4w$X5IS$Ds" role="37vLTx">
+              <node concept="10QFUN" id="4w$X5IS$Dt" role="1eOMHV">
+                <node concept="10Q1$e" id="4w$X5IS$Du" role="10QFUM">
+                  <node concept="16syzq" id="4w$X5IS$Dv" role="10Q1$1">
+                    <ref role="16sUi3" node="7IMtpAjTEFe" resolve="T" />
                   </node>
-                  <node concept="liA8E" id="qAMqEmqxKE" role="2OqNvi">
-                    <ref role="37wK5l" node="4JGvOehA8Wu" resolve="getAllStatusElements" />
+                </node>
+                <node concept="2YIFZM" id="4w$X5IS$Dw" role="10QFUP">
+                  <ref role="1Pybhc" to="t6h5:~Array" resolve="Array" />
+                  <ref role="37wK5l" to="t6h5:~Array.newInstance(java.lang.Class,int...):java.lang.Object" resolve="newInstance" />
+                  <node concept="2OqwBi" id="4w$X5IS$Dx" role="37wK5m">
+                    <node concept="37vLTw" id="4w$X5IS$Dy" role="2Oq$k0">
+                      <ref role="3cqZAo" node="qAMqEmqxJO" resolve="defaultStatus" />
+                    </node>
+                    <node concept="liA8E" id="4w$X5IS$Dz" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="4w$X5IS_CM" role="37wK5m">
+                    <node concept="37vLTw" id="4w$X5IS_ma" role="2Oq$k0">
+                      <ref role="3cqZAo" node="qAMqEmqxKv" resolve="statusElements" />
+                    </node>
+                    <node concept="liA8E" id="4w$X5ISA9m" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="37vLTw" id="qAMqEmqxKF" role="37vLTJ">
-              <ref role="3cqZAo" node="qAMqEmqxJV" resolve="enabledElements" />
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="4w$X5ISvIG" role="3cqZAp">
+          <node concept="3clFbS" id="4w$X5ISvII" role="2LFqv$">
+            <node concept="3clFbF" id="4w$X5ISxBj" role="3cqZAp">
+              <node concept="37vLTI" id="4w$X5ISytz" role="3clFbG">
+                <node concept="2OqwBi" id="4w$X5ISz54" role="37vLTx">
+                  <node concept="37vLTw" id="4w$X5ISyV9" role="2Oq$k0">
+                    <ref role="3cqZAo" node="qAMqEmqxKv" resolve="statusElements" />
+                  </node>
+                  <node concept="liA8E" id="4w$X5ISzxZ" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                    <node concept="37vLTw" id="4w$X5ISzCX" role="37wK5m">
+                      <ref role="3cqZAo" node="4w$X5ISvIJ" resolve="i" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="AH0OO" id="4w$X5ISy22" role="37vLTJ">
+                  <node concept="37vLTw" id="4w$X5ISyra" role="AHEQo">
+                    <ref role="3cqZAo" node="4w$X5ISvIJ" resolve="i" />
+                  </node>
+                  <node concept="37vLTw" id="4w$X5ISxBh" role="AHHXb">
+                    <ref role="3cqZAo" node="qAMqEmqxJV" resolve="enabledElements" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="4w$X5ISvIJ" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="4w$X5ISvRA" role="1tU5fm" />
+            <node concept="3cmrfG" id="4w$X5ISvWI" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="4w$X5ISwaA" role="1Dwp0S">
+            <node concept="2OqwBi" id="4w$X5ISw_Q" role="3uHU7w">
+              <node concept="37vLTw" id="4w$X5ISwoO" role="2Oq$k0">
+                <ref role="3cqZAo" node="qAMqEmqxKv" resolve="statusElements" />
+              </node>
+              <node concept="liA8E" id="4w$X5ISwI5" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4w$X5ISw1I" role="3uHU7B">
+              <ref role="3cqZAo" node="4w$X5ISvIJ" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="4w$X5ISxhK" role="1Dwrff">
+            <node concept="37vLTw" id="4w$X5ISxhM" role="2$L3a6">
+              <ref role="3cqZAo" node="4w$X5ISvIJ" resolve="i" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="qAMqEmqxKG" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="qAMqEmqxKH" role="jymVt">
@@ -44331,7 +44400,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2020.4 (RT) (dev " />
+            <property role="Xl_RC" value="moware 2020.5 (toArray) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -46592,30 +46661,99 @@
         </node>
       </node>
       <node concept="3clFbS" id="qAMqEmSVoh" role="3clF47">
-        <node concept="3clFbF" id="qAMqEmSVoi" role="3cqZAp">
-          <node concept="37vLTI" id="qAMqEmSVoj" role="3clFbG">
-            <node concept="2OqwBi" id="qAMqEmSVok" role="37vLTx">
-              <node concept="37vLTw" id="qAMqEmSVol" role="2Oq$k0">
-                <ref role="3cqZAo" node="qAMqEmSVoe" resolve="statusElements" />
-              </node>
-              <node concept="liA8E" id="qAMqEmSVom" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.toArray(java.lang.Object[]):java.lang.Object[]" resolve="toArray" />
-                <node concept="2OqwBi" id="qAMqEmSVon" role="37wK5m">
-                  <node concept="37vLTw" id="qAMqEmSVoo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="qAMqEmSSmQ" resolve="defaultStatus" />
+        <node concept="3SKdUt" id="4w$X5ISOFk" role="3cqZAp">
+          <node concept="3SKdUq" id="4w$X5ISOFl" role="3SKWNk">
+            <property role="3SKdUp" value="quite complicated, since toArray(defaultStatus) does not work here." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4w$X5ISOFm" role="3cqZAp">
+          <node concept="37vLTI" id="4w$X5ISOFn" role="3clFbG">
+            <node concept="37vLTw" id="4w$X5ISOFo" role="37vLTJ">
+              <ref role="3cqZAo" node="qAMqEmSSmT" resolve="enabledElements" />
+            </node>
+            <node concept="1eOMI4" id="4w$X5ISOFp" role="37vLTx">
+              <node concept="10QFUN" id="4w$X5ISOFq" role="1eOMHV">
+                <node concept="10Q1$e" id="4w$X5ISOFr" role="10QFUM">
+                  <node concept="16syzq" id="4w$X5ISOFs" role="10Q1$1">
+                    <ref role="16sUi3" node="qAMqEmD6aM" resolve="T" />
                   </node>
-                  <node concept="liA8E" id="qAMqEmSVop" role="2OqNvi">
-                    <ref role="37wK5l" node="4JGvOehA8Wu" resolve="getAllStatusElements" />
+                </node>
+                <node concept="2YIFZM" id="4w$X5ISOFt" role="10QFUP">
+                  <ref role="37wK5l" to="t6h5:~Array.newInstance(java.lang.Class,int...):java.lang.Object" resolve="newInstance" />
+                  <ref role="1Pybhc" to="t6h5:~Array" resolve="Array" />
+                  <node concept="2OqwBi" id="4w$X5ISOFu" role="37wK5m">
+                    <node concept="37vLTw" id="4w$X5ISOFv" role="2Oq$k0">
+                      <ref role="3cqZAo" node="qAMqEmSSmQ" resolve="defaultStatus" />
+                    </node>
+                    <node concept="liA8E" id="4w$X5ISOFw" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="4w$X5ISOFx" role="37wK5m">
+                    <node concept="37vLTw" id="4w$X5ISOFy" role="2Oq$k0">
+                      <ref role="3cqZAo" node="qAMqEmSVoe" resolve="statusElements" />
+                    </node>
+                    <node concept="liA8E" id="4w$X5ISOFz" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="37vLTw" id="qAMqEmSVoq" role="37vLTJ">
-              <ref role="3cqZAo" node="qAMqEmSSmT" resolve="enabledElements" />
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="4w$X5ISOF$" role="3cqZAp">
+          <node concept="3clFbS" id="4w$X5ISOF_" role="2LFqv$">
+            <node concept="3clFbF" id="4w$X5ISOFA" role="3cqZAp">
+              <node concept="37vLTI" id="4w$X5ISOFB" role="3clFbG">
+                <node concept="2OqwBi" id="4w$X5ISOFC" role="37vLTx">
+                  <node concept="37vLTw" id="4w$X5ISOFD" role="2Oq$k0">
+                    <ref role="3cqZAo" node="qAMqEmSVoe" resolve="statusElements" />
+                  </node>
+                  <node concept="liA8E" id="4w$X5ISOFE" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                    <node concept="37vLTw" id="4w$X5ISOFF" role="37wK5m">
+                      <ref role="3cqZAo" node="4w$X5ISOFJ" resolve="i" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="AH0OO" id="4w$X5ISOFG" role="37vLTJ">
+                  <node concept="37vLTw" id="4w$X5ISOFH" role="AHEQo">
+                    <ref role="3cqZAo" node="4w$X5ISOFJ" resolve="i" />
+                  </node>
+                  <node concept="37vLTw" id="4w$X5ISOFI" role="AHHXb">
+                    <ref role="3cqZAo" node="qAMqEmSSmT" resolve="enabledElements" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="4w$X5ISOFJ" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="4w$X5ISOFK" role="1tU5fm" />
+            <node concept="3cmrfG" id="4w$X5ISOFL" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="4w$X5ISOFM" role="1Dwp0S">
+            <node concept="2OqwBi" id="4w$X5ISOFN" role="3uHU7w">
+              <node concept="37vLTw" id="4w$X5ISOFO" role="2Oq$k0">
+                <ref role="3cqZAo" node="qAMqEmSVoe" resolve="statusElements" />
+              </node>
+              <node concept="liA8E" id="4w$X5ISOFP" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4w$X5ISOFQ" role="3uHU7B">
+              <ref role="3cqZAo" node="4w$X5ISOFJ" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="4w$X5ISOFR" role="1Dwrff">
+            <node concept="37vLTw" id="4w$X5ISOFS" role="2$L3a6">
+              <ref role="3cqZAo" node="4w$X5ISOFJ" resolve="i" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="qAMqEmSVor" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="qAMqEmSVos" role="jymVt">

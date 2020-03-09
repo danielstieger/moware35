@@ -5349,5 +5349,117 @@
       </node>
     </node>
   </node>
+  <node concept="_UgoZ" id="4w$X5HE655">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="MoWareMRStoMMRS2019_9" />
+    <property role="2BwPS$" value="MoWareMMRS_2019" />
+    <property role="_Wzho" value="(8) Remove custom session handling from all test methods." />
+    <node concept="_XfAh" id="4w$X5HE65O" role="_YvDr">
+      <property role="_XH9r" value="Change all test methods to non custom session handling" />
+      <ref role="_XDHR" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+      <node concept="_ZGcI" id="4w$X5HE65P" role="_XPhp">
+        <node concept="3clFbS" id="4w$X5HE65Q" role="2VODD2">
+          <node concept="3clFbF" id="Oao59phI2W" role="3cqZAp">
+            <node concept="2OqwBi" id="Oao59phJpa" role="3clFbG">
+              <node concept="2OqwBi" id="Oao59phIc1" role="2Oq$k0">
+                <node concept="_YI3z" id="4w$X5HE9Kj" role="2Oq$k0" />
+                <node concept="2Rf3mk" id="Oao59phIzY" role="2OqNvi">
+                  <node concept="1xMEDy" id="Oao59phI$0" role="1xVPHs">
+                    <node concept="chp4Y" id="Oao59phIAg" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2es0OD" id="Oao59phL6J" role="2OqNvi">
+                <node concept="1bVj0M" id="Oao59phL6L" role="23t8la">
+                  <node concept="3clFbS" id="Oao59phL6M" role="1bW5cS">
+                    <node concept="3clFbF" id="Oao59phL9q" role="3cqZAp">
+                      <node concept="2OqwBi" id="Oao59phLAF" role="3clFbG">
+                        <node concept="2OqwBi" id="Oao59phLeI" role="2Oq$k0">
+                          <node concept="37vLTw" id="Oao59phL9p" role="2Oq$k0">
+                            <ref role="3cqZAo" node="Oao59phL6N" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="Oao59phLqt" role="2OqNvi">
+                            <ref role="3Tt5mk" to="un0u:2P7gGuypd_d" />
+                          </node>
+                        </node>
+                        <node concept="1PgB_6" id="Oao59phLEz" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="Oao59phLMx" role="3cqZAp">
+                      <node concept="37vLTI" id="Oao59phMhT" role="3clFbG">
+                        <node concept="3clFbT" id="Oao59phMjR" role="37vLTx">
+                          <property role="3clFbU" value="false" />
+                        </node>
+                        <node concept="2OqwBi" id="Oao59phLRV" role="37vLTJ">
+                          <node concept="37vLTw" id="Oao59phLMv" role="2Oq$k0">
+                            <ref role="3cqZAo" node="Oao59phL6N" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="Oao59phM4Z" role="2OqNvi">
+                            <ref role="3TsBF5" to="un0u:7PeCy_MumjV" resolve="knowWhatDoing" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="Oao59phL6N" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="Oao59phL6O" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="4w$X5ISUKI" role="_XDHO">
+        <node concept="3clFbS" id="4w$X5ISUKJ" role="2VODD2">
+          <node concept="3clFbF" id="4w$X5ISUQd" role="3cqZAp">
+            <node concept="3eOSWO" id="4w$X5ISZ8p" role="3clFbG">
+              <node concept="3cmrfG" id="4w$X5ISZ8v" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="4w$X5ISYKM" role="3uHU7B">
+                <node concept="2OqwBi" id="4w$X5ISWxr" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4w$X5ISV1Q" role="2Oq$k0">
+                    <node concept="_YI3z" id="4w$X5ISUQc" role="2Oq$k0" />
+                    <node concept="2Rf3mk" id="4w$X5ISVqV" role="2OqNvi">
+                      <node concept="1xMEDy" id="4w$X5ISVqX" role="1xVPHs">
+                        <node concept="chp4Y" id="4w$X5ISVxA" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3zZkjj" id="4w$X5ISYfn" role="2OqNvi">
+                    <node concept="1bVj0M" id="4w$X5ISYfp" role="23t8la">
+                      <node concept="3clFbS" id="4w$X5ISYfq" role="1bW5cS">
+                        <node concept="3clFbF" id="4w$X5ISYiq" role="3cqZAp">
+                          <node concept="2OqwBi" id="4w$X5ISYq0" role="3clFbG">
+                            <node concept="37vLTw" id="4w$X5ISYip" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4w$X5ISYfr" resolve="it" />
+                            </node>
+                            <node concept="2qgKlT" id="4w$X5ISYC7" role="2OqNvi">
+                              <ref role="37wK5l" to="70o0:1jAcMFYhmRN" resolve="isCustomSessionGiven" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="4w$X5ISYfr" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="4w$X5ISYfs" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="34oBXx" id="4w$X5ISYSh" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

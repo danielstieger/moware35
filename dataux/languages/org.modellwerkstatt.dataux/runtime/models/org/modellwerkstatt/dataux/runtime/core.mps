@@ -8241,37 +8241,22 @@
               </node>
             </node>
             <node concept="3clFbH" id="6zVU6_j$s4b" role="3cqZAp" />
-            <node concept="3clFbJ" id="2qrl3a2Z_jE" role="3cqZAp">
-              <node concept="3clFbS" id="2qrl3a2Z_jG" role="3clFbx">
-                <node concept="3clFbF" id="2qrl3a2ZFAC" role="3cqZAp">
-                  <node concept="37vLTI" id="2qrl3a2ZFDZ" role="3clFbG">
-                    <node concept="37vLTw" id="2qrl3a2ZFAA" role="37vLTJ">
-                      <ref role="3cqZAo" node="2qrl3a2ZxLK" resolve="tilesSession" />
-                    </node>
-                    <node concept="2OqwBi" id="2qrl3a2UBQC" role="37vLTx">
-                      <node concept="37vLTw" id="2qrl3a2UBQD" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
-                      </node>
-                      <node concept="liA8E" id="2qrl3a2UBQE" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
-                        <node concept="37vLTw" id="2qrl3a2UBQF" role="37wK5m">
-                          <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
-                        </node>
-                        <node concept="Xjq3P" id="3ooJmL_zbkP" role="37wK5m" />
-                      </node>
-                    </node>
-                  </node>
+            <node concept="3clFbF" id="2qrl3a2ZFAC" role="3cqZAp">
+              <node concept="37vLTI" id="2qrl3a2ZFDZ" role="3clFbG">
+                <node concept="37vLTw" id="2qrl3a2ZFAA" role="37vLTJ">
+                  <ref role="3cqZAo" node="2qrl3a2ZxLK" resolve="tilesSession" />
                 </node>
-              </node>
-              <node concept="3eOSWO" id="2qrl3a2ZE3s" role="3clFbw">
-                <node concept="3cmrfG" id="2qrl3a2ZE5q" role="3uHU7w">
-                  <property role="3cmrfH" value="0" />
-                </node>
-                <node concept="2OqwBi" id="2qrl3a2ZCgX" role="3uHU7B">
-                  <node concept="37vLTw" id="6zVU6_jBQVh" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6zVU6_j$mgZ" resolve="tileActions" />
+                <node concept="2OqwBi" id="2qrl3a2UBQC" role="37vLTx">
+                  <node concept="37vLTw" id="2qrl3a2UBQD" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                   </node>
-                  <node concept="34oBXx" id="2qrl3a2ZDEX" role="2OqNvi" />
+                  <node concept="liA8E" id="2qrl3a2UBQE" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                    <node concept="37vLTw" id="2qrl3a2UBQF" role="37wK5m">
+                      <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+                    </node>
+                    <node concept="Xjq3P" id="3ooJmL_zbkP" role="37wK5m" />
+                  </node>
                 </node>
               </node>
             </node>
