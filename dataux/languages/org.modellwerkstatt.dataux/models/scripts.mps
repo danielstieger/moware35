@@ -4551,6 +4551,166 @@
         <node concept="3clFbS" id="2xpwZ52i4v7" role="2VODD2" />
       </node>
     </node>
+    <node concept="_XfAh" id="Pl1XhEb$Ws" role="_YvDr">
+      <property role="_XH9r" value="Search for status in string concatination with +" />
+      <ref role="_XDHR" to="tpee:fzcpWvV" resolve="PlusExpression" />
+      <node concept="_ZGcI" id="Pl1XhEb$Wt" role="_XPhp">
+        <node concept="3clFbS" id="Pl1XhEb$Wu" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="Pl1XhEbAIt" role="_XDHO">
+        <node concept="3clFbS" id="Pl1XhEbAIu" role="2VODD2">
+          <node concept="3clFbF" id="Pl1XhEb_8g" role="3cqZAp">
+            <node concept="2OqwBi" id="Pl1XhEb_NY" role="3clFbG">
+              <node concept="2OqwBi" id="Pl1XhEb_ay" role="2Oq$k0">
+                <node concept="_YI3z" id="Pl1XhEb_8f" role="2Oq$k0" />
+                <node concept="2Rf3mk" id="Pl1XhEb_gj" role="2OqNvi">
+                  <node concept="1xMEDy" id="Pl1XhEb_gl" role="1xVPHs">
+                    <node concept="chp4Y" id="Pl1XhEb_nB" role="ri$Ld">
+                      <ref role="cht4Q" to="tpee:huS8uEI" resolve="PropertyReference" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2HwmR7" id="Pl1XhEbBFf" role="2OqNvi">
+                <node concept="1bVj0M" id="Pl1XhEbBFh" role="23t8la">
+                  <node concept="3clFbS" id="Pl1XhEbBFi" role="1bW5cS">
+                    <node concept="3clFbF" id="Pl1XhEbBII" role="3cqZAp">
+                      <node concept="2YIFZM" id="Pl1XhEbF12" role="3clFbG">
+                        <ref role="37wK5l" to="3ojc:FaoLX6ipgB" resolve="isStatus" />
+                        <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
+                        <node concept="2OqwBi" id="Pl1XhEbC2O" role="37wK5m">
+                          <node concept="2OqwBi" id="Pl1XhEbBMR" role="2Oq$k0">
+                            <node concept="37vLTw" id="Pl1XhEbBIH" role="2Oq$k0">
+                              <ref role="3cqZAo" node="Pl1XhEbBFj" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="Pl1XhEbBTu" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:huS8YPn" />
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="Pl1XhEbCe2" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tpee:huRkE2T" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="Pl1XhEbBFj" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="Pl1XhEbBFk" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="Pl1XhEcrVm" role="_YvDr">
+      <property role="_XH9r" value="Search for status const Reference in string concatination with +" />
+      <ref role="_XDHR" to="tpee:fzcpWvV" resolve="PlusExpression" />
+      <node concept="_ZGcI" id="Pl1XhEcrVn" role="_XPhp">
+        <node concept="3clFbS" id="Pl1XhEcrVo" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="Pl1XhEcrVp" role="_XDHO">
+        <node concept="3clFbS" id="Pl1XhEcrVq" role="2VODD2">
+          <node concept="3clFbF" id="Pl1XhEcrVr" role="3cqZAp">
+            <node concept="3eOSWO" id="Pl1XhEcvsT" role="3clFbG">
+              <node concept="3cmrfG" id="Pl1XhEcvsZ" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="Pl1XhEcrVs" role="3uHU7B">
+                <node concept="2OqwBi" id="Pl1XhEcrVt" role="2Oq$k0">
+                  <node concept="_YI3z" id="Pl1XhEcrVu" role="2Oq$k0" />
+                  <node concept="2Rf3mk" id="Pl1XhEcrVv" role="2OqNvi">
+                    <node concept="1xMEDy" id="Pl1XhEcrVw" role="1xVPHs">
+                      <node concept="chp4Y" id="Pl1XhEcsag" role="ri$Ld">
+                        <ref role="cht4Q" to="un0u:3VCHlE3_TvF" resolve="StatusConstReference" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="34oBXx" id="Pl1XhEcuki" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="Pl1XhEb$YN" role="_YvDr">
+      <property role="_XH9r" value="Search for status in string concatination within a string builder" />
+      <ref role="_XDHR" to="tpee:hwliAcM" resolve="InstanceMethodCallOperation" />
+      <node concept="_ZGcI" id="Pl1XhEb$YO" role="_XPhp">
+        <node concept="3clFbS" id="Pl1XhEb$YP" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="Pl1XhEbGpV" role="_XDHO">
+        <node concept="3clFbS" id="Pl1XhEbGpW" role="2VODD2">
+          <node concept="3clFbF" id="Pl1XhEbGr8" role="3cqZAp">
+            <node concept="1Wc70l" id="Pl1XhEbIi_" role="3clFbG">
+              <node concept="2OqwBi" id="Pl1XhEbHP$" role="3uHU7B">
+                <node concept="liA8E" id="Pl1XhEbHZC" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="Pl1XhEbGUh" role="37wK5m">
+                    <node concept="2OqwBi" id="Pl1XhEbGv3" role="2Oq$k0">
+                      <node concept="_YI3z" id="Pl1XhEbGr7" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="Pl1XhEbGAX" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:hwllgre" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="Pl1XhEbHnx" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="Pl1XhEbI0L" role="2Oq$k0">
+                  <property role="Xl_RC" value="append" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="Pl1XhEbIEn" role="3uHU7w">
+                <node concept="2OqwBi" id="Pl1XhEbIEo" role="2Oq$k0">
+                  <node concept="_YI3z" id="Pl1XhEbIEp" role="2Oq$k0" />
+                  <node concept="2Rf3mk" id="Pl1XhEbIEq" role="2OqNvi">
+                    <node concept="1xMEDy" id="Pl1XhEbIEr" role="1xVPHs">
+                      <node concept="chp4Y" id="Pl1XhEbIEs" role="ri$Ld">
+                        <ref role="cht4Q" to="tpee:huS8uEI" resolve="PropertyReference" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2HwmR7" id="Pl1XhEbIEt" role="2OqNvi">
+                  <node concept="1bVj0M" id="Pl1XhEbIEu" role="23t8la">
+                    <node concept="3clFbS" id="Pl1XhEbIEv" role="1bW5cS">
+                      <node concept="3clFbF" id="Pl1XhEbIEw" role="3cqZAp">
+                        <node concept="2YIFZM" id="Pl1XhEbIEx" role="3clFbG">
+                          <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
+                          <ref role="37wK5l" to="3ojc:FaoLX6ipgB" resolve="isStatus" />
+                          <node concept="2OqwBi" id="Pl1XhEbIEy" role="37wK5m">
+                            <node concept="2OqwBi" id="Pl1XhEbIEz" role="2Oq$k0">
+                              <node concept="37vLTw" id="Pl1XhEbIE$" role="2Oq$k0">
+                                <ref role="3cqZAo" node="Pl1XhEbIEB" resolve="it" />
+                              </node>
+                              <node concept="3TrEf2" id="Pl1XhEbIE_" role="2OqNvi">
+                                <ref role="3Tt5mk" to="tpee:huS8YPn" />
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="Pl1XhEbIEA" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:huRkE2T" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="Pl1XhEbIEB" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="Pl1XhEbIEC" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="_UgoZ" id="3sIS$IKsEjM">
     <property role="2BwPSy" value="migration" />
