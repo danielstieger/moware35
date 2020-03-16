@@ -3286,6 +3286,16 @@
         <ref role="3uigEE" to="rb41:~TextField" resolve="TextField" />
       </node>
     </node>
+    <node concept="312cEg" id="d1OBGSfsue" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="updateButton" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="d1OBGSfsuf" role="1B3o_S" />
+      <node concept="3uibUv" id="d1OBGSft_j" role="1tU5fm">
+        <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
+      </node>
+    </node>
     <node concept="312cEg" id="1_PJNZXA8sz" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -4109,12 +4119,24 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="3n6HPRZCWdD" role="3clFbw">
-                      <node concept="37vLTw" id="3n6HPRZCWbO" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5Y1b9tR1Q67" resolve="delegate" />
+                    <node concept="1Wc70l" id="2AV7EAP7jRj" role="3clFbw">
+                      <node concept="3fqX7Q" id="2AV7EAP7kEj" role="3uHU7w">
+                        <node concept="2OqwBi" id="2AV7EAP7kEl" role="3fr31v">
+                          <node concept="37vLTw" id="2AV7EAP7kEm" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
+                          </node>
+                          <node concept="liA8E" id="2AV7EAP7kEn" role="2OqNvi">
+                            <ref role="37wK5l" to="p18y:~Node.isDisabled():boolean" resolve="isDisabled" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="liA8E" id="3n6HPRZCWmn" role="2OqNvi">
-                        <ref role="37wK5l" to="zhcn:52pTiJH2PkA" resolve="isInputValid" />
+                      <node concept="2OqwBi" id="3n6HPRZCWdD" role="3uHU7B">
+                        <node concept="37vLTw" id="3n6HPRZCWbO" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5Y1b9tR1Q67" resolve="delegate" />
+                        </node>
+                        <node concept="liA8E" id="3n6HPRZCWmn" role="2OqNvi">
+                          <ref role="37wK5l" to="zhcn:52pTiJH2PkA" resolve="isInputValid" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -4645,6 +4667,31 @@
       <node concept="3cqZAl" id="5Y1b9tR0wLT" role="3clF45" />
       <node concept="3Tm1VV" id="5Y1b9tR0wLU" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tR0wLV" role="3clF47">
+        <node concept="3clFbJ" id="d1OBGSfjH_" role="3cqZAp">
+          <node concept="3clFbS" id="d1OBGSfjHB" role="3clFbx">
+            <node concept="3clFbF" id="d1OBGSfv15" role="3cqZAp">
+              <node concept="2OqwBi" id="d1OBGSfv3$" role="3clFbG">
+                <node concept="37vLTw" id="d1OBGSfv13" role="2Oq$k0">
+                  <ref role="3cqZAo" node="d1OBGSfsue" resolve="updateButton" />
+                </node>
+                <node concept="liA8E" id="d1OBGSfvro" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Node.setDisable(boolean):void" resolve="setDisable" />
+                  <node concept="3fqX7Q" id="d1OBGSfvtn" role="37wK5m">
+                    <node concept="37vLTw" id="d1OBGSfvwt" role="3fr31v">
+                      <ref role="3cqZAo" node="5Y1b9tR0ybU" resolve="enabled" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="d1OBGSfuOh" role="3clFbw">
+            <node concept="10Nm6u" id="d1OBGSfuQN" role="3uHU7w" />
+            <node concept="37vLTw" id="d1OBGSfuCG" role="3uHU7B">
+              <ref role="3cqZAo" node="d1OBGSfsue" resolve="updateButton" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5Y1b9tR0yRj" role="3cqZAp">
           <node concept="2OqwBi" id="5Y1b9tR0yVT" role="3clFbG">
             <node concept="37vLTw" id="5Y1b9tR0yRi" role="2Oq$k0">
@@ -4904,21 +4951,20 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="72SytNk5Thw" role="3cqZAp">
-          <node concept="3cpWsn" id="72SytNk5Thx" role="3cpWs9">
-            <property role="TrG5h" value="upDButn" />
-            <node concept="3uibUv" id="72SytNk5Thy" role="1tU5fm">
-              <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
-            </node>
-            <node concept="1rXfSq" id="72SytNk5Ttk" role="33vP2m">
+        <node concept="3clFbF" id="d1OBGSfs4a" role="3cqZAp">
+          <node concept="37vLTI" id="d1OBGSfs4c" role="3clFbG">
+            <node concept="1rXfSq" id="72SytNk5Ttk" role="37vLTx">
               <ref role="37wK5l" node="72SytNk5Qu8" resolve="createUpdateButton" />
+            </node>
+            <node concept="37vLTw" id="d1OBGSftXU" role="37vLTJ">
+              <ref role="3cqZAo" node="d1OBGSfsue" resolve="updateButton" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="1_PJNZXAypj" role="3cqZAp">
           <node concept="2OqwBi" id="1_PJNZXAyx4" role="3clFbG">
-            <node concept="37vLTw" id="72SytNk5TI_" role="2Oq$k0">
-              <ref role="3cqZAo" node="72SytNk5Thx" resolve="upDButn" />
+            <node concept="37vLTw" id="d1OBGSfucK" role="2Oq$k0">
+              <ref role="3cqZAo" node="d1OBGSfsue" resolve="updateButton" />
             </node>
             <node concept="liA8E" id="1_PJNZXAyQu" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~ButtonBase.setOnAction(javafx.event.EventHandler):void" resolve="setOnAction" />
@@ -5007,8 +5053,8 @@
               <node concept="37vLTw" id="1_PJNZXAnJE" role="37wK5m">
                 <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
               </node>
-              <node concept="37vLTw" id="72SytNk5TPB" role="37wK5m">
-                <ref role="3cqZAo" node="72SytNk5Thx" resolve="upDButn" />
+              <node concept="37vLTw" id="d1OBGSfupY" role="37wK5m">
+                <ref role="3cqZAo" node="d1OBGSfsue" resolve="updateButton" />
               </node>
             </node>
           </node>
@@ -6439,6 +6485,16 @@
         <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
       </node>
     </node>
+    <node concept="312cEg" id="2AV7EAP6Waz" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="updateConclusionButton" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="2AV7EAP6Wa$" role="1B3o_S" />
+      <node concept="3uibUv" id="2AV7EAP6X$K" role="1tU5fm">
+        <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3n6HPRZs48I" role="jymVt" />
     <node concept="312cEg" id="1kaU3pLWzTW" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -6940,21 +6996,33 @@
                   </node>
                   <node concept="3clFbH" id="3n6HPRZxQ4x" role="3cqZAp" />
                 </node>
-                <node concept="1Wc70l" id="3n6HPRZxQ4y" role="3clFbw">
-                  <node concept="3fqX7Q" id="3n6HPRZxYcy" role="3uHU7w">
-                    <node concept="1eOMI4" id="3n6HPRZxYc$" role="3fr31v">
-                      <node concept="3clFbC" id="3n6HPRZxYc_" role="1eOMHV">
-                        <node concept="37vLTw" id="3n6HPRZxYcA" role="3uHU7w">
-                          <ref role="3cqZAo" node="3n6HPRZrW02" resolve="lastIndexIssuedUpdate" />
-                        </node>
-                        <node concept="1rXfSq" id="3n6HPRZxYcB" role="3uHU7B">
-                          <ref role="37wK5l" node="1kaU3pLXdD3" resolve="getSelectedIndex" />
-                        </node>
+                <node concept="1Wc70l" id="2AV7EAP7lCx" role="3clFbw">
+                  <node concept="3fqX7Q" id="2AV7EAP7m28" role="3uHU7w">
+                    <node concept="2OqwBi" id="2AV7EAP7mez" role="3fr31v">
+                      <node concept="37vLTw" id="2AV7EAP7m8b" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1kaU3pLWzTQ" resolve="comboBox" />
+                      </node>
+                      <node concept="liA8E" id="2AV7EAP7mZi" role="2OqNvi">
+                        <ref role="37wK5l" to="p18y:~Node.isDisabled():boolean" resolve="isDisabled" />
                       </node>
                     </node>
                   </node>
-                  <node concept="37vLTw" id="3n6HPRZxQ4E" role="3uHU7B">
-                    <ref role="3cqZAo" node="3n6HPRZrVZZ" resolve="issueUpdateConclusion" />
+                  <node concept="1Wc70l" id="3n6HPRZxQ4y" role="3uHU7B">
+                    <node concept="37vLTw" id="3n6HPRZxQ4E" role="3uHU7B">
+                      <ref role="3cqZAo" node="3n6HPRZrVZZ" resolve="issueUpdateConclusion" />
+                    </node>
+                    <node concept="3fqX7Q" id="3n6HPRZxYcy" role="3uHU7w">
+                      <node concept="1eOMI4" id="3n6HPRZxYc$" role="3fr31v">
+                        <node concept="3clFbC" id="3n6HPRZxYc_" role="1eOMHV">
+                          <node concept="37vLTw" id="3n6HPRZxYcA" role="3uHU7w">
+                            <ref role="3cqZAo" node="3n6HPRZrW02" resolve="lastIndexIssuedUpdate" />
+                          </node>
+                          <node concept="1rXfSq" id="3n6HPRZxYcB" role="3uHU7B">
+                            <ref role="37wK5l" node="1kaU3pLXdD3" resolve="getSelectedIndex" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="9aQIb" id="3n6HPRZxQ4F" role="9aQIa">
@@ -7548,6 +7616,31 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="2AV7EAP7120" role="3cqZAp">
+          <node concept="3clFbS" id="2AV7EAP7122" role="3clFbx">
+            <node concept="3clFbF" id="2AV7EAP71kp" role="3cqZAp">
+              <node concept="2OqwBi" id="2AV7EAP71oo" role="3clFbG">
+                <node concept="37vLTw" id="2AV7EAP71kn" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2AV7EAP6Waz" resolve="updateConclusionButton" />
+                </node>
+                <node concept="liA8E" id="2AV7EAP728_" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Node.setDisable(boolean):void" resolve="setDisable" />
+                  <node concept="3fqX7Q" id="2AV7EAP72bX" role="37wK5m">
+                    <node concept="37vLTw" id="2AV7EAP72h7" role="3fr31v">
+                      <ref role="3cqZAo" node="1kaU3pLWzZu" resolve="enabled" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2AV7EAP71cR" role="3clFbw">
+            <node concept="10Nm6u" id="2AV7EAP71gW" role="3uHU7w" />
+            <node concept="37vLTw" id="2AV7EAP717k" role="3uHU7B">
+              <ref role="3cqZAo" node="2AV7EAP6Waz" resolve="updateConclusionButton" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1kaU3pLWzZD" role="jymVt" />
@@ -7753,22 +7846,21 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="3n6HPRZs3_w" role="3cqZAp">
-          <node concept="3cpWsn" id="3n6HPRZs3_x" role="3cpWs9">
-            <property role="TrG5h" value="updateConclusionButton" />
-            <node concept="3uibUv" id="3n6HPRZs3_y" role="1tU5fm">
-              <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
-            </node>
-            <node concept="2YIFZM" id="72SytNk61E1" role="33vP2m">
+        <node concept="3clFbF" id="2AV7EAP6Vzc" role="3cqZAp">
+          <node concept="37vLTI" id="2AV7EAP6Vze" role="3clFbG">
+            <node concept="2YIFZM" id="72SytNk61E1" role="37vLTx">
               <ref role="37wK5l" node="72SytNk5Qu8" resolve="createUpdateButton" />
               <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+            </node>
+            <node concept="37vLTw" id="2AV7EAP6Vzi" role="37vLTJ">
+              <ref role="3cqZAo" node="2AV7EAP6Waz" resolve="updateConclusionButton" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3n6HPRZs3_C" role="3cqZAp">
           <node concept="2OqwBi" id="3n6HPRZs3_D" role="3clFbG">
             <node concept="37vLTw" id="3n6HPRZs3_E" role="2Oq$k0">
-              <ref role="3cqZAo" node="3n6HPRZs3_x" resolve="updateConclusionButton" />
+              <ref role="3cqZAo" node="2AV7EAP6Waz" resolve="updateConclusionButton" />
             </node>
             <node concept="liA8E" id="3n6HPRZs3_F" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~ButtonBase.setOnAction(javafx.event.EventHandler):void" resolve="setOnAction" />
@@ -7841,7 +7933,7 @@
                 <ref role="3cqZAo" node="1kaU3pLWzTQ" resolve="comboBox" />
               </node>
               <node concept="37vLTw" id="3n6HPRZs3Av" role="37wK5m">
-                <ref role="3cqZAo" node="3n6HPRZs3_x" resolve="updateConclusionButton" />
+                <ref role="3cqZAo" node="2AV7EAP6Waz" resolve="updateConclusionButton" />
               </node>
             </node>
           </node>
@@ -7947,21 +8039,33 @@
                           </node>
                           <node concept="3clFbH" id="3n6HPRZz7Ty" role="3cqZAp" />
                         </node>
-                        <node concept="1Wc70l" id="3n6HPRZz7Tz" role="3clFbw">
-                          <node concept="3fqX7Q" id="3n6HPRZz7T$" role="3uHU7w">
-                            <node concept="1eOMI4" id="3n6HPRZz7T_" role="3fr31v">
-                              <node concept="3clFbC" id="3n6HPRZz7TA" role="1eOMHV">
-                                <node concept="37vLTw" id="3n6HPRZz7TB" role="3uHU7w">
-                                  <ref role="3cqZAo" node="3n6HPRZrW02" resolve="lastIndexIssuedUpdate" />
-                                </node>
-                                <node concept="1rXfSq" id="3n6HPRZz7TC" role="3uHU7B">
-                                  <ref role="37wK5l" node="1kaU3pLXdD3" resolve="getSelectedIndex" />
-                                </node>
+                        <node concept="1Wc70l" id="2AV7EAP7_3Q" role="3clFbw">
+                          <node concept="3fqX7Q" id="2AV7EAP7B8F" role="3uHU7w">
+                            <node concept="2OqwBi" id="2AV7EAP7B8H" role="3fr31v">
+                              <node concept="37vLTw" id="2AV7EAP7B8I" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1kaU3pLWzTQ" resolve="comboBox" />
+                              </node>
+                              <node concept="liA8E" id="2AV7EAP7B8J" role="2OqNvi">
+                                <ref role="37wK5l" to="p18y:~Node.isDisabled():boolean" resolve="isDisabled" />
                               </node>
                             </node>
                           </node>
-                          <node concept="37vLTw" id="3n6HPRZz7TD" role="3uHU7B">
-                            <ref role="3cqZAo" node="3n6HPRZrVZZ" resolve="issueUpdateConclusion" />
+                          <node concept="1Wc70l" id="3n6HPRZz7Tz" role="3uHU7B">
+                            <node concept="37vLTw" id="3n6HPRZz7TD" role="3uHU7B">
+                              <ref role="3cqZAo" node="3n6HPRZrVZZ" resolve="issueUpdateConclusion" />
+                            </node>
+                            <node concept="3fqX7Q" id="3n6HPRZz7T$" role="3uHU7w">
+                              <node concept="1eOMI4" id="3n6HPRZz7T_" role="3fr31v">
+                                <node concept="3clFbC" id="3n6HPRZz7TA" role="1eOMHV">
+                                  <node concept="37vLTw" id="3n6HPRZz7TB" role="3uHU7w">
+                                    <ref role="3cqZAo" node="3n6HPRZrW02" resolve="lastIndexIssuedUpdate" />
+                                  </node>
+                                  <node concept="1rXfSq" id="3n6HPRZz7TC" role="3uHU7B">
+                                    <ref role="37wK5l" node="1kaU3pLXdD3" resolve="getSelectedIndex" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -8178,6 +8282,16 @@
       <node concept="3Tmbuc" id="72SytNk30GR" role="1B3o_S" />
       <node concept="3uibUv" id="72SytNk30GS" role="1tU5fm">
         <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
+      </node>
+    </node>
+    <node concept="312cEg" id="2AV7EAP7fiE" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="updateConclusionButton" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="2AV7EAP7fiF" role="1B3o_S" />
+      <node concept="3uibUv" id="2AV7EAP7fYD" role="1tU5fm">
+        <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
       </node>
     </node>
     <node concept="2tJIrI" id="72SytNk30hJ" role="jymVt" />
@@ -8804,6 +8918,31 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="2AV7EAP7hEF" role="3cqZAp">
+          <node concept="3clFbS" id="2AV7EAP7hEH" role="3clFbx">
+            <node concept="3clFbF" id="2AV7EAP7ihX" role="3cqZAp">
+              <node concept="2OqwBi" id="2AV7EAP7ilQ" role="3clFbG">
+                <node concept="37vLTw" id="2AV7EAP7ihV" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2AV7EAP7fiE" resolve="updateConclusionButton" />
+                </node>
+                <node concept="liA8E" id="2AV7EAP7iVd" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Node.setDisable(boolean):void" resolve="setDisable" />
+                  <node concept="3fqX7Q" id="2AV7EAP7iY_" role="37wK5m">
+                    <node concept="37vLTw" id="2AV7EAP7j3s" role="3fr31v">
+                      <ref role="3cqZAo" node="1YFjUjHUi0m" resolve="enabled" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2AV7EAP7hZr" role="3clFbw">
+            <node concept="10Nm6u" id="2AV7EAP7i3p" role="3uHU7w" />
+            <node concept="37vLTw" id="2AV7EAP7hJH" role="3uHU7B">
+              <ref role="3cqZAo" node="2AV7EAP7fiE" resolve="updateConclusionButton" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1YFjUjHUi0x" role="jymVt" />
@@ -8922,22 +9061,21 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="72SytNk33N0" role="3cqZAp">
-          <node concept="3cpWsn" id="72SytNk33N1" role="3cpWs9">
-            <property role="TrG5h" value="updateConclusionButton" />
-            <node concept="3uibUv" id="72SytNk33N2" role="1tU5fm">
-              <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
-            </node>
-            <node concept="2YIFZM" id="72SytNk5Un0" role="33vP2m">
+        <node concept="3clFbF" id="2AV7EAP7eZ3" role="3cqZAp">
+          <node concept="37vLTI" id="2AV7EAP7eZ5" role="3clFbG">
+            <node concept="2YIFZM" id="72SytNk5Un0" role="37vLTx">
               <ref role="37wK5l" node="72SytNk5Qu8" resolve="createUpdateButton" />
               <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+            </node>
+            <node concept="37vLTw" id="2AV7EAP7eZ9" role="37vLTJ">
+              <ref role="3cqZAo" node="2AV7EAP7fiE" resolve="updateConclusionButton" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="72SytNk33N8" role="3cqZAp">
           <node concept="2OqwBi" id="72SytNk33N9" role="3clFbG">
             <node concept="37vLTw" id="72SytNk33Na" role="2Oq$k0">
-              <ref role="3cqZAo" node="72SytNk33N1" resolve="updateConclusionButton" />
+              <ref role="3cqZAo" node="2AV7EAP7fiE" resolve="updateConclusionButton" />
             </node>
             <node concept="liA8E" id="72SytNk33Nb" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~ButtonBase.setOnAction(javafx.event.EventHandler):void" resolve="setOnAction" />
@@ -9025,7 +9163,7 @@
                 <ref role="3cqZAo" node="1YFjUjHUhVG" resolve="autoCompleteField" />
               </node>
               <node concept="37vLTw" id="72SytNk33O4" role="37wK5m">
-                <ref role="3cqZAo" node="72SytNk33N1" resolve="updateConclusionButton" />
+                <ref role="3cqZAo" node="2AV7EAP7fiE" resolve="updateConclusionButton" />
               </node>
             </node>
           </node>
@@ -9996,6 +10134,13 @@
         <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
       </node>
     </node>
+    <node concept="312cEg" id="2AV7EAP73n1" role="jymVt">
+      <property role="TrG5h" value="updateConclusionButton" />
+      <node concept="3Tm6S6" id="2AV7EAP73n2" role="1B3o_S" />
+      <node concept="3uibUv" id="2AV7EAP797W" role="1tU5fm">
+        <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1l2SXGvNcrh" role="jymVt" />
     <node concept="312cEg" id="3n6HPRZIbCN" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -10881,20 +11026,32 @@
                         </node>
                         <node concept="3clFbH" id="3n6HPRZLEFc" role="3cqZAp" />
                       </node>
-                      <node concept="1Wc70l" id="3n6HPRZLEFd" role="3clFbw">
-                        <node concept="37vLTw" id="3n6HPRZLEFe" role="3uHU7B">
-                          <ref role="3cqZAo" node="3n6HPRZIbCN" resolve="issueUpdateConclusion" />
-                        </node>
-                        <node concept="3fqX7Q" id="3n6HPRZLEFf" role="3uHU7w">
-                          <node concept="2OqwBi" id="3n6HPRZLEFg" role="3fr31v">
-                            <node concept="liA8E" id="3n6HPRZLEFk" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                              <node concept="37vLTw" id="3n6HPRZLEFl" role="37wK5m">
-                                <ref role="3cqZAo" node="3n6HPRZIbCQ" resolve="lastTextIssuedUpdate" />
-                              </node>
+                      <node concept="1Wc70l" id="2AV7EAP7nFt" role="3clFbw">
+                        <node concept="3fqX7Q" id="2AV7EAP7o5x" role="3uHU7w">
+                          <node concept="2OqwBi" id="2AV7EAP7oi2" role="3fr31v">
+                            <node concept="37vLTw" id="2AV7EAP7ob3" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1l2SXGvFVGF" resolve="dateField" />
                             </node>
-                            <node concept="1rXfSq" id="3n6HPRZLRgc" role="2Oq$k0">
-                              <ref role="37wK5l" node="1l2SXGvGrUa" resolve="getText" />
+                            <node concept="liA8E" id="2AV7EAP7oQx" role="2OqNvi">
+                              <ref role="37wK5l" to="p18y:~Node.isDisabled():boolean" resolve="isDisabled" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="1Wc70l" id="3n6HPRZLEFd" role="3uHU7B">
+                          <node concept="37vLTw" id="3n6HPRZLEFe" role="3uHU7B">
+                            <ref role="3cqZAo" node="3n6HPRZIbCN" resolve="issueUpdateConclusion" />
+                          </node>
+                          <node concept="3fqX7Q" id="3n6HPRZLEFf" role="3uHU7w">
+                            <node concept="2OqwBi" id="3n6HPRZLEFg" role="3fr31v">
+                              <node concept="liA8E" id="3n6HPRZLEFk" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <node concept="37vLTw" id="3n6HPRZLEFl" role="37wK5m">
+                                  <ref role="3cqZAo" node="3n6HPRZIbCQ" resolve="lastTextIssuedUpdate" />
+                                </node>
+                              </node>
+                              <node concept="1rXfSq" id="3n6HPRZLRgc" role="2Oq$k0">
+                                <ref role="37wK5l" node="1l2SXGvGrUa" resolve="getText" />
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -11066,22 +11223,21 @@
       <node concept="3cqZAl" id="4ceCyFmsN8U" role="3clF45" />
       <node concept="3Tm1VV" id="4ceCyFmsN8V" role="1B3o_S" />
       <node concept="3clFbS" id="4ceCyFmsN8Y" role="3clF47">
-        <node concept="3cpWs8" id="3n6HPRZIfe$" role="3cqZAp">
-          <node concept="3cpWsn" id="3n6HPRZIfe_" role="3cpWs9">
-            <property role="TrG5h" value="updateConclusionButton" />
-            <node concept="3uibUv" id="3n6HPRZIfeA" role="1tU5fm">
-              <ref role="3uigEE" to="rb41:~Button" resolve="Button" />
-            </node>
-            <node concept="2YIFZM" id="72SytNk5WrN" role="33vP2m">
+        <node concept="3clFbF" id="2AV7EAP735J" role="3cqZAp">
+          <node concept="37vLTI" id="2AV7EAP735L" role="3clFbG">
+            <node concept="2YIFZM" id="72SytNk5WrN" role="37vLTx">
               <ref role="37wK5l" node="72SytNk5Qu8" resolve="createUpdateButton" />
               <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+            </node>
+            <node concept="37vLTw" id="2AV7EAP735P" role="37vLTJ">
+              <ref role="3cqZAo" node="2AV7EAP73n1" resolve="updateConclusionButton" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3n6HPRZIfeG" role="3cqZAp">
           <node concept="2OqwBi" id="3n6HPRZIfeH" role="3clFbG">
             <node concept="37vLTw" id="3n6HPRZIfeI" role="2Oq$k0">
-              <ref role="3cqZAo" node="3n6HPRZIfe_" resolve="updateConclusionButton" />
+              <ref role="3cqZAo" node="2AV7EAP73n1" resolve="updateConclusionButton" />
             </node>
             <node concept="liA8E" id="3n6HPRZIfeJ" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~ButtonBase.setOnAction(javafx.event.EventHandler):void" resolve="setOnAction" />
@@ -11161,7 +11317,7 @@
             <node concept="liA8E" id="3n6HPRZIh2N" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
               <node concept="37vLTw" id="3n6HPRZIhbT" role="37wK5m">
-                <ref role="3cqZAo" node="3n6HPRZIfe_" resolve="updateConclusionButton" />
+                <ref role="3cqZAo" node="2AV7EAP73n1" resolve="updateConclusionButton" />
               </node>
             </node>
           </node>
@@ -11475,6 +11631,31 @@
                   <ref role="3cqZAo" node="1l2SXGvGrTY" resolve="enabled" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2AV7EAP79Bz" role="3cqZAp">
+          <node concept="3clFbS" id="2AV7EAP79B_" role="3clFbx">
+            <node concept="3clFbF" id="2AV7EAP7aih" role="3cqZAp">
+              <node concept="2OqwBi" id="2AV7EAP7aBD" role="3clFbG">
+                <node concept="37vLTw" id="2AV7EAP7aif" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2AV7EAP73n1" resolve="updateConclusionButton" />
+                </node>
+                <node concept="liA8E" id="2AV7EAP7bsM" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Node.setDisable(boolean):void" resolve="setDisable" />
+                  <node concept="3fqX7Q" id="2AV7EAP7bxx" role="37wK5m">
+                    <node concept="37vLTw" id="2AV7EAP7bTP" role="3fr31v">
+                      <ref role="3cqZAo" node="1l2SXGvGrTY" resolve="enabled" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2AV7EAP79Ry" role="3clFbw">
+            <node concept="10Nm6u" id="2AV7EAP7adx" role="3uHU7w" />
+            <node concept="37vLTw" id="2AV7EAP79Kx" role="3uHU7B">
+              <ref role="3cqZAo" node="2AV7EAP73n1" resolve="updateConclusionButton" />
             </node>
           </node>
         </node>
@@ -13240,12 +13421,22 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="1w1DleJQuye" role="3clFbw">
-                <node concept="37vLTw" id="1w1DleJQuyf" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1w1DleJQuoI" resolve="delegate" />
+              <node concept="1Wc70l" id="2AV7EAP7sIq" role="3clFbw">
+                <node concept="3fqX7Q" id="2AV7EAP7tfp" role="3uHU7w">
+                  <node concept="2OqwBi" id="2AV7EAP7tfr" role="3fr31v">
+                    <node concept="Xjq3P" id="2AV7EAP7tfs" role="2Oq$k0" />
+                    <node concept="liA8E" id="2AV7EAP7tft" role="2OqNvi">
+                      <ref role="37wK5l" to="p18y:~Node.isDisabled():boolean" resolve="isDisabled" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="1w1DleJQuyg" role="2OqNvi">
-                  <ref role="37wK5l" to="zhcn:52pTiJH2PkA" resolve="isInputValid" />
+                <node concept="2OqwBi" id="1w1DleJQuye" role="3uHU7B">
+                  <node concept="37vLTw" id="1w1DleJQuyf" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1w1DleJQuoI" resolve="delegate" />
+                  </node>
+                  <node concept="liA8E" id="1w1DleJQuyg" role="2OqNvi">
+                    <ref role="37wK5l" to="zhcn:52pTiJH2PkA" resolve="isInputValid" />
+                  </node>
                 </node>
               </node>
             </node>
