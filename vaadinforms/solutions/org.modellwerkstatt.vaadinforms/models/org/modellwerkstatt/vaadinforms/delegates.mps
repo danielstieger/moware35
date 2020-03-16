@@ -282,6 +282,21 @@
         <ref role="3uigEE" to="tj3g:~FieldEvents$BlurListener" resolve="FieldEvents.BlurListener" />
       </node>
     </node>
+    <node concept="2tJIrI" id="2AV7EAPxu8L" role="jymVt" />
+    <node concept="312cEg" id="2AV7EAPxkEV" role="jymVt">
+      <property role="TrG5h" value="issueUpdateConclusionButton" />
+      <node concept="3Tmbuc" id="2AV7EAPxkEW" role="1B3o_S" />
+      <node concept="3uibUv" id="2AV7EAPxlZu" role="1tU5fm">
+        <ref role="3uigEE" to="waq:~Button" resolve="Button" />
+      </node>
+    </node>
+    <node concept="312cEg" id="2AV7EAPxvwV" role="jymVt">
+      <property role="TrG5h" value="issueUpdateConclusionButtonClickListener" />
+      <node concept="3Tmbuc" id="2AV7EAPxvwW" role="1B3o_S" />
+      <node concept="3uibUv" id="2AV7EAPxwUE" role="1tU5fm">
+        <ref role="3uigEE" to="waq:~Button$ClickListener" resolve="Button.ClickListener" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3$oJQSEwVke" role="jymVt" />
     <node concept="312cEg" id="xFWXJRYEc1" role="jymVt">
       <property role="TrG5h" value="textField" />
@@ -1092,6 +1107,29 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="2AV7EAPxA92" role="3cqZAp">
+          <node concept="3clFbS" id="2AV7EAPxA94" role="3clFbx">
+            <node concept="3clFbF" id="2AV7EAPxAyy" role="3cqZAp">
+              <node concept="2OqwBi" id="2AV7EAPxAFy" role="3clFbG">
+                <node concept="37vLTw" id="2AV7EAPxAyw" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
+                </node>
+                <node concept="liA8E" id="2AV7EAPxAZb" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~AbstractComponent.setEnabled(boolean):void" resolve="setEnabled" />
+                  <node concept="3clFbT" id="2AV7EAPxB1W" role="37wK5m">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2AV7EAPxAoL" role="3clFbw">
+            <node concept="10Nm6u" id="2AV7EAPxAvG" role="3uHU7w" />
+            <node concept="37vLTw" id="2AV7EAPxAgu" role="3uHU7B">
+              <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="xFWXJRXBDp" role="jymVt">
@@ -1320,23 +1358,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="74FDGeqd04P" role="3cqZAp" />
-        <node concept="3cpWs8" id="74FDGeqcWot" role="3cqZAp">
-          <node concept="3cpWsn" id="74FDGeqcWou" role="3cpWs9">
-            <property role="TrG5h" value="issueScan" />
-            <node concept="3uibUv" id="74FDGeqcWov" role="1tU5fm">
-              <ref role="3uigEE" to="waq:~Button" resolve="Button" />
-            </node>
-            <node concept="2ShNRf" id="74FDGeqcW_k" role="33vP2m">
+        <node concept="3clFbF" id="2AV7EAPxiZ3" role="3cqZAp">
+          <node concept="37vLTI" id="2AV7EAPxiZ5" role="3clFbG">
+            <node concept="2ShNRf" id="74FDGeqcW_k" role="37vLTx">
               <node concept="1pGfFk" id="74FDGeqcW_4" role="2ShVmc">
                 <ref role="37wK5l" to="waq:~Button.&lt;init&gt;()" resolve="Button" />
               </node>
+            </node>
+            <node concept="37vLTw" id="2AV7EAPxmzM" role="37vLTJ">
+              <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="74FDGeqcXDw" role="3cqZAp">
           <node concept="2OqwBi" id="74FDGeqcXPD" role="3clFbG">
-            <node concept="37vLTw" id="74FDGeqcXDu" role="2Oq$k0">
-              <ref role="3cqZAo" node="74FDGeqcWou" resolve="issueScan" />
+            <node concept="37vLTw" id="2AV7EAPxmPH" role="2Oq$k0">
+              <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
             </node>
             <node concept="liA8E" id="74FDGeqcY5j" role="2OqNvi">
               <ref role="37wK5l" to="waq:~AbstractComponent.setIcon(com.vaadin.server.Resource):void" resolve="setIcon" />
@@ -1351,67 +1388,64 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="74FDGeqdefp" role="3cqZAp">
-          <node concept="2OqwBi" id="74FDGeqdeEY" role="3clFbG">
-            <node concept="37vLTw" id="74FDGeqdetV" role="2Oq$k0">
-              <ref role="3cqZAo" node="74FDGeqcWou" resolve="issueScan" />
+        <node concept="3clFbF" id="2AV7EAPxy7C" role="3cqZAp">
+          <node concept="37vLTI" id="2AV7EAPxyuJ" role="3clFbG">
+            <node concept="37vLTw" id="2AV7EAPxy7A" role="37vLTJ">
+              <ref role="3cqZAo" node="2AV7EAPxvwV" resolve="issueUpdateConclusionButtonClickListener" />
             </node>
-            <node concept="liA8E" id="74FDGeqdgEa" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~Button.addClickListener(com.vaadin.ui.Button$ClickListener):void" resolve="addClickListener" />
-              <node concept="2ShNRf" id="74FDGeqdig5" role="37wK5m">
-                <node concept="YeOm9" id="74FDGeqdjaR" role="2ShVmc">
-                  <node concept="1Y3b0j" id="74FDGeqdjaU" role="YeSDq">
-                    <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" to="waq:~Button$ClickListener" resolve="Button.ClickListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                    <node concept="3Tm1VV" id="74FDGeqdjaV" role="1B3o_S" />
-                    <node concept="3clFb_" id="74FDGeqdjaW" role="jymVt">
-                      <property role="1EzhhJ" value="false" />
-                      <property role="TrG5h" value="buttonClick" />
-                      <property role="DiZV1" value="false" />
-                      <property role="od$2w" value="false" />
-                      <node concept="3Tm1VV" id="74FDGeqdjaX" role="1B3o_S" />
-                      <node concept="3cqZAl" id="74FDGeqdjaZ" role="3clF45" />
-                      <node concept="37vLTG" id="74FDGeqdjb0" role="3clF46">
-                        <property role="TrG5h" value="p0" />
-                        <node concept="3uibUv" id="74FDGeqdjb1" role="1tU5fm">
-                          <ref role="3uigEE" to="waq:~Button$ClickEvent" resolve="Button.ClickEvent" />
-                        </node>
+            <node concept="2ShNRf" id="74FDGeqdig5" role="37vLTx">
+              <node concept="YeOm9" id="74FDGeqdjaR" role="2ShVmc">
+                <node concept="1Y3b0j" id="74FDGeqdjaU" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <ref role="1Y3XeK" to="waq:~Button$ClickListener" resolve="Button.ClickListener" />
+                  <node concept="3Tm1VV" id="74FDGeqdjaV" role="1B3o_S" />
+                  <node concept="3clFb_" id="74FDGeqdjaW" role="jymVt">
+                    <property role="1EzhhJ" value="false" />
+                    <property role="TrG5h" value="buttonClick" />
+                    <property role="DiZV1" value="false" />
+                    <property role="od$2w" value="false" />
+                    <node concept="3Tm1VV" id="74FDGeqdjaX" role="1B3o_S" />
+                    <node concept="3cqZAl" id="74FDGeqdjaZ" role="3clF45" />
+                    <node concept="37vLTG" id="74FDGeqdjb0" role="3clF46">
+                      <property role="TrG5h" value="p0" />
+                      <node concept="3uibUv" id="74FDGeqdjb1" role="1tU5fm">
+                        <ref role="3uigEE" to="waq:~Button$ClickEvent" resolve="Button.ClickEvent" />
                       </node>
-                      <node concept="3clFbS" id="74FDGeqdjb2" role="3clF47">
-                        <node concept="3clFbJ" id="74FDGeqdMTz" role="3cqZAp">
-                          <node concept="2OqwBi" id="74FDGeqdMZw" role="3clFbw">
-                            <node concept="37vLTw" id="74FDGeqdMWY" role="2Oq$k0">
-                              <ref role="3cqZAo" node="xFWXJS7c8D" resolve="delegate" />
-                            </node>
-                            <node concept="liA8E" id="74FDGeqdN1x" role="2OqNvi">
-                              <ref role="37wK5l" to="zhcn:52pTiJH2PkA" resolve="isInputValid" />
-                            </node>
+                    </node>
+                    <node concept="3clFbS" id="74FDGeqdjb2" role="3clF47">
+                      <node concept="3clFbJ" id="74FDGeqdMTz" role="3cqZAp">
+                        <node concept="2OqwBi" id="74FDGeqdMZw" role="3clFbw">
+                          <node concept="37vLTw" id="74FDGeqdMWY" role="2Oq$k0">
+                            <ref role="3cqZAo" node="xFWXJS7c8D" resolve="delegate" />
                           </node>
-                          <node concept="3clFbS" id="74FDGeqdMT_" role="3clFbx">
-                            <node concept="3clFbF" id="74FDGeqdN7r" role="3cqZAp">
-                              <node concept="37vLTI" id="74FDGeqdNa9" role="3clFbG">
-                                <node concept="2OqwBi" id="74FDGeqdNqv" role="37vLTx">
-                                  <node concept="37vLTw" id="74FDGeqdNey" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
-                                  </node>
-                                  <node concept="liA8E" id="74FDGeqdOQz" role="2OqNvi">
-                                    <ref role="37wK5l" to="waq:~AbstractField.getValue():java.lang.Object" resolve="getValue" />
-                                  </node>
+                          <node concept="liA8E" id="74FDGeqdN1x" role="2OqNvi">
+                            <ref role="37wK5l" to="zhcn:52pTiJH2PkA" resolve="isInputValid" />
+                          </node>
+                        </node>
+                        <node concept="3clFbS" id="74FDGeqdMT_" role="3clFbx">
+                          <node concept="3clFbF" id="74FDGeqdN7r" role="3cqZAp">
+                            <node concept="37vLTI" id="74FDGeqdNa9" role="3clFbG">
+                              <node concept="2OqwBi" id="74FDGeqdNqv" role="37vLTx">
+                                <node concept="37vLTw" id="74FDGeqdNey" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
                                 </node>
-                                <node concept="37vLTw" id="74FDGeqdN7q" role="37vLTJ">
-                                  <ref role="3cqZAo" node="74FDGeqdjnw" resolve="lastIssueUpdateText" />
+                                <node concept="liA8E" id="74FDGeqdOQz" role="2OqNvi">
+                                  <ref role="37wK5l" to="waq:~AbstractField.getValue():java.lang.Object" resolve="getValue" />
                                 </node>
                               </node>
+                              <node concept="37vLTw" id="74FDGeqdN7q" role="37vLTJ">
+                                <ref role="3cqZAo" node="74FDGeqdjnw" resolve="lastIssueUpdateText" />
+                              </node>
                             </node>
-                            <node concept="3clFbF" id="74FDGeqdP8t" role="3cqZAp">
-                              <node concept="2OqwBi" id="74FDGeqdPfO" role="3clFbG">
-                                <node concept="37vLTw" id="74FDGeqdP8r" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="xFWXJS7c8D" resolve="delegate" />
-                                </node>
-                                <node concept="liA8E" id="74FDGeqdPhS" role="2OqNvi">
-                                  <ref role="37wK5l" to="zhcn:1_PJNZY9Mli" resolve="issueUpdateConclusionAfterContentChange" />
-                                </node>
+                          </node>
+                          <node concept="3clFbF" id="74FDGeqdP8t" role="3cqZAp">
+                            <node concept="2OqwBi" id="74FDGeqdPfO" role="3clFbG">
+                              <node concept="37vLTw" id="74FDGeqdP8r" role="2Oq$k0">
+                                <ref role="3cqZAo" node="xFWXJS7c8D" resolve="delegate" />
+                              </node>
+                              <node concept="liA8E" id="74FDGeqdPhS" role="2OqNvi">
+                                <ref role="37wK5l" to="zhcn:1_PJNZY9Mli" resolve="issueUpdateConclusionAfterContentChange" />
                               </node>
                             </node>
                           </node>
@@ -1424,7 +1458,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="74FDGeqdefp" role="3cqZAp">
+          <node concept="2OqwBi" id="74FDGeqdeEY" role="3clFbG">
+            <node concept="37vLTw" id="2AV7EAPxn09" role="2Oq$k0">
+              <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
+            </node>
+            <node concept="liA8E" id="74FDGeqdgEa" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~Button.addClickListener(com.vaadin.ui.Button$ClickListener):void" resolve="addClickListener" />
+              <node concept="37vLTw" id="2AV7EAPxzoq" role="37wK5m">
+                <ref role="3cqZAo" node="2AV7EAPxvwV" resolve="issueUpdateConclusionButtonClickListener" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="74FDGeqde10" role="3cqZAp" />
+        <node concept="3clFbH" id="2AV7EAPx_kL" role="3cqZAp" />
         <node concept="3clFbF" id="74FDGeqce36" role="3cqZAp">
           <node concept="2OqwBi" id="74FDGeqcedF" role="3clFbG">
             <node concept="37vLTw" id="74FDGeqce34" role="2Oq$k0">
@@ -1432,8 +1480,8 @@
             </node>
             <node concept="liA8E" id="74FDGeqceN8" role="2OqNvi">
               <ref role="37wK5l" to="waq:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
-              <node concept="37vLTw" id="74FDGeqcYZs" role="37wK5m">
-                <ref role="3cqZAo" node="74FDGeqcWou" resolve="issueScan" />
+              <node concept="37vLTw" id="2AV7EAPxnhO" role="37wK5m">
+                <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
               </node>
             </node>
           </node>
@@ -1582,6 +1630,30 @@
               <node concept="37vLTw" id="6u$rBheNzTy" role="37wK5m">
                 <ref role="3cqZAo" node="3$oJQSExW1k" resolve="focusListener" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2AV7EAPxnsZ" role="3cqZAp" />
+        <node concept="3clFbJ" id="2AV7EAPxnLM" role="3cqZAp">
+          <node concept="3clFbS" id="2AV7EAPxnLO" role="3clFbx">
+            <node concept="3clFbF" id="2AV7EAPxopO" role="3cqZAp">
+              <node concept="2OqwBi" id="2AV7EAPxo$u" role="3clFbG">
+                <node concept="37vLTw" id="2AV7EAPxopM" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
+                </node>
+                <node concept="liA8E" id="2AV7EAPxoMc" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~Button.removeClickListener(com.vaadin.ui.Button$ClickListener):void" resolve="removeClickListener" />
+                  <node concept="37vLTw" id="2AV7EAPxxh0" role="37wK5m">
+                    <ref role="3cqZAo" node="2AV7EAPxvwV" resolve="issueUpdateConclusionButtonClickListener" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2AV7EAPxo9L" role="3clFbw">
+            <node concept="10Nm6u" id="2AV7EAPxolh" role="3uHU7w" />
+            <node concept="37vLTw" id="2AV7EAPxnWY" role="3uHU7B">
+              <ref role="3cqZAo" node="2AV7EAPxkEV" resolve="issueUpdateConclusionButton" />
             </node>
           </node>
         </node>
