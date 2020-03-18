@@ -4502,7 +4502,7 @@
     <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
     <node concept="1TJgyj" id="6RAFKVMgm4z" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="preconditions" />
+      <property role="20kJfa" value="checks" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="51llZt605sG" resolve="Check" />
     </node>
