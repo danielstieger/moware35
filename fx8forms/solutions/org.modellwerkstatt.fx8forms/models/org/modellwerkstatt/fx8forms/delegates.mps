@@ -116,6 +116,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534555686" name="jetbrains.mps.baseLanguage.structure.CharType" flags="in" index="10Pfzv" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -4559,97 +4560,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="5Y1b9tR0FmT" role="3cqZAp">
-          <node concept="3cpWsn" id="5Y1b9tR0FmU" role="3cpWs9">
-            <property role="TrG5h" value="text" />
-            <node concept="3uibUv" id="5Y1b9tR0FmV" role="1tU5fm">
-              <ref role="3uigEE" to="f1mx:~Text" resolve="Text" />
+        <node concept="3clFbF" id="1vtHxfY_mvw" role="3cqZAp">
+          <node concept="2OqwBi" id="1vtHxfY_mvx" role="3clFbG">
+            <node concept="37vLTw" id="1vtHxfY_mvy" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Y1b9tR0eyB" resolve="label" />
             </node>
-            <node concept="2ShNRf" id="5Y1b9tR0FmW" role="33vP2m">
-              <node concept="1pGfFk" id="5Y1b9tR0FmX" role="2ShVmc">
-                <ref role="37wK5l" to="f1mx:~Text.&lt;init&gt;(java.lang.String)" resolve="Text" />
-                <node concept="3cpWs3" id="5Y1b9tR0FmY" role="37wK5m">
-                  <node concept="Xl_RD" id="5Y1b9tR0FmZ" role="3uHU7w">
-                    <property role="Xl_RC" value="XX" />
-                  </node>
-                  <node concept="37vLTw" id="5Y1b9tR0GEY" role="3uHU7B">
-                    <ref role="3cqZAo" node="5Y1b9tR0Ds0" resolve="labelString" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5Y1b9tR0Fn1" role="3cqZAp">
-          <node concept="2OqwBi" id="5Y1b9tR0Fn2" role="3clFbG">
-            <node concept="37vLTw" id="5Y1b9tR0Fn3" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR0FmU" resolve="text" />
-            </node>
-            <node concept="liA8E" id="5Y1b9tR0Fn4" role="2OqNvi">
-              <ref role="37wK5l" to="p18y:~Node.snapshot(javafx.scene.SnapshotParameters,javafx.scene.image.WritableImage):javafx.scene.image.WritableImage" resolve="snapshot" />
-              <node concept="10Nm6u" id="5Y1b9tR0Fn5" role="37wK5m" />
-              <node concept="10Nm6u" id="5Y1b9tR0Fn6" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6TNACHpiI2B" role="3cqZAp" />
-        <node concept="3clFbJ" id="5Y1b9tR0Fn7" role="3cqZAp">
-          <node concept="3clFbS" id="5Y1b9tR0Fn8" role="3clFbx">
-            <node concept="3clFbF" id="5Y1b9tR0Fn9" role="3cqZAp">
-              <node concept="2OqwBi" id="5Y1b9tR0Fna" role="3clFbG">
-                <node concept="37vLTw" id="5Y1b9tR0GnS" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR0eyB" resolve="label" />
-                </node>
-                <node concept="liA8E" id="5Y1b9tR0Fne" role="2OqNvi">
-                  <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                  <node concept="2OqwBi" id="5Y1b9tR0Fnf" role="37wK5m">
-                    <node concept="2OqwBi" id="5Y1b9tR0Fng" role="2Oq$k0">
-                      <node concept="37vLTw" id="5Y1b9tR0Fnh" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5Y1b9tR0FmU" resolve="text" />
-                      </node>
-                      <node concept="liA8E" id="5Y1b9tR0Fni" role="2OqNvi">
-                        <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="5Y1b9tR0Fnj" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3eOSWO" id="5Y1b9tR0Fnk" role="3clFbw">
-            <node concept="3cmrfG" id="5Y1b9tR0Fnl" role="3uHU7w">
-              <property role="3cmrfH" value="100" />
-            </node>
-            <node concept="2OqwBi" id="5Y1b9tR0Fnm" role="3uHU7B">
-              <node concept="2OqwBi" id="5Y1b9tR0Fnn" role="2Oq$k0">
-                <node concept="37vLTw" id="5Y1b9tR0Fno" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR0FmU" resolve="text" />
-                </node>
-                <node concept="liA8E" id="5Y1b9tR0Fnp" role="2OqNvi">
-                  <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                </node>
-              </node>
-              <node concept="liA8E" id="5Y1b9tR0Fnq" role="2OqNvi">
-                <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="5Y1b9tR0Fnr" role="9aQIa">
-            <node concept="3clFbS" id="5Y1b9tR0Fns" role="9aQI4">
-              <node concept="3clFbF" id="5Y1b9tR0Fnt" role="3cqZAp">
-                <node concept="2OqwBi" id="5Y1b9tR0Fnu" role="3clFbG">
-                  <node concept="37vLTw" id="5Y1b9tR0Gt8" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR0eyB" resolve="label" />
-                  </node>
-                  <node concept="liA8E" id="5Y1b9tR0Fny" role="2OqNvi">
-                    <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                    <node concept="3cmrfG" id="5Y1b9tR0Fnz" role="37wK5m">
-                      <property role="3cmrfH" value="100" />
-                    </node>
-                  </node>
+            <node concept="liA8E" id="1vtHxfY_mvz" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
+              <node concept="2YIFZM" id="1vtHxfY_mv$" role="37wK5m">
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <ref role="37wK5l" node="1vtHxfY$YRK" resolve="getLabelWidthWRKRND" />
+                <node concept="37vLTw" id="1vtHxfY_mv_" role="37wK5m">
+                  <ref role="3cqZAo" node="5Y1b9tR0Ds0" resolve="labelString" />
                 </node>
               </node>
             </node>
@@ -5232,6 +5154,132 @@
                 <ref role="3cqZAo" to="yp2m:~KeyEvent.KEY_PRESSED" resolve="KEY_PRESSED" />
               </node>
               <node concept="Xjq3P" id="1_PJNZXb0UP" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1vtHxfY$Wxq" role="jymVt" />
+    <node concept="2tJIrI" id="1vtHxfY$WIl" role="jymVt" />
+    <node concept="2YIFZL" id="1vtHxfY$YRK" role="jymVt">
+      <property role="TrG5h" value="getLabelWidthWRKRND" />
+      <node concept="37vLTG" id="1vtHxfY_13Q" role="3clF46">
+        <property role="TrG5h" value="labelString" />
+        <node concept="17QB3L" id="1vtHxfY_147" role="1tU5fm" />
+      </node>
+      <node concept="10P55v" id="1vtHxfY_4U8" role="3clF45" />
+      <node concept="3Tm1VV" id="1vtHxfY$YRN" role="1B3o_S" />
+      <node concept="3clFbS" id="1vtHxfY$YRO" role="3clF47">
+        <node concept="3cpWs8" id="1vtHxfY_8wY" role="3cqZAp">
+          <node concept="3cpWsn" id="1vtHxfY_8x1" role="3cpWs9">
+            <property role="TrG5h" value="width" />
+            <node concept="10P55v" id="1vtHxfY_8wW" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="SfApY" id="1vtHxfY_886" role="3cqZAp">
+          <node concept="3clFbS" id="1vtHxfY_888" role="SfCbr">
+            <node concept="3cpWs8" id="1vtHxfY_0lC" role="3cqZAp">
+              <node concept="3cpWsn" id="1vtHxfY_0lD" role="3cpWs9">
+                <property role="TrG5h" value="text" />
+                <node concept="3uibUv" id="1vtHxfY_0lE" role="1tU5fm">
+                  <ref role="3uigEE" to="f1mx:~Text" resolve="Text" />
+                </node>
+                <node concept="2ShNRf" id="1vtHxfY_0lF" role="33vP2m">
+                  <node concept="1pGfFk" id="1vtHxfY_0lG" role="2ShVmc">
+                    <ref role="37wK5l" to="f1mx:~Text.&lt;init&gt;(java.lang.String)" resolve="Text" />
+                    <node concept="3cpWs3" id="1vtHxfY_0lH" role="37wK5m">
+                      <node concept="Xl_RD" id="1vtHxfY_0lI" role="3uHU7w">
+                        <property role="Xl_RC" value="XX" />
+                      </node>
+                      <node concept="37vLTw" id="1vtHxfY_0lJ" role="3uHU7B">
+                        <ref role="3cqZAo" node="1vtHxfY_13Q" resolve="labelString" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1vtHxfY_0lK" role="3cqZAp">
+              <node concept="2OqwBi" id="1vtHxfY_0lL" role="3clFbG">
+                <node concept="37vLTw" id="1vtHxfY_0lM" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1vtHxfY_0lD" resolve="text" />
+                </node>
+                <node concept="liA8E" id="1vtHxfY_0lN" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Node.snapshot(javafx.scene.SnapshotParameters,javafx.scene.image.WritableImage):javafx.scene.image.WritableImage" resolve="snapshot" />
+                  <node concept="10Nm6u" id="1vtHxfY_0lO" role="37wK5m" />
+                  <node concept="10Nm6u" id="1vtHxfY_0lP" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1vtHxfY_955" role="3cqZAp">
+              <node concept="37vLTI" id="1vtHxfY_957" role="3clFbG">
+                <node concept="2OqwBi" id="1vtHxfY_2Og" role="37vLTx">
+                  <node concept="2OqwBi" id="1vtHxfY_2Oh" role="2Oq$k0">
+                    <node concept="37vLTw" id="1vtHxfY_2Oi" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1vtHxfY_0lD" resolve="text" />
+                    </node>
+                    <node concept="liA8E" id="1vtHxfY_2Oj" role="2OqNvi">
+                      <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1vtHxfY_2Ok" role="2OqNvi">
+                    <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1vtHxfY_95b" role="37vLTJ">
+                  <ref role="3cqZAo" node="1vtHxfY_8x1" resolve="width" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1vtHxfY_887" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="1vtHxfY_889" role="TEbGg">
+            <node concept="3cpWsn" id="1vtHxfY_88b" role="TDEfY">
+              <property role="TrG5h" value="t" />
+              <node concept="3uibUv" id="1vtHxfY_8G8" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1vtHxfY_88f" role="TDEfX">
+              <node concept="3clFbF" id="1vtHxfY_dEL" role="3cqZAp">
+                <node concept="37vLTI" id="1vtHxfY_dID" role="3clFbG">
+                  <node concept="3cmrfG" id="1vtHxfY_dK$" role="37vLTx">
+                    <property role="3cmrfH" value="100" />
+                  </node>
+                  <node concept="37vLTw" id="1vtHxfY_dEJ" role="37vLTJ">
+                    <ref role="3cqZAo" node="1vtHxfY_8x1" resolve="width" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1vtHxfY_7pn" role="3cqZAp" />
+        <node concept="3clFbJ" id="1vtHxfY_2O3" role="3cqZAp">
+          <node concept="3clFbS" id="1vtHxfY_2O4" role="3clFbx">
+            <node concept="3cpWs6" id="1vtHxfY_3r2" role="3cqZAp">
+              <node concept="37vLTw" id="1vtHxfY_7ey" role="3cqZAk">
+                <ref role="3cqZAo" node="1vtHxfY_8x1" resolve="width" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="1vtHxfY_4va" role="3cqZAp" />
+          </node>
+          <node concept="3eOSWO" id="1vtHxfY_2Oe" role="3clFbw">
+            <node concept="3cmrfG" id="1vtHxfY_2Of" role="3uHU7w">
+              <property role="3cmrfH" value="100" />
+            </node>
+            <node concept="37vLTw" id="1vtHxfY_3nb" role="3uHU7B">
+              <ref role="3cqZAo" node="1vtHxfY_8x1" resolve="width" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="1vtHxfY_2Ol" role="9aQIa">
+            <node concept="3clFbS" id="1vtHxfY_2Om" role="9aQI4">
+              <node concept="3cpWs6" id="1vtHxfY_3Sy" role="3cqZAp">
+                <node concept="3cmrfG" id="1vtHxfY_6Ol" role="3cqZAk">
+                  <property role="3cmrfH" value="100" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="1vtHxfY_4DZ" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -6049,96 +6097,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="3sEA$PIzUM_" role="3cqZAp">
-          <node concept="3cpWsn" id="3sEA$PIzUMA" role="3cpWs9">
-            <property role="TrG5h" value="text" />
-            <node concept="3uibUv" id="3sEA$PIzUMB" role="1tU5fm">
-              <ref role="3uigEE" to="f1mx:~Text" resolve="Text" />
+        <node concept="3clFbF" id="1vtHxfY_fzj" role="3cqZAp">
+          <node concept="2OqwBi" id="1vtHxfY_fDr" role="3clFbG">
+            <node concept="37vLTw" id="1vtHxfY_fzh" role="2Oq$k0">
+              <ref role="3cqZAo" node="3sEA$PIzUI3" resolve="label" />
             </node>
-            <node concept="2ShNRf" id="3sEA$PIzUMC" role="33vP2m">
-              <node concept="1pGfFk" id="3sEA$PIzUMD" role="2ShVmc">
-                <ref role="37wK5l" to="f1mx:~Text.&lt;init&gt;(java.lang.String)" resolve="Text" />
-                <node concept="3cpWs3" id="3sEA$PIzUME" role="37wK5m">
-                  <node concept="Xl_RD" id="3sEA$PIzUMF" role="3uHU7w">
-                    <property role="Xl_RC" value="XX" />
-                  </node>
-                  <node concept="37vLTw" id="3sEA$PIzUMG" role="3uHU7B">
-                    <ref role="3cqZAo" node="3sEA$PIzUMp" resolve="labelString" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3sEA$PIzUMH" role="3cqZAp">
-          <node concept="2OqwBi" id="3sEA$PIzUMI" role="3clFbG">
-            <node concept="37vLTw" id="3sEA$PIzUMJ" role="2Oq$k0">
-              <ref role="3cqZAo" node="3sEA$PIzUMA" resolve="text" />
-            </node>
-            <node concept="liA8E" id="3sEA$PIzUMK" role="2OqNvi">
-              <ref role="37wK5l" to="p18y:~Node.snapshot(javafx.scene.SnapshotParameters,javafx.scene.image.WritableImage):javafx.scene.image.WritableImage" resolve="snapshot" />
-              <node concept="10Nm6u" id="3sEA$PIzUML" role="37wK5m" />
-              <node concept="10Nm6u" id="3sEA$PIzUMM" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="3sEA$PIzUMN" role="3cqZAp">
-          <node concept="3clFbS" id="3sEA$PIzUMO" role="3clFbx">
-            <node concept="3clFbF" id="3sEA$PIzUMP" role="3cqZAp">
-              <node concept="2OqwBi" id="3sEA$PIzUMQ" role="3clFbG">
-                <node concept="37vLTw" id="3sEA$PIzUMR" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3sEA$PIzUI3" resolve="label" />
-                </node>
-                <node concept="liA8E" id="3sEA$PIzUMS" role="2OqNvi">
-                  <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                  <node concept="2OqwBi" id="3sEA$PIzUMT" role="37wK5m">
-                    <node concept="2OqwBi" id="3sEA$PIzUMU" role="2Oq$k0">
-                      <node concept="37vLTw" id="3sEA$PIzUMV" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3sEA$PIzUMA" resolve="text" />
-                      </node>
-                      <node concept="liA8E" id="3sEA$PIzUMW" role="2OqNvi">
-                        <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="3sEA$PIzUMX" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3eOSWO" id="3sEA$PIzUMY" role="3clFbw">
-            <node concept="3cmrfG" id="3sEA$PIzUMZ" role="3uHU7w">
-              <property role="3cmrfH" value="100" />
-            </node>
-            <node concept="2OqwBi" id="3sEA$PIzUN0" role="3uHU7B">
-              <node concept="2OqwBi" id="3sEA$PIzUN1" role="2Oq$k0">
-                <node concept="37vLTw" id="3sEA$PIzUN2" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3sEA$PIzUMA" resolve="text" />
-                </node>
-                <node concept="liA8E" id="3sEA$PIzUN3" role="2OqNvi">
-                  <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                </node>
-              </node>
-              <node concept="liA8E" id="3sEA$PIzUN4" role="2OqNvi">
-                <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="3sEA$PIzUN5" role="9aQIa">
-            <node concept="3clFbS" id="3sEA$PIzUN6" role="9aQI4">
-              <node concept="3clFbF" id="3sEA$PIzUN7" role="3cqZAp">
-                <node concept="2OqwBi" id="3sEA$PIzUN8" role="3clFbG">
-                  <node concept="37vLTw" id="3sEA$PIzUN9" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3sEA$PIzUI3" resolve="label" />
-                  </node>
-                  <node concept="liA8E" id="3sEA$PIzUNa" role="2OqNvi">
-                    <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                    <node concept="3cmrfG" id="3sEA$PIzUNb" role="37wK5m">
-                      <property role="3cmrfH" value="100" />
-                    </node>
-                  </node>
+            <node concept="liA8E" id="1vtHxfY_g6V" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
+              <node concept="2YIFZM" id="1vtHxfY_gcf" role="37wK5m">
+                <ref role="37wK5l" node="1vtHxfY$YRK" resolve="getLabelWidthWRKRND" />
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <node concept="37vLTw" id="1vtHxfY_gh5" role="37wK5m">
+                  <ref role="3cqZAo" node="3sEA$PIzUMp" resolve="labelString" />
                 </node>
               </node>
             </node>
@@ -7471,96 +7441,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1kaU3pLWzYP" role="3cqZAp">
-          <node concept="3cpWsn" id="1kaU3pLWzYQ" role="3cpWs9">
-            <property role="TrG5h" value="text" />
-            <node concept="3uibUv" id="1kaU3pLWzYR" role="1tU5fm">
-              <ref role="3uigEE" to="f1mx:~Text" resolve="Text" />
+        <node concept="3clFbF" id="1vtHxfY_lAZ" role="3cqZAp">
+          <node concept="2OqwBi" id="1vtHxfY_lB0" role="3clFbG">
+            <node concept="37vLTw" id="1vtHxfY_lB1" role="2Oq$k0">
+              <ref role="3cqZAo" node="1kaU3pLWzTT" resolve="label" />
             </node>
-            <node concept="2ShNRf" id="1kaU3pLWzYS" role="33vP2m">
-              <node concept="1pGfFk" id="1kaU3pLWzYT" role="2ShVmc">
-                <ref role="37wK5l" to="f1mx:~Text.&lt;init&gt;(java.lang.String)" resolve="Text" />
-                <node concept="3cpWs3" id="1kaU3pLWzYU" role="37wK5m">
-                  <node concept="Xl_RD" id="1kaU3pLWzYV" role="3uHU7w">
-                    <property role="Xl_RC" value="XX" />
-                  </node>
-                  <node concept="37vLTw" id="1kaU3pLWzYW" role="3uHU7B">
-                    <ref role="3cqZAo" node="1kaU3pLWzYD" resolve="labelString" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1kaU3pLWzYX" role="3cqZAp">
-          <node concept="2OqwBi" id="1kaU3pLWzYY" role="3clFbG">
-            <node concept="37vLTw" id="1kaU3pLWzYZ" role="2Oq$k0">
-              <ref role="3cqZAo" node="1kaU3pLWzYQ" resolve="text" />
-            </node>
-            <node concept="liA8E" id="1kaU3pLWzZ0" role="2OqNvi">
-              <ref role="37wK5l" to="p18y:~Node.snapshot(javafx.scene.SnapshotParameters,javafx.scene.image.WritableImage):javafx.scene.image.WritableImage" resolve="snapshot" />
-              <node concept="10Nm6u" id="1kaU3pLWzZ1" role="37wK5m" />
-              <node concept="10Nm6u" id="1kaU3pLWzZ2" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="1kaU3pLWzZ3" role="3cqZAp">
-          <node concept="3clFbS" id="1kaU3pLWzZ4" role="3clFbx">
-            <node concept="3clFbF" id="1kaU3pLWzZ5" role="3cqZAp">
-              <node concept="2OqwBi" id="1kaU3pLWzZ6" role="3clFbG">
-                <node concept="37vLTw" id="1kaU3pLWzZ7" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1kaU3pLWzTT" resolve="label" />
-                </node>
-                <node concept="liA8E" id="1kaU3pLWzZ8" role="2OqNvi">
-                  <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                  <node concept="2OqwBi" id="1kaU3pLWzZ9" role="37wK5m">
-                    <node concept="2OqwBi" id="1kaU3pLWzZa" role="2Oq$k0">
-                      <node concept="37vLTw" id="1kaU3pLWzZb" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1kaU3pLWzYQ" resolve="text" />
-                      </node>
-                      <node concept="liA8E" id="1kaU3pLWzZc" role="2OqNvi">
-                        <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="1kaU3pLWzZd" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3eOSWO" id="1kaU3pLWzZe" role="3clFbw">
-            <node concept="3cmrfG" id="1kaU3pLWzZf" role="3uHU7w">
-              <property role="3cmrfH" value="100" />
-            </node>
-            <node concept="2OqwBi" id="1kaU3pLWzZg" role="3uHU7B">
-              <node concept="2OqwBi" id="1kaU3pLWzZh" role="2Oq$k0">
-                <node concept="37vLTw" id="1kaU3pLWzZi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1kaU3pLWzYQ" resolve="text" />
-                </node>
-                <node concept="liA8E" id="1kaU3pLWzZj" role="2OqNvi">
-                  <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                </node>
-              </node>
-              <node concept="liA8E" id="1kaU3pLWzZk" role="2OqNvi">
-                <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="1kaU3pLWzZl" role="9aQIa">
-            <node concept="3clFbS" id="1kaU3pLWzZm" role="9aQI4">
-              <node concept="3clFbF" id="1kaU3pLWzZn" role="3cqZAp">
-                <node concept="2OqwBi" id="1kaU3pLWzZo" role="3clFbG">
-                  <node concept="37vLTw" id="1kaU3pLWzZp" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1kaU3pLWzTT" resolve="label" />
-                  </node>
-                  <node concept="liA8E" id="1kaU3pLWzZq" role="2OqNvi">
-                    <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                    <node concept="3cmrfG" id="1kaU3pLWzZr" role="37wK5m">
-                      <property role="3cmrfH" value="100" />
-                    </node>
-                  </node>
+            <node concept="liA8E" id="1vtHxfY_lB2" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
+              <node concept="2YIFZM" id="1vtHxfY_lB3" role="37wK5m">
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <ref role="37wK5l" node="1vtHxfY$YRK" resolve="getLabelWidthWRKRND" />
+                <node concept="37vLTw" id="1vtHxfY_lB4" role="37wK5m">
+                  <ref role="3cqZAo" node="1kaU3pLWzYD" resolve="labelString" />
                 </node>
               </node>
             </node>
@@ -8796,96 +8688,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1YFjUjHUhZH" role="3cqZAp">
-          <node concept="3cpWsn" id="1YFjUjHUhZI" role="3cpWs9">
-            <property role="TrG5h" value="text" />
-            <node concept="3uibUv" id="1YFjUjHUhZJ" role="1tU5fm">
-              <ref role="3uigEE" to="f1mx:~Text" resolve="Text" />
+        <node concept="3clFbF" id="1vtHxfY_kDa" role="3cqZAp">
+          <node concept="2OqwBi" id="1vtHxfY_kDb" role="3clFbG">
+            <node concept="37vLTw" id="1vtHxfY_kDc" role="2Oq$k0">
+              <ref role="3cqZAo" node="1YFjUjHUhVJ" resolve="label" />
             </node>
-            <node concept="2ShNRf" id="1YFjUjHUhZK" role="33vP2m">
-              <node concept="1pGfFk" id="1YFjUjHUhZL" role="2ShVmc">
-                <ref role="37wK5l" to="f1mx:~Text.&lt;init&gt;(java.lang.String)" resolve="Text" />
-                <node concept="3cpWs3" id="1YFjUjHUhZM" role="37wK5m">
-                  <node concept="Xl_RD" id="1YFjUjHUhZN" role="3uHU7w">
-                    <property role="Xl_RC" value="XX" />
-                  </node>
-                  <node concept="37vLTw" id="1YFjUjHUhZO" role="3uHU7B">
-                    <ref role="3cqZAo" node="1YFjUjHUhZx" resolve="labelString" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1YFjUjHUhZP" role="3cqZAp">
-          <node concept="2OqwBi" id="1YFjUjHUhZQ" role="3clFbG">
-            <node concept="37vLTw" id="1YFjUjHUhZR" role="2Oq$k0">
-              <ref role="3cqZAo" node="1YFjUjHUhZI" resolve="text" />
-            </node>
-            <node concept="liA8E" id="1YFjUjHUhZS" role="2OqNvi">
-              <ref role="37wK5l" to="p18y:~Node.snapshot(javafx.scene.SnapshotParameters,javafx.scene.image.WritableImage):javafx.scene.image.WritableImage" resolve="snapshot" />
-              <node concept="10Nm6u" id="1YFjUjHUhZT" role="37wK5m" />
-              <node concept="10Nm6u" id="1YFjUjHUhZU" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="1YFjUjHUhZV" role="3cqZAp">
-          <node concept="3clFbS" id="1YFjUjHUhZW" role="3clFbx">
-            <node concept="3clFbF" id="1YFjUjHUhZX" role="3cqZAp">
-              <node concept="2OqwBi" id="1YFjUjHUhZY" role="3clFbG">
-                <node concept="37vLTw" id="1YFjUjHUhZZ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1YFjUjHUhVJ" resolve="label" />
-                </node>
-                <node concept="liA8E" id="1YFjUjHUi00" role="2OqNvi">
-                  <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                  <node concept="2OqwBi" id="1YFjUjHUi01" role="37wK5m">
-                    <node concept="2OqwBi" id="1YFjUjHUi02" role="2Oq$k0">
-                      <node concept="37vLTw" id="1YFjUjHUi03" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1YFjUjHUhZI" resolve="text" />
-                      </node>
-                      <node concept="liA8E" id="1YFjUjHUi04" role="2OqNvi">
-                        <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="1YFjUjHUi05" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3eOSWO" id="1YFjUjHUi06" role="3clFbw">
-            <node concept="3cmrfG" id="1YFjUjHUi07" role="3uHU7w">
-              <property role="3cmrfH" value="100" />
-            </node>
-            <node concept="2OqwBi" id="1YFjUjHUi08" role="3uHU7B">
-              <node concept="2OqwBi" id="1YFjUjHUi09" role="2Oq$k0">
-                <node concept="37vLTw" id="1YFjUjHUi0a" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1YFjUjHUhZI" resolve="text" />
-                </node>
-                <node concept="liA8E" id="1YFjUjHUi0b" role="2OqNvi">
-                  <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                </node>
-              </node>
-              <node concept="liA8E" id="1YFjUjHUi0c" role="2OqNvi">
-                <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="1YFjUjHUi0d" role="9aQIa">
-            <node concept="3clFbS" id="1YFjUjHUi0e" role="9aQI4">
-              <node concept="3clFbF" id="1YFjUjHUi0f" role="3cqZAp">
-                <node concept="2OqwBi" id="1YFjUjHUi0g" role="3clFbG">
-                  <node concept="37vLTw" id="1YFjUjHUi0h" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1YFjUjHUhVJ" resolve="label" />
-                  </node>
-                  <node concept="liA8E" id="1YFjUjHUi0i" role="2OqNvi">
-                    <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                    <node concept="3cmrfG" id="1YFjUjHUi0j" role="37wK5m">
-                      <property role="3cmrfH" value="100" />
-                    </node>
-                  </node>
+            <node concept="liA8E" id="1vtHxfY_kDd" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
+              <node concept="2YIFZM" id="1vtHxfY_kDe" role="37wK5m">
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <ref role="37wK5l" node="1vtHxfY$YRK" resolve="getLabelWidthWRKRND" />
+                <node concept="37vLTw" id="1vtHxfY_kDf" role="37wK5m">
+                  <ref role="3cqZAo" node="1YFjUjHUhZx" resolve="labelString" />
                 </node>
               </node>
             </node>
@@ -9592,96 +9406,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="6Ag5kTzHBDt" role="3cqZAp">
-          <node concept="3cpWsn" id="6Ag5kTzHBDu" role="3cpWs9">
-            <property role="TrG5h" value="txt" />
-            <node concept="3uibUv" id="6Ag5kTzHBDv" role="1tU5fm">
-              <ref role="3uigEE" to="f1mx:~Text" resolve="Text" />
+        <node concept="3clFbF" id="1vtHxfY_jYu" role="3cqZAp">
+          <node concept="2OqwBi" id="1vtHxfY_jYv" role="3clFbG">
+            <node concept="37vLTw" id="1vtHxfY_jYw" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Ag5kTzHtAe" resolve="label" />
             </node>
-            <node concept="2ShNRf" id="6Ag5kTzHBDw" role="33vP2m">
-              <node concept="1pGfFk" id="6Ag5kTzHBDx" role="2ShVmc">
-                <ref role="37wK5l" to="f1mx:~Text.&lt;init&gt;(java.lang.String)" resolve="Text" />
-                <node concept="3cpWs3" id="6Ag5kTzHBDy" role="37wK5m">
-                  <node concept="Xl_RD" id="6Ag5kTzHBDz" role="3uHU7w">
-                    <property role="Xl_RC" value="XX" />
-                  </node>
-                  <node concept="37vLTw" id="6Ag5kTzHUI1" role="3uHU7B">
-                    <ref role="3cqZAo" node="6Ag5kTzHwnN" resolve="text" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6Ag5kTzHBD_" role="3cqZAp">
-          <node concept="2OqwBi" id="6Ag5kTzHBDA" role="3clFbG">
-            <node concept="37vLTw" id="6Ag5kTzHBDB" role="2Oq$k0">
-              <ref role="3cqZAo" node="6Ag5kTzHBDu" resolve="txt" />
-            </node>
-            <node concept="liA8E" id="6Ag5kTzHBDC" role="2OqNvi">
-              <ref role="37wK5l" to="p18y:~Node.snapshot(javafx.scene.SnapshotParameters,javafx.scene.image.WritableImage):javafx.scene.image.WritableImage" resolve="snapshot" />
-              <node concept="10Nm6u" id="6Ag5kTzHBDD" role="37wK5m" />
-              <node concept="10Nm6u" id="6Ag5kTzHBDE" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="6Ag5kTzHBDF" role="3cqZAp">
-          <node concept="3clFbS" id="6Ag5kTzHBDG" role="3clFbx">
-            <node concept="3clFbF" id="6Ag5kTzHBDH" role="3cqZAp">
-              <node concept="2OqwBi" id="6Ag5kTzHBDI" role="3clFbG">
-                <node concept="37vLTw" id="6Ag5kTzHBDJ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6Ag5kTzHtAe" resolve="label" />
-                </node>
-                <node concept="liA8E" id="6Ag5kTzHBDK" role="2OqNvi">
-                  <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                  <node concept="2OqwBi" id="6Ag5kTzHBDL" role="37wK5m">
-                    <node concept="2OqwBi" id="6Ag5kTzHBDM" role="2Oq$k0">
-                      <node concept="37vLTw" id="6Ag5kTzHBDN" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6Ag5kTzHBDu" resolve="txt" />
-                      </node>
-                      <node concept="liA8E" id="6Ag5kTzHBDO" role="2OqNvi">
-                        <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="6Ag5kTzHBDP" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3eOSWO" id="6Ag5kTzHBDQ" role="3clFbw">
-            <node concept="3cmrfG" id="6Ag5kTzHBDR" role="3uHU7w">
-              <property role="3cmrfH" value="100" />
-            </node>
-            <node concept="2OqwBi" id="6Ag5kTzHBDS" role="3uHU7B">
-              <node concept="2OqwBi" id="6Ag5kTzHBDT" role="2Oq$k0">
-                <node concept="37vLTw" id="6Ag5kTzHBDU" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6Ag5kTzHBDu" resolve="txt" />
-                </node>
-                <node concept="liA8E" id="6Ag5kTzHBDV" role="2OqNvi">
-                  <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                </node>
-              </node>
-              <node concept="liA8E" id="6Ag5kTzHBDW" role="2OqNvi">
-                <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="6Ag5kTzHBDX" role="9aQIa">
-            <node concept="3clFbS" id="6Ag5kTzHBDY" role="9aQI4">
-              <node concept="3clFbF" id="6Ag5kTzHBDZ" role="3cqZAp">
-                <node concept="2OqwBi" id="6Ag5kTzHBE0" role="3clFbG">
-                  <node concept="37vLTw" id="6Ag5kTzHBE1" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6Ag5kTzHtAe" resolve="label" />
-                  </node>
-                  <node concept="liA8E" id="6Ag5kTzHBE2" role="2OqNvi">
-                    <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                    <node concept="3cmrfG" id="6Ag5kTzHBE3" role="37wK5m">
-                      <property role="3cmrfH" value="100" />
-                    </node>
-                  </node>
+            <node concept="liA8E" id="1vtHxfY_jYx" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
+              <node concept="2YIFZM" id="1vtHxfY_jYy" role="37wK5m">
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <ref role="37wK5l" node="1vtHxfY$YRK" resolve="getLabelWidthWRKRND" />
+                <node concept="37vLTw" id="1vtHxfY_kby" role="37wK5m">
+                  <ref role="3cqZAo" node="6Ag5kTzHwnN" resolve="text" />
                 </node>
               </node>
             </node>
@@ -11497,96 +11233,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1l2SXGvHPjG" role="3cqZAp">
-          <node concept="3cpWsn" id="1l2SXGvHPjH" role="3cpWs9">
-            <property role="TrG5h" value="text" />
-            <node concept="3uibUv" id="1l2SXGvHPjI" role="1tU5fm">
-              <ref role="3uigEE" to="f1mx:~Text" resolve="Text" />
+        <node concept="3clFbF" id="1vtHxfY_iM2" role="3cqZAp">
+          <node concept="2OqwBi" id="1vtHxfY_iM3" role="3clFbG">
+            <node concept="37vLTw" id="1vtHxfY_iM4" role="2Oq$k0">
+              <ref role="3cqZAo" node="1l2SXGvG19e" resolve="label" />
             </node>
-            <node concept="2ShNRf" id="1l2SXGvHPjJ" role="33vP2m">
-              <node concept="1pGfFk" id="1l2SXGvHPjK" role="2ShVmc">
-                <ref role="37wK5l" to="f1mx:~Text.&lt;init&gt;(java.lang.String)" resolve="Text" />
-                <node concept="3cpWs3" id="1l2SXGvHPjL" role="37wK5m">
-                  <node concept="Xl_RD" id="1l2SXGvHPjM" role="3uHU7w">
-                    <property role="Xl_RC" value="XX" />
-                  </node>
-                  <node concept="37vLTw" id="1l2SXGvHPjN" role="3uHU7B">
-                    <ref role="3cqZAo" node="1l2SXGvGrTN" resolve="labelString" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1l2SXGvHPjO" role="3cqZAp">
-          <node concept="2OqwBi" id="1l2SXGvHPjP" role="3clFbG">
-            <node concept="37vLTw" id="1l2SXGvHPjQ" role="2Oq$k0">
-              <ref role="3cqZAo" node="1l2SXGvHPjH" resolve="text" />
-            </node>
-            <node concept="liA8E" id="1l2SXGvHPjR" role="2OqNvi">
-              <ref role="37wK5l" to="p18y:~Node.snapshot(javafx.scene.SnapshotParameters,javafx.scene.image.WritableImage):javafx.scene.image.WritableImage" resolve="snapshot" />
-              <node concept="10Nm6u" id="1l2SXGvHPjS" role="37wK5m" />
-              <node concept="10Nm6u" id="1l2SXGvHPjT" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="1l2SXGvHPjU" role="3cqZAp">
-          <node concept="3clFbS" id="1l2SXGvHPjV" role="3clFbx">
-            <node concept="3clFbF" id="1l2SXGvHPjW" role="3cqZAp">
-              <node concept="2OqwBi" id="1l2SXGvHPjX" role="3clFbG">
-                <node concept="37vLTw" id="1l2SXGvHPjY" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1l2SXGvG19e" resolve="label" />
-                </node>
-                <node concept="liA8E" id="1l2SXGvHPjZ" role="2OqNvi">
-                  <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                  <node concept="2OqwBi" id="1l2SXGvHPk0" role="37wK5m">
-                    <node concept="2OqwBi" id="1l2SXGvHPk1" role="2Oq$k0">
-                      <node concept="37vLTw" id="1l2SXGvHPk2" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1l2SXGvHPjH" resolve="text" />
-                      </node>
-                      <node concept="liA8E" id="1l2SXGvHPk3" role="2OqNvi">
-                        <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="1l2SXGvHPk4" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3eOSWO" id="1l2SXGvHPk5" role="3clFbw">
-            <node concept="3cmrfG" id="1l2SXGvHPk6" role="3uHU7w">
-              <property role="3cmrfH" value="100" />
-            </node>
-            <node concept="2OqwBi" id="1l2SXGvHPk7" role="3uHU7B">
-              <node concept="2OqwBi" id="1l2SXGvHPk8" role="2Oq$k0">
-                <node concept="37vLTw" id="1l2SXGvHPk9" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1l2SXGvHPjH" resolve="text" />
-                </node>
-                <node concept="liA8E" id="1l2SXGvHPka" role="2OqNvi">
-                  <ref role="37wK5l" to="p18y:~Node.getLayoutBounds():javafx.geometry.Bounds" resolve="getLayoutBounds" />
-                </node>
-              </node>
-              <node concept="liA8E" id="1l2SXGvHPkb" role="2OqNvi">
-                <ref role="37wK5l" to="1po:~Bounds.getWidth():double" resolve="getWidth" />
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="1l2SXGvHPkc" role="9aQIa">
-            <node concept="3clFbS" id="1l2SXGvHPkd" role="9aQI4">
-              <node concept="3clFbF" id="1l2SXGvHPke" role="3cqZAp">
-                <node concept="2OqwBi" id="1l2SXGvHPkf" role="3clFbG">
-                  <node concept="37vLTw" id="1l2SXGvHPkg" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1l2SXGvG19e" resolve="label" />
-                  </node>
-                  <node concept="liA8E" id="1l2SXGvHPkh" role="2OqNvi">
-                    <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
-                    <node concept="3cmrfG" id="1l2SXGvHPki" role="37wK5m">
-                      <property role="3cmrfH" value="100" />
-                    </node>
-                  </node>
+            <node concept="liA8E" id="1vtHxfY_iM5" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~Region.setMinWidth(double):void" resolve="setMinWidth" />
+              <node concept="2YIFZM" id="1vtHxfY_iM6" role="37wK5m">
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <ref role="37wK5l" node="1vtHxfY$YRK" resolve="getLabelWidthWRKRND" />
+                <node concept="37vLTw" id="1vtHxfY_iM7" role="37wK5m">
+                  <ref role="3cqZAo" node="1l2SXGvGrTN" resolve="labelString" />
                 </node>
               </node>
             </node>

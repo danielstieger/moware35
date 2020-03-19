@@ -73,6 +73,9 @@
       <concept id="1224573963862" name="jetbrains.mps.baseLanguage.structure.EnumValuesExpression" flags="nn" index="uiWXb">
         <reference id="1224573974191" name="enumClass" index="uiZuM" />
       </concept>
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
       </concept>
@@ -39639,9 +39642,7 @@
                   <node concept="2ShNRf" id="7pVogZc$9bJ" role="2Oq$k0">
                     <node concept="1pGfFk" id="7pVogZc$iXl" role="2ShVmc">
                       <ref role="37wK5l" to="25x5:~DecimalFormat.&lt;init&gt;(java.lang.String,java.text.DecimalFormatSymbols)" resolve="DecimalFormat" />
-                      <node concept="Xl_RD" id="7pVogZc$G8y" role="37wK5m">
-                        <property role="Xl_RC" value="0" />
-                      </node>
+                      <node concept="Xl_RD" id="7pVogZc$G8y" role="37wK5m" />
                       <node concept="2ShNRf" id="7pVogZc$j8n" role="37wK5m">
                         <node concept="1pGfFk" id="7pVogZc$jSR" role="2ShVmc">
                           <ref role="37wK5l" to="25x5:~DecimalFormatSymbols.&lt;init&gt;(java.util.Locale)" resolve="DecimalFormatSymbols" />
@@ -39658,9 +39659,9 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="7pVogZc$kVu" role="2OqNvi">
-                    <ref role="37wK5l" to="25x5:~NumberFormat.format(long):java.lang.String" resolve="format" />
-                    <node concept="3cmrfG" id="7pVogZc$kZp" role="37wK5m">
-                      <property role="3cmrfH" value="47112211" />
+                    <ref role="37wK5l" to="25x5:~NumberFormat.format(double):java.lang.String" resolve="format" />
+                    <node concept="2$xPTn" id="1vtHxfXJx51" role="37wK5m">
+                      <property role="2$xPTl" value="0.1234f" />
                     </node>
                   </node>
                 </node>
@@ -44497,7 +44498,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2020.8 (simd) (dev " />
+            <property role="Xl_RC" value="moware 2020.10 (fx8) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -50473,28 +50474,42 @@
               </node>
             </node>
           </node>
-          <node concept="22lmx$" id="59qqFijeQXT" role="3clFbw">
-            <node concept="2OqwBi" id="59qqFijeR5F" role="3uHU7w">
-              <node concept="Xl_RD" id="59qqFijeR3I" role="2Oq$k0">
-                <property role="Xl_RC" value="" />
+          <node concept="22lmx$" id="1vtHxfXJDiL" role="3clFbw">
+            <node concept="22lmx$" id="59qqFijeQXT" role="3uHU7B">
+              <node concept="3clFbC" id="59qqFijeQP3" role="3uHU7B">
+                <node concept="37vLTw" id="59qqFijeQI8" role="3uHU7B">
+                  <ref role="3cqZAo" node="59qqFijeOIN" resolve="formatOrNull" />
+                </node>
+                <node concept="10Nm6u" id="59qqFijeQS6" role="3uHU7w" />
               </node>
-              <node concept="liA8E" id="59qqFijeRbg" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="2OqwBi" id="59qqFijeRmY" role="37wK5m">
-                  <node concept="37vLTw" id="59qqFijeRi9" role="2Oq$k0">
-                    <ref role="3cqZAo" node="59qqFijeOIN" resolve="formatOrNull" />
-                  </node>
-                  <node concept="liA8E" id="59qqFijeRvr" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+              <node concept="2OqwBi" id="59qqFijeR5F" role="3uHU7w">
+                <node concept="Xl_RD" id="59qqFijeR3I" role="2Oq$k0">
+                  <property role="Xl_RC" value="" />
+                </node>
+                <node concept="liA8E" id="59qqFijeRbg" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="59qqFijeRmY" role="37wK5m">
+                    <node concept="37vLTw" id="59qqFijeRi9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="59qqFijeOIN" resolve="formatOrNull" />
+                    </node>
+                    <node concept="liA8E" id="59qqFijeRvr" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbC" id="59qqFijeQP3" role="3uHU7B">
-              <node concept="37vLTw" id="59qqFijeQI8" role="3uHU7B">
-                <ref role="3cqZAo" node="59qqFijeOIN" resolve="formatOrNull" />
+            <node concept="2OqwBi" id="1vtHxfXJCeq" role="3uHU7w">
+              <node concept="10M0yZ" id="1vtHxfXJC3W" role="2Oq$k0">
+                <ref role="3cqZAo" node="1dCoTXDIM_M" resolve="NO0_FORMAT_OPTION" />
+                <ref role="1PxDUh" node="3spXEPXIsOe" resolve="MoWareFormattersFactory" />
               </node>
-              <node concept="10Nm6u" id="59qqFijeQS6" role="3uHU7w" />
+              <node concept="liA8E" id="1vtHxfXJCw8" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="1vtHxfXJCF_" role="37wK5m">
+                  <ref role="3cqZAo" node="59qqFijeOIN" resolve="formatOrNull" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
