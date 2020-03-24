@@ -15481,5 +15481,42 @@
       <ref role="1YaFvo" to="un0u:5G28P6GvTqn" resolve="ChangeGraphStatement" />
     </node>
   </node>
+  <node concept="18kY7G" id="1pNkZjUAO$o">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="AssertNotInInternalSequence" />
+    <node concept="3clFbS" id="1pNkZjUAO$p" role="18ibNy">
+      <node concept="3clFbJ" id="1pNkZjUAO_S" role="3cqZAp">
+        <node concept="2OqwBi" id="1pNkZjUAOUh" role="3clFbw">
+          <node concept="2OqwBi" id="1pNkZjUAODl" role="2Oq$k0">
+            <node concept="1YBJjd" id="1pNkZjUAOA4" role="2Oq$k0">
+              <ref role="1YBMHb" node="1pNkZjUAO_q" resolve="assertStatement" />
+            </node>
+            <node concept="2Xjw5R" id="1pNkZjUAOQn" role="2OqNvi">
+              <node concept="1xMEDy" id="1pNkZjUAOQp" role="1xVPHs">
+                <node concept="chp4Y" id="1pNkZjUAOR3" role="ri$Ld">
+                  <ref role="cht4Q" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3x8VRR" id="1pNkZjUAP6h" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="1pNkZjUAO_U" role="3clFbx">
+          <node concept="2MkqsV" id="1pNkZjUAP7c" role="3cqZAp">
+            <node concept="Xl_RD" id="1pNkZjUAP7v" role="2MkJ7o">
+              <property role="Xl_RC" value="Do not use the assert statement within baselang collection operations. This is not supported by moware yet." />
+            </node>
+            <node concept="1YBJjd" id="1pNkZjUAPbn" role="2OEOjV">
+              <ref role="1YBMHb" node="1pNkZjUAO_q" resolve="assertStatement" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1pNkZjUAO_q" role="1YuTPh">
+      <property role="TrG5h" value="assertStatement" />
+      <ref role="1YaFvo" to="tpee:gTgVbCX" resolve="AssertStatement" />
+    </node>
+  </node>
 </model>
 

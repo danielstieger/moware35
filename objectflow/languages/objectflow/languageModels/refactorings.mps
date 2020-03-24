@@ -11,6 +11,7 @@
   <imports>
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
+    <import index="2yc6" ref="r:d9efd362-28b8-4f70-9bcd-fb582528d11c(jetbrains.mps.lang.core.refactorings)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -45,6 +46,9 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -59,11 +63,16 @@
     <language id="3ecd7c84-cde3-45de-886c-135ecc69b742" name="jetbrains.mps.lang.refactoring">
       <concept id="7953996722066252915" name="jetbrains.mps.lang.refactoring.structure.NodeOperation" flags="nn" index="50M6j" />
       <concept id="7953996722066256458" name="jetbrains.mps.lang.refactoring.structure.RefactoringContext_ConceptFunctionParameter" flags="nn" index="50NuE" />
+      <concept id="5497648299878741970" name="jetbrains.mps.lang.refactoring.structure.InitClause" flags="in" index="1M1Ini" />
       <concept id="6895093993902236229" name="jetbrains.mps.lang.refactoring.structure.Refactoring" flags="ig" index="3SMa$L">
         <property id="6895093993902236371" name="userFriendlyName" index="3SMaAB" />
+        <reference id="6895093993902236387" name="overrides" index="3SMaAn" />
+        <child id="5497648299878741976" name="initBlock" index="1M1Ino" />
         <child id="6895093993902236381" name="doRefactorBlock" index="3SMaAD" />
+        <child id="6895093993902236376" name="parameter" index="3SMaAG" />
         <child id="6895093993902310998" name="target" index="3SM$Oy" />
       </concept>
+      <concept id="6895093993902311012" name="jetbrains.mps.lang.refactoring.structure.RefactoringParameter" flags="ng" index="3SM$Og" />
       <concept id="6895093993902310764" name="jetbrains.mps.lang.refactoring.structure.NodeTarget" flags="ng" index="3SM$So">
         <reference id="6895093993902310806" name="concept" index="3SM$Vy" />
       </concept>
@@ -238,12 +247,36 @@
                 </node>
                 <node concept="2SmgA7" id="7_B8OvR0dKv" role="2OqNvi">
                   <node concept="chp4Y" id="4xVSf7cJ_2G" role="1dBWTz">
-                    <ref role="cht4Q" to="un0u:3VCHlE3_rxl" resolve="Status" />
+                    <ref role="cht4Q" to="un0u:3VCHlE3_rxl" resolve="StatusDeclaration" />
                   </node>
                 </node>
               </node>
               <node concept="1uHKPH" id="7_B8OvR0nPS" role="2OqNvi" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3SMa$L" id="1pNkZjVoyQQ">
+    <property role="TrG5h" value="MoveServiceMethod" />
+    <property role="3SMaAB" value="Move Service Method" />
+    <ref role="3SMaAn" to="2yc6:65fYhwGpKCS" resolve="MoveNodes" />
+    <node concept="3SM$Og" id="1pNkZjVsQ$P" role="3SMaAG">
+      <property role="TrG5h" value="destination" />
+      <node concept="3Tqbb2" id="1pNkZjVsQ_3" role="1tU5fm" />
+    </node>
+    <node concept="3SM$So" id="1pNkZjVoyXN" role="3SM$Oy">
+      <ref role="3SM$Vy" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
+    </node>
+    <node concept="3ZiDMR" id="1pNkZjVoyQS" role="3SMaAD">
+      <node concept="3clFbS" id="1pNkZjVoyQT" role="2VODD2" />
+    </node>
+    <node concept="1M1Ini" id="1pNkZjVoyYg" role="1M1Ino">
+      <node concept="3clFbS" id="1pNkZjVoyYh" role="2VODD2">
+        <node concept="3cpWs6" id="1pNkZjVoyZl" role="3cqZAp">
+          <node concept="3clFbT" id="1pNkZjVoz13" role="3cqZAk">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>

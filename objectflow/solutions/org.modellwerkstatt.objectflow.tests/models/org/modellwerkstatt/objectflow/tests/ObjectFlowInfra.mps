@@ -2713,12 +2713,12 @@
             <node concept="liA8E" id="3sIS$IKpZgr" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="Xl_RD" id="3sIS$IKpZgs" role="37wK5m">
-                <property role="Xl_RC" value="Platform Two" />
+                <property role="Xl_RC" value="Default" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3sIS$IKpZlD" role="3cqZAp" />
+        <node concept="3clFbH" id="1pNkZjV1n14" role="3cqZAp" />
         <node concept="3clFbF" id="3sIS$IKpZqI" role="3cqZAp">
           <node concept="2OqwBi" id="3sIS$IKpZqJ" role="3clFbG">
             <node concept="3urNR4" id="3sIS$IKpZqK" role="2Oq$k0">

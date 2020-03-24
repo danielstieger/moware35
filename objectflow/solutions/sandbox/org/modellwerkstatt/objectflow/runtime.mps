@@ -8527,6 +8527,7 @@
   </node>
   <node concept="312cEu" id="2vvVhmrHh2U">
     <property role="TrG5h" value="SaveObjectComperator" />
+    <node concept="2tJIrI" id="1pNkZjV7d9Y" role="jymVt" />
     <node concept="2YIFZL" id="2vvVhmrHj6o" role="jymVt">
       <property role="TrG5h" value="equals" />
       <property role="od$2w" value="false" />
@@ -8591,6 +8592,77 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="1pNkZjV7ddB" role="jymVt" />
+    <node concept="2YIFZL" id="1pNkZjV7db5" role="jymVt">
+      <property role="TrG5h" value="equalsBigDecimal" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <node concept="3clFbS" id="1pNkZjV7db6" role="3clF47">
+        <node concept="3clFbJ" id="1pNkZjV7db7" role="3cqZAp">
+          <node concept="3clFbS" id="1pNkZjV7db8" role="3clFbx">
+            <node concept="3cpWs6" id="1pNkZjV7db9" role="3cqZAp">
+              <node concept="3clFbC" id="1pNkZjV7izE" role="3cqZAk">
+                <node concept="3cmrfG" id="1pNkZjV7i_J" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="1pNkZjV7dba" role="3uHU7B">
+                  <node concept="37vLTw" id="1pNkZjV7dbb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1pNkZjV7dbs" resolve="bd1" />
+                  </node>
+                  <node concept="liA8E" id="1pNkZjV7dbc" role="2OqNvi">
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.compareTo(java.math.BigDecimal):int" resolve="compareTo" />
+                    <node concept="37vLTw" id="1pNkZjV7dbd" role="37wK5m">
+                      <ref role="3cqZAo" node="1pNkZjV7dbu" resolve="bd2" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="1pNkZjV7dbe" role="3clFbw">
+            <node concept="37vLTw" id="1pNkZjV7dbf" role="3uHU7B">
+              <ref role="3cqZAo" node="1pNkZjV7dbs" resolve="bd1" />
+            </node>
+            <node concept="10Nm6u" id="1pNkZjV7dbg" role="3uHU7w" />
+          </node>
+          <node concept="3eNFk2" id="1pNkZjV7dbh" role="3eNLev">
+            <node concept="3clFbC" id="1pNkZjV7dbi" role="3eO9$A">
+              <node concept="10Nm6u" id="1pNkZjV7dbj" role="3uHU7w" />
+              <node concept="37vLTw" id="1pNkZjV7dbk" role="3uHU7B">
+                <ref role="3cqZAo" node="1pNkZjV7dbu" resolve="bd2" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1pNkZjV7dbl" role="3eOfB_">
+              <node concept="3cpWs6" id="1pNkZjV7dbm" role="3cqZAp">
+                <node concept="3clFbT" id="1pNkZjV7dbn" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1pNkZjV7dbo" role="3cqZAp">
+          <node concept="3clFbT" id="1pNkZjV7dbp" role="3cqZAk">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1pNkZjV7dbq" role="1B3o_S" />
+      <node concept="10P_77" id="1pNkZjV7dbr" role="3clF45" />
+      <node concept="37vLTG" id="1pNkZjV7dbs" role="3clF46">
+        <property role="TrG5h" value="bd1" />
+        <node concept="3uibUv" id="1pNkZjV7ioh" role="1tU5fm">
+          <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1pNkZjV7dbu" role="3clF46">
+        <property role="TrG5h" value="bd2" />
+        <node concept="3uibUv" id="1pNkZjV7iqI" role="1tU5fm">
+          <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1pNkZjV7dax" role="jymVt" />
     <node concept="3Tm1VV" id="2vvVhmrHh2V" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3aesqnvc$0z">
