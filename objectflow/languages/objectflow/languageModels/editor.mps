@@ -6077,6 +6077,9 @@
       <node concept="3F0ifn" id="49kO6rQko6q" role="3EZMnx">
         <property role="3F0ifm" value="dynamic roles which restrict" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
+        <node concept="3nxI2P" id="150ifybaK6B" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F1sOY" id="49kO6rQko6y" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:3UOln1Hq_zw" />

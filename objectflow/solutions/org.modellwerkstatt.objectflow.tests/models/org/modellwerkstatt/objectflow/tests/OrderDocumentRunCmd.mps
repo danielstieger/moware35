@@ -9,7 +9,6 @@
   <imports>
     <import index="t63u" ref="r:baf75629-a6b8-444b-8c70-75a1defa71e9(org.modellwerkstatt.objectflow.tests.OrderDocument)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
-    <import index="65du" ref="r:7920ecff-ecc2-4304-af30-ebf2b1309ccb(org.modellwerkstatt.objectflow.tests.OrderDocumentUi)" />
     <import index="7kfk" ref="r:cc76ad46-6947-4cc7-9f41-029160c9ce20(org.modellwerkstatt.objectflow.tests.config)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
