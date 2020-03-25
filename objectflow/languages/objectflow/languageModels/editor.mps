@@ -3367,6 +3367,41 @@
           <property role="ilYzB" value="&lt;multiple conditions&gt;" />
         </node>
       </node>
+      <node concept="3F0ifn" id="150ifyc286f" role="3EZMnx">
+        <property role="3F0ifm" value="new permissions:" />
+      </node>
+      <node concept="3F0ifn" id="150ifycB8jx" role="3EZMnx">
+        <property role="3F0ifm" value="//COMMAND needs permissions" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pkWqt" id="150ifycB8jG" role="pqm2j">
+          <node concept="3clFbS" id="150ifycB8jH" role="2VODD2">
+            <node concept="3clFbF" id="150ifycB8kQ" role="3cqZAp">
+              <node concept="3eOSWO" id="150ifycBbpO" role="3clFbG">
+                <node concept="3cmrfG" id="150ifycBbpU" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="150ifycB94G" role="3uHU7B">
+                  <node concept="2OqwBi" id="150ifycB8pd" role="2Oq$k0">
+                    <node concept="pncrf" id="150ifycB8kP" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="150ifycB8Bz" role="2OqNvi">
+                      <ref role="3TtcxE" to="un0u:150ifyc285Q" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="150ifycBau9" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F2HdR" id="150ifyc28dJ" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:150ifyc285Q" />
+        <node concept="2iRkQZ" id="150ifyc28dL" role="2czzBx" />
+        <node concept="3F0ifn" id="150ifycfgmj" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;no perm necessary&gt;" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6ffh1MXzHni">
@@ -12408,6 +12443,46 @@
         <ref role="1ERwB7" to="tpen:5qguV_rZzBJ" resolve="Delete_BlockStatement" />
       </node>
       <node concept="l2Vlx" id="i0uUEZH" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="150ifycfgmq">
+    <property role="3GE5qa" value="Permission" />
+    <ref role="1XX52x" to="un0u:150ifyc285h" resolve="OpenSavePermissionCmd" />
+    <node concept="3EZMnI" id="150ifyc285t" role="2wV5jI">
+      <node concept="PMmxH" id="150ifyc285$" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
+      </node>
+      <node concept="1iCGBv" id="150ifyc285D" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:150ifyc285k" />
+        <node concept="1sVBvm" id="150ifyc285F" role="1sWHZn">
+          <node concept="3F0A7n" id="150ifyc285N" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="150ifyc285w" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="150ifycfgmB">
+    <property role="3GE5qa" value="Permission" />
+    <ref role="1XX52x" to="un0u:150ifyc27tm" resolve="OpenPermissionCmd" />
+    <node concept="3EZMnI" id="150ifycfgmD" role="2wV5jI">
+      <node concept="PMmxH" id="150ifycfgmE" role="3EZMnx">
+        <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="1iCGBv" id="150ifycfgmF" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:150ifyc285k" />
+        <node concept="1sVBvm" id="150ifycfgmG" role="1sWHZn">
+          <node concept="3F0A7n" id="150ifycfgmH" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="150ifycfgmI" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -745,6 +745,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="150ifyc285Q" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="permissionNew" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="150ifyc285e" resolve="IPermissionCmd" />
+    </node>
     <node concept="1TJgyj" id="3IuMOEB7hjH" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="questionWhenAborting" />
@@ -4598,6 +4604,39 @@
     <property role="1pbfSe" value="275870259" />
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <property role="TrG5h" value="IServiceInstanceMethodOption" />
+  </node>
+  <node concept="1TIwiD" id="150ifyc27tm">
+    <property role="1pbfSe" value="1656176562" />
+    <property role="3GE5qa" value="Permission" />
+    <property role="TrG5h" value="OpenPermissionCmd" />
+    <property role="34LRSv" value="OPEN" />
+    <property role="R4oN_" value="open cmd with read only session" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="150ifyc285f" role="PzmwI">
+      <ref role="PrY4T" node="150ifyc285e" resolve="IPermissionCmd" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="150ifyc285e">
+    <property role="1pbfSe" value="1656174010" />
+    <property role="3GE5qa" value="Permission" />
+    <property role="TrG5h" value="IPermissionCmd" />
+    <node concept="1TJgyj" id="150ifyc285k" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="role" />
+      <ref role="20lvS9" node="49kO6rP6waq" resolve="StaticRole" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="150ifyc285h">
+    <property role="1pbfSe" value="1656174007" />
+    <property role="3GE5qa" value="Permission" />
+    <property role="TrG5h" value="OpenSavePermissionCmd" />
+    <property role="34LRSv" value="OPEN_SAVE" />
+    <property role="R4oN_" value="open cmd and save data" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="150ifyc285i" role="PzmwI">
+      <ref role="PrY4T" node="150ifyc285e" resolve="IPermissionCmd" />
+    </node>
   </node>
 </model>
 

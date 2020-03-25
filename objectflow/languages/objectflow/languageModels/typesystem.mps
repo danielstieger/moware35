@@ -15518,5 +15518,88 @@
       <ref role="1YaFvo" to="tpee:gTgVbCX" resolve="AssertStatement" />
     </node>
   </node>
+  <node concept="18kY7G" id="150ifycjycZ">
+    <property role="TrG5h" value="check_IPermissionCmd" />
+    <property role="3GE5qa" value="Permission" />
+    <node concept="3clFbS" id="150ifycjyd0" role="18ibNy">
+      <node concept="3clFbJ" id="150ifycjyd6" role="3cqZAp">
+        <node concept="2OqwBi" id="150ifycjyyk" role="3clFbw">
+          <node concept="2OqwBi" id="150ifycjyeH" role="2Oq$k0">
+            <node concept="1YBJjd" id="150ifycjydi" role="2Oq$k0">
+              <ref role="1YBMHb" node="150ifycjyd2" resolve="iPermissionCmd" />
+            </node>
+            <node concept="2TvwIu" id="150ifycjyhg" role="2OqNvi" />
+          </node>
+          <node concept="2HwmR7" id="150ifycjz2j" role="2OqNvi">
+            <node concept="1bVj0M" id="150ifycjz2l" role="23t8la">
+              <node concept="3clFbS" id="150ifycjz2m" role="1bW5cS">
+                <node concept="3clFbF" id="150ifycjz4d" role="3cqZAp">
+                  <node concept="3clFbC" id="150ifycjzze" role="3clFbG">
+                    <node concept="2OqwBi" id="150ifycjzDd" role="3uHU7w">
+                      <node concept="1YBJjd" id="150ifycjzAk" role="2Oq$k0">
+                        <ref role="1YBMHb" node="150ifycjyd2" resolve="iPermissionCmd" />
+                      </node>
+                      <node concept="3TrEf2" id="150ifycjzHt" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:150ifyc285k" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="150ifycjznq" role="3uHU7B">
+                      <node concept="1PxgMI" id="150ifycjzhy" role="2Oq$k0">
+                        <ref role="1PxNhF" to="un0u:150ifyc285e" resolve="IPermissionCmd" />
+                        <node concept="37vLTw" id="150ifycjz4c" role="1PxMeX">
+                          <ref role="3cqZAo" node="150ifycjz2n" resolve="it" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="150ifycjzrj" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:150ifyc285k" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="150ifycjz2n" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="150ifycjz2o" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="150ifycjyd8" role="3clFbx">
+          <node concept="2MkqsV" id="150ifycjzK$" role="3cqZAp">
+            <node concept="3cpWs3" id="150ifycoig0" role="2MkJ7o">
+              <node concept="Xl_RD" id="150ifycoikI" role="3uHU7w">
+                <property role="Xl_RC" value="' only once per command." />
+              </node>
+              <node concept="3cpWs3" id="150ifycohEU" role="3uHU7B">
+                <node concept="Xl_RD" id="150ifycjzKK" role="3uHU7B">
+                  <property role="Xl_RC" value="You can declare permissions for the role '" />
+                </node>
+                <node concept="2OqwBi" id="150ifycohXG" role="3uHU7w">
+                  <node concept="2OqwBi" id="150ifycohJK" role="2Oq$k0">
+                    <node concept="1YBJjd" id="150ifycohHS" role="2Oq$k0">
+                      <ref role="1YBMHb" node="150ifycjyd2" resolve="iPermissionCmd" />
+                    </node>
+                    <node concept="3TrEf2" id="150ifycohQv" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:150ifyc285k" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="150ifycoi5M" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1YBJjd" id="150ifycjzMS" role="2OEOjV">
+              <ref role="1YBMHb" node="150ifycjyd2" resolve="iPermissionCmd" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="150ifycjyd2" role="1YuTPh">
+      <property role="TrG5h" value="iPermissionCmd" />
+      <ref role="1YaFvo" to="un0u:150ifyc285e" resolve="IPermissionCmd" />
+    </node>
+  </node>
 </model>
 
