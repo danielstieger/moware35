@@ -22,6 +22,8 @@ function hwStackInfo(){
 
 function hwInitAfterDomReady(){
 
+    installDateCommaReplacer();
+
 }
 
 function hwInternVibrate(t) {

@@ -7,7 +7,7 @@
 <div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>
 <div class="w3-col m9 s7 {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
 {% if enabled %}
-    <input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input" type="text"
+    <input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input {% if isDateDelegate %}sv-datedelegate{% endif %}" type="text"
            {% if scanable %}scanable="true"{% endif %}
     {% if requestFocus %} focusme="true" {% endif %}
     {% if useNumericKeyboard %} useNumericKeyboard="true" {% endif %} value="{{ text }}"/>

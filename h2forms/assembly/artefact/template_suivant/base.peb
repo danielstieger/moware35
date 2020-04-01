@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
   <title>{{ statics.applicationName }} {{ client.device }}/{{ client.debug }}</title>
-
+  <meta charset="UTF-8">
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="icon" sizes="192x192" href="{{ client.staticContentUrlPrefix }}/images/android-desktop.png{{ page.ncs }}">
@@ -60,14 +60,13 @@
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
-  <meta charset="UTF-8">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 
   <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/suivant-tmpl.css{{ page.ncs }}">
   <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3-theme-teal.css{{ page.ncs }}">
   <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
 
-  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivantui.js{{ page.ncs }}"></script>
+  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/suivantui.js{{ page.ncs }}"></script>
   {% if client.device equals "ZEBRAEB_TC56" %}
   <!-- <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script> -->
@@ -78,7 +77,7 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.sip.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra18_TC56.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra18_TC56.js{{ page.ncs }}"></script>
   {% elseif client.device equals "ZEBRAEB_TC25" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
@@ -91,13 +90,13 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.keycapture.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.sip.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script> -->
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra2_TC25.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra2_TC25.js{{ page.ncs }}"></script>
   {% elseif client.device equals "SCANDIT" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_scandit.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_scandit.js{{ page.ncs }}"></script>
   {% else %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_none.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_none.js{{ page.ncs }}"></script>
   {% endif %}
-  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivant.js{{ page.ncs }}"></script>
+  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/suivant.js{{ page.ncs }}"></script>
 
   <link rel="icon" type="image/ico" href="{{ client.staticContentUrlPrefix }}/images/favicon.ico{{ page.ncs }}">
   <style media="screen" type="text/css">

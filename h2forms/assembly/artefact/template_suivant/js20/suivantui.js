@@ -107,6 +107,17 @@ function svAdjustFocus() {
 }
 
 
+function installDateCommaReplacer() {
+    $$('.sv-datedelegate').forEach(function(inpFld){
+
+        inpFld.addEventListener('keyup', function(e) {
+            e.target.value = e.target.value.replace(',', '.');
+           }, false);
+
+    });
+
+}
+
 /*  *  *  *  *  *  *  *  * LongTouchHandler   *  *  *  *  *  *  *  *  *  *  */
 function SVLongTouchHandler(attachButton, dropdownMenu) {
 

@@ -18,7 +18,7 @@
 
 
 function hwStackInfo(){
-    return '[hwsprt_zebra2_TC25]';
+    return '[hwsprt_zebra18_TC55]';
 }
 
 
@@ -49,7 +49,6 @@ function zzScanReceived(params){
         return;
     }
 
-
     // no longer alloweder, Dez 19
     // svDisableNavigation();
 
@@ -62,18 +61,18 @@ function zzScanReceived(params){
     zzDisableScan();
     saveSubmitDueScan();
 }
+
 function zzScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
+    // svLog('zzScanSubmit', 'zebra issuing a scan');
     EB.Barcode.stop();
-    EB.Barcode.triggerType = EB.Barcode.SOFT_ONCE;
     EB.Barcode.start();
 }
 
 function zzDefaultGoSubmit(){
     // svLog('hwDefaultOkSubmit', 'default ok submit called');
 
-    // no longer alloweder, Dez 19
     // svDisableNavigation();
     saveSubmitDueGo();
 }
@@ -90,12 +89,9 @@ function hwInitAfterDomReady(){
     		if((nodeName == 'input' || nodeName == 'textarea') && useNumericKeyboard == null) {
                 EB.Sip.resetToDefault();
                 EB.Sip.show();
-                svLog('focusHandler', 'EB.Sip. resetToDefault() / show() called.');
 
     		} else {
     		    EB.Sip.disableAllIME();
-    		    svLog('focusHandler', 'EB.Sip.disableAllIME() called.');
-
             }
     };
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
@@ -134,34 +130,32 @@ function hwInitAfterDomReady(){
     }
     $('body').addEventListener('keydown', keyCallBack);
 
+    installDateCommaReplacer();
 
     if (svScanEnabled()) {
         var isInit = sessionStorage.getItem("isEBInitialized");
-
-        svLog('hwEnableScan', 'sessionStorage isInit now ' + isInit);
 
         try {
             if (isInit == "true") {
                 EB.Barcode.enable({}, zzScanReceived);
 
             } else {
-                svLog('hwEnableScan', 'calling EB.Barcode.setProperties()');
-                EB.Barcode.allDecoders = false;
-                EB.Barcode.code128 = true;
-                EB.Barcode.code128ean128 = true;
-                EB.Barcode.code39 = true;
-                EB.Barcode.ean13 = true;
-                EB.Barcode.ean8 = true;
-                EB.Barcode.gs1dataBar = true;
-                EB.Barcode.gs1dataBarExpanded = true;
-                EB.Barcode.gs1dataBarLimited = true;
-                EB.Barcode.pdf417 = true;
-                EB.Barcode.qrCode = true;
-                EB.Barcode.datamatrix = true;
+                 // svLog('hwEnableScan', 'calling EB.Barcode.enable() ean128 enabled.');
+                 EB.Barcode.enable({
+                           allDecoders:false,
+                           code128:true,
+                           code128ean128:true,
+                           code39:true,
+                           ean13:true,
+                           ean8:true,
+                           gs1dataBar:true,
+                           gs1dataBarExpanded:true,
+                           gs1dataBarLimited:true,
+                           pdf417:true,
+                           qrCode:true,
+                           dataMatrix:true,
 
-
-                svLog('hwEnableScan', 'calling EB.Barcode.enable()');
-                EB.Barcode.enable({}, zzScanReceived);
+                   }, zzScanReceived);
 
                 sessionStorage.setItem("isEBInitialized", "true");
             }
@@ -204,6 +198,7 @@ function hwExit(){
         svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);
     }
 }
+
 
 function hwMinimize(){
     try {
