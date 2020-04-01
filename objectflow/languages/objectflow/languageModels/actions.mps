@@ -2744,6 +2744,166 @@
         </node>
       </node>
     </node>
+    <node concept="3UNGvq" id="5koq1sDd0sy" role="3UOs0v">
+      <property role="3mWRNi" value="Transform to Status of operator" />
+      <property role="2uHTBK" value="default_RTransform" />
+      <ref role="3UNGvu" to="un0u:6RAFKVMR_IH" resolve="StatusElementReference" />
+      <node concept="tYCnQ" id="5koq1sDd0sz" role="_1QTJ">
+        <ref role="uz4UX" to="tpee:fHWc73I" resolve="AndExpression" />
+        <node concept="Cmt7Y" id="5koq1sDd0s$" role="uz6Si">
+          <node concept="Cnhdc" id="5koq1sDd0s_" role="Cncma">
+            <node concept="3clFbS" id="5koq1sDd0sA" role="2VODD2">
+              <node concept="3cpWs8" id="5koq1sDd0sB" role="3cqZAp">
+                <node concept="3cpWsn" id="5koq1sDd0sC" role="3cpWs9">
+                  <property role="TrG5h" value="origSn" />
+                  <node concept="3Tqbb2" id="5koq1sDd0sD" role="1tU5fm">
+                    <ref role="ehGHo" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                  </node>
+                  <node concept="2OqwBi" id="5koq1sDdcKy" role="33vP2m">
+                    <node concept="Cj7Ep" id="5koq1sDd0sE" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="5koq1sDdcR$" role="2OqNvi">
+                      <node concept="1xMEDy" id="5koq1sDdcRA" role="1xVPHs">
+                        <node concept="chp4Y" id="5koq1sDdcUl" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="5koq1sDdcXk" role="1xVPHs" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="5koq1sDd0sF" role="3cqZAp">
+                <node concept="3cpWsn" id="5koq1sDd0sG" role="3cpWs9">
+                  <property role="TrG5h" value="and" />
+                  <node concept="3Tqbb2" id="5koq1sDd0sH" role="1tU5fm">
+                    <ref role="ehGHo" to="tpee:fHWc73I" resolve="AndExpression" />
+                  </node>
+                  <node concept="2OqwBi" id="5koq1sDd0sI" role="33vP2m">
+                    <node concept="37vLTw" id="5koq1sDdgra" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5koq1sDd0sC" resolve="origSn" />
+                    </node>
+                    <node concept="2DeJnW" id="5koq1sDd0sK" role="2OqNvi">
+                      <ref role="1_rbq0" to="tpee:fHWc73I" resolve="AndExpression" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5koq1sDd0sL" role="3cqZAp">
+                <node concept="37vLTI" id="5koq1sDd0sM" role="3clFbG">
+                  <node concept="2OqwBi" id="5koq1sDd0sO" role="37vLTJ">
+                    <node concept="37vLTw" id="5koq1sDd0sP" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5koq1sDd0sG" resolve="and" />
+                    </node>
+                    <node concept="3TrEf2" id="5koq1sDd0Pp" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:fJuHU4s" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5koq1sDdgAK" role="37vLTx">
+                    <node concept="Cj7Ep" id="5koq1sDdgAL" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="5koq1sDdgAM" role="2OqNvi">
+                      <node concept="1xMEDy" id="5koq1sDdgAN" role="1xVPHs">
+                        <node concept="chp4Y" id="5koq1sDdgAO" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="5koq1sDdgAP" role="1xVPHs" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="5koq1sDd0sR" role="3cqZAp">
+                <node concept="37vLTw" id="5koq1sDd0sS" role="3cqZAk">
+                  <ref role="3cqZAo" node="5koq1sDd0sG" resolve="and" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="5koq1sDd0sT" role="Cn2iK">
+            <property role="2h1i$Z" value="&amp;&amp;" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UNGvq" id="5koq1sDdk2u" role="3UOs0v">
+      <property role="3mWRNi" value="Transform to Status of operator" />
+      <property role="2uHTBK" value="default_RTransform" />
+      <ref role="3UNGvu" to="un0u:6RAFKVMR_IH" resolve="StatusElementReference" />
+      <node concept="tYCnQ" id="5koq1sDdk2v" role="_1QTJ">
+        <ref role="uz4UX" to="tpee:fI2lmyv" resolve="OrExpression" />
+        <node concept="Cmt7Y" id="5koq1sDdk2w" role="uz6Si">
+          <node concept="Cnhdc" id="5koq1sDdk2x" role="Cncma">
+            <node concept="3clFbS" id="5koq1sDdk2y" role="2VODD2">
+              <node concept="3cpWs8" id="5koq1sDdk2z" role="3cqZAp">
+                <node concept="3cpWsn" id="5koq1sDdk2$" role="3cpWs9">
+                  <property role="TrG5h" value="origSn" />
+                  <node concept="3Tqbb2" id="5koq1sDdk2_" role="1tU5fm">
+                    <ref role="ehGHo" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                  </node>
+                  <node concept="2OqwBi" id="5koq1sDdk2A" role="33vP2m">
+                    <node concept="Cj7Ep" id="5koq1sDdk2B" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="5koq1sDdk2C" role="2OqNvi">
+                      <node concept="1xMEDy" id="5koq1sDdk2D" role="1xVPHs">
+                        <node concept="chp4Y" id="5koq1sDdk2E" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="5koq1sDdk2F" role="1xVPHs" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="5koq1sDdk2G" role="3cqZAp">
+                <node concept="3cpWsn" id="5koq1sDdk2H" role="3cpWs9">
+                  <property role="TrG5h" value="or" />
+                  <node concept="3Tqbb2" id="5koq1sDdk2I" role="1tU5fm">
+                    <ref role="ehGHo" to="tpee:fI2lmyv" resolve="OrExpression" />
+                  </node>
+                  <node concept="2OqwBi" id="5koq1sDdk2J" role="33vP2m">
+                    <node concept="37vLTw" id="5koq1sDdk2K" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5koq1sDdk2$" resolve="origSn" />
+                    </node>
+                    <node concept="2DeJnW" id="5koq1sDdk2L" role="2OqNvi">
+                      <ref role="1_rbq0" to="tpee:fI2lmyv" resolve="OrExpression" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5koq1sDdk2M" role="3cqZAp">
+                <node concept="37vLTI" id="5koq1sDdk2N" role="3clFbG">
+                  <node concept="2OqwBi" id="5koq1sDdk2O" role="37vLTJ">
+                    <node concept="37vLTw" id="5koq1sDdk2P" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5koq1sDdk2H" resolve="or" />
+                    </node>
+                    <node concept="3TrEf2" id="5koq1sDdk2Q" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:fJuHU4s" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5koq1sDdk2R" role="37vLTx">
+                    <node concept="Cj7Ep" id="5koq1sDdk2S" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="5koq1sDdk2T" role="2OqNvi">
+                      <node concept="1xMEDy" id="5koq1sDdk2U" role="1xVPHs">
+                        <node concept="chp4Y" id="5koq1sDdk2V" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="5koq1sDdk2W" role="1xVPHs" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="5koq1sDdk2X" role="3cqZAp">
+                <node concept="37vLTw" id="5koq1sDdk2Y" role="3cqZAk">
+                  <ref role="3cqZAo" node="5koq1sDdk2H" resolve="or" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="5koq1sDdk2Z" role="Cn2iK">
+            <property role="2h1i$Z" value="||" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3UOs0u" id="5G28P6GmqtL">
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />

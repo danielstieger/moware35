@@ -4578,7 +4578,6 @@
     <property role="1pbfSe" value="1623526075" />
     <property role="3GE5qa" value="Status" />
     <property role="TrG5h" value="StatusElementReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6RAFKVMR_II" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="statusElement" />
