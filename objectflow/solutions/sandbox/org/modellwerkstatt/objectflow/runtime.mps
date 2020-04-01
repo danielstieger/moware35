@@ -52271,6 +52271,60 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="3WGuzzj$eam" role="jymVt" />
+    <node concept="2tJIrI" id="3WGuzzj$eDl" role="jymVt" />
+    <node concept="2YIFZL" id="3WGuzzj$sPi" role="jymVt">
+      <property role="TrG5h" value="someMain" />
+      <node concept="37vLTG" id="3WGuzzj$sPj" role="3clF46">
+        <property role="TrG5h" value="args" />
+        <node concept="10Q1$e" id="3WGuzzj$sPk" role="1tU5fm">
+          <node concept="17QB3L" id="3WGuzzj$sPl" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3WGuzzj$sPm" role="3clF45" />
+      <node concept="3Tm1VV" id="3WGuzzj$sPn" role="1B3o_S" />
+      <node concept="3clFbS" id="3WGuzzj$sPo" role="3clF47">
+        <node concept="3clFbF" id="3WGuzzj$v5$" role="3cqZAp">
+          <node concept="2OqwBi" id="3WGuzzj$v5x" role="3clFbG">
+            <node concept="10M0yZ" id="3WGuzzj$v5y" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="3WGuzzj$v5z" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="3WGuzzj$vgD" role="37wK5m">
+                <node concept="2OqwBi" id="3WGuzzj$AaA" role="3uHU7w">
+                  <node concept="2YIFZM" id="3WGuzzj$_PO" role="2Oq$k0">
+                    <ref role="37wK5l" node="59qqFijft9j" resolve="forDecimalFormatPattern" />
+                    <ref role="1Pybhc" node="3spXEPXIsOe" resolve="MoWareFormattersFactory" />
+                    <node concept="Xl_RD" id="3WGuzzj$A6n" role="37wK5m">
+                      <property role="Xl_RC" value="#,##0.00" />
+                    </node>
+                    <node concept="Xl_RD" id="3WGuzzj$A4$" role="37wK5m">
+                      <property role="Xl_RC" value="de" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3WGuzzj$Ail" role="2OqNvi">
+                    <ref role="37wK5l" to="25x5:~Format.format(java.lang.Object):java.lang.String" resolve="format" />
+                    <node concept="2ShNRf" id="3WGuzzj$BJF" role="37wK5m">
+                      <node concept="1pGfFk" id="3WGuzzj$C$t" role="2ShVmc">
+                        <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(java.lang.String)" resolve="BigDecimal" />
+                        <node concept="Xl_RD" id="3WGuzzj$CCG" role="37wK5m">
+                          <property role="Xl_RC" value="4711.03" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3WGuzzj$v9p" role="3uHU7B">
+                  <property role="Xl_RC" value=" my value is " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="76zKLSqSO2m" role="1B3o_S" />
     <node concept="3uibUv" id="76zKLSqT3bM" role="EKbjA">
       <ref role="3uigEE" node="76zKLSqT1uU" resolve="IOFXTranslationProvider" />
