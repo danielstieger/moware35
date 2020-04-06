@@ -9229,7 +9229,7 @@
       <node concept="3clFbS" id="1Ay2IrqPDWm" role="3clF47">
         <node concept="3clFbF" id="1Ay2IrqPE6k" role="3cqZAp">
           <node concept="Xl_RD" id="1Ay2IrqPE6j" role="3clFbG">
-            <property role="Xl_RC" value="Move Service Method" />
+            <property role="Xl_RC" value="Move Service/Repo Method" />
           </node>
         </node>
       </node>

@@ -150,7 +150,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 3.3.5 / moware 2020.11 (,)" />
+          <property role="3MwjfP" value="MPS 3.3.5 / moware 2020.12 (mv)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1305,10 +1305,22 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="150ifybIdws" role="3bR37C">
-          <node concept="3bR9La" id="150ifybIdwt" role="1SiIV1">
+        <node concept="1SiIV0" id="2l1CeP88RV3" role="3bR37C">
+          <node concept="3bR9La" id="2l1CeP88RV4" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7KapL9OABnm" resolve="jetbrains.mps.ide.ui" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L5O" resolve="jetbrains.mps.lang.extension" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2l1CeP88RV5" role="3bR37C">
+          <node concept="3bR9La" id="2l1CeP88RV6" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lfd" resolve="jetbrains.mps.findUsages.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2l1CeP88RV7" role="3bR37C">
+          <node concept="3bR9La" id="2l1CeP88RV8" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
       </node>
