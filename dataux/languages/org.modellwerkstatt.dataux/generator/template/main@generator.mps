@@ -336,7 +336,6 @@
         <property id="3265704088513289864" name="comment" index="34cw8o" />
       </concept>
       <concept id="1092059087312" name="jetbrains.mps.lang.generator.structure.TemplateDeclaration" flags="ig" index="13MO4I">
-        <reference id="1168285871518" name="applicableConcept" index="3gUMe" />
         <child id="1092060348987" name="contentNode" index="13RCb5" />
       </concept>
       <concept id="1087833241328" name="jetbrains.mps.lang.generator.structure.PropertyMacro" flags="ln" index="17Uvod">
@@ -19805,7 +19804,6 @@
   </node>
   <node concept="13MO4I" id="63VjT6lH0u0">
     <property role="TrG5h" value="reduce_CommandParamImpl" />
-    <ref role="3gUMe" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
     <node concept="312cEu" id="63VjT6lH0wE" role="13RCb5">
       <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="reduce_CommandParamImpl" />

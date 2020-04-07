@@ -830,6 +830,9 @@
     <node concept="PrWs8" id="4H7K4Wq6tR$" role="PzmwI">
       <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
+    <node concept="PrWs8" id="2i1R3ftT_s2" role="PzmwI">
+      <ref role="PrY4T" node="2i1R3ftT$uv" resolve="IOFXParameterized" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6ffh1MXzHnh">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -2542,6 +2545,9 @@
     </node>
     <node concept="PrWs8" id="33fNNpedouH" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="2i1R3ftT_2A" role="PzmwI">
+      <ref role="PrY4T" node="2i1R3ftT$uv" resolve="IOFXParameterized" />
     </node>
   </node>
   <node concept="PlHQZ" id="3LVh91x9Ida">
@@ -4639,6 +4645,11 @@
     <node concept="PrWs8" id="150ifyc285i" role="PzmwI">
       <ref role="PrY4T" node="150ifyc285e" resolve="IPermissionCmd" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="2i1R3ftT$uv">
+    <property role="1pbfSe" value="40379346" />
+    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <property role="TrG5h" value="IOFXParameterized" />
   </node>
 </model>
 
