@@ -2594,6 +2594,168 @@
     <property role="TrG5h" value="check_Command" />
     <property role="3GE5qa" value="OFXCore.command" />
     <node concept="3clFbS" id="MT9RZiHg3d" role="18ibNy">
+      <node concept="3clFbH" id="1GCNgYakf3a" role="3cqZAp" />
+      <node concept="3SKdUt" id="1GCNgYakgHp" role="3cqZAp">
+        <node concept="3SKdUq" id="1GCNgYakgHr" role="3SKWNk">
+          <property role="3SKdUp" value="Only use ParameterVars in newPermissions and isEnabled" />
+        </node>
+      </node>
+      <node concept="3clFbF" id="1GCNgYakh81" role="3cqZAp">
+        <node concept="2OqwBi" id="1GCNgYakisY" role="3clFbG">
+          <node concept="2OqwBi" id="1GCNgYakhjz" role="2Oq$k0">
+            <node concept="1YBJjd" id="1GCNgYakh7Z" role="2Oq$k0">
+              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+            </node>
+            <node concept="3Tsc0h" id="1GCNgYakhX1" role="2OqNvi">
+              <ref role="3TtcxE" to="un0u:3EnMfwO_ulh" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="1GCNgYakjFE" role="2OqNvi">
+            <node concept="1bVj0M" id="1GCNgYakjFG" role="23t8la">
+              <node concept="3clFbS" id="1GCNgYakjFH" role="1bW5cS">
+                <node concept="3clFbF" id="1GCNgYakjSM" role="3cqZAp">
+                  <node concept="2OqwBi" id="1GCNgYakkJS" role="3clFbG">
+                    <node concept="2OqwBi" id="1GCNgYakjWV" role="2Oq$k0">
+                      <node concept="37vLTw" id="1GCNgYakjSL" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1GCNgYakjFI" resolve="cond" />
+                      </node>
+                      <node concept="2Rf3mk" id="1GCNgYakk1U" role="2OqNvi">
+                        <node concept="1xMEDy" id="1GCNgYakk1W" role="1xVPHs">
+                          <node concept="chp4Y" id="1GCNgYakk6X" role="ri$Ld">
+                            <ref role="cht4Q" to="tpee:fz7vLUo" resolve="VariableReference" />
+                          </node>
+                        </node>
+                        <node concept="1xIGOp" id="1GCNgYaknyY" role="1xVPHs" />
+                      </node>
+                    </node>
+                    <node concept="2es0OD" id="1GCNgYaknqc" role="2OqNvi">
+                      <node concept="1bVj0M" id="1GCNgYaknqe" role="23t8la">
+                        <node concept="3clFbS" id="1GCNgYaknqf" role="1bW5cS">
+                          <node concept="3clFbJ" id="1GCNgYaknKP" role="3cqZAp">
+                            <node concept="3fqX7Q" id="1GCNgYakopW" role="3clFbw">
+                              <node concept="2OqwBi" id="1GCNgYakopY" role="3fr31v">
+                                <node concept="37vLTw" id="1GCNgYakopZ" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1GCNgYaknqg" resolve="vr" />
+                                </node>
+                                <node concept="1mIQ4w" id="1GCNgYakoq0" role="2OqNvi">
+                                  <node concept="chp4Y" id="1GCNgYakoq1" role="cj9EA">
+                                    <ref role="cht4Q" to="un0u:6ffh1MXC7AQ" resolve="ContainerParamReference" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbS" id="1GCNgYaknKR" role="3clFbx">
+                              <node concept="2MkqsV" id="1GCNgYakoxp" role="3cqZAp">
+                                <node concept="Xl_RD" id="1GCNgYako_R" role="2MkJ7o">
+                                  <property role="Xl_RC" value="You can only use parameter references here. " />
+                                </node>
+                                <node concept="37vLTw" id="1GCNgYakptB" role="2OEOjV">
+                                  <ref role="3cqZAo" node="1GCNgYaknqg" resolve="vr" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="1GCNgYaknqg" role="1bW2Oz">
+                          <property role="TrG5h" value="vr" />
+                          <node concept="2jxLKc" id="1GCNgYaknqh" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="1GCNgYakjFI" role="1bW2Oz">
+                <property role="TrG5h" value="cond" />
+                <node concept="2jxLKc" id="1GCNgYakjFJ" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="1GCNgYakpKT" role="3cqZAp">
+        <node concept="2OqwBi" id="1GCNgYakpKU" role="3clFbG">
+          <node concept="2OqwBi" id="1GCNgYakpKV" role="2Oq$k0">
+            <node concept="1YBJjd" id="1GCNgYakpKW" role="2Oq$k0">
+              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+            </node>
+            <node concept="3Tsc0h" id="1GCNgYakqd5" role="2OqNvi">
+              <ref role="3TtcxE" to="un0u:150ifyc285Q" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="1GCNgYakpKY" role="2OqNvi">
+            <node concept="1bVj0M" id="1GCNgYakpKZ" role="23t8la">
+              <node concept="3clFbS" id="1GCNgYakpL0" role="1bW5cS">
+                <node concept="3clFbF" id="1GCNgYakpL1" role="3cqZAp">
+                  <node concept="2OqwBi" id="1GCNgYakpL2" role="3clFbG">
+                    <node concept="2OqwBi" id="1GCNgYakpL3" role="2Oq$k0">
+                      <node concept="37vLTw" id="1GCNgYakpL4" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1GCNgYakpLo" resolve="cond" />
+                      </node>
+                      <node concept="2Rf3mk" id="1GCNgYakpL5" role="2OqNvi">
+                        <node concept="1xMEDy" id="1GCNgYakpL6" role="1xVPHs">
+                          <node concept="chp4Y" id="1GCNgYakpL7" role="ri$Ld">
+                            <ref role="cht4Q" to="tpee:fz7vLUo" resolve="VariableReference" />
+                          </node>
+                        </node>
+                        <node concept="1xIGOp" id="1GCNgYakpL8" role="1xVPHs" />
+                      </node>
+                    </node>
+                    <node concept="2es0OD" id="1GCNgYakpL9" role="2OqNvi">
+                      <node concept="1bVj0M" id="1GCNgYakpLa" role="23t8la">
+                        <node concept="3clFbS" id="1GCNgYakpLb" role="1bW5cS">
+                          <node concept="3clFbJ" id="1GCNgYakpLc" role="3cqZAp">
+                            <node concept="3fqX7Q" id="1GCNgYakpLd" role="3clFbw">
+                              <node concept="2OqwBi" id="1GCNgYakpLe" role="3fr31v">
+                                <node concept="37vLTw" id="1GCNgYakpLf" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1GCNgYakpLm" resolve="vr" />
+                                </node>
+                                <node concept="1mIQ4w" id="1GCNgYakpLg" role="2OqNvi">
+                                  <node concept="chp4Y" id="1GCNgYakpLh" role="cj9EA">
+                                    <ref role="cht4Q" to="un0u:6ffh1MXC7AQ" resolve="ContainerParamReference" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbS" id="1GCNgYakpLi" role="3clFbx">
+                              <node concept="2MkqsV" id="1GCNgYakpLj" role="3cqZAp">
+                                <node concept="Xl_RD" id="1GCNgYakpLk" role="2MkJ7o">
+                                  <property role="Xl_RC" value="You can only use parameter references here. " />
+                                </node>
+                                <node concept="37vLTw" id="1GCNgYakpLl" role="2OEOjV">
+                                  <ref role="3cqZAo" node="1GCNgYakpLm" resolve="vr" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="1GCNgYakpLm" role="1bW2Oz">
+                          <property role="TrG5h" value="vr" />
+                          <node concept="2jxLKc" id="1GCNgYakpLn" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="1GCNgYakpLo" role="1bW2Oz">
+                <property role="TrG5h" value="cond" />
+                <node concept="2jxLKc" id="1GCNgYakpLp" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1GCNgYakgXv" role="3cqZAp" />
+      <node concept="3clFbH" id="1GCNgYakgz3" role="3cqZAp" />
+      <node concept="3clFbH" id="1GCNgYakpA5" role="3cqZAp" />
+      <node concept="3clFbH" id="1GCNgYakfJ0" role="3cqZAp" />
+      <node concept="3SKdUt" id="1GCNgYakgjv" role="3cqZAp">
+        <node concept="3SKdUq" id="1GCNgYakgjx" role="3SKWNk">
+          <property role="3SKdUp" value="TODO. do this check in container or in params/vars itself." />
+        </node>
+      </node>
+      <node concept="3clFbH" id="1GCNgYakfZ9" role="3cqZAp" />
       <node concept="3cpWs8" id="MT9RZiHg3f" role="3cqZAp">
         <node concept="3cpWsn" id="MT9RZiHg3g" role="3cpWs9">
           <property role="TrG5h" value="varNames" />
