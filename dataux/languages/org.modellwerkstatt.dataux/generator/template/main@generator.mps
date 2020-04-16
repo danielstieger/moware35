@@ -37,6 +37,7 @@
     <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="v61r" ref="r:40343a23-b83c-48e4-804f-f24d0cac9fd5(org.modellwerkstatt.objectflow.gen.entity@generator)" />
+    <import index="nzoi" ref="r:ad1b6f40-df5e-4550-9fe5-c68f480ac1fd(org.modellwerkstatt.objectflow.gen.main@generator)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
@@ -287,9 +288,6 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
-      <concept id="1510949579266781519" name="jetbrains.mps.lang.generator.structure.TemplateCallMacro" flags="ln" index="5jKBG">
-        <child id="1510949579266801461" name="sourceNodeQuery" index="5jGum" />
-      </concept>
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
@@ -9249,14 +9247,14 @@
                                   </node>
                                 </node>
                                 <node concept="10Nm6u" id="40Ob5xEO$gS" role="37wK5m">
-                                  <node concept="5jKBG" id="40Ob5xEO$gT" role="lGtFl">
-                                    <ref role="v9R2y" node="63VjT6lH0u0" resolve="reduce_CommandParamImpl" />
-                                    <node concept="3NFfHV" id="40Ob5xEOEv8" role="5jGum">
-                                      <node concept="3clFbS" id="40Ob5xEOEv9" role="2VODD2">
-                                        <node concept="3clFbF" id="40Ob5xEOI0H" role="3cqZAp">
-                                          <node concept="2OqwBi" id="40Ob5xEOI64" role="3clFbG">
-                                            <node concept="30H73N" id="40Ob5xEOI0G" role="2Oq$k0" />
-                                            <node concept="3TrEf2" id="40Ob5xEOIoD" role="2OqNvi">
+                                  <node concept="1sPUBX" id="6XcCapQswxF" role="lGtFl">
+                                    <ref role="v9R2y" to="nzoi:78LsUBIc9he" resolve="CmdParameterization" />
+                                    <node concept="3NFfHV" id="6XcCapQswFP" role="1sPUBK">
+                                      <node concept="3clFbS" id="6XcCapQswFQ" role="2VODD2">
+                                        <node concept="3clFbF" id="6XcCapQsFqt" role="3cqZAp">
+                                          <node concept="2OqwBi" id="6XcCapQsFvX" role="3clFbG">
+                                            <node concept="30H73N" id="6XcCapQsFqs" role="2Oq$k0" />
+                                            <node concept="3TrEf2" id="6XcCapQsFGe" role="2OqNvi">
                                               <ref role="3Tt5mk" to="1btx:7yNVvqNVkqb" />
                                             </node>
                                           </node>
@@ -9793,7 +9791,7 @@
                                 <node concept="3cpWsn" id="40Ob5xEOQCs" role="3cpWs9">
                                   <property role="TrG5h" value="innerProc" />
                                   <node concept="3uibUv" id="40Ob5xEOQCt" role="1tU5fm">
-                                    <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXProcess" />
+                                    <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXModule" />
                                   </node>
                                   <node concept="2OqwBi" id="40Ob5xEORDY" role="33vP2m">
                                     <node concept="37vLTw" id="40Ob5xEORCt" role="2Oq$k0">
@@ -10370,8 +10368,8 @@
                         </node>
                       </node>
                       <node concept="10Nm6u" id="63VjT6lHs7A" role="37wK5m">
-                        <node concept="5jKBG" id="63VjT6lHv0r" role="lGtFl">
-                          <ref role="v9R2y" node="63VjT6lH0u0" resolve="reduce_CommandParamImpl" />
+                        <node concept="1sPUBX" id="6XcCapQsuHn" role="lGtFl">
+                          <ref role="v9R2y" to="nzoi:78LsUBIc9he" resolve="CmdParameterization" />
                         </node>
                       </node>
                     </node>
@@ -11295,8 +11293,25 @@
                         </node>
                       </node>
                       <node concept="10Nm6u" id="63VjT6lHilI" role="37wK5m">
-                        <node concept="5jKBG" id="63VjT6lHjIp" role="lGtFl">
-                          <ref role="v9R2y" node="63VjT6lH0u0" resolve="reduce_CommandParamImpl" />
+                        <node concept="1W57fq" id="6XcCapQsI49" role="lGtFl">
+                          <node concept="3IZrLx" id="6XcCapQsI4b" role="3IZSJc">
+                            <node concept="3clFbS" id="6XcCapQsI4d" role="2VODD2">
+                              <node concept="3clFbF" id="6XcCapQsIMq" role="3cqZAp">
+                                <node concept="2OqwBi" id="6XcCapQsJ6e" role="3clFbG">
+                                  <node concept="30H73N" id="6XcCapQsIMp" role="2Oq$k0" />
+                                  <node concept="2qgKlT" id="6XcCapQsJyR" role="2OqNvi">
+                                    <ref role="37wK5l" to="70o0:5TC7JC3XxIG" resolve="hasArgumentsGiven" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="gft3U" id="6XcCapQsL62" role="UU_$l">
+                            <node concept="10Nm6u" id="6XcCapQsLBV" role="gfFT$" />
+                          </node>
+                        </node>
+                        <node concept="1sPUBX" id="6XcCapQsGDJ" role="lGtFl">
+                          <ref role="v9R2y" to="nzoi:78LsUBIc9he" resolve="CmdParameterization" />
                         </node>
                       </node>
                     </node>
@@ -11754,10 +11769,10 @@
                         <property role="3clFbU" value="true" />
                       </node>
                       <node concept="10Nm6u" id="4RCyjo5gFvT" role="37wK5m">
-                        <node concept="5jKBG" id="4RCyjo5gFvU" role="lGtFl">
-                          <ref role="v9R2y" node="63VjT6lH0u0" resolve="reduce_CommandParamImpl" />
-                          <node concept="3NFfHV" id="4RCyjo5Ehaz" role="5jGum">
-                            <node concept="3clFbS" id="4RCyjo5Eha$" role="2VODD2">
+                        <node concept="1sPUBX" id="6XcCapQsMgp" role="lGtFl">
+                          <ref role="v9R2y" to="nzoi:78LsUBIc9he" resolve="CmdParameterization" />
+                          <node concept="3NFfHV" id="6XcCapQsMAp" role="1sPUBK">
+                            <node concept="3clFbS" id="6XcCapQsMAq" role="2VODD2">
                               <node concept="3clFbF" id="4RCyjo5EhHt" role="3cqZAp">
                                 <node concept="2OqwBi" id="4RCyjo5Ejxe" role="3clFbG">
                                   <node concept="2OqwBi" id="4RCyjo5EiHg" role="2Oq$k0">
