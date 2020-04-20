@@ -3433,7 +3433,7 @@
       <node concept="37vLTG" id="7MqOxzy_yYW" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="7MqOxzy_yYX" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXGetPushSelectionCapable" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
         </node>
       </node>
       <node concept="3uibUv" id="3g5RX4qTK0q" role="Sfmx6">
@@ -3474,7 +3474,7 @@
       <node concept="37vLTG" id="zBgVaCo$jh" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="zBgVaCo$vI" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXGetPushSelectionCapable" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
         </node>
       </node>
       <node concept="3Tm1VV" id="6ffh1MXubTR" role="1B3o_S" />
@@ -3942,7 +3942,7 @@
       <node concept="37vLTG" id="78LsUBIQ6Zn" role="3clF46">
         <property role="TrG5h" value="crtl" />
         <node concept="3uibUv" id="78LsUBIQ7as" role="1tU5fm">
-          <ref role="3uigEE" node="78LsUBIbYzJ" resolve="IOFXGetSelectionCapable" />
+          <ref role="3uigEE" node="78LsUBIbYzJ" resolve="IOFXSelcrtlBasics" />
         </node>
       </node>
       <node concept="37vLTG" id="78LsUBIQ7bV" role="3clF46">
@@ -4362,7 +4362,7 @@
   </node>
   <node concept="3HP615" id="7rqBz8B3JOi">
     <property role="3GE5qa" value="OFXArchitecture" />
-    <property role="TrG5h" value="IOFXGetPushSelectionCapable" />
+    <property role="TrG5h" value="IOFXPagePane" />
     <node concept="3Tm1VV" id="7rqBz8B3JOj" role="1B3o_S" />
     <node concept="16euLQ" id="7rqBz8B3JOt" role="16eVyc">
       <property role="TrG5h" value="BoundObject" />
@@ -4640,7 +4640,7 @@
       <node concept="37vLTG" id="7rqBz8B3JOk" role="3clF46">
         <property role="TrG5h" value="selRecorder" />
         <node concept="3uibUv" id="6dnXV8mIz6L" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXGetPushSelectionCapable" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
           <node concept="16syzq" id="6dnXV8mID2l" role="11_B2D">
             <ref role="16sUi3" node="6dnXV8mID2j" resolve="BoundObject" />
           </node>
@@ -4709,7 +4709,7 @@
       <node concept="37vLTG" id="zBgVaCeKGV" role="3clF46">
         <property role="TrG5h" value="finalView" />
         <node concept="3uibUv" id="zBgVaCeKGW" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXGetPushSelectionCapable" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
           <node concept="16syzq" id="zBgVaCeKGX" role="11_B2D">
             <ref role="16sUi3" node="6dnXV8mID2j" resolve="BoundObject" />
           </node>
@@ -8995,7 +8995,7 @@
       <property role="TrG5h" value="Document" />
     </node>
     <node concept="3uibUv" id="3aesqnvcEUP" role="EKbjA">
-      <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXGetPushSelectionCapable" />
+      <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
       <node concept="16syzq" id="3aesqnvcEYG" role="11_B2D">
         <ref role="16sUi3" node="3aesqnvcERF" resolve="Document" />
       </node>
@@ -42332,11 +42332,6 @@
   </node>
   <node concept="312cEu" id="6qsy3WVLnjT">
     <property role="TrG5h" value="OFXSuccessorCommandConfig" />
-    <node concept="312cEg" id="6qsy3WVLwRL" role="jymVt">
-      <property role="TrG5h" value="procInstanceName" />
-      <node concept="3Tm6S6" id="6qsy3WVLwRM" role="1B3o_S" />
-      <node concept="17QB3L" id="6qsy3WVLwSB" role="1tU5fm" />
-    </node>
     <node concept="312cEg" id="6qsy3WVLwTc" role="jymVt">
       <property role="TrG5h" value="cmdName" />
       <node concept="3Tm6S6" id="6qsy3WVLwTd" role="1B3o_S" />
@@ -42356,10 +42351,6 @@
     </node>
     <node concept="2tJIrI" id="6qsy3WVLwY7" role="jymVt" />
     <node concept="3clFbW" id="6qsy3WVLxuC" role="jymVt">
-      <node concept="37vLTG" id="6qsy3WVLxv9" role="3clF46">
-        <property role="TrG5h" value="proc" />
-        <node concept="17QB3L" id="6qsy3WVLxvP" role="1tU5fm" />
-      </node>
       <node concept="37vLTG" id="6qsy3WVLxwc" role="3clF46">
         <property role="TrG5h" value="cmd" />
         <node concept="17QB3L" id="6qsy3WVLxwW" role="1tU5fm" />
@@ -42375,19 +42366,6 @@
       <node concept="3cqZAl" id="6qsy3WVLxuE" role="3clF45" />
       <node concept="3Tm1VV" id="6qsy3WVLxuF" role="1B3o_S" />
       <node concept="3clFbS" id="6qsy3WVLxuG" role="3clF47">
-        <node concept="3clFbF" id="6qsy3WVLxBc" role="3cqZAp">
-          <node concept="37vLTI" id="6qsy3WVLxFD" role="3clFbG">
-            <node concept="37vLTw" id="6qsy3WVLxHZ" role="37vLTx">
-              <ref role="3cqZAo" node="6qsy3WVLxv9" resolve="proc" />
-            </node>
-            <node concept="2OqwBi" id="6qsy3WVLxBw" role="37vLTJ">
-              <node concept="Xjq3P" id="6qsy3WVLxBb" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6qsy3WVLxD3" role="2OqNvi">
-                <ref role="2Oxat5" node="6qsy3WVLwRL" resolve="procInstanceName" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="6qsy3WVLxMh" role="3cqZAp">
           <node concept="37vLTI" id="6qsy3WVLxQc" role="3clFbG">
             <node concept="37vLTw" id="6qsy3WVLxUP" role="37vLTx">
@@ -42412,18 +42390,6 @@
                 <ref role="2Oxat5" node="6qsy3WVLwXD" resolve="params" />
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="6qsy3WVLztt" role="jymVt">
-      <property role="TrG5h" value="getProcInstanceNameName" />
-      <node concept="17QB3L" id="6qsy3WVLzGx" role="3clF45" />
-      <node concept="3Tm1VV" id="6qsy3WVLztw" role="1B3o_S" />
-      <node concept="3clFbS" id="6qsy3WVLztx" role="3clF47">
-        <node concept="3clFbF" id="6qsy3WVLzN_" role="3cqZAp">
-          <node concept="37vLTw" id="6qsy3WVLzN$" role="3clFbG">
-            <ref role="3cqZAo" node="6qsy3WVLwRL" resolve="procInstanceName" />
           </node>
         </node>
       </node>
@@ -44579,6 +44545,51 @@
         <node concept="3cpWs6" id="7Ako_ORo9KS" role="3cqZAp">
           <node concept="37vLTw" id="7Ako_ORo9Qu" role="3cqZAk">
             <ref role="3cqZAo" node="7Ako_ORo1Al" resolve="fq" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="13qccrTLIAg" role="jymVt" />
+    <node concept="2YIFZL" id="13qccrTLIvO" role="jymVt">
+      <property role="TrG5h" value="getCmdModuleName" />
+      <node concept="37vLTG" id="13qccrTLIvP" role="3clF46">
+        <property role="TrG5h" value="cmdFf" />
+        <node concept="17QB3L" id="13qccrTLIvQ" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="13qccrTLIvR" role="3clF45" />
+      <node concept="3Tm1VV" id="13qccrTLIvS" role="1B3o_S" />
+      <node concept="3clFbS" id="13qccrTLIvT" role="3clF47">
+        <node concept="3cpWs8" id="13qccrTLIY3" role="3cqZAp">
+          <node concept="3cpWsn" id="13qccrTLIY6" role="3cpWs9">
+            <property role="TrG5h" value="moduleFqName" />
+            <node concept="17QB3L" id="13qccrTLIY1" role="1tU5fm" />
+            <node concept="3cpWs3" id="13qccrTLJe$" role="33vP2m">
+              <node concept="Xl_RD" id="13qccrTLJg4" role="3uHU7w">
+                <property role="Xl_RC" value=".CmdModule" />
+              </node>
+              <node concept="1rXfSq" id="13qccrTLJ8q" role="3uHU7B">
+                <ref role="37wK5l" node="7Ako_ORo1Ak" resolve="getPackageName" />
+                <node concept="37vLTw" id="13qccrTLJcp" role="37wK5m">
+                  <ref role="3cqZAo" node="13qccrTLIvP" resolve="cmdFf" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="13qccrTLJwZ" role="3cqZAp">
+          <node concept="2OqwBi" id="13qccrTLJE1" role="3cqZAk">
+            <node concept="37vLTw" id="13qccrTLJAk" role="2Oq$k0">
+              <ref role="3cqZAo" node="13qccrTLIY6" resolve="moduleFqName" />
+            </node>
+            <node concept="liA8E" id="13qccrTLJKs" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+              <node concept="Xl_RD" id="13qccrTLJNT" role="37wK5m">
+                <property role="Xl_RC" value="." />
+              </node>
+              <node concept="Xl_RD" id="13qccrTLJX9" role="37wK5m">
+                <property role="Xl_RC" value="_" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -55235,14 +55246,11 @@
   </node>
   <node concept="3HP615" id="78LsUBIbYzJ">
     <property role="3GE5qa" value="OFXArchitecture" />
-    <property role="TrG5h" value="IOFXGetSelectionCapable" />
+    <property role="TrG5h" value="IOFXSelcrtlBasics" />
     <node concept="3Tm1VV" id="78LsUBIbYzK" role="1B3o_S" />
-    <node concept="16euLQ" id="78LsUBIbYzL" role="16eVyc">
-      <property role="TrG5h" value="BoundObject" />
-    </node>
     <node concept="3clFb_" id="78LsUBIbYzM" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getSelection" />
+      <property role="TrG5h" value="getSelectionAbsolute" />
       <node concept="37vLTG" id="78LsUBIbYzN" role="3clF46">
         <property role="TrG5h" value="clazz" />
         <node concept="3uibUv" id="78LsUBIbYzO" role="1tU5fm">
@@ -55269,7 +55277,7 @@
       <node concept="37vLTG" id="78LsUBIc3er" role="3clF46">
         <property role="TrG5h" value="crtl" />
         <node concept="3uibUv" id="78LsUBIc3RK" role="1tU5fm">
-          <ref role="3uigEE" node="78LsUBIbYzJ" resolve="IOFXGetSelectionCapable" />
+          <ref role="3uigEE" node="78LsUBIbYzJ" resolve="IOFXSelcrtlBasics" />
         </node>
       </node>
       <node concept="37vLTG" id="63VjT6lGM5U" role="3clF46">
