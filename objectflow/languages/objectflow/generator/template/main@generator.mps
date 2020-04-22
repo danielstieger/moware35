@@ -24802,31 +24802,31 @@
                     </node>
                     <node concept="liA8E" id="4jlzLDk$ukE" role="2OqNvi">
                       <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByInstanceName" />
-                      <node concept="Xl_RD" id="4jlzLDk$ulo" role="37wK5m">
-                        <property role="Xl_RC" value="process.FqName" />
-                        <node concept="17Uvod" id="4jlzLDk$$5Z" role="lGtFl">
-                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                          <property role="2qtEX9" value="value" />
-                          <node concept="3zFVjK" id="4jlzLDk$$60" role="3zH0cK">
-                            <node concept="3clFbS" id="4jlzLDk$$61" role="2VODD2">
-                              <node concept="3clFbF" id="4jlzLDlxEHF" role="3cqZAp">
-                                <node concept="2YIFZM" id="4jlzLDlxF7A" role="3clFbG">
-                                  <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
-                                  <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                                  <node concept="2OqwBi" id="4jlzLDlxGRa" role="37wK5m">
-                                    <node concept="2OqwBi" id="4jlzLDlxGhh" role="2Oq$k0">
-                                      <node concept="2OqwBi" id="4jlzLDlxF_r" role="2Oq$k0">
-                                        <node concept="30H73N" id="4jlzLDlxFwD" role="2Oq$k0" />
-                                        <node concept="3TrEf2" id="4jlzLDlxG6h" role="2OqNvi">
+                      <node concept="2YIFZM" id="5_fa4bBGoq3" role="37wK5m">
+                        <ref role="37wK5l" to="28jr:13qccrTLIvO" resolve="getCmdModuleName" />
+                        <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                        <node concept="Xl_RD" id="4jlzLDk$ulo" role="37wK5m">
+                          <property role="Xl_RC" value="process.FqName" />
+                          <node concept="17Uvod" id="4jlzLDk$$5Z" role="lGtFl">
+                            <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                            <property role="2qtEX9" value="value" />
+                            <node concept="3zFVjK" id="4jlzLDk$$60" role="3zH0cK">
+                              <node concept="3clFbS" id="4jlzLDk$$61" role="2VODD2">
+                                <node concept="3clFbF" id="5_fa4bBGwj7" role="3cqZAp">
+                                  <node concept="2OqwBi" id="5_fa4bBGznw" role="3clFbG">
+                                    <node concept="2OqwBi" id="5_fa4bBGxVl" role="2Oq$k0">
+                                      <node concept="2OqwBi" id="5_fa4bBGwoA" role="2Oq$k0">
+                                        <node concept="30H73N" id="5_fa4bBGwj6" role="2Oq$k0" />
+                                        <node concept="3TrEf2" id="5_fa4bBGxIL" role="2OqNvi">
                                           <ref role="3Tt5mk" to="un0u:7TJOmj72LMY" />
                                         </node>
                                       </node>
-                                      <node concept="3TrEf2" id="4jlzLDlxGIn" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="un0u:3n7eUMgsCez" />
+                                      <node concept="3TrEf2" id="5_fa4bBGzdQ" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
                                       </node>
                                     </node>
-                                    <node concept="2qgKlT" id="4jlzLDlxHoF" role="2OqNvi">
-                                      <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                                    <node concept="2qgKlT" id="5_fa4bBG$IH" role="2OqNvi">
+                                      <ref role="37wK5l" to="70o0:6ffh1MX_A66" resolve="getEscapedFqName" />
                                     </node>
                                   </node>
                                 </node>
@@ -25156,12 +25156,16 @@
                             </node>
                             <node concept="liA8E" id="4jlzLDk_rSN" role="2OqNvi">
                               <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByInstanceName" />
-                              <node concept="2OqwBi" id="4jlzLDk_osm" role="37wK5m">
-                                <node concept="37vLTw" id="4jlzLDk_ors" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="65g7rxkAu6$" resolve="cfg" />
-                                </node>
-                                <node concept="liA8E" id="4jlzLDk_oIu" role="2OqNvi">
-                                  <ref role="37wK5l" to="28jr:6qsy3WVLztt" resolve="getProcInstanceNameName" />
+                              <node concept="2YIFZM" id="5_fa4bB7ECE" role="37wK5m">
+                                <ref role="37wK5l" to="28jr:13qccrTLIvO" resolve="getCmdModuleName" />
+                                <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                                <node concept="2OqwBi" id="4jlzLDk_osm" role="37wK5m">
+                                  <node concept="37vLTw" id="4jlzLDk_ors" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="65g7rxkAu6$" resolve="cfg" />
+                                  </node>
+                                  <node concept="liA8E" id="5_fa4bB7zSM" role="2OqNvi">
+                                    <ref role="37wK5l" to="28jr:6qsy3WVLzO5" resolve="getCmdName" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
