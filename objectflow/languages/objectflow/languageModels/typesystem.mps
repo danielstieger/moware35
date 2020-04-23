@@ -11915,7 +11915,7 @@
                     <ref role="3gnhBz" to="un0u:1Csx3Lqx5LJ" resolve="DoneCommand" />
                   </node>
                   <node concept="3gn64h" id="7VbqtSRshnD" role="3gmYPZ">
-                    <ref role="3gnhBz" to="un0u:51llZt605sG" resolve="Check" />
+                    <ref role="3gnhBz" to="un0u:51llZt605sG" resolve="Precondition" />
                   </node>
                 </node>
               </node>
@@ -15201,7 +15201,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="51llZt6060W">
-    <property role="TrG5h" value="typeof_Check" />
+    <property role="TrG5h" value="typeof_Precondition" />
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <node concept="3clFbS" id="51llZt6060X" role="18ibNy">
       <node concept="1Z5TYs" id="51llZt606dg" role="3cqZAp">
@@ -15227,7 +15227,7 @@
     </node>
     <node concept="1YaCAy" id="51llZt6060Z" role="1YuTPh">
       <property role="TrG5h" value="check" />
-      <ref role="1YaFvo" to="un0u:51llZt605sG" resolve="Check" />
+      <ref role="1YaFvo" to="un0u:51llZt605sG" resolve="Precondition" />
     </node>
   </node>
   <node concept="18kY7G" id="6RAFKVMgm$8">

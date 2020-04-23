@@ -745,6 +745,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="6RBD0nmXhKA" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="conditiondsNew" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="51llZt605sG" resolve="Precondition" />
+    </node>
     <node concept="1TJgyj" id="150ifyc285Q" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="permissionNew" />
@@ -4479,8 +4485,8 @@
   <node concept="1TIwiD" id="51llZt605sG">
     <property role="1pbfSe" value="1772769501" />
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <property role="TrG5h" value="Check" />
-    <property role="34LRSv" value=":" />
+    <property role="TrG5h" value="Precondition" />
+    <property role="34LRSv" value="else" />
     <property role="R4oN_" value="check condition or report problem" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyi" id="51llZt686Mc" role="1TKVEl">
@@ -4527,9 +4533,9 @@
     <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
     <node concept="1TJgyj" id="6RAFKVMgm4z" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="checks" />
+      <property role="20kJfa" value="preconditions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="51llZt605sG" resolve="Check" />
+      <ref role="20lvS9" node="51llZt605sG" resolve="Precondition" />
     </node>
     <node concept="1TJgyj" id="6RAFKVMgmil" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

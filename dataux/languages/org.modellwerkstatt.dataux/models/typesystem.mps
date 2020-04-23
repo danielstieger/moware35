@@ -231,7 +231,6 @@
       </concept>
       <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="1143512015885" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingOperation" flags="nn" index="YCak7" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -1847,67 +1846,6 @@
           </node>
           <node concept="2qgKlT" id="6I37UbADetD" role="2OqNvi">
             <ref role="37wK5l" to="5y3p:7rG0OCd8XgL" resolve="isCurrentlyListBoundOnProperty" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="6I37UbADdF7" role="3cqZAp" />
-      <node concept="3SKdUt" id="7P$uL5PBdn6" role="3cqZAp">
-        <node concept="3SKdUq" id="7P$uL5PBdn8" role="3SKWNk">
-          <property role="3SKdUp" value="No, not longer true with moware cmd, summer 2017" />
-        </node>
-      </node>
-      <node concept="1X3_iC" id="7P$uL5PBd9D" role="lGtFl">
-        <property role="3V$3am" value="statement" />
-        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-        <node concept="3clFbJ" id="pQ21WNjkT3" role="8Wnug">
-          <node concept="3clFbS" id="pQ21WNjkT4" role="3clFbx">
-            <node concept="2MkqsV" id="pQ21WNjkT5" role="3cqZAp">
-              <node concept="Xl_RD" id="pQ21WNjkT6" role="2MkJ7o">
-                <property role="Xl_RC" value="Only one delegate can issue the update conclusion (with current runtime)." />
-              </node>
-              <node concept="1YBJjd" id="pQ21WNjle4" role="2OEOjV">
-                <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="pQ21WNjkT8" role="3cqZAp" />
-          </node>
-          <node concept="3eOSWO" id="pQ21WNjkT9" role="3clFbw">
-            <node concept="3cmrfG" id="pQ21WNjkTa" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
-            </node>
-            <node concept="2OqwBi" id="pQ21WNjkTb" role="3uHU7B">
-              <node concept="2OqwBi" id="pQ21WNjkTc" role="2Oq$k0">
-                <node concept="2OqwBi" id="pQ21WNjkTd" role="2Oq$k0">
-                  <node concept="1YBJjd" id="pQ21WNjkZE" role="2Oq$k0">
-                    <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
-                  </node>
-                  <node concept="3Tsc0h" id="pQ21WNjkTf" role="2OqNvi">
-                    <ref role="3TtcxE" to="1btx:1h$q6rwmHiW" />
-                  </node>
-                </node>
-                <node concept="3zZkjj" id="pQ21WNjkTg" role="2OqNvi">
-                  <node concept="1bVj0M" id="pQ21WNjkTh" role="23t8la">
-                    <node concept="3clFbS" id="pQ21WNjkTi" role="1bW5cS">
-                      <node concept="3clFbF" id="pQ21WNjkTj" role="3cqZAp">
-                        <node concept="2OqwBi" id="pQ21WNjkTk" role="3clFbG">
-                          <node concept="37vLTw" id="pQ21WNjkTl" role="2Oq$k0">
-                            <ref role="3cqZAo" node="pQ21WNjkTn" resolve="it" />
-                          </node>
-                          <node concept="2qgKlT" id="7P$uL5PBd1a" role="2OqNvi">
-                            <ref role="37wK5l" to="5y3p:7P$uL5P_EOX" resolve="issuesUpdateConlusion" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Rh6nW" id="pQ21WNjkTn" role="1bW2Oz">
-                      <property role="TrG5h" value="it" />
-                      <node concept="2jxLKc" id="pQ21WNjkTo" role="1tU5fm" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="34oBXx" id="pQ21WNjkTp" role="2OqNvi" />
-            </node>
           </node>
         </node>
       </node>
@@ -4993,58 +4931,6 @@
     <node concept="1YaCAy" id="50l$rcpIuqA" role="1YuTPh">
       <property role="TrG5h" value="mca" />
       <ref role="1YaFvo" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="4ceCyFmvUpe">
-    <property role="TrG5h" value="check_IssueUpdateDOption" />
-    <property role="3GE5qa" value="delegates.options" />
-    <node concept="3clFbS" id="4ceCyFmvUpf" role="18ibNy">
-      <node concept="3clFbJ" id="4ceCyFmvUpz" role="3cqZAp">
-        <node concept="1Wc70l" id="5C9A0wrI7el" role="3clFbw">
-          <node concept="3fqX7Q" id="5C9A0wrI7tM" role="3uHU7w">
-            <node concept="2OqwBi" id="5C9A0wrI7xq" role="3fr31v">
-              <node concept="1YBJjd" id="5C9A0wrI7uy" role="2Oq$k0">
-                <ref role="1YBMHb" node="4ceCyFmvUph" resolve="issueUpdateDOption" />
-              </node>
-              <node concept="3TrcHB" id="5C9A0wrI7Be" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:7PeCy_MumjV" resolve="knowWhatDoing" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="4ceCyFmvU$z" role="3uHU7B">
-            <node concept="2OqwBi" id="4ceCyFmvUrG" role="2Oq$k0">
-              <node concept="2OqwBi" id="4ceCyFmwU1d" role="2Oq$k0">
-                <node concept="1YBJjd" id="4ceCyFmvUpJ" role="2Oq$k0">
-                  <ref role="1YBMHb" node="4ceCyFmvUph" resolve="issueUpdateDOption" />
-                </node>
-                <node concept="2Xjw5R" id="4ceCyFmwU5G" role="2OqNvi">
-                  <node concept="1xMEDy" id="4ceCyFmwU5I" role="1xVPHs">
-                    <node concept="chp4Y" id="4ceCyFmwU78" role="ri$Ld">
-                      <ref role="cht4Q" to="1btx:1h$q6rwmHiT" resolve="IDelegate" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="YCak7" id="4ceCyFmvUvL" role="2OqNvi" />
-            </node>
-            <node concept="3w_OXm" id="4ceCyFmvUAR" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="4ceCyFmvUp_" role="3clFbx">
-          <node concept="2MkqsV" id="4ceCyFmvUBu" role="3cqZAp">
-            <node concept="Xl_RD" id="4ceCyFmvUBE" role="2MkJ7o">
-              <property role="Xl_RC" value="The last Delegate in a DelegateForm can not issue an update conclusion." />
-            </node>
-            <node concept="1YBJjd" id="4ceCyFmvUG6" role="2OEOjV">
-              <ref role="1YBMHb" node="4ceCyFmvUph" resolve="issueUpdateDOption" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4ceCyFmvUph" role="1YuTPh">
-      <property role="TrG5h" value="issueUpdateDOption" />
-      <ref role="1YaFvo" to="1btx:pQ21WN9Arj" resolve="IssueUpdateDOption" />
     </node>
   </node>
   <node concept="312cEu" id="6$YiAc0VFCd">

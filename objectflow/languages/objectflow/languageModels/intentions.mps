@@ -6704,12 +6704,12 @@
   <node concept="2S6QgY" id="51llZt687vl">
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <property role="TrG5h" value="TwoLinerForCheck" />
-    <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Check" />
+    <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Precondition" />
     <node concept="2S6ZIM" id="51llZt687vm" role="2ZfVej">
       <node concept="3clFbS" id="51llZt687vn" role="2VODD2">
         <node concept="3clFbF" id="51llZt687wK" role="3cqZAp">
           <node concept="Xl_RD" id="51llZt687wJ" role="3clFbG">
-            <property role="Xl_RC" value="Toggle two-line editor for check." />
+            <property role="Xl_RC" value="Toggle two-line editor for condition." />
           </node>
         </node>
       </node>
@@ -6739,14 +6739,14 @@
   </node>
   <node concept="2S6QgY" id="51llZt6khXb">
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <property role="TrG5h" value="AddOptionToCheck" />
+    <property role="TrG5h" value="AddOptionToPrecondition" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Check" />
+    <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Precondition" />
     <node concept="2S6ZIM" id="51llZt6khXc" role="2ZfVej">
       <node concept="3clFbS" id="51llZt6khXd" role="2VODD2">
         <node concept="3clFbF" id="51llZt6khY$" role="3cqZAp">
           <node concept="Xl_RD" id="51llZt6khYz" role="3clFbG">
-            <property role="Xl_RC" value="Add options to this check" />
+            <property role="Xl_RC" value="Add options to this condition" />
           </node>
         </node>
       </node>
