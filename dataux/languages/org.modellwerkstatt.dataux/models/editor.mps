@@ -41,6 +41,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
         <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
       </concept>
@@ -1086,7 +1087,7 @@
     <property role="3GE5qa" value="delegates" />
     <ref role="1XX52x" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
     <node concept="3EZMnI" id="1h$q6rwn4hH" role="2wV5jI">
-      <node concept="l2Vlx" id="1h$q6rwn4hK" role="2iSdaV" />
+      <node concept="2iRfu4" id="6IfHDRVPQEV" role="2iSdaV" />
       <node concept="PMmxH" id="pQ21WNltqY" role="3EZMnx">
         <ref role="PMmxG" node="pQ21WNlsXr" resolve="DelegateMenuComponent" />
       </node>
@@ -1285,22 +1286,16 @@
     <property role="3GE5qa" value="delegates.options" />
     <property role="TrG5h" value="HasDelegatesEditor" />
     <ref role="1XX52x" to="1btx:pQ21WNcPKz" resolve="IHasDelegates" />
-    <node concept="3EZMnI" id="1h$q6rwmUnb" role="2wV5jI">
-      <node concept="VPM3Z" id="1h$q6rwmUnc" role="3F10Kt">
-        <property role="VOm3f" value="false" />
+    <node concept="3F2HdR" id="1h$q6rwmUnd" role="2wV5jI">
+      <ref role="1NtTu8" to="1btx:1h$q6rwmHiW" />
+      <node concept="lj46D" id="1h$q6rwmUne" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
-      <node concept="3F2HdR" id="1h$q6rwmUnd" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:1h$q6rwmHiW" />
-        <node concept="lj46D" id="1h$q6rwmUne" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="2iRkQZ" id="1h$q6rwmUnf" role="2czzBx" />
-        <node concept="3F0ifn" id="1h$q6rwmUng" role="2czzBI">
-          <property role="3F0ifm" value="" />
-          <property role="ilYzB" value="&lt;delegats&gt;" />
-        </node>
+      <node concept="2EHx9g" id="6IfHDRVPQJ1" role="2czzBx" />
+      <node concept="3F0ifn" id="1h$q6rwmUng" role="2czzBI">
+        <property role="3F0ifm" value="" />
+        <property role="ilYzB" value="&lt;delegats&gt;" />
       </node>
-      <node concept="l2Vlx" id="1h$q6rwmUnh" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="pQ21WNkoXE">
@@ -1320,7 +1315,7 @@
     <property role="3GE5qa" value="delegates" />
     <ref role="1XX52x" to="1btx:3ouNayfF_ek" resolve="ReferenceDelegate" />
     <node concept="3EZMnI" id="pQ21WNltr2" role="2wV5jI">
-      <node concept="l2Vlx" id="pQ21WNltr3" role="2iSdaV" />
+      <node concept="2iRfu4" id="6IfHDRVMbu5" role="2iSdaV" />
       <node concept="PMmxH" id="pQ21WNltr4" role="3EZMnx">
         <ref role="PMmxG" node="pQ21WNlsXr" resolve="DelegateMenuComponent" />
       </node>
