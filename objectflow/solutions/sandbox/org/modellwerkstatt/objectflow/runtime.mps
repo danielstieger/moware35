@@ -4532,7 +4532,7 @@
     </node>
     <node concept="2tJIrI" id="5G28P6G2njn" role="jymVt" />
     <node concept="312cEg" id="5G28P6G2oB3" role="jymVt">
-      <property role="TrG5h" value="issuedByNewCheckStatement" />
+      <property role="TrG5h" value="issuedByNewPreCondStatement" />
       <node concept="3Tm6S6" id="5G28P6G2oB4" role="1B3o_S" />
       <node concept="10P_77" id="5G28P6G2pjy" role="1tU5fm" />
       <node concept="3clFbT" id="5G28P6G2pkN" role="33vP2m">
@@ -4550,7 +4550,7 @@
               <property role="3clFbU" value="true" />
             </node>
             <node concept="37vLTw" id="5G28P6G2puU" role="37vLTJ">
-              <ref role="3cqZAo" node="5G28P6G2oB3" resolve="issuedByNewCheckStatement" />
+              <ref role="3cqZAo" node="5G28P6G2oB3" resolve="issuedByNewPreCondStatement" />
             </node>
           </node>
         </node>
@@ -4581,13 +4581,13 @@
     <node concept="2tJIrI" id="5G28P6G29da" role="jymVt" />
     <node concept="2tJIrI" id="5G28P6G2pkX" role="jymVt" />
     <node concept="3clFb_" id="5G28P6G2pod" role="jymVt">
-      <property role="TrG5h" value="wasIssuedByCheck" />
+      <property role="TrG5h" value="wasIssuedByPreCond" />
       <node concept="10P_77" id="5G28P6G2ppL" role="3clF45" />
       <node concept="3Tm1VV" id="5G28P6G2pog" role="1B3o_S" />
       <node concept="3clFbS" id="5G28P6G2poh" role="3clF47">
         <node concept="3clFbF" id="5G28P6G2prp" role="3cqZAp">
           <node concept="37vLTw" id="5G28P6G2pro" role="3clFbG">
-            <ref role="3cqZAo" node="5G28P6G2oB3" resolve="issuedByNewCheckStatement" />
+            <ref role="3cqZAo" node="5G28P6G2oB3" resolve="issuedByNewPreCondStatement" />
           </node>
         </node>
       </node>

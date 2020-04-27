@@ -1738,6 +1738,9 @@
     <node concept="3EZMnI" id="pQ21WNrmkq" role="2wV5jI">
       <node concept="PMmxH" id="pQ21WNrmkx" role="3EZMnx">
         <ref role="PMmxG" node="pQ21WN5qB5" resolve="AliasFOptionEditor" />
+        <node concept="pVoyu" id="toYlmBb2tj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="pQ21WNrmkA" role="3EZMnx">
         <property role="3F0ifm" value="{~selectedObjects =&gt;" />
@@ -2285,6 +2288,9 @@
     <node concept="3EZMnI" id="6rXe_0EMlmB" role="2wV5jI">
       <node concept="PMmxH" id="6rXe_0EMlmC" role="3EZMnx">
         <ref role="PMmxG" node="pQ21WN5qB5" resolve="AliasFOptionEditor" />
+        <node concept="pVoyu" id="toYlmBaHiH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="6rXe_0EMlmD" role="3EZMnx">
         <property role="3F0ifm" value="{~allObjects =&gt;" />

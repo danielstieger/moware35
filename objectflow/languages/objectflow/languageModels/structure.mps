@@ -747,7 +747,7 @@
     </node>
     <node concept="1TJgyj" id="6RBD0nmXhKA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="conditiondsNew" />
+      <property role="20kJfa" value="preconditiondsNew" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="51llZt605sG" resolve="Precondition" />
     </node>
