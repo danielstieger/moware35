@@ -4486,7 +4486,7 @@
     <property role="1pbfSe" value="1772769501" />
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <property role="TrG5h" value="Precondition" />
-    <property role="34LRSv" value="else" />
+    <property role="34LRSv" value=":" />
     <property role="R4oN_" value="check condition or report problem" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyi" id="51llZt686Mc" role="1TKVEl">
@@ -4656,6 +4656,14 @@
     <property role="1pbfSe" value="40379346" />
     <property role="3GE5qa" value="OFXCore.OFXNew" />
     <property role="TrG5h" value="IOFXParameterized" />
+  </node>
+  <node concept="1TIwiD" id="23OxdywYqKF">
+    <property role="1pbfSe" value="1041354493" />
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="TrG5h" value="StopStatement" />
+    <property role="34LRSv" value="STOP_WHEN_PROBLEMS" />
+    <property role="R4oN_" value="stop processing and report collected problems" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
   </node>
 </model>
 

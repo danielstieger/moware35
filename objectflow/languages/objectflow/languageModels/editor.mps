@@ -3692,10 +3692,6 @@
         </node>
         <node concept="l2Vlx" id="i0uk49V" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="10_3WBSoGy$" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
-      </node>
       <node concept="2iRfu4" id="toYlmBbqfV" role="2iSdaV" />
     </node>
   </node>
@@ -3754,10 +3750,6 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="l2Vlx" id="5h2cUqQc_Pk" role="2iSdaV" />
-      </node>
-      <node concept="3F0ifn" id="5h2cUqQc_Pl" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="2iRfu4" id="6IfHDRVsIPu" role="2iSdaV" />
     </node>
@@ -12506,6 +12498,14 @@
         <ref role="1NtTu8" to="un0u:4JWEgNMh1xV" />
       </node>
       <node concept="l2Vlx" id="150ifycfgmI" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="23OxdywYsZz">
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <ref role="1XX52x" to="un0u:23OxdywYqKF" resolve="StopStatement" />
+    <node concept="PMmxH" id="23OxdywYt01" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
     </node>
   </node>
 </model>

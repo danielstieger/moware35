@@ -224,7 +224,7 @@
       </concept>
       <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T">
         <child id="7919209473506370709" name="domainEvent" index="2vDWIr" />
-        <child id="7919209473506369827" name="checks" index="2vDWSH" />
+        <child id="7919209473506369827" name="preconditions" index="2vDWSH" />
       </concept>
       <concept id="7919209473506369829" name="org.modellwerkstatt.objectflow.structure.DomainEvent" flags="ng" index="2vDWSF">
         <child id="7919209473506369870" name="humanMessage" index="2vDWT0" />
@@ -1644,6 +1644,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="6RBD0nmfTNN" role="3cqZAp" />
+        <node concept="3Rvrn6" id="23OxdywXNqU" role="3cqZAp">
+          <node concept="3clFbS" id="23OxdywXNqW" role="9aQI4">
+            <node concept="3clFbH" id="23OxdywXNqV" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="23OxdywXNoz" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="3wpfxM_31uk" role="jymVt" />
