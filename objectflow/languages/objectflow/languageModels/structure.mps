@@ -4657,13 +4657,19 @@
     <property role="3GE5qa" value="OFXCore.OFXNew" />
     <property role="TrG5h" value="IOFXParameterized" />
   </node>
-  <node concept="1TIwiD" id="23OxdywYqKF">
-    <property role="1pbfSe" value="1041354493" />
+  <node concept="1TIwiD" id="1X3c4oMMVGE">
+    <property role="1pbfSe" value="1376709488" />
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <property role="TrG5h" value="StopStatement" />
-    <property role="34LRSv" value="STOP_WHEN_PROBLEMS" />
-    <property role="R4oN_" value="stop processing and report collected problems" />
+    <property role="TrG5h" value="ValidationStatement" />
+    <property role="34LRSv" value="validation" />
+    <property role="R4oN_" value="only validation takes part here" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="1X3c4oMMVGF" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="statements" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
   </node>
 </model>
 

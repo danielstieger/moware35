@@ -87,6 +87,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
         <child id="1164879758292" name="body" index="SfCbr" />
         <child id="1164903496223" name="catchClause" index="TEbGg" />
@@ -21136,7 +21140,7 @@
   </node>
   <node concept="13h7C7" id="5G28P6G2UEg">
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <ref role="13h7C2" to="un0u:51llZt605sG" resolve="Check" />
+    <ref role="13h7C2" to="un0u:51llZt605sG" resolve="Precondition" />
     <node concept="13i0hz" id="5G28P6G3e$a" role="13h7CS">
       <property role="TrG5h" value="getSolutionDescOrNullLiteral" />
       <node concept="3Tm1VV" id="5G28P6G3e$b" role="1B3o_S" />
@@ -21178,6 +21182,56 @@
             <node concept="3zrR0B" id="5G28P6G3e$_" role="2ShVmc">
               <node concept="3Tqbb2" id="5G28P6G3e$A" role="3zrR0E">
                 <ref role="ehGHo" to="tpee:f_0Nm5B" resolve="NullLiteral" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="1X3c4oMW81p" role="13h7CS">
+      <property role="TrG5h" value="isWarning" />
+      <node concept="3Tm1VV" id="1X3c4oMW81q" role="1B3o_S" />
+      <node concept="10P_77" id="1X3c4oMW84m" role="3clF45" />
+      <node concept="3clFbS" id="1X3c4oMW81s" role="3clF47">
+        <node concept="3clFbF" id="1X3c4oMW85W" role="3cqZAp">
+          <node concept="2OqwBi" id="1X3c4oMW8Jd" role="3clFbG">
+            <node concept="2OqwBi" id="1X3c4oMW89e" role="2Oq$k0">
+              <node concept="13iPFW" id="1X3c4oMW85V" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1X3c4oMW8fM" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:51llZt6clG5" />
+              </node>
+            </node>
+            <node concept="2HwmR7" id="1X3c4oMW9tD" role="2OqNvi">
+              <node concept="1bVj0M" id="1X3c4oMW9tF" role="23t8la">
+                <node concept="3clFbS" id="1X3c4oMW9tG" role="1bW5cS">
+                  <node concept="3clFbF" id="1X3c4oMW9wt" role="3cqZAp">
+                    <node concept="3clFbC" id="1X3c4oMWd5r" role="3clFbG">
+                      <node concept="2OqwBi" id="1X3c4oMW9zv" role="3uHU7B">
+                        <node concept="37vLTw" id="1X3c4oMW9ws" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1X3c4oMW9tH" resolve="it" />
+                        </node>
+                        <node concept="3TrEf2" id="1X3c4oMW9Ct" role="2OqNvi">
+                          <ref role="3Tt5mk" to="un0u:51llZt6ckhR" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1X3c4oMWc2t" role="3uHU7w">
+                        <node concept="2c44tf" id="1X3c4oMWbRQ" role="2Oq$k0">
+                          <node concept="Rm8GO" id="1X3c4oMWc0h" role="2c44tc">
+                            <ref role="1Px2BO" to="28jr:51llZt5Ptbj" resolve="IOFXProblem.Opt" />
+                            <ref role="Rm8GQ" to="28jr:51llZt5Ptbk" resolve="WARNING_HINT" />
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="1X3c4oMWcgV" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tpee:fKRm8Ja" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="1X3c4oMW9tH" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1X3c4oMW9tI" role="1tU5fm" />
+                </node>
               </node>
             </node>
           </node>

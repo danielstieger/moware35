@@ -5228,7 +5228,7 @@
   </node>
   <node concept="1M2fIO" id="51llZt605GZ">
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <ref role="1M2myG" to="un0u:51llZt605sG" resolve="Check" />
+    <ref role="1M2myG" to="un0u:51llZt605sG" resolve="Precondition" />
     <node concept="nKS2y" id="51llZt605H0" role="1MLUbF">
       <node concept="3clFbS" id="51llZt605H1" role="2VODD2">
         <node concept="3clFbF" id="51llZt605Ix" role="3cqZAp">
@@ -5368,6 +5368,30 @@
         <node concept="3cpWs6" id="5G28P6HabCY" role="3cqZAp">
           <node concept="3clFbT" id="5G28P6HabCZ" role="3cqZAk">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1X3c4oMMWs3">
+    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <ref role="1M2myG" to="un0u:1X3c4oMMVGE" resolve="ValidationStatement" />
+    <node concept="nKS2y" id="1X3c4oMMWsb" role="1MLUbF">
+      <node concept="3clFbS" id="1X3c4oMMWsc" role="2VODD2">
+        <node concept="3clFbF" id="1X3c4oMMWsT" role="3cqZAp">
+          <node concept="2OqwBi" id="1X3c4oMMWsU" role="3clFbG">
+            <node concept="2OqwBi" id="1X3c4oMMWsV" role="2Oq$k0">
+              <node concept="nLn13" id="1X3c4oMMWsW" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1X3c4oMMWsX" role="2OqNvi">
+                <node concept="1xMEDy" id="1X3c4oMMWsY" role="1xVPHs">
+                  <node concept="chp4Y" id="1X3c4oMSbNU" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="1X3c4oMMWt0" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="1X3c4oMMWt1" role="2OqNvi" />
           </node>
         </node>
       </node>
