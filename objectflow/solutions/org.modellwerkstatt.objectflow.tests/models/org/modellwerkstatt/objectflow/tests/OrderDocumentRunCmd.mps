@@ -121,7 +121,7 @@
         <child id="5788629615582344424" name="desc" index="lgycv" />
         <child id="5788629615582327858" name="condition" index="lgAf5" />
       </concept>
-      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Check" flags="ng" index="mlg3r">
+      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Precondition" flags="ng" index="mlg3r">
         <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
         <child id="5788629615597607704" name="condition" index="mlgNJ" />
       </concept>
@@ -3224,14 +3224,16 @@
         <node concept="20qIzx" id="4DaB5G8T0Ct" role="10ot2L">
           <node concept="3clFbS" id="4DaB5G8T0Cu" role="2VODD2">
             <node concept="mlg3r" id="4DaB5G99Qq4" role="3cqZAp">
-              <node concept="2OqwBi" id="4DaB5G99Qq5" role="mlgNJ">
-                <node concept="3urNQE" id="13qccrSjQnG" role="2Oq$k0">
-                  <ref role="3cqZAo" node="13qccrSjQnD" resolve="docprocParam" />
-                </node>
-                <node concept="liA8E" id="4DaB5G99Qq7" role="2OqNvi">
-                  <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
-                  <node concept="Xl_RD" id="4DaB5G99Qq8" role="37wK5m">
-                    <property role="Xl_RC" value="Case3:" />
+              <node concept="3fqX7Q" id="5Lf9QwIYXef" role="mlgNJ">
+                <node concept="2OqwBi" id="5Lf9QwIYXeh" role="3fr31v">
+                  <node concept="3urNQE" id="5Lf9QwIYXei" role="2Oq$k0">
+                    <ref role="3cqZAo" node="13qccrSjQnD" resolve="docprocParam" />
+                  </node>
+                  <node concept="liA8E" id="5Lf9QwIYXej" role="2OqNvi">
+                    <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
+                    <node concept="Xl_RD" id="5Lf9QwIYXek" role="37wK5m">
+                      <property role="Xl_RC" value="Case3:" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3300,14 +3302,16 @@
     <node concept="20qIzx" id="4DaB5G8T19t" role="3umfm7">
       <node concept="3clFbS" id="4DaB5G8T19u" role="2VODD2">
         <node concept="mlg3r" id="4DaB5G99QiN" role="3cqZAp">
-          <node concept="2OqwBi" id="4DaB5G99Qkk" role="mlgNJ">
-            <node concept="3urNQE" id="13qccrSjQnK" role="2Oq$k0">
-              <ref role="3cqZAo" node="13qccrSjQnD" resolve="docprocParam" />
-            </node>
-            <node concept="liA8E" id="4DaB5G99QlI" role="2OqNvi">
-              <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
-              <node concept="Xl_RD" id="4DaB5G99Qm8" role="37wK5m">
-                <property role="Xl_RC" value="Case2:" />
+          <node concept="3fqX7Q" id="5Lf9QwIYXbZ" role="mlgNJ">
+            <node concept="2OqwBi" id="5Lf9QwIYXc1" role="3fr31v">
+              <node concept="3urNQE" id="5Lf9QwIYXc2" role="2Oq$k0">
+                <ref role="3cqZAo" node="13qccrSjQnD" resolve="docprocParam" />
+              </node>
+              <node concept="liA8E" id="5Lf9QwIYXc3" role="2OqNvi">
+                <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
+                <node concept="Xl_RD" id="5Lf9QwIYXc4" role="37wK5m">
+                  <property role="Xl_RC" value="Case2:" />
+                </node>
               </node>
             </node>
           </node>
@@ -3438,14 +3442,16 @@
         <node concept="20qIzx" id="4DaB5G8T0Mj" role="10ot2L">
           <node concept="3clFbS" id="4DaB5G8T0Mk" role="2VODD2">
             <node concept="mlg3r" id="4DaB5G9n7ur" role="3cqZAp">
-              <node concept="2OqwBi" id="4DaB5G9n7us" role="mlgNJ">
-                <node concept="3urNQE" id="13qccrSjQnU" role="2Oq$k0">
-                  <ref role="3cqZAo" node="13qccrSjQnS" resolve="docprocParam" />
-                </node>
-                <node concept="liA8E" id="4DaB5G9n7uu" role="2OqNvi">
-                  <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
-                  <node concept="Xl_RD" id="4DaB5G9n7uv" role="37wK5m">
-                    <property role="Xl_RC" value="Case9:" />
+              <node concept="3fqX7Q" id="5Lf9QwIYXsu" role="mlgNJ">
+                <node concept="2OqwBi" id="5Lf9QwIYXsw" role="3fr31v">
+                  <node concept="3urNQE" id="5Lf9QwIYXsx" role="2Oq$k0">
+                    <ref role="3cqZAo" node="13qccrSjQnS" resolve="docprocParam" />
+                  </node>
+                  <node concept="liA8E" id="5Lf9QwIYXsy" role="2OqNvi">
+                    <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
+                    <node concept="Xl_RD" id="5Lf9QwIYXsz" role="37wK5m">
+                      <property role="Xl_RC" value="Case9:" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3543,14 +3549,16 @@
     <node concept="20qIzx" id="4DaB5G9n7ro" role="3umfm7">
       <node concept="3clFbS" id="4DaB5G9n7rp" role="2VODD2">
         <node concept="mlg3r" id="4DaB5G9n7rP" role="3cqZAp">
-          <node concept="2OqwBi" id="4DaB5G9n7rQ" role="mlgNJ">
-            <node concept="3urNQE" id="13qccrSjQnY" role="2Oq$k0">
-              <ref role="3cqZAo" node="13qccrSjQnS" resolve="docprocParam" />
-            </node>
-            <node concept="liA8E" id="4DaB5G9n7rS" role="2OqNvi">
-              <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
-              <node concept="Xl_RD" id="4DaB5G9n7rT" role="37wK5m">
-                <property role="Xl_RC" value="Case8:" />
+          <node concept="3fqX7Q" id="5Lf9QwIYXpQ" role="mlgNJ">
+            <node concept="2OqwBi" id="5Lf9QwIYXpS" role="3fr31v">
+              <node concept="3urNQE" id="5Lf9QwIYXpT" role="2Oq$k0">
+                <ref role="3cqZAo" node="13qccrSjQnS" resolve="docprocParam" />
+              </node>
+              <node concept="liA8E" id="5Lf9QwIYXpU" role="2OqNvi">
+                <ref role="37wK5l" to="t63u:4DaB5G8SZa4" resolve="isCase" />
+                <node concept="Xl_RD" id="5Lf9QwIYXpV" role="37wK5m">
+                  <property role="Xl_RC" value="Case8:" />
+                </node>
               </node>
             </node>
           </node>

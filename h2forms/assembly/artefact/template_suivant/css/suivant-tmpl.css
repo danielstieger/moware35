@@ -62,6 +62,7 @@
 /* messages and questions */
 .sv-top-dlg { margin: 2px 6px 0px 6px; padding: 4px 8px; }
 .sv-question-red { color: #FFF !important; background-color: #E4211f !important}
+
 .sv-warning-orange { color: #FFF !important; background-color: #e49f1f !important}
 .sv-info-gray { color: #000 !important; background-color: #f2f2f2 !important }
 

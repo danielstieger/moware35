@@ -196,7 +196,7 @@
       <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
         <child id="5788629615582331966" name="problem" index="lgxf9" />
       </concept>
-      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Check" flags="ng" index="mlg3r">
+      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Precondition" flags="ng" index="mlg3r">
         <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
         <child id="5788629615597607704" name="condition" index="mlgNJ" />
       </concept>
@@ -394,8 +394,10 @@
           </node>
         </node>
         <node concept="mlg3r" id="7VbqtSRl6S9" role="3cqZAp">
-          <node concept="1bGNo" id="7L8_IJAxm59" role="mlgNJ">
-            <ref role="1bGZi" to="7kfk:7agSOE7AYh0" resolve="Default" />
+          <node concept="3fqX7Q" id="5Lf9QwJ6Mim" role="mlgNJ">
+            <node concept="1bGNo" id="5Lf9QwJ6Mio" role="3fr31v">
+              <ref role="1bGZi" to="7kfk:7agSOE7AYh0" resolve="Default" />
+            </node>
           </node>
           <node concept="lgADV" id="7VbqtSRl6Sa" role="mlgNH">
             <node concept="Xl_RD" id="6BKPvpDdAPu" role="lgxf9">

@@ -284,7 +284,6 @@
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <reference id="1171315804605" name="concept" index="2RRcyH" />
       </concept>
-      <concept id="1145570846907" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingsOperation" flags="nn" index="2TlYAL" />
       <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
@@ -15392,30 +15391,6 @@
       <ref role="1YaFvo" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
     </node>
   </node>
-  <node concept="1YbPZF" id="5G28P6Ha0oZ">
-    <property role="TrG5h" value="typeof_DomainEvent" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <node concept="3clFbS" id="5G28P6Ha0p0" role="18ibNy">
-      <node concept="1Z5TYs" id="5G28P6Ha0rb" role="3cqZAp">
-        <node concept="mw_s8" id="5G28P6Ha0rU" role="1ZfhKB">
-          <node concept="2c44tf" id="5G28P6Ha0rQ" role="mwGJk">
-            <node concept="17QB3L" id="5G28P6Ha0sd" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="5G28P6Ha0re" role="1ZfhK$">
-          <node concept="1Z2H0r" id="5G28P6Ha0p6" role="mwGJk">
-            <node concept="1YBJjd" id="5G28P6Ha0pX" role="1Z2MuG">
-              <ref role="1YBMHb" node="5G28P6Ha0p2" resolve="domainEvent" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5G28P6Ha0p2" role="1YuTPh">
-      <property role="TrG5h" value="domainEvent" />
-      <ref role="1YaFvo" to="un0u:6RAFKVMgm4_" resolve="DomainEvent" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="7VbqtSRaHAj">
     <property role="TrG5h" value="typeof_ProblemMessage" />
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
@@ -15464,99 +15439,6 @@
     <node concept="1YaCAy" id="7VbqtSRaHAm" role="1YuTPh">
       <property role="TrG5h" value="problemMessage" />
       <ref role="1YaFvo" to="un0u:51llZt55NQc" resolve="ProblemMessage" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="1lOrqX24U9h">
-    <property role="TrG5h" value="check_ChangeGraphStatement" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <node concept="3clFbS" id="1lOrqX24U9i" role="18ibNy">
-      <node concept="3clFbJ" id="1lOrqX26dRa" role="3cqZAp">
-        <node concept="3clFbS" id="1lOrqX26dRc" role="3clFbx">
-          <node concept="2MkqsV" id="1lOrqX26eou" role="3cqZAp">
-            <node concept="Xl_RD" id="1lOrqX26eoH" role="2MkJ7o">
-              <property role="Xl_RC" value="Change_Graph has to be placed at last statement in a service method." />
-            </node>
-            <node concept="1YBJjd" id="1lOrqX26era" role="2OEOjV">
-              <ref role="1YBMHb" node="1lOrqX24U9k" resolve="cgs" />
-            </node>
-          </node>
-        </node>
-        <node concept="3fqX7Q" id="1lOrqX26ejV" role="3clFbw">
-          <node concept="2OqwBi" id="1lOrqX26ejX" role="3fr31v">
-            <node concept="2OqwBi" id="1lOrqX26ejY" role="2Oq$k0">
-              <node concept="2OqwBi" id="1lOrqX27$VU" role="2Oq$k0">
-                <node concept="1YBJjd" id="1lOrqX26ejZ" role="2Oq$k0">
-                  <ref role="1YBMHb" node="1lOrqX24U9k" resolve="cgs" />
-                </node>
-                <node concept="1mfA1w" id="1lOrqX27_6a" role="2OqNvi" />
-              </node>
-              <node concept="1mfA1w" id="1lOrqX26ek0" role="2OqNvi" />
-            </node>
-            <node concept="1mIQ4w" id="1lOrqX26ek1" role="2OqNvi">
-              <node concept="chp4Y" id="1lOrqX26ek2" role="cj9EA">
-                <ref role="cht4Q" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="1lOrqX24U9o" role="3cqZAp">
-        <node concept="2OqwBi" id="1lOrqX24Vyj" role="3clFbw">
-          <node concept="2OqwBi" id="1lOrqX24V6p" role="2Oq$k0">
-            <node concept="1YBJjd" id="1lOrqX24UIi" role="2Oq$k0">
-              <ref role="1YBMHb" node="1lOrqX24U9k" resolve="cgs" />
-            </node>
-            <node concept="2TlYAL" id="1lOrqX24Vd3" role="2OqNvi" />
-          </node>
-          <node concept="2HwmR7" id="1lOrqX24W2e" role="2OqNvi">
-            <node concept="1bVj0M" id="1lOrqX24W2g" role="23t8la">
-              <node concept="3clFbS" id="1lOrqX24W2h" role="1bW5cS">
-                <node concept="3clFbF" id="1lOrqX24W4d" role="3cqZAp">
-                  <node concept="3fqX7Q" id="1lOrqX25LhF" role="3clFbG">
-                    <node concept="2OqwBi" id="1lOrqX25LhH" role="3fr31v">
-                      <node concept="liA8E" id="1lOrqX25LhI" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                        <node concept="2OqwBi" id="1lOrqX25LhJ" role="37wK5m">
-                          <node concept="2OqwBi" id="1lOrqX25LhK" role="2Oq$k0">
-                            <node concept="37vLTw" id="1lOrqX25LhL" role="2Oq$k0">
-                              <ref role="3cqZAo" node="1lOrqX24W2i" resolve="it" />
-                            </node>
-                            <node concept="2yIwOk" id="1lOrqX25LhM" role="2OqNvi" />
-                          </node>
-                          <node concept="liA8E" id="1lOrqX25LhN" role="2OqNvi">
-                            <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="1lOrqX25LhO" role="2Oq$k0">
-                        <property role="Xl_RC" value="Statement" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="Rh6nW" id="1lOrqX24W2i" role="1bW2Oz">
-                <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="1lOrqX24W2j" role="1tU5fm" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="1lOrqX24U9q" role="3clFbx">
-          <node concept="2MkqsV" id="1lOrqX24WTw" role="3cqZAp">
-            <node concept="Xl_RD" id="1lOrqX24WTG" role="2MkJ7o">
-              <property role="Xl_RC" value="Change_Graph has to be the last statement used in a method." />
-            </node>
-            <node concept="1YBJjd" id="1lOrqX24WYx" role="2OEOjV">
-              <ref role="1YBMHb" node="1lOrqX24U9k" resolve="cgs" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1lOrqX24U9k" role="1YuTPh">
-      <property role="TrG5h" value="cgs" />
-      <ref role="1YaFvo" to="un0u:5G28P6GvTqn" resolve="ChangeGraphStatement" />
     </node>
   </node>
   <node concept="18kY7G" id="1pNkZjUAO$o">

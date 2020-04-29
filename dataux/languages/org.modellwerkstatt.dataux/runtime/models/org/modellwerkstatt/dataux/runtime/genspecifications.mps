@@ -2675,10 +2675,14 @@
     <node concept="2tJIrI" id="ao4XGSSXfN" role="jymVt" />
     <node concept="3clFb_" id="72_IH8pull1" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setFlag" />
+      <property role="TrG5h" value="setProblems" />
       <node concept="37vLTG" id="72_IH8puln9" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="17QB3L" id="72_IH8puloz" role="1tU5fm" />
+        <property role="TrG5h" value="listOfProblems" />
+        <node concept="_YKpA" id="2gjGACncshl" role="1tU5fm">
+          <node concept="3uibUv" id="2gjGACncsiL" role="_ZDj9">
+            <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+          </node>
+        </node>
       </node>
       <node concept="3cqZAl" id="72_IH8pulmz" role="3clF45" />
       <node concept="3Tm1VV" id="72_IH8pull3" role="1B3o_S" />

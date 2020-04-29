@@ -5436,7 +5436,7 @@
       <node concept="10P_77" id="1U$SEukg8XW" role="3clF45" />
     </node>
     <node concept="3clFb_" id="75iQIE99ULz" role="jymVt">
-      <property role="TrG5h" value="setFlag" />
+      <property role="TrG5h" value="setProblems" />
       <node concept="3cqZAl" id="75iQIE99UL_" role="3clF45" />
       <node concept="3Tm1VV" id="75iQIE99ULA" role="1B3o_S" />
       <node concept="3clFbS" id="75iQIE99ULB" role="3clF47">
@@ -5446,17 +5446,21 @@
               <ref role="3cqZAo" node="5XruxTJJe5f" resolve="responsibleForHeadingAndFlag" />
             </node>
             <node concept="liA8E" id="75iQIEa7maM" role="2OqNvi">
-              <ref role="37wK5l" to="250q:3bZh4Q5vMzn" resolve="setFlagText" />
+              <ref role="37wK5l" to="250q:3bZh4Q5vMzn" resolve="setProblems" />
               <node concept="37vLTw" id="75iQIEa7meA" role="37wK5m">
-                <ref role="3cqZAo" node="75iQIE9akak" resolve="text" />
+                <ref role="3cqZAo" node="75iQIE9akak" resolve="listOfProblems" />
               </node>
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="75iQIE9akak" role="3clF46">
-        <property role="TrG5h" value="text" />
-        <node concept="17QB3L" id="75iQIE9akaj" role="1tU5fm" />
+        <property role="TrG5h" value="listOfProblems" />
+        <node concept="_YKpA" id="2gjGACncvZs" role="1tU5fm">
+          <node concept="3uibUv" id="2gjGACncwhb" role="_ZDj9">
+            <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="75iQIE9a7tU" role="jymVt">
@@ -9391,7 +9395,7 @@
                                             <ref role="3cqZAo" to="yg8v:63VjT6lIy2K" resolve="localSelCrtl" />
                                           </node>
                                           <node concept="37vLTw" id="63VjT6lA5H0" role="37wK5m">
-                                            <ref role="3cqZAo" to="yg8v:5YEYfHwR0Dr" resolve="dynParamCreator" />
+                                            <ref role="3cqZAo" to="yg8v:5YEYfHwR0Dr" resolve="nonDefaultDynParamCreator" />
                                           </node>
                                         </node>
                                       </node>
@@ -10501,7 +10505,7 @@
                                             <ref role="3cqZAo" to="yg8v:63VjT6lIy2K" resolve="localSelCrtl" />
                                           </node>
                                           <node concept="37vLTw" id="5YEYfHwTvBF" role="37wK5m">
-                                            <ref role="3cqZAo" to="yg8v:5YEYfHwR0Dr" resolve="dynParamCreator" />
+                                            <ref role="3cqZAo" to="yg8v:5YEYfHwR0Dr" resolve="nonDefaultDynParamCreator" />
                                           </node>
                                         </node>
                                       </node>

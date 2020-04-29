@@ -4537,12 +4537,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="51llZt605sG" resolve="Precondition" />
     </node>
-    <node concept="1TJgyj" id="6RAFKVMgmil" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="domainEvent" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6RAFKVMgm4_" resolve="DomainEvent" />
-    </node>
     <node concept="1TJgyj" id="ZnB5NvHJ5M" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="options" />
@@ -4551,20 +4545,6 @@
     </node>
     <node concept="PrWs8" id="6RAFKVMF6tV" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6RAFKVMgm4_">
-    <property role="1pbfSe" value="1613238323" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <property role="TrG5h" value="DomainEvent" />
-    <property role="34LRSv" value="domain event" />
-    <property role="R4oN_" value="issued on sucess " />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6RAFKVMgm5e" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="humanMessage" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="6RAFKVMR_DQ">
@@ -4598,20 +4578,6 @@
       <property role="20kJfa" value="statusElement" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3VCHlE3_rxm" resolve="StatusElement" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5G28P6GvTqn">
-    <property role="1pbfSe" value="125942248" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
-    <property role="TrG5h" value="ChangeGraphStatement" />
-    <property role="34LRSv" value="CHANGE_GRAPH" />
-    <property role="R4oN_" value="start changing things from here on" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="fK9aQHS" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="statements" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
   </node>
   <node concept="PlHQZ" id="ZnB5NvHJ5L">

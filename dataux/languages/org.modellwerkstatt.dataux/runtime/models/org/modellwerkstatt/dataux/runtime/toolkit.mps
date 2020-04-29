@@ -1472,10 +1472,14 @@
     </node>
     <node concept="3clFb_" id="3bZh4Q5vMzn" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setFlagText" />
+      <property role="TrG5h" value="setProblems" />
       <node concept="37vLTG" id="3bZh4Q5we6B" role="3clF46">
-        <property role="TrG5h" value="text" />
-        <node concept="17QB3L" id="3bZh4Q5wedR" role="1tU5fm" />
+        <property role="TrG5h" value="lop" />
+        <node concept="_YKpA" id="2gjGACn95sJ" role="1tU5fm">
+          <node concept="3uibUv" id="2gjGACn95_j" role="_ZDj9">
+            <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+          </node>
+        </node>
       </node>
       <node concept="3cqZAl" id="75iQIE9c75x" role="3clF45" />
       <node concept="3Tm1VV" id="3bZh4Q5vMzq" role="1B3o_S" />
