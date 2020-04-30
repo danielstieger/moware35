@@ -13116,6 +13116,13 @@ div.v-layout.v-horizontal.v-widget {
 	color: #CC3D28 !important;
 }
 
+.moware .mo-flaglabel-multiline-error {
+	line-height: 1.1em !important;
+	padding-left: 2.66667px;
+	font-weight: bold;
+	color: #CC3D28 !important;
+}
+
 .moware .v-tabsheet-tabitemcell-mo-modal-tab .v-tabsheet-tabitem-selected .v-caption {
 	border-width: 2px 2px 1px 2px !important;
 	border-style: solid !important;
