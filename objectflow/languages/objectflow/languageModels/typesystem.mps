@@ -15503,5 +15503,55 @@
       <ref role="1YaFvo" to="un0u:150ifyc285e" resolve="IPermissionCmd" />
     </node>
   </node>
+  <node concept="18kY7G" id="2DIWJdVmnzN">
+    <property role="TrG5h" value="check_ContainerParameter" />
+    <property role="3GE5qa" value="OFXCore.infra" />
+    <node concept="3clFbS" id="2DIWJdVmnzO" role="18ibNy">
+      <node concept="3clFbJ" id="2DIWJdVmn_6" role="3cqZAp">
+        <node concept="1Wc70l" id="2DIWJdVmoi1" role="3clFbw">
+          <node concept="2OqwBi" id="2DIWJdVmoUP" role="3uHU7w">
+            <node concept="2OqwBi" id="2DIWJdVmoss" role="2Oq$k0">
+              <node concept="1YBJjd" id="2DIWJdVmol8" role="2Oq$k0">
+                <ref role="1YBMHb" node="2DIWJdVmnzQ" resolve="containerParameter" />
+              </node>
+              <node concept="3TrEf2" id="2DIWJdVmoFh" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:fz3vP1I" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="2DIWJdVmp3$" role="2OqNvi" />
+          </node>
+          <node concept="3fqX7Q" id="2DIWJdVmodE" role="3uHU7B">
+            <node concept="2OqwBi" id="2DIWJdVmodG" role="3fr31v">
+              <node concept="2OqwBi" id="2DIWJdVmodH" role="2Oq$k0">
+                <node concept="1YBJjd" id="2DIWJdVmodI" role="2Oq$k0">
+                  <ref role="1YBMHb" node="2DIWJdVmnzQ" resolve="containerParameter" />
+                </node>
+                <node concept="1mfA1w" id="2DIWJdVmodJ" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="2DIWJdVmodK" role="2OqNvi">
+                <node concept="chp4Y" id="2DIWJdVmodL" role="cj9EA">
+                  <ref role="cht4Q" to="un0u:6ffh1MXzHnh" resolve="Process" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="2DIWJdVmn_8" role="3clFbx">
+          <node concept="2MkqsV" id="2DIWJdVmofT" role="3cqZAp">
+            <node concept="Xl_RD" id="2DIWJdVmp7n" role="2MkJ7o">
+              <property role="Xl_RC" value="We need a default initializer here." />
+            </node>
+            <node concept="1YBJjd" id="2DIWJdVmpat" role="2OEOjV">
+              <ref role="1YBMHb" node="2DIWJdVmnzQ" resolve="containerParameter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2DIWJdVmnzQ" role="1YuTPh">
+      <property role="TrG5h" value="containerParameter" />
+      <ref role="1YaFvo" to="un0u:6ffh1MXA9UJ" resolve="ContainerParameter" />
+    </node>
+  </node>
 </model>
 

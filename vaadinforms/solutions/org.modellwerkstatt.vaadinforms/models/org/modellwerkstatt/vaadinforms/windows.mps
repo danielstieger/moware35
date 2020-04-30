@@ -27160,10 +27160,14 @@
     </node>
     <node concept="3clFb_" id="HsWD0ns_xt" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFlagText" />
+      <property role="TrG5h" value="setProblems" />
       <node concept="37vLTG" id="HsWD0ns_xu" role="3clF46">
         <property role="TrG5h" value="text" />
-        <node concept="17QB3L" id="HsWD0ns_xv" role="1tU5fm" />
+        <node concept="_YKpA" id="2DIWJdVls$C" role="1tU5fm">
+          <node concept="3uibUv" id="2DIWJdVlsT7" role="_ZDj9">
+            <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+          </node>
+        </node>
       </node>
       <node concept="3cqZAl" id="HsWD0ns_xw" role="3clF45" />
       <node concept="3Tm1VV" id="HsWD0ns_xx" role="1B3o_S" />
