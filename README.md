@@ -1,4 +1,4 @@
-#  Moware Master 2020 (MMRS) 
+#  Moware Master 2020 (NPC) 
 MoWare 2020 (NPC edition)
 [Compatible with MPS 3.3.5] 
 
