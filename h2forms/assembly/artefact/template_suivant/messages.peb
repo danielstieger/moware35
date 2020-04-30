@@ -30,12 +30,12 @@
 
     {% elseif message.infoSmall %}
     <div id="errorbeep" class="w3-card sv-top-dlg sv-question-red">
-        {{ message.heading }}: {{ message.textBr | raw }}
+        <!-- {{ message.heading }}: --> {{ message.textBr | raw }}
     </div>
 
     {% else %}
     <div id="info" class="w3-card sv-top-dlg sv-warning-orange">
-        {{ message.heading }}:  {{ message.textBr | raw}}
+        {{ message.heading }}: {{ message.textBr | raw}}
     </div>
     {% endif %}
 {% endif %}

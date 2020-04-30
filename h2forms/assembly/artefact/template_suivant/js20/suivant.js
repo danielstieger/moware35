@@ -106,10 +106,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     hwInitAfterDomReady();
 
-    if($('#flagbeep')) {
+    if($$('#flagbeep').length > 0) {
         hwFlagBeep(400);
     }
-    if($('#errorbeep')) {
+    if($$('#errorbeep').length > 0) {
         hwFlagBeep(1000);
     }
 
