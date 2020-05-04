@@ -249,6 +249,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -5287,6 +5290,7 @@
     <property role="TrG5h" value="MoWareNPC" />
     <property role="2BwPS$" value="Moware NPC 2020" />
     <property role="_Wzho" value="(1) convert flag / cancel / error  statements. " />
+    <property role="3GE5qa" value="NPC" />
     <node concept="_XfAh" id="ZnB5NwLOCf" role="_YvDr">
       <property role="_XH9r" value="Replace Flag statement with precond" />
       <ref role="_XDHR" to="un0u:1Csx3Lqx52x" resolve="FlagCommand" />
@@ -6393,6 +6397,61 @@
           <node concept="3clFbF" id="1LgeCLdw1CZ" role="3cqZAp">
             <node concept="3clFbT" id="1LgeCLdw1CY" role="3clFbG">
               <property role="3clFbU" value="false" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="5zWTQPjdX3_">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="MoWareNPC2" />
+    <property role="2BwPS$" value="Moware NPC 2020" />
+    <property role="_Wzho" value="(2) inspection after mig" />
+    <property role="3GE5qa" value="NPC" />
+    <node concept="_XfAh" id="5zWTQPjdX4l" role="_YvDr">
+      <property role="_XH9r" value="Commands with null default args" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="5zWTQPjdX4m" role="_XPhp">
+        <node concept="3clFbS" id="5zWTQPjdX4n" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="5zWTQPjdXx_" role="_XDHO">
+        <node concept="3clFbS" id="5zWTQPjdXxA" role="2VODD2">
+          <node concept="3clFbF" id="5zWTQPjdXyF" role="3cqZAp">
+            <node concept="2OqwBi" id="5zWTQPjdZ6x" role="3clFbG">
+              <node concept="2OqwBi" id="5zWTQPjdXBu" role="2Oq$k0">
+                <node concept="_YI3z" id="5zWTQPjdXyE" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="5zWTQPjdXL6" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:6ffh1MXA9UH" />
+                </node>
+              </node>
+              <node concept="2HwmR7" id="5zWTQPje12K" role="2OqNvi">
+                <node concept="1bVj0M" id="5zWTQPje12M" role="23t8la">
+                  <node concept="3clFbS" id="5zWTQPje12N" role="1bW5cS">
+                    <node concept="3clFbF" id="5zWTQPje154" role="3cqZAp">
+                      <node concept="2OqwBi" id="5zWTQPje1Io" role="3clFbG">
+                        <node concept="2OqwBi" id="5zWTQPje1dl" role="2Oq$k0">
+                          <node concept="37vLTw" id="5zWTQPje153" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5zWTQPje12O" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="5zWTQPje1u2" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tpee:fz3vP1I" />
+                          </node>
+                        </node>
+                        <node concept="1mIQ4w" id="5zWTQPje1T9" role="2OqNvi">
+                          <node concept="chp4Y" id="5zWTQPje209" role="cj9EA">
+                            <ref role="cht4Q" to="tpee:f_0Nm5B" resolve="NullLiteral" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="5zWTQPje12O" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="5zWTQPje12P" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
