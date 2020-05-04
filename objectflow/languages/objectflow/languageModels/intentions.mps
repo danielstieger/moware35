@@ -6660,6 +6660,7 @@
   <node concept="2S6QgY" id="51llZt5Dj_x">
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <property role="TrG5h" value="GuardTranslateEx" />
+    <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:51llZt55MSr" resolve="Guard" />
     <node concept="2S6ZIM" id="51llZt5Dj_y" role="2ZfVej">
       <node concept="3clFbS" id="51llZt5Dj_z" role="2VODD2">
