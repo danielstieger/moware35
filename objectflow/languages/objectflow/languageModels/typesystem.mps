@@ -2594,6 +2594,52 @@
     <property role="3GE5qa" value="OFXCore.command" />
     <node concept="3clFbS" id="MT9RZiHg3d" role="18ibNy">
       <node concept="3clFbH" id="1GCNgYakf3a" role="3cqZAp" />
+      <node concept="3clFbJ" id="48aWMpCXcR5" role="3cqZAp">
+        <node concept="3clFbS" id="48aWMpCXcR7" role="3clFbx">
+          <node concept="2MkqsV" id="48aWMpCXmSV" role="3cqZAp">
+            <node concept="Xl_RD" id="48aWMpCXmTj" role="2MkJ7o">
+              <property role="Xl_RC" value="Graph edit commands can not restrict permissions since permissions are always session related (e.g. readonly session)" />
+            </node>
+            <node concept="1YBJjd" id="48aWMpCXmZB" role="2OEOjV">
+              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="48aWMpCXf1B" role="3clFbw">
+          <node concept="3eOSWO" id="48aWMpCXmaF" role="3uHU7w">
+            <node concept="2OqwBi" id="48aWMpCXhyZ" role="3uHU7B">
+              <node concept="2OqwBi" id="48aWMpCXf$l" role="2Oq$k0">
+                <node concept="1YBJjd" id="48aWMpCXfw1" role="2Oq$k0">
+                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                </node>
+                <node concept="3Tsc0h" id="48aWMpCXgpR" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:150ifyc285Q" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="48aWMpCXiPz" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="48aWMpCXlst" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="48aWMpCXe7z" role="3uHU7B">
+            <node concept="2OqwBi" id="48aWMpCXd7A" role="2Oq$k0">
+              <node concept="1YBJjd" id="48aWMpCXd3t" role="2Oq$k0">
+                <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+              </node>
+              <node concept="3TrcHB" id="48aWMpCXdWS" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="3t7uKx" id="48aWMpCXeZ4" role="2OqNvi">
+              <node concept="uoxfO" id="48aWMpCXeZ6" role="3t7uKA">
+                <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="48aWMpCXcFs" role="3cqZAp" />
       <node concept="3SKdUt" id="1GCNgYakgHp" role="3cqZAp">
         <node concept="3SKdUq" id="1GCNgYakgHr" role="3SKWNk">
           <property role="3SKdUp" value="Only use ParameterVars in newPermissions and isEnabled" />
@@ -2747,6 +2793,7 @@
       </node>
       <node concept="3clFbH" id="1GCNgYakgXv" role="3cqZAp" />
       <node concept="3clFbH" id="1GCNgYakgz3" role="3cqZAp" />
+      <node concept="3clFbH" id="48aWMpCXb0X" role="3cqZAp" />
       <node concept="3clFbH" id="1GCNgYakpA5" role="3cqZAp" />
       <node concept="3clFbH" id="1GCNgYakfJ0" role="3cqZAp" />
       <node concept="3SKdUt" id="1GCNgYakgjv" role="3cqZAp">

@@ -6457,6 +6457,13 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="48aWMpD0E4h" role="_YvDr">
+      <property role="_XH9r" value="Commands with double permissions" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="48aWMpD0E4j" role="_XPhp">
+        <node concept="3clFbS" id="48aWMpD0E4l" role="2VODD2" />
+      </node>
+    </node>
   </node>
 </model>
 
