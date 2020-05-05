@@ -2598,7 +2598,7 @@
         <node concept="3clFbS" id="48aWMpCXcR7" role="3clFbx">
           <node concept="2MkqsV" id="48aWMpCXmSV" role="3cqZAp">
             <node concept="Xl_RD" id="48aWMpCXmTj" role="2MkJ7o">
-              <property role="Xl_RC" value="Graph edit commands can not restrict permissions since permissions are always session related (e.g. readonly session)" />
+              <property role="Xl_RC" value="Graph edit commands can not restrict to read/only permissions since that perm. is session related (e.g. readonly session)" />
             </node>
             <node concept="1YBJjd" id="48aWMpCXmZB" role="2OEOjV">
               <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
@@ -2608,12 +2608,36 @@
         <node concept="1Wc70l" id="48aWMpCXf1B" role="3clFbw">
           <node concept="3eOSWO" id="48aWMpCXmaF" role="3uHU7w">
             <node concept="2OqwBi" id="48aWMpCXhyZ" role="3uHU7B">
-              <node concept="2OqwBi" id="48aWMpCXf$l" role="2Oq$k0">
-                <node concept="1YBJjd" id="48aWMpCXfw1" role="2Oq$k0">
-                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+              <node concept="2OqwBi" id="3ooeAs0uuZI" role="2Oq$k0">
+                <node concept="2OqwBi" id="48aWMpCXf$l" role="2Oq$k0">
+                  <node concept="1YBJjd" id="48aWMpCXfw1" role="2Oq$k0">
+                    <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                  </node>
+                  <node concept="3Tsc0h" id="48aWMpCXgpR" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:150ifyc285Q" />
+                  </node>
                 </node>
-                <node concept="3Tsc0h" id="48aWMpCXgpR" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:150ifyc285Q" />
+                <node concept="3zZkjj" id="3ooeAs0uwki" role="2OqNvi">
+                  <node concept="1bVj0M" id="3ooeAs0uwkk" role="23t8la">
+                    <node concept="3clFbS" id="3ooeAs0uwkl" role="1bW5cS">
+                      <node concept="3clFbF" id="3ooeAs0uwrw" role="3cqZAp">
+                        <node concept="2OqwBi" id="3ooeAs0uwyo" role="3clFbG">
+                          <node concept="37vLTw" id="3ooeAs0uwrv" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3ooeAs0uwkm" resolve="it" />
+                          </node>
+                          <node concept="1mIQ4w" id="3ooeAs0uwFj" role="2OqNvi">
+                            <node concept="chp4Y" id="3ooeAs0uwNw" role="cj9EA">
+                              <ref role="cht4Q" to="un0u:150ifyc27tm" resolve="OpenPermissionCmd" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="3ooeAs0uwkm" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="3ooeAs0uwkn" role="1tU5fm" />
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="34oBXx" id="48aWMpCXiPz" role="2OqNvi" />
@@ -15442,43 +15466,43 @@
     <property role="TrG5h" value="typeof_ProblemMessage" />
     <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
     <node concept="3clFbS" id="7VbqtSRaHAk" role="18ibNy">
-      <node concept="1Z5TYs" id="7VbqtSRaHIK" role="3cqZAp">
+      <node concept="1ZobV4" id="3ooeAs11NTt" role="3cqZAp">
         <property role="3wDh2S" value="true" />
-        <node concept="mw_s8" id="7VbqtSRaHJz" role="1ZfhKB">
-          <node concept="2c44tf" id="7VbqtSRaHJv" role="mwGJk">
-            <node concept="17QB3L" id="7VbqtSRaHJQ" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="7VbqtSRaHIN" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7VbqtSRaHBL" role="mwGJk">
-            <node concept="2OqwBi" id="7VbqtSRaHE7" role="1Z2MuG">
-              <node concept="1YBJjd" id="7VbqtSRaHCF" role="2Oq$k0">
+        <node concept="mw_s8" id="3ooeAs11NTy" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3ooeAs11NTz" role="mwGJk">
+            <node concept="2OqwBi" id="3ooeAs11NT$" role="1Z2MuG">
+              <node concept="1YBJjd" id="3ooeAs11NT_" role="2Oq$k0">
                 <ref role="1YBMHb" node="7VbqtSRaHAm" resolve="problemMessage" />
               </node>
-              <node concept="3TrEf2" id="7VbqtSRaHH8" role="2OqNvi">
+              <node concept="3TrEf2" id="3ooeAs11NTA" role="2OqNvi">
                 <ref role="3Tt5mk" to="un0u:51llZt55OgY" />
               </node>
             </node>
           </node>
         </node>
-      </node>
-      <node concept="1Z5TYs" id="7VbqtSRaHKj" role="3cqZAp">
-        <property role="3wDh2S" value="true" />
-        <node concept="mw_s8" id="7VbqtSRaHKk" role="1ZfhKB">
-          <node concept="2c44tf" id="7VbqtSRaHKl" role="mwGJk">
-            <node concept="17QB3L" id="7VbqtSRaHKm" role="2c44tc" />
+        <node concept="mw_s8" id="3ooeAs11NTv" role="1ZfhKB">
+          <node concept="2c44tf" id="3ooeAs11NTw" role="mwGJk">
+            <node concept="17QB3L" id="3ooeAs11NTx" role="2c44tc" />
           </node>
         </node>
-        <node concept="mw_s8" id="7VbqtSRaHKn" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7VbqtSRaHKo" role="mwGJk">
-            <node concept="2OqwBi" id="7VbqtSRaHKp" role="1Z2MuG">
-              <node concept="1YBJjd" id="7VbqtSRaHKq" role="2Oq$k0">
+      </node>
+      <node concept="1ZobV4" id="3ooeAs11NVT" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="3ooeAs11NVY" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3ooeAs11NVZ" role="mwGJk">
+            <node concept="2OqwBi" id="3ooeAs11NW0" role="1Z2MuG">
+              <node concept="1YBJjd" id="3ooeAs11NW1" role="2Oq$k0">
                 <ref role="1YBMHb" node="7VbqtSRaHAm" resolve="problemMessage" />
               </node>
-              <node concept="3TrEf2" id="7VbqtSRaHOk" role="2OqNvi">
+              <node concept="3TrEf2" id="3ooeAs11NW2" role="2OqNvi">
                 <ref role="3Tt5mk" to="un0u:51llZt55Oh3" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3ooeAs11NVV" role="1ZfhKB">
+          <node concept="2c44tf" id="3ooeAs11NVW" role="mwGJk">
+            <node concept="17QB3L" id="3ooeAs11NVX" role="2c44tc" />
           </node>
         </node>
       </node>
@@ -15598,6 +15622,66 @@
     <node concept="1YaCAy" id="2DIWJdVmnzQ" role="1YuTPh">
       <property role="TrG5h" value="containerParameter" />
       <ref role="1YaFvo" to="un0u:6ffh1MXA9UJ" resolve="ContainerParameter" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="3ooeAs0urfS">
+    <property role="TrG5h" value="typeof_OpenPermissionCmd" />
+    <property role="3GE5qa" value="Permission.cmd" />
+    <node concept="3clFbS" id="3ooeAs0urfT" role="18ibNy">
+      <node concept="1Z5TYs" id="3ooeAs0uriM" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="3ooeAs0urjC" role="1ZfhKB">
+          <node concept="2c44tf" id="3ooeAs0urj$" role="mwGJk">
+            <node concept="10P_77" id="3ooeAs0urkc" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="3ooeAs0uriP" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3ooeAs0urgk" role="mwGJk">
+            <node concept="2OqwBi" id="3ooeAs0ur$9" role="1Z2MuG">
+              <node concept="1YBJjd" id="3ooeAs0urgY" role="2Oq$k0">
+                <ref role="1YBMHb" node="3ooeAs0urfV" resolve="openPermissionCmd" />
+              </node>
+              <node concept="3TrEf2" id="3ooeAs0urFt" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:4JWEgNMh1xV" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3ooeAs0urfV" role="1YuTPh">
+      <property role="TrG5h" value="openPermissionCmd" />
+      <ref role="1YaFvo" to="un0u:150ifyc27tm" resolve="OpenPermissionCmd" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="3ooeAs0urH4">
+    <property role="TrG5h" value="typeof_OpenSavePermissionCmd" />
+    <property role="3GE5qa" value="Permission.cmd" />
+    <node concept="3clFbS" id="3ooeAs0urH5" role="18ibNy">
+      <node concept="1Z5TYs" id="3ooeAs0urHi" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="3ooeAs0urHj" role="1ZfhKB">
+          <node concept="2c44tf" id="3ooeAs0urHk" role="mwGJk">
+            <node concept="10P_77" id="3ooeAs0urHl" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="3ooeAs0urHm" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3ooeAs0urHn" role="mwGJk">
+            <node concept="2OqwBi" id="3ooeAs0urL8" role="1Z2MuG">
+              <node concept="1YBJjd" id="3ooeAs0urJa" role="2Oq$k0">
+                <ref role="1YBMHb" node="3ooeAs0urH7" resolve="openSavePermissionCmd" />
+              </node>
+              <node concept="3TrEf2" id="3ooeAs0urP5" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:4JWEgNMh1xV" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3ooeAs0urH7" role="1YuTPh">
+      <property role="TrG5h" value="openSavePermissionCmd" />
+      <ref role="1YaFvo" to="un0u:150ifyc285h" resolve="OpenSavePermissionCmd" />
     </node>
   </node>
 </model>

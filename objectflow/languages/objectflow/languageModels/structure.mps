@@ -4589,7 +4589,7 @@
     <property role="1pbfSe" value="1656176562" />
     <property role="3GE5qa" value="Permission.cmd" />
     <property role="TrG5h" value="OpenPermissionCmd" />
-    <property role="34LRSv" value="FOR_OPEN" />
+    <property role="34LRSv" value="CAN_OPEN_RO" />
     <property role="R4oN_" value="open cmd with read only session" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="150ifyc285f" role="PzmwI">
@@ -4611,7 +4611,7 @@
     <property role="1pbfSe" value="1656174007" />
     <property role="3GE5qa" value="Permission.cmd" />
     <property role="TrG5h" value="OpenSavePermissionCmd" />
-    <property role="34LRSv" value="FOR_OPEN_SAVE" />
+    <property role="34LRSv" value="CAN_OPEN_RW" />
     <property role="R4oN_" value="open cmd and save data" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="150ifyc285i" role="PzmwI">
