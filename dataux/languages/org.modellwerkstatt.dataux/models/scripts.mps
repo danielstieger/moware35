@@ -6563,6 +6563,32 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="3ooeAs1WOXQ" role="_YvDr">
+      <property role="_XH9r" value="Preconditions that might forward an exceptions" />
+      <ref role="_XDHR" to="un0u:51llZt605sG" resolve="Precondition" />
+      <node concept="_ZGcI" id="3ooeAs1WOXR" role="_XPhp">
+        <node concept="3clFbS" id="3ooeAs1WOXS" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3ooeAs1WOXT" role="_XDHO">
+        <node concept="3clFbS" id="3ooeAs1WOXU" role="2VODD2">
+          <node concept="3clFbF" id="3ooeAs1WPOO" role="3cqZAp">
+            <node concept="2OqwBi" id="3ooeAs1WQL1" role="3clFbG">
+              <node concept="2OqwBi" id="3ooeAs1WPSJ" role="2Oq$k0">
+                <node concept="_YI3z" id="3ooeAs1WPON" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="3ooeAs1WQ0y" role="2OqNvi">
+                  <node concept="1xMEDy" id="3ooeAs1WQ0$" role="1xVPHs">
+                    <node concept="chp4Y" id="3ooeAs1WQGP" role="ri$Ld">
+                      <ref role="cht4Q" to="tpee:gWTDmSJ" resolve="CatchClause" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3x8VRR" id="3ooeAs1WQWf" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="_UgoZ" id="3ooeAs07eue">
     <property role="2BwPSy" value="migration" />
