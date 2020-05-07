@@ -2812,9 +2812,16 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3sIS$IK8V8p" resolve="TranslatedMultiString" />
     </node>
+    <node concept="1TJgyj" id="4kNjw_n0JZG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="formatString" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4kNjw_n0K3K" resolve="IFormatString" />
+    </node>
     <node concept="1TJgyi" id="371pDBOmHkm" role="1TKVEl">
       <property role="TrG5h" value="formatString" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="4kNjw_n0KrF" role="lGtFl" />
     </node>
   </node>
   <node concept="1TIwiD" id="3KPvoWv6Cnk">
@@ -4472,11 +4479,6 @@
       <property role="20kJfa" value="instance" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="1TJgyj" id="51llZt55Oh3" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="solution" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
   </node>
   <node concept="1TIwiD" id="51llZt605sG">
     <property role="1pbfSe" value="1772769501" />
@@ -4643,6 +4645,40 @@
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="4kNjw_lxENa" role="PzmwI">
       <ref role="PrY4T" node="1dqt$gJ66kJ" resolve="IVslCancelParam" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4kNjw_n0K3K">
+    <property role="1pbfSe" value="1674162439" />
+    <property role="3GE5qa" value="StringHandling" />
+    <property role="TrG5h" value="IFormatString" />
+  </node>
+  <node concept="1TIwiD" id="4kNjw_n0K4y">
+    <property role="1pbfSe" value="1674162389" />
+    <property role="3GE5qa" value="StringHandling" />
+    <property role="TrG5h" value="StringFormatString" />
+    <property role="34LRSv" value="''" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4kNjw_n0K5k" role="PzmwI">
+      <ref role="PrY4T" node="4kNjw_n0K3K" resolve="IFormatString" />
+    </node>
+    <node concept="1TJgyi" id="4kNjw_n0K5t" role="1TKVEl">
+      <property role="TrG5h" value="formatStringValue" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4kNjw_n0Km3">
+    <property role="1pbfSe" value="1674161268" />
+    <property role="3GE5qa" value="StringHandling" />
+    <property role="TrG5h" value="LabelFormatString" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4kNjw_n0KmK" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="label" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1fYc781EA$j" resolve="Label" />
+    </node>
+    <node concept="PrWs8" id="4kNjw_n0KmB" role="PzmwI">
+      <ref role="PrY4T" node="4kNjw_n0K3K" resolve="IFormatString" />
     </node>
   </node>
 </model>

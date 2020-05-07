@@ -184,8 +184,10 @@
         <property id="8614254524338490551" name="max" index="8tbpI" />
         <property id="8614254524338490550" name="min" index="8tbpJ" />
       </concept>
+      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
+        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
+      </concept>
       <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
-        <child id="5788629615582331971" name="solution" index="lgxeO" />
         <child id="5788629615582331968" name="instance" index="lgxeR" />
         <child id="5788629615582331966" name="problem" index="lgxf9" />
       </concept>
@@ -254,6 +256,7 @@
       </concept>
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
         <property id="3585259589779248406" name="formatString" index="35AVef" />
+        <child id="4986415014450757612" name="formatString" index="icr7_" />
         <child id="3585259589780682365" name="arguments" index="35Gt3$" />
       </concept>
       <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
@@ -441,7 +444,7 @@
         <node concept="lgBBG" id="51llZt5mCXc" role="3cqZAp">
           <node concept="lgADV" id="51llZt5mCXf" role="lgycv">
             <node concept="35AVbj" id="51llZt5mCXh" role="lgxf9">
-              <property role="35AVef" value="Different currencies are not suppored yet. We have %s" />
+              <property role="35AVef" value="" />
               <node concept="3cpWs3" id="51llZt5II7Q" role="35Gt3$">
                 <node concept="2OqwBi" id="51llZt5IJGd" role="3uHU7w">
                   <node concept="2OqwBi" id="51llZt5IIdy" role="2Oq$k0">
@@ -479,6 +482,9 @@
                 <node concept="Xl_RD" id="51llZt5II6F" role="3uHU7B">
                   <property role="Xl_RC" value="" />
                 </node>
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAyj" role="icr7_">
+                <property role="ic4Xk" value="Different currencies are not suppored yet. We have %s" />
               </node>
             </node>
           </node>
@@ -592,12 +598,12 @@
         <node concept="lgBBG" id="51llZt5OyW1" role="3cqZAp">
           <node concept="lgADV" id="51llZt5OyW4" role="lgycv">
             <node concept="35AVbj" id="51llZt5OyW5" role="lgxf9">
-              <property role="35AVef" value="TestGuard with instance and solution" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAz8" role="icr7_">
+                <property role="ic4Xk" value="TestGuard with instance and solution" />
+              </node>
             </node>
             <node concept="Xjq3P" id="51llZt5OyWO" role="lgxeR" />
-            <node concept="35AVbj" id="51llZt5OyXx" role="lgxeO">
-              <property role="35AVef" value="solution" />
-            </node>
           </node>
         </node>
       </node>
@@ -1454,13 +1460,13 @@
         </node>
         <node concept="lgADV" id="51llZt686n9" role="mlgNH">
           <node concept="35AVbj" id="51llZt686na" role="lgxf9">
-            <property role="35AVef" value="One can order only in state Draft or state Revisioned" />
+            <property role="35AVef" value="" />
+            <node concept="ic4WF" id="4kNjw_ozAyh" role="icr7_">
+              <property role="ic4Xk" value="One can order only in state Draft or state Revisioned" />
+            </node>
           </node>
           <node concept="37vLTw" id="51llZt686L8" role="lgxeR">
             <ref role="3cqZAo" node="6RAFKVMEX1B" resolve="od" />
-          </node>
-          <node concept="35AVbj" id="51llZt686LC" role="lgxeO">
-            <property role="35AVef" value="You have to revision this order document first." />
           </node>
         </node>
       </node>
@@ -1495,7 +1501,10 @@
         <node concept="mlg3r" id="5Lf9QwICugN" role="3cqZAp">
           <node concept="lgADV" id="5Lf9QwICugV" role="mlgNH">
             <node concept="35AVbj" id="5Lf9QwICugW" role="lgxf9">
-              <property role="35AVef" value="This is just a warning." />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyG" role="icr7_">
+                <property role="ic4Xk" value="This is just a warning." />
+              </node>
             </node>
           </node>
           <node concept="2veflS" id="5Lf9QwICpEn" role="mlgNJ">
@@ -1531,7 +1540,7 @@
           </node>
           <node concept="lgADV" id="1T2Sm8TYi$s" role="mlgNH">
             <node concept="35AVbj" id="1T2Sm8TYi$t" role="lgxf9">
-              <property role="35AVef" value="Order can only be completed in state ordered, but this order is in state %st" />
+              <property role="35AVef" value="" />
               <node concept="2OqwBi" id="1T2Sm8TYiJi" role="35Gt3$">
                 <node concept="37vLTw" id="1T2Sm8TYiIG" role="2Oq$k0">
                   <ref role="3cqZAo" node="51llZt4XSau" resolve="od" />
@@ -1540,12 +1549,12 @@
                   <ref role="2S8YL0" node="51llZt4WimJ" resolve="status" />
                 </node>
               </node>
+              <node concept="ic4WF" id="4kNjw_ozAyX" role="icr7_">
+                <property role="ic4Xk" value="Order can only be completed in state ordered, but this order is in state %st" />
+              </node>
             </node>
             <node concept="37vLTw" id="1T2Sm8TYiLo" role="lgxeR">
               <ref role="3cqZAo" node="51llZt4XSau" resolve="od" />
-            </node>
-            <node concept="35AVbj" id="1T2Sm8TYiM9" role="lgxeO">
-              <property role="35AVef" value="Order first" />
             </node>
           </node>
         </node>
@@ -1566,13 +1575,13 @@
           </node>
           <node concept="lgADV" id="5Lf9QwICkhj" role="mlgNH">
             <node concept="35AVbj" id="5Lf9QwICkhk" role="lgxf9">
-              <property role="35AVef" value="Second Message here." />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyn" role="icr7_">
+                <property role="ic4Xk" value="Second Message here." />
+              </node>
             </node>
             <node concept="37vLTw" id="5Lf9QwICkho" role="lgxeR">
               <ref role="3cqZAo" node="51llZt4XSau" resolve="od" />
-            </node>
-            <node concept="35AVbj" id="5Lf9QwICkhp" role="lgxeO">
-              <property role="35AVef" value="Order first" />
             </node>
           </node>
         </node>
@@ -1627,13 +1636,13 @@
         </node>
         <node concept="lgADV" id="3wpfxM_31LT" role="mlgNH">
           <node concept="35AVbj" id="3wpfxM_31LU" role="lgxf9">
-            <property role="35AVef" value="Das Dokument wurde noch nicht gespeich." />
+            <property role="35AVef" value="" />
+            <node concept="ic4WF" id="4kNjw_ozAz9" role="icr7_">
+              <property role="ic4Xk" value="Das Dokument wurde noch nicht gespeich." />
+            </node>
           </node>
           <node concept="37vLTw" id="3wpfxM_31TB" role="lgxeR">
             <ref role="3cqZAo" node="3wpfxM_31KE" resolve="desDocukumentes" />
-          </node>
-          <node concept="35AVbj" id="3wpfxM_31TZ" role="lgxeO">
-            <property role="35AVef" value="Zuerst speichern." />
           </node>
         </node>
       </node>
@@ -1656,7 +1665,10 @@
         <node concept="mlg3r" id="6RBD0nmfU4j" role="3cqZAp">
           <node concept="lgADV" id="6RBD0nmfU4p" role="mlgNH">
             <node concept="35AVbj" id="6RBD0nmfU4q" role="lgxf9">
-              <property role="35AVef" value="Hello World, this is a problem here.  " />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAzg" role="icr7_">
+                <property role="ic4Xk" value="Hello World, this is a problem here.  " />
+              </node>
             </node>
           </node>
           <node concept="3eOSWO" id="6RBD0nmvw29" role="mlgNJ">
@@ -1694,13 +1706,13 @@
         </node>
         <node concept="lgADV" id="5G28P6GWITw" role="mlgNH">
           <node concept="35AVbj" id="5G28P6GWITx" role="lgxf9">
-            <property role="35AVef" value="OrderDocument has to be in state completed or ordered to be revisioned" />
+            <property role="35AVef" value="" />
+            <node concept="ic4WF" id="4kNjw_ozAzp" role="icr7_">
+              <property role="ic4Xk" value="OrderDocument has to be in state completed or ordered to be revisioned" />
+            </node>
           </node>
           <node concept="37vLTw" id="5G28P6GWJa9" role="lgxeR">
             <ref role="3cqZAo" node="51llZt4XSaH" resolve="od" />
-          </node>
-          <node concept="35AVbj" id="5G28P6GZfvL" role="lgxeO">
-            <property role="35AVef" value="No need to revision, just chancel" />
           </node>
         </node>
       </node>
@@ -1713,13 +1725,13 @@
         </node>
         <node concept="lgADV" id="5G28P6GZfw8" role="mlgNH">
           <node concept="35AVbj" id="5G28P6GZfw9" role="lgxf9">
-            <property role="35AVef" value="A reason is mandatory." />
+            <property role="35AVef" value="" />
+            <node concept="ic4WF" id="4kNjw_ozAye" role="icr7_">
+              <property role="ic4Xk" value="A reason is mandatory." />
+            </node>
           </node>
           <node concept="37vLTw" id="5G28P6GZf_I" role="lgxeR">
             <ref role="3cqZAo" node="51llZt4XSaH" resolve="od" />
-          </node>
-          <node concept="35AVbj" id="5G28P6GZfA6" role="lgxeO">
-            <property role="35AVef" value="Specify a reason in form." />
           </node>
         </node>
       </node>
@@ -1742,7 +1754,10 @@
         </node>
         <node concept="lgADV" id="5G28P6GZfAL" role="mlgNH">
           <node concept="35AVbj" id="5G28P6GZfAM" role="lgxf9">
-            <property role="35AVef" value="At least one position is necessary" />
+            <property role="35AVef" value="" />
+            <node concept="ic4WF" id="4kNjw_ozAyS" role="icr7_">
+              <property role="ic4Xk" value="At least one position is necessary" />
+            </node>
           </node>
         </node>
       </node>
@@ -1830,7 +1845,10 @@
             <node concept="mlg3r" id="5G28P6GvDhZ" role="3cqZAp">
               <node concept="lgADV" id="5G28P6GvDi5" role="mlgNH">
                 <node concept="35AVbj" id="5G28P6GvDi6" role="lgxf9">
-                  <property role="35AVef" value="Problem 1" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyY" role="icr7_">
+                    <property role="ic4Xk" value="Problem 1" />
+                  </node>
                 </node>
               </node>
               <node concept="3eOSWO" id="6RBD0nmvwjb" role="mlgNJ">
@@ -1848,7 +1866,10 @@
                 <node concept="mlg3r" id="5G28P6GvTeE" role="3cqZAp">
                   <node concept="lgADV" id="5G28P6GvTeK" role="mlgNH">
                     <node concept="35AVbj" id="5G28P6GvTeL" role="lgxf9">
-                      <property role="35AVef" value="Stop Problem" />
+                      <property role="35AVef" value="" />
+                      <node concept="ic4WF" id="4kNjw_ozAyu" role="icr7_">
+                        <property role="ic4Xk" value="Stop Problem" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3eOSWO" id="6RBD0nmvwy8" role="mlgNJ">
@@ -1872,7 +1893,10 @@
             <node concept="mlg3r" id="5G28P6GvDvB" role="3cqZAp">
               <node concept="lgADV" id="5G28P6GvDvH" role="mlgNH">
                 <node concept="35AVbj" id="5G28P6GvDvI" role="lgxf9">
-                  <property role="35AVef" value="Problem 2" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyH" role="icr7_">
+                    <property role="ic4Xk" value="Problem 2" />
+                  </node>
                 </node>
               </node>
               <node concept="3eOSWO" id="6RBD0nmvwmQ" role="mlgNJ">
@@ -1888,7 +1912,10 @@
             <node concept="mlg3r" id="5G28P6GvDHz" role="3cqZAp">
               <node concept="lgADV" id="5G28P6GvDHD" role="mlgNH">
                 <node concept="35AVbj" id="5G28P6GvDHE" role="lgxf9">
-                  <property role="35AVef" value="Problem 3" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyi" role="icr7_">
+                    <property role="ic4Xk" value="Problem 3" />
+                  </node>
                 </node>
               </node>
               <node concept="3eOSWO" id="6RBD0nmvwut" role="mlgNJ">
@@ -1915,7 +1942,10 @@
         <node concept="mlg3r" id="5G28P6G_Tz1" role="3cqZAp">
           <node concept="lgADV" id="5G28P6G_Tz2" role="mlgNH">
             <node concept="35AVbj" id="5G28P6G_Tz3" role="lgxf9">
-              <property role="35AVef" value="Warning 1" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyx" role="icr7_">
+                <property role="ic4Xk" value="Warning 1" />
+              </node>
             </node>
           </node>
           <node concept="3eOSWO" id="6RBD0nmvw_V" role="mlgNJ">
@@ -1933,7 +1963,10 @@
         <node concept="mlg3r" id="5G28P6G_TG$" role="3cqZAp">
           <node concept="lgADV" id="5G28P6G_TG_" role="mlgNH">
             <node concept="35AVbj" id="5G28P6G_TGA" role="lgxf9">
-              <property role="35AVef" value="Warning 1" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyg" role="icr7_">
+                <property role="ic4Xk" value="Warning 1" />
+              </node>
             </node>
           </node>
           <node concept="3eOSWO" id="6RBD0nmvwSL" role="mlgNJ">
@@ -1951,7 +1984,10 @@
         <node concept="mlg3r" id="5Lf9QwIHiF5" role="3cqZAp">
           <node concept="lgADV" id="5Lf9QwIHiF6" role="mlgNH">
             <node concept="35AVbj" id="5Lf9QwIHiF7" role="lgxf9">
-              <property role="35AVef" value="Warning 1" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAzj" role="icr7_">
+                <property role="ic4Xk" value="Warning 1" />
+              </node>
             </node>
           </node>
           <node concept="mp1e1" id="5Lf9QwIHiFb" role="mp0NM">
@@ -1990,7 +2026,10 @@
             <node concept="mlg3r" id="5G28P6GAxjr" role="3cqZAp">
               <node concept="lgADV" id="5G28P6GAxjx" role="mlgNH">
                 <node concept="35AVbj" id="5G28P6GAxjy" role="lgxf9">
-                  <property role="35AVef" value="Also added .... " />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyT" role="icr7_">
+                    <property role="ic4Xk" value="Also added .... " />
+                  </node>
                 </node>
               </node>
               <node concept="3eOSWO" id="6RBD0nmvx8v" role="mlgNJ">
@@ -2005,7 +2044,10 @@
             <node concept="mlg3r" id="5Lf9QwIHjPT" role="3cqZAp">
               <node concept="lgADV" id="5Lf9QwIHjPU" role="mlgNH">
                 <node concept="35AVbj" id="5Lf9QwIHjPV" role="lgxf9">
-                  <property role="35AVef" value="Also added .... " />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAzm" role="icr7_">
+                    <property role="ic4Xk" value="Also added .... " />
+                  </node>
                 </node>
               </node>
               <node concept="3eOSWO" id="5Lf9QwIHjPW" role="mlgNJ">
@@ -2044,7 +2086,10 @@
         <node concept="mlg3r" id="5G28P6GAxFb" role="3cqZAp">
           <node concept="lgADV" id="5G28P6GAxFh" role="mlgNH">
             <node concept="35AVbj" id="5G28P6GAxFi" role="lgxf9">
-              <property role="35AVef" value="This is equal to a guard." />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAy_" role="icr7_">
+                <property role="ic4Xk" value="This is equal to a guard." />
+              </node>
             </node>
           </node>
           <node concept="3eOSWO" id="6RBD0nmvxcs" role="mlgNJ">
@@ -2072,7 +2117,10 @@
               <property role="mtjHV" value="false" />
               <node concept="lgADV" id="5Lf9QwIHRIn" role="mlgNH">
                 <node concept="35AVbj" id="5Lf9QwIHRIo" role="lgxf9">
-                  <property role="35AVef" value="Problem 1" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyy" role="icr7_">
+                    <property role="ic4Xk" value="Problem 1" />
+                  </node>
                 </node>
               </node>
               <node concept="3eOSWO" id="5Lf9QwIHRIp" role="mlgNJ">
@@ -2088,7 +2136,10 @@
             <node concept="mlg3r" id="5Lf9QwIHSba" role="3cqZAp">
               <node concept="lgADV" id="5Lf9QwIHSbb" role="mlgNH">
                 <node concept="35AVbj" id="5Lf9QwIHSbc" role="lgxf9">
-                  <property role="35AVef" value="Problem 2" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAz3" role="icr7_">
+                    <property role="ic4Xk" value="Problem 2" />
+                  </node>
                 </node>
               </node>
               <node concept="3eOSWO" id="5Lf9QwIHSbd" role="mlgNJ">
@@ -2178,7 +2229,10 @@
         </node>
         <node concept="lgADV" id="5G28P6HpC8i" role="mlgNH">
           <node concept="35AVbj" id="5G28P6HpC8j" role="lgxf9">
-            <property role="35AVef" value="OrderDocument state can not be completed." />
+            <property role="35AVef" value="" />
+            <node concept="ic4WF" id="4kNjw_ozAz5" role="icr7_">
+              <property role="ic4Xk" value="OrderDocument state can not be completed." />
+            </node>
           </node>
         </node>
       </node>
@@ -3019,24 +3073,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="1gVbGN" id="51llZt5O$eX" role="3cqZAp">
-                <node concept="2OqwBi" id="51llZt5O$kh" role="1gVkn0">
-                  <node concept="2OqwBi" id="51llZt5PFi7" role="2Oq$k0">
-                    <node concept="2OqwBi" id="51llZt5O$gU" role="2Oq$k0">
-                      <node concept="37vLTw" id="51llZt5O$g3" role="2Oq$k0">
-                        <ref role="3cqZAo" node="51llZt5OzyA" resolve="ex" />
-                      </node>
-                      <node concept="liA8E" id="51llZt5O$iz" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:51llZt5$Mil" resolve="getProblem" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="51llZt5PFjT" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:6RAFKVMg52_" resolve="getSolutionDescOrNull" />
-                    </node>
-                  </node>
-                  <node concept="17RvpY" id="51llZt5O$pt" role="2OqNvi" />
-                </node>
-              </node>
               <node concept="1gVbGN" id="51llZt5O$rA" role="3cqZAp">
                 <node concept="3clFbC" id="51llZt5O$wX" role="1gVkn0">
                   <node concept="3clFbT" id="51llZt5O$xv" role="3uHU7w">
@@ -3198,24 +3234,6 @@
                     </node>
                   </node>
                   <node concept="17RlXB" id="51llZt5PGel" role="2OqNvi" />
-                </node>
-              </node>
-              <node concept="1gVbGN" id="51llZt5PFZX" role="3cqZAp">
-                <node concept="2OqwBi" id="51llZt5PFZY" role="1gVkn0">
-                  <node concept="2OqwBi" id="51llZt5PFZZ" role="2Oq$k0">
-                    <node concept="2OqwBi" id="51llZt5PG00" role="2Oq$k0">
-                      <node concept="37vLTw" id="51llZt5PG01" role="2Oq$k0">
-                        <ref role="3cqZAo" node="51llZt5O$yu" resolve="ex" />
-                      </node>
-                      <node concept="liA8E" id="51llZt5PG02" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:51llZt5$Mil" resolve="getProblem" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="51llZt5PG03" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:6RAFKVMg52_" resolve="getSolutionDescOrNull" />
-                    </node>
-                  </node>
-                  <node concept="17RlXB" id="51llZt5PGn2" role="2OqNvi" />
                 </node>
               </node>
               <node concept="1gVbGN" id="51llZt5PG05" role="3cqZAp">

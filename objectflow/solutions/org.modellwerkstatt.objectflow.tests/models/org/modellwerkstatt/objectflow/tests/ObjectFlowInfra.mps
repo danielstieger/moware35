@@ -192,6 +192,9 @@
       <concept id="9029332601822340346" name="org.modellwerkstatt.objectflow.structure.IOFXSurpErrorMarker" flags="ng" index="fdWrj">
         <property id="9029332601822340347" name="knowWhatDoing" index="fdWri" />
       </concept>
+      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
+        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
+      </concept>
       <concept id="1512918505920915116" name="org.modellwerkstatt.objectflow.structure.OFXTestMethodCallExp" flags="ng" index="2juh7L" />
       <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
         <child id="5788629615582331966" name="problem" index="lgxf9" />
@@ -247,6 +250,7 @@
       </concept>
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
         <property id="3585259589779248406" name="formatString" index="35AVef" />
+        <child id="4986415014450757612" name="formatString" index="icr7_" />
         <child id="3585259589780682365" name="arguments" index="35Gt3$" />
       </concept>
       <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
@@ -1967,10 +1971,13 @@
             <property role="TrG5h" value="s" />
             <node concept="17QB3L" id="3OfvFtlCEdn" role="1tU5fm" />
             <node concept="35AVbj" id="3OfvFtlCDKB" role="33vP2m">
-              <property role="35AVef" value="%sts ok" />
+              <property role="35AVef" value="" />
               <node concept="2XvMaL" id="3OfvFtlCE2X" role="35Gt3$">
                 <ref role="1Vchh_" to="mbq3:2i3o0he2lCO" resolve="on" />
                 <ref role="2XvMaQ" to="mbq3:2i3o0he2l$T" resolve="Active" />
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAyL" role="icr7_">
+                <property role="ic4Xk" value="%sts ok" />
               </node>
             </node>
           </node>
@@ -2004,9 +2011,12 @@
         <node concept="3clFbF" id="3OfvFtm64Rq" role="3cqZAp">
           <node concept="37vLTI" id="3OfvFtm64Tf" role="3clFbG">
             <node concept="35AVbj" id="3OfvFtm64Ut" role="37vLTx">
-              <property role="35AVef" value="%sts ok" />
+              <property role="35AVef" value="" />
               <node concept="37vLTw" id="3OfvFtm655A" role="35Gt3$">
                 <ref role="3cqZAo" node="3OfvFtm652D" resolve="status" />
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAz4" role="icr7_">
+                <property role="ic4Xk" value="%sts ok" />
               </node>
             </node>
             <node concept="37vLTw" id="3OfvFtm64Ro" role="37vLTJ">
@@ -2086,7 +2096,7 @@
             <property role="TrG5h" value="s" />
             <node concept="17QB3L" id="3WI9B8lPZ4x" role="1tU5fm" />
             <node concept="35AVbj" id="3WI9B8lPZ50" role="33vP2m">
-              <property role="35AVef" value="%.4bd" />
+              <property role="35AVef" value="" />
               <node concept="2ShNRf" id="3WI9B8lPZ6L" role="35Gt3$">
                 <node concept="1pGfFk" id="3WI9B8lQ4NT" role="2ShVmc">
                   <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(java.lang.String)" resolve="BigDecimal" />
@@ -2094,6 +2104,9 @@
                     <property role="Xl_RC" value="10.999855" />
                   </node>
                 </node>
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAz6" role="icr7_">
+                <property role="ic4Xk" value="%.4bd" />
               </node>
             </node>
           </node>
@@ -2294,12 +2307,15 @@
               <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
               <ref role="37wK5l" to="mbq3:4wgjvSoeJVM" resolve="createInvoiceGraphWith4Positions_onDB" />
               <node concept="35AVbj" id="6Irl3jv9mRh" role="37wK5m">
-                <property role="35AVef" value="Hello %s %d" />
+                <property role="35AVef" value="" />
                 <node concept="Xl_RD" id="6Irl3jv9mUs" role="35Gt3$">
                   <property role="Xl_RC" value="Dan" />
                 </node>
                 <node concept="3cmrfG" id="6Irl3jv9mV$" role="35Gt3$">
                   <property role="3cmrfH" value="10" />
+                </node>
+                <node concept="ic4WF" id="4kNjw_ozAzk" role="icr7_">
+                  <property role="ic4Xk" value="Hello %s %d" />
                 </node>
               </node>
             </node>
@@ -2326,7 +2342,10 @@
             <node concept="liA8E" id="6Irl3jv9n7n" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="35AVbj" id="6Irl3jv9naK" role="37wK5m">
-                <property role="35AVef" value="Hello Dan 10_0" />
+                <property role="35AVef" value="" />
+                <node concept="ic4WF" id="4kNjw_ozAz0" role="icr7_">
+                  <property role="ic4Xk" value="Hello Dan 10_0" />
+                </node>
               </node>
             </node>
           </node>
@@ -2334,7 +2353,7 @@
         <node concept="3clFbF" id="6Irl3jv9nl0" role="3cqZAp">
           <node concept="37vLTI" id="6Irl3jv9npx" role="3clFbG">
             <node concept="35AVbj" id="6Irl3jv9nr0" role="37vLTx">
-              <property role="35AVef" value="Hello Wolfgang it is %dt" />
+              <property role="35AVef" value="" />
               <node concept="1$4sJe" id="6Irl3jv9ocW" role="35Gt3$">
                 <property role="1$4sGS" value="0" />
                 <property role="1$4sGV" value="0" />
@@ -2343,6 +2362,9 @@
                 <property role="1$4sGQ" value="0" />
                 <property role="1$4sGR" value="0" />
                 <property role="1$4sGO" value="true" />
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAyF" role="icr7_">
+                <property role="ic4Xk" value="Hello Wolfgang it is %dt" />
               </node>
             </node>
             <node concept="2OqwBi" id="6Irl3jv9nmv" role="37vLTJ">
@@ -2382,12 +2404,15 @@
         <node concept="1gVbGN" id="186V0VEWu6S" role="3cqZAp">
           <node concept="2OqwBi" id="186V0VEWulw" role="1gVkn0">
             <node concept="35AVbj" id="186V0VEWu72" role="2Oq$k0">
-              <property role="35AVef" value="%06d = %s" />
+              <property role="35AVef" value="" />
               <node concept="3cmrfG" id="186V0VEWubl" role="35Gt3$">
                 <property role="3cmrfH" value="4711" />
               </node>
               <node concept="Xl_RD" id="186V0VEWue_" role="35Gt3$">
                 <property role="Xl_RC" value="4711" />
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAyO" role="icr7_">
+                <property role="ic4Xk" value="%06d = %s" />
               </node>
             </node>
             <node concept="liA8E" id="186V0VEWurd" role="2OqNvi">
@@ -2407,12 +2432,15 @@
         <node concept="1gVbGN" id="186V0VEWuSA" role="3cqZAp">
           <node concept="2OqwBi" id="186V0VEWuSB" role="1gVkn0">
             <node concept="35AVbj" id="186V0VEWuSC" role="2Oq$k0">
-              <property role="35AVef" value="%4d and %2.2f" />
+              <property role="35AVef" value="" />
               <node concept="3cmrfG" id="186V0VEWuSD" role="35Gt3$">
                 <property role="3cmrfH" value="4711" />
               </node>
               <node concept="2$xPTn" id="186V0VEWvk5" role="35Gt3$">
                 <property role="2$xPTl" value="88.88f" />
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAza" role="icr7_">
+                <property role="ic4Xk" value="%4d and %2.2f" />
               </node>
             </node>
             <node concept="liA8E" id="186V0VEWuSF" role="2OqNvi">
@@ -2443,9 +2471,12 @@
         <node concept="1gVbGN" id="186V0VEWv0H" role="3cqZAp">
           <node concept="2OqwBi" id="186V0VEWv0I" role="1gVkn0">
             <node concept="35AVbj" id="186V0VEWv0J" role="2Oq$k0">
-              <property role="35AVef" value="%06d%n" />
+              <property role="35AVef" value="" />
               <node concept="3cmrfG" id="186V0VEWv0K" role="35Gt3$">
                 <property role="3cmrfH" value="4711" />
+              </node>
+              <node concept="ic4WF" id="4kNjw_ozAyU" role="icr7_">
+                <property role="ic4Xk" value="%06d%n" />
               </node>
             </node>
             <node concept="liA8E" id="186V0VEWv0M" role="2OqNvi">
@@ -2805,7 +2836,7 @@
         <node concept="3clFbH" id="6Irl3jv6QeB" role="3cqZAp" />
         <node concept="3clFbF" id="5zF9hZsC_pZ" role="3cqZAp">
           <node concept="35AVbj" id="5zF9hZsC_pX" role="3clFbG">
-            <property role="35AVef" value="   %d   %s   %bd   " />
+            <property role="35AVef" value="" />
             <node concept="37vLTw" id="5zF9hZsF6tM" role="35Gt3$">
               <ref role="3cqZAo" node="5zF9hZsF5X8" resolve="i" />
             </node>
@@ -2814,6 +2845,9 @@
             </node>
             <node concept="37vLTw" id="5zF9hZsF6xG" role="35Gt3$">
               <ref role="3cqZAo" node="5zF9hZsF6d6" resolve="d" />
+            </node>
+            <node concept="ic4WF" id="4kNjw_ozAzq" role="icr7_">
+              <property role="ic4Xk" value="   %d   %s   %bd   " />
             </node>
           </node>
         </node>
@@ -2852,7 +2886,7 @@
       <node concept="3clFbS" id="5zF9hZsF6$E" role="3clF47">
         <node concept="3clFbF" id="5zF9hZsF6$F" role="3cqZAp">
           <node concept="35AVbj" id="5zF9hZsF6$G" role="3clFbG">
-            <property role="35AVef" value="   %d   %s   %bd   %ld   %dt   " />
+            <property role="35AVef" value="" />
             <node concept="37vLTw" id="5zF9hZsF6$H" role="35Gt3$">
               <ref role="3cqZAo" node="5zF9hZsF6$y" resolve="i" />
             </node>
@@ -2867,6 +2901,9 @@
             </node>
             <node concept="37vLTw" id="5zF9hZsF75m" role="35Gt3$">
               <ref role="3cqZAo" node="5zF9hZsF6PV" resolve="dt" />
+            </node>
+            <node concept="ic4WF" id="4kNjw_ozAyK" role="icr7_">
+              <property role="ic4Xk" value="   %d   %s   %bd   %ld   %dt   " />
             </node>
           </node>
         </node>
@@ -2905,7 +2942,7 @@
       <node concept="3clFbS" id="5zF9hZsF7b9" role="3clF47">
         <node concept="3clFbF" id="5zF9hZsF7ba" role="3cqZAp">
           <node concept="35AVbj" id="5zF9hZsF7bb" role="3clFbG">
-            <property role="35AVef" value="   %d   %s   %bd   %ld   %ld   " />
+            <property role="35AVef" value="" />
             <node concept="37vLTw" id="5zF9hZsF7bc" role="35Gt3$">
               <ref role="3cqZAo" node="5zF9hZsF7aX" resolve="i" />
             </node>
@@ -2920,6 +2957,9 @@
             </node>
             <node concept="37vLTw" id="5zF9hZsF7me" role="35Gt3$">
               <ref role="3cqZAo" node="5zF9hZsF7b5" resolve="dt" />
+            </node>
+            <node concept="ic4WF" id="4kNjw_ozAyw" role="icr7_">
+              <property role="ic4Xk" value="   %d   %s   %bd   %ld   %ld   " />
             </node>
           </node>
         </node>
@@ -3031,7 +3071,10 @@
           <node concept="28Qm3K" id="3sIS$IKpYxj" role="3clFbG">
             <node concept="28QmBi" id="3sIS$IKpYxl" role="28Qmfn">
               <node concept="35AVbj" id="3sIS$IKpYwo" role="28QmyZ">
-                <property role="35AVef" value="Default Platform" />
+                <property role="35AVef" value="" />
+                <node concept="ic4WF" id="4kNjw_ozAyo" role="icr7_">
+                  <property role="ic4Xk" value="Default Platform" />
+                </node>
               </node>
               <node concept="1bGNo" id="3sIS$IKpYxr" role="28Qmxq">
                 <ref role="1bGZi" to="7kfk:7agSOE7AYh0" resolve="Default" />
@@ -3039,7 +3082,10 @@
             </node>
             <node concept="28QmBi" id="3sIS$IKpY_R" role="28Qmfn">
               <node concept="35AVbj" id="3sIS$IKpY_S" role="28QmyZ">
-                <property role="35AVef" value="Default" />
+                <property role="35AVef" value="" />
+                <node concept="ic4WF" id="4kNjw_ozAyP" role="icr7_">
+                  <property role="ic4Xk" value="Default" />
+                </node>
               </node>
             </node>
           </node>

@@ -114,6 +114,9 @@
         <child id="4678401045862675913" name="keyReference" index="27Af4Z" />
         <child id="4678401045862675827" name="msg" index="27Af65" />
       </concept>
+      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
+        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
+      </concept>
       <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
         <child id="5788629615582331966" name="problem" index="lgxf9" />
       </concept>
@@ -161,6 +164,7 @@
       <concept id="1881524139085552751" name="org.modellwerkstatt.objectflow.structure.DoneCommand" flags="ng" index="10Adxj" />
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
         <property id="3585259589779248406" name="formatString" index="35AVef" />
+        <child id="4986415014450757612" name="formatString" index="icr7_" />
       </concept>
       <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
         <reference id="8113764509539932973" name="classifier" index="16PnFS" />
@@ -3204,7 +3208,10 @@
     <node concept="27Aftt" id="4DaB5G8T0Tk" role="27AfA_">
       <property role="27oQjk" value="odDocId" />
       <node concept="35AVbj" id="4DaB5G8T0Uk" role="27Af65">
-        <property role="35AVef" value="Executed Go" />
+        <property role="35AVef" value="" />
+        <node concept="ic4WF" id="4kNjw_ozAz2" role="icr7_">
+          <property role="ic4Xk" value="Executed Go" />
+        </node>
       </node>
       <node concept="2OqwBi" id="4DaB5G8T0Ya" role="27Af4Z">
         <node concept="3urNQE" id="13qccrSjQnF" role="2Oq$k0">
@@ -3239,7 +3246,10 @@
               </node>
               <node concept="lgADV" id="4DaB5G99Qq9" role="mlgNH">
                 <node concept="35AVbj" id="4DaB5G99Qqa" role="lgxf9">
-                  <property role="35AVef" value="Case 3 check" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAzd" role="icr7_">
+                    <property role="ic4Xk" value="Case 3 check" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -3317,7 +3327,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G99QiQ" role="mlgNH">
             <node concept="35AVbj" id="4DaB5G99QiR" role="lgxf9">
-              <property role="35AVef" value="Case 2 check" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyV" role="icr7_">
+                <property role="ic4Xk" value="Case 2 check" />
+              </node>
             </node>
           </node>
         </node>
@@ -3457,7 +3470,10 @@
               </node>
               <node concept="lgADV" id="4DaB5G9n7uw" role="mlgNH">
                 <node concept="35AVbj" id="4DaB5G9n7ux" role="lgxf9">
-                  <property role="35AVef" value="Case 2 check" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAzh" role="icr7_">
+                    <property role="ic4Xk" value="Case 2 check" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -3502,7 +3518,10 @@
               </node>
               <node concept="lgADV" id="4DaB5G9oviC" role="lgycv">
                 <node concept="35AVbj" id="4DaB5G9oviD" role="lgxf9">
-                  <property role="35AVef" value="Case15 guard" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAz7" role="icr7_">
+                    <property role="ic4Xk" value="Case15 guard" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -3564,7 +3583,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G9n7rU" role="mlgNH">
             <node concept="35AVbj" id="4DaB5G9n7rV" role="lgxf9">
-              <property role="35AVef" value="Case 8 check" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyN" role="icr7_">
+                <property role="ic4Xk" value="Case 8 check" />
+              </node>
             </node>
           </node>
         </node>
@@ -3609,7 +3631,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G9ov72" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9ov73" role="lgxf9">
-              <property role="35AVef" value="Case14 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAz1" role="icr7_">
+                <property role="ic4Xk" value="Case14 guard" />
+              </node>
             </node>
           </node>
         </node>
@@ -3671,7 +3696,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G9ovl$" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9ovl_" role="lgxf9">
-              <property role="35AVef" value="Case16 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAzb" role="icr7_">
+                <property role="ic4Xk" value="Case16 guard" />
+              </node>
             </node>
           </node>
         </node>

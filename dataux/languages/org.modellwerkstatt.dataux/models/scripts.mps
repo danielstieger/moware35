@@ -6632,6 +6632,79 @@
       </node>
     </node>
     <node concept="1opIMY" id="7ALNKj5QiNS" role="_YvDr" />
+    <node concept="_XfAh" id="4kNjw_n9EBt" role="_YvDr">
+      <property role="_XH9r" value="MultiString adoptions to suit new label referencing" />
+      <ref role="_XDHR" to="un0u:371pDBOmHha" resolve="MultiString" />
+      <node concept="_ZGcI" id="4kNjw_n9EBv" role="_XPhp">
+        <node concept="3clFbS" id="4kNjw_n9EBx" role="2VODD2">
+          <node concept="3clFbF" id="4kNjw_n9F2V" role="3cqZAp">
+            <node concept="2OqwBi" id="4kNjw_n9Fdp" role="3clFbG">
+              <node concept="2OqwBi" id="4kNjw_n9F4v" role="2Oq$k0">
+                <node concept="_YI3z" id="4kNjw_n9F2U" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4kNjw_n9F8k" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:4kNjw_n0JZG" />
+                </node>
+              </node>
+              <node concept="zfrQC" id="4kNjw_n9FgT" role="2OqNvi">
+                <ref role="1A9B2P" to="un0u:4kNjw_n0K4y" resolve="StringFormatString" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4kNjw_n9FlV" role="3cqZAp">
+            <node concept="37vLTI" id="4kNjw_n9G1c" role="3clFbG">
+              <node concept="2OqwBi" id="4kNjw_n9G4s" role="37vLTx">
+                <node concept="_YI3z" id="4kNjw_n9G20" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4kNjw_n9Gaj" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:371pDBOmHkm" resolve="formatString" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4kNjw_n9FBU" role="37vLTJ">
+                <node concept="1PxgMI" id="4kNjw_n9F$r" role="2Oq$k0">
+                  <ref role="1PxNhF" to="un0u:4kNjw_n0K4y" resolve="StringFormatString" />
+                  <node concept="2OqwBi" id="4kNjw_n9Fo3" role="1PxMeX">
+                    <node concept="_YI3z" id="4kNjw_n9FlT" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="4kNjw_n9FvP" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:4kNjw_n0JZG" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="4kNjw_n9FK2" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:4kNjw_n0K5t" resolve="formatStringValue" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4kNjw_na4DQ" role="3cqZAp">
+            <node concept="37vLTI" id="4kNjw_na5bg" role="3clFbG">
+              <node concept="Xl_RD" id="4kNjw_na5bE" role="37vLTx">
+                <property role="Xl_RC" value="" />
+              </node>
+              <node concept="2OqwBi" id="4kNjw_na4G_" role="37vLTJ">
+                <node concept="_YI3z" id="4kNjw_na4DO" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4kNjw_na4LM" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:371pDBOmHkm" resolve="formatString" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="4kNjw_n9EHA" role="_XDHO">
+        <node concept="3clFbS" id="4kNjw_n9EHB" role="2VODD2">
+          <node concept="3clFbF" id="4kNjw_n9EIN" role="3cqZAp">
+            <node concept="2OqwBi" id="4kNjw_n9EVW" role="3clFbG">
+              <node concept="2OqwBi" id="4kNjw_n9ELq" role="2Oq$k0">
+                <node concept="_YI3z" id="4kNjw_n9EIM" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4kNjw_n9EQq" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:4kNjw_n0JZG" />
+                </node>
+              </node>
+              <node concept="3w_OXm" id="4kNjw_n9F0B" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="7ALNKj5QiOp" role="_YvDr">
       <property role="_XH9r" value="SearchCommand with selection update on parent" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />

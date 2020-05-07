@@ -128,8 +128,10 @@
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
         <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
       </concept>
+      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
+        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
+      </concept>
       <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
-        <child id="5788629615582331971" name="solution" index="lgxeO" />
         <child id="5788629615582331966" name="problem" index="lgxf9" />
       </concept>
       <concept id="5788629615582326299" name="org.modellwerkstatt.objectflow.structure.Guard" flags="ng" index="lgBBG">
@@ -190,6 +192,7 @@
       <concept id="1881524139085552751" name="org.modellwerkstatt.objectflow.structure.DoneCommand" flags="ng" index="10Adxj" />
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
         <property id="3585259589779248406" name="formatString" index="35AVef" />
+        <child id="4986415014450757612" name="formatString" index="icr7_" />
         <child id="3585259589780682365" name="arguments" index="35Gt3$" />
       </concept>
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
@@ -512,7 +515,10 @@
               </node>
               <node concept="lgADV" id="6mpCyrQUpzj" role="mlgNH">
                 <node concept="35AVbj" id="6mpCyrQUpzk" role="lgxf9">
-                  <property role="35AVef" value="Case17 conc check" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyr" role="icr7_">
+                    <property role="ic4Xk" value="Case17 conc check" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -533,7 +539,10 @@
               </node>
               <node concept="lgADV" id="4DaB5G9rPNr" role="lgycv">
                 <node concept="35AVbj" id="4DaB5G9rPNs" role="lgxf9">
-                  <property role="35AVef" value="Case23 guard" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAzc" role="icr7_">
+                    <property role="ic4Xk" value="Case23 guard" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -541,7 +550,10 @@
             <node concept="lgBBG" id="4DaB5G9Jluu" role="3cqZAp">
               <node concept="lgADV" id="4DaB5G9Jluv" role="lgycv">
                 <node concept="35AVbj" id="4DaB5G9Jluw" role="lgxf9">
-                  <property role="35AVef" value="Case28 guard" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyz" role="icr7_">
+                    <property role="ic4Xk" value="Case28 guard" />
+                  </node>
                 </node>
               </node>
               <node concept="3fqX7Q" id="4DaB5G9Jlux" role="lgAf5">
@@ -576,7 +588,10 @@
               </node>
               <node concept="lgADV" id="5LHzrvqWxyN" role="mlgNH">
                 <node concept="35AVbj" id="5LHzrvqWxyO" role="lgxf9">
-                  <property role="35AVef" value="Case33: ge conc check" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyp" role="icr7_">
+                    <property role="ic4Xk" value="Case33: ge conc check" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -597,7 +612,10 @@
               </node>
               <node concept="lgADV" id="5LHzrvr2Cer" role="mlgNH">
                 <node concept="35AVbj" id="5LHzrvr2Ces" role="lgxf9">
-                  <property role="35AVef" value="Case33: ge conc check" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAzr" role="icr7_">
+                    <property role="ic4Xk" value="Case33: ge conc check" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -618,7 +636,10 @@
               </node>
               <node concept="lgADV" id="5LHzrvr2Esn" role="lgycv">
                 <node concept="35AVbj" id="5LHzrvr2Eso" role="lgxf9">
-                  <property role="35AVef" value="Case38: multiexec ge conc guard!" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyE" role="icr7_">
+                    <property role="ic4Xk" value="Case38: multiexec ge conc guard!" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -744,7 +765,10 @@
           </node>
           <node concept="lgADV" id="6mpCyrQUq8$" role="mlgNH">
             <node concept="35AVbj" id="6mpCyrQUq8_" role="lgxf9">
-              <property role="35AVef" value="Case 16 init check" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAzi" role="icr7_">
+                <property role="ic4Xk" value="Case 16 init check" />
+              </node>
             </node>
           </node>
         </node>
@@ -766,7 +790,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rPDN" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rPDO" role="lgxf9">
-              <property role="35AVef" value="Case22 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAzs" role="icr7_">
+                <property role="ic4Xk" value="Case22 guard" />
+              </node>
             </node>
           </node>
         </node>
@@ -774,7 +801,10 @@
         <node concept="lgBBG" id="4DaB5G9Jlfd" role="3cqZAp">
           <node concept="lgADV" id="4DaB5G9Jlfe" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9Jlff" role="lgxf9">
-              <property role="35AVef" value="Case 27 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAym" role="icr7_">
+                <property role="ic4Xk" value="Case 27 guard" />
+              </node>
             </node>
           </node>
           <node concept="3fqX7Q" id="4DaB5G9Jlfg" role="lgAf5">
@@ -808,7 +838,10 @@
           </node>
           <node concept="lgADV" id="5LHzrvqWxQc" role="mlgNH">
             <node concept="35AVbj" id="5LHzrvqWxQd" role="lgxf9">
-              <property role="35AVef" value="Case32: ge init check" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAze" role="icr7_">
+                <property role="ic4Xk" value="Case32: ge init check" />
+              </node>
             </node>
           </node>
         </node>
@@ -869,7 +902,10 @@
           </node>
           <node concept="lgADV" id="6mpCyrQUqoe" role="mlgNH">
             <node concept="35AVbj" id="6mpCyrQUqof" role="lgxf9">
-              <property role="35AVef" value="Case 18 final check" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyM" role="icr7_">
+                <property role="ic4Xk" value="Case 18 final check" />
+              </node>
             </node>
           </node>
         </node>
@@ -890,7 +926,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rQ0O" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rQ0P" role="lgxf9">
-              <property role="35AVef" value="Case24 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAy$" role="icr7_">
+                <property role="ic4Xk" value="Case24 guard" />
+              </node>
             </node>
           </node>
         </node>
@@ -1044,7 +1083,10 @@
               </node>
               <node concept="lgADV" id="4DaB5G9rP0t" role="lgycv">
                 <node concept="35AVbj" id="4DaB5G9rP0u" role="lgxf9">
-                  <property role="35AVef" value="Case20 guard" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAys" role="icr7_">
+                    <property role="ic4Xk" value="Case20 guard" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1111,7 +1153,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rOLf" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rOLg" role="lgxf9">
-              <property role="35AVef" value="Case19 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyq" role="icr7_">
+                <property role="ic4Xk" value="Case19 guard" />
+              </node>
             </node>
           </node>
         </node>
@@ -1119,7 +1164,10 @@
         <node concept="lgBBG" id="4DaB5G9JkQa" role="3cqZAp">
           <node concept="lgADV" id="4DaB5G9JkQb" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9JkQc" role="lgxf9">
-              <property role="35AVef" value="Case 26 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyQ" role="icr7_">
+                <property role="ic4Xk" value="Case 26 guard" />
+              </node>
             </node>
           </node>
           <node concept="3fqX7Q" id="4DaB5G9JkQd" role="lgAf5">
@@ -1218,7 +1266,10 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rPci" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rPcj" role="lgxf9">
-              <property role="35AVef" value="Case21 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAyv" role="icr7_">
+                <property role="ic4Xk" value="Case21 guard" />
+              </node>
             </node>
           </node>
         </node>
@@ -2655,7 +2706,10 @@
         <node concept="lgBBG" id="4DaB5G9Jkh0" role="3cqZAp">
           <node concept="lgADV" id="4DaB5G9Jkh3" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9Jkh4" role="lgxf9">
-              <property role="35AVef" value="Case 25 guard" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAzo" role="icr7_">
+                <property role="ic4Xk" value="Case 25 guard" />
+              </node>
             </node>
           </node>
           <node concept="3fqX7Q" id="4DaB5G9Jki$" role="lgAf5">
@@ -2728,14 +2782,20 @@
                   </node>
                   <node concept="lgADV" id="4DaB5G9q81Q" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9q81R" role="lgxf9">
-                      <property role="35AVef" value="Check 1 not succcessfull." />
+                      <property role="35AVef" value="" />
+                      <node concept="ic4WF" id="4kNjw_ozAyD" role="icr7_">
+                        <property role="ic4Xk" value="Check 1 not succcessfull." />
+                      </node>
                     </node>
                   </node>
                 </node>
                 <node concept="mlg3r" id="4DaB5G9q8kt" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9q8kz" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9q8k$" role="lgxf9">
-                      <property role="35AVef" value="This is the second check here.  " />
+                      <property role="35AVef" value="" />
+                      <node concept="ic4WF" id="4kNjw_ozAyA" role="icr7_">
+                        <property role="ic4Xk" value="This is the second check here.  " />
+                      </node>
                     </node>
                   </node>
                   <node concept="3eOVzh" id="4DaB5G9q8ec" role="mlgNJ">
@@ -2750,7 +2810,10 @@
                 <node concept="mlg3r" id="4DaB5G9qo$D" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9qo$E" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9qo$F" role="lgxf9">
-                      <property role="35AVef" value="Third check goes here." />
+                      <property role="35AVef" value="" />
+                      <node concept="ic4WF" id="4kNjw_ozAyJ" role="icr7_">
+                        <property role="ic4Xk" value="Third check goes here." />
+                      </node>
                     </node>
                   </node>
                   <node concept="3eOVzh" id="4DaB5G9qo$G" role="mlgNJ">
@@ -2765,10 +2828,10 @@
                 <node concept="mlg3r" id="4DaB5G9qoCE" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9qoCF" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9qoCG" role="lgxf9">
-                      <property role="35AVef" value="And anotherone here" />
-                    </node>
-                    <node concept="35AVbj" id="4DaB5G9qYPj" role="lgxeO">
-                      <property role="35AVef" value="Why not do something against that?" />
+                      <property role="35AVef" value="" />
+                      <node concept="ic4WF" id="4kNjw_ozAyt" role="icr7_">
+                        <property role="ic4Xk" value="And anotherone here" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3eOVzh" id="4DaB5G9qoCH" role="mlgNJ">
@@ -2783,7 +2846,10 @@
                 <node concept="mlg3r" id="4DaB5G9qoIv" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9qoIw" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9qoIx" role="lgxf9">
-                      <property role="35AVef" value="Last check for this conclusion." />
+                      <property role="35AVef" value="" />
+                      <node concept="ic4WF" id="4kNjw_ozAyf" role="icr7_">
+                        <property role="ic4Xk" value="Last check for this conclusion." />
+                      </node>
                     </node>
                   </node>
                   <node concept="3eOVzh" id="4DaB5G9qoIy" role="mlgNJ">
@@ -2905,9 +2971,12 @@
             </node>
             <node concept="lgADV" id="18Et36znzoK" role="mlgNH">
               <node concept="35AVbj" id="18Et36znzoL" role="lgxf9">
-                <property role="35AVef" value="This is a warning message! (cnt is %d)" />
+                <property role="35AVef" value="" />
                 <node concept="3urNR4" id="18Et36znzPY" role="35Gt3$">
                   <ref role="3cqZAo" node="18Et36znzh9" resolve="cnt" />
+                </node>
+                <node concept="ic4WF" id="4kNjw_ozAzf" role="icr7_">
+                  <property role="ic4Xk" value="This is a warning message! (cnt is %d)" />
                 </node>
               </node>
             </node>
@@ -2926,9 +2995,12 @@
         <ref role="3063JT" node="7agSOE7Kg4f" resolve="MainDocPP" />
       </node>
       <node concept="35AVbj" id="18Et36znzHy" role="1K0AWC">
-        <property role="35AVef" value="Currently count is %d" />
+        <property role="35AVef" value="" />
         <node concept="3urNR4" id="18Et36znzIN" role="35Gt3$">
           <ref role="3cqZAo" node="18Et36znzh9" resolve="cnt" />
+        </node>
+        <node concept="ic4WF" id="4kNjw_ozAyW" role="icr7_">
+          <property role="ic4Xk" value="Currently count is %d" />
         </node>
       </node>
     </node>
@@ -2983,7 +3055,10 @@
           </node>
           <node concept="lgADV" id="5LHzrvqWwV5" role="mlgNH">
             <node concept="35AVbj" id="5LHzrvqWwV6" role="lgxf9">
-              <property role="35AVef" value="Case30: Go init check" />
+              <property role="35AVef" value="" />
+              <node concept="ic4WF" id="4kNjw_ozAzt" role="icr7_">
+                <property role="ic4Xk" value="Case30: Go init check" />
+              </node>
             </node>
           </node>
         </node>
@@ -3013,7 +3088,10 @@
               </node>
               <node concept="lgADV" id="5LHzrvqWx2h" role="mlgNH">
                 <node concept="35AVbj" id="5LHzrvqWx2i" role="lgxf9">
-                  <property role="35AVef" value="Case31: go conc check" />
+                  <property role="35AVef" value="" />
+                  <node concept="ic4WF" id="4kNjw_ozAyZ" role="icr7_">
+                    <property role="ic4Xk" value="Case31: go conc check" />
+                  </node>
                 </node>
               </node>
             </node>
