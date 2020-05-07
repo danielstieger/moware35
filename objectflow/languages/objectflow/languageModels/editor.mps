@@ -3186,27 +3186,11 @@
           </node>
         </node>
         <node concept="3F0ifn" id="5RXltUm6MPM" role="3EZMnx">
-          <property role="3F0ifm" value="cancelMsg" />
+          <property role="3F0ifm" value="listOfProblems" />
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-        </node>
-        <node concept="3F0ifn" id="1dqt$gJ1qP_" role="3EZMnx">
-          <property role="3F0ifm" value="(max 200 chars)" />
-          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
-        </node>
-        <node concept="3F0ifn" id="6BG_0EbIO$$" role="3EZMnx">
-          <property role="3F0ifm" value="," />
-          <ref role="1k5W1q" to="tpen:hFDgi_W" resolve="Semicolon" />
-        </node>
-        <node concept="3F0ifn" id="1dqt$gJ1qRt" role="3EZMnx">
-          <property role="3F0ifm" value="exception" />
-          <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-        </node>
-        <node concept="3F0ifn" id="6BG_0EbHMQG" role="3EZMnx">
-          <property role="3F0ifm" value="(OR null)" />
-          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F0ifn" id="1l1sktc821c" role="3EZMnx">
-          <property role="3F0ifm" value="// do revert objects, exceptions are logged" />
+          <property role="3F0ifm" value="// do revert objects" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1l1sktc821d" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -9077,15 +9061,17 @@
         <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F2HdR" id="2IDWU6ZghU0" role="3EZMnx">
-        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="un0u:2IDWU6Z9f3R" />
-        <node concept="l2Vlx" id="2IDWU6ZghU2" role="2czzBx" />
+        <node concept="2EHx9g" id="4kNjw_mOplH" role="2czzBx" />
         <node concept="3F0ifn" id="7MWNCzYwB9Z" role="2czzBI">
           <property role="3F0ifm" value="" />
           <property role="ilYzB" value="&lt;specs&gt;" />
         </node>
+        <node concept="3vyZuw" id="4kNjw_mP1pq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="l2Vlx" id="1fYc781EAES" role="2iSdaV" />
+      <node concept="2iRfu4" id="4kNjw_mLT6q" role="2iSdaV" />
       <node concept="3F0ifn" id="2IDWU6Zc559" role="3EZMnx">
         <property role="3F0ifm" value=";" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
@@ -9177,7 +9163,7 @@
         <node concept="lj46D" id="4nTpl6WyOyF" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="l2Vlx" id="4nTpl6WyOtw" role="2czzBx" />
+        <node concept="2EHx9g" id="4kNjw_mLT6n" role="2czzBx" />
         <node concept="3F0ifn" id="2IDWU6Z9eY8" role="2czzBI">
           <property role="3F0ifm" value="" />
           <property role="ilYzB" value="&lt;labels&gt;" />
@@ -9273,7 +9259,7 @@
           <property role="ilYzB" value="&lt;&gt;" />
         </node>
       </node>
-      <node concept="l2Vlx" id="2IDWU6Z9f6S" role="2iSdaV" />
+      <node concept="2iRfu4" id="4kNjw_mOplK" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6A6XM2SiUnA">
@@ -9482,6 +9468,9 @@
     <node concept="PMmxH" id="1dqt$gJ64GK" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+      <node concept="3nxI2P" id="4kNjw_ly5Bl" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1dqt$gJ64LP">
@@ -9490,6 +9479,9 @@
     <node concept="PMmxH" id="1dqt$gJ64Pf" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+      <node concept="3nxI2P" id="4kNjw_ly5Eo" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="61AGu4QManw">
@@ -12358,6 +12350,14 @@
         <ref role="1k5W1q" to="tpen:hFD5_7H" resolve="RightBrace" />
       </node>
       <node concept="l2Vlx" id="1X3c4oMMVKs" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4kNjw_lxERj">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1XX52x" to="un0u:4kNjw_lxEN9" resolve="VslProblemsParam" />
+    <node concept="PMmxH" id="4kNjw_lxERz" role="2wV5jI">
+      <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>
