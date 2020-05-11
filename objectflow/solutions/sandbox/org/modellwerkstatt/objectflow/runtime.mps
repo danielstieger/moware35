@@ -44511,26 +44511,44 @@
     </node>
     <node concept="2tJIrI" id="13qccrTLIAg" role="jymVt" />
     <node concept="2YIFZL" id="13qccrTLIvO" role="jymVt">
-      <property role="TrG5h" value="getCmdModuleName" />
+      <property role="TrG5h" value="getCmdModuleInstanceName" />
       <node concept="37vLTG" id="13qccrTLIvP" role="3clF46">
-        <property role="TrG5h" value="cmdFf" />
+        <property role="TrG5h" value="commandFqName" />
         <node concept="17QB3L" id="13qccrTLIvQ" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="13qccrTLIvR" role="3clF45" />
       <node concept="3Tm1VV" id="13qccrTLIvS" role="1B3o_S" />
       <node concept="3clFbS" id="13qccrTLIvT" role="3clF47">
+        <node concept="3cpWs8" id="6W9Z7_c9BH6" role="3cqZAp">
+          <node concept="3cpWsn" id="6W9Z7_c9BH9" role="3cpWs9">
+            <property role="TrG5h" value="packageName" />
+            <node concept="17QB3L" id="6W9Z7_c9BH4" role="1tU5fm" />
+            <node concept="1rXfSq" id="13qccrTLJ8q" role="33vP2m">
+              <ref role="37wK5l" node="7Ako_ORo1Ak" resolve="getPackageName" />
+              <node concept="37vLTw" id="13qccrTLJcp" role="37wK5m">
+                <ref role="3cqZAo" node="13qccrTLIvP" resolve="commandFqName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6W9Z7_cyhie" role="3cqZAp" />
         <node concept="3cpWs8" id="13qccrTLIY3" role="3cqZAp">
           <node concept="3cpWsn" id="13qccrTLIY6" role="3cpWs9">
             <property role="TrG5h" value="moduleFqName" />
             <node concept="17QB3L" id="13qccrTLIY1" role="1tU5fm" />
-            <node concept="3cpWs3" id="13qccrTLJe$" role="33vP2m">
-              <node concept="Xl_RD" id="13qccrTLJg4" role="3uHU7w">
-                <property role="Xl_RC" value=".CmdModule" />
+            <node concept="3cpWs3" id="6W9Z7_c9BvT" role="33vP2m">
+              <node concept="3cpWs3" id="13qccrTLJe$" role="3uHU7B">
+                <node concept="Xl_RD" id="6W9Z7_c9Bpq" role="3uHU7w">
+                  <property role="Xl_RC" value="." />
+                </node>
+                <node concept="37vLTw" id="6W9Z7_c9BYB" role="3uHU7B">
+                  <ref role="3cqZAo" node="6W9Z7_c9BH9" resolve="packageName" />
+                </node>
               </node>
-              <node concept="1rXfSq" id="13qccrTLJ8q" role="3uHU7B">
-                <ref role="37wK5l" node="7Ako_ORo1Ak" resolve="getPackageName" />
-                <node concept="37vLTw" id="13qccrTLJcp" role="37wK5m">
-                  <ref role="3cqZAo" node="13qccrTLIvP" resolve="cmdFf" />
+              <node concept="1rXfSq" id="6W9Z7_c_$93" role="3uHU7w">
+                <ref role="37wK5l" node="6W9Z7_c_yEm" resolve="getCmdModuleClassName" />
+                <node concept="37vLTw" id="6W9Z7_c_$fn" role="37wK5m">
+                  <ref role="3cqZAo" node="6W9Z7_c9BH9" resolve="packageName" />
                 </node>
               </node>
             </node>
@@ -44549,6 +44567,39 @@
               <node concept="Xl_RD" id="13qccrTLJX9" role="37wK5m">
                 <property role="Xl_RC" value="_" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YIFZL" id="6W9Z7_c_yEm" role="jymVt">
+      <property role="TrG5h" value="getCmdModuleClassName" />
+      <node concept="37vLTG" id="6W9Z7_c_yEn" role="3clF46">
+        <property role="TrG5h" value="packageName" />
+        <node concept="17QB3L" id="6W9Z7_c_yEo" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="6W9Z7_c_yEp" role="3clF45" />
+      <node concept="3Tm1VV" id="6W9Z7_c_yEq" role="1B3o_S" />
+      <node concept="3clFbS" id="6W9Z7_c_yEr" role="3clF47">
+        <node concept="3cpWs8" id="6W9Z7_cygSA" role="3cqZAp">
+          <node concept="3cpWsn" id="6W9Z7_cygSD" role="3cpWs9">
+            <property role="TrG5h" value="lastNameSpace" />
+            <node concept="17QB3L" id="6W9Z7_cygS$" role="1tU5fm" />
+            <node concept="1rXfSq" id="6W9Z7_cyh4g" role="33vP2m">
+              <ref role="37wK5l" node="3thSvUuYthJ" resolve="getCapitalizedShortNameFromFQ" />
+              <node concept="37vLTw" id="6W9Z7_cyh8w" role="37wK5m">
+                <ref role="3cqZAo" node="6W9Z7_c_yEn" resolve="packageName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6W9Z7_c_zyH" role="3cqZAp">
+          <node concept="3cpWs3" id="6W9Z7_cNIzP" role="3cqZAk">
+            <node concept="37vLTw" id="6W9Z7_c_zAI" role="3uHU7w">
+              <ref role="3cqZAo" node="6W9Z7_cygSD" resolve="lastNameSpace" />
+            </node>
+            <node concept="Xl_RD" id="6W9Z7_c_zGI" role="3uHU7B">
+              <property role="Xl_RC" value="CmdModule" />
             </node>
           </node>
         </node>

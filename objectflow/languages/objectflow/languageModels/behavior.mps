@@ -16542,7 +16542,7 @@
     <property role="3GE5qa" value="OFXCore.actions" />
     <ref role="13h7C2" to="un0u:3nLPQZPP4Ds" resolve="Action" />
     <node concept="13i0hz" id="5ol$Nw0ikB" role="13h7CS">
-      <property role="TrG5h" value="isDefault" />
+      <property role="TrG5h" value="isDefaultLabel" />
       <node concept="3Tm1VV" id="5ol$Nw0ikC" role="1B3o_S" />
       <node concept="10P_77" id="5ol$Nw0il_" role="3clF45" />
       <node concept="3clFbS" id="5ol$Nw0ikE" role="3clF47">
