@@ -485,7 +485,7 @@
   </registry>
   <node concept="2DaZZR" id="4ExFGZU46k1" />
   <node concept="sE7Ow" id="2C3bueoZb5O">
-    <property role="TrG5h" value="MoWareAutoCompletor" />
+    <property role="TrG5h" value="MoWareAutoCompleter" />
     <property role="2uzpH1" value="MoWare - AutoComplete Wizzard" />
     <property role="1WHSii" value="Create complete command infra for entity" />
     <property role="fJN8o" value="true" />
@@ -1481,7 +1481,7 @@
     </node>
     <node concept="ftmFs" id="2C3bueoZb65" role="ftER_">
       <node concept="tCFHf" id="2C3bueoZb68" role="ftvYc">
-        <ref role="tCJdB" node="2C3bueoZb5O" resolve="MoWareAutoCompletor" />
+        <ref role="tCJdB" node="2C3bueoZb5O" resolve="MoWareAutoCompleter" />
       </node>
       <node concept="tCFHf" id="3feBNMF$uhg" role="ftvYc">
         <ref role="tCJdB" node="3feBNMFzUPF" resolve="LanguageStringsExport" />
