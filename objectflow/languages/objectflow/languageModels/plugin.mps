@@ -608,7 +608,7 @@
   </node>
   <node concept="sE7Ow" id="I5W9GWJdq6">
     <property role="TrG5h" value="DbDescribeToEntity" />
-    <property role="2uzpH1" value="MoWare - Create Entity / Mapping from DESC" />
+    <property role="2uzpH1" value="Werkbank - Create Entity / Mapping from DESC" />
     <property role="1WHSii" value="Entity from SQL desc table" />
     <property role="fJN8o" value="true" />
     <node concept="1DS2jV" id="5mGQlJEq_CQ" role="1NuT2Z">
@@ -1464,7 +1464,7 @@
   <node concept="2DaZZR" id="4ExFGZU46k1" />
   <node concept="sE7Ow" id="6Sgpd1fZzmy">
     <property role="TrG5h" value="OFXSummarizeInformation" />
-    <property role="2uzpH1" value="MoWare - Project overview " />
+    <property role="2uzpH1" value="Werkbank - Project overview " />
     <property role="72QZ$" value="true" />
     <property role="fJN8o" value="true" />
     <property role="1WHSii" value="Generate overall report" />
@@ -2364,7 +2364,7 @@
   </node>
   <node concept="sE7Ow" id="3mhGZE2zCZS">
     <property role="TrG5h" value="TestDataFromCSV" />
-    <property role="2uzpH1" value="MoWare - Parse CSV-Data for TestData " />
+    <property role="2uzpH1" value="Werkbank - Parse CSV-Data for TestData " />
     <property role="1WHSii" value="Create TestData instances from CSV data" />
     <property role="72QZ$" value="true" />
     <property role="fJN8o" value="true" />
@@ -5853,7 +5853,7 @@
   </node>
   <node concept="sE7Ow" id="7ySAZj0bgeI">
     <property role="TrG5h" value="OFXServiceAnalyzer" />
-    <property role="2uzpH1" value="MoWare - Service-Structure Analyzer" />
+    <property role="2uzpH1" value="Werkbank - Service-Structure Analyzer" />
     <property role="72QZ$" value="true" />
     <property role="fJN8o" value="true" />
     <property role="1WHSii" value="Generate overall report" />
@@ -8795,7 +8795,7 @@
   </node>
   <node concept="sE7Ow" id="35a9wK5RH6t">
     <property role="TrG5h" value="DbDescribeToViewObject" />
-    <property role="2uzpH1" value="MoWare - Create ViewObject / NoKeyMapper from DESC" />
+    <property role="2uzpH1" value="Werkbank - Create ViewObject / NoKeyMapper from DESC" />
     <property role="1WHSii" value="ViewObject from SQL desc table" />
     <property role="fJN8o" value="true" />
     <node concept="1DS2jV" id="35a9wK5RH6u" role="1NuT2Z">
