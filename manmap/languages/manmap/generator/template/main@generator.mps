@@ -5867,22 +5867,26 @@
                           <ref role="3cqZAo" node="17uSheOzvrb" resolve="__jdbcTemplate" />
                         </node>
                         <node concept="liA8E" id="2Oo32eoNPDC" role="2OqNvi">
-                          <ref role="37wK5l" to="mbv:~JdbcTemplate.queryForInt(java.lang.String):int" resolve="queryForInt" />
-                          <node concept="Xl_RD" id="2Oo32eoNPDE" role="37wK5m">
-                            <property role="Xl_RC" value="SELECT S_SEQ.NEXTVAL FROM DUAL" />
-                            <node concept="17Uvod" id="2Oo32eoNPGa" role="lGtFl">
-                              <property role="2qtEX9" value="value" />
-                              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                              <node concept="3zFVjK" id="2Oo32eoNPGb" role="3zH0cK">
-                                <node concept="3clFbS" id="2Oo32eoNPGc" role="2VODD2">
-                                  <node concept="3clFbF" id="2Oo32eoNPH$" role="3cqZAp">
-                                    <node concept="2YIFZM" id="2Oo32eoNPHA" role="3clFbG">
-                                      <ref role="37wK5l" to="n4mo:2Oo32eoNPEN" resolve="getOracleQuerySequenceStatement" />
-                                      <ref role="1Pybhc" to="n4mo:17uSheOuH5Q" resolve="ManmapSQLStatementProvider" />
-                                      <node concept="2OqwBi" id="35a9wK6IWml" role="37wK5m">
-                                        <node concept="30H73N" id="2Oo32eoNPHB" role="2Oq$k0" />
-                                        <node concept="2qgKlT" id="35a9wK78NPO" role="2OqNvi">
-                                          <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                          <ref role="37wK5l" to="mbv:~JdbcTemplate.queryForLong(java.lang.String):long" resolve="queryForLong" />
+                          <node concept="2OqwBi" id="4GRUFlpFZY9" role="37wK5m">
+                            <node concept="37vLTw" id="4GRUFlpFZMZ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1YSLAaC91oJ" resolve="__dbDesc" />
+                            </node>
+                            <node concept="liA8E" id="4GRUFlpG0ED" role="2OqNvi">
+                              <ref role="37wK5l" to="w7gk:4GRUFlpFS3$" resolve="queryForKey" />
+                              <node concept="Xl_RD" id="4GRUFlpG0VL" role="37wK5m">
+                                <property role="Xl_RC" value="SequenceName" />
+                                <node concept="17Uvod" id="4GRUFlpG1G0" role="lGtFl">
+                                  <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                  <property role="2qtEX9" value="value" />
+                                  <node concept="3zFVjK" id="4GRUFlpG1G1" role="3zH0cK">
+                                    <node concept="3clFbS" id="4GRUFlpG1G2" role="2VODD2">
+                                      <node concept="3clFbF" id="4GRUFlpGhYC" role="3cqZAp">
+                                        <node concept="2OqwBi" id="4GRUFlpGi1p" role="3clFbG">
+                                          <node concept="30H73N" id="4GRUFlpGhYB" role="2Oq$k0" />
+                                          <node concept="2qgKlT" id="4GRUFlpGi9l" role="2OqNvi">
+                                            <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
@@ -5926,21 +5930,25 @@
                             </node>
                             <node concept="liA8E" id="29mqFQyyP1i" role="2OqNvi">
                               <ref role="37wK5l" to="mbv:~JdbcTemplate.queryForInt(java.lang.String):int" resolve="queryForInt" />
-                              <node concept="Xl_RD" id="29mqFQyyP1j" role="37wK5m">
-                                <property role="Xl_RC" value="SELECT S_SEQ.NEXTVAL FROM DUAL" />
-                                <node concept="17Uvod" id="29mqFQyyP1k" role="lGtFl">
-                                  <property role="2qtEX9" value="value" />
-                                  <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                                  <node concept="3zFVjK" id="29mqFQyyP1l" role="3zH0cK">
-                                    <node concept="3clFbS" id="29mqFQyyP1m" role="2VODD2">
-                                      <node concept="3clFbF" id="29mqFQyyP1n" role="3cqZAp">
-                                        <node concept="2YIFZM" id="29mqFQyyP1o" role="3clFbG">
-                                          <ref role="1Pybhc" to="n4mo:17uSheOuH5Q" resolve="ManmapSQLStatementProvider" />
-                                          <ref role="37wK5l" to="n4mo:2Oo32eoNPEN" resolve="getOracleQuerySequenceStatement" />
-                                          <node concept="2OqwBi" id="29mqFQyyP1p" role="37wK5m">
-                                            <node concept="30H73N" id="29mqFQyyP1q" role="2Oq$k0" />
-                                            <node concept="2qgKlT" id="29mqFQyyP1r" role="2OqNvi">
-                                              <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                              <node concept="2OqwBi" id="4GRUFlpGih_" role="37wK5m">
+                                <node concept="37vLTw" id="4GRUFlpGihA" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1YSLAaC91oJ" resolve="__dbDesc" />
+                                </node>
+                                <node concept="liA8E" id="4GRUFlpGihB" role="2OqNvi">
+                                  <ref role="37wK5l" to="w7gk:4GRUFlpFS3$" resolve="queryForKey" />
+                                  <node concept="Xl_RD" id="4GRUFlpGihC" role="37wK5m">
+                                    <property role="Xl_RC" value="SequenceName" />
+                                    <node concept="17Uvod" id="4GRUFlpGihD" role="lGtFl">
+                                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                      <property role="2qtEX9" value="value" />
+                                      <node concept="3zFVjK" id="4GRUFlpGihE" role="3zH0cK">
+                                        <node concept="3clFbS" id="4GRUFlpGihF" role="2VODD2">
+                                          <node concept="3clFbF" id="4GRUFlpGihG" role="3cqZAp">
+                                            <node concept="2OqwBi" id="4GRUFlpGihH" role="3clFbG">
+                                              <node concept="30H73N" id="4GRUFlpGihI" role="2Oq$k0" />
+                                              <node concept="2qgKlT" id="4GRUFlpGihJ" role="2OqNvi">
+                                                <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                                              </node>
                                             </node>
                                           </node>
                                         </node>
@@ -6302,22 +6310,26 @@
                               <ref role="3cqZAo" node="17uSheOzvrb" resolve="__jdbcTemplate" />
                             </node>
                             <node concept="liA8E" id="29mqFQyyPN5" role="2OqNvi">
-                              <ref role="37wK5l" to="mbv:~JdbcTemplate.queryForInt(java.lang.String):int" resolve="queryForInt" />
-                              <node concept="Xl_RD" id="29mqFQyyPN6" role="37wK5m">
-                                <property role="Xl_RC" value="SELECT S_SEQ.NEXTVAL FROM DUAL" />
-                                <node concept="17Uvod" id="29mqFQyyPN7" role="lGtFl">
-                                  <property role="2qtEX9" value="value" />
-                                  <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                                  <node concept="3zFVjK" id="29mqFQyyPN8" role="3zH0cK">
-                                    <node concept="3clFbS" id="29mqFQyyPN9" role="2VODD2">
-                                      <node concept="3clFbF" id="29mqFQyyPNa" role="3cqZAp">
-                                        <node concept="2YIFZM" id="29mqFQyyPNb" role="3clFbG">
-                                          <ref role="37wK5l" to="n4mo:2Oo32eoNPEN" resolve="getOracleQuerySequenceStatement" />
-                                          <ref role="1Pybhc" to="n4mo:17uSheOuH5Q" resolve="ManmapSQLStatementProvider" />
-                                          <node concept="2OqwBi" id="29mqFQyyPNc" role="37wK5m">
-                                            <node concept="30H73N" id="29mqFQyyPNd" role="2Oq$k0" />
-                                            <node concept="2qgKlT" id="29mqFQyyPNe" role="2OqNvi">
-                                              <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                              <ref role="37wK5l" to="mbv:~JdbcTemplate.queryForLong(java.lang.String):long" resolve="queryForLong" />
+                              <node concept="2OqwBi" id="4GRUFlpGj$i" role="37wK5m">
+                                <node concept="37vLTw" id="4GRUFlpGj$j" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1YSLAaC91oJ" resolve="__dbDesc" />
+                                </node>
+                                <node concept="liA8E" id="4GRUFlpGj$k" role="2OqNvi">
+                                  <ref role="37wK5l" to="w7gk:4GRUFlpFS3$" resolve="queryForKey" />
+                                  <node concept="Xl_RD" id="4GRUFlpGj$l" role="37wK5m">
+                                    <property role="Xl_RC" value="SequenceName" />
+                                    <node concept="17Uvod" id="4GRUFlpGj$m" role="lGtFl">
+                                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                      <property role="2qtEX9" value="value" />
+                                      <node concept="3zFVjK" id="4GRUFlpGj$n" role="3zH0cK">
+                                        <node concept="3clFbS" id="4GRUFlpGj$o" role="2VODD2">
+                                          <node concept="3clFbF" id="4GRUFlpGj$p" role="3cqZAp">
+                                            <node concept="2OqwBi" id="4GRUFlpGj$q" role="3clFbG">
+                                              <node concept="30H73N" id="4GRUFlpGj$r" role="2Oq$k0" />
+                                              <node concept="2qgKlT" id="4GRUFlpGj$s" role="2OqNvi">
+                                                <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                                              </node>
                                             </node>
                                           </node>
                                         </node>
@@ -6361,21 +6373,25 @@
                                 </node>
                                 <node concept="liA8E" id="29mqFQyyPNu" role="2OqNvi">
                                   <ref role="37wK5l" to="mbv:~JdbcTemplate.queryForInt(java.lang.String):int" resolve="queryForInt" />
-                                  <node concept="Xl_RD" id="29mqFQyyPNv" role="37wK5m">
-                                    <property role="Xl_RC" value="SELECT S_SEQ.NEXTVAL FROM DUAL" />
-                                    <node concept="17Uvod" id="29mqFQyyPNw" role="lGtFl">
-                                      <property role="2qtEX9" value="value" />
-                                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                                      <node concept="3zFVjK" id="29mqFQyyPNx" role="3zH0cK">
-                                        <node concept="3clFbS" id="29mqFQyyPNy" role="2VODD2">
-                                          <node concept="3clFbF" id="29mqFQyyPNz" role="3cqZAp">
-                                            <node concept="2YIFZM" id="29mqFQyyPN$" role="3clFbG">
-                                              <ref role="37wK5l" to="n4mo:2Oo32eoNPEN" resolve="getOracleQuerySequenceStatement" />
-                                              <ref role="1Pybhc" to="n4mo:17uSheOuH5Q" resolve="ManmapSQLStatementProvider" />
-                                              <node concept="2OqwBi" id="29mqFQyyPN_" role="37wK5m">
-                                                <node concept="30H73N" id="29mqFQyyPNA" role="2Oq$k0" />
-                                                <node concept="2qgKlT" id="29mqFQyyPNB" role="2OqNvi">
-                                                  <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                                  <node concept="2OqwBi" id="4GRUFlpGiVU" role="37wK5m">
+                                    <node concept="37vLTw" id="4GRUFlpGiVV" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="1YSLAaC91oJ" resolve="__dbDesc" />
+                                    </node>
+                                    <node concept="liA8E" id="4GRUFlpGiVW" role="2OqNvi">
+                                      <ref role="37wK5l" to="w7gk:4GRUFlpFS3$" resolve="queryForKey" />
+                                      <node concept="Xl_RD" id="4GRUFlpGiVX" role="37wK5m">
+                                        <property role="Xl_RC" value="SequenceName" />
+                                        <node concept="17Uvod" id="4GRUFlpGiVY" role="lGtFl">
+                                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                          <property role="2qtEX9" value="value" />
+                                          <node concept="3zFVjK" id="4GRUFlpGiVZ" role="3zH0cK">
+                                            <node concept="3clFbS" id="4GRUFlpGiW0" role="2VODD2">
+                                              <node concept="3clFbF" id="4GRUFlpGiW1" role="3cqZAp">
+                                                <node concept="2OqwBi" id="4GRUFlpGiW2" role="3clFbG">
+                                                  <node concept="30H73N" id="4GRUFlpGiW3" role="2Oq$k0" />
+                                                  <node concept="2qgKlT" id="4GRUFlpGiW4" role="2OqNvi">
+                                                    <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                                                  </node>
                                                 </node>
                                               </node>
                                             </node>
@@ -21099,21 +21115,35 @@
             <property role="P4ACc" value="479c7a8c-02f9-43b5-9139-d910cb22f298/1622293396948952339/1622293396948953704" />
             <node concept="3zFVjK" id="6cFiWEVtNWs" role="3zH0cK">
               <node concept="3clFbS" id="6cFiWEVtNWt" role="2VODD2">
-                <node concept="3clFbF" id="6cFiWEVtPyz" role="3cqZAp">
-                  <node concept="2YIFZM" id="6cFiWEVtPKv" role="3clFbG">
-                    <ref role="37wK5l" to="n4mo:7kI3k5B0dqt" resolve="getAllSqlForPersistanceDescription" />
-                    <ref role="1Pybhc" to="n4mo:7kI3k5AZW4s" resolve="SqlOracleTableDescriptor" />
-                    <node concept="30H73N" id="6cFiWEVtPVI" role="37wK5m" />
+                <node concept="3clFbJ" id="3ame6j6zMpI" role="3cqZAp">
+                  <node concept="3clFbS" id="3ame6j6zMpK" role="3clFbx">
+                    <node concept="3cpWs6" id="1CyCEw9lpss" role="3cqZAp">
+                      <node concept="2YIFZM" id="1CyCEw9lpst" role="3cqZAk">
+                        <ref role="1Pybhc" to="n4mo:1YSLAaBArI5" resolve="SqlMySqlTableDescriptor" />
+                        <ref role="37wK5l" to="n4mo:1YSLAaBArPF" resolve="getAllSqlForPersistanceDescription" />
+                        <node concept="30H73N" id="1CyCEw9lpsu" role="37wK5m" />
+                      </node>
+                    </node>
                   </node>
-                </node>
-                <node concept="1X3_iC" id="4bjBXGrALQg" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbF" id="1YSLAaBAPZD" role="8Wnug">
-                    <node concept="2YIFZM" id="1YSLAaBAPZE" role="3clFbG">
-                      <ref role="1Pybhc" to="n4mo:1YSLAaBArI5" resolve="SqlMySqlTableDescriptor" />
-                      <ref role="37wK5l" to="n4mo:1YSLAaBArPF" resolve="getAllSqlForPersistanceDescription" />
-                      <node concept="30H73N" id="1YSLAaBAPZF" role="37wK5m" />
+                  <node concept="3y3z36" id="3ame6j6zMOL" role="3clFbw">
+                    <node concept="10Nm6u" id="3ame6j6zMQ9" role="3uHU7w" />
+                    <node concept="2YIFZM" id="3ame6j6zMsU" role="3uHU7B">
+                      <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                      <ref role="37wK5l" to="wyt6:~System.getenv(java.lang.String):java.lang.String" resolve="getenv" />
+                      <node concept="Xl_RD" id="3ame6j6zMwG" role="37wK5m">
+                        <property role="Xl_RC" value="WERKBANK_MYSQL" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="9aQIb" id="3ame6j6zN2r" role="9aQIa">
+                    <node concept="3clFbS" id="3ame6j6zN2s" role="9aQI4">
+                      <node concept="3cpWs6" id="1CyCEw9lpw_" role="3cqZAp">
+                        <node concept="2YIFZM" id="1CyCEw9lpwA" role="3cqZAk">
+                          <ref role="37wK5l" to="n4mo:7kI3k5B0dqt" resolve="getAllSqlForPersistanceDescription" />
+                          <ref role="1Pybhc" to="n4mo:7kI3k5AZW4s" resolve="SqlOracleTableDescriptor" />
+                          <node concept="30H73N" id="1CyCEw9lpwB" role="37wK5m" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>

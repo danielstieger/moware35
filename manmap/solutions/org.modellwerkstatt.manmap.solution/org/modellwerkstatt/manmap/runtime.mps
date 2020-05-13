@@ -8015,6 +8015,18 @@
   <node concept="3HP615" id="1YSLAaBz9tw">
     <property role="TrG5h" value="IM3DatabaseDescription" />
     <node concept="2tJIrI" id="1YSLAaBz9vg" role="jymVt" />
+    <node concept="3clFb_" id="4GRUFlpFS3$" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="queryForKey" />
+      <node concept="3clFbS" id="4GRUFlpFS3B" role="3clF47" />
+      <node concept="3Tm1VV" id="4GRUFlpFS3C" role="1B3o_S" />
+      <node concept="17QB3L" id="4GRUFlpFS29" role="3clF45" />
+      <node concept="37vLTG" id="4GRUFlpFS4D" role="3clF46">
+        <property role="TrG5h" value="sequenceName" />
+        <node concept="17QB3L" id="4GRUFlpFS4C" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="3clFb_" id="1YSLAaBz9w6" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="needsSequenceSelectPre" />
@@ -8130,6 +8142,34 @@
     <node concept="3uibUv" id="1YSLAaBzsdN" role="EKbjA">
       <ref role="3uigEE" node="1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
     </node>
+    <node concept="3clFb_" id="4GRUFlpFSdL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="queryForKey" />
+      <node concept="3Tm1VV" id="4GRUFlpFSdN" role="1B3o_S" />
+      <node concept="17QB3L" id="4GRUFlpFSdO" role="3clF45" />
+      <node concept="37vLTG" id="4GRUFlpFSdP" role="3clF46">
+        <property role="TrG5h" value="sequenceName" />
+        <node concept="17QB3L" id="4GRUFlpFSdQ" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="4GRUFlpFSdR" role="3clF47">
+        <node concept="3clFbF" id="2Oo32eoNPER" role="3cqZAp">
+          <node concept="3cpWs3" id="4ImMQ5tmpEZ" role="3clFbG">
+            <node concept="Xl_RD" id="4ImMQ5tmpF2" role="3uHU7w">
+              <property role="Xl_RC" value=".NEXTVAL FROM DUAL" />
+            </node>
+            <node concept="3cpWs3" id="2Oo32eoNPFJ" role="3uHU7B">
+              <node concept="37vLTw" id="35a9wK78QCA" role="3uHU7w">
+                <ref role="3cqZAo" node="4GRUFlpFSdP" resolve="sequenceName" />
+              </node>
+              <node concept="Xl_RD" id="4ImMQ5tmpEK" role="3uHU7B">
+                <property role="Xl_RC" value="SELECT " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="1YSLAaBzspJ">
     <property role="TrG5h" value="MMMySqlDescription" />
@@ -8198,6 +8238,24 @@
         <node concept="3clFbF" id="1YSLAaBzsq2" role="3cqZAp">
           <node concept="Xl_RD" id="1YSLAaBzsq3" role="3clFbG">
             <property role="Xl_RC" value="SELECT current_timestamp()" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4GRUFlpFS88" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="queryForKey" />
+      <node concept="3Tm1VV" id="4GRUFlpFS8a" role="1B3o_S" />
+      <node concept="17QB3L" id="4GRUFlpFS8b" role="3clF45" />
+      <node concept="37vLTG" id="4GRUFlpFS8c" role="3clF46">
+        <property role="TrG5h" value="sequenceName" />
+        <node concept="17QB3L" id="4GRUFlpFS8d" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="4GRUFlpFS8e" role="3clF47">
+        <node concept="3clFbF" id="4GRUFlpFTOG" role="3cqZAp">
+          <node concept="Xl_RD" id="1YSLAaC9VDc" role="3clFbG">
+            <property role="Xl_RC" value="SELECT LAST_INSERT_ID()" />
           </node>
         </node>
       </node>

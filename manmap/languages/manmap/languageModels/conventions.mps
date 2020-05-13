@@ -2217,48 +2217,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1YSLAaC9TEC" role="jymVt" />
-    <node concept="2YIFZL" id="2Oo32eoNPEN" role="jymVt">
-      <property role="TrG5h" value="getOracleQuerySequenceStatement" />
-      <node concept="37vLTG" id="2Oo32eoNPEU" role="3clF46">
-        <property role="TrG5h" value="sequenceName" />
-        <node concept="17QB3L" id="35a9wK78Qmy" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="2Oo32eoNPES" role="3clF45" />
-      <node concept="3Tm1VV" id="2Oo32eoNPEP" role="1B3o_S" />
-      <node concept="3clFbS" id="2Oo32eoNPEQ" role="3clF47">
-        <node concept="3clFbH" id="2Oo32eoNPEZ" role="3cqZAp" />
-        <node concept="3clFbF" id="2Oo32eoNPER" role="3cqZAp">
-          <node concept="3cpWs3" id="4ImMQ5tmpEZ" role="3clFbG">
-            <node concept="Xl_RD" id="4ImMQ5tmpF2" role="3uHU7w">
-              <property role="Xl_RC" value=".NEXTVAL FROM DUAL" />
-            </node>
-            <node concept="3cpWs3" id="2Oo32eoNPFJ" role="3uHU7B">
-              <node concept="37vLTw" id="35a9wK78QCA" role="3uHU7w">
-                <ref role="3cqZAo" node="2Oo32eoNPEU" resolve="sequenceName" />
-              </node>
-              <node concept="Xl_RD" id="4ImMQ5tmpEK" role="3uHU7B">
-                <property role="Xl_RC" value="SELECT " />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1YSLAaC9U$D" role="jymVt" />
-    <node concept="2YIFZL" id="1YSLAaC9U5t" role="jymVt">
-      <property role="TrG5h" value="getMySQLQueryLastIdStatement" />
-      <node concept="17QB3L" id="1YSLAaC9U5w" role="3clF45" />
-      <node concept="3Tm1VV" id="1YSLAaC9U5x" role="1B3o_S" />
-      <node concept="3clFbS" id="1YSLAaC9U5y" role="3clF47">
-        <node concept="3clFbF" id="1YSLAaC9VDd" role="3cqZAp">
-          <node concept="Xl_RD" id="1YSLAaC9VDc" role="3clFbG">
-            <property role="Xl_RC" value="SELECT LAST_INSERT_ID()" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1YSLAaC9SP1" role="jymVt" />
-    <node concept="2tJIrI" id="1YSLAaC9TfO" role="jymVt" />
     <node concept="2YIFZL" id="5_gFKlwIDSX" role="jymVt">
       <property role="TrG5h" value="getQueryForSingleObject" />
       <node concept="37vLTG" id="5_gFKlwIDT5" role="3clF46">
