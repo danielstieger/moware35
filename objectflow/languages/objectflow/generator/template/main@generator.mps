@@ -729,7 +729,7 @@
       <ref role="2rZz_L" to="tpee:fz12cDC" resolve="FieldDeclaration" />
     </node>
     <node concept="2rT7sh" id="3PmKne7Jthf" role="2rTMjI">
-      <property role="TrG5h" value="State" />
+      <property role="TrG5h" value="Sate" />
       <ref role="2rTdP9" to="un0u:1Csx3LqAoU5" resolve="State" />
       <ref role="2rZz_L" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
     </node>
@@ -7244,7 +7244,7 @@
                         <node concept="2OqwBi" id="3PmKne7OumA" role="3clFbG">
                           <node concept="1iwH7S" id="3PmKne7Oumz" role="2Oq$k0" />
                           <node concept="1iwH70" id="3PmKne7OumG" role="2OqNvi">
-                            <ref role="1iwH77" node="3PmKne7Jthf" resolve="State" />
+                            <ref role="1iwH77" node="3PmKne7Jthf" resolve="Sate" />
                             <node concept="2OqwBi" id="3PmKne7OumN" role="1iwH7V">
                               <node concept="30H73N" id="3PmKne7OumI" role="2Oq$k0" />
                               <node concept="3TrEf2" id="3PmKne7OumU" role="2OqNvi">
@@ -7326,7 +7326,7 @@
         </node>
       </node>
       <node concept="1WS0z7" id="3PmKne7JthL" role="lGtFl">
-        <ref role="2rW$FS" node="3PmKne7Jthf" resolve="State" />
+        <ref role="2rW$FS" node="3PmKne7Jthf" resolve="Sate" />
         <node concept="3JmXsc" id="3PmKne7JthM" role="3Jn$fo">
           <node concept="3clFbS" id="3PmKne7JthN" role="2VODD2">
             <node concept="3clFbF" id="3PmKne7JthR" role="3cqZAp">
@@ -12735,7 +12735,7 @@
                             <node concept="2OqwBi" id="4wvbHttaDu$" role="3clFbG">
                               <node concept="1iwH7S" id="4wvbHttaDu_" role="2Oq$k0" />
                               <node concept="1iwH70" id="4wvbHttaDuA" role="2OqNvi">
-                                <ref role="1iwH77" node="3PmKne7Jthf" resolve="State" />
+                                <ref role="1iwH77" node="3PmKne7Jthf" resolve="Sate" />
                                 <node concept="30H73N" id="4wvbHttaDuB" role="1iwH7V" />
                               </node>
                             </node>
