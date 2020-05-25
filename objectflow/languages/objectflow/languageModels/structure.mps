@@ -1639,7 +1639,7 @@
   <node concept="1TIwiD" id="7hXMISlOc7k">
     <property role="3GE5qa" value="BusinessObject.Options" />
     <property role="TrG5h" value="NotPersistedOption" />
-    <property role="34LRSv" value="PRESENTATION_PROP_NPDI" />
+    <property role="34LRSv" value="PRESENTATION_PROPERTY" />
     <property role="1pbfSe" value="1974563646" />
     <property role="R4oN_" value="not persisted dirty irrelevant" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
