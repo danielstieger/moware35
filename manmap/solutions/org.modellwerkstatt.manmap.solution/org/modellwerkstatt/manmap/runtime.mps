@@ -37,6 +37,7 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
+      <concept id="1188206331916" name="jetbrains.mps.baseLanguage.structure.Annotation" flags="ig" index="2ABs$o" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
         <child id="1188214630783" name="value" index="2B76xF" />
@@ -8351,6 +8352,27 @@
       <node concept="3clFbS" id="3RwvUFqjPyB" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="3RwvUFqjPwN" role="1B3o_S" />
+  </node>
+  <node concept="2ABs$o" id="4sawGDMOj9k">
+    <property role="TrG5h" value="RepoMethodNeedsTransaction" />
+    <node concept="3Tm1VV" id="4sawGDMOj9m" role="1B3o_S" />
+    <node concept="3UR2Jj" id="4sawGDMOjaH" role="lGtFl">
+      <node concept="TZ5HA" id="4sawGDMOjaI" role="TZ5H$">
+        <node concept="1dT_AC" id="4sawGDMOjaJ" role="1dT_Ay">
+          <property role="1dT_AB" value="Do not change this name. It is used in objectflow.OperationCall" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4sawGDMOjbT" role="TZ5H$">
+        <node concept="1dT_AC" id="4sawGDMOjbU" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4sawGDMOjbZ" role="TZ5H$">
+        <node concept="1dT_AC" id="4sawGDMOjc0" role="1dT_Ay">
+          <property role="1dT_AB" value="this is a workaround for repo/cmd in same model. " />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
