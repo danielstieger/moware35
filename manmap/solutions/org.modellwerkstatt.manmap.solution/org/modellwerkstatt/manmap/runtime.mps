@@ -37,6 +37,7 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
+      <concept id="1188206331916" name="jetbrains.mps.baseLanguage.structure.Annotation" flags="ig" index="2ABs$o" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
         <child id="1188214630783" name="value" index="2B76xF" />
@@ -8293,6 +8294,27 @@
       <node concept="3clFbS" id="3RwvUFqjPyB" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="3RwvUFqjPwN" role="1B3o_S" />
+  </node>
+  <node concept="2ABs$o" id="4pnF$Rfiiv2">
+    <property role="TrG5h" value="RepoMethodNeedsTransaction" />
+    <node concept="3Tm1VV" id="4pnF$Rfiiv4" role="1B3o_S" />
+    <node concept="3UR2Jj" id="4pnF$RfkZN5" role="lGtFl">
+      <node concept="TZ5HA" id="4pnF$RfkZN6" role="TZ5H$">
+        <node concept="1dT_AC" id="4pnF$RfkZN7" role="1dT_Ay">
+          <property role="1dT_AB" value="Do not rename this annotation. It s name is used in op call handling" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4pnF$RfkZOv" role="TZ5H$">
+        <node concept="1dT_AC" id="4pnF$RfkZOw" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4pnF$RfkZOG" role="TZ5H$">
+        <node concept="1dT_AC" id="4pnF$RfkZOH" role="1dT_Ay">
+          <property role="1dT_AB" value="this is a workaround." />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

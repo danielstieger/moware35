@@ -5996,6 +5996,20 @@
     <property role="TrG5h" value="FWWSRefactoringAnalytics" />
     <property role="2BwPS$" value="FWWS_Refact2020" />
     <property role="_Wzho" value="(0) Analytics for FWWS refactoring 2020" />
+    <node concept="_XfAh" id="3gNBHWQp94" role="_YvDr">
+      <property role="_XH9r" value="Virtual Business Property with logic" />
+      <ref role="_XDHR" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
+      <node concept="_ZGcI" id="3gNBHWQp96" role="_XPhp">
+        <node concept="3clFbS" id="3gNBHWQp98" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="_XfAh" id="3gNBHWQp9i" role="_YvDr">
+      <property role="_XH9r" value="Builder used not within factory, named '...factory'" />
+      <ref role="_XDHR" to="un0u:5kAqSpTXdTO" resolve="BuilderExpression" />
+      <node concept="_ZGcI" id="3gNBHWQp9k" role="_XPhp">
+        <node concept="3clFbS" id="3gNBHWQp9m" role="2VODD2" />
+      </node>
+    </node>
   </node>
 </model>
 
