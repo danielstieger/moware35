@@ -44349,12 +44349,12 @@
       </node>
     </node>
     <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
-      <property role="TrG5h" value="DBG_LOG_EVENTS_TO_CONSOLE" />
+      <property role="TrG5h" value="DBG_TRACING_TO_CONSOLE" />
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
       <node concept="3Tm1VV" id="7sK_OLrfr$S" role="1B3o_S" />
-      <node concept="3clFbT" id="5O582ufbln8" role="33vP2m">
-        <property role="3clFbU" value="false" />
+      <node concept="3clFbT" id="4nH4LOEFyQE" role="33vP2m">
+        <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="2tJIrI" id="7sK_OLreK7K" role="jymVt" />

@@ -3871,8 +3871,16 @@
                                                 </node>
                                                 <node concept="liA8E" id="1rrvF1jx5IQ" role="2OqNvi">
                                                   <ref role="37wK5l" to="1e0c:1nXeD0e_LbJ" resolve="showException" />
+                                                  <node concept="2OqwBi" id="4nH4LOEKndH" role="37wK5m">
+                                                    <node concept="3VsKOn" id="4nH4LOEKn9I" role="2Oq$k0">
+                                                      <ref role="3VsUkX" node="6qxhjMM6dmo" resolve="FX8Application" />
+                                                    </node>
+                                                    <node concept="liA8E" id="4nH4LOEKnFW" role="2OqNvi">
+                                                      <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                                    </node>
+                                                  </node>
                                                   <node concept="Xl_RD" id="1dzqM5xtYni" role="37wK5m">
-                                                    <property role="Xl_RC" value="FX8Application.defaultUncaughtExceptionHandler()" />
+                                                    <property role="Xl_RC" value="Exception caught by defaultUncaughtExceptionHandler()" />
                                                   </node>
                                                   <node concept="10Nm6u" id="6HvFgwc4k$g" role="37wK5m" />
                                                   <node concept="37vLTw" id="1dzqM5xtY$V" role="37wK5m">
@@ -4999,6 +5007,9 @@
                     <ref role="37wK5l" to="1e0c:20ohnkbJa49" resolve="initializeApplication" />
                     <node concept="37vLTw" id="r$jHpF2qNi" role="37wK5m">
                       <ref role="3cqZAo" node="7aUgYCzss6K" resolve="userEnv" />
+                    </node>
+                    <node concept="Xl_RD" id="4nH4LOEFiq9" role="37wK5m">
+                      <property role="Xl_RC" value="FX8" />
                     </node>
                     <node concept="Xl_RD" id="r$jHpF2qQX" role="37wK5m">
                       <property role="Xl_RC" value="local" />
@@ -7861,6 +7872,7 @@
       </node>
       <node concept="3Tm1VV" id="1T5PU5cinbh" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="4nH4LOEQt3Q" role="jymVt" />
     <node concept="3clFb_" id="5_bDd1dPz3I" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createTabContainerUi" />
