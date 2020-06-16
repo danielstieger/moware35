@@ -13335,14 +13335,11 @@
               </node>
               <node concept="2Rf3mk" id="2tJfPETYaIT" role="2OqNvi">
                 <node concept="3gmYPX" id="2tJfPETYaIU" role="1xVPHs">
-                  <node concept="3gn64h" id="2tJfPETYaIV" role="3gmYPZ">
-                    <ref role="3gnhBz" to="un0u:1Csx3Lqx5LH" resolve="CancelCommand" />
+                  <node concept="3gn64h" id="4nH4LOF$W4b" role="3gmYPZ">
+                    <ref role="3gnhBz" to="un0u:51llZt605sG" resolve="Precondition" />
                   </node>
                   <node concept="3gn64h" id="2tJfPETYaIW" role="3gmYPZ">
                     <ref role="3gnhBz" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
-                  </node>
-                  <node concept="3gn64h" id="2tJfPETYbsz" role="3gmYPZ">
-                    <ref role="3gnhBz" to="un0u:1Csx3Lqx52x" resolve="FlagCommand" />
                   </node>
                 </node>
               </node>
@@ -13356,7 +13353,7 @@
         <node concept="3clFbS" id="2tJfPESWJxK" role="3clFbx">
           <node concept="2MkqsV" id="2tJfPESWJxL" role="3cqZAp">
             <node concept="Xl_RD" id="2tJfPESWJxM" role="2MkJ7o">
-              <property role="Xl_RC" value="You need a cancel/page/flag to leave this event." />
+              <property role="Xl_RC" value="You need a precondition or page to leave this event." />
             </node>
             <node concept="1YBJjd" id="2tJfPESWJIE" role="2OEOjV">
               <ref role="1YBMHb" node="2tJfPESW5xV" resolve="pageEvent" />
