@@ -6518,7 +6518,7 @@
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="MoWareNPC2" />
     <property role="2BwPS$" value="Moware NPC 2020" />
-    <property role="_Wzho" value="(2) inspection after mig" />
+    <property role="_Wzho" value="(2) INSPECTION after mig and slight adoptions" />
     <property role="3GE5qa" value="NPC" />
     <node concept="_XfAh" id="5zWTQPjdX4l" role="_YvDr">
       <property role="_XH9r" value="Commands with null default args" />
@@ -6589,6 +6589,20 @@
                 </node>
               </node>
               <node concept="3x8VRR" id="3ooeAs1WQWf" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="54TfzDFlr02" role="_YvDr">
+      <property role="_XH9r" value="Delete Process Instances" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHnh" resolve="Process" />
+      <node concept="_ZGcI" id="54TfzDFlr04" role="_XPhp">
+        <node concept="3clFbS" id="54TfzDFlr06" role="2VODD2">
+          <node concept="3clFbF" id="70xURv7QbCI" role="3cqZAp">
+            <node concept="2OqwBi" id="70xURv7QbGO" role="3clFbG">
+              <node concept="_YI3z" id="70xURv7QbCg" role="2Oq$k0" />
+              <node concept="1PgB_6" id="70xURv7QbPo" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -6781,32 +6795,10 @@
       </node>
     </node>
     <node concept="_XfAh" id="7ALNKj5QiOp" role="_YvDr">
-      <property role="_XH9r" value="SearchCommand with selection update on parent" />
+      <property role="_XH9r" value="CHECLK !! SearchCommand with selection update on parent" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
       <node concept="_ZGcI" id="7ALNKj5QiOr" role="_XPhp">
         <node concept="3clFbS" id="7ALNKj5QiOt" role="2VODD2">
-          <node concept="3clFbF" id="7ALNKj5QoS1" role="3cqZAp">
-            <node concept="2OqwBi" id="7ALNKj5Qpww" role="3clFbG">
-              <node concept="2OqwBi" id="7ALNKj5QoVo" role="2Oq$k0">
-                <node concept="_YI3z" id="7ALNKj5QoS0" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="7ALNKj5Qp3W" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:1dqt$gJc2G4" />
-                </node>
-              </node>
-              <node concept="2Kehj3" id="7ALNKj5QqVB" role="2OqNvi" />
-            </node>
-          </node>
-          <node concept="3clFbF" id="7ALNKj5QscL" role="3cqZAp">
-            <node concept="2OqwBi" id="7ALNKj5QscM" role="3clFbG">
-              <node concept="2OqwBi" id="7ALNKj5QscN" role="2Oq$k0">
-                <node concept="_YI3z" id="7ALNKj5QscO" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="7ALNKj5QtBT" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:6IXTkEOVX_p" />
-                </node>
-              </node>
-              <node concept="2Kehj3" id="7ALNKj5QscQ" role="2OqNvi" />
-            </node>
-          </node>
           <node concept="3clFbH" id="7ALNKj5Qryk" role="3cqZAp" />
         </node>
       </node>
