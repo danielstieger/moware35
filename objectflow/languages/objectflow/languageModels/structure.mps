@@ -618,7 +618,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6ffh1MXzHn6">
-    <property role="TrG5h" value="Page" />
+    <property role="TrG5h" value="PageCrtl" />
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="1pbfSe" value="559815138" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -700,7 +700,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pages" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
+      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="PageCrtl" />
     </node>
     <node concept="1TJgyj" id="6ffh1MX_V6r" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1096,7 +1096,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="page" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
+      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="PageCrtl" />
     </node>
     <node concept="1TJgyj" id="2_YacpKx0lq" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3790,7 +3790,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20lbJX" value="1" />
       <property role="20kJfa" value="page" />
-      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
+      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="PageCrtl" />
     </node>
     <node concept="1TJgyj" id="3U0QWztHiCe" role="1TKVEi">
       <property role="20lmBu" value="reference" />

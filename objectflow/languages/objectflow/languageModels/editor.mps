@@ -2412,7 +2412,7 @@
   </node>
   <node concept="24kQdi" id="6ffh1MXzHn7">
     <property role="3GE5qa" value="OFXCore.command" />
-    <ref role="1XX52x" to="un0u:6ffh1MXzHn6" resolve="Page" />
+    <ref role="1XX52x" to="un0u:6ffh1MXzHn6" resolve="PageCrtl" />
     <node concept="3EZMnI" id="6ffh1MXEz8V" role="2wV5jI">
       <property role="S$Qs1" value="true" />
       <node concept="l2Vlx" id="6ffh1MXEz8X" role="2iSdaV" />
@@ -2490,7 +2490,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1Clc7wPShHL" role="3EZMnx">
-          <property role="3F0ifm" value="scopes/child term for page:" />
+          <property role="3F0ifm" value="scopes/child cmd term for page:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1Clc7wPShHM" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -3092,13 +3092,25 @@
           </node>
         </node>
         <node concept="3F0ifn" id="U8r3YqcXEp" role="3EZMnx">
-          <property role="3F0ifm" value="// check process, then commit session" />
+          <property role="3F0ifm" value="// exec session operations in transaction, then commit session" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="U8r3YqcXEq" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
           <node concept="lj46D" id="U8r3YqcXEr" role="3F10Kt">
             <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pkWqt" id="7l_2F8_MS$E" role="pqm2j">
+            <node concept="3clFbS" id="7l_2F8_MS$F" role="2VODD2">
+              <node concept="3clFbF" id="7l_2F8_MWZR" role="3cqZAp">
+                <node concept="2OqwBi" id="7l_2F8_MX4E" role="3clFbG">
+                  <node concept="pncrf" id="7l_2F8_MWZQ" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="7l_2F8_MXjk" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:6Rdz00$P7cW" resolve="isCommitSessionCommand" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3F0ifn" id="6IXTkEOVXO7" role="3EZMnx">
