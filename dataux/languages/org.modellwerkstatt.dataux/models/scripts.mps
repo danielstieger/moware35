@@ -6571,6 +6571,69 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="7chUzLST3YT" role="_YvDr">
+      <property role="_XH9r" value="Graph Edit Commands with null default args" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="7chUzLST3YU" role="_XPhp">
+        <node concept="3clFbS" id="7chUzLST3YV" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7chUzLST3YW" role="_XDHO">
+        <node concept="3clFbS" id="7chUzLST3YX" role="2VODD2">
+          <node concept="3clFbF" id="7chUzLST3YY" role="3cqZAp">
+            <node concept="1Wc70l" id="7chUzLST4_S" role="3clFbG">
+              <node concept="2OqwBi" id="7chUzLST5ey" role="3uHU7B">
+                <node concept="2OqwBi" id="7chUzLST4KX" role="2Oq$k0">
+                  <node concept="_YI3z" id="7chUzLST4DH" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7chUzLST50H" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="7chUzLST5w1" role="2OqNvi">
+                  <node concept="uoxfO" id="7chUzLST5w3" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7chUzLST3YZ" role="3uHU7w">
+                <node concept="2OqwBi" id="7chUzLST3Z0" role="2Oq$k0">
+                  <node concept="_YI3z" id="7chUzLST3Z1" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="7chUzLST3Z2" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:6ffh1MXA9UH" />
+                  </node>
+                </node>
+                <node concept="2HwmR7" id="7chUzLST3Z3" role="2OqNvi">
+                  <node concept="1bVj0M" id="7chUzLST3Z4" role="23t8la">
+                    <node concept="3clFbS" id="7chUzLST3Z5" role="1bW5cS">
+                      <node concept="3clFbF" id="7chUzLST3Z6" role="3cqZAp">
+                        <node concept="2OqwBi" id="7chUzLST3Z7" role="3clFbG">
+                          <node concept="2OqwBi" id="7chUzLST3Z8" role="2Oq$k0">
+                            <node concept="37vLTw" id="7chUzLST3Z9" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7chUzLST3Zd" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="7chUzLST3Za" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:fz3vP1I" />
+                            </node>
+                          </node>
+                          <node concept="1mIQ4w" id="7chUzLST3Zb" role="2OqNvi">
+                            <node concept="chp4Y" id="7chUzLST3Zc" role="cj9EA">
+                              <ref role="cht4Q" to="tpee:f_0Nm5B" resolve="NullLiteral" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="7chUzLST3Zd" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="7chUzLST3Ze" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="3ooeAs1WOXQ" role="_YvDr">
       <property role="_XH9r" value="Preconditions that might forward an exceptions" />
       <ref role="_XDHR" to="un0u:51llZt605sG" resolve="Precondition" />
