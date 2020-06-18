@@ -678,11 +678,11 @@
     <node concept="2rT7sh" id="6dnXV8mGSZ1" role="2rTMjI">
       <property role="TrG5h" value="Page" />
       <ref role="2rZz_L" to="tpee:fz12cDA" resolve="ClassConcept" />
-      <ref role="2rTdP9" to="un0u:6ffh1MXzHn6" resolve="Page" />
+      <ref role="2rTdP9" to="un0u:6ffh1MXzHn6" resolve="PageCrtl" />
     </node>
     <node concept="2rT7sh" id="3PmKne7Rfrj" role="2rTMjI">
       <property role="TrG5h" value="PageField" />
-      <ref role="2rTdP9" to="un0u:6ffh1MXzHn6" resolve="Page" />
+      <ref role="2rTdP9" to="un0u:6ffh1MXzHn6" resolve="PageCrtl" />
       <ref role="2rZz_L" to="tpee:fz12cDC" resolve="FieldDeclaration" />
     </node>
     <node concept="2rT7sh" id="5gqYsAQPGfr" role="2rTMjI">
