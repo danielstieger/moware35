@@ -4063,7 +4063,7 @@
     </node>
     <node concept="3clFb_" id="g2nNIPmzuh" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isShared" />
+      <property role="TrG5h" value="inSuccessorPattern" />
       <node concept="10P_77" id="g2nNIPmzBP" role="3clF45" />
       <node concept="3Tm1VV" id="g2nNIPmzuk" role="1B3o_S" />
       <node concept="3clFbS" id="g2nNIPmzul" role="3clF47" />
@@ -5574,12 +5574,12 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="g2nNIPmB$X" role="jymVt">
+    <node concept="3clFb_" id="2jF6$Lj1F5N" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="isShared" />
-      <node concept="10P_77" id="g2nNIPmB$Y" role="3clF45" />
-      <node concept="3Tm1VV" id="g2nNIPmB$Z" role="1B3o_S" />
-      <node concept="3clFbS" id="g2nNIPmB_2" role="3clF47">
+      <property role="TrG5h" value="inSuccessorPattern" />
+      <node concept="10P_77" id="2jF6$Lj1F5O" role="3clF45" />
+      <node concept="3Tm1VV" id="2jF6$Lj1F5P" role="1B3o_S" />
+      <node concept="3clFbS" id="2jF6$Lj1F5S" role="3clF47">
         <node concept="3clFbF" id="g2nNIPmDah" role="3cqZAp">
           <node concept="2OqwBi" id="g2nNIPmDcT" role="3clFbG">
             <node concept="Xjq3P" id="g2nNIPmDag" role="2Oq$k0" />
