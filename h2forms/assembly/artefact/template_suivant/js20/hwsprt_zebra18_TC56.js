@@ -74,6 +74,8 @@ function zzDefaultGoSubmit(){
     // svLog('hwDefaultOkSubmit', 'default ok submit called');
 
     // svDisableNavigation();
+    zzDisableScan();
+    svLog('zzDefaultGoSubmit', 'disabled scan()');
     saveSubmitDueGo();
 }
 

@@ -75,6 +75,8 @@ function zzDefaultGoSubmit(){
 
     // no longer alloweder, Dez 19
     // svDisableNavigation();
+    zzDisableScan();
+    svLog('zzDefaultGoSubmit', 'disabled scan()');
     saveSubmitDueGo();
 }
 
