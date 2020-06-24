@@ -35541,12 +35541,23 @@
                                           <node concept="3cpWs3" id="4nH4LOEQFo5" role="3uHU7B">
                                             <node concept="3cpWs3" id="4nH4LOEQFeq" role="3uHU7B">
                                               <node concept="3cpWs3" id="4nH4LOFSvcy" role="3uHU7B">
-                                                <node concept="10M0yZ" id="4nH4LOFSvfy" role="3uHU7B">
-                                                  <ref role="1PxDUh" node="3GQ300QoB23" resolve="UxEvent" />
-                                                  <ref role="3cqZAo" node="39R747sCXQ8" resolve="SPACE_N_DELIM" />
+                                                <node concept="3cpWs3" id="1vA10Dr9cJz" role="3uHU7B">
+                                                  <node concept="10M0yZ" id="1vA10Dr9cUl" role="3uHU7w">
+                                                    <ref role="1PxDUh" node="3GQ300QoB23" resolve="UxEvent" />
+                                                    <ref role="3cqZAo" node="39R747sCXQ8" resolve="SPACE_N_DELIM" />
+                                                  </node>
+                                                  <node concept="3cpWs3" id="1vA10Dr98s$" role="3uHU7B">
+                                                    <node concept="10M0yZ" id="4nH4LOFSvfy" role="3uHU7B">
+                                                      <ref role="1PxDUh" node="3GQ300QoB23" resolve="UxEvent" />
+                                                      <ref role="3cqZAo" node="39R747sCXQ8" resolve="SPACE_N_DELIM" />
+                                                    </node>
+                                                    <node concept="37vLTw" id="1vA10Dr9Fwb" role="3uHU7w">
+                                                      <ref role="3cqZAo" node="4nH4LOEQvkj" resolve="tsAsString" />
+                                                    </node>
+                                                  </node>
                                                 </node>
-                                                <node concept="37vLTw" id="4nH4LOEQFbE" role="3uHU7w">
-                                                  <ref role="3cqZAo" node="4nH4LOEQvkj" resolve="tsAsString" />
+                                                <node concept="37vLTw" id="1vA10Dr9F_0" role="3uHU7w">
+                                                  <ref role="3cqZAo" node="4nH4LOEQtea" resolve="timeTaken" />
                                                 </node>
                                               </node>
                                               <node concept="10M0yZ" id="4nH4LOEQFiL" role="3uHU7w">
