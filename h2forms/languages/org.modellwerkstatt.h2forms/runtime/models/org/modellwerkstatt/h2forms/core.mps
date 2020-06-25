@@ -2949,7 +2949,18 @@
                           <node concept="3cmrfG" id="4nH4LOEViui" role="37wK5m">
                             <property role="3cmrfH" value="0" />
                           </node>
-                          <node concept="Xl_RD" id="77tRpxxSyaw" role="37wK5m">
+                          <node concept="2OqwBi" id="7XXWpoMYW77" role="37wK5m">
+                            <node concept="2OqwBi" id="7XXWpoMYUXH" role="2Oq$k0">
+                              <node concept="Xjq3P" id="7XXWpoMYUTb" role="2Oq$k0" />
+                              <node concept="liA8E" id="7XXWpoMYW12" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7XXWpoMYXfE" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~Class.getSimpleName():java.lang.String" resolve="getSimpleName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="7XXWpoMYYo0" role="37wK5m">
                             <property role="Xl_RC" value="browser start" />
                           </node>
                           <node concept="3cpWs3" id="4nH4LOEVrUj" role="37wK5m">
