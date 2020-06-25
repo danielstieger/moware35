@@ -17,6 +17,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1219920932475" name="jetbrains.mps.baseLanguage.structure.VariableArityType" flags="in" index="8X2XB">
+        <child id="1219921048460" name="componentType" index="8Xvag" />
+      </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
@@ -341,9 +344,19 @@
         <property role="TrG5h" value="timeTaken" />
         <node concept="3cpWsb" id="4nH4LOEFzyL" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="2gs9poW5zpK" role="3clF46">
+        <property role="TrG5h" value="source" />
+        <node concept="17QB3L" id="2gs9poW5zwU" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="4nH4LOEEyz5" role="3clF46">
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="4nH4LOEEyB0" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="77tRpxxFL8Q" role="3clF46">
+        <property role="TrG5h" value="param" />
+        <node concept="8X2XB" id="77tRpxxFLkI" role="1tU5fm">
+          <node concept="17QB3L" id="77tRpxxFLge" role="8Xvag" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="4nH4LOEEyEV" role="jymVt" />

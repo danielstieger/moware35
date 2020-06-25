@@ -149,7 +149,6 @@
       <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T" />
       <concept id="3875131616719432922" name="org.modellwerkstatt.objectflow.structure.CommandCallBasis" flags="ng" index="2_HltQ">
         <reference id="3875131616719438756" name="command" index="2_Hrw8" />
-        <reference id="3875131616719438755" name="process" index="2_Hrwf" />
         <child id="3875131616719439029" name="actualArgument" index="2_HrWp" />
       </concept>
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
@@ -173,13 +172,6 @@
         <reference id="8554054623635738995" name="label" index="2DFCCC" />
         <child id="1881524139085091981" name="function" index="10ot2L" />
       </concept>
-      <concept id="1881524139086941829" name="org.modellwerkstatt.objectflow.structure.State" flags="ng" index="10xgET">
-        <reference id="1881524139086941858" name="status" index="10xgEu" />
-      </concept>
-      <concept id="1881524139087020878" name="org.modellwerkstatt.objectflow.structure.Transition" flags="ng" index="10x$tM">
-        <reference id="1881524139087020879" name="command" index="10x$tN" />
-      </concept>
-      <concept id="1881524139087047680" name="org.modellwerkstatt.objectflow.structure.OnTriggerTransition" flags="ng" index="10xUwW" />
       <concept id="1881524139085549729" name="org.modellwerkstatt.objectflow.structure.FlagCommand" flags="ng" index="10Adit">
         <child id="1881524139085549730" name="msgExpression" index="10Adiu" />
         <child id="1881524139085549731" name="conditionExpression" index="10Adiv" />
@@ -199,22 +191,16 @@
         <property id="271985905034983109" name="value" index="1mgVXS" />
       </concept>
       <concept id="7393934493398918410" name="org.modellwerkstatt.objectflow.structure.SuccessorCommandCall" flags="ng" index="1t46OP" />
-      <concept id="7192042020163999185" name="org.modellwerkstatt.objectflow.structure.Process" flags="ng" index="3ugp7d">
-        <reference id="1881524139087681829" name="statusField" index="10I5Op" />
-        <child id="1881524139086941830" name="states" index="10xgEU" />
-        <child id="1881524139088097910" name="creatorsAndViews" index="10HVpa" />
-      </concept>
       <concept id="7192042020163999178" name="org.modellwerkstatt.objectflow.structure.Command" flags="ng" index="3ugp7m">
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
         <property id="96922280160231604" name="defaultHotkey" index="3uBtrS" />
-        <reference id="1993450443311478185" name="process" index="3lhHOO" />
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
         <child id="1881524139085993258" name="cancelConclusionStatements" index="10_T4m" />
         <child id="7393934493399006223" name="successorCommand" index="1t4FgK" />
         <child id="7192042020164064743" name="pages" index="3ug97V" />
         <child id="7192042020164579739" name="commandInit" index="3umfm7" />
       </concept>
-      <concept id="7192042020163999174" name="org.modellwerkstatt.objectflow.structure.Page" flags="ng" index="3ugp7q">
+      <concept id="7192042020163999174" name="org.modellwerkstatt.objectflow.structure.PageCrtl" flags="ng" index="3ugp7q">
         <reference id="4152417163565704942" name="boundClass" index="3gcvY6" />
         <child id="3887124829264538806" name="pagePaneActionProviderLink" index="3063Jp" />
         <child id="1881524139084590837" name="conclusion" index="10qiF9" />
@@ -340,55 +326,10 @@
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
-  <node concept="3ugp7d" id="7agSOE7AXVE">
-    <property role="TrG5h" value="OrderProc" />
-    <property role="3GE5qa" value="proc" />
-    <ref role="10I5Op" to="t63u:51llZt4WimJ" resolve="status" />
-    <node concept="10xUwW" id="1w1DleJxqwu" role="10HVpa">
-      <ref role="10x$tN" node="1w1DleJxosq" resolve="SearchTestCases" />
-    </node>
-    <node concept="10xUwW" id="7agSOE7KgoW" role="10HVpa">
-      <ref role="10x$tN" node="7agSOE7AXY$" resolve="MainDoc" />
-    </node>
-    <node concept="10xUwW" id="7agSOE7Kgp2" role="10HVpa">
-      <ref role="10x$tN" node="7agSOE7AXYn" resolve="GraphEdit" />
-    </node>
-    <node concept="10xUwW" id="6mpCyrQUjtt" role="10HVpa">
-      <ref role="10x$tN" node="6mpCyrQUjrO" resolve="Predecessor" />
-    </node>
-    <node concept="10xUwW" id="4DaB5G9q7Xe" role="10HVpa">
-      <ref role="10x$tN" node="4DaB5G9q7VK" resolve="MultiCheck" />
-    </node>
-    <node concept="10xUwW" id="18Et36znzfg" role="10HVpa">
-      <ref role="10x$tN" node="18Et36znzcA" resolve="ExpWarn" />
-    </node>
-    <node concept="10xUwW" id="5LHzrvqVxqU" role="10HVpa">
-      <ref role="10x$tN" node="5LHzrvqVxoP" resolve="OuterCompound" />
-    </node>
-    <node concept="10xgET" id="7agSOE7AXY1" role="10xgEU">
-      <ref role="10xgEu" to="t63u:51llZt4WidF" resolve="Draft" />
-    </node>
-    <node concept="10xgET" id="7agSOE7AXY5" role="10xgEU">
-      <ref role="10xgEu" to="t63u:51llZt4Wigi" resolve="Ordered" />
-    </node>
-    <node concept="10xgET" id="7agSOE7AXY9" role="10xgEU">
-      <ref role="10xgEu" to="t63u:51llZt4Wiih" resolve="Completed" />
-    </node>
-    <node concept="10xgET" id="7agSOE7AXYe" role="10xgEU">
-      <ref role="10xgEu" to="t63u:51llZt4Wik0" resolve="Revisioned" />
-    </node>
-    <node concept="3ulXEN" id="7agSOE7AXVF" role="3ulXEL">
-      <property role="TrG5h" value="doc" />
-      <node concept="3uibUv" id="7agSOE7AXXO" role="1tU5fm">
-        <ref role="3uigEE" to="t63u:51llZt4WfOY" resolve="OrderDocument" />
-      </node>
-    </node>
-  </node>
   <node concept="3ugp7m" id="7agSOE7AXYn">
     <property role="TrG5h" value="GraphEdit" />
     <property role="3GE5qa" value="proc" />
     <property role="3uBtrS" value="ENTER_10" />
-    <ref role="3lhHOO" node="7agSOE7AXVE" resolve="OrderProc" />
     <node concept="3ulXEN" id="13qccrSjQmC" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQmD" role="1tU5fm">
@@ -972,7 +913,6 @@
     <property role="19I623" value="GRAPH_OWNER_CMD" />
     <property role="3GE5qa" value="proc" />
     <property role="3uBtrS" value="ENTER_10" />
-    <ref role="3lhHOO" node="7agSOE7AXVE" resolve="OrderProc" />
     <node concept="3ulXEN" id="13qccrSjQn1" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQn2" role="1tU5fm">
@@ -1444,7 +1384,6 @@
         <node concept="fOGPe" id="1w1DleJL_HI" role="fOGQ8">
           <node concept="33WYYh" id="7agSOE8IkRD" role="fOGQ8">
             <ref role="2_Hrw8" node="7agSOE7AXYn" resolve="GraphEdit" />
-            <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
           </node>
         </node>
       </node>
@@ -1509,12 +1448,10 @@
     <ref role="2WPtWl" to="7kfk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
     <node concept="2$ntO6" id="1Z4DonC9yKA" role="2$nsuY">
       <node concept="33WYYh" id="1Z4DonC9yKB" role="2$ntUL">
-        <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
         <ref role="2_Hrw8" node="1w1DleJxosq" resolve="SearchTestCases" />
       </node>
     </node>
     <node concept="33WYYh" id="7agSOE7KjtB" role="2N77jT">
-      <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
       <ref role="2_Hrw8" node="1w1DleJxosq" resolve="SearchTestCases" />
     </node>
     <node concept="2MWAvL" id="7agSOE7Kjoi" role="2A_d42">
@@ -1541,7 +1478,6 @@
     <property role="TrG5h" value="SearchTestCases" />
     <property role="19I623" value="SEARCH_CMD" />
     <property role="3GE5qa" value="cases" />
-    <ref role="3lhHOO" node="7agSOE7AXVE" resolve="OrderProc" />
     <node concept="3ugp7q" id="1w1DleJxq64" role="3ug97V">
       <property role="TrG5h" value="Page_0" />
       <ref role="3gcvY6" to="t63u:51llZt4WfOY" resolve="OrderDocument" />
@@ -2569,30 +2505,24 @@
       <ref role="1Tjo7l" to="t63u:51llZt4WfOY" resolve="OrderDocument" />
       <node concept="fOGPe" id="1w1DleJL_$C" role="fOGQ8">
         <node concept="33WYYh" id="1w1DleJDCKs" role="fOGQ8">
-          <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
           <ref role="2_Hrw8" node="7agSOE7AXY$" resolve="MainDoc" />
         </node>
         <node concept="33WYYh" id="6mpCyrQUme0" role="fOGQ8">
-          <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
           <ref role="2_Hrw8" node="6mpCyrQUjrO" resolve="Predecessor" />
         </node>
         <node concept="33WYYh" id="4DaB5G9q8wJ" role="fOGQ8">
-          <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
           <ref role="2_Hrw8" node="4DaB5G9q7VK" resolve="MultiCheck" />
         </node>
         <node concept="33WYYh" id="18Et36zn$en" role="fOGQ8">
-          <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
           <ref role="2_Hrw8" node="18Et36znzcA" resolve="ExpWarn" />
         </node>
         <node concept="2TlDos" id="5LHzrvqTXvs" role="fOGQ8">
-          <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
           <ref role="2_Hrw8" node="5LHzrvqVxoP" resolve="OuterCompound" />
           <ref role="3uz5Vf" to="7kfk:5LHzrvqUcMB" resolve="Compound" />
           <node concept="2dfVl4" id="5LHzrvqW5Ul" role="2dc_Y6">
             <ref role="2dfVpT" node="5LHzrvqVxFB" resolve="Save" />
           </node>
           <node concept="2_HltQ" id="5LHzrvqU9SE" role="3bnEHX">
-            <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
             <ref role="2_Hrw8" node="7agSOE7AXYn" resolve="GraphEdit" />
             <node concept="2IFXgM" id="5LHzrvqU9V5" role="2_HrWp">
               <ref role="2IFZ7r" to="t63u:51llZt4WfOY" resolve="OrderDocument" />
@@ -2653,7 +2583,6 @@
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="Predecessor" />
     <property role="19I623" value="GRAPH_OWNER_CMD" />
-    <ref role="3lhHOO" node="7agSOE7AXVE" resolve="OrderProc" />
     <node concept="3ulXEN" id="13qccrSjQnh" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQni" role="1tU5fm">
@@ -2681,7 +2610,6 @@
       </node>
     </node>
     <node concept="1t46OP" id="6mpCyrQUjuo" role="1t4FgK">
-      <ref role="2_Hrwf" node="7agSOE7AXVE" resolve="OrderProc" />
       <ref role="2_Hrw8" node="7agSOE7AXY$" resolve="MainDoc" />
       <node concept="3urNQE" id="13qccrSjQnk" role="2_HrWp">
         <ref role="3cqZAo" node="13qccrSjQnh" resolve="docprocParam" />
@@ -2750,7 +2678,6 @@
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="MultiCheck" />
     <property role="19I623" value="GRAPH_OWNER_CMD" />
-    <ref role="3lhHOO" node="7agSOE7AXVE" resolve="OrderProc" />
     <node concept="3ulXEN" id="13qccrSjQnp" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQnq" role="1tU5fm">
@@ -2888,7 +2815,6 @@
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="ExpWarn" />
     <property role="19I623" value="GRAPH_OWNER_CMD" />
-    <ref role="3lhHOO" node="7agSOE7AXVE" resolve="OrderProc" />
     <node concept="3ulXEN" id="13qccrSjQnt" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQnu" role="1tU5fm">
@@ -3027,7 +2953,6 @@
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="OuterCompound" />
     <property role="19I623" value="GRAPH_OWNER_CMD" />
-    <ref role="3lhHOO" node="7agSOE7AXVE" resolve="OrderProc" />
     <node concept="3ulXEN" id="13qccrSjQnx" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQny" role="1tU5fm">
@@ -3223,7 +3148,7 @@
           <node concept="37vLTI" id="4nH4LOF0Oe4" role="3clFbG">
             <node concept="2XvMaL" id="4nH4LOF0Oe5" role="37vLTx">
               <ref role="2XvMaQ" to="t63u:51llZt4WidE" resolve="OrderDocStatus" />
-              <ref role="1Vchh_" to="t63u:51llZt4Wiih" resolve="Completed" />
+              <ref role="1Vchh_" to="t63u:51llZt4Wiih" resolve="Approved" />
             </node>
             <node concept="2OqwBi" id="4nH4LOF0Oe6" role="37vLTJ">
               <node concept="37vLTw" id="4nH4LOF0Oe7" role="2Oq$k0">
