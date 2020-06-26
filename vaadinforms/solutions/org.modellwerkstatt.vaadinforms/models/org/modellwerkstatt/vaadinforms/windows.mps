@@ -32400,7 +32400,7 @@
                 <ref role="3cqZAo" node="7b0XfCDI2rc" resolve="userEnv" />
               </node>
               <node concept="Xl_RD" id="4nH4LOEFt3U" role="37wK5m">
-                <property role="Xl_RC" value="VAADIN" />
+                <property role="Xl_RC" value="WEB DESKTOP" />
               </node>
               <node concept="37vLTw" id="3bLKpg8Pl9p" role="37wK5m">
                 <ref role="3cqZAo" node="3bLKpg8Pkko" resolve="remoteAdr" />

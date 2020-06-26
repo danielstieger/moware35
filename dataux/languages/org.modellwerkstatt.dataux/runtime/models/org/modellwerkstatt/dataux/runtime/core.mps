@@ -34400,7 +34400,7 @@
         <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forDateTimePattern" />
         <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoWareFormattersFactory" />
         <node concept="Xl_RD" id="76zKLSqSNOm" role="37wK5m">
-          <property role="Xl_RC" value="dd/MMM/yyyy:hh:mm:ss:SSS" />
+          <property role="Xl_RC" value="dd/MMM/yyyy:HH:mm:ss:SSS" />
         </node>
         <node concept="Xl_RD" id="4nH4LOEQDim" role="37wK5m">
           <property role="Xl_RC" value="en" />
