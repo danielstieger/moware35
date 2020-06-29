@@ -3192,6 +3192,19 @@
       </node>
       <node concept="3Tm6S6" id="4nH4LOF0Oem" role="1B3o_S" />
     </node>
+    <node concept="2vDG_T" id="t9a4Hyugjw" role="jymVt">
+      <property role="TrG5h" value="someThings" />
+      <node concept="3clFbS" id="t9a4Hyugjz" role="3clF47">
+        <node concept="3clFbH" id="t9a4Hyugj$" role="3cqZAp" />
+        <node concept="Hy8HG" id="t9a4Hyugj_" role="3cqZAp">
+          <node concept="3clFbS" id="t9a4HyugjA" role="Hy8HH" />
+        </node>
+        <node concept="3clFbH" id="t9a4HyugjB" role="3cqZAp" />
+        <node concept="3clFbH" id="t9a4HyugjC" role="3cqZAp" />
+      </node>
+      <node concept="3cqZAl" id="t9a4HyugjD" role="3clF45" />
+      <node concept="3Tm1VV" id="t9a4HyugjE" role="1B3o_S" />
+    </node>
   </node>
 </model>
 
