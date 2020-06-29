@@ -3682,9 +3682,6 @@
           <node concept="3F0A7n" id="7qQ6PJv698e" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <node concept="VPM3Z" id="7ALNKj5ULPT" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
           </node>
         </node>
       </node>
