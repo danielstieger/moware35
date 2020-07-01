@@ -18,7 +18,7 @@
 
 
 function hwStackInfo(){
-    return '[hwsprt_zebra2_TC25]';
+    return '[hwsprt_zebra20]';
 }
 
 

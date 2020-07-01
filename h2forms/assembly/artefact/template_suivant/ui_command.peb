@@ -25,15 +25,15 @@
 
         {% elseif conc.visible and conc.hotKey equals "UPD" %}
             <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
-            {% if client.device equals "SCANDIT" %}
+            {% if client.deviceSw equals "SCANDIT" %}
                 <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: scScanSubmit();" disabled><i class="material-icons">camera</i></button>
-            {% elseif not (client.device equals "ZEBRAEB_TC56" or client.device equals "ZEBRAEB_TC25") %}
+            {% elseif not (client.deviceSw equals "ZEBRAEB_18" or client.deviceSw equals "ZEBRAEB_20") %}
                 <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmitDueScan();"{% if not conc.enabled %} disabled {% endif %}><i class="material-icons">camera</i></button>
             {% endif %}
 
         {% elseif conc.visible and conc.hotKey equals "GO" %}
             <input name="goconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
-            {% if not (client.device equals "ZEBRAEB_TC56" or client.device equals "ZEBRAEB_TC25") %}
+            {% if not (client.deviceSw equals "ZEBRAEB_18" or client.deviceSw equals "ZEBRAEB_20") %}
                 <button id="goSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmitDueGo();"{% if not conc.enabled %} disabled {% endif %}><i class="material-icons">gavel</i></button>
             {% endif %}
 

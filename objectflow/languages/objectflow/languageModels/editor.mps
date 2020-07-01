@@ -2726,7 +2726,7 @@
       <node concept="3F0ifn" id="6RBD0nmXcWd" role="3EZMnx" />
       <node concept="3F0ifn" id="6RBD0nmXd3V" role="3EZMnx" />
       <node concept="3F0ifn" id="1rbZyOwFzVg" role="3EZMnx">
-        <property role="3F0ifm" value="default command parameter:" />
+        <property role="3F0ifm" value="command parameter and defaults:" />
         <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
       </node>
       <node concept="3F2HdR" id="1rbZyOwF_cs" role="3EZMnx">
@@ -12019,7 +12019,7 @@
           <node concept="2EHx9g" id="5SRT4dTA9Yh" role="2czzBx" />
           <node concept="3F0ifn" id="6RAFKVMgmoG" role="2czzBI">
             <property role="3F0ifm" value="" />
-            <property role="ilYzB" value="&lt;prechecks&gt;" />
+            <property role="ilYzB" value="&lt;preconditions&gt;" />
             <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           </node>
         </node>

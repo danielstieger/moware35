@@ -6,7 +6,7 @@
 {% endmacro %}
 <!DOCTYPE html>
 <html>
-  <title>{{ statics.applicationName }} {{ client.device }}/{{ client.debug }}</title>
+  <title>{{ statics.applicationName }} {{ client.deviceSw }}/{{ client.debug }}</title>
   <meta charset="UTF-8">
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -67,7 +67,7 @@
   <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
 
   <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/suivantui.js{{ page.ncs }}"></script>
-  {% if client.device equals "ZEBRAEB_TC56" %}
+  {% if client.deviceSw equals "ZEBRAEB_18" %}
   <!-- <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script> -->
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
@@ -77,8 +77,8 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.sip.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra18_TC56.js{{ page.ncs }}"></script>
-  {% elseif client.device equals "ZEBRAEB_TC25" %}
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra18.js{{ page.ncs }}"></script>
+  {% elseif client.deviceSw equals "ZEBRAEB_20" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
 
@@ -90,8 +90,8 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.keycapture.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.sip.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script> -->
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra2_TC25.js{{ page.ncs }}"></script>
-  {% elseif client.device equals "SCANDIT" %}
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra20.js{{ page.ncs }}"></script>
+  {% elseif client.deviceSw equals "SCANDIT" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_scandit.js{{ page.ncs }}"></script>
   {% else %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_none.js{{ page.ncs }}"></script>
@@ -118,7 +118,7 @@
     <input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>
     <input type="hidden" name="ScrollPosition" value="{{ page.scrollPosition }}"/>
     <input type="hidden" name="PageTmpValue" value="0"/>
-    <input type="hidden" name="H1HttpClient" value="{{ client.device }}"/>
+    <input type="hidden" name="H1HttpClient" value="{{ client.deviceSw }}"/>
     <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
     <input type="hidden" name="DebugInformation" value="-"/>
 
