@@ -13,6 +13,7 @@
     <import index="7kfk" ref="r:cc76ad46-6947-4cc7-9f41-029160c9ce20(org.modellwerkstatt.objectflow.tests.config)" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -625,16 +626,47 @@
       <node concept="3cqZAl" id="51llZt5OyTO" role="3clF45" />
       <node concept="3Tm1VV" id="51llZt5OyTP" role="1B3o_S" />
       <node concept="3clFbS" id="51llZt5OyTQ" role="3clF47">
-        <node concept="lgBBG" id="51llZt5OyXY" role="3cqZAp">
-          <node concept="2ShNRf" id="51llZt5OyYP" role="lgycs">
-            <node concept="1pGfFk" id="51llZt5Ozeb" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="51llZt5OzeQ" role="37wK5m">
-                <property role="Xl_RC" value="forwarded EX" />
+        <node concept="SfApY" id="d_BuLgWksB" role="3cqZAp">
+          <node concept="3clFbS" id="d_BuLgWksD" role="SfCbr">
+            <node concept="3SKdUt" id="d_BuLgWkuX" role="3cqZAp">
+              <node concept="3SKdUq" id="d_BuLgWkuZ" role="3SKWNk">
+                <property role="3SKdUp" value="problem " />
+              </node>
+            </node>
+            <node concept="YS8fn" id="d_BuLgWkvF" role="3cqZAp">
+              <node concept="2ShNRf" id="d_BuLgWkwg" role="YScLw">
+                <node concept="1pGfFk" id="d_BuLgWm$7" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~Exception.&lt;init&gt;(java.lang.String)" resolve="Exception" />
+                  <node concept="Xl_RD" id="d_BuLgWm$N" role="37wK5m">
+                    <property role="Xl_RC" value="Somne IO Excpetion?" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="d_BuLgWkuv" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="d_BuLgWksE" role="TEbGg">
+            <node concept="3cpWsn" id="d_BuLgWksG" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="d_BuLgWktO" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="d_BuLgWksK" role="TDEfX">
+              <node concept="3SKdUt" id="d_BuLgWmEU" role="3cqZAp">
+                <node concept="3SKdUq" id="d_BuLgWmEW" role="3SKWNk">
+                  <property role="3SKdUp" value="use ALT-ENTER for options.. " />
+                </node>
+              </node>
+              <node concept="lgBBG" id="51llZt5OyXY" role="3cqZAp">
+                <node concept="37vLTw" id="d_BuLgWmFT" role="lgycs">
+                  <ref role="3cqZAo" node="d_BuLgWksG" resolve="ex" />
+                </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="d_BuLgWkrE" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="6mpCyrQUjYl" role="jymVt" />
@@ -1476,7 +1508,7 @@
         <node concept="3clFbH" id="2_3xZAlz$jO" role="3cqZAp" />
         <node concept="3cpWs8" id="2_3xZAlSCfU" role="3cqZAp">
           <node concept="3cpWsn" id="2_3xZAlSCfX" role="3cpWs9">
-            <property role="TrG5h" value="posEditing" />
+            <property role="TrG5h" value="arePositionsEdited" />
             <node concept="10P_77" id="2_3xZAlSCfS" role="1tU5fm" />
             <node concept="3clFbT" id="2_3xZAlSCR4" role="33vP2m">
               <property role="3clFbU" value="true" />
@@ -1505,7 +1537,7 @@
           </node>
           <node concept="1Wc70l" id="2_3xZAlSD2$" role="3clFbw">
             <node concept="37vLTw" id="2_3xZAlSDjn" role="3uHU7w">
-              <ref role="3cqZAo" node="2_3xZAlSCfX" resolve="posEditing" />
+              <ref role="3cqZAo" node="2_3xZAlSCfX" resolve="arePositionsEdited" />
             </node>
             <node concept="2veflS" id="2_3xZAlSCWg" role="3uHU7B">
               <node concept="2vefiz" id="2_3xZAlSCZz" role="2vefj5">
@@ -1571,7 +1603,7 @@
         <node concept="3clFbH" id="4nH4LOF0NZ2" role="3cqZAp" />
         <node concept="3SKdUt" id="2_3xZAlz$He" role="3cqZAp">
           <node concept="3SKdUq" id="2_3xZAlz$Hg" role="3SKWNk">
-            <property role="3SKdUp" value="will produce warnings only!" />
+            <property role="3SKdUp" value="validation" />
           </node>
         </node>
         <node concept="mlg3r" id="4nH4LOF0O1x" role="3cqZAp">
@@ -1579,49 +1611,86 @@
             <node concept="35AVbj" id="4nH4LOF0O1z" role="lgxf9">
               <property role="35AVef" value="" />
               <node concept="ic4WF" id="4nH4LOF0O1$" role="icr7_">
-                <property role="ic4Xk" value="Warning 1" />
+                <property role="ic4Xk" value="Order date should not be before 27 Jan 80." />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="d_BuLgUeZU" role="lgxeR">
+              <node concept="37vLTw" id="d_BuLgUeZi" role="2Oq$k0">
+                <ref role="3cqZAo" node="4nH4LOF0NYY" resolve="od" />
+              </node>
+              <node concept="2S8uIT" id="d_BuLgUf1V" role="2OqNvi">
+                <ref role="2S8YL0" node="51llZt4WhZJ" resolve="expectedDate" />
               </node>
             </node>
           </node>
-          <node concept="3eOSWO" id="4nH4LOF0O1_" role="mlgNJ">
-            <node concept="3cmrfG" id="4nH4LOF0O1A" role="3uHU7B">
-              <property role="3cmrfH" value="1" />
+          <node concept="2OqwBi" id="d_BuLgUerT" role="mlgNJ">
+            <node concept="2OqwBi" id="d_BuLgUeo1" role="2Oq$k0">
+              <node concept="37vLTw" id="d_BuLgUenr" role="2Oq$k0">
+                <ref role="3cqZAo" node="4nH4LOF0NYY" resolve="od" />
+              </node>
+              <node concept="2S8uIT" id="d_BuLgUepd" role="2OqNvi">
+                <ref role="2S8YL0" node="51llZt4WhZJ" resolve="expectedDate" />
+              </node>
             </node>
-            <node concept="3cmrfG" id="4nH4LOF0O1B" role="3uHU7w">
-              <property role="3cmrfH" value="10" />
+            <node concept="liA8E" id="d_BuLgUewv" role="2OqNvi">
+              <ref role="37wK5l" to="oz00:~AbstractPartial.isBefore(org.joda.time.ReadablePartial):boolean" resolve="isBefore" />
+              <node concept="1$4sJh" id="d_BuLgUezW" role="37wK5m">
+                <property role="1$4sGW" value="27" />
+                <property role="1$4sGZ" value="1" />
+                <property role="1$4sGY" value="1980" />
+                <property role="1$4sGX" value="false" />
+              </node>
             </node>
           </node>
           <node concept="mp1e1" id="4nH4LOF0O1C" role="mp0NM">
             <ref role="mp1e0" to="28jr:51llZt5Ptbk" resolve="WARNING_HINT" />
           </node>
         </node>
+        <node concept="3clFbH" id="d_BuLgUf2h" role="3cqZAp" />
         <node concept="mlg3r" id="4nH4LOF0O1D" role="3cqZAp">
           <node concept="lgADV" id="4nH4LOF0O1E" role="mlgNH">
             <node concept="35AVbj" id="4nH4LOF0O1F" role="lgxf9">
               <property role="35AVef" value="" />
               <node concept="ic4WF" id="4nH4LOF0O1G" role="icr7_">
-                <property role="ic4Xk" value="Warning 2" />
+                <property role="ic4Xk" value="Ordering less then 5 positions, additional charges may apply." />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="d_BuLgUeXv" role="lgxeR">
+              <node concept="37vLTw" id="d_BuLgUeWR" role="2Oq$k0">
+                <ref role="3cqZAo" node="4nH4LOF0NYY" resolve="od" />
+              </node>
+              <node concept="2S8uIT" id="d_BuLgUJ24" role="2OqNvi">
+                <ref role="2S8YL0" node="51llZt4Wia_" resolve="positions" />
               </node>
             </node>
           </node>
-          <node concept="3eOSWO" id="4nH4LOF0O1H" role="mlgNJ">
-            <node concept="3cmrfG" id="4nH4LOF0O1I" role="3uHU7B">
-              <property role="3cmrfH" value="1" />
+          <node concept="3eOSWO" id="d_BuLgUITG" role="mlgNJ">
+            <node concept="3cmrfG" id="d_BuLgUITX" role="3uHU7w">
+              <property role="3cmrfH" value="5" />
             </node>
-            <node concept="3cmrfG" id="4nH4LOF0O1J" role="3uHU7w">
-              <property role="3cmrfH" value="10" />
+            <node concept="2OqwBi" id="d_BuLgUeKr" role="3uHU7B">
+              <node concept="2OqwBi" id="d_BuLgUeGl" role="2Oq$k0">
+                <node concept="37vLTw" id="d_BuLgUeF7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4nH4LOF0NYY" resolve="od" />
+                </node>
+                <node concept="2S8uIT" id="d_BuLgUIvO" role="2OqNvi">
+                  <ref role="2S8YL0" node="51llZt4Wia_" resolve="positions" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="d_BuLgUIH6" role="2OqNvi" />
             </node>
           </node>
           <node concept="mp1e1" id="4nH4LOF0O1K" role="mp0NM">
             <ref role="mp1e0" to="28jr:51llZt5Ptbk" resolve="WARNING_HINT" />
           </node>
         </node>
+        <node concept="3clFbH" id="d_BuLgUf4i" role="3cqZAp" />
         <node concept="mlg3r" id="4nH4LOF0O1L" role="3cqZAp">
           <node concept="lgADV" id="4nH4LOF0O1M" role="mlgNH">
             <node concept="35AVbj" id="4nH4LOF0O1N" role="lgxf9">
               <property role="35AVef" value="" />
               <node concept="ic4WF" id="4nH4LOF0O1O" role="icr7_">
-                <property role="ic4Xk" value="Warning 3" />
+                <property role="ic4Xk" value="Order status is changed to ordered. This is a hint." />
               </node>
             </node>
           </node>
@@ -1630,6 +1699,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="2_3xZAlz$G$" role="3cqZAp" />
+        <node concept="3clFbH" id="d_BuLgVdM9" role="3cqZAp" />
+        <node concept="3SKdUt" id="d_BuLgVdSY" role="3cqZAp">
+          <node concept="3SKdUq" id="d_BuLgVdT0" role="3SKWNk">
+            <property role="3SKdUp" value="changing graph here." />
+          </node>
+        </node>
         <node concept="3clFbF" id="4nH4LOF0NZ3" role="3cqZAp">
           <node concept="37vLTI" id="4nH4LOF0NZ4" role="3clFbG">
             <node concept="2XvMaL" id="4nH4LOF0NZ5" role="37vLTx">
@@ -1658,12 +1733,13 @@
         </node>
       </node>
       <node concept="37vLTG" id="2_3xZAlSDNt" role="3clF46">
-        <property role="TrG5h" value="assumeTrue" />
+        <property role="TrG5h" value="someComplexCondition" />
         <node concept="10P_77" id="2_3xZAlSDOe" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="4nH4LOF0NZd" role="3clF45" />
       <node concept="3clFbS" id="4nH4LOF0NZe" role="3clF47">
         <node concept="3clFbH" id="4nH4LOF0NZf" role="3cqZAp" />
+        <node concept="3clFbH" id="d_BuLgVGCg" role="3cqZAp" />
         <node concept="Hy8HG" id="2_3xZAlSDCS" role="3cqZAp">
           <node concept="3clFbS" id="2_3xZAlSDCU" role="Hy8HH">
             <node concept="mlg3r" id="4nH4LOF0NZg" role="3cqZAp">
@@ -1671,20 +1747,21 @@
                 <node concept="35AVbj" id="4nH4LOF0NZi" role="lgxf9">
                   <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4nH4LOF0NZj" role="icr7_">
-                    <property role="ic4Xk" value="This is just a warning." />
+                    <property role="ic4Xk" value="This is just a warning. ComplexCondition is not true." />
                   </node>
                 </node>
               </node>
               <node concept="37vLTw" id="2_3xZAlSDSy" role="mlgNJ">
-                <ref role="3cqZAo" node="2_3xZAlSDNt" resolve="assumeTrue" />
+                <ref role="3cqZAo" node="2_3xZAlSDNt" resolve="someComplexCondition" />
               </node>
               <node concept="mp1e1" id="4nH4LOF0NZp" role="mp0NM">
                 <ref role="mp1e0" to="28jr:51llZt5Ptbk" resolve="WARNING_HINT" />
               </node>
             </node>
+            <node concept="3clFbH" id="d_BuLgVGF8" role="3cqZAp" />
             <node concept="mlg3r" id="4nH4LOF0NZq" role="3cqZAp">
               <node concept="37vLTw" id="2_3xZAlSDZq" role="mlgNJ">
-                <ref role="3cqZAo" node="2_3xZAlSDNt" resolve="assumeTrue" />
+                <ref role="3cqZAo" node="2_3xZAlSDNt" resolve="someComplexCondition" />
               </node>
               <node concept="lgADV" id="4nH4LOF0NZw" role="mlgNH">
                 <node concept="35AVbj" id="4nH4LOF0NZx" role="lgxf9">
@@ -1698,7 +1775,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="4nH4LOF0NZ_" role="icr7_">
-                    <property role="ic4Xk" value="1 condition message (status %sts)" />
+                    <property role="ic4Xk" value="This is an error message. (status %sts)" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="4nH4LOF0NZA" role="lgxeR">
@@ -1706,16 +1783,15 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4nH4LOF0NZB" role="3cqZAp" />
             <node concept="mlg3r" id="4nH4LOF0NZC" role="3cqZAp">
               <node concept="37vLTw" id="2_3xZAlSE2W" role="mlgNJ">
-                <ref role="3cqZAo" node="2_3xZAlSDNt" resolve="assumeTrue" />
+                <ref role="3cqZAo" node="2_3xZAlSDNt" resolve="someComplexCondition" />
               </node>
               <node concept="lgADV" id="4nH4LOF0NZI" role="mlgNH">
                 <node concept="35AVbj" id="4nH4LOF0NZJ" role="lgxf9">
                   <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4nH4LOF0NZK" role="icr7_">
-                    <property role="ic4Xk" value="2 condition message" />
+                    <property role="ic4Xk" value="This is another error message." />
                   </node>
                 </node>
                 <node concept="37vLTw" id="4nH4LOF0NZL" role="lgxeR">
@@ -1764,27 +1840,39 @@
       </node>
       <node concept="3cqZAl" id="4nH4LOF0O0l" role="3clF45" />
       <node concept="3clFbS" id="4nH4LOF0O0m" role="3clF47">
-        <node concept="3clFbH" id="4nH4LOF0O0n" role="3cqZAp" />
+        <node concept="3clFbH" id="d_BuLgVH89" role="3cqZAp" />
         <node concept="Hy8HG" id="4nH4LOF0O0o" role="3cqZAp">
           <node concept="3clFbS" id="4nH4LOF0O0p" role="Hy8HH">
+            <node concept="3cpWs8" id="d_BuLgVH32" role="3cqZAp">
+              <node concept="3cpWsn" id="d_BuLgVH35" role="3cpWs9">
+                <property role="TrG5h" value="revisionIsPossible" />
+                <node concept="10P_77" id="d_BuLgVH30" role="1tU5fm" />
+                <node concept="3clFbT" id="d_BuLgVH4r" role="33vP2m" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="d_BuLgVH9k" role="3cqZAp">
+              <node concept="3cpWsn" id="d_BuLgVH9n" role="3cpWs9">
+                <property role="TrG5h" value="revisionOrderValueTooHigh" />
+                <node concept="10P_77" id="d_BuLgVH9i" role="1tU5fm" />
+                <node concept="3clFbT" id="d_BuLgVHbR" role="33vP2m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbH" id="4nH4LOF0O0q" role="3cqZAp" />
             <node concept="mlg3r" id="2_3xZAlTaSG" role="3cqZAp">
               <node concept="lgADV" id="2_3xZAlTaSM" role="mlgNH">
                 <node concept="35AVbj" id="2_3xZAlTaSN" role="lgxf9">
                   <node concept="ic4WF" id="2_3xZAlTaSO" role="icr7_">
-                    <property role="ic4Xk" value="Problem 1 from revision" />
+                    <property role="ic4Xk" value="Revision on this order not possible cause ..." />
                   </node>
                 </node>
               </node>
-              <node concept="3eOSWO" id="2_3xZAlTaM0" role="mlgNJ">
-                <node concept="3cmrfG" id="2_3xZAlTaMg" role="3uHU7w">
-                  <property role="3cmrfH" value="10" />
-                </node>
-                <node concept="3cmrfG" id="2_3xZAlTaJ1" role="3uHU7B">
-                  <property role="3cmrfH" value="1" />
-                </node>
+              <node concept="37vLTw" id="d_BuLgVH4Y" role="mlgNJ">
+                <ref role="3cqZAo" node="d_BuLgVH35" resolve="revisionIsPossible" />
               </node>
             </node>
+            <node concept="3clFbH" id="d_BuLgVGLs" role="3cqZAp" />
             <node concept="3clFbF" id="2_3xZAlTb3i" role="3cqZAp">
               <node concept="1rXfSq" id="2_3xZAlTb3g" role="3clFbG">
                 <ref role="37wK5l" node="4nH4LOF0O0I" resolve="helperMethod" />
@@ -1795,19 +1883,23 @@
               <node concept="lgADV" id="2_3xZAlTaXC" role="mlgNH">
                 <node concept="35AVbj" id="2_3xZAlTaXD" role="lgxf9">
                   <node concept="ic4WF" id="2_3xZAlTaXE" role="icr7_">
-                    <property role="ic4Xk" value="Problem 2 from revision" />
+                    <property role="ic4Xk" value="Order value too high for a revision. It should not be above ..." />
                   </node>
                 </node>
               </node>
-              <node concept="3eOSWO" id="2_3xZAlTaXF" role="mlgNJ">
-                <node concept="3cmrfG" id="2_3xZAlTaXG" role="3uHU7w">
-                  <property role="3cmrfH" value="10" />
-                </node>
-                <node concept="3cmrfG" id="2_3xZAlTaXH" role="3uHU7B">
-                  <property role="3cmrfH" value="1" />
+              <node concept="3fqX7Q" id="d_BuLgVHvu" role="mlgNJ">
+                <node concept="37vLTw" id="d_BuLgVHzY" role="3fr31v">
+                  <ref role="3cqZAo" node="d_BuLgVH9n" resolve="revisionOrderValueTooHigh" />
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="d_BuLgVHBJ" role="3cqZAp" />
+        <node concept="3clFbH" id="d_BuLgVHCD" role="3cqZAp" />
+        <node concept="3SKdUt" id="d_BuLgVHEA" role="3cqZAp">
+          <node concept="3SKdUq" id="d_BuLgVHEC" role="3SKWNk">
+            <property role="3SKdUp" value=" changing graph." />
           </node>
         </node>
         <node concept="3clFbF" id="4nH4LOF0O0r" role="3cqZAp">
