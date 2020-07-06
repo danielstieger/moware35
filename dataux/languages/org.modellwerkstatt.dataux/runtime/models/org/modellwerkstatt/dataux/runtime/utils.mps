@@ -2777,7 +2777,7 @@
         <property role="TrG5h" value="LOCK_NOT_GOT_READONLY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="1sUmI9zht9C" role="37wK5m">
-          <property role="Xl_RC" value="Kommando nur im Lesemodus! Benutzer %s bearbeitet ebenfalls gerade geforderte Ressourcen." />
+          <property role="Xl_RC" value="Kommando nur im Lesemodus! Benutzer '%s' bearbeitet ebenfalls gerade geforderte Daten." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDm" role="37wK5m" />
         <node concept="Xl_RD" id="4L33b_Gb60b" role="37wK5m">
@@ -2791,7 +2791,7 @@
         <property role="TrG5h" value="LOCK_NOT_GOT_CANCEL" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="6G8jBJnC_j0" role="37wK5m">
-          <property role="Xl_RC" value="%s verwendet Ressourcen, die für die Ausführung des Kommandos notwendig sind.\nDas Kommando wurde abgebrochen." />
+          <property role="Xl_RC" value="'%s' verwendet Daten, die für die Ausführung des Kommandos notwendig sind.\nDas Kommando wurde abgebrochen." />
         </node>
         <node concept="10Nm6u" id="6G8jBJnC_j1" role="37wK5m" />
         <node concept="10Nm6u" id="6G8jBJnC_j2" role="37wK5m" />
