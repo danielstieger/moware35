@@ -2777,7 +2777,7 @@
         <property role="TrG5h" value="LOCK_NOT_GOT_READONLY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="1sUmI9zht9C" role="37wK5m">
-          <property role="Xl_RC" value="Kommando nur im Lesemodus! Benutzer '%s' bearbeitet ebenfalls gerade geforderte Daten." />
+          <property role="Xl_RC" value="Kommando im Lesemodus! Benutzer '%s' bearbeitet geforderte Daten." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDm" role="37wK5m" />
         <node concept="Xl_RD" id="4L33b_Gb60b" role="37wK5m">
