@@ -6496,29 +6496,6 @@
                 <node concept="37vLTw" id="7r26jiO5Lmp" role="37wK5m">
                   <ref role="3cqZAo" node="7r26jiO5Kc3" resolve="userEnv" />
                 </node>
-                <node concept="3cpWs3" id="4nH4LOEFqTQ" role="37wK5m">
-                  <node concept="3cpWs3" id="4p4tCe_aUn$" role="3uHU7B">
-                    <node concept="2OqwBi" id="4p4tCe_aV1H" role="3uHU7B">
-                      <node concept="37vLTw" id="4p4tCe_aUBz" role="2Oq$k0">
-                        <ref role="3cqZAo" node="kA5KhwgqX2" resolve="ctxCli" />
-                      </node>
-                      <node concept="2S8uIT" id="4p4tCe_aVmF" role="2OqNvi">
-                        <ref role="2S8YL0" node="4p4tCe_817B" resolve="device" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="4nH4LOEFr4G" role="3uHU7w">
-                      <property role="Xl_RC" value=" " />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="4nH4LOEFmwf" role="3uHU7w">
-                    <node concept="37vLTw" id="4nH4LOEFmma" role="2Oq$k0">
-                      <ref role="3cqZAo" node="kA5KhwgqX2" resolve="ctxCli" />
-                    </node>
-                    <node concept="2S8uIT" id="4nH4LOEFmQi" role="2OqNvi">
-                      <ref role="2S8YL0" node="7WBKY1WeOyz" resolve="deviceSw" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="2OqwBi" id="7WBKY1WlsIA" role="37wK5m">
                   <node concept="37vLTw" id="7WBKY1WlsE1" role="2Oq$k0">
                     <ref role="3cqZAo" node="kA5KhwgqX2" resolve="ctxCli" />

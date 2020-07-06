@@ -798,8 +798,8 @@
         <node concept="3cpWs8" id="1wwgtxziF0O" role="3cqZAp">
           <node concept="3cpWsn" id="1wwgtxziF0P" role="3cpWs9">
             <property role="TrG5h" value="env" />
-            <node concept="3uibUv" id="1wwgtxziF0Q" role="1tU5fm">
-              <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+            <node concept="3uibUv" id="6lA5DXSRLWI" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
             </node>
             <node concept="2ShNRf" id="1wwgtxziF6w" role="33vP2m">
               <node concept="1pGfFk" id="1wwgtxziFku" role="2ShVmc">
@@ -808,7 +808,38 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7WBKY1Wi5KL" role="3cqZAp" />
+        <node concept="3clFbF" id="6lA5DXSRMao" role="3cqZAp">
+          <node concept="2OqwBi" id="6lA5DXSRMk8" role="3clFbG">
+            <node concept="37vLTw" id="6lA5DXSRMam" role="2Oq$k0">
+              <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
+            </node>
+            <node concept="liA8E" id="6lA5DXSRMpQ" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:6lA5DXSRDr8" resolve="setDevice" />
+              <node concept="2OqwBi" id="6lA5DXSRMsU" role="37wK5m">
+                <node concept="37vLTw" id="6lA5DXSRMrp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1wwgtxzgBSI" resolve="client" />
+                </node>
+                <node concept="2S8uIT" id="6lA5DXSRMyD" role="2OqNvi">
+                  <ref role="2S8YL0" to="tea8:4p4tCe_817B" resolve="device" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="6lA5DXSRMY5" role="37wK5m">
+                <node concept="Xl_RD" id="6lA5DXSRN3S" role="3uHU7B">
+                  <property role="Xl_RC" value="" />
+                </node>
+                <node concept="2OqwBi" id="6lA5DXSRMIa" role="3uHU7w">
+                  <node concept="37vLTw" id="6lA5DXSRMCM" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1wwgtxzgBSI" resolve="client" />
+                  </node>
+                  <node concept="2S8uIT" id="6lA5DXSRMRC" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:7WBKY1WeOyz" resolve="deviceSw" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6lA5DXSRM0o" role="3cqZAp" />
         <node concept="3cpWs8" id="2f$GH$eemXJ" role="3cqZAp">
           <node concept="3cpWsn" id="2f$GH$eemXK" role="3cpWs9">
             <property role="TrG5h" value="loginUserParamName" />
@@ -934,7 +965,7 @@
                             <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
                           </node>
                           <node concept="liA8E" id="63IPdUQHYa1" role="2OqNvi">
-                            <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                            <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
                           </node>
                         </node>
                         <node concept="Xl_RD" id="63IPdUQHYdS" role="3uHU7w">
@@ -946,7 +977,7 @@
                           <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
                         </node>
                         <node concept="liA8E" id="63IPdUQHYqh" role="2OqNvi">
-                          <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                          <ref role="37wK5l" to="28jr:3tZ99yEJcyC" resolve="getUserId" />
                         </node>
                       </node>
                     </node>
@@ -1550,8 +1581,8 @@
         <node concept="3cpWs8" id="57ov2S_z9E" role="3cqZAp">
           <node concept="3cpWsn" id="57ov2S_z9F" role="3cpWs9">
             <property role="TrG5h" value="env" />
-            <node concept="3uibUv" id="57ov2S_z9G" role="1tU5fm">
-              <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+            <node concept="3uibUv" id="6lA5DXSRxOl" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
             </node>
             <node concept="2ShNRf" id="57ov2S_z9H" role="33vP2m">
               <node concept="1pGfFk" id="57ov2S_z9I" role="2ShVmc">
@@ -1560,7 +1591,39 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6lA5DXSRNFS" role="3cqZAp">
+          <node concept="2OqwBi" id="6lA5DXSRNFT" role="3clFbG">
+            <node concept="37vLTw" id="6lA5DXSRNFU" role="2Oq$k0">
+              <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
+            </node>
+            <node concept="liA8E" id="6lA5DXSRNFV" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:6lA5DXSRDr8" resolve="setDevice" />
+              <node concept="2OqwBi" id="6lA5DXSRNFW" role="37wK5m">
+                <node concept="37vLTw" id="6lA5DXSRNFX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="57ov2S_z6R" resolve="client" />
+                </node>
+                <node concept="2S8uIT" id="6lA5DXSRNFY" role="2OqNvi">
+                  <ref role="2S8YL0" to="tea8:4p4tCe_817B" resolve="device" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="6lA5DXSRNFZ" role="37wK5m">
+                <node concept="Xl_RD" id="6lA5DXSRNG0" role="3uHU7B">
+                  <property role="Xl_RC" value="" />
+                </node>
+                <node concept="2OqwBi" id="6lA5DXSRNG1" role="3uHU7w">
+                  <node concept="37vLTw" id="6lA5DXSRNG2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="57ov2S_z6R" resolve="client" />
+                  </node>
+                  <node concept="2S8uIT" id="6lA5DXSRNG3" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:7WBKY1WeOyz" resolve="deviceSw" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="57ov2S_z9J" role="3cqZAp" />
+        <node concept="3clFbH" id="6lA5DXSRNqD" role="3cqZAp" />
         <node concept="3cpWs8" id="57ov2SA6Mw" role="3cqZAp">
           <node concept="3cpWsn" id="57ov2SA6Mz" role="3cpWs9">
             <property role="TrG5h" value="loginUserParamName" />
@@ -1749,7 +1812,7 @@
                                 <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
                               </node>
                               <node concept="liA8E" id="57ov2S_zae" role="2OqNvi">
-                                <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                                <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
                               </node>
                             </node>
                             <node concept="Xl_RD" id="57ov2S_zaf" role="3uHU7w">
@@ -1761,7 +1824,7 @@
                               <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
                             </node>
                             <node concept="liA8E" id="57ov2S_zai" role="2OqNvi">
-                              <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                              <ref role="37wK5l" to="28jr:3tZ99yEJcyC" resolve="getUserId" />
                             </node>
                           </node>
                         </node>
@@ -1914,7 +1977,7 @@
                                   <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
                                 </node>
                                 <node concept="liA8E" id="3lbccgqkq4h" role="2OqNvi">
-                                  <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                                  <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
                                 </node>
                               </node>
                             </node>
@@ -1947,7 +2010,7 @@
                                       <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
                                     </node>
                                     <node concept="liA8E" id="3lbccgqkq4v" role="2OqNvi">
-                                      <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                                      <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
                                     </node>
                                   </node>
                                   <node concept="Xl_RD" id="3lbccgqkq4w" role="3uHU7w">
@@ -1959,7 +2022,7 @@
                                     <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
                                   </node>
                                   <node concept="liA8E" id="3lbccgqkq4z" role="2OqNvi">
-                                    <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                                    <ref role="37wK5l" to="28jr:3tZ99yEJcyC" resolve="getUserId" />
                                   </node>
                                 </node>
                               </node>

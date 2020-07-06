@@ -4901,6 +4901,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6lA5DXSRJl4" role="3cqZAp">
+          <node concept="2OqwBi" id="6lA5DXSRKbP" role="3clFbG">
+            <node concept="37vLTw" id="6lA5DXSRJl2" role="2Oq$k0">
+              <ref role="3cqZAo" node="7aUgYCzss6K" resolve="userEnv" />
+            </node>
+            <node concept="liA8E" id="6lA5DXSRL4i" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:6lA5DXSRDr8" resolve="setDevice" />
+              <node concept="Xl_RD" id="6lA5DXSRL8U" role="37wK5m">
+                <property role="Xl_RC" value="DESKTOP" />
+              </node>
+              <node concept="Xl_RD" id="6lA5DXSRLhG" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="r$jHpF5_Rs" role="3cqZAp">
           <node concept="3cpWsn" id="r$jHpF5_Rv" role="3cpWs9">
             <property role="TrG5h" value="msg" />
@@ -5007,9 +5023,6 @@
                     <ref role="37wK5l" to="1e0c:20ohnkbJa49" resolve="initializeApplication" />
                     <node concept="37vLTw" id="r$jHpF2qNi" role="37wK5m">
                       <ref role="3cqZAo" node="7aUgYCzss6K" resolve="userEnv" />
-                    </node>
-                    <node concept="Xl_RD" id="4nH4LOEFiq9" role="37wK5m">
-                      <property role="Xl_RC" value="DESKTOP" />
                     </node>
                     <node concept="Xl_RD" id="r$jHpF2qQX" role="37wK5m">
                       <property role="Xl_RC" value="local" />

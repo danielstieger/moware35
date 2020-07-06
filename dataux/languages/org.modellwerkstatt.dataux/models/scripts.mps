@@ -234,6 +234,7 @@
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -6853,6 +6854,68 @@
                   </node>
                 </node>
                 <node concept="34oBXx" id="6V4Z$lpd6Qc" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3YTLcDItb57" role="_YvDr">
+      <property role="_XH9r" value="Graph_Edit mit optionaler page - check session manually for readonly!" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3YTLcDItb58" role="_XPhp">
+        <node concept="3clFbS" id="3YTLcDItb59" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3YTLcDItb5a" role="_XDHO">
+        <node concept="3clFbS" id="3YTLcDItb5b" role="2VODD2">
+          <node concept="3clFbF" id="3YTLcDItbLj" role="3cqZAp">
+            <node concept="1Wc70l" id="3YTLcDItded" role="3clFbG">
+              <node concept="3eOSWO" id="3YTLcDItjow" role="3uHU7w">
+                <node concept="3cmrfG" id="3YTLcDItjoA" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="3YTLcDIteYm" role="3uHU7B">
+                  <node concept="2OqwBi" id="3YTLcDItdKC" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3YTLcDItdlL" role="2Oq$k0">
+                      <node concept="_YI3z" id="3YTLcDItdgl" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3YTLcDItdyt" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:6ffh1MX_V6r" />
+                      </node>
+                    </node>
+                    <node concept="2Rf3mk" id="3YTLcDItdYK" role="2OqNvi">
+                      <node concept="1xMEDy" id="3YTLcDItdYM" role="1xVPHs">
+                        <node concept="chp4Y" id="3YTLcDIte7h" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:1Csx3Lqx5LJ" resolve="DoneCommand" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="3YTLcDItjyK" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="3YTLcDIthOQ" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="1Wc70l" id="3YTLcDItcMa" role="3uHU7B">
+                <node concept="2OqwBi" id="3YTLcDItcdc" role="3uHU7B">
+                  <node concept="2OqwBi" id="3YTLcDItbQ6" role="2Oq$k0">
+                    <node concept="_YI3z" id="3YTLcDItbLi" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="3YTLcDItc0h" role="2OqNvi">
+                      <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                    </node>
+                  </node>
+                  <node concept="3t7uKx" id="3YTLcDItckY" role="2OqNvi">
+                    <node concept="uoxfO" id="3YTLcDItcl0" role="3t7uKA">
+                      <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="3YTLcDItd8u" role="3uHU7w">
+                  <node concept="2OqwBi" id="3YTLcDItd8w" role="3fr31v">
+                    <node concept="_YI3z" id="3YTLcDItd8x" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="3YTLcDItd8y" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

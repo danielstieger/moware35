@@ -1999,12 +1999,28 @@
         <node concept="3cpWs8" id="5$BCFrwb1fS" role="3cqZAp">
           <node concept="3cpWsn" id="5$BCFrwb1fT" role="3cpWs9">
             <property role="TrG5h" value="env" />
-            <node concept="3uibUv" id="5$BCFrwb1fU" role="1tU5fm">
-              <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+            <node concept="3uibUv" id="6lA5DXSRQbL" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
             </node>
             <node concept="2ShNRf" id="5$BCFrwb1fV" role="33vP2m">
               <node concept="1pGfFk" id="5$BCFrwb1fW" role="2ShVmc">
                 <ref role="37wK5l" to="28jr:3tZ99yEJcyP" resolve="UserEnvironmentInformation" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6lA5DXSRMao" role="3cqZAp">
+          <node concept="2OqwBi" id="6lA5DXSRMk8" role="3clFbG">
+            <node concept="37vLTw" id="6lA5DXSRMam" role="2Oq$k0">
+              <ref role="3cqZAo" node="5$BCFrwb1fT" resolve="env" />
+            </node>
+            <node concept="liA8E" id="6lA5DXSRMpQ" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:6lA5DXSRDr8" resolve="setDevice" />
+              <node concept="Xl_RD" id="6lA5DXSRRwH" role="37wK5m">
+                <property role="Xl_RC" value="WEB DESKTOP" />
+              </node>
+              <node concept="Xl_RD" id="6lA5DXSRN3S" role="37wK5m">
+                <property role="Xl_RC" value="" />
               </node>
             </node>
           </node>
@@ -32398,9 +32414,6 @@
               <ref role="37wK5l" to="1e0c:20ohnkbJa49" resolve="initializeApplication" />
               <node concept="37vLTw" id="3bLKpg8PjOB" role="37wK5m">
                 <ref role="3cqZAo" node="7b0XfCDI2rc" resolve="userEnv" />
-              </node>
-              <node concept="Xl_RD" id="4nH4LOEFt3U" role="37wK5m">
-                <property role="Xl_RC" value="WEB DESKTOP" />
               </node>
               <node concept="37vLTw" id="3bLKpg8Pl9p" role="37wK5m">
                 <ref role="3cqZAo" node="3bLKpg8Pkko" resolve="remoteAdr" />

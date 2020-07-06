@@ -611,6 +611,23 @@
       <node concept="17QB3L" id="7agSOE8982f" role="1tU5fm" />
       <node concept="10Nm6u" id="7agSOE898f8" role="33vP2m" />
     </node>
+    <node concept="2tJIrI" id="6lA5DXSR$Fs" role="jymVt" />
+    <node concept="312cEg" id="6lA5DXSRzu5" role="jymVt">
+      <property role="TrG5h" value="deviceName" />
+      <node concept="3Tm6S6" id="6lA5DXSRzu6" role="1B3o_S" />
+      <node concept="17QB3L" id="6lA5DXSRzu7" role="1tU5fm" />
+      <node concept="Xl_RD" id="6lA5DXSRAeK" role="33vP2m">
+        <property role="Xl_RC" value="" />
+      </node>
+    </node>
+    <node concept="312cEg" id="6lA5DXSRzY3" role="jymVt">
+      <property role="TrG5h" value="deviceSwName" />
+      <node concept="3Tm6S6" id="6lA5DXSRzY4" role="1B3o_S" />
+      <node concept="17QB3L" id="6lA5DXSRzY5" role="1tU5fm" />
+      <node concept="Xl_RD" id="6lA5DXSRAc3" role="33vP2m">
+        <property role="Xl_RC" value="" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7agSOE896mv" role="jymVt" />
     <node concept="3clFbW" id="3tZ99yEJcyP" role="jymVt">
       <node concept="3cqZAl" id="3tZ99yEJcyQ" role="3clF45" />
@@ -739,6 +756,71 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7agSOE8996M" role="jymVt" />
+    <node concept="2tJIrI" id="6lA5DXSRAoV" role="jymVt" />
+    <node concept="3clFb_" id="6lA5DXSRDr8" role="jymVt">
+      <property role="TrG5h" value="setDevice" />
+      <node concept="37vLTG" id="6lA5DXSREQk" role="3clF46">
+        <property role="TrG5h" value="devName" />
+        <node concept="17QB3L" id="6lA5DXSRFx1" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6lA5DXSRFzN" role="3clF46">
+        <property role="TrG5h" value="devSwName" />
+        <node concept="17QB3L" id="6lA5DXSRG0f" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6lA5DXSRDra" role="3clF45" />
+      <node concept="3Tm1VV" id="6lA5DXSRDrb" role="1B3o_S" />
+      <node concept="3clFbS" id="6lA5DXSRDrc" role="3clF47">
+        <node concept="3clFbF" id="6lA5DXSRGcs" role="3cqZAp">
+          <node concept="37vLTI" id="6lA5DXSRGuS" role="3clFbG">
+            <node concept="37vLTw" id="6lA5DXSRGJ$" role="37vLTx">
+              <ref role="3cqZAo" node="6lA5DXSREQk" resolve="devName" />
+            </node>
+            <node concept="37vLTw" id="6lA5DXSRGcr" role="37vLTJ">
+              <ref role="3cqZAo" node="6lA5DXSRzu5" resolve="deviceName" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6lA5DXSRGU7" role="3cqZAp">
+          <node concept="37vLTI" id="6lA5DXSRGYp" role="3clFbG">
+            <node concept="37vLTw" id="6lA5DXSRH4v" role="37vLTx">
+              <ref role="3cqZAo" node="6lA5DXSRFzN" resolve="devSwName" />
+            </node>
+            <node concept="37vLTw" id="6lA5DXSRH7Z" role="37vLTJ">
+              <ref role="3cqZAo" node="6lA5DXSRzY3" resolve="deviceSwName" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6lA5DXSRC6b" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getDeviceName" />
+      <node concept="3Tm1VV" id="6lA5DXSRC6d" role="1B3o_S" />
+      <node concept="17QB3L" id="6lA5DXSRC6e" role="3clF45" />
+      <node concept="3clFbS" id="6lA5DXSRC6f" role="3clF47">
+        <node concept="3clFbF" id="6lA5DXSRD0_" role="3cqZAp">
+          <node concept="37vLTw" id="6lA5DXSRD0$" role="3clFbG">
+            <ref role="3cqZAo" node="6lA5DXSRzu5" resolve="deviceName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6lA5DXSRC6g" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getDeviceSwName" />
+      <node concept="3Tm1VV" id="6lA5DXSRC6i" role="1B3o_S" />
+      <node concept="17QB3L" id="6lA5DXSRC6j" role="3clF45" />
+      <node concept="3clFbS" id="6lA5DXSRC6k" role="3clF47">
+        <node concept="3clFbF" id="6lA5DXSRDfA" role="3cqZAp">
+          <node concept="37vLTw" id="6lA5DXSRDf_" role="3clFbG">
+            <ref role="3cqZAo" node="6lA5DXSRzY3" resolve="deviceSwName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6lA5DXSRBoK" role="jymVt" />
     <node concept="3clFb_" id="5xcCl6pPfr1" role="jymVt">
       <property role="TrG5h" value="getVariant" />
       <node concept="17QB3L" id="3NBIlSj_Ea9" role="3clF45" />
@@ -34495,6 +34577,24 @@
       <node concept="3Tm1VV" id="7agSOE89lY4" role="1B3o_S" />
       <node concept="17QB3L" id="7agSOE89lXw" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="6lA5DXSRwnm" role="jymVt" />
+    <node concept="2tJIrI" id="6lA5DXSRwnV" role="jymVt" />
+    <node concept="3clFb_" id="6lA5DXSRyEy" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getDeviceName" />
+      <node concept="3clFbS" id="6lA5DXSRyE_" role="3clF47" />
+      <node concept="3Tm1VV" id="6lA5DXSRyEA" role="1B3o_S" />
+      <node concept="17QB3L" id="6lA5DXSRyDS" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="6lA5DXSRyIu" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getDeviceSwName" />
+      <node concept="3clFbS" id="6lA5DXSRyIx" role="3clF47" />
+      <node concept="3Tm1VV" id="6lA5DXSRyIy" role="1B3o_S" />
+      <node concept="17QB3L" id="6lA5DXSRyH9" role="3clF45" />
+    </node>
     <node concept="3Tm1VV" id="2$LKw9ULcTm" role="1B3o_S" />
     <node concept="3uibUv" id="2$LKw9ULI7h" role="3HQHJm">
       <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
@@ -44097,7 +44197,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2020.N13 (NPC pre) (dev " />
+            <property role="Xl_RC" value="moware 2020.N14 (NPC pre) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
