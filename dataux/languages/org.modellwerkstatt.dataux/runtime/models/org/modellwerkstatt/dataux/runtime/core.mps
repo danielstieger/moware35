@@ -21479,25 +21479,6 @@
                 </node>
               </node>
               <node concept="3clFbH" id="1LBGCxvZU89" role="3cqZAp" />
-              <node concept="3clFbF" id="1LBGCxw01RP" role="3cqZAp">
-                <node concept="37vLTI" id="1LBGCxw02ig" role="3clFbG">
-                  <node concept="2YIFZM" id="1LBGCxw02N5" role="37vLTx">
-                    <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-                    <ref role="37wK5l" to="28jr:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
-                    <node concept="2OqwBi" id="1LBGCxw02QB" role="37wK5m">
-                      <node concept="37vLTw" id="1LBGCxw02Ps" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6bl3$WOLFJH" resolve="cfg" />
-                      </node>
-                      <node concept="liA8E" id="1LBGCxw02Tn" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:6qsy3WVLzO5" resolve="getCmdName" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="1LBGCxw01RN" role="37vLTJ">
-                    <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
-                  </node>
-                </node>
-              </node>
               <node concept="3SKdUt" id="1LBGCxw07YT" role="3cqZAp">
                 <node concept="3SKdUq" id="1LBGCxw07YV" role="3SKWNk">
                   <property role="3SKdUp" value="origParams set by InitCmdEvent." />
