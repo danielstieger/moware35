@@ -213,6 +213,9 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
+        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
+      </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -245,6 +248,9 @@
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+      <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
+        <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
@@ -5210,6 +5216,72 @@
               </node>
             </node>
             <node concept="3x8VRR" id="1X3c4oMMWt1" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="ZwppkO0pby">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1M2myG" to="un0u:ZwppkO0p3u" resolve="CommandNoRoOpiton" />
+    <node concept="nKS2y" id="ZwppkOpfuE" role="1MLUbF">
+      <node concept="3clFbS" id="ZwppkOpfuF" role="2VODD2">
+        <node concept="3clFbF" id="ZwppkOpfvY" role="3cqZAp">
+          <node concept="2OqwBi" id="ZwppkOpg87" role="3clFbG">
+            <node concept="2OqwBi" id="ZwppkOpfMh" role="2Oq$k0">
+              <node concept="2OqwBi" id="ZwppkOpfxJ" role="2Oq$k0">
+                <node concept="nLn13" id="ZwppkOpfvX" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="ZwppkOpfA3" role="2OqNvi">
+                  <node concept="1xMEDy" id="ZwppkOpfA5" role="1xVPHs">
+                    <node concept="chp4Y" id="ZwppkOpfBO" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="ZwppkOpfGH" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="ZwppkOpfWH" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="3t7uKx" id="ZwppkOpgw7" role="2OqNvi">
+              <node concept="uoxfO" id="ZwppkOpgw9" role="3t7uKA">
+                <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="ZwppkOpgCr">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1M2myG" to="un0u:7yNVvqMPYuw" resolve="CommandNoEscOption" />
+    <node concept="nKS2y" id="ZwppkOpgCL" role="1MLUbF">
+      <node concept="3clFbS" id="ZwppkOpgCM" role="2VODD2">
+        <node concept="3clFbF" id="ZwppkOpgDX" role="3cqZAp">
+          <node concept="2OqwBi" id="ZwppkOpgDY" role="3clFbG">
+            <node concept="2OqwBi" id="ZwppkOpgDZ" role="2Oq$k0">
+              <node concept="2OqwBi" id="ZwppkOpgE0" role="2Oq$k0">
+                <node concept="nLn13" id="ZwppkOpgE1" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="ZwppkOpgE2" role="2OqNvi">
+                  <node concept="1xMEDy" id="ZwppkOpgE3" role="1xVPHs">
+                    <node concept="chp4Y" id="ZwppkOpgE4" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="ZwppkOpgE5" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="ZwppkOpgE6" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="3t7uKx" id="ZwppkOpgE7" role="2OqNvi">
+              <node concept="uoxfO" id="ZwppkOpgE8" role="3t7uKA">
+                <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

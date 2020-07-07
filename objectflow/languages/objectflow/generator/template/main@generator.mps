@@ -27278,10 +27278,12 @@
                   <node concept="3clFbS" id="6B3q_z3PAaB" role="2VODD2">
                     <node concept="3clFbF" id="6B3q_z3PC_N" role="3cqZAp">
                       <node concept="1Wc70l" id="6B3q_z3PDr8" role="3clFbG">
-                        <node concept="2OqwBi" id="6B3q_z3PDAn" role="3uHU7w">
-                          <node concept="30H73N" id="6B3q_z3PDwE" role="2Oq$k0" />
-                          <node concept="2qgKlT" id="6B3q_z3PDOV" role="2OqNvi">
-                            <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
+                        <node concept="3fqX7Q" id="ZwppkO0ZHM" role="3uHU7w">
+                          <node concept="2OqwBi" id="ZwppkO0ZHO" role="3fr31v">
+                            <node concept="30H73N" id="ZwppkO0ZHP" role="2Oq$k0" />
+                            <node concept="2qgKlT" id="ZwppkO0ZHQ" role="2OqNvi">
+                              <ref role="37wK5l" to="70o0:ZwppkO0q9z" resolve="isNoDisabledWithReadonlySession" />
+                            </node>
                           </node>
                         </node>
                         <node concept="2OqwBi" id="6B3q_z3PD3L" role="3uHU7B">

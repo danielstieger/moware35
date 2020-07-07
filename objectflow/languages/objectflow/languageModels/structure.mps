@@ -4681,5 +4681,16 @@
       <ref role="PrY4T" node="4kNjw_n0K3K" resolve="IFormatString" />
     </node>
   </node>
+  <node concept="1TIwiD" id="ZwppkO0p3u">
+    <property role="1pbfSe" value="1138882163" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="CommandNoRoOpiton" />
+    <property role="R4oN_" value="do not disable with readonly session" />
+    <property role="34LRSv" value="NO_DISABLE_ON_RO" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="ZwppkO0p9W" role="PzmwI">
+      <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
+    </node>
+  </node>
 </model>
 

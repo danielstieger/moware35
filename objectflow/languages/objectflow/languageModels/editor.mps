@@ -2890,6 +2890,7 @@
           </node>
         </node>
         <node concept="3F2HdR" id="7yNVvqMPYrM" role="3EZMnx">
+          <property role="2czwfO" value="," />
           <ref role="1NtTu8" to="un0u:7yNVvqMPXUb" />
           <node concept="l2Vlx" id="7yNVvqMPYrO" role="2czzBx" />
           <node concept="3F0ifn" id="7yNVvqMPYsu" role="2czzBI">
@@ -12413,6 +12414,14 @@
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="ZwppkO0paA">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1XX52x" to="un0u:ZwppkO0p3u" resolve="CommandNoRoOpiton" />
+    <node concept="PMmxH" id="ZwppkO0pbi" role="2wV5jI">
+      <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>
