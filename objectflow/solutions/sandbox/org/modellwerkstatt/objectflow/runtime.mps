@@ -44197,7 +44197,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2020.N15 (NPC pre) (dev " />
+            <property role="Xl_RC" value="moware 2020.N17 (NPC pre) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -46089,8 +46089,8 @@
       <node concept="3cqZAl" id="7HkVpVbXeVk" role="3clF45" />
       <node concept="37vLTG" id="7HkVpVbXeYa" role="3clF46">
         <property role="TrG5h" value="recv" />
-        <node concept="3uibUv" id="7HkVpVbXUtv" role="1tU5fm">
-          <ref role="3uigEE" node="7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        <node concept="3uibUv" id="6EKawapJHSJ" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="7HkVpVbXeZo" role="3clF46">
@@ -46107,8 +46107,8 @@
       <node concept="3cqZAl" id="7HkVpVbXf1L" role="3clF45" />
       <node concept="37vLTG" id="7HkVpVbXf1M" role="3clF46">
         <property role="TrG5h" value="recv" />
-        <node concept="3uibUv" id="7HkVpVbXUxl" role="1tU5fm">
-          <ref role="3uigEE" node="7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        <node concept="3uibUv" id="6EKawapJHYo" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="7HkVpVbXf1O" role="3clF46">

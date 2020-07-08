@@ -2168,7 +2168,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="7hXMISlOc7q" role="13h7CS">
-      <property role="TrG5h" value="isNotPersistDirtyIrrelevant" />
+      <property role="TrG5h" value="isPresentationProperty" />
       <node concept="3Tm1VV" id="7hXMISlOc7r" role="1B3o_S" />
       <node concept="10P_77" id="7hXMISlOc7s" role="3clF45" />
       <node concept="3clFbS" id="7hXMISlOc7t" role="3clF47">

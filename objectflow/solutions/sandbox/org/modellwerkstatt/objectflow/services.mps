@@ -42525,8 +42525,8 @@
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="2tJfPESLi6N" role="3clF46">
         <property role="TrG5h" value="recv" />
-        <node concept="3uibUv" id="7HkVpVbXWtC" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        <node concept="3uibUv" id="6EKawapJNPM" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="2tJfPESLKwY" role="3clF46">
@@ -42562,16 +42562,8 @@
                   <node concept="37vLTw" id="4NXmMPR2u0P" role="37wK5m">
                     <ref role="3cqZAo" node="2tJfPESLKwY" resolve="msgType" />
                   </node>
-                  <node concept="2ShNRf" id="4NXmMPR2u2o" role="37wK5m">
-                    <node concept="1pGfFk" id="4NXmMPR2ujo" role="2ShVmc">
-                      <ref role="37wK5l" node="4NXmMPR2t41" resolve="EventbusHandler" />
-                      <node concept="37vLTw" id="4NXmMPR2ulr" role="37wK5m">
-                        <ref role="3cqZAo" node="2tJfPESLKwY" resolve="msgType" />
-                      </node>
-                      <node concept="37vLTw" id="4NXmMPR2uoo" role="37wK5m">
-                        <ref role="3cqZAo" node="2tJfPESLi6N" resolve="recv" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="6EKawapJOdr" role="37wK5m">
+                    <ref role="3cqZAo" node="2tJfPESLi6N" resolve="recv" />
                   </node>
                 </node>
               </node>
@@ -42586,8 +42578,8 @@
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="2tJfPESLKDY" role="3clF46">
         <property role="TrG5h" value="recv" />
-        <node concept="3uibUv" id="7HkVpVbXWyz" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        <node concept="3uibUv" id="6EKawapJO1W" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="2tJfPESLKMc" role="3clF46">
@@ -42622,16 +42614,8 @@
                   <node concept="37vLTw" id="4NXmMPR2uAB" role="37wK5m">
                     <ref role="3cqZAo" node="2tJfPESLKMc" resolve="msgType" />
                   </node>
-                  <node concept="2ShNRf" id="4NXmMPR2uGW" role="37wK5m">
-                    <node concept="1pGfFk" id="4NXmMPR2vdj" role="2ShVmc">
-                      <ref role="37wK5l" node="4NXmMPR2t41" resolve="EventbusHandler" />
-                      <node concept="37vLTw" id="4NXmMPR2vfn" role="37wK5m">
-                        <ref role="3cqZAo" node="2tJfPESLKMc" resolve="msgType" />
-                      </node>
-                      <node concept="37vLTw" id="4NXmMPR2vid" role="37wK5m">
-                        <ref role="3cqZAo" node="2tJfPESLKDY" resolve="recv" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="6EKawapJOlP" role="37wK5m">
+                    <ref role="3cqZAo" node="2tJfPESLKDY" resolve="recv" />
                   </node>
                 </node>
               </node>
@@ -42801,244 +42785,6 @@
       <ref role="3uigEE" to="28jr:7HkVpVbXei3" resolve="IMoEventBusService" />
     </node>
   </node>
-  <node concept="312cEu" id="4NXmMPR2sGi">
-    <property role="TrG5h" value="EventbusHandler" />
-    <node concept="312cEg" id="4NXmMPR2sQs" role="jymVt">
-      <property role="TrG5h" value="recv" />
-      <node concept="3Tm6S6" id="4NXmMPR2sQt" role="1B3o_S" />
-      <node concept="3uibUv" id="7HkVpVbXWJ1" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
-      </node>
-    </node>
-    <node concept="312cEg" id="4NXmMPR2t6i" role="jymVt">
-      <property role="TrG5h" value="adr" />
-      <node concept="3Tm6S6" id="4NXmMPR2t6j" role="1B3o_S" />
-      <node concept="17QB3L" id="4NXmMPR2t7Q" role="1tU5fm" />
-    </node>
-    <node concept="2tJIrI" id="4NXmMPR2sOq" role="jymVt" />
-    <node concept="3clFbW" id="4NXmMPR2t41" role="jymVt">
-      <node concept="37vLTG" id="4NXmMPR2t5n" role="3clF46">
-        <property role="TrG5h" value="a" />
-        <node concept="17QB3L" id="4NXmMPR2tim" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4NXmMPR2ti$" role="3clF46">
-        <property role="TrG5h" value="r" />
-        <node concept="3uibUv" id="7HkVpVbXWMx" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="4NXmMPR2t43" role="3clF45" />
-      <node concept="3Tm1VV" id="4NXmMPR2t44" role="1B3o_S" />
-      <node concept="3clFbS" id="4NXmMPR2t45" role="3clF47">
-        <node concept="3clFbF" id="4NXmMPR2tkn" role="3cqZAp">
-          <node concept="37vLTI" id="4NXmMPR2tlS" role="3clFbG">
-            <node concept="37vLTw" id="4NXmMPR2toh" role="37vLTx">
-              <ref role="3cqZAo" node="4NXmMPR2t5n" resolve="a" />
-            </node>
-            <node concept="37vLTw" id="4NXmMPR2tkm" role="37vLTJ">
-              <ref role="3cqZAo" node="4NXmMPR2t6i" resolve="adr" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4NXmMPR2tp$" role="3cqZAp">
-          <node concept="37vLTI" id="4NXmMPR2trw" role="3clFbG">
-            <node concept="37vLTw" id="4NXmMPR2tu$" role="37vLTx">
-              <ref role="3cqZAo" node="4NXmMPR2ti$" resolve="r" />
-            </node>
-            <node concept="37vLTw" id="4NXmMPR2tpy" role="37vLTJ">
-              <ref role="3cqZAo" node="4NXmMPR2sQs" resolve="recv" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="4NXmMPR2t0b" role="jymVt" />
-    <node concept="3clFb_" id="4NXmMPR2tc4" role="jymVt">
-      <property role="TrG5h" value="getAddr" />
-      <node concept="17QB3L" id="4NXmMPR2teN" role="3clF45" />
-      <node concept="3Tm1VV" id="4NXmMPR2tc7" role="1B3o_S" />
-      <node concept="3clFbS" id="4NXmMPR2tc8" role="3clF47">
-        <node concept="3clFbF" id="4NXmMPR2th3" role="3cqZAp">
-          <node concept="37vLTw" id="4NXmMPR2th2" role="3clFbG">
-            <ref role="3cqZAo" node="4NXmMPR2t6i" resolve="adr" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="G_aOOcuibk" role="jymVt" />
-    <node concept="3clFb_" id="4NXmMPR2sN3" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="handle" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="4NXmMPR2sN4" role="1B3o_S" />
-      <node concept="3cqZAl" id="4NXmMPR2sN6" role="3clF45" />
-      <node concept="37vLTG" id="4NXmMPR2sN7" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="3uibUv" id="G_aOOcufA0" role="1tU5fm">
-          <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="4NXmMPR2sNa" role="3clF47">
-        <node concept="3clFbF" id="7lZUamRmuzz" role="3cqZAp">
-          <node concept="2YIFZM" id="7lZUamRmu_L" role="3clFbG">
-            <ref role="37wK5l" node="7lZUamRmsSh" resolve="dd" />
-            <ref role="1Pybhc" node="1PUq9fiYGac" resolve="MoOptionalEventBus" />
-            <node concept="3cpWs3" id="7lZUamRmuLF" role="37wK5m">
-              <node concept="37vLTw" id="7lZUamRmuMw" role="3uHU7w">
-                <ref role="3cqZAo" node="4NXmMPR2sN7" resolve="msg" />
-              </node>
-              <node concept="Xl_RD" id="7lZUamRmuAZ" role="3uHU7B">
-                <property role="Xl_RC" value="EventbusHandler.handler received " />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4NXmMPR2twr" role="3cqZAp">
-          <node concept="2OqwBi" id="4NXmMPR2txa" role="3clFbG">
-            <node concept="37vLTw" id="4NXmMPR2twq" role="2Oq$k0">
-              <ref role="3cqZAo" node="4NXmMPR2sQs" resolve="recv" />
-            </node>
-            <node concept="liA8E" id="4NXmMPR2tzt" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2tJfPESLIMm" resolve="receiveMessageFromBus" />
-              <node concept="37vLTw" id="G_aOOc$pWy" role="37wK5m">
-                <ref role="3cqZAo" node="4NXmMPR2sN7" resolve="msg" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="4NXmMPR2vl4" role="jymVt" />
-    <node concept="3clFb_" id="4NXmMPR2vqr" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="equals" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="4NXmMPR2vqs" role="1B3o_S" />
-      <node concept="10P_77" id="4NXmMPR2vqu" role="3clF45" />
-      <node concept="37vLTG" id="4NXmMPR2vqv" role="3clF46">
-        <property role="TrG5h" value="obj" />
-        <node concept="3uibUv" id="4NXmMPR2vqw" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="4NXmMPR2vqx" role="3clF47">
-        <node concept="3clFbJ" id="4NXmMPR2v$d" role="3cqZAp">
-          <node concept="3clFbC" id="4NXmMPR2v$e" role="3clFbw">
-            <node concept="37vLTw" id="4NXmMPR2vRo" role="3uHU7B">
-              <ref role="3cqZAo" node="4NXmMPR2vqv" resolve="obj" />
-            </node>
-            <node concept="10Nm6u" id="4NXmMPR2v$g" role="3uHU7w" />
-          </node>
-          <node concept="3clFbS" id="4NXmMPR2v$i" role="3clFbx">
-            <node concept="3cpWs6" id="4NXmMPR2v$j" role="3cqZAp">
-              <node concept="3clFbT" id="4NXmMPR2v$k" role="3cqZAk">
-                <property role="3clFbU" value="false" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="4NXmMPR2v$l" role="3cqZAp">
-          <node concept="3fqX7Q" id="4NXmMPR2v$m" role="3clFbw">
-            <node concept="2OqwBi" id="4NXmMPR2v$n" role="3fr31v">
-              <node concept="3VsKOn" id="4NXmMPR2v$p" role="2Oq$k0">
-                <ref role="3VsUkX" node="4NXmMPR2sGi" resolve="EventbusHandler" />
-              </node>
-              <node concept="liA8E" id="4NXmMPR2v$q" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.isAssignableFrom(java.lang.Class):boolean" resolve="isAssignableFrom" />
-                <node concept="2OqwBi" id="4NXmMPR2v$D" role="37wK5m">
-                  <node concept="37vLTw" id="4NXmMPR2w0u" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4NXmMPR2vqv" resolve="obj" />
-                  </node>
-                  <node concept="liA8E" id="4NXmMPR2v$E" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="4NXmMPR2v$t" role="3clFbx">
-            <node concept="3cpWs6" id="4NXmMPR2v$u" role="3cqZAp">
-              <node concept="3clFbT" id="4NXmMPR2v$v" role="3cqZAk">
-                <property role="3clFbU" value="false" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4NXmMPR2v$x" role="3cqZAp">
-          <node concept="3cpWsn" id="4NXmMPR2v$w" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="other" />
-            <node concept="3uibUv" id="4NXmMPR2w8T" role="1tU5fm">
-              <ref role="3uigEE" node="4NXmMPR2sGi" resolve="EventbusHandler" />
-            </node>
-            <node concept="10QFUN" id="4NXmMPR2v$z" role="33vP2m">
-              <node concept="3uibUv" id="4NXmMPR2wcc" role="10QFUM">
-                <ref role="3uigEE" node="4NXmMPR2sGi" resolve="EventbusHandler" />
-              </node>
-              <node concept="37vLTw" id="4NXmMPR2ycP" role="10QFUP">
-                <ref role="3cqZAo" node="4NXmMPR2vqv" resolve="obj" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="4NXmMPR2xUH" role="3cqZAp" />
-        <node concept="3clFbJ" id="4NXmMPR2wwS" role="3cqZAp">
-          <node concept="3clFbS" id="4NXmMPR2wwU" role="3clFbx">
-            <node concept="3cpWs6" id="4NXmMPR2xu9" role="3cqZAp">
-              <node concept="3clFbT" id="4NXmMPR2xuz" role="3cqZAk">
-                <property role="3clFbU" value="true" />
-              </node>
-            </node>
-          </node>
-          <node concept="1Wc70l" id="4NXmMPR2xb4" role="3clFbw">
-            <node concept="3clFbC" id="4NXmMPR2xiD" role="3uHU7w">
-              <node concept="2OqwBi" id="4NXmMPR2xmu" role="3uHU7w">
-                <node concept="37vLTw" id="4NXmMPR2xkj" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4NXmMPR2v$w" resolve="other" />
-                </node>
-                <node concept="2OwXpG" id="4NXmMPR2xrh" role="2OqNvi">
-                  <ref role="2Oxat5" node="4NXmMPR2sQs" resolve="recv" />
-                </node>
-              </node>
-              <node concept="37vLTw" id="4NXmMPR2xfE" role="3uHU7B">
-                <ref role="3cqZAo" node="4NXmMPR2sQs" resolve="recv" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="4NXmMPR2wEq" role="3uHU7B">
-              <node concept="37vLTw" id="4NXmMPR2wAY" role="2Oq$k0">
-                <ref role="3cqZAo" node="4NXmMPR2t6i" resolve="adr" />
-              </node>
-              <node concept="liA8E" id="4NXmMPR2wKh" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="2OqwBi" id="4NXmMPR2wNb" role="37wK5m">
-                  <node concept="37vLTw" id="4NXmMPR2wLh" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4NXmMPR2v$w" resolve="other" />
-                  </node>
-                  <node concept="2OwXpG" id="4NXmMPR2wQ9" role="2OqNvi">
-                    <ref role="2Oxat5" node="4NXmMPR2t6i" resolve="adr" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="4NXmMPR2xHt" role="3cqZAp">
-          <node concept="3clFbT" id="4NXmMPR2xIp" role="3cqZAk">
-            <property role="3clFbU" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="4NXmMPR2vqy" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="4NXmMPR2sGj" role="1B3o_S" />
-    <node concept="3uibUv" id="4NXmMPR2sLh" role="EKbjA">
-      <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
-    </node>
-  </node>
   <node concept="312cEu" id="7HkVpVbXnMu">
     <property role="TrG5h" value="MoFakeEventBus" />
     <node concept="2tJIrI" id="57ov2SWNPm" role="jymVt" />
@@ -43168,8 +42914,8 @@
       <node concept="3cqZAl" id="7HkVpVbXnOt" role="3clF45" />
       <node concept="37vLTG" id="7HkVpVbXnOu" role="3clF46">
         <property role="TrG5h" value="recv" />
-        <node concept="3uibUv" id="7HkVpVbXW2l" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        <node concept="3uibUv" id="6EKawapSCCT" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="7HkVpVbXnOw" role="3clF46">
@@ -43186,8 +42932,8 @@
       <node concept="3cqZAl" id="7HkVpVbXnOA" role="3clF45" />
       <node concept="37vLTG" id="7HkVpVbXnOB" role="3clF46">
         <property role="TrG5h" value="recv" />
-        <node concept="3uibUv" id="7HkVpVbXW6x" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        <node concept="3uibUv" id="6EKawapSCLY" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="7HkVpVbXnOD" role="3clF46">

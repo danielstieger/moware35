@@ -10451,8 +10451,10 @@
         <property role="3F0ifm" value="Component Scanning for " />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
-      <node concept="3F1sOY" id="myLEe5LLIs" role="3EZMnx">
+      <node concept="3F2HdR" id="6EKawaqRMSB" role="3EZMnx">
+        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="un0u:myLEe5LLDb" />
+        <node concept="l2Vlx" id="6EKawaqRMSD" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="myLEe5LLHj" role="2iSdaV" />
     </node>
@@ -10464,6 +10466,18 @@
       <node concept="3F0ifn" id="myLEe5LLP8" role="3EZMnx">
         <property role="3F0ifm" value="Generation time dependency resolution" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
+      </node>
+      <node concept="3F0ifn" id="6EKawar5KVe" role="3EZMnx">
+        <property role="3F0ifm" value="(including imported:" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="3F0A7n" id="6EKawar5KVF" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:6EKawar5KTW" resolve="includingImported" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="3F0ifn" id="6EKawar5KVW" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="l2Vlx" id="myLEe5LLPa" role="2iSdaV" />
     </node>

@@ -12316,6 +12316,11 @@
       <node concept="3Tmbuc" id="2M4KcIQU2wU" role="1B3o_S" />
       <node concept="10P_77" id="4Z3lS8B2Bfe" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="6EKawapJ4A_" role="jymVt">
+      <property role="TrG5h" value="ebLockRequestedTimestamp" />
+      <node concept="3Tmbuc" id="6EKawapJ4AA" role="1B3o_S" />
+      <node concept="3cpWsb" id="6EKawapJbE$" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="4Z3lS8B2BAt" role="jymVt">
       <property role="TrG5h" value="ebLocksHold" />
       <node concept="3Tm6S6" id="4Z3lS8B2BAu" role="1B3o_S" />
@@ -12323,6 +12328,7 @@
         <node concept="17QB3L" id="4Z3lS8B2Hoh" role="_ZDj9" />
       </node>
     </node>
+    <node concept="2tJIrI" id="6EKawapIX_5" role="jymVt" />
     <node concept="2tJIrI" id="4Z3lS8B2rP3" role="jymVt" />
     <node concept="3clFbW" id="4XXgpAAg$NF" role="jymVt">
       <node concept="3cqZAl" id="4XXgpAAg$NH" role="3clF45" />
@@ -13355,17 +13361,18 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="ZwppkOvThp" role="3cqZAp" />
-                    <node concept="3cpWs8" id="ZwppkOwy0T" role="3cqZAp">
-                      <node concept="3cpWsn" id="ZwppkOwy0W" role="3cpWs9">
-                        <property role="TrG5h" value="lockTimestamp" />
-                        <node concept="3cpWsb" id="ZwppkOwy0R" role="1tU5fm" />
-                        <node concept="2YIFZM" id="2P$1DRipzKv" role="33vP2m">
+                    <node concept="3clFbF" id="6EKawapJcu0" role="3cqZAp">
+                      <node concept="37vLTI" id="6EKawapJcFE" role="3clFbG">
+                        <node concept="2YIFZM" id="6EKawapJcWa" role="37vLTx">
                           <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
                           <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                         </node>
+                        <node concept="37vLTw" id="6EKawapJctY" role="37vLTJ">
+                          <ref role="3cqZAo" node="6EKawapJ4A_" resolve="ebLockRequestedTimestamp" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="ZwppkOwyAS" role="3cqZAp" />
+                    <node concept="3clFbH" id="6EKawapJcgU" role="3cqZAp" />
                     <node concept="3clFbF" id="7lZUamR5oNS" role="3cqZAp">
                       <node concept="2OqwBi" id="7lZUamR5p7c" role="3clFbG">
                         <node concept="2OqwBi" id="7lZUamR5oQO" role="2Oq$k0">
@@ -13436,8 +13443,8 @@
                                 <node concept="Xl_RD" id="ZwppkOvSDi" role="37wK5m">
                                   <property role="Xl_RC" value="requestTimestamp" />
                                 </node>
-                                <node concept="37vLTw" id="ZwppkOwyR8" role="37wK5m">
-                                  <ref role="3cqZAo" node="ZwppkOwy0W" resolve="lockTimestamp" />
+                                <node concept="37vLTw" id="6EKawapJdcr" role="37wK5m">
+                                  <ref role="3cqZAo" node="6EKawapJ4A_" resolve="ebLockRequestedTimestamp" />
                                 </node>
                               </node>
                             </node>
@@ -23335,6 +23342,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6EKawaqDoSl" role="3cqZAp" />
         <node concept="3clFbJ" id="6lA5DXTJrzL" role="3cqZAp">
           <node concept="3clFbS" id="6lA5DXTJrzN" role="3clFbx">
             <node concept="3clFbF" id="6lA5DXTJX18" role="3cqZAp">
@@ -23414,6 +23422,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6EKawaqDu_x" role="3cqZAp" />
         <node concept="3cpWs6" id="7lZUamRfHhT" role="3cqZAp">
           <node concept="37vLTw" id="6lA5DXTK9Jz" role="3cqZAk">
             <ref role="3cqZAo" node="6lA5DXTJ58Q" resolve="lockName" />
@@ -23870,8 +23879,8 @@
     <node concept="3uibUv" id="2o7h3aDYAzW" role="EKbjA">
       <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
     </node>
-    <node concept="3uibUv" id="7HkVpVbXND3" role="EKbjA">
-      <ref role="3uigEE" to="28jr:7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+    <node concept="3uibUv" id="6EKawapJkhW" role="EKbjA">
+      <ref role="3uigEE" to="ybfw:~ConsumerHandler" resolve="ConsumerHandler" />
     </node>
     <node concept="3UR2Jj" id="5_bDd1d2yyV" role="lGtFl">
       <node concept="TZ5HA" id="5_bDd1d2y$b" role="TZ5H$">
@@ -33039,7 +33048,7 @@
     <node concept="2tJIrI" id="53Vnir0sRd0" role="jymVt" />
     <node concept="3clFb_" id="G_aOOcErzP" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="receiveMessageFromBus" />
+      <property role="TrG5h" value="handle" />
       <node concept="37vLTG" id="G_aOOcErzQ" role="3clF46">
         <property role="TrG5h" value="busMsg" />
         <node concept="3uibUv" id="G_aOOcErzR" role="1tU5fm">
@@ -33658,7 +33667,7 @@
                                   </node>
                                   <node concept="3cpWs3" id="ZwppkOwTRN" role="37wK5m">
                                     <node concept="Xl_RD" id="ZwppkOwTTt" role="3uHU7w">
-                                      <property role="Xl_RC" value=") took more then one sec. " />
+                                      <property role="Xl_RC" value=") took more then one sec. - ?clocks sync?" />
                                     </node>
                                     <node concept="3cpWs3" id="ZwppkOwT8D" role="3uHU7B">
                                       <node concept="3cpWs3" id="ZwppkOwSIA" role="3uHU7B">
@@ -33685,7 +33694,7 @@
                           </node>
                           <node concept="3eOSWO" id="ZwppkOwGY2" role="3clFbw">
                             <node concept="3cmrfG" id="ZwppkOwHb2" role="3uHU7w">
-                              <property role="3cmrfH" value="1000" />
+                              <property role="3cmrfH" value="1200" />
                             </node>
                             <node concept="37vLTw" id="ZwppkOwMzy" role="3uHU7B">
                               <ref role="3cqZAo" node="ZwppkOwLCi" resolve="diffTime" />
@@ -33726,8 +33735,8 @@
                               <property role="TrG5h" value="diffTime" />
                               <node concept="3cpWsb" id="2P$1DRip_Qh" role="1tU5fm" />
                               <node concept="3cpWsd" id="2P$1DRipAcd" role="33vP2m">
-                                <node concept="37vLTw" id="ZwppkOwAZi" role="3uHU7w">
-                                  <ref role="3cqZAo" node="ZwppkOw4$t" resolve="requestTimestamp" />
+                                <node concept="37vLTw" id="6EKawapJfx9" role="3uHU7w">
+                                  <ref role="3cqZAo" node="6EKawapJ4A_" resolve="ebLockRequestedTimestamp" />
                                 </node>
                                 <node concept="2YIFZM" id="2P$1DRipA8P" role="3uHU7B">
                                   <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />

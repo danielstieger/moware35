@@ -463,6 +463,7 @@
     <property role="R5$K7" value="true" />
     <property role="1pbfSe" value="1704870725" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
+    <node concept="asaX9" id="6EKawarp_j6" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3bYrH4MGv34">
     <property role="3GE5qa" value="BusinessObject.Options" />
@@ -4251,7 +4252,7 @@
     <node concept="1TJgyj" id="myLEe5LLDb" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="componentBaseName" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
     </node>
     <node concept="PrWs8" id="myLEe5LLCh" role="PzmwI">
@@ -4270,6 +4271,10 @@
     <property role="34LRSv" value="Generation Time Resolution" />
     <property role="R4oN_" value="at gen." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6EKawar5KTW" role="1TKVEl">
+      <property role="TrG5h" value="includingImported" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="myLEe5LLL9" role="PzmwI">
       <ref role="PrY4T" node="myLEe5LLB3" resolve="IOFXDependencyResolutionStrategy" />
     </node>
