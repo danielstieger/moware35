@@ -54129,7 +54129,7 @@
   </node>
   <node concept="312cEu" id="51llZt55EXz">
     <property role="3GE5qa" value="OFXImpl" />
-    <property role="TrG5h" value="OFXShutDownSessionEx" />
+    <property role="TrG5h" value="OFXShutDownSessionException" />
     <node concept="312cEg" id="51llZt5$Lkz" role="jymVt">
       <property role="TrG5h" value="problem" />
       <node concept="3Tm6S6" id="51llZt5$Lk$" role="1B3o_S" />
