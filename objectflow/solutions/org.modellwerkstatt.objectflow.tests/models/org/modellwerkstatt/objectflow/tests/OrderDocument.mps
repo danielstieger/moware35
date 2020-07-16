@@ -2900,7 +2900,7 @@
             </node>
           </node>
           <node concept="16GPin" id="51llZt5NW9V" role="lGtFl">
-            <ref role="16PnFS" to="28jr:51llZt55EXz" resolve="OFXShutDownSessionEx" />
+            <ref role="16PnFS" to="28jr:51llZt55EXz" resolve="OFXShutDownSessionException" />
             <node concept="Xl_RD" id="51llZt5NWcL" role="16NUyR">
               <property role="Xl_RC" value="Different currencies are not suppored yet" />
             </node>
@@ -2984,7 +2984,7 @@
             <node concept="3cpWsn" id="51llZt5OzyA" role="TDEfY">
               <property role="TrG5h" value="ex" />
               <node concept="3uibUv" id="51llZt5OzTv" role="1tU5fm">
-                <ref role="3uigEE" to="28jr:51llZt55EXz" resolve="OFXShutDownSessionEx" />
+                <ref role="3uigEE" to="28jr:51llZt55EXz" resolve="OFXShutDownSessionException" />
               </node>
             </node>
             <node concept="3clFbS" id="51llZt5OzyE" role="TDEfX">
@@ -3162,7 +3162,7 @@
             <node concept="3cpWsn" id="51llZt5O$yu" role="TDEfY">
               <property role="TrG5h" value="ex" />
               <node concept="3uibUv" id="51llZt5O$yv" role="1tU5fm">
-                <ref role="3uigEE" to="28jr:51llZt55EXz" resolve="OFXShutDownSessionEx" />
+                <ref role="3uigEE" to="28jr:51llZt55EXz" resolve="OFXShutDownSessionException" />
               </node>
             </node>
             <node concept="3clFbS" id="51llZt5O$yw" role="TDEfX">
@@ -3580,7 +3580,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="2_3xZAlUmHe" role="3cqZAp" />
-        <node concept="3clFbH" id="2_3xZAlUn9h" role="3cqZAp" />
         <node concept="1gVbGN" id="2_3xZAlUnc7" role="3cqZAp">
           <node concept="2OqwBi" id="2_3xZAlUnBE" role="1gVkn0">
             <node concept="2OqwBi" id="2_3xZAlUnkQ" role="2Oq$k0">
@@ -3633,6 +3632,48 @@
           </node>
         </node>
         <node concept="3clFbH" id="2_3xZAlUnDF" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="6t$pRS5XLMX" role="3yMuLx">
+      <property role="TrG5h" value="Check fail in shortcut for the problems message. " />
+      <node concept="3cqZAl" id="6t$pRS5XLMY" role="3clF45" />
+      <node concept="3clFbS" id="6t$pRS5XLMZ" role="3clF47">
+        <node concept="3clFbH" id="6t$pRS5XLN0" role="3cqZAp" />
+        <node concept="3cpWs8" id="6t$pRS5XLN1" role="3cqZAp">
+          <node concept="3cpWsn" id="6t$pRS5XLN2" role="3cpWs9">
+            <property role="TrG5h" value="od" />
+            <node concept="3uibUv" id="6t$pRS5XLN3" role="1tU5fm">
+              <ref role="3uigEE" node="51llZt4WfOY" resolve="OrderDocument" />
+            </node>
+            <node concept="1odsa" id="6t$pRS5XLN4" role="33vP2m">
+              <ref role="1ods_" node="51llZt4Wh7q" resolve="ODTF" />
+              <ref role="37wK5l" node="4nH4LOF0O3D" resolve="createIGLOCase" />
+              <node concept="Xl_RD" id="6t$pRS5XLN5" role="37wK5m">
+                <property role="Xl_RC" value="Trigger guard test3" />
+              </node>
+              <node concept="3cmrfG" id="6t$pRS5XLN6" role="37wK5m">
+                <property role="3cmrfH" value="5" />
+              </node>
+              <node concept="1mgVXT" id="6t$pRS5XLN7" role="37wK5m">
+                <property role="1mgVXS" value="20.0bd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6t$pRS5XLN8" role="3cqZAp" />
+        <node concept="3clFbF" id="6t$pRS5XLN9" role="3cqZAp">
+          <node concept="1odsa" id="6t$pRS5XLNa" role="3clFbG">
+            <ref role="1ods_" node="51llZt4Wh6z" resolve="ODS" />
+            <ref role="37wK5l" node="2_3xZAlTGBw" resolve="problemsWithOptions" />
+          </node>
+          <node concept="16GPin" id="6t$pRS5XLNb" role="lGtFl">
+            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
+            <node concept="Xl_RD" id="6t$pRS68MmA" role="16NUyR">
+              <property role="Xl_RC" value="Job_Item_Alread_Done option" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6t$pRS5XLNc" role="3cqZAp" />
       </node>
     </node>
     <node concept="1DF_5m" id="2_3xZAlz_Ig" role="3yMuLx" />
