@@ -499,60 +499,6 @@
   <node concept="Qs71p" id="17aWCoMu8JB">
     <property role="TrG5h" value="TestCommandBehaviour" />
     <property role="3GE5qa" value="test" />
-    <node concept="2tJIrI" id="17aWCoMu8ML" role="jymVt" />
-    <node concept="QsSxf" id="17aWCoMu8Sy" role="jymVt">
-      <property role="TrG5h" value="CONDITION_IN_PAGE_INIT" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu8Sz" role="jymVt">
-      <property role="TrG5h" value="GUARD_IN_PAGE_INIT" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu8S$" role="jymVt">
-      <property role="TrG5h" value="DONE_IN_PAGE_INIT" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu8Zr" role="jymVt">
-      <property role="TrG5h" value="EXCEPTION_IN_PAGE_INIT" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="2tJIrI" id="17aWCoMu8Sb" role="jymVt" />
-    <node concept="QsSxf" id="17aWCoMu8UF" role="jymVt">
-      <property role="TrG5h" value="CONDITION_IN_PAGE_CONCLUSION" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu8UG" role="jymVt">
-      <property role="TrG5h" value="GUARD_IN_PAGE_CONCLUSION" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu8UH" role="jymVt">
-      <property role="TrG5h" value="DONE_IN_PAGE_CONCLUSION" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu8Y$" role="jymVt">
-      <property role="TrG5h" value="EXCEPTION_IN_PAGE_CONCLUSION" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="2tJIrI" id="17aWCoMu8Ui" role="jymVt" />
-    <node concept="QsSxf" id="17aWCoMu93L" role="jymVt">
-      <property role="TrG5h" value="CONDITION_IN_FINAL_OK" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu93M" role="jymVt">
-      <property role="TrG5h" value="GUARD_IN_FINAL_OK" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu93N" role="jymVt">
-      <property role="TrG5h" value="DONE_IN_FINAL_OK" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="17aWCoMu93O" role="jymVt">
-      <property role="TrG5h" value="EXCEPTION_IN_FINAL_OK" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="2tJIrI" id="17aWCoMu90U" role="jymVt" />
-    <node concept="2tJIrI" id="17aWCoMu91Q" role="jymVt" />
-    <node concept="2tJIrI" id="17aWCoMu92N" role="jymVt" />
     <node concept="QsSxf" id="17aWCoMu8KN" role="Qtgdg">
       <property role="TrG5h" value="CONDITION_IN_COMMAND_INIT" />
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
@@ -567,6 +513,54 @@
     </node>
     <node concept="QsSxf" id="17aWCoMu8Xl" role="Qtgdg">
       <property role="TrG5h" value="EXCEPTION_IN_COMMAND_INIT" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8Sy" role="Qtgdg">
+      <property role="TrG5h" value="CONDITION_IN_PAGE_INIT" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8Sz" role="Qtgdg">
+      <property role="TrG5h" value="GUARD_IN_PAGE_INIT" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8S$" role="Qtgdg">
+      <property role="TrG5h" value="DONE_IN_PAGE_INIT" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8Zr" role="Qtgdg">
+      <property role="TrG5h" value="EXCEPTION_IN_PAGE_INIT" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8UF" role="Qtgdg">
+      <property role="TrG5h" value="CONDITION_IN_PAGE_CONCLUSION" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8UG" role="Qtgdg">
+      <property role="TrG5h" value="GUARD_IN_PAGE_CONCLUSION" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8UH" role="Qtgdg">
+      <property role="TrG5h" value="DONE_IN_PAGE_CONCLUSION" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu8Y$" role="Qtgdg">
+      <property role="TrG5h" value="EXCEPTION_IN_PAGE_CONCLUSION" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu93L" role="Qtgdg">
+      <property role="TrG5h" value="CONDITION_IN_FINAL_OK" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu93M" role="Qtgdg">
+      <property role="TrG5h" value="GUARD_IN_FINAL_OK" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu93N" role="Qtgdg">
+      <property role="TrG5h" value="DONE_IN_FINAL_OK" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="17aWCoMu93O" role="Qtgdg">
+      <property role="TrG5h" value="EXCEPTION_IN_FINAL_OK" />
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="17aWCoMu8JC" role="1B3o_S" />
