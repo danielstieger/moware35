@@ -22031,7 +22031,7 @@
     <node concept="2tJIrI" id="4AdkG1US8yJ" role="jymVt" />
     <node concept="2YIFZL" id="7ECLRBgCPrx" role="jymVt">
       <property role="TrG5h" value="main" />
-      <node concept="10P_77" id="7yXAhdoHqr2" role="3clF45" />
+      <node concept="3cqZAl" id="1sAPMiKYEnA" role="3clF45" />
       <node concept="3Tm1VV" id="7ECLRBgCPrz" role="1B3o_S" />
       <node concept="3clFbS" id="7ECLRBgCPr$" role="3clF47">
         <node concept="2GUZhq" id="7ECLRBgCPr_" role="3cqZAp">
@@ -22107,19 +22107,28 @@
               </node>
             </node>
             <node concept="3clFbH" id="7yXAhdoRTfk" role="3cqZAp" />
-            <node concept="3cpWs6" id="7yXAhdoRTpX" role="3cqZAp">
-              <node concept="3fqX7Q" id="7yXAhdoRTuz" role="3cqZAk">
-                <node concept="2OqwBi" id="7ECLRBgCPrW" role="3fr31v">
-                  <node concept="37vLTw" id="7ECLRBgCPrX" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7ECLRBgCPrF" resolve="thisTestSuit" />
-                  </node>
-                  <node concept="liA8E" id="7ECLRBgCPrY" role="2OqNvi">
-                    <ref role="37wK5l" node="4AdkG1USbaD" resolve="runAsMainTestSuit" />
+            <node concept="3clFbJ" id="1sAPMiKYI$M" role="3cqZAp">
+              <node concept="3clFbS" id="1sAPMiKYI$O" role="3clFbx">
+                <node concept="3clFbF" id="1sAPMiKYINY" role="3cqZAp">
+                  <node concept="2YIFZM" id="1sAPMiKYIQG" role="3clFbG">
+                    <ref role="37wK5l" to="wyt6:~System.exit(int):void" resolve="exit" />
+                    <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                    <node concept="3cmrfG" id="1sAPMiKYITc" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
                   </node>
                 </node>
               </node>
+              <node concept="2OqwBi" id="7ECLRBgCPrW" role="3clFbw">
+                <node concept="37vLTw" id="7ECLRBgCPrX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7ECLRBgCPrF" resolve="thisTestSuit" />
+                </node>
+                <node concept="liA8E" id="7ECLRBgCPrY" role="2OqNvi">
+                  <ref role="37wK5l" node="4AdkG1USbaD" resolve="runAsMainTestSuit" />
+                </node>
+              </node>
             </node>
-            <node concept="3clFbH" id="4AdkG1USmyK" role="3cqZAp" />
+            <node concept="3clFbH" id="1sAPMiKYJ9k" role="3cqZAp" />
           </node>
           <node concept="3clFbS" id="7ECLRBgCPrZ" role="2GVbov">
             <node concept="3clFbF" id="7ECLRBgCPs0" role="3cqZAp">
@@ -22169,12 +22178,17 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cpWs6" id="7yXAhdpbxNh" role="3cqZAp">
-                <node concept="3clFbT" id="7yXAhdpbxOC" role="3cqZAk">
-                  <property role="3clFbU" value="false" />
-                </node>
-              </node>
               <node concept="3clFbH" id="7yXAhdpbxUH" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1sAPMiKYJJT" role="3cqZAp" />
+        <node concept="3clFbF" id="1sAPMiKYFEQ" role="3cqZAp">
+          <node concept="2YIFZM" id="1sAPMiKYFLQ" role="3clFbG">
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <ref role="37wK5l" to="wyt6:~System.exit(int):void" resolve="exit" />
+            <node concept="3cmrfG" id="1sAPMiKYFOk" role="37wK5m">
+              <property role="3cmrfH" value="1" />
             </node>
           </node>
         </node>
