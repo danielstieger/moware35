@@ -7343,6 +7343,60 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="4Rz9B$cWYtV" role="_YvDr">
+      <property role="_XH9r" value="CHECK CHECK CHECK: Commands without double permissions?? WHAT S that? Check manually?" />
+      <ref role="_XDHR" to="un0u:1Csx3LqAMK0" resolve="OnTriggerTransition" />
+      <node concept="_ZGcI" id="4Rz9B$cWYtW" role="_XPhp">
+        <node concept="3clFbS" id="4Rz9B$cWYtX" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4Rz9B$cWYu4" role="_XDHO">
+        <node concept="3clFbS" id="4Rz9B$cWYu5" role="2VODD2">
+          <node concept="3clFbF" id="4Rz9B$cWYu6" role="3cqZAp">
+            <node concept="1Wc70l" id="4Rz9B$cYanj" role="3clFbG">
+              <node concept="1eOMI4" id="4Rz9B$cYapl" role="3uHU7B">
+                <node concept="22lmx$" id="4Rz9B$cYeQN" role="1eOMHV">
+                  <node concept="3eOSWO" id="4Rz9B$cYjfZ" role="3uHU7w">
+                    <node concept="3cmrfG" id="4Rz9B$cYjg5" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="2OqwBi" id="4Rz9B$cYfQc" role="3uHU7B">
+                      <node concept="2OqwBi" id="4Rz9B$cYeZJ" role="2Oq$k0">
+                        <node concept="_YI3z" id="4Rz9B$cYeVk" role="2Oq$k0" />
+                        <node concept="3Tsc0h" id="4Rz9B$cYf7W" role="2OqNvi">
+                          <ref role="3TtcxE" to="un0u:2ylNKzJFBoH" />
+                        </node>
+                      </node>
+                      <node concept="34oBXx" id="4Rz9B$cYi2M" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="3eOSWO" id="4Rz9B$cYeBS" role="3uHU7B">
+                    <node concept="2OqwBi" id="4Rz9B$cYbh_" role="3uHU7B">
+                      <node concept="2OqwBi" id="4Rz9B$cYauH" role="2Oq$k0">
+                        <node concept="_YI3z" id="4Rz9B$cYarF" role="2Oq$k0" />
+                        <node concept="3Tsc0h" id="4Rz9B$cYa$I" role="2OqNvi">
+                          <ref role="3TtcxE" to="un0u:2ylNKzJFBoA" />
+                        </node>
+                      </node>
+                      <node concept="34oBXx" id="4Rz9B$cYdsb" role="2OqNvi" />
+                    </node>
+                    <node concept="3cmrfG" id="4Rz9B$cYeBY" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="4Rz9B$cXFZe" role="3uHU7w">
+                <node concept="2YIFZM" id="4Rz9B$cXFZg" role="3fr31v">
+                  <ref role="37wK5l" node="3ooeAs07CID" resolve="hasSameRoles" />
+                  <ref role="1Pybhc" node="3ooeAs07CEp" resolve="NPCHelper" />
+                  <node concept="_YI3z" id="4Rz9B$cXFZh" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="6W9Z7_c0ThG" role="_YvDr">
       <property role="_XH9r" value="Change name of process instance if possible." />
       <ref role="_XDHR" to="un0u:6ffh1MXzHnh" resolve="Process" />
@@ -7545,7 +7599,7 @@
       </node>
     </node>
     <node concept="_XfAh" id="7l_2F8_P0Mt" role="_YvDr">
-      <property role="_XH9r" value="CHECK CHECK CHECK!! Command used as state independent and in a" />
+      <property role="_XH9r" value="CHECK CHECK CHECK!! Command used as state independent and in a state" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
       <node concept="_ZGcI" id="7l_2F8_P0Mu" role="_XPhp">
         <node concept="3clFbS" id="7l_2F8_P0Mv" role="2VODD2">
@@ -8119,6 +8173,13 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="5yARNIz1Lmk" role="_YvDr">
+      <property role="_XH9r" value="CHECK CHECK CHECK!! Error statement used. Replace with guard or with condition? " />
+      <ref role="_XDHR" to="un0u:4Ta2XmWaDfo" resolve="ErrorInCommand" />
+      <node concept="_ZGcI" id="5yARNIz1Lmm" role="_XPhp">
+        <node concept="3clFbS" id="5yARNIz1Lmo" role="2VODD2" />
       </node>
     </node>
   </node>
