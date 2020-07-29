@@ -6639,7 +6639,7 @@
       <node concept="3clFbS" id="51llZt5Dj_z" role="2VODD2">
         <node concept="3clFbF" id="51llZt5DjAS" role="3cqZAp">
           <node concept="Xl_RD" id="51llZt5DjAR" role="3clFbG">
-            <property role="Xl_RC" value="Translate an expection with this guard." />
+            <property role="Xl_RC" value="Translate an exception with this guard." />
           </node>
         </node>
       </node>
