@@ -630,7 +630,7 @@
     </node>
     <node concept="1TJgyj" id="3AwmmzD$qrI" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="boundClass" />
+      <property role="20kJfa" value="boundObject" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
@@ -2033,7 +2033,7 @@
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="5WxVUBAMhc3" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="businessObject" />
+      <property role="20kJfa" value="entity" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1caoEBn$Vr$" resolve="BusinessObject" />
     </node>
@@ -4684,17 +4684,6 @@
     </node>
     <node concept="PrWs8" id="4kNjw_n0KmB" role="PzmwI">
       <ref role="PrY4T" node="4kNjw_n0K3K" resolve="IFormatString" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="ZwppkO0p3u">
-    <property role="1pbfSe" value="1138882163" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="CommandNoRoOpiton" />
-    <property role="R4oN_" value="do not disable with readonly session" />
-    <property role="34LRSv" value="NO_DISABLE_ON_RO" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="ZwppkO0p9W" role="PzmwI">
-      <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
     </node>
   </node>
 </model>

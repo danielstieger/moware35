@@ -12091,7 +12091,7 @@
         <node concept="3clFbS" id="2_e6g62Aw_j" role="3clFbx">
           <node concept="2MkqsV" id="2_e6g62AwXM" role="3cqZAp">
             <node concept="Xl_RD" id="2_e6g62AwY1" role="2MkJ7o">
-              <property role="Xl_RC" value="You need a cancel/page/done to leave this page conclusion." />
+              <property role="Xl_RC" value="You need a condition, page or done statement to leave this page conclusion." />
             </node>
             <node concept="1YBJjd" id="2_e6g62Ax1u" role="2OEOjV">
               <ref role="1YBMHb" node="2_e6g62ArtZ" resolve="pageConclusion" />

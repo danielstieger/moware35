@@ -2972,7 +2972,7 @@
         <ref role="1k5W1q" to="q1sf:Kou8Lei6h5" resolve="TecDetail" />
       </node>
       <node concept="3F1sOY" id="3OfvFtmn_I9" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;true&gt;" />
+        <property role="1$x2rV" value="-&gt;" />
         <ref role="1NtTu8" to="1btx:3OfvFtmn_Hu" />
       </node>
       <node concept="3F0ifn" id="3OfvFtmn_JJ" role="3EZMnx">

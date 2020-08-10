@@ -32371,7 +32371,6 @@
             <property role="Xl_RC" value="S_MMT_INVOICEPOS" />
           </node>
         </node>
-        <node concept="2fr8A1" id="4HJH2PnHogm" role="jzqmW" />
       </node>
       <node concept="12nEzJ" id="4HJH2PnkoMN" role="3caO6$">
         <ref role="12nL8z" node="4HJH2PnklF_" resolve="posAvalue" />

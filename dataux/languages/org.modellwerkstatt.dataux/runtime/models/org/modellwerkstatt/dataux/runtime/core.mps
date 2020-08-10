@@ -16471,6 +16471,42 @@
         </node>
         <node concept="SfApY" id="T$VfFDsZoY" role="3cqZAp">
           <node concept="3clFbS" id="T$VfFDsZp0" role="SfCbr">
+            <node concept="3clFbJ" id="6uo0g5Y0kLw" role="3cqZAp">
+              <node concept="3clFbS" id="6uo0g5Y0kLy" role="3clFbx">
+                <node concept="3clFbF" id="6uo0g5Y0l2O" role="3cqZAp">
+                  <node concept="2OqwBi" id="6uo0g5Y0l2P" role="3clFbG">
+                    <node concept="37vLTw" id="6uo0g5Y0l2Q" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                    </node>
+                    <node concept="liA8E" id="6uo0g5Y0l2R" role="2OqNvi">
+                      <ref role="37wK5l" node="4nH4LOErIJJ" resolve="logFrmwrkProblem" />
+                      <node concept="3clFbT" id="6uo0g5Y0lnU" role="37wK5m">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="6uo0g5Y0l2T" role="37wK5m">
+                        <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
+                      </node>
+                      <node concept="Xl_RD" id="6uo0g5Y0l2U" role="37wK5m">
+                        <property role="Xl_RC" value="CommandContainer.fg_ensureTerminatedExceptionConclusionAndCloseContainer() container closed, but closing requested with ex." />
+                      </node>
+                      <node concept="2YIFZM" id="6uo0g5Y0mcH" role="37wK5m">
+                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                        <node concept="37vLTw" id="6uo0g5Y0miv" role="37wK5m">
+                          <ref role="3cqZAo" node="T$VfFDt9HC" resolve="x" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="6uo0g5Y0mwx" role="3cqZAp" />
+              </node>
+              <node concept="37vLTw" id="6uo0g5Y0kP5" role="3clFbw">
+                <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6uo0g5Y0myL" role="3cqZAp" />
+            <node concept="3clFbH" id="6uo0g5Y0m_N" role="3cqZAp" />
             <node concept="3SKdUt" id="1HDSUXwBTOl" role="3cqZAp">
               <node concept="3SKdUq" id="1HDSUXwBTOn" role="3SKWNk">
                 <property role="3SKdUp" value="this can only occure, when a framework EX has happend and the cmd was not " />

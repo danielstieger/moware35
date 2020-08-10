@@ -414,6 +414,11 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853935960" name="anchorTag" index="1K8rD$" />
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
+      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="linkRole" index="3V$3am" />
@@ -44477,6 +44482,11 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="1KehLL" id="6uo0g5XC1QY" role="lGtFl">
+        <property role="1K8rM7" value="Constant_fao2ea_c0" />
+        <property role="1K8rD$" value="default_RTransform" />
+        <property role="1Kfyot" value="right" />
       </node>
     </node>
     <node concept="2tJIrI" id="Da7Dafft6m" role="jymVt" />
