@@ -593,7 +593,7 @@
         <ref role="tCJdB" node="I5W9GWJdq6" resolve="DbDescribeToEntity" />
       </node>
       <node concept="tCFHf" id="35a9wK5T1rw" role="ftvYc">
-        <ref role="tCJdB" node="35a9wK5RH6t" resolve="DbDescribeToViewObject" />
+        <ref role="tCJdB" node="35a9wK5RH6t" resolve="DbDescribeToDTO" />
       </node>
       <node concept="tCFHf" id="7ySAZj0bkfM" role="ftvYc">
         <ref role="tCJdB" node="7ySAZj0bgeI" resolve="OFXServiceAnalyzer" />
@@ -8794,9 +8794,9 @@
     <node concept="3Tm1VV" id="7ySAZj0h7Ey" role="1B3o_S" />
   </node>
   <node concept="sE7Ow" id="35a9wK5RH6t">
-    <property role="TrG5h" value="DbDescribeToViewObject" />
-    <property role="2uzpH1" value="Werkbank - Create ViewObject / NoKeyMapper from DESC" />
-    <property role="1WHSii" value="ViewObject from SQL desc table" />
+    <property role="TrG5h" value="DbDescribeToDTO" />
+    <property role="2uzpH1" value="Werkbank - Create DTO / NoKeyMapper from DESC" />
+    <property role="1WHSii" value="DTO from SQL desc table" />
     <property role="fJN8o" value="true" />
     <node concept="1DS2jV" id="35a9wK5RH6u" role="1NuT2Z">
       <property role="TrG5h" value="frame" />

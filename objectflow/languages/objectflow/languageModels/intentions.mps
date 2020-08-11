@@ -5836,7 +5836,7 @@
       <node concept="3clFbS" id="1ZjRqWr0vqk" role="2VODD2">
         <node concept="3clFbF" id="1ZjRqWr0v_P" role="3cqZAp">
           <node concept="Xl_RD" id="1ZjRqWr0v_O" role="3clFbG">
-            <property role="Xl_RC" value="Create ViewObject and NoKeyMapping for SQL-Query" />
+            <property role="Xl_RC" value="Create DTO and NoKeyMapping for SQL-Query" />
           </node>
         </node>
       </node>
@@ -5902,7 +5902,7 @@
                       <node concept="3cpWs3" id="1ZjRqWr0_Qd" role="3uHU7B">
                         <node concept="3cpWs3" id="1ZjRqWr0_Kz" role="3uHU7B">
                           <node concept="Xl_RD" id="1ZjRqWr0$WD" role="3uHU7B">
-                            <property role="Xl_RC" value="\n\nCAN NOT RUN AUTOCOMPLETE NOKEYMAPPING: sql string not correct, can not isolate ViewObject's name (" />
+                            <property role="Xl_RC" value="\n\nCAN NOT RUN AUTOCOMPLETE NOKEYMAPPING: sql string not correct, can not isolate DTO's name (" />
                           </node>
                           <node concept="37vLTw" id="1ZjRqWr0_Nc" role="3uHU7w">
                             <ref role="3cqZAo" node="1ZjRqWr0zH$" resolve="voName" />

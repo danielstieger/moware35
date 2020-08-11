@@ -3404,7 +3404,7 @@
         <node concept="3clFbH" id="26OSHcxemVe" role="3cqZAp" />
         <node concept="3SKdUt" id="26OSHcxenhB" role="3cqZAp">
           <node concept="3SKdUq" id="26OSHcxenhD" role="3SKWNk">
-            <property role="3SKdUp" value="Might be a mappend value object or a ViewObject (no key option present)" />
+            <property role="3SKdUp" value="Might be a mappend value object or a DTO (no key option present)" />
           </node>
         </node>
         <node concept="3cpWs6" id="26OSHcxelkx" role="3cqZAp">

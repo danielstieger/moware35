@@ -1515,7 +1515,7 @@
         <ref role="tCJdB" node="5_hm6iItVs5" resolve="LanguageStringsImport" />
       </node>
       <node concept="tCFHf" id="1Zhh975Psdn" role="ftvYc">
-        <ref role="tCJdB" node="1Zhh9750LWL" resolve="ConvertEntityAndViewObject" />
+        <ref role="tCJdB" node="1Zhh9750LWL" resolve="ConvertEntityAndDTO" />
       </node>
       <node concept="tCFHf" id="3P4lfamCapl" role="ftvYc">
         <ref role="tCJdB" node="3P4lfamBC4m" resolve="ConvertEntityAndValueObject" />
@@ -4072,9 +4072,9 @@
     </node>
   </node>
   <node concept="sE7Ow" id="1Zhh9750LWL">
-    <property role="TrG5h" value="ConvertEntityAndViewObject" />
-    <property role="2uzpH1" value="Werkbank - Convert Entities and ViewObjects" />
-    <property role="1WHSii" value="Entity2ViewObject and ViewObject2Entity" />
+    <property role="TrG5h" value="ConvertEntityAndDTO" />
+    <property role="2uzpH1" value="Werkbank - Convert Entities and DTO" />
+    <property role="1WHSii" value="Entity2DTO and DTO2Entity" />
     <property role="fJN8o" value="true" />
     <node concept="2XrIbr" id="1Zhh975F2QN" role="32lrUH">
       <property role="TrG5h" value="replaceClassifierType" />
@@ -4634,7 +4634,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="1Zhh9750LX9" role="37wK5m">
-                  <property role="Xl_RC" value="Selected an Entity or a ViewObject which should be converted." />
+                  <property role="Xl_RC" value="Selected an Entity or a DTO which should be converted." />
                 </node>
                 <node concept="Xl_RD" id="1Zhh9750LXa" role="37wK5m">
                   <property role="Xl_RC" value="Wrong selection in project explorer" />

@@ -398,9 +398,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
@@ -21417,18 +21414,18 @@
       </node>
     </node>
     <node concept="3yPF9F" id="40c7Wy_3U8N" role="3yMuLx">
-      <property role="TrG5h" value="Changing ViewObjects should not result in dirty set." />
+      <property role="TrG5h" value="Changing DTOs should not result in dirty set." />
       <node concept="3cqZAl" id="40c7Wy_3UOv" role="3clF45" />
       <node concept="3clFbS" id="40c7Wy_3U8R" role="3clF47">
         <node concept="3cpWs8" id="40c7Wy_3VtI" role="3cqZAp">
           <node concept="3cpWsn" id="40c7Wy_3VtJ" role="3cpWs9">
-            <property role="TrG5h" value="viewObject" />
+            <property role="TrG5h" value="dto" />
             <node concept="3uibUv" id="40c7Wy_3VtK" role="1tU5fm">
-              <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkviewobject" />
+              <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkDTO" />
             </node>
             <node concept="2ShNRf" id="40c7Wy_3Vu2" role="33vP2m">
               <node concept="1pGfFk" id="40c7Wy_3VtU" role="2ShVmc">
-                <ref role="37wK5l" node="1ZjRqWs0_O0" resolve="MmtNkviewobject" />
+                <ref role="37wK5l" node="1ZjRqWs0_O0" resolve="MmtNkDTO" />
               </node>
             </node>
           </node>
@@ -21445,7 +21442,7 @@
                     <ref role="3uigEE" to="28jr:4LCWVp02JQP" resolve="IOFXEntity" />
                   </node>
                   <node concept="37vLTw" id="40c7Wy_3VwU" role="10QFUP">
-                    <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="viewObject" />
+                    <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="dto" />
                   </node>
                 </node>
               </node>
@@ -21462,7 +21459,7 @@
             </node>
             <node concept="2OqwBi" id="40c7Wy_3VCF" role="37vLTJ">
               <node concept="37vLTw" id="40c7Wy_3VBs" role="2Oq$k0">
-                <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="viewObject" />
+                <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="dto" />
               </node>
               <node concept="2S8uIT" id="40c7Wy_3VEa" role="2OqNvi">
                 <ref role="2S8YL0" node="1ZjRqWs0_Ow" resolve="myCount" />
@@ -21477,7 +21474,7 @@
             </node>
             <node concept="2OqwBi" id="40c7Wy_3VKt" role="37vLTJ">
               <node concept="37vLTw" id="40c7Wy_3VKu" role="2Oq$k0">
-                <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="viewObject" />
+                <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="dto" />
               </node>
               <node concept="2S8uIT" id="40c7Wy_3VNF" role="2OqNvi">
                 <ref role="2S8YL0" node="1ZjRqWs0_Oj" resolve="myName" />
@@ -21498,7 +21495,7 @@
                     <ref role="3uigEE" to="28jr:4LCWVp02JQP" resolve="IOFXEntity" />
                   </node>
                   <node concept="37vLTw" id="40c7Wy_3VUJ" role="10QFUP">
-                    <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="viewObject" />
+                    <ref role="3cqZAo" node="40c7Wy_3VtJ" resolve="dto" />
                   </node>
                 </node>
               </node>
@@ -21511,18 +21508,18 @@
       </node>
     </node>
     <node concept="3yPF9F" id="40c7Wy_h56p" role="3yMuLx">
-      <property role="TrG5h" value="ViewObjects are capable of handling ViewObject Reference scopes." />
+      <property role="TrG5h" value="DTOs are capable of handling DTO Reference scopes." />
       <node concept="3cqZAl" id="40c7Wy_h56q" role="3clF45" />
       <node concept="3clFbS" id="40c7Wy_h56r" role="3clF47">
         <node concept="3cpWs8" id="40c7Wy_h56s" role="3cqZAp">
           <node concept="3cpWsn" id="40c7Wy_h56t" role="3cpWs9">
-            <property role="TrG5h" value="viewObject" />
+            <property role="TrG5h" value="dto" />
             <node concept="3uibUv" id="40c7Wy_h56u" role="1tU5fm">
-              <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkviewobject" />
+              <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkDTO" />
             </node>
             <node concept="2ShNRf" id="40c7Wy_h56v" role="33vP2m">
               <node concept="1pGfFk" id="40c7Wy_h56w" role="2ShVmc">
-                <ref role="37wK5l" node="1ZjRqWs0_O0" resolve="MmtNkviewobject" />
+                <ref role="37wK5l" node="1ZjRqWs0_O0" resolve="MmtNkDTO" />
               </node>
             </node>
           </node>
@@ -21531,10 +21528,10 @@
           <node concept="2OqwBi" id="40c7Wy_h6zV" role="3clFbG">
             <node concept="2OqwBi" id="40c7Wy_h6o2" role="2Oq$k0">
               <node concept="37vLTw" id="40c7Wy_h6nA" role="2Oq$k0">
-                <ref role="3cqZAo" node="40c7Wy_h56t" resolve="viewObject" />
+                <ref role="3cqZAo" node="40c7Wy_h56t" resolve="dto" />
               </node>
               <node concept="2dcwcJ" id="40c7Wy_h6zd" role="2OqNvi">
-                <ref role="2dcwcH" node="40c7Wy_d_vQ" resolve="viewObjectRef" />
+                <ref role="2dcwcH" node="40c7Wy_d_vQ" resolve="dtoRef" />
               </node>
             </node>
             <node concept="liA8E" id="40c7Wy_vbO_" role="2OqNvi">
@@ -21542,10 +21539,10 @@
               <node concept="2ShNRf" id="40c7Wy_vbPB" role="37wK5m">
                 <node concept="Tc6Ow" id="40c7Wy_vfLU" role="2ShVmc">
                   <node concept="3uibUv" id="40c7Wy_vfZL" role="HW$YZ">
-                    <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkviewobject" />
+                    <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkDTO" />
                   </node>
                   <node concept="37vLTw" id="40c7Wy_IJu3" role="HW$Y0">
-                    <ref role="3cqZAo" node="40c7Wy_h56t" resolve="viewObject" />
+                    <ref role="3cqZAo" node="40c7Wy_h56t" resolve="dto" />
                   </node>
                 </node>
               </node>
@@ -21561,10 +21558,10 @@
               <node concept="2OqwBi" id="40c7Wy_IJC3" role="2Oq$k0">
                 <node concept="2OqwBi" id="40c7Wy_IJzS" role="2Oq$k0">
                   <node concept="37vLTw" id="40c7Wy_IJyj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="40c7Wy_h56t" resolve="viewObject" />
+                    <ref role="3cqZAo" node="40c7Wy_h56t" resolve="dto" />
                   </node>
                   <node concept="2dcwcJ" id="40c7Wy_IJ_V" role="2OqNvi">
-                    <ref role="2dcwcH" node="40c7Wy_d_vQ" resolve="viewObjectRef" />
+                    <ref role="2dcwcH" node="40c7Wy_d_vQ" resolve="dtoRef" />
                   </node>
                 </node>
                 <node concept="liA8E" id="40c7Wy_IJGR" role="2OqNvi">
@@ -21581,10 +21578,10 @@
               <node concept="2OqwBi" id="40c7Wy_IKlQ" role="2Oq$k0">
                 <node concept="2OqwBi" id="40c7Wy_IKlR" role="2Oq$k0">
                   <node concept="37vLTw" id="40c7Wy_IKlS" role="2Oq$k0">
-                    <ref role="3cqZAo" node="40c7Wy_h56t" resolve="viewObject" />
+                    <ref role="3cqZAo" node="40c7Wy_h56t" resolve="dto" />
                   </node>
                   <node concept="2dcwcJ" id="40c7Wy_IKlT" role="2OqNvi">
-                    <ref role="2dcwcH" node="40c7Wy_d_vQ" resolve="viewObjectRef" />
+                    <ref role="2dcwcH" node="40c7Wy_d_vQ" resolve="dtoRef" />
                   </node>
                 </node>
                 <node concept="liA8E" id="40c7Wy_IKlU" role="2OqNvi">
@@ -21600,7 +21597,7 @@
             <node concept="liA8E" id="40c7Wy_IKSH" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="37vLTw" id="40c7Wy_IKUS" role="37wK5m">
-                <ref role="3cqZAo" node="40c7Wy_h56t" resolve="viewObject" />
+                <ref role="3cqZAo" node="40c7Wy_h56t" resolve="dto" />
               </node>
             </node>
           </node>
@@ -27314,7 +27311,7 @@
     <property role="TrG5h" value="NKRepository" />
     <property role="3GE5qa" value="nk" />
     <node concept="wbJLE" id="26OSHcw1DZ5" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjWithSameArticleJoined" />
+      <property role="TrG5h" value="findAllDTOWithSameArticleJoined" />
       <property role="wbJLN" value="READONLY" />
       <node concept="37vLTG" id="26OSHcw1E4L" role="3clF46">
         <property role="TrG5h" value="articleId" />
@@ -27345,12 +27342,12 @@
       </node>
       <node concept="_YKpA" id="26OSHcw1DZf" role="3clF45">
         <node concept="3uibUv" id="26OSHcw1DZg" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
         </node>
       </node>
     </node>
     <node concept="wbJLE" id="FplMliKw1K" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjects" />
+      <property role="TrG5h" value="findAllDTOs" />
       <node concept="3Tm1VV" id="FplMliKw1M" role="1B3o_S" />
       <node concept="3clFbS" id="FplMliKw1N" role="3clF47">
         <node concept="3clFbH" id="FplMlj1bbF" role="3cqZAp" />
@@ -27371,12 +27368,12 @@
       </node>
       <node concept="_YKpA" id="FplMlj1bjy" role="3clF45">
         <node concept="3uibUv" id="FplMlj1b$D" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
         </node>
       </node>
     </node>
     <node concept="wbJLE" id="26OSHcuV_Sn" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjectsWithName" />
+      <property role="TrG5h" value="findAllDTOsWithName" />
       <property role="wbJLN" value="READONLY" />
       <node concept="37vLTG" id="26OSHcuVA1Z" role="3clF46">
         <property role="TrG5h" value="name" />
@@ -27405,7 +27402,7 @@
       </node>
       <node concept="_YKpA" id="26OSHcuV_Sx" role="3clF45">
         <node concept="3uibUv" id="26OSHcuV_Sy" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
         </node>
       </node>
     </node>
@@ -27461,7 +27458,7 @@
       </node>
     </node>
     <node concept="wbJLE" id="26OSHcuW8Q8" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjWithValAndRef" />
+      <property role="TrG5h" value="findAllDTOWithValAndRef" />
       <property role="wbJLN" value="READONLY" />
       <node concept="3Tm1VV" id="26OSHcuW8Qb" role="1B3o_S" />
       <node concept="3clFbS" id="26OSHcuW8Qc" role="3clF47">
@@ -27483,12 +27480,12 @@
       </node>
       <node concept="_YKpA" id="26OSHcuW8Ql" role="3clF45">
         <node concept="3uibUv" id="26OSHcuW8Qm" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
         </node>
       </node>
     </node>
     <node concept="wbJLE" id="26OSHcuW9GH" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjWithArticleJoined" />
+      <property role="TrG5h" value="findAllDTOWithArticleJoined" />
       <property role="wbJLN" value="READONLY" />
       <node concept="3Tm1VV" id="26OSHcuW9GI" role="1B3o_S" />
       <node concept="3clFbS" id="26OSHcuW9GJ" role="3clF47">
@@ -27510,7 +27507,7 @@
       </node>
       <node concept="_YKpA" id="26OSHcuW9GR" role="3clF45">
         <node concept="3uibUv" id="26OSHcuW9GS" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
         </node>
       </node>
     </node>
@@ -27518,7 +27515,7 @@
       <property role="TrG5h" value="findAllObjUserStackedComplexMapping" />
       <node concept="_YKpA" id="26OSHcx_p9Y" role="3clF45">
         <node concept="3uibUv" id="26OSHcx_pab" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
         </node>
       </node>
       <node concept="3Tm1VV" id="26OSHcx_p7H" role="1B3o_S" />
@@ -27543,7 +27540,7 @@
       <property role="TrG5h" value="autoCreatorTest" />
       <node concept="_YKpA" id="1ZjRqWrBG_C" role="3clF45">
         <node concept="3uibUv" id="1ZjRqWs0A1u" role="_ZDj9">
-          <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkviewobject" />
+          <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkDTO" />
         </node>
       </node>
       <node concept="3Tm1VV" id="1ZjRqWrBGh1" role="1B3o_S" />
@@ -27558,7 +27555,7 @@
               </node>
             </node>
             <node concept="1pXOCm" id="1ZjRqWs0_PI" role="q55Dl">
-              <ref role="1pXOCo" node="1ZjRqWs0_Px" resolve="mapperMmtNkviewobject" />
+              <ref role="1pXOCo" node="1ZjRqWs0_Px" resolve="mapperMmtNkDTO" />
             </node>
           </node>
         </node>
@@ -27567,7 +27564,7 @@
     <node concept="3Tm1VV" id="FplMliKw0w" role="1B3o_S" />
     <node concept="1o6$dd" id="26OSHcuOdnl" role="2_$AKh">
       <property role="TrG5h" value="nkMapperComplex" />
-      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
+      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkDTO" />
       <node concept="12nEzJ" id="26OSHcuOdnm" role="3caO6$">
         <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
         <node concept="Xl_RD" id="26OSHcuOdnn" role="12k7lF">
@@ -27631,7 +27628,7 @@
     </node>
     <node concept="1o6$dd" id="1ZjRqWqLrvr" role="2_$AKh">
       <property role="TrG5h" value="nkMajoschkaMapper" />
-      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
+      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkDTO" />
       <node concept="12nEzJ" id="1ZjRqWqLryl" role="3caO6$">
         <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
         <node concept="Xl_RD" id="1ZjRqWqLrym" role="12k7lF">
@@ -27700,8 +27697,8 @@
       </node>
     </node>
     <node concept="1o6$dd" id="1ZjRqWs0_Px" role="2_$AKh">
-      <property role="TrG5h" value="mapperMmtNkviewobject" />
-      <ref role="1o6$9c" node="1ZjRqWs0_NX" resolve="MmtNkviewobject" />
+      <property role="TrG5h" value="mapperMmtNkDTO" />
+      <ref role="1o6$9c" node="1ZjRqWs0_NX" resolve="MmtNkDTO" />
       <node concept="12nEzJ" id="1ZjRqWs0_Py" role="3caO6$">
         <ref role="12nL8z" node="1ZjRqWs0_Oj" resolve="myName" />
         <node concept="Xl_RD" id="1ZjRqWs0_Pz" role="12k7lF">
@@ -27741,7 +27738,7 @@
     </node>
     <node concept="1o6$dd" id="FplMliTv5U" role="2_$AKh">
       <property role="TrG5h" value="nkMapper" />
-      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
+      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkDTO" />
       <node concept="12nEzJ" id="FplMlj9rYs" role="3caO6$">
         <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
         <node concept="Xl_RD" id="FplMlj9rYt" role="12k7lF">
@@ -27781,7 +27778,7 @@
     </node>
     <node concept="1o6$dd" id="26OSHcuO$Qw" role="2_$AKh">
       <property role="TrG5h" value="nkMapperJoined" />
-      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
+      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkDTO" />
       <node concept="12nEzJ" id="26OSHcuO$Qx" role="3caO6$">
         <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
         <node concept="Xl_RD" id="26OSHcuO$Qy" role="12k7lF">
@@ -27842,7 +27839,7 @@
     </node>
   </node>
   <node concept="1YeyE5" id="5OR7PPl8z27">
-    <property role="TrG5h" value="NkViewObject" />
+    <property role="TrG5h" value="NkDTO" />
     <property role="3GE5qa" value="nk" />
     <node concept="2XvgOf" id="FplMljbo4Q" role="kV5ob">
       <property role="TrG5h" value="ActiveStat" />
@@ -27969,7 +27966,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="FplMliKFbA" role="2RkE6I">
-        <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+        <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
       </node>
     </node>
     <node concept="1bOX9e" id="FplMliKFcr" role="TxmiU">
@@ -27983,7 +27980,7 @@
       </node>
       <node concept="_YKpA" id="FplMliKFdJ" role="2RkE6I">
         <node concept="3uibUv" id="FplMliKGs$" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
         </node>
       </node>
     </node>
@@ -28031,12 +28028,12 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="FplMljaWzs" role="1tU5fm">
               <node concept="3uibUv" id="FplMljaW$D" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="FplMljaW2x" role="33vP2m">
               <property role="fdWri" value="true" />
-              <ref role="37wK5l" node="FplMliKw1K" resolve="findAllViewObjects" />
+              <ref role="37wK5l" node="FplMliKw1K" resolve="findAllDTOs" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
               <node concept="10Nm6u" id="FplMljaWw8" role="2f8TIa" />
             </node>
@@ -28069,12 +28066,12 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcw1Otx" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcw1Oty" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcw1Otz" role="33vP2m">
               <property role="fdWri" value="true" />
-              <ref role="37wK5l" node="FplMliKw1K" resolve="findAllViewObjects" />
+              <ref role="37wK5l" node="FplMliKw1K" resolve="findAllDTOs" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
               <node concept="10Nm6u" id="26OSHcw1Ot$" role="2f8TIa" />
             </node>
@@ -28227,13 +28224,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcuWay$" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcuWay_" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcuWayA" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcuV_Sn" resolve="findAllViewObjectsWithName" />
+              <ref role="37wK5l" node="26OSHcuV_Sn" resolve="findAllDTOsWithName" />
               <node concept="10Nm6u" id="26OSHcuWayB" role="2f8TIa" />
               <node concept="Xl_RD" id="26OSHcuWaII" role="37wK5m">
                 <property role="Xl_RC" value="DAN" />
@@ -28260,7 +28257,7 @@
           <node concept="3cpWsn" id="26OSHcuWeSr" role="3cpWs9">
             <property role="TrG5h" value="first" />
             <node concept="3uibUv" id="26OSHcuWeSs" role="1tU5fm">
-              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
             </node>
             <node concept="2OqwBi" id="26OSHcuWeSt" role="33vP2m">
               <node concept="37vLTw" id="26OSHcuWeSu" role="2Oq$k0">
@@ -28314,13 +28311,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcuWaVJ" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcuWaVK" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcuWaVL" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcuW8Q8" resolve="findAllViewObjWithValAndRef" />
+              <ref role="37wK5l" node="26OSHcuW8Q8" resolve="findAllDTOWithValAndRef" />
               <node concept="10Nm6u" id="26OSHcuWaVM" role="2f8TIa" />
             </node>
           </node>
@@ -28329,7 +28326,7 @@
           <node concept="3cpWsn" id="26OSHcuWdqG" role="3cpWs9">
             <property role="TrG5h" value="first" />
             <node concept="3uibUv" id="26OSHcuWdqH" role="1tU5fm">
-              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
             </node>
             <node concept="2OqwBi" id="26OSHcuWdqI" role="33vP2m">
               <node concept="37vLTw" id="26OSHcuWdqJ" role="2Oq$k0">
@@ -28451,13 +28448,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcuWaMk" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcuWaMl" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcuWaMm" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcuW8Q8" resolve="findAllViewObjWithValAndRef" />
+              <ref role="37wK5l" node="26OSHcuW8Q8" resolve="findAllDTOWithValAndRef" />
               <node concept="10Nm6u" id="26OSHcuWaMn" role="2f8TIa" />
             </node>
           </node>
@@ -28467,7 +28464,7 @@
           <node concept="3cpWsn" id="26OSHcuWciM" role="3cpWs9">
             <property role="TrG5h" value="first" />
             <node concept="3uibUv" id="26OSHcuWciN" role="1tU5fm">
-              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
             </node>
             <node concept="2OqwBi" id="26OSHcuWct_" role="33vP2m">
               <node concept="37vLTw" id="26OSHcuWcnx" role="2Oq$k0">
@@ -28561,13 +28558,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcvNJMo" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcvNJMp" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcvNJMq" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcuW8Q8" resolve="findAllViewObjWithValAndRef" />
+              <ref role="37wK5l" node="26OSHcuW8Q8" resolve="findAllDTOWithValAndRef" />
               <node concept="10Nm6u" id="26OSHcvNJMr" role="2f8TIa" />
             </node>
           </node>
@@ -28577,7 +28574,7 @@
           <node concept="3cpWsn" id="26OSHcvNJMu" role="3cpWs9">
             <property role="TrG5h" value="first" />
             <node concept="3uibUv" id="26OSHcvNJMv" role="1tU5fm">
-              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
             </node>
             <node concept="2OqwBi" id="26OSHcvNJMw" role="33vP2m">
               <node concept="37vLTw" id="26OSHcvNJMx" role="2Oq$k0">
@@ -28613,7 +28610,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="26OSHcuWfgj" role="3yMuLx">
-      <property role="TrG5h" value="Load Articles joined with NkViewObject sets articles to readonly." />
+      <property role="TrG5h" value="Load Articles joined with NkDTO sets articles to readonly." />
       <node concept="3cqZAl" id="26OSHcuWfgk" role="3clF45" />
       <node concept="3clFbS" id="26OSHcuWfgl" role="3clF47">
         <node concept="3cpWs8" id="26OSHcw1DDz" role="3cqZAp">
@@ -28621,13 +28618,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcw1DD_" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcw1DDA" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcw1DDB" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllViewObjWithSameArticleJoined" />
+              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllDTOWithSameArticleJoined" />
               <node concept="3cmrfG" id="26OSHcw1EHj" role="37wK5m">
                 <property role="3cmrfH" value="1" />
               </node>
@@ -28653,7 +28650,7 @@
           <node concept="3cpWsn" id="26OSHcw1FZs" role="3cpWs9">
             <property role="TrG5h" value="first" />
             <node concept="3uibUv" id="26OSHcw1FZt" role="1tU5fm">
-              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
             </node>
             <node concept="2OqwBi" id="26OSHcw1Gbh" role="33vP2m">
               <node concept="37vLTw" id="26OSHcw1G5d" role="2Oq$k0">
@@ -28808,13 +28805,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcw1Mvk" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcw1Mvl" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcw1Mvm" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllViewObjWithSameArticleJoined" />
+              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllDTOWithSameArticleJoined" />
               <node concept="3cmrfG" id="26OSHcw1Mvn" role="37wK5m">
                 <property role="3cmrfH" value="1" />
               </node>
@@ -28840,7 +28837,7 @@
           <node concept="3cpWsn" id="26OSHcw1Mvx" role="3cpWs9">
             <property role="TrG5h" value="first" />
             <node concept="3uibUv" id="26OSHcw1Mvy" role="1tU5fm">
-              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
             </node>
             <node concept="2OqwBi" id="26OSHcw1Mvz" role="33vP2m">
               <node concept="37vLTw" id="26OSHcw1Mv$" role="2Oq$k0">
@@ -29049,13 +29046,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcw24gz" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcw24g$" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcw24g_" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllViewObjWithSameArticleJoined" />
+              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllDTOWithSameArticleJoined" />
               <node concept="3cmrfG" id="26OSHcw24gA" role="37wK5m">
                 <property role="3cmrfH" value="1" />
               </node>
@@ -29083,7 +29080,7 @@
           <node concept="3cpWsn" id="26OSHcw24gK" role="3cpWs9">
             <property role="TrG5h" value="first" />
             <node concept="3uibUv" id="26OSHcw24gL" role="1tU5fm">
-              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+              <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
             </node>
             <node concept="2OqwBi" id="26OSHcw24gM" role="33vP2m">
               <node concept="37vLTw" id="26OSHcw24gN" role="2Oq$k0">
@@ -29331,13 +29328,13 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcxrgRb" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcxrgRc" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcxrgRd" role="33vP2m">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllViewObjWithSameArticleJoined" />
+              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllDTOWithSameArticleJoined" />
               <node concept="3cmrfG" id="26OSHcxrgRe" role="37wK5m">
                 <property role="3cmrfH" value="1" />
               </node>
@@ -29525,7 +29522,7 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcxHt0Z" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcxHt10" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
           </node>
@@ -29536,7 +29533,7 @@
             <node concept="1odsa" id="26OSHcxHt11" role="37vLTx">
               <property role="fdWri" value="true" />
               <ref role="1ods_" node="FplMliKw0v" resolve="NKRepository" />
-              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllViewObjWithSameArticleJoined" />
+              <ref role="37wK5l" node="26OSHcw1DZ5" resolve="findAllDTOWithSameArticleJoined" />
               <node concept="3cmrfG" id="26OSHcxHt12" role="37wK5m">
                 <property role="3cmrfH" value="1" />
               </node>
@@ -29559,7 +29556,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="26OSHcvNHAM" role="3yMuLx">
-      <property role="TrG5h" value="Use Inner ViewObjects in ViewObjects mapped via embedded mapping." />
+      <property role="TrG5h" value="Use Inner DTO in DTOs mapped via embedded mapping." />
       <node concept="3cqZAl" id="26OSHcvNHAN" role="3clF45" />
       <node concept="3clFbS" id="26OSHcvNHAO" role="3clF47">
         <node concept="3cpWs8" id="26OSHcx_qBM" role="3cqZAp">
@@ -29567,7 +29564,7 @@
             <property role="TrG5h" value="dv" />
             <node concept="_YKpA" id="26OSHcx_qBO" role="1tU5fm">
               <node concept="3uibUv" id="26OSHcx_qBP" role="_ZDj9">
-                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+                <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="26OSHcx_qBQ" role="33vP2m">
@@ -29935,7 +29932,7 @@
     </node>
   </node>
   <node concept="1YeyE5" id="1ZjRqWs0_NX">
-    <property role="TrG5h" value="MmtNkviewobject" />
+    <property role="TrG5h" value="MmtNkDTO" />
     <node concept="3Tm1VV" id="1ZjRqWs0_NZ" role="1B3o_S" />
     <node concept="3clFbW" id="1ZjRqWs0_O0" role="jymVt">
       <node concept="3cqZAl" id="1ZjRqWs0_O1" role="3clF45" />
@@ -30017,7 +30014,7 @@
       </node>
     </node>
     <node concept="1bOX9e" id="40c7Wy_d_vQ" role="TxmiU">
-      <property role="2RkwnN" value="viewObjectRef" />
+      <property role="2RkwnN" value="dtoRef" />
       <node concept="3Tm1VV" id="40c7Wy_d_vW" role="1B3o_S" />
       <node concept="2RoN1w" id="40c7Wy_d_vX" role="2RnVtd">
         <node concept="3wEZqW" id="40c7Wy_d_vY" role="3wFrgM" />
@@ -30026,7 +30023,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="40c7Wy_d_xJ" role="2RkE6I">
-        <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkviewobject" />
+        <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkDTO" />
       </node>
     </node>
   </node>
@@ -30042,7 +30039,7 @@
             <property role="TrG5h" value="result" />
             <node concept="_YKpA" id="1ZjRqWs0Ace" role="1tU5fm">
               <node concept="3uibUv" id="1ZjRqWs0Acf" role="_ZDj9">
-                <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkviewobject" />
+                <ref role="3uigEE" node="1ZjRqWs0_NX" resolve="MmtNkDTO" />
               </node>
             </node>
             <node concept="1odsa" id="1ZjRqWs0Acg" role="33vP2m">
@@ -39373,108 +39370,6 @@
         <node concept="3clFbH" id="6AXaBg8oU$i" role="3cqZAp" />
         <node concept="3clFbH" id="6AXaBg8p7bc" role="3cqZAp" />
       </node>
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_6" role="38MLOi">
-      <ref role="1Cak38" node="4pH_TM_J4sF" resolve="Load same object read-only twice (with get)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_7" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkGaD" resolve="Load same object read-only twice (with where)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_8" role="38MLOi">
-      <ref role="1Cak38" node="4pH_TM_Jn$t" resolve="Queue an checkin operation and commit" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_9" role="38MLOi">
-      <ref role="1Cak38" node="4pH_TMA1K_g" resolve="Queue a checkin operation and rollback." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_a" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkvHZ" resolve="Checkin and delete in same transaction." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_b" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkAw8" resolve="Session marked dirty when changing checked out entity." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_c" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkOpX" resolve="Checkout of entity already checked out leads to exception (with get)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_d" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlmbJN" resolve="Checkout of entity already checked out leads to exception (with where)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_e" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlmeOP" resolve="Checkout of entity already loaded in ReadOnly leads to an exception (with get)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_f" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlnIR8" resolve="Checkout of entity already loaded in ReadOnly leads to an exception (with where)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_g" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMln__j" resolve="Query entity ready only when already checked out leads to an exception (wtih get)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_h" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlnLEX" resolve="Query entity ready only when already checked out leads to an exception (with where)." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_i" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlnRDY" resolve="Deleting a readonly entity leads to an exception." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_j" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlwa3p" resolve="Saving a new entity adds entity to session, checkout leads to error." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_k" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMl$KQH" resolve="Saving a new entity adds entity to session, radonly find leads to error." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_l" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlwhET" resolve="Deleting an entity removes entity from session." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_m" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlBGBt" resolve="Using Session multiple times to store an entity." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_n" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlC7KM" resolve="Check for table variant logic. (NO LONGER SUPPORTED)" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_o" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlC2b_" resolve="Load same list twice (readonly where)" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_p" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlJXPO" resolve="Load two graphs in session with join on childs" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_q" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlK8Rh" resolve="Load two graphs in session with join on childs reverse" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_r" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlQoDW" resolve="One query - Load two graphs in session with join on childs" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_s" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlQoE_" resolve="One query - Load two graphs in session with join on childs reverse" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_t" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlSm_0" resolve="One query - Load two graphs in session with join on childs, pos readonly" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_u" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlSm_I" resolve="One query - Load two graphs in session with join on childs, pos readonly reverse" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_v" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlZRDc" resolve="One query - load 2 invoices, joins pos and join reference" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_w" role="38MLOi">
-      <ref role="1Cak38" node="1S2v2TUhOaS" resolve="Remove element from list should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_x" role="38MLOi">
-      <ref role="1Cak38" node="1S2v2TUle4M" resolve="Add element to list should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_y" role="38MLOi">
-      <ref role="1Cak38" node="1S2v2TUlm4C" resolve="Remove an element and add another one to list should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_z" role="38MLOi">
-      <ref role="1Cak38" node="16VphDIPhTy" resolve="Setting new list with same elements should not change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_$" role="38MLOi">
-      <ref role="1Cak38" node="16VphDIPZ0I" resolve="Setting new list with one element less should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8__" role="38MLOi">
-      <ref role="1Cak38" node="5XGplYBe3R$" resolve="Adding a new entity to session sets session dirty." />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_A" role="38MLOi">
-      <ref role="1Cak38" node="1nLGXVrnlc0" resolve="Loading an entity from db results in a isNewInSession false" />
-    </node>
-    <node concept="1Cak35" id="6AXaBg8p8_B" role="38MLOi">
-      <ref role="1Cak38" node="1nLGXVrn_rp" resolve="Creating Entity with new() sets isNewInSession to true" />
     </node>
   </node>
   <node concept="2WPaUQ" id="4szYp3XojuM">

@@ -6020,7 +6020,7 @@
         <node concept="3clFbS" id="2vvVhmohY4n" role="3clFbx">
           <node concept="2MkqsV" id="2vvVhmohY4o" role="3cqZAp">
             <node concept="Xl_RD" id="2vvVhmohY4p" role="2MkJ7o">
-              <property role="Xl_RC" value="A constructor is necessary for a ViewObject." />
+              <property role="Xl_RC" value="A constructor is necessary for a DTO." />
             </node>
             <node concept="1YBJjd" id="2vvVhmohYHW" role="2OEOjV">
               <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
@@ -6049,7 +6049,7 @@
         <node concept="3clFbS" id="2CQtLPQM5V7" role="3clFbx">
           <node concept="2MkqsV" id="2CQtLPQM5V8" role="3cqZAp">
             <node concept="Xl_RD" id="2CQtLPQM5V9" role="2MkJ7o">
-              <property role="Xl_RC" value="A default constructor with 0 parameters is necessary for a ViewObject." />
+              <property role="Xl_RC" value="A default constructor with 0 parameters is necessary for a DTO." />
             </node>
             <node concept="1YBJjd" id="2CQtLPQM6pU" role="2OEOjV">
               <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
@@ -13092,7 +13092,7 @@
             <node concept="3clFbS" id="3l87qE_SpyZ" role="3clFbx">
               <node concept="2MkqsV" id="3l87qE_SqJP" role="3cqZAp">
                 <node concept="Xl_RD" id="3l87qE_SqK4" role="2MkJ7o">
-                  <property role="Xl_RC" value="Add a custom toString() returning a unique string-ID for any ViewObject identifier (used to visualize the inbox)." />
+                  <property role="Xl_RC" value="Add a custom toString() returning a unique string-ID for any DTO identifier (used to visualize the inbox)." />
                 </node>
                 <node concept="2OqwBi" id="3l87qE_SqYD" role="2OEOjV">
                   <node concept="1YBJjd" id="3l87qE_SqVw" role="2Oq$k0">

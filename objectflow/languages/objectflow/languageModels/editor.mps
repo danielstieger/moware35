@@ -4679,7 +4679,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="4y30FCQIix5" role="3EZMnx">
-          <property role="3F0ifm" value="ViewObject" />
+          <property role="3F0ifm" value="DTO" />
           <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
         </node>
         <node concept="3F0A7n" id="4y30FCQIix6" role="3EZMnx">
@@ -4708,7 +4708,7 @@
         <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="4y30FCQIixm" role="3EZMnx">
-        <property role="3F0ifm" value="properties of ViewObject:" />
+        <property role="3F0ifm" value="properties of DTO" />
         <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
       </node>
       <node concept="3F0ifn" id="2M2kZGrdmRM" role="3EZMnx">

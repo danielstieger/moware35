@@ -1514,7 +1514,7 @@
     <property role="TrG5h" value="ViewObject" />
     <property role="MwhBj" value="${module}/icons/viewobject.png" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="View Object" />
+    <property role="34LRSv" value="DTO" />
     <property role="1pbfSe" value="2134649593" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="32cVeK$obFB" role="1TKVEi">
