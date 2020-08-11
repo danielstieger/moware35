@@ -158,7 +158,6 @@
       </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
-        <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
       </concept>
       <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
@@ -226,9 +225,6 @@
       </concept>
       <concept id="4503841283131944576" name="org.modellwerkstatt.objectflow.structure.OFXRunCmdVarRef" flags="ng" index="3zknl8">
         <reference id="4503841283131945225" name="varRef" index="3zkmF1" />
-      </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
       </concept>
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.ViewObject" flags="ig" index="1YeyE5" />
     </language>
@@ -2850,51 +2846,6 @@
         <node concept="3clFbH" id="6uo0g5XX85W" role="3cqZAp" />
         <node concept="3clFbH" id="6uo0g5XX85R" role="3cqZAp" />
       </node>
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nD" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G8SV8j" resolve="RunCmd with single GraphOwner does not result in any problems" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nE" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G99OTA" resolve="RunCmd with single GraphOwner check in init" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nF" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G99OZm" resolve="RunCmd with single GraphOwner check in conclusion" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nG" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9mci9" resolve="RunCmd with single GraphOwner ex in init" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nH" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9mcpu" resolve="RunCmd with single GraphOwner ex in conc" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nI" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9mcxv" resolve="RunCmd with single GraphOwner ex in final_ok" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nJ" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9n3pZ" resolve="RunCmd with GO / GE running in ok." />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nK" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9nmzl" resolve="RunCmd with GO / GE running check in init" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nL" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9nmLk" resolve="RunCmd with GO / GE running check in conc" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nM" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9nHwx" resolve="RunCmd with GO / GE   ge running ex in init" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nN" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9nHxO" resolve="RunCmd with GO / GE    ge running ex in conc" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nO" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9nHW2" resolve="RunCmd with GO / GE   ge running ex in final" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nP" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9oORU" resolve="RunCmd with GO / GE   ge guard in init" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nQ" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9oPeT" resolve="RunCmd with GO / GE   ge guard in conc" />
-    </node>
-    <node concept="1Cak35" id="6uo0g5XX8nR" role="38MLOi">
-      <ref role="1Cak38" node="4DaB5G9oPMT" resolve="RunCmd with GO / GE   ge guard in finalok" />
     </node>
   </node>
   <node concept="2EH5hC" id="4DaB5G8SVfc">
