@@ -13,6 +13,7 @@
     <import index="vpat" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:mjson(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -61,7 +62,11 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
         <property id="8606350594693632173" name="isTransient" index="eg7rD" />
@@ -120,8 +125,10 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -189,6 +196,12 @@
       </concept>
       <concept id="594565203027877250" name="org.modellwerkstatt.objectflow.structure.Session" flags="ng" index="3y28L$" />
     </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
+        <child id="1199542457201" name="resultType" index="1ajl9A" />
+      </concept>
+      <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -235,6 +248,16 @@
       <node concept="37vLTG" id="6EKawaqkpVU" role="3clF46">
         <property role="TrG5h" value="lockName" />
         <node concept="17QB3L" id="6EKawaqkpWk" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3v9X2lgA$af" role="3clF46">
+        <property role="TrG5h" value="waitMillis" />
+        <node concept="10Oyi0" id="3v9X2lgA$fl" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3v9X2lgAzw$" role="3clF46">
+        <property role="TrG5h" value="someCodeToExecute" />
+        <node concept="1ajhzC" id="3v9X2lgAz$Q" role="1tU5fm">
+          <node concept="3cqZAl" id="3v9X2lgAz_q" role="1ajl9A" />
+        </node>
       </node>
       <node concept="3clFbS" id="6EKawaqkpSm" role="3clF47">
         <node concept="3clFbH" id="6EKawaqkpSn" role="3cqZAp" />
@@ -291,17 +314,97 @@
           </node>
         </node>
         <node concept="3clFbH" id="6EKawaqDbHx" role="3cqZAp" />
+        <node concept="3cpWs8" id="3v9X2lgAzJw" role="3cqZAp">
+          <node concept="3cpWsn" id="3v9X2lgAzJz" role="3cpWs9">
+            <property role="TrG5h" value="startTime" />
+            <node concept="3cpWsb" id="3v9X2lgAzJu" role="1tU5fm" />
+            <node concept="2YIFZM" id="3v9X2lgAzPA" role="33vP2m">
+              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            </node>
+          </node>
+        </node>
         <node concept="2GUZhq" id="6EKawaqDcdX" role="3cqZAp">
           <node concept="3clFbS" id="6EKawaqDbJM" role="2GV8ay">
-            <node concept="3clFbF" id="6EKawaqDbMq" role="3cqZAp">
-              <node concept="2YIFZM" id="6EKawaqDbMY" role="3clFbG">
-                <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
-                <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                <node concept="3cmrfG" id="6EKawaqDbNl" role="37wK5m">
-                  <property role="3cmrfH" value="1000" />
+            <node concept="3clFbF" id="3v9X2lgAzCq" role="3cqZAp">
+              <node concept="2OqwBi" id="3v9X2lgAzD5" role="3clFbG">
+                <node concept="37vLTw" id="3v9X2lgAzCo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3v9X2lgAzw$" resolve="someCodeToExecute" />
+                </node>
+                <node concept="1Bd96e" id="3v9X2lgAzDP" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="3v9X2lgAzB$" role="3cqZAp" />
+            <node concept="3cpWs8" id="3v9X2lgAzR9" role="3cqZAp">
+              <node concept="3cpWsn" id="3v9X2lgAzRc" role="3cpWs9">
+                <property role="TrG5h" value="diff" />
+                <node concept="3cpWsb" id="3v9X2lgAzR7" role="1tU5fm" />
+                <node concept="3cpWsd" id="3v9X2lgAzW_" role="33vP2m">
+                  <node concept="37vLTw" id="3v9X2lgAzXy" role="3uHU7w">
+                    <ref role="3cqZAo" node="3v9X2lgAzJz" resolve="startTime" />
+                  </node>
+                  <node concept="2YIFZM" id="3v9X2lgAzTP" role="3uHU7B">
+                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                    <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                  </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbJ" id="3v9X2lgA$21" role="3cqZAp">
+              <node concept="3clFbS" id="3v9X2lgA$23" role="3clFbx">
+                <node concept="3cpWs8" id="3v9X2lgA$Vh" role="3cqZAp">
+                  <node concept="3cpWsn" id="3v9X2lgA$Vk" role="3cpWs9">
+                    <property role="TrG5h" value="timeToWaitAdditionally" />
+                    <node concept="3cpWsb" id="3v9X2lgA$Vf" role="1tU5fm" />
+                    <node concept="3cpWsd" id="3v9X2lgA$Ff" role="33vP2m">
+                      <node concept="37vLTw" id="3v9X2lgA$AA" role="3uHU7B">
+                        <ref role="3cqZAo" node="3v9X2lgA$af" resolve="waitMillis" />
+                      </node>
+                      <node concept="37vLTw" id="3v9X2lgA$H2" role="3uHU7w">
+                        <ref role="3cqZAo" node="3v9X2lgAzRc" resolve="diff" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3v9X2lgM1kT" role="3cqZAp">
+                  <node concept="2OqwBi" id="3v9X2lgM1kQ" role="3clFbG">
+                    <node concept="10M0yZ" id="3v9X2lgM1kR" role="2Oq$k0">
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                    </node>
+                    <node concept="liA8E" id="3v9X2lgM1kS" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="3cpWs3" id="3v9X2lgM1vL" role="37wK5m">
+                        <node concept="37vLTw" id="3v9X2lgM1zo" role="3uHU7w">
+                          <ref role="3cqZAo" node="3v9X2lgA$Vk" resolve="timeToWaitAdditionally" />
+                        </node>
+                        <node concept="Xl_RD" id="3v9X2lgM1nG" role="3uHU7B">
+                          <property role="Xl_RC" value="Additionally wating " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3v9X2lgA$wK" role="3cqZAp">
+                  <node concept="2YIFZM" id="3v9X2lgA$yi" role="3clFbG">
+                    <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
+                    <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                    <node concept="37vLTw" id="3v9X2lgA_6K" role="37wK5m">
+                      <ref role="3cqZAo" node="3v9X2lgA$Vk" resolve="timeToWaitAdditionally" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOVzh" id="3v9X2lgA$hI" role="3clFbw">
+                <node concept="37vLTw" id="3v9X2lgA$4e" role="3uHU7B">
+                  <ref role="3cqZAo" node="3v9X2lgAzRc" resolve="diff" />
+                </node>
+                <node concept="37vLTw" id="3v9X2lgA$jg" role="3uHU7w">
+                  <ref role="3cqZAo" node="3v9X2lgA$af" resolve="waitMillis" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3v9X2lgA$09" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="6EKawaqDbJN" role="TEXxN">
             <node concept="3cpWsn" id="6EKawaqDbJP" role="TDEfY">
