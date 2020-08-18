@@ -940,25 +940,25 @@
                       <ref role="3cqZAo" node="57ov2SBsGs" resolve="client" />
                     </node>
                     <node concept="2S8uIT" id="57ov2SFHUI" role="2OqNvi">
-                      <ref role="2S8YL0" to="tea8:7WBKY1WeOyz" resolve="device" />
+                      <ref role="2S8YL0" to="tea8:7WBKY1WeOyz" resolve="deviceSw" />
                     </node>
                   </node>
                   <node concept="Rm8GO" id="57ov2SFHUF" role="3uHU7w">
-                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.Devices" />
-                    <ref role="Rm8GQ" to="tea8:1DW7q9hIa$2" resolve="ZEBRAEB_TC56" />
+                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
+                    <ref role="Rm8GQ" to="tea8:1DW7q9hIa$2" resolve="ZEBRAEB_18" />
                   </node>
                 </node>
                 <node concept="3clFbC" id="2kuDuEA0yut" role="3uHU7w">
                   <node concept="Rm8GO" id="2kuDuEA0yzJ" role="3uHU7w">
-                    <ref role="Rm8GQ" to="tea8:2kuDuEA0tcD" resolve="ZEBRAEB_TC25" />
-                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.Devices" />
+                    <ref role="Rm8GQ" to="tea8:2kuDuEA0tcD" resolve="ZEBRAEB_20" />
+                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
                   </node>
                   <node concept="2OqwBi" id="2kuDuEA0yuv" role="3uHU7B">
                     <node concept="37vLTw" id="2kuDuEA0yuw" role="2Oq$k0">
                       <ref role="3cqZAo" node="57ov2SBsGs" resolve="client" />
                     </node>
                     <node concept="2S8uIT" id="2kuDuEA0yux" role="2OqNvi">
-                      <ref role="2S8YL0" to="tea8:7WBKY1WeOyz" resolve="device" />
+                      <ref role="2S8YL0" to="tea8:7WBKY1WeOyz" resolve="deviceSw" />
                     </node>
                   </node>
                 </node>
@@ -3924,7 +3924,7 @@
                                 <node concept="3cpWs3" id="uIozejAcPP" role="3uHU7B">
                                   <node concept="3cpWs3" id="uIozejAcIf" role="3uHU7B">
                                     <node concept="Xl_RD" id="uIozejAcCG" role="3uHU7B">
-                                      <property role="Xl_RC" value="The trigger " />
+                                      <property role="Xl_RC" value="The action " />
                                     </node>
                                     <node concept="37vLTw" id="uIozejAcL1" role="3uHU7w">
                                       <ref role="3cqZAo" node="3r8DxV_KUre" resolve="formId" />
