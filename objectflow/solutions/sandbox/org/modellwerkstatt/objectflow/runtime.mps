@@ -3593,17 +3593,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="3iJaUC74b_J" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getCurrentPageEvents" />
-      <node concept="3Tm1VV" id="3iJaUC74b_M" role="1B3o_S" />
-      <node concept="3clFbS" id="3iJaUC74b_N" role="3clF47" />
-      <node concept="10Q1$e" id="3iJaUC74b_O" role="3clF45">
-        <node concept="3uibUv" id="3iJaUC74bNz" role="10Q1$1">
-          <ref role="3uigEE" node="1nOz5_Je5BS" resolve="IOFXPageEvent" />
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="3iJaUC74bsF" role="jymVt" />
     <node concept="3clFb_" id="7j1iBG6Fp5A" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -3614,11 +3603,11 @@
     </node>
     <node concept="3clFb_" id="6ffh1MXubTB" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="doPageGuidance" />
+      <property role="TrG5h" value="execConclusion" />
       <node concept="37vLTG" id="6ffh1MXubTF" role="3clF46">
-        <property role="TrG5h" value="guidance" />
-        <node concept="3uibUv" id="3iJaUC6iKpb" role="1tU5fm">
-          <ref role="3uigEE" node="3iJaUC6iDBU" resolve="IOFXPageGuidance" />
+        <property role="TrG5h" value="conclusion" />
+        <node concept="3uibUv" id="1frY2nUITVQ" role="1tU5fm">
+          <ref role="3uigEE" node="ncJg$HbX74" resolve="IOFXPageConclusion" />
         </node>
       </node>
       <node concept="3cqZAl" id="7MqOxzyt6Hh" role="3clF45" />
@@ -4596,8 +4585,42 @@
         <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
-    <node concept="3uibUv" id="3iJaUC6iEiF" role="3HQHJm">
-      <ref role="3uigEE" node="3iJaUC6iDBU" resolve="IOFXPageGuidance" />
+    <node concept="3clFb_" id="ncJg$HcaXB" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="execute" />
+      <node concept="3cqZAl" id="ncJg$HcaXC" role="3clF45" />
+      <node concept="3Tm1VV" id="ncJg$HcaXD" role="1B3o_S" />
+      <node concept="3clFbS" id="ncJg$HcaXE" role="3clF47" />
+      <node concept="3uibUv" id="6dnXV8mIz4V" role="Sfmx6">
+        <ref role="3uigEE" node="6dnXV8mIuJM" resolve="OFXChangePageException" />
+      </node>
+      <node concept="3uibUv" id="6dnXV8mIz4X" role="Sfmx6">
+        <ref role="3uigEE" node="ncJg$HbYpV" resolve="OFXCommandCancelException" />
+      </node>
+      <node concept="3uibUv" id="6dnXV8mIz4Z" role="Sfmx6">
+        <ref role="3uigEE" node="6dnXV8mIuJY" resolve="OFXCommandDoneException" />
+      </node>
+      <node concept="3uibUv" id="6dnXV8mIz51" role="Sfmx6">
+        <ref role="3uigEE" node="ncJg$HbYpH" resolve="OFXAbortException" />
+      </node>
+      <node concept="3uibUv" id="5gNkualDgmW" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="P$JXv" id="5gNkualJD0n" role="lGtFl">
+        <node concept="TZ5HA" id="5gNkualJD0o" role="TZ5H$">
+          <node concept="1dT_AC" id="5gNkualJD5e" role="1dT_Ay">
+            <property role="1dT_AB" value="Exception is also catched, in order to allow IOExceptions in services. " />
+          </node>
+          <node concept="1dT_AC" id="5gNkualJD0p" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5gNkualJD55" role="TZ5H$">
+          <node concept="1dT_AC" id="5gNkualJD56" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="ncJg$HbYpH">
@@ -4800,24 +4823,13 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="3iJaUC74Dmd" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getPageEvents" />
-      <node concept="3Tm1VV" id="3iJaUC74Dmh" role="1B3o_S" />
-      <node concept="3clFbS" id="3iJaUC74Dmi" role="3clF47" />
-      <node concept="10Q1$e" id="3iJaUC74Dmj" role="3clF45">
-        <node concept="3uibUv" id="3iJaUC74Dse" role="10Q1$1">
-          <ref role="3uigEE" node="1nOz5_Je5BS" resolve="IOFXPageEvent" />
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="6ffh1MXubTI" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="guidePage" />
+      <property role="TrG5h" value="execConclusion" />
       <node concept="37vLTG" id="6ffh1MXubTJ" role="3clF46">
-        <property role="TrG5h" value="guideance" />
-        <node concept="3uibUv" id="3iJaUC6iG$J" role="1tU5fm">
-          <ref role="3uigEE" node="3iJaUC6iDBU" resolve="IOFXPageGuidance" />
+        <property role="TrG5h" value="conclusion" />
+        <node concept="3uibUv" id="1frY2nUIcpN" role="1tU5fm">
+          <ref role="3uigEE" node="ncJg$HbX74" resolve="IOFXPageConclusion" />
         </node>
       </node>
       <node concept="3cqZAl" id="6ffh1MXubTL" role="3clF45" />
@@ -45937,84 +45949,6 @@
           <node concept="10Nm6u" id="4vUcH_0kuko" role="3cqZAk" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="3HP615" id="1nOz5_Je5BS">
-    <property role="TrG5h" value="IOFXPageEvent" />
-    <property role="3GE5qa" value="OFXArchitecture" />
-    <node concept="3clFb_" id="1nOz5_JeoG8" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getName" />
-      <node concept="17QB3L" id="1nOz5_JeoHX" role="3clF45" />
-      <node concept="3Tm1VV" id="1nOz5_JeoGb" role="1B3o_S" />
-      <node concept="3clFbS" id="1nOz5_JeoGc" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="1nOz5_JeoIy" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getType" />
-      <node concept="17QB3L" id="1nOz5_JeoIz" role="3clF45" />
-      <node concept="3Tm1VV" id="1nOz5_JeoI$" role="1B3o_S" />
-      <node concept="3clFbS" id="1nOz5_JeoI_" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="3iJaUC6k06a" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setEventBeforeExecution" />
-      <node concept="37vLTG" id="3iJaUC6k09W" role="3clF46">
-        <property role="TrG5h" value="jSonText" />
-        <node concept="17QB3L" id="3iJaUC7nh34" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="3iJaUC6k06c" role="3clF45" />
-      <node concept="3Tm1VV" id="3iJaUC6k06d" role="1B3o_S" />
-      <node concept="3clFbS" id="3iJaUC6k06e" role="3clF47" />
-    </node>
-    <node concept="3Tm1VV" id="1nOz5_Je5BT" role="1B3o_S" />
-    <node concept="3uibUv" id="3iJaUC6iEnp" role="3HQHJm">
-      <ref role="3uigEE" node="3iJaUC6iDBU" resolve="IOFXPageGuidance" />
-    </node>
-  </node>
-  <node concept="3HP615" id="3iJaUC6iDBU">
-    <property role="3GE5qa" value="OFXArchitecture" />
-    <property role="TrG5h" value="IOFXPageGuidance" />
-    <node concept="3clFb_" id="ncJg$HcaXB" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="execute" />
-      <node concept="3cqZAl" id="ncJg$HcaXC" role="3clF45" />
-      <node concept="3Tm1VV" id="ncJg$HcaXD" role="1B3o_S" />
-      <node concept="3clFbS" id="ncJg$HcaXE" role="3clF47" />
-      <node concept="3uibUv" id="6dnXV8mIz4V" role="Sfmx6">
-        <ref role="3uigEE" node="6dnXV8mIuJM" resolve="OFXChangePageException" />
-      </node>
-      <node concept="3uibUv" id="6dnXV8mIz4X" role="Sfmx6">
-        <ref role="3uigEE" node="ncJg$HbYpV" resolve="OFXCommandCancelException" />
-      </node>
-      <node concept="3uibUv" id="6dnXV8mIz4Z" role="Sfmx6">
-        <ref role="3uigEE" node="6dnXV8mIuJY" resolve="OFXCommandDoneException" />
-      </node>
-      <node concept="3uibUv" id="6dnXV8mIz51" role="Sfmx6">
-        <ref role="3uigEE" node="ncJg$HbYpH" resolve="OFXAbortException" />
-      </node>
-      <node concept="3uibUv" id="5gNkualDgmW" role="Sfmx6">
-        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-      </node>
-      <node concept="P$JXv" id="5gNkualJD0n" role="lGtFl">
-        <node concept="TZ5HA" id="5gNkualJD0o" role="TZ5H$">
-          <node concept="1dT_AC" id="5gNkualJD5e" role="1dT_Ay">
-            <property role="1dT_AB" value="Exception is also catched, in order to allow IOExceptions in services. " />
-          </node>
-          <node concept="1dT_AC" id="5gNkualJD0p" role="1dT_Ay">
-            <property role="1dT_AB" value="" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="5gNkualJD55" role="TZ5H$">
-          <node concept="1dT_AC" id="5gNkualJD56" role="1dT_Ay">
-            <property role="1dT_AB" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="3iJaUC6iDBV" role="1B3o_S" />
-    <node concept="16euLQ" id="3iJaUC6jU1P" role="16eVyc">
-      <property role="TrG5h" value="T" />
     </node>
   </node>
   <node concept="3HP615" id="7HkVpVbXei3">

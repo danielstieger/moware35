@@ -266,14 +266,6 @@
       <node concept="3Tm1VV" id="4X6$QoZ0_if" role="1B3o_S" />
       <node concept="10P_77" id="4X6$QoZ0_ig" role="3clF45" />
     </node>
-    <node concept="3clFb_" id="4X6$QoZ0B30" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getPublishPushSelection" />
-      <node concept="3clFbS" id="4X6$QoZ0B31" role="3clF47" />
-      <node concept="3Tm1VV" id="4X6$QoZ0B32" role="1B3o_S" />
-      <node concept="10P_77" id="4X6$QoZ0B33" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="4Z3lS8AGmF5" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />

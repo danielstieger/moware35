@@ -86,7 +86,6 @@
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
-        <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -105,10 +104,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
-        <child id="1206060619838" name="condition" index="3eO9$A" />
-        <child id="1206060644605" name="statementList" index="3eOfB_" />
-      </concept>
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -1277,7 +1272,7 @@
       <node concept="3clFbS" id="7OaFZnrHZTD" role="2VODD2">
         <node concept="3cpWs8" id="3iJaUC6ift1" role="3cqZAp">
           <node concept="3cpWsn" id="3iJaUC6ift4" role="3cpWs9">
-            <property role="TrG5h" value="conClusionOrEvent" />
+            <property role="TrG5h" value="conclusion" />
             <node concept="3Tqbb2" id="3iJaUC6ifsZ" role="1tU5fm" />
             <node concept="2OqwBi" id="7OaFZnrI0nC" role="33vP2m">
               <node concept="nLn13" id="7OaFZnrI0nD" role="2Oq$k0" />
@@ -1285,9 +1280,6 @@
                 <node concept="3gmYPX" id="3iJaUC6ifQC" role="1xVPHs">
                   <node concept="3gn64h" id="3iJaUC6ifUx" role="3gmYPZ">
                     <ref role="3gnhBz" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
-                  </node>
-                  <node concept="3gn64h" id="3iJaUC6ifZY" role="3gmYPZ">
-                    <ref role="3gnhBz" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="7OaFZnrI0nH" role="1xVPHs" />
@@ -1305,61 +1297,17 @@
           </node>
           <node concept="2OqwBi" id="3iJaUC7iORg" role="3clFbw">
             <node concept="37vLTw" id="3iJaUC7iOMH" role="2Oq$k0">
-              <ref role="3cqZAo" node="3iJaUC6ift4" resolve="conClusionOrEvent" />
+              <ref role="3cqZAo" node="3iJaUC6ift4" resolve="conclusion" />
             </node>
             <node concept="3x8VRR" id="3iJaUC7iOWz" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbH" id="3iJaUC7iP6H" role="3cqZAp" />
-        <node concept="1X3_iC" id="3iJaUC7iP26" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbJ" id="3iJaUC6igaF" role="8Wnug">
-            <node concept="3clFbS" id="3iJaUC6igaH" role="3clFbx">
-              <node concept="3cpWs6" id="3iJaUC6igEo" role="3cqZAp">
-                <node concept="3clFbT" id="3iJaUC6igFN" role="3cqZAk">
-                  <property role="3clFbU" value="true" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3iJaUC6igt3" role="3clFbw">
-              <node concept="37vLTw" id="3iJaUC6igqN" role="2Oq$k0">
-                <ref role="3cqZAo" node="3iJaUC6ift4" resolve="conClusionOrEvent" />
-              </node>
-              <node concept="1mIQ4w" id="3iJaUC6igyc" role="2OqNvi">
-                <node concept="chp4Y" id="3iJaUC6igA2" role="cj9EA">
-                  <ref role="cht4Q" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
-                </node>
-              </node>
-            </node>
-            <node concept="3eNFk2" id="3iJaUC6igJT" role="3eNLev">
-              <node concept="2OqwBi" id="3iJaUC6igTe" role="3eO9$A">
-                <node concept="37vLTw" id="3iJaUC6igOF" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3iJaUC6ift4" resolve="conClusionOrEvent" />
-                </node>
-                <node concept="1mIQ4w" id="3iJaUC6igZW" role="2OqNvi">
-                  <node concept="chp4Y" id="3iJaUC6ih43" role="cj9EA">
-                    <ref role="cht4Q" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbS" id="3iJaUC6igJV" role="3eOfB_">
-                <node concept="3cpWs6" id="3iJaUC6ih6m" role="3cqZAp">
-                  <node concept="3clFbT" id="3iJaUC6ih7N" role="3cqZAk">
-                    <property role="3clFbU" value="false" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3iJaUC6if6Z" role="3cqZAp" />
         <node concept="3SKdUt" id="7OaFZnrI0nO" role="3cqZAp">
           <node concept="3SKdUq" id="7OaFZnrI0nP" role="3SKWNk">
             <property role="3SKdUp" value="okay, check if we are in command init .. " />
           </node>
         </node>
-        <node concept="3clFbH" id="3iJaUC7iPaO" role="3cqZAp" />
         <node concept="3clFbF" id="7OaFZnrI0nQ" role="3cqZAp">
           <node concept="2OqwBi" id="2tJfPEThZEU" role="3clFbG">
             <node concept="2OqwBi" id="2tJfPEThZEV" role="2Oq$k0">
@@ -4974,16 +4922,6 @@
             <node concept="3x8VRR" id="7X5ehdoVcD9" role="2OqNvi" />
           </node>
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="2tJfPET_JRr">
-    <property role="3GE5qa" value="OFXCore.command" />
-    <ref role="1M2myG" to="un0u:2tJfPET_JFG" resolve="PageEventVarReference" />
-    <node concept="1N5Pfh" id="2tJfPET_JRz" role="1Mr941">
-      <ref role="1N5Vy1" to="un0u:2tJfPET_JOG" />
-      <node concept="1dDu$B" id="2tJfPET_JTG" role="1N6uqs">
-        <ref role="1dDu$A" to="un0u:2tJfPET_JFG" resolve="PageEventVarReference" />
       </node>
     </node>
   </node>

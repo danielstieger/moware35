@@ -651,12 +651,6 @@
       <property role="20kJfa" value="scopeConceptFunc" />
       <ref role="20lvS9" node="1Clc7wPShHo" resolve="PageScopeConceptFunc" />
     </node>
-    <node concept="1TJgyj" id="2tJfPESW6bE" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="events" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7HkVpVcFgBy" resolve="IPageEventHandler" />
-    </node>
     <node concept="1TJgyj" id="3nLPQZPUuMQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pagePaneActionProviderLink" />
@@ -4072,64 +4066,6 @@
     <node concept="PrWs8" id="59aH4f6dmSn" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="2tJfPESW2g4">
-    <property role="1pbfSe" value="530619554" />
-    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
-    <property role="TrG5h" value="CustomPageEvent" />
-    <property role="34LRSv" value="Custom Event" />
-    <property role="R4oN_" value="custom event handler" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2tJfPESW2L3" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="classifierType" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:g7uibYu" resolve="ClassifierType" />
-    </node>
-    <node concept="1TJgyj" id="2tJfPESW2jb" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="function" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="CommandVoidStatementList" />
-    </node>
-    <node concept="PrWs8" id="2tJfPESW2hW" role="PzmwI">
-      <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
-    </node>
-    <node concept="PrWs8" id="1nOz5_Jfs8q" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
-    </node>
-    <node concept="PrWs8" id="2tJfPESW2im" role="PzmwI">
-      <ref role="PrY4T" node="3nLPQZPP4DL" resolve="ISelectionsAvailable" />
-    </node>
-    <node concept="PrWs8" id="2tJfPET_JMd" role="PzmwI">
-      <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
-    </node>
-    <node concept="PrWs8" id="2tJfPET_JqB" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="PrWs8" id="7HkVpVcFgCO" role="PzmwI">
-      <ref role="PrY4T" node="7HkVpVcFgBy" resolve="IPageEventHandler" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2tJfPET_JFG">
-    <property role="1pbfSe" value="519685562" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="PageEventVarReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="PrWs8" id="2tJfPET_JJn" role="PzmwI">
-      <ref role="PrY4T" to="tpee:SORzhOp6jM" resolve="IVariableReference" />
-    </node>
-    <node concept="1TJgyj" id="2tJfPET_JOG" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="event" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2tJfPESW2g4" resolve="CustomPageEvent" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7HkVpVcFgBy">
-    <property role="1pbfSe" value="1208088448" />
-    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
-    <property role="TrG5h" value="IPageEventHandler" />
   </node>
   <node concept="1TIwiD" id="1nLGXVrWsoS">
     <property role="1pbfSe" value="236750314" />

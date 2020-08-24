@@ -2148,7 +2148,7 @@
                         <ref role="3cqZAo" node="5$BCFrwb1fT" resolve="env" />
                       </node>
                       <node concept="liA8E" id="4FiFGILqSFZ" role="2OqNvi">
-                        <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                        <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
                       </node>
                     </node>
                   </node>
@@ -2233,7 +2233,7 @@
                       <ref role="3cqZAo" node="5$BCFrwb1fT" resolve="env" />
                     </node>
                     <node concept="liA8E" id="65KdKINSi6D" role="2OqNvi">
-                      <ref role="37wK5l" to="w7gk:65KdKINS11X" resolve="isProlongedUserSession" />
+                      <ref role="37wK5l" to="28jr:65KdKINRvVm" resolve="isProlongedUserSession" />
                     </node>
                   </node>
                 </node>
