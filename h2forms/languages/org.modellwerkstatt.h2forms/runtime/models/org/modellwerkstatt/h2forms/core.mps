@@ -10834,7 +10834,7 @@
                         <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
                       </node>
                       <node concept="liA8E" id="kA5KhwfSxN" role="2OqNvi">
-                        <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_shutdown" />
+                        <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_immediatellyShutdown" />
                       </node>
                     </node>
                   </node>
@@ -11080,7 +11080,7 @@
               <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
             </node>
             <node concept="liA8E" id="Qi6kT8Yl69" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_shutdown" />
+              <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_immediatellyShutdown" />
             </node>
           </node>
         </node>

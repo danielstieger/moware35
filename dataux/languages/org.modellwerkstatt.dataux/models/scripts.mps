@@ -225,6 +225,12 @@
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
+      <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
+        <child id="1154546920563" name="concept" index="3gmYPZ" />
+      </concept>
+      <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">
+        <reference id="1154546997487" name="concept" index="3gnhBz" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -7386,6 +7392,62 @@
                 </node>
               </node>
               <node concept="3x8VRR" id="XTtPL5vGy2" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="4kAZUcskQp2" role="_YvDr">
+      <property role="_XH9r" value="Command Permissions with status used. " />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="4kAZUcskQp3" role="_XPhp">
+        <node concept="3clFbS" id="4kAZUcskQp4" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4kAZUcskQp5" role="_XDHO">
+        <node concept="3clFbS" id="4kAZUcskQp6" role="2VODD2">
+          <node concept="3clFbF" id="4kAZUcskQF7" role="3cqZAp">
+            <node concept="2OqwBi" id="4kAZUcskRnR" role="3clFbG">
+              <node concept="2OqwBi" id="4kAZUcskQJU" role="2Oq$k0">
+                <node concept="_YI3z" id="4kAZUcskQF6" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="4kAZUcskQTy" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:150ifyc285Q" />
+                </node>
+              </node>
+              <node concept="2HwmR7" id="4kAZUcskTGF" role="2OqNvi">
+                <node concept="1bVj0M" id="4kAZUcskTGH" role="23t8la">
+                  <node concept="3clFbS" id="4kAZUcskTGI" role="1bW5cS">
+                    <node concept="3clFbF" id="4kAZUcskTLk" role="3cqZAp">
+                      <node concept="3eOSWO" id="4kAZUcskYZ7" role="3clFbG">
+                        <node concept="3cmrfG" id="4kAZUcskYZd" role="3uHU7w">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                        <node concept="2OqwBi" id="4kAZUcskWmR" role="3uHU7B">
+                          <node concept="2OqwBi" id="4kAZUcskTOV" role="2Oq$k0">
+                            <node concept="37vLTw" id="4kAZUcskTLj" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4kAZUcskTGJ" resolve="it" />
+                            </node>
+                            <node concept="2Rf3mk" id="4kAZUcskUux" role="2OqNvi">
+                              <node concept="3gmYPX" id="4kAZUcskV0$" role="1xVPHs">
+                                <node concept="3gn64h" id="4kAZUcskVeN" role="3gmYPZ">
+                                  <ref role="3gnhBz" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                                </node>
+                                <node concept="3gn64h" id="4kAZUcskVF7" role="3gmYPZ">
+                                  <ref role="3gnhBz" to="un0u:3VCHlE3_TvF" resolve="StatusConstReference" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="34oBXx" id="4kAZUcskXej" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="4kAZUcskTGJ" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="4kAZUcskTGK" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

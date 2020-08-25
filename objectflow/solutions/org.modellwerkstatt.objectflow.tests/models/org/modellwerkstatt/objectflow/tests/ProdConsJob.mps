@@ -4606,7 +4606,7 @@
     </node>
     <node concept="3clFb_" id="40MBoaf05sN" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getProcessByInstanceName" />
+      <property role="TrG5h" value="getModuleByInstanceName" />
       <node concept="3uibUv" id="40MBoaf05sO" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXModule" />
       </node>
