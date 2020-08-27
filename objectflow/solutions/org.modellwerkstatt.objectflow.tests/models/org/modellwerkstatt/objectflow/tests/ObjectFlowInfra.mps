@@ -22,6 +22,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -70,6 +73,9 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
@@ -462,7 +468,7 @@
     </node>
   </node>
   <node concept="2WPaUQ" id="5zF9hZsDuXt">
-    <property role="TrG5h" value="MultiString and Services" />
+    <property role="TrG5h" value="Services" />
     <ref role="2WPtWl" to="7kfk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
     <node concept="3ulXEM" id="2SRXiXA4Nh2" role="23Ghgl">
       <property role="TrG5h" value="platform" />
@@ -2514,7 +2520,7 @@
             <ref role="37wK5l" node="4nH4LOF0O4D" resolve="dependsOnVariant" />
           </node>
           <node concept="16GPin" id="6BKPvpDQzuh" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXPageFlagException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
           </node>
         </node>
         <node concept="3clFbH" id="6BKPvpDQzmo" role="3cqZAp" />
@@ -2538,7 +2544,7 @@
             <ref role="37wK5l" node="4nH4LOF0O4D" resolve="dependsOnVariant" />
           </node>
           <node concept="16GPin" id="6BKPvpDQzzZ" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXPageFlagException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
           </node>
         </node>
         <node concept="3clFbH" id="6BKPvpDQz$1" role="3cqZAp" />
@@ -2556,7 +2562,7 @@
             <ref role="37wK5l" node="4nH4LOF0O4S" resolve="dependsOnPlatForm" />
           </node>
           <node concept="16GPin" id="6BKPvpE3IMu" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXPageFlagException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
           </node>
         </node>
         <node concept="3clFbH" id="6BKPvpE3IMw" role="3cqZAp" />
@@ -2791,6 +2797,57 @@
           </node>
         </node>
         <node concept="3clFbH" id="3sIS$IKpZob" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="$leETUGyhU" role="3yMuLx">
+      <property role="TrG5h" value="Some checks on Fail-In: RuntimeException with text." />
+      <node concept="3cqZAl" id="$leETUGyhW" role="3clF45" />
+      <node concept="3clFbS" id="$leETUGyhX" role="3clF47">
+        <node concept="9aQIb" id="$leETUGyEy" role="3cqZAp">
+          <node concept="3clFbS" id="$leETUGyEz" role="9aQI4">
+            <node concept="YS8fn" id="$leETUGyOi" role="3cqZAp">
+              <node concept="2ShNRf" id="$leETUGyPi" role="YScLw">
+                <node concept="1pGfFk" id="$leETUG_Z6" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="$leETUGA0p" role="37wK5m">
+                    <property role="Xl_RC" value="Hello this is some text" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="16GPin" id="$leETUGyFs" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="$leETUGyIU" role="16NUyR">
+              <property role="Xl_RC" value="some text" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="$leETUOdDW" role="3yMuLx">
+      <property role="TrG5h" value="Some checks on Fail-In: condition with text handled correctly." />
+      <node concept="3cqZAl" id="$leETUOdDX" role="3clF45" />
+      <node concept="3clFbS" id="$leETUOdDY" role="3clF47">
+        <node concept="9aQIb" id="$leETUOdDZ" role="3cqZAp">
+          <node concept="3clFbS" id="$leETUOdE0" role="9aQI4">
+            <node concept="mlg3r" id="$leETUOdXj" role="3cqZAp">
+              <node concept="lgADV" id="$leETUOdXp" role="mlgNH">
+                <node concept="35AVbj" id="$leETUOdXq" role="lgxf9">
+                  <node concept="ic4WF" id="$leETUOdXr" role="icr7_">
+                    <property role="ic4Xk" value="Hello condtion some text." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="16GPin" id="$leETUOdE5" role="lGtFl">
+            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
+            <node concept="Xl_RD" id="$leETUOdE6" role="16NUyR">
+              <property role="Xl_RC" value="some text" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="xWan4" id="6Irl3jv7iIn" role="38MLOi">
