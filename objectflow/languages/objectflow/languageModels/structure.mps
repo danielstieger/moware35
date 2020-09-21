@@ -4515,6 +4515,9 @@
     <node concept="PrWs8" id="6RAFKVMR_Jr" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="7K21hvEMgn0" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:51BqQ8KtRx3" resolve="IPrimitiveConstant" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6RAFKVMR_IH">
     <property role="1pbfSe" value="1623526075" />
