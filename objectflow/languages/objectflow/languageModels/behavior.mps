@@ -22495,5 +22495,45 @@
       <node concept="3clFbS" id="2i1R3ftT$vX" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="7K21hvEcgtk">
+    <property role="3GE5qa" value="BusinessObject.Options" />
+    <ref role="13h7C2" to="un0u:7ubYH_ZZOMP" resolve="LengthOption" />
+    <node concept="13hLZK" id="7K21hvEcgtl" role="13h7CW">
+      <node concept="3clFbS" id="7K21hvEcgtm" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7K21hvEcgt_" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getValue" />
+      <ref role="13i0hy" to="lfe3:7K21hvEcg1K" resolve="getValue" />
+      <node concept="3Tm1VV" id="7K21hvEcgtA" role="1B3o_S" />
+      <node concept="3clFbS" id="7K21hvEcgtD" role="3clF47">
+        <node concept="3clFbF" id="7K21hvEcgLh" role="3cqZAp">
+          <node concept="2OqwBi" id="7K21hvEcgNF" role="3clFbG">
+            <node concept="13iPFW" id="7K21hvEcgLg" role="2Oq$k0" />
+            <node concept="3TrcHB" id="7K21hvEcgSq" role="2OqNvi">
+              <ref role="3TsBF5" to="un0u:7ubYH_ZZOMR" resolve="max" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7K21hvEcgtE" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="7K21hvEcgtF" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getDecValue" />
+      <ref role="13i0hy" to="lfe3:7K21hvEcg2G" resolve="getDecValue" />
+      <node concept="3Tm1VV" id="7K21hvEcgtG" role="1B3o_S" />
+      <node concept="3clFbS" id="7K21hvEcgtJ" role="3clF47">
+        <node concept="3clFbF" id="7K21hvEcgKT" role="3cqZAp">
+          <node concept="3cmrfG" id="7K21hvEcgKS" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7K21hvEcgtK" role="3clF45" />
+    </node>
+  </node>
 </model>
 

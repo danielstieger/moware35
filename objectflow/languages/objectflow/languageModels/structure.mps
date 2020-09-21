@@ -514,6 +514,9 @@
       <property role="TrG5h" value="max" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="7K21hvEcgt4" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:7K21hvEcg0d" resolve="ISizeSpecified" />
+    </node>
   </node>
   <node concept="1TIwiD" id="vASbTzXMHJ">
     <property role="3GE5qa" value="Types" />

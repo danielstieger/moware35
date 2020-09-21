@@ -345,6 +345,9 @@
       <property role="TrG5h" value="decvalue" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="7K21hvEcg4c" role="PzmwI">
+      <ref role="PrY4T" node="7K21hvEcg0d" resolve="ISizeSpecified" />
+    </node>
   </node>
   <node concept="1TIwiD" id="EYyuKpdvfQ">
     <property role="3GE5qa" value="mapping.fieldoptions" />
@@ -1239,6 +1242,11 @@
     <node concept="PrWs8" id="5Wi2c3ml7n_" role="PzmwI">
       <ref role="PrY4T" node="5Wi2c3mecZT" resolve="IQueryOption" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="7K21hvEcg0d">
+    <property role="1pbfSe" value="1714619684" />
+    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="TrG5h" value="ISizeSpecified" />
   </node>
 </model>
 
