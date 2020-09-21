@@ -17362,6 +17362,11 @@
                   </node>
                 </node>
               </node>
+              <node concept="3SKdUt" id="7K21hvEas1r" role="3cqZAp">
+                <node concept="3SKdUq" id="7K21hvEas1t" role="3SKWNk">
+                  <property role="3SKdUp" value="condition used in final_ok / final_cancel" />
+                </node>
+              </node>
               <node concept="3clFbJ" id="7dlwzTfHj2A" role="3cqZAp">
                 <node concept="3clFbS" id="7dlwzTfHj2C" role="3clFbx">
                   <node concept="3clFbF" id="5NnlNqttUfK" role="3cqZAp">
@@ -17382,8 +17387,30 @@
                   </node>
                   <node concept="3cpWs6" id="5NnlNqtu5JR" role="3cqZAp" />
                 </node>
-                <node concept="1rXfSq" id="63VjT6lVGAB" role="3clFbw">
-                  <ref role="37wK5l" node="63VjT6lViBN" resolve="isAutoConNoUi" />
+                <node concept="22lmx$" id="7K21hvEaniW" role="3clFbw">
+                  <node concept="1eOMI4" id="7K21hvEar_6" role="3uHU7w">
+                    <node concept="22lmx$" id="7K21hvEarG$" role="1eOMHV">
+                      <node concept="2OqwBi" id="7K21hvEarG_" role="3uHU7w">
+                        <node concept="37vLTw" id="7K21hvEarGA" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                        </node>
+                        <node concept="liA8E" id="7K21hvEarGB" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="7K21hvEarGC" role="3uHU7B">
+                        <node concept="37vLTw" id="7K21hvEarGD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                        </node>
+                        <node concept="liA8E" id="7K21hvEarGE" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1rXfSq" id="63VjT6lVGAB" role="3uHU7B">
+                    <ref role="37wK5l" node="63VjT6lViBN" resolve="isAutoConNoUi" />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbH" id="7dlwzTfHzHt" role="3cqZAp" />
