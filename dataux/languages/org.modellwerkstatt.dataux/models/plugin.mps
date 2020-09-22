@@ -4073,7 +4073,7 @@
   </node>
   <node concept="sE7Ow" id="1Zhh9750LWL">
     <property role="TrG5h" value="ConvertEntityAndDTO" />
-    <property role="2uzpH1" value="Werkbank - Convert Entities and DTO" />
+    <property role="2uzpH1" value="Werkbank - Convert Entities / DTO" />
     <property role="1WHSii" value="Entity2DTO and DTO2Entity" />
     <property role="fJN8o" value="true" />
     <node concept="2XrIbr" id="1Zhh975F2QN" role="32lrUH">
@@ -22643,7 +22643,7 @@
   </node>
   <node concept="sE7Ow" id="3P4lfamBC4m">
     <property role="TrG5h" value="ConvertEntityAndValueObject" />
-    <property role="2uzpH1" value="Werkbank - Convert Entities and ValueObjects" />
+    <property role="2uzpH1" value="Werkbank - Convert Entities / ValueObjects" />
     <property role="1WHSii" value="Entity2ValueObject and ValueObject2Entity" />
     <property role="fJN8o" value="true" />
     <node concept="2XrIbr" id="3P4lfamBC4n" role="32lrUH">

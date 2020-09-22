@@ -15114,5 +15114,85 @@
       <ref role="1YaFvo" to="un0u:371pDBOmHha" resolve="MultiString" />
     </node>
   </node>
+  <node concept="18kY7G" id="2rFQaTbR7bH">
+    <property role="3GE5qa" value="BusinessObject" />
+    <property role="TrG5h" value="CheckForValueObjectManipulation" />
+    <node concept="3clFbS" id="2rFQaTbR7bI" role="18ibNy">
+      <node concept="3clFbH" id="2rFQaTbR7bT" role="3cqZAp" />
+      <node concept="3clFbJ" id="2rFQaTbR7c3" role="3cqZAp">
+        <node concept="3clFbS" id="2rFQaTbR7c5" role="3clFbx">
+          <node concept="3clFbH" id="2rFQaTbSTyB" role="3cqZAp" />
+          <node concept="3clFbJ" id="2rFQaTbSTyN" role="3cqZAp">
+            <node concept="3clFbS" id="2rFQaTbSTyP" role="3clFbx">
+              <node concept="2MkqsV" id="2rFQaTbR7J4" role="3cqZAp">
+                <node concept="Xl_RD" id="2rFQaTbR7Jj" role="2MkJ7o">
+                  <property role="Xl_RC" value="Do not manipulate the properties of ValueObjects. Program in imutable style." />
+                </node>
+                <node concept="1YBJjd" id="2rFQaTbR7Mq" role="2OEOjV">
+                  <ref role="1YBMHb" node="2rFQaTbR7bK" resolve="propertyReference" />
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="2rFQaTbVerd" role="3clFbw">
+              <node concept="2OqwBi" id="2rFQaTbST_3" role="3uHU7B">
+                <node concept="1YBJjd" id="2rFQaTbSTz6" role="2Oq$k0">
+                  <ref role="1YBMHb" node="2rFQaTbR7bK" resolve="propertyReference" />
+                </node>
+                <node concept="2qgKlT" id="2rFQaTbUFEy" role="2OqNvi">
+                  <ref role="37wK5l" to="tpek:5WTl5xTCF5s" resolve="isBeingAssigned" />
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="2rFQaTbVfQB" role="3uHU7w">
+                <node concept="2OqwBi" id="2rFQaTbVfQD" role="3fr31v">
+                  <node concept="2OqwBi" id="2rFQaTbVfQE" role="2Oq$k0">
+                    <node concept="1PxgMI" id="2rFQaTbVfQF" role="2Oq$k0">
+                      <ref role="1PxNhF" to="tpee:hqOqwz4" resolve="DotExpression" />
+                      <node concept="2OqwBi" id="2rFQaTbVfQG" role="1PxMeX">
+                        <node concept="1YBJjd" id="2rFQaTbVfQH" role="2Oq$k0">
+                          <ref role="1YBMHb" node="2rFQaTbR7bK" resolve="propertyReference" />
+                        </node>
+                        <node concept="1mfA1w" id="2rFQaTbVfQI" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="2rFQaTbVfQJ" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:hqOq$gm" />
+                    </node>
+                  </node>
+                  <node concept="1mIQ4w" id="2rFQaTbVfQK" role="2OqNvi">
+                    <node concept="chp4Y" id="2rFQaTbVfQL" role="cj9EA">
+                      <ref role="cht4Q" to="tpee:f$Xjq0c" resolve="ThisExpression" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="2rFQaTbR7EC" role="3clFbw">
+          <node concept="2OqwBi" id="2rFQaTbR7p_" role="2Oq$k0">
+            <node concept="2OqwBi" id="2rFQaTbR7eh" role="2Oq$k0">
+              <node concept="1YBJjd" id="2rFQaTbR7ck" role="2Oq$k0">
+                <ref role="1YBMHb" node="2rFQaTbR7bK" resolve="propertyReference" />
+              </node>
+              <node concept="3TrEf2" id="2rFQaTbR7i1" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:huS8YPn" />
+              </node>
+            </node>
+            <node concept="1mfA1w" id="2rFQaTbR7y4" role="2OqNvi" />
+          </node>
+          <node concept="1mIQ4w" id="2rFQaTbR7Hr" role="2OqNvi">
+            <node concept="chp4Y" id="2rFQaTbR7HW" role="cj9EA">
+              <ref role="cht4Q" to="un0u:6W_Qo9eYrYE" resolve="ValueObject" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2rFQaTbR7bV" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="2rFQaTbR7bK" role="1YuTPh">
+      <property role="TrG5h" value="propertyReference" />
+      <ref role="1YaFvo" to="tpee:huS8uEI" resolve="PropertyReference" />
+    </node>
+  </node>
 </model>
 

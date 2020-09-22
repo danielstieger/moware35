@@ -380,7 +380,6 @@
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.config.RessourcesForTests_Default" />
         </node>
       </node>
-      <node concept="2CPvp3" id="7L8_IJAaDIN" role="2CJdiS" />
       <node concept="2CJf3v" id="77cIZASxKuH" role="2CJdiS">
         <property role="TrG5h" value="lockService" />
         <node concept="Xl_RD" id="77cIZASxKuJ" role="2CJf0U">

@@ -1,4 +1,4 @@
-#  Moware Master 2020 (NPC) 
+#  Moware Master 2020 (mini) 
 MoWare 2020 (mini edition)
 [Compatible with MPS 3.3.5] 
 

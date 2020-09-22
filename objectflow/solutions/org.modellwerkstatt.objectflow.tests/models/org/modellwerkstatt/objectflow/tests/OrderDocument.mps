@@ -544,9 +544,13 @@
           </node>
         </node>
         <node concept="3clFbH" id="51llZt5s6TW" role="3cqZAp" />
-        <node concept="3clFbF" id="51llZt4WjCj" role="3cqZAp">
-          <node concept="37vLTI" id="51llZt4WjGG" role="3clFbG">
-            <node concept="2OqwBi" id="51llZt4WjP4" role="37vLTx">
+        <node concept="3cpWs8" id="2rFQaTbX0yf" role="3cqZAp">
+          <node concept="3cpWsn" id="2rFQaTbX0yg" role="3cpWs9">
+            <property role="TrG5h" value="val" />
+            <node concept="3uibUv" id="2rFQaTbX0yh" role="1tU5fm">
+              <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+            </node>
+            <node concept="2OqwBi" id="51llZt4WjP4" role="33vP2m">
               <node concept="338YkY" id="51llZt4WjIl" role="2Oq$k0">
                 <ref role="338YkT" node="51llZt4Wia_" resolve="positions" />
               </node>
@@ -590,13 +594,20 @@
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="51llZt4WjDt" role="37vLTJ">
-              <node concept="338YkY" id="51llZt4WjCi" role="2Oq$k0">
-                <ref role="338YkT" node="51llZt4Wi5e" resolve="totalValue" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2rFQaTbWZTx" role="3cqZAp">
+          <node concept="37vLTI" id="2rFQaTbWZVw" role="3clFbG">
+            <node concept="2ShNRf" id="2rFQaTbX08r" role="37vLTx">
+              <node concept="1pGfFk" id="2rFQaTbX07T" role="2ShVmc">
+                <ref role="37wK5l" node="51llZt4WiVU" resolve="MonetaryValue" />
+                <node concept="37vLTw" id="2rFQaTbX0DL" role="37wK5m">
+                  <ref role="3cqZAo" node="2rFQaTbX0yg" resolve="val" />
+                </node>
               </node>
-              <node concept="2S8uIT" id="51llZt4WjEJ" role="2OqNvi">
-                <ref role="2S8YL0" node="51llZt4WiKp" resolve="amount" />
-              </node>
+            </node>
+            <node concept="338YkY" id="2rFQaTbWZTv" role="37vLTJ">
+              <ref role="338YkT" node="51llZt4Wi5e" resolve="totalValue" />
             </node>
           </node>
         </node>
