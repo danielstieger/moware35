@@ -4000,30 +4000,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="6BKPvpCUsJI">
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <ref role="1M2myG" to="un0u:6BKPvpCUsC6" resolve="IsVariant" />
-    <node concept="nKS2y" id="6BKPvpCUsLy" role="1MLUbF">
-      <node concept="3clFbS" id="6BKPvpCUsLz" role="2VODD2">
-        <node concept="3clFbF" id="6BKPvpCUsMg" role="3cqZAp">
-          <node concept="2OqwBi" id="6BKPvpCUsMh" role="3clFbG">
-            <node concept="2OqwBi" id="6BKPvpCUsMi" role="2Oq$k0">
-              <node concept="nLn13" id="6BKPvpCUsMj" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="6BKPvpCUsMk" role="2OqNvi">
-                <node concept="1xMEDy" id="6BKPvpCUsMl" role="1xVPHs">
-                  <node concept="chp4Y" id="6BKPvpCUsMm" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
-                  </node>
-                </node>
-                <node concept="1xIGOp" id="6BKPvpCUsMn" role="1xVPHs" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="6BKPvpCUsMo" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="1E9WFYperwY">
     <property role="3GE5qa" value="OFXCore.command" />
     <ref role="1M2myG" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />

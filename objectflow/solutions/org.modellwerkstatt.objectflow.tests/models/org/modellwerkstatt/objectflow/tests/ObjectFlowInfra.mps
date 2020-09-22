@@ -176,9 +176,6 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="7633836622691813894" name="org.modellwerkstatt.objectflow.structure.IsVariant" flags="ng" index="16hZK">
-        <property id="7633836622692572865" name="variant" index="11oGR" />
-      </concept>
       <concept id="7633836622691047726" name="org.modellwerkstatt.objectflow.structure.IsPlatform" flags="ng" index="1bGNo">
         <reference id="7633836622691047972" name="platform" index="1bGZi" />
       </concept>
@@ -293,7 +290,6 @@
       </concept>
       <concept id="7192042020165155254" name="org.modellwerkstatt.objectflow.structure.ContainerParamReference" flags="ng" index="3urNQE" />
       <concept id="7192042020165155288" name="org.modellwerkstatt.objectflow.structure.ContainerVariableReference" flags="ng" index="3urNR4" />
-      <concept id="594565203027877250" name="org.modellwerkstatt.objectflow.structure.Session" flags="ng" index="3y28L$" />
       <concept id="5697903518443819883" name="org.modellwerkstatt.objectflow.structure.ScopeReference" flags="ng" index="3ymtp$">
         <reference id="4779674245224959526" name="scope" index="2USPT0" />
         <child id="4779674245224959520" name="expression" index="2USPT6" />
@@ -362,39 +358,11 @@
     </language>
   </registry>
   <node concept="2EH5hC" id="6BKPvpDdBsW">
-    <property role="TrG5h" value="PlatformAndVariantService" />
+    <property role="TrG5h" value="PlatformService" />
     <property role="3GE5qa" value="" />
     <node concept="2tJIrI" id="6BKPvpDdBC7" role="jymVt" />
     <node concept="2tJIrI" id="6BKPvpDdBCh" role="jymVt" />
     <node concept="3Tm1VV" id="6BKPvpDdBsX" role="1B3o_S" />
-    <node concept="2vDG_T" id="4nH4LOF0O4D" role="jymVt">
-      <property role="TrG5h" value="dependsOnVariant" />
-      <node concept="3Tm1VV" id="4nH4LOF0O4E" role="1B3o_S" />
-      <node concept="3cqZAl" id="4nH4LOF0O4F" role="3clF45" />
-      <node concept="3clFbS" id="4nH4LOF0O4G" role="3clF47">
-        <node concept="3clFbH" id="4nH4LOF0O4H" role="3cqZAp" />
-        <node concept="mlg3r" id="4nH4LOF0O4I" role="3cqZAp">
-          <node concept="16hZK" id="4nH4LOF0O4J" role="mlgNJ" />
-          <node concept="lgADV" id="4nH4LOF0O4K" role="mlgNH">
-            <node concept="Xl_RD" id="4nH4LOF0O4L" role="lgxf9">
-              <property role="Xl_RC" value="SUGAR" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="4nH4LOF0O4M" role="3cqZAp" />
-        <node concept="mlg3r" id="4nH4LOF0O4N" role="3cqZAp">
-          <node concept="16hZK" id="4nH4LOF0O4O" role="mlgNJ">
-            <property role="11oGR" value="BABY" />
-          </node>
-          <node concept="lgADV" id="4nH4LOF0O4P" role="mlgNH">
-            <node concept="Xl_RD" id="4nH4LOF0O4Q" role="lgxf9">
-              <property role="Xl_RC" value="BABY" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="4nH4LOF0O4R" role="3cqZAp" />
-      </node>
-    </node>
     <node concept="2vDG_T" id="4nH4LOF0O4S" role="jymVt">
       <property role="TrG5h" value="dependsOnPlatForm" />
       <node concept="3Tm1VV" id="4nH4LOF0O4T" role="1B3o_S" />
@@ -418,52 +386,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="4nH4LOF0O53" role="3cqZAp" />
-      </node>
-    </node>
-    <node concept="2vDG_T" id="4nH4LOF0O54" role="jymVt">
-      <property role="TrG5h" value="setVariantSugar" />
-      <node concept="3Tm1VV" id="4nH4LOF0O55" role="1B3o_S" />
-      <node concept="3cqZAl" id="4nH4LOF0O56" role="3clF45" />
-      <node concept="3clFbS" id="4nH4LOF0O57" role="3clF47">
-        <node concept="3clFbF" id="4nH4LOF0O58" role="3cqZAp">
-          <node concept="2OqwBi" id="4nH4LOF0O59" role="3clFbG">
-            <node concept="2OqwBi" id="4nH4LOF0O5a" role="2Oq$k0">
-              <node concept="3y28L$" id="4nH4LOF0O5b" role="2Oq$k0" />
-              <node concept="liA8E" id="4nH4LOF0O5c" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-              </node>
-            </node>
-            <node concept="liA8E" id="4nH4LOF0O5d" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
-              <node concept="Xl_RD" id="4nH4LOF0O5e" role="37wK5m">
-                <property role="Xl_RC" value="SUGAR" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2vDG_T" id="4nH4LOF0O5f" role="jymVt">
-      <property role="TrG5h" value="setVariantBaby" />
-      <node concept="3Tm1VV" id="4nH4LOF0O5g" role="1B3o_S" />
-      <node concept="3cqZAl" id="4nH4LOF0O5h" role="3clF45" />
-      <node concept="3clFbS" id="4nH4LOF0O5i" role="3clF47">
-        <node concept="3clFbF" id="4nH4LOF0O5j" role="3cqZAp">
-          <node concept="2OqwBi" id="4nH4LOF0O5k" role="3clFbG">
-            <node concept="2OqwBi" id="4nH4LOF0O5l" role="2Oq$k0">
-              <node concept="3y28L$" id="4nH4LOF0O5m" role="2Oq$k0" />
-              <node concept="liA8E" id="4nH4LOF0O5n" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-              </node>
-            </node>
-            <node concept="liA8E" id="4nH4LOF0O5o" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
-              <node concept="Xl_RD" id="4nH4LOF0O5p" role="37wK5m">
-                <property role="Xl_RC" value="BABY" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>
@@ -2502,54 +2424,6 @@
         </node>
       </node>
     </node>
-    <node concept="3yPF9F" id="6BKPvpDQzd5" role="3yMuLx">
-      <property role="TrG5h" value="Check variant is handled correctly, running on BABY." />
-      <node concept="3cqZAl" id="6BKPvpDQzjv" role="3clF45" />
-      <node concept="3clFbS" id="6BKPvpDQzd9" role="3clF47">
-        <node concept="3clFbH" id="6BKPvpDQzpV" role="3cqZAp" />
-        <node concept="3clFbF" id="6BKPvpDQzl5" role="3cqZAp">
-          <node concept="1odsa" id="6BKPvpDQzl4" role="3clFbG">
-            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
-            <ref role="37wK5l" node="4nH4LOF0O5f" resolve="setVariantBaby" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="6BKPvpDQzmj" role="3cqZAp" />
-        <node concept="3clFbF" id="6BKPvpDQznb" role="3cqZAp">
-          <node concept="1odsa" id="6BKPvpDQzn9" role="3clFbG">
-            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
-            <ref role="37wK5l" node="4nH4LOF0O4D" resolve="dependsOnVariant" />
-          </node>
-          <node concept="16GPin" id="6BKPvpDQzuh" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="6BKPvpDQzmo" role="3cqZAp" />
-      </node>
-    </node>
-    <node concept="3yPF9F" id="6BKPvpDQzzK" role="3yMuLx">
-      <property role="TrG5h" value="Check variant is handled correctly, running on SUGAR." />
-      <node concept="3cqZAl" id="6BKPvpDQzzL" role="3clF45" />
-      <node concept="3clFbS" id="6BKPvpDQzzM" role="3clF47">
-        <node concept="3clFbH" id="6BKPvpDQzzR" role="3cqZAp" />
-        <node concept="3clFbF" id="6BKPvpDQzzS" role="3cqZAp">
-          <node concept="1odsa" id="6BKPvpDQzzT" role="3clFbG">
-            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
-            <ref role="37wK5l" node="4nH4LOF0O54" resolve="setVariantSugar" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="6BKPvpDQzzV" role="3cqZAp" />
-        <node concept="3clFbF" id="6BKPvpDQzzW" role="3cqZAp">
-          <node concept="1odsa" id="6BKPvpDQzzX" role="3clFbG">
-            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
-            <ref role="37wK5l" node="4nH4LOF0O4D" resolve="dependsOnVariant" />
-          </node>
-          <node concept="16GPin" id="6BKPvpDQzzZ" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="6BKPvpDQz$1" role="3cqZAp" />
-      </node>
-    </node>
     <node concept="3yPF9F" id="6BKPvpE3IMf" role="3yMuLx">
       <property role="TrG5h" value="Check platform is handled correctly, running on Platform_1." />
       <node concept="3cqZAl" id="6BKPvpE3IMg" role="3clF45" />
@@ -2558,7 +2432,7 @@
         <node concept="3clFbH" id="6BKPvpE3IMq" role="3cqZAp" />
         <node concept="3clFbF" id="6BKPvpE3IMr" role="3cqZAp">
           <node concept="1odsa" id="6BKPvpE3IMs" role="3clFbG">
-            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
+            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformService" />
             <ref role="37wK5l" node="4nH4LOF0O4S" resolve="dependsOnPlatForm" />
           </node>
           <node concept="16GPin" id="6BKPvpE3IMu" role="lGtFl">

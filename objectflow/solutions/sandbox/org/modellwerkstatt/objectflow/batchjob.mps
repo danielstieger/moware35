@@ -13006,31 +13006,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="3tgwmmDl6IA" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="isSilentLogging" />
-      <node concept="10P_77" id="3tgwmmDl6IB" role="3clF45" />
-      <node concept="3Tm1VV" id="3tgwmmDl6IC" role="1B3o_S" />
-      <node concept="3clFbS" id="3tgwmmDl6IE" role="3clF47">
-        <node concept="3clFbF" id="3tgwmmDl6IG" role="3cqZAp">
-          <node concept="3clFbT" id="3tgwmmDl6IF" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="3tgwmmDl6IH" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getCurrentVariant" />
-      <node concept="3Tm1VV" id="3tgwmmDl6IJ" role="1B3o_S" />
-      <node concept="17QB3L" id="3tgwmmDl6IK" role="3clF45" />
-      <node concept="3clFbS" id="3tgwmmDl6IL" role="3clF47">
-        <node concept="3clFbF" id="3tgwmmDl6U8" role="3cqZAp">
-          <node concept="Xl_RD" id="3tgwmmDl6U7" role="3clFbG">
-            <property role="Xl_RC" value="SUGAR" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="3tgwmmDl6IM" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getTextForLabel" />

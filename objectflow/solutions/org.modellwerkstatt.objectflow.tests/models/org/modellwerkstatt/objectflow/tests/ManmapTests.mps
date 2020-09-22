@@ -471,10 +471,6 @@
       <concept id="2153030403787874161" name="org.modellwerkstatt.manmap.structure.RowMapperField" flags="ng" index="2_xkrf">
         <child id="2153030403787874164" name="rowMapper" index="2_xkra" />
       </concept>
-      <concept id="4388680175614537753" name="org.modellwerkstatt.manmap.structure.AlternativeTableName" flags="ng" index="CEw_7">
-        <property id="4388680175614543797" name="variant" index="CEBVF" />
-        <child id="4388680175614543803" name="tablename" index="CEBV_" />
-      </concept>
       <concept id="5156615240064101319" name="org.modellwerkstatt.manmap.structure.RefJoinOption" flags="ng" index="GVh7U">
         <property id="3972477068525653278" name="readOnly" index="3OY_Z6" />
         <reference id="5156615240064101351" name="entityMapping" index="GVh7q" />
@@ -4772,18 +4768,6 @@
       </node>
       <node concept="12gALL" id="4eJAcMlClSt" role="3caO6$">
         <ref role="12gAhx" node="4eJAcMlChd_" resolve="MapAuditEntity" />
-      </node>
-      <node concept="CEw_7" id="4eJAcMlClSR" role="jyGaQ">
-        <property role="CEBVF" value="SNOW" />
-        <node concept="Xl_RD" id="4eJAcMlClSS" role="CEBV_">
-          <property role="Xl_RC" value="SNOW_TABLE" />
-        </node>
-      </node>
-      <node concept="CEw_7" id="4eJAcMlCngi" role="jyGaQ">
-        <property role="CEBVF" value="BABY" />
-        <node concept="Xl_RD" id="4eJAcMlCngk" role="CEBV_">
-          <property role="Xl_RC" value="BABY_TABLE" />
-        </node>
       </node>
     </node>
     <node concept="12nEzA" id="3UVBaKgDnK_" role="12nEwW">
@@ -36699,125 +36683,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="3yPF9F" id="4eJAcMlC7KM" role="3yMuLx">
-      <property role="TrG5h" value="Check for table variant logic. (NO LONGER SUPPORTED)" />
-      <node concept="3cqZAl" id="4eJAcMlC8nr" role="3clF45" />
-      <node concept="3clFbS" id="4eJAcMlC7KQ" role="3clF47">
-        <node concept="3cpWs8" id="4eJAcMlCcri" role="3cqZAp">
-          <node concept="3cpWsn" id="4eJAcMlCcrj" role="3cpWs9">
-            <property role="TrG5h" value="session" />
-            <node concept="3uibUv" id="4eJAcMlCcrk" role="1tU5fm">
-              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
-            </node>
-            <node concept="3er55J" id="4eJAcMlCcrD" role="33vP2m" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="4r0DqI1Q87y" role="3cqZAp">
-          <node concept="2OqwBi" id="4r0DqI1S5pN" role="3clFbG">
-            <node concept="1eOMI4" id="4r0DqI1S5iO" role="2Oq$k0">
-              <node concept="10QFUN" id="4r0DqI1S5iL" role="1eOMHV">
-                <node concept="3uibUv" id="4r0DqI1S5od" role="10QFUM">
-                  <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
-                </node>
-                <node concept="2OqwBi" id="4r0DqI1S5iQ" role="10QFUP">
-                  <node concept="37vLTw" id="4r0DqI1S5iR" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4eJAcMlCcrj" resolve="session" />
-                  </node>
-                  <node concept="liA8E" id="4r0DqI1S5iS" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="4r0DqI1S5$X" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:4r0DqI1Rlxz" resolve="setVariant" />
-              <node concept="Xl_RD" id="4r0DqI1S5AH" role="37wK5m">
-                <property role="Xl_RC" value="SNOW" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="4eJAcMlCcwQ" role="3cqZAp" />
-        <node concept="3SKdUt" id="14a9Cv1GfQM" role="3cqZAp">
-          <node concept="3SKdUq" id="14a9Cv1GfWl" role="3SKWNk">
-            <property role="3SKdUp" value="a space might be added. " />
-          </node>
-        </node>
-        <node concept="1gVbGN" id="4r0DqI1PZVt" role="3cqZAp">
-          <node concept="2OqwBi" id="4r0DqI1Q78s" role="1gVkn0">
-            <node concept="2OqwBi" id="14a9Cv1GaQ1" role="2Oq$k0">
-              <node concept="1odsa" id="4r0DqI1Q6sO" role="2Oq$k0">
-                <property role="fdWri" value="true" />
-                <ref role="1ods_" node="1lpzdTlNdbG" resolve="RepoCustomSql" />
-                <ref role="37wK5l" node="4r0DqI1Q1nQ" resolve="findTableNameForAuditEntity" />
-                <node concept="37vLTw" id="4r0DqI2rAUX" role="2f8TIa">
-                  <ref role="3cqZAo" node="4eJAcMlCcrj" resolve="session" />
-                </node>
-              </node>
-              <node concept="liA8E" id="14a9Cv1Gbci" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
-              </node>
-            </node>
-            <node concept="liA8E" id="4r0DqI1Q7q1" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="Xl_RD" id="4r0DqI1Q7rs" role="37wK5m">
-                <property role="Xl_RC" value="MMT_AUDITENTITY" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="4r0DqI2rBr_" role="3cqZAp" />
-        <node concept="3clFbF" id="4r0DqI1S5Ey" role="3cqZAp">
-          <node concept="2OqwBi" id="4r0DqI1S5Ez" role="3clFbG">
-            <node concept="1eOMI4" id="4r0DqI1S5E$" role="2Oq$k0">
-              <node concept="10QFUN" id="4r0DqI1S5E_" role="1eOMHV">
-                <node concept="3uibUv" id="4r0DqI1S5EA" role="10QFUM">
-                  <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
-                </node>
-                <node concept="2OqwBi" id="4r0DqI1S5EB" role="10QFUP">
-                  <node concept="37vLTw" id="4r0DqI1S5EC" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4eJAcMlCcrj" resolve="session" />
-                  </node>
-                  <node concept="liA8E" id="4r0DqI1S5ED" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="4r0DqI1S5EE" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:4r0DqI1Rlxz" resolve="setVariant" />
-              <node concept="Xl_RD" id="4r0DqI1S5EF" role="37wK5m">
-                <property role="Xl_RC" value="BABY" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="4r0DqI1Q7$Q" role="3cqZAp">
-          <node concept="2OqwBi" id="4r0DqI1Q7$R" role="1gVkn0">
-            <node concept="2OqwBi" id="14a9Cv1Ggg4" role="2Oq$k0">
-              <node concept="1odsa" id="4r0DqI1Q7$S" role="2Oq$k0">
-                <property role="fdWri" value="true" />
-                <ref role="1ods_" node="1lpzdTlNdbG" resolve="RepoCustomSql" />
-                <ref role="37wK5l" node="4r0DqI1Q1nQ" resolve="findTableNameForAuditEntity" />
-                <node concept="37vLTw" id="4r0DqI2rAY0" role="2f8TIa">
-                  <ref role="3cqZAo" node="4eJAcMlCcrj" resolve="session" />
-                </node>
-              </node>
-              <node concept="liA8E" id="14a9Cv1GgAl" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
-              </node>
-            </node>
-            <node concept="liA8E" id="4r0DqI1Q7$U" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="Xl_RD" id="4r0DqI1Q7$V" role="37wK5m">
-                <property role="Xl_RC" value="MMT_AUDITENTITY" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="4eJAcMlCcrN" role="3cqZAp" />
       </node>
     </node>
     <node concept="3yPF9F" id="4eJAcMlC2b_" role="3yMuLx">

@@ -4490,33 +4490,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFb_" id="5lMTsSlMoFY" role="jymVt">
-                  <property role="1EzhhJ" value="false" />
-                  <property role="TrG5h" value="isSilentLogging" />
-                  <node concept="10P_77" id="5lMTsSlMoFZ" role="3clF45" />
-                  <node concept="3Tm1VV" id="5lMTsSlMoG0" role="1B3o_S" />
-                  <node concept="3clFbS" id="5lMTsSlMoG1" role="3clF47">
-                    <node concept="3clFbF" id="5lMTsSlMoG2" role="3cqZAp">
-                      <node concept="3clFbT" id="5lMTsSlMoG3" role="3clFbG">
-                        <property role="3clFbU" value="false" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFb_" id="5lMTsSlMoG4" role="jymVt">
-                  <property role="1EzhhJ" value="false" />
-                  <property role="2aFKle" value="false" />
-                  <property role="TrG5h" value="getCurrentVariant" />
-                  <node concept="3Tm1VV" id="5lMTsSlMoG5" role="1B3o_S" />
-                  <node concept="17QB3L" id="5lMTsSlMoG6" role="3clF45" />
-                  <node concept="3clFbS" id="5lMTsSlMoG7" role="3clF47">
-                    <node concept="3clFbF" id="5lMTsSlMoG8" role="3cqZAp">
-                      <node concept="Xl_RD" id="5lMTsSlMoG9" role="3clFbG">
-                        <property role="Xl_RC" value="SUGAR" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
                 <node concept="3clFb_" id="5lMTsSlMoGa" role="jymVt">
                   <property role="1EzhhJ" value="false" />
                   <property role="TrG5h" value="getTextForLabel" />

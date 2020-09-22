@@ -18251,40 +18251,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="5BROMrVNPle" role="3cqZAp" />
-        <node concept="3clFbF" id="5BROMrW1qy5" role="3cqZAp">
-          <node concept="2OqwBi" id="5BROMrW1qy6" role="3clFbG">
-            <node concept="2OqwBi" id="5BROMrW1qy7" role="2Oq$k0">
-              <node concept="37vLTw" id="2B50FNWbeCS" role="2Oq$k0">
-                <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-              </node>
-              <node concept="2OwXpG" id="5BROMrW1qy9" role="2OqNvi">
-                <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
-              </node>
-            </node>
-            <node concept="liA8E" id="5BROMrW1qya" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
-              <node concept="2OqwBi" id="5BROMrW1qyb" role="37wK5m">
-                <node concept="2OqwBi" id="5BROMrW1qyc" role="2Oq$k0">
-                  <node concept="2OqwBi" id="5BROMrW1qyd" role="2Oq$k0">
-                    <node concept="37vLTw" id="2B50FNWbeCW" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                    </node>
-                    <node concept="2OwXpG" id="5BROMrW1qyf" role="2OqNvi">
-                      <ref role="2Oxat5" node="4jlzLDkHYbm" resolve="__localApplicationFactory" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="5BROMrW1qyg" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="5BROMrW1qyh" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3uMEeikYhQa" role="3cqZAp" />
         <node concept="3clFbF" id="7HSdIeXWA$I" role="3cqZAp">
           <node concept="37vLTI" id="7HSdIeXWAGs" role="3clFbG">
             <node concept="2ShNRf" id="7HSdIeXWARF" role="37vLTx">

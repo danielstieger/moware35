@@ -3477,12 +3477,6 @@
     <property role="3GE5qa" value="OFXCore.platform" />
     <property role="TrG5h" value="Platform" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6A6XM2SiUoS" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="variantDeclarations" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6A6XM2SiUli" resolve="VariantDeclaration" />
-    </node>
     <node concept="PrWs8" id="7MWNCzXOAva" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
@@ -3536,20 +3530,6 @@
       <property role="1uS6qo" value="SILENT_LOG" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6A6XM2SiUli">
-    <property role="1pbfSe" value="567450738" />
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <property role="TrG5h" value="VariantDeclaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6A6XM2SiUmb" role="1TKVEl">
-      <property role="TrG5h" value="variant" />
-      <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
-    </node>
-    <node concept="1TJgyi" id="7MWNCzXYkt9" role="1TKVEl">
-      <property role="TrG5h" value="logOption" />
-      <ref role="AX2Wp" node="7MWNCzXSMan" resolve="PlatformLoggingOption" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6BKPvpCRx$I">
     <property role="1pbfSe" value="758190300" />
     <property role="3GE5qa" value="OFXCore.platform" />
@@ -3566,19 +3546,6 @@
     </node>
     <node concept="PrWs8" id="6BKPvpCYM3g" role="PzmwI">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6BKPvpCUsC6">
-    <property role="1pbfSe" value="757424132" />
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <property role="TrG5h" value="IsVariant" />
-    <property role="34LRSv" value="isVariant" />
-    <property role="R4oN_" value="current variant" />
-    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyi" id="6BKPvpCXlV1" role="1TKVEl">
-      <property role="TrG5h" value="variant" />
-      <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
     </node>
   </node>
   <node concept="PlHQZ" id="1E9WFYpESfw">

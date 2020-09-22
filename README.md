@@ -1,5 +1,5 @@
 #  Moware Master 2020 (NPC) 
-MoWare 2020 (NPC edition)
+MoWare 2020 (mini edition)
 [Compatible with MPS 3.3.5] 
 
 MoWare Werkbank allows you to create business applications with more efficiency and 
@@ -22,12 +22,9 @@ code generators and runtime environments are developed within MPS. Thus, all asp
 explorable, understandable and changeable. 
 
 ```
-This is the moware None Process Complete (NPC) branch
+This is the moware mini branch
 
-The NPC is compatible to moware 2020 mrs with some refactorings. However, there is no 
-option foreseen to switch back to the mrs branch.
-
-moware NPC is released in summer 2020 and production stabel. 
+The mini is compatible to moware 2020 npc.  
 ```
 
 More information is provided at http://www.modellwerkstatt.org

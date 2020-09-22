@@ -6169,91 +6169,71 @@
                               <node concept="37vLTw" id="3sx4Hz35BxJ" role="3uHU7w">
                                 <ref role="3cqZAo" node="3sx4Hz35byI" resolve="appVersionInfo" />
                               </node>
-                              <node concept="3cpWs3" id="3sx4Hz35wVH" role="3uHU7B">
-                                <node concept="3cpWs3" id="5fkhsROx$OK" role="3uHU7B">
-                                  <node concept="2OqwBi" id="5fkhsROx_v4" role="3uHU7w">
-                                    <node concept="2OqwBi" id="5fkhsROx_ap" role="2Oq$k0">
-                                      <node concept="37vLTw" id="2QY_rtE0YKX" role="2Oq$k0">
+                              <node concept="3cpWs3" id="5fkhsROx$eC" role="3uHU7B">
+                                <node concept="3cpWs3" id="5fkhsROxvAE" role="3uHU7B">
+                                  <node concept="3cpWs3" id="5fkhsROxvb5" role="3uHU7B">
+                                    <node concept="3cpWs3" id="3zf0S8jUMbE" role="3uHU7B">
+                                      <node concept="3cpWs3" id="3zf0S8jULRQ" role="3uHU7B">
+                                        <node concept="3cpWs3" id="3zf0S8jULl2" role="3uHU7B">
+                                          <node concept="3cpWs3" id="3zf0S8jUL2K" role="3uHU7B">
+                                            <node concept="Xl_RD" id="3zf0S8jUL3b" role="3uHU7w">
+                                              <property role="Xl_RC" value="\nJAVA Version:   " />
+                                            </node>
+                                            <node concept="3cpWs3" id="7708TIHGLJU" role="3uHU7B">
+                                              <node concept="2OqwBi" id="7708TIHJ33B" role="3uHU7B">
+                                                <node concept="37vLTw" id="2QY_rtE0YLY" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                                                </node>
+                                                <node concept="liA8E" id="7708TIHJ3lL" role="2OqNvi">
+                                                  <ref role="37wK5l" to="1e0c:69JiVbyW3G1" resolve="getSystemLabel" />
+                                                  <node concept="3cmrfG" id="2QY_rtDjXBE" role="37wK5m">
+                                                    <property role="3cmrfH" value="-1" />
+                                                  </node>
+                                                  <node concept="Rm8GO" id="7708TIHJ3$u" role="37wK5m">
+                                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                                                    <ref role="Rm8GQ" to="ache:7708TIHHbb2" resolve="MOWARE_VERSION" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7w">
+                                                <property role="Xl_RC" value="\nFX8 fat client, 3nd rev. spring 17" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="2YIFZM" id="3zf0S8jULJf" role="3uHU7w">
+                                            <ref role="1Pybhc" to="wez1:~VersionInfo" resolve="VersionInfo" />
+                                            <ref role="37wK5l" to="wez1:~VersionInfo.getVersion():java.lang.String" resolve="getVersion" />
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="3zf0S8jUM0k" role="3uHU7w">
+                                          <property role="Xl_RC" value="\nJava Runtime Version:   " />
+                                        </node>
+                                      </node>
+                                      <node concept="2YIFZM" id="3zf0S8jUMHy" role="3uHU7w">
+                                        <ref role="37wK5l" to="wez1:~VersionInfo.getRuntimeVersion():java.lang.String" resolve="getRuntimeVersion" />
+                                        <ref role="1Pybhc" to="wez1:~VersionInfo" resolve="VersionInfo" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="5fkhsROxvpF" role="3uHU7w">
+                                      <property role="Xl_RC" value="\nPlatform '" />
+                                    </node>
+                                  </node>
+                                  <node concept="2OqwBi" id="5fkhsROxweD" role="3uHU7w">
+                                    <node concept="2OqwBi" id="5fkhsROxvUU" role="2Oq$k0">
+                                      <node concept="37vLTw" id="2QY_rtE0YMZ" role="2Oq$k0">
                                         <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                                       </node>
-                                      <node concept="liA8E" id="5fkhsROx_pB" role="2OqNvi">
+                                      <node concept="liA8E" id="5fkhsROxw9M" role="2OqNvi">
                                         <ref role="37wK5l" to="1e0c:69JiVbyY2dp" resolve="getPlatform" />
                                       </node>
                                     </node>
-                                    <node concept="liA8E" id="5fkhsROx_GO" role="2OqNvi">
-                                      <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                                    </node>
-                                  </node>
-                                  <node concept="3cpWs3" id="5fkhsROx$eC" role="3uHU7B">
-                                    <node concept="3cpWs3" id="5fkhsROxvAE" role="3uHU7B">
-                                      <node concept="3cpWs3" id="5fkhsROxvb5" role="3uHU7B">
-                                        <node concept="3cpWs3" id="3zf0S8jUMbE" role="3uHU7B">
-                                          <node concept="3cpWs3" id="3zf0S8jULRQ" role="3uHU7B">
-                                            <node concept="3cpWs3" id="3zf0S8jULl2" role="3uHU7B">
-                                              <node concept="3cpWs3" id="3zf0S8jUL2K" role="3uHU7B">
-                                                <node concept="Xl_RD" id="3zf0S8jUL3b" role="3uHU7w">
-                                                  <property role="Xl_RC" value="\nJAVA Version:   " />
-                                                </node>
-                                                <node concept="3cpWs3" id="7708TIHGLJU" role="3uHU7B">
-                                                  <node concept="2OqwBi" id="7708TIHJ33B" role="3uHU7B">
-                                                    <node concept="37vLTw" id="2QY_rtE0YLY" role="2Oq$k0">
-                                                      <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                                                    </node>
-                                                    <node concept="liA8E" id="7708TIHJ3lL" role="2OqNvi">
-                                                      <ref role="37wK5l" to="1e0c:69JiVbyW3G1" resolve="getSystemLabel" />
-                                                      <node concept="3cmrfG" id="2QY_rtDjXBE" role="37wK5m">
-                                                        <property role="3cmrfH" value="-1" />
-                                                      </node>
-                                                      <node concept="Rm8GO" id="7708TIHJ3$u" role="37wK5m">
-                                                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
-                                                        <ref role="Rm8GQ" to="ache:7708TIHHbb2" resolve="MOWARE_VERSION" />
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                  <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7w">
-                                                    <property role="Xl_RC" value="\nFX8 fat client, 3nd rev. spring 17" />
-                                                  </node>
-                                                </node>
-                                              </node>
-                                              <node concept="2YIFZM" id="3zf0S8jULJf" role="3uHU7w">
-                                                <ref role="1Pybhc" to="wez1:~VersionInfo" resolve="VersionInfo" />
-                                                <ref role="37wK5l" to="wez1:~VersionInfo.getVersion():java.lang.String" resolve="getVersion" />
-                                              </node>
-                                            </node>
-                                            <node concept="Xl_RD" id="3zf0S8jUM0k" role="3uHU7w">
-                                              <property role="Xl_RC" value="\nJava Runtime Version:   " />
-                                            </node>
-                                          </node>
-                                          <node concept="2YIFZM" id="3zf0S8jUMHy" role="3uHU7w">
-                                            <ref role="37wK5l" to="wez1:~VersionInfo.getRuntimeVersion():java.lang.String" resolve="getRuntimeVersion" />
-                                            <ref role="1Pybhc" to="wez1:~VersionInfo" resolve="VersionInfo" />
-                                          </node>
-                                        </node>
-                                        <node concept="Xl_RD" id="5fkhsROxvpF" role="3uHU7w">
-                                          <property role="Xl_RC" value="\nPlatform '" />
-                                        </node>
-                                      </node>
-                                      <node concept="2OqwBi" id="5fkhsROxweD" role="3uHU7w">
-                                        <node concept="2OqwBi" id="5fkhsROxvUU" role="2Oq$k0">
-                                          <node concept="37vLTw" id="2QY_rtE0YMZ" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                                          </node>
-                                          <node concept="liA8E" id="5fkhsROxw9M" role="2OqNvi">
-                                            <ref role="37wK5l" to="1e0c:69JiVbyY2dp" resolve="getPlatform" />
-                                          </node>
-                                        </node>
-                                        <node concept="liA8E" id="5fkhsROx$8n" role="2OqNvi">
-                                          <ref role="37wK5l" to="28jr:5fkhsROxw$p" resolve="getPlatformFQName" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                    <node concept="Xl_RD" id="5fkhsROx$ly" role="3uHU7w">
-                                      <property role="Xl_RC" value="', variant " />
+                                    <node concept="liA8E" id="5fkhsROx$8n" role="2OqNvi">
+                                      <ref role="37wK5l" to="28jr:5fkhsROxw$p" resolve="getPlatformFQName" />
                                     </node>
                                   </node>
                                 </node>
-                                <node concept="Xl_RD" id="3sx4Hz35y0u" role="3uHU7w">
-                                  <property role="Xl_RC" value="\n\n" />
+                                <node concept="Xl_RD" id="5fkhsROx$ly" role="3uHU7w">
+                                  <property role="Xl_RC" value="', \n\n" />
                                 </node>
                               </node>
                             </node>

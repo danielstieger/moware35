@@ -30,9 +30,7 @@
       <concept id="3146313690717155301" name="org.modellwerkstatt.objectflow.structure.LabelSpecification" flags="ng" index="2kzhL4">
         <child id="1440642197017487671" name="text" index="il5_5" />
       </concept>
-      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q">
-        <child id="7604036740764640824" name="variantDeclarations" index="3hNl4o" />
-      </concept>
+      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q" />
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="406105322043153886" name="dependencyResolution" index="20ptHX" />
@@ -65,7 +63,6 @@
         <child id="478945708937917662" name="name" index="2DlbDb" />
         <child id="478945708937917664" name="value" index="2DlbDP" />
       </concept>
-      <concept id="7604036740764640594" name="org.modellwerkstatt.objectflow.structure.VariantDeclaration" flags="ng" index="3hNl9M" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -104,7 +101,6 @@
     </node>
     <node concept="2kDv1q" id="7agSOE7AYh0" role="2kDvpj">
       <property role="TrG5h" value="Default" />
-      <node concept="3hNl9M" id="7agSOE7AYh2" role="3hNl4o" />
     </node>
   </node>
   <node concept="2CG7Z0" id="1Z4DonBIYtH">
@@ -153,14 +149,6 @@
       <property role="TrG5h" value="currentPlatform" />
       <node concept="Xl_RD" id="1Z4DonBIYtY" role="2CJf0U">
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.config.RessourcesForTests_Default" />
-      </node>
-      <node concept="2CJf1O" id="1Z4DonBIYtZ" role="2CJ4_l">
-        <node concept="Xl_RD" id="1Z4DonBIYu0" role="2DqwMp">
-          <property role="Xl_RC" value="SUGAR" />
-        </node>
-        <node concept="Xl_RD" id="1Z4DonBIYu1" role="2DqwMv">
-          <property role="Xl_RC" value="0" />
-        </node>
       </node>
     </node>
     <node concept="2CPvp3" id="1Z4DonBIYu2" role="2CGBMS" />
@@ -264,14 +252,6 @@
       <property role="TrG5h" value="currentPlatform" />
       <node concept="Xl_RD" id="7agSOE7Kjv9" role="2CJf0U">
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.config.RessourcesForTests_Default" />
-      </node>
-      <node concept="2CJf1O" id="7agSOE7Kjva" role="2CJ4_l">
-        <node concept="Xl_RD" id="7agSOE7Kjvb" role="2DqwMp">
-          <property role="Xl_RC" value="SUGAR" />
-        </node>
-        <node concept="Xl_RD" id="7agSOE7Kjvc" role="2DqwMv">
-          <property role="Xl_RC" value="0" />
-        </node>
       </node>
     </node>
     <node concept="2CPvp3" id="7agSOE7Kjvd" role="2CGBMS" />
@@ -398,14 +378,6 @@
         <property role="TrG5h" value="currentPlatform" />
         <node concept="Xl_RD" id="7L8_IJAaDIJ" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.config.RessourcesForTests_Default" />
-        </node>
-        <node concept="2CJf1O" id="7L8_IJAaDIK" role="2CJ4_l">
-          <node concept="Xl_RD" id="7L8_IJAaDIL" role="2DqwMp">
-            <property role="Xl_RC" value="SUGAR" />
-          </node>
-          <node concept="Xl_RD" id="7L8_IJAaDIM" role="2DqwMv">
-            <property role="Xl_RC" value="0" />
-          </node>
         </node>
       </node>
       <node concept="2CPvp3" id="7L8_IJAaDIN" role="2CJdiS" />

@@ -11864,30 +11864,6 @@
       <ref role="1YaFvo" to="un0u:6BKPvpCRx$I" resolve="IsPlatform" />
     </node>
   </node>
-  <node concept="1YbPZF" id="6BKPvpCUsPh">
-    <property role="TrG5h" value="typeof_IsVariant" />
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <node concept="3clFbS" id="6BKPvpCUsPi" role="18ibNy">
-      <node concept="1Z5TYs" id="6BKPvpCUsQp" role="3cqZAp">
-        <node concept="mw_s8" id="6BKPvpCUsQq" role="1ZfhKB">
-          <node concept="2c44tf" id="6BKPvpCUsQr" role="mwGJk">
-            <node concept="10P_77" id="6BKPvpCUsQs" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="6BKPvpCUsQt" role="1ZfhK$">
-          <node concept="1Z2H0r" id="6BKPvpCUsQu" role="mwGJk">
-            <node concept="1YBJjd" id="6BKPvpCUsRx" role="1Z2MuG">
-              <ref role="1YBMHb" node="6BKPvpCUsPk" resolve="isVariant" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6BKPvpCUsPk" role="1YuTPh">
-      <property role="TrG5h" value="isVariant" />
-      <ref role="1YaFvo" to="un0u:6BKPvpCUsC6" resolve="IsVariant" />
-    </node>
-  </node>
   <node concept="18kY7G" id="ao4XGS$Yr4">
     <property role="TrG5h" value="check_StatusElement" />
     <property role="3GE5qa" value="Status" />

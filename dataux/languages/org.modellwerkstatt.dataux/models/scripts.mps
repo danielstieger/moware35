@@ -19,7 +19,6 @@
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
-    <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" implicit="true" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
   </imports>
@@ -4917,27 +4916,6 @@
     <property role="TrG5h" value="MoWareMRStoMMRS2019_4" />
     <property role="2BwPS$" value="MoWareMMRS_2019" />
     <property role="_Wzho" value="(3) Replace custom-sql Field &amp; Table References" />
-    <node concept="_XfAh" id="36E8xdoEBNw" role="_YvDr">
-      <property role="_XH9r" value="Are there any variant table names used?" />
-      <ref role="_XDHR" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
-      <node concept="_ZGcI" id="36E8xdoEBNy" role="_XPhp">
-        <node concept="3clFbS" id="36E8xdoEBN$" role="2VODD2">
-          <node concept="3clFbH" id="36E8xdoEG0c" role="3cqZAp" />
-        </node>
-      </node>
-      <node concept="_Y34e" id="36E8xdoEBND" role="_XDHO">
-        <node concept="3clFbS" id="36E8xdoEBNE" role="2VODD2">
-          <node concept="3clFbF" id="4DRDXIyRMC7" role="3cqZAp">
-            <node concept="2OqwBi" id="4DRDXIzaKbA" role="3clFbG">
-              <node concept="_YI3z" id="4DRDXIzaKbB" role="2Oq$k0" />
-              <node concept="2qgKlT" id="4DRDXIzaKbC" role="2OqNvi">
-                <ref role="37wK5l" to="lfe3:4ChE6YfmNaD" resolve="areTableVariantesPresent" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="_XfAh" id="4DRDXIyRL$C" role="_YvDr">
       <property role="_XH9r" value="Replace table and property references completely" />
       <ref role="_XDHR" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
@@ -7356,20 +7334,6 @@
                 </node>
                 <node concept="3x8VRR" id="6HNymTfRtO8" role="2OqNvi" />
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="_XfAh" id="6HNymTfRvrf" role="_YvDr">
-      <property role="_XH9r" value="Remove Variant stuff - variants are no longer supported." />
-      <ref role="_XDHR" to="r5tz:3NBIlSkjr0p" resolve="AlternativeTableName" />
-      <node concept="_ZGcI" id="6HNymTfRvrh" role="_XPhp">
-        <node concept="3clFbS" id="6HNymTfRvrj" role="2VODD2">
-          <node concept="3clFbF" id="6HNymTfRXlc" role="3cqZAp">
-            <node concept="2OqwBi" id="6HNymTfRXn7" role="3clFbG">
-              <node concept="_YI3z" id="6HNymTfRXlb" role="2Oq$k0" />
-              <node concept="1PgB_6" id="6HNymTfRXwm" role="2OqNvi" />
             </node>
           </node>
         </node>

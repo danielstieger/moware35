@@ -455,19 +455,6 @@
                 <node concept="37vLTw" id="2yuEF6qba8Q" role="37wK5m">
                   <ref role="3cqZAo" node="2yuEF6qaKtG" resolve="appFqName" />
                 </node>
-                <node concept="2OqwBi" id="5XGplYAWEpQ" role="37wK5m">
-                  <node concept="2OqwBi" id="5XGplYAWE9$" role="2Oq$k0">
-                    <node concept="37vLTw" id="5XGplYAWE7p" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
-                    </node>
-                    <node concept="liA8E" id="5XGplYAWEj1" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="5XGplYAWE$C" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                  </node>
-                </node>
                 <node concept="37vLTw" id="2yuEF6qbafL" role="37wK5m">
                   <ref role="3cqZAo" node="2yuEF6qaJxC" resolve="appVersion" />
                 </node>
@@ -1553,11 +1540,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1XvfUly$42R" role="jymVt" />
-    <node concept="312cEg" id="4NOhjsrDo9_" role="jymVt">
-      <property role="TrG5h" value="variant" />
-      <node concept="3Tm6S6" id="4NOhjsrDo9A" role="1B3o_S" />
-      <node concept="17QB3L" id="4NOhjsrDofy" role="1tU5fm" />
-    </node>
     <node concept="312cEg" id="5OZ8iimA8G1" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -1625,10 +1607,6 @@
         <property role="TrG5h" value="aFqNam" />
         <node concept="17QB3L" id="4DLu_4gp2Cd" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="4NOhjsrDohh" role="3clF46">
-        <property role="TrG5h" value="v" />
-        <node concept="17QB3L" id="4NOhjsrDoib" role="1tU5fm" />
-      </node>
       <node concept="37vLTG" id="4DLu_4gp2EM" role="3clF46">
         <property role="TrG5h" value="aVers" />
         <node concept="17QB3L" id="4DLu_4gp2FM" role="1tU5fm" />
@@ -1675,16 +1653,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="2yuEF6qaNro" role="3cqZAp" />
-        <node concept="3clFbF" id="4NOhjsrDono" role="3cqZAp">
-          <node concept="37vLTI" id="4NOhjsrDoSO" role="3clFbG">
-            <node concept="37vLTw" id="4NOhjsrDoU_" role="37vLTx">
-              <ref role="3cqZAo" node="4NOhjsrDohh" resolve="v" />
-            </node>
-            <node concept="37vLTw" id="4NOhjsrDonm" role="37vLTJ">
-              <ref role="3cqZAo" node="4NOhjsrDo9_" resolve="variant" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="4DLu_4gp8SV" role="3cqZAp">
           <node concept="37vLTI" id="4DLu_4gp9bS" role="3clFbG">
             <node concept="37vLTw" id="4DLu_4gp9gr" role="37vLTx">
@@ -2044,19 +2012,6 @@
         <node concept="3clFbF" id="1XvfUlyA72C" role="3cqZAp">
           <node concept="37vLTw" id="4QTIUTBZiHL" role="3clFbG">
             <ref role="3cqZAo" node="4QTIUTBZgAO" resolve="frameworkVersion" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="7G_6kzKg6_H" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getapp_Variant" />
-      <node concept="17QB3L" id="7G_6kzKg6_I" role="3clF45" />
-      <node concept="3Tm1VV" id="7G_6kzKg6_J" role="1B3o_S" />
-      <node concept="3clFbS" id="7G_6kzKg6_K" role="3clF47">
-        <node concept="3clFbF" id="7G_6kzKg6_L" role="3cqZAp">
-          <node concept="37vLTw" id="4NOhjsrDoYi" role="3clFbG">
-            <ref role="3cqZAo" node="4NOhjsrDo9_" resolve="variant" />
           </node>
         </node>
       </node>
@@ -3406,13 +3361,6 @@
   <node concept="3HP615" id="4x14MABr6ZL">
     <property role="TrG5h" value="ApplicationTelemetricsMBean" />
     <node concept="2tJIrI" id="4x14MABr6ZN" role="jymVt" />
-    <node concept="3clFb_" id="1XvfUlyA6SM" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getapp_Variant" />
-      <node concept="17QB3L" id="1XvfUlyAbVS" role="3clF45" />
-      <node concept="3Tm1VV" id="1XvfUlyA6SP" role="1B3o_S" />
-      <node concept="3clFbS" id="1XvfUlyA6SQ" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="7G_6kzKg6pj" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_FramkworkVersion" />

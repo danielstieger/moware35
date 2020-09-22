@@ -13,7 +13,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
@@ -57,7 +56,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -281,21 +279,12 @@
     <property role="1pbfSe" value="603043378" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="EYyuKpd4Hf">
-    <property role="3GE5qa" value="mapping.tableoptions" />
-    <property role="TrG5h" value="TableOption" />
-    <property role="R5$K7" value="true" />
-    <property role="1pbfSe" value="603116859" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="asaX9" id="35a9wK6uwRW" role="lGtFl" />
-  </node>
   <node concept="1TIwiD" id="EYyuKpd4Hl">
     <property role="3GE5qa" value="mapping.tableoptions" />
     <property role="TrG5h" value="OptimisticOption" />
     <property role="R4oN_" value="use transaction version count" />
     <property role="34LRSv" value="OPTIMISTIC_LOCK" />
     <property role="1pbfSe" value="603116865" />
-    <ref role="1TJDcQ" node="EYyuKpd4Hf" resolve="TableOption" />
     <node concept="PrWs8" id="35a9wK6uwS0" role="PzmwI">
       <ref role="PrY4T" node="35a9wK6uwRL" resolve="ITableOption" />
     </node>
@@ -769,52 +758,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-  </node>
-  <node concept="AxPO7" id="3NBIlSkjqX8">
-    <property role="TrG5h" value="ManMapVariant" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="3NBIlSkjqX9" role="M5hS2">
-      <property role="1uS6qv" value="SUGAR" />
-      <property role="1uS6qo" value="SUGAR" />
-    </node>
-    <node concept="M4N5e" id="3NBIlSkjqY6" role="M5hS2">
-      <property role="1uS6qv" value="BABY" />
-      <property role="1uS6qo" value="BABY" />
-    </node>
-    <node concept="M4N5e" id="3NBIlSkjqY9" role="M5hS2">
-      <property role="1uS6qv" value="SNOW" />
-      <property role="1uS6qo" value="SNOW" />
-    </node>
-    <node concept="M4N5e" id="3NBIlSkjqYd" role="M5hS2">
-      <property role="1uS6qv" value="BICYCLE" />
-      <property role="1uS6qo" value="BICYCLE" />
-    </node>
-    <node concept="M4N5e" id="3NBIlSkjr0j" role="M5hS2">
-      <property role="1uS6qv" value="CHAIR" />
-      <property role="1uS6qo" value="CHAIR" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3NBIlSkjr0p">
-    <property role="3GE5qa" value="mapping.tableoptions" />
-    <property role="TrG5h" value="AlternativeTableName" />
-    <property role="34LRSv" value="VARIANT_TABLENAME" />
-    <property role="R4oN_" value="specify tablename for variant" />
-    <property role="1pbfSe" value="1362454903" />
-    <ref role="1TJDcQ" node="EYyuKpd4Hf" resolve="TableOption" />
-    <node concept="1TJgyj" id="3NBIlSkjsuV" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="tablename" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-    <node concept="1TJgyi" id="3NBIlSkjsuP" role="1TKVEl">
-      <property role="TrG5h" value="variant" />
-      <ref role="AX2Wp" node="3NBIlSkjqX8" resolve="ManMapVariant" />
-    </node>
-    <node concept="PrWs8" id="35a9wK6uwRY" role="PzmwI">
-      <ref role="PrY4T" node="35a9wK6uwRL" resolve="ITableOption" />
-    </node>
-    <node concept="asaX9" id="5Wi2c3mcfRD" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3NdPOdMTnQl">
     <property role="3GE5qa" value="customsql" />
