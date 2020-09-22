@@ -8,9 +8,10 @@ the concepts from Domain Driven Design, users can focus on domain requirements i
 of getting bogged down by technical framework issues .
 
 MoWare Werkbank consists of a set of three domain specific languages (DSL’s) 
-to model the different aspects of business applications: (1) Persistance of aggregates 
-and entities, (2) UI/Application controllers to formulate user workflows and business logic, 
-(3) UI models with keywords like 'table' or 'form'. 
+to model the different aspects of business applications:
+1. Persistance of aggregates and entities
+2. UI/Application controllers to formulate user workflows and business logic
+3. UI models with keywords like 'table' or 'form'. 
 
 All three DSL's are technology - or better framework - independent. At the same time they are built on 
 top of java. This allows the developer to create fachliche services in plain Java, using the common
