@@ -1,10 +1,36 @@
 #!/bin/bash
 echo "Clean up all sources"
 
-rm -rf /Users/danielstieger/moware/manmap/solutions/org.modellwerkstatt.manmap.solution/classses_gen
+
+echo "Deleting manmap stuff .... " 
+rm -rf /Users/danielstieger/moware/manmap/languages/manmap/classes_gen
+rm -rf /Users/danielstieger/moware/manmap/languages/manmap/source_gen
+rm -rf /Users/danielstieger/moware/manmap/languages/manmap/source_gen.caches
+
+rm -rf /Users/danielstieger/moware/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen
 rm -rf /Users/danielstieger/moware/manmap/solutions/org.modellwerkstatt.manmap.solution/source_gen
 rm -rf /Users/danielstieger/moware/manmap/solutions/org.modellwerkstatt.manmap.solution/source_gen.caches
 
+
+echo "Deleting dataux stuff ..... "
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.dataux/classes_gen
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.dataux/source_gen
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.dataux/source_gen.caches
+
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.dataux/runtime/source_gen
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.dataux/runtime/source_gen.caches
+
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.moware/classes_gen
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.moware/source_gen
+rm -rf /Users/danielstieger/moware/dataux/languages/org.modellwerkstatt.moware/source_gen.caches
+
+rm -rf /Users/danielstieger/moware/dataux/solutions/org.modellwerkstatt.dataux.tests/classes_gen
+rm -rf /Users/danielstieger/moware/dataux/solutions/org.modellwerkstatt.dataux.tests/source_gen
+rm -rf /Users/danielstieger/moware/dataux/solutions/org.modellwerkstatt.dataux.tests/source_gen.caches
+
+
+echo "Deleting objectflow stuff ...."
 rm -rf /Users/danielstieger/moware/objectflow/solutions/sandbox/classes_gen
 rm -rf /Users/danielstieger/moware/objectflow/solutions/sandbox/source_gen
 rm -rf /Users/danielstieger/moware/objectflow/solutions/sandbox/source_gen.caches
@@ -13,18 +39,12 @@ rm -rf /Users/danielstieger/moware/objectflow/solutions/org.modellwerkstatt.obje
 rm -rf /Users/danielstieger/moware/objectflow/solutions/org.modellwerkstatt.objectflow.tests/source_gen
 rm -rf /Users/danielstieger/moware/objectflow/solutions/org.modellwerkstatt.objectflow.tests/source_gen.caches
 
-rm -rf /Users/danielstieger/moware/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen
-rm -rf /Users/danielstieger/moware/forms/solutions/modellwerkstatt.forms.sandbox/source_gen
-rm -rf /Users/danielstieger/moware/forms/solutions/modellwerkstatt.forms.sandbox/source_gen.caches
+rm -rf /Users/danielstieger/moware/objectflow/languages/objectflow/classes_gen
+rm -rf /Users/danielstieger/moware/objectflow/languages/objectflow/source_gen
+rm -rf /Users/danielstieger/moware/objectflow/languages/objectflow/source_gen.caches
 
-rm -rf /Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/classes_gen
-rm -rf /Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/source_gen
-rm -rf /Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/source_gen.caches
 
-rm -rf /Users/danielstieger/moware/fatflow/languages/fatflow/generator/classes_gen
-rm -rf /Users/danielstieger/moware/fatflow/languages/fatflow/generator/source_gen
-rm -rf /Users/danielstieger/moware/fatflow/languages/fatflow/generator/source_gen.caches
-
+echo "Deleting runtime stuff ...."
 rm -rf /Users/danielstieger/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/classes_gen
 rm -rf /Users/danielstieger/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/source_gen
 rm -rf /Users/danielstieger/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/source_gen.caches
