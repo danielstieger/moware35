@@ -3674,23 +3674,14 @@
     <node concept="3Tm1VV" id="7rqBz8B3EmY" role="1B3o_S" />
     <node concept="3UR2Jj" id="6ffh1MXubSF" role="lGtFl">
       <node concept="TZ5HA" id="6ffh1MXubSG" role="TZ5H$">
-        <node concept="1dT_AC" id="6ffh1MXubSH" role="1dT_Ay">
-          <property role="1dT_AB" value="IOFXProcess is implemented by any Process" />
+        <node concept="1dT_AC" id="3HlvnSFy3KD" role="1dT_Ay">
+          <property role="1dT_AB" value="IOFXModule provides command information/behaviour when command is not instantiated." />
         </node>
       </node>
       <node concept="TZ5HA" id="29WmUWhLmBw" role="TZ5H$">
         <node concept="1dT_AC" id="29WmUWhLmBx" role="1dT_Ay" />
       </node>
-      <node concept="TZ5HA" id="29WmUWhLmBy" role="TZ5H$">
-        <node concept="1dT_AC" id="29WmUWhLmBz" role="1dT_Ay">
-          <property role="1dT_AB" value="Process does not story any state, state is in processDocument, " />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="29WmUWhLmB$" role="TZ5H$">
-        <node concept="1dT_AC" id="29WmUWhLmB_" role="1dT_Ay">
-          <property role="1dT_AB" value="no second instance for process is needed, process can be provided as service" />
-        </node>
-      </node>
+      <node concept="TZ5HA" id="29WmUWhLmB$" role="TZ5H$" />
     </node>
     <node concept="3clFb_" id="7rqBz8B3EmZ" role="jymVt">
       <property role="1EzhhJ" value="true" />

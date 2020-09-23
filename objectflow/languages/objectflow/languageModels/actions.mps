@@ -780,26 +780,6 @@
         </node>
       </node>
     </node>
-    <node concept="37WvkG" id="Kou8LeiGNS" role="37WGs$">
-      <ref role="37XkoT" to="un0u:6ffh1MXzHnh" resolve="Process" />
-      <node concept="37Y9Zx" id="Kou8LeiGNT" role="37ZfLb">
-        <node concept="3clFbS" id="Kou8LeiGNU" role="2VODD2">
-          <node concept="3clFbF" id="Kou8LeiGNV" role="3cqZAp">
-            <node concept="2OqwBi" id="Kou8LeiGOm" role="3clFbG">
-              <node concept="2OqwBi" id="Kou8LeiGNZ" role="2Oq$k0">
-                <node concept="1r4Lsj" id="Kou8LeiGNW" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="Kou8LeiGO7" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:6ffh1MXA9UH" />
-                </node>
-              </node>
-              <node concept="WFELt" id="Kou8LeiGOs" role="2OqNvi">
-                <ref role="1A0vxQ" to="un0u:6ffh1MXA9UJ" resolve="ContainerParameter" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="37WvkG" id="5t0K6Tku2Iy" role="37WGs$">
       <ref role="37XkoT" to="un0u:5Ee0EjqWOQg" resolve="OFXDocumentation" />
       <node concept="37Y9Zx" id="5t0K6Tku2Iz" role="37ZfLb">

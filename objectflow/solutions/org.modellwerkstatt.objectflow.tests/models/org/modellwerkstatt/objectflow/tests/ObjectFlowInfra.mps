@@ -244,7 +244,6 @@
         <reference id="6600213247848012755" name="status" index="3$lB4D" />
       </concept>
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
-        <property id="3585259589779248406" name="formatString" index="35AVef" />
         <child id="4986415014450757612" name="formatString" index="icr7_" />
         <child id="3585259589780682365" name="arguments" index="35Gt3$" />
       </concept>
@@ -1884,7 +1883,6 @@
             <property role="TrG5h" value="s" />
             <node concept="17QB3L" id="3OfvFtlCEdn" role="1tU5fm" />
             <node concept="35AVbj" id="3OfvFtlCDKB" role="33vP2m">
-              <property role="35AVef" value="" />
               <node concept="2XvMaL" id="3OfvFtlCE2X" role="35Gt3$">
                 <ref role="1Vchh_" to="mbq3:2i3o0he2lCO" resolve="on" />
                 <ref role="2XvMaQ" to="mbq3:2i3o0he2l$T" resolve="Active" />
@@ -1924,7 +1922,6 @@
         <node concept="3clFbF" id="3OfvFtm64Rq" role="3cqZAp">
           <node concept="37vLTI" id="3OfvFtm64Tf" role="3clFbG">
             <node concept="35AVbj" id="3OfvFtm64Ut" role="37vLTx">
-              <property role="35AVef" value="" />
               <node concept="37vLTw" id="3OfvFtm655A" role="35Gt3$">
                 <ref role="3cqZAo" node="3OfvFtm652D" resolve="status" />
               </node>
@@ -2009,7 +2006,6 @@
             <property role="TrG5h" value="s" />
             <node concept="17QB3L" id="3WI9B8lPZ4x" role="1tU5fm" />
             <node concept="35AVbj" id="3WI9B8lPZ50" role="33vP2m">
-              <property role="35AVef" value="" />
               <node concept="2ShNRf" id="3WI9B8lPZ6L" role="35Gt3$">
                 <node concept="1pGfFk" id="3WI9B8lQ4NT" role="2ShVmc">
                   <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(java.lang.String)" resolve="BigDecimal" />
@@ -2220,7 +2216,6 @@
               <ref role="1ods_" to="mbq3:4wgjvSoeJVG" resolve="CreatorsFactory" />
               <ref role="37wK5l" to="mbq3:4nH4LOF0N$D" resolve="createInvoiceGraphWith4Positions_onDB" />
               <node concept="35AVbj" id="6Irl3jv9mRh" role="37wK5m">
-                <property role="35AVef" value="" />
                 <node concept="Xl_RD" id="6Irl3jv9mUs" role="35Gt3$">
                   <property role="Xl_RC" value="Dan" />
                 </node>
@@ -2255,7 +2250,6 @@
             <node concept="liA8E" id="6Irl3jv9n7n" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="35AVbj" id="6Irl3jv9naK" role="37wK5m">
-                <property role="35AVef" value="" />
                 <node concept="ic4WF" id="4kNjw_ozAz0" role="icr7_">
                   <property role="ic4Xk" value="Hello Dan 10_0" />
                 </node>
@@ -2266,7 +2260,6 @@
         <node concept="3clFbF" id="6Irl3jv9nl0" role="3cqZAp">
           <node concept="37vLTI" id="6Irl3jv9npx" role="3clFbG">
             <node concept="35AVbj" id="6Irl3jv9nr0" role="37vLTx">
-              <property role="35AVef" value="" />
               <node concept="1$4sJe" id="6Irl3jv9ocW" role="35Gt3$">
                 <property role="1$4sGS" value="0" />
                 <property role="1$4sGV" value="0" />
@@ -2317,7 +2310,6 @@
         <node concept="1gVbGN" id="186V0VEWu6S" role="3cqZAp">
           <node concept="2OqwBi" id="186V0VEWulw" role="1gVkn0">
             <node concept="35AVbj" id="186V0VEWu72" role="2Oq$k0">
-              <property role="35AVef" value="" />
               <node concept="3cmrfG" id="186V0VEWubl" role="35Gt3$">
                 <property role="3cmrfH" value="4711" />
               </node>
@@ -2345,7 +2337,6 @@
         <node concept="1gVbGN" id="186V0VEWuSA" role="3cqZAp">
           <node concept="2OqwBi" id="186V0VEWuSB" role="1gVkn0">
             <node concept="35AVbj" id="186V0VEWuSC" role="2Oq$k0">
-              <property role="35AVef" value="" />
               <node concept="3cmrfG" id="186V0VEWuSD" role="35Gt3$">
                 <property role="3cmrfH" value="4711" />
               </node>
@@ -2384,7 +2375,6 @@
         <node concept="1gVbGN" id="186V0VEWv0H" role="3cqZAp">
           <node concept="2OqwBi" id="186V0VEWv0I" role="1gVkn0">
             <node concept="35AVbj" id="186V0VEWv0J" role="2Oq$k0">
-              <property role="35AVef" value="" />
               <node concept="3cmrfG" id="186V0VEWv0K" role="35Gt3$">
                 <property role="3cmrfH" value="4711" />
               </node>
@@ -2757,7 +2747,6 @@
         <node concept="3clFbH" id="4nH4LOF0O5A" role="3cqZAp" />
         <node concept="3clFbF" id="4nH4LOF0O5B" role="3cqZAp">
           <node concept="35AVbj" id="4nH4LOF0O5C" role="3clFbG">
-            <property role="35AVef" value="" />
             <node concept="37vLTw" id="4nH4LOF0O5D" role="35Gt3$">
               <ref role="3cqZAo" node="4nH4LOF0O5s" resolve="i" />
             </node>
@@ -2807,7 +2796,6 @@
       <node concept="3clFbS" id="4nH4LOF0O5U" role="3clF47">
         <node concept="3clFbF" id="4nH4LOF0O5V" role="3cqZAp">
           <node concept="35AVbj" id="4nH4LOF0O5W" role="3clFbG">
-            <property role="35AVef" value="" />
             <node concept="37vLTw" id="4nH4LOF0O5X" role="35Gt3$">
               <ref role="3cqZAo" node="4nH4LOF0O5J" resolve="i" />
             </node>
@@ -2863,7 +2851,6 @@
       <node concept="3clFbS" id="4nH4LOF0O6g" role="3clF47">
         <node concept="3clFbF" id="4nH4LOF0O6h" role="3cqZAp">
           <node concept="35AVbj" id="4nH4LOF0O6i" role="3clFbG">
-            <property role="35AVef" value="" />
             <node concept="37vLTw" id="4nH4LOF0O6j" role="35Gt3$">
               <ref role="3cqZAo" node="4nH4LOF0O65" resolve="i" />
             </node>
@@ -2968,7 +2955,6 @@
           <node concept="28Qm3K" id="4nH4LOF0O78" role="3clFbG">
             <node concept="28QmBi" id="4nH4LOF0O79" role="28Qmfn">
               <node concept="35AVbj" id="4nH4LOF0O7a" role="28QmyZ">
-                <property role="35AVef" value="" />
                 <node concept="ic4WF" id="4nH4LOF0O7b" role="icr7_">
                   <property role="ic4Xk" value="Default Platform" />
                 </node>
@@ -2979,7 +2965,6 @@
             </node>
             <node concept="28QmBi" id="4nH4LOF0O7d" role="28Qmfn">
               <node concept="35AVbj" id="4nH4LOF0O7e" role="28QmyZ">
-                <property role="35AVef" value="" />
                 <node concept="ic4WF" id="4nH4LOF0O7f" role="icr7_">
                   <property role="ic4Xk" value="Default" />
                 </node>

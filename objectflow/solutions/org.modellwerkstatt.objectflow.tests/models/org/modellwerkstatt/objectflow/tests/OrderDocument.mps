@@ -257,7 +257,6 @@
         <child id="4533072425307746563" name="status" index="2XvChp" />
       </concept>
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
-        <property id="3585259589779248406" name="formatString" index="35AVef" />
         <child id="4986415014450757612" name="formatString" index="icr7_" />
         <child id="3585259589780682365" name="arguments" index="35Gt3$" />
       </concept>
@@ -458,7 +457,6 @@
         <node concept="lgBBG" id="51llZt5mCXc" role="3cqZAp">
           <node concept="lgADV" id="51llZt5mCXf" role="lgycv">
             <node concept="35AVbj" id="51llZt5mCXh" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="3cpWs3" id="51llZt5II7Q" role="35Gt3$">
                 <node concept="2OqwBi" id="51llZt5IJGd" role="3uHU7w">
                   <node concept="2OqwBi" id="51llZt5IIdy" role="2Oq$k0">
@@ -623,7 +621,6 @@
         <node concept="lgBBG" id="51llZt5OyW1" role="3cqZAp">
           <node concept="lgADV" id="51llZt5OyW4" role="lgycv">
             <node concept="35AVbj" id="51llZt5OyW5" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAz8" role="icr7_">
                 <property role="ic4Xk" value="TestGuard with instance and solution" />
               </node>
@@ -1621,7 +1618,6 @@
         <node concept="mlg3r" id="4nH4LOF0O1x" role="3cqZAp">
           <node concept="lgADV" id="4nH4LOF0O1y" role="mlgNH">
             <node concept="35AVbj" id="4nH4LOF0O1z" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4nH4LOF0O1$" role="icr7_">
                 <property role="ic4Xk" value="Order date should not be before 27 Jan 80." />
               </node>
@@ -1662,7 +1658,6 @@
         <node concept="mlg3r" id="4nH4LOF0O1D" role="3cqZAp">
           <node concept="lgADV" id="4nH4LOF0O1E" role="mlgNH">
             <node concept="35AVbj" id="4nH4LOF0O1F" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4nH4LOF0O1G" role="icr7_">
                 <property role="ic4Xk" value="Ordering less then 5 positions, additional charges may apply." />
               </node>
@@ -1700,7 +1695,6 @@
         <node concept="mlg3r" id="4nH4LOF0O1L" role="3cqZAp">
           <node concept="lgADV" id="4nH4LOF0O1M" role="mlgNH">
             <node concept="35AVbj" id="4nH4LOF0O1N" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4nH4LOF0O1O" role="icr7_">
                 <property role="ic4Xk" value="Order status is changed to ordered. This is a hint." />
               </node>
@@ -1757,7 +1751,6 @@
             <node concept="mlg3r" id="4nH4LOF0NZg" role="3cqZAp">
               <node concept="lgADV" id="4nH4LOF0NZh" role="mlgNH">
                 <node concept="35AVbj" id="4nH4LOF0NZi" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4nH4LOF0NZj" role="icr7_">
                     <property role="ic4Xk" value="This is just a warning. ComplexCondition is not true." />
                   </node>
@@ -1777,7 +1770,6 @@
               </node>
               <node concept="lgADV" id="4nH4LOF0NZw" role="mlgNH">
                 <node concept="35AVbj" id="4nH4LOF0NZx" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="2OqwBi" id="4nH4LOF0NZy" role="35Gt3$">
                     <node concept="37vLTw" id="4nH4LOF0NZz" role="2Oq$k0">
                       <ref role="3cqZAo" node="4nH4LOF0NZb" resolve="od" />
@@ -1801,7 +1793,6 @@
               </node>
               <node concept="lgADV" id="4nH4LOF0NZI" role="mlgNH">
                 <node concept="35AVbj" id="4nH4LOF0NZJ" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4nH4LOF0NZK" role="icr7_">
                     <property role="ic4Xk" value="This is another error message." />
                   </node>
@@ -1983,7 +1974,6 @@
             <node concept="mlg3r" id="4nH4LOF0O0R" role="3cqZAp">
               <node concept="lgADV" id="4nH4LOF0O0S" role="mlgNH">
                 <node concept="35AVbj" id="4nH4LOF0O0T" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4nH4LOF0O0U" role="icr7_">
                     <property role="ic4Xk" value="Problem 1 from helper Method" />
                   </node>
@@ -2002,7 +1992,6 @@
             <node concept="mlg3r" id="4nH4LOF0O1b" role="3cqZAp">
               <node concept="lgADV" id="4nH4LOF0O1c" role="mlgNH">
                 <node concept="35AVbj" id="4nH4LOF0O1d" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4nH4LOF0O1e" role="icr7_">
                     <property role="ic4Xk" value="Problem 2 from helper Method" />
                   </node>

@@ -172,18 +172,12 @@
         <reference id="8554054623635738995" name="label" index="2DFCCC" />
         <child id="1881524139085091981" name="function" index="10ot2L" />
       </concept>
-      <concept id="1881524139085549729" name="org.modellwerkstatt.objectflow.structure.FlagCommand" flags="ng" index="10Adit">
-        <child id="1881524139085549730" name="msgExpression" index="10Adiu" />
-        <child id="1881524139085549731" name="conditionExpression" index="10Adiv" />
-      </concept>
       <concept id="1881524139085552758" name="org.modellwerkstatt.objectflow.structure.PageCommand" flags="ng" index="10Adxa">
         <reference id="1881524139085552759" name="page" index="10Adxb" />
         <child id="2989872035376923994" name="flagMessage" index="1pYyQs" />
       </concept>
-      <concept id="1881524139085552749" name="org.modellwerkstatt.objectflow.structure.CancelCommand" flags="ng" index="10Adxh" />
       <concept id="1881524139085552751" name="org.modellwerkstatt.objectflow.structure.DoneCommand" flags="ng" index="10Adxj" />
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
-        <property id="3585259589779248406" name="formatString" index="35AVef" />
         <child id="4986415014450757612" name="formatString" index="icr7_" />
         <child id="3585259589780682365" name="arguments" index="35Gt3$" />
       </concept>
@@ -201,7 +195,7 @@
         <child id="7192042020164579739" name="commandInit" index="3umfm7" />
       </concept>
       <concept id="7192042020163999174" name="org.modellwerkstatt.objectflow.structure.PageCrtl" flags="ng" index="3ugp7q">
-        <reference id="4152417163565704942" name="boundClass" index="3gcvY6" />
+        <reference id="4152417163565704942" name="boundObject" index="3gcvY6" />
         <child id="3887124829264538806" name="pagePaneActionProviderLink" index="3063Jp" />
         <child id="1881524139084590837" name="conclusion" index="10qiF9" />
         <child id="1881524139084590808" name="pageInit" index="10qiF$" />
@@ -356,27 +350,6 @@
         <ref role="2DFCCC" to="7kfk:7agSOE7KglE" resolve="Ok" />
         <node concept="20qIzx" id="7agSOE7Kgn_" role="10ot2L">
           <node concept="3clFbS" id="7agSOE7KgnA" role="2VODD2">
-            <node concept="10Adxh" id="6mpCyrQU3Up" role="3cqZAp">
-              <node concept="Xl_RD" id="5O582uf7YoN" role="10Adiu">
-                <property role="Xl_RC" value="Case10: GE cancelpage" />
-              </node>
-              <node concept="2OqwBi" id="5O582uf7Ym2" role="10Adiv">
-                <node concept="2OqwBi" id="5O582uf7Ym3" role="2Oq$k0">
-                  <node concept="3urNQE" id="13qccrSjQmE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="13qccrSjQmC" resolve="docprocParam" />
-                  </node>
-                  <node concept="2S8uIT" id="5O582uf7Ym5" role="2OqNvi">
-                    <ref role="2S8YL0" to="t63u:51llZt4WhQm" resolve="remark" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="5O582uf7Ym6" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
-                  <node concept="Xl_RD" id="5O582uf7Ym7" role="37wK5m">
-                    <property role="Xl_RC" value="Case10:" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="6mpCyrQU4qA" role="3cqZAp" />
             <node concept="mlg3r" id="7VbqtSRl6Sn" role="3cqZAp">
               <node concept="3fqX7Q" id="5Lf9QwIZnk_" role="mlgNJ">
@@ -456,7 +429,6 @@
               </node>
               <node concept="lgADV" id="6mpCyrQUpzj" role="mlgNH">
                 <node concept="35AVbj" id="6mpCyrQUpzk" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAyr" role="icr7_">
                     <property role="ic4Xk" value="Case17 conc check" />
                   </node>
@@ -480,7 +452,6 @@
               </node>
               <node concept="lgADV" id="4DaB5G9rPNr" role="lgycv">
                 <node concept="35AVbj" id="4DaB5G9rPNs" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAzc" role="icr7_">
                     <property role="ic4Xk" value="Case23 guard" />
                   </node>
@@ -491,7 +462,6 @@
             <node concept="lgBBG" id="4DaB5G9Jluu" role="3cqZAp">
               <node concept="lgADV" id="4DaB5G9Jluv" role="lgycv">
                 <node concept="35AVbj" id="4DaB5G9Jluw" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAyz" role="icr7_">
                     <property role="ic4Xk" value="Case28 guard" />
                   </node>
@@ -529,7 +499,6 @@
               </node>
               <node concept="lgADV" id="5LHzrvqWxyN" role="mlgNH">
                 <node concept="35AVbj" id="5LHzrvqWxyO" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAyp" role="icr7_">
                     <property role="ic4Xk" value="Case33: ge conc check" />
                   </node>
@@ -553,7 +522,6 @@
               </node>
               <node concept="lgADV" id="5LHzrvr2Cer" role="mlgNH">
                 <node concept="35AVbj" id="5LHzrvr2Ces" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAzr" role="icr7_">
                     <property role="ic4Xk" value="Case33: ge conc check" />
                   </node>
@@ -577,7 +545,6 @@
               </node>
               <node concept="lgADV" id="5LHzrvr2Esn" role="lgycv">
                 <node concept="35AVbj" id="5LHzrvr2Eso" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAyE" role="icr7_">
                     <property role="ic4Xk" value="Case38: multiexec ge conc guard!" />
                   </node>
@@ -706,7 +673,6 @@
           </node>
           <node concept="lgADV" id="6mpCyrQUq8$" role="mlgNH">
             <node concept="35AVbj" id="6mpCyrQUq8_" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAzi" role="icr7_">
                 <property role="ic4Xk" value="Case 16 init check" />
               </node>
@@ -731,7 +697,6 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rPDN" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rPDO" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAzs" role="icr7_">
                 <property role="ic4Xk" value="Case22 guard" />
               </node>
@@ -742,7 +707,6 @@
         <node concept="lgBBG" id="4DaB5G9Jlfd" role="3cqZAp">
           <node concept="lgADV" id="4DaB5G9Jlfe" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9Jlff" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAym" role="icr7_">
                 <property role="ic4Xk" value="Case 27 guard" />
               </node>
@@ -779,7 +743,6 @@
           </node>
           <node concept="lgADV" id="5LHzrvqWxQc" role="mlgNH">
             <node concept="35AVbj" id="5LHzrvqWxQd" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAze" role="icr7_">
                 <property role="ic4Xk" value="Case32: ge init check" />
               </node>
@@ -843,7 +806,6 @@
           </node>
           <node concept="lgADV" id="6mpCyrQUqoe" role="mlgNH">
             <node concept="35AVbj" id="6mpCyrQUqof" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAyM" role="icr7_">
                 <property role="ic4Xk" value="Case 18 final check" />
               </node>
@@ -867,7 +829,6 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rQ0O" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rQ0P" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAy$" role="icr7_">
                 <property role="ic4Xk" value="Case24 guard" />
               </node>
@@ -930,27 +891,6 @@
         <ref role="2DFCCC" to="7kfk:7agSOE7AYh6" resolve="SaveNClose" />
         <node concept="20qIzx" id="7agSOE7AYi3" role="10ot2L">
           <node concept="3clFbS" id="7agSOE7AYi4" role="2VODD2">
-            <node concept="10Adxh" id="6mpCyrQU3bc" role="3cqZAp">
-              <node concept="Xl_RD" id="1w1DleJREBM" role="10Adiu">
-                <property role="Xl_RC" value="Case3 cancel" />
-              </node>
-              <node concept="2OqwBi" id="1w1DleJREGO" role="10Adiv">
-                <node concept="2OqwBi" id="1w1DleJRED_" role="2Oq$k0">
-                  <node concept="3urNQE" id="13qccrSjQn3" role="2Oq$k0">
-                    <ref role="3cqZAo" node="13qccrSjQn1" resolve="docprocParam" />
-                  </node>
-                  <node concept="2S8uIT" id="1w1DleJREEJ" role="2OqNvi">
-                    <ref role="2S8YL0" to="t63u:51llZt4WhQm" resolve="remark" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="1w1DleJREKG" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
-                  <node concept="Xl_RD" id="1w1DleJRELo" role="37wK5m">
-                    <property role="Xl_RC" value="Case3:" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="mlg3r" id="7VbqtSRl6QT" role="3cqZAp">
               <node concept="3fqX7Q" id="5Lf9QwIZmym" role="mlgNJ">
                 <node concept="2OqwBi" id="5Lf9QwIZmyo" role="3fr31v">
@@ -1023,7 +963,6 @@
               </node>
               <node concept="lgADV" id="4DaB5G9rP0t" role="lgycv">
                 <node concept="35AVbj" id="4DaB5G9rP0u" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAys" role="icr7_">
                     <property role="ic4Xk" value="Case20 guard" />
                   </node>
@@ -1093,7 +1032,6 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rOLf" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rOLg" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAyq" role="icr7_">
                 <property role="ic4Xk" value="Case19 guard" />
               </node>
@@ -1104,7 +1042,6 @@
         <node concept="lgBBG" id="4DaB5G9JkQa" role="3cqZAp">
           <node concept="lgADV" id="4DaB5G9JkQb" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9JkQc" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAyQ" role="icr7_">
                 <property role="ic4Xk" value="Case 26 guard" />
               </node>
@@ -1206,7 +1143,6 @@
           </node>
           <node concept="lgADV" id="4DaB5G9rPci" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9rPcj" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAyv" role="icr7_">
                 <property role="ic4Xk" value="Case21 guard" />
               </node>
@@ -2634,7 +2570,6 @@
         <node concept="lgBBG" id="4DaB5G9Jkh0" role="3cqZAp">
           <node concept="lgADV" id="4DaB5G9Jkh3" role="lgycv">
             <node concept="35AVbj" id="4DaB5G9Jkh4" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAzo" role="icr7_">
                 <property role="ic4Xk" value="Case 25 guard" />
               </node>
@@ -2709,7 +2644,6 @@
                   </node>
                   <node concept="lgADV" id="4DaB5G9q81Q" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9q81R" role="lgxf9">
-                      <property role="35AVef" value="" />
                       <node concept="ic4WF" id="4kNjw_ozAyD" role="icr7_">
                         <property role="ic4Xk" value="Check 1 not succcessfull." />
                       </node>
@@ -2719,7 +2653,6 @@
                 <node concept="mlg3r" id="4DaB5G9q8kt" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9q8kz" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9q8k$" role="lgxf9">
-                      <property role="35AVef" value="" />
                       <node concept="ic4WF" id="4kNjw_ozAyA" role="icr7_">
                         <property role="ic4Xk" value="This is the second check here.  " />
                       </node>
@@ -2737,7 +2670,6 @@
                 <node concept="mlg3r" id="4DaB5G9qo$D" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9qo$E" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9qo$F" role="lgxf9">
-                      <property role="35AVef" value="" />
                       <node concept="ic4WF" id="4kNjw_ozAyJ" role="icr7_">
                         <property role="ic4Xk" value="Third check goes here." />
                       </node>
@@ -2755,7 +2687,6 @@
                 <node concept="mlg3r" id="4DaB5G9qoCE" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9qoCF" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9qoCG" role="lgxf9">
-                      <property role="35AVef" value="" />
                       <node concept="ic4WF" id="4kNjw_ozAyt" role="icr7_">
                         <property role="ic4Xk" value="And anotherone here" />
                       </node>
@@ -2773,7 +2704,6 @@
                 <node concept="mlg3r" id="4DaB5G9qoIv" role="3cqZAp">
                   <node concept="lgADV" id="4DaB5G9qoIw" role="mlgNH">
                     <node concept="35AVbj" id="4DaB5G9qoIx" role="lgxf9">
-                      <property role="35AVef" value="" />
                       <node concept="ic4WF" id="4kNjw_ozAyf" role="icr7_">
                         <property role="ic4Xk" value="Last check for this conclusion." />
                       </node>
@@ -2897,7 +2827,6 @@
             </node>
             <node concept="lgADV" id="18Et36znzoK" role="mlgNH">
               <node concept="35AVbj" id="18Et36znzoL" role="lgxf9">
-                <property role="35AVef" value="" />
                 <node concept="3urNR4" id="18Et36znzPY" role="35Gt3$">
                   <ref role="3cqZAo" node="18Et36znzh9" resolve="cnt" />
                 </node>
@@ -2921,7 +2850,6 @@
         <ref role="3063JT" node="7agSOE7Kg4f" resolve="MainDocPP" />
       </node>
       <node concept="35AVbj" id="18Et36znzHy" role="1K0AWC">
-        <property role="35AVef" value="" />
         <node concept="3urNR4" id="18Et36znzIN" role="35Gt3$">
           <ref role="3cqZAo" node="18Et36znzh9" resolve="cnt" />
         </node>
@@ -2980,7 +2908,6 @@
           </node>
           <node concept="lgADV" id="5LHzrvqWwV5" role="mlgNH">
             <node concept="35AVbj" id="5LHzrvqWwV6" role="lgxf9">
-              <property role="35AVef" value="" />
               <node concept="ic4WF" id="4kNjw_ozAzt" role="icr7_">
                 <property role="ic4Xk" value="Case30: Go init check" />
               </node>
@@ -3013,7 +2940,6 @@
               </node>
               <node concept="lgADV" id="5LHzrvqWx2h" role="mlgNH">
                 <node concept="35AVbj" id="5LHzrvqWx2i" role="lgxf9">
-                  <property role="35AVef" value="" />
                   <node concept="ic4WF" id="4kNjw_ozAyZ" role="icr7_">
                     <property role="ic4Xk" value="Case31: go conc check" />
                   </node>

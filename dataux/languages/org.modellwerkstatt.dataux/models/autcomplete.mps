@@ -3008,13 +3008,8 @@
                     <ref role="3cqZAo" node="2wjP6CcVBeu" resolve="srv" />
                   </node>
                   <node concept="3cpWs3" id="KI7S7jvC1S" role="37wK5m">
-                    <node concept="2OqwBi" id="KI7S7jvCFF" role="3uHU7w">
-                      <node concept="37vLTw" id="KI7S7jvClG" role="2Oq$k0">
-                        <ref role="3cqZAo" node="KI7S7jvbJg" resolve="elem" />
-                      </node>
-                      <node concept="3TrcHB" id="KI7S7jvDjz" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
+                    <node concept="37vLTw" id="KI7S7jvClG" role="3uHU7w">
+                      <ref role="3cqZAo" node="KI7S7jvbJg" resolve="elem" />
                     </node>
                     <node concept="Xl_RD" id="KI7S7jvAV2" role="3uHU7B">
                       <property role="Xl_RC" value="set" />
