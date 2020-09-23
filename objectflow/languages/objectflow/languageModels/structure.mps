@@ -1667,6 +1667,7 @@
     <node concept="PrWs8" id="4Wj1gYKG8pQ" role="PzmwI">
       <ref role="PrY4T" node="2jXWHXa_nYK" resolve="IO2RTComponent" />
     </node>
+    <node concept="asaX9" id="_iQ0iLM8Do" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3mhGZDXGFTI">
     <property role="3GE5qa" value="Builder" />
@@ -1723,6 +1724,7 @@
     <node concept="PrWs8" id="4Wj1gYKG8nS" role="PzmwI">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
     </node>
+    <node concept="asaX9" id="_iQ0iLM8Dq" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3UOln1HfBcK">
     <property role="3GE5qa" value="Permission" />
@@ -2289,12 +2291,6 @@
     <property role="34LRSv" value="Simple Test" />
     <property role="R4oN_" value="with session handling" />
     <ref role="1TJDcQ" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
-    <node concept="1TJgyj" id="61VVfi2MoK2" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..n" />
-      <property role="20kJfa" value="dependentMethods" />
-      <ref role="20lvS9" node="61VVfi2SpDA" resolve="OFXTestMethodCall" />
-    </node>
     <node concept="PrWs8" id="3n7eUMgpGRH" role="PzmwI">
       <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
@@ -2306,44 +2302,6 @@
     </node>
     <node concept="PrWs8" id="2m3V4yOwXPK" role="PzmwI">
       <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="61VVfi2SpDA">
-    <property role="1pbfSe" value="480409766" />
-    <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="OFXTestMethodCall" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="61VVfi2SpNo" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="testMethod" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
-      <ref role="20ksaX" to="tpee:fz7wK6H" />
-    </node>
-    <node concept="PrWs8" id="61VVfi2SqlN" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hxndl_i" resolve="IMethodCall" />
-    </node>
-    <node concept="PrWs8" id="7J0ixfcUnwm" role="PzmwI">
-      <ref role="PrY4T" node="3LVh91x9Ida" resolve="IOFXTestMethodVarDecl" />
-    </node>
-    <node concept="PrWs8" id="61VVfi36Gko" role="PzmwI">
-      <ref role="PrY4T" to="tpee:2P5W1FWMUys" resolve="ILocalDeclaration" />
-    </node>
-    <node concept="PrWs8" id="61VVfi3euEH" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="61VVfi3awTR">
-    <property role="1pbfSe" value="475661461" />
-    <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="OFXTestMethocCallVarRef" />
-    <property role="MwhBj" value="${module}/icons/testmethodref.png" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="61VVfi3awVc" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="varReference" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3LVh91x9Ida" resolve="IOFXTestMethodVarDecl" />
     </node>
   </node>
   <node concept="1TIwiD" id="2w93nZwA5N_">
@@ -2448,19 +2406,8 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ffh1MXzHna" resolve="Command" />
     </node>
-    <node concept="PrWs8" id="33fNNpedouH" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
     <node concept="PrWs8" id="2i1R3ftT_2A" role="PzmwI">
       <ref role="PrY4T" node="2i1R3ftT$uv" resolve="IOFXParameterized" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3LVh91x9Ida">
-    <property role="1pbfSe" value="1650317350" />
-    <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="IOFXTestMethodVarDecl" />
-    <node concept="PrWs8" id="7J0ixfd2RyL" role="PrDN$">
-      <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="72pStkQaFl2">
@@ -2487,43 +2434,10 @@
       <node concept="trNpa" id="72pStkQEFE5" role="EQaZv">
         <ref role="trN6q" to="tpee:fzclF8l" resolve="Statement" />
       </node>
-      <node concept="trNpa" id="7cOyB3Yqc0q" role="EQaZv">
-        <ref role="trN6q" node="61VVfi2SpDA" resolve="OFXTestMethodCall" />
-      </node>
       <node concept="tn0Fv" id="72pStkQaH4p" role="HhnKV">
         <property role="tnX3d" value="false" />
       </node>
     </node>
-  </node>
-  <node concept="1TIwiD" id="6WBZVtQO2TS">
-    <property role="1pbfSe" value="436720081" />
-    <property role="3GE5qa" value="OFXTest.statements" />
-    <property role="TrG5h" value="OFXTestCompareStatement" />
-    <property role="34LRSv" value="compare" />
-    <property role="R4oN_" value="compare / store graphs" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="6WBZVtQO3Hv" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="7mZ5ilqQ0L$" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="pathRef" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7mZ5ilqQ0De" resolve="OFXTestPathReference" />
-    </node>
-    <node concept="1TJgyj" id="70qPrkCWMKd" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="options" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
-    </node>
-    <node concept="PrWs8" id="6WBZVtR0LH0" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
-    </node>
-    <node concept="asaX9" id="$leETUGv77" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6WBZVtQRBVm">
     <property role="1pbfSe" value="435782003" />
@@ -2541,6 +2455,7 @@
     <node concept="PrWs8" id="6WBZVtQRBVo" role="PzmwI">
       <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
     </node>
+    <node concept="asaX9" id="_iQ0iLM8Db" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="26x4y$0krvH">
     <property role="1pbfSe" value="569559574" />
@@ -2647,33 +2562,6 @@
       <property role="20kJfa" value="path" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7mZ5ilqH2PR" resolve="OFXTestPathOption" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="70qPrkCWMK0">
-    <property role="1pbfSe" value="1727135307" />
-    <property role="3GE5qa" value="OFXTest.statements" />
-    <property role="TrG5h" value="OFXTestCompareOptionIgnoreKeys" />
-    <property role="34LRSv" value="IGNORE_KEYS" />
-    <property role="R4oN_" value="when comparing graphs" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="70qPrkD6HgY" role="PzmwI">
-      <ref role="PrY4T" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="70qPrkD166$">
-    <property role="1pbfSe" value="1726007463" />
-    <property role="3GE5qa" value="OFXTest.statements" />
-    <property role="TrG5h" value="IOFXTestCompareOption" />
-  </node>
-  <node concept="1TIwiD" id="70qPrkD166I">
-    <property role="1pbfSe" value="1726007453" />
-    <property role="3GE5qa" value="OFXTest.statements" />
-    <property role="TrG5h" value="OFXTestCompareOptionIgnoreDirty" />
-    <property role="34LRSv" value="IGNORE_DIRTY" />
-    <property role="R4oN_" value="when comparing graphs" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="70qPrkD6Hh0" role="PzmwI">
-      <ref role="PrY4T" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
     </node>
   </node>
   <node concept="1TIwiD" id="7cOyB3YfVuh">
@@ -3329,6 +3217,7 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" to="tpee:g7uibYu" resolve="ClassifierType" />
     </node>
+    <node concept="asaX9" id="_iQ0iLM8Dd" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1fYc781EAsq">
     <property role="1pbfSe" value="363370380" />
@@ -3588,20 +3477,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20ksaX" to="tpee:fz7wK6H" />
       <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5yIRyBH8t_e">
-    <property role="1pbfSe" value="1171306359" />
-    <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="OFXTestMethodParamRef" />
-    <property role="MwhBj" value="${module}/icons/testparam.png" />
-    <ref role="1TJDcQ" to="tpee:fz7vLUo" resolve="VariableReference" />
-    <node concept="1TJgyj" id="5yIRyBH8tCE" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="varDeclaration" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz7vLUk" resolve="ParameterDeclaration" />
-      <ref role="20ksaX" to="tpee:fzcqZ_w" />
     </node>
   </node>
   <node concept="AxPO7" id="6OEsYvXyCG6">
@@ -3934,17 +3809,6 @@
     </node>
     <node concept="PrWs8" id="59aH4f6dmSn" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="1nLGXVrWsoS">
-    <property role="1pbfSe" value="236750314" />
-    <property role="3GE5qa" value="OFXTest.statements" />
-    <property role="TrG5h" value="OFXTestCompareOptionIgnoreNewInSession" />
-    <property role="34LRSv" value="IGNORE_NEW_IN_SESSION" />
-    <property role="R4oN_" value="when comparing graphs" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1nLGXVrWsoT" role="PzmwI">
-      <ref role="PrY4T" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
     </node>
   </node>
   <node concept="1TIwiD" id="35a9wK7WMy0">
