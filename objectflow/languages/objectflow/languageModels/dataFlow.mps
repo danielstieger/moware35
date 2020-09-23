@@ -629,22 +629,6 @@
       </node>
     </node>
   </node>
-  <node concept="3_zdsH" id="6N4Z84dEQDv">
-    <property role="3GE5qa" value="Status" />
-    <ref role="3_znuS" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
-    <node concept="3__wT9" id="6N4Z84dEQDw" role="3_A6iZ">
-      <node concept="3clFbS" id="6N4Z84dEQDx" role="2VODD2">
-        <node concept="3AgYrR" id="6N4Z84dEQDG" role="3cqZAp">
-          <node concept="2OqwBi" id="6N4Z84dEQGa" role="3Ah4Yx">
-            <node concept="3__QtB" id="6N4Z84dEQDX" role="2Oq$k0" />
-            <node concept="3TrEf2" id="6N4Z84dEQLo" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:3bYrH4MI38d" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="3_zdsH" id="1jYXPQ7ylb6">
     <property role="3GE5qa" value="OFXTest" />
     <ref role="3_znuS" to="un0u:1jYXPQ7xYqG" resolve="OFXTestMethodCallExp" />
