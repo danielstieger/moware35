@@ -572,6 +572,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -4393,6 +4394,7 @@
   </node>
   <node concept="312cEu" id="5Ee0EjqZ_jz">
     <property role="TrG5h" value="map_Command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <node concept="3Tm1VV" id="5Ee0EjqZ_j$" role="1B3o_S" />
     <node concept="n94m4" id="5Ee0EjqZ_jD" role="lGtFl">
       <ref role="n9lRv" to="un0u:6ffh1MXzHna" resolve="Command" />
@@ -11862,6 +11864,7 @@
   </node>
   <node concept="13MO4I" id="4wvbHtt72fg">
     <property role="TrG5h" value="reduce_SessionOperation" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <ref role="3gUMe" to="un0u:4wvbHtt4g$4" resolve="SessionOperation" />
     <node concept="312cEu" id="4wvbHtt72fj" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -12440,6 +12443,7 @@
   </node>
   <node concept="13MO4I" id="x0kurEkwiA">
     <property role="TrG5h" value="reduce_Session" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <ref role="3gUMe" to="un0u:x0kurEidQ2" resolve="Session" />
     <node concept="312cEu" id="x0kurEkwiE" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -16061,6 +16065,7 @@
   </node>
   <node concept="312cEu" id="7ECLRBgCPmV">
     <property role="TrG5h" value="map_OFXTestSuit" />
+    <property role="3GE5qa" value="Test" />
     <node concept="3Tm1VV" id="7ECLRBgCPmW" role="1B3o_S" />
     <node concept="n94m4" id="7ECLRBgCPmX" role="lGtFl">
       <ref role="n9lRv" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
@@ -18226,6 +18231,7 @@
   </node>
   <node concept="13MO4I" id="2KwTCJyzyGl">
     <property role="TrG5h" value="call_SetDateTimeOption" />
+    <property role="3GE5qa" value="Test.options" />
     <ref role="3gUMe" to="un0u:26x4y$0krvH" resolve="OFXTestSuitDefaultDateTimeOption" />
     <node concept="312cEu" id="2KwTCJyzyGn" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -18372,6 +18378,7 @@
   </node>
   <node concept="312cEu" id="7MWNCzXOxmx">
     <property role="TrG5h" value="map_Platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <node concept="2tJIrI" id="6BKPvpCRiR2" role="jymVt" />
     <node concept="312cEg" id="2SRXiX_MwA_" role="jymVt">
       <property role="TrG5h" value="platformName" />
@@ -19199,6 +19206,7 @@
   </node>
   <node concept="13MO4I" id="65g7rxkv7rG">
     <property role="TrG5h" value="reduce_OFXRunCmd" />
+    <property role="3GE5qa" value="ProdCons" />
     <ref role="3gUMe" to="un0u:7TJOmj72Lm4" resolve="OFXRunCmd" />
     <node concept="312cEu" id="65g7rxkv7rH" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -21156,6 +21164,7 @@
   </node>
   <node concept="13MO4I" id="65g7rxkz8ZX">
     <property role="TrG5h" value="reduce_OFXRunCmdPage" />
+    <property role="3GE5qa" value="ProdCons" />
     <ref role="3gUMe" to="un0u:3U0QWztHgKC" resolve="OFXRunCmdPage" />
     <node concept="312cEu" id="65g7rxkz_df" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -24435,6 +24444,7 @@
   </node>
   <node concept="13MO4I" id="2_3xZAkXLe3">
     <property role="TrG5h" value="map_Precondition" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <ref role="3gUMe" to="un0u:51llZt605sG" resolve="Precondition" />
     <node concept="312cEu" id="2_3xZAkXRrA" role="13RCb5">
       <property role="2bfB8j" value="true" />

@@ -253,7 +253,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="Kou8LeiGoP">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <ref role="3_znuS" to="un0u:4wvbHtt4g$4" resolve="SessionOperation" />
     <node concept="3__wT9" id="Kou8LeiGoQ" role="3_A6iZ">
       <node concept="3clFbS" id="Kou8LeiGoR" role="2VODD2">
@@ -386,7 +386,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="2zj0tMVaJrr">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <ref role="3_znuS" to="un0u:1Csx3Lqx5LJ" resolve="DoneCommand" />
     <node concept="3__wT9" id="2zj0tMVaJrs" role="3_A6iZ">
       <node concept="3clFbS" id="2zj0tMVaJrt" role="2VODD2">
@@ -395,7 +395,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="2zj0tMVckUz">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <ref role="3_znuS" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
     <node concept="3__wT9" id="2zj0tMVckU$" role="3_A6iZ">
       <node concept="3clFbS" id="2zj0tMVckU_" role="2VODD2">
@@ -444,7 +444,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="5buytp$nSHF">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <ref role="3_znuS" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
     <node concept="3__wT9" id="5buytp$nSHG" role="3_A6iZ">
       <node concept="3clFbS" id="5buytp$nSHH" role="2VODD2">
@@ -460,7 +460,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="5buytp$obSB">
-    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="3GE5qa" value="Test.statements" />
     <ref role="3_znuS" to="un0u:2w93nZwA5N_" resolve="OFXTestPrintStatement" />
     <node concept="3__wT9" id="5buytp$obSC" role="3_A6iZ">
       <node concept="3clFbS" id="5buytp$obSD" role="2VODD2">
@@ -477,7 +477,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="70qPrkCyiGK">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <ref role="3_znuS" to="un0u:7mZ5ilqQ0De" resolve="OFXTestPathReference" />
     <node concept="3__wT9" id="70qPrkCyiGL" role="3_A6iZ">
       <node concept="3clFbS" id="70qPrkCyiGM" role="2VODD2">
@@ -527,7 +527,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="1jYXPQ7ylb6">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <ref role="3_znuS" to="un0u:1jYXPQ7xYqG" resolve="OFXTestMethodCallExp" />
     <node concept="3__wT9" id="1jYXPQ7ylb7" role="3_A6iZ">
       <node concept="3clFbS" id="1jYXPQ7ylb8" role="2VODD2">
@@ -556,7 +556,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="6BG_0EbPKiU">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <ref role="3_znuS" to="un0u:7TJOmj72Lm4" resolve="OFXRunCmd" />
     <node concept="3__wT9" id="6BG_0EbPKiV" role="3_A6iZ">
       <node concept="3clFbS" id="6BG_0EbPKiW" role="2VODD2">
@@ -666,7 +666,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="6BG_0EbPMci">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <ref role="3_znuS" to="un0u:3U0QWztHgKC" resolve="OFXRunCmdPage" />
     <node concept="3__wT9" id="6BG_0EbPMcj" role="3_A6iZ">
       <node concept="3clFbS" id="6BG_0EbPMck" role="2VODD2">
@@ -685,7 +685,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="3U0QWztOsdy">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <ref role="3_znuS" to="un0u:3U0QWztOqU0" resolve="OFXRunCmdVarRef" />
     <node concept="3__wT9" id="3U0QWztOsdz" role="3_A6iZ">
       <node concept="3clFbS" id="3U0QWztOsd$" role="2VODD2">
@@ -767,7 +767,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="51llZt55O4O">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <ref role="3_znuS" to="un0u:51llZt55MSr" resolve="Guard" />
     <node concept="3__wT9" id="51llZt55O4P" role="3_A6iZ">
       <node concept="3clFbS" id="51llZt55O4Q" role="2VODD2">
@@ -813,7 +813,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="51llZt5mDIe">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <ref role="3_znuS" to="un0u:51llZt55NQc" resolve="ProblemMessage" />
     <node concept="3__wT9" id="51llZt5mDIf" role="3_A6iZ">
       <node concept="3clFbS" id="51llZt5mDIg" role="2VODD2">
@@ -837,7 +837,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="51llZt606eC">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <ref role="3_znuS" to="un0u:51llZt605sG" resolve="Precondition" />
     <node concept="3__wT9" id="51llZt606eD" role="3_A6iZ">
       <node concept="3clFbS" id="51llZt606eE" role="2VODD2">
@@ -913,7 +913,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="5G28P6Ha0xR">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <ref role="3_znuS" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
     <node concept="3__wT9" id="5G28P6Ha0xS" role="3_A6iZ">
       <node concept="3clFbS" id="5G28P6Ha0xT" role="2VODD2">
@@ -954,7 +954,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="1X3c4oMMY7m">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <ref role="3_znuS" to="un0u:1X3c4oMMVGE" resolve="ValidationStatement" />
     <node concept="3__wT9" id="1X3c4oMMY7n" role="3_A6iZ">
       <node concept="3clFbS" id="1X3c4oMMY7o" role="2VODD2">

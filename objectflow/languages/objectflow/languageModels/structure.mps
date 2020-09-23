@@ -589,7 +589,7 @@
   </node>
   <node concept="1TIwiD" id="6ffh1MXzHn6">
     <property role="TrG5h" value="PageCrtl" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="1pbfSe" value="559815138" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7j1iBG4KMlj" role="1TKVEi">
@@ -636,7 +636,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6ffh1MXzHna">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="Command" />
     <property role="MwhBj" value="${module}/icons/command.png" />
     <property role="19KtqR" value="true" />
@@ -880,7 +880,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1Csx3LqtqVF">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageConclusion" />
     <property role="1pbfSe" value="1955738407" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -913,7 +913,7 @@
     </node>
   </node>
   <node concept="AxPO7" id="1Csx3LqwlRj">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="ConclusionType" />
     <property role="PDuV0" value="false" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
@@ -937,7 +937,7 @@
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
   </node>
   <node concept="1TIwiD" id="1Csx3Lqx5LJ">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="DoneCommand" />
     <property role="34LRSv" value="done" />
     <property role="R4oN_" value="end command" />
@@ -945,7 +945,7 @@
     <ref role="1TJDcQ" node="1Csx3Lqx523" resolve="CommandCrtlStatement" />
   </node>
   <node concept="1TIwiD" id="1Csx3Lqx5LQ">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageCommand" />
     <property role="34LRSv" value="page" />
     <property role="1pbfSe" value="1956700338" />
@@ -963,7 +963,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5Ee0EjqTaDb">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageInitConceptFunc" />
     <property role="R4oN_" value="page initialization" />
     <property role="34LRSv" value="pageLoadFunc" />
@@ -971,7 +971,7 @@
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="5Ee0EjqTeD5">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="CommandVoidStatementList" />
     <property role="R4oN_" value="some statements" />
     <property role="34LRSv" value="func" />
@@ -1006,7 +1006,7 @@
     </node>
   </node>
   <node concept="AxPO7" id="4XO07uzJ7WR">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="CommandHotKeys" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="4XO07uzJ8bD" role="M5hS2">
@@ -1039,7 +1039,7 @@
     </node>
   </node>
   <node concept="AxPO7" id="OmBzHGj4UR">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="CommandType" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <ref role="Qgau1" node="OmBzHGj4UT" />
@@ -1073,7 +1073,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="4wvbHtt4g$4">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <property role="TrG5h" value="SessionOperation" />
     <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
     <property role="34LRSv" value="sessionOperationAdd" />
@@ -1133,7 +1133,7 @@
   </node>
   <node concept="AxPO7" id="6RQ_77qtOVD">
     <property role="TrG5h" value="ModelRepositoryMethodType" />
-    <property role="3GE5qa" value="OFXCore.repository" />
+    <property role="3GE5qa" value="Repository" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6RQ_77qtOVE" role="M5hS2">
       <property role="1uS6qv" value="READONLY" />
@@ -1153,7 +1153,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6W_Qo9f2MnB">
-    <property role="3GE5qa" value="OFXCore.repository" />
+    <property role="3GE5qa" value="Repository" />
     <property role="TrG5h" value="ModelRepository" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/modelrepo.png" />
@@ -1182,7 +1182,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6W_Qo9f2MnC">
-    <property role="3GE5qa" value="OFXCore.repository" />
+    <property role="3GE5qa" value="Repository" />
     <property role="TrG5h" value="ModelRepositoryMethod" />
     <property role="1pbfSe" value="1104085142" />
     <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
@@ -1217,12 +1217,12 @@
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
   </node>
   <node concept="PlHQZ" id="4H7K4Wq6tCQ">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <property role="TrG5h" value="IHandlesSession" />
     <property role="1pbfSe" value="1700895365" />
   </node>
   <node concept="1TIwiD" id="x0kurEidQ2">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <property role="TrG5h" value="Session" />
     <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
     <property role="R4oN_" value="access current session" />
@@ -1306,7 +1306,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3IZo6UBEPZ7">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="ReferenceScopeConceptFunc" />
     <property role="R4oN_" value="calculate reference scope" />
     <property role="34LRSv" value="refScopeFunc" />
@@ -1329,7 +1329,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1Clc7wPShHo">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageScopeConceptFunc" />
     <property role="34LRSv" value="pageSetScopesFunc" />
     <property role="R4oN_" value="set scopes for this page" />
@@ -1630,7 +1630,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5WxVUBAMhc0">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <property role="TrG5h" value="CheckedOutEntities" />
     <property role="34LRSv" value="sessionCheckedOut" />
     <property role="R4oN_" value="entities checked out in session" />
@@ -1901,7 +1901,7 @@
     </node>
   </node>
   <node concept="AxPO7" id="6Rdz00$tuDi">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="O2CommandType" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6Rdz00$tuDo" role="M5hS2">
@@ -1922,7 +1922,7 @@
     </node>
   </node>
   <node concept="PlHQZ" id="6Rdz00$u0vd">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="IRevertableReference" />
     <property role="1pbfSe" value="1840933939" />
   </node>
@@ -1938,7 +1938,7 @@
   </node>
   <node concept="1TIwiD" id="1aaqwMInGiU">
     <property role="1pbfSe" value="1058459962" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXTestSuit" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
@@ -1988,7 +1988,7 @@
   </node>
   <node concept="1TIwiD" id="61VVfi2FlUv">
     <property role="1pbfSe" value="483832941" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXTestMethod" />
     <property role="34LRSv" value="Simple Test" />
     <property role="R4oN_" value="with session handling" />
@@ -2008,7 +2008,7 @@
   </node>
   <node concept="1TIwiD" id="2w93nZwA5N_">
     <property role="1pbfSe" value="144796260" />
-    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="3GE5qa" value="Test.statements" />
     <property role="TrG5h" value="OFXTestPrintStatement" />
     <property role="34LRSv" value="logDebugTest" />
     <property role="R4oN_" value="test debug message" />
@@ -2022,12 +2022,12 @@
   </node>
   <node concept="PlHQZ" id="2w93nZwHmJr">
     <property role="1pbfSe" value="146700634" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="IOFXTestSuitOption" />
   </node>
   <node concept="1TIwiD" id="2w93nZwHmJs">
     <property role="1pbfSe" value="146700635" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="OFXTestSuitDebugOption" />
     <property role="34LRSv" value="DEBUG_TEST" />
     <property role="R4oN_" value="print debug infos for test" />
@@ -2044,7 +2044,7 @@
   </node>
   <node concept="1TIwiD" id="3iT39CYUjR">
     <property role="1pbfSe" value="1775143209" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="OFXTestSuitNoExecOption" />
     <property role="34LRSv" value="DONT_EXEC" />
     <property role="R4oN_" value="do not exec test" />
@@ -2061,7 +2061,7 @@
   </node>
   <node concept="1TIwiD" id="3iT39DbhYV">
     <property role="1pbfSe" value="1778385901" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="OFXTestSuitIncludeSuit" />
     <property role="34LRSv" value="INCLUDE_SUIT" />
     <property role="R4oN_" value="queue onstartup/shutdown and run" />
@@ -2082,12 +2082,12 @@
   </node>
   <node concept="PlHQZ" id="3iT39Dvbl$">
     <property role="1pbfSe" value="1783601558" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="IOFXTestSuitContent" />
   </node>
   <node concept="1TIwiD" id="3n7eUMgsANq">
     <property role="1pbfSe" value="969299834" />
-    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <property role="3GE5qa" value="OFXCore.cmdCall" />
     <property role="TrG5h" value="CommandCallBasis" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3n7eUMgsCiP" role="1TKVEi">
@@ -2108,7 +2108,7 @@
   </node>
   <node concept="1TIwiD" id="72pStkQaFl2">
     <property role="1pbfSe" value="1497065705" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXTestFailInAttribue" />
     <property role="19KtqR" value="false" />
     <property role="34LRSv" value="FAIL IN" />
@@ -2135,27 +2135,9 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="6WBZVtQRBVm">
-    <property role="1pbfSe" value="435782003" />
-    <property role="3GE5qa" value="OFXTest.options" />
-    <property role="TrG5h" value="OFXTestSuitWriteNoCompareOption" />
-    <property role="R4oN_" value="cmp statement writes graph" />
-    <property role="34LRSv" value="WRITE_DONT_COMPARE" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6WBZVtQRBVn" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="test" />
-      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
-    </node>
-    <node concept="PrWs8" id="6WBZVtQRBVo" role="PzmwI">
-      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
-    </node>
-    <node concept="asaX9" id="_iQ0iLM8Db" role="lGtFl" />
-  </node>
   <node concept="1TIwiD" id="26x4y$0krvH">
     <property role="1pbfSe" value="569559574" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="OFXTestSuitDefaultDateTimeOption" />
     <property role="34LRSv" value="DEFAULT_DATETIME" />
     <property role="R4oN_" value="specify default date/time" />
@@ -2190,7 +2172,7 @@
   </node>
   <node concept="1TIwiD" id="2KwTCJxPW$v">
     <property role="1pbfSe" value="234401706" />
-    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="3GE5qa" value="Test.statements" />
     <property role="TrG5h" value="OFXTestRunFileStatement" />
     <property role="34LRSv" value="run file" />
     <property role="R4oN_" value="execute sql file" />
@@ -2204,7 +2186,7 @@
   </node>
   <node concept="1TIwiD" id="2KwTCJyjbv$">
     <property role="1pbfSe" value="242065007" />
-    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="3GE5qa" value="Test.statements" />
     <property role="TrG5h" value="OFXTestNewSessionExpression" />
     <property role="34LRSv" value="new_Session" />
     <property role="R4oN_" value="create new session" />
@@ -2212,7 +2194,7 @@
   </node>
   <node concept="1TIwiD" id="2KwTCJyoIsU">
     <property role="1pbfSe" value="243518917" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="OFXTestDateTimeOption" />
     <property role="34LRSv" value="SET_DATETIME" />
     <property role="R4oN_" value="date/time for specific test" />
@@ -2226,7 +2208,7 @@
   </node>
   <node concept="1TIwiD" id="7mZ5ilqH2PR">
     <property role="1pbfSe" value="797752676" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="OFXTestPathOption" />
     <property role="34LRSv" value="PATH" />
     <property role="R4oN_" value="declare directory" />
@@ -2244,7 +2226,7 @@
   </node>
   <node concept="1TIwiD" id="7mZ5ilqQ0De">
     <property role="1pbfSe" value="795402381" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXTestPathReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="70qPrkCyidI" role="1TKVEi">
@@ -2262,7 +2244,7 @@
   </node>
   <node concept="1TIwiD" id="7cOyB3YfVuh">
     <property role="1pbfSe" value="1903444481" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXVoidStatementList" />
     <property role="34LRSv" value="func" />
     <property role="R4oN_" value="some statement" />
@@ -2296,7 +2278,7 @@
   </node>
   <node concept="1TIwiD" id="3KPvoWv6Cnk">
     <property role="1pbfSe" value="1531970403" />
-    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="3GE5qa" value="Test.options" />
     <property role="TrG5h" value="OFXTestSuitDependentOption" />
     <property role="34LRSv" value="DEPENDENT_TEST" />
     <property role="R4oN_" value="do not exec test" />
@@ -2313,7 +2295,7 @@
   </node>
   <node concept="1TIwiD" id="43H1fr7tveF">
     <property role="1pbfSe" value="140703905" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="CommandCreationInfo" />
     <property role="34LRSv" value="Information" />
     <property role="R4oN_" value="on created entities" />
@@ -2376,7 +2358,7 @@
   </node>
   <node concept="PlHQZ" id="1xbJ1snyL5X">
     <property role="1pbfSe" value="802606484" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="IAction" />
     <node concept="PrWs8" id="1xbJ1snyL5Y" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -2445,7 +2427,7 @@
     </node>
   </node>
   <node concept="AxPO7" id="1hImSMr5NSl">
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="Hotkey" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <ref role="Qgau1" node="1hImSMr5NTE" />
@@ -2799,7 +2781,7 @@
     </node>
   </node>
   <node concept="AxPO7" id="1hImSMr59st">
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="HotkeyModifier" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="1hImSMr59su" role="M5hS2">
@@ -2846,7 +2828,7 @@
   <node concept="1TIwiD" id="1fYc781EAsq">
     <property role="1pbfSe" value="363370380" />
     <property role="TrG5h" value="StaticRessources" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Static Ressources" />
     <property role="MwhBj" value="${module}/icons/staticressources.png" />
@@ -2877,7 +2859,7 @@
   </node>
   <node concept="1TIwiD" id="1fYc781EA$j">
     <property role="1pbfSe" value="363370885" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="Label" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7MWNCzYuiKc" role="PzmwI">
@@ -2892,7 +2874,7 @@
   </node>
   <node concept="1TIwiD" id="2IDWU6Z30fV">
     <property role="1pbfSe" value="357173348" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="Platform" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7MWNCzXOAva" role="PzmwI">
@@ -2904,7 +2886,7 @@
   </node>
   <node concept="1TIwiD" id="2IDWU6Z9eZ_">
     <property role="1pbfSe" value="355540090" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="LabelSpecification" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7qQ6PJuJ7x7" role="1TKVEi">
@@ -2937,7 +2919,7 @@
   </node>
   <node concept="1TIwiD" id="6BKPvpCRx$I">
     <property role="1pbfSe" value="758190300" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="IsPlatform" />
     <property role="34LRSv" value="isPlatform" />
     <property role="R4oN_" value="current setting" />
@@ -2955,12 +2937,12 @@
   </node>
   <node concept="PlHQZ" id="1E9WFYpESfw">
     <property role="1pbfSe" value="1271564641" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="ILabelSpecificationOption" />
   </node>
   <node concept="1TIwiD" id="1E9WFYpESlv">
     <property role="1pbfSe" value="1271564258" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="HideOnDisabledLabelSpacOpt" />
     <property role="34LRSv" value="HIDE" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -2970,12 +2952,12 @@
   </node>
   <node concept="PlHQZ" id="1lwvTLPwTBS">
     <property role="1pbfSe" value="1964762732" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="ISRPlatform" />
   </node>
   <node concept="1TIwiD" id="1lwvTLPwTCs">
     <property role="1pbfSe" value="1964762696" />
-    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="IncludePlatform" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1lwvTLPwTDG" role="1TKVEi">
@@ -2995,7 +2977,7 @@
   </node>
   <node concept="1TIwiD" id="6qsy3WVzeka">
     <property role="1pbfSe" value="1574343351" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="SuccessorCommandCall" />
     <property role="34LRSv" value="followed by" />
     <property role="MwhBj" value="${module}/icons/cmdcrtl.png" />
@@ -3011,7 +2993,7 @@
   </node>
   <node concept="1TIwiD" id="7dYuT2d5JDD">
     <property role="1pbfSe" value="9795065" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageChildTermConceptFunc" />
     <property role="34LRSv" value="pageChildTerminatedFunc" />
     <property role="R4oN_" value="child terminated while in page" />
@@ -3019,7 +3001,7 @@
   </node>
   <node concept="1TIwiD" id="7dYuT2d6irc">
     <property role="1pbfSe" value="9937500" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="TermOkParameter" />
     <property role="34LRSv" value="terminatedInFinalOk" />
     <property role="R4oN_" value="terminated in FINAL_OK" />
@@ -3027,7 +3009,7 @@
   </node>
   <node concept="1TIwiD" id="1dqt$gJ63DE">
     <property role="1pbfSe" value="1114812590" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="VslCancelMsgParam" />
     <property role="34LRSv" value="cancelMsg" />
     <property role="R4oN_" value="cancel message describing reason" />
@@ -3039,7 +3021,7 @@
   </node>
   <node concept="1TIwiD" id="1dqt$gJ63Lh">
     <property role="1pbfSe" value="1114813077" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="VslCancelExParam" />
     <property role="34LRSv" value="exception" />
     <property role="R4oN_" value="exception triggering cancel" />
@@ -3051,7 +3033,7 @@
   </node>
   <node concept="PlHQZ" id="1dqt$gJ66kJ">
     <property role="1pbfSe" value="1114823539" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="IVslCancelParam" />
   </node>
   <node concept="1TIwiD" id="61AGu4QMani">
@@ -3071,7 +3053,7 @@
   </node>
   <node concept="PlHQZ" id="7PeCy_MumjU">
     <property role="1pbfSe" value="272103645" />
-    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <property role="3GE5qa" value="OFXCore.cmdCall" />
     <property role="TrG5h" value="IOFXSurpErrorMarker" />
     <node concept="1TJgyi" id="7PeCy_MumjV" role="1TKVEl">
       <property role="TrG5h" value="knowWhatDoing" />
@@ -3080,7 +3062,7 @@
   </node>
   <node concept="1TIwiD" id="1jYXPQ7xYqG">
     <property role="1pbfSe" value="1668882935" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXTestMethodCallExp" />
     <ref role="1TJDcQ" to="tpee:fz7wK6G" resolve="BaseMethodCall" />
     <node concept="1TJgyj" id="fIYIWN3" role="1TKVEi">
@@ -3091,7 +3073,7 @@
     </node>
   </node>
   <node concept="AxPO7" id="6OEsYvXyCG6">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXRunCmdPageBoundObject" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="6OEsYvXyCG7" role="M5hS2">
@@ -3105,7 +3087,7 @@
   </node>
   <node concept="1TIwiD" id="7TJOmj72Lm4">
     <property role="1pbfSe" value="1165682408" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXRunCmd" />
     <property role="34LRSv" value="run command" />
     <property role="R4oN_" value="without any ui" />
@@ -3140,7 +3122,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWztHgKC">
     <property role="1pbfSe" value="473294832" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXRunCmdPage" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWztHiCd" role="1TKVEi">
@@ -3180,7 +3162,7 @@
   </node>
   <node concept="PlHQZ" id="3U0QWztHkm$">
     <property role="1pbfSe" value="473309548" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="IOFXRContextVarDeclaration" />
     <node concept="PrWs8" id="3U0QWztHkD9" role="PrDN$">
       <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
@@ -3188,7 +3170,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWztHnpr">
     <property role="1pbfSe" value="473322019" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXRunCmdStatementList" />
     <property role="34LRSv" value="func" />
     <property role="R4oN_" value="some statements" />
@@ -3199,7 +3181,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWztOqU0">
     <property role="1pbfSe" value="475171400" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXRunCmdVarRef" />
     <property role="MwhBj" value="${module}/icons/testparam.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -3212,7 +3194,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWztRGQ8">
     <property role="1pbfSe" value="476031312" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXProducerContext" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWztRIg6" role="1TKVEi">
@@ -3236,7 +3218,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWztRJKo">
     <property role="1pbfSe" value="476043232" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXConsumerContext" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWztRJTF" role="1TKVEi">
@@ -3254,7 +3236,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWzu$3aR">
     <property role="1pbfSe" value="487657087" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXExceptionStrategy" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWzu$6CW" role="1TKVEi">
@@ -3269,7 +3251,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWzu$6uM">
     <property role="1pbfSe" value="487670650" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXStrategyForException" />
     <property role="34LRSv" value="strategy" />
     <property role="R4oN_" value="for exception" />
@@ -3308,12 +3290,12 @@
   </node>
   <node concept="PlHQZ" id="3U0QWzu$6wv">
     <property role="1pbfSe" value="487670759" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="IOFXExceptionStrategyMember" />
   </node>
   <node concept="1TIwiD" id="3U0QWzuEgZN">
     <property role="1pbfSe" value="489286587" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXExceptionStrategyInclude" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWzuEgZQ" role="1TKVEi">
@@ -3328,7 +3310,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWzuPwIA">
     <property role="1pbfSe" value="492234606" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXRunCmdSuccessorHandler" />
     <property role="34LRSv" value="successor handling" />
     <property role="R4oN_" value="handles a successor cmd" />
@@ -3351,7 +3333,7 @@
   </node>
   <node concept="1TIwiD" id="21AFYXWJblt">
     <property role="1pbfSe" value="1658624692" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXConsumerCmdCallContext" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="21AFYXWJbnZ" role="1TKVEi">
@@ -3369,7 +3351,7 @@
   </node>
   <node concept="1TIwiD" id="7X5ehdoVaX7">
     <property role="1pbfSe" value="667817894" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXRunCmdCreateInfoRef" />
     <property role="MwhBj" value="${module}/icons/references.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -3385,12 +3367,12 @@
   </node>
   <node concept="PlHQZ" id="7X5ehdoVhUh">
     <property role="1pbfSe" value="667789404" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="IOFXRunCmdCreateInfoReferencing" />
   </node>
   <node concept="1TIwiD" id="I5RNLIPTjN">
     <property role="1pbfSe" value="2052944943" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="ProdCons" />
     <property role="TrG5h" value="OFXProducerConsumerPair" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="I5RNLIPU3U" role="1TKVEi">
@@ -3451,12 +3433,12 @@
   </node>
   <node concept="PlHQZ" id="1Z999TJy7rR">
     <property role="1pbfSe" value="1890477163" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="IOFXStratBehaviour" />
   </node>
   <node concept="1TIwiD" id="1Z999TJyiCN">
     <property role="1pbfSe" value="1890431279" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXDelayStratBehaviour" />
     <property role="34LRSv" value="DELAY_EXECUTION" />
     <property role="R4oN_" value="wait for some time before moving on" />
@@ -3471,7 +3453,7 @@
   </node>
   <node concept="1TIwiD" id="1Z999TJVqgd">
     <property role="1pbfSe" value="1883846485" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXSilentNoLogStratBehaviour" />
     <property role="34LRSv" value="SILENT_NO_LOG" />
     <property role="R4oN_" value="do not log ex message" />
@@ -3482,7 +3464,7 @@
   </node>
   <node concept="1TIwiD" id="1Z999TJVqge">
     <property role="1pbfSe" value="1883846484" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXConsRestartStratBehaviour" />
     <property role="34LRSv" value="CONSUMER_RESTART" />
     <property role="R4oN_" value="kill consumer and start a new one" />
@@ -3493,7 +3475,7 @@
   </node>
   <node concept="1TIwiD" id="1Z999TJVqha">
     <property role="1pbfSe" value="1883846424" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXReAddInboxStratBehaviour" />
     <property role="34LRSv" value="READD_TO_INBOX" />
     <property role="R4oN_" value="add item to inbox in case of ex" />
@@ -3504,7 +3486,7 @@
   </node>
   <node concept="1TIwiD" id="1Z999TJVqi6">
     <property role="1pbfSe" value="1883846364" />
-    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="3GE5qa" value="ProdCons.strat" />
     <property role="TrG5h" value="OFXClearInboxStratBehaviour" />
     <property role="34LRSv" value="CLEAR_INBOX" />
     <property role="R4oN_" value="clear inbox (and wait for resched)" />
@@ -3587,12 +3569,12 @@
   </node>
   <node concept="PlHQZ" id="7yNVvqMPXVq">
     <property role="1pbfSe" value="730582224" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="ICommandOption" />
   </node>
   <node concept="1TIwiD" id="7yNVvqMPYuw">
     <property role="1pbfSe" value="730584470" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="CommandNoEscOption" />
     <property role="34LRSv" value="NO_ESC" />
     <property role="R4oN_" value="do not enable user_cancel" />
@@ -3716,7 +3698,7 @@
   </node>
   <node concept="1TIwiD" id="51llZt55MSr">
     <property role="1pbfSe" value="1788049902" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="Guard" />
     <property role="34LRSv" value="guard" />
     <property role="R4oN_" value="ensure condition always true" />
@@ -3741,7 +3723,7 @@
   </node>
   <node concept="1TIwiD" id="51llZt55NQc">
     <property role="1pbfSe" value="1788045949" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="ProblemMessage" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="51llZt55OgY" role="1TKVEi">
@@ -3758,7 +3740,7 @@
   </node>
   <node concept="1TIwiD" id="51llZt605sG">
     <property role="1pbfSe" value="1772769501" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="Precondition" />
     <property role="34LRSv" value=":" />
     <property role="R4oN_" value="check condition or report problem" />
@@ -3788,7 +3770,7 @@
   </node>
   <node concept="1TIwiD" id="51llZt6ckhQ">
     <property role="1pbfSe" value="1769563027" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="CheckOptionRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="51llZt6ckhR" role="1TKVEi">
@@ -3800,7 +3782,7 @@
   </node>
   <node concept="1TIwiD" id="6RAFKVMg6pR">
     <property role="1pbfSe" value="1613174149" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="ServiceInstanceMethodDeclaration" />
     <property role="34LRSv" value="service method" />
     <property role="R4oN_" value="standard service method" />
@@ -3859,7 +3841,7 @@
   </node>
   <node concept="PlHQZ" id="ZnB5NvHJ5L">
     <property role="1pbfSe" value="275870259" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="IServiceInstanceMethodOption" />
   </node>
   <node concept="1TIwiD" id="150ifyc27tm">
@@ -3897,12 +3879,12 @@
   </node>
   <node concept="PlHQZ" id="2i1R3ftT$uv">
     <property role="1pbfSe" value="40379346" />
-    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <property role="3GE5qa" value="OFXCore.cmdCall" />
     <property role="TrG5h" value="IOFXParameterized" />
   </node>
   <node concept="1TIwiD" id="1X3c4oMMVGE">
     <property role="1pbfSe" value="1376709488" />
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="ValidationStatement" />
     <property role="34LRSv" value="validation" />
     <property role="R4oN_" value="only validation takes part here" />
@@ -3916,7 +3898,7 @@
   </node>
   <node concept="1TIwiD" id="4kNjw_lxEN9">
     <property role="1pbfSe" value="1699087662" />
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="VslProblemsParam" />
     <property role="34LRSv" value="listOfProblems" />
     <property role="MwhBj" value="${module}/icons/references.png" />

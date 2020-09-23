@@ -97,6 +97,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -167,6 +170,7 @@
   <node concept="3SMa$L" id="QyBIeIL7jY">
     <property role="TrG5h" value="AllModelRepoDebugOff" />
     <property role="3SMaAB" value="All Debug in Model Repo Off" />
+    <property role="3GE5qa" value="Repository" />
     <node concept="3SM$So" id="QyBIeIL7k2" role="3SM$Oy">
       <ref role="3SM$Vy" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
     </node>

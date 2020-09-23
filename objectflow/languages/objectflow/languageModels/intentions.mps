@@ -2916,7 +2916,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="5WxVUBAMnQK">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.session" />
     <property role="TrG5h" value="CheckOutEntitiesKeysOnly" />
     <ref role="2ZfgGC" to="un0u:5WxVUBAMhc0" resolve="CheckedOutEntities" />
     <node concept="2S6ZIM" id="5WxVUBAMnQL" role="2ZfVej">
@@ -3132,7 +3132,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="2w93nZwOhAr">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="TestDebugToggle" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
@@ -3242,7 +3242,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="3iT39CZixG">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="DontExecToggle" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
@@ -3395,7 +3395,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="3iT39D7v68">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="TestDebugAllRemove" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
@@ -3486,7 +3486,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="3iT39D7DfK">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="TestDebugAllAdd" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
@@ -3562,7 +3562,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="3iT39D7Evy">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="DontExecAddAll" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
@@ -3638,7 +3638,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="3iT39D7HSc">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="DontExecRemoveAll" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
@@ -3979,7 +3979,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="2i3o0hedmxS">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="DontExecForOthers" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
@@ -4109,7 +4109,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="6_VKg6llPEH">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXTestFailInAttribRemove" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:72pStkQaFl2" resolve="OFXTestFailInAttribue" />
@@ -4162,7 +4162,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="4I$W9XJsjyn">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="DependentToggel" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
@@ -4367,7 +4367,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="7PeCy_Mumka">
-    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <property role="3GE5qa" value="OFXCore.cmdCall" />
     <property role="TrG5h" value="ToggleKnowWhatDoing" />
     <ref role="2ZfgGC" to="un0u:7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
     <node concept="2S6ZIM" id="7PeCy_Mumkb" role="2ZfVej">
@@ -4978,7 +4978,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="2_YacpKxidm">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="AddFlagTextPageCommand" />
     <ref role="2ZfgGC" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
     <node concept="2S6ZIM" id="2_YacpKxidn" role="2ZfVej">
@@ -5474,7 +5474,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="51llZt5Dj_x">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="GuardTranslateEx" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:51llZt55MSr" resolve="Guard" />
@@ -5519,7 +5519,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="51llZt687vl">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="TwoLinerForCheck" />
     <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Precondition" />
     <node concept="2S6ZIM" id="51llZt687vm" role="2ZfVej">
@@ -5555,7 +5555,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="51llZt6khXb">
-    <property role="3GE5qa" value="OFXCore.NewCmdCrtl" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="AddOptionToPrecondition" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Precondition" />
@@ -5639,7 +5639,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="Oao59phHUL">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="Test" />
     <property role="TrG5h" value="OFXTestMethodRemoveCustomSessions" />
     <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
     <node concept="2S6ZIM" id="Oao59phHUM" role="2ZfVej">
