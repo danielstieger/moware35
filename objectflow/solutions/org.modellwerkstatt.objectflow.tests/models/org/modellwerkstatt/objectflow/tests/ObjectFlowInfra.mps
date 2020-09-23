@@ -110,10 +110,6 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
-      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
-        <child id="1068580123160" name="condition" index="3clFbw" />
-        <child id="1068580123161" name="ifTrue" index="3clFbx" />
-      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -215,10 +211,6 @@
         <property id="2423238041810352534" name="day" index="xWaIZ" />
       </concept>
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
-      <concept id="4779674245184717178" name="org.modellwerkstatt.objectflow.structure.DynamicRoleRestrictions" flags="ng" index="2O1l4s">
-        <child id="4779674245184717189" name="roles" index="2O1l7z" />
-        <child id="4518330267519834336" name="restricts" index="1jRwQg" />
-      </concept>
       <concept id="4779674245203461929" name="org.modellwerkstatt.objectflow.structure.Scope" flags="ng" index="2PePtf">
         <child id="4779674245203461947" name="scopeFunc" index="2PePtt" />
         <child id="4779674245208419198" name="restricts" index="2PVZGo" />
@@ -267,18 +259,12 @@
         <reference id="2884851879189507039" name="test" index="38J6qw" />
       </concept>
       <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
-      <concept id="4518330267516957046" name="org.modellwerkstatt.objectflow.structure.DynamicRole" flags="ng" index="1jyyg6">
-        <child id="4518330267516957492" name="isFunc" index="1jyyp4" />
-      </concept>
       <concept id="4518330267516957488" name="org.modellwerkstatt.objectflow.structure.ScopeFunc" flags="ig" index="1jyyp0" />
-      <concept id="4518330267516957489" name="org.modellwerkstatt.objectflow.structure.DynamicRoleFunc" flags="ig" index="1jyyp1" />
       <concept id="4518330267516965068" name="org.modellwerkstatt.objectflow.structure.RolesAndPermissions" flags="ng" index="1jyGmW">
         <child id="4779674245205936416" name="scopes" index="2PKp_6" />
         <child id="3551693089249896602" name="identities" index="QIgUm" />
         <child id="4779674245164354289" name="staticRoles" index="2RjxEn" />
-        <child id="4518330267516965071" name="dynamicRolesRestrictions" index="1jyGmZ" />
       </concept>
-      <concept id="4518330267519834398" name="org.modellwerkstatt.objectflow.structure.DynamicRoleParameter" flags="ng" index="1jRwLI" />
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
       </concept>
@@ -296,7 +282,6 @@
       </concept>
       <concept id="5697903518443819930" name="org.modellwerkstatt.objectflow.structure.IPermissionReference" flags="ng" index="3ymtql">
         <reference id="5697903518443819941" name="evaluatePermission" index="3ymtqE" />
-        <child id="5697903518443819935" name="expression" index="3ymtqg" />
       </concept>
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
       <concept id="569389511234497392" name="org.modellwerkstatt.objectflow.structure.DateTimeLiteral" flags="ng" index="1$4sJe">
@@ -2913,27 +2898,6 @@
         </node>
       </node>
     </node>
-    <node concept="2vDG_T" id="4nH4LOF0O6v" role="jymVt">
-      <property role="TrG5h" value="callJustADynamicRoles" />
-      <node concept="3Tm1VV" id="4nH4LOF0O6w" role="1B3o_S" />
-      <node concept="37vLTG" id="4nH4LOF0O6x" role="3clF46">
-        <property role="TrG5h" value="inv" />
-        <node concept="3uibUv" id="4nH4LOF0O6y" role="1tU5fm">
-          <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
-        </node>
-      </node>
-      <node concept="10P_77" id="4nH4LOF0O6z" role="3clF45" />
-      <node concept="3clFbS" id="4nH4LOF0O6$" role="3clF47">
-        <node concept="3clFbF" id="4nH4LOF0O6_" role="3cqZAp">
-          <node concept="1G1AcV" id="4nH4LOF0O6A" role="3clFbG">
-            <ref role="3ymtqE" node="6Lgq4tpiafW" resolve="Dynamic Roles: is ID 0" />
-            <node concept="37vLTw" id="4nH4LOF0O6B" role="3ymtqg">
-              <ref role="3cqZAo" node="4nH4LOF0O6x" resolve="inv" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2vDG_T" id="4nH4LOF0O6C" role="jymVt">
       <property role="TrG5h" value="callJustAScope" />
       <node concept="3Tm1VV" id="4nH4LOF0O6D" role="1B3o_S" />
@@ -3047,86 +3011,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="6Lgq4tpigzk" role="3cqZAp" />
-      </node>
-    </node>
-    <node concept="3yPF9F" id="6Lgq4tpigGY" role="3yMuLx">
-      <property role="TrG5h" value="Access dynamic role - eval to true/false" />
-      <node concept="3cqZAl" id="6Lgq4tpigGZ" role="3clF45" />
-      <node concept="3clFbS" id="6Lgq4tpigH0" role="3clF47">
-        <node concept="3clFbH" id="6Lgq4tpigH1" role="3cqZAp" />
-        <node concept="3cpWs8" id="6Lgq4tpigLF" role="3cqZAp">
-          <node concept="3cpWsn" id="6Lgq4tpigLG" role="3cpWs9">
-            <property role="TrG5h" value="inv" />
-            <node concept="3uibUv" id="6Lgq4tpigLH" role="1tU5fm">
-              <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
-            </node>
-            <node concept="2ShNRf" id="6Lgq4tpigMF" role="33vP2m">
-              <node concept="1pGfFk" id="6Lgq4tpigM1" role="2ShVmc">
-                <ref role="37wK5l" to="mbq3:612_n8HbEOF" resolve="Invoice" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6Lgq4tpigNA" role="3cqZAp">
-          <node concept="37vLTI" id="6Lgq4tpigSE" role="3clFbG">
-            <node concept="3cmrfG" id="6Lgq4tpigUG" role="37vLTx">
-              <property role="3cmrfH" value="0" />
-            </node>
-            <node concept="2OqwBi" id="6Lgq4tpigOz" role="37vLTJ">
-              <node concept="37vLTw" id="6Lgq4tpigN$" role="2Oq$k0">
-                <ref role="3cqZAo" node="6Lgq4tpigLG" resolve="inv" />
-              </node>
-              <node concept="2S8uIT" id="6Lgq4tpigPI" role="2OqNvi">
-                <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="6Lgq4tpigH6" role="3cqZAp">
-          <node concept="3clFbC" id="6Lgq4tpigH7" role="1gVkn0">
-            <node concept="3clFbT" id="6Lgq4tpigH8" role="3uHU7w">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="1odsa" id="6Lgq4tpigH9" role="3uHU7B">
-              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
-              <ref role="37wK5l" node="4nH4LOF0O6v" resolve="callJustADynamicRoles" />
-              <node concept="37vLTw" id="6Lgq4tpigVw" role="37wK5m">
-                <ref role="3cqZAo" node="6Lgq4tpigLG" resolve="inv" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6Lgq4tpigHb" role="3cqZAp" />
-        <node concept="3clFbF" id="6Lgq4tpigY4" role="3cqZAp">
-          <node concept="37vLTI" id="6Lgq4tpigY5" role="3clFbG">
-            <node concept="3cmrfG" id="6Lgq4tpigY6" role="37vLTx">
-              <property role="3cmrfH" value="1" />
-            </node>
-            <node concept="2OqwBi" id="6Lgq4tpigY7" role="37vLTJ">
-              <node concept="37vLTw" id="6Lgq4tpigY8" role="2Oq$k0">
-                <ref role="3cqZAo" node="6Lgq4tpigLG" resolve="inv" />
-              </node>
-              <node concept="2S8uIT" id="6Lgq4tpigY9" role="2OqNvi">
-                <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="6Lgq4tpigYa" role="3cqZAp">
-          <node concept="3clFbC" id="6Lgq4tpigYb" role="1gVkn0">
-            <node concept="3clFbT" id="6Lgq4tpih2o" role="3uHU7w">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="1odsa" id="6Lgq4tpigYd" role="3uHU7B">
-              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
-              <ref role="37wK5l" node="4nH4LOF0O6v" resolve="callJustADynamicRoles" />
-              <node concept="37vLTw" id="6Lgq4tpigYe" role="37wK5m">
-                <ref role="3cqZAo" node="6Lgq4tpigLG" resolve="inv" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6Lgq4tpigXd" role="3cqZAp" />
       </node>
     </node>
     <node concept="3yPF9F" id="6Lgq4tpih2Q" role="3yMuLx">
@@ -3513,43 +3397,6 @@
         </node>
       </node>
       <node concept="3uibUv" id="6Lgq4tpib33" role="2PVZGo">
-        <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
-      </node>
-    </node>
-    <node concept="2O1l4s" id="6Lgq4tpeol9" role="1jyGmZ">
-      <node concept="1jyyg6" id="6Lgq4tpiafW" role="2O1l7z">
-        <property role="TrG5h" value="Dynamic Roles: is ID 0" />
-        <node concept="1jyyp1" id="6Lgq4tpiafY" role="1jyyp4">
-          <node concept="3clFbS" id="6Lgq4tpiafZ" role="2VODD2">
-            <node concept="3clFbJ" id="6Lgq4tpiah3" role="3cqZAp">
-              <node concept="3clFbC" id="6Lgq4tpiaxj" role="3clFbw">
-                <node concept="3cmrfG" id="6Lgq4tpiaym" role="3uHU7w">
-                  <property role="3cmrfH" value="0" />
-                </node>
-                <node concept="2OqwBi" id="6Lgq4tpiaiO" role="3uHU7B">
-                  <node concept="1jRwLI" id="6Lgq4tpiahM" role="2Oq$k0" />
-                  <node concept="2S8uIT" id="6Lgq4tpiakI" role="2OqNvi">
-                    <ref role="2S8YL0" to="mbq3:612_n8HbChJ" resolve="id" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbS" id="6Lgq4tpiah5" role="3clFbx">
-                <node concept="3cpWs6" id="6Lgq4tpiazj" role="3cqZAp">
-                  <node concept="3clFbT" id="6Lgq4tpiazv" role="3cqZAk">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs6" id="6Lgq4tpiaAn" role="3cqZAp">
-              <node concept="3clFbT" id="6Lgq4tpiaAH" role="3cqZAk">
-                <property role="3clFbU" value="false" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3uibUv" id="6Lgq4tpeqj1" role="1jRwQg">
         <ref role="3uigEE" to="mbq3:612_n8HbweS" resolve="Invoice" />
       </node>
     </node>

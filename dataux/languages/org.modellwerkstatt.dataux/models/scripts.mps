@@ -6922,13 +6922,6 @@
     <property role="TrG5h" value="MoWareMRStoMMRS2019_10" />
     <property role="2BwPS$" value="MoWareMMRS_2019" />
     <property role="_Wzho" value="(9) CompoundKey with BigDeci and DynamicRoles" />
-    <node concept="_XfAh" id="1LgeCLduSlt" role="_YvDr">
-      <property role="_XH9r" value="Usage of dynamic role restrictions" />
-      <ref role="_XDHR" to="un0u:49kO6rQko5U" resolve="DynamicRoleRestrictions" />
-      <node concept="_ZGcI" id="1LgeCLduSlu" role="_XPhp">
-        <node concept="3clFbS" id="1LgeCLduSlv" role="2VODD2" />
-      </node>
-    </node>
     <node concept="_XfAh" id="1LgeCLduTqN" role="_YvDr">
       <property role="_XH9r" value="Usage of ValueObject as CompoundKey and Bigdeci in ValueObject" />
       <ref role="_XDHR" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />

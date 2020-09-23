@@ -1724,52 +1724,12 @@
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3UOln1HfB5Q">
-    <property role="TrG5h" value="DynamicRole" />
-    <property role="3GE5qa" value="Permission" />
-    <property role="34LRSv" value="dynamic role" />
-    <property role="1pbfSe" value="1410152730" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3UOln1HfCbB" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="doc" />
-      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
-    </node>
-    <node concept="1TJgyj" id="3UOln1HfBcO" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="isFunc" />
-      <ref role="20lvS9" node="3UOln1HfBcL" resolve="DynamicRoleFunc" />
-    </node>
-    <node concept="1TJgyj" id="7TMpk$pOHrk" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="permissionReferences" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7TMpk$pOGgn" resolve="DynamicRoleReference" />
-    </node>
-    <node concept="1TJgyj" id="49kO6rRrT63" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="scopes" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="49kO6rRrSsD" resolve="Scope" />
-    </node>
-    <node concept="PrWs8" id="49kO6rQD4ZT" role="PzmwI">
-      <ref role="PrY4T" node="49kO6rQD4ZQ" resolve="IRole" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3UOln1HfBcK">
     <property role="3GE5qa" value="Permission" />
     <property role="TrG5h" value="ScopeFunc" />
     <property role="34LRSv" value="scope" />
     <property role="R4oN_" value="calculate a scope for permission" />
     <property role="1pbfSe" value="1410152288" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
-  <node concept="1TIwiD" id="3UOln1HfBcL">
-    <property role="3GE5qa" value="Permission" />
-    <property role="TrG5h" value="DynamicRoleFunc" />
-    <property role="R4oN_" value="evaluate role" />
-    <property role="34LRSv" value="is" />
-    <property role="1pbfSe" value="1410152287" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="3UOln1HfD3c">
@@ -1785,12 +1745,6 @@
       <property role="20kJfa" value="staticRoles" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="49kO6rP6waq" resolve="StaticRole" />
-    </node>
-    <node concept="1TJgyj" id="3UOln1HfD3f" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="dynamicRolesRestrictions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="49kO6rQko5U" resolve="DynamicRoleRestrictions" />
     </node>
     <node concept="1TJgyj" id="49kO6rR_k$w" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1810,17 +1764,6 @@
     <node concept="PrWs8" id="2jXWHXa_o3e" role="PzmwI">
       <ref role="PrY4T" node="2jXWHXa_nYK" resolve="IO2RTComponent" />
     </node>
-    <node concept="PrWs8" id="PkOjxfYOYF" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3UOln1Hq_$u">
-    <property role="3GE5qa" value="Permission" />
-    <property role="TrG5h" value="DynamicRoleParameter" />
-    <property role="34LRSv" value="doc" />
-    <property role="R4oN_" value="document to check" />
-    <property role="1pbfSe" value="1407275378" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="2jXWHX8YT7$">
     <property role="3GE5qa" value="Permission" />
@@ -1876,12 +1819,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="49kO6rQD4ZQ" resolve="IRole" />
     </node>
-    <node concept="1TJgyj" id="4Wj1gYHiHev" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
     <node concept="PrWs8" id="4Wj1gYJvt8V" role="PrDN$">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
     </node>
@@ -1890,19 +1827,6 @@
     <property role="3GE5qa" value="Permission" />
     <property role="TrG5h" value="IO2ResultsInRTComponentCall" />
     <property role="1pbfSe" value="24092359" />
-  </node>
-  <node concept="1TIwiD" id="7TMpk$pOGgn">
-    <property role="3GE5qa" value="Permission" />
-    <property role="TrG5h" value="DynamicRoleReference" />
-    <property role="1pbfSe" value="1740297888" />
-    <property role="MwhBj" value="${module}/icons/rolesnew.png" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7TMpk$pOGgo" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="permission" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3UOln1HfB5Q" resolve="DynamicRole" />
-    </node>
   </node>
   <node concept="1TIwiD" id="49kO6rP6mg_">
     <property role="3GE5qa" value="Permission" />
@@ -1959,25 +1883,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="49kO6rP6waq" resolve="StaticRole" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="49kO6rQko5U">
-    <property role="3GE5qa" value="Permission" />
-    <property role="TrG5h" value="DynamicRoleRestrictions" />
-    <property role="1pbfSe" value="950424032" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3UOln1Hq_zw" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="restricts" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:g7uibYu" resolve="ClassifierType" />
-    </node>
-    <node concept="1TJgyj" id="49kO6rQko65" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="roles" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3UOln1HfB5Q" resolve="DynamicRole" />
-    </node>
-    <node concept="asaX9" id="150ifybapD2" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="49kO6rQD4ZQ">
     <property role="3GE5qa" value="Permission" />
@@ -3899,13 +3804,6 @@
       <property role="20kJfa" value="messagePartMatch" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-    <node concept="1TJgyj" id="3U0QWzu_6fv" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="props" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3U0QWzu_6fi" resolve="OFXExceptionStrategyProp" />
-      <node concept="asaX9" id="1Z999TJVqrp" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="7JtXXwmFLXL" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
