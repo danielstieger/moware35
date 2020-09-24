@@ -31,9 +31,6 @@
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
-    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
     <import index="ymrz" ref="r:da3eec82-2eb4-47e2-9d5a-33da287b0e75(org.modellwerkstatt.objectflow.uiext)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
@@ -4750,38 +4747,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1rbZyOz8UFe">
-    <property role="3GE5qa" value="Builder" />
-    <ref role="1XX52x" to="un0u:1rbZyOz8U$h" resolve="TestData" />
-    <node concept="3EZMnI" id="1rbZyOz8UFg" role="2wV5jI">
-      <node concept="2iRkQZ" id="1rbZyOz8UFM" role="2iSdaV" />
-      <node concept="3EZMnI" id="1rbZyOz8UF$" role="3EZMnx">
-        <node concept="3F0ifn" id="1rbZyOz8UFp" role="3EZMnx">
-          <property role="3F0ifm" value="TestData" />
-          <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
-        </node>
-        <node concept="3F0A7n" id="1rbZyOz8UFv" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
-        </node>
-        <node concept="2iRfu4" id="1rbZyOz8UF_" role="2iSdaV" />
-        <node concept="VPM3Z" id="1rbZyOz8UFA" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="1rbZyOz8UFP" role="3EZMnx" />
-      <node concept="3F0ifn" id="2IjElxiiG5U" role="3EZMnx" />
-      <node concept="3F1sOY" id="2IjElxiiGgB" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:2IjElxiisXJ" />
-      </node>
-      <node concept="3F0ifn" id="2IjElxiiG65" role="3EZMnx" />
-      <node concept="3F0ifn" id="1rbZyOz8UFW" role="3EZMnx" />
-      <node concept="3F2HdR" id="1rbZyOz8UGf" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:7uJ0DENOOtY" />
-        <node concept="2iRkQZ" id="1rbZyOz8UGg" role="2czzBx" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="3mhGZDXGHEr">
     <property role="3GE5qa" value="Builder" />
     <ref role="1XX52x" to="un0u:3mhGZDXGFTI" resolve="ListBuilderElement" />
@@ -4802,19 +4767,6 @@
         <ref role="1NtTu8" to="un0u:3mhGZDYdmGp" />
       </node>
       <node concept="2iRfu4" id="5SRT4dU8xtr" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="4Bj5Y4mzKa_">
-    <property role="3GE5qa" value="Builder" />
-    <ref role="1XX52x" to="un0u:4Bj5Y4mlEtW" resolve="TestDataListAccess" />
-    <node concept="1iCGBv" id="4Bj5Y4mzKzc" role="2wV5jI">
-      <ref role="1NtTu8" to="un0u:4Bj5Y4mzKac" />
-      <node concept="1sVBvm" id="4Bj5Y4mzKzd" role="1sWHZn">
-        <node concept="3F0A7n" id="4Bj5Y4mzKze" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3UOln1HfD3p">
