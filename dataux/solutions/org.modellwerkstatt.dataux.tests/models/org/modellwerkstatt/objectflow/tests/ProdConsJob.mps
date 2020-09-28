@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:95086127-b806-489c-89da-1144432cab9f(org.modellwerkstatt.objectflow.tests.ProdConsJob)">
+<model ref="r:08f2e6c6-a478-4cd3-8ac5-e7ae07a6e41b(org.modellwerkstatt.objectflow.tests.ProdConsJob)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
@@ -15,7 +15,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
     <import index="iou4" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.scheduling.support(org.modellwerkstatt.manmap.runtime/)" />
-    <import index="7kfk" ref="r:cc76ad46-6947-4cc7-9f41-029160c9ce20(org.modellwerkstatt.objectflow.tests.config)" />
+    <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
@@ -307,7 +307,7 @@
   </registry>
   <node concept="2WPaUQ" id="5lMTsSlMocw">
     <property role="TrG5h" value="Consumer Producer" />
-    <ref role="2WPtWl" to="7kfk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
     <node concept="1DZZI9" id="7XC7Kvk5t02" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="5lMTsSlMoVE" resolve="Consumer Producer Rainy" />
@@ -5471,7 +5471,7 @@
   </node>
   <node concept="2WPaUQ" id="5lMTsSlMoVE">
     <property role="TrG5h" value="Consumer Producer Rainy" />
-    <ref role="2WPtWl" to="7kfk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
     <node concept="3yPF9F" id="2smfeL1KbDF" role="3yMuLx">
       <property role="TrG5h" value="Exception in Producer delays call according to strategy." />
       <node concept="3cqZAl" id="2smfeL1KbDO" role="3clF45" />
@@ -10871,7 +10871,7 @@
   </node>
   <node concept="2WPaUQ" id="5lMTsSlMp$c">
     <property role="TrG5h" value="CronSequenceTests" />
-    <ref role="2WPtWl" to="7kfk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
     <node concept="3yPF9F" id="5lMTsSlMp$d" role="3yMuLx">
       <property role="TrG5h" value="CronSequence for XXX" />
       <node concept="3cqZAl" id="5lMTsSlMp$e" role="3clF45" />

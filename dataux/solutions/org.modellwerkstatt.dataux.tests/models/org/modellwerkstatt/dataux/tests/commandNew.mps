@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:d35ccbf2-6ae7-4f24-b7fd-747f8d215a79(org.modellwerkstatt.dataux.tests.command)">
+<model ref="r:d35ccbf2-6ae7-4f24-b7fd-747f8d215a79(org.modellwerkstatt.dataux.tests.commandNew)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
@@ -9,7 +9,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="uob7" ref="r:e0e5b835-1572-43be-b0df-c31724fa3d0f(org.modellwerkstatt.objectflow.command)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
-    <import index="7kfk" ref="r:cc76ad46-6947-4cc7-9f41-029160c9ce20(org.modellwerkstatt.objectflow.tests.config)" />
+    <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -132,7 +132,7 @@
   </registry>
   <node concept="2WPaUQ" id="7Q16sERWljI">
     <property role="TrG5h" value="Command InteractionCrtl Tests" />
-    <ref role="2WPtWl" to="7kfk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
     <node concept="3yPF9F" id="1Zj$9QzkjNs" role="3yMuLx">
       <property role="TrG5h" value="Run Graph Owner Command with Done in page init." />
       <node concept="3cqZAl" id="1Zj$9QzkjNu" role="3clF45" />

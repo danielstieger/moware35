@@ -3,7 +3,6 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/objectflow/objectflow.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.objectflow.tests/org.modellwerkstatt.objectflow.tests.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/sandbox/org.modellwerkstatt.objectflow.runtime.msd" folder="" />
     </projectModules>
   </component>
