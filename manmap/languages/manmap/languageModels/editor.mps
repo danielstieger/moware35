@@ -2,8 +2,8 @@
 <model ref="r:ef9c70a3-ad04-4165-a5aa-0013bf6d0c5a(org.modellwerkstatt.manmap.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -299,6 +299,9 @@
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -328,9 +331,6 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
-      </concept>
-      <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
-        <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -410,8 +410,8 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TUQnm" id="KVbXdPfhtF" role="2Oq$k0">
-                    <ref role="3TV0OU" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+                  <node concept="35c_gC" id="fw7nOFAcuV" role="2Oq$k0">
+                    <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
                   </node>
                 </node>
               </node>
@@ -710,8 +710,8 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TUQnm" id="KVbXdPfhs3" role="2Oq$k0">
-                    <ref role="3TV0OU" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+                  <node concept="35c_gC" id="fw7nOFAcuW" role="2Oq$k0">
+                    <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
                   </node>
                 </node>
               </node>
@@ -1190,8 +1190,8 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TUQnm" id="KVbXdPfhvt" role="2Oq$k0">
-                    <ref role="3TV0OU" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+                  <node concept="35c_gC" id="fw7nOFAcuX" role="2Oq$k0">
+                    <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
                   </node>
                 </node>
               </node>
@@ -1488,8 +1488,8 @@
                         <ref role="37wK5l" to="lfe3:4upt4JNah9L" resolve="getFieldRefText" />
                         <node concept="pncrf" id="KVbXdPfhkS" role="37wK5m" />
                       </node>
-                      <node concept="3TUQnm" id="KVbXdPfhkT" role="2Oq$k0">
-                        <ref role="3TV0OU" to="r5tz:1H_ywRYu6XB" resolve="MappingReference" />
+                      <node concept="35c_gC" id="fw7nOFAcuy" role="2Oq$k0">
+                        <ref role="35c_gD" to="r5tz:1H_ywRYu6XB" resolve="MappingReference" />
                       </node>
                     </node>
                   </node>
@@ -1944,8 +1944,8 @@
                           <ref role="37wK5l" to="lfe3:4upt4JNah9L" resolve="getFieldRefText" />
                           <node concept="pncrf" id="46z9kM1TXMj" role="37wK5m" />
                         </node>
-                        <node concept="3TUQnm" id="46z9kM1TXMk" role="2Oq$k0">
-                          <ref role="3TV0OU" to="r5tz:1H_ywRYu6XB" resolve="MappingReference" />
+                        <node concept="35c_gC" id="fw7nOFAcuq" role="2Oq$k0">
+                          <ref role="35c_gD" to="r5tz:1H_ywRYu6XB" resolve="MappingReference" />
                         </node>
                       </node>
                     </node>
@@ -2340,6 +2340,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="5xTZIeOlR9e">
+    <property role="3GE5qa" value="query" />
     <ref role="aqKnT" to="r5tz:1H_ywRYu6XB" resolve="MappingReference" />
     <node concept="1Qtc8_" id="5xTZIeOlR9f" role="IW6Ez">
       <node concept="3cWJ9i" id="5xTZIeOlR9g" role="1Qtc8$">
@@ -2506,6 +2507,7 @@
   </node>
   <node concept="3p309x" id="5xTZIeOlRav">
     <property role="TrG5h" value="MappingRefAction_Contribution" />
+    <property role="3GE5qa" value="query" />
     <node concept="2kknPJ" id="5xTZIeOlRaw" role="1IG6uw">
       <ref role="2ZyFGn" to="tpee:fz3vP1J" resolve="Expression" />
     </node>

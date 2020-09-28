@@ -115,8 +115,8 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -320,9 +320,11 @@
                             <ref role="ehGHo" to="tpee:f$Xl_Og" resolve="StringLiteral" />
                           </node>
                           <node concept="1PxgMI" id="3wpfxM_6s$F" role="33vP2m">
-                            <ref role="1m5ApE" to="tpee:f$Xl_Og" resolve="StringLiteral" />
                             <node concept="37vLTw" id="3wpfxM_6swc" role="1m5AlR">
                               <ref role="3cqZAo" node="3wpfxM_6bBb" resolve="current" />
+                            </node>
+                            <node concept="chp4Y" id="fw7nOFAcWZ" role="3oSUPX">
+                              <ref role="cht4Q" to="tpee:f$Xl_Og" resolve="StringLiteral" />
                             </node>
                           </node>
                         </node>
@@ -400,9 +402,11 @@
                               <ref role="ehGHo" to="87nw:2dWzqxEBMSc" resolve="Word" />
                             </node>
                             <node concept="1PxgMI" id="3wpfxM_6wB8" role="33vP2m">
-                              <ref role="1m5ApE" to="87nw:2dWzqxEBMSc" resolve="Word" />
                               <node concept="37vLTw" id="3wpfxM_6ww5" role="1m5AlR">
                                 <ref role="3cqZAo" node="3wpfxM_6bBb" resolve="current" />
+                              </node>
+                              <node concept="chp4Y" id="fw7nOFAcX5" role="3oSUPX">
+                                <ref role="cht4Q" to="87nw:2dWzqxEBMSc" resolve="Word" />
                               </node>
                             </node>
                           </node>
