@@ -69,6 +69,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -4991,51 +4994,12 @@
       <node concept="3cqZAl" id="Znoxjb_pWi" role="3clF45" />
       <node concept="3Tm1VV" id="Znoxjb_pWj" role="1B3o_S" />
       <node concept="3clFbS" id="Znoxjb_pWk" role="3clF47">
-        <node concept="3cpWs8" id="Znoxjb_pW_" role="3cqZAp">
-          <node concept="3cpWsn" id="Znoxjb_pWA" role="3cpWs9">
-            <property role="TrG5h" value="opener" />
-            <node concept="3uibUv" id="Znoxjb_pWB" role="1tU5fm">
-              <ref role="3uigEE" to="k3nr:~MPSEditorOpener" resolve="MPSEditorOpener" />
-            </node>
-            <node concept="2ShNRf" id="Znoxjb_pWC" role="33vP2m">
-              <node concept="1pGfFk" id="Znoxjb_pWD" role="2ShVmc">
-                <ref role="37wK5l" to="k3nr:~MPSEditorOpener.&lt;init&gt;(com.intellij.openapi.project.Project)" resolve="MPSEditorOpener" />
-                <node concept="2YIFZM" id="Znoxjb_pWE" role="37wK5m">
-                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
-                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                  <node concept="2OqwBi" id="Znoxjb_pWF" role="37wK5m">
-                    <node concept="2OqwBi" id="Znoxjb_pWG" role="2Oq$k0">
-                      <node concept="37vLTw" id="1lQrIGzPHyg" role="2Oq$k0">
-                        <ref role="3cqZAo" node="Znoxjb_sTA" resolve="ectx" />
-                      </node>
-                      <node concept="liA8E" id="Znoxjb_pWI" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="Znoxjb_pWJ" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="Znoxjb_pWK" role="3cqZAp">
-          <node concept="2OqwBi" id="Znoxjb_pWL" role="3clFbG">
-            <node concept="37vLTw" id="Znoxjb_pWM" role="2Oq$k0">
-              <ref role="3cqZAo" node="Znoxjb_pWA" resolve="opener" />
-            </node>
-            <node concept="liA8E" id="Znoxjb_pWN" role="2OqNvi">
-              <ref role="37wK5l" to="k3nr:~MPSEditorOpener.openNode(org.jetbrains.mps.openapi.model.SNode,boolean,boolean):jetbrains.mps.openapi.editor.Editor" resolve="openNode" />
-              <node concept="37vLTw" id="Znoxjb_q2Z" role="37wK5m">
-                <ref role="3cqZAo" node="Znoxjb_pZY" resolve="nodeToOpen" />
-              </node>
-              <node concept="3clFbT" id="Znoxjb_pWS" role="37wK5m">
-                <property role="3clFbU" value="true" />
-              </node>
-              <node concept="3clFbT" id="Znoxjb_pWT" role="37wK5m">
-                <property role="3clFbU" value="true" />
+        <node concept="YS8fn" id="3fPZd7NtcyS" role="3cqZAp">
+          <node concept="2ShNRf" id="3fPZd7Ntczl" role="YScLw">
+            <node concept="1pGfFk" id="3fPZd7Ntf8a" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="3fPZd7Ntfad" role="37wK5m">
+                <property role="Xl_RC" value="OFXNodeOpener.openNode() not implmemented yet. " />
               </node>
             </node>
           </node>
