@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="tk4x" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.server(org.modellwerkstatt.vaadinforms/)" />
-    <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" />
+    <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="waq" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.ui(org.modellwerkstatt.vaadinforms/)" />
     <import index="yjy4" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.shared.ui.combobox(org.modellwerkstatt.vaadinforms/)" />
