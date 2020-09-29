@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="3" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -57,10 +57,17 @@
         <child id="5617550519002745378" name="macros" index="1l3spd" />
         <child id="5617550519002745372" name="layout" index="1l3spN" />
       </concept>
+      <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
+        <property id="8654221991637384184" name="pattern" index="3qWCbO" />
+      </concept>
       <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
+      <concept id="5248329904287794596" name="jetbrains.mps.build.structure.BuildInputFiles" flags="ng" index="3LXTmp">
+        <child id="5248329904287794598" name="dir" index="3LXTmr" />
+        <child id="5248329904287794679" name="selectors" index="3LXTna" />
+      </concept>
       <concept id="4903714810883702019" name="jetbrains.mps.build.structure.BuildTextStringPart" flags="ng" index="3Mxwew">
         <property id="4903714810883755350" name="text" index="3MwjfP" />
       </concept>
@@ -99,11 +106,15 @@
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
+        <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
+      </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200826393" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyJar" flags="ng" index="1BurEX">
@@ -345,6 +356,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="L2tPFI1PN5" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PN6" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PN7" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PN8" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PN9" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="L2tPFI1PNa" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PNb" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.manmap.solution" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1JLTjCmZp6M" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -432,6 +462,25 @@
           <node concept="3bR9La" id="3P4lfams4s0" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="L2tPFI1PNm" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PNn" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PNo" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PNp" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PNq" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="L2tPFI1PNr" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PNs" role="2Ry0An">
+                    <property role="2Ry0Am" value="manmap" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -1064,6 +1113,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="L2tPFI1PM$" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PM_" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PMA" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PMB" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PMC" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="L2tPFI1PMD" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PME" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1JLTjCmZpP8" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1272,6 +1340,25 @@
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
+        <node concept="3rtmxn" id="L2tPFI1PMP" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PMQ" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PMR" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PMS" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PMT" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="L2tPFI1PMU" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PMV" role="2Ry0An">
+                    <property role="2Ry0Am" value="objectflow" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6HA5kZtQ0G3" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1312,6 +1399,28 @@
           <node concept="3bR9La" id="5p$R$8yX2HJ" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="L2tPFI1PMG" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PMH" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PMI" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PMJ" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PMK" role="iGT6I">
+                <property role="2Ry0Am" value="dataux" />
+                <node concept="2Ry0Ak" id="L2tPFI1PML" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PMM" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.dataux" />
+                    <node concept="2Ry0Ak" id="L2tPFI1PMN" role="2Ry0An">
+                      <property role="2Ry0Am" value="runtime" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -1479,6 +1588,25 @@
             <ref role="3bR37D" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
           </node>
         </node>
+        <node concept="3rtmxn" id="L2tPFI1PMs" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PMt" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PMu" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PMv" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PMw" role="iGT6I">
+                <property role="2Ry0Am" value="dataux" />
+                <node concept="2Ry0Ak" id="L2tPFI1PMx" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PMy" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.dataux" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="3ZVr8i9E19j" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1557,6 +1685,25 @@
           <node concept="3bR9La" id="6HA5kZtQ1v9" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6HA5kZtQ0G3" resolve="org.modellwerkstatt.dataux.runtime" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="L2tPFI1PMX" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PMY" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PMZ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PN0" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PN1" role="iGT6I">
+                <property role="2Ry0Am" value="fx8forms" />
+                <node concept="2Ry0Ak" id="L2tPFI1PN2" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PN3" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.fx8forms" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -1699,6 +1846,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="L2tPFI1PNu" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PNv" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PNw" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PNx" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PNy" role="iGT6I">
+                <property role="2Ry0Am" value="vaadinforms" />
+                <node concept="2Ry0Ak" id="L2tPFI1PNz" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PN$" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="phsLeeLbCJ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1762,6 +1928,28 @@
                       <node concept="2Ry0Ak" id="6jihzUGVdcw" role="2Ry0An">
                         <property role="2Ry0Am" value="mopebble-3.0.4.jar" />
                       </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="L2tPFI1PNd" role="3bR31x">
+          <node concept="3LXTmp" id="L2tPFI1PNe" role="3rtmxm">
+            <node concept="3qWCbU" id="L2tPFI1PNf" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="L2tPFI1PNg" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="L2tPFI1PNh" role="iGT6I">
+                <property role="2Ry0Am" value="h2forms" />
+                <node concept="2Ry0Ak" id="L2tPFI1PNi" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="L2tPFI1PNj" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.h2forms" />
+                    <node concept="2Ry0Ak" id="L2tPFI1PNk" role="2Ry0An">
+                      <property role="2Ry0Am" value="runtime" />
                     </node>
                   </node>
                 </node>
