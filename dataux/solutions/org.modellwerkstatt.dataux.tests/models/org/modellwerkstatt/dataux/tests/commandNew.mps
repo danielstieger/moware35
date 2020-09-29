@@ -2,7 +2,7 @@
 <model ref="r:d35ccbf2-6ae7-4f24-b7fd-747f8d215a79(org.modellwerkstatt.dataux.tests.commandNew)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
   </languages>
   <imports>

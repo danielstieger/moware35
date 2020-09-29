@@ -2,7 +2,7 @@
 <model ref="r:cbf98da5-0988-4059-b5fe-42d91c999b62(org.modellwerkstatt.vaadinforms.windows)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
@@ -23453,67 +23453,6 @@
             </node>
           </node>
           <node concept="3clFbS" id="4vr6dCDMxwP" role="2LFqv$">
-            <node concept="1X3_iC" id="4xVSf7dcsgo" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="6cymb1cNxBP" role="8Wnug">
-                <node concept="2YIFZM" id="6cymb1cNxKo" role="3clFbG">
-                  <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                  <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                  <node concept="3cpWs3" id="6cymb1cNzM9" role="37wK5m">
-                    <node concept="2OqwBi" id="6cymb1cNzY2" role="3uHU7w">
-                      <node concept="37vLTw" id="6cymb1cNzS7" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4vr6dCDMxwN" resolve="trg" />
-                      </node>
-                      <node concept="liA8E" id="6cymb1cN$9J" role="2OqNvi">
-                        <ref role="37wK5l" to="yg8v:3nLGOmWzA1v" resolve="reevalEnabled" />
-                        <node concept="2OqwBi" id="6cymb1cN$kx" role="37wK5m">
-                          <node concept="37vLTw" id="6cymb1cN$el" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4vr6dCDMxwN" resolve="trg" />
-                          </node>
-                          <node concept="2OwXpG" id="6cymb1cN$vQ" role="2OqNvi">
-                            <ref role="2Oxat5" to="yg8v:4XXgpAAdU7X" resolve="localSelectionCrtl" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3cpWs3" id="6cymb1cNzg2" role="3uHU7B">
-                      <node concept="3cpWs3" id="6cymb1cNyKq" role="3uHU7B">
-                        <node concept="3cpWs3" id="6cymb1cNyop" role="3uHU7B">
-                          <node concept="3cpWs3" id="6cymb1cNy3s" role="3uHU7B">
-                            <node concept="Xl_RD" id="6cymb1cNxLM" role="3uHU7B">
-                              <property role="Xl_RC" value="FTriggerBox.doubleClickReceived() - checking " />
-                            </node>
-                            <node concept="2OqwBi" id="6cymb1cNyaa" role="3uHU7w">
-                              <node concept="37vLTw" id="6cymb1cNy5f" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4vr6dCDMxwN" resolve="trg" />
-                              </node>
-                              <node concept="2OwXpG" id="6cymb1cNyfl" role="2OqNvi">
-                                <ref role="2Oxat5" to="yg8v:5$YtY8hobHP" resolve="public_commandFqName" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="6cymb1cNyt7" role="3uHU7w">
-                            <property role="Xl_RC" value=" hk: " />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="6cymb1cNyUV" role="3uHU7w">
-                          <node concept="37vLTw" id="6cymb1cNyPr" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4vr6dCDMxwN" resolve="trg" />
-                          </node>
-                          <node concept="2OwXpG" id="6cymb1cNz6m" role="2OqNvi">
-                            <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="public_hotKey" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="6cymb1cNzlv" role="3uHU7w">
-                        <property role="Xl_RC" value=" ?enabled= " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="6cymb1cN$$w" role="3cqZAp" />
             <node concept="3clFbJ" id="4vr6dCDMJwY" role="3cqZAp">
               <node concept="3clFbS" id="4vr6dCDMJx1" role="3clFbx">

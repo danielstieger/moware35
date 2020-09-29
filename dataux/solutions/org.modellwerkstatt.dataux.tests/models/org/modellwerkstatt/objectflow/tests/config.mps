@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
   </languages>
   <imports />
   <registry>
@@ -49,7 +49,6 @@
         <child id="478945708935709196" name="value" index="2DqwMp" />
         <child id="478945708935709194" name="type" index="2DqwMv" />
       </concept>
-      <concept id="478945708907003626" name="org.modellwerkstatt.objectflow.structure.IOFXConfigInstanceElement" flags="ng" index="2CJf1Z" />
       <concept id="478945708907003466" name="org.modellwerkstatt.objectflow.structure.OFXConfigInstance" flags="ng" index="2CJf3v">
         <child id="478945708907022272" name="elements" index="2CJ4_l" />
         <child id="478945708907003567" name="className" index="2CJf0U" />
@@ -499,7 +498,6 @@
             <property role="Xl_RC" value="germanLocal" />
           </node>
         </node>
-        <node concept="2CJf1Z" id="2x95vWgz6l$" role="2CJ4_l" />
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pa7" role="2CJdiS">
         <property role="TrG5h" value="transactionDefinition" />
@@ -538,7 +536,6 @@
             <property role="Xl_RC" value="dataSource" />
           </node>
         </node>
-        <node concept="2CJf1Z" id="2x95vWgz6mv" role="2CJ4_l" />
       </node>
       <node concept="2CJf3v" id="2x95vWgz28u" role="2CJdiS">
         <property role="TrG5h" value="jdbcTemplate" />
@@ -552,7 +549,6 @@
             <property role="Xl_RC" value="dataSource" />
           </node>
         </node>
-        <node concept="2CJf1Z" id="2x95vWgz6nw" role="2CJ4_l" />
       </node>
       <node concept="2CJf3v" id="3drXVOoNMEM" role="2CJdiS">
         <property role="TrG5h" value="dataSource" />
@@ -890,7 +886,6 @@
             <property role="Xl_RC" value="dataSource" />
           </node>
         </node>
-        <node concept="2CJf1Z" id="1YSLAaB7ga5" role="2CJ4_l" />
       </node>
       <node concept="2CJf3v" id="1YSLAaB7g8h" role="2CJdiS">
         <property role="TrG5h" value="dataSource" />

@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports>
@@ -192,7 +192,6 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
-      <concept id="1068581242866" name="jetbrains.mps.baseLanguage.structure.LocalVariableReference" flags="nn" index="3cpWsa" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
@@ -9495,7 +9494,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3cpWsa" id="6Ag5kTzI5tS" role="37vLTJ">
+                <node concept="37vLTw" id="6Ag5kTzI5tS" role="37vLTJ">
                   <ref role="3cqZAo" node="6Ag5kTzI5tR" resolve="image" />
                 </node>
               </node>
@@ -9507,7 +9506,7 @@
                 </node>
                 <node concept="liA8E" id="5Ict9HxN7x$" role="2OqNvi">
                   <ref role="37wK5l" to="xqm7:~ImageView.setImage(javafx.scene.image.Image):void" resolve="setImage" />
-                  <node concept="3cpWsa" id="6Ag5kTzI5tT" role="37wK5m">
+                  <node concept="37vLTw" id="6Ag5kTzI5tT" role="37wK5m">
                     <ref role="3cqZAo" node="6Ag5kTzI5tR" resolve="image" />
                   </node>
                 </node>
@@ -9538,7 +9537,7 @@
                 <node concept="10P_77" id="1g4weU8hoPK" role="1tU5fm" />
                 <node concept="3eOSWO" id="1g4weU8hqcK" role="33vP2m">
                   <node concept="2OqwBi" id="1g4weU8hqIl" role="3uHU7w">
-                    <node concept="3cpWsa" id="6Ag5kTzI5tU" role="2Oq$k0">
+                    <node concept="37vLTw" id="6Ag5kTzI5tU" role="2Oq$k0">
                       <ref role="3cqZAo" node="6Ag5kTzI5tR" resolve="image" />
                     </node>
                     <node concept="liA8E" id="1g4weU8hrb8" role="2OqNvi">
@@ -9546,7 +9545,7 @@
                     </node>
                   </node>
                   <node concept="2OqwBi" id="1g4weU8hpjm" role="3uHU7B">
-                    <node concept="3cpWsa" id="6Ag5kTzI5tV" role="2Oq$k0">
+                    <node concept="37vLTw" id="6Ag5kTzI5tV" role="2Oq$k0">
                       <ref role="3cqZAo" node="6Ag5kTzI5tR" resolve="image" />
                     </node>
                     <node concept="liA8E" id="1g4weU8hpXe" role="2OqNvi">

@@ -4,7 +4,7 @@
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports>
@@ -230,7 +230,6 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
-      <concept id="1068581242866" name="jetbrains.mps.baseLanguage.structure.LocalVariableReference" flags="nn" index="3cpWsa" />
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
@@ -4144,7 +4143,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWsa" id="20ohnkbIA3X" role="37vLTJ">
+            <node concept="37vLTw" id="20ohnkbIA3X" role="37vLTJ">
               <ref role="3cqZAo" node="20ohnkbIA3W" resolve="mainScene" />
             </node>
           </node>
@@ -4173,7 +4172,7 @@
             </node>
             <node concept="liA8E" id="7D8bwfxirUx" role="2OqNvi">
               <ref role="37wK5l" to="zsw4:~Stage.setScene(javafx.scene.Scene):void" resolve="setScene" />
-              <node concept="3cpWsa" id="20ohnkbIA3Y" role="37wK5m">
+              <node concept="37vLTw" id="20ohnkbIA3Y" role="37wK5m">
                 <ref role="3cqZAo" node="20ohnkbIA3W" resolve="mainScene" />
               </node>
             </node>

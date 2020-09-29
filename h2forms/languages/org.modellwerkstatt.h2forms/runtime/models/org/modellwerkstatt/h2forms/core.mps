@@ -2,7 +2,7 @@
 <model ref="r:116285fc-c233-49cc-9122-6945cd5420e5(org.modellwerkstatt.h2forms.core)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
@@ -210,7 +210,6 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
-      <concept id="1068581242866" name="jetbrains.mps.baseLanguage.structure.LocalVariableReference" flags="nn" index="3cpWsa" />
       <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
@@ -524,7 +523,7 @@
             <node concept="2ShNRf" id="5HhpRjTuBOi" role="33vP2m">
               <node concept="1pGfFk" id="5HhpRjTuCup" role="2ShVmc">
                 <ref role="37wK5l" to="qqeh:~ClassPathXmlApplicationContext.&lt;init&gt;(java.lang.String...)" resolve="ClassPathXmlApplicationContext" />
-                <node concept="3cpWsa" id="7WBKY1WhgDs" role="37wK5m">
+                <node concept="37vLTw" id="7WBKY1WhgDs" role="37wK5m">
                   <ref role="3cqZAo" node="7WBKY1WhgDq" resolve="xmlConfigFile" />
                 </node>
               </node>
@@ -867,7 +866,7 @@
         </node>
         <node concept="3clFbF" id="5HhpRjTupdf" role="3cqZAp">
           <node concept="37vLTI" id="5HhpRjTupAW" role="3clFbG">
-            <node concept="3cpWsa" id="7WBKY1WhevE" role="37vLTJ">
+            <node concept="37vLTw" id="7WBKY1WhevE" role="37vLTJ">
               <ref role="3cqZAo" node="7WBKY1WhevD" resolve="genApplicationFqName" />
             </node>
             <node concept="1rXfSq" id="5HhpRjTzlWk" role="37vLTx">
@@ -884,7 +883,7 @@
             <node concept="2ShNRf" id="2yuEF6qc7Rl" role="37vLTx">
               <node concept="1pGfFk" id="2yuEF6qc5cf" role="2ShVmc">
                 <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="JmxRegistrationHelper" />
-                <node concept="3cpWsa" id="7WBKY1WhevF" role="37wK5m">
+                <node concept="37vLTw" id="7WBKY1WhevF" role="37wK5m">
                   <ref role="3cqZAo" node="7WBKY1WhevD" resolve="genApplicationFqName" />
                 </node>
                 <node concept="2OqwBi" id="7WBKY1WfcTW" role="37wK5m">
@@ -944,7 +943,7 @@
                   </node>
                   <node concept="liA8E" id="1SuqpWQXrnn" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~ClassLoader.loadClass(java.lang.String):java.lang.Class" resolve="loadClass" />
-                    <node concept="3cpWsa" id="7WBKY1WhevG" role="37wK5m">
+                    <node concept="37vLTw" id="7WBKY1WhevG" role="37wK5m">
                       <ref role="3cqZAo" node="7WBKY1WhevD" resolve="genApplicationFqName" />
                     </node>
                   </node>
@@ -1168,7 +1167,7 @@
               <node concept="37vLTw" id="5XGplYAWMYi" role="37wK5m">
                 <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
               </node>
-              <node concept="3cpWsa" id="7WBKY1WhevH" role="37wK5m">
+              <node concept="37vLTw" id="7WBKY1WhevH" role="37wK5m">
                 <ref role="3cqZAo" node="7WBKY1WhevD" resolve="genApplicationFqName" />
               </node>
               <node concept="3cpWs3" id="2yuEF6qd4Oa" role="37wK5m">

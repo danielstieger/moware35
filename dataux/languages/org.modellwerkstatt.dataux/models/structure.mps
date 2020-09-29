@@ -18,7 +18,6 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -56,7 +55,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -1271,29 +1269,6 @@
     <property role="R4oN_" value="fold multiple cmds" />
     <property role="EcuMT" value="2019652483308169511" />
     <ref role="1TJDcQ" node="3nLPQZQ0zzY" resolve="MenuAction" />
-    <node concept="1TJgyj" id="5Ld38uBuIzZ" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="forSuccessorCommand" />
-      <property role="20lbJX" value="0..1" />
-      <property role="IQ2ns" value="6650986001466059007" />
-      <ref role="20lvS9" to="un0u:6ffh1MXzHna" resolve="Command" />
-      <node concept="asaX9" id="7yNVvqNVkkh" role="lGtFl" />
-    </node>
-    <node concept="1TJgyj" id="5Ld38uC1FwG" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="forSuccessorCommandPageConclusion" />
-      <property role="IQ2ns" value="6650986001475221548" />
-      <ref role="20lvS9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
-      <node concept="asaX9" id="7yNVvqNVkkq" role="lGtFl" />
-    </node>
-    <node concept="1TJgyj" id="1K7fNI_kqJZ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="innerActions" />
-      <property role="20lbJX" value="0..n" />
-      <property role="IQ2ns" value="2019652483308170239" />
-      <ref role="20lvS9" node="1K7fNI_kq$B" resolve="MenuCompoundAction" />
-      <node concept="asaX9" id="7yNVvqNVkk1" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="3wfz3qPfteK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="graphOwnerAutoCon" />
@@ -1315,6 +1290,9 @@
     </node>
     <node concept="PrWs8" id="7yNVvqOJOTo" role="PzmwI">
       <ref role="PrY4T" to="un0u:7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
+    </node>
+    <node concept="PrWs8" id="3g1UvaAYNOD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="1QGGSu" id="62e43W0Y$zE" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />

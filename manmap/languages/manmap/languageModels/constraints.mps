@@ -251,6 +251,9 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
+      </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
@@ -473,36 +476,50 @@
       <ref role="1N5Vy1" to="r5tz:Kou8LehQER" resolve="property" />
       <node concept="3dgokm" id="Kou8LehWyz" role="1N6uqs">
         <node concept="3clFbS" id="fw7nOFAbs$" role="2VODD2">
-          <node concept="3clFbF" id="fw7nOFAbs_" role="3cqZAp">
-            <node concept="2YIFZM" id="fw7nOFAbyq" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="fw7nOFAbyr" role="37wK5m">
-                <node concept="2OqwBi" id="fw7nOFAbys" role="2Oq$k0">
-                  <node concept="2qgKlT" id="fw7nOFAbyt" role="2OqNvi">
-                    <ref role="37wK5l" to="lfe3:5_gFKlwHLHV" resolve="propertiesScopeToClassifier" />
-                    <node concept="2OqwBi" id="fw7nOFAbyu" role="37wK5m">
-                      <node concept="2OqwBi" id="fw7nOFAbyv" role="2Oq$k0">
-                        <node concept="2rP1CM" id="fw7nOFAbyw" role="2Oq$k0" />
-                        <node concept="2Xjw5R" id="fw7nOFAbyx" role="2OqNvi">
-                          <node concept="1xMEDy" id="fw7nOFAbyy" role="1xVPHs">
-                            <node concept="chp4Y" id="fw7nOFAbyz" role="ri$Ld">
-                              <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
-                            </node>
+          <node concept="3cpWs8" id="3g1UvaARWXq" role="3cqZAp">
+            <node concept="3cpWsn" id="3g1UvaARWXt" role="3cpWs9">
+              <property role="TrG5h" value="props" />
+              <node concept="_YKpA" id="3g1UvaARWXm" role="1tU5fm">
+                <node concept="3Tqbb2" id="3g1UvaARXnv" role="_ZDj9">
+                  <ref role="ehGHo" to="tpee:huRhdFY" resolve="Property" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="fw7nOFAbys" role="33vP2m">
+                <node concept="2qgKlT" id="fw7nOFAbyt" role="2OqNvi">
+                  <ref role="37wK5l" to="lfe3:5_gFKlwHLHV" resolve="propertiesScopeToClassifier" />
+                  <node concept="2OqwBi" id="fw7nOFAbyu" role="37wK5m">
+                    <node concept="2OqwBi" id="fw7nOFAbyv" role="2Oq$k0">
+                      <node concept="2rP1CM" id="fw7nOFAbyw" role="2Oq$k0" />
+                      <node concept="2Xjw5R" id="fw7nOFAbyx" role="2OqNvi">
+                        <node concept="1xMEDy" id="fw7nOFAbyy" role="1xVPHs">
+                          <node concept="chp4Y" id="fw7nOFAbyz" role="ri$Ld">
+                            <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
                           </node>
-                          <node concept="1xIGOp" id="fw7nOFAby$" role="1xVPHs" />
                         </node>
                       </node>
-                      <node concept="2qgKlT" id="fw7nOFAby_" role="2OqNvi">
-                        <ref role="37wK5l" to="lfe3:Kou8LehQGG" resolve="getClassConcept" />
-                      </node>
                     </node>
-                    <node concept="2rP1CM" id="fw7nOFAbyA" role="37wK5m" />
+                    <node concept="2qgKlT" id="fw7nOFAby_" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:Kou8LehQGG" resolve="getClassConcept" />
+                    </node>
                   </node>
-                  <node concept="35c_gC" id="fw7nOFAcuL" role="2Oq$k0">
-                    <ref role="35c_gD" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
-                  </node>
+                  <node concept="2rP1CM" id="fw7nOFAbyA" role="37wK5m" />
                 </node>
+                <node concept="35c_gC" id="fw7nOFAcuL" role="2Oq$k0">
+                  <ref role="35c_gD" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="3g1UvaAScD_" role="3cqZAp" />
+          <node concept="3cpWs8" id="3g1UvaAS01n" role="3cqZAp">
+            <node concept="3cpWsn" id="3g1UvaAS01q" role="3cpWs9">
+              <property role="TrG5h" value="filteredProps" />
+              <node concept="A3Dl8" id="3g1UvaAUpLf" role="1tU5fm">
+                <node concept="3Tqbb2" id="3g1UvaAUvDn" role="A3Ik2">
+                  <ref role="ehGHo" to="tpee:huRhdFY" resolve="Property" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="fw7nOFAbyr" role="33vP2m">
                 <node concept="3zZkjj" id="fw7nOFAbyC" role="2OqNvi">
                   <node concept="1bVj0M" id="fw7nOFAbyD" role="23t8la">
                     <node concept="3clFbS" id="fw7nOFAbyE" role="1bW5cS">
@@ -538,6 +555,19 @@
                     </node>
                   </node>
                 </node>
+                <node concept="37vLTw" id="3g1UvaAS34b" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3g1UvaARWXt" resolve="props" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="3g1UvaASgHV" role="3cqZAp" />
+          <node concept="3clFbF" id="fw7nOFAbs_" role="3cqZAp">
+            <node concept="2YIFZM" id="fw7nOFAbyq" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="37vLTw" id="3g1UvaAS5gD" role="37wK5m">
+                <ref role="3cqZAo" node="3g1UvaAS01q" resolve="filteredProps" />
               </node>
             </node>
           </node>
@@ -1042,7 +1072,6 @@
                               <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
                             </node>
                           </node>
-                          <node concept="1xIGOp" id="fw7nOFAa_J" role="1xVPHs" />
                         </node>
                       </node>
                       <node concept="2qgKlT" id="fw7nOFAa_K" role="2OqNvi">
