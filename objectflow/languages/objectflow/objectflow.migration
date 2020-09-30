@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:6204f11a-f0f4-44a1-a841-5d4352eca3c2(migrationData)">
+  <persistence version="9" />
+  <languages />
+  <imports>
+    <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" implicit="true" />
+    <import index="z8tr" ref="r:bcfb927c-b184-4908-8828-52e996537df2(org.modellwerkstatt.objectflow.editor)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="3017733173184487099" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationDataEntity" flags="ng" index="ZsZFI">
+        <reference id="3017733173184487105" name="generatedMenu" index="ZsZEk" />
+        <reference id="3017733173184487102" name="conceptNode" index="ZsZFF" />
+      </concept>
+      <concept id="3017733173184487098" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationData" flags="ng" index="ZsZFJ">
+        <child id="3017733173184487121" name="entities" index="ZsZE4" />
+      </concept>
+    </language>
+    <language id="9882f4ad-1955-46fe-8269-94189e5dbbf2" name="jetbrains.mps.lang.migration.util">
+      <concept id="7417095922908669705" name="jetbrains.mps.lang.migration.util.structure.StepData" flags="ng" index="2z5JpS">
+        <property id="1973338949477451252" name="script" index="3qqn2_" />
+        <child id="7417095922908725798" name="data" index="2z5Xdn" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="2z5JpS" id="6ihoZuzTcly">
+    <property role="3qqn2_" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)/8" />
+    <node concept="ZsZFJ" id="6ihoZuzTckk" role="2z5Xdn">
+      <node concept="ZsZFI" id="6ihoZuzTckE" role="ZsZE4">
+        <ref role="ZsZFF" to="un0u:1ejJFIuCrQk" resolve="BPMetaReference" />
+        <ref role="ZsZEk" to="z8tr:6ihoZuzTck$" resolve="BPMetaReference_SmartReference" />
+      </node>
+      <node concept="ZsZFI" id="6ihoZuzTcl0" role="ZsZE4">
+        <ref role="ZsZFF" to="un0u:7X5ehdoVaX7" resolve="OFXRunCmdCreateInfoRef" />
+        <ref role="ZsZEk" to="z8tr:6ihoZuzTckU" resolve="OFXRunCmdCreateInfoRef_SmartReference" />
+      </node>
+      <node concept="ZsZFI" id="6ihoZuzTclk" role="ZsZE4">
+        <ref role="ZsZFF" to="un0u:6j_KBLoaFpF" resolve="BPRefIdReference" />
+        <ref role="ZsZEk" to="z8tr:6ihoZuzTcle" resolve="BPRefIdReference_SmartReference" />
+      </node>
+    </node>
+  </node>
+</model>
+

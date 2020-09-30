@@ -3,10 +3,10 @@
   <persistence version="9" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
@@ -8668,48 +8668,6 @@
                 </node>
               </node>
               <node concept="3clFbH" id="RffU3zGGk6" role="3cqZAp" />
-            </node>
-          </node>
-          <node concept="1X3_iC" id="2i3o0hdY6wO" role="lGtFl">
-            <property role="3V$3am" value="elsifClauses" />
-            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159/1206060520071" />
-            <node concept="3eNFk2" id="2i3o0hdWeP0" role="8Wnug">
-              <node concept="2OqwBi" id="2i3o0hdWfgL" role="3eO9$A">
-                <node concept="37vLTw" id="2i3o0hdWffH" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2w93nZwtdSg" resolve="node" />
-                </node>
-                <node concept="1mIQ4w" id="2i3o0hdWfk0" role="2OqNvi">
-                  <node concept="chp4Y" id="2i3o0hdWfkx" role="cj9EA">
-                    <ref role="cht4Q" to="tp2q:gKAMqbp" resolve="SequenceOperation" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbS" id="2i3o0hdWeP2" role="3eOfB_">
-                <node concept="3clFbF" id="2i3o0hdWflY" role="3cqZAp">
-                  <node concept="2OqwBi" id="2i3o0hdWfn_" role="3clFbG">
-                    <node concept="37vLTw" id="2i3o0hdWflW" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2w93nZwtdsn" resolve="b" />
-                    </node>
-                    <node concept="liA8E" id="2i3o0hdWfrN" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                      <node concept="3cpWs3" id="2i3o0hdWfz8" role="37wK5m">
-                        <node concept="Xl_RD" id="2i3o0hdWfsE" role="3uHU7B">
-                          <property role="Xl_RC" value="" />
-                        </node>
-                        <node concept="2OqwBi" id="2i3o0hdWfB2" role="3uHU7w">
-                          <node concept="37vLTw" id="2i3o0hdWf_2" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2w93nZwtdSg" resolve="node" />
-                          </node>
-                          <node concept="3TrcHB" id="2i3o0hdWfDI" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:gOOYy9I" resolve="alias" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbH" id="2i3o0hdWg6G" role="3cqZAp" />
-              </node>
             </node>
           </node>
           <node concept="3eNFk2" id="2w93nZwyjae" role="3eNLev">

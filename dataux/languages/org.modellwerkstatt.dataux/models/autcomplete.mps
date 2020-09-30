@@ -2,8 +2,8 @@
 <model ref="r:16d1b061-0636-4d0c-adab-8aead1b78e6e(org.modellwerkstatt.dataux.autcomplete)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -3435,12 +3435,12 @@
           <node concept="3cpWsn" id="KI7S7jibCe" role="3cpWs9">
             <property role="TrG5h" value="rootRef" />
             <node concept="3Tqbb2" id="KI7S7jibC9" role="1tU5fm">
-              <ref role="ehGHo" to="tpee:fzcpWvM" resolve="LocalVariableReference" />
+              <ref role="ehGHo" to="tpee:fz7vLUo" resolve="VariableReference" />
             </node>
             <node concept="2ShNRf" id="KI7S7jicIr" role="33vP2m">
               <node concept="3zrR0B" id="KI7S7jicI7" role="2ShVmc">
                 <node concept="3Tqbb2" id="KI7S7jicI8" role="3zrR0E">
-                  <ref role="ehGHo" to="tpee:fzcpWvM" resolve="LocalVariableReference" />
+                  <ref role="ehGHo" to="tpee:fz7vLUo" resolve="VariableReference" />
                 </node>
               </node>
             </node>
@@ -3455,8 +3455,8 @@
               <node concept="37vLTw" id="KI7S7jidnD" role="2Oq$k0">
                 <ref role="3cqZAo" node="KI7S7jibCe" resolve="rootRef" />
               </node>
-              <node concept="3TrEf2" id="KI7S7jieJ$" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:f_2PX25" resolve="localVariableDeclaration" />
+              <node concept="3TrEf2" id="6bAk9r7tPHG" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
               </node>
             </node>
           </node>
@@ -3992,11 +3992,11 @@
                       </node>
                     </node>
                     <node concept="2DeJnY" id="6IXjXFJBvq4" role="2OqNvi">
-                      <ref role="1A9B2P" to="tpee:fzcpWvM" resolve="LocalVariableReference" />
+                      <ref role="1A9B2P" to="tpee:fz7vLUo" resolve="VariableReference" />
                     </node>
                   </node>
-                  <node concept="3TrEf2" id="6IXjXFJBw5P" role="2OqNvi">
-                    <ref role="3Tt5mk" to="tpee:f_2PX25" resolve="localVariableDeclaration" />
+                  <node concept="3TrEf2" id="6bAk9r7tQ3n" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
                   </node>
                 </node>
                 <node concept="2oxUTD" id="6IXjXFJBwCr" role="2OqNvi">
