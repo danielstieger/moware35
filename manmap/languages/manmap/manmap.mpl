@@ -6,7 +6,7 @@
     </modelRoot>
   </models>
   <accessoryModels>
-    <model modelUID="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" />
+    <model modelUID="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
   </accessoryModels>
   <generators>
     <generator alias="directjdbc" namespace="org.modellwerkstatt.manmap#871579071900374031" uuid="51f51d1f-630c-4bde-a927-015e1db534ee">

@@ -5,10 +5,7 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
-  <accessoryModels>
-    <model modelUID="r:a8cceaac-a892-4039-8ab4-edfae2590c6d(org.modellwerkstatt.dataux.ofxutil)" />
-    <model modelUID="r:16d1b061-0636-4d0c-adab-8aead1b78e6e(org.modellwerkstatt.dataux.autcomplete)" />
-  </accessoryModels>
+  <accessoryModels />
   <generators>
     <generator alias="" namespace="org.modellwerkstatt.dataux#9014591971156139015" uuid="f03a7921-cd7f-46c5-a394-6f69238857f8">
       <models>
