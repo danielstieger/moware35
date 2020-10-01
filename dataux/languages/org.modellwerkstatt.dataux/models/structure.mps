@@ -511,9 +511,6 @@
     <node concept="PrWs8" id="1h$q6rwqYQa" role="PzmwI">
       <ref role="PrY4T" node="1h$q6rwpvzb" resolve="IPath" />
     </node>
-    <node concept="PrWs8" id="1h$q6rws0dX" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="PlHQZ" id="1h$q6rwpvDV">
     <property role="3GE5qa" value="delegates.path" />

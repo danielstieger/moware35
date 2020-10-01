@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="ybfw" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.modellwerkstatt.javaxbus(org.modellwerkstatt.objectflow.runtime/)" />
@@ -206,7 +206,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -1823,7 +1823,6 @@
     <property role="TrG5h" value="DynLockStateHolder" />
     <node concept="2tJIrI" id="_R35BQEeSz" role="jymVt" />
     <node concept="3clFb_" id="_R35BR0bfC" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="requestLocks" />
       <node concept="37vLTG" id="_R35BR0bij" role="3clF46">
         <property role="TrG5h" value="locks" />
@@ -1836,7 +1835,6 @@
       <node concept="3clFbS" id="_R35BR0bfG" role="3clF47" />
     </node>
     <node concept="3clFb_" id="_R35BQEeTb" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="ensureLocksReceived" />
       <node concept="37vLTG" id="_R35BQEeTH" role="3clF46">
         <property role="TrG5h" value="minMillis" />
@@ -1847,14 +1845,12 @@
       <node concept="3clFbS" id="_R35BQEeTf" role="3clF47" />
     </node>
     <node concept="3clFb_" id="_R35BQEeV5" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="anyLockNotGranted" />
       <node concept="10P_77" id="_R35BQEeWc" role="3clF45" />
       <node concept="3Tm1VV" id="_R35BQEeV8" role="1B3o_S" />
       <node concept="3clFbS" id="_R35BQEeV9" role="3clF47" />
     </node>
     <node concept="3clFb_" id="_R35BQEeYv" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="firstUserHoldingALock" />
       <node concept="3clFbS" id="_R35BQEeYy" role="3clF47" />
@@ -1862,7 +1858,6 @@
       <node concept="17QB3L" id="_R35BQEeXY" role="3clF45" />
     </node>
     <node concept="3clFb_" id="_R35BQEf00" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="userHoldingLock" />
       <node concept="3clFbS" id="_R35BQEf03" role="3clF47" />
@@ -1874,7 +1869,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="_R35BR0bbr" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="close" />
       <node concept="3cqZAl" id="_R35BR0bbt" role="3clF45" />
       <node concept="3Tm1VV" id="_R35BR0bbu" role="1B3o_S" />

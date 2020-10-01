@@ -2,11 +2,11 @@
 <model ref="r:ad1b6f40-df5e-4550-9fe5-c68f480ac1fd(org.modellwerkstatt.objectflow.gen.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
@@ -83,9 +83,6 @@
         <child id="1153952416686" name="body" index="2GV8ay" />
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
         <child id="1164903700860" name="catchClause" index="TEXxN" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -322,12 +319,6 @@
         <property id="3374336260035925078" name="encoding" index="1UZly_" />
       </concept>
     </language>
-    <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="2356914237085017468" name="org.modellwerkstatt.objectflow.structure.LogStatement" flags="ng" index="3VdxhY">
-        <property id="830334255848575723" name="logLevel" index="Rda9K" />
-        <child id="2356914237085088917" name="exp" index="3VcgQn" />
-      </concept>
-    </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1510949579266781519" name="jetbrains.mps.lang.generator.structure.TemplateCallMacro" flags="ln" index="5jKBG">
         <child id="1510949579266801461" name="sourceNodeQuery" index="5jGum" />
@@ -370,9 +361,6 @@
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
         <child id="1722980698497626405" name="actualArgument" index="v9R3O" />
-      </concept>
-      <concept id="1194565793557" name="jetbrains.mps.lang.generator.structure.IncludeMacro" flags="ln" index="xERo3">
-        <reference id="1194566366375" name="includeTemplate" index="xH3mL" />
       </concept>
       <concept id="1167087469898" name="jetbrains.mps.lang.generator.structure.CreateRootRule" flags="lg" index="2VPoh5">
         <reference id="1167087469901" name="templateNode" index="2VPoh2" />
@@ -524,6 +512,9 @@
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
         <child id="1154546920563" name="concept" index="3gmYPZ" />
       </concept>
@@ -571,11 +562,11 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -584,7 +575,7 @@
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -5465,7 +5456,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="toString" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="7SOU9vcXqk_" role="1B3o_S" />
       <node concept="3uibUv" id="7SOU9vcXqkA" role="3clF45">
         <ref role="3uigEE" to="wyt6:~String" resolve="String" />
@@ -13124,7 +13114,7 @@
     </node>
   </node>
   <node concept="13MO4I" id="I5W9GWH13R">
-    <property role="TrG5h" value="weave_Logger" />
+    <property role="TrG5h" value="weave_Logger#" />
     <ref role="3gUMe" to="un0u:22PsgbrwQlW" resolve="LogStatement" />
     <node concept="312cEu" id="I5W9GWH16I" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -19218,8 +19208,8 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="xERo3" id="65g7rxk_ri8" role="lGtFl">
-                          <ref role="xH3mL" node="65g7rxkz8ZX" resolve="reduce_OFXRunCmdPage" />
+                        <node concept="5jKBG" id="i_hpB1Vuaf" role="lGtFl">
+                          <ref role="v9R2y" node="65g7rxkz8ZX" resolve="reduce_OFXRunCmdPage" />
                         </node>
                       </node>
                       <node concept="liA8E" id="65g7rxk_qv4" role="2OqNvi">
@@ -19443,8 +19433,8 @@
                                         </node>
                                       </node>
                                     </node>
-                                    <node concept="xERo3" id="4jlzLDkA_Z9" role="lGtFl">
-                                      <ref role="xH3mL" node="65g7rxkz8ZX" resolve="reduce_OFXRunCmdPage" />
+                                    <node concept="5jKBG" id="i_hpB1Vuag" role="lGtFl">
+                                      <ref role="v9R2y" node="65g7rxkz8ZX" resolve="reduce_OFXRunCmdPage" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="4jlzLDkA_Za" role="2OqNvi">
@@ -19895,18 +19885,48 @@
                         <node concept="3clFbS" id="2q7OPuPYk9G" role="2GVbov">
                           <node concept="3clFbJ" id="2q7OPuPYmx9" role="3cqZAp">
                             <node concept="3clFbS" id="2q7OPuPYmxa" role="3clFbx">
-                              <node concept="3VdxhY" id="2q7OPuPYu8p" role="3cqZAp">
-                                <property role="Rda9K" value="ERROR" />
-                                <node concept="3cpWs3" id="2q7OPuPYCIt" role="3VcgQn">
-                                  <node concept="Xl_RD" id="2q7OPuPYCIT" role="3uHU7w">
-                                    <property role="Xl_RC" value=" neither terminated in final ok, cancel nor exception conclusion." />
-                                  </node>
-                                  <node concept="3cpWs3" id="2q7OPuPYCFI" role="3uHU7B">
-                                    <node concept="Xl_RD" id="2q7OPuPYwhE" role="3uHU7B">
-                                      <property role="Xl_RC" value="Framework error, succesor command " />
+                              <node concept="3clFbF" id="i_hpB309ka" role="3cqZAp">
+                                <node concept="2OqwBi" id="i_hpB310NM" role="3clFbG">
+                                  <node concept="2YIFZM" id="i_hpB309kc" role="2Oq$k0">
+                                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                                    <node concept="Xl_RD" id="i_hpB309kd" role="37wK5m">
+                                      <property role="Xl_RC" value="packageLogger" />
+                                      <node concept="17Uvod" id="i_hpB309ke" role="lGtFl">
+                                        <property role="2qtEX9" value="value" />
+                                        <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                        <node concept="3zFVjK" id="i_hpB309kf" role="3zH0cK">
+                                          <node concept="3clFbS" id="i_hpB309kg" role="2VODD2">
+                                            <node concept="3clFbF" id="i_hpB30OB7" role="3cqZAp">
+                                              <node concept="2OqwBi" id="i_hpB30QYa" role="3clFbG">
+                                                <node concept="35c_gC" id="i_hpB30OB5" role="2Oq$k0">
+                                                  <ref role="35c_gD" to="un0u:22PsgbrwQlW" resolve="LogStatement" />
+                                                </node>
+                                                <node concept="2qgKlT" id="i_hpB30Rok" role="2OqNvi">
+                                                  <ref role="37wK5l" to="70o0:3g5RX4qMJr6" resolve="getPackageName" />
+                                                  <node concept="30H73N" id="i_hpB30Tef" role="37wK5m" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
                                     </node>
-                                    <node concept="37vLTw" id="2q7OPuPYCGM" role="3uHU7w">
-                                      <ref role="3cqZAo" node="6bl3$WOMWCr" resolve="successorCommand" />
+                                  </node>
+                                  <node concept="liA8E" id="i_hpB31efY" role="2OqNvi">
+                                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                                    <node concept="3cpWs3" id="i_hpB31Fau" role="37wK5m">
+                                      <node concept="Xl_RD" id="i_hpB31FaM" role="3uHU7w">
+                                        <property role="Xl_RC" value=" neither terminated in final ok, cancel nor exception conclusion." />
+                                      </node>
+                                      <node concept="3cpWs3" id="i_hpB31Bo4" role="3uHU7B">
+                                        <node concept="Xl_RD" id="i_hpB31zAE" role="3uHU7B">
+                                          <property role="Xl_RC" value="Framework error, succesor command " />
+                                        </node>
+                                        <node concept="37vLTw" id="i_hpB31DhG" role="3uHU7w">
+                                          <ref role="3cqZAo" node="6bl3$WOMWCr" resolve="successorCommand" />
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -20559,23 +20579,52 @@
                   <node concept="3clFbH" id="4InK$iNl5aK" role="3cqZAp" />
                   <node concept="3clFbJ" id="2q7OPuPWXD2" role="3cqZAp">
                     <node concept="3clFbS" id="2q7OPuPWXD4" role="3clFbx">
-                      <node concept="3VdxhY" id="2q7OPuPYJo_" role="3cqZAp">
-                        <property role="Rda9K" value="ERROR" />
-                        <node concept="3cpWs3" id="2q7OPuPYJoA" role="3VcgQn">
-                          <node concept="Xl_RD" id="2q7OPuPYJoB" role="3uHU7w">
-                            <property role="Xl_RC" value=" neither terminated in final ok, cancel nor exception conclusion." />
-                          </node>
-                          <node concept="3cpWs3" id="2q7OPuPYJoC" role="3uHU7B">
-                            <node concept="Xl_RD" id="2q7OPuPYJoD" role="3uHU7B">
-                              <property role="Xl_RC" value="Framework error, command " />
+                      <node concept="3clFbF" id="i_hpB31hGV" role="3cqZAp">
+                        <node concept="2OqwBi" id="i_hpB31hGW" role="3clFbG">
+                          <node concept="2YIFZM" id="i_hpB31hGX" role="2Oq$k0">
+                            <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                            <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                            <node concept="Xl_RD" id="i_hpB31hGY" role="37wK5m">
+                              <property role="Xl_RC" value="packageLogger" />
+                              <node concept="17Uvod" id="i_hpB31hGZ" role="lGtFl">
+                                <property role="2qtEX9" value="value" />
+                                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                <node concept="3zFVjK" id="i_hpB31hH0" role="3zH0cK">
+                                  <node concept="3clFbS" id="i_hpB31hH1" role="2VODD2">
+                                    <node concept="3clFbF" id="i_hpB31hH2" role="3cqZAp">
+                                      <node concept="2OqwBi" id="i_hpB31hH3" role="3clFbG">
+                                        <node concept="35c_gC" id="i_hpB31hH4" role="2Oq$k0">
+                                          <ref role="35c_gD" to="un0u:22PsgbrwQlW" resolve="LogStatement" />
+                                        </node>
+                                        <node concept="2qgKlT" id="i_hpB31hH5" role="2OqNvi">
+                                          <ref role="37wK5l" to="70o0:3g5RX4qMJr6" resolve="getPackageName" />
+                                          <node concept="30H73N" id="i_hpB31hH6" role="37wK5m" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
-                            <node concept="37vLTw" id="2q7OPuPYLtS" role="3uHU7w">
-                              <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                          </node>
+                          <node concept="liA8E" id="i_hpB31hH7" role="2OqNvi">
+                            <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                            <node concept="3cpWs3" id="i_hpB31tvg" role="37wK5m">
+                              <node concept="Xl_RD" id="i_hpB31tv$" role="3uHU7w">
+                                <property role="Xl_RC" value=" neither terminated in final ok, cancel nor exception conclusion." />
+                              </node>
+                              <node concept="3cpWs3" id="i_hpB31plV" role="3uHU7B">
+                                <node concept="Xl_RD" id="i_hpB31lxX" role="3uHU7B">
+                                  <property role="Xl_RC" value="Framework error, command " />
+                                </node>
+                                <node concept="37vLTw" id="i_hpB31rfr" role="3uHU7w">
+                                  <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbH" id="2q7OPuPYJmv" role="3cqZAp" />
                     </node>
                     <node concept="3fqX7Q" id="2q7OPuPWZ63" role="3clFbw">
                       <node concept="1eOMI4" id="2q7OPuPWZ65" role="3fr31v">

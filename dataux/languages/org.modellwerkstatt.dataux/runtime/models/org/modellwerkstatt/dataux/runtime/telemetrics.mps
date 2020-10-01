@@ -2,7 +2,7 @@
 <model ref="r:72cce30f-2a64-4fe3-8e44-7617cdd42782(org.modellwerkstatt.dataux.runtime.telemetrics)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports>
@@ -34,9 +34,6 @@
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -196,7 +193,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -206,7 +203,6 @@
   <node concept="312cEu" id="2yuEF6q8DRM">
     <property role="TrG5h" value="JmxRegistrationHelper" />
     <node concept="Wx3nA" id="2yuEF6qbh0w" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="telemetricsServiceName" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="6QX7KB4RUK_" role="1tU5fm" />
@@ -216,7 +212,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="64d_Sur_lnP" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="commandContainerServiceName" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="64d_Sur_lnQ" role="1tU5fm" />
@@ -226,7 +221,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="1EBV9L$_A0$" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="clientServiceName" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="1EBV9L$_A0_" role="1tU5fm" />
@@ -239,7 +233,6 @@
       <property role="2dlcS1" value="false" />
       <property role="3TUv4t" value="true" />
       <property role="2dld4O" value="false" />
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="ENABLE_CMDCONTAINER_LOGGING" />
       <node concept="10P_77" id="6TYnK1btv_U" role="1tU5fm" />
       <node concept="3Tm6S6" id="6TYnK1btv_T" role="1B3o_S" />
@@ -1425,7 +1418,6 @@
   <node concept="312cEu" id="4x14MABr2ep">
     <property role="TrG5h" value="ApplicationTelemetrics" />
     <node concept="Wx3nA" id="1XvfUlyAdif" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="hour" />
       <node concept="3cpWsb" id="1XvfUlyAdd8" role="1tU5fm" />
@@ -1435,7 +1427,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="1XvfUlyAf8N" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="tenMinutes" />
       <node concept="3cpWsb" id="1XvfUlyAf8O" role="1tU5fm" />
@@ -2583,7 +2574,6 @@
     </node>
     <node concept="3clFb_" id="2yuEF6qe9DF" role="jymVt">
       <property role="TrG5h" value="incException" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7G_6kzK5S5D" role="3clF47">
@@ -2618,7 +2608,6 @@
     </node>
     <node concept="3clFb_" id="2yuEF6qea_7" role="jymVt">
       <property role="TrG5h" value="incCommands" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="6EsTBrVcvyp" role="3clF47">
@@ -2662,7 +2651,6 @@
     </node>
     <node concept="3clFb_" id="2yuEF6qebwW" role="jymVt">
       <property role="TrG5h" value="decCommand" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="6EsTBrVcxa$" role="3clF47">
@@ -2717,7 +2705,6 @@
     <node concept="2tJIrI" id="5XGplYB9vLT" role="jymVt" />
     <node concept="3clFb_" id="2yuEF6qe5mL" role="jymVt">
       <property role="TrG5h" value="servedRequest" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7G_6kzK5UpD" role="3clF47">
@@ -3362,28 +3349,24 @@
     <property role="TrG5h" value="ApplicationTelemetricsMBean" />
     <node concept="2tJIrI" id="4x14MABr6ZN" role="jymVt" />
     <node concept="3clFb_" id="7G_6kzKg6pj" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_FramkworkVersion" />
       <node concept="17QB3L" id="7G_6kzKg6pk" role="3clF45" />
       <node concept="3Tm1VV" id="7G_6kzKg6pl" role="1B3o_S" />
       <node concept="3clFbS" id="7G_6kzKg6pm" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4DLu_4gp18i" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_FqName" />
       <node concept="17QB3L" id="4DLu_4gp1dz" role="3clF45" />
       <node concept="3Tm1VV" id="4DLu_4gp18l" role="1B3o_S" />
       <node concept="3clFbS" id="4DLu_4gp18m" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4DLu_4gp1dA" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_Version" />
       <node concept="17QB3L" id="4DLu_4gp1dB" role="3clF45" />
       <node concept="3Tm1VV" id="4DLu_4gp1dC" role="1B3o_S" />
       <node concept="3clFbS" id="4DLu_4gp1dD" role="3clF47" />
     </node>
     <node concept="3clFb_" id="64g0II1zf9j" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getapp_ServletBasePath" />
       <node concept="3clFbS" id="64g0II1zf9m" role="3clF47" />
@@ -3391,7 +3374,6 @@
       <node concept="17QB3L" id="64g0II1zf45" role="3clF45" />
     </node>
     <node concept="3clFb_" id="64g0II1zfD4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getapp_HomeScreenPath" />
       <node concept="3clFbS" id="64g0II1zfD5" role="3clF47" />
@@ -3399,7 +3381,6 @@
       <node concept="17QB3L" id="64g0II1zfD7" role="3clF45" />
     </node>
     <node concept="3clFb_" id="63IPdUQ$r8t" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getapp_ServerName" />
       <node concept="3clFbS" id="63IPdUQ$r8u" role="3clF47" />
@@ -3407,35 +3388,30 @@
       <node concept="17QB3L" id="63IPdUQ$r8w" role="3clF45" />
     </node>
     <node concept="3clFb_" id="2yuEF6qpWqo" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_ConnectionUrl" />
       <node concept="17QB3L" id="2yuEF6qpWqp" role="3clF45" />
       <node concept="3Tm1VV" id="2yuEF6qpWqq" role="1B3o_S" />
       <node concept="3clFbS" id="2yuEF6qpWqr" role="3clF47" />
     </node>
     <node concept="3clFb_" id="3oZR98NhHtM" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_CmdDetailLogging" />
       <node concept="10P_77" id="3oZR98NhO37" role="3clF45" />
       <node concept="3Tm1VV" id="3oZR98NhHtO" role="1B3o_S" />
       <node concept="3clFbS" id="3oZR98NhHtP" role="3clF47" />
     </node>
     <node concept="3clFb_" id="5XGplYAWcff" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_FactorySettings" />
       <node concept="17QB3L" id="5XGplYAWghQ" role="3clF45" />
       <node concept="3Tm1VV" id="5XGplYAWcfh" role="1B3o_S" />
       <node concept="3clFbS" id="5XGplYAWcfi" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1S90xUtGqlL" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getapp_PreventHtmlCaching" />
       <node concept="17QB3L" id="1S90xUtGqlM" role="3clF45" />
       <node concept="3Tm1VV" id="1S90xUtGqlN" role="1B3o_S" />
       <node concept="3clFbS" id="1S90xUtGqlO" role="3clF47" />
     </node>
     <node concept="3clFb_" id="5XGplYB9ku0" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getclients_unique" />
       <node concept="3clFbS" id="5XGplYB9ku3" role="3clF47" />
@@ -3444,14 +3420,12 @@
     </node>
     <node concept="2tJIrI" id="5XGplYB9kgP" role="jymVt" />
     <node concept="3clFb_" id="3c4zI83VcPY" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getjmx_StartupWas" />
       <node concept="17QB3L" id="3c4zI83VcXM" role="3clF45" />
       <node concept="3Tm1VV" id="3c4zI83VcQ1" role="1B3o_S" />
       <node concept="3clFbS" id="3c4zI83VcQ2" role="3clF47" />
     </node>
     <node concept="3clFb_" id="64d_SurDuGY" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getjmx_Problems" />
       <node concept="3clFbS" id="64d_SurDuH1" role="3clF47" />
@@ -3461,14 +3435,12 @@
     <node concept="2tJIrI" id="3oZR98NhHoJ" role="jymVt" />
     <node concept="2tJIrI" id="64d_SurDtxp" role="jymVt" />
     <node concept="3clFb_" id="1XvfUlytQus" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getrequests_PerHour" />
       <node concept="3cpWsb" id="1XvfUlytQut" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytQuu" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytQuv" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1XvfUlytQoX" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getrequests_Per10Minutes" />
       <node concept="3cpWsb" id="1XvfUlytQoY" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytQoZ" role="1B3o_S" />
@@ -3476,7 +3448,6 @@
     </node>
     <node concept="3Tm1VV" id="4x14MABr6ZM" role="1B3o_S" />
     <node concept="3clFb_" id="4x14MABr6ZS" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getrequests_Total" />
       <node concept="3cpWsb" id="1XvfUlytQ5t" role="3clF45" />
       <node concept="3Tm1VV" id="4x14MABr6ZV" role="1B3o_S" />
@@ -3484,28 +3455,24 @@
     </node>
     <node concept="2tJIrI" id="1w5Ldyj69CP" role="jymVt" />
     <node concept="3clFb_" id="1XvfUlytSYK" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getcommands_PerHour" />
       <node concept="3cpWsb" id="1XvfUlytXFK" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytSYN" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytSYO" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1XvfUlytT5t" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getcommands_Per10Minutes" />
       <node concept="3cpWsb" id="1XvfUlytXM8" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytT5v" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytT5w" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1XvfUlytX5y" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getcommands_Total" />
       <node concept="3cpWsb" id="1XvfUlytXPz" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytX5$" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytX5_" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6EsTBrVczto" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getcommands_Open" />
       <node concept="3cpWsb" id="6EsTBrVcztp" role="3clF45" />
       <node concept="3Tm1VV" id="6EsTBrVcztq" role="1B3o_S" />
@@ -3513,21 +3480,18 @@
     </node>
     <node concept="2tJIrI" id="1XvfUlytT_3" role="jymVt" />
     <node concept="3clFb_" id="1XvfUlytXk4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getexceptions_PerHour" />
       <node concept="3cpWsb" id="1XvfUlytXTO" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytXk6" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytXk7" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1XvfUlytXk8" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getexceptions_Per10Minutes" />
       <node concept="3cpWsb" id="1XvfUlytXXf" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytXka" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytXkb" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1XvfUlytXkc" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getexceptions_Total" />
       <node concept="3cpWsb" id="1XvfUlytY0E" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytXke" role="1B3o_S" />
@@ -3535,28 +3499,24 @@
     </node>
     <node concept="2tJIrI" id="1XvfUlytXiF" role="jymVt" />
     <node concept="3clFb_" id="1XvfUlytSoc" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_AVG_Last10" />
       <node concept="3cpWsb" id="1XvfUlytSFL" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytSof" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytSog" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1XvfUlytSy3" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_AVG_Last100" />
       <node concept="3cpWsb" id="1XvfUlytSK2" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytSy5" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytSy6" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1XvfUlytS$m" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_AVG_Last1000" />
       <node concept="3cpWsb" id="1XvfUlytSNt" role="3clF45" />
       <node concept="3Tm1VV" id="1XvfUlytS$o" role="1B3o_S" />
       <node concept="3clFbS" id="1XvfUlytS$p" role="3clF47" />
     </node>
     <node concept="3clFb_" id="5XGplYAVZ5X" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_AVG" />
       <node concept="3cpWsb" id="5XGplYAVZ5Y" role="3clF45" />
       <node concept="3Tm1VV" id="5XGplYAVZ5Z" role="1B3o_S" />
@@ -3564,28 +3524,24 @@
     </node>
     <node concept="2tJIrI" id="1XvfUlytWSP" role="jymVt" />
     <node concept="3clFb_" id="7G_6kzK7wW4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_MAX_Last10" />
       <node concept="3cpWsb" id="7G_6kzK7wW5" role="3clF45" />
       <node concept="3Tm1VV" id="7G_6kzK7wW6" role="1B3o_S" />
       <node concept="3clFbS" id="7G_6kzK7wW7" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7G_6kzK7wW8" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_MAX_Last100" />
       <node concept="3cpWsb" id="7G_6kzK7wW9" role="3clF45" />
       <node concept="3Tm1VV" id="7G_6kzK7wWa" role="1B3o_S" />
       <node concept="3clFbS" id="7G_6kzK7wWb" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7G_6kzK7wWc" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_MAX_Last1000" />
       <node concept="3cpWsb" id="7G_6kzK7wWd" role="3clF45" />
       <node concept="3Tm1VV" id="7G_6kzK7wWe" role="1B3o_S" />
       <node concept="3clFbS" id="7G_6kzK7wWf" role="3clF47" />
     </node>
     <node concept="3clFb_" id="5XGplYAVZEq" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getduration_MAX" />
       <node concept="3cpWsb" id="5XGplYAVZEr" role="3clF45" />
       <node concept="3Tm1VV" id="5XGplYAVZEs" role="1B3o_S" />
@@ -3594,7 +3550,6 @@
     <node concept="2tJIrI" id="7G_6kzK7wT_" role="jymVt" />
     <node concept="2tJIrI" id="7G_6kzK7wSx" role="jymVt" />
     <node concept="3clFb_" id="1w5Ldyj69J7" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="lockServer" />
       <node concept="37vLTG" id="1XvfUlynDd9" role="3clF46">
         <property role="TrG5h" value="lock" />
@@ -3605,7 +3560,6 @@
       <node concept="3clFbS" id="1w5Ldyj69Jb" role="3clF47" />
     </node>
     <node concept="3clFb_" id="3oZR98NhGFI" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="cmdDetailLogging" />
       <node concept="37vLTG" id="3oZR98NhGFJ" role="3clF46">
         <property role="TrG5h" value="status" />
@@ -3616,7 +3570,6 @@
       <node concept="3clFbS" id="3oZR98NhGFN" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1S90xUtsKMR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="preventHtmlCaching" />
       <node concept="37vLTG" id="1S90xUtsKMS" role="3clF46">
         <property role="TrG5h" value="status" />
@@ -3628,7 +3581,6 @@
     </node>
     <node concept="2tJIrI" id="1XvfUlytSV6" role="jymVt" />
     <node concept="3clFb_" id="5OZ8iimA81C" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="redirectNewRequests" />
       <node concept="17QB3L" id="5OZ8iimA8bW" role="3clF45" />
       <node concept="3Tm1VV" id="5OZ8iimA81F" role="1B3o_S" />
@@ -3639,7 +3591,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="5OZ8iimA6z2" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="redirectNewRequests" />
       <node concept="37vLTG" id="5OZ8iimA6Kx" role="3clF46">
         <property role="TrG5h" value="addr" />
@@ -3650,7 +3601,6 @@
       <node concept="3clFbS" id="5OZ8iimA6z6" role="3clF47" />
     </node>
     <node concept="3clFb_" id="5OZ8iimA76l" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getsettings_redirectNewRequests" />
       <node concept="17QB3L" id="5OZ8iimA7il" role="3clF45" />
       <node concept="3Tm1VV" id="5OZ8iimA76o" role="1B3o_S" />

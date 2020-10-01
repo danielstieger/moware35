@@ -2,9 +2,9 @@
 <model ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports>
@@ -30,9 +30,6 @@
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -237,7 +234,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -262,7 +259,6 @@
     <property role="TrG5h" value="IGenAppUiModule" />
     <node concept="2tJIrI" id="Y3fiVK$o3H" role="jymVt" />
     <node concept="3clFb_" id="Y3fiVK$o3W" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createStartMenu" />
       <node concept="37vLTG" id="59p98S7H2I4" role="3clF46">
         <property role="TrG5h" value="userEnv" />
@@ -277,7 +273,6 @@
       <node concept="3clFbS" id="Y3fiVK$o40" role="3clF47" />
     </node>
     <node concept="3clFb_" id="Y3fiVK$o4C" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createExtrasMenu" />
       <node concept="37vLTG" id="59p98S7H9lh" role="3clF46">
         <property role="TrG5h" value="userEnv" />
@@ -292,7 +287,6 @@
       <node concept="3clFbS" id="Y3fiVK$o4F" role="3clF47" />
     </node>
     <node concept="3clFb_" id="3OfvFtmCgsZ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createStartupCmd" />
       <node concept="37vLTG" id="hcdqIeShOX" role="3clF46">
@@ -308,7 +302,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="2qrl3a2UnwH" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createAppTileActions" />
       <node concept="37vLTG" id="59p98S7GLRV" role="3clF46">
@@ -326,7 +319,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="4h8Goff2NxP" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="recalcTilesLabel" />
       <node concept="37vLTG" id="4h8Goff3kr2" role="3clF46">
@@ -355,21 +347,18 @@
     </node>
     <node concept="2tJIrI" id="1SuqpWQOJ92" role="jymVt" />
     <node concept="3clFb_" id="3sx4Hz319k9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getApplicationVersion" />
       <node concept="17QB3L" id="3sx4Hz319nl" role="3clF45" />
       <node concept="3Tm1VV" id="3sx4Hz319kc" role="1B3o_S" />
       <node concept="3clFbS" id="3sx4Hz319kd" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6CVJxS8gcow" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getApplicationName" />
       <node concept="17QB3L" id="6CVJxS8gcox" role="3clF45" />
       <node concept="3Tm1VV" id="6CVJxS8gcoy" role="1B3o_S" />
       <node concept="3clFbS" id="6CVJxS8gcoz" role="3clF47" />
     </node>
     <node concept="3clFb_" id="75iQIE8U7Sr" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="startup" />
       <node concept="37vLTG" id="75iQIE8U8c6" role="3clF46">
         <property role="TrG5h" value="username" />
@@ -396,7 +385,6 @@
       <node concept="3clFbS" id="75iQIE8U7Sv" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6DdGzN6dJLV" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="userLoggedIn" />
       <node concept="37vLTG" id="6DdGzN6dK0E" role="3clF46">
         <property role="TrG5h" value="env" />
@@ -420,7 +408,6 @@
   <node concept="3HP615" id="3VIcZtBehi$">
     <property role="TrG5h" value="IGenSelControlled" />
     <node concept="3clFb_" id="3VIcZtBeokR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="selectionChanged" />
       <node concept="37vLTG" id="3VIcZtBeokS" role="3clF46">
         <property role="TrG5h" value="selection" />
@@ -449,7 +436,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3VIcZtBeokX" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="loadList" />
       <node concept="37vLTG" id="3VIcZtBeokY" role="3clF46">
         <property role="TrG5h" value="objects" />
@@ -470,7 +456,6 @@
       <node concept="3clFbS" id="3VIcZtBeol5" role="3clF47" />
     </node>
     <node concept="3clFb_" id="2zlKbqjrMwK" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="saveAndValidate" />
       <node concept="10P_77" id="2zlKbqjrMwL" role="3clF45" />
       <node concept="3Tm1VV" id="2zlKbqjrMwM" role="1B3o_S" />
@@ -492,14 +477,12 @@
       </node>
     </node>
     <node concept="3clFb_" id="4xjkqfyaUVo" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="forceNotEditable" />
       <node concept="3cqZAl" id="4xjkqfyaUVq" role="3clF45" />
       <node concept="3Tm1VV" id="4xjkqfyaUVr" role="1B3o_S" />
       <node concept="3clFbS" id="4xjkqfyaUVs" role="3clF47" />
     </node>
     <node concept="3clFb_" id="2zlKbqjrMvy" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="initializeGen" />
       <node concept="3cqZAl" id="2zlKbqjrMvz" role="3clF45" />
       <node concept="3Tm1VV" id="2zlKbqjrMv$" role="1B3o_S" />
@@ -561,7 +544,6 @@
     </node>
     <node concept="2tJIrI" id="72_IH8prUnf" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBgO49" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getToolkitImplementation" />
       <node concept="3uibUv" id="3VIcZtBgOJO" role="3clF45">
         <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
@@ -571,7 +553,6 @@
     </node>
     <node concept="2tJIrI" id="72_IH8prUqr" role="jymVt" />
     <node concept="3clFb_" id="4RDimilqv5Z" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="gcClear" />
       <node concept="3cqZAl" id="4RDimilqv60" role="3clF45" />
       <node concept="3Tm1VV" id="4RDimilqv61" role="1B3o_S" />
@@ -1592,7 +1573,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="toString" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="3nLGOmWvHQM" role="1B3o_S" />
       <node concept="3uibUv" id="3nLGOmWvHQO" role="3clF45">
         <ref role="3uigEE" to="wyt6:~String" resolve="String" />
@@ -2032,7 +2012,6 @@
       <property role="2bfB8j" value="false" />
       <property role="TrG5h" value="GenHelper" />
       <node concept="3clFb_" id="Y3fiVJMZWR" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="addChildren" />
         <node concept="37vLTG" id="Y3fiVJN07W" role="3clF46">
           <property role="TrG5h" value="current" />
@@ -2624,7 +2603,6 @@
     <property role="TrG5h" value="IGenPagePane" />
     <node concept="2tJIrI" id="72_IH8pufXE" role="jymVt" />
     <node concept="3clFb_" id="72_IH8pvERa" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getPagePaneType" />
       <node concept="3clFbS" id="72_IH8pvERd" role="3clF47" />
@@ -2636,14 +2614,12 @@
     <node concept="2tJIrI" id="72_IH8pvEL4" role="jymVt" />
     <node concept="2tJIrI" id="72_IH8pvEJE" role="jymVt" />
     <node concept="3clFb_" id="72_IH8pufYQ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="pageNeedsMaxAvailableSpace" />
       <node concept="10P_77" id="72_IH8pug1g" role="3clF45" />
       <node concept="3Tm1VV" id="72_IH8pufYT" role="1B3o_S" />
       <node concept="3clFbS" id="72_IH8pufYU" role="3clF47" />
     </node>
     <node concept="3clFb_" id="ao4XGSSXhI" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="calcUiColor" />
       <node concept="37vLTG" id="ao4XGSSXm9" role="3clF46">
         <property role="TrG5h" value="selectedRootObject" />
@@ -2657,7 +2633,6 @@
     </node>
     <node concept="2tJIrI" id="ao4XGSSXfN" role="jymVt" />
     <node concept="3clFb_" id="72_IH8pull1" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setProblems" />
       <node concept="37vLTG" id="72_IH8puln9" role="3clF46">
         <property role="TrG5h" value="listOfProblems" />
@@ -2672,7 +2647,6 @@
       <node concept="3clFbS" id="72_IH8pull4" role="3clF47" />
     </node>
     <node concept="3clFb_" id="72_IH8pullj" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setHeading" />
       <node concept="3cqZAl" id="72_IH8pulpx" role="3clF45" />
       <node concept="3Tm1VV" id="72_IH8pulll" role="1B3o_S" />
@@ -2685,7 +2659,6 @@
     <node concept="2tJIrI" id="72_IH8punk5" role="jymVt" />
     <node concept="2tJIrI" id="72_IH8pvEIh" role="jymVt" />
     <node concept="3clFb_" id="72_IH8puntS" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="initializeGenPagePane" />
       <node concept="3cqZAl" id="72_IH8puntT" role="3clF45" />
       <node concept="3Tm1VV" id="72_IH8puntU" role="1B3o_S" />
@@ -2708,7 +2681,6 @@
       <property role="TrG5h" value="T" />
     </node>
     <node concept="3clFb_" id="72_IH8puzGr" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getPagePaneToolkitImpl" />
       <node concept="3clFbS" id="72_IH8puzGu" role="3clF47" />
@@ -2719,7 +2691,6 @@
     </node>
     <node concept="2tJIrI" id="72_IH8pxzXJ" role="jymVt" />
     <node concept="3clFb_" id="72_IH8px$3K" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="gcClear" />
       <node concept="3cqZAl" id="72_IH8px$3M" role="3clF45" />
       <node concept="3Tm1VV" id="72_IH8px$3N" role="1B3o_S" />
