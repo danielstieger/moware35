@@ -2,7 +2,7 @@
 <model ref="r:76480de2-fa88-48a2-bd7b-72164b8122e1(org.modellwerkstatt.vaadinforms.auth)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -34,9 +34,6 @@
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -160,7 +157,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -171,28 +168,24 @@
     <property role="TrG5h" value="IVAuthentication" />
     <node concept="2tJIrI" id="5$BCFrw71pr" role="jymVt" />
     <node concept="3clFb_" id="5$BCFrw7azk" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="needsLoginWindow" />
       <node concept="10P_77" id="5$BCFrw7a$L" role="3clF45" />
       <node concept="3Tm1VV" id="5$BCFrw7azn" role="1B3o_S" />
       <node concept="3clFbS" id="5$BCFrw7azo" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1A4FVdAvc50" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCookieMaxAgeAfterAuthentication" />
       <node concept="10Oyi0" id="1A4FVdAvc8D" role="3clF45" />
       <node concept="3Tm1VV" id="1A4FVdAvc52" role="1B3o_S" />
       <node concept="3clFbS" id="1A4FVdAvc53" role="3clF47" />
     </node>
     <node concept="3clFb_" id="65KdKINSjkb" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCookieMaxAgeAfterAuthenticationForProlongedUserSessions" />
       <node concept="10Oyi0" id="65KdKINSjkc" role="3clF45" />
       <node concept="3Tm1VV" id="65KdKINSjkd" role="1B3o_S" />
       <node concept="3clFbS" id="65KdKINSjke" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4FiFGILfhHH" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="sessionMaxInactiveIntervallAfterAppLogin" />
       <node concept="10Oyi0" id="4FiFGILfjoW" role="3clF45" />
       <node concept="3Tm1VV" id="4FiFGILfhHK" role="1B3o_S" />
@@ -200,7 +193,6 @@
     </node>
     <node concept="2tJIrI" id="1A4FVdAvbx4" role="jymVt" />
     <node concept="3clFb_" id="5$BCFrw7a_G" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="authenticate" />
       <node concept="37vLTG" id="6MOvunDm2Ue" role="3clF46">
         <property role="TrG5h" value="request" />
@@ -233,14 +225,12 @@
       <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="IAuthResult" />
       <node concept="3clFb_" id="5$BCFrw9Ox_" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="isAuthenticated" />
         <node concept="10P_77" id="5$BCFrw9Oze" role="3clF45" />
         <node concept="3Tm1VV" id="5$BCFrw9OxC" role="1B3o_S" />
         <node concept="3clFbS" id="5$BCFrw9OxD" role="3clF47" />
       </node>
       <node concept="3clFb_" id="5$BCFrwa9Ke" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="2aFKle" value="false" />
         <property role="TrG5h" value="getMessage" />
         <node concept="3clFbS" id="5$BCFrwa9Kh" role="3clF47" />
@@ -248,7 +238,6 @@
         <node concept="17QB3L" id="5$BCFrwa9J9" role="3clF45" />
       </node>
       <node concept="3clFb_" id="5$BCFrw9O$$" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="2aFKle" value="false" />
         <property role="TrG5h" value="getUserName" />
         <node concept="3clFbS" id="5$BCFrw9O$B" role="3clF47" />
@@ -256,7 +245,6 @@
         <node concept="17QB3L" id="5$BCFrw9O$k" role="3clF45" />
       </node>
       <node concept="3clFb_" id="5$BCFrw9O_K" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="2aFKle" value="false" />
         <property role="TrG5h" value="getPassword" />
         <node concept="3clFbS" id="5$BCFrw9O_L" role="3clF47" />
@@ -461,7 +449,6 @@
   <node concept="312cEu" id="4FiFGILpgbM">
     <property role="TrG5h" value="VLdapAuthentication" />
     <node concept="Wx3nA" id="6OyHsl$XYJz" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="TWO_WEEKS" />
       <property role="3TUv4t" value="true" />
       <node concept="10Oyi0" id="6OyHsl$XYJ$" role="1tU5fm" />
@@ -471,7 +458,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="1A4FVdAwG06" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="ONE_WEEK" />
       <property role="3TUv4t" value="true" />
       <node concept="10Oyi0" id="1A4FVdAwG07" role="1tU5fm" />
@@ -481,7 +467,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="4FiFGILpHRv" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="TWENTYFOUR_HOURS" />
       <property role="3TUv4t" value="true" />
       <node concept="10Oyi0" id="4FiFGILpHRw" role="1tU5fm" />
@@ -1193,7 +1178,6 @@
   <node concept="312cEu" id="3GKiyr8FMGt">
     <property role="TrG5h" value="VUrlParamAuthentification" />
     <node concept="Wx3nA" id="3GKiyr8FMGu" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="TWENTYFOUR_HOURS" />
       <property role="3TUv4t" value="true" />
       <node concept="10Oyi0" id="3GKiyr8FMGv" role="1tU5fm" />
