@@ -1079,7 +1079,7 @@
               <node concept="2OqwBi" id="ao4XGSxKcS" role="3uHU7w">
                 <node concept="1Wqviy" id="ao4XGSxK9c" role="2Oq$k0" />
                 <node concept="liA8E" id="ao4XGSxKkH" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+                  <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                   <node concept="Xl_RD" id="ao4XGSxKmn" role="37wK5m">
                     <property role="Xl_RC" value="[0-9A-F]+" />
                   </node>
@@ -1089,7 +1089,7 @@
                 <node concept="2OqwBi" id="ao4XGSxJLn" role="3uHU7B">
                   <node concept="1Wqviy" id="ao4XGSxJIl" role="2Oq$k0" />
                   <node concept="liA8E" id="ao4XGSxJRL" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                    <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                   </node>
                 </node>
                 <node concept="3cmrfG" id="ao4XGSxK0w" role="3uHU7w">

@@ -662,7 +662,7 @@
                     <ref role="3cqZAo" node="_R35BQn8zo" resolve="lockName" />
                   </node>
                   <node concept="liA8E" id="_R35BQnfSA" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                    <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                   </node>
                 </node>
               </node>
@@ -675,7 +675,7 @@
                   <node concept="2OqwBi" id="_R35BQngqG" role="3uHU7w">
                     <node concept="Xjq3P" id="_R35BQngoA" role="2Oq$k0" />
                     <node concept="liA8E" id="_R35BQnguY" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                   <node concept="3cpWs3" id="_R35BQngiO" role="3uHU7B">
@@ -696,7 +696,7 @@
                 <node concept="3K4zz7" id="6EKawaqDAvO" role="33vP2m">
                   <node concept="2OqwBi" id="6EKawaqDAzt" role="3K4Cdx">
                     <node concept="liA8E" id="6EKawaqDACV" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="37vLTw" id="_R35BR0gcr" role="37wK5m">
                         <ref role="3cqZAo" node="_R35BR0dPk" resolve="deviceName" />
                       </node>
@@ -734,7 +734,7 @@
               <node concept="37vLTI" id="_R35BQEs_a" role="3clFbG">
                 <node concept="2YIFZM" id="6EKawaqDD26" role="37vLTx">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 </node>
                 <node concept="37vLTw" id="_R35BQEtqZ" role="37vLTJ">
                   <ref role="3cqZAo" node="_R35BQEsII" resolve="ebLockRequestedTimeStamp" />
@@ -780,10 +780,10 @@
                             <node concept="2OqwBi" id="6EKawaqDm8y" role="2Oq$k0">
                               <node concept="2YIFZM" id="6EKawaqDm8z" role="2Oq$k0">
                                 <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
-                                <ref role="37wK5l" to="vpat:~Json.object():mjson.Json" resolve="object" />
+                                <ref role="37wK5l" to="vpat:~Json.object()" resolve="object" />
                               </node>
                               <node concept="liA8E" id="6EKawaqDm8$" role="2OqNvi">
-                                <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                                <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
                                 <node concept="Xl_RD" id="6EKawaqDm8_" role="37wK5m">
                                   <property role="Xl_RC" value="type" />
                                 </node>
@@ -793,7 +793,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="6EKawaqDm8B" role="2OqNvi">
-                              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
                               <node concept="Xl_RD" id="6EKawaqDm8C" role="37wK5m">
                                 <property role="Xl_RC" value="lockName" />
                               </node>
@@ -803,7 +803,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="6EKawaqDm8E" role="2OqNvi">
-                            <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                            <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
                             <node concept="Xl_RD" id="6EKawaqDm8F" role="37wK5m">
                               <property role="Xl_RC" value="userName" />
                             </node>
@@ -813,7 +813,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="6EKawaqDm8H" role="2OqNvi">
-                          <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                          <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
                           <node concept="Xl_RD" id="6EKawaqDm8I" role="37wK5m">
                             <property role="Xl_RC" value="userInstanceName" />
                           </node>
@@ -823,7 +823,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="6EKawaqDm8K" role="2OqNvi">
-                        <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                        <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
                         <node concept="Xl_RD" id="6EKawaqDm8L" role="37wK5m">
                           <property role="Xl_RC" value="requestTimestamp" />
                         </node>
@@ -833,14 +833,14 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="6EKawaqDm8N" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                      <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
                       <node concept="Xl_RD" id="6EKawaqDm8O" role="37wK5m">
                         <property role="Xl_RC" value="containerHash" />
                       </node>
                       <node concept="2OqwBi" id="6EKawaqDm8P" role="37wK5m">
                         <node concept="Xjq3P" id="6EKawaqDm8Q" role="2Oq$k0" />
                         <node concept="liA8E" id="6EKawaqDm8R" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                          <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                         </node>
                       </node>
                     </node>
@@ -901,7 +901,7 @@
                   </node>
                   <node concept="2YIFZM" id="_R35BQEvj0" role="3uHU7B">
                     <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                   </node>
                 </node>
               </node>
@@ -946,7 +946,7 @@
                 <node concept="3clFbF" id="_R35BQEvj9" role="3cqZAp">
                   <node concept="2YIFZM" id="_R35BQEvja" role="3clFbG">
                     <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                    <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
+                    <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
                     <node concept="37vLTw" id="_R35BQEvjb" role="37wK5m">
                       <ref role="3cqZAo" node="_R35BQEvj4" resolve="timeToWaitAdditionally" />
                     </node>
@@ -1029,7 +1029,7 @@
                 <ref role="3cqZAo" node="_R35BQErQn" resolve="lockName" />
               </node>
               <node concept="liA8E" id="_R35BQEGoD" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
               </node>
             </node>
           </node>
@@ -1077,7 +1077,7 @@
           <node concept="2OqwBi" id="_R35BQEJeV" role="3clFbw">
             <node concept="Xl_RD" id="_R35BQEJbV" role="2Oq$k0" />
             <node concept="liA8E" id="_R35BQEJkH" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="_R35BQEJnd" role="37wK5m">
                 <ref role="3cqZAo" node="_R35BQEHit" resolve="result" />
               </node>
@@ -1151,7 +1151,7 @@
               </node>
               <node concept="2OqwBi" id="_R35BQEkyr" role="3clFbw">
                 <node concept="liA8E" id="_R35BQEkys" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                   <node concept="3EllGN" id="_R35BQEkyt" role="37wK5m">
                     <node concept="37vLTw" id="_R35BQEkyu" role="3ElVtu">
                       <ref role="3cqZAo" node="_R35BQEkyD" resolve="key" />
@@ -1265,7 +1265,7 @@
                               <ref role="3cqZAo" node="6EKawaqkpZE" resolve="busMsg" />
                             </node>
                             <node concept="liA8E" id="4nH4LOEu5xy" role="2OqNvi">
-                              <ref role="37wK5l" to="ybfw:~Message.getErrMessage():java.lang.String" resolve="getErrMessage" />
+                              <ref role="37wK5l" to="ybfw:~Message.getErrMessage()" resolve="getErrMessage" />
                             </node>
                           </node>
                         </node>
@@ -1278,7 +1278,7 @@
                           <ref role="3cqZAo" node="6EKawaqkpZE" resolve="busMsg" />
                         </node>
                         <node concept="liA8E" id="4nH4LOEu9mg" role="2OqNvi">
-                          <ref role="37wK5l" to="ybfw:~Message.getErrFailureCode():java.lang.String" resolve="getErrFailureCode" />
+                          <ref role="37wK5l" to="ybfw:~Message.getErrFailureCode()" resolve="getErrFailureCode" />
                         </node>
                       </node>
                     </node>
@@ -1291,7 +1291,7 @@
                       <ref role="3cqZAo" node="6EKawaqkpZE" resolve="busMsg" />
                     </node>
                     <node concept="liA8E" id="7XXWpoMYOG6" role="2OqNvi">
-                      <ref role="37wK5l" to="ybfw:~Message.getErrFailureType():java.lang.String" resolve="getErrFailureType" />
+                      <ref role="37wK5l" to="ybfw:~Message.getErrFailureType()" resolve="getErrFailureType" />
                     </node>
                   </node>
                 </node>
@@ -1304,7 +1304,7 @@
               <ref role="3cqZAo" node="6EKawaqkpZE" resolve="busMsg" />
             </node>
             <node concept="liA8E" id="G_aOOcFrvf" role="2OqNvi">
-              <ref role="37wK5l" to="ybfw:~Message.isErrorMsg():boolean" resolve="isErrorMsg" />
+              <ref role="37wK5l" to="ybfw:~Message.isErrorMsg()" resolve="isErrorMsg" />
             </node>
           </node>
         </node>
@@ -1320,7 +1320,7 @@
                 <ref role="3cqZAo" node="6EKawaqkpZE" resolve="busMsg" />
               </node>
               <node concept="liA8E" id="G_aOOcED6M" role="2OqNvi">
-                <ref role="37wK5l" to="ybfw:~Message.getBodyAsMJson():mjson.Json" resolve="getBodyAsMJson" />
+                <ref role="37wK5l" to="ybfw:~Message.getBodyAsMJson()" resolve="getBodyAsMJson" />
               </node>
             </node>
           </node>
@@ -1341,7 +1341,7 @@
                       <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                     </node>
                     <node concept="liA8E" id="4nH4LOEuhai" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -1355,7 +1355,7 @@
                 <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
               </node>
               <node concept="liA8E" id="7lZUamRownq" role="2OqNvi">
-                <ref role="37wK5l" to="vpat:~Json.has(java.lang.String):boolean" resolve="has" />
+                <ref role="37wK5l" to="vpat:~Json.has(java.lang.String)" resolve="has" />
                 <node concept="Xl_RD" id="7lZUamRownr" role="37wK5m">
                   <property role="Xl_RC" value="type" />
                 </node>
@@ -1373,14 +1373,14 @@
                   <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                 </node>
                 <node concept="liA8E" id="3iJaUC7GRgF" role="2OqNvi">
-                  <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
+                  <ref role="37wK5l" to="vpat:~Json.at(java.lang.String)" resolve="at" />
                   <node concept="Xl_RD" id="3iJaUC7GRhM" role="37wK5m">
                     <property role="Xl_RC" value="type" />
                   </node>
                 </node>
               </node>
               <node concept="liA8E" id="3iJaUC7GRqL" role="2OqNvi">
-                <ref role="37wK5l" to="vpat:~Json.asString():java.lang.String" resolve="asString" />
+                <ref role="37wK5l" to="vpat:~Json.asString()" resolve="asString" />
               </node>
             </node>
           </node>
@@ -1403,7 +1403,7 @@
                       <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                     </node>
                     <node concept="liA8E" id="2M4KcIQU5xh" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String):boolean" resolve="has" />
+                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String)" resolve="has" />
                       <node concept="Xl_RD" id="2M4KcIQU5xi" role="37wK5m">
                         <property role="Xl_RC" value="lockName" />
                       </node>
@@ -1417,18 +1417,18 @@
                           <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                         </node>
                         <node concept="liA8E" id="2M4KcIQU5xo" role="2OqNvi">
-                          <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
+                          <ref role="37wK5l" to="vpat:~Json.at(java.lang.String)" resolve="at" />
                           <node concept="Xl_RD" id="2M4KcIQU5xp" role="37wK5m">
                             <property role="Xl_RC" value="lockName" />
                           </node>
                         </node>
                       </node>
                       <node concept="liA8E" id="2M4KcIQU5xq" role="2OqNvi">
-                        <ref role="37wK5l" to="vpat:~Json.asString():java.lang.String" resolve="asString" />
+                        <ref role="37wK5l" to="vpat:~Json.asString()" resolve="asString" />
                       </node>
                     </node>
                     <node concept="liA8E" id="2M4KcIQU5xr" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                      <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                     </node>
                   </node>
                 </node>
@@ -1444,7 +1444,7 @@
                       <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                     </node>
                     <node concept="liA8E" id="2M4KcIQU5xy" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String):boolean" resolve="has" />
+                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String)" resolve="has" />
                       <node concept="Xl_RD" id="2M4KcIQU5xz" role="37wK5m">
                         <property role="Xl_RC" value="userName" />
                       </node>
@@ -1457,14 +1457,14 @@
                         <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                       </node>
                       <node concept="liA8E" id="2M4KcIQU5xC" role="2OqNvi">
-                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
+                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String)" resolve="at" />
                         <node concept="Xl_RD" id="2M4KcIQU5xD" role="37wK5m">
                           <property role="Xl_RC" value="userName" />
                         </node>
                       </node>
                     </node>
                     <node concept="liA8E" id="2M4KcIQU5xE" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.asString():java.lang.String" resolve="asString" />
+                      <ref role="37wK5l" to="vpat:~Json.asString()" resolve="asString" />
                     </node>
                   </node>
                 </node>
@@ -1480,7 +1480,7 @@
                       <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                     </node>
                     <node concept="liA8E" id="2M4KcIQU5xL" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String):boolean" resolve="has" />
+                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String)" resolve="has" />
                       <node concept="Xl_RD" id="2M4KcIQU5xM" role="37wK5m">
                         <property role="Xl_RC" value="userInstanceName" />
                       </node>
@@ -1493,14 +1493,14 @@
                         <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                       </node>
                       <node concept="liA8E" id="2M4KcIQU5xR" role="2OqNvi">
-                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
+                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String)" resolve="at" />
                         <node concept="Xl_RD" id="2M4KcIQU5xS" role="37wK5m">
                           <property role="Xl_RC" value="userInstanceName" />
                         </node>
                       </node>
                     </node>
                     <node concept="liA8E" id="2M4KcIQU5xT" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.asString():java.lang.String" resolve="asString" />
+                      <ref role="37wK5l" to="vpat:~Json.asString()" resolve="asString" />
                     </node>
                   </node>
                 </node>
@@ -1517,14 +1517,14 @@
                         <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                       </node>
                       <node concept="liA8E" id="ZwppkOw6rK" role="2OqNvi">
-                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
+                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String)" resolve="at" />
                         <node concept="Xl_RD" id="ZwppkOw6to" role="37wK5m">
                           <property role="Xl_RC" value="requestTimestamp" />
                         </node>
                       </node>
                     </node>
                     <node concept="liA8E" id="ZwppkOw75I" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.asLong():long" resolve="asLong" />
+                      <ref role="37wK5l" to="vpat:~Json.asLong()" resolve="asLong" />
                     </node>
                   </node>
                   <node concept="3cmrfG" id="ZwppkOw7fO" role="3K4GZi">
@@ -1535,7 +1535,7 @@
                       <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                     </node>
                     <node concept="liA8E" id="ZwppkOw5KK" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String):boolean" resolve="has" />
+                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String)" resolve="has" />
                       <node concept="Xl_RD" id="ZwppkOw5VB" role="37wK5m">
                         <property role="Xl_RC" value="requestTimestamp" />
                       </node>
@@ -1555,14 +1555,14 @@
                         <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                       </node>
                       <node concept="liA8E" id="ZwppkOw7Qw" role="2OqNvi">
-                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
+                        <ref role="37wK5l" to="vpat:~Json.at(java.lang.String)" resolve="at" />
                         <node concept="Xl_RD" id="ZwppkOw7Qx" role="37wK5m">
                           <property role="Xl_RC" value="containerHash" />
                         </node>
                       </node>
                     </node>
                     <node concept="liA8E" id="ZwppkOw7Qy" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.asLong():long" resolve="asLong" />
+                      <ref role="37wK5l" to="vpat:~Json.asLong()" resolve="asLong" />
                     </node>
                   </node>
                   <node concept="3cmrfG" id="ZwppkOw7Qz" role="3K4GZi">
@@ -1573,7 +1573,7 @@
                       <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
                     </node>
                     <node concept="liA8E" id="ZwppkOw7QA" role="2OqNvi">
-                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String):boolean" resolve="has" />
+                      <ref role="37wK5l" to="vpat:~Json.has(java.lang.String)" resolve="has" />
                       <node concept="Xl_RD" id="ZwppkOw7QB" role="37wK5m">
                         <property role="Xl_RC" value="containerHash" />
                       </node>
@@ -1595,7 +1595,7 @@
                         <ref role="3cqZAo" node="2M4KcIQUNwp" resolve="tmp" />
                       </node>
                       <node concept="liA8E" id="2M4KcIQUNvJ" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                        <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
                       </node>
                     </node>
                   </node>
@@ -1606,7 +1606,7 @@
                     <node concept="3fqX7Q" id="2M4KcIQUNvN" role="3uHU7B">
                       <node concept="2OqwBi" id="2M4KcIQUNvO" role="3fr31v">
                         <node concept="liA8E" id="2M4KcIQUNvP" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="37vLTw" id="2M4KcIQUNvQ" role="37wK5m">
                             <ref role="3cqZAo" node="2M4KcIQUNvF" resolve="requestedLock" />
                           </node>
@@ -1653,12 +1653,12 @@
                               <ref role="3cqZAo" node="2M4KcIQU5xG" resolve="userInstanceName" />
                             </node>
                             <node concept="liA8E" id="_R35BQnnaU" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="3cpWs3" id="_R35BQnnyf" role="37wK5m">
                                 <node concept="2OqwBi" id="_R35BQnnEd" role="3uHU7w">
                                   <node concept="Xjq3P" id="_R35BQnnA4" role="2Oq$k0" />
                                   <node concept="liA8E" id="_R35BQnnKx" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                                    <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                                   </node>
                                 </node>
                                 <node concept="3cpWs3" id="_R35BQnno3" role="3uHU7B">
@@ -1680,7 +1680,7 @@
                           <node concept="2OqwBi" id="ZwppkOwl9d" role="3uHU7w">
                             <node concept="Xjq3P" id="ZwppkOwl61" role="2Oq$k0" />
                             <node concept="liA8E" id="ZwppkOwln2" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                              <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                             </node>
                           </node>
                         </node>
@@ -1699,7 +1699,7 @@
                   <ref role="3cqZAo" node="2M4KcIQU5xc" resolve="lockName" />
                 </node>
                 <node concept="liA8E" id="2M4KcIQUNwt" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                  <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
                   <node concept="Xl_RD" id="2M4KcIQUNwu" role="37wK5m">
                     <property role="Xl_RC" value="," />
                   </node>
@@ -1712,7 +1712,7 @@
               <property role="Xl_RC" value="locked" />
             </node>
             <node concept="liA8E" id="2M4KcIQU0Q_" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="2M4KcIQU0QA" role="37wK5m">
                 <ref role="3cqZAo" node="3iJaUC7GPgd" resolve="type" />
               </node>
@@ -1737,7 +1737,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
               </node>
               <node concept="liA8E" id="_R35BR0pH$" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                 <node concept="3cpWs3" id="_R35BR0q83" role="37wK5m">
                   <node concept="37vLTw" id="_R35BR0q9N" role="3uHU7w">
                     <ref role="3cqZAo" node="_R35BR0pBo" resolve="msg" />

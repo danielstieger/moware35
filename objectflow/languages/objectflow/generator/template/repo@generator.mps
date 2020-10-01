@@ -647,7 +647,7 @@
                     <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
                   </node>
                   <node concept="liA8E" id="4kZ75GwPpN8" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                     <node concept="3cpWs3" id="4kZ75GwPpN9" role="37wK5m">
                       <node concept="Xl_RD" id="4kZ75GwPpNa" role="3uHU7B">
                         <property role="Xl_RC" value="!! Property macro name: " />
@@ -1170,7 +1170,7 @@
                     <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                   </node>
                   <node concept="liA8E" id="1TLQBdrNNh3" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                     <node concept="3cpWs3" id="1TLQBdrNNh8" role="37wK5m">
                       <node concept="1rXfSq" id="4$qgDG0C5U" role="3uHU7w">
                         <ref role="37wK5l" node="1TLQBdrNNgh" resolve="dummy" />

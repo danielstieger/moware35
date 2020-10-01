@@ -1304,7 +1304,7 @@
                           <ref role="3cqZAo" node="3Ojm3UunEE$" resolve="objects" />
                         </node>
                         <node concept="liA8E" id="3Ojm3Uuo4NE" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                          <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                         </node>
                       </node>
                       <node concept="3cmrfG" id="3Ojm3UunEF1" role="3uHU7w">
@@ -1346,7 +1346,7 @@
                                     <ref role="3cqZAo" node="3Ojm3UunEE$" resolve="objects" />
                                   </node>
                                   <node concept="liA8E" id="3Ojm3UuokNC" role="2OqNvi">
-                                    <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                                    <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
                                     <node concept="3cmrfG" id="3Ojm3UuokRj" role="37wK5m">
                                       <property role="3cmrfH" value="0" />
                                     </node>

@@ -820,7 +820,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="OG9snxZNB$" role="2OqNvi">
-                      <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                      <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay()" resolve="getMillisOfDay" />
                     </node>
                   </node>
                 </node>
@@ -941,7 +941,7 @@
                     <ref role="3cqZAo" node="5$BCFrwdaz_" resolve="request" />
                   </node>
                   <node concept="liA8E" id="5$BCFrwdbck" role="2OqNvi">
-                    <ref role="37wK5l" to="tk4x:~VaadinRequest.getRemoteAddr():java.lang.String" resolve="getRemoteAddr" />
+                    <ref role="37wK5l" to="tk4x:~VaadinRequest.getRemoteAddr()" resolve="getRemoteAddr" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="5$BCFrwdbf4" role="37wK5m">
@@ -1004,7 +1004,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="61_QXqSd2gv" role="2OqNvi">
-                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay()" resolve="getMillisOfDay" />
                 </node>
               </node>
             </node>
@@ -1151,7 +1151,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="4FiFGILipYJ" role="2OqNvi">
-                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay()" resolve="getMillisOfDay" />
                 </node>
               </node>
             </node>
@@ -1265,11 +1265,11 @@
                   <ref role="3cqZAo" node="3GKiyr8FMGF" resolve="request" />
                 </node>
                 <node concept="liA8E" id="7S_QNZ7vb_j" role="2OqNvi">
-                  <ref role="37wK5l" to="tk4x:~VaadinRequest.getParameterMap():java.util.Map" resolve="getParameterMap" />
+                  <ref role="37wK5l" to="tk4x:~VaadinRequest.getParameterMap()" resolve="getParameterMap" />
                 </node>
               </node>
               <node concept="liA8E" id="7S_QNZ7vcdU" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
+                <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object)" resolve="get" />
                 <node concept="Xl_RD" id="7S_QNZ7vcvt" role="37wK5m">
                   <property role="Xl_RC" value="username" />
                 </node>
@@ -1392,7 +1392,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3GKiyr8FMHo" role="2OqNvi">
-                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay()" resolve="getMillisOfDay" />
                 </node>
               </node>
             </node>

@@ -98,7 +98,7 @@
           <node concept="3clFbF" id="3oZR98NhndC" role="3cqZAp">
             <node concept="2OqwBi" id="3oZR98Nhofh" role="3clFbG">
               <node concept="liA8E" id="3oZR98Nhotv" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="2OqwBi" id="3oZR98NhnE7" role="37wK5m">
                   <node concept="2OqwBi" id="3oZR98NhnhZ" role="2Oq$k0">
                     <node concept="_YI3z" id="3oZR98NhndB" role="2Oq$k0" />

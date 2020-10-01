@@ -542,7 +542,7 @@
                   <ref role="3cqZAo" node="7kypvuI$E9F" resolve="classifierName" />
                 </node>
                 <node concept="liA8E" id="7kypvuI$Ea7" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="7kypvuI$Ea8" role="37wK5m">
                     <property role="Xl_RC" value="java.math.BigDecimal" />
                   </node>
@@ -618,7 +618,7 @@
                   <ref role="3cqZAo" node="7kypvuI$Ebd" resolve="classifierName" />
                 </node>
                 <node concept="liA8E" id="7kypvuI$Ebr" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="7kypvuI$Ebs" role="37wK5m">
                     <property role="Xl_RC" value="org.joda.time.LocalDate" />
                   </node>
@@ -780,7 +780,7 @@
                   <ref role="3cqZAo" node="Kou8LehYDl" resolve="classifierName" />
                 </node>
                 <node concept="liA8E" id="Kou8LehYDE" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="Kou8LehYDF" role="37wK5m">
                     <property role="Xl_RC" value="java.util.List" />
                   </node>
@@ -977,7 +977,7 @@
                       <ref role="3cqZAo" node="Kou8Lei62z" resolve="name" />
                     </node>
                     <node concept="liA8E" id="Kou8Lei6gx" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
+                      <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
                       <node concept="3cpWs3" id="Kou8Lei6gL" role="37wK5m">
                         <node concept="3cmrfG" id="Kou8Lei6gO" role="3uHU7w">
                           <property role="3cmrfH" value="1" />
@@ -987,7 +987,7 @@
                             <ref role="3cqZAo" node="Kou8Lei62z" resolve="name" />
                           </node>
                           <node concept="liA8E" id="Kou8Lei6gF" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.lastIndexOf(java.lang.String):int" resolve="lastIndexOf" />
+                            <ref role="37wK5l" to="wyt6:~String.lastIndexOf(java.lang.String)" resolve="lastIndexOf" />
                             <node concept="Xl_RD" id="Kou8Lei6gG" role="37wK5m">
                               <property role="Xl_RC" value="." />
                             </node>
@@ -1064,7 +1064,7 @@
                   <ref role="3cqZAo" node="7kypvuI$EaC" resolve="classifierName" />
                 </node>
                 <node concept="liA8E" id="7kypvuI$EaQ" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="7kypvuI$EaR" role="37wK5m">
                     <property role="Xl_RC" value="org.joda.time.DateTime" />
                   </node>
@@ -1225,7 +1225,7 @@
                     <ref role="3cqZAo" node="5E_HiByU9m9" resolve="classifierName" />
                   </node>
                   <node concept="liA8E" id="5E_HiByU9mo" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                     <node concept="Xl_RD" id="5E_HiByU9mp" role="37wK5m">
                       <property role="Xl_RC" value="org.joda.time.LocalDate" />
                     </node>
@@ -1236,7 +1236,7 @@
                     <ref role="3cqZAo" node="5E_HiByU9m9" resolve="classifierName" />
                   </node>
                   <node concept="liA8E" id="5E_HiByU9ms" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                     <node concept="Xl_RD" id="5E_HiByU9mt" role="37wK5m">
                       <property role="Xl_RC" value="org.joda.time.DateTime" />
                     </node>
@@ -1257,7 +1257,7 @@
                   <ref role="3cqZAo" node="5E_HiByU9m9" resolve="classifierName" />
                 </node>
                 <node concept="liA8E" id="5E_HiByU9m$" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="5E_HiByU9m_" role="37wK5m">
                     <property role="Xl_RC" value="java.math.BigDecimal" />
                   </node>
@@ -1456,7 +1456,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="7kypvuI$PG9" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                 </node>
               </node>
               <node concept="Xl_RD" id="7kypvuI$PGf" role="3uHU7w">
@@ -1713,7 +1713,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="Kou8LemJlf" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="2OqwBi" id="Kou8LemJlu" role="37wK5m">
                                 <node concept="2OqwBi" id="Kou8LemJlj" role="2Oq$k0">
                                   <node concept="37vLTw" id="KVbXdPfeHj" role="2Oq$k0">
@@ -7747,7 +7747,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1H_ywRYwNS9" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+              <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
             </node>
           </node>
         </node>
@@ -7837,7 +7837,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="EYyuKpdWdL" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                        <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                         <node concept="Xl_RD" id="EYyuKpdWdM" role="37wK5m">
                           <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.IRepository" />
                         </node>
@@ -8011,7 +8011,7 @@
                         <ref role="3cqZAo" node="1H_ywRYv_Bm" resolve="st" />
                       </node>
                       <node concept="liA8E" id="1H_ywRYv_BN" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                         <node concept="3cpWs3" id="7$A8r6g2Hhi" role="37wK5m">
                           <node concept="Xl_RD" id="7$A8r6g2Hhl" role="3uHU7B">
                             <property role="Xl_RC" value="~" />
@@ -8034,7 +8034,7 @@
                         <ref role="3cqZAo" node="1H_ywRYv_Bm" resolve="st" />
                       </node>
                       <node concept="liA8E" id="1H_ywRYvJTm" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                         <node concept="Xl_RD" id="1H_ywRYvJTo" role="37wK5m">
                           <property role="Xl_RC" value=", " />
                         </node>
@@ -8056,7 +8056,7 @@
               <ref role="3cqZAo" node="1H_ywRYv_Bm" resolve="st" />
             </node>
             <node concept="liA8E" id="1H_ywRYv_BC" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+              <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
             </node>
           </node>
         </node>
@@ -8368,7 +8368,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="36k2UwsuWwR" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                 </node>
               </node>
               <node concept="Xl_RD" id="1NLiuQti4Y5" role="3uHU7w">
@@ -8411,7 +8411,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="36k2UwsuWx1" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                    <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="1HOHq98IJJ9" role="3uHU7w">
@@ -8948,7 +8948,7 @@
               <ref role="3cqZAo" node="1H_ywRYwY7Y" resolve="st" />
             </node>
             <node concept="liA8E" id="1H_ywRYwYc7" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="2OqwBi" id="1H_ywRYwYcr" role="37wK5m">
                 <node concept="2OqwBi" id="1H_ywRYwYce" role="2Oq$k0">
                   <node concept="13iPFW" id="1H_ywRYwYc8" role="2Oq$k0" />
@@ -8969,7 +8969,7 @@
               <ref role="3cqZAo" node="1H_ywRYwY7Y" resolve="st" />
             </node>
             <node concept="liA8E" id="1H_ywRYwYcM" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="Xl_RD" id="1H_ywRYwYcN" role="37wK5m">
                 <property role="Xl_RC" value="." />
               </node>
@@ -8982,7 +8982,7 @@
               <ref role="3cqZAo" node="1H_ywRYwY7Y" resolve="st" />
             </node>
             <node concept="liA8E" id="1H_ywRYwYd4" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="2OqwBi" id="1H_ywRYx8Na" role="37wK5m">
                 <node concept="2OqwBi" id="1H_ywRYwYdD" role="2Oq$k0">
                   <node concept="2OqwBi" id="1H_ywRYwYdr" role="2Oq$k0">
@@ -9009,7 +9009,7 @@
               <ref role="3cqZAo" node="1H_ywRYwY7Y" resolve="st" />
             </node>
             <node concept="liA8E" id="1H_ywRYwY8f" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+              <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
             </node>
           </node>
         </node>
@@ -10704,7 +10704,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="4DgJ2IYJGM" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                    <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
                     <node concept="Xl_RD" id="4DgJ2IYJL9" role="37wK5m">
                       <property role="Xl_RC" value="\n" />
                     </node>
@@ -10714,7 +10714,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="4DgJ2J6575" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                  <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
                   <node concept="Xl_RD" id="4DgJ2J65dQ" role="37wK5m">
                     <property role="Xl_RC" value=" +" />
                   </node>
@@ -10724,7 +10724,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4DgJ2IYLzn" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
               </node>
             </node>
           </node>

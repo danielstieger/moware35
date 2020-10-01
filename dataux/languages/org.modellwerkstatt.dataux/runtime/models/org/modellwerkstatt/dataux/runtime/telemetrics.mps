@@ -327,7 +327,7 @@
                   <ref role="3cqZAo" node="2yuEF6q8Sy_" resolve="servletPath" />
                 </node>
                 <node concept="liA8E" id="64g0II1yvye" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
+                  <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
                   <node concept="3cmrfG" id="64g0II1yvAp" role="37wK5m">
                     <property role="3cmrfH" value="1" />
                   </node>
@@ -373,7 +373,7 @@
           <node concept="37vLTI" id="4ZThPOYBLmV" role="3clFbG">
             <node concept="2YIFZM" id="4x14MABrwDC" role="37vLTx">
               <ref role="1Pybhc" to="uzjr:~ManagementFactory" resolve="ManagementFactory" />
-              <ref role="37wK5l" to="uzjr:~ManagementFactory.getPlatformMBeanServer():javax.management.MBeanServer" resolve="getPlatformMBeanServer" />
+              <ref role="37wK5l" to="uzjr:~ManagementFactory.getPlatformMBeanServer()" resolve="getPlatformMBeanServer" />
             </node>
             <node concept="37vLTw" id="4ZThPOYBNgr" role="37vLTJ">
               <ref role="3cqZAo" node="2yuEF6q95DN" resolve="beanServer" />
@@ -517,7 +517,7 @@
                   <ref role="3cqZAo" node="2yuEF6q95DN" resolve="beanServer" />
                 </node>
                 <node concept="liA8E" id="2yuEF6qba$l" role="2OqNvi">
-                  <ref role="37wK5l" to="9vh7:~MBeanServer.registerMBean(java.lang.Object,javax.management.ObjectName):javax.management.ObjectInstance" resolve="registerMBean" />
+                  <ref role="37wK5l" to="9vh7:~MBeanServer.registerMBean(java.lang.Object,javax.management.ObjectName)" resolve="registerMBean" />
                   <node concept="37vLTw" id="2yuEF6qbd3L" role="37wK5m">
                     <ref role="3cqZAo" node="2yuEF6qaF3t" resolve="appTelemetrics" />
                   </node>
@@ -698,7 +698,7 @@
                   <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
                 </node>
                 <node concept="liA8E" id="4n24ZlExStj" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                  <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                 </node>
               </node>
               <node concept="3cpWs3" id="4n24ZlExQEC" role="3uHU7B">
@@ -735,7 +735,7 @@
                   <ref role="3cqZAo" node="2yuEF6q95DN" resolve="beanServer" />
                 </node>
                 <node concept="liA8E" id="1EBV9L$_BFW" role="2OqNvi">
-                  <ref role="37wK5l" to="9vh7:~MBeanServer.registerMBean(java.lang.Object,javax.management.ObjectName):javax.management.ObjectInstance" resolve="registerMBean" />
+                  <ref role="37wK5l" to="9vh7:~MBeanServer.registerMBean(java.lang.Object,javax.management.ObjectName)" resolve="registerMBean" />
                   <node concept="37vLTw" id="1EBV9L$_BFX" role="37wK5m">
                     <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
                   </node>
@@ -777,7 +777,7 @@
                           <ref role="3cqZAo" node="1EBV9L$_BGo" resolve="e" />
                         </node>
                         <node concept="liA8E" id="1EBV9L$_BGl" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="5H_LKg_WpeR" role="3uHU7B">
@@ -821,7 +821,7 @@
                           <ref role="3cqZAo" node="1EBV9L$_BGA" resolve="e" />
                         </node>
                         <node concept="liA8E" id="1EBV9L$_BGz" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="5H_LKg_Wr9F" role="3uHU7B">
@@ -865,7 +865,7 @@
                           <ref role="3cqZAo" node="1EBV9L$_BGO" resolve="e" />
                         </node>
                         <node concept="liA8E" id="1EBV9L$_BGL" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="5H_LKg_WqEl" role="3uHU7B">
@@ -909,7 +909,7 @@
                           <ref role="3cqZAo" node="1EBV9L$_BH1" resolve="e" />
                         </node>
                         <node concept="liA8E" id="1EBV9L$_BGZ" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="5H_LKg_Wqe1" role="3uHU7B">
@@ -969,7 +969,7 @@
                   <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="clientTelemetrics" />
                 </node>
                 <node concept="liA8E" id="4n24ZlExTdp" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                  <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                 </node>
               </node>
               <node concept="3cpWs3" id="4n24ZlExTdq" role="3uHU7B">
@@ -1006,7 +1006,7 @@
                   <ref role="3cqZAo" node="2yuEF6q95DN" resolve="beanServer" />
                 </node>
                 <node concept="liA8E" id="1EBV9L$_AMk" role="2OqNvi">
-                  <ref role="37wK5l" to="9vh7:~MBeanServer.unregisterMBean(javax.management.ObjectName):void" resolve="unregisterMBean" />
+                  <ref role="37wK5l" to="9vh7:~MBeanServer.unregisterMBean(javax.management.ObjectName)" resolve="unregisterMBean" />
                   <node concept="2ShNRf" id="1EBV9L$_AMl" role="37wK5m">
                     <node concept="1pGfFk" id="1EBV9L$_AMm" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
@@ -1050,7 +1050,7 @@
                           <ref role="3cqZAo" node="1EBV9L$_AMJ" resolve="e" />
                         </node>
                         <node concept="liA8E" id="1EBV9L$_AMG" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="5H_LKg_Wtgr" role="3uHU7B">
@@ -1094,7 +1094,7 @@
                           <ref role="3cqZAo" node="1EBV9L$_AMX" resolve="e" />
                         </node>
                         <node concept="liA8E" id="1EBV9L$_AMU" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="5H_LKg_WsXT" role="3uHU7B">
@@ -1144,7 +1144,7 @@
                           <ref role="3cqZAo" node="1EBV9L$_AN0" resolve="e" />
                         </node>
                         <node concept="liA8E" id="1EBV9L$_ANa" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="5H_LKg_WsEb" role="3uHU7B">
@@ -1204,14 +1204,14 @@
         <node concept="3clFbF" id="5NnlNqtAs3t" role="3cqZAp">
           <node concept="2OqwBi" id="5NnlNqtAsAW" role="3clFbG">
             <node concept="2YIFZM" id="5NnlNqtAs6H" role="2Oq$k0">
-              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
               <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
               <node concept="3VsKOn" id="5NnlNqtAspZ" role="37wK5m">
                 <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
               </node>
             </node>
             <node concept="liA8E" id="5NnlNqtAsRo" role="2OqNvi">
-              <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+              <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
               <node concept="37vLTw" id="5NnlNqtAsSN" role="37wK5m">
                 <ref role="3cqZAo" node="5NnlNqtAoTf" resolve="msg" />
               </node>
@@ -1248,7 +1248,7 @@
                   <ref role="3cqZAo" node="2yuEF6q95DN" resolve="beanServer" />
                 </node>
                 <node concept="liA8E" id="2yuEF6qa8qM" role="2OqNvi">
-                  <ref role="37wK5l" to="9vh7:~MBeanServer.unregisterMBean(javax.management.ObjectName):void" resolve="unregisterMBean" />
+                  <ref role="37wK5l" to="9vh7:~MBeanServer.unregisterMBean(javax.management.ObjectName)" resolve="unregisterMBean" />
                   <node concept="2ShNRf" id="2yuEF6qa8ut" role="37wK5m">
                     <node concept="1pGfFk" id="2yuEF6qaanD" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
@@ -1967,7 +1967,7 @@
               <ref role="3cqZAo" node="4O5lEKxGPdN" resolve="n" />
             </node>
             <node concept="liA8E" id="5IG_xFhRn11" role="2OqNvi">
-              <ref role="37wK5l" to="9vh7:~Notification.setUserData(java.lang.Object):void" resolve="setUserData" />
+              <ref role="37wK5l" to="9vh7:~Notification.setUserData(java.lang.Object)" resolve="setUserData" />
               <node concept="37vLTw" id="5IG_xFhRn2X" role="37wK5m">
                 <ref role="3cqZAo" node="5IG_xFhRcSg" resolve="msg1" />
               </node>
@@ -1976,7 +1976,7 @@
         </node>
         <node concept="3clFbF" id="4O5lEKxGPdW" role="3cqZAp">
           <node concept="1rXfSq" id="4O5lEKxGPdX" role="3clFbG">
-            <ref role="37wK5l" to="9vh7:~NotificationBroadcasterSupport.sendNotification(javax.management.Notification):void" resolve="sendNotification" />
+            <ref role="37wK5l" to="9vh7:~NotificationBroadcasterSupport.sendNotification(javax.management.Notification)" resolve="sendNotification" />
             <node concept="37vLTw" id="4O5lEKxGPdY" role="37wK5m">
               <ref role="3cqZAo" node="4O5lEKxGPdN" resolve="n" />
             </node>
@@ -2114,7 +2114,7 @@
               <ref role="3cqZAo" node="3c4zI83Vgdk" resolve="jmxStartupWas" />
             </node>
             <node concept="liA8E" id="3c4zI83Vlkz" role="2OqNvi">
-              <ref role="37wK5l" to="oz00:~AbstractDateTime.toString():java.lang.String" resolve="toString" />
+              <ref role="37wK5l" to="oz00:~AbstractDateTime.toString()" resolve="toString" />
             </node>
           </node>
         </node>
@@ -2134,7 +2134,7 @@
               <ref role="3cqZAo" node="5XGplYB9mjz" resolve="totalClients" />
             </node>
             <node concept="liA8E" id="5XGplYB9uYo" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicInteger.get():int" resolve="get" />
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.get()" resolve="get" />
             </node>
           </node>
         </node>
@@ -2189,7 +2189,7 @@
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAhRT" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 </node>
               </node>
             </node>
@@ -2217,7 +2217,7 @@
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAiad" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 </node>
               </node>
             </node>
@@ -2237,7 +2237,7 @@
               <ref role="3cqZAo" node="1XvfUly$4of" resolve="totalRequest" />
             </node>
             <node concept="liA8E" id="4NOhjsrFqve" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicLong.get():long" resolve="get" />
+              <ref role="37wK5l" to="i5cy:~AtomicLong.get()" resolve="get" />
             </node>
           </node>
         </node>
@@ -2263,7 +2263,7 @@
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAiyX" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 </node>
               </node>
             </node>
@@ -2290,7 +2290,7 @@
                   <ref role="3cqZAo" node="1XvfUlyAf8N" resolve="tenMinutes" />
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAiQX" role="3uHU7B">
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                 </node>
               </node>
@@ -2311,7 +2311,7 @@
               <ref role="3cqZAo" node="1XvfUly$4Pf" resolve="totalCommands" />
             </node>
             <node concept="liA8E" id="4NOhjsrFqfJ" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicLong.get():long" resolve="get" />
+              <ref role="37wK5l" to="i5cy:~AtomicLong.get()" resolve="get" />
             </node>
           </node>
         </node>
@@ -2329,7 +2329,7 @@
               <ref role="3cqZAo" node="6EsTBrVcxXg" resolve="openCommands" />
             </node>
             <node concept="liA8E" id="4NOhjsrFq0W" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicInteger.get():int" resolve="get" />
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.get()" resolve="get" />
             </node>
           </node>
         </node>
@@ -2355,7 +2355,7 @@
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAj3f" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 </node>
               </node>
             </node>
@@ -2383,7 +2383,7 @@
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAj5z" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 </node>
               </node>
             </node>
@@ -2403,7 +2403,7 @@
               <ref role="3cqZAo" node="1XvfUly$8HO" resolve="totalExceptions" />
             </node>
             <node concept="liA8E" id="4NOhjsrFpLt" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicLong.get():long" resolve="get" />
+              <ref role="37wK5l" to="i5cy:~AtomicLong.get()" resolve="get" />
             </node>
           </node>
         </node>
@@ -2583,7 +2583,7 @@
               <ref role="3cqZAo" node="1XvfUly$8HO" resolve="totalExceptions" />
             </node>
             <node concept="liA8E" id="4NOhjsrFrHA" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicLong.incrementAndGet():long" resolve="incrementAndGet" />
+              <ref role="37wK5l" to="i5cy:~AtomicLong.incrementAndGet()" resolve="incrementAndGet" />
             </node>
           </node>
         </node>
@@ -2595,7 +2595,7 @@
             <node concept="liA8E" id="7G_6kzK5T1x" role="2OqNvi">
               <ref role="37wK5l" to="28jr:4QTIUTBRe82" resolve="addSample" />
               <node concept="2YIFZM" id="7G_6kzK5TDa" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
               </node>
             </node>
@@ -2617,7 +2617,7 @@
               <ref role="3cqZAo" node="1XvfUly$4Pf" resolve="totalCommands" />
             </node>
             <node concept="liA8E" id="4NOhjsrFsoM" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicLong.incrementAndGet():long" resolve="incrementAndGet" />
+              <ref role="37wK5l" to="i5cy:~AtomicLong.incrementAndGet()" resolve="incrementAndGet" />
             </node>
           </node>
         </node>
@@ -2627,7 +2627,7 @@
               <ref role="3cqZAo" node="6EsTBrVcxXg" resolve="openCommands" />
             </node>
             <node concept="liA8E" id="4NOhjsrFsI$" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicInteger.incrementAndGet():int" resolve="incrementAndGet" />
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.incrementAndGet()" resolve="incrementAndGet" />
             </node>
           </node>
         </node>
@@ -2640,7 +2640,7 @@
               <ref role="37wK5l" to="28jr:4QTIUTBRe82" resolve="addSample" />
               <node concept="2YIFZM" id="6EsTBrVcvy_" role="37wK5m">
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
               </node>
             </node>
           </node>
@@ -2660,7 +2660,7 @@
               <ref role="3cqZAo" node="6EsTBrVcxXg" resolve="openCommands" />
             </node>
             <node concept="liA8E" id="2yuEF6qeef6" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicInteger.decrementAndGet():int" resolve="decrementAndGet" />
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.decrementAndGet()" resolve="decrementAndGet" />
             </node>
           </node>
         </node>
@@ -2679,7 +2679,7 @@
               <ref role="3cqZAo" node="5XGplYB9mjz" resolve="totalClients" />
             </node>
             <node concept="liA8E" id="5XGplYB9zYY" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicInteger.incrementAndGet():int" resolve="incrementAndGet" />
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.incrementAndGet()" resolve="incrementAndGet" />
             </node>
           </node>
         </node>
@@ -2696,7 +2696,7 @@
               <ref role="3cqZAo" node="5XGplYB9mjz" resolve="totalClients" />
             </node>
             <node concept="liA8E" id="5XGplYB9zZP" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicInteger.decrementAndGet():int" resolve="decrementAndGet" />
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.decrementAndGet()" resolve="decrementAndGet" />
             </node>
           </node>
         </node>
@@ -2713,7 +2713,7 @@
             <property role="TrG5h" value="now" />
             <node concept="3cpWsb" id="7G_6kzK5UB5" role="1tU5fm" />
             <node concept="2YIFZM" id="7G_6kzK5UFW" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
               <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
             </node>
           </node>
@@ -2735,7 +2735,7 @@
         <node concept="3clFbF" id="7G_6kzK5UpE" role="3cqZAp">
           <node concept="2OqwBi" id="4NOhjsrFtWa" role="3clFbG">
             <node concept="liA8E" id="4NOhjsrFuaF" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicLong.incrementAndGet():long" resolve="incrementAndGet" />
+              <ref role="37wK5l" to="i5cy:~AtomicLong.incrementAndGet()" resolve="incrementAndGet" />
             </node>
             <node concept="37vLTw" id="2yuEF6qe70d" role="2Oq$k0">
               <ref role="3cqZAo" node="1XvfUly$4of" resolve="totalRequest" />
@@ -3040,13 +3040,13 @@
               <node concept="22lmx$" id="5OZ8iimAaHS" role="1eOMHV">
                 <node concept="2OqwBi" id="5OZ8iimAbgu" role="3uHU7w">
                   <node concept="liA8E" id="5OZ8iimAbrV" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="2OqwBi" id="5OZ8iimAaRl" role="37wK5m">
                       <node concept="37vLTw" id="5OZ8iimAaK8" role="2Oq$k0">
                         <ref role="3cqZAo" node="5OZ8iimA8G1" resolve="redirectionAddress" />
                       </node>
                       <node concept="liA8E" id="5OZ8iimAbaZ" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                        <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
                       </node>
                     </node>
                   </node>
@@ -3129,13 +3129,13 @@
           </node>
           <node concept="2OqwBi" id="5OZ8iimAl1I" role="3clFbw">
             <node concept="liA8E" id="5OZ8iimAlm7" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="5OZ8iimAkFf" role="37wK5m">
                 <node concept="37vLTw" id="5OZ8iimAkzE" role="2Oq$k0">
                   <ref role="3cqZAo" node="5OZ8iimA98I" resolve="addr" />
                 </node>
                 <node concept="liA8E" id="5OZ8iimAkWJ" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                  <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
                 </node>
               </node>
             </node>
@@ -3160,18 +3160,18 @@
               <property role="Xl_RC" value="string" />
             </node>
             <node concept="liA8E" id="5OZ8iimGwlA" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="2OqwBi" id="5OZ8iimGwHH" role="37wK5m">
                 <node concept="2OqwBi" id="5OZ8iimGwqg" role="2Oq$k0">
                   <node concept="37vLTw" id="5OZ8iimGwlP" role="2Oq$k0">
                     <ref role="3cqZAo" node="5OZ8iimA98I" resolve="addr" />
                   </node>
                   <node concept="liA8E" id="5OZ8iimGwFe" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                    <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5OZ8iimGwZP" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                 </node>
               </node>
             </node>
@@ -3206,7 +3206,7 @@
                     <ref role="3cqZAo" node="5OZ8iimA98I" resolve="addr" />
                   </node>
                   <node concept="liA8E" id="5OZ8iimB2lK" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                    <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                   </node>
                 </node>
               </node>
@@ -3216,7 +3216,7 @@
                 <ref role="3cqZAo" node="5OZ8iimA98I" resolve="addr" />
               </node>
               <node concept="liA8E" id="5OZ8iimAVSL" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.lastIndexOf(int):int" resolve="lastIndexOf" />
+                <ref role="37wK5l" to="wyt6:~String.lastIndexOf(int)" resolve="lastIndexOf" />
                 <node concept="1Xhbcc" id="5OZ8iimAYzk" role="37wK5m">
                   <property role="1XhdNS" value="/" />
                 </node>
@@ -3286,14 +3286,14 @@
         <node concept="3clFbF" id="7uJlwJwMKjG" role="3cqZAp">
           <node concept="2OqwBi" id="7uJlwJwMKEA" role="3clFbG">
             <node concept="2YIFZM" id="7uJlwJwMKmh" role="2Oq$k0">
-              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
               <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
               <node concept="3VsKOn" id="7uJlwJwMKCy" role="37wK5m">
                 <ref role="3VsUkX" node="4x14MABr2ep" resolve="ApplicationTelemetrics" />
               </node>
             </node>
             <node concept="liA8E" id="7uJlwJwML1l" role="2OqNvi">
-              <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+              <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
               <node concept="3cpWs3" id="7uJlwJwMLXy" role="37wK5m">
                 <node concept="2YIFZM" id="7uJlwJwMM4I" role="3uHU7w">
                   <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
@@ -3618,7 +3618,7 @@
       <node concept="3Tm6S6" id="7sK_OLrlf1f" role="1B3o_S" />
       <node concept="2YIFZM" id="7sK_OLrlhhi" role="33vP2m">
         <ref role="1Pybhc" to="x5li:~DateTimeFormat" resolve="DateTimeFormat" />
-        <ref role="37wK5l" to="x5li:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
+        <ref role="37wK5l" to="x5li:~DateTimeFormat.forPattern(java.lang.String)" resolve="forPattern" />
         <node concept="Xl_RD" id="7sK_OLrlhiA" role="37wK5m">
           <property role="Xl_RC" value="EEE dd MMM kk:mm:ss" />
         </node>
@@ -3671,7 +3671,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="5ubRLyf6HnG" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="5ubRLyf6HnH" role="37wK5m">
                 <property role="Xl_RC" value="bootstrap.servers" />
               </node>
@@ -3687,7 +3687,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="5ubRLyf6HnM" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="5ubRLyf6HnN" role="37wK5m">
                 <property role="Xl_RC" value="acks" />
               </node>
@@ -3703,7 +3703,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="5ubRLyf6HnS" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="5ubRLyf6HnT" role="37wK5m">
                 <property role="Xl_RC" value="retries" />
               </node>
@@ -3719,7 +3719,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="5ubRLyf6HnY" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="5ubRLyf6HnZ" role="37wK5m">
                 <property role="Xl_RC" value="batch.size" />
               </node>
@@ -3735,7 +3735,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="5ubRLyf6Ho4" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="5ubRLyf6Ho5" role="37wK5m">
                 <property role="Xl_RC" value="linger.ms" />
               </node>
@@ -3751,7 +3751,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="5ubRLyf6Hoa" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="5ubRLyf6Hob" role="37wK5m">
                 <property role="Xl_RC" value="key.serializer" />
               </node>
@@ -3767,7 +3767,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="5ubRLyf6Hog" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="5ubRLyf6Hoh" role="37wK5m">
                 <property role="Xl_RC" value="value.serializer" />
               </node>
@@ -3789,7 +3789,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="2xjYCx_e4LW" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="2xjYCx_e4LX" role="37wK5m">
                 <property role="Xl_RC" value="request.timeout.ms" />
               </node>
@@ -3805,7 +3805,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="2xjYCx_e701" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="2xjYCx_e702" role="37wK5m">
                 <property role="Xl_RC" value="max.block.ms" />
               </node>
@@ -3826,7 +3826,7 @@
               <ref role="3cqZAo" node="5ubRLyf6Hn_" resolve="props" />
             </node>
             <node concept="liA8E" id="2xjYCx_e7sx" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="Xl_RD" id="2xjYCx_e7sy" role="37wK5m">
                 <property role="Xl_RC" value="metadata.fetch.timeout.ms" />
               </node>
@@ -3909,7 +3909,7 @@
                 <property role="TrG5h" value="t" />
                 <node concept="3cpWsb" id="1i8Fajkl0MW" role="1tU5fm" />
                 <node concept="2YIFZM" id="1i8Fajkl0U2" role="33vP2m">
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                 </node>
               </node>
@@ -3923,7 +3923,7 @@
                     <ref role="3cqZAo" node="7sK_OLrlH9B" resolve="frmt" />
                   </node>
                   <node concept="liA8E" id="7sK_OLrlrn5" role="2OqNvi">
-                    <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long):java.lang.String" resolve="print" />
+                    <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long)" resolve="print" />
                     <node concept="37vLTw" id="7sK_OLrlrsQ" role="37wK5m">
                       <ref role="3cqZAo" node="7sK_OLrloGh" resolve="lastEventMillis" />
                     </node>
@@ -3956,7 +3956,7 @@
                       <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
                     </node>
                     <node concept="liA8E" id="3CnNtH_6gfd" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                       <node concept="Xl_RD" id="3CnNtH_6ggT" role="37wK5m">
                         <property role="Xl_RC" value="Kafka event logging disabled since custom timeout was hit." />
                       </node>
@@ -3971,7 +3971,7 @@
                 <node concept="3cpWsd" id="1i8Fajkl1uX" role="3uHU7B">
                   <node concept="2YIFZM" id="1i8Fajkl15K" role="3uHU7B">
                     <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                   </node>
                   <node concept="37vLTw" id="1i8Fajkl1yu" role="3uHU7w">
                     <ref role="3cqZAo" node="1i8Fajkl0N1" resolve="t" />
@@ -3998,7 +3998,7 @@
                       <ref role="3cqZAo" node="2_e6g62ZgLR" resolve="ex" />
                     </node>
                     <node concept="liA8E" id="2_e6g62Zh_e" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                     </node>
                   </node>
                 </node>
@@ -4021,7 +4021,7 @@
                       <ref role="3cqZAo" node="2_e6g62Zhtn" resolve="st" />
                     </node>
                     <node concept="liA8E" id="2_e6g62ZhlV" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                       <node concept="Xl_RD" id="2_e6g62Zhnq" role="37wK5m">
                         <property role="Xl_RC" value="Cannot send after the producer is closed" />
                       </node>
@@ -4088,16 +4088,16 @@
               <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
             </node>
             <node concept="liA8E" id="7sK_OLrlGMu" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="7sK_OLrlH0D" role="37wK5m">
                 <node concept="2OqwBi" id="7sK_OLrlHA5" role="3uHU7w">
                   <node concept="37vLTw" id="7sK_OLrlHzE" role="2Oq$k0">
                     <ref role="3cqZAo" node="7sK_OLrlH9B" resolve="frmt" />
                   </node>
                   <node concept="liA8E" id="7sK_OLrlHD$" role="2OqNvi">
-                    <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long):java.lang.String" resolve="print" />
+                    <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long)" resolve="print" />
                     <node concept="2YIFZM" id="7sK_OLrlHLS" role="37wK5m">
-                      <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                      <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                       <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                     </node>
                   </node>

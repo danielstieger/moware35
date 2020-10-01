@@ -2828,7 +2828,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="6uo0g5XX8kH" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="Xl_RD" id="6uo0g5XX8l9" role="37wK5m">
                         <property role="Xl_RC" value="Danman" />
                       </node>

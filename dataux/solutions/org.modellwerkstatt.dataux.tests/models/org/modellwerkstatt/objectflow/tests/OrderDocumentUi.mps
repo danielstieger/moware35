@@ -233,7 +233,7 @@
         <child id="7784207101902499646" name="authFunction" index="2MZU0z" />
         <child id="7784207101904780260" name="mainMenu" index="2N77jT" />
       </concept>
-      <concept id="7784207101902368101" name="org.modellwerkstatt.dataux.structure.AppAuthenticationFunction" flags="ig" index="2MWq9S" />
+      <concept id="7784207101902368101" name="org.modellwerkstatt.dataux.structure.AppAuthenticationFunction" flags="ng" index="2MWq9S" />
       <concept id="7784207101902285036" name="org.modellwerkstatt.dataux.structure.OptVersion" flags="ng" index="2MWAvL">
         <child id="7784207101902285039" name="exp" index="2MWAvM" />
       </concept>
@@ -363,7 +363,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5Lf9QwIZnkF" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                     <node concept="Xl_RD" id="5Lf9QwIZnkG" role="37wK5m">
                       <property role="Xl_RC" value="Case11:" />
                     </node>
@@ -400,7 +400,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="6mpCyrQUp87" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="6mpCyrQUp88" role="37wK5m">
                     <property role="Xl_RC" value="OD Case13:" />
                   </node>
@@ -420,7 +420,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5Lf9QwIZnu_" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                     <node concept="Xl_RD" id="5Lf9QwIZnuA" role="37wK5m">
                       <property role="Xl_RC" value="OD Case17:" />
                     </node>
@@ -607,7 +607,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5Lf9QwIZmUe" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                 <node concept="Xl_RD" id="5Lf9QwIZmUf" role="37wK5m">
                   <property role="Xl_RC" value="Case9:" />
                 </node>
@@ -644,7 +644,7 @@
               </node>
             </node>
             <node concept="liA8E" id="5O582ufdTwK" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="5O582ufdTwL" role="37wK5m">
                 <property role="Xl_RC" value="OD Case12:" />
               </node>
@@ -664,7 +664,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5Lf9QwIZn2S" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                 <node concept="Xl_RD" id="5Lf9QwIZn2T" role="37wK5m">
                   <property role="Xl_RC" value="OD Case16:" />
                 </node>
@@ -777,7 +777,7 @@
               </node>
             </node>
             <node concept="liA8E" id="6mpCyrQUpdp" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="6mpCyrQUpdq" role="37wK5m">
                 <property role="Xl_RC" value="OD Case14:" />
               </node>
@@ -797,7 +797,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5Lf9QwIZB6B" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                 <node concept="Xl_RD" id="5Lf9QwIZB6C" role="37wK5m">
                   <property role="Xl_RC" value="OD Case18:" />
                 </node>
@@ -903,7 +903,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5Lf9QwIZmys" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                     <node concept="Xl_RD" id="5Lf9QwIZmyt" role="37wK5m">
                       <property role="Xl_RC" value="Case4:" />
                     </node>
@@ -940,7 +940,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="1w1DleJZWB4" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="1w1DleJZWB5" role="37wK5m">
                     <property role="Xl_RC" value="OD Case6:" />
                   </node>
@@ -1002,7 +1002,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5Lf9QwIZmqY" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                 <node concept="Xl_RD" id="5Lf9QwIZmqZ" role="37wK5m">
                   <property role="Xl_RC" value="OD Case2:" />
                 </node>
@@ -1085,7 +1085,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1w1DleJZVCG" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="1w1DleJZVDb" role="37wK5m">
                 <property role="Xl_RC" value="OD Case5:" />
               </node>
@@ -1120,7 +1120,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1w1DleJZWMa" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="1w1DleJZWMb" role="37wK5m">
                 <property role="Xl_RC" value="OD Case7:" />
               </node>

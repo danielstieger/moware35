@@ -756,7 +756,7 @@
               </node>
             </node>
             <node concept="liA8E" id="6mpCyrQUkeH" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="37vLTw" id="6mpCyrQUlnm" role="37wK5m">
                 <ref role="3cqZAo" node="6mpCyrQUl8l" resolve="pointName" />
               </node>
@@ -784,17 +784,17 @@
                 </node>
               </node>
               <node concept="liA8E" id="4DaB5G8SZxD" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
               </node>
             </node>
             <node concept="liA8E" id="4DaB5G8SZBE" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="2OqwBi" id="4DaB5G8SZFU" role="37wK5m">
                 <node concept="37vLTw" id="4DaB5G8SZDm" role="2Oq$k0">
                   <ref role="3cqZAo" node="4DaB5G8SZm5" resolve="caseString" />
                 </node>
                 <node concept="liA8E" id="4DaB5G8SZLI" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                 </node>
               </node>
             </node>
@@ -1277,7 +1277,7 @@
                 <property role="1$4sGX" value="true" />
               </node>
               <node concept="liA8E" id="4nH4LOF0NXF" role="2OqNvi">
-                <ref role="37wK5l" to="w08f:~LocalDate.plusMonths(int):org.joda.time.LocalDate" resolve="plusMonths" />
+                <ref role="37wK5l" to="w08f:~LocalDate.plusMonths(int)" resolve="plusMonths" />
                 <node concept="3cmrfG" id="4nH4LOF0NXG" role="37wK5m">
                   <property role="3cmrfH" value="1" />
                 </node>
@@ -1639,7 +1639,7 @@
               </node>
             </node>
             <node concept="liA8E" id="d_BuLgUewv" role="2OqNvi">
-              <ref role="37wK5l" to="oz00:~AbstractPartial.isBefore(org.joda.time.ReadablePartial):boolean" resolve="isBefore" />
+              <ref role="37wK5l" to="oz00:~AbstractPartial.isBefore(org.joda.time.ReadablePartial)" resolve="isBefore" />
               <node concept="1$4sJh" id="d_BuLgUezW" role="37wK5m">
                 <property role="1$4sGW" value="27" />
                 <property role="1$4sGZ" value="1" />
@@ -2236,7 +2236,7 @@
               <node concept="10QFUN" id="4nH4LOF0O4s" role="1eOMHV">
                 <node concept="10Oyi0" id="4nH4LOF0O4t" role="10QFUM" />
                 <node concept="2YIFZM" id="4nH4LOF0O4u" role="10QFUP">
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                 </node>
               </node>
@@ -3303,11 +3303,11 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="51llZt5O_5l" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                     </node>
                   </node>
                   <node concept="liA8E" id="51llZt5O_aJ" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                     <node concept="Xl_RD" id="51llZt5O_bG" role="37wK5m">
                       <property role="Xl_RC" value="Somne IO Excpetion?" />
                     </node>

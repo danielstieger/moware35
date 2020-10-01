@@ -912,11 +912,11 @@
                   <ref role="3cqZAo" node="59p98S7GGDm" resolve="defaultLabelText" />
                 </node>
                 <node concept="liA8E" id="5ol$Nw061p" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                 </node>
               </node>
               <node concept="liA8E" id="5ol$Nw061q" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
                 <node concept="Xl_RD" id="5ol$Nw061r" role="37wK5m">
                   <property role="Xl_RC" value="\\W" />
                 </node>
@@ -1513,7 +1513,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
               </node>
               <node concept="liA8E" id="6QGCiYX3nZi" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                 <node concept="3cpWs3" id="6QGCiYX3qcw" role="37wK5m">
                   <node concept="Xl_RD" id="6QGCiYX3qcH" role="3uHU7w">
                     <property role="Xl_RC" value=")" />

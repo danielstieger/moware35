@@ -267,7 +267,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -3127,7 +3127,7 @@
               <node concept="2OqwBi" id="4uyzyzUYXQP" role="3uHU7w">
                 <node concept="1Wqviy" id="4uyzyzUYXNo" role="2Oq$k0" />
                 <node concept="liA8E" id="4uyzyzUYY2R" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="4uyzyzUYY4D" role="37wK5m">
                     <property role="Xl_RC" value=" " />
                   </node>
@@ -4076,7 +4076,7 @@
                 <node concept="2OqwBi" id="1uKMA6MLieX" role="3cqZAk">
                   <node concept="1Wqviy" id="1uKMA6MLibF" role="2Oq$k0" />
                   <node concept="liA8E" id="1uKMA6MLiqY" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                     <node concept="37vLTw" id="1uKMA6MLisx" role="37wK5m">
                       <ref role="3cqZAo" node="1uKMA6MHf_4" resolve="PATTERN" />
                     </node>

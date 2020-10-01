@@ -187,7 +187,7 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="6TB1IkoDiu$" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="6TB1IkoDkgE" role="37wK5m">
                 <node concept="Xl_RD" id="6TB1IkoDkgY" role="3uHU7w">
                   <property role="Xl_RC" value="\n" />

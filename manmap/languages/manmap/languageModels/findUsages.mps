@@ -187,7 +187,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3wpfxM_6asO" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
               </node>
             </node>
           </node>
@@ -246,7 +246,7 @@
               <ref role="3cqZAo" node="3wpfxM_6qrC" resolve="lookingFor" />
             </node>
             <node concept="liA8E" id="3wpfxM_6rqD" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="37vLTw" id="3wpfxM_6MEw" role="37wK5m">
                 <ref role="3cqZAo" node="5TsiQeH8iMP" resolve="stringLiteralConcept" />
               </node>
@@ -259,7 +259,7 @@
               <ref role="3cqZAo" node="3wpfxM_6qrC" resolve="lookingFor" />
             </node>
             <node concept="liA8E" id="3wpfxM_6M6V" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="37vLTw" id="3wpfxM_6M6W" role="37wK5m">
                 <ref role="3cqZAo" node="3wpfxM_6phV" resolve="wordConcept" />
               </node>
@@ -273,10 +273,10 @@
             <node concept="2OqwBi" id="3wpfxM_61yZ" role="33vP2m">
               <node concept="2YIFZM" id="3wpfxM_61z0" role="2Oq$k0">
                 <ref role="1Pybhc" to="lui2:~FindUsagesFacade" resolve="FindUsagesFacade" />
-                <ref role="37wK5l" to="lui2:~FindUsagesFacade.getInstance():org.jetbrains.mps.openapi.module.FindUsagesFacade" resolve="getInstance" />
+                <ref role="37wK5l" to="lui2:~FindUsagesFacade.getInstance()" resolve="getInstance" />
               </node>
               <node concept="liA8E" id="3wpfxM_61z1" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~FindUsagesFacade.findInstances(org.jetbrains.mps.openapi.module.SearchScope,java.util.Set,boolean,org.jetbrains.mps.openapi.util.ProgressMonitor):java.util.Set" resolve="findInstances" />
+                <ref role="37wK5l" to="lui2:~FindUsagesFacade.findInstances(org.jetbrains.mps.openapi.module.SearchScope,java.util.Set,boolean,org.jetbrains.mps.openapi.util.ProgressMonitor)" resolve="findInstances" />
                 <node concept="1Q7BxF" id="6ihoZuzI9Hp" role="37wK5m" />
                 <node concept="37vLTw" id="3wpfxM_6rHV" role="37wK5m">
                   <ref role="3cqZAo" node="3wpfxM_6qrC" resolve="lookingFor" />
@@ -350,11 +350,11 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="3wpfxM_6utI" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                                <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                               </node>
                             </node>
                             <node concept="liA8E" id="3wpfxM_6uQo" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                               <node concept="37vLTw" id="3wpfxM_6uW9" role="37wK5m">
                                 <ref role="3cqZAo" node="3wpfxM_69Wx" resolve="lookingForName" />
                               </node>
@@ -432,11 +432,11 @@
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="3wpfxM_6yRD" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="3wpfxM_6zgF" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                                 <node concept="37vLTw" id="3wpfxM_6_lJ" role="37wK5m">
                                   <ref role="3cqZAo" node="3wpfxM_69Wx" resolve="lookingForName" />
                                 </node>

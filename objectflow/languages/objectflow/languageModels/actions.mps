@@ -1257,7 +1257,7 @@
                 <ref role="3uigEE" to="28m1:~LocalDateTime" resolve="LocalDateTime" />
               </node>
               <node concept="2YIFZM" id="6kvb4HUyAq_" role="33vP2m">
-                <ref role="37wK5l" to="28m1:~LocalDateTime.now():java.time.LocalDateTime" resolve="now" />
+                <ref role="37wK5l" to="28m1:~LocalDateTime.now()" resolve="now" />
                 <ref role="1Pybhc" to="28m1:~LocalDateTime" resolve="LocalDateTime" />
               </node>
             </node>
@@ -1308,7 +1308,7 @@
                   <ref role="3cqZAo" node="6kvb4HUy_tm" resolve="d" />
                 </node>
                 <node concept="liA8E" id="6kvb4HUyGxq" role="2OqNvi">
-                  <ref role="37wK5l" to="28m1:~LocalDateTime.getDayOfMonth():int" resolve="getDayOfMonth" />
+                  <ref role="37wK5l" to="28m1:~LocalDateTime.getDayOfMonth()" resolve="getDayOfMonth" />
                 </node>
               </node>
               <node concept="2OqwBi" id="6kvb4HUyATx" role="37vLTJ">
@@ -1326,7 +1326,7 @@
                   <ref role="3cqZAo" node="6kvb4HUy_tm" resolve="d" />
                 </node>
                 <node concept="liA8E" id="6kvb4HUyGR8" role="2OqNvi">
-                  <ref role="37wK5l" to="28m1:~LocalDateTime.getMonthValue():int" resolve="getMonthValue" />
+                  <ref role="37wK5l" to="28m1:~LocalDateTime.getMonthValue()" resolve="getMonthValue" />
                 </node>
               </node>
               <node concept="2OqwBi" id="6kvb4HUyAV8" role="37vLTJ">
@@ -1344,7 +1344,7 @@
                   <ref role="3cqZAo" node="6kvb4HUy_tm" resolve="d" />
                 </node>
                 <node concept="liA8E" id="6kvb4HUyHqE" role="2OqNvi">
-                  <ref role="37wK5l" to="28m1:~LocalDateTime.getYear():int" resolve="getYear" />
+                  <ref role="37wK5l" to="28m1:~LocalDateTime.getYear()" resolve="getYear" />
                 </node>
               </node>
               <node concept="2OqwBi" id="6kvb4HUyAX3" role="37vLTJ">
@@ -1880,7 +1880,7 @@
                       <ref role="3cqZAo" node="3bhLp3E0XMM" resolve="availableCommands" />
                     </node>
                     <node concept="liA8E" id="3bhLp3E12cM" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                      <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
                       <node concept="37vLTw" id="3bhLp3E12jW" role="37wK5m">
                         <ref role="3cqZAo" node="3bhLp3E0UAr" resolve="currentCmd" />
                       </node>

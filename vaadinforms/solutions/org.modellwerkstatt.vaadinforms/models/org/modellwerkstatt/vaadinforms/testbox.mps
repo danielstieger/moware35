@@ -249,7 +249,7 @@
       <node concept="3clFbS" id="4QTIUTBQp8K" role="3clF47">
         <node concept="3clFbF" id="4QTIUTBQp8O" role="3cqZAp">
           <node concept="3nyPlj" id="4QTIUTBQp8N" role="3clFbG">
-            <ref role="37wK5l" to="tk4x:~VaadinServlet.init(javax.servlet.ServletConfig):void" resolve="init" />
+            <ref role="37wK5l" to="tk4x:~VaadinServlet.init(javax.servlet.ServletConfig)" resolve="init" />
             <node concept="37vLTw" id="4QTIUTBQp8M" role="37wK5m">
               <ref role="3cqZAo" node="4QTIUTBQp8H" resolve="config" />
             </node>
@@ -317,7 +317,7 @@
                         <ref role="3cqZAo" node="1AiJfHmkVfI" resolve="logFile" />
                       </node>
                       <node concept="liA8E" id="1AiJfHmkZE_" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                        <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
                       </node>
                     </node>
                   </node>
@@ -350,7 +350,7 @@
                   <ref role="3cqZAo" node="4QTIUTCpScX" resolve="writer" />
                 </node>
                 <node concept="liA8E" id="4QTIUTCpTuW" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintWriter.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintWriter.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="4QTIUTCpVX_" role="37wK5m">
                     <node concept="37vLTw" id="4QTIUTCpWoq" role="3uHU7w">
                       <ref role="3cqZAo" node="4QTIUTCpFN4" resolve="text" />
@@ -380,7 +380,7 @@
                   <ref role="3cqZAo" node="4QTIUTCpScX" resolve="writer" />
                 </node>
                 <node concept="liA8E" id="4QTIUTCpX8D" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintWriter.close():void" resolve="close" />
+                  <ref role="37wK5l" to="guwi:~PrintWriter.close()" resolve="close" />
                 </node>
               </node>
             </node>
@@ -390,7 +390,7 @@
                   <ref role="3cqZAo" node="4QTIUTCpXyp" resolve="out" />
                 </node>
                 <node concept="liA8E" id="4QTIUTCpYn5" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~FileOutputStream.close():void" resolve="close" />
+                  <ref role="37wK5l" to="guwi:~FileOutputStream.close()" resolve="close" />
                 </node>
               </node>
             </node>
@@ -479,7 +479,7 @@
                   <ref role="3cqZAo" node="4QTIUTCpIz1" resolve="logFile" />
                 </node>
                 <node concept="liA8E" id="4QTIUTCpKcz" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.delete():boolean" resolve="delete" />
+                  <ref role="37wK5l" to="guwi:~File.delete()" resolve="delete" />
                 </node>
               </node>
             </node>
@@ -489,7 +489,7 @@
               <ref role="3cqZAo" node="4QTIUTCpIz1" resolve="logFile" />
             </node>
             <node concept="liA8E" id="4QTIUTCpJQm" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+              <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
             </node>
           </node>
         </node>
@@ -545,7 +545,7 @@
               <ref role="3cqZAo" node="2rVYvNSr2b3" resolve="layout" />
             </node>
             <node concept="liA8E" id="2rVYvNSr3v8" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
+              <ref role="37wK5l" to="waq:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component)" resolve="addComponent" />
               <node concept="2ShNRf" id="2rVYvNSr3A2" role="37wK5m">
                 <node concept="1pGfFk" id="2rVYvNSr451" role="2ShVmc">
                   <ref role="37wK5l" to="waq:~Label.&lt;init&gt;(java.lang.String)" resolve="Label" />
@@ -578,7 +578,7 @@
               <ref role="3cqZAo" node="2rVYvNSr2b3" resolve="layout" />
             </node>
             <node concept="liA8E" id="2rVYvNSr60f" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
+              <ref role="37wK5l" to="waq:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component)" resolve="addComponent" />
               <node concept="2OqwBi" id="2rVYvNSr6jX" role="37wK5m">
                 <node concept="37vLTw" id="2rVYvNSr6cE" role="2Oq$k0">
                   <ref role="3cqZAo" node="2rVYvNSr0Dl" resolve="testComboBox" />
@@ -694,7 +694,7 @@
               <ref role="3cqZAo" node="2rVYvNSr2b3" resolve="layout" />
             </node>
             <node concept="liA8E" id="2rVYvNSrBbt" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
+              <ref role="37wK5l" to="waq:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component)" resolve="addComponent" />
               <node concept="37vLTw" id="2rVYvNSrBpq" role="37wK5m">
                 <ref role="3cqZAo" node="2rVYvNSrr9S" resolve="logLabel" />
               </node>
@@ -706,7 +706,7 @@
           <node concept="2OqwBi" id="2rVYvNSpG1c" role="3clFbG">
             <node concept="Xjq3P" id="2rVYvNSpFRs" role="2Oq$k0" />
             <node concept="liA8E" id="2rVYvNSpGtn" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~UI.setContent(com.vaadin.ui.Component):void" resolve="setContent" />
+              <ref role="37wK5l" to="waq:~UI.setContent(com.vaadin.ui.Component)" resolve="setContent" />
               <node concept="37vLTw" id="2rVYvNSr6Dt" role="37wK5m">
                 <ref role="3cqZAo" node="2rVYvNSr2b3" resolve="layout" />
               </node>
@@ -740,7 +740,7 @@
                     <ref role="3cqZAo" node="2rVYvNSrr9S" resolve="logLabel" />
                   </node>
                   <node concept="liA8E" id="2rVYvNSrwhU" role="2OqNvi">
-                    <ref role="37wK5l" to="waq:~Label.getValue():java.lang.String" resolve="getValue" />
+                    <ref role="37wK5l" to="waq:~Label.getValue()" resolve="getValue" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="2rVYvNSrwxF" role="3uHU7w">
@@ -756,7 +756,7 @@
               <ref role="3cqZAo" node="2rVYvNSrr9S" resolve="logLabel" />
             </node>
             <node concept="liA8E" id="2rVYvNSru5P" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~Label.setValue(java.lang.String):void" resolve="setValue" />
+              <ref role="37wK5l" to="waq:~Label.setValue(java.lang.String)" resolve="setValue" />
               <node concept="37vLTw" id="2rVYvNSrxyI" role="37wK5m">
                 <ref role="3cqZAo" node="2rVYvNSrujJ" resolve="st" />
               </node>
@@ -873,7 +873,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMpSc" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~ComboBox.setTextInputAllowed(boolean):void" resolve="setTextInputAllowed" />
+              <ref role="37wK5l" to="waq:~ComboBox.setTextInputAllowed(boolean)" resolve="setTextInputAllowed" />
               <node concept="3clFbT" id="6KBCmIOMqyG" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -886,7 +886,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMpSh" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractSelect.setNewItemsAllowed(boolean):void" resolve="setNewItemsAllowed" />
+              <ref role="37wK5l" to="waq:~AbstractSelect.setNewItemsAllowed(boolean)" resolve="setNewItemsAllowed" />
               <node concept="3clFbT" id="6KBCmIOMpSi" role="37wK5m">
                 <property role="3clFbU" value="false" />
               </node>
@@ -899,7 +899,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMpSm" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~ComboBox.setFilteringMode(com.vaadin.shared.ui.combobox.FilteringMode):void" resolve="setFilteringMode" />
+              <ref role="37wK5l" to="waq:~ComboBox.setFilteringMode(com.vaadin.shared.ui.combobox.FilteringMode)" resolve="setFilteringMode" />
               <node concept="Rm8GO" id="6KBCmIOMqGV" role="37wK5m">
                 <ref role="1Px2BO" to="yjy4:~FilteringMode" resolve="FilteringMode" />
                 <ref role="Rm8GQ" to="yjy4:~FilteringMode.CONTAINS" resolve="CONTAINS" />
@@ -913,7 +913,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMpSr" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractSelect.setNullSelectionAllowed(boolean):void" resolve="setNullSelectionAllowed" />
+              <ref role="37wK5l" to="waq:~AbstractSelect.setNullSelectionAllowed(boolean)" resolve="setNullSelectionAllowed" />
               <node concept="3clFbT" id="6KBCmIOMpSs" role="37wK5m">
                 <property role="3clFbU" value="false" />
               </node>
@@ -926,7 +926,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIONJmu" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~ComboBox.setPageLength(int):void" resolve="setPageLength" />
+              <ref role="37wK5l" to="waq:~ComboBox.setPageLength(int)" resolve="setPageLength" />
               <node concept="3cmrfG" id="6KBCmIONJUz" role="37wK5m">
                 <property role="3cmrfH" value="4" />
               </node>
@@ -939,7 +939,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="2rVYvNSq8H2" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractComponent.setCaption(java.lang.String):void" resolve="setCaption" />
+              <ref role="37wK5l" to="waq:~AbstractComponent.setCaption(java.lang.String)" resolve="setCaption" />
               <node concept="Xl_RD" id="2rVYvNSq9Am" role="37wK5m">
                 <property role="Xl_RC" value="Test Combobox" />
               </node>
@@ -952,7 +952,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMBNd" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~ComboBox.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
+              <ref role="37wK5l" to="waq:~ComboBox.setInputPrompt(java.lang.String)" resolve="setInputPrompt" />
               <node concept="Xl_RD" id="2rVYvNSqgkD" role="37wK5m">
                 <property role="Xl_RC" value="&lt;press crtl space&gt;" />
               </node>
@@ -967,7 +967,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMpSw" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
+              <ref role="37wK5l" to="waq:~AbstractComponent.setSizeFull()" resolve="setSizeFull" />
             </node>
           </node>
         </node>
@@ -977,7 +977,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="7SiTcfwBoUx" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
+              <ref role="37wK5l" to="waq:~AbstractComponent.setHeightUndefined()" resolve="setHeightUndefined" />
             </node>
           </node>
         </node>
@@ -1147,7 +1147,7 @@
                               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
                             </node>
                             <node concept="liA8E" id="2rVYvNS9Oop" role="2OqNvi">
-                              <ref role="37wK5l" to="tk4x:~AbstractClientConnector.addAttachListener(com.vaadin.server.ClientConnector$AttachListener):void" resolve="addAttachListener" />
+                              <ref role="37wK5l" to="tk4x:~AbstractClientConnector.addAttachListener(com.vaadin.server.ClientConnector$AttachListener)" resolve="addAttachListener" />
                               <node concept="37vLTw" id="2rVYvNSsDPU" role="37wK5m">
                                 <ref role="3cqZAo" node="2rVYvNSs_do" resolve="actionHandler" />
                               </node>
@@ -1161,7 +1161,7 @@
                             <ref role="3cqZAo" node="2rVYvNSrF4z" resolve="testui" />
                           </node>
                           <node concept="liA8E" id="2rVYvNSsRGH" role="2OqNvi">
-                            <ref role="37wK5l" to="waq:~UI.addActionHandler(com.vaadin.event.Action$Handler):void" resolve="addActionHandler" />
+                            <ref role="37wK5l" to="waq:~UI.addActionHandler(com.vaadin.event.Action$Handler)" resolve="addActionHandler" />
                             <node concept="37vLTw" id="2rVYvNSsRGI" role="37wK5m">
                               <ref role="3cqZAo" node="2rVYvNSs_do" resolve="actionHandler" />
                             </node>
@@ -1182,7 +1182,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="3$oJQSEtybQ" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~ComboBox.addFocusListener(com.vaadin.event.FieldEvents$FocusListener):void" resolve="addFocusListener" />
+              <ref role="37wK5l" to="waq:~ComboBox.addFocusListener(com.vaadin.event.FieldEvents$FocusListener)" resolve="addFocusListener" />
               <node concept="37vLTw" id="3$oJQSEw$tf" role="37wK5m">
                 <ref role="3cqZAo" node="3$oJQSEwZqR" resolve="focusListener" />
               </node>
@@ -1257,7 +1257,7 @@
                               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
                             </node>
                             <node concept="liA8E" id="2rVYvNS9TRS" role="2OqNvi">
-                              <ref role="37wK5l" to="waq:~AbstractComponent.removeShortcutListener(com.vaadin.event.ShortcutListener):void" resolve="removeShortcutListener" />
+                              <ref role="37wK5l" to="waq:~AbstractComponent.removeShortcutListener(com.vaadin.event.ShortcutListener)" resolve="removeShortcutListener" />
                               <node concept="37vLTw" id="2rVYvNS9Ubp" role="37wK5m">
                                 <ref role="3cqZAo" node="2rVYvNS9rTA" resolve="spaceKeyShortCut" />
                               </node>
@@ -1271,7 +1271,7 @@
                             <ref role="3cqZAo" node="2rVYvNSrF4z" resolve="testui" />
                           </node>
                           <node concept="liA8E" id="2rVYvNSsRdK" role="2OqNvi">
-                            <ref role="37wK5l" to="waq:~UI.removeActionHandler(com.vaadin.event.Action$Handler):void" resolve="removeActionHandler" />
+                            <ref role="37wK5l" to="waq:~UI.removeActionHandler(com.vaadin.event.Action$Handler)" resolve="removeActionHandler" />
                             <node concept="37vLTw" id="2rVYvNSsRj1" role="37wK5m">
                               <ref role="3cqZAo" node="2rVYvNSs_do" resolve="actionHandler" />
                             </node>
@@ -1291,7 +1291,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="3$oJQSEuhdi" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~ComboBox.addBlurListener(com.vaadin.event.FieldEvents$BlurListener):void" resolve="addBlurListener" />
+              <ref role="37wK5l" to="waq:~ComboBox.addBlurListener(com.vaadin.event.FieldEvents$BlurListener)" resolve="addBlurListener" />
               <node concept="37vLTw" id="3$oJQSEwBbc" role="37wK5m">
                 <ref role="3cqZAo" node="3$oJQSEwZqU" resolve="blurListener" />
               </node>
@@ -1321,7 +1321,7 @@
                   <ref role="3cqZAo" node="6KBCmIOMoY1" resolve="items" />
                 </node>
                 <node concept="liA8E" id="2rVYvNSqIEI" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                   <node concept="3cpWs3" id="2rVYvNSqMAK" role="37wK5m">
                     <node concept="37vLTw" id="2rVYvNSqMKO" role="3uHU7w">
                       <ref role="3cqZAo" node="2rVYvNSqFGZ" resolve="i" />
@@ -1372,7 +1372,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMwK5" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractSelect.removeAllItems():boolean" resolve="removeAllItems" />
+              <ref role="37wK5l" to="waq:~AbstractSelect.removeAllItems()" resolve="removeAllItems" />
             </node>
           </node>
         </node>
@@ -1382,7 +1382,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="6KBCmIOMttp" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractSelect.addItems(java.util.Collection):void" resolve="addItems" />
+              <ref role="37wK5l" to="waq:~AbstractSelect.addItems(java.util.Collection)" resolve="addItems" />
               <node concept="37vLTw" id="6KBCmIOMtIo" role="37wK5m">
                 <ref role="3cqZAo" node="6KBCmIOMoY1" resolve="items" />
               </node>
@@ -1433,7 +1433,7 @@
               <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
             </node>
             <node concept="liA8E" id="2rVYvNSszaV" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractField.clear():void" resolve="clear" />
+              <ref role="37wK5l" to="waq:~AbstractField.clear()" resolve="clear" />
             </node>
           </node>
         </node>

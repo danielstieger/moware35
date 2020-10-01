@@ -360,7 +360,7 @@
                     <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
                   </node>
                   <node concept="liA8E" id="4Rlyz3E7tr9" role="2OqNvi">
-                    <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String):java.lang.String" resolve="getHeader" />
+                    <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String)" resolve="getHeader" />
                     <node concept="Xl_RD" id="4Rlyz3E7tsS" role="37wK5m">
                       <property role="Xl_RC" value="user-agent" />
                     </node>
@@ -379,7 +379,7 @@
                 <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
               </node>
               <node concept="liA8E" id="4Rlyz3E7nN9" role="2OqNvi">
-                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String):java.lang.String" resolve="getHeader" />
+                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String)" resolve="getHeader" />
                 <node concept="Xl_RD" id="4Rlyz3E7nQO" role="37wK5m">
                   <property role="Xl_RC" value="user-agent" />
                 </node>
@@ -402,7 +402,7 @@
                 <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
               </node>
               <node concept="liA8E" id="3Sgll4LMUy3" role="2OqNvi">
-                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String):java.lang.String" resolve="getHeader" />
+                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String)" resolve="getHeader" />
                 <node concept="Xl_RD" id="3Sgll4LMUy4" role="37wK5m">
                   <property role="Xl_RC" value="x-requested-with" />
                 </node>
@@ -443,7 +443,7 @@
                   <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
                 </node>
                 <node concept="liA8E" id="2kuDuEApcHZ" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="2kuDuEApcIP" role="37wK5m">
                     <property role="Xl_RC" value="EB18" />
                   </node>
@@ -454,7 +454,7 @@
           </node>
           <node concept="2OqwBi" id="4Rlyz3E6qUf" role="3clFbw">
             <node concept="liA8E" id="4Rlyz3E6s5t" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="3Sgll4LMWwU" role="37wK5m">
                 <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
               </node>
@@ -470,7 +470,7 @@
                   <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
                 </node>
                 <node concept="liA8E" id="7YzIafO7vj0" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="7YzIafO7vku" role="37wK5m">
                     <property role="Xl_RC" value="Scandit" />
                   </node>
@@ -481,7 +481,7 @@
                   <property role="Xl_RC" value="com.scandit.enterprisebrowser" />
                 </node>
                 <node concept="liA8E" id="6PcZc$6eYDT" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                   <node concept="37vLTw" id="6PcZc$6eYFf" role="37wK5m">
                     <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
                   </node>
@@ -520,7 +520,7 @@
                   <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
                 </node>
                 <node concept="liA8E" id="186V0VF2o2g" role="2OqNvi">
-                  <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeaderNames():java.util.Enumeration" resolve="getHeaderNames" />
+                  <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeaderNames()" resolve="getHeaderNames" />
                 </node>
               </node>
             </node>
@@ -540,7 +540,7 @@
                       <ref role="3cqZAo" node="186V0VF2nQP" resolve="keys" />
                     </node>
                     <node concept="liA8E" id="186V0VF2oAx" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Enumeration.nextElement():java.lang.Object" resolve="nextElement" />
+                      <ref role="37wK5l" to="33ny:~Enumeration.nextElement()" resolve="nextElement" />
                     </node>
                   </node>
                 </node>
@@ -552,14 +552,14 @@
                     <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
                   </node>
                   <node concept="liA8E" id="2IXpZ5JF2A4" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                     <node concept="3cpWs3" id="186V0VF2oRi" role="37wK5m">
                       <node concept="2OqwBi" id="186V0VF2oWi" role="3uHU7w">
                         <node concept="37vLTw" id="186V0VF2oUi" role="2Oq$k0">
                           <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
                         </node>
                         <node concept="liA8E" id="186V0VF2oYC" role="2OqNvi">
-                          <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String):java.lang.String" resolve="getHeader" />
+                          <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String)" resolve="getHeader" />
                           <node concept="37vLTw" id="186V0VF2p25" role="37wK5m">
                             <ref role="3cqZAo" node="186V0VF2owB" resolve="key" />
                           </node>
@@ -588,7 +588,7 @@
                 <ref role="3cqZAo" node="186V0VF2nQP" resolve="keys" />
               </node>
               <node concept="liA8E" id="186V0VF2ovp" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Enumeration.hasMoreElements():boolean" resolve="hasMoreElements" />
+                <ref role="37wK5l" to="33ny:~Enumeration.hasMoreElements()" resolve="hasMoreElements" />
               </node>
             </node>
           </node>
@@ -624,7 +624,7 @@
                     <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
                   </node>
                   <node concept="liA8E" id="4p4tCe_bkBq" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.indexOf(java.lang.String):int" resolve="indexOf" />
+                    <ref role="37wK5l" to="wyt6:~String.indexOf(java.lang.String)" resolve="indexOf" />
                     <node concept="Xl_RD" id="4p4tCe_bkCo" role="37wK5m">
                       <property role="Xl_RC" value="TC" />
                     </node>
@@ -649,7 +649,7 @@
                         <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
                       </node>
                       <node concept="liA8E" id="4p4tCe_bnL3" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                        <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                         <node concept="37vLTw" id="4p4tCe_bu9O" role="37wK5m">
                           <ref role="3cqZAo" node="4p4tCe_bkyD" resolve="firstIndex" />
                         </node>
@@ -689,7 +689,7 @@
                       <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
                     </node>
                     <node concept="liA8E" id="4p4tCe_bkKR" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                      <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                     </node>
                   </node>
                 </node>
@@ -701,7 +701,7 @@
               <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
             </node>
             <node concept="liA8E" id="4p4tCe_bkub" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="4p4tCe_bkv1" role="37wK5m">
                 <property role="Xl_RC" value="TC" />
               </node>
@@ -848,7 +848,7 @@
                 <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
               </node>
               <node concept="liA8E" id="2f$GH$eemXO" role="2OqNvi">
-                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
                 <node concept="Xl_RD" id="2f$GH$eeL9l" role="37wK5m">
                   <property role="Xl_RC" value="username" />
                 </node>
@@ -945,11 +945,11 @@
                     <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
                   </node>
                   <node concept="liA8E" id="63IPdUQHWUP" role="2OqNvi">
-                    <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession():javax.servlet.http.HttpSession" resolve="getSession" />
+                    <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
                   </node>
                 </node>
                 <node concept="liA8E" id="63IPdUQHX0Z" role="2OqNvi">
-                  <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object):void" resolve="setAttribute" />
+                  <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
                   <node concept="Xl_RD" id="63IPdUQHX1W" role="37wK5m">
                     <property role="Xl_RC" value="userName" />
                   </node>
@@ -1632,7 +1632,7 @@
                 <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
               </node>
               <node concept="liA8E" id="57ov2SA6U5" role="2OqNvi">
-                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
                 <node concept="37vLTw" id="4jqQZFyXX9j" role="37wK5m">
                   <ref role="3cqZAo" node="57ov2SA6up" resolve="USERNAME" />
                 </node>
@@ -1649,7 +1649,7 @@
                 <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
               </node>
               <node concept="liA8E" id="57ov2SA70V" role="2OqNvi">
-                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
                 <node concept="37vLTw" id="4jqQZFyXX9r" role="37wK5m">
                   <ref role="3cqZAo" node="57ov2SA5z5" resolve="PASSWORD" />
                 </node>
@@ -1673,7 +1673,7 @@
                   <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                 </node>
                 <node concept="liA8E" id="3lbccgq6Slb" role="2OqNvi">
-                  <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                  <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
                   <node concept="10M0yZ" id="3lbccgq6SHb" role="37wK5m">
                     <ref role="1PxDUh" to="tea8:kWPevMd7Le" resolve="H2Application" />
                     <ref role="3cqZAo" to="tea8:4jqQZFyY2K$" resolve="SHOW_LOGIN" />
@@ -1792,11 +1792,11 @@
                         <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                       </node>
                       <node concept="liA8E" id="57ov2S_za5" role="2OqNvi">
-                        <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession():javax.servlet.http.HttpSession" resolve="getSession" />
+                        <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
                       </node>
                     </node>
                     <node concept="liA8E" id="57ov2S_za6" role="2OqNvi">
-                      <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object):void" resolve="setAttribute" />
+                      <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
                       <node concept="Xl_RD" id="57ov2S_za7" role="37wK5m">
                         <property role="Xl_RC" value="userName" />
                       </node>
@@ -1990,11 +1990,11 @@
                               <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                             </node>
                             <node concept="liA8E" id="3lbccgqkq4m" role="2OqNvi">
-                              <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession():javax.servlet.http.HttpSession" resolve="getSession" />
+                              <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
                             </node>
                           </node>
                           <node concept="liA8E" id="3lbccgqkq4n" role="2OqNvi">
-                            <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object):void" resolve="setAttribute" />
+                            <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
                             <node concept="Xl_RD" id="3lbccgqkq4o" role="37wK5m">
                               <property role="Xl_RC" value="userName" />
                             </node>

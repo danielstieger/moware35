@@ -284,7 +284,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -491,7 +491,7 @@
                         <node concept="3clFbF" id="7rG0OCd9mht" role="3cqZAp">
                           <node concept="2OqwBi" id="7rG0OCd9mtf" role="3clFbG">
                             <node concept="liA8E" id="7rG0OCd9mDd" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="2OqwBi" id="7rG0OCd9mkR" role="37wK5m">
                                 <node concept="37vLTw" id="7rG0OCd9mhs" role="2Oq$k0">
                                   <ref role="3cqZAo" node="7rG0OCd9mfp" resolve="it" />
@@ -1770,7 +1770,7 @@
                           <node concept="2yIwOk" id="pQ21WNfjQK" role="2OqNvi" />
                         </node>
                         <node concept="liA8E" id="pQ21WNfkhQ" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                           <node concept="2OqwBi" id="pQ21WNfkpo" role="37wK5m">
                             <node concept="1YBJjd" id="pQ21WNiDNo" role="2Oq$k0">
                               <ref role="1YBMHb" node="pQ21WNfirO" resolve="idOption" />
@@ -4115,7 +4115,7 @@
                     <node concept="2yIwOk" id="6rXe_0EKw_f" role="2OqNvi" />
                   </node>
                   <node concept="liA8E" id="6rXe_0EKwN8" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                   </node>
                 </node>
               </node>
@@ -4147,11 +4147,11 @@
                             <node concept="2yIwOk" id="6rXe_0EKvsB" role="2OqNvi" />
                           </node>
                           <node concept="liA8E" id="6rXe_0EKvAa" role="2OqNvi">
-                            <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                            <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                           </node>
                         </node>
                         <node concept="liA8E" id="6rXe_0EKvUt" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="2OqwBi" id="6rXe_0EKwdg" role="37wK5m">
                             <node concept="2OqwBi" id="6rXe_0EKw1W" role="2Oq$k0">
                               <node concept="1YBJjd" id="6rXe_0EKvXi" role="2Oq$k0">
@@ -4160,7 +4160,7 @@
                               <node concept="2yIwOk" id="6rXe_0EKw7A" role="2OqNvi" />
                             </node>
                             <node concept="liA8E" id="6rXe_0EKwm4" role="2OqNvi">
-                              <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                              <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                             </node>
                           </node>
                         </node>

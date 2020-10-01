@@ -1351,7 +1351,7 @@
                           <node concept="2yIwOk" id="pQ21WN7Dc3" role="2OqNvi" />
                         </node>
                         <node concept="liA8E" id="pQ21WN7DVP" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract():boolean" resolve="isAbstract" />
+                          <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract()" resolve="isAbstract" />
                         </node>
                       </node>
                     </node>
@@ -2444,7 +2444,7 @@
                     <property role="Xl_RC" value="java.lang.Integer" />
                   </node>
                   <node concept="liA8E" id="3ouNayfFQo_" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="37vLTw" id="3ouNayfFQr6" role="37wK5m">
                       <ref role="3cqZAo" node="3ouNayfFP6n" resolve="fqName" />
                     </node>
@@ -2468,7 +2468,7 @@
                       <property role="Xl_RC" value="java.lang.String" />
                     </node>
                     <node concept="liA8E" id="3ouNayfFQvf" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="37vLTw" id="3ouNayfFQvg" role="37wK5m">
                         <ref role="3cqZAo" node="3ouNayfFP6n" resolve="fqName" />
                       </node>
@@ -2493,7 +2493,7 @@
                       <property role="Xl_RC" value="java.math.BigDecimal" />
                     </node>
                     <node concept="liA8E" id="3ouNayfFQx5" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="37vLTw" id="3ouNayfFQx6" role="37wK5m">
                         <ref role="3cqZAo" node="3ouNayfFP6n" resolve="fqName" />
                       </node>
@@ -2518,7 +2518,7 @@
                       <property role="Xl_RC" value="org.joda.time.LocalDate" />
                     </node>
                     <node concept="liA8E" id="3ouNayfFQzA" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="37vLTw" id="3ouNayfFQzB" role="37wK5m">
                         <ref role="3cqZAo" node="3ouNayfFP6n" resolve="fqName" />
                       </node>
@@ -2543,7 +2543,7 @@
                       <property role="Xl_RC" value="org.joda.time.DateTime" />
                     </node>
                     <node concept="liA8E" id="3ouNayfFQAz" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="37vLTw" id="3ouNayfFQA$" role="37wK5m">
                         <ref role="3cqZAo" node="3ouNayfFP6n" resolve="fqName" />
                       </node>
@@ -4170,7 +4170,7 @@
               <ref role="3cqZAo" node="2fUMPwK2Can" resolve="st" />
             </node>
             <node concept="liA8E" id="4jxrCbC2a8O" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+              <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
             </node>
           </node>
         </node>
@@ -4901,7 +4901,7 @@
                   <ref role="3cqZAo" node="7j1iBG3LVyR" resolve="s2" />
                 </node>
                 <node concept="liA8E" id="7j1iBG3Mylh" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                  <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                 </node>
               </node>
             </node>
@@ -4911,7 +4911,7 @@
                   <ref role="3cqZAo" node="7j1iBG3LSpX" resolve="s1" />
                 </node>
                 <node concept="liA8E" id="7j1iBG3Miq2" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                  <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                 </node>
               </node>
               <node concept="3cmrfG" id="7j1iBG3MmgP" role="3uHU7w">
@@ -5333,7 +5333,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="6XdB5k683K3" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
                 <node concept="Xl_RD" id="6XdB5k683K4" role="37wK5m">
                   <property role="Xl_RC" value="." />
                 </node>

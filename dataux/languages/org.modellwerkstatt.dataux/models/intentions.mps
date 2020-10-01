@@ -149,7 +149,7 @@
               <node concept="2OqwBi" id="7rG0OCd9q1M" role="3clFbG">
                 <node concept="1XNTG" id="7rG0OCd9q0E" role="2Oq$k0" />
                 <node concept="liA8E" id="7rG0OCd9q33" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+                  <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode)" resolve="select" />
                   <node concept="2Sf5sV" id="7rG0OCd9q3n" role="37wK5m" />
                 </node>
               </node>
@@ -226,7 +226,7 @@
             <node concept="2OqwBi" id="7yNVvqOJrRa" role="2Oq$k0">
               <node concept="2Sf5sV" id="7yNVvqOJrMY" role="2Oq$k0" />
               <node concept="3TrEf2" id="7yNVvqOJs22" role="2OqNvi">
-                <ref role="3Tt5mk" to="1btx:7yNVvqNVkqb" />
+                <ref role="3Tt5mk" to="1btx:7yNVvqNVkqb" resolve="graphEditCall" />
               </node>
             </node>
             <node concept="2oxUTD" id="7yNVvqOJsmI" role="2OqNvi">
@@ -239,7 +239,7 @@
             <node concept="2OqwBi" id="7yNVvqOJsw9" role="2Oq$k0">
               <node concept="2Sf5sV" id="7yNVvqOJsrt" role="2Oq$k0" />
               <node concept="3TrEf2" id="7yNVvqOJsG4" role="2OqNvi">
-                <ref role="3Tt5mk" to="1btx:7yNVvqNVkoa" />
+                <ref role="3Tt5mk" to="1btx:7yNVvqNVkoa" resolve="graphEditAutoCon" />
               </node>
             </node>
             <node concept="2oxUTD" id="7yNVvqOJsWJ" role="2OqNvi">

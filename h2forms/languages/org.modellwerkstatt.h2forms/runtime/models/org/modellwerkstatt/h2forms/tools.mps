@@ -185,7 +185,7 @@
                 <ref role="3cqZAo" node="5nND$KhTOdr" resolve="response" />
               </node>
               <node concept="liA8E" id="5nND$KhTQft" role="2OqNvi">
-                <ref role="37wK5l" to="opgt:~ServletResponse.getWriter():java.io.PrintWriter" resolve="getWriter" />
+                <ref role="37wK5l" to="opgt:~ServletResponse.getWriter()" resolve="getWriter" />
               </node>
             </node>
           </node>
@@ -196,7 +196,7 @@
               <ref role="3cqZAo" node="5nND$KhTQ3j" resolve="out" />
             </node>
             <node concept="liA8E" id="5nND$KhTXAn" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintWriter.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintWriter.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="5nND$KhU0Jl" role="37wK5m">
                 <node concept="Xl_RD" id="5nND$KhU0ZC" role="3uHU7w">
                   <property role="Xl_RC" value="&lt;/html&gt;" />
@@ -230,7 +230,7 @@
       <node concept="3clFbS" id="5nND$KhT9$O" role="3clF47">
         <node concept="3clFbF" id="5nND$KhT9$R" role="3cqZAp">
           <node concept="3nyPlj" id="5nND$KhT9$Q" role="3clFbG">
-            <ref role="37wK5l" to="opgt:~GenericServlet.init():void" resolve="init" />
+            <ref role="37wK5l" to="opgt:~GenericServlet.init()" resolve="init" />
           </node>
         </node>
         <node concept="3clFbH" id="5nND$KhTiK5" role="3cqZAp" />
@@ -263,11 +263,11 @@
             </node>
             <node concept="2OqwBi" id="5nND$Khil58" role="33vP2m">
               <node concept="2YIFZM" id="5nND$Khil1g" role="2Oq$k0">
-                <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                <ref role="37wK5l" to="wyt6:~Thread.currentThread()" resolve="currentThread" />
                 <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
               </node>
               <node concept="liA8E" id="5nND$KhilIc" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Thread.getContextClassLoader():java.lang.ClassLoader" resolve="getContextClassLoader" />
+                <ref role="37wK5l" to="wyt6:~Thread.getContextClassLoader()" resolve="getContextClassLoader" />
               </node>
             </node>
           </node>
@@ -278,13 +278,13 @@
               <node concept="2OqwBi" id="5nND$Khix_Z" role="3clFbG">
                 <node concept="2YIFZM" id="5nND$KhixA5" role="2Oq$k0">
                   <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                  <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                  <ref role="37wK5l" to="wyt6:~Thread.currentThread()" resolve="currentThread" />
                 </node>
                 <node concept="liA8E" id="5nND$KhixA1" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Thread.setContextClassLoader(java.lang.ClassLoader):void" resolve="setContextClassLoader" />
+                  <ref role="37wK5l" to="wyt6:~Thread.setContextClassLoader(java.lang.ClassLoader)" resolve="setContextClassLoader" />
                   <node concept="2YIFZM" id="5nND$KhixA7" role="37wK5m">
                     <ref role="1Pybhc" to="wyt6:~ClassLoader" resolve="ClassLoader" />
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getSystemClassLoader():java.lang.ClassLoader" resolve="getSystemClassLoader" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getSystemClassLoader()" resolve="getSystemClassLoader" />
                   </node>
                 </node>
               </node>
@@ -307,13 +307,13 @@
                     <node concept="2OqwBi" id="1i79Hb8s1rs" role="3clFbG">
                       <node concept="2YIFZM" id="1i79Hb8s1eX" role="2Oq$k0">
                         <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
                         <node concept="3VsKOn" id="1i79Hb8s1mB" role="37wK5m">
                           <ref role="3VsUkX" node="5nND$KhT9yA" resolve="OJDBC6_LoaderServlet" />
                         </node>
                       </node>
                       <node concept="liA8E" id="1i79Hb8s1$Z" role="2OqNvi">
-                        <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                        <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
                         <node concept="3cpWs3" id="5nND$KhTK2X" role="37wK5m">
                           <node concept="1rXfSq" id="5nND$KhTK2Y" role="3uHU7w">
                             <ref role="37wK5l" node="5T_hheUJWLq" resolve="stackTrace2String" />
@@ -340,7 +340,7 @@
               <node concept="3clFbS" id="5nND$KhiE2w" role="SfCbr">
                 <node concept="3clFbF" id="5nND$KhiE2x" role="3cqZAp">
                   <node concept="2YIFZM" id="5nND$KhiE2L" role="3clFbG">
-                    <ref role="37wK5l" to="wyt6:~Class.forName(java.lang.String):java.lang.Class" resolve="forName" />
+                    <ref role="37wK5l" to="wyt6:~Class.forName(java.lang.String)" resolve="forName" />
                     <ref role="1Pybhc" to="wyt6:~Class" resolve="Class" />
                     <node concept="Xl_RD" id="5nND$KhiE2M" role="37wK5m">
                       <property role="Xl_RC" value="oracle.jdbc.driver.OracleTimeoutThreadPerVM" />
@@ -372,14 +372,14 @@
               <node concept="3clFbF" id="1i79Hb8s1Tx" role="3cqZAp">
                 <node concept="2OqwBi" id="1i79Hb8s1Ty" role="3clFbG">
                   <node concept="2YIFZM" id="1i79Hb8s1Tz" role="2Oq$k0">
-                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
                     <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
                     <node concept="3VsKOn" id="1i79Hb8s1T$" role="37wK5m">
                       <ref role="3VsUkX" node="5nND$KhT9yA" resolve="OJDBC6_LoaderServlet" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1i79Hb8s1T_" role="2OqNvi">
-                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
                     <node concept="3cpWs3" id="5nND$KhTJBZ" role="37wK5m">
                       <node concept="1rXfSq" id="5nND$KhTJGM" role="3uHU7w">
                         <ref role="37wK5l" node="5T_hheUJWLq" resolve="stackTrace2String" />
@@ -401,11 +401,11 @@
             <node concept="3clFbF" id="5nND$Khiu9g" role="3cqZAp">
               <node concept="2OqwBi" id="5nND$Khiuzh" role="3clFbG">
                 <node concept="2YIFZM" id="5nND$Khiu9V" role="2Oq$k0">
-                  <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                  <ref role="37wK5l" to="wyt6:~Thread.currentThread()" resolve="currentThread" />
                   <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                 </node>
                 <node concept="liA8E" id="5nND$KhivbW" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Thread.setContextClassLoader(java.lang.ClassLoader):void" resolve="setContextClassLoader" />
+                  <ref role="37wK5l" to="wyt6:~Thread.setContextClassLoader(java.lang.ClassLoader)" resolve="setContextClassLoader" />
                   <node concept="37vLTw" id="5nND$Khivdl" role="37wK5m">
                     <ref role="3cqZAo" node="5nND$KhikzM" resolve="currentClassLoader" />
                   </node>
@@ -453,7 +453,7 @@
               <ref role="3cqZAo" node="5T_hheUK4GZ" resolve="t" />
             </node>
             <node concept="liA8E" id="3c_aOQpO1ht" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace(java.io.PrintWriter):void" resolve="printStackTrace" />
+              <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace(java.io.PrintWriter)" resolve="printStackTrace" />
               <node concept="2ShNRf" id="3c_aOQpO1hd" role="37wK5m">
                 <node concept="1pGfFk" id="3c_aOQpO1he" role="2ShVmc">
                   <ref role="37wK5l" to="guwi:~PrintWriter.&lt;init&gt;(java.io.Writer)" resolve="PrintWriter" />
@@ -475,7 +475,7 @@
                 <ref role="3cqZAo" node="3c_aOQpO1gQ" resolve="sw" />
               </node>
               <node concept="liA8E" id="3c_aOQpO1h5" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~StringWriter.toString():java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
               </node>
             </node>
           </node>
