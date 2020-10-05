@@ -5912,9 +5912,7 @@
         <property role="TrG5h" value="colId" />
         <node concept="10Oyi0" id="3NdPOdNGJX4" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="1lpzdTlSaj5" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
+      <node concept="10Oyi0" id="6F2RWtlPqzd" role="3clF45" />
       <node concept="3Tm1VV" id="3NdPOdNGJWl" role="1B3o_S" />
       <node concept="3clFbS" id="3NdPOdNGJWm" role="3clF47" />
     </node>
@@ -5971,9 +5969,7 @@
         <property role="TrG5h" value="colName" />
         <node concept="17QB3L" id="7ng6PyBXqDe" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="1lpzdTlVTib" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
+      <node concept="10Oyi0" id="6F2RWtlPqwS" role="3clF45" />
       <node concept="3Tm1VV" id="7ng6PyBXpal" role="1B3o_S" />
       <node concept="3clFbS" id="7ng6PyBXpam" role="3clF47" />
     </node>
@@ -6307,9 +6303,7 @@
         <property role="TrG5h" value="colId" />
         <node concept="10Oyi0" id="6LKPMZITI8w" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="1lpzdTlSjYJ" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
+      <node concept="10Oyi0" id="6F2RWtlPo5j" role="3clF45" />
       <node concept="3Tm1VV" id="6LKPMZITI8y" role="1B3o_S" />
       <node concept="3clFbS" id="6LKPMZITI8$" role="3clF47">
         <node concept="SfApY" id="6LKPMZLhIy8" role="3cqZAp">
@@ -6605,9 +6599,7 @@
         <property role="TrG5h" value="colName" />
         <node concept="17QB3L" id="7ng6PyBYrMb" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="1lpzdTlVUks" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
+      <node concept="10Oyi0" id="6F2RWtlPsrw" role="3clF45" />
       <node concept="3Tm1VV" id="7ng6PyBYrMd" role="1B3o_S" />
       <node concept="3clFbS" id="7ng6PyBYrMf" role="3clF47">
         <node concept="SfApY" id="7ng6PyBYtvQ" role="3cqZAp">
