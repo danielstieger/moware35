@@ -13,6 +13,7 @@
       </concept>
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="406105322043153424" name="org.modellwerkstatt.objectflow.structure.GenTimeScanning" flags="ng" index="20ptEN" />
       <concept id="406105322043152820" name="org.modellwerkstatt.objectflow.structure.ComponentsScanning" flags="ng" index="20ptWn">
         <child id="406105322043152971" name="componentBaseName" index="20ptNC" />
       </concept>
@@ -415,11 +416,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="7L8_IJAaDIP" role="2CGBMS" />
-    <node concept="20ptWn" id="7L8_IJAaDIQ" role="20ptHX">
-      <node concept="Xl_RD" id="7L8_IJAaDIR" role="20ptNC">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
-      </node>
-    </node>
+    <node concept="20ptEN" id="6F2RWtiDzx0" role="20ptHX" />
   </node>
   <node concept="2CG7Z0" id="4LC0Y0L2p9d">
     <property role="TrG5h" value="Defaults" />

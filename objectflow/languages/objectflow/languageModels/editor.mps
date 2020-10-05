@@ -6093,7 +6093,7 @@
               </node>
               <node concept="3cpWs6" id="4orEeMj5qXy" role="3cqZAp">
                 <node concept="Xl_RD" id="4orEeMj5r4q" role="3cqZAk">
-                  <property role="Xl_RC" value="on startup (immediately before first test here exec)" />
+                  <property role="Xl_RC" value="on startup (immediately before first test executed)" />
                 </node>
               </node>
               <node concept="3clFbH" id="4orEeMj57nb" role="3cqZAp" />
@@ -6127,7 +6127,7 @@
               </node>
               <node concept="3cpWs6" id="4orEeMj5rC9" role="3cqZAp">
                 <node concept="Xl_RD" id="4orEeMj5rCa" role="3cqZAk">
-                  <property role="Xl_RC" value="on shutdown (immediately after last test here exec)" />
+                  <property role="Xl_RC" value="on shutdown (immediately after last test executed)" />
                 </node>
               </node>
               <node concept="3clFbH" id="4orEeMj5rCb" role="3cqZAp" />
