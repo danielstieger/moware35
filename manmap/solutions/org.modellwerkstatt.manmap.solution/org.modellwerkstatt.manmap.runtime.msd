@@ -4,14 +4,14 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot contentPath="${mps_home}/moware/manmap/languages/manmap/jars" type="java_classes">
-      <sourceRoot location="commons-logging-1.2.jar" />
-      <sourceRoot location="joda-time-2.10.jar" />
-      <sourceRoot location="spring-beans-3.2.9.RELEASE.jar" />
-      <sourceRoot location="spring-context-3.2.9.RELEASE.jar" />
-      <sourceRoot location="spring-core-3.2.9.RELEASE.jar" />
-      <sourceRoot location="spring-jdbc-3.2.9.RELEASE.jar" />
-      <sourceRoot location="spring-tx-3.2.9.RELEASE.jar" />
+    <modelRoot contentPath="${mps_home}/moware/manmap/languages/manmap" type="java_classes">
+      <sourceRoot location="jars/commons-logging-1.2.jar" />
+      <sourceRoot location="jars/joda-time-2.10.jar" />
+      <sourceRoot location="jars/spring-beans-3.2.9.RELEASE.jar" />
+      <sourceRoot location="jars/spring-context-3.2.9.RELEASE.jar" />
+      <sourceRoot location="jars/spring-core-3.2.9.RELEASE.jar" />
+      <sourceRoot location="jars/spring-jdbc-3.2.9.RELEASE.jar" />
+      <sourceRoot location="jars/spring-tx-3.2.9.RELEASE.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
