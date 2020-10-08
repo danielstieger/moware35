@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
@@ -2816,7 +2815,7 @@
         <node concept="37vLTG" id="2w93nZwDyfI" role="3clF46">
           <property role="TrG5h" value="__testSuitReport" />
           <node concept="3uibUv" id="2w93nZwDyiR" role="1tU5fm">
-            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitHelper" />
+            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitReporter" />
           </node>
         </node>
         <node concept="3cqZAl" id="2w93nZwoWnA" role="3clF45" />
@@ -2985,7 +2984,7 @@
         <node concept="37vLTG" id="7Z3mGVdE8yM" role="3clF46">
           <property role="TrG5h" value="__testSuitReport" />
           <node concept="3uibUv" id="7Z3mGVdE9kR" role="1tU5fm">
-            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitHelper" />
+            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitReporter" />
           </node>
         </node>
         <node concept="37vLTG" id="6t$pRS5I3ze" role="3clF46">

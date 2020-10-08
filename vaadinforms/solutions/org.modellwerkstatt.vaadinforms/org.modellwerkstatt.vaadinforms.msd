@@ -4,18 +4,18 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${mps_home}/moware/vaadinforms/jars" type="java_classes">
-      <sourceRoot location="vaadinclient/contextmenu-4.5.jar" />
-      <sourceRoot location="vaadinclient/vaadin-server-7.6.4.jar" />
-      <sourceRoot location="vaadinclient/vaadin-shared-7.6.4.jar" />
+    <modelRoot contentPath="${module}/jars/vaadinclient" type="java_classes">
+      <sourceRoot location="contextmenu-4.5.jar" />
+      <sourceRoot location="vaadin-server-7.6.4.jar" />
+      <sourceRoot location="vaadin-shared-7.6.4.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mps_home}/moware/vaadinforms/jars/vaadinclient/jsoup-1.8.1.jar" />
-    <stubModelEntry path="${mps_home}/moware/vaadinforms/jars/vaadinclient/contextmenu-4.5.jar" />
-    <stubModelEntry path="${mps_home}/moware/vaadinforms/jars/vaadinclient/vaadin-server-7.6.4.jar" />
-    <stubModelEntry path="${mps_home}/moware/vaadinforms/jars/vaadinclient/vaadin-shared-7.6.4.jar" />
-    <stubModelEntry path="${mps_home}/moware/vaadinforms/jars/vaadinclient/vaadin-themes-7.6.4.jar" />
+    <stubModelEntry path="${module}/jars/vaadinclient/contextmenu-4.5.jar" />
+    <stubModelEntry path="${module}/jars/vaadinclient/vaadin-server-7.6.4.jar" />
+    <stubModelEntry path="${module}/jars/vaadinclient/vaadin-shared-7.6.4.jar" />
+    <stubModelEntry path="${module}/jars/vaadinclient/vaadin-themes-7.6.4.jar" />
+    <stubModelEntry path="${module}/jars/vaadinclient/jsoup-1.8.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

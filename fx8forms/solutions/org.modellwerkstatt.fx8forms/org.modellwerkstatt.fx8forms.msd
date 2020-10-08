@@ -4,14 +4,14 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${mps_home}/moware/fx8forms/solutions/jars" type="java_classes">
-      <sourceRoot location="jfxrt.jar" />
+    <modelRoot contentPath="${module}/jars" type="java_classes">
       <sourceRoot location="richclient/fx8flatter.jar" />
+      <sourceRoot location="jfxrt.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mps_home}/moware/fx8forms/solutions/jars/jfxrt.jar" />
-    <stubModelEntry path="${mps_home}/moware/fx8forms/solutions/jars/richclient/fx8flatter.jar" />
+    <stubModelEntry path="${module}/jars/richclient/fx8flatter.jar" />
+    <stubModelEntry path="${module}/jars/commons-imaging-1.0-RC-1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -2,7 +2,6 @@
 <model ref="r:0511ac41-e8a9-4ab0-a457-651d8273979c(org.modellwerkstatt.dataux.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>

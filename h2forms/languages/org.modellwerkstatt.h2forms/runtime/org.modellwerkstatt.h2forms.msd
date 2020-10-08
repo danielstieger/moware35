@@ -4,12 +4,12 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${mps_home}/moware/h2forms/languages/jars/servletclient" type="java_classes">
-      <sourceRoot location="mopebble-3.0.4.jar" />
+    <modelRoot contentPath="${module}/jars" type="java_classes">
+      <sourceRoot location="servletclient/mopebble-3.0.4.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mps_home}/moware/h2forms/languages/jars/servletclient/mopebble-3.0.4.jar" />
+    <stubModelEntry path="${module}/jars/servletclient/mopebble-3.0.4.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

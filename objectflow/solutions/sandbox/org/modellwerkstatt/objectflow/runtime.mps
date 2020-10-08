@@ -45,9 +45,9 @@
     <import index="vpat" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:mjson(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="ybfw" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.modellwerkstatt.javaxbus(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="3qfb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.annotation(JDK/)" />
+    <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
     <import index="9n95" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote(JDK/)" implicit="true" />
-    <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.objectflow.runtime/)" implicit="true" />
     <import index="21r8" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.xmlgraphics.util(org.modellwerkstatt.objectflow.runtime/)" implicit="true" />
   </imports>
   <registry>
@@ -32267,7 +32267,7 @@
                 <node concept="liA8E" id="5Bx9kuUVRRN" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                   <node concept="Xl_RD" id="5Bx9kuUVRRO" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;from font-family=&quot;Arial&quot; /&gt;" />
+                    <property role="Xl_RC" value="&lt;from font-family=\&quot;Arial\&quot; /&gt;" />
                   </node>
                 </node>
               </node>
@@ -32280,7 +32280,7 @@
                 <node concept="liA8E" id="5Bx9kuUVScG" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                   <node concept="Xl_RD" id="5Bx9kuUVScH" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;to font-family=&quot;Helvetica&quot;/&gt;" />
+                    <property role="Xl_RC" value="&lt;to font-family=\&quot;Helvetica\&quot;/&gt;" />
                   </node>
                 </node>
               </node>
@@ -32293,7 +32293,7 @@
                 <node concept="liA8E" id="6eUMu2ep3u7" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                   <node concept="Xl_RD" id="6eUMu2ep3u8" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;from font-family=&quot;Consolas&quot; /&gt;" />
+                    <property role="Xl_RC" value="&lt;from font-family=\&quot;Consolas\&quot; /&gt;" />
                   </node>
                 </node>
               </node>
@@ -32306,7 +32306,7 @@
                 <node concept="liA8E" id="6eUMu2ep3uc" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                   <node concept="Xl_RD" id="6eUMu2ep3ud" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;to font-family=&quot;Courier&quot;/&gt;" />
+                    <property role="Xl_RC" value="&lt;to font-family=\&quot;Courier\&quot;/&gt;" />
                   </node>
                 </node>
               </node>
@@ -32589,6 +32589,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="6j4XqQEzz_A" role="3cqZAp" />
+            <node concept="3clFbH" id="2m_pdEYHWMi" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="6j4XqQEtacp" role="TEbGg">
             <node concept="3cpWsn" id="6j4XqQEtacq" role="TDEfY">
@@ -32636,7 +32637,6 @@
               </node>
             </node>
           </node>
-          <node concept="15s5l7" id="6j4XqQEtacF" role="lGtFl" />
         </node>
       </node>
       <node concept="3cqZAl" id="6j4XqQEtacH" role="3clF45" />
