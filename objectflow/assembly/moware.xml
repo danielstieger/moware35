@@ -50,8 +50,8 @@
  
 <project>
 
-	<property name="mowarePluginHomeDir"      value="${user.home}/.MPS33/config/plugins/moware" />
-	<property name="mowareMpsHomeDir"         value="C:/javaexe/MPS335" />
+	<property name="mowarePluginHomeDir"      value="${user.home}/.MPS2019_1/config/plugins/moware" />
+	<property name="mowareMpsHomeDir"         value="C:/javaexe/MPS2019_1" />
 	<property name="mowareWorkDir"       	  value="work" />
 	<property name="appFavicon"     		  value="./favicon.ico" /> 
 	
@@ -75,6 +75,7 @@
 			<fileset dir="${mowarePluginHomeDir}/jars/richclient" includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/" includes="slf4j-log4j12-1.6.1.jar" />
 		
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
@@ -115,9 +116,11 @@
 			<fileset dir="${mowarePluginHomeDir}/jars/printing21" includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/servletclient" includes="*pebble*.jar" />
 
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
+			
 		</copy>
 		
 		<mkdir dir="${mowareWorkDir}/static/${h2formsTemplate1}"/>
@@ -171,6 +174,7 @@
 			<fileset dir="${mowarePluginHomeDir}/jars/printing21" includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/vaadinclient/" includes="*.jar" />
 
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
@@ -223,6 +227,7 @@
 			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" /> 
             <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />   
  
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
@@ -255,6 +260,7 @@
 							
 			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />
             
+            <fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />

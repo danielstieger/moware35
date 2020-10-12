@@ -23,7 +23,7 @@
   <!-- **** build specific definitions ************************************************************** -->
 
   <property name="buildUserHome"         value="/Users/danielstieger" /> 
-  <property name="mowareMpsHomeDir"      value="${buildUserHome}/javaexe/MPS335" />
+  <property name="mowareMpsHomeDir"      value="${buildUserHome}/javaexe/MPS2019_1" />
   <property name="mowarePluginHomeDir"   value="${buildUserHome}/javaexe/MoPluginFake" />
   <property name="mowareHome"            value="${buildUserHome}/moware" />
     
