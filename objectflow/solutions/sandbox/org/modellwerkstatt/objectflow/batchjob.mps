@@ -5972,9 +5972,9 @@
               <node concept="3clFbF" id="5lMTsSl$zsL" role="3cqZAp">
                 <node concept="1rXfSq" id="5lMTsSl$zsJ" role="3clFbG">
                   <ref role="37wK5l" node="2fj6lk$8KUO" resolve="prot" />
-                  <node concept="Rm8GO" id="5lMTsSl$$Cs" role="37wK5m">
+                  <node concept="Rm8GO" id="5k3P8LbajtN" role="37wK5m">
+                    <ref role="Rm8GQ" node="2fj6lk$8KUH" resolve="INFO" />
                     <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
-                    <ref role="Rm8GQ" node="2fj6lk$8KUJ" resolve="JOB_ERROR" />
                   </node>
                   <node concept="3cpWs3" id="4InK$iNqkVZ" role="37wK5m">
                     <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
