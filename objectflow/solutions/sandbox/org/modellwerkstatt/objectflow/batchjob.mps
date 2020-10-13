@@ -5976,44 +5976,28 @@
                     <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
                     <ref role="Rm8GQ" node="2fj6lk$8KUJ" resolve="JOB_ERROR" />
                   </node>
-                  <node concept="3cpWs3" id="7n_$dfXfz7X" role="37wK5m">
-                    <node concept="2OqwBi" id="7n_$dfXf$NW" role="3uHU7w">
-                      <node concept="37vLTw" id="7n_$dfXf$_T" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4NpYXr5VCvU" resolve="timerContoller" />
+                  <node concept="3cpWs3" id="4InK$iNqkVZ" role="37wK5m">
+                    <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
+                      <node concept="3cpWs3" id="5lMTsSl$CYz" role="3uHU7B">
+                        <node concept="Xl_RD" id="5lMTsSl$$NT" role="3uHU7B">
+                          <property role="Xl_RC" value="Requested a producer-run while still processing isNoConsumerWorking()=false, inbox size=" />
+                        </node>
+                        <node concept="2OqwBi" id="5lMTsSl$OFA" role="3uHU7w">
+                          <node concept="37vLTw" id="5lMTsSl$Oy6" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                          </node>
+                          <node concept="liA8E" id="5lMTsSl$OSW" role="2OqNvi">
+                            <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size()" resolve="size" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="liA8E" id="7n_$dfXfAbW" role="2OqNvi">
-                        <ref role="37wK5l" node="4InK$iNK7vr" resolve="getFullStatusReport" />
-                        <node concept="10Nm6u" id="7n_$dfXfAI1" role="37wK5m" />
+                      <node concept="Xl_RD" id="4InK$iNqfO$" role="3uHU7w">
+                        <property role="Xl_RC" value=" =&gt; rescheduling? " />
                       </node>
                     </node>
-                    <node concept="3cpWs3" id="7n_$dfXfrNc" role="3uHU7B">
-                      <node concept="3cpWs3" id="4InK$iNqkVZ" role="3uHU7B">
-                        <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
-                          <node concept="3cpWs3" id="5lMTsSl$CYz" role="3uHU7B">
-                            <node concept="Xl_RD" id="5lMTsSl$$NT" role="3uHU7B">
-                              <property role="Xl_RC" value="Requested a producer-run while still processing isNoConsumerWorking()=false, inbox size=" />
-                            </node>
-                            <node concept="2OqwBi" id="5lMTsSl$OFA" role="3uHU7w">
-                              <node concept="37vLTw" id="5lMTsSl$Oy6" role="2Oq$k0">
-                                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
-                              </node>
-                              <node concept="liA8E" id="5lMTsSl$OSW" role="2OqNvi">
-                                <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size()" resolve="size" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="4InK$iNqfO$" role="3uHU7w">
-                            <property role="Xl_RC" value=" =&gt; rescheduling? " />
-                          </node>
-                        </node>
-                        <node concept="3fqX7Q" id="4InK$iNqmhn" role="3uHU7w">
-                          <node concept="37vLTw" id="4InK$iNqnwA" role="3fr31v">
-                            <ref role="3cqZAo" node="5lMTsSl$mR2" resolve="manualRun" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="7n_$dfXfs3O" role="3uHU7w">
-                        <property role="Xl_RC" value="\n\nDebug Information.. " />
+                    <node concept="3fqX7Q" id="4InK$iNqmhn" role="3uHU7w">
+                      <node concept="37vLTw" id="4InK$iNqnwA" role="3fr31v">
+                        <ref role="3cqZAo" node="5lMTsSl$mR2" resolve="manualRun" />
                       </node>
                     </node>
                   </node>
