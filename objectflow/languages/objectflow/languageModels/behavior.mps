@@ -13854,11 +13854,11 @@
     <property role="3GE5qa" value="StaticRessource" />
     <ref role="13h7C2" to="un0u:1fYc781EA$j" resolve="Label" />
     <node concept="13i0hz" id="2IDWU6ZlkuO" role="13h7CS">
-      <property role="TrG5h" value="getSpecification" />
+      <property role="TrG5h" value="getSpecificationOrDefault" />
       <node concept="37vLTG" id="2IDWU6Zlkxw" role="3clF46">
         <property role="TrG5h" value="platform" />
         <node concept="3Tqbb2" id="2IDWU6Zlky2" role="1tU5fm">
-          <ref role="ehGHo" to="un0u:2IDWU6Z30fV" resolve="Platform" />
+          <ref role="ehGHo" to="un0u:1lwvTLPwTBS" resolve="ISRPlatform" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2IDWU6ZlkuP" role="1B3o_S" />
