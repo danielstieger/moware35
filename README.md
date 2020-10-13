@@ -1,6 +1,6 @@
-#  Moware Master 2020 (mini) 
+#  Moware 2020 (mini) 
 MoWare 2020 (mini edition)
-[Compatible with MPS 3.3.5] 
+[Compatible with MPS 2019.1 / java 8_201] 
 
 MoWare Werkbank allows you to create business applications with more efficiency and 
 more development speed. By seperating technical from fachlichem Java and relying on
