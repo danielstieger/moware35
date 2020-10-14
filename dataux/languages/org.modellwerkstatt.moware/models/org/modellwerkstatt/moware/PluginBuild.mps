@@ -166,7 +166,7 @@
     <node concept="2G$12M" id="1JLTjCmZp2B" role="3989C9">
       <property role="TrG5h" value="MoWareLangAndSolutions" />
       <node concept="1E1JtA" id="1JLTjCmZp5F" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="org.modellwerkstatt.manmap.runtime" />
         <property role="3LESm3" value="37fdf88a-1025-4d01-864a-0bf987f72e6f" />
         <property role="2GAjPV" value="false" />

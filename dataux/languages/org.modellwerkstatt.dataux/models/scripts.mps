@@ -6845,7 +6845,7 @@
   <node concept="_UgoZ" id="2AV7EAPV$F4">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="Moware2020Analytics" />
-    <property role="_Wzho" value="MoWare 2020 Process Analysis" />
+    <property role="_Wzho" value="MoWare 2020 Migration to MINI Analysis" />
     <property role="2BwPS$" value="MoWare" />
     <node concept="_XfAh" id="2AV7EAPV$Ib" role="_YvDr">
       <property role="_XH9r" value="Locking used in Command" />
@@ -6934,6 +6934,52 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="SOruYK5oRq" role="_YvDr">
+      <property role="_XH9r" value="ISVARIANT() usage from userEnvironment" />
+      <ref role="_XDHR" to="tpee:hwliAcM" resolve="InstanceMethodCallOperation" />
+      <node concept="_ZGcI" id="SOruYK5oRs" role="_XPhp">
+        <node concept="3clFbS" id="SOruYK5oRu" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="SOruYK6C7S" role="_XDHO">
+        <node concept="3clFbS" id="SOruYK6C7T" role="2VODD2">
+          <node concept="3clFbF" id="SOruYK5oSh" role="3cqZAp">
+            <node concept="2OqwBi" id="SOruYK5qad" role="3clFbG">
+              <node concept="2OqwBi" id="SOruYK5phX" role="2Oq$k0">
+                <node concept="2OqwBi" id="SOruYK5oUU" role="2Oq$k0">
+                  <node concept="_YI3z" id="SOruYK5oSg" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="SOruYK5p1y" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:hwllgre" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="SOruYK5pHj" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="liA8E" id="SOruYK5qj6" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="Xl_RD" id="SOruYK5qj_" role="37wK5m">
+                  <property role="Xl_RC" value="isVariant" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="SOruYK5qrJ" role="_YvDr">
+      <property role="_XH9r" value="ISVARIANT() concept usage" />
+      <ref role="_XDHR" to="un0u:6BKPvpCUsC6" resolve="IsVariant" />
+      <node concept="_ZGcI" id="SOruYK5qrK" role="_XPhp">
+        <node concept="3clFbS" id="SOruYK5qrL" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="_XfAh" id="SOruYK5qQp" role="_YvDr">
+      <property role="_XH9r" value="ISVARIANT() usage as table variant" />
+      <ref role="_XDHR" to="r5tz:3NBIlSkjr0p" resolve="AlternativeTableName" />
+      <node concept="_ZGcI" id="SOruYK5qQq" role="_XPhp">
+        <node concept="3clFbS" id="SOruYK5qQr" role="2VODD2" />
       </node>
     </node>
     <node concept="1opIMY" id="2AV7EAPV$Kt" role="_YvDr" />
