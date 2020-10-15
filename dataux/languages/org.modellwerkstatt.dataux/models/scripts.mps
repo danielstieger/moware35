@@ -102,6 +102,9 @@
       </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -622,6 +625,42 @@
     </node>
     <node concept="1opIMY" id="2AV7EAPV$Kt" role="_YvDr" />
     <node concept="1opIMY" id="2AV7EAPV$Ku" role="_YvDr" />
+  </node>
+  <node concept="_UgoZ" id="7D2LHE6lzjy">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="Moware2020Analytics" />
+    <property role="_Wzho" value="MoWare MINI MPS2019_1" />
+    <property role="2BwPS$" value="MoWare" />
+    <node concept="_XfAh" id="7D2LHE6lzjz" role="_YvDr">
+      <property role="_XH9r" value="Unary Minus Usage" />
+      <ref role="_XDHR" to="tpee:6ZEvuogdkAL" resolve="UnaryMinus" />
+      <node concept="_ZGcI" id="7D2LHE6lzj$" role="_XPhp">
+        <node concept="3clFbS" id="7D2LHE6lzj_" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7D2LHE6lzjA" role="_XDHO">
+        <node concept="3clFbS" id="7D2LHE6lzjB" role="2VODD2">
+          <node concept="3clFbF" id="7D2LHE6l_2H" role="3cqZAp">
+            <node concept="3fqX7Q" id="7D2LHE6lB2t" role="3clFbG">
+              <node concept="2OqwBi" id="7D2LHE6lB2v" role="3fr31v">
+                <node concept="2OqwBi" id="7D2LHE6lB2w" role="2Oq$k0">
+                  <node concept="_YI3z" id="7D2LHE6lB2x" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7D2LHE6lB2y" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:i2$L3eA" resolve="expression" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="7D2LHE6lB2z" role="2OqNvi">
+                  <node concept="chp4Y" id="7D2LHE6lB2$" role="cj9EA">
+                    <ref role="cht4Q" to="tpee:hanubx6" resolve="IntegerLiteral" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1opIMY" id="7D2LHE6lzke" role="_YvDr" />
+    <node concept="1opIMY" id="7D2LHE6lzkf" role="_YvDr" />
   </node>
 </model>
 
