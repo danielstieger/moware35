@@ -423,11 +423,6 @@
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
       <node concept="1oajcY" id="swLfMHQSd6" role="1oa70y" />
     </node>
-    <node concept="1DS2jV" id="swLfMHQSd7" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
-      <node concept="1oajcY" id="swLfMHQSd8" role="1oa70y" />
-    </node>
     <node concept="1DS2jV" id="swLfMHQSd9" role="1NuT2Z">
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
@@ -4512,11 +4507,6 @@
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
       <node concept="1oajcY" id="1Zhh9750LWN" role="1oa70y" />
     </node>
-    <node concept="1DS2jV" id="1Zhh9750LWO" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
-      <node concept="1oajcY" id="1Zhh9750LWP" role="1oa70y" />
-    </node>
     <node concept="1DS2jV" id="1Zhh9750LWQ" role="1NuT2Z">
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
@@ -5134,11 +5124,6 @@
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
       <node concept="1oajcY" id="3feBNMFzUPH" role="1oa70y" />
     </node>
-    <node concept="1DS2jV" id="3feBNMFzUPI" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
-      <node concept="1oajcY" id="3feBNMFzUPJ" role="1oa70y" />
-    </node>
     <node concept="1DS2jV" id="3feBNMFzUPK" role="1NuT2Z">
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
@@ -5657,11 +5642,6 @@
       <property role="TrG5h" value="frame" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
       <node concept="1oajcY" id="5_hm6iItVs7" role="1oa70y" />
-    </node>
-    <node concept="1DS2jV" id="5_hm6iItVs8" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
-      <node concept="1oajcY" id="5_hm6iItVs9" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="5_hm6iItVsa" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -10368,11 +10348,6 @@
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
       <node concept="1oajcY" id="3P4lfamBC82" role="1oa70y" />
     </node>
-    <node concept="1DS2jV" id="3P4lfamBC83" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
-      <node concept="1oajcY" id="3P4lfamBC84" role="1oa70y" />
-    </node>
     <node concept="1DS2jV" id="3P4lfamBC85" role="1NuT2Z">
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
@@ -11009,11 +10984,6 @@
       <property role="TrG5h" value="frame" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
       <node concept="1oajcY" id="3g1Uva$SOmg" role="1oa70y" />
-    </node>
-    <node concept="1DS2jV" id="3g1Uva$SOmh" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
-      <node concept="1oajcY" id="3g1Uva$SOmi" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="3g1Uva$SOmj" role="1NuT2Z">
       <property role="TrG5h" value="project" />

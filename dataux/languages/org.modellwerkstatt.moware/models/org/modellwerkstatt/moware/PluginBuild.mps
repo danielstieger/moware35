@@ -166,7 +166,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2019.1 / moware MINI 2020.1D (start)" />
+          <property role="3MwjfP" value="MPS 2019.1 / moware MINI 2020.2 (mv)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1226,11 +1226,6 @@
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1JLTjCmZqOt" role="3bR37C">
-          <node concept="1Busua" id="1JLTjCmZqOu" role="1SiIV1">
-            <ref role="1Busuk" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1JLTjCmZqOv" role="3bR37C">
           <node concept="1Busua" id="1JLTjCmZqOw" role="1SiIV1">
             <ref role="1Busuk" node="1JLTjCmZp6M" resolve="org.modellwerkstatt.manmap" />
@@ -1311,6 +1306,26 @@
         </node>
         <node concept="2EVzJI" id="4AUDKc2mp46" role="2EVzJD">
           <ref role="2EVzJJ" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+        </node>
+        <node concept="1SiIV0" id="1RmwH8tqCCC" role="3bR37C">
+          <node concept="3bR9La" id="1RmwH8tqCCD" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1qokWp1VAAr" resolve="jetbrains.mps.refactoring" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1RmwH8tqCCE" role="3bR37C">
+          <node concept="3bR9La" id="1RmwH8tqCCF" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYK" resolve="jetbrains.mps.baseLanguage.util" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1RmwH8tqCCG" role="3bR37C">
+          <node concept="3bR9La" id="1RmwH8tqCCH" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1RmwH8tqCCI" role="3bR37C">
+          <node concept="3bR9La" id="1RmwH8tqCCJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:5xwbQ0eEV3x" resolve="jetbrains.mps.ide.java.platform" />
+          </node>
         </node>
       </node>
       <node concept="1E1JtA" id="6HA5kZtQ0G3" role="2G$12L">
@@ -1405,6 +1420,11 @@
         <node concept="1SiIV0" id="4AUDKc2r1Jl" role="3bR37C">
           <node concept="3bR9La" id="4AUDKc2r1Jm" role="1SiIV1">
             <ref role="3bR37D" node="6HA5kZtQ0G3" resolve="org.modellwerkstatt.dataux.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3EDlJFRS_9r" role="3bR37C">
+          <node concept="3bR9La" id="3EDlJFRS_9s" role="1SiIV1">
+            <ref role="3bR37D" node="3ZVr8i9E19j" resolve="org.modellwerkstatt.fx8forms" />
           </node>
         </node>
       </node>

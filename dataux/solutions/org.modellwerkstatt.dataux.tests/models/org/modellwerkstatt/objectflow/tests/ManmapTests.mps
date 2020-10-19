@@ -392,6 +392,9 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
+      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
+        <reference id="59360650270057722" name="test" index="1Cak38" />
+      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -4489,7 +4492,7 @@
       </node>
     </node>
     <node concept="12nEzA" id="2i3o0he2ppg" role="12nEwW">
-      <property role="TrG5h" value="MapAccountAudit" />
+      <property role="TrG5h" value="MapAccount" />
       <ref role="12nOxz" node="2i3o0he2k$7" resolve="Account" />
       <node concept="Xl_RD" id="2i3o0he2pph" role="12gAQd">
         <property role="Xl_RC" value="MMT_KONTOAUDIT" />
@@ -4644,7 +4647,7 @@
       <node concept="12kdtm" id="7$7FdxRb8at" role="3caO6$">
         <ref role="12kdtj" node="RffU3z0k8L" resolve="accountList" />
         <node concept="1VRMpY" id="7$7FdxRb8av" role="1VRwC$">
-          <ref role="1VRMpX" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+          <ref role="1VRMpX" node="2i3o0he2ppg" resolve="MapAccount" />
           <ref role="1VRMpW" node="1oH_MJexLxR" />
         </node>
       </node>
@@ -13077,6 +13080,176 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="3EDlJFRgbC7" role="3yMuLx">
+      <property role="TrG5h" value="Check that we load left outer joins correctly with composite null key present. " />
+      <node concept="3cqZAl" id="3EDlJFRgbC9" role="3clF45" />
+      <node concept="3clFbS" id="3EDlJFRgbCa" role="3clF47">
+        <node concept="3cpWs8" id="3EDlJFRgcit" role="3cqZAp">
+          <node concept="3cpWsn" id="3EDlJFRgciu" role="3cpWs9">
+            <property role="TrG5h" value="acc" />
+            <node concept="3uibUv" id="3EDlJFRgciv" role="1tU5fm">
+              <ref role="3uigEE" node="2i3o0he2k$7" resolve="Account" />
+            </node>
+            <node concept="1odsa" id="3EDlJFRgcjS" role="33vP2m">
+              <ref role="1ods_" node="4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <ref role="37wK5l" node="4nH4LOF0NHT" resolve="createAccount_onDB" />
+              <node concept="Xl_RD" id="3EDlJFRgeCY" role="37wK5m">
+                <property role="Xl_RC" value="null composite ref" />
+              </node>
+              <node concept="10Nm6u" id="3EDlJFRgeF3" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3EDlJFRgeFz" role="3cqZAp" />
+        <node concept="3clFbH" id="3EDlJFRgeGi" role="3cqZAp" />
+        <node concept="3cpWs8" id="3EDlJFRgf83" role="3cqZAp">
+          <node concept="3cpWsn" id="3EDlJFRgf84" role="3cpWs9">
+            <property role="TrG5h" value="reloaded" />
+            <node concept="_YKpA" id="3EDlJFRgwSS" role="1tU5fm">
+              <node concept="3uibUv" id="3EDlJFRgwST" role="_ZDj9">
+                <ref role="3uigEE" node="2i3o0he2k$7" resolve="Account" />
+              </node>
+            </node>
+            <node concept="1odsa" id="3EDlJFRgf9W" role="33vP2m">
+              <ref role="1ods_" node="RffU3z0kdc" resolve="RepoReferer" />
+              <ref role="37wK5l" node="3EDlJFRfLua" resolve="findAccountByIdJoinRelatedAccount" />
+              <node concept="2OqwBi" id="3EDlJFRgtMP" role="37wK5m">
+                <node concept="37vLTw" id="3EDlJFRgtCS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3EDlJFRgciu" resolve="acc" />
+                </node>
+                <node concept="2S8uIT" id="3EDlJFRgtXE" role="2OqNvi">
+                  <ref role="2S8YL0" node="2i3o0he2nSK" resolve="key" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3EDlJFRgy8g" role="3cqZAp">
+          <node concept="3clFbC" id="3EDlJFRg$VQ" role="1gVkn0">
+            <node concept="3cmrfG" id="3EDlJFRg$W1" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="3EDlJFRgzYv" role="3uHU7B">
+              <node concept="37vLTw" id="3EDlJFRgzlU" role="2Oq$k0">
+                <ref role="3cqZAo" node="3EDlJFRgf84" resolve="reloaded" />
+              </node>
+              <node concept="34oBXx" id="3EDlJFRg$fH" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3EDlJFRgAeI" role="3cqZAp">
+          <node concept="2OqwBi" id="3EDlJFRgN3q" role="1gVkn0">
+            <node concept="2OqwBi" id="3EDlJFRgCuB" role="2Oq$k0">
+              <node concept="2OqwBi" id="3EDlJFRgBSe" role="2Oq$k0">
+                <node concept="37vLTw" id="3EDlJFRgBvX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3EDlJFRgf84" resolve="reloaded" />
+                </node>
+                <node concept="1uHKPH" id="3EDlJFRgC9$" role="2OqNvi" />
+              </node>
+              <node concept="WNRgn" id="3EDlJFRgLGv" role="2OqNvi">
+                <ref role="WNRgg" node="2i3o0he2phn" resolve="relatedAccountAudit" />
+              </node>
+            </node>
+            <node concept="1Poggp" id="3EDlJFRgOmp" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3EDlJFRgOmG" role="3cqZAp" />
+        <node concept="3clFbH" id="3EDlJFRgchb" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xb" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zlI6g" resolve="Save and load an integer-key reference." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xc" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zpIxX" resolve="Save and load an integer-key reference (set 0)" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xd" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zV_Ij" resolve="Save and load an integer-key reference via join" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xe" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zCK1o" resolve="Save and load an string-key reference." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xf" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zDIa$" resolve="Save and load an string-key reference. (set null)" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xg" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zIGLQ" resolve="Save and load a list of string-key references with join." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xh" role="38MLOi">
+      <ref role="1Cak38" node="RffU3$03uw" resolve="Save and load a string-key references with join." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xi" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zMFoX" resolve="Save and load an ValueObject-key reference." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xj" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zOEd2" resolve="Save and load an ValueObject-key reference. (set null)" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xk" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zSBx2" resolve="Save and load an ValueObject-key reference with join." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xl" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJeHQk4" resolve="Save and load an ValueObject-key references with join." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xm" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJf20h$" resolve="Load entity with ValueObject-key reference and key directly embedded in entity." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xn" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJf4wNF" resolve="Assigne ValueObj-Key, reload and assign different one." />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xo" role="38MLOi">
+      <ref role="1Cak38" node="7gwY4W7v2i2" resolve="Check Reference initialization in Entities for IntegerKey" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xp" role="38MLOi">
+      <ref role="1Cak38" node="7gwY4W7v2IC" resolve="Check Reference initialization in Entities for StringKey" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xq" role="38MLOi">
+      <ref role="1Cak38" node="7gwY4W7v2Zt" resolve="Check Reference initialization in Entities for ValueObjectKey" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xr" role="38MLOi">
+      <ref role="1Cak38" node="33yTGTjX6La" resolve="Check IntegerKey dirty handling for entities - initially not set" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xs" role="38MLOi">
+      <ref role="1Cak38" node="33yTGTk0cA4" resolve="Check IntegerKey dirty handling for entities - initially set" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xt" role="38MLOi">
+      <ref role="1Cak38" node="33yTGTk3_yz" resolve="Check StringKey dirty handling for entities - initially not set" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xu" role="38MLOi">
+      <ref role="1Cak38" node="33yTGTk3_zR" resolve="Check StringKey dirty handling for entities - initially set" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xv" role="38MLOi">
+      <ref role="1Cak38" node="33yTGTkha9m" resolve="Check CompoundKey dirty handling for entities - initially not set" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xw" role="38MLOi">
+      <ref role="1Cak38" node="33yTGTkhaaF" resolve="Check CompoundKey dirty handling for entities - initially set" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xx" role="38MLOi">
+      <ref role="1Cak38" node="5OR7PPkKBNf" resolve="CompoundKey reference saving without setting the key of the object" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xy" role="38MLOi">
+      <ref role="1Cak38" node="6Lgq4tpyo7J" resolve="Query a status which is null on the db - ALLOW_NULL" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xz" role="38MLOi">
+      <ref role="1Cak38" node="77lIyOFCLox" resolve="Query a status which is null on the db - NULL not allowed" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$x$" role="38MLOi">
+      <ref role="1Cak38" node="77lIyOFGEnc" resolve="Query a status which is null on the db - S1 when null" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$x_" role="38MLOi">
+      <ref role="1Cak38" node="77lIyOFGLCM" resolve="Query a status which is null on the db - S2 when undefined " />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xA" role="38MLOi">
+      <ref role="1Cak38" node="77lIyOFYVRh" resolve="On Create correctly set" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xB" role="38MLOi">
+      <ref role="1Cak38" node="77lIyOG2JJ6" resolve="Write status on db - NULL allowed (and reload)" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xC" role="38MLOi">
+      <ref role="1Cak38" node="77lIyOG2Kfa" resolve="Write status on db - NULL not allowed" />
+    </node>
+    <node concept="1Cak35" id="3EDlJFRm$xD" role="38MLOi">
+      <ref role="1Cak38" node="77lIyOFzCDG" resolve="Check if we can compile a complex list operation with status" />
+    </node>
   </node>
   <node concept="2WPaUQ" id="2i3o0hdVwMp">
     <property role="3GE5qa" value="tests" />
@@ -13518,7 +13691,7 @@
       <node concept="3Tm1VV" id="2i3o0he2s7O" role="1B3o_S" />
       <node concept="3clFbS" id="2i3o0he2s7P" role="3clF47">
         <node concept="P1rGi" id="2i3o0he2s7Q" role="3cqZAp">
-          <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+          <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
           <node concept="37vLTw" id="2i3o0he2s7R" role="P1rGp">
             <ref role="3cqZAo" node="2i3o0he2s7L" resolve="account" />
           </node>
@@ -13539,7 +13712,7 @@
       <node concept="3Tm1VV" id="2i3o0he2s8I" role="1B3o_S" />
       <node concept="3clFbS" id="2i3o0he2s8J" role="3clF47">
         <node concept="P1rGi" id="2i3o0he2s8K" role="3cqZAp">
-          <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+          <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
           <node concept="37vLTw" id="2i3o0he2s8L" role="P1rGp">
             <ref role="3cqZAo" node="2i3o0he2s8F" resolve="account" />
           </node>
@@ -13565,7 +13738,7 @@
           <node concept="jybIQ" id="2i3o0he2sdm" role="3clFbG">
             <property role="1v8G3g" value="false" />
             <property role="HScZ5" value="false" />
-            <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+            <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
             <node concept="TUlRj" id="2i3o0he2sft" role="jxX7b">
               <node concept="37vLTw" id="2i3o0he2sfI" role="TUlRy">
                 <ref role="3cqZAo" node="2i3o0he2scX" resolve="key" />
@@ -13589,7 +13762,7 @@
           <node concept="jybIQ" id="RffU3ziqyE" role="3clFbG">
             <property role="1v8G3g" value="false" />
             <property role="HScZ5" value="false" />
-            <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+            <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
             <node concept="jxyYR" id="RffU3ziq$J" role="jxX7b">
               <node concept="1Wc70l" id="RffU3zir6U" role="jxyYK">
                 <node concept="3clFbC" id="RffU3zirfz" role="3uHU7w">
@@ -13655,7 +13828,7 @@
           <node concept="jybIQ" id="RffU3zfTe8" role="3clFbG">
             <property role="1v8G3g" value="false" />
             <property role="HScZ5" value="true" />
-            <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+            <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
           </node>
         </node>
       </node>
@@ -13673,7 +13846,7 @@
       <node concept="3Tm1VV" id="RffU3zfWbT" role="1B3o_S" />
       <node concept="3clFbS" id="RffU3zfWbU" role="3clF47">
         <node concept="P6k0p" id="RffU3zfWdz" role="3cqZAp">
-          <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+          <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
           <node concept="37vLTw" id="RffU3zfWdK" role="P6k0q">
             <ref role="3cqZAo" node="RffU3zfWcQ" resolve="acc" />
           </node>
@@ -14281,7 +14454,7 @@
             <node concept="jybIQ" id="RffU3zMFH7" role="37vLTx">
               <property role="1v8G3g" value="false" />
               <property role="HScZ5" value="false" />
-              <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+              <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
               <node concept="TUlRj" id="RffU3zMFH8" role="jxX7b">
                 <node concept="2OqwBi" id="RffU3zMFH9" role="TUlRy">
                   <node concept="37vLTw" id="RffU3zMFHa" role="2Oq$k0">
@@ -14367,7 +14540,7 @@
               <node concept="GVh7U" id="RffU3zMFZi" role="GVuqE">
                 <property role="3OY_Z6" value="false" />
                 <ref role="GVh7O" node="RffU3z0kgY" />
-                <ref role="GVh7q" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+                <ref role="GVh7q" node="2i3o0he2ppg" resolve="MapAccount" />
               </node>
             </node>
           </node>
@@ -14785,7 +14958,82 @@
             <ref role="3cqZAo" node="6Z4InLttWPU" resolve="refs" />
           </node>
         </node>
-        <node concept="3clFbH" id="6Z4InLttW3S" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="wbJLE" id="3EDlJFRfLua" role="jymVt">
+      <property role="TrG5h" value="findAccountByIdJoinRelatedAccount" />
+      <node concept="37vLTG" id="3EDlJFRfMvH" role="3clF46">
+        <property role="TrG5h" value="key" />
+        <node concept="3uibUv" id="3EDlJFRfOzk" role="1tU5fm">
+          <ref role="3uigEE" node="5LYSiLACQh1" resolve="AccountKey" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="3EDlJFRg51z" role="3clF45">
+        <node concept="3uibUv" id="3EDlJFRg5gf" role="_ZDj9">
+          <ref role="3uigEE" node="2i3o0he2k$7" resolve="Account" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3EDlJFRfLuc" role="1B3o_S" />
+      <node concept="3clFbS" id="3EDlJFRfLud" role="3clF47">
+        <node concept="3clFbF" id="3EDlJFRfOJA" role="3cqZAp">
+          <node concept="jybIQ" id="3EDlJFRfOJ$" role="3clFbG">
+            <property role="HScZ5" value="true" />
+            <property role="1v8G3g" value="true" />
+            <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
+            <node concept="jxyYR" id="3EDlJFRg2by" role="jxX7b">
+              <node concept="1Wc70l" id="3EDlJFRg3Fl" role="jxyYK">
+                <node concept="3clFbC" id="3EDlJFRg3T0" role="3uHU7w">
+                  <node concept="2OqwBi" id="3EDlJFRg40Z" role="3uHU7w">
+                    <node concept="37vLTw" id="3EDlJFRg3UM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3EDlJFRfMvH" resolve="key" />
+                    </node>
+                    <node concept="2S8uIT" id="3EDlJFRg49L" role="2OqNvi">
+                      <ref role="2S8YL0" node="3n7eUMgdFL3" resolve="active" />
+                    </node>
+                  </node>
+                  <node concept="3_7ulE" id="3EDlJFRg3Kz" role="3uHU7B">
+                    <ref role="3_688M" node="3EDlJFRfOJ$" />
+                    <ref role="2OG787" node="2i3o0he2qSa" />
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="3EDlJFRg359" role="3uHU7B">
+                  <node concept="3clFbC" id="3EDlJFRg2uy" role="3uHU7B">
+                    <node concept="3_7ulE" id="3EDlJFRg2cB" role="3uHU7B">
+                      <ref role="3_688M" node="3EDlJFRfOJ$" />
+                      <ref role="2OG787" node="2i3o0he2qUr" />
+                    </node>
+                    <node concept="2OqwBi" id="3EDlJFRg2Fk" role="3uHU7w">
+                      <node concept="37vLTw" id="3EDlJFRg2vp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3EDlJFRfMvH" resolve="key" />
+                      </node>
+                      <node concept="2S8uIT" id="3EDlJFRg2KQ" role="2OqNvi">
+                        <ref role="2S8YL0" node="5LYSiLACQh8" resolve="number" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="3EDlJFRg3jT" role="3uHU7w">
+                    <node concept="3_7ulE" id="3EDlJFRg39_" role="3uHU7B">
+                      <ref role="3_688M" node="3EDlJFRfOJ$" />
+                      <ref role="2OG787" node="2i3o0he2qSI" />
+                    </node>
+                    <node concept="2OqwBi" id="3EDlJFRg3t5" role="3uHU7w">
+                      <node concept="37vLTw" id="3EDlJFRg3la" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3EDlJFRfMvH" resolve="key" />
+                      </node>
+                      <node concept="2S8uIT" id="3EDlJFRg3z2" role="2OqNvi">
+                        <ref role="2S8YL0" node="5LYSiLACQhf" resolve="mandant" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="GVh7U" id="3EDlJFRgfym" role="GVuqE">
+              <ref role="GVh7O" node="2i3o0he2qNq" />
+              <ref role="GVh7q" node="2i3o0he2ppg" resolve="MapAccount" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="RffU3z0kdd" role="1B3o_S" />

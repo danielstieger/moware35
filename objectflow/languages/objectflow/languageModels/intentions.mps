@@ -1385,6 +1385,15 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7v38A3ki34t" role="3cqZAp">
+          <node concept="2OqwBi" id="7v38A3ki3az" role="3clFbG">
+            <node concept="1XNTG" id="7v38A3ki34r" role="2Oq$k0" />
+            <node concept="liA8E" id="7v38A3ki3ii" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode)" resolve="select" />
+              <node concept="2Sf5sV" id="7v38A3ki3iX" role="37wK5m" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -1418,6 +1427,15 @@
               <node concept="3TrcHB" id="vASbTzXML5" role="2OqNvi">
                 <ref role="3TsBF5" to="un0u:vASbTzXMI3" resolve="fromServer" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7v38A3khvnn" role="3cqZAp">
+          <node concept="2OqwBi" id="7v38A3khvv_" role="3clFbG">
+            <node concept="1XNTG" id="7v38A3khvnl" role="2Oq$k0" />
+            <node concept="liA8E" id="7v38A3khv_u" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode)" resolve="select" />
+              <node concept="2Sf5sV" id="7v38A3khv_Z" role="37wK5m" />
             </node>
           </node>
         </node>
