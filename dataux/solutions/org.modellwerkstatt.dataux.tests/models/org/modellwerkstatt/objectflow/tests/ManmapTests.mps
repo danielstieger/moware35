@@ -392,9 +392,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -13156,99 +13153,6 @@
         <node concept="3clFbH" id="3EDlJFRgOmG" role="3cqZAp" />
         <node concept="3clFbH" id="3EDlJFRgchb" role="3cqZAp" />
       </node>
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xb" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zlI6g" resolve="Save and load an integer-key reference." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xc" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zpIxX" resolve="Save and load an integer-key reference (set 0)" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xd" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zV_Ij" resolve="Save and load an integer-key reference via join" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xe" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zCK1o" resolve="Save and load an string-key reference." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xf" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zDIa$" resolve="Save and load an string-key reference. (set null)" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xg" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zIGLQ" resolve="Save and load a list of string-key references with join." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xh" role="38MLOi">
-      <ref role="1Cak38" node="RffU3$03uw" resolve="Save and load a string-key references with join." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xi" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zMFoX" resolve="Save and load an ValueObject-key reference." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xj" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zOEd2" resolve="Save and load an ValueObject-key reference. (set null)" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xk" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zSBx2" resolve="Save and load an ValueObject-key reference with join." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xl" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeHQk4" resolve="Save and load an ValueObject-key references with join." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xm" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJf20h$" resolve="Load entity with ValueObject-key reference and key directly embedded in entity." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xn" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJf4wNF" resolve="Assigne ValueObj-Key, reload and assign different one." />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xo" role="38MLOi">
-      <ref role="1Cak38" node="7gwY4W7v2i2" resolve="Check Reference initialization in Entities for IntegerKey" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xp" role="38MLOi">
-      <ref role="1Cak38" node="7gwY4W7v2IC" resolve="Check Reference initialization in Entities for StringKey" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xq" role="38MLOi">
-      <ref role="1Cak38" node="7gwY4W7v2Zt" resolve="Check Reference initialization in Entities for ValueObjectKey" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xr" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTjX6La" resolve="Check IntegerKey dirty handling for entities - initially not set" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xs" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTk0cA4" resolve="Check IntegerKey dirty handling for entities - initially set" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xt" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTk3_yz" resolve="Check StringKey dirty handling for entities - initially not set" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xu" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTk3_zR" resolve="Check StringKey dirty handling for entities - initially set" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xv" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTkha9m" resolve="Check CompoundKey dirty handling for entities - initially not set" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xw" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTkhaaF" resolve="Check CompoundKey dirty handling for entities - initially set" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xx" role="38MLOi">
-      <ref role="1Cak38" node="5OR7PPkKBNf" resolve="CompoundKey reference saving without setting the key of the object" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xy" role="38MLOi">
-      <ref role="1Cak38" node="6Lgq4tpyo7J" resolve="Query a status which is null on the db - ALLOW_NULL" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xz" role="38MLOi">
-      <ref role="1Cak38" node="77lIyOFCLox" resolve="Query a status which is null on the db - NULL not allowed" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$x$" role="38MLOi">
-      <ref role="1Cak38" node="77lIyOFGEnc" resolve="Query a status which is null on the db - S1 when null" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$x_" role="38MLOi">
-      <ref role="1Cak38" node="77lIyOFGLCM" resolve="Query a status which is null on the db - S2 when undefined " />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xA" role="38MLOi">
-      <ref role="1Cak38" node="77lIyOFYVRh" resolve="On Create correctly set" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xB" role="38MLOi">
-      <ref role="1Cak38" node="77lIyOG2JJ6" resolve="Write status on db - NULL allowed (and reload)" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xC" role="38MLOi">
-      <ref role="1Cak38" node="77lIyOG2Kfa" resolve="Write status on db - NULL not allowed" />
-    </node>
-    <node concept="1Cak35" id="3EDlJFRm$xD" role="38MLOi">
-      <ref role="1Cak38" node="77lIyOFzCDG" resolve="Check if we can compile a complex list operation with status" />
     </node>
   </node>
   <node concept="2WPaUQ" id="2i3o0hdVwMp">

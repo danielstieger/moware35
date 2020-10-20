@@ -9341,7 +9341,7 @@
                       <node concept="1pGfFk" id="1ckeo1pmZja" role="2ShVmc">
                         <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                         <node concept="Xl_RD" id="1ckeo1pmZjb" role="37wK5m">
-                          <property role="Xl_RC" value="You can not write 'null' for this status (allow_null not activated)." />
+                          <property role="Xl_RC" value="You can not write 'null' for this status (ALLOW_NULL_PERSISTANCE not activated)." />
                         </node>
                       </node>
                     </node>
@@ -9693,7 +9693,7 @@
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                     <node concept="3cpWs3" id="1ckeo1pmZlz" role="37wK5m">
                       <node concept="Xl_RD" id="1ckeo1pmZl$" role="3uHU7w">
-                        <property role="Xl_RC" value="." />
+                        <property role="Xl_RC" value=". Use ALLOW_NULL_PERSISTANCE / WHEN_UNDEFINED_WL or WHEN_NULL_WL." />
                       </node>
                       <node concept="3cpWs3" id="1ckeo1pmZl_" role="3uHU7B">
                         <node concept="3cpWs3" id="1ckeo1pmZlA" role="3uHU7B">
