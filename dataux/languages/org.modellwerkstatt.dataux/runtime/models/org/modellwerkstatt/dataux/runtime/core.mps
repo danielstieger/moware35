@@ -11303,11 +11303,54 @@
                 <property role="3SKdUp" value="prevent co-modification of array" />
               </node>
             </node>
+            <node concept="3cpWs8" id="38$Wln8ceA9" role="3cqZAp">
+              <node concept="3cpWsn" id="38$Wln8ceAa" role="3cpWs9">
+                <property role="TrG5h" value="runningTabsReverse" />
+                <node concept="3uibUv" id="38$Wln8ceA7" role="1tU5fm">
+                  <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                  <node concept="3uibUv" id="38$Wln8chel" role="11_B2D">
+                    <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="38$Wln8cl6O" role="33vP2m">
+                  <node concept="1pGfFk" id="38$Wln8cozn" role="2ShVmc">
+                    <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                    <node concept="3uibUv" id="38$Wln8cphE" role="1pMfVU">
+                      <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="38$Wln8csQm" role="3cqZAp">
+              <node concept="2OqwBi" id="38$Wln8ctwS" role="3clFbG">
+                <node concept="37vLTw" id="38$Wln8csQk" role="2Oq$k0">
+                  <ref role="3cqZAo" node="38$Wln8ceAa" resolve="runningTabsReverse" />
+                </node>
+                <node concept="liA8E" id="38$Wln8cug8" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.addAll(java.util.Collection)" resolve="addAll" />
+                  <node concept="37vLTw" id="38$Wln8cuUL" role="37wK5m">
+                    <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="38$Wln8cJTF" role="3cqZAp" />
+            <node concept="3clFbF" id="38$Wln8cywS" role="3cqZAp">
+              <node concept="2YIFZM" id="38$Wln8czbY" role="3clFbG">
+                <ref role="37wK5l" to="33ny:~Collections.reverse(java.util.List)" resolve="reverse" />
+                <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                <node concept="37vLTw" id="38$Wln8czAl" role="37wK5m">
+                  <ref role="3cqZAo" node="38$Wln8ceAa" resolve="runningTabsReverse" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="38$Wln8c_7h" role="3cqZAp" />
             <node concept="1DcWWT" id="50$EOT994qO" role="3cqZAp">
               <node concept="3cpWsn" id="50$EOT994qP" role="1Duv9x">
                 <property role="TrG5h" value="c" />
-                <node concept="3uibUv" id="938$Cs1_8z" role="1tU5fm">
-                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                <node concept="3uibUv" id="38$Wln8cD0v" role="1tU5fm">
+                  <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
                 </node>
               </node>
               <node concept="3clFbS" id="50$EOT994qR" role="2LFqv$">
@@ -11336,15 +11379,8 @@
                 </node>
                 <node concept="3clFbF" id="50$EOT994qS" role="3cqZAp">
                   <node concept="2OqwBi" id="50$EOT994qT" role="3clFbG">
-                    <node concept="1eOMI4" id="938$Cs1_j_" role="2Oq$k0">
-                      <node concept="10QFUN" id="938$Cs1_jy" role="1eOMHV">
-                        <node concept="3uibUv" id="2o7h3aDZ5k6" role="10QFUM">
-                          <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
-                        </node>
-                        <node concept="37vLTw" id="938$Cs1_jB" role="10QFUP">
-                          <ref role="3cqZAo" node="50$EOT994qP" resolve="c" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="38$Wln8cJHG" role="2Oq$k0">
+                      <ref role="3cqZAo" node="50$EOT994qP" resolve="c" />
                     </node>
                     <node concept="liA8E" id="27BPRG5TLLh" role="2OqNvi">
                       <ref role="37wK5l" node="4kAZUcr9NXN" resolve="internal_immediatellyShutdown" />
@@ -11352,13 +11388,8 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="938$Cs1znf" role="1DdaDG">
-                <node concept="37vLTw" id="938$CrNu8Z" role="2Oq$k0">
-                  <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
-                </node>
-                <node concept="liA8E" id="938$Cs1zHy" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.toArray()" resolve="toArray" />
-                </node>
+              <node concept="37vLTw" id="38$Wln8cCCs" role="1DdaDG">
+                <ref role="3cqZAo" node="38$Wln8ceAa" resolve="runningTabsReverse" />
               </node>
             </node>
           </node>

@@ -28782,14 +28782,6 @@
       </node>
       <node concept="3Tm6S6" id="3$bhckDx2XA" role="1B3o_S" />
     </node>
-    <node concept="Wx3nA" id="3$bhckDyyZ9" role="jymVt">
-      <property role="TrG5h" value="jodaLocalDateTypeHandler" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="3$bhckDx2XF" role="1tU5fm">
-        <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHandler" />
-      </node>
-      <node concept="3Tm6S6" id="3$bhckDx2XE" role="1B3o_S" />
-    </node>
     <node concept="Wx3nA" id="1YSLAaBzt10" role="jymVt">
       <property role="TrG5h" value="databaseDescription" />
       <property role="3TUv4t" value="false" />
@@ -28813,8 +28805,36 @@
       <node concept="3uibUv" id="26x4y$0nm0W" role="1tU5fm">
         <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
       </node>
-      <node concept="3Tm6S6" id="26x4y$0nlQY" role="1B3o_S" />
+      <node concept="3Tm1VV" id="38$Wln9t0FO" role="1B3o_S" />
       <node concept="10Nm6u" id="26x4y$0nm36" role="33vP2m" />
+    </node>
+    <node concept="2tJIrI" id="38$Wln8A80u" role="jymVt" />
+    <node concept="Wx3nA" id="38$Wln8A6se" role="jymVt">
+      <property role="TrG5h" value="lastTimeMillisFromDB" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3cpWsb" id="38$Wln8A8Nt" role="1tU5fm" />
+      <node concept="3Tm6S6" id="38$Wln8A6sg" role="1B3o_S" />
+      <node concept="3cmrfG" id="38$Wln8Aaso" role="33vP2m">
+        <property role="3cmrfH" value="0" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="38$Wln8Ab_b" role="jymVt">
+      <property role="TrG5h" value="lastTimeMillisFromLocal" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3cpWsb" id="38$Wln8Ab_c" role="1tU5fm" />
+      <node concept="3Tm6S6" id="38$Wln8Ab_d" role="1B3o_S" />
+      <node concept="3cmrfG" id="38$Wln8Ab_e" role="33vP2m">
+        <property role="3cmrfH" value="0" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="38$Wln8Aato" role="jymVt">
+      <property role="TrG5h" value="REORGANIZE_TIMESTAMP_FROM_DB_INTERVALL" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3cpWsb" id="38$Wln8Aatp" role="1tU5fm" />
+      <node concept="3Tm1VV" id="38$Wln9t0_$" role="1B3o_S" />
+      <node concept="3cmrfG" id="38$Wln8Aatr" role="33vP2m">
+        <property role="3cmrfH" value="10000" />
+      </node>
     </node>
     <node concept="2tJIrI" id="3$bhckDxlkY" role="jymVt" />
     <node concept="2tJIrI" id="3$bhckDxmsw" role="jymVt" />
@@ -28829,16 +28849,6 @@
             </node>
             <node concept="37vLTw" id="3$bhckDx2Yr" role="37vLTJ">
               <ref role="3cqZAo" node="3$bhckDyzPP" resolve="jodaDateTimeTypeHandler" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3$bhckDx2Ys" role="3cqZAp">
-          <node concept="37vLTI" id="3$bhckDx2Yt" role="3clFbG">
-            <node concept="37vLTw" id="3$bhckDx2Yu" role="37vLTx">
-              <ref role="3cqZAo" node="3$bhckDx2YM" resolve="date" />
-            </node>
-            <node concept="37vLTw" id="3$bhckDx2Yv" role="37vLTJ">
-              <ref role="3cqZAo" node="3$bhckDyyZ9" resolve="jodaLocalDateTypeHandler" />
             </node>
           </node>
         </node>
@@ -28873,12 +28883,6 @@
         <property role="TrG5h" value="time" />
         <node concept="3uibUv" id="3$bhckDx2YL" role="1tU5fm">
           <ref role="3uigEE" to="w7gk:7ITJFzooZFI" resolve="MMJodaDateTimeTypeHandler" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="3$bhckDx2YM" role="3clF46">
-        <property role="TrG5h" value="date" />
-        <node concept="3uibUv" id="3$bhckDx2YN" role="1tU5fm">
-          <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="1YSLAaBztmv" role="3clF46">
@@ -28931,21 +28935,6 @@
           </node>
           <node concept="1dT_AC" id="3$bhckDySUk" role="1dT_Ay">
             <property role="1dT_AB" value="" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="3$bhckDyP0o" role="3nqlJM">
-          <node concept="zr_55" id="3$bhckDyP0q" role="zr_5Q">
-            <ref role="zr_51" node="3$bhckDx2YI" resolve="tplt" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="3$bhckDyP0r" role="3nqlJM">
-          <node concept="zr_55" id="3$bhckDyP0t" role="zr_5Q">
-            <ref role="zr_51" node="3$bhckDx2YK" resolve="time" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="3$bhckDyP0u" role="3nqlJM">
-          <node concept="zr_55" id="3$bhckDyP0w" role="zr_5Q">
-            <ref role="zr_51" node="3$bhckDx2YM" resolve="date" />
           </node>
         </node>
       </node>
@@ -29005,84 +28994,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="5T_hheTOZO4" role="3cqZAp" />
-        <node concept="3cpWs6" id="3$bhckDx316" role="3cqZAp">
-          <node concept="10QFUN" id="3$bhckDx317" role="3cqZAk">
-            <node concept="3uibUv" id="3$bhckDx318" role="10QFUM">
-              <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
-            </node>
-            <node concept="2OqwBi" id="3$bhckDx319" role="10QFUP">
-              <node concept="37vLTw" id="3$bhckDx31a" role="2Oq$k0">
-                <ref role="3cqZAo" node="3$bhckDyBT0" resolve="template" />
-              </node>
-              <node concept="liA8E" id="3$bhckDx31b" role="2OqNvi">
-                <ref role="37wK5l" to="mbv:~JdbcTemplate.query(java.lang.String,org.springframework.jdbc.core.ResultSetExtractor,java.lang.Object...)" resolve="query" />
-                <node concept="2OqwBi" id="1YSLAaBztK1" role="37wK5m">
-                  <node concept="37vLTw" id="1YSLAaBztEE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1YSLAaBzt10" resolve="databaseDescription" />
-                  </node>
-                  <node concept="liA8E" id="1YSLAaBztQ8" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:1YSLAaBzrB7" resolve="getTimeStampQuery" />
-                  </node>
-                </node>
-                <node concept="2ShNRf" id="3$bhckDx31d" role="37wK5m">
-                  <node concept="YeOm9" id="3$bhckDx31e" role="2ShVmc">
-                    <node concept="1Y3b0j" id="3$bhckDx31f" role="YeSDq">
-                      <property role="2bfB8j" value="true" />
-                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                      <ref role="1Y3XeK" to="mbv:~ResultSetExtractor" resolve="ResultSetExtractor" />
-                      <node concept="3Tm1VV" id="3$bhckDx31g" role="1B3o_S" />
-                      <node concept="3clFb_" id="3$bhckDx31h" role="jymVt">
-                        <property role="1EzhhJ" value="false" />
-                        <property role="TrG5h" value="extractData" />
-                        <property role="DiZV1" value="false" />
-                        <node concept="3Tm1VV" id="3$bhckDx31i" role="1B3o_S" />
-                        <node concept="3uibUv" id="3$bhckDx31j" role="3clF45">
-                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                        </node>
-                        <node concept="37vLTG" id="3$bhckDx31k" role="3clF46">
-                          <property role="TrG5h" value="set" />
-                          <node concept="3uibUv" id="3$bhckDx31l" role="1tU5fm">
-                            <ref role="3uigEE" to="zj7m:~ResultSet" resolve="ResultSet" />
-                          </node>
-                        </node>
-                        <node concept="3uibUv" id="3$bhckDx31m" role="Sfmx6">
-                          <ref role="3uigEE" to="zj7m:~SQLException" resolve="SQLException" />
-                        </node>
-                        <node concept="3uibUv" id="3$bhckDx31n" role="Sfmx6">
-                          <ref role="3uigEE" to="ebvv:~DataAccessException" resolve="DataAccessException" />
-                        </node>
-                        <node concept="3clFbS" id="3$bhckDx31o" role="3clF47">
-                          <node concept="3clFbF" id="3$bhckDx31p" role="3cqZAp">
-                            <node concept="2OqwBi" id="3$bhckDx31q" role="3clFbG">
-                              <node concept="37vLTw" id="3$bhckDx31r" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3$bhckDx31k" resolve="set" />
-                              </node>
-                              <node concept="liA8E" id="3$bhckDx31s" role="2OqNvi">
-                                <ref role="37wK5l" to="zj7m:~ResultSet.next()" resolve="next" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs6" id="3$bhckDx31t" role="3cqZAp">
-                            <node concept="2OqwBi" id="3$bhckDx31u" role="3cqZAk">
-                              <node concept="37vLTw" id="3$bhckDx31v" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3$bhckDyyZ9" resolve="jodaLocalDateTypeHandler" />
-                              </node>
-                              <node concept="liA8E" id="3$bhckDx31w" role="2OqNvi">
-                                <ref role="37wK5l" to="w7gk:7ITJFzopatg" resolve="getResult" />
-                                <node concept="37vLTw" id="3$bhckDx31x" role="37wK5m">
-                                  <ref role="3cqZAo" node="3$bhckDx31k" resolve="set" />
-                                </node>
-                                <node concept="3cmrfG" id="3$bhckDx31y" role="37wK5m">
-                                  <property role="3cmrfH" value="1" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
+        <node concept="3cpWs6" id="38$Wln8A_4r" role="3cqZAp">
+          <node concept="2ShNRf" id="38$Wln8A_7K" role="3cqZAk">
+            <node concept="1pGfFk" id="38$Wln8A_T4" role="2ShVmc">
+              <ref role="37wK5l" to="w08f:~LocalDate.&lt;init&gt;(long)" resolve="LocalDate" />
+              <node concept="1rXfSq" id="38$Wln8A_Xe" role="37wK5m">
+                <ref role="37wK5l" node="38$Wln8A3eJ" resolve="internalOrganizeMillis" />
               </node>
             </node>
           </node>
@@ -29093,6 +29010,7 @@
       </node>
       <node concept="3Tm1VV" id="3$bhckDx312" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="38$Wln8AA78" role="jymVt" />
     <node concept="2YIFZL" id="3$bhckDyxQs" role="jymVt">
       <property role="TrG5h" value="getSqlServerDateTime" />
       <property role="DiZV1" value="false" />
@@ -29137,76 +29055,141 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="26x4y$0nmlX" role="3cqZAp" />
-        <node concept="3cpWs6" id="3$bhckDx31B" role="3cqZAp">
-          <node concept="10QFUN" id="3$bhckDx31C" role="3cqZAk">
-            <node concept="3uibUv" id="3$bhckDx31D" role="10QFUM">
-              <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
-            </node>
-            <node concept="2OqwBi" id="3$bhckDx31E" role="10QFUP">
-              <node concept="37vLTw" id="3$bhckDx31F" role="2Oq$k0">
-                <ref role="3cqZAo" node="3$bhckDyBT0" resolve="template" />
+        <node concept="3cpWs6" id="38$Wln8Arv$" role="3cqZAp">
+          <node concept="2ShNRf" id="38$Wln8At9q" role="3cqZAk">
+            <node concept="1pGfFk" id="38$Wln8Av9J" role="2ShVmc">
+              <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;(long)" resolve="DateTime" />
+              <node concept="1rXfSq" id="38$Wln8Aw0j" role="37wK5m">
+                <ref role="37wK5l" node="38$Wln8A3eJ" resolve="internalOrganizeMillis" />
               </node>
-              <node concept="liA8E" id="3$bhckDx31G" role="2OqNvi">
-                <ref role="37wK5l" to="mbv:~JdbcTemplate.query(java.lang.String,org.springframework.jdbc.core.ResultSetExtractor,java.lang.Object...)" resolve="query" />
-                <node concept="2OqwBi" id="1YSLAaBztTw" role="37wK5m">
-                  <node concept="37vLTw" id="1YSLAaBztT$" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1YSLAaBzt10" resolve="databaseDescription" />
-                  </node>
-                  <node concept="liA8E" id="1YSLAaBztTx" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:1YSLAaBzrB7" resolve="getTimeStampQuery" />
-                  </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="3$bhckDx31$" role="3clF45">
+        <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+      </node>
+      <node concept="3Tm1VV" id="3$bhckDx31_" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="38$Wln8AwPK" role="jymVt" />
+    <node concept="3clFb_" id="3$bhckDx324" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCurrentMillis" />
+      <node concept="3cpWsb" id="3$bhckDx325" role="3clF45" />
+      <node concept="3Tm1VV" id="3$bhckDx326" role="1B3o_S" />
+      <node concept="3clFbS" id="3$bhckDx327" role="3clF47">
+        <node concept="3SKdUt" id="38$Wln8AzZX" role="3cqZAp">
+          <node concept="3SKdUq" id="38$Wln8AzZZ" role="3SKWNk">
+            <property role="3SKdUp" value="legacy compatibility" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3$bhckDx328" role="3cqZAp">
+          <node concept="1rXfSq" id="38$Wln8Aylw" role="3cqZAk">
+            <ref role="37wK5l" node="38$Wln8A3eJ" resolve="internalOrganizeMillis" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3$bhckDyuRs" role="jymVt" />
+    <node concept="2tJIrI" id="38$Wln8A8Ri" role="jymVt" />
+    <node concept="2YIFZL" id="38$Wln8A3eJ" role="jymVt">
+      <property role="TrG5h" value="internalOrganizeMillis" />
+      <node concept="3clFbS" id="38$Wln8A1xY" role="3clF47">
+        <node concept="3cpWs8" id="38$Wln8AcTH" role="3cqZAp">
+          <node concept="3cpWsn" id="38$Wln8AcTK" role="3cpWs9">
+            <property role="TrG5h" value="currentMillisLocal" />
+            <node concept="3cpWsb" id="38$Wln8AcTF" role="1tU5fm" />
+            <node concept="2YIFZM" id="38$Wln8AdIs" role="33vP2m">
+              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="38$Wln8AqUb" role="3cqZAp">
+          <node concept="3SKdUq" id="38$Wln8AqUd" role="3SKWNk">
+            <property role="3SKdUp" value="The Thomas Hauser localMillis advantage optimization" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="38$Wln8AqkP" role="3cqZAp" />
+        <node concept="3clFbJ" id="38$Wln8Acpv" role="3cqZAp">
+          <node concept="3clFbS" id="38$Wln8Acpx" role="3clFbx">
+            <node concept="3cpWs8" id="38$Wln8Ahnj" role="3cqZAp">
+              <node concept="3cpWsn" id="38$Wln8Ahnk" role="3cpWs9">
+                <property role="TrG5h" value="dtFromDb" />
+                <node concept="3uibUv" id="38$Wln8Ahnl" role="1tU5fm">
+                  <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
                 </node>
-                <node concept="2ShNRf" id="3$bhckDx31I" role="37wK5m">
-                  <node concept="YeOm9" id="3$bhckDx31J" role="2ShVmc">
-                    <node concept="1Y3b0j" id="3$bhckDx31K" role="YeSDq">
-                      <property role="2bfB8j" value="true" />
-                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                      <ref role="1Y3XeK" to="mbv:~ResultSetExtractor" resolve="ResultSetExtractor" />
-                      <node concept="3Tm1VV" id="3$bhckDx31L" role="1B3o_S" />
-                      <node concept="3clFb_" id="3$bhckDx31M" role="jymVt">
-                        <property role="1EzhhJ" value="false" />
-                        <property role="TrG5h" value="extractData" />
-                        <property role="DiZV1" value="false" />
-                        <node concept="3Tm1VV" id="3$bhckDx31N" role="1B3o_S" />
-                        <node concept="3uibUv" id="3$bhckDx31O" role="3clF45">
-                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                <node concept="10QFUN" id="3$bhckDx31C" role="33vP2m">
+                  <node concept="3uibUv" id="3$bhckDx31D" role="10QFUM">
+                    <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+                  </node>
+                  <node concept="2OqwBi" id="3$bhckDx31E" role="10QFUP">
+                    <node concept="37vLTw" id="38$Wln8AhR3" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3$bhckDyBT0" resolve="template" />
+                    </node>
+                    <node concept="liA8E" id="3$bhckDx31G" role="2OqNvi">
+                      <ref role="37wK5l" to="mbv:~JdbcTemplate.query(java.lang.String,org.springframework.jdbc.core.ResultSetExtractor,java.lang.Object...)" resolve="query" />
+                      <node concept="2OqwBi" id="1YSLAaBztTw" role="37wK5m">
+                        <node concept="37vLTw" id="38$Wln8AhR7" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1YSLAaBzt10" resolve="databaseDescription" />
                         </node>
-                        <node concept="37vLTG" id="3$bhckDx31P" role="3clF46">
-                          <property role="TrG5h" value="p0" />
-                          <node concept="3uibUv" id="3$bhckDx31Q" role="1tU5fm">
-                            <ref role="3uigEE" to="zj7m:~ResultSet" resolve="ResultSet" />
-                          </node>
+                        <node concept="liA8E" id="1YSLAaBztTx" role="2OqNvi">
+                          <ref role="37wK5l" to="w7gk:1YSLAaBzrB7" resolve="getTimeStampQuery" />
                         </node>
-                        <node concept="3uibUv" id="3$bhckDx31R" role="Sfmx6">
-                          <ref role="3uigEE" to="zj7m:~SQLException" resolve="SQLException" />
-                        </node>
-                        <node concept="3uibUv" id="3$bhckDx31S" role="Sfmx6">
-                          <ref role="3uigEE" to="ebvv:~DataAccessException" resolve="DataAccessException" />
-                        </node>
-                        <node concept="3clFbS" id="3$bhckDx31T" role="3clF47">
-                          <node concept="3clFbF" id="3$bhckDx31U" role="3cqZAp">
-                            <node concept="2OqwBi" id="3$bhckDx31V" role="3clFbG">
-                              <node concept="37vLTw" id="3$bhckDx31W" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3$bhckDx31P" resolve="p0" />
+                      </node>
+                      <node concept="2ShNRf" id="3$bhckDx31I" role="37wK5m">
+                        <node concept="YeOm9" id="3$bhckDx31J" role="2ShVmc">
+                          <node concept="1Y3b0j" id="3$bhckDx31K" role="YeSDq">
+                            <property role="2bfB8j" value="true" />
+                            <ref role="1Y3XeK" to="mbv:~ResultSetExtractor" resolve="ResultSetExtractor" />
+                            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                            <node concept="3Tm1VV" id="3$bhckDx31L" role="1B3o_S" />
+                            <node concept="3clFb_" id="3$bhckDx31M" role="jymVt">
+                              <property role="1EzhhJ" value="false" />
+                              <property role="TrG5h" value="extractData" />
+                              <property role="DiZV1" value="false" />
+                              <node concept="3Tm1VV" id="3$bhckDx31N" role="1B3o_S" />
+                              <node concept="3uibUv" id="3$bhckDx31O" role="3clF45">
+                                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                               </node>
-                              <node concept="liA8E" id="3$bhckDx31X" role="2OqNvi">
-                                <ref role="37wK5l" to="zj7m:~ResultSet.next()" resolve="next" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs6" id="3$bhckDx31Y" role="3cqZAp">
-                            <node concept="2OqwBi" id="3$bhckDx31Z" role="3cqZAk">
-                              <node concept="37vLTw" id="3$bhckDx320" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3$bhckDyzPP" resolve="jodaDateTimeTypeHandler" />
-                              </node>
-                              <node concept="liA8E" id="3$bhckDx321" role="2OqNvi">
-                                <ref role="37wK5l" to="w7gk:7ITJFzooZFP" resolve="getResult" />
-                                <node concept="37vLTw" id="3$bhckDx322" role="37wK5m">
-                                  <ref role="3cqZAo" node="3$bhckDx31P" resolve="p0" />
+                              <node concept="37vLTG" id="3$bhckDx31P" role="3clF46">
+                                <property role="TrG5h" value="p0" />
+                                <node concept="3uibUv" id="3$bhckDx31Q" role="1tU5fm">
+                                  <ref role="3uigEE" to="zj7m:~ResultSet" resolve="ResultSet" />
                                 </node>
-                                <node concept="3cmrfG" id="3$bhckDx323" role="37wK5m">
-                                  <property role="3cmrfH" value="1" />
+                              </node>
+                              <node concept="3uibUv" id="3$bhckDx31R" role="Sfmx6">
+                                <ref role="3uigEE" to="zj7m:~SQLException" resolve="SQLException" />
+                              </node>
+                              <node concept="3uibUv" id="3$bhckDx31S" role="Sfmx6">
+                                <ref role="3uigEE" to="ebvv:~DataAccessException" resolve="DataAccessException" />
+                              </node>
+                              <node concept="3clFbS" id="3$bhckDx31T" role="3clF47">
+                                <node concept="3clFbF" id="3$bhckDx31U" role="3cqZAp">
+                                  <node concept="2OqwBi" id="3$bhckDx31V" role="3clFbG">
+                                    <node concept="37vLTw" id="3$bhckDx31W" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3$bhckDx31P" resolve="p0" />
+                                    </node>
+                                    <node concept="liA8E" id="3$bhckDx31X" role="2OqNvi">
+                                      <ref role="37wK5l" to="zj7m:~ResultSet.next()" resolve="next" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3cpWs6" id="3$bhckDx31Y" role="3cqZAp">
+                                  <node concept="2OqwBi" id="3$bhckDx31Z" role="3cqZAk">
+                                    <node concept="37vLTw" id="3$bhckDx320" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3$bhckDyzPP" resolve="jodaDateTimeTypeHandler" />
+                                    </node>
+                                    <node concept="liA8E" id="3$bhckDx321" role="2OqNvi">
+                                      <ref role="37wK5l" to="w7gk:7ITJFzooZFP" resolve="getResult" />
+                                      <node concept="37vLTw" id="3$bhckDx322" role="37wK5m">
+                                        <ref role="3cqZAo" node="3$bhckDx31P" resolve="p0" />
+                                      </node>
+                                      <node concept="3cmrfG" id="3$bhckDx323" role="37wK5m">
+                                        <property role="3cmrfH" value="1" />
+                                      </node>
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -29218,33 +29201,74 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="38$Wln8AFVZ" role="3cqZAp" />
+            <node concept="3clFbF" id="38$Wln8AiL0" role="3cqZAp">
+              <node concept="37vLTI" id="38$Wln8AjuN" role="3clFbG">
+                <node concept="2OqwBi" id="38$Wln8AjZS" role="37vLTx">
+                  <node concept="37vLTw" id="38$Wln8AjDv" role="2Oq$k0">
+                    <ref role="3cqZAo" node="38$Wln8Ahnk" resolve="dtFromDb" />
+                  </node>
+                  <node concept="liA8E" id="38$Wln8AkoK" role="2OqNvi">
+                    <ref role="37wK5l" to="oz00:~BaseDateTime.getMillis()" resolve="getMillis" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="38$Wln8AiKY" role="37vLTJ">
+                  <ref role="3cqZAo" node="38$Wln8A6se" resolve="lastTimeMillisFromDB" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="38$Wln8AkNt" role="3cqZAp">
+              <node concept="37vLTI" id="38$Wln8AlqS" role="3clFbG">
+                <node concept="2YIFZM" id="38$Wln8Al_R" role="37vLTx">
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
+                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                </node>
+                <node concept="37vLTw" id="38$Wln8AkNr" role="37vLTJ">
+                  <ref role="3cqZAo" node="38$Wln8Ab_b" resolve="lastTimeMillisFromLocal" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="38$Wln8Amy_" role="3cqZAp">
+              <node concept="37vLTw" id="38$Wln8AmWh" role="3cqZAk">
+                <ref role="3cqZAo" node="38$Wln8A6se" resolve="lastTimeMillisFromDB" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eOSWO" id="38$Wln8AfVo" role="3clFbw">
+            <node concept="37vLTw" id="38$Wln8Agv9" role="3uHU7w">
+              <ref role="3cqZAo" node="38$Wln8Aato" resolve="REORGANIZE_TIMESTAMP_FROM_DB_INTERVALL" />
+            </node>
+            <node concept="3cpWsd" id="38$Wln8AeTd" role="3uHU7B">
+              <node concept="37vLTw" id="38$Wln8AdQQ" role="3uHU7B">
+                <ref role="3cqZAo" node="38$Wln8AcTK" resolve="currentMillisLocal" />
+              </node>
+              <node concept="37vLTw" id="38$Wln8Afp6" role="3uHU7w">
+                <ref role="3cqZAo" node="38$Wln8Ab_b" resolve="lastTimeMillisFromLocal" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="38$Wln8A4sr" role="3cqZAp" />
+        <node concept="3cpWs6" id="38$Wln8ApKi" role="3cqZAp">
+          <node concept="3cpWsd" id="38$Wln8ApKl" role="3cqZAk">
+            <node concept="37vLTw" id="38$Wln8ApKm" role="3uHU7w">
+              <ref role="3cqZAo" node="38$Wln8Ab_b" resolve="lastTimeMillisFromLocal" />
+            </node>
+            <node concept="3cpWs3" id="38$Wln8ApKj" role="3uHU7B">
+              <node concept="37vLTw" id="38$Wln8ApKo" role="3uHU7B">
+                <ref role="3cqZAo" node="38$Wln8A6se" resolve="lastTimeMillisFromDB" />
+              </node>
+              <node concept="37vLTw" id="38$Wln8ApKn" role="3uHU7w">
+                <ref role="3cqZAo" node="38$Wln8AcTK" resolve="currentMillisLocal" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
-      <node concept="3uibUv" id="3$bhckDx31$" role="3clF45">
-        <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
-      </node>
-      <node concept="3Tm1VV" id="3$bhckDx31_" role="1B3o_S" />
+      <node concept="3cpWsb" id="38$Wln8A3UA" role="3clF45" />
+      <node concept="3Tm6S6" id="38$Wln8A2dn" role="1B3o_S" />
     </node>
-    <node concept="3clFb_" id="3$bhckDx324" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getCurrentMillis" />
-      <node concept="3cpWsb" id="3$bhckDx325" role="3clF45" />
-      <node concept="3Tm1VV" id="3$bhckDx326" role="1B3o_S" />
-      <node concept="3clFbS" id="3$bhckDx327" role="3clF47">
-        <node concept="3cpWs6" id="3$bhckDx328" role="3cqZAp">
-          <node concept="2OqwBi" id="3$bhckDx329" role="3cqZAk">
-            <node concept="1rXfSq" id="3$bhckDx32a" role="2Oq$k0">
-              <ref role="37wK5l" node="3$bhckDyxQs" resolve="getSqlServerDateTime" />
-            </node>
-            <node concept="liA8E" id="3$bhckDx32b" role="2OqNvi">
-              <ref role="37wK5l" to="oz00:~BaseDateTime.getMillis()" resolve="getMillis" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="3$bhckDyuRs" role="jymVt" />
+    <node concept="2tJIrI" id="38$Wln8A0KZ" role="jymVt" />
     <node concept="2YIFZL" id="26x4y$0nqoj" role="jymVt">
       <property role="TrG5h" value="fixServerDatetimeToConstant" />
       <property role="DiZV1" value="false" />
@@ -29287,14 +29311,6 @@
             <node concept="10Nm6u" id="1fGCQmfPtb1" role="37vLTx" />
             <node concept="37vLTw" id="1fGCQmfPt8N" role="37vLTJ">
               <ref role="3cqZAo" node="3$bhckDyzPP" resolve="jodaDateTimeTypeHandler" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1fGCQmfPtbT" role="3cqZAp">
-          <node concept="37vLTI" id="1fGCQmfPtd3" role="3clFbG">
-            <node concept="10Nm6u" id="1fGCQmfPtdx" role="37vLTx" />
-            <node concept="37vLTw" id="1fGCQmfPtbR" role="37vLTJ">
-              <ref role="3cqZAo" node="3$bhckDyyZ9" resolve="jodaLocalDateTypeHandler" />
             </node>
           </node>
         </node>
