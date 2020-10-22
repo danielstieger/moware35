@@ -7536,19 +7536,44 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="3y7CfyfnDMQ" role="3clF47">
-                        <node concept="3clFbH" id="5qtEEIGA0$5" role="3cqZAp" />
-                        <node concept="3SKdUt" id="3y7CfyfnDMR" role="3cqZAp">
-                          <node concept="3SKdUq" id="3y7CfyfnDMS" role="3SKWNk">
-                            <property role="3SKdUp" value="we have to start the command here ... " />
-                          </node>
-                        </node>
-                        <node concept="3clFbF" id="3y7CfyfnDMT" role="3cqZAp">
-                          <node concept="2OqwBi" id="3y7CfyfnDMU" role="3clFbG">
-                            <node concept="37vLTw" id="3y7CfyfnGXp" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3y7CfyfnzGU" resolve="action" />
-                            </node>
-                            <node concept="liA8E" id="3y7CfyfnDMW" role="2OqNvi">
-                              <ref role="37wK5l" to="yg8v:3nLGOmWtRLF" resolve="startCommand" />
+                        <node concept="3clFbF" id="VAKw4evs9t" role="3cqZAp">
+                          <node concept="2YIFZM" id="VAKw4evsaR" role="3clFbG">
+                            <ref role="37wK5l" to="ahg6:~Platform.runLater(java.lang.Runnable)" resolve="runLater" />
+                            <ref role="1Pybhc" to="ahg6:~Platform" resolve="Platform" />
+                            <node concept="2ShNRf" id="VAKw4evsfx" role="37wK5m">
+                              <node concept="YeOm9" id="VAKw4evvx$" role="2ShVmc">
+                                <node concept="1Y3b0j" id="VAKw4evvxB" role="YeSDq">
+                                  <property role="2bfB8j" value="true" />
+                                  <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                  <node concept="3Tm1VV" id="VAKw4evvxC" role="1B3o_S" />
+                                  <node concept="3clFb_" id="VAKw4evvxH" role="jymVt">
+                                    <property role="TrG5h" value="run" />
+                                    <node concept="3Tm1VV" id="VAKw4evvxI" role="1B3o_S" />
+                                    <node concept="3cqZAl" id="VAKw4evvxK" role="3clF45" />
+                                    <node concept="3clFbS" id="VAKw4evvxL" role="3clF47">
+                                      <node concept="3SKdUt" id="3y7CfyfnDMR" role="3cqZAp">
+                                        <node concept="3SKdUq" id="3y7CfyfnDMS" role="3SKWNk">
+                                          <property role="3SKdUp" value="we have to start the command here ... " />
+                                        </node>
+                                      </node>
+                                      <node concept="3clFbF" id="3y7CfyfnDMT" role="3cqZAp">
+                                        <node concept="2OqwBi" id="3y7CfyfnDMU" role="3clFbG">
+                                          <node concept="37vLTw" id="3y7CfyfnGXp" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="3y7CfyfnzGU" resolve="action" />
+                                          </node>
+                                          <node concept="liA8E" id="3y7CfyfnDMW" role="2OqNvi">
+                                            <ref role="37wK5l" to="yg8v:3nLGOmWtRLF" resolve="startCommand" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2AHcQZ" id="VAKw4evvxN" role="2AJF6D">
+                                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -10945,18 +10970,44 @@
                                 </node>
                               </node>
                               <node concept="3clFbS" id="7aUgYCzBjle" role="3clF47">
-                                <node concept="3SKdUt" id="59En7o2WSFs" role="3cqZAp">
-                                  <node concept="3SKdUq" id="59En7o2WSFV" role="3SKWNk">
-                                    <property role="3SKdUp" value="enable check is done with button itself .. " />
-                                  </node>
-                                </node>
-                                <node concept="3clFbF" id="7aUgYCzBjsW" role="3cqZAp">
-                                  <node concept="2OqwBi" id="7aUgYCzBjvj" role="3clFbG">
-                                    <node concept="37vLTw" id="7aUgYCzBjsV" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="7aUgYCzB9wj" resolve="trigger" />
-                                    </node>
-                                    <node concept="liA8E" id="7aUgYCzBjFm" role="2OqNvi">
-                                      <ref role="37wK5l" to="yg8v:3nLGOmWtRLF" resolve="startCommand" />
+                                <node concept="3clFbF" id="VAKw4evAEI" role="3cqZAp">
+                                  <node concept="2YIFZM" id="VAKw4evAG4" role="3clFbG">
+                                    <ref role="37wK5l" to="ahg6:~Platform.runLater(java.lang.Runnable)" resolve="runLater" />
+                                    <ref role="1Pybhc" to="ahg6:~Platform" resolve="Platform" />
+                                    <node concept="2ShNRf" id="VAKw4evAHx" role="37wK5m">
+                                      <node concept="YeOm9" id="VAKw4evBM$" role="2ShVmc">
+                                        <node concept="1Y3b0j" id="VAKw4evBMB" role="YeSDq">
+                                          <property role="2bfB8j" value="true" />
+                                          <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                                          <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                          <node concept="3Tm1VV" id="VAKw4evBMC" role="1B3o_S" />
+                                          <node concept="3clFb_" id="VAKw4evBMH" role="jymVt">
+                                            <property role="TrG5h" value="run" />
+                                            <node concept="3Tm1VV" id="VAKw4evBMI" role="1B3o_S" />
+                                            <node concept="3cqZAl" id="VAKw4evBMK" role="3clF45" />
+                                            <node concept="3clFbS" id="VAKw4evBML" role="3clF47">
+                                              <node concept="3SKdUt" id="59En7o2WSFs" role="3cqZAp">
+                                                <node concept="3SKdUq" id="59En7o2WSFV" role="3SKWNk">
+                                                  <property role="3SKdUp" value="enable check is done with button itself .. " />
+                                                </node>
+                                              </node>
+                                              <node concept="3clFbF" id="7aUgYCzBjsW" role="3cqZAp">
+                                                <node concept="2OqwBi" id="7aUgYCzBjvj" role="3clFbG">
+                                                  <node concept="37vLTw" id="7aUgYCzBjsV" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="7aUgYCzB9wj" resolve="trigger" />
+                                                  </node>
+                                                  <node concept="liA8E" id="7aUgYCzBjFm" role="2OqNvi">
+                                                    <ref role="37wK5l" to="yg8v:3nLGOmWtRLF" resolve="startCommand" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="2AHcQZ" id="VAKw4evBMN" role="2AJF6D">
+                                              <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
