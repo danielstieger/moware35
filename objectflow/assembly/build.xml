@@ -27,7 +27,7 @@
   <include file="bmoware.xml" as="bmoware"/>
   <include file="moware.xml" as="moware"/>
 	
-  <!-- **** app specific definitions **************************************************************** -->
+  <!-- **** job specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="InvoicingJob" />
   <property name="appMainclass"         value="org.modellwerkstatt.simple.baseApp.PrintingJob" />
@@ -73,5 +73,5 @@
   	<copy todir="${tomcatHomeDir}/webapps/${appName}">
   		<fileset dir="work" />
   	</copy>
-  </target>  
+  </target>
 </project>

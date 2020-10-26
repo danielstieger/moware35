@@ -1,0 +1,102 @@
+<!--
+
+
+ Build.xml: Building a tomcat batchjob with objectflow 
+            based on moware plugin R5
+            
+            AND: organizing stuff around moware :)
+            i.e. the xbus target, which updates libraries for 
+            objectflow and mofakeplugin
+            
+ daniel stieger, summer 2016, dornbirn
+
+ 
+ 
+ 
+ set JAVA_HOME=c:\javaexe\MPS30\jre
+ set PATH=%PATH%;c:\javaexe\ant_MPS25\bin;c:\PROGRA~2\WIXTOO~1.7\bin
+ 
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+ export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+
+
+
+ 
+-->
+ 
+<project name="BuildFx8App" default="default">      
+  <!-- **** include files setup **************************************************************** -->
+  <include file="bmoware.xml" as="bmoware"/>
+  <include file="moware.xml" as="moware"/>
+	
+  <!-- **** job specific definitions **************************************************************** -->
+  <property name="appBuildVersion"      value="BUILD V0.0.0" />
+  <property name="appName"              value="SimpleOneFx8" />
+  <!-- App_Desktop_Order -->
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.baseApp.App_Desktop_Order" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/baseApp/FX8_Lola.xml" /> 
+  
+  <property name="solultionSimpleGen"    value="${buildUserHome}/javaware/simpleone/solutions/Simple/classes_gen" />
+
+  <echo>
+    Run by ${user.name} on Java Home : ${java.home}
+    Building VERSION ${appBuildVersion} of ${appMainclass}
+	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}
+  </echo>
+
+
+
+  <!-- **** test to build fx8 app **************************************************************** -->
+  <target name="default" depends="bmoware.mowarePluginAdoption, moware.fx8forms">
+    <mkdir dir="work/WEB-INF/classes"/>
+    <copy todir="work/WEB-INF/classes">
+      <fileset dir="${solultionSimpleGen}" />
+    </copy>
+    
+      
+    <mkdir dir="dist"/>  
+    <!-- copy libs to dist/lib before calculating manifest path -->
+    <copy todir="dist/lib">
+      <fileset dir="work/WEB-INF/lib" />
+    </copy>
+    
+    <path id="build-classpath">
+      <fileset dir="dist/lib">
+      	<include name="*.jar"/>
+      </fileset>
+    </path>
+
+    <manifestclasspath property="lib.list" jarfile="dist/${appName}.jar">
+    	<classpath refid="build-classpath" />
+    </manifestclasspath>
+
+    
+    <jar destfile="dist/${appName}.jar" basedir="work/WEB-INF/classes" update="false">
+      <manifest>
+        <attribute name="Main-Class" 		 value="${appMainclass}" />
+        <attribute name="Version"    		 value="${appBuildVersion}" />
+        <attribute name="AppXmlConfig"    	 value="${appConfiguration}" />
+        <attribute name="Class-Path"    	 value="${lib.list}" />
+        <attribute name="SplashScreen-Image" value="images/splash.png" />
+      </manifest>
+    </jar>
+
+    
+  </target>  
+  
+  
+  
+  
+  
+  <target name="clean" description="Delete old work and dist directories">
+	<delete dir="work"/>
+	<delete dir="dist"/>	
+  </target>
+  
+  <target name="redeploy" depends="default">
+  	<copy todir="${tomcatHomeDir}/webapps/${appName}">
+  		<fileset dir="work" />
+  	</copy>
+  </target>
+</project>

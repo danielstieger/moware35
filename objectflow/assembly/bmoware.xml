@@ -56,6 +56,9 @@
 
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
          basedir="${mowareHome}/vaadinforms/assembly/artefact/moware-theme"/>
+
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.fx8forms.jar" 
+         basedir="${mowareHome}/fx8forms/solutions/org.modellwerkstatt.fx8forms/classes_gen"/>
     
     <!-- <delete includeEmptyDirs="true">
   		<fileset dir="${mowarePluginHomeDir}/ofassembly/artefact/" includes="**/*" defaultexcludes="no"/>

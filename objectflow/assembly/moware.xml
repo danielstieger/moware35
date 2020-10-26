@@ -69,17 +69,20 @@
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.fx8forms.jar" />
 				
 			
-			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/printing21" includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/zoo" includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/richclient" includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/" includes="slf4j-log4j12-1.6.1.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" 		includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/printing21" 	includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/zoo" 			includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/richclient" 	includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/" 			includes="slf4j-log4j12-1.6.1.jar" />
 		
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
 		</copy>
+	
+		<copy file="${mowarePluginHomeDir}/ofassembly/artefact/splash.png" tofile="${mowareWorkDir}/WEB-INF/classes/images/splash.png"/>
+    
 	</target>
 	
 	

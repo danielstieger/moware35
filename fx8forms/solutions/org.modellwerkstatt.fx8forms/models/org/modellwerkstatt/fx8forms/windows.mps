@@ -46,6 +46,7 @@
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.runtime/)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="cpcw" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.beans.binding(org.modellwerkstatt.fx8forms/)" implicit="true" />
   </imports>
   <registry>
@@ -5217,9 +5218,9 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2QY_rtDZU7L" role="3cqZAp" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4SIZQU4L7HW" role="jymVt" />
     <node concept="2tJIrI" id="6qxhjMM6duh" role="jymVt" />
     <node concept="2tJIrI" id="6CVJxS8kqh2" role="jymVt" />
     <node concept="3clFb_" id="6CVJxS8kqy0" role="jymVt">
@@ -7695,6 +7696,40 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4SIZQU4Ngmz" role="3cqZAp" />
+        <node concept="3cpWs8" id="4SIZQU4LxZt" role="3cqZAp">
+          <node concept="3cpWsn" id="4SIZQU4LxZu" role="3cpWs9">
+            <property role="TrG5h" value="sp" />
+            <node concept="3uibUv" id="4SIZQU4LxZv" role="1tU5fm">
+              <ref role="3uigEE" to="z60i:~SplashScreen" resolve="SplashScreen" />
+            </node>
+            <node concept="2YIFZM" id="4SIZQU4LxBk" role="33vP2m">
+              <ref role="37wK5l" to="z60i:~SplashScreen.getSplashScreen()" resolve="getSplashScreen" />
+              <ref role="1Pybhc" to="z60i:~SplashScreen" resolve="SplashScreen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4SIZQU4LygV" role="3cqZAp">
+          <node concept="3clFbS" id="4SIZQU4LygX" role="3clFbx">
+            <node concept="3clFbF" id="4SIZQU4LyGS" role="3cqZAp">
+              <node concept="2OqwBi" id="4SIZQU4LyNl" role="3clFbG">
+                <node concept="37vLTw" id="4SIZQU4LyGQ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4SIZQU4LxZu" resolve="sp" />
+                </node>
+                <node concept="liA8E" id="4SIZQU4LyPF" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~SplashScreen.close()" resolve="close" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="4SIZQU4Lyx5" role="3clFbw">
+            <node concept="10Nm6u" id="4SIZQU4LyA2" role="3uHU7w" />
+            <node concept="37vLTw" id="4SIZQU4LylY" role="3uHU7B">
+              <ref role="3cqZAo" node="4SIZQU4LxZu" resolve="sp" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4SIZQU4Ngsy" role="3cqZAp" />
         <node concept="3clFbF" id="Y3fiVKy0CH" role="3cqZAp">
           <node concept="2YIFZM" id="Y3fiVKy0FW" role="3clFbG">
             <ref role="37wK5l" to="ahg6:~Application.launch(java.lang.String...)" resolve="launch" />
