@@ -966,5 +966,21 @@
       </node>
     </node>
   </node>
+  <node concept="3_zdsH" id="4sEOydMamAl">
+    <property role="3GE5qa" value="Status" />
+    <ref role="3_znuS" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+    <node concept="3__wT9" id="4sEOydMamAm" role="3_A6iZ">
+      <node concept="3clFbS" id="4sEOydMamAn" role="2VODD2">
+        <node concept="3AgYrR" id="4sEOydMa_R0" role="3cqZAp">
+          <node concept="2OqwBi" id="4sEOydMaA42" role="3Ah4Yx">
+            <node concept="3__QtB" id="4sEOydMa_UG" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4sEOydMaAk6" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:6RAFKVMR_E3" resolve="statusLeftSide" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
