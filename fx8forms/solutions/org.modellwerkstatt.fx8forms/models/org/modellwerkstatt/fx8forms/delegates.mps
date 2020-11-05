@@ -7686,7 +7686,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1kaU3pLXABZ" role="2OqNvi">
-              <ref role="37wK5l" to="os9n:~ObservableList.addAll(java.lang.Object...)" resolve="addAll" />
+              <ref role="37wK5l" to="33ny:~List.addAll(java.util.Collection)" resolve="addAll" />
               <node concept="37vLTw" id="1kaU3pLXACD" role="37wK5m">
                 <ref role="3cqZAo" node="1kaU3pLXdDg" resolve="items" />
               </node>

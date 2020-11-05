@@ -5608,7 +5608,7 @@
         <node concept="3clFbS" id="xFWXJReaGG" role="3clFbx">
           <node concept="2MkqsV" id="xFWXJRefxs" role="3cqZAp">
             <node concept="Xl_RD" id="xFWXJRefxF" role="2MkJ7o">
-              <property role="Xl_RC" value="BusinessProperty can not be named as 'value'. " />
+              <property role="Xl_RC" value="Property can not be named as 'value'. " />
             </node>
             <node concept="1YBJjd" id="xFWXJRefzV" role="2OEOjV">
               <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
@@ -5754,7 +5754,7 @@
             <node concept="3clFbS" id="34EwMoQBYdO" role="3clFbx">
               <node concept="2MkqsV" id="34EwMoQBZ3r" role="3cqZAp">
                 <node concept="Xl_RD" id="34EwMoQBZ3H" role="2MkJ7o">
-                  <property role="Xl_RC" value="Collection of type list&lt;&gt; is only allowed to contain entities als children." />
+                  <property role="Xl_RC" value="Collection of type list&lt;&gt; is only allowed to contain entities as children." />
                 </node>
                 <node concept="1YBJjd" id="34EwMoQBZuU" role="2OEOjV">
                   <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
@@ -5794,7 +5794,7 @@
             <node concept="3clFbS" id="IlacaDzYX5" role="3clFbx">
               <node concept="2MkqsV" id="IlacaD$5o0" role="3cqZAp">
                 <node concept="Xl_RD" id="IlacaD$5of" role="2MkJ7o">
-                  <property role="Xl_RC" value="key, opposite or containment options can not be used within 'view objects' or 'value objects'." />
+                  <property role="Xl_RC" value="Key, opposite or containment options can not be used within DTOs or Value Objects." />
                 </node>
                 <node concept="1YBJjd" id="IlacaD$5r9" role="2OEOjV">
                   <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />

@@ -3265,7 +3265,7 @@
       <node concept="17QB3L" id="4QTIUTC1Wnd" role="1tU5fm" />
       <node concept="3Tm1VV" id="vsIEjNpph7" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTC1Z1Y" role="33vP2m">
-        <property role="Xl_RC" value="VaadinForms 0.99 MRS 17" />
+        <property role="Xl_RC" value="VaadinForms 2019_1 (koblach)" />
       </node>
     </node>
     <node concept="Wx3nA" id="1JNuSGkemv_" role="jymVt">
@@ -3273,9 +3273,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="1JNuSGkeK7T" role="1tU5fm" />
       <node concept="3Tm1VV" id="1JNuSGkemvB" role="1B3o_S" />
-      <node concept="3clFbT" id="5yARNIz5VND" role="33vP2m">
-        <property role="3clFbU" value="false" />
-      </node>
+      <node concept="3clFbT" id="6n6rAzkIqLq" role="33vP2m" />
     </node>
     <node concept="Wx3nA" id="5$BCFrw8Tlm" role="jymVt">
       <property role="TrG5h" value="authInterfaceName" />
