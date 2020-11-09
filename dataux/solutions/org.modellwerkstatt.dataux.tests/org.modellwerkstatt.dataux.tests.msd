@@ -11,6 +11,7 @@
     <dependency reexport="false">5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.objectflow.runtime)</dependency>
     <dependency reexport="false">bd230cc8-9f23-4d08-88ae-92ff30662c34(org.modellwerkstatt.dataux.runtime)</dependency>
     <dependency reexport="false">86b5ca77-71d4-452d-8c64-76f13a80aab6(org.modellwerkstatt.fx8forms)</dependency>
+    <dependency reexport="false">37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />

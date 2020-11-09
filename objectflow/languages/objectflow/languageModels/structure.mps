@@ -4017,7 +4017,7 @@
   <node concept="1TIwiD" id="51llZt605sG">
     <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="Precondition" />
-    <property role="34LRSv" value=":" />
+    <property role="34LRSv" value="condition" />
     <property role="R4oN_" value="check condition or report problem" />
     <property role="EcuMT" value="5788629615597606700" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
