@@ -5690,34 +5690,51 @@
                     </node>
                   </node>
                 </node>
-                <node concept="22lmx$" id="34EwMoTuids" role="3clFbw">
-                  <node concept="2OqwBi" id="34EwMoTul3L" role="3uHU7w">
-                    <node concept="2OqwBi" id="34EwMoTuiwy" role="2Oq$k0">
-                      <node concept="37vLTw" id="34EwMoTuinJ" role="2Oq$k0">
+                <node concept="22lmx$" id="2kD7Zm_WZDl" role="3clFbw">
+                  <node concept="2OqwBi" id="2kD7Zm_X1L3" role="3uHU7w">
+                    <node concept="2OqwBi" id="2kD7Zm_X0o8" role="2Oq$k0">
+                      <node concept="37vLTw" id="2kD7Zm_WZYa" role="2Oq$k0">
                         <ref role="3cqZAo" node="34EwMoQBGjR" resolve="t" />
                       </node>
-                      <node concept="3TrEf2" id="34EwMoTuj$Q" role="2OqNvi">
+                      <node concept="3TrEf2" id="2kD7Zm_X0V6" role="2OqNvi">
                         <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
                       </node>
                     </node>
-                    <node concept="1mIQ4w" id="34EwMoTup0t" role="2OqNvi">
-                      <node concept="chp4Y" id="34EwMoTupr9" role="cj9EA">
-                        <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                    <node concept="1mIQ4w" id="2kD7Zm_X324" role="2OqNvi">
+                      <node concept="chp4Y" id="2kD7Zm_X3nL" role="cj9EA">
+                        <ref role="cht4Q" to="un0u:6W_Qo9eYrYE" resolve="ValueObject" />
                       </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="34EwMoQBSuN" role="3uHU7B">
-                    <node concept="2OqwBi" id="34EwMoQBUGA" role="2Oq$k0">
-                      <node concept="37vLTw" id="34EwMoQBSox" role="2Oq$k0">
-                        <ref role="3cqZAo" node="34EwMoQBGjR" resolve="t" />
+                  <node concept="22lmx$" id="34EwMoTuids" role="3uHU7B">
+                    <node concept="2OqwBi" id="34EwMoQBSuN" role="3uHU7B">
+                      <node concept="2OqwBi" id="34EwMoQBUGA" role="2Oq$k0">
+                        <node concept="37vLTw" id="34EwMoQBSox" role="2Oq$k0">
+                          <ref role="3cqZAo" node="34EwMoQBGjR" resolve="t" />
+                        </node>
+                        <node concept="3TrEf2" id="34EwMoQBVBw" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                        </node>
                       </node>
-                      <node concept="3TrEf2" id="34EwMoQBVBw" role="2OqNvi">
-                        <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                      <node concept="1mIQ4w" id="34EwMoQBUsr" role="2OqNvi">
+                        <node concept="chp4Y" id="34EwMoQBZP5" role="cj9EA">
+                          <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="1mIQ4w" id="34EwMoQBUsr" role="2OqNvi">
-                      <node concept="chp4Y" id="34EwMoQBZP5" role="cj9EA">
-                        <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    <node concept="2OqwBi" id="34EwMoTul3L" role="3uHU7w">
+                      <node concept="2OqwBi" id="34EwMoTuiwy" role="2Oq$k0">
+                        <node concept="37vLTw" id="34EwMoTuinJ" role="2Oq$k0">
+                          <ref role="3cqZAo" node="34EwMoQBGjR" resolve="t" />
+                        </node>
+                        <node concept="3TrEf2" id="34EwMoTuj$Q" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                        </node>
+                      </node>
+                      <node concept="1mIQ4w" id="34EwMoTup0t" role="2OqNvi">
+                        <node concept="chp4Y" id="34EwMoTupr9" role="cj9EA">
+                          <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5754,7 +5771,7 @@
             <node concept="3clFbS" id="34EwMoQBYdO" role="3clFbx">
               <node concept="2MkqsV" id="34EwMoQBZ3r" role="3cqZAp">
                 <node concept="Xl_RD" id="34EwMoQBZ3H" role="2MkJ7o">
-                  <property role="Xl_RC" value="Collection of type list&lt;&gt; is only allowed to contain entities as children." />
+                  <property role="Xl_RC" value="Collection of type list&lt;&gt; is only allowed to contain Entities / DTOs / ValueObjects as children." />
                 </node>
                 <node concept="1YBJjd" id="34EwMoQBZuU" role="2OEOjV">
                   <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
