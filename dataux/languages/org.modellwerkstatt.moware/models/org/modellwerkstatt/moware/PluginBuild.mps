@@ -1427,6 +1427,11 @@
             <ref role="3bR37D" node="3ZVr8i9E19j" resolve="org.modellwerkstatt.fx8forms" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4uCPKHfCJia" role="3bR37C">
+          <node concept="3bR9La" id="4uCPKHfCJib" role="1SiIV1">
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="6HA5kZtPYG8" role="2G$12L">
         <property role="BnDLt" value="true" />

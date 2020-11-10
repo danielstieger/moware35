@@ -342,6 +342,10 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1172667724288" name="jetbrains.mps.baseLanguage.collections.structure.PageOperation" flags="nn" index="8snch">
+        <child id="1172667737868" name="fromElement" index="8sqot" />
+        <child id="1172667748353" name="toElement" index="8st4g" />
+      </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
@@ -22672,7 +22676,22 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2DIWJdVfwVJ" role="3cqZAp" />
+        <node concept="3clFbH" id="4uCPKHfWtK8" role="3cqZAp" />
+        <node concept="3clFbF" id="4uCPKHfVzcp" role="3cqZAp">
+          <node concept="37vLTI" id="4uCPKHfVGu1" role="3clFbG">
+            <node concept="2YIFZM" id="4uCPKHfVTMU" role="37vLTx">
+              <ref role="37wK5l" node="4uCPKHf1CH2" resolve="limitProblemsTo20" />
+              <ref role="1Pybhc" node="4uCPKHf1CBQ" resolve="Workarounds" />
+              <node concept="37vLTw" id="4uCPKHfVTRE" role="37wK5m">
+                <ref role="3cqZAo" node="2gjGACndWui" resolve="problems" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4uCPKHfVzcn" role="37vLTJ">
+              <ref role="3cqZAo" node="2gjGACndWui" resolve="problems" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4uCPKHfVkEO" role="3cqZAp" />
         <node concept="1Dw8fO" id="2DIWJdVfWiA" role="3cqZAp">
           <node concept="3clFbS" id="2DIWJdVfWiC" role="2LFqv$">
             <node concept="3cpWs8" id="2DIWJdVgnnU" role="3cqZAp">
@@ -39315,6 +39334,121 @@
     <node concept="3uibUv" id="1w1DleJRYUj" role="1zkMxy">
       <ref role="3uigEE" node="3GQ300QoB23" resolve="UxEvent" />
     </node>
+  </node>
+  <node concept="312cEu" id="4uCPKHf1CBQ">
+    <property role="TrG5h" value="Workarounds" />
+    <node concept="2tJIrI" id="4uCPKHf1CFo" role="jymVt" />
+    <node concept="2tJIrI" id="4uCPKHf1CFq" role="jymVt" />
+    <node concept="2YIFZL" id="4uCPKHf1CH2" role="jymVt">
+      <property role="TrG5h" value="limitProblemsTo20" />
+      <node concept="37vLTG" id="4uCPKHf1COl" role="3clF46">
+        <property role="TrG5h" value="allProblems" />
+        <node concept="_YKpA" id="4uCPKHf1COG" role="1tU5fm">
+          <node concept="3uibUv" id="4uCPKHf1CQr" role="_ZDj9">
+            <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="4uCPKHf1CIN" role="3clF45">
+        <node concept="3uibUv" id="4uCPKHf1CMl" role="_ZDj9">
+          <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4uCPKHf1CH5" role="1B3o_S" />
+      <node concept="3clFbS" id="4uCPKHf1CH6" role="3clF47">
+        <node concept="3SKdUt" id="4uCPKHeXeie" role="3cqZAp">
+          <node concept="3SKdUq" id="4uCPKHeXeig" role="3SKWNk">
+            <property role="3SKdUp" value="moware mini, limit problems to 20. Move this restriction to CMD container" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4uCPKHeXrB6" role="3cqZAp">
+          <node concept="3cpWsn" id="4uCPKHeXrB9" role="3cpWs9">
+            <property role="TrG5h" value="origSize" />
+            <node concept="10Oyi0" id="4uCPKHeXrB4" role="1tU5fm" />
+            <node concept="2OqwBi" id="4uCPKHeXsVr" role="33vP2m">
+              <node concept="37vLTw" id="4uCPKHf1EJ9" role="2Oq$k0">
+                <ref role="3cqZAo" node="4uCPKHf1COl" resolve="allProblems" />
+              </node>
+              <node concept="34oBXx" id="4uCPKHeXtv$" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4uCPKHeXeus" role="3cqZAp">
+          <node concept="3clFbS" id="4uCPKHeXeuu" role="3clFbx">
+            <node concept="3clFbF" id="4uCPKHeXjCQ" role="3cqZAp">
+              <node concept="37vLTI" id="4uCPKHeXkGC" role="3clFbG">
+                <node concept="2OqwBi" id="4uCPKHeXniJ" role="37vLTx">
+                  <node concept="2OqwBi" id="4uCPKHeXlPF" role="2Oq$k0">
+                    <node concept="37vLTw" id="4uCPKHf1F6Y" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4uCPKHf1COl" resolve="allProblems" />
+                    </node>
+                    <node concept="8snch" id="4uCPKHeXmOp" role="2OqNvi">
+                      <node concept="3cmrfG" id="4uCPKHeXmUf" role="8sqot">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="3cmrfG" id="4uCPKHeXn0E" role="8st4g">
+                        <property role="3cmrfH" value="20" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="ANE8D" id="4uCPKHeXo3O" role="2OqNvi" />
+                </node>
+                <node concept="37vLTw" id="4uCPKHf1F1B" role="37vLTJ">
+                  <ref role="3cqZAo" node="4uCPKHf1COl" resolve="allProblems" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4uCPKHeXohu" role="3cqZAp">
+              <node concept="2OqwBi" id="4uCPKHeXpm2" role="3clFbG">
+                <node concept="37vLTw" id="4uCPKHf1Fcr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4uCPKHf1COl" resolve="allProblems" />
+                </node>
+                <node concept="TSZUe" id="4uCPKHeXql7" role="2OqNvi">
+                  <node concept="2ShNRf" id="4uCPKHeXqq1" role="25WWJ7">
+                    <node concept="1pGfFk" id="4uCPKHeXr5Q" role="2ShVmc">
+                      <ref role="37wK5l" to="28jr:51llZt5PgPq" resolve="OFXProblem" />
+                      <node concept="3clFbT" id="4uCPKHeXrcw" role="37wK5m" />
+                      <node concept="3cpWs3" id="4uCPKHeXvfk" role="37wK5m">
+                        <node concept="1eOMI4" id="4uCPKHeXvvp" role="3uHU7w">
+                          <node concept="3cpWsd" id="4uCPKHeXw_K" role="1eOMHV">
+                            <node concept="3cmrfG" id="4uCPKHeXwBj" role="3uHU7w">
+                              <property role="3cmrfH" value="20" />
+                            </node>
+                            <node concept="37vLTw" id="4uCPKHeXvH5" role="3uHU7B">
+                              <ref role="3cqZAo" node="4uCPKHeXrB9" resolve="origSize" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4uCPKHeXrjM" role="3uHU7B">
+                          <property role="Xl_RC" value="... + " />
+                        </node>
+                      </node>
+                      <node concept="10Nm6u" id="4uCPKHeXxgE" role="37wK5m" />
+                      <node concept="10Nm6u" id="4uCPKHeXyn$" role="37wK5m" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eOSWO" id="4uCPKHeXicf" role="3clFbw">
+            <node concept="37vLTw" id="4uCPKHeXur_" role="3uHU7B">
+              <ref role="3cqZAo" node="4uCPKHeXrB9" resolve="origSize" />
+            </node>
+            <node concept="3cmrfG" id="4uCPKHeXjqY" role="3uHU7w">
+              <property role="3cmrfH" value="20" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4uCPKHf1FNM" role="3cqZAp">
+          <node concept="37vLTw" id="4uCPKHf1FQh" role="3cqZAk">
+            <ref role="3cqZAo" node="4uCPKHf1COl" resolve="allProblems" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4uCPKHf1CFx" role="jymVt" />
+    <node concept="3Tm1VV" id="4uCPKHf1CBR" role="1B3o_S" />
   </node>
 </model>
 

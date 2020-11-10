@@ -13217,7 +13217,7 @@
     </node>
   </node>
   <node concept="13MO4I" id="I5W9GWH13R">
-    <property role="TrG5h" value="weave_Logger#" />
+    <property role="TrG5h" value="weave_Logger" />
     <ref role="3gUMe" to="un0u:22PsgbrwQlW" resolve="LogStatement" />
     <node concept="312cEu" id="I5W9GWH16I" role="13RCb5">
       <property role="2bfB8j" value="true" />

@@ -11,6 +11,7 @@
     <import index="h0l3" ref="r:9ec2b7d3-20d4-4c7b-a16d-9bf9768c1f66(org.modellwerkstatt.objectflow.tests.ObjectFlowInfra)" />
     <import index="by87" ref="r:3fd71311-ae9c-4a95-889b-8542e84d2ec1(org.modellwerkstatt.objectflow.tests.OrderDocument)" />
     <import index="7rjc" ref="r:40578ea0-bba5-4ae6-abfa-3691d42660ff(org.modellwerkstatt.objectflow.tests.OrderDocumentRunCmd)" />
+    <import index="stck" ref="r:92160189-dec1-4f0a-9046-c09a5bafe28d(org.modellwerkstatt.objectflow.tests.FixedBugs)" />
   </imports>
   <registry>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
@@ -36,7 +37,10 @@
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="so85:1oH_MJfbPWk" resolve="ALL ALL ManMap Testsuits" />
     </node>
-    <node concept="1DZZI9" id="SgAsOS0X7t" role="38MLOi" />
+    <node concept="1DZZI9" id="SgAsOS0X7t" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="stck:SgAsOS0YTi" resolve="SomeFixes" />
+    </node>
     <node concept="1DZZI9" id="7L8_IJAz4Lf" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="h0l3:5zF9hZsDuXt" resolve="Services" />

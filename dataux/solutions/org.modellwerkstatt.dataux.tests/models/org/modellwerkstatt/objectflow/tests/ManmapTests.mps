@@ -22485,24 +22485,6 @@
       <node concept="3cqZAl" id="66mO_QBe4P7" role="3clF45" />
       <node concept="3Tm1VV" id="66mO_QBe4P8" role="1B3o_S" />
       <node concept="3clFbS" id="66mO_QBe4P9" role="3clF47">
-        <node concept="3cpWs8" id="SgAsOS2cZe" role="3cqZAp">
-          <node concept="3cpWsn" id="SgAsOS2cZh" role="3cpWs9">
-            <property role="TrG5h" value="off" />
-            <node concept="2XvVpB" id="SgAsOS2cZc" role="1tU5fm">
-              <ref role="3$lB4D" node="5LYSiLABM5g" resolve="OnOff" />
-            </node>
-            <node concept="2OqwBi" id="SgAsOS2d91" role="33vP2m">
-              <node concept="2XvMaL" id="SgAsOS2d3w" role="2Oq$k0">
-                <ref role="2XvMaQ" node="5LYSiLABM5g" resolve="OnOff" />
-                <ref role="1Vchh_" node="5LYSiLABM5j" resolve="off" />
-              </node>
-              <node concept="liA8E" id="SgAsOS2do9" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="SgAsOS2dxk" role="3cqZAp" />
         <node concept="3clFbF" id="SgAsOS2cnz" role="3cqZAp">
           <node concept="2OqwBi" id="SgAsOS2c$1" role="3clFbG">
             <node concept="2OqwBi" id="SgAsOS2cpJ" role="2Oq$k0">
