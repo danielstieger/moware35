@@ -146,6 +146,9 @@
         <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
         <child id="5788629615597607704" name="condition" index="mlgNJ" />
       </concept>
+      <concept id="7919209473516657581" name="org.modellwerkstatt.objectflow.structure.StatusElementReference" flags="ng" index="2vefiz">
+        <reference id="7919209473516657582" name="statusElement" index="2vefiw" />
+      </concept>
       <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T" />
       <concept id="3875131616719432922" name="org.modellwerkstatt.objectflow.structure.CommandCallBasis" flags="ng" index="2_HltQ">
         <reference id="3875131616719438756" name="command" index="2_Hrw8" />
@@ -162,7 +165,7 @@
       </concept>
       <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
         <reference id="4533072425307838444" name="status" index="2XvMaQ" />
-        <reference id="1707329006119989962" name="element" index="1Vchh_" />
+        <child id="1410203836819592831" name="operation" index="h55Ek" />
       </concept>
       <concept id="3887124829264538773" name="org.modellwerkstatt.objectflow.structure.PagePaneActionProviderLink" flags="ng" index="3063JU">
         <reference id="3887124829264538774" name="actionProviderPagePane" index="3063JT" />
@@ -3914,7 +3917,9 @@
           <node concept="37vLTI" id="4nH4LOF0OgQ" role="3clFbG">
             <node concept="2XvMaL" id="4nH4LOF0OgR" role="37vLTx">
               <ref role="2XvMaQ" to="by87:51llZt4WidE" resolve="OrderDocStatus" />
-              <ref role="1Vchh_" to="by87:51llZt4WidF" resolve="Draft" />
+              <node concept="2vefiz" id="4DGU04KC9Bw" role="h55Ek">
+                <ref role="2vefiw" to="by87:51llZt4WidF" resolve="Draft" />
+              </node>
             </node>
             <node concept="2OqwBi" id="4nH4LOF0OgS" role="37vLTJ">
               <node concept="37vLTw" id="4nH4LOF0OgT" role="2Oq$k0">
@@ -3943,7 +3948,9 @@
           <node concept="37vLTI" id="4nH4LOF0Oh3" role="3clFbG">
             <node concept="2XvMaL" id="4nH4LOF0Oh4" role="37vLTx">
               <ref role="2XvMaQ" to="by87:51llZt4WidE" resolve="OrderDocStatus" />
-              <ref role="1Vchh_" to="by87:51llZt4Wigi" resolve="Ordered" />
+              <node concept="2vefiz" id="4DGU04KC9Bx" role="h55Ek">
+                <ref role="2vefiw" to="by87:51llZt4Wigi" resolve="Ordered" />
+              </node>
             </node>
             <node concept="2OqwBi" id="4nH4LOF0Oh5" role="37vLTJ">
               <node concept="37vLTw" id="4nH4LOF0Oh6" role="2Oq$k0">
@@ -3972,7 +3979,9 @@
           <node concept="37vLTI" id="4nH4LOF0Ohg" role="3clFbG">
             <node concept="2XvMaL" id="4nH4LOF0Ohh" role="37vLTx">
               <ref role="2XvMaQ" to="by87:51llZt4WidE" resolve="OrderDocStatus" />
-              <ref role="1Vchh_" to="by87:51llZt4Wiih" resolve="Approved" />
+              <node concept="2vefiz" id="4DGU04KC9By" role="h55Ek">
+                <ref role="2vefiw" to="by87:51llZt4Wiih" resolve="Approved" />
+              </node>
             </node>
             <node concept="2OqwBi" id="4nH4LOF0Ohi" role="37vLTJ">
               <node concept="37vLTw" id="4nH4LOF0Ohj" role="2Oq$k0">
@@ -4001,7 +4010,9 @@
           <node concept="37vLTI" id="4nH4LOF0Oht" role="3clFbG">
             <node concept="2XvMaL" id="4nH4LOF0Ohu" role="37vLTx">
               <ref role="2XvMaQ" to="by87:51llZt4WidE" resolve="OrderDocStatus" />
-              <ref role="1Vchh_" to="by87:51llZt4Wik0" resolve="Revisioned" />
+              <node concept="2vefiz" id="4DGU04KC9Bz" role="h55Ek">
+                <ref role="2vefiw" to="by87:51llZt4Wik0" resolve="Revisioned" />
+              </node>
             </node>
             <node concept="2OqwBi" id="4nH4LOF0Ohv" role="37vLTJ">
               <node concept="37vLTw" id="4nH4LOF0Ohw" role="2Oq$k0">

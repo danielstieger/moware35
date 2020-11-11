@@ -201,6 +201,9 @@
         <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
         <child id="5788629615597607704" name="condition" index="mlgNJ" />
       </concept>
+      <concept id="7919209473516657581" name="org.modellwerkstatt.objectflow.structure.StatusElementReference" flags="ng" index="2vefiz">
+        <reference id="7919209473516657582" name="statusElement" index="2vefiw" />
+      </concept>
       <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T" />
       <concept id="2423238041810352109" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDefaultDateTimeOption" flags="ng" index="xWan4">
         <property id="2423238041810352537" name="second" index="xWaIK" />
@@ -238,7 +241,7 @@
       </concept>
       <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
         <reference id="4533072425307838444" name="status" index="2XvMaQ" />
-        <reference id="1707329006119989962" name="element" index="1Vchh_" />
+        <child id="1410203836819592831" name="operation" index="h55Ek" />
       </concept>
       <concept id="4533072425307800381" name="org.modellwerkstatt.objectflow.structure.StatusType" flags="ig" index="2XvVpB">
         <reference id="6600213247848012755" name="status" index="3$lB4D" />
@@ -936,15 +939,21 @@
                 </node>
                 <node concept="2XvMaL" id="76zKLSrtV$P" role="37wK5m">
                   <ref role="2XvMaQ" to="so85:5LYSiLABM5g" resolve="OnOff" />
-                  <ref role="1Vchh_" to="so85:5LYSiLABM5i" resolve="on" />
+                  <node concept="2vefiz" id="4DGU04KC9Cy" role="h55Ek">
+                    <ref role="2vefiw" to="so85:5LYSiLABM5i" resolve="on" />
+                  </node>
                 </node>
                 <node concept="2XvMaL" id="76zKLSrtVI9" role="37wK5m">
-                  <ref role="1Vchh_" to="so85:5LYSiLABM5i" resolve="on" />
                   <ref role="2XvMaQ" to="so85:5LYSiLABM5g" resolve="OnOff" />
+                  <node concept="2vefiz" id="4DGU04KC9Cz" role="h55Ek">
+                    <ref role="2vefiw" to="so85:5LYSiLABM5i" resolve="on" />
+                  </node>
                 </node>
                 <node concept="2XvMaL" id="76zKLSrtVJx" role="37wK5m">
-                  <ref role="1Vchh_" to="so85:5LYSiLABM5i" resolve="on" />
                   <ref role="2XvMaQ" to="so85:5LYSiLABM5g" resolve="OnOff" />
+                  <node concept="2vefiz" id="4DGU04KC9C$" role="h55Ek">
+                    <ref role="2vefiw" to="so85:5LYSiLABM5i" resolve="on" />
+                  </node>
                 </node>
                 <node concept="10Nm6u" id="76zKLSrtVM_" role="37wK5m" />
                 <node concept="10Nm6u" id="76zKLSrtVPU" role="37wK5m" />
@@ -1883,8 +1892,10 @@
             <node concept="17QB3L" id="3OfvFtlCEdn" role="1tU5fm" />
             <node concept="35AVbj" id="3OfvFtlCDKB" role="33vP2m">
               <node concept="2XvMaL" id="3OfvFtlCE2X" role="35Gt3$">
-                <ref role="1Vchh_" to="so85:2i3o0he2lCO" resolve="on" />
                 <ref role="2XvMaQ" to="so85:2i3o0he2l$T" resolve="Active" />
+                <node concept="2vefiz" id="4DGU04KC9C_" role="h55Ek">
+                  <ref role="2vefiw" to="so85:2i3o0he2lCO" resolve="on" />
+                </node>
               </node>
               <node concept="ic4WF" id="4kNjw_ozAyL" role="icr7_">
                 <property role="ic4Xk" value="%sts ok" />
@@ -1914,7 +1925,9 @@
             </node>
             <node concept="2XvMaL" id="3OfvFtm650N" role="33vP2m">
               <ref role="2XvMaQ" to="so85:5LYSiLABM5g" resolve="OnOff" />
-              <ref role="1Vchh_" to="so85:5LYSiLABM5i" resolve="on" />
+              <node concept="2vefiz" id="4DGU04KC9CA" role="h55Ek">
+                <ref role="2vefiw" to="so85:5LYSiLABM5i" resolve="on" />
+              </node>
             </node>
           </node>
         </node>
@@ -3096,7 +3109,9 @@
                 </node>
                 <node concept="2XvMaL" id="2rFQaTbWZuM" role="37wK5m">
                   <ref role="2XvMaQ" to="so85:2i3o0he2l$T" resolve="Active" />
-                  <ref role="1Vchh_" to="so85:2i3o0he2lCO" resolve="on" />
+                  <node concept="2vefiz" id="4DGU04KC9CB" role="h55Ek">
+                    <ref role="2vefiw" to="so85:2i3o0he2lCO" resolve="on" />
+                  </node>
                 </node>
               </node>
             </node>

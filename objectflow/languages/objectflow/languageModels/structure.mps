@@ -359,6 +359,13 @@
     <property role="R4oN_" value="status constant reference" />
     <property role="EcuMT" value="4533072425307838443" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="1ei3eG2x_pZ" role="1TKVEi">
+      <property role="IQ2ns" value="1410203836819592831" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="operation" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1ei3eG2x_ge" resolve="IStatusConstOperation" />
+    </node>
     <node concept="1TJgyj" id="3VCHlE3_TvG" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="status" />
@@ -369,12 +376,16 @@
     <node concept="1TJgyj" id="1uLDEXGwbba" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="element" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="1707329006119989962" />
       <ref role="20lvS9" node="3VCHlE3_rxm" resolve="StatusElement" />
+      <node concept="asaX9" id="1ei3eG2x_pk" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="51BqQ8Ku62f" role="PzmwI">
       <ref role="PrY4T" to="r5tz:51BqQ8KtRx3" resolve="IPrimitiveConstant" />
+    </node>
+    <node concept="PrWs8" id="1ei3eG2xAPZ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_ii2" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/status.png" />
@@ -4124,6 +4135,9 @@
       <property role="IQ2ns" value="7919209473516657582" />
       <ref role="20lvS9" node="3VCHlE3_rxm" resolve="StatusElement" />
     </node>
+    <node concept="PrWs8" id="1ei3eG2xApZ" role="PzmwI">
+      <ref role="PrY4T" node="1ei3eG2x_ge" resolve="IStatusConstOperation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="ZnB5NvHJ5L">
     <property role="3GE5qa" value="OFXCore.cmdCrtl" />
@@ -4232,6 +4246,31 @@
     </node>
     <node concept="PrWs8" id="4kNjw_n0KmB" role="PzmwI">
       <ref role="PrY4T" node="4kNjw_n0K3K" resolve="IFormatString" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1ei3eG2x_ge">
+    <property role="EcuMT" value="1410203836819592206" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="IStatusConstOperation" />
+  </node>
+  <node concept="1TIwiD" id="1ei3eG2GiRx">
+    <property role="EcuMT" value="1410203836822400481" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusFromDbValue" />
+    <property role="34LRSv" value="fromDbValue" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7cmgiVYz3nx" role="1TKVEi">
+      <property role="IQ2ns" value="8292887433944249825" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="param" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="1ei3eG2GiWE" role="PzmwI">
+      <ref role="PrY4T" node="1ei3eG2x_ge" resolve="IStatusConstOperation" />
+    </node>
+    <node concept="1QGGSu" id="7cmgiVYVcbo" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/statusminor.png" />
     </node>
   </node>
 </model>

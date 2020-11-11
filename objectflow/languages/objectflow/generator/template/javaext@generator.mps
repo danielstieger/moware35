@@ -338,6 +338,9 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC">
+        <reference id="1139880128956" name="concept" index="1A9B2P" />
+      </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -6476,20 +6479,30 @@
                                             </node>
                                           </node>
                                         </node>
-                                        <node concept="3clFbF" id="3bhd8CAcPFx" role="3cqZAp">
-                                          <node concept="37vLTI" id="3bhd8CAcPFy" role="3clFbG">
-                                            <node concept="2OqwBi" id="3bhd8CAcPFz" role="37vLTx">
-                                              <node concept="30H73N" id="3bhd8CAcPF$" role="2Oq$k0" />
-                                              <node concept="3TrEf2" id="3bhd8CAcPF_" role="2OqNvi">
+                                        <node concept="3clFbF" id="4DGU04LBQoh" role="3cqZAp">
+                                          <node concept="37vLTI" id="4DGU04LBXzm" role="3clFbG">
+                                            <node concept="2OqwBi" id="4DGU04LBXZ7" role="37vLTx">
+                                              <node concept="30H73N" id="4DGU04LBXKr" role="2Oq$k0" />
+                                              <node concept="3TrEf2" id="4DGU04LBYAj" role="2OqNvi">
                                                 <ref role="3Tt5mk" to="un0u:6RAFKVMR_II" resolve="statusElement" />
                                               </node>
                                             </node>
-                                            <node concept="2OqwBi" id="3bhd8CAcPFA" role="37vLTJ">
-                                              <node concept="37vLTw" id="3bhd8CAcPFB" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="3bhd8CAcPFg" resolve="scr" />
+                                            <node concept="2OqwBi" id="4DGU04LBWn8" role="37vLTJ">
+                                              <node concept="2OqwBi" id="4DGU04LBVgV" role="2Oq$k0">
+                                                <node concept="2OqwBi" id="4DGU04LBQGt" role="2Oq$k0">
+                                                  <node concept="37vLTw" id="4DGU04LBQof" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="3bhd8CAcPFg" resolve="scr" />
+                                                  </node>
+                                                  <node concept="3TrEf2" id="4DGU04LBUTY" role="2OqNvi">
+                                                    <ref role="3Tt5mk" to="un0u:1ei3eG2x_pZ" resolve="operation" />
+                                                  </node>
+                                                </node>
+                                                <node concept="zfrQC" id="4DGU04LBVD9" role="2OqNvi">
+                                                  <ref role="1A9B2P" to="un0u:6RAFKVMR_IH" resolve="StatusElementReference" />
+                                                </node>
                                               </node>
-                                              <node concept="3TrEf2" id="3bhd8CAcPFC" role="2OqNvi">
-                                                <ref role="3Tt5mk" to="un0u:1uLDEXGwbba" resolve="element" />
+                                              <node concept="3TrEf2" id="4DGU04LBX1e" role="2OqNvi">
+                                                <ref role="3Tt5mk" to="un0u:6RAFKVMR_II" resolve="statusElement" />
                                               </node>
                                             </node>
                                           </node>
