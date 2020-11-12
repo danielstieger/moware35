@@ -4028,7 +4028,7 @@
   <node concept="1TIwiD" id="51llZt605sG">
     <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <property role="TrG5h" value="Precondition" />
-    <property role="34LRSv" value="condition" />
+    <property role="34LRSv" value="precondition" />
     <property role="R4oN_" value="check condition or report problem" />
     <property role="EcuMT" value="5788629615597606700" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
@@ -4057,6 +4057,9 @@
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="5788629615600818949" />
       <ref role="20lvS9" node="51llZt6ckhQ" resolve="CheckOptionRef" />
+    </node>
+    <node concept="1QGGSu" id="wGbog3pNIu" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/references.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="51llZt6ckhQ">

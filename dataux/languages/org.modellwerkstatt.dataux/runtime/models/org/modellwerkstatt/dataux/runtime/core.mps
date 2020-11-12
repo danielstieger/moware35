@@ -23636,6 +23636,31 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="wGbog3pF6P" role="jymVt">
+      <property role="TrG5h" value="getuser_device" />
+      <node concept="17QB3L" id="wGbog3pF6Q" role="3clF45" />
+      <node concept="3Tm1VV" id="wGbog3pF6R" role="1B3o_S" />
+      <node concept="3clFbS" id="wGbog3pF6V" role="3clF47">
+        <node concept="3clFbF" id="wGbog3pHSt" role="3cqZAp">
+          <node concept="3cpWs3" id="wGbog3pJMa" role="3clFbG">
+            <node concept="37vLTw" id="wGbog3pKxM" role="3uHU7w">
+              <ref role="3cqZAo" node="6lA5DXSooSq" resolve="deviceSwName" />
+            </node>
+            <node concept="3cpWs3" id="wGbog3pITe" role="3uHU7B">
+              <node concept="37vLTw" id="wGbog3pHSs" role="3uHU7B">
+                <ref role="3cqZAo" node="4nH4LOEF6ZU" resolve="deviceName" />
+              </node>
+              <node concept="Xl_RD" id="wGbog3pJ9H" role="3uHU7w">
+                <property role="Xl_RC" value=" / " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="wGbog3pF6W" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="4n24ZlEyhnp" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getuser_connectionInfo" />
@@ -23649,7 +23674,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="2ppo89mgriL" role="jymVt" />
     <node concept="3clFb_" id="6YMRHoFaxzs" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getuser_progressor" />
@@ -35848,6 +35872,12 @@
       <node concept="17QB3L" id="1EBV9L$__An" role="3clF45" />
       <node concept="3Tm1VV" id="1EBV9L$__$B" role="1B3o_S" />
       <node concept="3clFbS" id="1EBV9L$__$C" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="wGbog3pzb_" role="jymVt">
+      <property role="TrG5h" value="getuser_device" />
+      <node concept="17QB3L" id="wGbog3pzbA" role="3clF45" />
+      <node concept="3Tm1VV" id="wGbog3pzbB" role="1B3o_S" />
+      <node concept="3clFbS" id="wGbog3pzbC" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6TYnK1btYlo" role="jymVt">
       <property role="TrG5h" value="getuser_connectionInfo" />

@@ -108,6 +108,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -7083,6 +7086,35 @@
       <ref role="13i0hy" to="lfe3:51BqQ8KtRx7" resolve="getConstantValue" />
       <node concept="3Tm1VV" id="51BqQ8Ku62k" role="1B3o_S" />
       <node concept="3clFbS" id="51BqQ8Ku62l" role="3clF47">
+        <node concept="3clFbJ" id="wGbog3q5ED" role="3cqZAp">
+          <node concept="3clFbS" id="wGbog3q5EF" role="3clFbx">
+            <node concept="YS8fn" id="wGbog3q79w" role="3cqZAp">
+              <node concept="2ShNRf" id="wGbog3q7av" role="YScLw">
+                <node concept="1pGfFk" id="wGbog3quRA" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="wGbog3quTg" role="37wK5m">
+                    <property role="Xl_RC" value="Only status element references are allowed here." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="wGbog3q741" role="3clFbw">
+            <node concept="2OqwBi" id="wGbog3q743" role="3fr31v">
+              <node concept="2OqwBi" id="wGbog3q744" role="2Oq$k0">
+                <node concept="13iPFW" id="wGbog3q745" role="2Oq$k0" />
+                <node concept="3TrEf2" id="wGbog3q746" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:1ei3eG2x_pZ" resolve="operation" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="wGbog3q747" role="2OqNvi">
+                <node concept="chp4Y" id="wGbog3q748" role="cj9EA">
+                  <ref role="cht4Q" to="un0u:6RAFKVMR_IH" resolve="StatusElementReference" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="5N7BOzGXhs0" role="3cqZAp">
           <node concept="3cpWs3" id="5N7BOzGXgQg" role="3cqZAk">
             <node concept="Xl_RD" id="5N7BOzGXgTZ" role="3uHU7w">
@@ -7093,13 +7125,23 @@
                 <property role="Xl_RC" value="'" />
               </node>
               <node concept="2OqwBi" id="51BqQ8Ku630" role="3uHU7w">
-                <node concept="2OqwBi" id="51BqQ8Ku62O" role="2Oq$k0">
-                  <node concept="13iPFW" id="51BqQ8Ku62J" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="51BqQ8Ku63a" role="2OqNvi">
-                    <ref role="3Tt5mk" to="un0u:1uLDEXGwbba" resolve="element" />
+                <node concept="2OqwBi" id="wGbog3qwr_" role="2Oq$k0">
+                  <node concept="1PxgMI" id="wGbog3qvVC" role="2Oq$k0">
+                    <node concept="chp4Y" id="wGbog3qw7i" role="3oSUPX">
+                      <ref role="cht4Q" to="un0u:6RAFKVMR_IH" resolve="StatusElementReference" />
+                    </node>
+                    <node concept="2OqwBi" id="51BqQ8Ku62O" role="1m5AlR">
+                      <node concept="13iPFW" id="51BqQ8Ku62J" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="wGbog3qvu5" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:1ei3eG2x_pZ" resolve="operation" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="wGbog3qwKw" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:6RAFKVMR_II" resolve="statusElement" />
                   </node>
                 </node>
-                <node concept="3TrcHB" id="51BqQ8Ku63d" role="2OqNvi">
+                <node concept="3TrcHB" id="wGbog3qx8Q" role="2OqNvi">
                   <ref role="3TsBF5" to="un0u:3VCHlE3_rxy" resolve="value" />
                 </node>
               </node>
