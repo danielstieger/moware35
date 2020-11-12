@@ -17,6 +17,7 @@
     <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.objectflow.runtime/)" implicit="true" />
   </imports>
   <registry>
@@ -324,6 +325,75 @@
     </node>
     <node concept="2tJIrI" id="1wwgtxzgbtu" role="jymVt" />
     <node concept="2tJIrI" id="1wwgtxzgq6Z" role="jymVt" />
+    <node concept="2YIFZL" id="4Ms4M34Sj1n" role="jymVt">
+      <property role="TrG5h" value="setSessionUserName" />
+      <node concept="37vLTG" id="4Ms4M34Sl1S" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="4Ms4M34SleE" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpSession" resolve="HttpSession" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ms4M34Sliq" role="3clF46">
+        <property role="TrG5h" value="userEnv" />
+        <node concept="3uibUv" id="4Ms4M34SlyD" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ms4M34Snok" role="3clF46">
+        <property role="TrG5h" value="ip" />
+        <node concept="17QB3L" id="4Ms4M34SnEd" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4Ms4M34Sj1p" role="3clF45" />
+      <node concept="3Tm1VV" id="4Ms4M34Sj1q" role="1B3o_S" />
+      <node concept="3clFbS" id="4Ms4M34Sj1r" role="3clF47">
+        <node concept="3clFbF" id="4Ms4M34SlGz" role="3cqZAp">
+          <node concept="2OqwBi" id="4Ms4M34SlIj" role="3clFbG">
+            <node concept="37vLTw" id="4Ms4M34SlGx" role="2Oq$k0">
+              <ref role="3cqZAo" node="4Ms4M34Sl1S" resolve="session" />
+            </node>
+            <node concept="liA8E" id="4Ms4M34SlLH" role="2OqNvi">
+              <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
+              <node concept="Xl_RD" id="4Ms4M34SlMO" role="37wK5m">
+                <property role="Xl_RC" value="userName" />
+              </node>
+              <node concept="3cpWs3" id="4Ms4M34SnfI" role="37wK5m">
+                <node concept="3cpWs3" id="4Ms4M34Sn2c" role="3uHU7B">
+                  <node concept="3cpWs3" id="4Ms4M34SMmv" role="3uHU7B">
+                    <node concept="3cpWs3" id="4Ms4M34SMCE" role="3uHU7B">
+                      <node concept="Xl_RD" id="4Ms4M34SMrF" role="3uHU7w">
+                        <property role="Xl_RC" value=" - " />
+                      </node>
+                      <node concept="2OqwBi" id="4Ms4M34SoGW" role="3uHU7B">
+                        <node concept="37vLTw" id="4Ms4M34SoyP" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4Ms4M34Sliq" resolve="userEnv" />
+                        </node>
+                        <node concept="liA8E" id="4Ms4M34SoRA" role="2OqNvi">
+                          <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4Ms4M34Sm9L" role="3uHU7w">
+                      <node concept="37vLTw" id="4Ms4M34Sm4w" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4Ms4M34Sliq" resolve="userEnv" />
+                      </node>
+                      <node concept="liA8E" id="4Ms4M34SmUl" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:6lA5DXSRyIu" resolve="getDeviceSwName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4Ms4M34Sn2B" role="3uHU7w">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="4Ms4M34SnM3" role="3uHU7w">
+                  <ref role="3cqZAo" node="4Ms4M34Snok" resolve="ip" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="7WBKY1WhWkJ" role="jymVt">
       <property role="TrG5h" value="detectAndSetClient" />
       <property role="DiZV1" value="false" />
@@ -938,48 +1008,26 @@
         <node concept="3clFbH" id="63IPdUQHW$L" role="3cqZAp" />
         <node concept="3clFbJ" id="1wwgtxzgBia" role="3cqZAp">
           <node concept="3clFbS" id="1wwgtxzgBic" role="3clFbx">
-            <node concept="3clFbF" id="63IPdUQHWJF" role="3cqZAp">
-              <node concept="2OqwBi" id="63IPdUQHWVn" role="3clFbG">
-                <node concept="2OqwBi" id="63IPdUQHWO6" role="2Oq$k0">
-                  <node concept="37vLTw" id="63IPdUQHWJD" role="2Oq$k0">
+            <node concept="3clFbF" id="4Ms4M34SpCV" role="3cqZAp">
+              <node concept="1rXfSq" id="4Ms4M34SpCT" role="3clFbG">
+                <ref role="37wK5l" node="4Ms4M34Sj1n" resolve="setSessionUserName" />
+                <node concept="2OqwBi" id="4Ms4M34Sq9P" role="37wK5m">
+                  <node concept="37vLTw" id="4Ms4M34Sq7c" role="2Oq$k0">
                     <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
                   </node>
-                  <node concept="liA8E" id="63IPdUQHWUP" role="2OqNvi">
+                  <node concept="liA8E" id="4Ms4M34Sqq7" role="2OqNvi">
                     <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
                   </node>
                 </node>
-                <node concept="liA8E" id="63IPdUQHX0Z" role="2OqNvi">
-                  <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
-                  <node concept="Xl_RD" id="63IPdUQHX1W" role="37wK5m">
-                    <property role="Xl_RC" value="userName" />
+                <node concept="37vLTw" id="4Ms4M34Sqy8" role="37wK5m">
+                  <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
+                </node>
+                <node concept="2OqwBi" id="4Ms4M34SqUE" role="37wK5m">
+                  <node concept="37vLTw" id="4Ms4M34SqDA" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
                   </node>
-                  <node concept="3cpWs3" id="63IPdUQHYv1" role="37wK5m">
-                    <node concept="Xl_RD" id="63IPdUQHYvq" role="3uHU7w">
-                      <property role="Xl_RC" value=")" />
-                    </node>
-                    <node concept="3cpWs3" id="63IPdUQHYig" role="3uHU7B">
-                      <node concept="3cpWs3" id="63IPdUQHYcg" role="3uHU7B">
-                        <node concept="2OqwBi" id="63IPdUQHY7z" role="3uHU7B">
-                          <node concept="37vLTw" id="63IPdUQHY5Q" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
-                          </node>
-                          <node concept="liA8E" id="63IPdUQHYa1" role="2OqNvi">
-                            <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="63IPdUQHYdS" role="3uHU7w">
-                          <property role="Xl_RC" value="(" />
-                        </node>
-                      </node>
-                      <node concept="2OqwBi" id="63IPdUQHYmZ" role="3uHU7w">
-                        <node concept="37vLTw" id="63IPdUQHYkz" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
-                        </node>
-                        <node concept="liA8E" id="63IPdUQHYqh" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:3tZ99yEJcyC" resolve="getUserId" />
-                        </node>
-                      </node>
-                    </node>
+                  <node concept="liA8E" id="4Ms4M34Src4" role="2OqNvi">
+                    <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
                   </node>
                 </node>
               </node>
@@ -1213,21 +1261,6 @@
       <node concept="3clFbS" id="1wwgtxzg9EZ" role="3clF47">
         <node concept="3clFbF" id="1wwgtxzg9F1" role="3cqZAp">
           <node concept="3clFbT" id="1wwgtxzg9F0" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="4cdUWYrLOCp" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="origSessionButApplicationTakenOver" />
-      <node concept="37vLTG" id="4cdUWYrLOCq" role="3clF46">
-        <property role="TrG5h" value="sesId" />
-        <node concept="17QB3L" id="4cdUWYrLOCr" role="1tU5fm" />
-      </node>
-      <node concept="10P_77" id="4cdUWYrLOCs" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrLOCt" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrLOCv" role="3clF47">
-        <node concept="3clFbF" id="4cdUWYrLOCx" role="3cqZAp">
-          <node concept="3clFbT" id="4cdUWYrLOCw" role="3clFbG" />
         </node>
       </node>
     </node>
@@ -1785,48 +1818,27 @@
             <node concept="3clFbH" id="57ov2SA3kt" role="3cqZAp" />
             <node concept="3clFbJ" id="57ov2S_z9Z" role="3cqZAp">
               <node concept="3clFbS" id="57ov2S_za0" role="3clFbx">
-                <node concept="3clFbF" id="57ov2S_za1" role="3cqZAp">
-                  <node concept="2OqwBi" id="57ov2S_za2" role="3clFbG">
-                    <node concept="2OqwBi" id="57ov2S_za3" role="2Oq$k0">
-                      <node concept="37vLTw" id="57ov2S_za4" role="2Oq$k0">
+                <node concept="3clFbF" id="4Ms4M34SsYX" role="3cqZAp">
+                  <node concept="2YIFZM" id="4Ms4M34Sttm" role="3clFbG">
+                    <ref role="1Pybhc" node="r$jHpF7WZz" resolve="H2MpreisNoLoginAuth" />
+                    <ref role="37wK5l" node="4Ms4M34Sj1n" resolve="setSessionUserName" />
+                    <node concept="2OqwBi" id="4Ms4M34Sttn" role="37wK5m">
+                      <node concept="37vLTw" id="4Ms4M34Stto" role="2Oq$k0">
                         <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                       </node>
-                      <node concept="liA8E" id="57ov2S_za5" role="2OqNvi">
+                      <node concept="liA8E" id="4Ms4M34Sttp" role="2OqNvi">
                         <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
                       </node>
                     </node>
-                    <node concept="liA8E" id="57ov2S_za6" role="2OqNvi">
-                      <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
-                      <node concept="Xl_RD" id="57ov2S_za7" role="37wK5m">
-                        <property role="Xl_RC" value="userName" />
+                    <node concept="37vLTw" id="4Ms4M34Sttq" role="37wK5m">
+                      <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
+                    </node>
+                    <node concept="2OqwBi" id="4Ms4M34Sttr" role="37wK5m">
+                      <node concept="37vLTw" id="4Ms4M34Stts" role="2Oq$k0">
+                        <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                       </node>
-                      <node concept="3cpWs3" id="57ov2S_za8" role="37wK5m">
-                        <node concept="Xl_RD" id="57ov2S_za9" role="3uHU7w">
-                          <property role="Xl_RC" value=")" />
-                        </node>
-                        <node concept="3cpWs3" id="57ov2S_zaa" role="3uHU7B">
-                          <node concept="3cpWs3" id="57ov2S_zab" role="3uHU7B">
-                            <node concept="2OqwBi" id="57ov2S_zac" role="3uHU7B">
-                              <node concept="37vLTw" id="57ov2S_zad" role="2Oq$k0">
-                                <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                              </node>
-                              <node concept="liA8E" id="57ov2S_zae" role="2OqNvi">
-                                <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="57ov2S_zaf" role="3uHU7w">
-                              <property role="Xl_RC" value="(" />
-                            </node>
-                          </node>
-                          <node concept="2OqwBi" id="57ov2S_zag" role="3uHU7w">
-                            <node concept="37vLTw" id="57ov2S_zah" role="2Oq$k0">
-                              <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                            </node>
-                            <node concept="liA8E" id="57ov2S_zai" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:3tZ99yEJcyC" resolve="getUserId" />
-                            </node>
-                          </node>
-                        </node>
+                      <node concept="liA8E" id="4Ms4M34Sttt" role="2OqNvi">
+                        <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
                       </node>
                     </node>
                   </node>
@@ -1983,52 +1995,32 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbF" id="3lbccgqkq4i" role="3cqZAp">
-                        <node concept="2OqwBi" id="3lbccgqkq4j" role="3clFbG">
-                          <node concept="2OqwBi" id="3lbccgqkq4k" role="2Oq$k0">
-                            <node concept="37vLTw" id="3lbccgqkq4l" role="2Oq$k0">
+                      <node concept="3clFbF" id="4Ms4M34Sur0" role="3cqZAp">
+                        <node concept="2YIFZM" id="4Ms4M34SuV9" role="3clFbG">
+                          <ref role="1Pybhc" node="r$jHpF7WZz" resolve="H2MpreisNoLoginAuth" />
+                          <ref role="37wK5l" node="4Ms4M34Sj1n" resolve="setSessionUserName" />
+                          <node concept="2OqwBi" id="4Ms4M34SuVa" role="37wK5m">
+                            <node concept="37vLTw" id="4Ms4M34SuVb" role="2Oq$k0">
                               <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                             </node>
-                            <node concept="liA8E" id="3lbccgqkq4m" role="2OqNvi">
+                            <node concept="liA8E" id="4Ms4M34SuVc" role="2OqNvi">
                               <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
                             </node>
                           </node>
-                          <node concept="liA8E" id="3lbccgqkq4n" role="2OqNvi">
-                            <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
-                            <node concept="Xl_RD" id="3lbccgqkq4o" role="37wK5m">
-                              <property role="Xl_RC" value="userName" />
+                          <node concept="37vLTw" id="4Ms4M34SuVd" role="37wK5m">
+                            <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
+                          </node>
+                          <node concept="2OqwBi" id="4Ms4M34SuVe" role="37wK5m">
+                            <node concept="37vLTw" id="4Ms4M34SuVf" role="2Oq$k0">
+                              <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                             </node>
-                            <node concept="3cpWs3" id="3lbccgqkq4p" role="37wK5m">
-                              <node concept="Xl_RD" id="3lbccgqkq4q" role="3uHU7w">
-                                <property role="Xl_RC" value=")" />
-                              </node>
-                              <node concept="3cpWs3" id="3lbccgqkq4r" role="3uHU7B">
-                                <node concept="3cpWs3" id="3lbccgqkq4s" role="3uHU7B">
-                                  <node concept="2OqwBi" id="3lbccgqkq4t" role="3uHU7B">
-                                    <node concept="37vLTw" id="3lbccgqkq4u" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                                    </node>
-                                    <node concept="liA8E" id="3lbccgqkq4v" role="2OqNvi">
-                                      <ref role="37wK5l" to="28jr:mdLKeppdBf" resolve="getUserName" />
-                                    </node>
-                                  </node>
-                                  <node concept="Xl_RD" id="3lbccgqkq4w" role="3uHU7w">
-                                    <property role="Xl_RC" value="(" />
-                                  </node>
-                                </node>
-                                <node concept="2OqwBi" id="3lbccgqkq4x" role="3uHU7w">
-                                  <node concept="37vLTw" id="3lbccgqkq4y" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                                  </node>
-                                  <node concept="liA8E" id="3lbccgqkq4z" role="2OqNvi">
-                                    <ref role="37wK5l" to="28jr:3tZ99yEJcyC" resolve="getUserId" />
-                                  </node>
-                                </node>
-                              </node>
+                            <node concept="liA8E" id="4Ms4M34SuVg" role="2OqNvi">
+                              <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
                             </node>
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbH" id="4Ms4M34SvBb" role="3cqZAp" />
                       <node concept="3SKdUt" id="3lbccgqkq4$" role="3cqZAp">
                         <node concept="3SKdUq" id="3lbccgqkq4_" role="3SKWNk">
                           <property role="3SKdUp" value="successfully logged in" />
@@ -2356,21 +2348,6 @@
       <node concept="3clFbS" id="57ov2S_zbD" role="3clF47">
         <node concept="3clFbF" id="57ov2S_zbE" role="3cqZAp">
           <node concept="3clFbT" id="57ov2S_zbF" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="57ov2S_zbG" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="origSessionButApplicationTakenOver" />
-      <node concept="37vLTG" id="57ov2S_zbH" role="3clF46">
-        <property role="TrG5h" value="sesId" />
-        <node concept="17QB3L" id="57ov2S_zbI" role="1tU5fm" />
-      </node>
-      <node concept="10P_77" id="57ov2S_zbJ" role="3clF45" />
-      <node concept="3Tm1VV" id="57ov2S_zbK" role="1B3o_S" />
-      <node concept="3clFbS" id="57ov2S_zbL" role="3clF47">
-        <node concept="3clFbF" id="57ov2S_zbM" role="3cqZAp">
-          <node concept="3clFbT" id="57ov2S_zbN" role="3clFbG" />
         </node>
       </node>
     </node>

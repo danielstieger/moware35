@@ -33596,20 +33596,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5XGplYB7U$x" role="jymVt" />
-    <node concept="3clFb_" id="4cdUWYrS7ty" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="persistApplicationForTakeOver" />
-      <node concept="10P_77" id="4cdUWYrS7tz" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrS7t$" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrS7tA" role="3clF47">
-        <node concept="3clFbF" id="4cdUWYrSbOZ" role="3cqZAp">
-          <node concept="3clFbT" id="4cdUWYrSbOY" role="3clFbG">
-            <property role="3clFbU" value="false" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="701$ZaZp_AB" role="jymVt" />
     <node concept="3clFb_" id="701$ZaZpCmA" role="jymVt">
       <property role="TrG5h" value="setCurrentTabModal" />
       <node concept="37vLTG" id="701$ZaZpN3Q" role="3clF46">

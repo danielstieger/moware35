@@ -23236,16 +23236,6 @@
       <node concept="3Tmbuc" id="57ov2SMA9n" role="1B3o_S" />
       <node concept="10P_77" id="57ov2SMB3u" role="1tU5fm" />
     </node>
-    <node concept="312cEg" id="4cdUWYrG8gc" role="jymVt">
-      <property role="TrG5h" value="letNextLoginTakeOverApp" />
-      <node concept="3Tmbuc" id="4cdUWYrG8gd" role="1B3o_S" />
-      <node concept="10P_77" id="4cdUWYrG92I" role="1tU5fm" />
-    </node>
-    <node concept="312cEg" id="4cdUWYrKL5A" role="jymVt">
-      <property role="TrG5h" value="thisAppWasTakenOver" />
-      <node concept="3Tmbuc" id="4cdUWYrKL5B" role="1B3o_S" />
-      <node concept="10P_77" id="4cdUWYrKL5C" role="1tU5fm" />
-    </node>
     <node concept="312cEg" id="7HqAtYG4FRu" role="jymVt">
       <property role="TrG5h" value="currentSequence" />
       <node concept="3Tmbuc" id="7HqAtYG4H3B" role="1B3o_S" />
@@ -23335,26 +23325,6 @@
             </node>
             <node concept="37vLTw" id="4n24ZlEy6py" role="37vLTJ">
               <ref role="3cqZAo" node="6TYnK1btMhB" resolve="sequence" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4cdUWYrG9kQ" role="3cqZAp">
-          <node concept="37vLTI" id="4cdUWYrG9r6" role="3clFbG">
-            <node concept="3clFbT" id="4cdUWYrG9sZ" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="37vLTw" id="4cdUWYrG9kO" role="37vLTJ">
-              <ref role="3cqZAo" node="4cdUWYrG8gc" resolve="letNextLoginTakeOverApp" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4cdUWYrKM7g" role="3cqZAp">
-          <node concept="37vLTI" id="4cdUWYrKMhf" role="3clFbG">
-            <node concept="3clFbT" id="4cdUWYrKMmA" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="37vLTw" id="4cdUWYrKM7e" role="37vLTJ">
-              <ref role="3cqZAo" node="4cdUWYrKL5A" resolve="thisAppWasTakenOver" />
             </node>
           </node>
         </node>
@@ -24587,148 +24557,6 @@
               <node concept="37vLTw" id="1KgqQuBkYY_" role="37wK5m">
                 <ref role="3cqZAo" node="1KgqQuBkVlw" resolve="value" />
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="4cdUWYrG9uA" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="letNextLoginTakeOverApplication" />
-      <node concept="17QB3L" id="4cdUWYrGBZP" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrG9uC" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrG9uG" role="3clF47">
-        <node concept="3clFbJ" id="4cdUWYrGalh" role="3cqZAp">
-          <node concept="3fqX7Q" id="4cdUWYrGwll" role="3clFbw">
-            <node concept="2OqwBi" id="4cdUWYrGwln" role="3fr31v">
-              <node concept="37vLTw" id="4cdUWYrGwlo" role="2Oq$k0">
-                <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
-              </node>
-              <node concept="liA8E" id="4cdUWYrGwlp" role="2OqNvi">
-                <ref role="37wK5l" to="250q:4cdUWYrGdkO" resolve="isUserAllowedForApplicationTakeOver" />
-                <node concept="37vLTw" id="Qi6kT8ZTEz" role="37wK5m">
-                  <ref role="3cqZAo" node="4cdUWYrGuNt" resolve="userName" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="4cdUWYrGalj" role="3clFbx">
-            <node concept="3cpWs6" id="4cdUWYrGwha" role="3cqZAp">
-              <node concept="3cpWs3" id="4cdUWYrGHhU" role="3cqZAk">
-                <node concept="3cpWs3" id="4cdUWYrGG1b" role="3uHU7B">
-                  <node concept="Xl_RD" id="4cdUWYrGBn9" role="3uHU7B">
-                    <property role="Xl_RC" value="The user '" />
-                  </node>
-                  <node concept="37vLTw" id="4cdUWYrGGFC" role="3uHU7w">
-                    <ref role="3cqZAo" node="4cdUWYrGuNt" resolve="userName" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="4cdUWYrGJ4p" role="3uHU7w">
-                  <property role="Xl_RC" value="' is not enabled for application take over (app-configuration)" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="4cdUWYs16yp" role="3cqZAp">
-          <node concept="3clFbS" id="4cdUWYs16yr" role="3clFbx">
-            <node concept="3cpWs6" id="4cdUWYs17mr" role="3cqZAp">
-              <node concept="Xl_RD" id="4cdUWYs17nI" role="3cqZAk">
-                <property role="Xl_RC" value="This application instance was already marked as 'to take over'. Another passing is not viable." />
-              </node>
-            </node>
-          </node>
-          <node concept="37vLTw" id="4cdUWYs17fA" role="3clFbw">
-            <ref role="3cqZAo" node="4cdUWYrG8gc" resolve="letNextLoginTakeOverApp" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="Qi6kT90ky8" role="3cqZAp" />
-        <node concept="3cpWs8" id="4cdUWYrSdmU" role="3cqZAp">
-          <node concept="3cpWsn" id="4cdUWYrSdmX" role="3cpWs9">
-            <property role="TrG5h" value="done" />
-            <node concept="10P_77" id="4cdUWYrSdmS" role="1tU5fm" />
-            <node concept="2OqwBi" id="4cdUWYrPRH0" role="33vP2m">
-              <node concept="37vLTw" id="4cdUWYrPRCI" role="2Oq$k0">
-                <ref role="3cqZAo" node="2ppo89mf0K9" resolve="appToolkitWindow" />
-              </node>
-              <node concept="liA8E" id="4cdUWYrPRXM" role="2OqNvi">
-                <ref role="37wK5l" to="250q:4cdUWYrPLAX" resolve="persistApplicationForTakeOver" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="4cdUWYrSe4H" role="3cqZAp">
-          <node concept="3clFbS" id="4cdUWYrSe4J" role="3clFbx">
-            <node concept="3cpWs6" id="Qi6kT90lgf" role="3cqZAp">
-              <node concept="Xl_RD" id="Qi6kT90lhD" role="3cqZAk">
-                <property role="Xl_RC" value="'Application take over' is not supported by this runtime!" />
-              </node>
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="4cdUWYrSec8" role="3clFbw">
-            <node concept="37vLTw" id="4cdUWYrSeeC" role="3fr31v">
-              <ref role="3cqZAo" node="4cdUWYrSdmX" resolve="done" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4cdUWYrH2fg" role="3cqZAp">
-          <node concept="37vLTI" id="4cdUWYrH2UT" role="3clFbG">
-            <node concept="3clFbT" id="4cdUWYrH2Y8" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="37vLTw" id="4cdUWYrH2fe" role="37vLTJ">
-              <ref role="3cqZAo" node="4cdUWYrG8gc" resolve="letNextLoginTakeOverApp" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="Qi6kT90j91" role="3cqZAp" />
-        <node concept="3cpWs6" id="4cdUWYrH3Cz" role="3cqZAp">
-          <node concept="Xl_RD" id="4cdUWYrH4iK" role="3cqZAk">
-            <property role="Xl_RC" value="This application will be taken over by the same username on next login." />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="4cdUWYrHngZ" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getapp_takeOverApplication" />
-      <node concept="3Tm1VV" id="4cdUWYrHnh1" role="1B3o_S" />
-      <node concept="10P_77" id="4cdUWYrHnh2" role="3clF45" />
-      <node concept="3clFbS" id="4cdUWYrHnh5" role="3clF47">
-        <node concept="3clFbF" id="4cdUWYrHoc6" role="3cqZAp">
-          <node concept="37vLTw" id="4cdUWYrHoc4" role="3clFbG">
-            <ref role="3cqZAo" node="4cdUWYrG8gc" resolve="letNextLoginTakeOverApp" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="4cdUWYrKNw0" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getapp_applicationWasTakenOver" />
-      <node concept="3Tm1VV" id="4cdUWYrKNw2" role="1B3o_S" />
-      <node concept="10P_77" id="4cdUWYrKNw3" role="3clF45" />
-      <node concept="3clFbS" id="4cdUWYrKNw6" role="3clF47">
-        <node concept="3clFbF" id="4cdUWYrKOrk" role="3cqZAp">
-          <node concept="37vLTw" id="4cdUWYrKOrj" role="3clFbG">
-            <ref role="3cqZAo" node="4cdUWYrKL5A" resolve="thisAppWasTakenOver" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="4cdUWYrKPnt" role="jymVt">
-      <property role="TrG5h" value="setApplicationWasTakenOver" />
-      <node concept="3cqZAl" id="4cdUWYrKPnv" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrKPnw" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrKPnx" role="3clF47">
-        <node concept="3clFbF" id="4cdUWYrKVZm" role="3cqZAp">
-          <node concept="37vLTI" id="4cdUWYrKW6d" role="3clFbG">
-            <node concept="3clFbT" id="4cdUWYrKW7I" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="37vLTw" id="4cdUWYrKVZl" role="37vLTJ">
-              <ref role="3cqZAo" node="4cdUWYrKL5A" resolve="thisAppWasTakenOver" />
             </node>
           </node>
         </node>
@@ -34516,22 +34344,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="WkCinTeYry" role="jymVt" />
-    <node concept="2tJIrI" id="4X6$QoZ0Fnt" role="jymVt" />
-    <node concept="3clFb_" id="4cdUWYrGfVx" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="isUserAllowedForApplicationTakeOver" />
-      <node concept="37vLTG" id="4cdUWYrGmwG" role="3clF46">
-        <property role="TrG5h" value="user" />
-        <node concept="17QB3L" id="4cdUWYrGmJL" role="1tU5fm" />
-      </node>
-      <node concept="10P_77" id="4cdUWYrGfVy" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrGfVz" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrGfV_" role="3clF47">
-        <node concept="3clFbF" id="4cdUWYrGfVB" role="3cqZAp">
-          <node concept="3clFbT" id="4cdUWYrGfVA" role="3clFbG" />
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="5XGplYAYyy9" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getSettingsDescription" />
@@ -36059,21 +35871,6 @@
       <node concept="3clFbS" id="1OvPoUvcjo$" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1OvPoUvcjly" role="jymVt" />
-    <node concept="3clFb_" id="4cdUWYrHmui" role="jymVt">
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getapp_takeOverApplication" />
-      <node concept="3clFbS" id="4cdUWYrHmul" role="3clF47" />
-      <node concept="3Tm1VV" id="4cdUWYrHmum" role="1B3o_S" />
-      <node concept="10P_77" id="4cdUWYrHmsg" role="3clF45" />
-    </node>
-    <node concept="3clFb_" id="4cdUWYrKMqx" role="jymVt">
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getapp_applicationWasTakenOver" />
-      <node concept="3clFbS" id="4cdUWYrKMqy" role="3clF47" />
-      <node concept="3Tm1VV" id="4cdUWYrKMqz" role="1B3o_S" />
-      <node concept="10P_77" id="4cdUWYrKMq$" role="3clF45" />
-    </node>
-    <node concept="2tJIrI" id="6YMRHoFawDR" role="jymVt" />
     <node concept="3clFb_" id="uIdudhLYhg" role="jymVt">
       <property role="TrG5h" value="fullApplicationCrtlState" />
       <node concept="17QB3L" id="uIdudhLYlU" role="3clF45" />
@@ -36093,12 +35890,6 @@
       <node concept="3clFbS" id="18nf27lPLO9" role="3clF47" />
       <node concept="3Tm1VV" id="18nf27lPLOa" role="1B3o_S" />
       <node concept="17QB3L" id="18nf27lPLMz" role="3clF45" />
-    </node>
-    <node concept="3clFb_" id="4cdUWYrG6pE" role="jymVt">
-      <property role="TrG5h" value="letNextLoginTakeOverApplication" />
-      <node concept="17QB3L" id="4cdUWYrGCEZ" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrG6pH" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrG6pI" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="1EBV9L$__sE" role="1B3o_S" />
   </node>

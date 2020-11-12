@@ -274,16 +274,6 @@
       <node concept="3Tm1VV" id="5XGplYAWG3K" role="1B3o_S" />
       <node concept="3clFbS" id="5XGplYAWG3L" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="4cdUWYrGdkO" role="jymVt">
-      <property role="TrG5h" value="isUserAllowedForApplicationTakeOver" />
-      <node concept="37vLTG" id="4cdUWYrGm0Y" role="3clF46">
-        <property role="TrG5h" value="user" />
-        <node concept="17QB3L" id="4cdUWYrGmaj" role="1tU5fm" />
-      </node>
-      <node concept="10P_77" id="4cdUWYrGdur" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrGdkR" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrGdkS" role="3clF47" />
-    </node>
     <node concept="2tJIrI" id="7HkVpVbYc7c" role="jymVt" />
     <node concept="3clFb_" id="4nH4LOEExIs" role="jymVt">
       <property role="2aFKle" value="false" />
@@ -1028,13 +1018,6 @@
       <node concept="3clFbS" id="5NnlNqu2gJI" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="2ppo89mbST1" role="jymVt" />
-    <node concept="3clFb_" id="4cdUWYrPLAX" role="jymVt">
-      <property role="TrG5h" value="persistApplicationForTakeOver" />
-      <node concept="10P_77" id="4cdUWYrRVak" role="3clF45" />
-      <node concept="3Tm1VV" id="4cdUWYrPLB0" role="1B3o_S" />
-      <node concept="3clFbS" id="4cdUWYrPLB1" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="4cdUWYrPLuL" role="jymVt" />
     <node concept="Qs71p" id="4Ucpg8z6mu9" role="jymVt">
       <property role="TrG5h" value="DlgType" />
       <node concept="QsSxf" id="4Ucpg8z6mvn" role="Qtgdg">
