@@ -166,7 +166,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2019.1 / moware MINI 2020.6A (beast)" />
+          <property role="3MwjfP" value="MPS 2019.1 / moware MINI 2020.6C (beast)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -382,6 +382,7 @@
       <node concept="1E1JtD" id="1JLTjCmZp6M" role="2G$12L">
         <property role="TrG5h" value="org.modellwerkstatt.manmap" />
         <property role="3LESm3" value="5aaa957f-3447-4783-b1f7-b301fa3e0394" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="1JLTjCmZp7g" role="3LF7KH">
           <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
           <node concept="2Ry0Ak" id="1JLTjCmZp8s" role="iGT6I">
@@ -480,9 +481,9 @@
         </node>
       </node>
       <node concept="1E1JtA" id="1JLTjCmZpiM" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modellwerkstatt.objectflow.runtime" />
         <property role="3LESm3" value="5a857198-951d-4874-b213-66fc66e0ee10" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="1JLTjCmZpm5" role="3LF7KH">
           <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
           <node concept="2Ry0Ak" id="1JLTjCmZprX" role="iGT6I">
