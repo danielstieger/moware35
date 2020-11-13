@@ -325,12 +325,19 @@
     </node>
     <node concept="2tJIrI" id="1wwgtxzgbtu" role="jymVt" />
     <node concept="2tJIrI" id="1wwgtxzgq6Z" role="jymVt" />
+    <node concept="2tJIrI" id="ltdRgVM9OI" role="jymVt" />
     <node concept="2YIFZL" id="4Ms4M34Sj1n" role="jymVt">
       <property role="TrG5h" value="setSessionUserName" />
+      <node concept="37vLTG" id="ltdRgVQ7IS" role="3clF46">
+        <property role="TrG5h" value="factory" />
+        <node concept="3uibUv" id="ltdRgVQ88A" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:2xnCXJMm5Qy" resolve="IH2UiFactory" />
+        </node>
+      </node>
       <node concept="37vLTG" id="4Ms4M34Sl1S" role="3clF46">
-        <property role="TrG5h" value="session" />
-        <node concept="3uibUv" id="4Ms4M34SleE" role="1tU5fm">
-          <ref role="3uigEE" to="nwfd:~HttpSession" resolve="HttpSession" />
+        <property role="TrG5h" value="req" />
+        <node concept="3uibUv" id="ltdRgVQakU" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletRequest" resolve="HttpServletRequest" />
         </node>
       </node>
       <node concept="37vLTG" id="4Ms4M34Sliq" role="3clF46">
@@ -339,17 +346,30 @@
           <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
         </node>
       </node>
-      <node concept="37vLTG" id="4Ms4M34Snok" role="3clF46">
-        <property role="TrG5h" value="ip" />
-        <node concept="17QB3L" id="4Ms4M34SnEd" role="1tU5fm" />
-      </node>
       <node concept="3cqZAl" id="4Ms4M34Sj1p" role="3clF45" />
       <node concept="3Tm1VV" id="4Ms4M34Sj1q" role="1B3o_S" />
       <node concept="3clFbS" id="4Ms4M34Sj1r" role="3clF47">
+        <node concept="3cpWs8" id="ltdRgVQbSK" role="3cqZAp">
+          <node concept="3cpWsn" id="ltdRgVQbSL" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="3uibUv" id="ltdRgVQbSM" role="1tU5fm">
+              <ref role="3uigEE" to="nwfd:~HttpSession" resolve="HttpSession" />
+            </node>
+            <node concept="2OqwBi" id="ltdRgVQc8r" role="33vP2m">
+              <node concept="37vLTw" id="ltdRgVQc4N" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Ms4M34Sl1S" resolve="req" />
+              </node>
+              <node concept="liA8E" id="ltdRgVQcgx" role="2OqNvi">
+                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="ltdRgVQchV" role="3cqZAp" />
         <node concept="3clFbF" id="4Ms4M34SlGz" role="3cqZAp">
           <node concept="2OqwBi" id="4Ms4M34SlIj" role="3clFbG">
-            <node concept="37vLTw" id="4Ms4M34SlGx" role="2Oq$k0">
-              <ref role="3cqZAo" node="4Ms4M34Sl1S" resolve="session" />
+            <node concept="37vLTw" id="ltdRgVQcxi" role="2Oq$k0">
+              <ref role="3cqZAo" node="ltdRgVQbSL" resolve="session" />
             </node>
             <node concept="liA8E" id="4Ms4M34SlLH" role="2OqNvi">
               <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object)" resolve="setAttribute" />
@@ -385,8 +405,16 @@
                     <property role="Xl_RC" value=" " />
                   </node>
                 </node>
-                <node concept="37vLTw" id="4Ms4M34SnM3" role="3uHU7w">
-                  <ref role="3cqZAo" node="4Ms4M34Snok" resolve="ip" />
+                <node concept="2OqwBi" id="ltdRgVQ8zU" role="3uHU7w">
+                  <node concept="37vLTw" id="ltdRgVQ8qP" role="2Oq$k0">
+                    <ref role="3cqZAo" node="ltdRgVQ7IS" resolve="factory" />
+                  </node>
+                  <node concept="liA8E" id="ltdRgVQ8K_" role="2OqNvi">
+                    <ref role="37wK5l" to="tea8:ltdRgVMDDa" resolve="getRemoteAddr" />
+                    <node concept="37vLTw" id="ltdRgVQcVq" role="37wK5m">
+                      <ref role="3cqZAo" node="4Ms4M34Sl1S" resolve="req" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -394,6 +422,8 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="ltdRgVMjzv" role="jymVt" />
+    <node concept="2tJIrI" id="ltdRgVMkAL" role="jymVt" />
     <node concept="2YIFZL" id="7WBKY1WhWkJ" role="jymVt">
       <property role="TrG5h" value="detectAndSetClient" />
       <property role="DiZV1" value="false" />
@@ -1011,24 +1041,14 @@
             <node concept="3clFbF" id="4Ms4M34SpCV" role="3cqZAp">
               <node concept="1rXfSq" id="4Ms4M34SpCT" role="3clFbG">
                 <ref role="37wK5l" node="4Ms4M34Sj1n" resolve="setSessionUserName" />
-                <node concept="2OqwBi" id="4Ms4M34Sq9P" role="37wK5m">
-                  <node concept="37vLTw" id="4Ms4M34Sq7c" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="4Ms4M34Sqq7" role="2OqNvi">
-                    <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
-                  </node>
+                <node concept="37vLTw" id="ltdRgVQ983" role="37wK5m">
+                  <ref role="3cqZAo" node="1wwgtxzgiJS" resolve="uiFactory" />
+                </node>
+                <node concept="37vLTw" id="4Ms4M34Sq7c" role="37wK5m">
+                  <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
                 </node>
                 <node concept="37vLTw" id="4Ms4M34Sqy8" role="37wK5m">
                   <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
-                </node>
-                <node concept="2OqwBi" id="4Ms4M34SqUE" role="37wK5m">
-                  <node concept="37vLTw" id="4Ms4M34SqDA" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="4Ms4M34Src4" role="2OqNvi">
-                    <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
-                  </node>
                 </node>
               </node>
             </node>
@@ -1822,24 +1842,14 @@
                   <node concept="2YIFZM" id="4Ms4M34Sttm" role="3clFbG">
                     <ref role="1Pybhc" node="r$jHpF7WZz" resolve="H2MpreisNoLoginAuth" />
                     <ref role="37wK5l" node="4Ms4M34Sj1n" resolve="setSessionUserName" />
-                    <node concept="2OqwBi" id="4Ms4M34Sttn" role="37wK5m">
-                      <node concept="37vLTw" id="4Ms4M34Stto" role="2Oq$k0">
-                        <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
-                      </node>
-                      <node concept="liA8E" id="4Ms4M34Sttp" role="2OqNvi">
-                        <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
-                      </node>
+                    <node concept="37vLTw" id="ltdRgVQdF0" role="37wK5m">
+                      <ref role="3cqZAo" node="57ov2S_z6E" resolve="uiFactory" />
+                    </node>
+                    <node concept="37vLTw" id="4Ms4M34Stto" role="37wK5m">
+                      <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                     </node>
                     <node concept="37vLTw" id="4Ms4M34Sttq" role="37wK5m">
                       <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                    </node>
-                    <node concept="2OqwBi" id="4Ms4M34Sttr" role="37wK5m">
-                      <node concept="37vLTw" id="4Ms4M34Stts" role="2Oq$k0">
-                        <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
-                      </node>
-                      <node concept="liA8E" id="4Ms4M34Sttt" role="2OqNvi">
-                        <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -1999,24 +2009,14 @@
                         <node concept="2YIFZM" id="4Ms4M34SuV9" role="3clFbG">
                           <ref role="1Pybhc" node="r$jHpF7WZz" resolve="H2MpreisNoLoginAuth" />
                           <ref role="37wK5l" node="4Ms4M34Sj1n" resolve="setSessionUserName" />
-                          <node concept="2OqwBi" id="4Ms4M34SuVa" role="37wK5m">
-                            <node concept="37vLTw" id="4Ms4M34SuVb" role="2Oq$k0">
-                              <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
-                            </node>
-                            <node concept="liA8E" id="4Ms4M34SuVc" role="2OqNvi">
-                              <ref role="37wK5l" to="nwfd:~HttpServletRequest.getSession()" resolve="getSession" />
-                            </node>
+                          <node concept="37vLTw" id="ltdRgVQexJ" role="37wK5m">
+                            <ref role="3cqZAo" node="57ov2S_z6E" resolve="uiFactory" />
+                          </node>
+                          <node concept="37vLTw" id="4Ms4M34SuVb" role="37wK5m">
+                            <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
                           </node>
                           <node concept="37vLTw" id="4Ms4M34SuVd" role="37wK5m">
                             <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                          </node>
-                          <node concept="2OqwBi" id="4Ms4M34SuVe" role="37wK5m">
-                            <node concept="37vLTw" id="4Ms4M34SuVf" role="2Oq$k0">
-                              <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
-                            </node>
-                            <node concept="liA8E" id="4Ms4M34SuVg" role="2OqNvi">
-                              <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
-                            </node>
                           </node>
                         </node>
                       </node>

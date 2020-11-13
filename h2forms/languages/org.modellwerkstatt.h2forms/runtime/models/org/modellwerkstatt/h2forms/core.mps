@@ -1272,10 +1272,15 @@
           <node concept="3clFbS" id="1XvfUlyovhG" role="3clFbx">
             <node concept="3clFbF" id="1XvfUlyovhH" role="3cqZAp">
               <node concept="37vLTI" id="1XvfUlyovhI" role="3clFbG">
-                <node concept="1rXfSq" id="3LZok6fm1do" role="37vLTx">
-                  <ref role="37wK5l" node="3LZok6f9UgC" resolve="getRemoteAddr" />
-                  <node concept="37vLTw" id="3LZok6fm2Kx" role="37wK5m">
-                    <ref role="3cqZAo" node="1XvfUlyouZk" resolve="request" />
+                <node concept="2OqwBi" id="ltdRgVQ0u2" role="37vLTx">
+                  <node concept="37vLTw" id="ltdRgVQ0jf" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                  </node>
+                  <node concept="liA8E" id="ltdRgVQ1PA" role="2OqNvi">
+                    <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                    <node concept="37vLTw" id="ltdRgVQ2zk" role="37wK5m">
+                      <ref role="3cqZAo" node="1XvfUlyouZk" resolve="request" />
+                    </node>
                   </node>
                 </node>
                 <node concept="37vLTw" id="1XvfUlyovhM" role="37vLTJ">
@@ -1312,10 +1317,15 @@
           <node concept="3cpWsn" id="5ubRLyf7qBy" role="3cpWs9">
             <property role="TrG5h" value="remoteAddr" />
             <node concept="17QB3L" id="5ubRLyf7qBt" role="1tU5fm" />
-            <node concept="1rXfSq" id="3LZok6flSkh" role="33vP2m">
-              <ref role="37wK5l" node="3LZok6f9UgC" resolve="getRemoteAddr" />
-              <node concept="37vLTw" id="3LZok6flTxw" role="37wK5m">
-                <ref role="3cqZAo" node="1XvfUlyouZk" resolve="request" />
+            <node concept="2OqwBi" id="ltdRgVQ3kz" role="33vP2m">
+              <node concept="37vLTw" id="ltdRgVQ3k$" role="2Oq$k0">
+                <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+              </node>
+              <node concept="liA8E" id="ltdRgVQ3k_" role="2OqNvi">
+                <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                <node concept="37vLTw" id="ltdRgVQ3kA" role="37wK5m">
+                  <ref role="3cqZAo" node="1XvfUlyouZk" resolve="request" />
+                </node>
               </node>
             </node>
           </node>
@@ -1619,89 +1629,6 @@
     </node>
     <node concept="2tJIrI" id="6IJC_lwo40r" role="jymVt" />
     <node concept="2tJIrI" id="6IJC_lwnGcj" role="jymVt" />
-    <node concept="3clFb_" id="3LZok6f9UgC" role="jymVt">
-      <property role="TrG5h" value="getRemoteAddr" />
-      <node concept="17QB3L" id="3LZok6f9Yh_" role="3clF45" />
-      <node concept="3Tm1VV" id="3LZok6f9UgF" role="1B3o_S" />
-      <node concept="3clFbS" id="3LZok6f9UgG" role="3clF47">
-        <node concept="3SKdUt" id="3LZok6faOXn" role="3cqZAp">
-          <node concept="3SKdUq" id="3LZok6faOXp" role="3SKWNk">
-            <property role="3SKdUp" value="nginx and other loadbalancer forwarding." />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3LZok6fah25" role="3cqZAp">
-          <node concept="3cpWsn" id="3LZok6fah28" role="3cpWs9">
-            <property role="TrG5h" value="address" />
-            <node concept="17QB3L" id="3LZok6fah24" role="1tU5fm" />
-            <node concept="2OqwBi" id="3LZok6fajmu" role="33vP2m">
-              <node concept="37vLTw" id="3LZok6fajl2" role="2Oq$k0">
-                <ref role="3cqZAo" node="3LZok6facuR" resolve="request" />
-              </node>
-              <node concept="liA8E" id="3LZok6fan3d" role="2OqNvi">
-                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String)" resolve="getHeader" />
-                <node concept="Xl_RD" id="3LZok6fan4P" role="37wK5m">
-                  <property role="Xl_RC" value="x-forwarded-for" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="3LZok6farRT" role="3cqZAp">
-          <node concept="3clFbS" id="3LZok6farRV" role="3clFbx">
-            <node concept="3clFbF" id="3LZok6fb0L$" role="3cqZAp">
-              <node concept="37vLTI" id="3LZok6fb2fj" role="3clFbG">
-                <node concept="2OqwBi" id="3LZok6fb2wZ" role="37vLTx">
-                  <node concept="37vLTw" id="3LZok6fb2v7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3LZok6facuR" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="3LZok6fb4vf" role="2OqNvi">
-                    <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
-                  </node>
-                </node>
-                <node concept="37vLTw" id="3LZok6fb0Ly" role="37vLTJ">
-                  <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="3LZok6fmKJP" role="3clFbw">
-            <node concept="37vLTw" id="3LZok6fas5N" role="3uHU7B">
-              <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-            </node>
-            <node concept="10Nm6u" id="3LZok6fati8" role="3uHU7w" />
-          </node>
-        </node>
-        <node concept="1X3_iC" id="3LZok6fn$ig" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="3LZok6fbeif" role="8Wnug">
-            <node concept="1rXfSq" id="3LZok6fbeid" role="3clFbG">
-              <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-              <node concept="3cpWs3" id="3LZok6fbfMD" role="37wK5m">
-                <node concept="37vLTw" id="3LZok6fbfOT" role="3uHU7w">
-                  <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-                </node>
-                <node concept="Xl_RD" id="3LZok6fbfJH" role="3uHU7B">
-                  <property role="Xl_RC" value="getRemoteAddr(): Address is " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="3LZok6fa$0j" role="3cqZAp">
-          <node concept="37vLTw" id="3LZok6fb7rI" role="3cqZAk">
-            <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="3LZok6facuR" role="3clF46">
-        <property role="TrG5h" value="request" />
-        <node concept="3uibUv" id="3LZok6fakxk" role="1tU5fm">
-          <ref role="3uigEE" to="nwfd:~HttpServletRequest" resolve="HttpServletRequest" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1XvfUlyoukI" role="jymVt" />
     <node concept="3clFb_" id="kA5KhwgG6E" role="jymVt">
       <property role="TrG5h" value="getCurrentRequestHostName" />
       <node concept="37vLTG" id="kA5KhwgOnB" role="3clF46">
@@ -2426,10 +2353,15 @@
                   <node concept="3cpWsn" id="Gy0DA$ZY87" role="3cpWs9">
                     <property role="TrG5h" value="currentIP" />
                     <node concept="17QB3L" id="Gy0DA$ZY82" role="1tU5fm" />
-                    <node concept="1rXfSq" id="3LZok6fm4k5" role="33vP2m">
-                      <ref role="37wK5l" node="3LZok6f9UgC" resolve="getRemoteAddr" />
-                      <node concept="37vLTw" id="3LZok6fm5Sq" role="37wK5m">
-                        <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                    <node concept="2OqwBi" id="ltdRgVQ4Gh" role="33vP2m">
+                      <node concept="37vLTw" id="ltdRgVQ4Gi" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                      </node>
+                      <node concept="liA8E" id="ltdRgVQ4Gj" role="2OqNvi">
+                        <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                        <node concept="37vLTw" id="ltdRgVQ4Gk" role="37wK5m">
+                          <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -11575,6 +11507,18 @@
       <node concept="3clFbS" id="7CJFVfzQZCZ" role="3clF47" />
       <node concept="3uibUv" id="7CJFVfzS6mz" role="Sfmx6">
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="ltdRgVMDDa" role="jymVt">
+      <property role="TrG5h" value="getRemoteAddr" />
+      <node concept="17QB3L" id="ltdRgVPVQb" role="3clF45" />
+      <node concept="3Tm1VV" id="ltdRgVMDDd" role="1B3o_S" />
+      <node concept="3clFbS" id="ltdRgVMDDe" role="3clF47" />
+      <node concept="37vLTG" id="ltdRgVMDMT" role="3clF46">
+        <property role="TrG5h" value="req" />
+        <node concept="3uibUv" id="ltdRgVMDMS" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletRequest" resolve="HttpServletRequest" />
+        </node>
       </node>
     </node>
   </node>
