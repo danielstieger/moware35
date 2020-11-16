@@ -647,6 +647,9 @@
       <property role="IQ2ns" value="9127051365898310193" />
       <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
+    <node concept="1QGGSu" id="4q1OD65wAiC" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/statusminor.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7UDNdKJ6FFr">
     <property role="3GE5qa" value="Status" />
