@@ -1,160 +1,63 @@
-{% macro defCol(col) %}
-    {% if col is null %}#009688{% else %}{{ col }}{% endif %}
-{% endmacro %}
-{% macro defColD3(col) %}
-{% if col is null %}#00685d{% else %}{{ col }}{% endif %}
-{% endmacro %}
 <!DOCTYPE html>
 <html>
-  <title>{{ statics.applicationName }} {{ client.deviceSw }}/{{ client.debug }}</title>
+  <title>modllwerkstatt EB MCVE</title>
   <meta charset="UTF-8">
-  <!-- Add to homescreen for Chrome on Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="{{ client.staticContentUrlPrefix }}/images/android-desktop.png{{ page.ncs }}">
-
-  <!-- Add to homescreen for Safari on iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="{{ statics.applicationName }}">
-  <link rel="apple-touch-icon-precomposed" href="{{ client.staticContentUrlPrefix }}/images/ios-desktop.png{{ page.ncs }}">
-
-  <!-- Tile icon for Win8 (144x144 + tile color) -->
-  <meta name="msapplication-TileImage" content="{{ client.staticContentUrlPrefix }}/images/touch/ms-touch-icon-144x144-precomposed.png{{ page.ncs }}">
-  <meta name="msapplication-TileColor" content="#c6c6c6">
 
 
-{% if keyboard %}
-    <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
-
-    {% if scanConclusion is null %}
-        <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
-        <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Visible" >
-    {% else %}
-        <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
-        <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
-    {% endif %}
-
-    {% if goConclusion is null %}
-        <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
-        <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Visible" >
-    {% else %}
-        <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
-        <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
-    {% endif %}
-
-{% else %}
-    <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
-{% endif %}
-
+  <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/suivant-tmpl.css{{ page.ncs }}">
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3-theme-teal.css{{ page.ncs }}">
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
+  <script charset="utf-8" src="../ebapi2/ebapi-modules.js"></script>
+  <script charset="utf-8" src="../ebapi2/elements.js"></script>
 
-  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/suivantui.js{{ page.ncs }}"></script>
-  {% if client.deviceSw equals "ZEBRAEB_18" %}
-  <!-- <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
-       <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script> -->
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.application.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.sip.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra18.js{{ page.ncs }}"></script>
-  {% elseif client.deviceSw equals "ZEBRAEB_20" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
+  <script charset="utf-8" src="ebmcve.js?10"></script>
 
-  <!--
-  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.application.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.barcode.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.notification.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.keycapture.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.sip.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script> -->
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra20.js{{ page.ncs }}"></script>
-  {% elseif client.deviceSw equals "SCANDIT" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_scandit.js{{ page.ncs }}"></script>
-  {% else %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_none.js{{ page.ncs }}"></script>
-  {% endif %}
-  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/suivant.js{{ page.ncs }}"></script>
-
-  <link rel="icon" type="image/ico" href="{{ client.staticContentUrlPrefix }}/images/favicon.ico{{ page.ncs }}">
   <style media="screen" type="text/css">
-      h1   {font-size:20px}
-      h2   {font-size:18px}
-      h3   {font-size:16px}
-      h4   {font-size:14px}
-      h5   {font-size:12px}
-      h6   {font-size:10px}
-      .sv-currentfg { color: #d9d9d9 !important; background: {{ defCol(page.color) }} !important; }
-      .sv-currentfg-D3 { color: #d9d9d9 !important; background: {{ defColD3(page.colorD3) }} !important; }
+      body   {font-family: Arial, Helvetica, sans-serif; font-size: smaller; color: #393939;}
   </style>
 
-<body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% elseif not page.hasSessionToCommit and page.isReadOnly %}sv-back-readOnly{% elseif page.isDocumentSearch %}sv-back-no-session{% else %}sv-back-session{% endif %}"
-      {% if message is not null and message.errorLarge %} style="overflow-x: scroll !important;" {% endif %}>
-<form method="POST" name="baseform" id="baseform">
-    <input type="hidden" name="NaviCrtl" value=""/>
-    <input type="hidden" name="SelectionId" value=""/>
-    <input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>
-    <input type="hidden" name="ScrollPosition" value="{{ page.scrollPosition }}"/>
-    <input type="hidden" name="PageTmpValue" value="0"/>
-    <input type="hidden" name="H1HttpClient" value="{{ client.deviceSw }}"/>
-    <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
-    <input type="hidden" name="DebugInformation" value="-"/>
 
-{% if message is not null and message.modalWithButtons %}
-    <div class="w3-top">
-    <div class="w3-container w3-row sv-status-gray">
-        <div class="w3-col s6 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("-") }}</div>
-        <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
-    </div>
-    <div class="w3-bar sv-question-red" onclick="svHideAllContainsDropdown()">
-        {% for btn in message.buttons %}
-        {% if loop.length == 1 %}
-            <span class="w3-bar-item sv-bartitle"> </span>
-            <div class="w3-right">
-        {% endif %}
-        <button type="button" id="{{ btn.buttonCode }}" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('{{ btn.buttonCode }}');">
-        {{ btn.label }} </button>
 
-        {% if loop.first and loop.length >= 2 %}
-            <span class="w3-bar-item sv-bartitle"> </span>
-            <div class="w3-right">
-        {% endif %}
 
-        {% if loop.last %}</div>{% endif %}
-    {% endfor %}
-    </div>
-    </div>
+<body>
+<form method="GET" name="baseform" id="baseform">
 
-    <!-- top spacer -->
-    <div class="w3-container w3-row sv-currentfg-D3"><div class="w3-col s12 w3-left-align">modellwerkstatt.org</div></div>
-    <div class="w3-bar"> <span class="w3-bar-item"> - </span> </div>
+    <u>modellwerkstatt EB 2.0 MCVE</u> &nbsp; &nbsp; &nbsp;
+    <button type="button" name="clearLog" onclick="javascript: mClearLog();">Clear LOG</button>
+<br>
+<br>
 
-    {% include "./messages.peb" %}
-{% else %}
-{% block content %} {% endblock %}
-{% endif %}
+<h3> (0) EB-API basic functionalities </h3>
+<button type="button" name="exitEb" onclick="javascript: mExit();">Exit</button>
+<button type="button" name="minimizeEb" onclick="javascript: mMinimize();">Minimize</button>
+<button type="button" name="beepEb" onclick="javascript: mBeep();">Beep</button>
+
+<h3>(1) Scanning (HW-Button + Soft-Scan)</h3>
+SCAN RESULT <input id="scan_input" name="scan_input" type="text" scanable="true" value="(displayed in log)" disabled/>
+<button type="button" name="scanButton" onclick="javascript: mScanSubmit();">Soft Scan Button</button>
+
+<h3>(2) Sip disabled/enabled </h3>
+<button type="button" name="sipDisabled" onclick="javascript: mSipDisabled();">Disable</button>
+<button type="button" name="sipEnable" onclick="javascript: mSipEnabled();">Enable + Show</button>
+<input id="sip_input" name="sip_input" type="text" value=""/>
+
+<h3>(3) Show/hide custom keyboard </h3>
+<a href="keyboard.html?1">Link to Show</a>
+
+<br> <br>
+<code id="myLogCode">Logger:
+</code>
+
 </form>
 </body>
 </html>

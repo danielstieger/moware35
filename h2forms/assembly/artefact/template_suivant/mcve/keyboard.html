@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <title>modllwerkstatt EB MCVE</title>
+  <meta charset="UTF-8">
+
+
+  <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+  <script charset="utf-8" src="../ebapi2/ebapi-modules.js"></script>
+  <script charset="utf-8" src="../ebapi2/elements.js"></script>
+
+  <script charset="utf-8" src="ebmcve.js?10"></script>
+
+  <style media="screen" type="text/css">
+      body   {font-family: Arial, Helvetica, sans-serif; font-size: smaller; color: #393939;}
+  </style>
+
+
+
+
+<body>
+<form method="GET" name="baseform" id="baseform">
+
+    <u>modellwerkstatt EB 2.0 MCVE</u>
+    <button type="button" name="clearLog" onclick="javascript: mClearLog();">Clear LOG</button>
+<br>
+<br>
+<button type="button" name="sipDisabled" onclick="javascript: mSipDisabled();">Disable</button>
+<button type="button" name="sipEnable" onclick="javascript: mSipEnabled();">Enable + Show</button> <br>
+
+Input Field <input id="sip_input" name="sip_input" type="text" value=""/>
+
+
+<h3> Meta-Info enabled - Keyboard should show </h3>
+<a href="index.html">Back to main page</a>
+
+<br> <br>
+<code id="myLogCode">Logger:
+</code>
+
+</form>
+</body>
+</html>
