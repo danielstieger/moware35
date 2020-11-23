@@ -39109,7 +39109,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware MINI 2020.8 (btn) (dev " />
+            <property role="Xl_RC" value="moware MINI 2020.10 (mta) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -50466,7 +50466,7 @@
       <node concept="37vLTG" id="6F2RWtjwJys" role="3clF46">
         <property role="TrG5h" value="__reporter" />
         <node concept="3uibUv" id="6F2RWtjwJUS" role="1tU5fm">
-          <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitReporter" />
+          <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
         </node>
       </node>
       <node concept="3cqZAl" id="6F2RWtjwraj" role="3clF45" />
@@ -50478,8 +50478,12 @@
       <node concept="37vLTG" id="6F2RWtjwJZh" role="3clF46">
         <property role="TrG5h" value="__reporter" />
         <node concept="3uibUv" id="6F2RWtjwJZi" role="1tU5fm">
-          <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitReporter" />
+          <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
         </node>
+      </node>
+      <node concept="37vLTG" id="4_xNQNe06QN" role="3clF46">
+        <property role="TrG5h" value="initDependentTestFields" />
+        <node concept="10P_77" id="4_xNQNe06Ug" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="6F2RWtjws5Q" role="3clF45" />
       <node concept="3Tm1VV" id="6F2RWtjws5R" role="1B3o_S" />
@@ -50490,7 +50494,7 @@
       <node concept="37vLTG" id="6F2RWtjwK0f" role="3clF46">
         <property role="TrG5h" value="__reporter" />
         <node concept="3uibUv" id="6F2RWtjwK0g" role="1tU5fm">
-          <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitReporter" />
+          <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
         </node>
       </node>
       <node concept="3cqZAl" id="6F2RWtjwreu" role="3clF45" />
@@ -50501,7 +50505,28 @@
     <node concept="2tJIrI" id="6F2RWtjwJLE" role="jymVt" />
     <node concept="3HP615" id="6F2RWtjwJOe" role="jymVt">
       <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="IOFXTestSuitReporter" />
+      <property role="TrG5h" value="IOFXTestSuitHandler" />
+      <node concept="3clFb_" id="4_xNQNdZiRD" role="jymVt">
+        <property role="TrG5h" value="testSuitCreateInitDone" />
+        <node concept="3cqZAl" id="4_xNQNdZiRF" role="3clF45" />
+        <node concept="3Tm1VV" id="4_xNQNdZiRG" role="1B3o_S" />
+        <node concept="3clFbS" id="4_xNQNdZiRH" role="3clF47" />
+      </node>
+      <node concept="3clFb_" id="4_xNQNdZj6k" role="jymVt">
+        <property role="TrG5h" value="getOrCreateTestSuit" />
+        <node concept="37vLTG" id="4_xNQNdZjgA" role="3clF46">
+          <property role="TrG5h" value="cls" />
+          <node concept="3uibUv" id="4_xNQNdZjlr" role="1tU5fm">
+            <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+          </node>
+        </node>
+        <node concept="3uibUv" id="4_xNQNdZjdi" role="3clF45">
+          <ref role="3uigEE" node="6F2RWtjwoXj" resolve="IOFXTestSuit" />
+        </node>
+        <node concept="3Tm1VV" id="4_xNQNdZj6n" role="1B3o_S" />
+        <node concept="3clFbS" id="4_xNQNdZj6o" role="3clF47" />
+      </node>
+      <node concept="2tJIrI" id="4_xNQNdZj1g" role="jymVt" />
       <node concept="3clFb_" id="6F2RWtj$cuF" role="jymVt">
         <property role="TrG5h" value="breakLine" />
         <node concept="37vLTG" id="6F2RWtj$g5t" role="3clF46">

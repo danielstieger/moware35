@@ -304,6 +304,18 @@
       </concept>
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
+        <child id="1197683466920" name="keyType" index="3rvQeY" />
+        <child id="1197683475734" name="valueType" index="3rvSg0" />
+      </concept>
+      <concept id="1197686869805" name="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator" flags="nn" index="3rGOSV">
+        <child id="1197687026896" name="keyType" index="3rHrn6" />
+        <child id="1197687035757" name="valueType" index="3rHtpV" />
+      </concept>
+      <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
+        <child id="1197932505799" name="map" index="3ElQJh" />
+        <child id="1197932525128" name="key" index="3ElVtu" />
+      </concept>
     </language>
   </registry>
   <node concept="312cEu" id="R5cwR_fILw">
@@ -8997,7 +9009,7 @@
     </node>
   </node>
   <node concept="312cEu" id="7ECLRBgCVsM">
-    <property role="TrG5h" value="MoTestSuitReporter" />
+    <property role="TrG5h" value="MoTestSuitHandler" />
     <property role="3GE5qa" value="util" />
     <node concept="312cEg" id="7ECLRBgCWKh" role="jymVt">
       <property role="TrG5h" value="testsPassed" />
@@ -9009,6 +9021,12 @@
       <node concept="3Tm6S6" id="7ECLRBgCWLu" role="1B3o_S" />
       <node concept="10Oyi0" id="7ECLRBgCWLv" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="4_xNQNdYf14" role="jymVt">
+      <property role="TrG5h" value="instantiateNew" />
+      <node concept="3Tm6S6" id="4_xNQNdYf15" role="1B3o_S" />
+      <node concept="10P_77" id="4_xNQNdYgiK" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="4_xNQNdYdMQ" role="jymVt" />
     <node concept="312cEg" id="2w93nZwlboE" role="jymVt">
       <property role="TrG5h" value="reportLines" />
       <node concept="3Tm6S6" id="2w93nZwlboF" role="1B3o_S" />
@@ -9016,7 +9034,24 @@
         <ref role="3uigEE" to="wyt6:~StringBuilder" resolve="StringBuilder" />
       </node>
     </node>
-    <node concept="2tJIrI" id="7ECLRBgCWIb" role="jymVt" />
+    <node concept="312cEg" id="4_xNQNdXYZ3" role="jymVt">
+      <property role="TrG5h" value="testSuit" />
+      <node concept="3rvAFt" id="4_xNQNdXP8J" role="1tU5fm">
+        <node concept="17QB3L" id="4_xNQNdXXmW" role="3rvQeY" />
+        <node concept="3uibUv" id="4_xNQNdXYc8" role="3rvSg0">
+          <ref role="3uigEE" to="28jr:6F2RWtjwoXj" resolve="IOFXTestSuit" />
+        </node>
+      </node>
+      <node concept="2ShNRf" id="4_xNQNdY0gF" role="33vP2m">
+        <node concept="3rGOSV" id="4_xNQNdY0ey" role="2ShVmc">
+          <node concept="17QB3L" id="4_xNQNdY0ez" role="3rHrn6" />
+          <node concept="3uibUv" id="4_xNQNdY0e$" role="3rHtpV">
+            <ref role="3uigEE" to="28jr:6F2RWtjwoXj" resolve="IOFXTestSuit" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="4_xNQNdY0w3" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="2w93nZwl8Yi" role="jymVt" />
     <node concept="3clFbW" id="7ECLRBgCWHP" role="jymVt">
       <node concept="3cqZAl" id="7ECLRBgCWHR" role="3clF45" />
@@ -9054,10 +9089,169 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4_xNQNdYhWD" role="3cqZAp">
+          <node concept="37vLTI" id="4_xNQNdYiqW" role="3clFbG">
+            <node concept="3clFbT" id="4_xNQNdYisU" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="4_xNQNdYhWB" role="37vLTJ">
+              <ref role="3cqZAo" node="4_xNQNdYf14" resolve="instantiateNew" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="2w93nZwlbAd" role="jymVt" />
+    <node concept="3clFb_" id="4_xNQNdYiY1" role="jymVt">
+      <property role="TrG5h" value="getOrCreateTestSuit" />
+      <node concept="37vLTG" id="4_xNQNdYpzf" role="3clF46">
+        <property role="TrG5h" value="cls" />
+        <node concept="3uibUv" id="4_xNQNdYqIF" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="4_xNQNdYyD6" role="3clF45">
+        <ref role="3uigEE" to="28jr:6F2RWtjwoXj" resolve="IOFXTestSuit" />
+      </node>
+      <node concept="3Tm1VV" id="4_xNQNdYiY4" role="1B3o_S" />
+      <node concept="3clFbS" id="4_xNQNdYiY5" role="3clF47">
+        <node concept="3cpWs8" id="4_xNQNdYrzq" role="3cqZAp">
+          <node concept="3cpWsn" id="4_xNQNdYrzt" role="3cpWs9">
+            <property role="TrG5h" value="fqName" />
+            <node concept="17QB3L" id="4_xNQNdYrzo" role="1tU5fm" />
+            <node concept="2OqwBi" id="4_xNQNdYrLh" role="33vP2m">
+              <node concept="37vLTw" id="4_xNQNdYrBB" role="2Oq$k0">
+                <ref role="3cqZAo" node="4_xNQNdYpzf" resolve="cls" />
+              </node>
+              <node concept="liA8E" id="4_xNQNdYs5r" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4_xNQNdYrw7" role="3cqZAp" />
+        <node concept="3clFbH" id="4_xNQNdZ67Y" role="3cqZAp" />
+        <node concept="3SKdUt" id="4_xNQNdZ7vG" role="3cqZAp">
+          <node concept="3SKdUq" id="4_xNQNdZ7vI" role="3SKWNk">
+            <property role="3SKdUp" value="we have to bypass spring ioc with our own system here, since we do " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4_xNQNdZaso" role="3cqZAp">
+          <node concept="3SKdUq" id="4_xNQNdZasq" role="3SKWNk">
+            <property role="3SKdUp" value="not want to handle testsuit like components in apps. " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4_xNQNdYsm_" role="3cqZAp">
+          <node concept="3clFbS" id="4_xNQNdYsmB" role="3clFbx">
+            <node concept="3cpWs6" id="4_xNQNdYuIM" role="3cqZAp">
+              <node concept="3EllGN" id="4_xNQNdYw8j" role="3cqZAk">
+                <node concept="37vLTw" id="4_xNQNdYxp6" role="3ElVtu">
+                  <ref role="3cqZAo" node="4_xNQNdYrzt" resolve="fqName" />
+                </node>
+                <node concept="37vLTw" id="4_xNQNdYuM0" role="3ElQJh">
+                  <ref role="3cqZAo" node="4_xNQNdXYZ3" resolve="testSuit" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="4_xNQNdYusN" role="3clFbw">
+            <node concept="3EllGN" id="4_xNQNdYtLk" role="3uHU7B">
+              <node concept="37vLTw" id="4_xNQNdYu4m" role="3ElVtu">
+                <ref role="3cqZAo" node="4_xNQNdYrzt" resolve="fqName" />
+              </node>
+              <node concept="37vLTw" id="4_xNQNdYstx" role="3ElQJh">
+                <ref role="3cqZAo" node="4_xNQNdXYZ3" resolve="testSuit" />
+              </node>
+            </node>
+            <node concept="10Nm6u" id="4_xNQNdYuaF" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4_xNQNdYqVy" role="3cqZAp">
+          <node concept="3clFbS" id="4_xNQNdYqV$" role="3clFbx">
+            <node concept="YS8fn" id="4_xNQNdYzUW" role="3cqZAp">
+              <node concept="2ShNRf" id="4_xNQNdYzWd" role="YScLw">
+                <node concept="1pGfFk" id="4_xNQNdY_nQ" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="3cpWs3" id="4_xNQNdYA5A" role="37wK5m">
+                    <node concept="Xl_RD" id="4_xNQNdYA6F" role="3uHU7w">
+                      <property role="Xl_RC" value=" requested but not initialized in this setup (possibly a moware bug?)" />
+                    </node>
+                    <node concept="3cpWs3" id="4_xNQNdY_KN" role="3uHU7B">
+                      <node concept="Xl_RD" id="4_xNQNdY_qp" role="3uHU7B">
+                        <property role="Xl_RC" value="Test " />
+                      </node>
+                      <node concept="37vLTw" id="4_xNQNdY_OF" role="3uHU7w">
+                        <ref role="3cqZAo" node="4_xNQNdYrzt" resolve="fqName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="4_xNQNdYrfN" role="3clFbw">
+            <node concept="37vLTw" id="4_xNQNdYrfP" role="3fr31v">
+              <ref role="3cqZAo" node="4_xNQNdYf14" resolve="instantiateNew" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4_xNQNdYqTm" role="3cqZAp" />
+        <node concept="3clFbF" id="4_xNQNdYFzv" role="3cqZAp">
+          <node concept="37vLTI" id="4_xNQNdYI6h" role="3clFbG">
+            <node concept="3EllGN" id="4_xNQNdYHEj" role="37vLTJ">
+              <node concept="37vLTw" id="4_xNQNdYHXo" role="3ElVtu">
+                <ref role="3cqZAo" node="4_xNQNdYrzt" resolve="fqName" />
+              </node>
+              <node concept="37vLTw" id="4_xNQNdYFzt" role="3ElQJh">
+                <ref role="3cqZAo" node="4_xNQNdXYZ3" resolve="testSuit" />
+              </node>
+            </node>
+            <node concept="1eOMI4" id="4_xNQNdYL8q" role="37vLTx">
+              <node concept="10QFUN" id="4_xNQNdYL8n" role="1eOMHV">
+                <node concept="3uibUv" id="4_xNQNdYLb9" role="10QFUM">
+                  <ref role="3uigEE" to="28jr:6F2RWtjwoXj" resolve="IOFXTestSuit" />
+                </node>
+                <node concept="2YIFZM" id="4_xNQNdYLba" role="10QFUP">
+                  <ref role="37wK5l" to="28jr:4AdkG1USRGd" resolve="createBean" />
+                  <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                  <node concept="37vLTw" id="4_xNQNdYLbb" role="37wK5m">
+                    <ref role="3cqZAo" node="4_xNQNdYpzf" resolve="cls" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4_xNQNdYLjs" role="3cqZAp">
+          <node concept="3EllGN" id="4_xNQNdYOm2" role="3cqZAk">
+            <node concept="37vLTw" id="4_xNQNdYPHu" role="3ElVtu">
+              <ref role="3cqZAo" node="4_xNQNdYrzt" resolve="fqName" />
+            </node>
+            <node concept="37vLTw" id="4_xNQNdYMFo" role="3ElQJh">
+              <ref role="3cqZAo" node="4_xNQNdXYZ3" resolve="testSuit" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4_xNQNdYTUk" role="jymVt">
+      <property role="TrG5h" value="testSuitCreateInitDone" />
+      <node concept="3cqZAl" id="4_xNQNdYTUm" role="3clF45" />
+      <node concept="3Tm1VV" id="4_xNQNdYTUn" role="1B3o_S" />
+      <node concept="3clFbS" id="4_xNQNdYTUo" role="3clF47">
+        <node concept="3clFbF" id="4_xNQNdZ5v0" role="3cqZAp">
+          <node concept="37vLTI" id="4_xNQNdZ5Pu" role="3clFbG">
+            <node concept="3clFbT" id="4_xNQNdZ5Sz" role="37vLTx" />
+            <node concept="37vLTw" id="4_xNQNdZ5uZ" role="37vLTJ">
+              <ref role="3cqZAo" node="4_xNQNdYf14" resolve="instantiateNew" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="7ECLRBgCX6F" role="jymVt" />
+    <node concept="2tJIrI" id="4_xNQNdXLfx" role="jymVt" />
+    <node concept="2tJIrI" id="4_xNQNdXLlK" role="jymVt" />
     <node concept="3clFb_" id="2w93nZwlkd5" role="jymVt">
       <property role="TrG5h" value="startingTest" />
       <node concept="3cqZAl" id="2w93nZwlkd7" role="3clF45" />
@@ -9925,7 +10119,7 @@
     </node>
     <node concept="3Tm1VV" id="7ECLRBgCVsN" role="1B3o_S" />
     <node concept="3uibUv" id="6F2RWtjxB9p" role="EKbjA">
-      <ref role="3uigEE" to="28jr:6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitReporter" />
+      <ref role="3uigEE" to="28jr:6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
     </node>
   </node>
   <node concept="312cEu" id="wDSRHNJpdr">
