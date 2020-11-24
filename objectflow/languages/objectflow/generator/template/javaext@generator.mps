@@ -2816,9 +2816,9 @@
       <node concept="3clFb_" id="2w93nZwoWn$" role="jymVt">
         <property role="TrG5h" value="method" />
         <node concept="37vLTG" id="2w93nZwDyfI" role="3clF46">
-          <property role="TrG5h" value="__testSuitReport" />
+          <property role="TrG5h" value="__testSuitHandler" />
           <node concept="3uibUv" id="2w93nZwDyiR" role="1tU5fm">
-            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitReporter" />
+            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitHandler" />
           </node>
         </node>
         <node concept="3cqZAl" id="2w93nZwoWnA" role="3clF45" />
@@ -2851,7 +2851,7 @@
               <node concept="3clFbF" id="72pStkQ3qEK" role="3cqZAp">
                 <node concept="2OqwBi" id="72pStkQ3qEL" role="3clFbG">
                   <node concept="37vLTw" id="72pStkQ3qEM" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2w93nZwDyfI" resolve="__testSuitReport" />
+                    <ref role="3cqZAo" node="2w93nZwDyfI" resolve="__testSuitHandler" />
                   </node>
                   <node concept="liA8E" id="72pStkQ3qEN" role="2OqNvi">
                     <ref role="37wK5l" to="gyq6:2w93nZwlfrf" resolve="debug" />
@@ -2985,9 +2985,9 @@
       <node concept="3clFb_" id="72pStkQ$B7E" role="jymVt">
         <property role="TrG5h" value="method" />
         <node concept="37vLTG" id="7Z3mGVdE8yM" role="3clF46">
-          <property role="TrG5h" value="__testSuitReport" />
+          <property role="TrG5h" value="__testSuitHandler" />
           <node concept="3uibUv" id="7Z3mGVdE9kR" role="1tU5fm">
-            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitReporter" />
+            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitHandler" />
           </node>
         </node>
         <node concept="37vLTG" id="6t$pRS5I3ze" role="3clF46">
@@ -3476,7 +3476,7 @@
                       <node concept="3clFbF" id="7Z3mGVdEhNX" role="3cqZAp">
                         <node concept="2OqwBi" id="7Z3mGVdEhNZ" role="3clFbG">
                           <node concept="37vLTw" id="7Z3mGVdEhO0" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7Z3mGVdE8yM" resolve="__testSuitReport" />
+                            <ref role="3cqZAo" node="7Z3mGVdE8yM" resolve="__testSuitHandler" />
                           </node>
                           <node concept="liA8E" id="7Z3mGVdEhO1" role="2OqNvi">
                             <ref role="37wK5l" to="gyq6:2w93nZwlfrf" resolve="debug" />

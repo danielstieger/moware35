@@ -39109,7 +39109,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware MINI 2020.10 (mta) (dev " />
+            <property role="Xl_RC" value="moware MINI 2020.11 (mta2) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -50469,6 +50469,10 @@
           <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
         </node>
       </node>
+      <node concept="37vLTG" id="4_xNQNe06QN" role="3clF46">
+        <property role="TrG5h" value="initDependentTestFields" />
+        <node concept="10P_77" id="4_xNQNe06Ug" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="6F2RWtjwraj" role="3clF45" />
       <node concept="3Tm1VV" id="6F2RWtjwrak" role="1B3o_S" />
       <node concept="3clFbS" id="6F2RWtjwral" role="3clF47" />
@@ -50480,10 +50484,6 @@
         <node concept="3uibUv" id="6F2RWtjwJZi" role="1tU5fm">
           <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
         </node>
-      </node>
-      <node concept="37vLTG" id="4_xNQNe06QN" role="3clF46">
-        <property role="TrG5h" value="initDependentTestFields" />
-        <node concept="10P_77" id="4_xNQNe06Ug" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="6F2RWtjws5Q" role="3clF45" />
       <node concept="3Tm1VV" id="6F2RWtjws5R" role="1B3o_S" />
