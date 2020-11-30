@@ -36,11 +36,18 @@
   <!-- **** build specific definitions ************************************************************** --> 
   <property name="tomcatHomeDir"         value="${buildUserHome}/stuff/apache-tomcat-8.0.33" />
   <property name="solultionSimpleGen"    value="${buildUserHome}/javaware/simpleone/solutions/Simple/classes_gen" />
+    
+  <exec executable="java" outputproperty="baseBuildVersion">
+   <arg value="-cp"/>
+   <arg value="${solultionSimpleGen}:${execInBuildClassPath}" />
+   <arg value="org.modellwerkstatt.simple.basis.TestSetting" />
+  </exec>
 
   <echo>
     Run by ${user.name} on Java Home : ${java.home}
     Building VERSION ${appBuildVersion} of ${appMainclass}
 	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}
+  	Build Version aus Settings (nicht verwendet) ${baseBuildVersion}
   </echo>
 
 
