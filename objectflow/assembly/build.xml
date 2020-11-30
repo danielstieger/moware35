@@ -30,8 +30,8 @@
   <!-- **** job specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="InvoicingJob" />
-  <property name="appMainclass"         value="org.modellwerkstatt.simple.baseApp.InvoicingJob" />
-  <property name="appConfiguration"     value="org/modellwerkstatt/simple/baseApp/BatchConfigTomcat.xml" /> 
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.app.simpleApp.InvoicingJob" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/basisUnit/BatchConfigTomcat.xml" /> 
   
   <!-- **** build specific definitions ************************************************************** --> 
   <property name="tomcatHomeDir"         value="${buildUserHome}/stuff/apache-tomcat-8.0.33" />
