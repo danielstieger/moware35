@@ -39109,7 +39109,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware MINI 2020.12 (bld) (dev " />
+            <property role="Xl_RC" value="moware MINI 2020.13 (mxml) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -50583,6 +50583,12 @@
       <node concept="3Tm1VV" id="6F2RWtjwJOf" role="1B3o_S" />
       <node concept="3clFb_" id="6F2RWtkQzmQ" role="jymVt">
         <property role="TrG5h" value="logError" />
+        <node concept="37vLTG" id="6zTm1h90_iv" role="3clF46">
+          <property role="TrG5h" value="__manMapSession" />
+          <node concept="3uibUv" id="6zTm1h90_iw" role="1tU5fm">
+            <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
+          </node>
+        </node>
         <node concept="37vLTG" id="6F2RWtkQB9w" role="3clF46">
           <property role="TrG5h" value="testName" />
           <node concept="17QB3L" id="6F2RWtkQBaX" role="1tU5fm" />
@@ -50599,6 +50605,12 @@
       </node>
       <node concept="3clFb_" id="6F2RWtkQEo8" role="jymVt">
         <property role="TrG5h" value="logError" />
+        <node concept="37vLTG" id="6zTm1h90_mc" role="3clF46">
+          <property role="TrG5h" value="__manMapSession" />
+          <node concept="3uibUv" id="6zTm1h90_md" role="1tU5fm">
+            <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
+          </node>
+        </node>
         <node concept="37vLTG" id="6F2RWtkQEo9" role="3clF46">
           <property role="TrG5h" value="testName" />
           <node concept="17QB3L" id="6F2RWtkQEoa" role="1tU5fm" />

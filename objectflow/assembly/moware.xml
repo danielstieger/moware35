@@ -55,7 +55,8 @@
 	<property name="mowareWorkDir"       	  value="work" />
 	<property name="appFavicon"     		  value="./favicon.ico" /> 
 	
-	<property name="execInBuildClassPath"     value="${mowareMpsHomeDir}/lib/mps-references.jar:${mowareMpsHomeDir}/lib/mps-collections.jar:${mowareMpsHomeDir}/lib/mps-closures.jar" />
+	<property name="execInBuildClassPathUnix"     value="${mowareMpsHomeDir}/lib/mps-references.jar:${mowareMpsHomeDir}/lib/mps-collections.jar:${mowareMpsHomeDir}/lib/mps-closures.jar" />
+	<property name="execInBuildClassPathWin"     value="${mowareMpsHomeDir}/lib/mps-references.jar;${mowareMpsHomeDir}/lib/mps-collections.jar;${mowareMpsHomeDir}/lib/mps-closures.jar" />
 	
 	<target name="fx8forms">
     <echo>Copying moware.fx8forms dependencies to ${mowareWorkDir}/WEB-INF/lib </echo>

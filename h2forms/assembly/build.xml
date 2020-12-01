@@ -40,7 +40,7 @@
 
   <exec executable="java" outputproperty="appBuildVersion">
    <arg value="-cp"/>
-   <arg value="${solultionSimpleGen}" />
+   <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
    <arg value="org.modellwerkstatt.simple.basis.TestSetting" />
   </exec>
   
