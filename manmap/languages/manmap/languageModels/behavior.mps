@@ -678,7 +678,7 @@
     <node concept="13i0hz" id="3wMahqxhMld" role="13h7CS">
       <property role="2Ki8OM" value="true" />
       <property role="13i0iv" value="false" />
-      <property role="TrG5h" value="isStatusToString" />
+      <property role="TrG5h" value="isStatus" />
       <node concept="3clFbS" id="3wMahqxhMle" role="3clF47">
         <node concept="3clFbF" id="3wMahqxhMlf" role="3cqZAp">
           <node concept="2OqwBi" id="3wMahqxhMlg" role="3clFbG">
@@ -687,7 +687,7 @@
             </node>
             <node concept="1mIQ4w" id="3wMahqxhMli" role="2OqNvi">
               <node concept="chp4Y" id="3wMahqxhN0_" role="cj9EA">
-                <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IStatusAsString" />
+                <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IStatus" />
               </node>
             </node>
           </node>
@@ -859,7 +859,7 @@
             </node>
           </node>
           <node concept="BsUDl" id="77lIyOHfHdI" role="3clFbw">
-            <ref role="37wK5l" node="3wMahqxhMld" resolve="isStatusToString" />
+            <ref role="37wK5l" node="3wMahqxhMld" resolve="isStatus" />
             <node concept="37vLTw" id="77lIyOHfHky" role="37wK5m">
               <ref role="3cqZAo" node="Kou8Lei62r" resolve="type" />
             </node>
@@ -1150,7 +1150,7 @@
             </node>
           </node>
           <node concept="BsUDl" id="5E_HiByU9lS" role="3clFbw">
-            <ref role="37wK5l" node="3wMahqxhMld" resolve="isStatusToString" />
+            <ref role="37wK5l" node="3wMahqxhMld" resolve="isStatus" />
             <node concept="37vLTw" id="5E_HiByU9lT" role="37wK5m">
               <ref role="3cqZAo" node="5E_HiByU9mI" resolve="type" />
             </node>
@@ -10865,7 +10865,7 @@
   </node>
   <node concept="13h7C7" id="3RwvUFpX7YP">
     <property role="3GE5qa" value="type" />
-    <ref role="13h7C2" to="r5tz:Kou8LehQJ6" resolve="IStatusAsString" />
+    <ref role="13h7C2" to="r5tz:Kou8LehQJ6" resolve="IStatus" />
     <node concept="13i0hz" id="3RwvUFpX7YS" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />

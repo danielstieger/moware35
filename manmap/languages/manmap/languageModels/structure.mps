@@ -234,7 +234,7 @@
   </node>
   <node concept="PlHQZ" id="Kou8LehQJ6">
     <property role="3GE5qa" value="type" />
-    <property role="TrG5h" value="IStatusAsString" />
+    <property role="TrG5h" value="IStatus" />
     <property role="EcuMT" value="871579071900249030" />
     <node concept="PrWs8" id="Kou8LehQJ7" role="PrDN$">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
