@@ -3377,39 +3377,24 @@
         <node concept="3clFbS" id="75R75qdo8KG" role="3clFbx">
           <node concept="2MkqsV" id="75R75qdo8LF" role="3cqZAp">
             <node concept="Xl_RD" id="75R75qdo8LI" role="2MkJ7o">
-              <property role="Xl_RC" value="Modelrepository checkin does not need an sessionoperation add any longer." />
+              <property role="Xl_RC" value="Modelrepository checkin in final_ok does no longer need a sessionOperationAdd." />
             </node>
             <node concept="1YBJjd" id="75R75qdo8LJ" role="2OEOjV">
               <ref role="1YBMHb" node="Kou8Lej2ts" resolve="so" />
             </node>
           </node>
         </node>
-        <node concept="22lmx$" id="4vUcH_07C1z" role="3clFbw">
-          <node concept="2OqwBi" id="4vUcH_07C2m" role="3uHU7w">
-            <node concept="2OqwBi" id="4vUcH_07C1V" role="2Oq$k0">
-              <node concept="1YBJjd" id="4vUcH_07C1A" role="2Oq$k0">
-                <ref role="1YBMHb" node="Kou8Lej2ts" resolve="so" />
-              </node>
-              <node concept="3TrEf2" id="4vUcH_07C20" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:2UKuXobCcuj" resolve="operationCall" />
-              </node>
+        <node concept="2OqwBi" id="4vUcH_07C2m" role="3clFbw">
+          <node concept="2OqwBi" id="4vUcH_07C1V" role="2Oq$k0">
+            <node concept="1YBJjd" id="4vUcH_07C1A" role="2Oq$k0">
+              <ref role="1YBMHb" node="Kou8Lej2ts" resolve="so" />
             </node>
-            <node concept="2qgKlT" id="4vUcH_07C5$" role="2OqNvi">
-              <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOk" />
+            <node concept="3TrEf2" id="4vUcH_07C20" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:2UKuXobCcuj" resolve="operationCall" />
             </node>
           </node>
-          <node concept="2OqwBi" id="75R75qdo8L$" role="3uHU7B">
-            <node concept="2OqwBi" id="75R75qdo8L6" role="2Oq$k0">
-              <node concept="1YBJjd" id="75R75qdo8KL" role="2Oq$k0">
-                <ref role="1YBMHb" node="Kou8Lej2ts" resolve="so" />
-              </node>
-              <node concept="3TrEf2" id="75R75qdo8Le" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:2UKuXobCcuj" resolve="operationCall" />
-              </node>
-            </node>
-            <node concept="2qgKlT" id="4vUcH_07$2g" role="2OqNvi">
-              <ref role="37wK5l" to="70o0:4vUcH_01drv" resolve="isRepoCheckin_NOT_InFinalOk" />
-            </node>
+          <node concept="2qgKlT" id="4vUcH_07C5$" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOk" />
           </node>
         </node>
       </node>
