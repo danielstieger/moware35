@@ -7538,19 +7538,22 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="3y7CfyfnDMQ" role="3clF47">
-                        <node concept="3clFbF" id="2HUKIwcx9yD" role="3cqZAp">
-                          <node concept="2OqwBi" id="2HUKIwcx9SK" role="3clFbG">
-                            <node concept="37vLTw" id="2HUKIwcx9yB" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3y7CfyfnDLF" resolve="thisItem" />
-                            </node>
-                            <node concept="liA8E" id="2HUKIwcxa8B" role="2OqNvi">
-                              <ref role="37wK5l" to="rb41:~MenuItem.setDisable(boolean)" resolve="setDisable" />
-                              <node concept="3clFbT" id="2HUKIwcxah3" role="37wK5m">
-                                <property role="3clFbU" value="true" />
+                        <node concept="3clFbF" id="7HEt4EWQB4y" role="3cqZAp">
+                          <node concept="2OqwBi" id="7HEt4EWQBDl" role="3clFbG">
+                            <node concept="2OqwBi" id="7HEt4EWQBjM" role="2Oq$k0">
+                              <node concept="37vLTw" id="7HEt4EWQB4w" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3y7CfyfnDLF" resolve="thisItem" />
                               </node>
+                              <node concept="liA8E" id="7HEt4EWQBxj" role="2OqNvi">
+                                <ref role="37wK5l" to="rb41:~MenuItem.getParentPopup()" resolve="getParentPopup" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7HEt4EWQBYA" role="2OqNvi">
+                              <ref role="37wK5l" to="rb41:~ContextMenu.hide()" resolve="hide" />
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFbH" id="7HEt4EWQC1D" role="3cqZAp" />
                         <node concept="3SKdUt" id="3y7CfyfnDMR" role="3cqZAp">
                           <node concept="3SKdUq" id="3y7CfyfnDMS" role="3SKWNk">
                             <property role="3SKdUp" value="we have to start the command here ... " />
@@ -10988,6 +10991,7 @@
                                     </node>
                                   </node>
                                 </node>
+                                <node concept="3clFbH" id="7HEt4EWODIc" role="3cqZAp" />
                               </node>
                               <node concept="2AHcQZ" id="6XlvLOe1C_T" role="2AJF6D">
                                 <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
