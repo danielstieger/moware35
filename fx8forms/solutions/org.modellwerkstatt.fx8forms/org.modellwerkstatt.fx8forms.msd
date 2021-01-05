@@ -6,12 +6,12 @@
     </modelRoot>
     <modelRoot contentPath="${module}/jars" type="java_classes">
       <sourceRoot location="richclient/fx8flatter.jar" />
-      <sourceRoot location="jfxrt.jar" />
+      <sourceRoot location="designtime/jfxrt.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/jars/richclient/fx8flatter.jar" />
-    <stubModelEntry path="${module}/jars/commons-imaging-1.0-RC-1.jar" />
+    <stubModelEntry path="${module}/jars/designtime/commons-imaging-1.0-RC-1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

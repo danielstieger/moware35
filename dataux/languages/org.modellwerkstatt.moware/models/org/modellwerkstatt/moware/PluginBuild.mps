@@ -166,7 +166,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2019.1 / moware MINI 2020.14 (fxs)" />
+          <property role="3MwjfP" value="MPS 2019.1 / moware MINI 2020.14C (fxsC)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1678,20 +1678,23 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5cOCID51cd$" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51cd_" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51cdu" role="1BurEY">
+        <node concept="1SiIV0" id="5hqKavtCjVJ" role="3bR37C">
+          <node concept="1BurEX" id="5hqKavtCjVK" role="1SiIV1">
+            <node concept="398BVA" id="5hqKavtCjVC" role="1BurEY">
               <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51cdv" role="iGT6I">
+              <node concept="2Ry0Ak" id="5hqKavtCjVD" role="iGT6I">
                 <property role="2Ry0Am" value="fx8forms" />
-                <node concept="2Ry0Ak" id="5cOCID51cdw" role="2Ry0An">
+                <node concept="2Ry0Ak" id="5hqKavtCjVE" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51cdx" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="5hqKavtCjVF" role="2Ry0An">
                     <property role="2Ry0Am" value="org.modellwerkstatt.fx8forms" />
-                    <node concept="2Ry0Ak" id="5cOCID51cdy" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="5hqKavtCjVG" role="2Ry0An">
                       <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51cdz" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-imaging-1.0-RC-1.jar" />
+                      <node concept="2Ry0Ak" id="5hqKavtCjVH" role="2Ry0An">
+                        <property role="2Ry0Am" value="designtime" />
+                        <node concept="2Ry0Ak" id="5hqKavtCjVI" role="2Ry0An">
+                          <property role="2Ry0Am" value="commons-imaging-1.0-RC-1.jar" />
+                        </node>
                       </node>
                     </node>
                   </node>
