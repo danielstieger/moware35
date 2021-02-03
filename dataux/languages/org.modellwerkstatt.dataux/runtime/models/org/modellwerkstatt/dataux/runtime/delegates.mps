@@ -2820,11 +2820,11 @@
             </node>
           </node>
           <node concept="3clFbC" id="6Uq8sBmK3zo" role="3clFbw">
-            <node concept="3cmrfG" id="6Uq8sBmK47N" role="3uHU7w">
-              <property role="3cmrfH" value="-1" />
-            </node>
             <node concept="37vLTw" id="6Uq8sBmK2_A" role="3uHU7B">
               <ref role="3cqZAo" node="1kaU3pLVbUf" resolve="selectedIndex" />
+            </node>
+            <node concept="3cmrfG" id="6Uq8sBmK47N" role="3uHU7w">
+              <property role="3cmrfH" value="-1" />
             </node>
           </node>
         </node>

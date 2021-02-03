@@ -2185,6 +2185,9 @@
               <node concept="37vLTw" id="19VJYqAuL2d" role="37wK5m">
                 <ref role="3cqZAo" node="19VJYqAuG4V" resolve="commandUiTemplate" />
               </node>
+              <node concept="37vLTw" id="3iys9azWXRf" role="37wK5m">
+                <ref role="3cqZAo" to="1e0c:3iys9azWFOw" resolve="scrollAdjustEnabled" />
+              </node>
             </node>
           </node>
         </node>
@@ -2214,6 +2217,9 @@
               <ref role="37wK5l" node="2xnCXJMgpK1" resolve="CommandContainerUi" />
               <node concept="37vLTw" id="19VJYqAuL7f" role="37wK5m">
                 <ref role="3cqZAo" node="19VJYqAuG4V" resolve="commandUiTemplate" />
+              </node>
+              <node concept="37vLTw" id="3iys9azWYJj" role="37wK5m">
+                <ref role="3cqZAo" to="1e0c:3iys9azWFOw" resolve="scrollAdjustEnabled" />
               </node>
             </node>
           </node>
@@ -2717,6 +2723,11 @@
       <node concept="3Tm6S6" id="3Xf_bh$vc6N" role="1B3o_S" />
       <node concept="10Oyi0" id="3Xf_bh$vedm" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="3iys9azWwsw" role="jymVt">
+      <property role="TrG5h" value="scrollAdjustEnabled" />
+      <node concept="3Tm6S6" id="3iys9azWwsx" role="1B3o_S" />
+      <node concept="10P_77" id="3iys9azWyP$" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="4Z3lS8BdXwn" role="jymVt" />
     <node concept="2tJIrI" id="73XZ2qPML3n" role="jymVt" />
     <node concept="2tJIrI" id="19VJYqAuCGJ" role="jymVt" />
@@ -2736,6 +2747,10 @@
         <node concept="3uibUv" id="19VJYqAuC$$" role="1tU5fm">
           <ref role="3uigEE" to="b9zp:~PebbleTemplate" resolve="PebbleTemplate" />
         </node>
+      </node>
+      <node concept="37vLTG" id="3iys9azWvXL" role="3clF46">
+        <property role="TrG5h" value="scrollAdjustEnbld" />
+        <node concept="10P_77" id="3iys9azWwl9" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="2xnCXJMgpK3" role="3clF45" />
       <node concept="3Tm1VV" id="2xnCXJMgpK4" role="1B3o_S" />
@@ -2765,6 +2780,16 @@
             </node>
             <node concept="37vLTw" id="3Xf_bh$veue" role="37vLTJ">
               <ref role="3cqZAo" node="3Xf_bh$vc6M" resolve="lastScrollTopPosition" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3iys9azW$ep" role="3cqZAp">
+          <node concept="37vLTI" id="3iys9azW$s4" role="3clFbG">
+            <node concept="37vLTw" id="3iys9azW$xy" role="37vLTx">
+              <ref role="3cqZAo" node="3iys9azWvXL" resolve="scrollAdjustEnbld" />
+            </node>
+            <node concept="37vLTw" id="3iys9azW$Dm" role="37vLTJ">
+              <ref role="3cqZAo" node="3iys9azWwsw" resolve="scrollAdjustEnabled" />
             </node>
           </node>
         </node>
@@ -3296,12 +3321,13 @@
               <node concept="liA8E" id="69$OOYrju5W" role="2OqNvi">
                 <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
                 <node concept="Xl_RD" id="69$OOYrjudj" role="37wK5m">
-                  <property role="Xl_RC" value="scrollPosition" />
+                  <property role="Xl_RC" value="ScrollPosition" />
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3iys9azSBmY" role="3cqZAp" />
         <node concept="3clFbJ" id="69$OOYrjusi" role="3cqZAp">
           <node concept="3clFbS" id="69$OOYrjusk" role="3clFbx">
             <node concept="3clFbF" id="69$OOYrjCwd" role="3cqZAp">
@@ -3319,10 +3345,15 @@
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="69$OOYrjuP1" role="3clFbw">
-            <node concept="10Nm6u" id="69$OOYrjuU$" role="3uHU7w" />
-            <node concept="37vLTw" id="69$OOYrjuGx" role="3uHU7B">
-              <ref role="3cqZAo" node="69$OOYrjtu7" resolve="scrollPos" />
+          <node concept="1Wc70l" id="3iys9azW_a$" role="3clFbw">
+            <node concept="37vLTw" id="3iys9azW_Cl" role="3uHU7w">
+              <ref role="3cqZAo" node="3iys9azWwsw" resolve="scrollAdjustEnabled" />
+            </node>
+            <node concept="3y3z36" id="69$OOYrjuP1" role="3uHU7B">
+              <node concept="37vLTw" id="69$OOYrjuGx" role="3uHU7B">
+                <ref role="3cqZAo" node="69$OOYrjtu7" resolve="scrollPos" />
+              </node>
+              <node concept="10Nm6u" id="69$OOYrjuU$" role="3uHU7w" />
             </node>
           </node>
         </node>
