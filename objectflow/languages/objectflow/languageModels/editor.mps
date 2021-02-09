@@ -3260,7 +3260,7 @@
           </node>
           <node concept="3F0ifn" id="43H1fr7tzog" role="2czzBI">
             <property role="3F0ifm" value="" />
-            <property role="ilYzB" value="&lt;command creation information&gt;" />
+            <property role="ilYzB" value="&lt;command creation/test information&gt;" />
           </node>
         </node>
         <node concept="3F0ifn" id="5ULi$zPhWqM" role="3EZMnx">
@@ -7118,7 +7118,7 @@
     <ref role="1XX52x" to="un0u:43H1fr7tveF" resolve="CommandCreationInfo" />
     <node concept="3EZMnI" id="43H1fr7tvoI" role="2wV5jI">
       <node concept="3F0ifn" id="43H1fr7tvpv" role="3EZMnx">
-        <property role="3F0ifm" value="toast message" />
+        <property role="3F0ifm" value="user toast message" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="43H1fr7tvqf" role="3EZMnx">
@@ -7126,7 +7126,7 @@
         <ref role="1NtTu8" to="un0u:43H1fr7tvlN" resolve="msg" />
       </node>
       <node concept="3F0ifn" id="43H1fr7tvqG" role="3EZMnx">
-        <property role="3F0ifm" value="(created/edited entity with key" />
+        <property role="3F0ifm" value="(pass forward to calling test" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="43H1fr7EvDw" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -7136,7 +7136,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="43H1fr7tvsn" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;key of entity&gt;" />
+        <property role="1$x2rV" value="&lt;variable&gt;" />
         <ref role="1NtTu8" to="un0u:43H1fr7tvn9" resolve="keyReference" />
       </node>
       <node concept="3EZMnI" id="43H1fr7zA3U" role="3EZMnx">

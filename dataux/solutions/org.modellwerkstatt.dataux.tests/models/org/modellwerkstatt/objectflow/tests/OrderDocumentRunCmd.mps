@@ -68,6 +68,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -104,6 +105,10 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1202065242027" name="jetbrains.mps.baseLanguage.structure.DefaultGetAccessor" flags="ng" index="3wEZqW" />
       <concept id="1202077725299" name="jetbrains.mps.baseLanguage.structure.DefaultSetAccessor" flags="ng" index="3xqBd$">
@@ -153,6 +158,9 @@
       <concept id="3875131616719432922" name="org.modellwerkstatt.objectflow.structure.CommandCallBasis" flags="ng" index="2_HltQ">
         <reference id="3875131616719438756" name="command" index="2_Hrw8" />
         <child id="3875131616719439029" name="actualArgument" index="2_HrWp" />
+      </concept>
+      <concept id="9170798971468951367" name="org.modellwerkstatt.objectflow.structure.OFXRunCmdCreateInfoRef" flags="ng" index="BEppk">
+        <reference id="9170798971468951515" name="reference" index="BEpr8" />
       </concept>
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
       <concept id="9110730801960129924" name="org.modellwerkstatt.objectflow.structure.OFXRunCmd" flags="ng" index="2Tpcjw">
@@ -297,6 +305,7 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
@@ -361,6 +370,19 @@
           </node>
         </node>
         <node concept="3clFbH" id="4DaB5G8SYba" role="3cqZAp" />
+        <node concept="1gVbGN" id="6bsU6wNA_h3" role="3cqZAp">
+          <node concept="3clFbC" id="6bsU6wNAAYc" role="1gVkn0">
+            <node concept="3cmrfG" id="6bsU6wNAB3G" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="6bsU6wNA_Oz" role="3uHU7B">
+              <node concept="BEppk" id="6bsU6wNA_mn" role="2Oq$k0">
+                <ref role="BEpr8" node="6bsU6wN$Wqn" />
+              </node>
+              <node concept="34oBXx" id="6bsU6wNAA9s" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
         <node concept="1gVbGN" id="4DaB5G8T1vX" role="3cqZAp">
           <node concept="2OqwBi" id="4DaB5G8T1Aa" role="1gVkn0">
             <node concept="37vLTw" id="4DaB5G8T1za" role="2Oq$k0">
@@ -3256,6 +3278,17 @@
     <property role="TrG5h" value="GO" />
     <property role="19I623" value="GRAPH_OWNER_CMD" />
     <property role="3GE5qa" value="proc" />
+    <node concept="3ulXEM" id="6bsU6wNA$ul" role="3ulXEG">
+      <property role="TrG5h" value="listOfInt" />
+      <node concept="_YKpA" id="6bsU6wNA$xB" role="1tU5fm">
+        <node concept="10Oyi0" id="6bsU6wNA$ys" role="_ZDj9" />
+      </node>
+      <node concept="2ShNRf" id="6bsU6wNA$$m" role="33vP2m">
+        <node concept="Tc6Ow" id="6bsU6wNA$$i" role="2ShVmc">
+          <node concept="10Oyi0" id="6bsU6wNA$$j" role="HW$YZ" />
+        </node>
+      </node>
+    </node>
     <node concept="3ulXEN" id="13qccrSjQnD" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQnE" role="1tU5fm">
@@ -3277,6 +3310,17 @@
         <node concept="2S8uIT" id="4DaB5G8T0Zk" role="2OqNvi">
           <ref role="2S8YL0" to="by87:51llZt4WfP5" resolve="id" />
         </node>
+      </node>
+    </node>
+    <node concept="27Aftt" id="6bsU6wN$Wqn" role="27AfA_">
+      <property role="27oQjk" value="listOfInt" />
+      <node concept="35AVbj" id="6bsU6wN$Wqo" role="27Af65">
+        <node concept="ic4WF" id="6bsU6wN$Wqp" role="icr7_">
+          <property role="ic4Xk" value="Executed Go" />
+        </node>
+      </node>
+      <node concept="3urNR4" id="6bsU6wNA$B$" role="27Af4Z">
+        <ref role="3cqZAo" node="6bsU6wNA$ul" resolve="listOfInt" />
       </node>
     </node>
     <node concept="3ugp7q" id="4DaB5G8T0xD" role="3ug97V">
