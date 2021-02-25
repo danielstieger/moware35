@@ -2383,6 +2383,21 @@
       </node>
       <node concept="3F0ifn" id="6K73LRvlDdy" role="3EZMnx" />
       <node concept="3F0ifn" id="6K73LRvlDdz" role="3EZMnx" />
+      <node concept="3F0ifn" id="3F_ifPtbJs4" role="3EZMnx">
+        <property role="3F0ifm" value="help menu for this module:" />
+        <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
+      </node>
+      <node concept="3F2HdR" id="3F_ifPtbJs5" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:3F_ifPtbHJB" resolve="helpMenu" />
+        <node concept="2iRkQZ" id="3F_ifPtbJs6" role="2czzBx" />
+        <node concept="3F0ifn" id="3F_ifPtbJs7" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;help&gt;" />
+          <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3F_ifPtbJs8" role="3EZMnx" />
+      <node concept="3F0ifn" id="3F_ifPtbJs9" role="3EZMnx" />
       <node concept="3F0ifn" id="2qrl3a2LDfe" role="3EZMnx">
         <property role="3F0ifm" value="tiles for this module:" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />

@@ -286,6 +286,20 @@
       <node concept="3Tm1VV" id="Y3fiVK$o4E" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVK$o4F" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="3F_ifPtc0Zn" role="jymVt">
+      <property role="TrG5h" value="createHelpMenu" />
+      <node concept="37vLTG" id="3F_ifPtc0Zo" role="3clF46">
+        <property role="TrG5h" value="userEnv" />
+        <node concept="3uibUv" id="3F_ifPtc0Zp" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="3F_ifPtc0Zq" role="3clF45">
+        <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
+      </node>
+      <node concept="3Tm1VV" id="3F_ifPtc0Zr" role="1B3o_S" />
+      <node concept="3clFbS" id="3F_ifPtc0Zs" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="3OfvFtmCgsZ" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createStartupCmd" />

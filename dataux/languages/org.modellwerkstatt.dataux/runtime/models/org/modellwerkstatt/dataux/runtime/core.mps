@@ -7806,6 +7806,26 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="3F_ifPtdqVl" role="3cqZAp">
+              <node concept="3cpWsn" id="3F_ifPtdqVm" role="3cpWs9">
+                <property role="TrG5h" value="helpFolder" />
+                <node concept="3uibUv" id="3F_ifPtdqVn" role="1tU5fm">
+                  <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+                </node>
+                <node concept="2OqwBi" id="3F_ifPtdqVo" role="33vP2m">
+                  <node concept="37vLTw" id="3F_ifPtdqVp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2ppo89mdSpM" resolve="applicationBehaviour" />
+                  </node>
+                  <node concept="liA8E" id="3F_ifPtdqVq" role="2OqNvi">
+                    <ref role="37wK5l" to="yg8v:3F_ifPtc0Zn" resolve="createHelpMenu" />
+                    <node concept="37vLTw" id="3F_ifPtdqVr" role="37wK5m">
+                      <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3F_ifPtdvBD" role="3cqZAp" />
             <node concept="3clFbF" id="3y7Cfyfp9DB" role="3cqZAp">
               <node concept="37vLTI" id="3y7Cfyfpaxi" role="3clFbG">
                 <node concept="2OqwBi" id="3y7CfyfpbuL" role="37vLTx">
@@ -7832,6 +7852,23 @@
                       <ref role="3cqZAo" node="3nLGOmWzbtJ" resolve="extraFolder" />
                     </node>
                     <node concept="liA8E" id="3y7Cfyfpf36" role="2OqNvi">
+                      <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllActionsOfMenu" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3F_ifPtdzAP" role="3cqZAp">
+              <node concept="2OqwBi" id="3F_ifPtdzAQ" role="3clFbG">
+                <node concept="37vLTw" id="3F_ifPtdzAR" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3nLGOmWtetw" resolve="mainMenuAndTileActions" />
+                </node>
+                <node concept="X8dFx" id="3F_ifPtdzAS" role="2OqNvi">
+                  <node concept="2OqwBi" id="3F_ifPtdzAT" role="25WWJ7">
+                    <node concept="37vLTw" id="3F_ifPtdCr1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3F_ifPtdqVm" resolve="helpFolder" />
+                    </node>
+                    <node concept="liA8E" id="3F_ifPtdzAV" role="2OqNvi">
                       <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllActionsOfMenu" />
                     </node>
                   </node>
@@ -7964,6 +8001,9 @@
                   </node>
                   <node concept="37vLTw" id="7aUgYCzJloT" role="37wK5m">
                     <ref role="3cqZAo" node="3nLGOmWzbtJ" resolve="extraFolder" />
+                  </node>
+                  <node concept="37vLTw" id="3F_ifPtSMgy" role="37wK5m">
+                    <ref role="3cqZAo" node="3F_ifPtdqVm" resolve="helpFolder" />
                   </node>
                 </node>
               </node>

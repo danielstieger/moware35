@@ -6089,6 +6089,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="3F_ifPul3gm" role="jymVt" />
     <node concept="3clFb_" id="6go2MrsssIm" role="jymVt">
       <property role="TrG5h" value="setExtraMenu" />
       <node concept="37vLTG" id="6go2MrsssIn" role="3clF46">
@@ -6113,6 +6114,32 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="3F_ifPulcOs" role="jymVt" />
+    <node concept="3clFb_" id="3F_ifPul81a" role="jymVt">
+      <property role="TrG5h" value="setHelpMenu" />
+      <node concept="37vLTG" id="3F_ifPul81b" role="3clF46">
+        <property role="TrG5h" value="helpMenu" />
+        <node concept="3uibUv" id="3F_ifPul81c" role="1tU5fm">
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3F_ifPul81d" role="3clF45" />
+      <node concept="3Tm1VV" id="3F_ifPul81e" role="1B3o_S" />
+      <node concept="3clFbS" id="3F_ifPul81f" role="3clF47">
+        <node concept="3clFbF" id="3F_ifPul81g" role="3cqZAp">
+          <node concept="1rXfSq" id="3F_ifPul81h" role="3clFbG">
+            <ref role="37wK5l" node="6go2MrsveT$" resolve="createMenuStructure" />
+            <node concept="37vLTw" id="3F_ifPulzxA" role="37wK5m">
+              <ref role="3cqZAo" node="41UdyNB_M0W" resolve="helpMenuInBar" />
+            </node>
+            <node concept="37vLTw" id="3F_ifPul81j" role="37wK5m">
+              <ref role="3cqZAo" node="3F_ifPul81b" resolve="helpMenu" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3F_ifPukYah" role="jymVt" />
     <node concept="3clFb_" id="6go2MrsBBQR" role="jymVt">
       <property role="TrG5h" value="getMainApplicationTabSheet" />
       <node concept="3uibUv" id="6go2MrsBHLy" role="3clF45">
@@ -32816,6 +32843,12 @@
           <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
         </node>
       </node>
+      <node concept="37vLTG" id="3F_ifPtfWse" role="3clF46">
+        <property role="TrG5h" value="helpMenu" />
+        <node concept="3uibUv" id="3F_ifPtfWsf" role="1tU5fm">
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="2QY_rtDtDG0" role="3clF45" />
       <node concept="3Tm1VV" id="2QY_rtDtDG1" role="1B3o_S" />
       <node concept="3clFbS" id="2QY_rtDtDG3" role="3clF47">
@@ -32886,8 +32919,23 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3F_ifPukRI$" role="3cqZAp">
+          <node concept="2OqwBi" id="3F_ifPukRI_" role="3clFbG">
+            <node concept="37vLTw" id="3F_ifPukRIA" role="2Oq$k0">
+              <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
+            </node>
+            <node concept="liA8E" id="3F_ifPukRIB" role="2OqNvi">
+              <ref role="37wK5l" node="3F_ifPul81a" resolve="setHelpMenu" />
+              <node concept="37vLTw" id="3F_ifPukTgy" role="37wK5m">
+                <ref role="3cqZAo" node="3F_ifPtfWse" resolve="helpMenu" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3F_ifPukRlY" role="3cqZAp" />
       </node>
     </node>
+    <node concept="2tJIrI" id="3F_ifPukNmR" role="jymVt" />
     <node concept="3clFb_" id="61_QXqSd2mM" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setAppVersionInfo" />

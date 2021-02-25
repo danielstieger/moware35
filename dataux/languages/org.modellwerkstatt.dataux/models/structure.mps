@@ -1056,6 +1056,13 @@
       <property role="IQ2ns" value="7784207101904780268" />
       <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
     </node>
+    <node concept="1TJgyj" id="3F_ifPtbHJB" role="1TKVEi">
+      <property role="IQ2ns" value="4243878476893838311" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="helpMenu" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
     <node concept="1TJgyj" id="2qrl3a2LDec" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="tiles" />

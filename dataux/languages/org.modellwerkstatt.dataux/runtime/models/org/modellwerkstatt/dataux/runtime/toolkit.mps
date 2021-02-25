@@ -899,6 +899,12 @@
           <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
         </node>
       </node>
+      <node concept="37vLTG" id="3F_ifPterdh" role="3clF46">
+        <property role="TrG5h" value="helpMenu" />
+        <node concept="3uibUv" id="3F_ifPterdi" role="1tU5fm">
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="3y7CfyfpqE_" role="3clF45" />
       <node concept="3Tm1VV" id="3y7CfyfpqEA" role="1B3o_S" />
       <node concept="3clFbS" id="3y7CfyfpqEB" role="3clF47" />
