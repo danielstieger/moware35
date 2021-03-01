@@ -50,6 +50,9 @@
         <reference id="1188214555875" name="key" index="2B6OnR" />
         <child id="1188214607812" name="value" index="2B70Vg" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -8525,16 +8528,30 @@
     <node concept="2tJIrI" id="2dTopMveIi4" role="jymVt" />
     <node concept="2YIFZL" id="3DXV05Gf5lg" role="jymVt">
       <property role="TrG5h" value="enablePort2" />
-      <node concept="3cqZAl" id="3DXV05Gf5li" role="3clF45" />
+      <node concept="3uibUv" id="2nnkxsSKa_V" role="3clF45">
+        <ref role="3uigEE" node="2dTopMveIfD" resolve="MMLogger" />
+      </node>
       <node concept="3Tm1VV" id="3DXV05Gf5lj" role="1B3o_S" />
       <node concept="3clFbS" id="3DXV05Gf5lk" role="3clF47">
         <node concept="3clFbF" id="3DXV05Gf8_z" role="3cqZAp">
           <node concept="37vLTI" id="3DXV05Gf8KK" role="3clFbG">
-            <node concept="3clFbT" id="3DXV05Gf8PE" role="37vLTx">
+            <node concept="3clFbT" id="2nnkxsSKTSq" role="37vLTx">
               <property role="3clFbU" value="true" />
             </node>
             <node concept="37vLTw" id="3DXV05Gf8_y" role="37vLTJ">
               <ref role="3cqZAo" node="3DXV05Gf898" resolve="port2LoggingEnabled" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2nnkxsSKcH2" role="3cqZAp">
+          <node concept="3SKdUq" id="2nnkxsSKcH4" role="3SKWNk">
+            <property role="3SKdUp" value="dummy." />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2nnkxsSKb2l" role="3cqZAp">
+          <node concept="2ShNRf" id="2nnkxsSKb5a" role="3cqZAk">
+            <node concept="HV5vD" id="2nnkxsSKciZ" role="2ShVmc">
+              <ref role="HV5vE" node="2dTopMveIfD" resolve="MMLogger" />
             </node>
           </node>
         </node>
