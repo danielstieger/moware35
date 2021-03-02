@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var scrollToMeElement = (f.ScrollPosition.value > 0);
     if (scrollToMeElement) {
         window.scrollTo(0, f.ScrollPosition.value);
-    }
+    } 
 
     setTimeout(function() {
             svAdjustFocus();
