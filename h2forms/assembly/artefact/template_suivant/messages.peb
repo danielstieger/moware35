@@ -1,20 +1,14 @@
 {% if message is not null %}
-    <!-- {{ message.toString }} -->
     {% if message.userQuestion or message.errorSmall%}
-    <div class="w3-panel">
+    <div class="w3-panel svMessage">
         <div class="w3-card w3-padding sv-question-red">
             <h1>{{ message.heading }}</h1>
             <p id="errorbeep">{{ message.textBr | raw }}
             </p>
         </div>
-    </div> {#
-    {% elseif message.errorSmall %}
-    <div id="errorbeep" class="w3-card sv-top-dlg sv-question-red">
-        {{ message.heading }}: {{ message.text | raw }}
-    </div> #}
-
+    </div>
     {% elseif message.errorLarge %}
-    <div class="w3-panel">
+    <div class="w3-panel svMessage">
         <div class="w3-card w3-padding sv-question-red" style="width: 1200px;">
             <h1>{{ message.heading }}</h1>
             <pre id="errorbeep">
@@ -24,17 +18,17 @@
         </div>
     </div>
     {% elseif message.isToast %}
-    <div class="w3-card sv-top-dlg sv-info-gray">
+    <div class="w3-card sv-top-dlg sv-info-gray svMessage">
         {{ message.heading }}: {{ message.text | raw }}
     </div>
 
     {% elseif message.infoSmall %}
-    <div id="errorbeep" class="w3-card sv-top-dlg sv-question-red">
+    <div id="errorbeep" class="w3-card sv-top-dlg sv-question-red svMessage">
         <!-- {{ message.heading }}: --> {{ message.textBr | raw }}
     </div>
 
     {% else %}
-    <div id="info" class="w3-card sv-top-dlg sv-warning-orange">
+    <div id="info" class="w3-card sv-top-dlg sv-warning-orange svMessage">
         {{ message.heading }}: {{ message.textBr | raw}}
     </div>
     {% endif %}

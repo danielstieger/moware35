@@ -28,13 +28,13 @@
         {% endfor %}
         </div>
     {% elseif row.numActions == 1 %}
-        <div class="w3-row {{ rowType(page) }} {% if row.mainAction.enabled %}sv-nav{% else %}sv-disabled{% endif %} {% if row.selected and lastTableAction is not null%}activelyScrollToMe{% endif %}" {{ jsLinkWhenEnabled(row.mainAction, row.index) }}>
+        <div class="w3-row {{ rowType(page) }} {% if row.mainAction.enabled %}sv-nav{% else %}sv-disabled{% endif %} {% if row.selected %} rowSelected {% endif %}" {{ jsLinkWhenEnabled(row.mainAction, row.index) }}>
         {% for cell in row.cells %}
             {{ renderCell(cell, loop.last) }}
         {% endfor %}
         </div>
     {% else %}
-        <div class="w3-row {{ rowType(page) }} sv-nav {% if row.selected and lastTableAction is not null%}activelyScrollToMe{% endif %}" onClick="javascript: svShowTableActionButtons(event, this);">
+        <div class="w3-row {{ rowType(page) }} sv-nav {% if row.selected %} rowSelected {% endif %}" onClick="javascript: svShowTableActionButtons(event, this);">
         {% for cell in row.cells %}
             {{ renderCell(cell, loop.last) }}
         {% endfor %}

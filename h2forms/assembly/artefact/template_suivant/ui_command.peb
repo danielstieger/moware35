@@ -46,11 +46,7 @@
         {% if loop.last %}</div>{% endif %}
     {% endfor %}
 </div>
-</div>
-
-<!-- top spacer -->
-<div class="w3-container w3-row sv-currentfg-D3"><div class="w3-col s12 w3-left-align">modellwerkstatt.org</div></div>
-<div class="w3-bar"> <span class="w3-bar-item"> - </span> </div>
+{% if not statics.scroll %} </div> {% endif %}
 
 {% for prblm in listOfProblems %}
     <div id="flagbeep" class="w3-card sv-top-dlg-uicmd {% if prblm.isWarningOnly %}sv-warning-orange{% else %}sv-question-red{% endif %}">{{ prblm.SimpleText_Lgcy|raw }}</div>
@@ -62,6 +58,8 @@
 {% endif %}
 
 {% include "./messages.peb" %}
+{% if statics.scroll %} </div> {% endif %}
+
 {{ form.toHtml }}
 <div class="sv-keyboard-spacer"> &nbsp; </div>
 {% endblock %}
