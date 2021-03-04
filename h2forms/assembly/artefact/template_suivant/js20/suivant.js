@@ -100,7 +100,8 @@ function svLogout(){
 document.addEventListener('DOMContentLoaded', function() {
 
     var baseForm = $('form');
-    if (baseForm) {
+    var topBar = $('.w3-top');
+    if (baseForm && topBar) {
         baseForm.style.paddingTop = '' + $('.w3-top').offsetHeight + 'px';
     }
 
@@ -122,23 +123,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var scrollToMeElement = (baseForm.ScrollPosition.value > 0);
     if (scrollToMeElement) {
-        /* alternative means of errormsg handling
-         * when scrolling, Dan Spring 2021
-         */
-        /* add message above selected row
-        var rowSelected = $('.rowSelected');
-        var svMessage = $('.svMessage');
-        if (rowSelected && svMessage) {
-            rowSelected.parentElement.insertBefore(svMessage, rowSelected);
-        } */
-
-         /* var rowSelected = $('.rowSelected');
-         var svMessage = $('.svMessage');
-         if (rowSelected && svMessage) {
-            svMessage.classList.add("svMessage-fixed");
-         } */
-
-
         window.scrollTo(0, baseForm.ScrollPosition.value);
     } 
 

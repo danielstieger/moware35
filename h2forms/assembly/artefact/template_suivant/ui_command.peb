@@ -46,7 +46,7 @@
         {% if loop.last %}</div>{% endif %}
     {% endfor %}
 </div>
-{% if not statics.scroll %} </div> {% endif %}
+{% if not statics.scroll or page.scrollPosition == 0 %} </div> {% endif %}
 
 {% for prblm in listOfProblems %}
     <div id="flagbeep" class="w3-card sv-top-dlg-uicmd {% if prblm.isWarningOnly %}sv-warning-orange{% else %}sv-question-red{% endif %}">{{ prblm.SimpleText_Lgcy|raw }}</div>
@@ -58,7 +58,7 @@
 {% endif %}
 
 {% include "./messages.peb" %}
-{% if statics.scroll %} </div> {% endif %}
+{% if statics.scroll and page.scrollPosition > 0 %} </div> {% endif %}
 
 {{ form.toHtml }}
 <div class="sv-keyboard-spacer"> &nbsp; </div>
