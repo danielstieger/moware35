@@ -1095,6 +1095,19 @@
                               <node concept="37vLTw" id="J8kCHX29PV" role="37wK5m">
                                 <ref role="3cqZAo" node="5ic27avzCwx" resolve="msg" />
                               </node>
+                              <node concept="3cpWs3" id="7ymmWYJolTF" role="37wK5m">
+                                <node concept="2OqwBi" id="7ymmWYJonc9" role="3uHU7w">
+                                  <node concept="37vLTw" id="7ymmWYJon1H" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5ic27avwjwU" resolve="canceEx" />
+                                  </node>
+                                  <node concept="liA8E" id="7ymmWYJor_1" role="2OqNvi">
+                                    <ref role="37wK5l" to="28jr:7ymmWYJooDS" resolve="getPrio" />
+                                  </node>
+                                </node>
+                                <node concept="Xl_RD" id="7ymmWYJokJd" role="3uHU7B">
+                                  <property role="Xl_RC" value="" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                           <node concept="3clFbH" id="J8kCHX0W08" role="3cqZAp" />
@@ -5807,6 +5820,9 @@
                                     <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size()" resolve="size" />
                                   </node>
                                 </node>
+                                <node concept="Xl_RD" id="7ymmWYJoLMX" role="37wK5m">
+                                  <property role="Xl_RC" value="" />
+                                </node>
                                 <node concept="3cpWs3" id="7oLsFCHBbBq" role="37wK5m">
                                   <node concept="Xl_RD" id="7oLsFCHBbDa" role="3uHU7w">
                                     <property role="Xl_RC" value=" items, but there are no consumers around! CLEARING INBOX !!" />
@@ -6268,6 +6284,9 @@
                     <node concept="liA8E" id="3DXV05GeprB" role="2OqNvi">
                       <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size()" resolve="size" />
                     </node>
+                  </node>
+                  <node concept="Xl_RD" id="7ymmWYJoOpZ" role="37wK5m">
+                    <property role="Xl_RC" value="" />
                   </node>
                   <node concept="3cpWs3" id="4InK$iNqkVZ" role="37wK5m">
                     <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
@@ -10171,6 +10190,9 @@
                 <node concept="37vLTw" id="3DXV05GbmEv" role="37wK5m">
                   <ref role="3cqZAo" node="4NpYXr5QyIh" resolve="faults" />
                 </node>
+                <node concept="Xl_RD" id="7ymmWYJloLh" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
                 <node concept="3cpWs3" id="4NpYXr5QAK4" role="37wK5m">
                   <node concept="37vLTw" id="4NpYXr5QAPz" role="3uHU7w">
                     <ref role="3cqZAo" node="4NpYXr5QyIh" resolve="faults" />
@@ -10326,6 +10348,9 @@
             <node concept="3cmrfG" id="3DXV05Gbovo" role="37wK5m">
               <property role="3cmrfH" value="0" />
             </node>
+            <node concept="Xl_RD" id="7ymmWYJlogH" role="37wK5m">
+              <property role="Xl_RC" value="" />
+            </node>
             <node concept="3cpWs3" id="7HSdIeXPsm_" role="37wK5m">
               <node concept="Xl_RD" id="7HSdIeXPs2f" role="3uHU7B">
                 <property role="Xl_RC" value="Consumer processed item/key " />
@@ -10367,6 +10392,10 @@
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="J8kCHX20_n" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="7ymmWYJlp4X" role="3clF46">
+        <property role="TrG5h" value="prio" />
+        <node concept="17QB3L" id="7ymmWYJlpHp" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="J8kCHX1XgM" role="3clF45" />
       <node concept="3Tm1VV" id="J8kCHX1XgN" role="1B3o_S" />
       <node concept="3clFbS" id="J8kCHX1XgO" role="3clF47">
@@ -10401,6 +10430,9 @@
             </node>
             <node concept="3cmrfG" id="3DXV05Gca0l" role="37wK5m">
               <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="7ymmWYJlqsN" role="37wK5m">
+              <ref role="3cqZAo" node="7ymmWYJlp4X" resolve="prio" />
             </node>
             <node concept="37vLTw" id="2nnkxsRtroX" role="37wK5m">
               <ref role="3cqZAo" node="J8kCHX1ZVI" resolve="msg" />
@@ -12697,6 +12729,9 @@
                 <property role="Xl_RC" value="" />
               </node>
             </node>
+            <node concept="37vLTw" id="7ymmWYJlgC$" role="37wK5m">
+              <ref role="3cqZAo" node="7ymmWYJlerP" resolve="prio" />
+            </node>
             <node concept="37vLTw" id="4_C0FFX5qk3" role="37wK5m">
               <ref role="3cqZAo" node="2fj6lk$8KV9" resolve="origMsg" />
             </node>
@@ -13003,6 +13038,10 @@
         <property role="TrG5h" value="num" />
         <node concept="3cpWsb" id="3DXV05GawOI" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="7ymmWYJlerP" role="3clF46">
+        <property role="TrG5h" value="prio" />
+        <node concept="17QB3L" id="7ymmWYJlg3Y" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="2fj6lk$8KV9" role="3clF46">
         <property role="TrG5h" value="origMsg" />
         <node concept="17QB3L" id="2fj6lk$8KVa" role="1tU5fm" />
@@ -13034,6 +13073,9 @@
             </node>
             <node concept="3cmrfG" id="3DXV05Gc7eV" role="37wK5m">
               <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="Xl_RD" id="7ymmWYJllld" role="37wK5m">
+              <property role="Xl_RC" value="" />
             </node>
             <node concept="37vLTw" id="3DXV05Gc7xG" role="37wK5m">
               <ref role="3cqZAo" node="3DXV05Gc0SJ" resolve="origMsg" />
@@ -13139,6 +13181,9 @@
                   <node concept="Xl_RD" id="4_C0FFX6tcB" role="3uHU7B">
                     <property role="Xl_RC" value="" />
                   </node>
+                </node>
+                <node concept="Xl_RD" id="7ymmWYJllBe" role="37wK5m">
+                  <property role="Xl_RC" value="" />
                 </node>
                 <node concept="37vLTw" id="4_C0FFX6tcC" role="37wK5m">
                   <ref role="3cqZAo" node="2fj6lk$8KVD" resolve="origMsg" />
@@ -18816,6 +18861,9 @@
                 <node concept="37vLTw" id="3DXV05GcyM5" role="37wK5m">
                   <ref role="3cqZAo" node="6uo0g5Wm5Q2" resolve="faults" />
                 </node>
+                <node concept="Xl_RD" id="7ymmWYJoSbF" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
                 <node concept="3cpWs3" id="6uo0g5Wm5UT" role="37wK5m">
                   <node concept="37vLTw" id="6uo0g5Wm5UU" role="3uHU7w">
                     <ref role="3cqZAo" node="6uo0g5Wm5Q2" resolve="faults" />
@@ -18877,6 +18925,9 @@
             </node>
             <node concept="37vLTw" id="3DXV05GbH$j" role="37wK5m">
               <ref role="3cqZAo" node="6uo0g5Wm5UC" resolve="startInboxSize" />
+            </node>
+            <node concept="Xl_RD" id="7ymmWYJoSxP" role="37wK5m">
+              <property role="Xl_RC" value="" />
             </node>
             <node concept="3cpWs3" id="6uo0g5Wm5Vb" role="37wK5m">
               <node concept="Xl_RD" id="6uo0g5Wm5Vc" role="3uHU7w">
@@ -19167,6 +19218,9 @@
             </node>
             <node concept="37vLTw" id="3DXV05GbI2A" role="37wK5m">
               <ref role="3cqZAo" node="6uo0g5Wm5Vp" resolve="curInboxSize" />
+            </node>
+            <node concept="Xl_RD" id="7ymmWYJoRSv" role="37wK5m">
+              <property role="Xl_RC" value="" />
             </node>
             <node concept="37vLTw" id="6uo0g5Wm5X1" role="37wK5m">
               <ref role="3cqZAo" node="6uo0g5Wm5Wg" resolve="msg" />

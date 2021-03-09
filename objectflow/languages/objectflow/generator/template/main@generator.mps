@@ -19685,6 +19685,28 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="3cpWs8" id="7ymmWYJgXfZ" role="3cqZAp">
+                              <node concept="3cpWsn" id="7ymmWYJgXg0" role="3cpWs9">
+                                <property role="TrG5h" value="prio" />
+                                <node concept="3uibUv" id="7ymmWYJgXg1" role="1tU5fm">
+                                  <ref role="3uigEE" to="28jr:51llZt5Ptbj" resolve="IOFXProblem.Opt" />
+                                </node>
+                                <node concept="2OqwBi" id="7ymmWYJh8ey" role="33vP2m">
+                                  <node concept="2OqwBi" id="7ymmWYJh4lo" role="2Oq$k0">
+                                    <node concept="37vLTw" id="7ymmWYJh4d5" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                                    </node>
+                                    <node concept="liA8E" id="7ymmWYJh6mh" role="2OqNvi">
+                                      <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="7ymmWYJhaj5" role="2OqNvi">
+                                    <ref role="37wK5l" to="28jr:7ymmWYJfNuy" resolve="getMaxPrioSessionProblemsOrFatal_Lgcy" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbH" id="7ymmWYJh2lU" role="3cqZAp" />
                             <node concept="3clFbJ" id="4DaB5G9aYaJ" role="3cqZAp">
                               <node concept="3clFbS" id="4DaB5G9aYaL" role="3clFbx">
                                 <node concept="3clFbF" id="4DaB5G9b1fz" role="3cqZAp">
@@ -19789,6 +19811,9 @@
                                       </node>
                                     </node>
                                   </node>
+                                  <node concept="37vLTw" id="7ymmWYJhfLS" role="37wK5m">
+                                    <ref role="3cqZAo" node="7ymmWYJgXg0" resolve="prio" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -19803,6 +19828,29 @@
                             </node>
                           </node>
                           <node concept="3clFbS" id="2q7OPuPXKwR" role="TDEfX">
+                            <node concept="3clFbH" id="7ymmWYJhhAc" role="3cqZAp" />
+                            <node concept="3cpWs8" id="7ymmWYJhjsW" role="3cqZAp">
+                              <node concept="3cpWsn" id="7ymmWYJhjsX" role="3cpWs9">
+                                <property role="TrG5h" value="prio" />
+                                <node concept="3uibUv" id="7ymmWYJhjsY" role="1tU5fm">
+                                  <ref role="3uigEE" to="28jr:51llZt5Ptbj" resolve="IOFXProblem.Opt" />
+                                </node>
+                                <node concept="2OqwBi" id="7ymmWYJhjsZ" role="33vP2m">
+                                  <node concept="2OqwBi" id="7ymmWYJhjt0" role="2Oq$k0">
+                                    <node concept="37vLTw" id="7ymmWYJhjt1" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                                    </node>
+                                    <node concept="liA8E" id="7ymmWYJhjt2" role="2OqNvi">
+                                      <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="7ymmWYJhjt3" role="2OqNvi">
+                                    <ref role="37wK5l" to="28jr:7ymmWYJfNuy" resolve="getMaxPrioSessionProblemsOrFatal_Lgcy" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbH" id="7ymmWYJhhAO" role="3cqZAp" />
                             <node concept="3SKdUt" id="2q7OPuPXKwS" role="3cqZAp">
                               <node concept="3SKdUq" id="2q7OPuPXKwT" role="3SKWNk">
                                 <property role="3SKdUp" value="command was canceled, cancel conclusion was run. " />
@@ -19877,6 +19925,9 @@
                                         <property role="Xl_RC" value=" - " />
                                       </node>
                                     </node>
+                                  </node>
+                                  <node concept="37vLTw" id="7ymmWYJhppQ" role="37wK5m">
+                                    <ref role="3cqZAo" node="7ymmWYJhjsX" resolve="prio" />
                                   </node>
                                 </node>
                               </node>
@@ -20259,6 +20310,28 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3cpWs8" id="7ymmWYJhGcO" role="3cqZAp">
+                      <node concept="3cpWsn" id="7ymmWYJhGcP" role="3cpWs9">
+                        <property role="TrG5h" value="prio" />
+                        <node concept="3uibUv" id="7ymmWYJhGcQ" role="1tU5fm">
+                          <ref role="3uigEE" to="28jr:51llZt5Ptbj" resolve="IOFXProblem.Opt" />
+                        </node>
+                        <node concept="2OqwBi" id="7ymmWYJhGcR" role="33vP2m">
+                          <node concept="2OqwBi" id="7ymmWYJhGcS" role="2Oq$k0">
+                            <node concept="37vLTw" id="7ymmWYJhGcT" role="2Oq$k0">
+                              <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                            </node>
+                            <node concept="liA8E" id="7ymmWYJhGcU" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="7ymmWYJhGcV" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:7ymmWYJfNuy" resolve="getMaxPrioSessionProblemsOrFatal_Lgcy" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="7ymmWYJhEl1" role="3cqZAp" />
                     <node concept="3clFbJ" id="4DaB5G9aohs" role="3cqZAp">
                       <node concept="3clFbS" id="4DaB5G9aohu" role="3clFbx">
                         <node concept="3clFbF" id="4DaB5G9aF85" role="3cqZAp">
@@ -20348,6 +20421,9 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="37vLTw" id="7ymmWYJhKuD" role="37wK5m">
+                            <ref role="3cqZAo" node="7ymmWYJhGcP" resolve="prio" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -20362,6 +20438,28 @@
                     </node>
                   </node>
                   <node concept="3clFbS" id="65g7rxkv7wU" role="TDEfX">
+                    <node concept="3cpWs8" id="7ymmWYJhMPu" role="3cqZAp">
+                      <node concept="3cpWsn" id="7ymmWYJhMPv" role="3cpWs9">
+                        <property role="TrG5h" value="prio" />
+                        <node concept="3uibUv" id="7ymmWYJhMPw" role="1tU5fm">
+                          <ref role="3uigEE" to="28jr:51llZt5Ptbj" resolve="IOFXProblem.Opt" />
+                        </node>
+                        <node concept="2OqwBi" id="7ymmWYJhMPx" role="33vP2m">
+                          <node concept="2OqwBi" id="7ymmWYJhMPy" role="2Oq$k0">
+                            <node concept="37vLTw" id="7ymmWYJhMPz" role="2Oq$k0">
+                              <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                            </node>
+                            <node concept="liA8E" id="7ymmWYJhMP$" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="7ymmWYJhMP_" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:7ymmWYJfNuy" resolve="getMaxPrioSessionProblemsOrFatal_Lgcy" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="7ymmWYJhMgV" role="3cqZAp" />
                     <node concept="3SKdUt" id="2q7OPuPWvcF" role="3cqZAp">
                       <node concept="3SKdUq" id="2q7OPuPWvcH" role="3SKWNk">
                         <property role="3SKdUp" value="command was canceled, cancel conclusion was run. " />
@@ -20436,6 +20534,9 @@
                                 <property role="Xl_RC" value=" - " />
                               </node>
                             </node>
+                          </node>
+                          <node concept="37vLTw" id="7ymmWYJhQMe" role="37wK5m">
+                            <ref role="3cqZAo" node="7ymmWYJhMPv" resolve="prio" />
                           </node>
                         </node>
                       </node>
@@ -20729,6 +20830,17 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="7ymmWYJhSB1" role="3cqZAp" />
+                  <node concept="3SKdUt" id="7ymmWYJhV6x" role="3cqZAp">
+                    <node concept="3SKdUq" id="7ymmWYJhV6z" role="3SKWNk">
+                      <property role="3SKdUp" value="check problems? eg. session.getAndClearProblemState?" />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="7ymmWYKvLTS" role="3cqZAp">
+                    <node concept="3SKdUq" id="7ymmWYKvLTU" role="3SKWNk">
+                      <property role="3SKdUp" value="no, warnings are not reported without ui. Problems are already reported -&gt; hopefully." />
                     </node>
                   </node>
                 </node>

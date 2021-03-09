@@ -13297,5 +13297,35 @@
       <ref role="1YaFvo" to="un0u:1ei3eG2GiRx" resolve="StatusFromDbValue" />
     </node>
   </node>
+  <node concept="18kY7G" id="7ymmWYIuqXX">
+    <property role="TrG5h" value="check_Precondition" />
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
+    <node concept="3clFbS" id="7ymmWYIuqXY" role="18ibNy">
+      <node concept="3clFbJ" id="7ymmWYIuqZm" role="3cqZAp">
+        <node concept="2OqwBi" id="7ymmWYIurcF" role="3clFbw">
+          <node concept="1YBJjd" id="7ymmWYIur0O" role="2Oq$k0">
+            <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
+          </node>
+          <node concept="2qgKlT" id="7ymmWYIuuj1" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:7ymmWYIurVf" resolve="isPrioError" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="7ymmWYIuqZo" role="3clFbx">
+          <node concept="2MkqsV" id="7ymmWYIuuor" role="3cqZAp">
+            <node concept="Xl_RD" id="7ymmWYIuuoB" role="2MkJ7o">
+              <property role="Xl_RC" value="Priority Error is default when using preconditions. Do not explicitly state that." />
+            </node>
+            <node concept="1YBJjd" id="7ymmWYIuuAw" role="2OEOjV">
+              <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7ymmWYIuqY0" role="1YuTPh">
+      <property role="TrG5h" value="precondition" />
+      <ref role="1YaFvo" to="un0u:51llZt605sG" resolve="Precondition" />
+    </node>
+  </node>
 </model>
 

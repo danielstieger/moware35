@@ -378,26 +378,41 @@
               </node>
               <node concept="3cpWs3" id="4Ms4M34SnfI" role="37wK5m">
                 <node concept="3cpWs3" id="4Ms4M34Sn2c" role="3uHU7B">
-                  <node concept="3cpWs3" id="4Ms4M34SMmv" role="3uHU7B">
-                    <node concept="3cpWs3" id="4Ms4M34SMCE" role="3uHU7B">
-                      <node concept="Xl_RD" id="4Ms4M34SMrF" role="3uHU7w">
-                        <property role="Xl_RC" value=" - " />
-                      </node>
-                      <node concept="2OqwBi" id="4Ms4M34SoGW" role="3uHU7B">
-                        <node concept="37vLTw" id="4Ms4M34SoyP" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4Ms4M34Sliq" resolve="userEnv" />
-                        </node>
-                        <node concept="liA8E" id="4Ms4M34SoRA" role="2OqNvi">
-                          <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
-                        </node>
-                      </node>
-                    </node>
+                  <node concept="3cpWs3" id="7ymmWYJc9sQ" role="3uHU7B">
                     <node concept="2OqwBi" id="4Ms4M34Sm9L" role="3uHU7w">
                       <node concept="37vLTw" id="4Ms4M34Sm4w" role="2Oq$k0">
                         <ref role="3cqZAo" node="4Ms4M34Sliq" resolve="userEnv" />
                       </node>
                       <node concept="liA8E" id="4Ms4M34SmUl" role="2OqNvi">
                         <ref role="37wK5l" to="28jr:6lA5DXSRyIu" resolve="getDeviceSwName" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="7ymmWYJcac1" role="3uHU7B">
+                      <node concept="Xl_RD" id="7ymmWYJcacE" role="3uHU7w">
+                        <property role="Xl_RC" value="/" />
+                      </node>
+                      <node concept="3cpWs3" id="4Ms4M34SMmv" role="3uHU7B">
+                        <node concept="3cpWs3" id="4Ms4M34SMCE" role="3uHU7B">
+                          <node concept="Xl_RD" id="4Ms4M34SMrF" role="3uHU7w">
+                            <property role="Xl_RC" value=" - " />
+                          </node>
+                          <node concept="2OqwBi" id="4Ms4M34SoGW" role="3uHU7B">
+                            <node concept="37vLTw" id="4Ms4M34SoyP" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4Ms4M34Sliq" resolve="userEnv" />
+                            </node>
+                            <node concept="liA8E" id="4Ms4M34SoRA" role="2OqNvi">
+                              <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="7ymmWYJc9Mv" role="3uHU7w">
+                          <node concept="37vLTw" id="7ymmWYJc9BK" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4Ms4M34Sliq" resolve="userEnv" />
+                          </node>
+                          <node concept="liA8E" id="7ymmWYJc9YI" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:6lA5DXSRyEy" resolve="getDeviceName" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>

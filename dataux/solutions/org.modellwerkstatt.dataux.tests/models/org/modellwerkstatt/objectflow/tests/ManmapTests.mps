@@ -13207,7 +13207,7 @@
       </node>
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/javaexe/MPS34/moware/objectflow/testdata/sqls/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/objectflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="2d2NRx" id="7cOyB3YiydU" role="3yTP5x">
