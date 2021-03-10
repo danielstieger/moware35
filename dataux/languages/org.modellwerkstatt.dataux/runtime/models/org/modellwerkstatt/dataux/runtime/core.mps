@@ -7691,6 +7691,10 @@
         <property role="TrG5h" value="userConnectionInfo" />
         <node concept="17QB3L" id="6TYnK1bw$X0" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="7j$Y$Tj8F_x" role="3clF46">
+        <property role="TrG5h" value="startupInfo" />
+        <node concept="17QB3L" id="7j$Y$Tj8Lo4" role="1tU5fm" />
+      </node>
       <node concept="10P_77" id="6RB2CdyANLG" role="3clF45" />
       <node concept="3Tm1VV" id="20ohnkbJa4c" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbJa4d" role="3clF47">
@@ -8470,8 +8474,8 @@
                   <node concept="Xl_RD" id="3CnNtH_5Neh" role="37wK5m">
                     <property role="Xl_RC" value="APP STARTUP" />
                   </node>
-                  <node concept="Xl_RD" id="7XXWpoMYLJ$" role="37wK5m">
-                    <property role="Xl_RC" value="" />
+                  <node concept="37vLTw" id="7j$Y$Tj8SY_" role="37wK5m">
+                    <ref role="3cqZAo" node="7j$Y$Tj8F_x" resolve="startupInfo" />
                   </node>
                 </node>
               </node>
@@ -23426,6 +23430,11 @@
       <node concept="3Tmbuc" id="4n24ZlEyejm" role="1B3o_S" />
       <node concept="17QB3L" id="4n24ZlEyejn" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="7j$Y$Tjd6ix" role="jymVt">
+      <property role="TrG5h" value="connStartupInfo" />
+      <node concept="3Tmbuc" id="7j$Y$Tjd6iy" role="1B3o_S" />
+      <node concept="17QB3L" id="7j$Y$Tjd6iz" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="4nH4LOEEMN6" role="jymVt" />
     <node concept="312cEg" id="4nH4LOEF6ZU" role="jymVt">
       <property role="TrG5h" value="deviceName" />
@@ -23601,6 +23610,16 @@
             </node>
             <node concept="37vLTw" id="cMAJ_Mgyge" role="37vLTJ">
               <ref role="3cqZAo" node="cMAJ_Mgdmb" resolve="lastInteraction" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7j$Y$Tjdani" role="3cqZAp">
+          <node concept="37vLTI" id="7j$Y$Tjdb9s" role="3clFbG">
+            <node concept="Xl_RD" id="7j$Y$Tjdbcm" role="37vLTx">
+              <property role="Xl_RC" value="?" />
+            </node>
+            <node concept="37vLTw" id="7j$Y$Tjdang" role="37vLTJ">
+              <ref role="3cqZAo" node="7j$Y$Tjd6ix" resolve="connStartupInfo" />
             </node>
           </node>
         </node>
@@ -23950,6 +23969,41 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="7j$Y$TjdbIr" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setuser_connectionDetails" />
+      <node concept="37vLTG" id="7j$Y$TjdbIs" role="3clF46">
+        <property role="TrG5h" value="prog" />
+        <node concept="17QB3L" id="7j$Y$TjdbIt" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="7j$Y$TjdbIu" role="3clF45" />
+      <node concept="3Tm1VV" id="7j$Y$TjdbIv" role="1B3o_S" />
+      <node concept="3clFbS" id="7j$Y$TjdbIw" role="3clF47">
+        <node concept="3clFbF" id="7j$Y$TjdbIx" role="3cqZAp">
+          <node concept="37vLTI" id="7j$Y$TjdbIy" role="3clFbG">
+            <node concept="37vLTw" id="7j$Y$TjdbIz" role="37vLTx">
+              <ref role="3cqZAo" node="7j$Y$TjdbIs" resolve="prog" />
+            </node>
+            <node concept="37vLTw" id="7j$Y$TjdgCZ" role="37vLTJ">
+              <ref role="3cqZAo" node="7j$Y$Tjd6ix" resolve="connStartupInfo" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="7j$Y$TjIOHe" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getuser_connectionDetails" />
+      <node concept="17QB3L" id="7j$Y$TjIRlc" role="3clF45" />
+      <node concept="3Tm1VV" id="7j$Y$TjIOHi" role="1B3o_S" />
+      <node concept="3clFbS" id="7j$Y$TjIOHj" role="3clF47">
+        <node concept="3clFbF" id="7j$Y$TjIOHk" role="3cqZAp">
+          <node concept="37vLTw" id="7j$Y$TjIOHn" role="3clFbG">
+            <ref role="3cqZAo" node="7j$Y$Tjd6ix" resolve="connStartupInfo" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="7HqAtYG4KRd" role="jymVt">
       <property role="TrG5h" value="setuser_formseqId" />
       <node concept="37vLTG" id="7HqAtYG4SFK" role="3clF46">
@@ -24199,6 +24253,50 @@
           </node>
         </node>
         <node concept="3clFbH" id="4nH4LOEFVdK" role="3cqZAp" />
+        <node concept="3SKdUt" id="7j$Y$TjdnHs" role="3cqZAp">
+          <node concept="3SKdUq" id="7j$Y$TjdnHu" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Remove. this just for debugging the cookie problem... " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7j$Y$Tjdhy_" role="3cqZAp">
+          <node concept="3clFbS" id="7j$Y$TjdhyB" role="3clFbx">
+            <node concept="3clFbF" id="7j$Y$TjdlFX" role="3cqZAp">
+              <node concept="37vLTI" id="7j$Y$Tjdmac" role="3clFbG">
+                <node concept="37vLTw" id="7j$Y$TjdmEl" role="37vLTx">
+                  <ref role="3cqZAo" node="7j$Y$Tjd6ix" resolve="connStartupInfo" />
+                </node>
+                <node concept="37vLTw" id="7j$Y$TjdlFV" role="37vLTJ">
+                  <ref role="3cqZAo" node="7XXWpoMQ1mz" resolve="param1" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="7j$Y$Tjdj7o" role="3clFbw">
+            <node concept="2OqwBi" id="7j$Y$TjdkVq" role="3uHU7w">
+              <node concept="2OqwBi" id="7j$Y$Tjdkfj" role="2Oq$k0">
+                <node concept="37vLTw" id="7j$Y$TjdjGD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7XXWpoMQ1mz" resolve="param1" />
+                </node>
+                <node concept="liA8E" id="7j$Y$TjdkN3" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7j$Y$TjdlxZ" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="Xl_RD" id="7j$Y$TjdlzU" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="7j$Y$Tjdiwl" role="3uHU7B">
+              <node concept="37vLTw" id="7j$Y$TjdhN8" role="3uHU7B">
+                <ref role="3cqZAo" node="7XXWpoMQ1mz" resolve="param1" />
+              </node>
+              <node concept="10Nm6u" id="7j$Y$TjdiyX" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7j$Y$TjdnaO" role="3cqZAp" />
         <node concept="3clFbF" id="4nH4LOEFwIn" role="3cqZAp">
           <node concept="2OqwBi" id="4nH4LOEFwIo" role="3clFbG">
             <node concept="37vLTw" id="4nH4LOEFwIp" role="2Oq$k0">
@@ -36208,6 +36306,12 @@
       <node concept="17QB3L" id="1OvPoUvcjsS" role="3clF45" />
       <node concept="3Tm1VV" id="1OvPoUvcjoz" role="1B3o_S" />
       <node concept="3clFbS" id="1OvPoUvcjo$" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7j$Y$TjIIwQ" role="jymVt">
+      <property role="TrG5h" value="getuser_connectionDetails" />
+      <node concept="17QB3L" id="7j$Y$TjIIwR" role="3clF45" />
+      <node concept="3Tm1VV" id="7j$Y$TjIIwS" role="1B3o_S" />
+      <node concept="3clFbS" id="7j$Y$TjIIwT" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1OvPoUvcjly" role="jymVt" />
     <node concept="3clFb_" id="uIdudhLYhg" role="jymVt">
