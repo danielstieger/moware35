@@ -2155,6 +2155,165 @@
           </node>
         </node>
         <node concept="3clFbH" id="3Lpsq4dC_eW" role="3cqZAp" />
+        <node concept="3cpWs8" id="7j$Y$Tj6Mn7" role="3cqZAp">
+          <node concept="3cpWsn" id="7j$Y$Tj6Mna" role="3cpWs9">
+            <property role="TrG5h" value="cookieInfos" />
+            <node concept="17QB3L" id="7j$Y$Tj6Mn5" role="1tU5fm" />
+            <node concept="Xl_RD" id="7j$Y$Tj6SG7" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7j$Y$Tj764S" role="3cqZAp">
+          <node concept="3cpWsn" id="7j$Y$Tj764T" role="3cpWs9">
+            <property role="TrG5h" value="allCookies" />
+            <node concept="10Q1$e" id="7j$Y$Tj764U" role="1tU5fm">
+              <node concept="3uibUv" id="7j$Y$Tj764V" role="10Q1$1">
+                <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7j$Y$Tj6YwW" role="33vP2m">
+              <node concept="37vLTw" id="7j$Y$Tj6Xjc" role="2Oq$k0">
+                <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+              </node>
+              <node concept="liA8E" id="7j$Y$Tj705N" role="2OqNvi">
+                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getCookies()" resolve="getCookies" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1Gu2XwRUsPH" role="3cqZAp">
+          <node concept="3clFbS" id="1Gu2XwRUsPJ" role="3clFbx">
+            <node concept="1DcWWT" id="7j$Y$Tj7iGs" role="3cqZAp">
+              <node concept="3clFbS" id="7j$Y$Tj7iGu" role="2LFqv$">
+                <node concept="3clFbF" id="7j$Y$Tj7qiY" role="3cqZAp">
+                  <node concept="d57v9" id="7j$Y$Tj7sRK" role="3clFbG">
+                    <node concept="3cpWs3" id="7j$Y$Tj7Zt2" role="37vLTx">
+                      <node concept="Xl_RD" id="7j$Y$Tj7Zxs" role="3uHU7w">
+                        <property role="Xl_RC" value=";  " />
+                      </node>
+                      <node concept="3cpWs3" id="7j$Y$Tj7N6g" role="3uHU7B">
+                        <node concept="3cpWs3" id="7j$Y$Tj7Yc4" role="3uHU7B">
+                          <node concept="Xl_RD" id="7j$Y$Tj7Ygi" role="3uHU7w">
+                            <property role="Xl_RC" value="," />
+                          </node>
+                          <node concept="3cpWs3" id="7j$Y$Tj7KF7" role="3uHU7B">
+                            <node concept="3cpWs3" id="7j$Y$Tj7WFw" role="3uHU7B">
+                              <node concept="Xl_RD" id="7j$Y$Tj7WKb" role="3uHU7w">
+                                <property role="Xl_RC" value="," />
+                              </node>
+                              <node concept="3cpWs3" id="7j$Y$Tj7GRL" role="3uHU7B">
+                                <node concept="3cpWs3" id="7j$Y$Tj7UcQ" role="3uHU7B">
+                                  <node concept="Xl_RD" id="7j$Y$Tj7UgG" role="3uHU7w">
+                                    <property role="Xl_RC" value="," />
+                                  </node>
+                                  <node concept="3cpWs3" id="7j$Y$Tj7F0j" role="3uHU7B">
+                                    <node concept="3cpWs3" id="7j$Y$Tj7Rz$" role="3uHU7B">
+                                      <node concept="Xl_RD" id="7j$Y$Tj7SLT" role="3uHU7w">
+                                        <property role="Xl_RC" value="," />
+                                      </node>
+                                      <node concept="3cpWs3" id="7j$Y$Tj7Bdz" role="3uHU7B">
+                                        <node concept="3cpWs3" id="7j$Y$Tj7_NY" role="3uHU7B">
+                                          <node concept="3cpWs3" id="7j$Y$Tj7yT4" role="3uHU7B">
+                                            <node concept="3cpWs3" id="7j$Y$Tj7wsn" role="3uHU7B">
+                                              <node concept="2OqwBi" id="7j$Y$Tj7u63" role="3uHU7B">
+                                                <node concept="37vLTw" id="7j$Y$Tj7tVo" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
+                                                </node>
+                                                <node concept="liA8E" id="7j$Y$Tj7vic" role="2OqNvi">
+                                                  <ref role="37wK5l" to="nwfd:~Cookie.getName()" resolve="getName" />
+                                                </node>
+                                              </node>
+                                              <node concept="Xl_RD" id="7j$Y$Tj7xyH" role="3uHU7w">
+                                                <property role="Xl_RC" value=": " />
+                                              </node>
+                                            </node>
+                                            <node concept="2OqwBi" id="7j$Y$Tj7zzo" role="3uHU7w">
+                                              <node concept="37vLTw" id="7j$Y$Tj7znp" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
+                                              </node>
+                                              <node concept="liA8E" id="7j$Y$Tj7$GR" role="2OqNvi">
+                                                <ref role="37wK5l" to="nwfd:~Cookie.getValue()" resolve="getValue" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="7j$Y$Tj7_Rs" role="3uHU7w">
+                                            <property role="Xl_RC" value=" ," />
+                                          </node>
+                                        </node>
+                                        <node concept="2OqwBi" id="7j$Y$Tj7CE6" role="3uHU7w">
+                                          <node concept="37vLTw" id="7j$Y$Tj7CtG" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
+                                          </node>
+                                          <node concept="liA8E" id="7j$Y$Tj7DOG" role="2OqNvi">
+                                            <ref role="37wK5l" to="nwfd:~Cookie.getDomain()" resolve="getDomain" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2OqwBi" id="7j$Y$Tj7FgP" role="3uHU7w">
+                                      <node concept="37vLTw" id="7j$Y$Tj7F3X" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
+                                      </node>
+                                      <node concept="liA8E" id="7j$Y$Tj7Gs_" role="2OqNvi">
+                                        <ref role="37wK5l" to="nwfd:~Cookie.getVersion()" resolve="getVersion" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="7j$Y$Tj7Ijc" role="3uHU7w">
+                                  <node concept="37vLTw" id="7j$Y$Tj7I6b" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
+                                  </node>
+                                  <node concept="liA8E" id="7j$Y$Tj7Jue" role="2OqNvi">
+                                    <ref role="37wK5l" to="nwfd:~Cookie.getComment()" resolve="getComment" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="7j$Y$Tj7KW$" role="3uHU7w">
+                              <node concept="37vLTw" id="7j$Y$Tj7KJ1" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
+                              </node>
+                              <node concept="liA8E" id="7j$Y$Tj7M9a" role="2OqNvi">
+                                <ref role="37wK5l" to="nwfd:~Cookie.getMaxAge()" resolve="getMaxAge" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="7j$Y$Tj7P7L" role="3uHU7w">
+                          <node concept="37vLTw" id="7j$Y$Tj7Omk" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
+                          </node>
+                          <node concept="liA8E" id="7j$Y$Tj7Qon" role="2OqNvi">
+                            <ref role="37wK5l" to="nwfd:~Cookie.getPath()" resolve="getPath" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="7j$Y$Tj7qiW" role="37vLTJ">
+                      <ref role="3cqZAo" node="7j$Y$Tj6Mna" resolve="cookieInfos" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="7j$Y$Tj7iGv" role="1Duv9x">
+                <property role="TrG5h" value="co" />
+                <node concept="3uibUv" id="7j$Y$Tj7kQg" role="1tU5fm">
+                  <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="7j$Y$Tj7oZX" role="1DdaDG">
+                <ref role="3cqZAo" node="7j$Y$Tj764T" resolve="allCookies" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="1Gu2XwRUx5u" role="3clFbw">
+            <node concept="10Nm6u" id="1Gu2XwRUxan" role="3uHU7w" />
+            <node concept="37vLTw" id="1Gu2XwRUvOR" role="3uHU7B">
+              <ref role="3cqZAo" node="7j$Y$Tj764T" resolve="allCookies" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1Gu2XwRUFms" role="3cqZAp" />
         <node concept="3cpWs8" id="5w_GCYFYLFW" role="3cqZAp">
           <node concept="3cpWsn" id="5w_GCYFYLFX" role="3cpWs9">
             <property role="TrG5h" value="session" />
@@ -2281,13 +2440,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="7j$Y$Tj6Mn7" role="3cqZAp">
-              <node concept="3cpWsn" id="7j$Y$Tj6Mna" role="3cpWs9">
-                <property role="TrG5h" value="cookieInfos" />
-                <node concept="17QB3L" id="7j$Y$Tj6Mn5" role="1tU5fm" />
-                <node concept="Xl_RD" id="7j$Y$Tj6SG7" role="33vP2m" />
-              </node>
-            </node>
             <node concept="3clFbH" id="7j$Y$Tj6JWk" role="3cqZAp" />
             <node concept="3SKdUt" id="7DInbKyuzRQ" role="3cqZAp">
               <node concept="3SKdUq" id="7DInbKyuA4S" role="3SKWNk">
@@ -2321,149 +2473,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="MdbUSGX_i6" role="3cqZAp" />
-            <node concept="3clFbH" id="7j$Y$Tj6UE_" role="3cqZAp" />
-            <node concept="3cpWs8" id="7j$Y$Tj764S" role="3cqZAp">
-              <node concept="3cpWsn" id="7j$Y$Tj764T" role="3cpWs9">
-                <property role="TrG5h" value="allCookies" />
-                <node concept="10Q1$e" id="7j$Y$Tj764U" role="1tU5fm">
-                  <node concept="3uibUv" id="7j$Y$Tj764V" role="10Q1$1">
-                    <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7j$Y$Tj6YwW" role="33vP2m">
-                  <node concept="37vLTw" id="7j$Y$Tj6Xjc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="7j$Y$Tj705N" role="2OqNvi">
-                    <ref role="37wK5l" to="nwfd:~HttpServletRequest.getCookies()" resolve="getCookies" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1DcWWT" id="7j$Y$Tj7iGs" role="3cqZAp">
-              <node concept="3clFbS" id="7j$Y$Tj7iGu" role="2LFqv$">
-                <node concept="3clFbF" id="7j$Y$Tj7qiY" role="3cqZAp">
-                  <node concept="d57v9" id="7j$Y$Tj7sRK" role="3clFbG">
-                    <node concept="3cpWs3" id="7j$Y$Tj7Zt2" role="37vLTx">
-                      <node concept="Xl_RD" id="7j$Y$Tj7Zxs" role="3uHU7w">
-                        <property role="Xl_RC" value=";  " />
-                      </node>
-                      <node concept="3cpWs3" id="7j$Y$Tj7N6g" role="3uHU7B">
-                        <node concept="3cpWs3" id="7j$Y$Tj7Yc4" role="3uHU7B">
-                          <node concept="Xl_RD" id="7j$Y$Tj7Ygi" role="3uHU7w">
-                            <property role="Xl_RC" value="," />
-                          </node>
-                          <node concept="3cpWs3" id="7j$Y$Tj7KF7" role="3uHU7B">
-                            <node concept="3cpWs3" id="7j$Y$Tj7WFw" role="3uHU7B">
-                              <node concept="Xl_RD" id="7j$Y$Tj7WKb" role="3uHU7w">
-                                <property role="Xl_RC" value="," />
-                              </node>
-                              <node concept="3cpWs3" id="7j$Y$Tj7GRL" role="3uHU7B">
-                                <node concept="3cpWs3" id="7j$Y$Tj7UcQ" role="3uHU7B">
-                                  <node concept="Xl_RD" id="7j$Y$Tj7UgG" role="3uHU7w">
-                                    <property role="Xl_RC" value="," />
-                                  </node>
-                                  <node concept="3cpWs3" id="7j$Y$Tj7F0j" role="3uHU7B">
-                                    <node concept="3cpWs3" id="7j$Y$Tj7Rz$" role="3uHU7B">
-                                      <node concept="Xl_RD" id="7j$Y$Tj7SLT" role="3uHU7w">
-                                        <property role="Xl_RC" value="," />
-                                      </node>
-                                      <node concept="3cpWs3" id="7j$Y$Tj7Bdz" role="3uHU7B">
-                                        <node concept="3cpWs3" id="7j$Y$Tj7_NY" role="3uHU7B">
-                                          <node concept="3cpWs3" id="7j$Y$Tj7yT4" role="3uHU7B">
-                                            <node concept="3cpWs3" id="7j$Y$Tj7wsn" role="3uHU7B">
-                                              <node concept="2OqwBi" id="7j$Y$Tj7u63" role="3uHU7B">
-                                                <node concept="37vLTw" id="7j$Y$Tj7tVo" role="2Oq$k0">
-                                                  <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
-                                                </node>
-                                                <node concept="liA8E" id="7j$Y$Tj7vic" role="2OqNvi">
-                                                  <ref role="37wK5l" to="nwfd:~Cookie.getName()" resolve="getName" />
-                                                </node>
-                                              </node>
-                                              <node concept="Xl_RD" id="7j$Y$Tj7xyH" role="3uHU7w">
-                                                <property role="Xl_RC" value=": " />
-                                              </node>
-                                            </node>
-                                            <node concept="2OqwBi" id="7j$Y$Tj7zzo" role="3uHU7w">
-                                              <node concept="37vLTw" id="7j$Y$Tj7znp" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
-                                              </node>
-                                              <node concept="liA8E" id="7j$Y$Tj7$GR" role="2OqNvi">
-                                                <ref role="37wK5l" to="nwfd:~Cookie.getValue()" resolve="getValue" />
-                                              </node>
-                                            </node>
-                                          </node>
-                                          <node concept="Xl_RD" id="7j$Y$Tj7_Rs" role="3uHU7w">
-                                            <property role="Xl_RC" value=" ," />
-                                          </node>
-                                        </node>
-                                        <node concept="2OqwBi" id="7j$Y$Tj7CE6" role="3uHU7w">
-                                          <node concept="37vLTw" id="7j$Y$Tj7CtG" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
-                                          </node>
-                                          <node concept="liA8E" id="7j$Y$Tj7DOG" role="2OqNvi">
-                                            <ref role="37wK5l" to="nwfd:~Cookie.getDomain()" resolve="getDomain" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
-                                    <node concept="2OqwBi" id="7j$Y$Tj7FgP" role="3uHU7w">
-                                      <node concept="37vLTw" id="7j$Y$Tj7F3X" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
-                                      </node>
-                                      <node concept="liA8E" id="7j$Y$Tj7Gs_" role="2OqNvi">
-                                        <ref role="37wK5l" to="nwfd:~Cookie.getVersion()" resolve="getVersion" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="2OqwBi" id="7j$Y$Tj7Ijc" role="3uHU7w">
-                                  <node concept="37vLTw" id="7j$Y$Tj7I6b" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
-                                  </node>
-                                  <node concept="liA8E" id="7j$Y$Tj7Jue" role="2OqNvi">
-                                    <ref role="37wK5l" to="nwfd:~Cookie.getComment()" resolve="getComment" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="2OqwBi" id="7j$Y$Tj7KW$" role="3uHU7w">
-                              <node concept="37vLTw" id="7j$Y$Tj7KJ1" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
-                              </node>
-                              <node concept="liA8E" id="7j$Y$Tj7M9a" role="2OqNvi">
-                                <ref role="37wK5l" to="nwfd:~Cookie.getMaxAge()" resolve="getMaxAge" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="7j$Y$Tj7P7L" role="3uHU7w">
-                          <node concept="37vLTw" id="7j$Y$Tj7Omk" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7j$Y$Tj7iGv" resolve="co" />
-                          </node>
-                          <node concept="liA8E" id="7j$Y$Tj7Qon" role="2OqNvi">
-                            <ref role="37wK5l" to="nwfd:~Cookie.getPath()" resolve="getPath" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="7j$Y$Tj7qiW" role="37vLTJ">
-                      <ref role="3cqZAo" node="7j$Y$Tj6Mna" resolve="cookieInfos" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3cpWsn" id="7j$Y$Tj7iGv" role="1Duv9x">
-                <property role="TrG5h" value="co" />
-                <node concept="3uibUv" id="7j$Y$Tj7kQg" role="1tU5fm">
-                  <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
-                </node>
-              </node>
-              <node concept="37vLTw" id="7j$Y$Tj7oZX" role="1DdaDG">
-                <ref role="3cqZAo" node="7j$Y$Tj764T" resolve="allCookies" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="7CJFVfzTiu7" role="3cqZAp" />
             <node concept="3SKdUt" id="kA5Khwc2oj" role="3cqZAp">
               <node concept="3SKdUq" id="kA5Khwc2ol" role="3SKWNk">
                 <property role="3SKdUp" value="someone moved around in our network ---------------------------" />
@@ -6878,7 +6887,7 @@
               <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
             </node>
             <node concept="liA8E" id="7j$Y$TjdvUw" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:7j$Y$TjdbIr" resolve="setuser_ConnStartupInfo" />
+              <ref role="37wK5l" to="1e0c:7j$Y$TjdbIr" resolve="setuser_connectionDetails" />
               <node concept="37vLTw" id="7j$Y$Tjdx0G" role="37wK5m">
                 <ref role="3cqZAo" node="7j$Y$Tj9tkf" resolve="connInfo" />
               </node>
