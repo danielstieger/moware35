@@ -388,5 +388,56 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="5g3Ca3G0H9D">
+    <property role="3GE5qa" value="mapping" />
+    <property role="TrG5h" value="DEBUGDELETE" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:Kou8LemxjX" resolve="IncludeMapping" />
+    <node concept="2S6ZIM" id="5g3Ca3G0H9E" role="2ZfVej">
+      <node concept="3clFbS" id="5g3Ca3G0H9F" role="2VODD2">
+        <node concept="3clFbF" id="5g3Ca3G0Ho1" role="3cqZAp">
+          <node concept="Xl_RD" id="5g3Ca3G0Ho0" role="3clFbG">
+            <property role="Xl_RC" value="DEBUG ME" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="5g3Ca3G0H9G" role="2ZfgGD">
+      <node concept="3clFbS" id="5g3Ca3G0H9H" role="2VODD2">
+        <node concept="3clFbF" id="5g3Ca3G0HE0" role="3cqZAp">
+          <node concept="2OqwBi" id="5g3Ca3G0HDX" role="3clFbG">
+            <node concept="10M0yZ" id="5g3Ca3G0HDY" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="5g3Ca3G0HDZ" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="5g3Ca3G0IsV" role="37wK5m">
+                <node concept="2OqwBi" id="5g3Ca3G0Rtt" role="3uHU7w">
+                  <node concept="2OqwBi" id="5g3Ca3G0Juw" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5g3Ca3G0IJX" role="2Oq$k0">
+                      <node concept="2Sf5sV" id="5g3Ca3G0Izy" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="5g3Ca3G0IX5" role="2OqNvi">
+                        <ref role="3Tt5mk" to="r5tz:Kou8LemxNH" resolve="mapping" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="5g3Ca3G0JJb" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:3JsUq_Sf9_a" resolve="getIKeyMapping" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="5g3Ca3G0RQT" role="2OqNvi">
+                    <ref role="37wK5l" to="lfe3:FaoLX6jltb" resolve="getKeyProperty" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="5g3Ca3G0HEN" role="3uHU7B">
+                  <property role="Xl_RC" value="&gt;&gt;&gt; MSG &gt;&gt;&gt;: " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
