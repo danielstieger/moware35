@@ -2,8 +2,9 @@
 <model ref="r:14903c9e-467d-4b08-a0f1-8449390a1258(org.modellwerkstatt.objectflow.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -123,11 +124,8 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
@@ -181,6 +179,12 @@
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -188,9 +192,6 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
-        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
-      </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -231,9 +232,6 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
-      <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
-        <child id="1146171026732" name="value" index="3t7uKA" />
-      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
@@ -268,6 +266,14 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -351,8 +357,19 @@
             <property role="3V$3am" value="statement" />
             <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
             <node concept="3SKdUt" id="3B2vGTdJg4Y" role="8Wnug">
-              <node concept="3SKdUq" id="3B2vGTdJg4Z" role="3SKWNk">
-                <property role="3SKdUp" value="get all elements first" />
+              <node concept="1PaTwC" id="5HvIBdINHUs" role="3ndbpf">
+                <node concept="3oM_SD" id="5HvIBdINHUt" role="1PaTwD">
+                  <property role="3oM_SC" value="get" />
+                </node>
+                <node concept="3oM_SD" id="5HvIBdINHUu" role="1PaTwD">
+                  <property role="3oM_SC" value="all" />
+                </node>
+                <node concept="3oM_SD" id="5HvIBdINHUv" role="1PaTwD">
+                  <property role="3oM_SC" value="elements" />
+                </node>
+                <node concept="3oM_SD" id="5HvIBdINHUw" role="1PaTwD">
+                  <property role="3oM_SC" value="first" />
+                </node>
               </node>
             </node>
           </node>
@@ -423,8 +440,25 @@
               </node>
               <node concept="3clFbS" id="3B2vGTdJg5n" role="2LFqv$">
                 <node concept="3SKdUt" id="3B2vGTdJg5o" role="3cqZAp">
-                  <node concept="3SKdUq" id="3B2vGTdJg5p" role="3SKWNk">
-                    <property role="3SKdUp" value="loop over all used properties ... " />
+                  <node concept="1PaTwC" id="5HvIBdINHUx" role="3ndbpf">
+                    <node concept="3oM_SD" id="5HvIBdINHUy" role="1PaTwD">
+                      <property role="3oM_SC" value="loop" />
+                    </node>
+                    <node concept="3oM_SD" id="5HvIBdINHUz" role="1PaTwD">
+                      <property role="3oM_SC" value="over" />
+                    </node>
+                    <node concept="3oM_SD" id="5HvIBdINHU$" role="1PaTwD">
+                      <property role="3oM_SC" value="all" />
+                    </node>
+                    <node concept="3oM_SD" id="5HvIBdINHU_" role="1PaTwD">
+                      <property role="3oM_SC" value="used" />
+                    </node>
+                    <node concept="3oM_SD" id="5HvIBdINHUA" role="1PaTwD">
+                      <property role="3oM_SC" value="properties" />
+                    </node>
+                    <node concept="3oM_SD" id="5HvIBdINHUB" role="1PaTwD">
+                      <property role="3oM_SC" value="..." />
+                    </node>
                   </node>
                 </node>
                 <node concept="3clFbJ" id="3B2vGTdJg5q" role="3cqZAp">
@@ -1368,8 +1402,34 @@
         </node>
         <node concept="3clFbH" id="3B2vGTdJfpU" role="3cqZAp" />
         <node concept="3SKdUt" id="3B2vGTdJfpV" role="3cqZAp">
-          <node concept="3SKdUq" id="3B2vGTdJfpW" role="3SKWNk">
-            <property role="3SKdUp" value="okay, check if we are in command init .. " />
+          <node concept="1PaTwC" id="5HvIBdINHUC" role="3ndbpf">
+            <node concept="3oM_SD" id="5HvIBdINHUD" role="1PaTwD">
+              <property role="3oM_SC" value="okay," />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUE" role="1PaTwD">
+              <property role="3oM_SC" value="check" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUF" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUG" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUH" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUI" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUJ" role="1PaTwD">
+              <property role="3oM_SC" value="command" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUK" role="1PaTwD">
+              <property role="3oM_SC" value="init" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUL" role="1PaTwD">
+              <property role="3oM_SC" value=".." />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3B2vGTdJfpX" role="3cqZAp">
@@ -1922,8 +1982,19 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3B2vGTdJfrp" role="3cqZAp">
-              <node concept="3SKdUq" id="3B2vGTdJfrq" role="3SKWNk">
-                <property role="3SKdUp" value="else check type .." />
+              <node concept="1PaTwC" id="5HvIBdINHUM" role="3ndbpf">
+                <node concept="3oM_SD" id="5HvIBdINHUN" role="1PaTwD">
+                  <property role="3oM_SC" value="else" />
+                </node>
+                <node concept="3oM_SD" id="5HvIBdINHUO" role="1PaTwD">
+                  <property role="3oM_SC" value="check" />
+                </node>
+                <node concept="3oM_SD" id="5HvIBdINHUP" role="1PaTwD">
+                  <property role="3oM_SC" value="type" />
+                </node>
+                <node concept="3oM_SD" id="5HvIBdINHUQ" role="1PaTwD">
+                  <property role="3oM_SC" value=".." />
+                </node>
               </node>
             </node>
             <node concept="3cpWs8" id="3B2vGTdJfrr" role="3cqZAp">
@@ -2653,8 +2724,52 @@
       <node concept="3clFbS" id="3B2vGTdJfsk" role="2VODD2">
         <node concept="3clFbH" id="3B2vGTdJfsl" role="3cqZAp" />
         <node concept="3SKdUt" id="3B2vGTdJfsm" role="3cqZAp">
-          <node concept="3SKdUq" id="3B2vGTdJfsn" role="3SKWNk">
-            <property role="3SKdUp" value="right now, not in pageevents - we can not close the page without msg... :)" />
+          <node concept="1PaTwC" id="5HvIBdINHUR" role="3ndbpf">
+            <node concept="3oM_SD" id="5HvIBdINHUS" role="1PaTwD">
+              <property role="3oM_SC" value="right" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUT" role="1PaTwD">
+              <property role="3oM_SC" value="now," />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUU" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUV" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUW" role="1PaTwD">
+              <property role="3oM_SC" value="pageevents" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUX" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUY" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHUZ" role="1PaTwD">
+              <property role="3oM_SC" value="can" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV0" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV1" role="1PaTwD">
+              <property role="3oM_SC" value="close" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV2" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV3" role="1PaTwD">
+              <property role="3oM_SC" value="page" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV4" role="1PaTwD">
+              <property role="3oM_SC" value="without" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV5" role="1PaTwD">
+              <property role="3oM_SC" value="msg..." />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV6" role="1PaTwD">
+              <property role="3oM_SC" value=":)" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="3B2vGTdJfso" role="3cqZAp">
@@ -2691,8 +2806,34 @@
         </node>
         <node concept="3clFbH" id="3B2vGTdJfsC" role="3cqZAp" />
         <node concept="3SKdUt" id="3B2vGTdJfsD" role="3cqZAp">
-          <node concept="3SKdUq" id="3B2vGTdJfsE" role="3SKWNk">
-            <property role="3SKdUp" value="okay, check if we are in command init .. " />
+          <node concept="1PaTwC" id="5HvIBdINHV7" role="3ndbpf">
+            <node concept="3oM_SD" id="5HvIBdINHV8" role="1PaTwD">
+              <property role="3oM_SC" value="okay," />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHV9" role="1PaTwD">
+              <property role="3oM_SC" value="check" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVa" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVb" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVc" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVd" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVe" role="1PaTwD">
+              <property role="3oM_SC" value="command" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVf" role="1PaTwD">
+              <property role="3oM_SC" value="init" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVg" role="1PaTwD">
+              <property role="3oM_SC" value=".." />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3B2vGTdJfsF" role="3cqZAp">
@@ -2949,8 +3090,19 @@
           </node>
         </node>
         <node concept="3SKdUt" id="3B2vGTdJflr" role="3cqZAp">
-          <node concept="3SKdUq" id="3B2vGTdJfls" role="3SKWNk">
-            <property role="3SKdUp" value="since action does inherit" />
+          <node concept="1PaTwC" id="5HvIBdINHVh" role="3ndbpf">
+            <node concept="3oM_SD" id="5HvIBdINHVi" role="1PaTwD">
+              <property role="3oM_SC" value="since" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVj" role="1PaTwD">
+              <property role="3oM_SC" value="action" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVk" role="1PaTwD">
+              <property role="3oM_SC" value="does" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVl" role="1PaTwD">
+              <property role="3oM_SC" value="inherit" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="3B2vGTdJflt" role="3cqZAp" />
@@ -3030,8 +3182,19 @@
     <node concept="9S07l" id="2KwTCJxW7tv" role="9Vyp8">
       <node concept="3clFbS" id="3B2vGTdJflE" role="2VODD2">
         <node concept="3SKdUt" id="3B2vGTdJflF" role="3cqZAp">
-          <node concept="3SKdUq" id="3B2vGTdJflG" role="3SKWNk">
-            <property role="3SKdUp" value="also in startup shutdown. " />
+          <node concept="1PaTwC" id="5HvIBdINHVm" role="3ndbpf">
+            <node concept="3oM_SD" id="5HvIBdINHVn" role="1PaTwD">
+              <property role="3oM_SC" value="also" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVo" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVp" role="1PaTwD">
+              <property role="3oM_SC" value="startup" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINHVq" role="1PaTwD">
+              <property role="3oM_SC" value="shutdown." />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3B2vGTdJflH" role="3cqZAp">
@@ -4268,12 +4431,12 @@
                 </node>
               </node>
               <node concept="3TrcHB" id="3B2vGTdJfkK" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAd" resolve="newCommandType" />
               </node>
             </node>
-            <node concept="3t7uKx" id="3B2vGTdJfkL" role="2OqNvi">
-              <node concept="uoxfO" id="3B2vGTdJfkM" role="3t7uKA">
-                <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+            <node concept="21noJN" id="5HvIBdINHBX" role="2OqNvi">
+              <node concept="21nZrQ" id="5HvIBdINHBY" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHdI" resolve="GRAPH_EDIT_CMD" />
               </node>
             </node>
           </node>

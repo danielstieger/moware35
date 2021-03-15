@@ -5,7 +5,7 @@
     <use id="3ecd7c84-cde3-45de-886c-135ecc69b742" name="jetbrains.mps.lang.refactoring" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -70,6 +70,9 @@
       <concept id="1189694053795" name="jetbrains.mps.lang.refactoring.structure.DoRefactorClause" flags="in" index="3ZiDMR" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -78,9 +81,6 @@
       </concept>
       <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
         <child id="1138662048170" name="value" index="tz02z" />
-      </concept>
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
-        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
@@ -144,12 +144,12 @@
                           <ref role="3cqZAo" node="I5W9GWM4I1" resolve="it" />
                         </node>
                         <node concept="3TrcHB" id="I5W9GWM4Ik" role="2OqNvi">
-                          <ref role="3TsBF5" to="un0u:I5W9GWGlbF" resolve="logLevel" />
+                          <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
                         </node>
                       </node>
                       <node concept="tyxLq" id="I5W9GWM4Iu" role="2OqNvi">
-                        <node concept="uoxfO" id="I5W9GWM4Iw" role="tz02z">
-                          <ref role="uo_Cq" to="un0u:I5W9GWEMXX" />
+                        <node concept="21nZrQ" id="5HvIBdINHBZ" role="tz02z">
+                          <ref role="21nZrZ" to="un0u:5HvIBdINHd5" resolve="DEBUG" />
                         </node>
                       </node>
                     </node>
