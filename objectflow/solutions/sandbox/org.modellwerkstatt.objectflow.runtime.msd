@@ -43,6 +43,7 @@
     <stubModelEntry path="${module}/jars/servletclient/servlet-api.jar" />
     <stubModelEntry path="${module}/jars/zoo/zookeeper-3.4.5.jar" />
     <stubModelEntry path="${module}/jars/slf4j-log4j12-1.7.25.jar" />
+    <stubModelEntry path="${module}/jars/basis/spring-aop-5.2.9.RELEASE.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

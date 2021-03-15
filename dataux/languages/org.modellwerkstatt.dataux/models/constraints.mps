@@ -2,6 +2,7 @@
 <model ref="r:0511ac41-e8a9-4ab0-a457-651d8273979c(org.modellwerkstatt.dataux.constraints)">
   <persistence version="9" />
   <languages>
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -124,11 +125,8 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -238,6 +236,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -492,8 +498,31 @@
                     </node>
                     <node concept="3clFbS" id="1ZEzZmq2f7F" role="3clF47">
                       <node concept="3SKdUt" id="1ZEzZmq2f7G" role="3cqZAp">
-                        <node concept="3SKdUq" id="1ZEzZmq2f7H" role="3SKWNk">
-                          <property role="3SKdUp" value="amendment, Dan Koblach 18. do not include pagepanes " />
+                        <node concept="1PaTwC" id="5HvIBdJXGS6" role="3ndbpf">
+                          <node concept="3oM_SD" id="5HvIBdJXGS7" role="1PaTwD">
+                            <property role="3oM_SC" value="amendment," />
+                          </node>
+                          <node concept="3oM_SD" id="5HvIBdJXGS8" role="1PaTwD">
+                            <property role="3oM_SC" value="Dan" />
+                          </node>
+                          <node concept="3oM_SD" id="5HvIBdJXGS9" role="1PaTwD">
+                            <property role="3oM_SC" value="Koblach" />
+                          </node>
+                          <node concept="3oM_SD" id="5HvIBdJXGSa" role="1PaTwD">
+                            <property role="3oM_SC" value="18." />
+                          </node>
+                          <node concept="3oM_SD" id="5HvIBdJXGSb" role="1PaTwD">
+                            <property role="3oM_SC" value="do" />
+                          </node>
+                          <node concept="3oM_SD" id="5HvIBdJXGSc" role="1PaTwD">
+                            <property role="3oM_SC" value="not" />
+                          </node>
+                          <node concept="3oM_SD" id="5HvIBdJXGSd" role="1PaTwD">
+                            <property role="3oM_SC" value="include" />
+                          </node>
+                          <node concept="3oM_SD" id="5HvIBdJXGSe" role="1PaTwD">
+                            <property role="3oM_SC" value="pagepanes" />
+                          </node>
                         </node>
                       </node>
                       <node concept="3clFbJ" id="1ZEzZmq2f7I" role="3cqZAp">
@@ -548,8 +577,28 @@
       <node concept="3dgokm" id="1h$q6rwpYO5" role="1N6uqs">
         <node concept="3clFbS" id="1ZEzZmq2f5B" role="2VODD2">
           <node concept="3SKdUt" id="1ZEzZmq2f5C" role="3cqZAp">
-            <node concept="3SKdUq" id="1ZEzZmq2f5D" role="3SKWNk">
-              <property role="3SKdUp" value="Used as straight reference and as operation" />
+            <node concept="1PaTwC" id="5HvIBdJXGSf" role="3ndbpf">
+              <node concept="3oM_SD" id="5HvIBdJXGSg" role="1PaTwD">
+                <property role="3oM_SC" value="Used" />
+              </node>
+              <node concept="3oM_SD" id="5HvIBdJXGSh" role="1PaTwD">
+                <property role="3oM_SC" value="as" />
+              </node>
+              <node concept="3oM_SD" id="5HvIBdJXGSi" role="1PaTwD">
+                <property role="3oM_SC" value="straight" />
+              </node>
+              <node concept="3oM_SD" id="5HvIBdJXGSj" role="1PaTwD">
+                <property role="3oM_SC" value="reference" />
+              </node>
+              <node concept="3oM_SD" id="5HvIBdJXGSk" role="1PaTwD">
+                <property role="3oM_SC" value="and" />
+              </node>
+              <node concept="3oM_SD" id="5HvIBdJXGSl" role="1PaTwD">
+                <property role="3oM_SC" value="as" />
+              </node>
+              <node concept="3oM_SD" id="5HvIBdJXGSm" role="1PaTwD">
+                <property role="3oM_SC" value="operation" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="1ZEzZmq2f5E" role="3cqZAp">

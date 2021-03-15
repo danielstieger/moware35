@@ -2,7 +2,7 @@
 <model ref="r:08f2e6c6-a478-4cd3-8ac5-e7ae07a6e41b(org.modellwerkstatt.objectflow.tests.ProdConsJob)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
   </languages>
   <imports>
@@ -244,11 +244,8 @@
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -285,6 +282,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -3076,8 +3081,13 @@
         </node>
         <node concept="3clFbH" id="7XC7Kvk4WBN" role="3cqZAp" />
         <node concept="3SKdUt" id="7XC7Kvk4Zdy" role="3cqZAp">
-          <node concept="3SKdUq" id="7XC7Kvk4Zd$" role="3SKWNk">
-            <property role="3SKdUp" value="allways true" />
+          <node concept="1PaTwC" id="5HvIBdJXI$N" role="3ndbpf">
+            <node concept="3oM_SD" id="5HvIBdJXI$O" role="1PaTwD">
+              <property role="3oM_SC" value="allways" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdJXI$P" role="1PaTwD">
+              <property role="3oM_SC" value="true" />
+            </node>
           </node>
         </node>
         <node concept="1gVbGN" id="7XC7Kvk4WBO" role="3cqZAp">
@@ -3220,8 +3230,13 @@
         </node>
         <node concept="3clFbH" id="7XC7Kvk5d_5" role="3cqZAp" />
         <node concept="3SKdUt" id="7XC7Kvk5d_6" role="3cqZAp">
-          <node concept="3SKdUq" id="7XC7Kvk5d_7" role="3SKWNk">
-            <property role="3SKdUp" value="allways true" />
+          <node concept="1PaTwC" id="5HvIBdJXI$Q" role="3ndbpf">
+            <node concept="3oM_SD" id="5HvIBdJXI$R" role="1PaTwD">
+              <property role="3oM_SC" value="allways" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdJXI$S" role="1PaTwD">
+              <property role="3oM_SC" value="true" />
+            </node>
           </node>
         </node>
         <node concept="1gVbGN" id="7XC7Kvk5d_8" role="3cqZAp">
@@ -11637,8 +11652,13 @@
             </node>
             <node concept="3clFbS" id="2smfeL1R2cH" role="3eOfB_">
               <node concept="3SKdUt" id="2smfeL1R2p_" role="3cqZAp">
-                <node concept="3SKdUq" id="2smfeL1R2pB" role="3SKWNk">
-                  <property role="3SKdUp" value="consumer run. " />
+                <node concept="1PaTwC" id="5HvIBdJXI$T" role="3ndbpf">
+                  <node concept="3oM_SD" id="5HvIBdJXI$U" role="1PaTwD">
+                    <property role="3oM_SC" value="consumer" />
+                  </node>
+                  <node concept="3oM_SD" id="5HvIBdJXI$V" role="1PaTwD">
+                    <property role="3oM_SC" value="run." />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="2smfeL1R2pK" role="3cqZAp">
@@ -13777,13 +13797,77 @@
                                           <node concept="3clFbJ" id="4nH4LOF0NOW" role="3cqZAp">
                                             <node concept="3clFbS" id="4nH4LOF0NOX" role="3clFbx">
                                               <node concept="3SKdUt" id="4nH4LOF0NOY" role="3cqZAp">
-                                                <node concept="3SKdUq" id="4nH4LOF0NOZ" role="3SKWNk">
-                                                  <property role="3SKdUp" value="Note to myself: one can not kill a running thread in any way. If the thread is " />
+                                                <node concept="1PaTwC" id="5HvIBdJXI$W" role="3ndbpf">
+                                                  <node concept="3oM_SD" id="5HvIBdJXI$X" role="1PaTwD">
+                                                    <property role="3oM_SC" value="Note" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI$Y" role="1PaTwD">
+                                                    <property role="3oM_SC" value="to" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI$Z" role="1PaTwD">
+                                                    <property role="3oM_SC" value="myself:" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_0" role="1PaTwD">
+                                                    <property role="3oM_SC" value="one" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_1" role="1PaTwD">
+                                                    <property role="3oM_SC" value="can" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_2" role="1PaTwD">
+                                                    <property role="3oM_SC" value="not" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_3" role="1PaTwD">
+                                                    <property role="3oM_SC" value="kill" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_4" role="1PaTwD">
+                                                    <property role="3oM_SC" value="a" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_5" role="1PaTwD">
+                                                    <property role="3oM_SC" value="running" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_6" role="1PaTwD">
+                                                    <property role="3oM_SC" value="thread" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_7" role="1PaTwD">
+                                                    <property role="3oM_SC" value="in" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_8" role="1PaTwD">
+                                                    <property role="3oM_SC" value="any" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_9" role="1PaTwD">
+                                                    <property role="3oM_SC" value="way." />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_a" role="1PaTwD">
+                                                    <property role="3oM_SC" value="If" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_b" role="1PaTwD">
+                                                    <property role="3oM_SC" value="the" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_c" role="1PaTwD">
+                                                    <property role="3oM_SC" value="thread" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_d" role="1PaTwD">
+                                                    <property role="3oM_SC" value="is" />
+                                                  </node>
                                                 </node>
                                               </node>
                                               <node concept="3SKdUt" id="4nH4LOF0NP0" role="3cqZAp">
-                                                <node concept="3SKdUq" id="4nH4LOF0NP1" role="3SKWNk">
-                                                  <property role="3SKdUp" value="looping, nothing can be done. " />
+                                                <node concept="1PaTwC" id="5HvIBdJXI_e" role="3ndbpf">
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_f" role="1PaTwD">
+                                                    <property role="3oM_SC" value="looping," />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_g" role="1PaTwD">
+                                                    <property role="3oM_SC" value="nothing" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_h" role="1PaTwD">
+                                                    <property role="3oM_SC" value="can" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_i" role="1PaTwD">
+                                                    <property role="3oM_SC" value="be" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="5HvIBdJXI_j" role="1PaTwD">
+                                                    <property role="3oM_SC" value="done." />
+                                                  </node>
                                                 </node>
                                               </node>
                                               <node concept="2$JKZl" id="4nH4LOF0NP2" role="3cqZAp">

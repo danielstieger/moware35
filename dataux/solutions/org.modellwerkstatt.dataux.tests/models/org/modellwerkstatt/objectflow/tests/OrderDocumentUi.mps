@@ -5,7 +5,7 @@
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
     <use id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
   </languages>
   <imports>
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
@@ -27,12 +27,6 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
-      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
-        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-      </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
-        <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -53,7 +47,6 @@
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -326,7 +319,7 @@
   <node concept="3ugp7m" id="7agSOE7AXYn">
     <property role="TrG5h" value="GraphEdit" />
     <property role="3GE5qa" value="proc" />
-    <property role="3uBtrS" value="ENTER_10" />
+    <property role="3uBtrS" value="1hImSMr5NSX/ENTER" />
     <node concept="3ulXEN" id="13qccrSjQmC" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQmD" role="1tU5fm">
@@ -874,9 +867,9 @@
   </node>
   <node concept="3ugp7m" id="7agSOE7AXY$">
     <property role="TrG5h" value="MainDoc" />
-    <property role="19I623" value="GRAPH_OWNER_CMD" />
+    <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
     <property role="3GE5qa" value="proc" />
-    <property role="3uBtrS" value="ENTER_10" />
+    <property role="3uBtrS" value="1hImSMr5NSX/ENTER" />
     <node concept="3ulXEN" id="13qccrSjQn1" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQn2" role="1tU5fm">
@@ -1415,7 +1408,7 @@
   </node>
   <node concept="3ugp7m" id="1w1DleJxosq">
     <property role="TrG5h" value="SearchTestCases" />
-    <property role="19I623" value="SEARCH_CMD" />
+    <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
     <property role="3GE5qa" value="cases" />
     <node concept="3ugp7q" id="1w1DleJxq64" role="3ug97V">
       <property role="TrG5h" value="Page_0" />
@@ -1465,17 +1458,6 @@
   <node concept="2EH5hC" id="1w1DleJxoxW">
     <property role="TrG5h" value="TestCaseFactory" />
     <property role="3GE5qa" value="cases" />
-    <node concept="312cEg" id="4DaB5G9qauh" role="jymVt">
-      <property role="TrG5h" value="factory" />
-      <node concept="3Tm6S6" id="4DaB5G9qaui" role="1B3o_S" />
-      <node concept="3uibUv" id="4DaB5G9qaEb" role="1tU5fm">
-        <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
-      </node>
-      <node concept="2AHcQZ" id="4DaB5G9qaEn" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="4DaB5G9qay1" role="jymVt" />
     <node concept="2tJIrI" id="4DaB5G9qa$J" role="jymVt" />
     <node concept="3Tm1VV" id="1w1DleJxoxX" role="1B3o_S" />
     <node concept="2vDG_T" id="4nH4LOF0O7U" role="jymVt">
@@ -2521,7 +2503,7 @@
   <node concept="3ugp7m" id="6mpCyrQUjrO">
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="Predecessor" />
-    <property role="19I623" value="GRAPH_OWNER_CMD" />
+    <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
     <node concept="3ulXEN" id="13qccrSjQnh" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQni" role="1tU5fm">
@@ -2615,7 +2597,7 @@
   <node concept="3ugp7m" id="4DaB5G9q7VK">
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="MultiCheck" />
-    <property role="19I623" value="GRAPH_OWNER_CMD" />
+    <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
     <node concept="3ulXEN" id="13qccrSjQnp" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQnq" role="1tU5fm">
@@ -2747,7 +2729,7 @@
   <node concept="3ugp7m" id="18Et36znzcA">
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="ExpWarn" />
-    <property role="19I623" value="GRAPH_OWNER_CMD" />
+    <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
     <node concept="3ulXEN" id="13qccrSjQnt" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQnu" role="1tU5fm">
@@ -2883,7 +2865,7 @@
   <node concept="3ugp7m" id="5LHzrvqVxoP">
     <property role="3GE5qa" value="proc" />
     <property role="TrG5h" value="OuterCompound" />
-    <property role="19I623" value="GRAPH_OWNER_CMD" />
+    <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
     <node concept="3ulXEN" id="13qccrSjQnx" role="3ulXEL">
       <property role="TrG5h" value="docprocParam" />
       <node concept="3uibUv" id="13qccrSjQny" role="1tU5fm">
