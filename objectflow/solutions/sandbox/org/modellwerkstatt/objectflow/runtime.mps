@@ -36,7 +36,6 @@
     <import index="bq0h" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.fop(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
-    <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.runtime/)" />
     <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="a820" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context(org.modellwerkstatt.manmap.runtime/)" />
@@ -44,9 +43,9 @@
     <import index="dr5r" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.logging(JDK/)" />
     <import index="vpat" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:mjson(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="ybfw" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.modellwerkstatt.javaxbus(org.modellwerkstatt.objectflow.runtime/)" />
-    <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="embf" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.jar(JDK/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.runtime/)" />
+    <import index="yuyh" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.fop.configuration(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="9n95" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote(JDK/)" implicit="true" />
     <import index="21r8" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.xmlgraphics.util(org.modellwerkstatt.objectflow.runtime/)" implicit="true" />
   </imports>
@@ -35866,12 +35865,12 @@
                   <node concept="3cpWsn" id="6j4XqQEtabD" role="3cpWs9">
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="cfgBuilder" />
-                    <node concept="3uibUv" id="6j4XqQEtabE" role="1tU5fm">
-                      <ref role="3uigEE" to="t54d:~DefaultConfigurationBuilder" resolve="DefaultConfigurationBuilder" />
+                    <node concept="3uibUv" id="HtHth2T5A0" role="1tU5fm">
+                      <ref role="3uigEE" to="yuyh:~DefaultConfigurationBuilder" resolve="DefaultConfigurationBuilder" />
                     </node>
                     <node concept="2ShNRf" id="6j4XqQEtabF" role="33vP2m">
-                      <node concept="1pGfFk" id="6j4XqQEtabG" role="2ShVmc">
-                        <ref role="37wK5l" to="t54d:~DefaultConfigurationBuilder.&lt;init&gt;()" resolve="DefaultConfigurationBuilder" />
+                      <node concept="1pGfFk" id="HtHth2T68j" role="2ShVmc">
+                        <ref role="37wK5l" to="yuyh:~DefaultConfigurationBuilder.&lt;init&gt;()" resolve="DefaultConfigurationBuilder" />
                       </node>
                     </node>
                   </node>
@@ -35880,35 +35879,8 @@
                   <node concept="3cpWsn" id="6j4XqQEtabI" role="3cpWs9">
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="cfg" />
-                    <node concept="3uibUv" id="6j4XqQEtabJ" role="1tU5fm">
-                      <ref role="3uigEE" to="t54d:~Configuration" resolve="Configuration" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="1X3_iC" id="4xVSf7cJ__f" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbF" id="6j4XqQEtabM" role="8Wnug">
-                    <node concept="37vLTI" id="6j4XqQEtabN" role="3clFbG">
-                      <node concept="2OqwBi" id="6j4XqQEtabO" role="37vLTx">
-                        <node concept="37vLTw" id="6j4XqQEtabP" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6j4XqQEtabD" resolve="cfgBuilder" />
-                        </node>
-                        <node concept="liA8E" id="6j4XqQEtabQ" role="2OqNvi">
-                          <ref role="37wK5l" to="t54d:~DefaultConfigurationBuilder.buildFromFile(java.io.File)" resolve="buildFromFile" />
-                          <node concept="2ShNRf" id="6j4XqQEtabR" role="37wK5m">
-                            <node concept="1pGfFk" id="6j4XqQEtabS" role="2ShVmc">
-                              <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                              <node concept="Xl_RD" id="6j4XqQEtabT" role="37wK5m">
-                                <property role="Xl_RC" value="c:\\temp\\fopcfg.xml" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="37vLTw" id="6j4XqQEtabU" role="37vLTJ">
-                        <ref role="3cqZAo" node="6j4XqQEtabI" resolve="cfg" />
-                      </node>
+                    <node concept="3uibUv" id="HtHth2T6lt" role="1tU5fm">
+                      <ref role="3uigEE" to="yuyh:~Configuration" resolve="Configuration" />
                     </node>
                   </node>
                 </node>
@@ -35920,7 +35892,7 @@
                         <ref role="3cqZAo" node="6j4XqQEtabD" resolve="cfgBuilder" />
                       </node>
                       <node concept="liA8E" id="6j4XqQEtabZ" role="2OqNvi">
-                        <ref role="37wK5l" to="t54d:~DefaultConfigurationBuilder.build(java.io.InputStream)" resolve="build" />
+                        <ref role="37wK5l" to="yuyh:~DefaultConfigurationBuilder.build(java.io.InputStream)" resolve="build" />
                         <node concept="2ShNRf" id="6j4XqQEtac0" role="37wK5m">
                           <node concept="1pGfFk" id="6j4XqQEtac1" role="2ShVmc">
                             <ref role="37wK5l" to="guwi:~ByteArrayInputStream.&lt;init&gt;(byte[])" resolve="ByteArrayInputStream" />
@@ -35973,7 +35945,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="1cDMcpHoRrC" role="2OqNvi">
-                        <ref role="37wK5l" to="44b3:~FopFactoryBuilder.setConfiguration(org.apache.avalon.framework.configuration.Configuration)" resolve="setConfiguration" />
+                        <ref role="37wK5l" to="44b3:~FopFactoryBuilder.setConfiguration(org.apache.fop.configuration.Configuration)" resolve="setConfiguration" />
                         <node concept="37vLTw" id="1cDMcpHoRCx" role="37wK5m">
                           <ref role="3cqZAo" node="6j4XqQEtabI" resolve="cfg" />
                         </node>
@@ -35988,7 +35960,7 @@
                       <node concept="37vLTw" id="1cDMcpHob6J" role="2Oq$k0">
                         <ref role="3cqZAo" node="1cDMcpHnZHb" resolve="factoryBuilder" />
                       </node>
-                      <node concept="liA8E" id="1cDMcpHobkX" role="2OqNvi">
+                      <node concept="liA8E" id="HtHth2T8a4" role="2OqNvi">
                         <ref role="37wK5l" to="44b3:~FopFactoryBuilder.build()" resolve="build" />
                       </node>
                     </node>
@@ -36055,34 +36027,11 @@
             <node concept="3clFbH" id="6j4XqQEzz_A" role="3cqZAp" />
             <node concept="3clFbH" id="2m_pdEYHWMi" role="3cqZAp" />
           </node>
-          <node concept="TDmWw" id="6j4XqQEtacp" role="TEbGg">
-            <node concept="3cpWsn" id="6j4XqQEtacq" role="TDEfY">
-              <property role="TrG5h" value="ex" />
-              <node concept="3uibUv" id="6j4XqQEtacr" role="1tU5fm">
-                <ref role="3uigEE" to="44b3:~FOPException" resolve="FOPException" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="6j4XqQEtacs" role="TDEfX">
-              <node concept="YS8fn" id="6j4XqQEtact" role="3cqZAp">
-                <node concept="2ShNRf" id="6j4XqQEtacu" role="YScLw">
-                  <node concept="1pGfFk" id="6j4XqQEtacv" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="Xl_RD" id="6j4XqQEtacw" role="37wK5m">
-                      <property role="Xl_RC" value="Exception while initializing printing utility: " />
-                    </node>
-                    <node concept="37vLTw" id="6j4XqQEtacx" role="37wK5m">
-                      <ref role="3cqZAo" node="6j4XqQEtacq" resolve="ex" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="TDmWw" id="6j4XqQEtacy" role="TEbGg">
             <node concept="3cpWsn" id="6j4XqQEtacz" role="TDEfY">
               <property role="TrG5h" value="ex" />
-              <node concept="3uibUv" id="6j4XqQEtac$" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              <node concept="3uibUv" id="HtHth2T9WM" role="1tU5fm">
+                <ref role="3uigEE" to="yuyh:~ConfigurationException" resolve="ConfigurationException" />
               </node>
             </node>
             <node concept="3clFbS" id="6j4XqQEtac_" role="TDEfX">
@@ -36099,6 +36048,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="HtHth2Ta5T" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -37676,7 +37626,7 @@
                         <node concept="37vLTw" id="6j4XqQEtaf6" role="2Oq$k0">
                           <ref role="3cqZAo" node="6j4XqQEtaex" resolve="fop" />
                         </node>
-                        <node concept="liA8E" id="6j4XqQEtaf7" role="2OqNvi">
+                        <node concept="liA8E" id="HtHth2TccC" role="2OqNvi">
                           <ref role="37wK5l" to="44b3:~Fop.getDefaultHandler()" resolve="getDefaultHandler" />
                         </node>
                       </node>

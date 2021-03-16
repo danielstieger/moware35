@@ -5,38 +5,28 @@
       <sourceRoot path="${module}" />
     </modelRoot>
     <modelRoot contentPath="${module}/jars" type="java_classes">
-      <sourceRoot location="printing21/batik-all-1.8.jar" />
+      <sourceRoot location="basis/slf4j-api-1.7.30.jar" />
       <sourceRoot location="zoo/zookeeper-3.4.5.jar" />
-      <sourceRoot location="printing21/fop.jar" />
-      <sourceRoot location="printing21/xml-apis-1.3.04.jar" />
-      <sourceRoot location="printing21/xml-apis-ext-1.3.04.jar" />
-      <sourceRoot location="printing21/pdfbox-1.8.11.jar" />
-      <sourceRoot location="printing21/avalon-framework-api-4.3.1.jar" />
-      <sourceRoot location="printing21/avalon-framework-impl-4.3.1.jar" />
-      <sourceRoot location="printing21/xmlgraphics-commons-2.1.jar" />
       <sourceRoot location="richclient/mailapi.jar" />
       <sourceRoot location="richclient/smtp.jar" />
       <sourceRoot location="basis/mo-javaxbus-1.0.jar" />
       <sourceRoot location="servletclient/servlet-api.jar" />
+      <sourceRoot location="printing21/batik-all-1.14.jar" />
+      <sourceRoot location="printing21/fop.jar" />
+      <sourceRoot location="printing21/fontbox-2.0.19.jar" />
+      <sourceRoot location="printing21/pdfbox-app-1.8.16.jar" />
+      <sourceRoot location="printing21/serializer-2.7.2.jar" />
+      <sourceRoot location="printing21/xml-apis-1.4.01.jar" />
+      <sourceRoot location="printing21/xml-apis-ext-1.3.04.jar" />
+      <sourceRoot location="printing21/xmlgraphics-commons-2.6.jar" />
+      <sourceRoot location="printing21/xercesImpl-2.12.0.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing21" type="java_classes">
+      <sourceRoot location="avalon-framework-api-4.3.1.jar" />
+      <sourceRoot location="avalon-framework-impl-4.3.1.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/jars/basis/mo-javaxbus-1.0.jar" />
-    <stubModelEntry path="${module}/jars/basis/slf4j-api-1.7.25.jar" />
-    <stubModelEntry path="${module}/jars/printing21/avalon-framework-api-4.3.1.jar" />
-    <stubModelEntry path="${module}/jars/printing21/avalon-framework-impl-4.3.1.jar" />
-    <stubModelEntry path="${module}/jars/printing21/batik-all-1.8.jar" />
-    <stubModelEntry path="${module}/jars/printing21/barcode4j-fop-ext-complete.jar" />
-    <stubModelEntry path="${module}/jars/printing21/commons-io-1.3.1.jar" />
-    <stubModelEntry path="${module}/jars/printing21/fontbox-1.8.5.jar" />
-    <stubModelEntry path="${module}/jars/printing21/fop.jar" />
-    <stubModelEntry path="${module}/jars/printing21/pdfbox-1.8.11.jar" />
-    <stubModelEntry path="${module}/jars/printing21/serializer-2.7.0.jar" />
-    <stubModelEntry path="${module}/jars/printing21/xalan-2.7.2.jar" />
-    <stubModelEntry path="${module}/jars/printing21/xercesImpl-2.9.1.jar" />
-    <stubModelEntry path="${module}/jars/printing21/xml-apis-1.3.04.jar" />
-    <stubModelEntry path="${module}/jars/printing21/xml-apis-ext-1.3.04.jar" />
-    <stubModelEntry path="${module}/jars/printing21/xmlgraphics-commons-2.1.jar" />
     <stubModelEntry path="${module}/jars/richclient/mailapi.jar" />
     <stubModelEntry path="${module}/jars/richclient/ojdbc14.jar" />
     <stubModelEntry path="${module}/jars/richclient/smtp.jar" />
@@ -44,6 +34,22 @@
     <stubModelEntry path="${module}/jars/zoo/zookeeper-3.4.5.jar" />
     <stubModelEntry path="${module}/jars/slf4j-log4j12-1.7.25.jar" />
     <stubModelEntry path="${module}/jars/basis/spring-aop-5.2.9.RELEASE.jar" />
+    <stubModelEntry path="${module}/jars/basis/slf4j-api-1.7.30.jar" />
+    <stubModelEntry path="${module}/jars/basis/mo-javaxbus-1.0.jar" />
+    <stubModelEntry path="${module}/jars/printing21/barcode4j-fop-ext-complete.jar" />
+    <stubModelEntry path="${module}/jars/printing21/commons-io-1.3.1.jar" />
+    <stubModelEntry path="${module}/jars/printing21/fop.jar" />
+    <stubModelEntry path="${module}/jars/printing21/xalan-2.7.2.jar" />
+    <stubModelEntry path="${module}/jars/printing21/xml-apis-ext-1.3.04.jar" />
+    <stubModelEntry path="${module}/jars/printing21/batik-all-1.14.jar" />
+    <stubModelEntry path="${module}/jars/printing21/fontbox-2.0.19.jar" />
+    <stubModelEntry path="${module}/jars/printing21/pdfbox-app-1.8.16.jar" />
+    <stubModelEntry path="${module}/jars/printing21/serializer-2.7.2.jar" />
+    <stubModelEntry path="${module}/jars/printing21/xercesImpl-2.12.0.jar" />
+    <stubModelEntry path="${module}/jars/printing21/xml-apis-1.4.01.jar" />
+    <stubModelEntry path="${module}/jars/printing21/xmlgraphics-commons-2.6.jar" />
+    <stubModelEntry path="${module}/jars/printing21/avalon-framework-api-4.3.1.jar" />
+    <stubModelEntry path="${module}/jars/printing21/avalon-framework-impl-4.3.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
