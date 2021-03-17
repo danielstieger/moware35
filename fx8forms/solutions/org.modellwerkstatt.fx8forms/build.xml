@@ -1,0 +1,54 @@
+<!--
+
+
+ Build.xml: Building FX8 Application with defined environment 
+            obviously, that is not possible always in MPS
+            
+ daniel stieger, spring 2021, koblach
+
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jbr11/Contents/Home
+ export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ 
+-->
+ 
+<project name="FX8Build" default="default">      
+  <!-- **** include files setup **************************************************************** -->
+  <include file="../../../objectflow/assembly/bmoware.xml" as="bmoware"/>
+
+  <property name="genSolution"            value="./source_gen" />
+  <property name="genSolutionCompiled"    value="./classes_gen" />
+    
+  <echo>
+    Run by ${user.name} on Java Home : ${java.home}
+ 	MoWareHomeDir ${mowareHome}; Compiling sources from ${genSolution}
+  </echo>
+
+
+  <target name="default">
+  
+    <path id="master-classpath">
+    	<fileset dir="./jars/richclient">
+    		<include name="*.jar"/>
+  		</fileset>
+  		
+      	<fileset dir="./jars/designtime">
+    		<include name="*.jar"/>
+  		</fileset>
+  
+		<pathelement path="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
+		<pathelement path="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
+		<pathelement path="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen"/>
+		
+	</path>
+  
+  	<javac 	srcdir="${genSolution}"
+    		destdir="${genSolutionCompiled}"
+	        debug="on">
+		<classpath refid="master-classpath"
+		
+		/>
+    </javac>
+    
+  </target>
+</project>

@@ -60,19 +60,36 @@
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.fx8forms.jar" 
          basedir="${mowareHome}/fx8forms/solutions/org.modellwerkstatt.fx8forms/classes_gen"/>
     
-    <!-- <delete includeEmptyDirs="true">
+    <!-- assembly stuff ++ ++ ++ ++ ++ ++ ++ ++ ++ -->
+    <delete includeEmptyDirs="true">
   		<fileset dir="${mowarePluginHomeDir}/ofassembly/artefact/" includes="**/*" defaultexcludes="no"/>
-	</delete> -->
+	</delete>
     <copy todir="${mowarePluginHomeDir}/ofassembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/objectflow/assembly/artefact/"/>
   	</copy>
   	
-    <!-- <delete includeEmptyDirs="true">
+    <delete includeEmptyDirs="true">
   		<fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/" includes="**/*" defaultexcludes="no"/>
-	</delete> -->
+	</delete>
   	<copy todir="${mowarePluginHomeDir}/h2assembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/h2forms/assembly/artefact/"/>
   	</copy>
+  	 
+  	 
+  	<!-- JARS and dependencies ++ ++ ++ ++ ++ ++ ++ --> 
+    <delete includeEmptyDirs="true">
+  		<fileset dir="${mowarePluginHomeDir}/jars/" includes="**/*" defaultexcludes="no"/>
+	</delete>
+  	<copy todir="${mowarePluginHomeDir}/jars/basis/" overwrite="true" >
+    	<fileset dir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/jars"/>
+  	</copy>
+  	<copy todir="${mowarePluginHomeDir}/jars/" overwrite="true" >
+    	<fileset dir="${mowareHome}/objectflow/solutions/sandbox/jars"/>
+    	<fileset dir="${mowareHome}/fx8forms/solutions/org.modellwerkstatt.fx8forms/jars"/>
+    	<fileset dir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/jars"/>
+    	<fileset dir="${mowareHome}/h2forms/languages/org.modellwerkstatt.h2forms/runtime/jars"/>    	
+  	</copy>
+  	 
   	        
   	        
   </target>

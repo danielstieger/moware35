@@ -2,18 +2,12 @@
 
 
  Build.xml: Building an mde application with h2forms 
-            based on moware plugin R5
+            based on moware plugin 11
             
- daniel stieger, summer 2016, dornbirn
+ daniel stieger, spring 2021, koblach
 
  
- 
- 
- set JAVA_HOME=c:\javaexe\MPS324\jre
- set PATH=%PATH%;c:\javaexe\ant_MPS25\bin
- 
- 
- export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jbr11/Contents/Home
  export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
  
 -->

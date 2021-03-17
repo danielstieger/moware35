@@ -2,7 +2,7 @@
 <model ref="r:1ca663a3-2346-4fa2-9ad3-d25e686c2107(org.modellwerkstatt.h2forms.tools)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -117,11 +117,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -133,6 +130,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -235,23 +240,136 @@
         </node>
         <node concept="3clFbH" id="5nND$KhTiK5" role="3cqZAp" />
         <node concept="3SKdUt" id="5nND$KhTjw1" role="3cqZAp">
-          <node concept="3SKdUq" id="5nND$KhTj_H" role="3SKWNk">
-            <property role="3SKdUp" value="Dan 7. Oct 2014" />
+          <node concept="1PaTwC" id="7BkDWLyCkjg" role="3ndbpf">
+            <node concept="3oM_SD" id="7BkDWLyCkjh" role="1PaTwD">
+              <property role="3oM_SC" value="Dan" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkji" role="1PaTwD">
+              <property role="3oM_SC" value="7." />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjj" role="1PaTwD">
+              <property role="3oM_SC" value="Oct" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjk" role="1PaTwD">
+              <property role="3oM_SC" value="2014" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5nND$KhTj0D" role="3cqZAp">
-          <node concept="3SKdUq" id="5nND$KhTjbv" role="3SKWNk">
-            <property role="3SKdUp" value="Start the oracle OracleTimeoutPollingThread by loading OracleTimeoutThreadPerVM" />
+          <node concept="1PaTwC" id="7BkDWLyCkjl" role="3ndbpf">
+            <node concept="3oM_SD" id="7BkDWLyCkjm" role="1PaTwD">
+              <property role="3oM_SC" value="Start" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjn" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjo" role="1PaTwD">
+              <property role="3oM_SC" value="oracle" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjp" role="1PaTwD">
+              <property role="3oM_SC" value="OracleTimeoutPollingThread" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjq" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjr" role="1PaTwD">
+              <property role="3oM_SC" value="loading" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjs" role="1PaTwD">
+              <property role="3oM_SC" value="OracleTimeoutThreadPerVM" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5nND$KhTjPT" role="3cqZAp">
-          <node concept="3SKdUq" id="5nND$KhTjVB" role="3SKWNk">
-            <property role="3SKdUp" value="where that Thread get s initialized as watchdog. Class is loaded with system Classloader," />
+          <node concept="1PaTwC" id="7BkDWLyCkjt" role="3ndbpf">
+            <node concept="3oM_SD" id="7BkDWLyCkju" role="1PaTwD">
+              <property role="3oM_SC" value="where" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjv" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjw" role="1PaTwD">
+              <property role="3oM_SC" value="Thread" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjx" role="1PaTwD">
+              <property role="3oM_SC" value="get" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjy" role="1PaTwD">
+              <property role="3oM_SC" value="s" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjz" role="1PaTwD">
+              <property role="3oM_SC" value="initialized" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkj$" role="1PaTwD">
+              <property role="3oM_SC" value="as" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkj_" role="1PaTwD">
+              <property role="3oM_SC" value="watchdog." />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjA" role="1PaTwD">
+              <property role="3oM_SC" value="Class" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjB" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjC" role="1PaTwD">
+              <property role="3oM_SC" value="loaded" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjD" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjE" role="1PaTwD">
+              <property role="3oM_SC" value="system" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjF" role="1PaTwD">
+              <property role="3oM_SC" value="Classloader," />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5nND$KhTkfl" role="3cqZAp">
-          <node concept="3SKdUq" id="5nND$KhTkl5" role="3SKWNk">
-            <property role="3SKdUp" value="howerver, threads seems to be in servlet context. So do not unload this servlet." />
+          <node concept="1PaTwC" id="7BkDWLyCkjG" role="3ndbpf">
+            <node concept="3oM_SD" id="7BkDWLyCkjH" role="1PaTwD">
+              <property role="3oM_SC" value="howerver," />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjI" role="1PaTwD">
+              <property role="3oM_SC" value="threads" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjJ" role="1PaTwD">
+              <property role="3oM_SC" value="seems" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjK" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjL" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjM" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjN" role="1PaTwD">
+              <property role="3oM_SC" value="servlet" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjO" role="1PaTwD">
+              <property role="3oM_SC" value="context." />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjP" role="1PaTwD">
+              <property role="3oM_SC" value="So" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjQ" role="1PaTwD">
+              <property role="3oM_SC" value="do" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjR" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjS" role="1PaTwD">
+              <property role="3oM_SC" value="unload" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjT" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="7BkDWLyCkjU" role="1PaTwD">
+              <property role="3oM_SC" value="servlet." />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="5nND$KhTko_" role="3cqZAp" />
@@ -291,13 +409,59 @@
             </node>
             <node concept="3clFbH" id="5nND$KhiEc8" role="3cqZAp" />
             <node concept="3SKdUt" id="5nND$KhiE2G" role="3cqZAp">
-              <node concept="3SKdUq" id="5nND$KhiE2F" role="3SKWNk">
-                <property role="3SKdUp" value="Cause oracle.jdbc.driver.OracleTimeoutPollingThread to be started with contextClassLoader = system classloader" />
+              <node concept="1PaTwC" id="7BkDWLyCkjV" role="3ndbpf">
+                <node concept="3oM_SD" id="7BkDWLyCkjW" role="1PaTwD">
+                  <property role="3oM_SC" value="Cause" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkjX" role="1PaTwD">
+                  <property role="3oM_SC" value="oracle.jdbc.driver.OracleTimeoutPollingThread" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkjY" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkjZ" role="1PaTwD">
+                  <property role="3oM_SC" value="be" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk0" role="1PaTwD">
+                  <property role="3oM_SC" value="started" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk1" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk2" role="1PaTwD">
+                  <property role="3oM_SC" value="contextClassLoader" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk3" role="1PaTwD">
+                  <property role="3oM_SC" value="=" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk4" role="1PaTwD">
+                  <property role="3oM_SC" value="system" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk5" role="1PaTwD">
+                  <property role="3oM_SC" value="classloader" />
+                </node>
               </node>
             </node>
             <node concept="3SKdUt" id="5nND$KhiE2I" role="3cqZAp">
-              <node concept="3SKdUq" id="5nND$KhiE2H" role="3SKWNk">
-                <property role="3SKdUp" value="Ignore silently - class not present" />
+              <node concept="1PaTwC" id="7BkDWLyCkk6" role="3ndbpf">
+                <node concept="3oM_SD" id="7BkDWLyCkk7" role="1PaTwD">
+                  <property role="3oM_SC" value="Ignore" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk8" role="1PaTwD">
+                  <property role="3oM_SC" value="silently" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkk9" role="1PaTwD">
+                  <property role="3oM_SC" value="-" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkka" role="1PaTwD">
+                  <property role="3oM_SC" value="class" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkkb" role="1PaTwD">
+                  <property role="3oM_SC" value="not" />
+                </node>
+                <node concept="3oM_SD" id="7BkDWLyCkkc" role="1PaTwD">
+                  <property role="3oM_SC" value="present" />
+                </node>
               </node>
             </node>
             <node concept="SfApY" id="5nND$KhiE2D" role="3cqZAp">

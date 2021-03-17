@@ -117,7 +117,7 @@
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.jar" />
 				
 			
-			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
 			<fileset dir="${mowarePluginHomeDir}/jars/printing21" includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/servletclient" includes="*pebble*.jar" />
 
