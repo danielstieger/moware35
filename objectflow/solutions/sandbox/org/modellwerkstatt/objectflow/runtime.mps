@@ -31808,7 +31808,7 @@
       <node concept="3clFbS" id="4ChE6YfeL46" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1nLGXVr3Di9" role="jymVt">
-      <property role="TrG5h" value="isTransientInSession" />
+      <property role="TrG5h" value="isNewInSession" />
       <node concept="10P_77" id="1nLGXVr3Dia" role="3clF45" />
       <node concept="3Tm1VV" id="1nLGXVr3Dib" role="1B3o_S" />
       <node concept="3clFbS" id="1nLGXVr3Dic" role="3clF47" />
