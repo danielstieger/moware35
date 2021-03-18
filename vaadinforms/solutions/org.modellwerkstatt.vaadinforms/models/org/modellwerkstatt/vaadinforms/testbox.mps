@@ -2,8 +2,8 @@
 <model ref="r:a2878371-fe1b-4b33-8e05-f3eb08a33a2e(org.modellwerkstatt.vaadinforms.testbox)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
   </languages>
   <imports>
     <import index="tk4x" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.server(org.modellwerkstatt.vaadinforms/)" />
@@ -175,11 +175,8 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -201,6 +198,14 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -1076,8 +1081,49 @@
         </node>
         <node concept="3clFbH" id="2rVYvNSsAgH" role="3cqZAp" />
         <node concept="3SKdUt" id="2rVYvNSmaY8" role="3cqZAp">
-          <node concept="3SKdUq" id="2rVYvNSmbLj" role="3SKWNk">
-            <property role="3SKdUp" value="install crtl space the first time. do not uninstall - done in gc clean? " />
+          <node concept="1PaTwC" id="1cdRHvewWwI" role="3ndbpf">
+            <node concept="3oM_SD" id="1cdRHvewWwJ" role="1PaTwD">
+              <property role="3oM_SC" value="install" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwK" role="1PaTwD">
+              <property role="3oM_SC" value="crtl" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwL" role="1PaTwD">
+              <property role="3oM_SC" value="space" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwM" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwN" role="1PaTwD">
+              <property role="3oM_SC" value="first" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwO" role="1PaTwD">
+              <property role="3oM_SC" value="time." />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwP" role="1PaTwD">
+              <property role="3oM_SC" value="do" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwQ" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwR" role="1PaTwD">
+              <property role="3oM_SC" value="uninstall" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwS" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwT" role="1PaTwD">
+              <property role="3oM_SC" value="done" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwU" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwV" role="1PaTwD">
+              <property role="3oM_SC" value="gc" />
+            </node>
+            <node concept="3oM_SD" id="1cdRHvewWwW" role="1PaTwD">
+              <property role="3oM_SC" value="clean?" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3$oJQSEwz1s" role="3cqZAp">

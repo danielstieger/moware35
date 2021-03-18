@@ -14485,10 +14485,9 @@
         </node>
         <node concept="2pNUuL" id="40MBoadtoHw" role="2pNNFR">
           <property role="2pNUuO" value="xsi:schemaLocation" />
-          <node concept="2pMdtt" id="40MBoadtoOd" role="2pMdts">
+          <node concept="2pMdtt" id="40MBoadtoO$" role="2pMdts">
             <property role="2pMdty" value="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd" />
           </node>
-          <node concept="2pMdtt" id="40MBoadtoO$" role="2pMdts" />
         </node>
         <node concept="2pNNFK" id="1kXdN7zx7uG" role="3o6s8t">
           <property role="2pNNFO" value="bean" />
