@@ -67,11 +67,19 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
         <property id="8606350594693632173" name="isTransient" index="eg7rD" />
         <property id="1240249534625" name="isVolatile" index="34CwA1" />
@@ -130,6 +138,9 @@
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -252,8 +263,8 @@
     <node concept="312cEg" id="6EKawaqkqdx" role="jymVt">
       <property role="TrG5h" value="uiFactory" />
       <node concept="3Tm6S6" id="6EKawaqkqdy" role="1B3o_S" />
-      <node concept="3uibUv" id="6EKawaqkqgC" role="1tU5fm">
-        <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
+      <node concept="3uibUv" id="67UePi1zQiz" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
       </node>
       <node concept="2AHcQZ" id="6EKawaqkqxi" role="2AJF6D">
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
@@ -263,48 +274,76 @@
     <node concept="2vDG_T" id="6EKawaqkpSj" role="jymVt">
       <property role="TrG5h" value="getADynLockInstance" />
       <node concept="3clFbS" id="6EKawaqkpSm" role="3clF47">
-        <node concept="3cpWs8" id="6EKawaqDbwy" role="3cqZAp">
-          <node concept="3cpWsn" id="6EKawaqDbwz" role="3cpWs9">
-            <property role="TrG5h" value="l" />
-            <node concept="3uibUv" id="6EKawaqDbw$" role="1tU5fm">
-              <ref role="3uigEE" node="6EKawaqkpX2" resolve="ImplDynLockQuery" />
-            </node>
-            <node concept="2ShNRf" id="6EKawaqDbx_" role="33vP2m">
-              <node concept="1pGfFk" id="6EKawaqDbxx" role="2ShVmc">
-                <ref role="37wK5l" node="6EKawaqkq2r" resolve="ImplDynLockQuery" />
-                <node concept="37vLTw" id="6EKawaqDby_" role="37wK5m">
-                  <ref role="3cqZAo" node="6EKawaqkqdx" resolve="uiFactory" />
-                </node>
-                <node concept="2OqwBi" id="_R35BR0kOG" role="37wK5m">
-                  <node concept="2OqwBi" id="_R35BR0kOH" role="2Oq$k0">
-                    <node concept="3y28L$" id="_R35BR0kOI" role="2Oq$k0" />
-                    <node concept="liA8E" id="_R35BR0kOJ" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+        <node concept="3clFbJ" id="ga8T4x7imX" role="3cqZAp">
+          <node concept="3clFbS" id="ga8T4x7imZ" role="3clFbx">
+            <node concept="3cpWs6" id="ga8T4x7iJU" role="3cqZAp">
+              <node concept="2ShNRf" id="6EKawaqDbx_" role="3cqZAk">
+                <node concept="1pGfFk" id="6EKawaqDbxx" role="2ShVmc">
+                  <ref role="37wK5l" node="6EKawaqkq2r" resolve="ImplDynLockQuery" />
+                  <node concept="1eOMI4" id="67UePi1zQtc" role="37wK5m">
+                    <node concept="10QFUN" id="67UePi1zQt9" role="1eOMHV">
+                      <node concept="3uibUv" id="67UePi1zQte" role="10QFUM">
+                        <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
+                      </node>
+                      <node concept="37vLTw" id="67UePi1zQti" role="10QFUP">
+                        <ref role="3cqZAo" node="6EKawaqkqdx" resolve="uiFactory" />
+                      </node>
                     </node>
                   </node>
-                  <node concept="liA8E" id="_R35BR0kOK" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="_R35BR0kOL" role="37wK5m">
-                  <node concept="2OqwBi" id="_R35BR0kOM" role="2Oq$k0">
-                    <node concept="3y28L$" id="_R35BR0kON" role="2Oq$k0" />
-                    <node concept="liA8E" id="_R35BR0kOO" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                  <node concept="2OqwBi" id="_R35BR0kOG" role="37wK5m">
+                    <node concept="2OqwBi" id="_R35BR0kOH" role="2Oq$k0">
+                      <node concept="3y28L$" id="_R35BR0kOI" role="2Oq$k0" />
+                      <node concept="liA8E" id="_R35BR0kOJ" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="_R35BR0kOK" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="_R35BR0kOP" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:6lA5DXSRyEy" resolve="getDeviceName" />
+                  <node concept="2OqwBi" id="_R35BR0kOL" role="37wK5m">
+                    <node concept="2OqwBi" id="_R35BR0kOM" role="2Oq$k0">
+                      <node concept="3y28L$" id="_R35BR0kON" role="2Oq$k0" />
+                      <node concept="liA8E" id="_R35BR0kOO" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="_R35BR0kOP" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:6lA5DXSRyEy" resolve="getDeviceName" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+          <node concept="2ZW3vV" id="ga8T4x7iC9" role="3clFbw">
+            <node concept="3uibUv" id="ga8T4x7iJl" role="2ZW6by">
+              <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
+            </node>
+            <node concept="37vLTw" id="ga8T4x7itj" role="2ZW6bz">
+              <ref role="3cqZAo" node="6EKawaqkqdx" resolve="uiFactory" />
+            </node>
+          </node>
         </node>
-        <node concept="3clFbH" id="2v2KE8FA9BX" role="3cqZAp" />
-        <node concept="3cpWs6" id="6EKawaqDbSn" role="3cqZAp">
-          <node concept="37vLTw" id="_R35BQETcr" role="3cqZAk">
-            <ref role="3cqZAo" node="6EKawaqDbwz" resolve="l" />
+        <node concept="3clFbH" id="ga8T4x7qfQ" role="3cqZAp" />
+        <node concept="YS8fn" id="ga8T4x7j9U" role="3cqZAp">
+          <node concept="2ShNRf" id="ga8T4x7jau" role="YScLw">
+            <node concept="1pGfFk" id="ga8T4x7prJ" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="3cpWs3" id="ga8T4x7qe5" role="37wK5m">
+                <node concept="Xl_RD" id="ga8T4x7qep" role="3uHU7w">
+                  <property role="Xl_RC" value=" instead." />
+                </node>
+                <node concept="3cpWs3" id="ga8T4x7pYg" role="3uHU7B">
+                  <node concept="Xl_RD" id="ga8T4x7puV" role="3uHU7B">
+                    <property role="Xl_RC" value="In order to get a dynLockInstance, connection to EventBus via IToolkit_UiFactory is needed. But we have a " />
+                  </node>
+                  <node concept="37vLTw" id="ga8T4x7pZs" role="3uHU7w">
+                    <ref role="3cqZAo" node="6EKawaqkqdx" resolve="uiFactory" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
