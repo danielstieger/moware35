@@ -2,7 +2,6 @@
 <model ref="r:5fa46c85-bd47-4c0b-8a07-c68ea9dc95fc(org.modellwerkstatt.dataux.runtime.services)">
   <persistence version="9" />
   <languages>
-    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
@@ -10,9 +9,7 @@
   </languages>
   <imports>
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
-    <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.runtime/)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
-    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="vpat" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:mjson(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="ybfw" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.modellwerkstatt.javaxbus(org.modellwerkstatt.objectflow.runtime/)" />
@@ -29,16 +26,6 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
-        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-      </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
-        <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1153952380246" name="jetbrains.mps.baseLanguage.structure.TryStatement" flags="nn" index="2GUZhq">
-        <child id="1153952416686" name="body" index="2GV8ay" />
-        <child id="1153952429843" name="finallyBody" index="2GVbov" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -67,19 +54,11 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
-      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
-        <child id="1081256993305" name="classType" index="2ZW6by" />
-        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
-      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
-        <child id="1070534934091" name="type" index="10QFUM" />
-        <child id="1070534934092" name="expression" index="10QFUP" />
-      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
         <property id="8606350594693632173" name="isTransient" index="eg7rD" />
         <property id="1240249534625" name="isVolatile" index="34CwA1" />
@@ -138,9 +117,6 @@
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
-        <child id="1079359253376" name="expression" index="1eOMHV" />
-      </concept>
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -187,27 +163,6 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
-    <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
-        <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
-      </concept>
-      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
-        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
-      </concept>
-      <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
-        <child id="5788629615582331966" name="problem" index="lgxf9" />
-      </concept>
-      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Precondition" flags="ng" index="mlg3r">
-        <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
-      </concept>
-      <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T" />
-      <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
-      <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
-        <child id="4986415014450757612" name="formatString" index="icr7_" />
-        <child id="3585259589780682365" name="arguments" index="35Gt3$" />
-      </concept>
-      <concept id="594565203027877250" name="org.modellwerkstatt.objectflow.structure.Session" flags="ng" index="3y28L$" />
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
@@ -235,14 +190,9 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
-      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
-        <child id="1237721435808" name="initValue" index="HW$Y0" />
-        <child id="1237721435807" name="elementType" index="HW$YZ" />
-      </concept>
       <concept id="1201306600024" name="jetbrains.mps.baseLanguage.collections.structure.ContainsKeyOperation" flags="nn" index="2Nt0df">
         <child id="1201654602639" name="key" index="38cxEo" />
       </concept>
-      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1201872418428" name="jetbrains.mps.baseLanguage.collections.structure.GetKeysOperation" flags="nn" index="3lbrtF" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
@@ -258,333 +208,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="2EH5hC" id="6EKawaqkpQO">
-    <property role="TrG5h" value="DynLockService" />
-    <node concept="312cEg" id="6EKawaqkqdx" role="jymVt">
-      <property role="TrG5h" value="uiFactory" />
-      <node concept="3Tm6S6" id="6EKawaqkqdy" role="1B3o_S" />
-      <node concept="3uibUv" id="67UePi1zQiz" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
-      </node>
-      <node concept="2AHcQZ" id="6EKawaqkqxi" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6EKawaqkpRN" role="jymVt" />
-    <node concept="2vDG_T" id="6EKawaqkpSj" role="jymVt">
-      <property role="TrG5h" value="getADynLockInstance" />
-      <node concept="3clFbS" id="6EKawaqkpSm" role="3clF47">
-        <node concept="3clFbJ" id="ga8T4x7imX" role="3cqZAp">
-          <node concept="3clFbS" id="ga8T4x7imZ" role="3clFbx">
-            <node concept="3cpWs6" id="ga8T4x7iJU" role="3cqZAp">
-              <node concept="2ShNRf" id="6EKawaqDbx_" role="3cqZAk">
-                <node concept="1pGfFk" id="6EKawaqDbxx" role="2ShVmc">
-                  <ref role="37wK5l" node="6EKawaqkq2r" resolve="ImplDynLockQuery" />
-                  <node concept="1eOMI4" id="67UePi1zQtc" role="37wK5m">
-                    <node concept="10QFUN" id="67UePi1zQt9" role="1eOMHV">
-                      <node concept="3uibUv" id="67UePi1zQte" role="10QFUM">
-                        <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
-                      </node>
-                      <node concept="37vLTw" id="67UePi1zQti" role="10QFUP">
-                        <ref role="3cqZAo" node="6EKawaqkqdx" resolve="uiFactory" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="_R35BR0kOG" role="37wK5m">
-                    <node concept="2OqwBi" id="_R35BR0kOH" role="2Oq$k0">
-                      <node concept="3y28L$" id="_R35BR0kOI" role="2Oq$k0" />
-                      <node concept="liA8E" id="_R35BR0kOJ" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="_R35BR0kOK" role="2OqNvi">
-                      <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="_R35BR0kOL" role="37wK5m">
-                    <node concept="2OqwBi" id="_R35BR0kOM" role="2Oq$k0">
-                      <node concept="3y28L$" id="_R35BR0kON" role="2Oq$k0" />
-                      <node concept="liA8E" id="_R35BR0kOO" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="_R35BR0kOP" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:6lA5DXSRyEy" resolve="getDeviceName" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2ZW3vV" id="ga8T4x7iC9" role="3clFbw">
-            <node concept="3uibUv" id="ga8T4x7iJl" role="2ZW6by">
-              <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
-            </node>
-            <node concept="37vLTw" id="ga8T4x7itj" role="2ZW6bz">
-              <ref role="3cqZAo" node="6EKawaqkqdx" resolve="uiFactory" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="ga8T4x7qfQ" role="3cqZAp" />
-        <node concept="YS8fn" id="ga8T4x7j9U" role="3cqZAp">
-          <node concept="2ShNRf" id="ga8T4x7jau" role="YScLw">
-            <node concept="1pGfFk" id="ga8T4x7prJ" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="3cpWs3" id="ga8T4x7qe5" role="37wK5m">
-                <node concept="Xl_RD" id="ga8T4x7qep" role="3uHU7w">
-                  <property role="Xl_RC" value=" instead." />
-                </node>
-                <node concept="3cpWs3" id="ga8T4x7pYg" role="3uHU7B">
-                  <node concept="Xl_RD" id="ga8T4x7puV" role="3uHU7B">
-                    <property role="Xl_RC" value="In order to get a dynLockInstance, connection to EventBus via IToolkit_UiFactory is needed. But we have a " />
-                  </node>
-                  <node concept="37vLTw" id="ga8T4x7pZs" role="3uHU7w">
-                    <ref role="3cqZAo" node="6EKawaqkqdx" resolve="uiFactory" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3uibUv" id="_R35BQESON" role="3clF45">
-        <ref role="3uigEE" node="_R35BQEeSd" resolve="DynLockStateHolder" />
-      </node>
-      <node concept="3Tm1VV" id="6EKawaqkpSt" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="_R35BQETmh" role="jymVt" />
-    <node concept="2vDG_T" id="_R35BQETv1" role="jymVt">
-      <property role="TrG5h" value="usageExampleFor" />
-      <node concept="3clFbS" id="_R35BQETv4" role="3clF47">
-        <node concept="3clFbH" id="_R35BQETv5" role="3cqZAp" />
-        <node concept="3cpWs8" id="_R35BQETH7" role="3cqZAp">
-          <node concept="3cpWsn" id="_R35BQETHa" role="3cpWs9">
-            <property role="TrG5h" value="finanzberichtLockName" />
-            <node concept="17QB3L" id="_R35BQETH5" role="1tU5fm" />
-            <node concept="3cpWs3" id="_R35BQETKY" role="33vP2m">
-              <node concept="3cmrfG" id="_R35BQETMd" role="3uHU7w">
-                <property role="3cmrfH" value="4711" />
-              </node>
-              <node concept="Xl_RD" id="_R35BQETIx" role="3uHU7B">
-                <property role="Xl_RC" value="finanzbericht_" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="_R35BQETQG" role="3cqZAp">
-          <node concept="3cpWsn" id="_R35BQETQH" role="3cpWs9">
-            <property role="TrG5h" value="state" />
-            <node concept="3uibUv" id="_R35BQETQI" role="1tU5fm">
-              <ref role="3uigEE" node="_R35BQEeSd" resolve="DynLockStateHolder" />
-            </node>
-            <node concept="1odsa" id="_R35BQETRT" role="33vP2m">
-              <ref role="37wK5l" node="6EKawaqkpSj" resolve="getADynLockInstance" />
-              <ref role="1ods_" node="6EKawaqkpQO" resolve="DynLockService" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="_R35BR0n3h" role="3cqZAp" />
-        <node concept="2GUZhq" id="_R35BR0aN9" role="3cqZAp">
-          <node concept="3clFbS" id="_R35BR0aGd" role="2GV8ay">
-            <node concept="3clFbF" id="_R35BR0maW" role="3cqZAp">
-              <node concept="2OqwBi" id="_R35BR0md9" role="3clFbG">
-                <node concept="37vLTw" id="_R35BR0maU" role="2Oq$k0">
-                  <ref role="3cqZAo" node="_R35BQETQH" resolve="state" />
-                </node>
-                <node concept="liA8E" id="_R35BR0meS" role="2OqNvi">
-                  <ref role="37wK5l" node="_R35BR0bfC" resolve="requestLocks" />
-                  <node concept="2ShNRf" id="_R35BR0muu" role="37wK5m">
-                    <node concept="Tc6Ow" id="_R35BR0mG_" role="2ShVmc">
-                      <node concept="17QB3L" id="_R35BR0mRG" role="HW$YZ" />
-                      <node concept="37vLTw" id="_R35BR0mTI" role="HW$Y0">
-                        <ref role="3cqZAo" node="_R35BQETHa" resolve="finanzberichtLockName" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="_R35BR0m8K" role="3cqZAp" />
-            <node concept="3SKdUt" id="_R35BQEU0Z" role="3cqZAp">
-              <node concept="1PaTwC" id="5HvIBdJXI_k" role="3ndbpf">
-                <node concept="3oM_SD" id="5HvIBdJXI_l" role="1PaTwD">
-                  <property role="3oM_SC" value="slow" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_m" role="1PaTwD">
-                  <property role="3oM_SC" value="running" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_n" role="1PaTwD">
-                  <property role="3oM_SC" value="DB" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_o" role="1PaTwD">
-                  <property role="3oM_SC" value="code" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_p" role="1PaTwD">
-                  <property role="3oM_SC" value="here.." />
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="_R35BQEU1Z" role="3cqZAp">
-              <node concept="1PaTwC" id="5HvIBdJXI_q" role="3ndbpf">
-                <node concept="3oM_SD" id="5HvIBdJXI_r" role="1PaTwD">
-                  <property role="3oM_SC" value="#SomeRepo.findAllRelevantBelege()" />
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="_R35BQEU31" role="3cqZAp">
-              <node concept="1PaTwC" id="5HvIBdJXI_s" role="3ndbpf">
-                <node concept="3oM_SD" id="5HvIBdJXI_t" role="1PaTwD">
-                  <property role="3oM_SC" value="for" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_u" role="1PaTwD">
-                  <property role="3oM_SC" value="()" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_v" role="1PaTwD">
-                  <property role="3oM_SC" value="...." />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_w" role="1PaTwD">
-                  <property role="3oM_SC" value="wire" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_x" role="1PaTwD">
-                  <property role="3oM_SC" value="up" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_y" role="1PaTwD">
-                  <property role="3oM_SC" value="domain" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_z" role="1PaTwD">
-                  <property role="3oM_SC" value="model" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_$" role="1PaTwD">
-                  <property role="3oM_SC" value="with" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI__" role="1PaTwD">
-                  <property role="3oM_SC" value="some" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_A" role="1PaTwD">
-                  <property role="3oM_SC" value="refs" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_B" role="1PaTwD">
-                  <property role="3oM_SC" value="etc." />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_C" role="1PaTwD">
-                  <property role="3oM_SC" value="etc." />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="_R35BQETv9" role="3cqZAp" />
-            <node concept="3SKdUt" id="_R35BQEUcP" role="3cqZAp">
-              <node concept="1PaTwC" id="5HvIBdJXI_D" role="3ndbpf">
-                <node concept="3oM_SD" id="5HvIBdJXI_E" role="1PaTwD">
-                  <property role="3oM_SC" value="before" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_F" role="1PaTwD">
-                  <property role="3oM_SC" value="doing" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_G" role="1PaTwD">
-                  <property role="3oM_SC" value="a" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_H" role="1PaTwD">
-                  <property role="3oM_SC" value="done," />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_I" role="1PaTwD">
-                  <property role="3oM_SC" value="check" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_J" role="1PaTwD">
-                  <property role="3oM_SC" value="locks" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXI_K" role="1PaTwD">
-                  <property role="3oM_SC" value="..." />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="_R35BQEUaO" role="3cqZAp" />
-            <node concept="3clFbF" id="_R35BQEUm1" role="3cqZAp">
-              <node concept="2OqwBi" id="_R35BQEUod" role="3clFbG">
-                <node concept="37vLTw" id="_R35BQEUlZ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="_R35BQETQH" resolve="state" />
-                </node>
-                <node concept="liA8E" id="_R35BQEUpn" role="2OqNvi">
-                  <ref role="37wK5l" node="_R35BQEeTb" resolve="ensureLocksReceived" />
-                  <node concept="3cmrfG" id="_R35BQEUqo" role="37wK5m">
-                    <property role="3cmrfH" value="800" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="3$mXxR7hzqu" role="3cqZAp" />
-            <node concept="3clFbJ" id="_R35BQEUh7" role="3cqZAp">
-              <node concept="3clFbS" id="_R35BQEUh9" role="3clFbx">
-                <node concept="mlg3r" id="_R35BQEUvR" role="3cqZAp">
-                  <node concept="lgADV" id="_R35BQEUvU" role="mlgNH">
-                    <node concept="35AVbj" id="_R35BQEUvV" role="lgxf9">
-                      <node concept="37vLTw" id="_R35BQEUBx" role="35Gt3$">
-                        <ref role="3cqZAo" node="_R35BQETHa" resolve="finanzberichtLockName" />
-                      </node>
-                      <node concept="2OqwBi" id="_R35BQEUzW" role="35Gt3$">
-                        <node concept="37vLTw" id="_R35BQEUyM" role="2Oq$k0">
-                          <ref role="3cqZAo" node="_R35BQETQH" resolve="state" />
-                        </node>
-                        <node concept="liA8E" id="_R35BQEU_d" role="2OqNvi">
-                          <ref role="37wK5l" node="_R35BQEeYv" resolve="firstUserHoldingALock" />
-                        </node>
-                      </node>
-                      <node concept="ic4WF" id="_R35BQEUvW" role="icr7_">
-                        <property role="ic4Xk" value="Lock %s not granted, it is locked by user %s" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="_R35BQEUs$" role="3clFbw">
-                <node concept="37vLTw" id="_R35BQEUr8" role="2Oq$k0">
-                  <ref role="3cqZAo" node="_R35BQETQH" resolve="state" />
-                </node>
-                <node concept="liA8E" id="_R35BQEUu5" role="2OqNvi">
-                  <ref role="37wK5l" node="_R35BQEeV5" resolve="anyLockNotGranted" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="_R35BR0aGc" role="3cqZAp" />
-          </node>
-          <node concept="3clFbS" id="_R35BR0aNc" role="2GVbov">
-            <node concept="3clFbF" id="_R35BR0b2F" role="3cqZAp">
-              <node concept="2OqwBi" id="_R35BR0b4l" role="3clFbG">
-                <node concept="37vLTw" id="_R35BR0b2E" role="2Oq$k0">
-                  <ref role="3cqZAo" node="_R35BQETQH" resolve="state" />
-                </node>
-                <node concept="liA8E" id="_R35BR0mW0" role="2OqNvi">
-                  <ref role="37wK5l" node="_R35BR0bbr" resolve="close" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="_R35BQEUIe" role="3cqZAp">
-          <node concept="1PaTwC" id="5HvIBdJXI_L" role="3ndbpf">
-            <node concept="3oM_SD" id="5HvIBdJXI_M" role="1PaTwD">
-              <property role="3oM_SC" value="" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXI_N" role="1PaTwD">
-              <property role="3oM_SC" value="else" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXI_O" role="1PaTwD">
-              <property role="3oM_SC" value="do" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXI_P" role="1PaTwD">
-              <property role="3oM_SC" value="a" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXI_Q" role="1PaTwD">
-              <property role="3oM_SC" value="done." />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3cqZAl" id="_R35BQETva" role="3clF45" />
-      <node concept="3Tm1VV" id="_R35BQETvb" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="_R35BQETrS" role="jymVt" />
-    <node concept="3Tm1VV" id="6EKawaqkpQP" role="1B3o_S" />
-  </node>
   <node concept="3HP615" id="_R35BQEeSd">
     <property role="TrG5h" value="DynLockStateHolder" />
     <node concept="2tJIrI" id="_R35BQEeSz" role="jymVt" />
