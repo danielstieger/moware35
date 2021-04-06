@@ -22,9 +22,8 @@ code generators and runtime environments are developed within MPS. Thus, all asp
 explorable, understandable and changeable. 
 
 ```
-This is the moware mini branch
+This is the moware 11 branch
 
-The mini is compatible to moware 2020 npc.  
 ```
 
 More information is provided at http://www.modellwerkstatt.org
