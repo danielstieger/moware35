@@ -22191,25 +22191,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="2_YacpKI1GA" role="3cqZAp">
-                <node concept="37vLTI" id="2_YacpKI1Y5" role="3clFbG">
-                  <node concept="37vLTw" id="2_YacpKI1G$" role="37vLTJ">
-                    <ref role="3cqZAo" node="SQhsWRQ594" resolve="currentProblems" />
-                  </node>
-                  <node concept="2YIFZM" id="1Ph7gH2WumP" role="37vLTx">
-                    <ref role="1Pybhc" to="28jr:7ymmWYJjVRz" resolve="Workarounds2" />
-                    <ref role="37wK5l" to="28jr:1Ph7gH2Tqxw" resolve="legacyToProblem" />
-                    <node concept="2OqwBi" id="1Ph7gH2WuSy" role="37wK5m">
-                      <node concept="37vLTw" id="1Ph7gH2WuDp" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3g5RX4qXKJj" resolve="ex" />
-                      </node>
-                      <node concept="liA8E" id="1Ph7gH2WvoP" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2_YacpKI2uJ" resolve="getFlagTextOrNull" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbH" id="2_YacpKI3RT" role="3cqZAp" />
             </node>
           </node>

@@ -17,7 +17,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2006,20 +2005,19 @@
           </node>
           <node concept="3clFbJ" id="3bhLp3E0YYd" role="3cqZAp">
             <node concept="3clFbS" id="3bhLp3E0YYf" role="3clFbx">
-              <node concept="3clFbF" id="3bhLp3E0Zpg" role="3cqZAp">
-                <node concept="37vLTI" id="3bhLp3E0Zto" role="3clFbG">
-                  <node concept="2OqwBi" id="3bhLp3E0Zy7" role="37vLTx">
-                    <node concept="37vLTw" id="3bhLp3E0ZvY" role="2Oq$k0">
+              <node concept="3clFbF" id="5B0gxFYvj0g" role="3cqZAp">
+                <node concept="37vLTI" id="5B0gxFYvjeF" role="3clFbG">
+                  <node concept="2OqwBi" id="5B0gxFYvmwW" role="37vLTx">
+                    <node concept="37vLTw" id="5B0gxFYvjih" role="2Oq$k0">
                       <ref role="3cqZAo" node="3bhLp3E0XMM" resolve="availableCommands" />
                     </node>
-                    <node concept="liA8E" id="3bhLp3E12cM" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
-                      <node concept="37vLTw" id="3bhLp3E12jW" role="37wK5m">
+                    <node concept="34jXtK" id="5B0gxFYvoFb" role="2OqNvi">
+                      <node concept="37vLTw" id="5B0gxFYvoKq" role="25WWJ7">
                         <ref role="3cqZAo" node="3bhLp3E0UAr" resolve="currentCmd" />
                       </node>
                     </node>
                   </node>
-                  <node concept="37vLTw" id="3bhLp3E0Zpe" role="37vLTJ">
+                  <node concept="37vLTw" id="5B0gxFYvj0e" role="37vLTJ">
                     <ref role="3cqZAo" node="3bhLp3E0XjY" resolve="commandToRef" />
                   </node>
                 </node>

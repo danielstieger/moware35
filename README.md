@@ -1,5 +1,5 @@
-#  Moware 2021 (11) 
-MoWare 2021 (11 edition)
+#  Moware Werkbank 2021 (11) 
+MoWare Werkbank 2021 (11 edition)
 [Compatible with MPS 2019.2 / jbr 11] 
 
 MoWare Werkbank allows you to create business applications with more efficiency and 
@@ -22,9 +22,8 @@ code generators and runtime environments are developed within MPS. Thus, all asp
 explorable, understandable and changeable. 
 
 ```
-This is the moware mini branch
+This is the moware 11 branch
 
-The mini is compatible to moware 2020 npc.  
 ```
 
 More information is provided at http://www.modellwerkstatt.org
