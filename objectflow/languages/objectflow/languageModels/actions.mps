@@ -17,7 +17,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2012,9 +2011,8 @@
                     <node concept="37vLTw" id="3bhLp3E0ZvY" role="2Oq$k0">
                       <ref role="3cqZAo" node="3bhLp3E0XMM" resolve="availableCommands" />
                     </node>
-                    <node concept="liA8E" id="3bhLp3E12cM" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
-                      <node concept="37vLTw" id="3bhLp3E12jW" role="37wK5m">
+                    <node concept="34jXtK" id="3Dx8mEYQ2s$" role="2OqNvi">
+                      <node concept="37vLTw" id="3Dx8mEYQ2wY" role="25WWJ7">
                         <ref role="3cqZAo" node="3bhLp3E0UAr" resolve="currentCmd" />
                       </node>
                     </node>
