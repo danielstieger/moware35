@@ -6797,7 +6797,7 @@
                                                 </node>
                                               </node>
                                               <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7w">
-                                                <property role="Xl_RC" value="\nFX8 fat client, 4th rev. summer 21" />
+                                                <property role="Xl_RC" value="\nFX8 fat client, 4th rev. summer 21 (java 11)" />
                                               </node>
                                             </node>
                                           </node>
