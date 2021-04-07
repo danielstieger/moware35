@@ -14,8 +14,8 @@
 			                        or the complete app setup (h2forms/vaadin)
 
 			 DEFAULTS
-			 mowarePluginHomeDir    ${user.home}/.MPS33/config/plugins/moware 
-			 mowareMpsHomeDir       C:/javaexe/MPS335
+			 mowarePluginHomeDir    ${user.home}/.MPS_XXX/config/plugins/moware 
+			 mowareMpsHomeDir       C:/javaexe/MPS_XXX
 			 mowareWorkDir     work
 
 			 
@@ -41,7 +41,7 @@
 			
 			
             
- daniel stieger, autumn 2018, marseille
+ daniel stieger, spring 2021, koblach
 
 
 
@@ -50,8 +50,8 @@
  
 <project>
 
-	<property name="mowarePluginHomeDir"      value="${user.home}/.MPS2019_1/config/plugins/moware" />
-	<property name="mowareMpsHomeDir"         value="C:/javaexe/MPS2019_1" />
+	<property name="mowarePluginHomeDir"      value="${user.home}/.MPS2019_2/config/plugins/moware" />
+	<property name="mowareMpsHomeDir"         value="C:/javaexe/MPS2019_2" />
 	<property name="mowareWorkDir"       	  value="work" />
 	<property name="appFavicon"     		  value="./favicon.ico" /> 
 	
@@ -76,6 +76,9 @@
 			<fileset dir="${mowarePluginHomeDir}/jars/zoo" 			includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/richclient" 	includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/" 			includes="slf4j-log4j12-1.6.1.jar" />
+			
+			<fileset dir="${mowarePluginHomeDir}/jars/designtime"   includes="javafx.*.jar" />
+			
 		
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
