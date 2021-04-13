@@ -179,13 +179,13 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -351,7 +351,7 @@
             <node concept="Xl_RD" id="7Cs1IG3jGxJ" role="2MkJ7o">
               <property role="Xl_RC" value="DataUx Root nodes need a name for identification." />
             </node>
-            <node concept="1YBJjd" id="7Cs1IG3jG$Y" role="2OEOjV">
+            <node concept="1YBJjd" id="7Cs1IG3jG$Y" role="1urrMF">
               <ref role="1YBMHb" node="7Cs1IG3jEWW" resolve="iOptionallyNamed" />
             </node>
           </node>
@@ -398,7 +398,7 @@
                 <node concept="Xl_RD" id="7rG0OCd9jlr" role="2MkJ7o">
                   <property role="Xl_RC" value="Provide a name for this component." />
                 </node>
-                <node concept="1YBJjd" id="7rG0OCd9jmU" role="2OEOjV">
+                <node concept="1YBJjd" id="7rG0OCd9jmU" role="1urrMF">
                   <ref role="1YBMHb" node="7Cs1IG3jEWW" resolve="iOptionallyNamed" />
                 </node>
               </node>
@@ -494,7 +494,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="7rG0OCd9oAJ" role="2OEOjV">
+                <node concept="1YBJjd" id="7rG0OCd9oAJ" role="1urrMF">
                   <ref role="1YBMHb" node="7Cs1IG3jEWW" resolve="iOptionallyNamed" />
                 </node>
               </node>
@@ -730,7 +730,7 @@
                 </node>
               </node>
             </node>
-            <node concept="1YBJjd" id="2zZnBEDyuLi" role="2OEOjV">
+            <node concept="1YBJjd" id="2zZnBEDyuLi" role="1urrMF">
               <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
             </node>
           </node>
@@ -833,11 +833,11 @@
             </node>
           </node>
           <node concept="2MkqsV" id="7rG0OCdgPfN" role="3cqZAp">
-            <node concept="1YBJjd" id="7rG0OCdgPkw" role="2OEOjV">
-              <ref role="1YBMHb" node="7rG0OCdgP3r" resolve="pagePane" />
-            </node>
             <node concept="Xl_RD" id="7rG0OCdgPhv" role="2MkJ7o">
               <property role="Xl_RC" value="Bind a page pane simply to an object (do not specify a property)." />
+            </node>
+            <node concept="1YBJjd" id="7rG0OCdgPkw" role="1urrMF">
+              <ref role="1YBMHb" node="7rG0OCdgP3r" resolve="pagePane" />
             </node>
           </node>
         </node>
@@ -850,7 +850,7 @@
             <node concept="Xl_RD" id="ao4XGSyV94" role="2MkJ7o">
               <property role="Xl_RC" value="Specify color or scolor option in page pane, not both" />
             </node>
-            <node concept="1YBJjd" id="ao4XGSyVcc" role="2OEOjV">
+            <node concept="1YBJjd" id="ao4XGSyVcc" role="1urrMF">
               <ref role="1YBMHb" node="7rG0OCdgP3r" resolve="pagePane" />
             </node>
           </node>
@@ -896,7 +896,7 @@
             <node concept="Xl_RD" id="4Sq2cvDrYrD" role="2MkJ7o">
               <property role="Xl_RC" value="An include needs to be bound on an object." />
             </node>
-            <node concept="1YBJjd" id="4Sq2cvDrYJl" role="2OEOjV">
+            <node concept="1YBJjd" id="4Sq2cvDrYJl" role="1urrMF">
               <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
             </node>
           </node>
@@ -1028,7 +1028,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="7rG0OCdjRyt" role="2OEOjV">
+                <node concept="1YBJjd" id="7rG0OCdjRyt" role="1urrMF">
                   <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
                 </node>
               </node>
@@ -1058,7 +1058,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1YBJjd" id="7rG0OCdjVeo" role="2OEOjV">
+                  <node concept="1YBJjd" id="7rG0OCdjVeo" role="1urrMF">
                     <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
                   </node>
                 </node>
@@ -1112,7 +1112,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1YBJjd" id="7rG0OCdjYTk" role="2OEOjV">
+                  <node concept="1YBJjd" id="7rG0OCdjYTk" role="1urrMF">
                     <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
                   </node>
                 </node>
@@ -1148,7 +1148,7 @@
                 <node concept="Xl_RD" id="MP9H4jJAua" role="2MkJ7o">
                   <property role="Xl_RC" value="Adding menu items is only available when including tables." />
                 </node>
-                <node concept="1YBJjd" id="MP9H4jJAxb" role="2OEOjV">
+                <node concept="1YBJjd" id="MP9H4jJAxb" role="1urrMF">
                   <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
                 </node>
               </node>
@@ -1198,7 +1198,7 @@
             <node concept="Xl_RD" id="3scH5Fpc8Ge" role="2MkJ7o">
               <property role="Xl_RC" value="The disabled option can only be applied to DelegateForms." />
             </node>
-            <node concept="1YBJjd" id="3scH5Fpc8Lr" role="2OEOjV">
+            <node concept="1YBJjd" id="3scH5Fpc8Lr" role="1urrMF">
               <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
             </node>
           </node>
@@ -1426,7 +1426,7 @@
             <node concept="Xl_RD" id="6I37UbACJdZ" role="2MkJ7o">
               <property role="Xl_RC" value="A table needs to be bound on object(s)." />
             </node>
-            <node concept="1YBJjd" id="6I37UbACJve" role="2OEOjV">
+            <node concept="1YBJjd" id="6I37UbACJve" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
             </node>
           </node>
@@ -1600,7 +1600,7 @@
               <node concept="Xl_RD" id="6I37UbACNkP" role="2MkJ7o">
                 <property role="Xl_RC" value="A table in an ui hierarchy needs to be bound on a &lt;seleted object&gt;.&lt;property of list type&gt;" />
               </node>
-              <node concept="1YBJjd" id="6I37UbACNq_" role="2OEOjV">
+              <node concept="1YBJjd" id="6I37UbACNq_" role="1urrMF">
                 <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
               </node>
             </node>
@@ -1623,7 +1623,7 @@
               <node concept="Xl_RD" id="6I37UbACOhD" role="2MkJ7o">
                 <property role="Xl_RC" value="A table in an ui hierarchy needs to be bound to a list! &lt;seleted object&gt;.&lt;property of list type&gt;" />
               </node>
-              <node concept="1YBJjd" id="6I37UbACOWL" role="2OEOjV">
+              <node concept="1YBJjd" id="6I37UbACOWL" role="1urrMF">
                 <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
               </node>
             </node>
@@ -1715,7 +1715,7 @@
             <node concept="Xl_RD" id="pQ21WNirAM" role="2MkJ7o">
               <property role="Xl_RC" value="Each delegate in a table needs a width option." />
             </node>
-            <node concept="1YBJjd" id="pQ21WNirCa" role="2OEOjV">
+            <node concept="1YBJjd" id="pQ21WNirCa" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
             </node>
           </node>
@@ -1740,7 +1740,7 @@
               <node concept="Xl_RD" id="pQ21WNisi4" role="2MkJ7o">
                 <property role="Xl_RC" value="Width of delegates should sum up to 100%." />
               </node>
-              <node concept="1YBJjd" id="pQ21WNiskR" role="2OEOjV">
+              <node concept="1YBJjd" id="pQ21WNiskR" role="1urrMF">
                 <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
               </node>
             </node>
@@ -1754,7 +1754,7 @@
             <node concept="Xl_RD" id="pQ21WNjdS7" role="2MkJ7o">
               <property role="Xl_RC" value="Only one delegate can be editable (with current runtime)." />
             </node>
-            <node concept="1YBJjd" id="pQ21WNjdV8" role="2OEOjV">
+            <node concept="1YBJjd" id="pQ21WNjdV8" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
             </node>
           </node>
@@ -1857,7 +1857,7 @@
                       <node concept="Xl_RD" id="6kvb4HULoWp" role="2MkJ7o">
                         <property role="Xl_RC" value="Use only one 'important' option per table" />
                       </node>
-                      <node concept="37vLTw" id="6kvb4HULqfI" role="2OEOjV">
+                      <node concept="37vLTw" id="6kvb4HULqfI" role="1urrMF">
                         <ref role="3cqZAo" node="6kvb4HULoBf" resolve="it" />
                       </node>
                     </node>
@@ -1919,7 +1919,7 @@
             <node concept="Xl_RD" id="pQ21WNfkVG" role="2MkJ7o">
               <property role="Xl_RC" value="An option can be used only once per delegate." />
             </node>
-            <node concept="1YBJjd" id="pQ21WNfkZu" role="2OEOjV">
+            <node concept="1YBJjd" id="pQ21WNfkZu" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNfirO" resolve="idOption" />
             </node>
           </node>
@@ -1987,7 +1987,7 @@
             <node concept="Xl_RD" id="6I37UbACIxv" role="2MkJ7o">
               <property role="Xl_RC" value="A delegate form needs to be bound on an object." />
             </node>
-            <node concept="1YBJjd" id="6I37UbACIzq" role="2OEOjV">
+            <node concept="1YBJjd" id="6I37UbACIzq" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
             </node>
           </node>
@@ -2022,7 +2022,7 @@
             <node concept="Xl_RD" id="6I37UbADewi" role="2MkJ7o">
               <property role="Xl_RC" value="A delegate form can not be bound to a list type property." />
             </node>
-            <node concept="1YBJjd" id="6I37UbADexE" role="2OEOjV">
+            <node concept="1YBJjd" id="6I37UbADexE" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
             </node>
           </node>
@@ -2043,7 +2043,7 @@
             <node concept="Xl_RD" id="pQ21WNllH$" role="2MkJ7o">
               <property role="Xl_RC" value="Disable the whole DelegateForm with DISABLED form option." />
             </node>
-            <node concept="1YBJjd" id="pQ21WNllJA" role="2OEOjV">
+            <node concept="1YBJjd" id="pQ21WNllJA" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
             </node>
           </node>
@@ -2455,7 +2455,7 @@
             <node concept="Xl_RD" id="6oVlrbkgEUH" role="2MkJ7o">
               <property role="Xl_RC" value="Tables do not support reference delegates (yet)." />
             </node>
-            <node concept="1YBJjd" id="6oVlrbkgEWc" role="2OEOjV">
+            <node concept="1YBJjd" id="6oVlrbkgEWc" role="1urrMF">
               <ref role="1YBMHb" node="pQ21WNqh_q" resolve="referenceDelegate" />
             </node>
           </node>
@@ -2579,7 +2579,7 @@
                 <node concept="Xl_RD" id="pQ21WNqruw" role="2MkJ7o">
                   <property role="Xl_RC" value="Reference delegates can be used only in conjunction with OFX Objects." />
                 </node>
-                <node concept="1YBJjd" id="pQ21WNqrwY" role="2OEOjV">
+                <node concept="1YBJjd" id="pQ21WNqrwY" role="1urrMF">
                   <ref role="1YBMHb" node="pQ21WNqh_q" resolve="referenceDelegate" />
                 </node>
               </node>
@@ -2706,7 +2706,7 @@
                 <node concept="Xl_RD" id="pQ21WNqrJM" role="2MkJ7o">
                   <property role="Xl_RC" value="Status delegates can be used only in conjunction with OFX Stati." />
                 </node>
-                <node concept="1YBJjd" id="pQ21WNqrZF" role="2OEOjV">
+                <node concept="1YBJjd" id="pQ21WNqrZF" role="1urrMF">
                   <ref role="1YBMHb" node="pQ21WNqrJ8" resolve="statusDelegate" />
                 </node>
               </node>
@@ -2966,7 +2966,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="653WpvygrBf" role="2OEOjV">
+                <node concept="1YBJjd" id="653WpvygrBf" role="1urrMF">
                   <ref role="1YBMHb" node="653WpvyggXB" resolve="hookFOption" />
                 </node>
               </node>
@@ -3166,7 +3166,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="653Wpvyh7kr" role="2OEOjV">
+                <node concept="1YBJjd" id="653Wpvyh7kr" role="1urrMF">
                   <ref role="1YBMHb" node="653Wpvyh6AX" resolve="customElement" />
                 </node>
               </node>
@@ -3235,7 +3235,7 @@
             <node concept="Xl_RD" id="6oVlrbkegSc" role="2MkJ7o">
               <property role="Xl_RC" value="Disable delegate when loading a special property." />
             </node>
-            <node concept="1YBJjd" id="6oVlrbkegUs" role="2OEOjV">
+            <node concept="1YBJjd" id="6oVlrbkegUs" role="1urrMF">
               <ref role="1YBMHb" node="6oVlrbkeeX$" resolve="localSpecialPropertyReference" />
             </node>
           </node>
@@ -3322,7 +3322,7 @@
             <node concept="Xl_RD" id="6oVlrbkehKs" role="2MkJ7o">
               <property role="Xl_RC" value="Disable delegate when loading a special property." />
             </node>
-            <node concept="1YBJjd" id="6oVlrbkehUO" role="2OEOjV">
+            <node concept="1YBJjd" id="6oVlrbkehUO" role="1urrMF">
               <ref role="1YBMHb" node="6oVlrbkehKl" resolve="operationSpecialPropertyReference" />
             </node>
           </node>
@@ -3379,7 +3379,7 @@
             <node concept="Xl_RD" id="6I37UbADcGV" role="2MkJ7o">
               <property role="Xl_RC" value="A custom elment needs to be bound on object(s)." />
             </node>
-            <node concept="1YBJjd" id="6I37UbADcGW" role="2OEOjV">
+            <node concept="1YBJjd" id="6I37UbADcGW" role="1urrMF">
               <ref role="1YBMHb" node="6I37UbADcvb" resolve="table" />
             </node>
           </node>
@@ -3470,7 +3470,7 @@
               <node concept="Xl_RD" id="5SSJEYshwID" role="2MkJ7o">
                 <property role="Xl_RC" value="Label option is supported only by Table / DelegateForm." />
               </node>
-              <node concept="37vLTw" id="5SSJEYshwYI" role="2OEOjV">
+              <node concept="37vLTw" id="5SSJEYshwYI" role="1urrMF">
                 <ref role="3cqZAo" node="5SSJEYshvje" resolve="usedIn" />
               </node>
             </node>
@@ -3505,7 +3505,7 @@
             <node concept="Xl_RD" id="MP9H4jzA7y" role="2MkJ7o">
               <property role="Xl_RC" value="Label option can not be used here, since label will be set via page title." />
             </node>
-            <node concept="1YBJjd" id="MP9H4jzAa7" role="2OEOjV">
+            <node concept="1YBJjd" id="MP9H4jzAa7" role="1urrMF">
               <ref role="1YBMHb" node="MP9H4jz_Qn" resolve="labelFOption" />
             </node>
           </node>
@@ -3565,7 +3565,7 @@
                 <node concept="Xl_RD" id="6Je62Y5i0lP" role="2MkJ7o">
                   <property role="Xl_RC" value="Specify some text for this the label." />
                 </node>
-                <node concept="1YBJjd" id="6Je62Y5i0o5" role="2OEOjV">
+                <node concept="1YBJjd" id="6Je62Y5i0o5" role="1urrMF">
                   <ref role="1YBMHb" node="MP9H4jz_Qn" resolve="labelFOption" />
                 </node>
               </node>
@@ -3688,7 +3688,7 @@
                 <node concept="Xl_RD" id="6K73LRv6Wr0" role="2MkJ7o">
                   <property role="Xl_RC" value="Action overflow (submenu) is only valid as top level menu in ux elements." />
                 </node>
-                <node concept="1YBJjd" id="6K73LRv6Wr1" role="2OEOjV">
+                <node concept="1YBJjd" id="6K73LRv6Wr1" role="1urrMF">
                   <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
                 </node>
               </node>
@@ -4008,7 +4008,7 @@
                               <node concept="Xl_RD" id="1xbJ1snAqwI" role="2MkJ7o">
                                 <property role="Xl_RC" value="Actions should be placed left before overflows/sub menus." />
                               </node>
-                              <node concept="37vLTw" id="6K73LRv6Uix" role="2OEOjV">
+                              <node concept="37vLTw" id="6K73LRv6Uix" role="1urrMF">
                                 <ref role="3cqZAo" node="1xbJ1snAoDE" resolve="it" />
                               </node>
                             </node>
@@ -4117,7 +4117,7 @@
                       <node concept="Xl_RD" id="3nLPQZQHGGy" role="2MkJ7o">
                         <property role="Xl_RC" value="Only one overflow (submenu) can be used." />
                       </node>
-                      <node concept="1YBJjd" id="3nLPQZQHGIT" role="2OEOjV">
+                      <node concept="1YBJjd" id="3nLPQZQHGIT" role="1urrMF">
                         <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
                       </node>
                     </node>
@@ -4244,7 +4244,7 @@
             <node concept="Xl_RD" id="1XvF7fQ$jmL" role="2MkJ7o">
               <property role="Xl_RC" value="Root Ux Elements get typed, not bound, since they are bound by an include. Just specify the content type here." />
             </node>
-            <node concept="1YBJjd" id="4nSJmix_01t" role="2OEOjV">
+            <node concept="1YBJjd" id="4nSJmix_01t" role="1urrMF">
               <ref role="1YBMHb" node="1XvF7fQ$iI6" resolve="iBindable" />
             </node>
           </node>
@@ -4286,7 +4286,7 @@
                 <node concept="Xl_RD" id="5SSJEYsfWQI" role="2MkJ7o">
                   <property role="Xl_RC" value="A layout as root needs to be bound on an object." />
                 </node>
-                <node concept="1YBJjd" id="5SSJEYsfXvK" role="2OEOjV">
+                <node concept="1YBJjd" id="5SSJEYsfXvK" role="1urrMF">
                   <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
                 </node>
               </node>
@@ -4348,7 +4348,7 @@
               <node concept="Xl_RD" id="5SSJEYsfWR7" role="2MkJ7o">
                 <property role="Xl_RC" value="A layout in an ui hierarchy should not be bound to any object." />
               </node>
-              <node concept="1YBJjd" id="5SSJEYsfXFO" role="2OEOjV">
+              <node concept="1YBJjd" id="5SSJEYsfXFO" role="1urrMF">
                 <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
               </node>
             </node>
@@ -4392,7 +4392,7 @@
             <node concept="Xl_RD" id="21Qe5t1ZUqo" role="2MkJ7o">
               <property role="Xl_RC" value="Editable option can only be used within Tables." />
             </node>
-            <node concept="1YBJjd" id="21Qe5t1ZUuV" role="2OEOjV">
+            <node concept="1YBJjd" id="21Qe5t1ZUuV" role="1urrMF">
               <ref role="1YBMHb" node="21Qe5t1ZTpy" resolve="editableDOption" />
             </node>
           </node>
@@ -4432,7 +4432,7 @@
                   <node concept="Xl_RD" id="21Qe5t1ZV$J" role="2MkJ7o">
                     <property role="Xl_RC" value="Editable option can only be used for Status delegates or BigDecimal delegates." />
                   </node>
-                  <node concept="1YBJjd" id="21Qe5t1ZVCX" role="2OEOjV">
+                  <node concept="1YBJjd" id="21Qe5t1ZVCX" role="1urrMF">
                     <ref role="1YBMHb" node="21Qe5t1ZTpy" resolve="editableDOption" />
                   </node>
                 </node>
@@ -4471,7 +4471,7 @@
                   <node concept="Xl_RD" id="21Qe5t1ZWiZ" role="2MkJ7o">
                     <property role="Xl_RC" value="Editable delegates can not be folded." />
                   </node>
-                  <node concept="37vLTw" id="21Qe5t1ZWlm" role="2OEOjV">
+                  <node concept="37vLTw" id="21Qe5t1ZWlm" role="1urrMF">
                     <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
                   </node>
                 </node>
@@ -4547,7 +4547,7 @@
                 </node>
               </node>
             </node>
-            <node concept="1YBJjd" id="6rXe_0EKxFC" role="2OEOjV">
+            <node concept="1YBJjd" id="6rXe_0EKxFC" role="1urrMF">
               <ref role="1YBMHb" node="6rXe_0EKqn$" resolve="ifOption" />
             </node>
           </node>
@@ -4818,7 +4818,7 @@
                 <node concept="Xl_RD" id="ao4XGSRaG0" role="2MkJ7o">
                   <property role="Xl_RC" value="scolor option can be used only in conjunction with OFX Stati." />
                 </node>
-                <node concept="1YBJjd" id="ao4XGSRaG1" role="2OEOjV">
+                <node concept="1YBJjd" id="ao4XGSRaG1" role="1urrMF">
                   <ref role="1YBMHb" node="ao4XGSRaFl" resolve="option" />
                 </node>
               </node>
@@ -4903,7 +4903,7 @@
             <node concept="Xl_RD" id="50l$rcpIuYH" role="2MkJ7o">
               <property role="Xl_RC" value="One has to provide custom labels in compound actions." />
             </node>
-            <node concept="1YBJjd" id="50l$rcpIv1w" role="2OEOjV">
+            <node concept="1YBJjd" id="50l$rcpIv1w" role="1urrMF">
               <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
             </node>
           </node>
@@ -4927,7 +4927,7 @@
             <node concept="Xl_RD" id="7yNVvqOb490" role="2MkJ7o">
               <property role="Xl_RC" value="Outer command in a compound action has to be a graph_owner." />
             </node>
-            <node concept="1YBJjd" id="7yNVvqOb4bn" role="2OEOjV">
+            <node concept="1YBJjd" id="7yNVvqOb4bn" role="1urrMF">
               <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
             </node>
           </node>
@@ -4985,7 +4985,7 @@
             <node concept="Xl_RD" id="7yNVvqObkI1" role="2MkJ7o">
               <property role="Xl_RC" value="Inner command in a compound action has to be a graph_edit." />
             </node>
-            <node concept="1YBJjd" id="7yNVvqObkMs" role="2OEOjV">
+            <node concept="1YBJjd" id="7yNVvqObkMs" role="1urrMF">
               <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
             </node>
           </node>
@@ -5096,7 +5096,7 @@
                   <node concept="Xl_RD" id="7yNVvqObS65" role="2MkJ7o">
                     <property role="Xl_RC" value="Successor command pattern is not supported with compound actions." />
                   </node>
-                  <node concept="1YBJjd" id="7yNVvqObS7T" role="2OEOjV">
+                  <node concept="1YBJjd" id="7yNVvqObS7T" role="1urrMF">
                     <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
                   </node>
                 </node>
@@ -5139,7 +5139,7 @@
             <node concept="Xl_RD" id="7yNVvqOcBfy" role="2MkJ7o">
               <property role="Xl_RC" value="Provide an auto-conclusion for the graph_owner or use simple action instead." />
             </node>
-            <node concept="1YBJjd" id="7yNVvqOcBiS" role="2OEOjV">
+            <node concept="1YBJjd" id="7yNVvqOcBiS" role="1urrMF">
               <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
             </node>
           </node>
@@ -5195,7 +5195,7 @@
                     <property role="Xl_RC" value="' does not have any pages and can not host a graph_edit." />
                   </node>
                 </node>
-                <node concept="1YBJjd" id="7yNVvqOenve" role="2OEOjV">
+                <node concept="1YBJjd" id="7yNVvqOenve" role="1urrMF">
                   <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
                 </node>
               </node>
@@ -5234,7 +5234,7 @@
                   <node concept="Xl_RD" id="7yNVvqOfqXO" role="2MkJ7o">
                     <property role="Xl_RC" value="Compound actions support graph_owners with a single page only." />
                   </node>
-                  <node concept="1YBJjd" id="7yNVvqOfqXV" role="2OEOjV">
+                  <node concept="1YBJjd" id="7yNVvqOfqXV" role="1urrMF">
                     <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
                   </node>
                 </node>
@@ -5247,7 +5247,7 @@
                 <node concept="Xl_RD" id="7yNVvqOcYqF" role="2MkJ7o">
                   <property role="Xl_RC" value="Set outer graph_owner command on auto-conclusions." />
                 </node>
-                <node concept="1YBJjd" id="7yNVvqOcYvs" role="2OEOjV">
+                <node concept="1YBJjd" id="7yNVvqOcYvs" role="1urrMF">
                   <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
                 </node>
               </node>
@@ -5270,7 +5270,7 @@
                 <node concept="Xl_RD" id="7yNVvqOf0Q$" role="2MkJ7o">
                   <property role="Xl_RC" value="The graph_edit command does not have any pages, autoconclusion can not be set." />
                 </node>
-                <node concept="2OqwBi" id="7yNVvqOf0XP" role="2OEOjV">
+                <node concept="2OqwBi" id="7yNVvqOf0XP" role="1urrMF">
                   <node concept="1YBJjd" id="7yNVvqOf0Tn" role="2Oq$k0">
                     <ref role="1YBMHb" node="50l$rcpIuqA" resolve="mca" />
                   </node>
@@ -5399,7 +5399,7 @@
                                         </node>
                                       </node>
                                     </node>
-                                    <node concept="37vLTw" id="3xGERTNfZkf" role="2OEOjV">
+                                    <node concept="37vLTw" id="3xGERTNfZkf" role="1urrMF">
                                       <ref role="3cqZAo" node="3xGERTNfIrI" resolve="sel" />
                                     </node>
                                   </node>
@@ -6160,7 +6160,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1YBJjd" id="2tq07Lb$a5S" role="2OEOjV">
+                  <node concept="1YBJjd" id="2tq07Lb$a5S" role="1urrMF">
                     <ref role="1YBMHb" node="2tq07LbzYgM" resolve="iHasDelegates" />
                   </node>
                 </node>
@@ -6307,7 +6307,7 @@
                 <node concept="Xl_RD" id="2N7eHMagjd6" role="2MkJ7o">
                   <property role="Xl_RC" value="Use this option only once per module." />
                 </node>
-                <node concept="1YBJjd" id="2N7eHMagje9" role="2OEOjV">
+                <node concept="1YBJjd" id="2N7eHMagje9" role="1urrMF">
                   <ref role="1YBMHb" node="2N7eHMaggxu" resolve="iModuleOption" />
                 </node>
               </node>
@@ -6344,7 +6344,7 @@
                 <node concept="Xl_RD" id="2B50FNWNtvx" role="2MkJ7o">
                   <property role="Xl_RC" value="Sepcify a version option for this app module." />
                 </node>
-                <node concept="1YBJjd" id="2B50FNWPxMM" role="2OEOjV">
+                <node concept="1YBJjd" id="2B50FNWPxMM" role="1urrMF">
                   <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
                 </node>
               </node>
@@ -6367,7 +6367,7 @@
                 <node concept="Xl_RD" id="2B50FNWRehD" role="2MkJ7o">
                   <property role="Xl_RC" value="BatchJob Module needs a configuration." />
                 </node>
-                <node concept="1YBJjd" id="2B50FNWReJT" role="2OEOjV">
+                <node concept="1YBJjd" id="2B50FNWReJT" role="1urrMF">
                   <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
                 </node>
               </node>
@@ -6380,7 +6380,7 @@
                 <node concept="Xl_RD" id="2B50FNVZvFM" role="2MkJ7o">
                   <property role="Xl_RC" value="DEPENDENT_CONSECUTIVE can only be used, if more than one consumer/producer pair is present." />
                 </node>
-                <node concept="2OqwBi" id="2B50FNW0kMg" role="2OEOjV">
+                <node concept="2OqwBi" id="2B50FNW0kMg" role="1urrMF">
                   <node concept="1YBJjd" id="2B50FNW0kIS" role="2Oq$k0">
                     <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
                   </node>
@@ -6459,7 +6459,7 @@
                               <node concept="Xl_RD" id="2B50FNW1Vbg" role="2MkJ7o">
                                 <property role="Xl_RC" value="There is exactly one CONSUMERS option needed per producer/consumer pair." />
                               </node>
-                              <node concept="37vLTw" id="2B50FNW1WR5" role="2OEOjV">
+                              <node concept="37vLTw" id="2B50FNW1WR5" role="1urrMF">
                                 <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
                               </node>
                             </node>
@@ -6498,7 +6498,7 @@
                                 <node concept="Xl_RD" id="7mer7pK2MY3" role="2MkJ7o">
                                   <property role="Xl_RC" value="Do not specify any CONSUMERS for this producer/consumer pair - it does not have any." />
                                 </node>
-                                <node concept="37vLTw" id="7mer7pK2MY4" role="2OEOjV">
+                                <node concept="37vLTw" id="7mer7pK2MY4" role="1urrMF">
                                   <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
                                 </node>
                               </node>
@@ -6592,7 +6592,7 @@
                               <node concept="Xl_RD" id="2B50FNW2eoi" role="2MkJ7o">
                                 <property role="Xl_RC" value="Do not specify any timing options for this pair in dependent mode." />
                               </node>
-                              <node concept="37vLTw" id="2B50FNW2fSC" role="2OEOjV">
+                              <node concept="37vLTw" id="2B50FNW2fSC" role="1urrMF">
                                 <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
                               </node>
                             </node>
@@ -6672,7 +6672,7 @@
                                 <node concept="Xl_RD" id="2B50FNW2ks6" role="2MkJ7o">
                                   <property role="Xl_RC" value="There can be at most one DELAY option provided per producer/consumer pair." />
                                 </node>
-                                <node concept="37vLTw" id="2B50FNW2ks7" role="2OEOjV">
+                                <node concept="37vLTw" id="2B50FNW2ks7" role="1urrMF">
                                   <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
                                 </node>
                               </node>
@@ -6728,7 +6728,7 @@
                                                 <node concept="Xl_RD" id="2B50FNW2v9m" role="2MkJ7o">
                                                   <property role="Xl_RC" value="The pair is in continous/delay mode, specify cron windows only." />
                                                 </node>
-                                                <node concept="37vLTw" id="2B50FNW2$s0" role="2OEOjV">
+                                                <node concept="37vLTw" id="2B50FNW2$s0" role="1urrMF">
                                                   <ref role="3cqZAo" node="2B50FNW2rt1" resolve="cron" />
                                                 </node>
                                               </node>
@@ -6781,7 +6781,7 @@
                                       <node concept="Xl_RD" id="2B50FNW2Ktg" role="2MkJ7o">
                                         <property role="Xl_RC" value="Need more or one specific cron when not in continous/delay mode" />
                                       </node>
-                                      <node concept="37vLTw" id="2B50FNW2NVM" role="2OEOjV">
+                                      <node concept="37vLTw" id="2B50FNW2NVM" role="1urrMF">
                                         <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
                                       </node>
                                     </node>
@@ -6845,7 +6845,7 @@
                                                 <node concept="Xl_RD" id="2B50FNW2BhH" role="2MkJ7o">
                                                   <property role="Xl_RC" value="The pair is in not in continous/delay mode, use only time specific crons." />
                                                 </node>
-                                                <node concept="37vLTw" id="2B50FNW2BhI" role="2OEOjV">
+                                                <node concept="37vLTw" id="2B50FNW2BhI" role="1urrMF">
                                                   <ref role="3cqZAo" node="2B50FNW2BhJ" resolve="cron" />
                                                 </node>
                                               </node>
@@ -6969,7 +6969,7 @@
                   <node concept="Xl_RD" id="7bWGJuRUmrb" role="2MkJ7o">
                     <property role="Xl_RC" value="A exception strategy should have a default behaviour without 'matches' as last strategy." />
                   </node>
-                  <node concept="1YBJjd" id="358nytLo3gb" role="2OEOjV">
+                  <node concept="1YBJjd" id="358nytLo3gb" role="1urrMF">
                     <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
                   </node>
                 </node>
@@ -7023,7 +7023,7 @@
                 <node concept="Xl_RD" id="7bWGJuS3BPA" role="2MkJ7o">
                   <property role="Xl_RC" value="There should be only one default strategy defined without exception name 'match'." />
                 </node>
-                <node concept="2OqwBi" id="358nytLo6O_" role="2OEOjV">
+                <node concept="2OqwBi" id="358nytLo6O_" role="1urrMF">
                   <node concept="37vLTw" id="358nytLo6mw" role="2Oq$k0">
                     <ref role="3cqZAo" node="7bWGJuS3$jK" resolve="strats" />
                   </node>
@@ -7187,7 +7187,7 @@
                           <node concept="Xl_RD" id="6W9Z7_cUeYb" role="2MkJ7o">
                             <property role="Xl_RC" value="Parameters given for this action are not correct. (Selections are not available)" />
                           </node>
-                          <node concept="37vLTw" id="6W9Z7_cUeYc" role="2OEOjV">
+                          <node concept="37vLTw" id="6W9Z7_cUeYc" role="1urrMF">
                             <ref role="3cqZAo" node="6W9Z7_cUeYd" resolve="it" />
                           </node>
                         </node>
@@ -7286,7 +7286,7 @@
             <node concept="Xl_RD" id="2B50FNWLDNC" role="2MkJ7o">
               <property role="Xl_RC" value="AppUi Module needs a configuration." />
             </node>
-            <node concept="1YBJjd" id="2B50FNWLDO$" role="2OEOjV">
+            <node concept="1YBJjd" id="2B50FNWLDO$" role="1urrMF">
               <ref role="1YBMHb" node="2B50FNWLDlG" resolve="appUiModule" />
             </node>
           </node>
@@ -7310,7 +7310,7 @@
             <node concept="Xl_RD" id="6XdB5k5XAST" role="2MkJ7o">
               <property role="Xl_RC" value="Sepcify a version option for this app module." />
             </node>
-            <node concept="1YBJjd" id="2B50FNWPxHU" role="2OEOjV">
+            <node concept="1YBJjd" id="2B50FNWPxHU" role="1urrMF">
               <ref role="1YBMHb" node="2B50FNWLDlG" resolve="appUiModule" />
             </node>
           </node>
@@ -7570,7 +7570,7 @@
                       <node concept="Xl_RD" id="6W9Z7_cRMk9" role="2MkJ7o">
                         <property role="Xl_RC" value="Parameters given for this action are not correct. (Selections are not available)" />
                       </node>
-                      <node concept="37vLTw" id="6W9Z7_cRMKu" role="2OEOjV">
+                      <node concept="37vLTw" id="6W9Z7_cRMKu" role="1urrMF">
                         <ref role="3cqZAo" node="6W9Z7_cRLYR" resolve="it" />
                       </node>
                     </node>
@@ -7601,7 +7601,7 @@
             <node concept="Xl_RD" id="2B50FNWZz37" role="2MkJ7o">
               <property role="Xl_RC" value="The included job is not a batchjob containg relevant commands." />
             </node>
-            <node concept="1YBJjd" id="2B50FNWZz5g" role="2OEOjV">
+            <node concept="1YBJjd" id="2B50FNWZz5g" role="1urrMF">
               <ref role="1YBMHb" node="2B50FNWXUId" resolve="optIncludeBatchUi" />
             </node>
           </node>

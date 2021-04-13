@@ -4989,7 +4989,7 @@
   <node concept="2WPaUQ" id="2i3o0hdSzFV">
     <property role="TrG5h" value="Query and Operators (no session)" />
     <property role="3GE5qa" value="tests" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="2i3o0hdVwSt" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="DBinit" />
     </node>
@@ -8016,7 +8016,7 @@
   <node concept="2WPaUQ" id="2i3o0hdSzFX">
     <property role="TrG5h" value="References, initialization(no session)" />
     <property role="3GE5qa" value="tests" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="RffU3zlJ4D" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="DBinit" />
     </node>
@@ -13443,7 +13443,7 @@
   <node concept="2WPaUQ" id="2i3o0hdVwMp">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="DBinit" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3ulXEM" id="6VW5G61Xr_F" role="23Ghgl">
       <property role="TrG5h" value="dbDescription" />
       <node concept="3uibUv" id="6VW5G61XrBW" role="1tU5fm">
@@ -13451,7 +13451,7 @@
       </node>
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/objectflow/testdata/sqls/" />
+      <property role="J2Nxv" value="/Users/danielstieger/migration/2019_3/moware/objectflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="2d2NRx" id="7cOyB3YiydU" role="3yTP5x">
@@ -15265,7 +15265,7 @@
   <node concept="2WPaUQ" id="1oH_MJfbPWk">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="ALL ALL ManMap Testsuits" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="7L8_IJAz4L0" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="3oFz76qCK$S" resolve="AlternativeTables" />
@@ -15318,7 +15318,7 @@
   <node concept="2WPaUQ" id="6pbeIz$kE$1">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="M3 Object Infrastructure" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3yPF9F" id="6pbeIz$kF6R" role="3yMuLx">
       <property role="TrG5h" value="Setting defafults should not lead to a Dirty entity." />
       <node concept="3cqZAl" id="6pbeIz$kF70" role="3clF45" />
@@ -25092,7 +25092,7 @@
   <node concept="2WPaUQ" id="W1NYBghgSL">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Audit" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3ulXEM" id="67iuXo6xce$" role="3ulXEG">
       <property role="TrG5h" value="userEnv" />
       <node concept="3uibUv" id="67iuXo6xcff" role="1tU5fm">
@@ -27628,7 +27628,7 @@
   <node concept="2WPaUQ" id="67iuXo6Bp7A">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="CustomSQL" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3ulXEM" id="6VW5G61xwZo" role="23Ghgl">
       <property role="TrG5h" value="dbDesc" />
       <node concept="3uibUv" id="6VW5G61xwZv" role="1tU5fm">
@@ -28430,7 +28430,7 @@
   <node concept="2WPaUQ" id="3ZVRjXSLS2A">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="TestSuit Test" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="3ZVRjXSLS2R" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="DBinit" />
     </node>
@@ -30095,7 +30095,7 @@
   <node concept="2WPaUQ" id="FplMlj9s4e">
     <property role="TrG5h" value="NoKey Tests" />
     <property role="3GE5qa" value="tests" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="26OSHcvH$M7" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="DBinit" />
     </node>
@@ -30176,7 +30176,7 @@
                 <node concept="2Tkd$M" id="26OSHcw1P7R" role="2OqNvi" />
               </node>
               <node concept="liA8E" id="26OSHcw1Pd2" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isTransientInSession" />
+                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
               </node>
             </node>
             <node concept="3clFbT" id="26OSHcw1PfY" role="3uHU7w">
@@ -32229,7 +32229,7 @@
   <node concept="2WPaUQ" id="1ZjRqWs0AbZ">
     <property role="TrG5h" value="TestNKRepository" />
     <property role="3GE5qa" value="tests" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3yPF9F" id="1ZjRqWs0Ac0" role="3yMuLx">
       <property role="TrG5h" value="testFor_autoCreatorTest" />
       <node concept="3clFbS" id="1ZjRqWs0Ac2" role="3clF47">
@@ -33226,7 +33226,7 @@
   <node concept="2WPaUQ" id="3UVBaKgPxGQ">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="StringKey tests" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3yPF9F" id="3UVBaKgPxGT" role="3yMuLx">
       <property role="TrG5h" value="Load a string key invoice with string instead of int mapping" />
       <node concept="3cqZAl" id="3UVBaKgPxH2" role="3clF45" />
@@ -35016,7 +35016,7 @@
   <node concept="2WPaUQ" id="3oFz76qCK$S">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="AlternativeTables" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3yPF9F" id="3oFz76qCNu9" role="3yMuLx">
       <property role="TrG5h" value="Save and Reload on Archive" />
       <node concept="3cqZAl" id="3oFz76qCNui" role="3clF45" />
@@ -36147,7 +36147,7 @@
   <node concept="2WPaUQ" id="4pH_TM_J4sD">
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Session tests" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="4pH_TM_JbLn" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="DBinit" />
     </node>
@@ -42157,7 +42157,7 @@
                 <node concept="2Tkd$M" id="1nLGXVrnxwS" role="2OqNvi" />
               </node>
               <node concept="liA8E" id="1nLGXVrnxwT" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isTransientInSession" />
+                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
               </node>
             </node>
           </node>
@@ -42208,7 +42208,7 @@
               <node concept="2Tkd$M" id="1nLGXVrn_rJ" role="2OqNvi" />
             </node>
             <node concept="liA8E" id="1nLGXVrn_rK" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isTransientInSession" />
+              <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
             </node>
           </node>
         </node>
@@ -42334,7 +42334,7 @@
   <node concept="2WPaUQ" id="4szYp3XojuM">
     <property role="TrG5h" value="Graph load/save (no session)" />
     <property role="3GE5qa" value="tests" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3yPF9F" id="70qPrkCyg_r" role="3yMuLx">
       <property role="TrG5h" value="Store and Load Invoices by Graph get/where" />
       <node concept="3cqZAl" id="70qPrkCygBD" role="3clF45" />

@@ -137,11 +137,8 @@
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
-      <concept id="6358186717179259582" name="jetbrains.mps.lang.constraints.structure.RefPresentationMigrated" flags="ng" index="2dbRIv" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
-      <concept id="3906442776579556545" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Presentation" flags="in" index="Bn3R3" />
-      <concept id="3906442776579549644" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parameterNode" flags="nn" index="Bn53e" />
       <concept id="4303308395523343364" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" flags="ng" index="2DA6wF" />
       <concept id="4303308395523096213" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="ng" index="2DD5aU" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
@@ -163,7 +160,6 @@
       </concept>
       <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
         <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
-        <child id="3906442776579556548" name="presentation" index="Bn3R6" />
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
@@ -232,7 +228,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -954,18 +949,6 @@
     <ref role="1M2myG" to="1btx:6oVlrbk4LWj" resolve="LocalSpecialPropertyReference" />
     <node concept="1N5Pfh" id="6oVlrbk4Mg6" role="1Mr941">
       <ref role="1N5Vy1" to="1btx:6oVlrbk4LWk" resolve="property" />
-      <node concept="Bn3R3" id="6oVlrbk4O6f" role="Bn3R6">
-        <node concept="3clFbS" id="6oVlrbk4O6g" role="2VODD2">
-          <node concept="3clFbF" id="6oVlrbk4QOC" role="3cqZAp">
-            <node concept="2YIFZM" id="6oVlrbk4QRu" role="3clFbG">
-              <ref role="37wK5l" to="tm9u:6oVlrbk4PVu" resolve="getSpecialPropertyDesc" />
-              <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
-              <node concept="Bn53e" id="6oVlrbk4QT6" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="2dbRIv" id="6ihoZu$guW1" role="lGtFl" />
-      </node>
       <node concept="3dgokm" id="6oVlrbk4Mgg" role="1N6uqs">
         <node concept="3clFbS" id="1ZEzZmq2f68" role="2VODD2">
           <node concept="3clFbF" id="1ZEzZmq2f69" role="3cqZAp">
@@ -1020,18 +1003,6 @@
     <ref role="1M2myG" to="1btx:6oVlrbk5zxO" resolve="OperationSpecialPropertyReference" />
     <node concept="1N5Pfh" id="6oVlrbkhorc" role="1Mr941">
       <ref role="1N5Vy1" to="1btx:6oVlrbk5zxP" resolve="property" />
-      <node concept="Bn3R3" id="6oVlrbkhorF" role="Bn3R6">
-        <node concept="3clFbS" id="6oVlrbkhorG" role="2VODD2">
-          <node concept="3clFbF" id="6oVlrbkhosR" role="3cqZAp">
-            <node concept="2YIFZM" id="6oVlrbkhovE" role="3clFbG">
-              <ref role="37wK5l" to="tm9u:6oVlrbk4PVu" resolve="getSpecialPropertyDesc" />
-              <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
-              <node concept="Bn53e" id="6oVlrbkhoxC" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="2dbRIv" id="6ihoZu$guW0" role="lGtFl" />
-      </node>
       <node concept="3dgokm" id="6oVlrbkhorg" role="1N6uqs">
         <node concept="3clFbS" id="1ZEzZmq2f4r" role="2VODD2">
           <node concept="3clFbF" id="1ZEzZmq2f4s" role="3cqZAp">

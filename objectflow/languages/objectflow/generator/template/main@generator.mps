@@ -9,7 +9,7 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -324,6 +324,7 @@
       <concept id="1114729360583" name="jetbrains.mps.lang.generator.structure.CopySrcListMacro" flags="ln" index="2b32R4">
         <child id="1168278589236" name="sourceNodesQuery" index="2P8S$" />
       </concept>
+      <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <property id="1184950341882" name="topPriorityGroup" index="3$yP7D" />
         <child id="1219952894531" name="dropRootRule" index="aQYdv" />
@@ -3588,31 +3589,34 @@
                   </node>
                 </node>
                 <node concept="raruj" id="2w93nZwDzoV" role="lGtFl" />
+                <node concept="1W57fq" id="6bxD05p3jQB" role="lGtFl">
+                  <node concept="3IZrLx" id="6bxD05p3jQC" role="3IZSJc">
+                    <node concept="3clFbS" id="6bxD05p3jQD" role="2VODD2">
+                      <node concept="3clFbF" id="6bxD05p3jYv" role="3cqZAp">
+                        <node concept="2OqwBi" id="33fNNpe$wJw" role="3clFbG">
+                          <node concept="2OqwBi" id="33fNNpe$wjd" role="2Oq$k0">
+                            <node concept="30H73N" id="33fNNpe$wfh" role="2Oq$k0" />
+                            <node concept="2Xjw5R" id="33fNNpe$wx9" role="2OqNvi">
+                              <node concept="1xMEDy" id="33fNNpe$wxb" role="1xVPHs">
+                                <node concept="chp4Y" id="33fNNpe$wyY" role="ri$Ld">
+                                  <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="33fNNpe$x8o" role="2OqNvi">
+                            <ref role="37wK5l" to="70o0:2w93nZwA53j" resolve="isToDebug" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="b5Tf3" id="6bxD05p3knG" role="UU_$l" />
+                </node>
               </node>
             </node>
           </node>
           <node concept="3Tm1VV" id="2w93nZwDydE" role="1B3o_S" />
-        </node>
-      </node>
-      <node concept="30G5F_" id="33fNNpe$vL1" role="30HLyM">
-        <node concept="3clFbS" id="33fNNpe$vL2" role="2VODD2">
-          <node concept="3clFbF" id="33fNNpe$wfi" role="3cqZAp">
-            <node concept="2OqwBi" id="33fNNpe$wJw" role="3clFbG">
-              <node concept="2OqwBi" id="33fNNpe$wjd" role="2Oq$k0">
-                <node concept="30H73N" id="33fNNpe$wfh" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="33fNNpe$wx9" role="2OqNvi">
-                  <node concept="1xMEDy" id="33fNNpe$wxb" role="1xVPHs">
-                    <node concept="chp4Y" id="33fNNpe$wyY" role="ri$Ld">
-                      <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2qgKlT" id="33fNNpe$x8o" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:2w93nZwA53j" resolve="isToDebug" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
     </node>

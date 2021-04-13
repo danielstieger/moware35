@@ -26,6 +26,11 @@
       <sourceRoot location="avalon-framework-impl-4.3.1.jar" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/jars/richclient/mailapi.jar" />
     <stubModelEntry path="${module}/jars/richclient/ojdbc14.jar" />

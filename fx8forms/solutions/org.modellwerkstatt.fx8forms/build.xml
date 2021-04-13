@@ -35,6 +35,17 @@
       	<fileset dir="./jars/designtime">
     		<include name="*.jar"/>
   		</fileset>
+
+      	<fileset dir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/jars/">
+    		<include name="joda-time*.jar"/>
+  		</fileset>
+
+  
+        <fileset dir="${mowareMpsHomeDir}/lib/">
+    		<include name="mps-references.jar"/>
+    		<include name="mps-collections.jar"/>
+    		<include name="mps-closures.jar"/>
+  		</fileset>
   
 		<pathelement path="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
 		<pathelement path="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>

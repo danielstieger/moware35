@@ -15,6 +15,11 @@
       <sourceRoot location="spring-tx-5.2.9.RELEASE.jar" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/jars/commons-logging-1.2.jar" />
     <stubModelEntry path="${module}/jars/joda-time-2.10.jar" />

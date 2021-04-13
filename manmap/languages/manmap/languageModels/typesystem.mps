@@ -168,9 +168,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1205762105978" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableDeclaration" flags="ng" index="2X1qdy" />
       <concept id="1205762656241" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableReference" flags="nn" index="2X3wrD">
         <reference id="1205762683928" name="whenConcreteVar" index="2X3Bk0" />
@@ -192,6 +189,9 @@
       <concept id="1236083245720" name="jetbrains.mps.lang.typesystem.structure.Operation_parameter" flags="nn" index="3cjoe7" />
       <concept id="1236165709895" name="jetbrains.mps.lang.typesystem.structure.OverloadedOpRulesContainer" flags="ng" index="3hdX5o">
         <child id="1236165725858" name="rule" index="3he0YX" />
+      </concept>
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
       <concept id="6136676636349908958" name="jetbrains.mps.lang.typesystem.structure.OverloadedOpIsApplicableFunction" flags="in" index="1QeDOX" />
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
@@ -459,11 +459,11 @@
           <node concept="3clFbJ" id="EYyuKpe1Gm" role="3cqZAp">
             <node concept="3clFbS" id="EYyuKpe1Gn" role="3clFbx">
               <node concept="2MkqsV" id="EYyuKpe1Gs" role="3cqZAp">
-                <node concept="1YBJjd" id="EYyuKpe1GB" role="2OEOjV">
-                  <ref role="1YBMHb" node="EYyuKpe1FC" resolve="em" />
-                </node>
                 <node concept="Xl_RD" id="EYyuKpe1GA" role="2MkJ7o">
                   <property role="Xl_RC" value="Name of the entity-mapping has to be unique." />
+                </node>
+                <node concept="1YBJjd" id="EYyuKpe1GB" role="1urrMF">
+                  <ref role="1YBMHb" node="EYyuKpe1FC" resolve="em" />
                 </node>
               </node>
             </node>
@@ -563,7 +563,7 @@
             <node concept="Xl_RD" id="3JsUq_Sf9xi" role="2MkJ7o">
               <property role="Xl_RC" value="No Key mapping available for this entity mapping." />
             </node>
-            <node concept="1YBJjd" id="3JsUq_Sf9xj" role="2OEOjV">
+            <node concept="1YBJjd" id="3JsUq_Sf9xj" role="1urrMF">
               <ref role="1YBMHb" node="EYyuKpe1FC" resolve="em" />
             </node>
           </node>
@@ -693,7 +693,7 @@
                             <node concept="Xl_RD" id="3JsUq_Sf9zJ" role="2MkJ7o">
                               <property role="Xl_RC" value="Only one key can be defined per entity mapping. This key is obsolete" />
                             </node>
-                            <node concept="2OqwBi" id="3JsUq_Sf9zP" role="2OEOjV">
+                            <node concept="2OqwBi" id="3JsUq_Sf9zP" role="1urrMF">
                               <node concept="2OqwBi" id="3JsUq_Sf9zQ" role="2Oq$k0">
                                 <node concept="1YBJjd" id="3JsUq_Sf9zR" role="2Oq$k0">
                                   <ref role="1YBMHb" node="EYyuKpe1FC" resolve="em" />
@@ -817,7 +817,7 @@
             <node concept="Xl_RD" id="17uSheOyHSw" role="2MkJ7o">
               <property role="Xl_RC" value="Table name is not allowed to be empty." />
             </node>
-            <node concept="2OqwBi" id="17uSheOyHS$" role="2OEOjV">
+            <node concept="2OqwBi" id="17uSheOyHS$" role="1urrMF">
               <node concept="1YBJjd" id="17uSheOyHSx" role="2Oq$k0">
                 <ref role="1YBMHb" node="EYyuKpe1FC" resolve="em" />
               </node>
@@ -953,7 +953,10 @@
                 <node concept="9aQIb" id="1KASzI4zGvJ" role="9aQIa">
                   <node concept="3clFbS" id="1KASzI4zGvK" role="9aQI4">
                     <node concept="2MkqsV" id="1HOHq98KgTW" role="3cqZAp">
-                      <node concept="2OqwBi" id="1HOHq98KgU3" role="2OEOjV">
+                      <node concept="Xl_RD" id="1HOHq98KgTZ" role="2MkJ7o">
+                        <property role="Xl_RC" value="The Property is already mapped." />
+                      </node>
+                      <node concept="2OqwBi" id="1HOHq98KgU3" role="1urrMF">
                         <node concept="37vLTw" id="KVbXdPfeYD" role="2Oq$k0">
                           <ref role="3cqZAo" node="1HOHq98KgS4" resolve="fm" />
                         </node>
@@ -962,9 +965,6 @@
                             <ref role="3cqZAo" node="1HOHq98KgSs" resolve="i" />
                           </node>
                         </node>
-                      </node>
-                      <node concept="Xl_RD" id="1HOHq98KgTZ" role="2MkJ7o">
-                        <property role="Xl_RC" value="The Property is already mapped." />
                       </node>
                     </node>
                   </node>
@@ -1211,7 +1211,7 @@
                 <node concept="Xl_RD" id="QyBIeIJXqY" role="2MkJ7o">
                   <property role="Xl_RC" value="Only list&lt;&gt; type is allowed here." />
                 </node>
-                <node concept="2OqwBi" id="QyBIeIJXr3" role="2OEOjV">
+                <node concept="2OqwBi" id="QyBIeIJXr3" role="1urrMF">
                   <node concept="1YBJjd" id="QyBIeIJXr0" role="2Oq$k0">
                     <ref role="1YBMHb" node="7ITJFzooHw6" resolve="io" />
                   </node>
@@ -1251,7 +1251,7 @@
                       <node concept="Xl_RD" id="QyBIeIJXsb" role="2MkJ7o">
                         <property role="Xl_RC" value="Only list&lt;int&gt;, list&lt;string&gt; or a list&lt;node&lt;IMapsToString&gt;&gt;is allowed here." />
                       </node>
-                      <node concept="2OqwBi" id="QyBIeIJXsf" role="2OEOjV">
+                      <node concept="2OqwBi" id="QyBIeIJXsf" role="1urrMF">
                         <node concept="1YBJjd" id="QyBIeIJXsc" role="2Oq$k0">
                           <ref role="1YBMHb" node="7ITJFzooHw6" resolve="io" />
                         </node>
@@ -1380,7 +1380,7 @@
             <node concept="Xl_RD" id="17uSheOy_Tj" role="2MkJ7o">
               <property role="Xl_RC" value="Field names are not allowed to be empty." />
             </node>
-            <node concept="2OqwBi" id="17uSheOy_Tn" role="2OEOjV">
+            <node concept="2OqwBi" id="17uSheOy_Tn" role="1urrMF">
               <node concept="1YBJjd" id="17uSheOy_Tk" role="2Oq$k0">
                 <ref role="1YBMHb" node="17uSheOy_SC" resolve="fm" />
               </node>
@@ -1473,7 +1473,7 @@
             <node concept="Xl_RD" id="36k2UwsuWZU" role="2MkJ7o">
               <property role="Xl_RC" value="If repo method is marked as readonly, each query should be readonly too." />
             </node>
-            <node concept="1YBJjd" id="36k2UwsuWZV" role="2OEOjV">
+            <node concept="1YBJjd" id="36k2UwsuWZV" role="1urrMF">
               <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
             </node>
           </node>
@@ -1555,7 +1555,7 @@
                 <node concept="Xl_RD" id="5_gFKlwKvvR" role="2MkJ7o">
                   <property role="Xl_RC" value="When using get(), only the get operation can be applied." />
                 </node>
-                <node concept="1YBJjd" id="5_gFKlwKvvS" role="2OEOjV">
+                <node concept="1YBJjd" id="5_gFKlwKvvS" role="1urrMF">
                   <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
                 </node>
               </node>
@@ -1583,7 +1583,7 @@
                 <node concept="Xl_RD" id="1Ysc0vs7BJv" role="2MkJ7o">
                   <property role="Xl_RC" value="When using get(), join options are not supported." />
                 </node>
-                <node concept="1YBJjd" id="1Ysc0vs7BJw" role="2OEOjV">
+                <node concept="1YBJjd" id="1Ysc0vs7BJw" role="1urrMF">
                   <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
                 </node>
               </node>
@@ -1655,7 +1655,7 @@
                   <node concept="Xl_RD" id="1Ysc0vs7BIy" role="2MkJ7o">
                     <property role="Xl_RC" value="When using get(), only the get operation can be applied." />
                   </node>
-                  <node concept="1YBJjd" id="1Ysc0vs7BIz" role="2OEOjV">
+                  <node concept="1YBJjd" id="1Ysc0vs7BIz" role="1urrMF">
                     <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
                   </node>
                 </node>
@@ -1683,7 +1683,7 @@
                   <node concept="Xl_RD" id="1Ysc0vs7BJ$" role="2MkJ7o">
                     <property role="Xl_RC" value="When using reload(), join options are not supported." />
                   </node>
-                  <node concept="1YBJjd" id="1Ysc0vs7BJ_" role="2OEOjV">
+                  <node concept="1YBJjd" id="1Ysc0vs7BJ_" role="1urrMF">
                     <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
                   </node>
                 </node>
@@ -1741,7 +1741,7 @@
                       <node concept="Xl_RD" id="7$A8r6g2S4K" role="2MkJ7o">
                         <property role="Xl_RC" value="Query from map does not support this operation. Only sortBy can be used here." />
                       </node>
-                      <node concept="2OqwBi" id="2xB8IJbKRbC" role="2OEOjV">
+                      <node concept="2OqwBi" id="2xB8IJbKRbC" role="1urrMF">
                         <node concept="2OqwBi" id="2xB8IJbKRbu" role="2Oq$k0">
                           <node concept="1YBJjd" id="7$A8r6g2S4L" role="2Oq$k0">
                             <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
@@ -1836,7 +1836,7 @@
               <node concept="Xl_RD" id="7$A8r6g2S22" role="2MkJ7o">
                 <property role="Xl_RC" value="Query from map does not support this operation. get/where/reload is mandatory! (use a fake where in order to get sortyBy)" />
               </node>
-              <node concept="1YBJjd" id="1Ysc0vs7BIX" role="2OEOjV">
+              <node concept="1YBJjd" id="1Ysc0vs7BIX" role="1urrMF">
                 <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
               </node>
             </node>
@@ -1968,7 +1968,7 @@
                     <property role="Xl_RC" value="SortBy needs a mapping reference here! Instead found " />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="7$A8r6g34eU" role="2OEOjV">
+                <node concept="2OqwBi" id="7$A8r6g34eU" role="1urrMF">
                   <node concept="1YBJjd" id="7$A8r6g34eR" role="2Oq$k0">
                     <ref role="1YBMHb" node="7$A8r6g34dV" resolve="sbq" />
                   </node>
@@ -2092,7 +2092,7 @@
             <node concept="Xl_RD" id="4upt4JNaGvS" role="2MkJ7o">
               <property role="Xl_RC" value="Mapping references can not be further enhanced/specified by Dot operations. " />
             </node>
-            <node concept="1YBJjd" id="4upt4JNaGvT" role="2OEOjV">
+            <node concept="1YBJjd" id="4upt4JNaGvT" role="1urrMF">
               <ref role="1YBMHb" node="4upt4JNaGvt" resolve="mr" />
             </node>
           </node>
@@ -2270,7 +2270,7 @@
                     <node concept="Xl_RD" id="3NdPOdOT$tW" role="2MkJ7o">
                       <property role="Xl_RC" value="only int / string / BigDecimal / DateTime / LocalDate are supported as parameters." />
                     </node>
-                    <node concept="1YBJjd" id="3NdPOdOT$tX" role="2OEOjV">
+                    <node concept="1YBJjd" id="3NdPOdOT$tX" role="1urrMF">
                       <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
                     </node>
                   </node>
@@ -2432,7 +2432,7 @@
                 <node concept="Xl_RD" id="2AsTwA4Igrn" role="2MkJ7o">
                   <property role="Xl_RC" value="Void is not suitable as return type here." />
                 </node>
-                <node concept="2OqwBi" id="2AsTwA4Igxx" role="2OEOjV">
+                <node concept="2OqwBi" id="2AsTwA4Igxx" role="1urrMF">
                   <node concept="1YBJjd" id="2AsTwA4Igvn" role="2Oq$k0">
                     <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
                   </node>
@@ -2517,7 +2517,7 @@
                     <node concept="Xl_RD" id="7opW4z6uFKL" role="2MkJ7o">
                       <property role="Xl_RC" value="only int / string / BigDecimal / DateTime / LocalDate are supported as parameters." />
                     </node>
-                    <node concept="1YBJjd" id="7opW4z6uHJb" role="2OEOjV">
+                    <node concept="1YBJjd" id="7opW4z6uHJb" role="1urrMF">
                       <ref role="1YBMHb" node="7opW4z6uFqd" resolve="updateFormSql" />
                     </node>
                   </node>
@@ -2676,7 +2676,7 @@
                         <node concept="Xl_RD" id="29mqFQygbE4" role="2MkJ7o">
                           <property role="Xl_RC" value="Inser or update option has to be provided for string keys without auto-id option." />
                         </node>
-                        <node concept="1YBJjd" id="29mqFQygbE5" role="2OEOjV">
+                        <node concept="1YBJjd" id="29mqFQygbE5" role="1urrMF">
                           <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
                         </node>
                       </node>
@@ -2748,7 +2748,7 @@
                       <node concept="Xl_RD" id="4yyZK2Mm8fL" role="2MkJ7o">
                         <property role="Xl_RC" value="For not int/string key entities, inser or update has to be provided in options." />
                       </node>
-                      <node concept="1YBJjd" id="4yyZK2Mm8u9" role="2OEOjV">
+                      <node concept="1YBJjd" id="4yyZK2Mm8u9" role="1urrMF">
                         <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
                       </node>
                     </node>
@@ -2833,7 +2833,7 @@
             <node concept="Xl_RD" id="6gHt3t1P8Xn" role="2MkJ7o">
               <property role="Xl_RC" value="It is strongly recommendet to use only one list join within queries - list&lt;&gt; handling might be wrong." />
             </node>
-            <node concept="2OqwBi" id="6gHt3t1P9a7" role="2OEOjV">
+            <node concept="2OqwBi" id="6gHt3t1P9a7" role="1urrMF">
               <node concept="1YBJjd" id="6gHt3t1P97x" role="2Oq$k0">
                 <ref role="1YBMHb" node="6gHt3t1OCfA" resolve="listJoinOption" />
               </node>
@@ -3192,7 +3192,7 @@
             <node concept="Xl_RD" id="2PHQwuQbheK" role="2MkJ7o">
               <property role="Xl_RC" value="A property mapped embedded inside a ref is propably a key mapping? map prop as key?" />
             </node>
-            <node concept="1YBJjd" id="26OSHcufMID" role="2OEOjV">
+            <node concept="1YBJjd" id="26OSHcufMID" role="1urrMF">
               <ref role="1YBMHb" node="26OSHcufMbF" resolve="embeddedMapping" />
             </node>
           </node>
@@ -3303,7 +3303,7 @@
                   <node concept="Xl_RD" id="3JsUq_Sf9vE" role="2MkJ7o">
                     <property role="Xl_RC" value="All mappings have to be declared as a key." />
                   </node>
-                  <node concept="1YBJjd" id="26OSHcufMDr" role="2OEOjV">
+                  <node concept="1YBJjd" id="26OSHcufMDr" role="1urrMF">
                     <ref role="1YBMHb" node="26OSHcufMbF" resolve="embeddedMapping" />
                   </node>
                 </node>
@@ -3347,7 +3347,7 @@
                 <node concept="Xl_RD" id="2PHQwuQbiAX" role="2MkJ7o">
                   <property role="Xl_RC" value="If the embedded Prop is marked as key, do not mark props inside the object as keys." />
                 </node>
-                <node concept="1YBJjd" id="26OSHcufMIj" role="2OEOjV">
+                <node concept="1YBJjd" id="26OSHcufMIj" role="1urrMF">
                   <ref role="1YBMHb" node="26OSHcufMbF" resolve="embeddedMapping" />
                 </node>
               </node>
@@ -3372,7 +3372,7 @@
             <node concept="Xl_RD" id="26OSHcxusWS" role="a7wSD">
               <property role="Xl_RC" value="Mapping a reference with a property not marked as as 'key property' is very strange. What is your plan?" />
             </node>
-            <node concept="1YBJjd" id="26OSHcxusYe" role="2OEOjV">
+            <node concept="1YBJjd" id="26OSHcxusYe" role="1urrMF">
               <ref role="1YBMHb" node="26OSHcxusIr" resolve="referenceMapping" />
             </node>
           </node>
@@ -3470,7 +3470,7 @@
               <node concept="Xl_RD" id="4XZT_pJNbtf" role="a7wSD">
                 <property role="Xl_RC" value="Mapping a reference with a property not marked as as 'key property' is very strange. What is your plan?" />
               </node>
-              <node concept="1YBJjd" id="4XZT_pJNbtg" role="2OEOjV">
+              <node concept="1YBJjd" id="4XZT_pJNbtg" role="1urrMF">
                 <ref role="1YBMHb" node="26OSHcxusIr" resolve="referenceMapping" />
               </node>
             </node>
@@ -3494,7 +3494,7 @@
             <node concept="Xl_RD" id="35a9wK6Ge9r" role="2MkJ7o">
               <property role="Xl_RC" value="Overwrite AutoId only once per field mapping." />
             </node>
-            <node concept="1YBJjd" id="35a9wK6Gece" role="2OEOjV">
+            <node concept="1YBJjd" id="35a9wK6Gece" role="1urrMF">
               <ref role="1YBMHb" node="35a9wK6GbMA" resolve="overWriteAutoIdOption" />
             </node>
           </node>
@@ -3596,7 +3596,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="4HJH2PnFwWp" role="2OEOjV">
+                <node concept="1YBJjd" id="4HJH2PnFwWp" role="1urrMF">
                   <ref role="1YBMHb" node="4HJH2PnFRK4" resolve="lm" />
                 </node>
               </node>
@@ -3766,7 +3766,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1YBJjd" id="1zxZORuSgNc" role="2OEOjV">
+                  <node concept="1YBJjd" id="1zxZORuSgNc" role="1urrMF">
                     <ref role="1YBMHb" node="4HJH2PnFRK4" resolve="lm" />
                   </node>
                 </node>
@@ -3921,7 +3921,7 @@
             <node concept="Xl_RD" id="5Wi2c3mo2Ph" role="2MkJ7o">
               <property role="Xl_RC" value="Only one alternative access/table name options is applicable as option." />
             </node>
-            <node concept="1YBJjd" id="5Wi2c3mo2TH" role="2OEOjV">
+            <node concept="1YBJjd" id="5Wi2c3mo2TH" role="1urrMF">
               <ref role="1YBMHb" node="5Wi2c3mo1Dr" resolve="additionalTableReference" />
             </node>
           </node>

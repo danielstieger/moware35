@@ -2,9 +2,9 @@
 <model ref="r:150c60e9-5317-48ed-9b80-619f4d069584(org.modellwerkstatt.objectflow.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="3" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="4" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
@@ -77,6 +77,10 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -198,10 +202,6 @@
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
       <concept id="1179832490862" name="jetbrains.mps.lang.typesystem.structure.CreateStrongLessThanInequationStatement" flags="nn" index="2NvLDW" />
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216383476350" name="quickFixArgument" index="Q6Id_" />
@@ -237,6 +237,10 @@
       <concept id="1236083146670" name="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeFunction" flags="in" index="3ciZUL" />
       <concept id="1236165709895" name="jetbrains.mps.lang.typesystem.structure.OverloadedOpRulesContainer" flags="ng" index="3hdX5o">
         <child id="1236165725858" name="rule" index="3he0YX" />
+      </concept>
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
         <property id="1216127910019" name="applyImmediately" index="ARO6o" />
@@ -776,7 +780,7 @@
                   <node concept="Xl_RD" id="2xB8IJbLTU3" role="2MkJ7o">
                     <property role="Xl_RC" value="Entities can not extend themselves." />
                   </node>
-                  <node concept="2OqwBi" id="2xB8IJbLTU7" role="2OEOjV">
+                  <node concept="2OqwBi" id="2xB8IJbLTU7" role="1urrMF">
                     <node concept="1YBJjd" id="2xB8IJbLTU4" role="2Oq$k0">
                       <ref role="1YBMHb" node="44KEWew_Lbp" resolve="businessObject" />
                     </node>
@@ -861,7 +865,7 @@
               <node concept="Xl_RD" id="2xB8IJbLLm5" role="2MkJ7o">
                 <property role="Xl_RC" value="Entities can only extend other entity concepts." />
               </node>
-              <node concept="1YBJjd" id="2xB8IJbLLm6" role="2OEOjV">
+              <node concept="1YBJjd" id="2xB8IJbLLm6" role="1urrMF">
                 <ref role="1YBMHb" node="44KEWew_Lbp" resolve="businessObject" />
               </node>
             </node>
@@ -925,7 +929,7 @@
             <node concept="Xl_RD" id="44KEWew_Lce" role="2MkJ7o">
               <property role="Xl_RC" value="Exactly one key has to be defined for an Entity." />
             </node>
-            <node concept="1YBJjd" id="44KEWew_Lcf" role="2OEOjV">
+            <node concept="1YBJjd" id="44KEWew_Lcf" role="1urrMF">
               <ref role="1YBMHb" node="44KEWew_Lbp" resolve="businessObject" />
             </node>
           </node>
@@ -938,7 +942,7 @@
             <node concept="Xl_RD" id="11hNSr_7NCr" role="2MkJ7o">
               <property role="Xl_RC" value="A default constructor with 0 parameters is necessary for an Entity." />
             </node>
-            <node concept="1YBJjd" id="11hNSr_7NCs" role="2OEOjV">
+            <node concept="1YBJjd" id="11hNSr_7NCs" role="1urrMF">
               <ref role="1YBMHb" node="44KEWew_Lbp" resolve="businessObject" />
             </node>
           </node>
@@ -995,7 +999,7 @@
               <node concept="Xl_RD" id="12WIOaFWocw" role="a7wSD">
                 <property role="Xl_RC" value="A constructor with parameter will automatically set the dirty field in Entity." />
               </node>
-              <node concept="2OqwBi" id="12WIOaFWocy" role="2OEOjV">
+              <node concept="2OqwBi" id="12WIOaFWocy" role="1urrMF">
                 <node concept="2OqwBi" id="12WIOaFWocz" role="2Oq$k0">
                   <node concept="2OqwBi" id="12WIOaFWoc$" role="2Oq$k0">
                     <node concept="1YBJjd" id="12WIOaFWoc_" role="2Oq$k0">
@@ -1231,7 +1235,7 @@
             <node concept="Xl_RD" id="1GxgwjBwnC3" role="2MkJ7o">
               <property role="Xl_RC" value="The type of key property was not calculated!! " />
             </node>
-            <node concept="1YBJjd" id="1GxgwjBwnC4" role="2OEOjV">
+            <node concept="1YBJjd" id="1GxgwjBwnC4" role="1urrMF">
               <ref role="1YBMHb" node="6j_KBLob2R_" resolve="bpRefIdReference" />
             </node>
           </node>
@@ -1364,7 +1368,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2OqwBi" id="7UDNdKJ7aVM" role="2OEOjV">
+                <node concept="2OqwBi" id="7UDNdKJ7aVM" role="1urrMF">
                   <node concept="1YBJjd" id="7UDNdKJ78IV" role="2Oq$k0">
                     <ref role="1YBMHb" node="7UDNdKJ76vK" resolve="os" />
                   </node>
@@ -1561,7 +1565,7 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="5Ee0EjqSRoF" role="2OEOjV">
+                        <node concept="2OqwBi" id="5Ee0EjqSRoF" role="1urrMF">
                           <node concept="1YBJjd" id="5Ee0EjqSRoC" role="2Oq$k0">
                             <ref role="1YBMHb" node="5Ee0EjqSPLI" resolve="page" />
                           </node>
@@ -1622,7 +1626,7 @@
                       <node concept="Xl_RD" id="pXkFjDiO8k" role="2MkJ7o">
                         <property role="Xl_RC" value="Page boundClass can not be null." />
                       </node>
-                      <node concept="1YBJjd" id="pXkFjDiO8l" role="2OEOjV">
+                      <node concept="1YBJjd" id="pXkFjDiO8l" role="1urrMF">
                         <ref role="1YBMHb" node="5Ee0EjqSPLI" resolve="page" />
                       </node>
                     </node>
@@ -1645,16 +1649,16 @@
             <node concept="9aQIb" id="5Ee0EjqSRmz" role="9aQIa">
               <node concept="3clFbS" id="5Ee0EjqSRm$" role="9aQI4">
                 <node concept="2MkqsV" id="5Ee0EjqSRm_" role="3cqZAp">
-                  <node concept="2OqwBi" id="5Ee0EjqSRmA" role="2OEOjV">
+                  <node concept="Xl_RD" id="5Ee0EjqSRmD" role="2MkJ7o">
+                    <property role="Xl_RC" value="Page initialization has to return a list or a single object! " />
+                  </node>
+                  <node concept="2OqwBi" id="5Ee0EjqSRmA" role="1urrMF">
                     <node concept="1YBJjd" id="5Ee0EjqSRmB" role="2Oq$k0">
                       <ref role="1YBMHb" node="5Ee0EjqSPLI" resolve="page" />
                     </node>
                     <node concept="3TrEf2" id="5Ee0EjqSRmF" role="2OqNvi">
                       <ref role="3Tt5mk" to="un0u:1Csx3LqtqVo" resolve="pageInit" />
                     </node>
-                  </node>
-                  <node concept="Xl_RD" id="5Ee0EjqSRmD" role="2MkJ7o">
-                    <property role="Xl_RC" value="Page initialization has to return a list or a single object! " />
                   </node>
                 </node>
                 <node concept="3clFbH" id="pXkFjDiJuc" role="3cqZAp" />
@@ -2077,7 +2081,7 @@
                         <node concept="Xl_RD" id="75R75qdeF5M" role="2MkJ7o">
                           <property role="Xl_RC" value="Can not return arbitrary objects, only Entities/ValueObjects/Views are allowed." />
                         </node>
-                        <node concept="37vLTw" id="3xmYcCN8lSi" role="2OEOjV">
+                        <node concept="37vLTw" id="3xmYcCN8lSi" role="1urrMF">
                           <ref role="3cqZAo" node="3xmYcCN4S6n" resolve="ex" />
                         </node>
                       </node>
@@ -2189,7 +2193,7 @@
             <node concept="Xl_RD" id="48aWMpCXmTj" role="2MkJ7o">
               <property role="Xl_RC" value="Graph edit commands can not restrict to read/only permissions since that perm. is session related (e.g. readonly session)" />
             </node>
-            <node concept="1YBJjd" id="48aWMpCXmZB" role="2OEOjV">
+            <node concept="1YBJjd" id="48aWMpCXmZB" role="1urrMF">
               <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
             </node>
           </node>
@@ -2382,7 +2386,7 @@
                                   <node concept="Xl_RD" id="6ye04LlR_ao" role="2MkJ7o">
                                     <property role="Xl_RC" value="You can only use parameter references here. " />
                                   </node>
-                                  <node concept="37vLTw" id="6ye04LlR_ap" role="2OEOjV">
+                                  <node concept="37vLTw" id="6ye04LlR_ap" role="1urrMF">
                                     <ref role="3cqZAo" node="1GCNgYaknqg" resolve="vr" />
                                   </node>
                                 </node>
@@ -2457,7 +2461,7 @@
                                 <node concept="Xl_RD" id="1GCNgYakpLk" role="2MkJ7o">
                                   <property role="Xl_RC" value="You can only use parameter references here. " />
                                 </node>
-                                <node concept="37vLTw" id="1GCNgYakpLl" role="2OEOjV">
+                                <node concept="37vLTw" id="1GCNgYakpLl" role="1urrMF">
                                   <ref role="3cqZAo" node="1GCNgYakpLm" resolve="vr" />
                                 </node>
                               </node>
@@ -2740,7 +2744,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="MT9RZiHg8h" role="2OEOjV">
+                    <node concept="1YBJjd" id="MT9RZiHg8h" role="1urrMF">
                       <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
                     </node>
                   </node>
@@ -2937,7 +2941,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="3IuMOEB26mb" role="2OEOjV">
+                    <node concept="1YBJjd" id="3IuMOEB26mb" role="1urrMF">
                       <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
                     </node>
                   </node>
@@ -2985,7 +2989,7 @@
             <node concept="Xl_RD" id="701$ZaZxTb2" role="2MkJ7o">
               <property role="Xl_RC" value="A modal GRAPH_OWNER without pages/successors does not make much sense. Choose a standard GRAPH_OWNER instead." />
             </node>
-            <node concept="1YBJjd" id="701$ZaZxTga" role="2OEOjV">
+            <node concept="1YBJjd" id="701$ZaZxTga" role="1urrMF">
               <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
             </node>
           </node>
@@ -3037,7 +3041,7 @@
                 <node concept="Xl_RD" id="1l1sktcbQb4" role="2MkJ7o">
                   <property role="Xl_RC" value="Only GRAPH_OWNER commands support the maker/journal operation for FINAL_CANCEL." />
                 </node>
-                <node concept="1YBJjd" id="1l1sktcbQd$" role="2OEOjV">
+                <node concept="1YBJjd" id="1l1sktcbQd$" role="1urrMF">
                   <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
                 </node>
               </node>
@@ -3170,7 +3174,7 @@
                   <node concept="Xl_RD" id="6qsy3WVHjcC" role="2MkJ7o">
                     <property role="Xl_RC" value="Only GRAPH_OWNER commands can be succeed imediatelly by another command." />
                   </node>
-                  <node concept="1YBJjd" id="6qsy3WVHjgX" role="2OEOjV">
+                  <node concept="1YBJjd" id="6qsy3WVHjgX" role="1urrMF">
                     <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
                   </node>
                 </node>
@@ -3197,7 +3201,7 @@
                           <node concept="Xl_RD" id="v00WQapo8j" role="2MkJ7o">
                             <property role="Xl_RC" value="Typically, successor commands should be GRAPH_OWNER commands, taking over the session from it s predecessor." />
                           </node>
-                          <node concept="37vLTw" id="v00WQappJm" role="2OEOjV">
+                          <node concept="37vLTw" id="v00WQappJm" role="1urrMF">
                             <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
                           </node>
                         </node>
@@ -3266,11 +3270,11 @@
                       </node>
                       <node concept="3clFbS" id="6qsy3WVHp42" role="3clFbx">
                         <node concept="2MkqsV" id="6qsy3WVHzZc" role="3cqZAp">
-                          <node concept="37vLTw" id="6qsy3WVH_9r" role="2OEOjV">
-                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
-                          </node>
                           <node concept="Xl_RD" id="6qsy3WVH$Q1" role="2MkJ7o">
                             <property role="Xl_RC" value="Chaining succeed commands is not supported." />
+                          </node>
+                          <node concept="37vLTw" id="6qsy3WVH_9r" role="1urrMF">
+                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -3281,7 +3285,7 @@
                           <node concept="Xl_RD" id="6qsy3WVHBNF" role="2MkJ7o">
                             <property role="Xl_RC" value="Typically only the last successor is the default successor without any condition." />
                           </node>
-                          <node concept="37vLTw" id="6qsy3WVHDaY" role="2OEOjV">
+                          <node concept="37vLTw" id="6qsy3WVHDaY" role="1urrMF">
                             <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
                           </node>
                         </node>
@@ -3316,7 +3320,7 @@
                           <node concept="Xl_RD" id="6qsy3WVUz93" role="2MkJ7o">
                             <property role="Xl_RC" value="Typically the last successor is the default successor without any condition." />
                           </node>
-                          <node concept="37vLTw" id="6qsy3WVU$H4" role="2OEOjV">
+                          <node concept="37vLTw" id="6qsy3WVU$H4" role="1urrMF">
                             <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
                           </node>
                         </node>
@@ -3385,7 +3389,7 @@
                 </node>
               </node>
             </node>
-            <node concept="1YBJjd" id="6TNACHoU4cO" role="2OEOjV">
+            <node concept="1YBJjd" id="6TNACHoU4cO" role="1urrMF">
               <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
             </node>
           </node>
@@ -3540,7 +3544,7 @@
                       <node concept="Xl_RD" id="Kou8Lej2ux" role="2MkJ7o">
                         <property role="Xl_RC" value="Variable must be final." />
                       </node>
-                      <node concept="37vLTw" id="6svR_JBEO42" role="2OEOjV">
+                      <node concept="37vLTw" id="6svR_JBEO42" role="1urrMF">
                         <ref role="3cqZAo" node="Kou8Lej2tQ" resolve="it" />
                       </node>
                     </node>
@@ -3562,7 +3566,7 @@
             <node concept="Xl_RD" id="1KASzI4ysEN" role="2MkJ7o">
               <property role="Xl_RC" value="Description text should not be empty." />
             </node>
-            <node concept="1YBJjd" id="1KASzI4ysEO" role="2OEOjV">
+            <node concept="1YBJjd" id="1KASzI4ysEO" role="1urrMF">
               <ref role="1YBMHb" node="Kou8Lej2ts" resolve="so" />
             </node>
           </node>
@@ -3586,7 +3590,7 @@
             <node concept="Xl_RD" id="75R75qdo8LI" role="2MkJ7o">
               <property role="Xl_RC" value="Modelrepository checkin in final_ok does no longer need a sessionOperationAdd." />
             </node>
-            <node concept="1YBJjd" id="75R75qdo8LJ" role="2OEOjV">
+            <node concept="1YBJjd" id="75R75qdo8LJ" role="1urrMF">
               <ref role="1YBMHb" node="Kou8Lej2ts" resolve="so" />
             </node>
           </node>
@@ -3866,7 +3870,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="FaoLX6jyjs" role="2OEOjV">
+                <node concept="1YBJjd" id="FaoLX6jyjs" role="1urrMF">
                   <ref role="1YBMHb" node="4upt4JN8e8$" resolve="entityMapping" />
                 </node>
               </node>
@@ -3912,7 +3916,7 @@
               <node concept="Xl_RD" id="4upt4JN8lRO" role="2MkJ7o">
                 <property role="Xl_RC" value="When using objectflow language, only entities should be mapped." />
               </node>
-              <node concept="1YBJjd" id="4upt4JN8lRP" role="2OEOjV">
+              <node concept="1YBJjd" id="4upt4JN8lRP" role="1urrMF">
                 <ref role="1YBMHb" node="4upt4JN8e8$" resolve="entityMapping" />
               </node>
             </node>
@@ -3935,7 +3939,7 @@
             <node concept="Xl_RD" id="2vvVhmohPdn" role="2MkJ7o">
               <property role="Xl_RC" value="A default constructor with 0 parameters is necessary for a ValueObject." />
             </node>
-            <node concept="1YBJjd" id="2vvVhmohTzz" role="2OEOjV">
+            <node concept="1YBJjd" id="2vvVhmohTzz" role="1urrMF">
               <ref role="1YBMHb" node="7kI3k5AXyTt" resolve="vo" />
             </node>
           </node>
@@ -3989,7 +3993,7 @@
             <node concept="Xl_RD" id="75R75qdktVk" role="2MkJ7o">
               <property role="Xl_RC" value="It is crucial to implement equals() in ValueObjects correctly! At least one property for equality is necessary." />
             </node>
-            <node concept="1YBJjd" id="75R75qdktVl" role="2OEOjV">
+            <node concept="1YBJjd" id="75R75qdktVl" role="1urrMF">
               <ref role="1YBMHb" node="7kI3k5AXyTt" resolve="vo" />
             </node>
           </node>
@@ -4069,7 +4073,7 @@
                       <node concept="Xl_RD" id="7kI3k5AX_6P" role="2MkJ7o">
                         <property role="Xl_RC" value="Property in a ValueObject can only be of int/string/BigDecimal/status/DateTime/LocalDate type." />
                       </node>
-                      <node concept="37vLTw" id="6svR_JBENZO" role="2OEOjV">
+                      <node concept="37vLTw" id="6svR_JBENZO" role="1urrMF">
                         <ref role="3cqZAo" node="756PNvB53uN" resolve="thisProp" />
                       </node>
                     </node>
@@ -4297,7 +4301,7 @@
                                   <node concept="Xl_RD" id="4RdBniXTDM" role="2MkJ7o">
                                     <property role="Xl_RC" value="Custom set accessor's for virtual properties are not allowed for ValueObjects." />
                                   </node>
-                                  <node concept="37vLTw" id="6svR_JBEO7f" role="2OEOjV">
+                                  <node concept="37vLTw" id="6svR_JBEO7f" role="1urrMF">
                                     <ref role="3cqZAo" node="756PNvB53uN" resolve="thisProp" />
                                   </node>
                                 </node>
@@ -4451,7 +4455,7 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="1YBJjd" id="706Aplvxr8B" role="2OEOjV">
+                            <node concept="1YBJjd" id="706Aplvxr8B" role="1urrMF">
                               <ref role="1YBMHb" node="7kI3k5AXyTt" resolve="vo" />
                             </node>
                           </node>
@@ -4670,11 +4674,11 @@
         </node>
         <node concept="3clFbS" id="58L_rBVdCeE" role="3clFbx">
           <node concept="2MkqsV" id="33f56ccXE0J" role="3cqZAp">
-            <node concept="1YBJjd" id="33f56ccXE0O" role="2OEOjV">
-              <ref role="1YBMHb" node="33f56ccXDZU" resolve="lo" />
-            </node>
             <node concept="Xl_RD" id="33f56ccXE0N" role="2MkJ7o">
               <property role="Xl_RC" value="LENGTH option only applicable to string type." />
+            </node>
+            <node concept="1YBJjd" id="33f56ccXE0O" role="1urrMF">
+              <ref role="1YBMHb" node="33f56ccXDZU" resolve="lo" />
             </node>
           </node>
         </node>
@@ -4803,11 +4807,11 @@
         </node>
         <node concept="3clFbS" id="33f56ccXFtk" role="3clFbx">
           <node concept="2MkqsV" id="33f56ccXFtl" role="3cqZAp">
-            <node concept="1YBJjd" id="33f56ccXFtw" role="2OEOjV">
-              <ref role="1YBMHb" node="33f56ccXFta" resolve="ro" />
-            </node>
             <node concept="Xl_RD" id="33f56ccXFtn" role="2MkJ7o">
               <property role="Xl_RC" value="RANGE option only applicable to BigDecimal type." />
+            </node>
+            <node concept="1YBJjd" id="33f56ccXFtw" role="1urrMF">
+              <ref role="1YBMHb" node="33f56ccXFta" resolve="ro" />
             </node>
           </node>
         </node>
@@ -5260,7 +5264,7 @@
                     <node concept="Xl_RD" id="1l1sktcbVRX" role="2MkJ7o">
                       <property role="Xl_RC" value="Call as maker operation in FINAL_CANCEL_CONCLUSION can solely call repository methods." />
                     </node>
-                    <node concept="1YBJjd" id="1l1sktcbVVc" role="2OEOjV">
+                    <node concept="1YBJjd" id="1l1sktcbVVc" role="1urrMF">
                       <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
                     </node>
                   </node>
@@ -5307,7 +5311,7 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="1YBJjd" id="7JtXXwmgI4L" role="2OEOjV">
+                        <node concept="1YBJjd" id="7JtXXwmgI4L" role="1urrMF">
                           <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
                         </node>
                       </node>
@@ -5353,7 +5357,7 @@
                   <node concept="Xl_RD" id="75R75qdnANY" role="2MkJ7o">
                     <property role="Xl_RC" value="Checkin can only be called from commands FINAL_OK_CONCLUSION." />
                   </node>
-                  <node concept="1YBJjd" id="75R75qdnANZ" role="2OEOjV">
+                  <node concept="1YBJjd" id="75R75qdnANZ" role="1urrMF">
                     <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
                   </node>
                 </node>
@@ -5381,7 +5385,7 @@
                 <node concept="Xl_RD" id="6g3SR2DyYKL" role="2MkJ7o">
                   <property role="Xl_RC" value="There is a session provided in this context. You should not provide your own one." />
                 </node>
-                <node concept="1YBJjd" id="6g3SR2DyYQz" role="2OEOjV">
+                <node concept="1YBJjd" id="6g3SR2DyYQz" role="1urrMF">
                   <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
                 </node>
               </node>
@@ -5433,7 +5437,7 @@
                   <node concept="Xl_RD" id="1jAcMFYJFFk" role="2MkJ7o">
                     <property role="Xl_RC" value="There is no session provided in this context. You should provide your own one." />
                   </node>
-                  <node concept="1YBJjd" id="1jAcMFYJFHT" role="2OEOjV">
+                  <node concept="1YBJjd" id="1jAcMFYJFHT" role="1urrMF">
                     <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
                   </node>
                 </node>
@@ -5501,7 +5505,7 @@
             <node concept="Xl_RD" id="2vvVhmohY4p" role="2MkJ7o">
               <property role="Xl_RC" value="A constructor is necessary for a DTO." />
             </node>
-            <node concept="1YBJjd" id="2vvVhmohYHW" role="2OEOjV">
+            <node concept="1YBJjd" id="2vvVhmohYHW" role="1urrMF">
               <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
             </node>
           </node>
@@ -5530,7 +5534,7 @@
             <node concept="Xl_RD" id="2CQtLPQM5V9" role="2MkJ7o">
               <property role="Xl_RC" value="A default constructor with 0 parameters is necessary for a DTO." />
             </node>
-            <node concept="1YBJjd" id="2CQtLPQM6pU" role="2OEOjV">
+            <node concept="1YBJjd" id="2CQtLPQM6pU" role="1urrMF">
               <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
             </node>
           </node>
@@ -5594,7 +5598,7 @@
             <node concept="Xl_RD" id="3hMfwBJpyA5" role="2MkJ7o">
               <property role="Xl_RC" value="'From Server' ist not allowed in entity/valueobject/view object" />
             </node>
-            <node concept="1YBJjd" id="3hMfwBJpyK3" role="2OEOjV">
+            <node concept="1YBJjd" id="3hMfwBJpyK3" role="1urrMF">
               <ref role="1YBMHb" node="3hMfwBJpvjy" resolve="dateLiteral" />
             </node>
           </node>
@@ -5642,7 +5646,7 @@
             <node concept="Xl_RD" id="3hMfwBJp$$3" role="2MkJ7o">
               <property role="Xl_RC" value="'From Server' ist not allowed in entity/valueobject/view object" />
             </node>
-            <node concept="1YBJjd" id="3hMfwBJpAvk" role="2OEOjV">
+            <node concept="1YBJjd" id="3hMfwBJpAvk" role="1urrMF">
               <ref role="1YBMHb" node="3hMfwBJp$z6" resolve="dateTimeLiteral" />
             </node>
           </node>
@@ -5723,6 +5727,25 @@
               </node>
             </node>
             <node concept="3clFbS" id="3mhGZDXGI8d" role="3clFbx">
+              <node concept="3cpWs8" id="6bxD05nQcfe" role="3cqZAp">
+                <node concept="3cpWsn" id="6bxD05nQcfh" role="3cpWs9">
+                  <property role="TrG5h" value="expTypeCasted" />
+                  <node concept="3Tqbb2" id="6bxD05nQcfc" role="1tU5fm">
+                    <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+                  </node>
+                  <node concept="1eOMI4" id="6bxD05nQcgY" role="33vP2m">
+                    <node concept="10QFUN" id="6bxD05nQcgV" role="1eOMHV">
+                      <node concept="3Tqbb2" id="6bxD05nQch0" role="10QFUM">
+                        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+                      </node>
+                      <node concept="2X3wrD" id="6bxD05nQch1" role="10QFUP">
+                        <ref role="2X3Bk0" node="3mhGZDXGI8H" resolve="expType" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6bxD05nQckf" role="3cqZAp" />
               <node concept="3SKdUt" id="3mhGZDXGI8e" role="3cqZAp">
                 <node concept="1PaTwC" id="5HvIBdINI2w" role="3ndbpf">
                   <node concept="3oM_SD" id="5HvIBdINI2x" role="1PaTwD">
@@ -5757,8 +5780,8 @@
                     <node concept="_YKpA" id="3mhGZDXGI8j" role="2c44tc">
                       <node concept="33vP2l" id="3mhGZDXGI8k" role="_ZDj9">
                         <node concept="2c44te" id="3mhGZDXGI8l" role="lGtFl">
-                          <node concept="2X3wrD" id="3mhGZDXGI8m" role="2c44t1">
-                            <ref role="2X3Bk0" node="3mhGZDXGI8H" resolve="expType" />
+                          <node concept="37vLTw" id="6bxD05nQchs" role="2c44t1">
+                            <ref role="3cqZAo" node="6bxD05nQcfh" resolve="expTypeCasted" />
                           </node>
                         </node>
                       </node>
@@ -5893,7 +5916,7 @@
             <node concept="Xl_RD" id="xFWXJRefxF" role="2MkJ7o">
               <property role="Xl_RC" value="Property can not be named as 'value'. " />
             </node>
-            <node concept="1YBJjd" id="xFWXJRefzV" role="2OEOjV">
+            <node concept="1YBJjd" id="xFWXJRefzV" role="1urrMF">
               <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
             </node>
           </node>
@@ -6056,7 +6079,7 @@
                 <node concept="Xl_RD" id="34EwMoQBZ3H" role="2MkJ7o">
                   <property role="Xl_RC" value="Collection of type list&lt;&gt; is only allowed to contain Entities / DTOs / ValueObjects as children." />
                 </node>
-                <node concept="1YBJjd" id="34EwMoQBZuU" role="2OEOjV">
+                <node concept="1YBJjd" id="34EwMoQBZuU" role="1urrMF">
                   <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
                 </node>
               </node>
@@ -6107,7 +6130,7 @@
                 <node concept="Xl_RD" id="IlacaD$5of" role="2MkJ7o">
                   <property role="Xl_RC" value="Key, opposite or containment options can not be used within DTOs or Value Objects." />
                 </node>
-                <node concept="1YBJjd" id="IlacaD$5r9" role="2OEOjV">
+                <node concept="1YBJjd" id="IlacaD$5r9" role="1urrMF">
                   <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
                 </node>
               </node>
@@ -6274,7 +6297,7 @@
                 <property role="Xl_RC" value=" parameter is/are needed." />
               </node>
             </node>
-            <node concept="1YBJjd" id="49kO6rSTzi1" role="2OEOjV">
+            <node concept="1YBJjd" id="49kO6rSTzi1" role="1urrMF">
               <ref role="1YBMHb" node="4Wj1gYHVeGB" resolve="permissionsScopeReference" />
             </node>
           </node>
@@ -6662,7 +6685,7 @@
             <node concept="Xl_RD" id="q_zDmK5bKz" role="2MkJ7o">
               <property role="Xl_RC" value="Only string literals suit as references. (lazy referencing)." />
             </node>
-            <node concept="1YBJjd" id="q_zDmK5bQz" role="2OEOjV">
+            <node concept="1YBJjd" id="q_zDmK5bQz" role="1urrMF">
               <ref role="1YBMHb" node="q_zDmK5af_" resolve="ofxConfigProperty" />
             </node>
           </node>
@@ -6866,7 +6889,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="2h5WDoV6BDa" role="2OEOjV">
+                <node concept="1YBJjd" id="2h5WDoV6BDa" role="1urrMF">
                   <ref role="1YBMHb" node="2h5WDoV5Y0b" resolve="ofxConfigInstance" />
                 </node>
               </node>
@@ -6933,7 +6956,7 @@
                           <property role="Xl_RC" value="Duplicate field name " />
                         </node>
                       </node>
-                      <node concept="37vLTw" id="qHvcCAYdoF" role="2OEOjV">
+                      <node concept="37vLTw" id="qHvcCAYdoF" role="1urrMF">
                         <ref role="3cqZAo" node="qHvcCAXVXO" resolve="field" />
                       </node>
                     </node>
@@ -7073,7 +7096,7 @@
             <node concept="Xl_RD" id="3iT39CZmH1" role="2MkJ7o">
               <property role="Xl_RC" value="This option is not necessary, since this test is not potentially executeable." />
             </node>
-            <node concept="1YBJjd" id="3iT39CZmJh" role="2OEOjV">
+            <node concept="1YBJjd" id="3iT39CZmJh" role="1urrMF">
               <ref role="1YBMHb" node="3iT39CZlUH" resolve="ofxTestSuitNoExecOption" />
             </node>
           </node>
@@ -7142,7 +7165,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="5TC7JC3XAg6" role="2OEOjV">
+                <node concept="1YBJjd" id="5TC7JC3XAg6" role="1urrMF">
                   <ref role="1YBMHb" node="3n7eUMgsHeS" resolve="call" />
                 </node>
               </node>
@@ -7411,7 +7434,7 @@
             <node concept="Xl_RD" id="1XNrVwocgJi" role="2MkJ7o">
               <property role="Xl_RC" value="Dependent tests can not have a specific datetime option." />
             </node>
-            <node concept="1YBJjd" id="1XNrVwocgMJ" role="2OEOjV">
+            <node concept="1YBJjd" id="1XNrVwocgMJ" role="1urrMF">
               <ref role="1YBMHb" node="33fNNpe9k6d" resolve="otm" />
             </node>
           </node>
@@ -7521,7 +7544,7 @@
                 <property role="Xl_RC" value=" does not exist in the specified directory." />
               </node>
             </node>
-            <node concept="1YBJjd" id="2KwTCJy3Zdw" role="2OEOjV">
+            <node concept="1YBJjd" id="2KwTCJy3Zdw" role="1urrMF">
               <ref role="1YBMHb" node="2KwTCJy3XlJ" resolve="rfs" />
             </node>
           </node>
@@ -7571,7 +7594,7 @@
                 <node concept="Xl_RD" id="7mZ5ilqP39D" role="2MkJ7o">
                   <property role="Xl_RC" value="Path name is used twice." />
                 </node>
-                <node concept="1YBJjd" id="7mZ5ilqP3b$" role="2OEOjV">
+                <node concept="1YBJjd" id="7mZ5ilqP3b$" role="1urrMF">
                   <ref role="1YBMHb" node="7mZ5ilqNZFB" resolve="ofxTestPathOption" />
                 </node>
               </node>
@@ -7766,7 +7789,7 @@
             <node concept="Xl_RD" id="6RAFKVMucDZ" role="2MkJ7o">
               <property role="Xl_RC" value="Repo methods do not support final/abstract/static/synchronized/nativ/modifier/typevar semantics" />
             </node>
-            <node concept="1YBJjd" id="6RAFKVMAQ9e" role="2OEOjV">
+            <node concept="1YBJjd" id="6RAFKVMAQ9e" role="1urrMF">
               <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
             </node>
           </node>
@@ -7782,7 +7805,7 @@
                 <node concept="Xl_RD" id="RffU3zdSCg" role="2MkJ7o">
                   <property role="Xl_RC" value="When using 'save with map' in a repo method, mark method as checkin method." />
                 </node>
-                <node concept="1YBJjd" id="RffU3zdSEW" role="2OEOjV">
+                <node concept="1YBJjd" id="RffU3zdSEW" role="1urrMF">
                   <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
                 </node>
               </node>
@@ -7855,7 +7878,7 @@
                   <node concept="Xl_RD" id="RffU3ze33M" role="2MkJ7o">
                     <property role="Xl_RC" value="When using 'delete with map' in a repo method, mark method as delete method." />
                   </node>
-                  <node concept="1YBJjd" id="RffU3ze34W" role="2OEOjV">
+                  <node concept="1YBJjd" id="RffU3ze34W" role="1urrMF">
                     <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
                   </node>
                 </node>
@@ -7925,7 +7948,7 @@
                   <node concept="Xl_RD" id="RffU3ze7RS" role="2MkJ7o">
                     <property role="Xl_RC" value="When using 'checkout queries' in a repo method, mark method as checkout method." />
                   </node>
-                  <node concept="1YBJjd" id="RffU3ze7RT" role="2OEOjV">
+                  <node concept="1YBJjd" id="RffU3ze7RT" role="1urrMF">
                     <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
                   </node>
                 </node>
@@ -8007,7 +8030,7 @@
                   <node concept="Xl_RD" id="26OSHcuVHRk" role="2MkJ7o">
                     <property role="Xl_RC" value="Query from sql (MapSelect) should not be used to checkout any objects or be interweaved with checkout operations. Marks this method as ReadOnly." />
                   </node>
-                  <node concept="1YBJjd" id="26OSHcuVLVD" role="2OEOjV">
+                  <node concept="1YBJjd" id="26OSHcuVLVD" role="1urrMF">
                     <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
                   </node>
                 </node>
@@ -8106,7 +8129,7 @@
                     <ref role="2Oxat5" to="3ojc:4pIZztVttWt" resolve="errorMsg" />
                   </node>
                 </node>
-                <node concept="1YBJjd" id="4pIZztVu6T4" role="2OEOjV">
+                <node concept="1YBJjd" id="4pIZztVu6T4" role="1urrMF">
                   <ref role="1YBMHb" node="371pDBOBxnd" resolve="multiString" />
                 </node>
               </node>
@@ -8187,7 +8210,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1YBJjd" id="4pIZztVuu4M" role="2OEOjV">
+                  <node concept="1YBJjd" id="4pIZztVuu4M" role="1urrMF">
                     <ref role="1YBMHb" node="371pDBOBxnd" resolve="multiString" />
                   </node>
                 </node>
@@ -8378,7 +8401,7 @@
                                     <node concept="Xl_RD" id="4pIZztVZDuY" role="2MkJ7o">
                                       <property role="Xl_RC" value="You have to provide a Status here." />
                                     </node>
-                                    <node concept="37vLTw" id="4pIZztVZDuZ" role="2OEOjV">
+                                    <node concept="37vLTw" id="4pIZztVZDuZ" role="1urrMF">
                                       <ref role="3cqZAo" node="371pDBOC53H" resolve="is" />
                                     </node>
                                   </node>
@@ -8516,7 +8539,7 @@
                                     <node concept="Xl_RD" id="4pIZztVuQU8" role="2MkJ7o">
                                       <property role="Xl_RC" value="You have to provide a LocalDate or Datetime here." />
                                     </node>
-                                    <node concept="37vLTw" id="4pIZztVuQUX" role="2OEOjV">
+                                    <node concept="37vLTw" id="4pIZztVuQUX" role="1urrMF">
                                       <ref role="3cqZAo" node="371pDBOC53H" resolve="is" />
                                     </node>
                                   </node>
@@ -8610,7 +8633,7 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="1YBJjd" id="4pIZztVuSSp" role="2OEOjV">
+                            <node concept="1YBJjd" id="4pIZztVuSSp" role="1urrMF">
                               <ref role="1YBMHb" node="371pDBOBxnd" resolve="multiString" />
                             </node>
                           </node>
@@ -8707,7 +8730,7 @@
                       <node concept="Xl_RD" id="3yttyAVj4Og" role="2MkJ7o">
                         <property role="Xl_RC" value="Configured components are injected, do not initialize them." />
                       </node>
-                      <node concept="37vLTw" id="3yttyAVj5M4" role="2OEOjV">
+                      <node concept="37vLTw" id="3yttyAVj5M4" role="1urrMF">
                         <ref role="3cqZAo" node="3yttyAVj3MV" resolve="it" />
                       </node>
                     </node>
@@ -8753,7 +8776,7 @@
             <node concept="Xl_RD" id="3KPvoWv6CtV" role="2MkJ7o">
               <property role="Xl_RC" value="This option is not necessary, since this test is not executeable anyway." />
             </node>
-            <node concept="1YBJjd" id="3KPvoWv6CNg" role="2OEOjV">
+            <node concept="1YBJjd" id="3KPvoWv6CNg" role="1urrMF">
               <ref role="1YBMHb" node="3KPvoWv6CsI" resolve="ofxTestSuitDependentOption" />
             </node>
           </node>
@@ -8827,7 +8850,7 @@
             <node concept="Xl_RD" id="43H1fr7BJ73" role="2MkJ7o">
               <property role="Xl_RC" value="Solely commands which commit a session should provide creation information." />
             </node>
-            <node concept="1YBJjd" id="43H1fr7BJfd" role="2OEOjV">
+            <node concept="1YBJjd" id="43H1fr7BJfd" role="1urrMF">
               <ref role="1YBMHb" node="43H1fr7wQNk" resolve="commandCreationInfo" />
             </node>
           </node>
@@ -8869,7 +8892,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="43H1fr7x6dU" role="2OEOjV">
+                    <node concept="1YBJjd" id="43H1fr7x6dU" role="1urrMF">
                       <ref role="1YBMHb" node="43H1fr7wQNk" resolve="commandCreationInfo" />
                     </node>
                   </node>
@@ -8957,7 +8980,7 @@
                   <node concept="Xl_RD" id="43H1fr7zKWL" role="2MkJ7o">
                     <property role="Xl_RC" value="An Identifier has to be given for this creation information." />
                   </node>
-                  <node concept="1YBJjd" id="43H1fr7zKZm" role="2OEOjV">
+                  <node concept="1YBJjd" id="43H1fr7zKZm" role="1urrMF">
                     <ref role="1YBMHb" node="43H1fr7wQNk" resolve="commandCreationInfo" />
                   </node>
                 </node>
@@ -9198,7 +9221,7 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="37vLTw" id="3nLPQZQN5rs" role="2OEOjV">
+                          <node concept="37vLTw" id="3nLPQZQN5rs" role="1urrMF">
                             <ref role="3cqZAo" node="3nLPQZQN0Jo" resolve="it" />
                           </node>
                         </node>
@@ -9281,7 +9304,7 @@
                 <node concept="Xl_RD" id="7qQ6PJuXxb_" role="2MkJ7o">
                   <property role="Xl_RC" value="Typically, the last page pane should be the default pane." />
                 </node>
-                <node concept="1YBJjd" id="3Rw9V4qgmdG" role="2OEOjV">
+                <node concept="1YBJjd" id="3Rw9V4qgmdG" role="1urrMF">
                   <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
                 </node>
               </node>
@@ -9309,7 +9332,7 @@
                   <node concept="Xl_RD" id="5fkhsROhhF7" role="a7wSD">
                     <property role="Xl_RC" value="Typically, when no UI is present (no pagepane specified), one does not need a page. Use command init / final_ok?" />
                   </node>
-                  <node concept="1YBJjd" id="5fkhsROhhNe" role="2OEOjV">
+                  <node concept="1YBJjd" id="5fkhsROhhNe" role="1urrMF">
                     <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
                   </node>
                 </node>
@@ -9344,7 +9367,7 @@
             <node concept="Xl_RD" id="7qQ6PJv5CY1" role="2MkJ7o">
               <property role="Xl_RC" value="Only one page pane can be specified as default pane. It sould be the last one." />
             </node>
-            <node concept="1YBJjd" id="3Rw9V4qgmx0" role="2OEOjV">
+            <node concept="1YBJjd" id="3Rw9V4qgmx0" role="1urrMF">
               <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
             </node>
           </node>
@@ -9502,7 +9525,7 @@
                 <node concept="Xl_RD" id="2IDWU6Z6nOw" role="2MkJ7o">
                   <property role="Xl_RC" value="Platform name has to be unique, but used more than once." />
                 </node>
-                <node concept="1YBJjd" id="2IDWU6Z6nWz" role="2OEOjV">
+                <node concept="1YBJjd" id="2IDWU6Z6nWz" role="1urrMF">
                   <ref role="1YBMHb" node="2IDWU6Z6iNd" resolve="platform" />
                 </node>
               </node>
@@ -9613,7 +9636,7 @@
             <node concept="Xl_RD" id="2IDWU6ZcJVI" role="2MkJ7o">
               <property role="Xl_RC" value="If no text is give for a label at least an icon has to be specified." />
             </node>
-            <node concept="1YBJjd" id="2IDWU6ZcJZi" role="2OEOjV">
+            <node concept="1YBJjd" id="2IDWU6ZcJZi" role="1urrMF">
               <ref role="1YBMHb" node="2IDWU6ZcJgH" resolve="labelSpecification" />
             </node>
           </node>
@@ -9775,7 +9798,7 @@
             <node concept="Xl_RD" id="2IDWU6Zh4H0" role="2MkJ7o">
               <property role="Xl_RC" value="Do not specify platforms twice." />
             </node>
-            <node concept="1YBJjd" id="2IDWU6Zh4Km" role="2OEOjV">
+            <node concept="1YBJjd" id="2IDWU6Zh4Km" role="1urrMF">
               <ref role="1YBMHb" node="2IDWU6ZcK8n" resolve="label" />
             </node>
           </node>
@@ -9846,7 +9869,7 @@
             <node concept="Xl_RD" id="2IDWU6ZhuE5" role="2MkJ7o">
               <property role="Xl_RC" value="Only one default can be specified." />
             </node>
-            <node concept="1YBJjd" id="2IDWU6ZhuGz" role="2OEOjV">
+            <node concept="1YBJjd" id="2IDWU6ZhuGz" role="1urrMF">
               <ref role="1YBMHb" node="2IDWU6ZcK8n" resolve="label" />
             </node>
           </node>
@@ -9889,7 +9912,7 @@
                   <node concept="Xl_RD" id="2IDWU6ZiAte" role="2MkJ7o">
                     <property role="Xl_RC" value="If not all platforms are given, a default has to be specified." />
                   </node>
-                  <node concept="1YBJjd" id="2IDWU6ZiAyr" role="2OEOjV">
+                  <node concept="1YBJjd" id="2IDWU6ZiAyr" role="1urrMF">
                     <ref role="1YBMHb" node="2IDWU6ZcK8n" resolve="label" />
                   </node>
                 </node>
@@ -9932,7 +9955,7 @@
                   <node concept="Xl_RD" id="7qQ6PJvko74" role="2MkJ7o">
                     <property role="Xl_RC" value="This label name is used twice." />
                   </node>
-                  <node concept="1YBJjd" id="7qQ6PJvko7_" role="2OEOjV">
+                  <node concept="1YBJjd" id="7qQ6PJvko7_" role="1urrMF">
                     <ref role="1YBMHb" node="2IDWU6ZcK8n" resolve="label" />
                   </node>
                 </node>
@@ -10132,7 +10155,7 @@
                     <node concept="Xl_RD" id="ao4XGS$Zgg" role="2MkJ7o">
                       <property role="Xl_RC" value="Color not specified correctly in status commment. (format #AABB99)" />
                     </node>
-                    <node concept="37vLTw" id="ao4XGS$ZkU" role="2OEOjV">
+                    <node concept="37vLTw" id="ao4XGS$ZkU" role="1urrMF">
                       <ref role="3cqZAo" node="ao4XGS$OGY" resolve="firstline" />
                     </node>
                   </node>
@@ -10283,7 +10306,7 @@
             <node concept="Xl_RD" id="2_e6g62AwY1" role="2MkJ7o">
               <property role="Xl_RC" value="You need a condition, page or done statement to leave this page conclusion." />
             </node>
-            <node concept="1YBJjd" id="2_e6g62Ax1u" role="2OEOjV">
+            <node concept="1YBJjd" id="2_e6g62Ax1u" role="1urrMF">
               <ref role="1YBMHb" node="2_e6g62ArtZ" resolve="pageConclusion" />
             </node>
           </node>
@@ -10479,7 +10502,7 @@
             <node concept="Xl_RD" id="4cFQEsBSX_3" role="2MkJ7o">
               <property role="Xl_RC" value="Specify at least one platform here." />
             </node>
-            <node concept="1YBJjd" id="4cFQEsBSYbO" role="2OEOjV">
+            <node concept="1YBJjd" id="4cFQEsBSYbO" role="1urrMF">
               <ref role="1YBMHb" node="4cFQEsBSV4z" resolve="staticRessources" />
             </node>
           </node>
@@ -10551,7 +10574,7 @@
             <node concept="Xl_RD" id="42_Ld2Y01d3" role="2MkJ7o">
               <property role="Xl_RC" value="AUTO_CALC no longer supported in moware2018 - remove this section completely." />
             </node>
-            <node concept="1YBJjd" id="42_Ld2Y01f5" role="2OEOjV">
+            <node concept="1YBJjd" id="42_Ld2Y01f5" role="1urrMF">
               <ref role="1YBMHb" node="42_Ld2Y00Bu" resolve="ofxConfigSection" />
             </node>
           </node>
@@ -10588,7 +10611,7 @@
             <node concept="Xl_RD" id="4InK$iNWdwi" role="a7wSD">
               <property role="Xl_RC" value="Typically, a search command should be ended with a &lt;user cancel&gt; as conclusion" />
             </node>
-            <node concept="2OqwBi" id="4InK$iNWfDK" role="2OEOjV">
+            <node concept="2OqwBi" id="4InK$iNWfDK" role="1urrMF">
               <node concept="2OqwBi" id="4InK$iNWdBl" role="2Oq$k0">
                 <node concept="1YBJjd" id="4InK$iNWdz2" role="2Oq$k0">
                   <ref role="1YBMHb" node="3U0QWztPVh9" resolve="ofxRunCmd" />
@@ -10717,7 +10740,7 @@
             <node concept="Xl_RD" id="3U0QWztQ6iY" role="2MkJ7o">
               <property role="Xl_RC" value="This command needs some page handling." />
             </node>
-            <node concept="1YBJjd" id="3U0QWztQ737" role="2OEOjV">
+            <node concept="1YBJjd" id="3U0QWztQ737" role="1urrMF">
               <ref role="1YBMHb" node="3U0QWztPVh9" resolve="ofxRunCmd" />
             </node>
           </node>
@@ -10733,7 +10756,7 @@
               <node concept="Xl_RD" id="3U0QWzusedw" role="2MkJ7o">
                 <property role="Xl_RC" value="Only one inner 'run command' is supported, e.g. one GRAPH_OWNER/GRAPH_EDIT combination." />
               </node>
-              <node concept="1YBJjd" id="3U0QWzuseET" role="2OEOjV">
+              <node concept="1YBJjd" id="3U0QWzuseET" role="1urrMF">
                 <ref role="1YBMHb" node="3U0QWztPVh9" resolve="ofxRunCmd" />
               </node>
             </node>
@@ -10892,7 +10915,7 @@
               <node concept="Xl_RD" id="3U0QWzuoNS9" role="2MkJ7o">
                 <property role="Xl_RC" value="Inner 'run command' can only execute Graph_Edit commands without own session." />
               </node>
-              <node concept="1YBJjd" id="3U0QWzuoOgI" role="2OEOjV">
+              <node concept="1YBJjd" id="3U0QWzuoOgI" role="1urrMF">
                 <ref role="1YBMHb" node="3U0QWztPVh9" resolve="ofxRunCmd" />
               </node>
             </node>
@@ -11026,7 +11049,7 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="1YBJjd" id="3bhLp3E5wKE" role="2OEOjV">
+                      <node concept="1YBJjd" id="3bhLp3E5wKE" role="1urrMF">
                         <ref role="1YBMHb" node="3U0QWztPVh9" resolve="ofxRunCmd" />
                       </node>
                     </node>
@@ -11061,7 +11084,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="3bhLp3E5B50" role="2OEOjV">
+                <node concept="1YBJjd" id="3bhLp3E5B50" role="1urrMF">
                   <ref role="1YBMHb" node="3U0QWztPVh9" resolve="ofxRunCmd" />
                 </node>
               </node>
@@ -11166,7 +11189,7 @@
                   <node concept="Xl_RD" id="2wQSPIfY5j3" role="2MkJ7o">
                     <property role="Xl_RC" value="This is not a search cmd. You should provide a conclusion here." />
                   </node>
-                  <node concept="1YBJjd" id="2wQSPIfY5lX" role="2OEOjV">
+                  <node concept="1YBJjd" id="2wQSPIfY5lX" role="1urrMF">
                     <ref role="1YBMHb" node="2wQSPIfY2il" resolve="ofxRunCmdPage" />
                   </node>
                 </node>
@@ -11345,7 +11368,7 @@
                 <node concept="Xl_RD" id="3l87qE_SqK4" role="2MkJ7o">
                   <property role="Xl_RC" value="Add a custom toString() returning a unique string-ID for any DTO identifier (used to visualize the inbox)." />
                 </node>
-                <node concept="2OqwBi" id="3l87qE_SqYD" role="2OEOjV">
+                <node concept="2OqwBi" id="3l87qE_SqYD" role="1urrMF">
                   <node concept="1YBJjd" id="3l87qE_SqVw" role="2Oq$k0">
                     <ref role="1YBMHb" node="3l87qE_R3WO" resolve="ofxProducerContext" />
                   </node>
@@ -11396,7 +11419,7 @@
             <node concept="Xl_RD" id="7bWGJuS3DgY" role="2MkJ7o">
               <property role="Xl_RC" value="In case an exception message match is used, one has to define a exception name match also." />
             </node>
-            <node concept="1YBJjd" id="7bWGJuS3Dky" role="2OEOjV">
+            <node concept="1YBJjd" id="7bWGJuS3Dky" role="1urrMF">
               <ref role="1YBMHb" node="7bWGJuS3ClI" resolve="strat" />
             </node>
           </node>
@@ -11481,7 +11504,7 @@
             <node concept="Xl_RD" id="65g7rxktLw1" role="2MkJ7o">
               <property role="Xl_RC" value="This command needs some page handling." />
             </node>
-            <node concept="1YBJjd" id="65g7rxktNRv" role="2OEOjV">
+            <node concept="1YBJjd" id="65g7rxktNRv" role="1urrMF">
               <ref role="1YBMHb" node="65g7rxktKgT" resolve="ofxRunCmdSuccessorHandler" />
             </node>
           </node>
@@ -11585,7 +11608,7 @@
             <node concept="Xl_RD" id="7gwY4W6$Sg6" role="2MkJ7o">
               <property role="Xl_RC" value="Do not compare ValueObject keys against &lt;null&gt;, use xxxkey.isNull instead." />
             </node>
-            <node concept="1YBJjd" id="7gwY4W6$Sjs" role="2OEOjV">
+            <node concept="1YBJjd" id="7gwY4W6$Sjs" role="1urrMF">
               <ref role="1YBMHb" node="7gwY4W6$Fcd" resolve="notEqualsExpression" />
             </node>
           </node>
@@ -11616,7 +11639,7 @@
             <node concept="Xl_RD" id="7gwY4W6Pz5X" role="2MkJ7o">
               <property role="Xl_RC" value="Do not compare ValueObject keys against &lt;null&gt;, usu xxxkey.isNull instead." />
             </node>
-            <node concept="1YBJjd" id="7gwY4W6Pz5Y" role="2OEOjV">
+            <node concept="1YBJjd" id="7gwY4W6Pz5Y" role="1urrMF">
               <ref role="1YBMHb" node="7gwY4W6Pz61" resolve="equalsExpression" />
             </node>
           </node>
@@ -11797,7 +11820,7 @@
             <node concept="Xl_RD" id="35a9wK8J4Tf" role="2MkJ7o">
               <property role="Xl_RC" value="Only ValueObject / Integer / String can be covered by identities right now." />
             </node>
-            <node concept="1YBJjd" id="35a9wK8J4Xe" role="2OEOjV">
+            <node concept="1YBJjd" id="35a9wK8J4Xe" role="1urrMF">
               <ref role="1YBMHb" node="35a9wK8J3rL" resolve="identity" />
             </node>
           </node>
@@ -11896,7 +11919,7 @@
             <node concept="Xl_RD" id="2_YacpKxi7x" role="2MkJ7o">
               <property role="Xl_RC" value="You can not pass a flag-text to the page statement when not used within a page conclusion." />
             </node>
-            <node concept="1YBJjd" id="2_YacpKxica" role="2OEOjV">
+            <node concept="1YBJjd" id="2_YacpKxica" role="1urrMF">
               <ref role="1YBMHb" node="2_YacpKxgWN" resolve="pageCommand" />
             </node>
           </node>
@@ -11943,7 +11966,7 @@
             <node concept="Xl_RD" id="1DdwjyiT$$z" role="2MkJ7o">
               <property role="Xl_RC" value="You need at least two platform specific strings here." />
             </node>
-            <node concept="1YBJjd" id="1DdwjyiT$Cy" role="2OEOjV">
+            <node concept="1YBJjd" id="1DdwjyiT$Cy" role="1urrMF">
               <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
             </node>
           </node>
@@ -11972,7 +11995,7 @@
             <node concept="Xl_RD" id="1DdwjyiNYOT" role="2MkJ7o">
               <property role="Xl_RC" value="Exactly one default has to be specified as last string." />
             </node>
-            <node concept="1YBJjd" id="1DdwjyiNYSz" role="2OEOjV">
+            <node concept="1YBJjd" id="1DdwjyiNYSz" role="1urrMF">
               <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
             </node>
           </node>
@@ -12023,7 +12046,7 @@
             <node concept="Xl_RD" id="1DdwjyiO1ew" role="2MkJ7o">
               <property role="Xl_RC" value="The last string has to be specified as default (without condition)" />
             </node>
-            <node concept="2OqwBi" id="1DdwjyiO1SV" role="2OEOjV">
+            <node concept="2OqwBi" id="1DdwjyiO1SV" role="1urrMF">
               <node concept="2OqwBi" id="1DdwjyiO1jf" role="2Oq$k0">
                 <node concept="1YBJjd" id="1DdwjyiO1h5" role="2Oq$k0">
                   <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
@@ -12072,7 +12095,7 @@
             <node concept="Xl_RD" id="1uKMA6MNfZf" role="2MkJ7o">
               <property role="Xl_RC" value="You have to specify exactly one status element with 'on creation'." />
             </node>
-            <node concept="1YBJjd" id="1uKMA6MNg2G" role="2OEOjV">
+            <node concept="1YBJjd" id="1uKMA6MNg2G" role="1urrMF">
               <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
             </node>
           </node>
@@ -12122,7 +12145,7 @@
             <node concept="Xl_RD" id="1uKMA6MNg3s" role="2MkJ7o">
               <property role="Xl_RC" value="Only one status element can be marked as default for 'when null or empty' on db." />
             </node>
-            <node concept="1YBJjd" id="1uKMA6MNg3t" role="2OEOjV">
+            <node concept="1YBJjd" id="1uKMA6MNg3t" role="1urrMF">
               <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
             </node>
           </node>
@@ -12172,7 +12195,7 @@
             <node concept="Xl_RD" id="1uKMA6MNgd9" role="2MkJ7o">
               <property role="Xl_RC" value="Only one status element can be marked as default for 'when undifined' on db." />
             </node>
-            <node concept="1YBJjd" id="1uKMA6MNgda" role="2OEOjV">
+            <node concept="1YBJjd" id="1uKMA6MNgda" role="1urrMF">
               <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
             </node>
           </node>
@@ -12223,7 +12246,7 @@
             <node concept="Xl_RD" id="45gKusSO$8E" role="2MkJ7o">
               <property role="Xl_RC" value="When status null is allowed, you can not convert null from db at the same time." />
             </node>
-            <node concept="1YBJjd" id="45gKusSO$8F" role="2OEOjV">
+            <node concept="1YBJjd" id="45gKusSO$8F" role="1urrMF">
               <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
             </node>
           </node>
@@ -12310,7 +12333,7 @@
             <node concept="Xl_RD" id="59p98S7zcz5" role="2MkJ7o">
               <property role="Xl_RC" value="Use MultiString here if you want to work with thranslations." />
             </node>
-            <node concept="2OqwBi" id="59p98S7zcCS" role="2OEOjV">
+            <node concept="2OqwBi" id="59p98S7zcCS" role="1urrMF">
               <node concept="1YBJjd" id="59p98S7zcAC" role="2Oq$k0">
                 <ref role="1YBMHb" node="59p98S7zckd" resolve="stringLiteralTransAttribut" />
               </node>
@@ -12573,7 +12596,7 @@
                         <node concept="Xl_RD" id="YHavMgP3Hg" role="2MkJ7o">
                           <property role="Xl_RC" value="MoWare MMRS known bug. ClosureLiterals with Status result-type should contain only one ExpressionStatement." />
                         </node>
-                        <node concept="2OqwBi" id="YHavMh4d3C" role="2OEOjV">
+                        <node concept="2OqwBi" id="YHavMh4d3C" role="1urrMF">
                           <node concept="1YBJjd" id="YHavMgP3Mz" role="2Oq$k0">
                             <ref role="1YBMHb" node="1WA0UCL95b_" resolve="closureLiteral" />
                           </node>
@@ -12817,7 +12840,7 @@
               <node concept="Xl_RD" id="51llZt5s7W0" role="2MkJ7o">
                 <property role="Xl_RC" value="At least a problem description is necessary for this guard-" />
               </node>
-              <node concept="1YBJjd" id="51llZt5s7Zs" role="2OEOjV">
+              <node concept="1YBJjd" id="51llZt5s7Zs" role="1urrMF">
                 <ref role="1YBMHb" node="51llZt5s6Wq" resolve="guard" />
               </node>
             </node>
@@ -12989,7 +13012,7 @@
             <node concept="Xl_RD" id="6RAFKVMguyO" role="2MkJ7o">
               <property role="Xl_RC" value="Service methods do not support final/abstract/static/synchronized/nativ/modifier/typevar semantics" />
             </node>
-            <node concept="1YBJjd" id="6RAFKVMgu_A" role="2OEOjV">
+            <node concept="1YBJjd" id="6RAFKVMgu_A" role="1urrMF">
               <ref role="1YBMHb" node="6RAFKVMgm$b" resolve="sim" />
             </node>
           </node>
@@ -13039,7 +13062,7 @@
                 <node concept="Xl_RD" id="6RAFKVNaeo5" role="2MkJ7o">
                   <property role="Xl_RC" value="Left side of in operator has to be of status type." />
                 </node>
-                <node concept="1YBJjd" id="6RAFKVNaepl" role="2OEOjV">
+                <node concept="1YBJjd" id="6RAFKVNaepl" role="1urrMF">
                   <ref role="1YBMHb" node="6RAFKVN9JyG" resolve="statusInOperator" />
                 </node>
               </node>
@@ -13122,7 +13145,7 @@
             <node concept="Xl_RD" id="1pNkZjUAP7v" role="2MkJ7o">
               <property role="Xl_RC" value="Do not use the assert statement within baselang collection operations. This is not supported by moware yet." />
             </node>
-            <node concept="1YBJjd" id="1pNkZjUAPbn" role="2OEOjV">
+            <node concept="1YBJjd" id="1pNkZjUAPbn" role="1urrMF">
               <ref role="1YBMHb" node="1pNkZjUAO_q" resolve="assertStatement" />
             </node>
           </node>
@@ -13203,7 +13226,7 @@
                 <node concept="Xl_RD" id="2DIWJdVmp7n" role="2MkJ7o">
                   <property role="Xl_RC" value="If command uses default parameterization, all parameters need default initializers." />
                 </node>
-                <node concept="1YBJjd" id="2DIWJdVmpat" role="2OEOjV">
+                <node concept="1YBJjd" id="2DIWJdVmpat" role="1urrMF">
                   <ref role="1YBMHb" node="2DIWJdVmnzQ" resolve="containerParameter" />
                 </node>
               </node>
@@ -13448,7 +13471,7 @@
                                   <ref role="3cqZAo" node="4kNjw_n$XXt" resolve="err" />
                                 </node>
                               </node>
-                              <node concept="1YBJjd" id="4kNjw_n_5Bz" role="2OEOjV">
+                              <node concept="1YBJjd" id="4kNjw_n_5Bz" role="1urrMF">
                                 <ref role="1YBMHb" node="4kNjw_n$O8i" resolve="ms" />
                               </node>
                             </node>
@@ -13508,7 +13531,7 @@
                 <node concept="Xl_RD" id="4kNjw_n$WH4" role="2MkJ7o">
                   <property role="Xl_RC" value="One can not use translations when refering to lables." />
                 </node>
-                <node concept="1YBJjd" id="4kNjw_n$WGx" role="2OEOjV">
+                <node concept="1YBJjd" id="4kNjw_n$WGx" role="1urrMF">
                   <ref role="1YBMHb" node="4kNjw_n$O8i" resolve="ms" />
                 </node>
               </node>
@@ -13530,7 +13553,7 @@
                   <node concept="Xl_RD" id="3UVBaKgdglD" role="2MkJ7o">
                     <property role="Xl_RC" value="Translations can not be applied in contexts where no session is available." />
                   </node>
-                  <node concept="1YBJjd" id="4kNjw_n$Tmm" role="2OEOjV">
+                  <node concept="1YBJjd" id="4kNjw_n$Tmm" role="1urrMF">
                     <ref role="1YBMHb" node="4kNjw_n$O8i" resolve="ms" />
                   </node>
                 </node>
@@ -13597,7 +13620,7 @@
                                     <node concept="37vLTw" id="4kNjw_n$UwG" role="2MkJ7o">
                                       <ref role="3cqZAo" node="4kNjw_n$TaX" resolve="err" />
                                     </node>
-                                    <node concept="37vLTw" id="4kNjw_n$U$w" role="2OEOjV">
+                                    <node concept="37vLTw" id="4kNjw_n$U$w" role="1urrMF">
                                       <ref role="3cqZAo" node="4kNjw_n$T8K" resolve="it" />
                                     </node>
                                   </node>
@@ -13676,7 +13699,7 @@
                 <node concept="Xl_RD" id="2rFQaTbR7Jj" role="2MkJ7o">
                   <property role="Xl_RC" value="Do not manipulate the properties of ValueObjects. Program in imutable style." />
                 </node>
-                <node concept="1YBJjd" id="2rFQaTbR7Mq" role="2OEOjV">
+                <node concept="1YBJjd" id="2rFQaTbR7Mq" role="1urrMF">
                   <ref role="1YBMHb" node="2rFQaTbR7bK" resolve="propertyReference" />
                 </node>
               </node>
@@ -13817,7 +13840,13 @@
       <node concept="3clFbJ" id="6$9DEbZHw6X" role="3cqZAp">
         <node concept="3clFbS" id="6$9DEbZHw6Z" role="3clFbx">
           <node concept="2MkqsV" id="6$9DEbZHxA2" role="3cqZAp">
-            <node concept="3Cnw8n" id="6$9DEbZHESy" role="2OEOjU">
+            <node concept="Xl_RD" id="6$9DEbZHxAI" role="2MkJ7o">
+              <property role="Xl_RC" value="You can not have a binary operation within the status of operator." />
+            </node>
+            <node concept="1YBJjd" id="6$9DEbZHxH1" role="1urrMF">
+              <ref role="1YBMHb" node="6$9DEbZHsTP" resolve="statusOfOperator" />
+            </node>
+            <node concept="3Cnw8n" id="6$9DEbZHESy" role="1urrFz">
               <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="6$9DEbZHxU7" resolve="StatusOfBinaryQuickFix" />
               <node concept="3CnSsL" id="6$9DEbZHF1r" role="3Coj4f">
@@ -13842,12 +13871,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="Xl_RD" id="6$9DEbZHxAI" role="2MkJ7o">
-              <property role="Xl_RC" value="You can not have a binary operation within the status of operator." />
-            </node>
-            <node concept="1YBJjd" id="6$9DEbZHxH1" role="2OEOjV">
-              <ref role="1YBMHb" node="6$9DEbZHsTP" resolve="statusOfOperator" />
             </node>
           </node>
         </node>
@@ -14099,7 +14122,7 @@
             <node concept="Xl_RD" id="7ymmWYIuuoB" role="2MkJ7o">
               <property role="Xl_RC" value="Priority Error is default when using preconditions. Do not explicitly state that." />
             </node>
-            <node concept="1YBJjd" id="7ymmWYIuuAw" role="2OEOjV">
+            <node concept="1YBJjd" id="7ymmWYIuuAw" role="1urrMF">
               <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
             </node>
           </node>

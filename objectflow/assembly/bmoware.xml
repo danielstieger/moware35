@@ -22,9 +22,9 @@
 <project>      
   <!-- **** build specific definitions ************************************************************** -->
 
-  <property name="buildUserHome"         value="C:" /> 
-  <property name="mowareMpsHomeDir"      value="${buildUserHome}/javaexe/MPS2019_2" />
-  <property name="mowarePluginHomeDir"   value="${buildUserHome}/javaexe/MoPluginFake" />
+  <property name="buildUserHome"         value="/Users/danielstieger/migration/2019_3" /> 
+  <property name="mowareMpsHomeDir"      value="/Applications/MPS_2019_3.app/Contents" />
+  <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
   <property name="mowareHome"            value="${buildUserHome}/moware" />
     
   

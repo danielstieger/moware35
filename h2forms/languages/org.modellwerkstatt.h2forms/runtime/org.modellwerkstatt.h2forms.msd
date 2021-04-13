@@ -8,6 +8,11 @@
       <sourceRoot location="servletclient/mo-pebble-3.1.5.jar" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/jars/servletclient/mo-pebble-3.1.5.jar" />
   </stubModelEntries>
