@@ -110,6 +110,7 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
+        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -177,7 +178,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
         <node concept="3Mxwew" id="1JLTjCmZp2l" role="3MwsjC">
-          <property role="3MwjfP" value="Modellwerkstatt.org    MoWare Languages" />
+          <property role="3MwjfP" value="modellwerkstatt.org    MoWare Languages" />
         </node>
       </node>
       <node concept="2iUeEo" id="3UOln1JALmW" role="2iVFfd">
@@ -1150,31 +1151,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3Dx8mEZ49$g" role="3bR37C">
-          <node concept="1BurEX" id="3Dx8mEZ49$h" role="1SiIV1">
-            <node concept="398BVA" id="3Dx8mEZ49$9" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="3Dx8mEZ49$a" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="3Dx8mEZ49$b" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3Dx8mEZ49$c" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="3Dx8mEZ49$d" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="3Dx8mEZ49$e" role="2Ry0An">
-                        <property role="2Ry0Am" value="printing21" />
-                        <node concept="2Ry0Ak" id="3Dx8mEZ49$f" role="2Ry0An">
-                          <property role="2Ry0Am" value="xml-apis-1.4.01.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="3Dx8mEZ49$p" role="3bR37C">
           <node concept="1BurEX" id="3Dx8mEZ49$q" role="1SiIV1">
             <node concept="398BVA" id="3Dx8mEZ49$i" role="1BurEY">
@@ -1853,6 +1829,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modellwerkstatt.fx8forms" />
         <property role="3LESm3" value="86b5ca77-71d4-452d-8c64-76f13a80aab6" />
+        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="3ZVr8i9E22D" role="3LF7KH">
           <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
           <node concept="2Ry0Ak" id="3ZVr8i9E2sf" role="iGT6I">
@@ -2411,7 +2388,7 @@
                   <node concept="2Ry0Ak" id="4EjcJZr7lV6" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="4EjcJZr7md3" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS_2019_3.app" />
+                      <property role="2Ry0Am" value="MPS_2020_3.app" />
                       <node concept="2Ry0Ak" id="4EjcJZr7mq$" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                         <node concept="2Ry0Ak" id="4EjcJZr7mv5" role="2Ry0An" />
@@ -2645,8 +2622,8 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
       <node concept="398BVA" id="4AUDKc2mx6d" role="2JcizS">
         <ref role="398BVh" node="1JLTjCmZkWr" resolve="mps_home" />
-        <node concept="2Ry0Ak" id="4EjcJZr7mC4" role="iGT6I">
-          <property role="2Ry0Am" value="" />
+        <node concept="2Ry0Ak" id="_8xEBEjsUK" role="iGT6I">
+          <property role="2Ry0Am" value="mw-plugins" />
         </node>
       </node>
     </node>

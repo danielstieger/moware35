@@ -22,8 +22,8 @@
 <project>      
   <!-- **** build specific definitions ************************************************************** -->
 
-  <property name="buildUserHome"         value="/Users/danielstieger/migration/2020_2" /> 
-  <property name="mowareMpsHomeDir"      value="/Applications/MPS_2020_2.app/Contents" />
+  <property name="buildUserHome"         value="/Users/danielstieger/migration/2020_3" /> 
+  <property name="mowareMpsHomeDir"      value="/Applications/MPS_2020_3.app/Contents" />
   <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
   <property name="mowareHome"            value="${buildUserHome}/moware" />
     
