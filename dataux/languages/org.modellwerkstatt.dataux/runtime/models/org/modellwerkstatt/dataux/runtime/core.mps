@@ -53,7 +53,7 @@
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
       <concept id="1224500764161" name="jetbrains.mps.baseLanguage.structure.BitwiseAndExpression" flags="nn" index="pVHWs" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
       </concept>
@@ -274,7 +274,7 @@
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
         <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
       </concept>
-      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367509" name="finallyClause" index="1zxBo6" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
@@ -335,10 +335,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -10436,7 +10436,7 @@
             <node concept="3clFbS" id="2CZV3d2XcNM" role="1zc67A">
               <node concept="3clFbF" id="2CZV3d2Xg3Q" role="3cqZAp">
                 <node concept="1rXfSq" id="2CZV3d2Xg3P" role="3clFbG">
-                  <ref role="37wK5l" node="1nXeD0e_LbJ" resolve="showException" />
+                  <ref role="37wK5l" node="938$CrOoQ_" resolve="showException" />
                   <node concept="2OqwBi" id="4nH4LOEHflb" role="37wK5m">
                     <node concept="3VsKOn" id="4nH4LOEHfgG" role="2Oq$k0">
                       <ref role="3VsUkX" node="Y3fiVJRmaH" resolve="ApplicationController" />
@@ -10571,7 +10571,7 @@
                 </node>
                 <node concept="3clFbF" id="7nxGN1HIGmF" role="3cqZAp">
                   <node concept="1rXfSq" id="7nxGN1HIGBp" role="3clFbG">
-                    <ref role="37wK5l" node="2ppo89mf8FM" resolve="showMessageDialog" />
+                    <ref role="37wK5l" node="938$CrOsoZ" resolve="showMessageDialog" />
                     <node concept="2OqwBi" id="7nxGN1HIH5c" role="37wK5m">
                       <node concept="37vLTw" id="7nxGN1HIH0k" role="2Oq$k0">
                         <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
@@ -10812,7 +10812,7 @@
           <node concept="3clFbS" id="1sUmI9ye0D0" role="3clFbx">
             <node concept="3clFbF" id="1sUmI9ye2KF" role="3cqZAp">
               <node concept="1rXfSq" id="1sUmI9ye2KE" role="3clFbG">
-                <ref role="37wK5l" node="2ppo89mfkla" resolve="showBigInformationDialog" />
+                <ref role="37wK5l" node="938$CrOsma" resolve="showBigInformationDialog" />
                 <node concept="3cpWs3" id="7nDJo_bkgiZ" role="37wK5m">
                   <node concept="Xl_RD" id="7nDJo_bkgj0" role="3uHU7B">
                     <property role="Xl_RC" value="LOCKING SERVICE DEBUGGER:\n\n" />
@@ -11865,7 +11865,7 @@
                   </node>
                   <node concept="3clFbF" id="4nH4LOEEoSb" role="3cqZAp">
                     <node concept="1rXfSq" id="4nH4LOEEoS9" role="3clFbG">
-                      <ref role="37wK5l" node="4nH4LOEuFKE" resolve="logFrmwrkProblem" />
+                      <ref role="37wK5l" node="4nH4LOErIJJ" resolve="logFrmwrkProblem" />
                       <node concept="3clFbT" id="4nH4LOEEpaz" role="37wK5m">
                         <property role="3clFbU" value="false" />
                       </node>
@@ -13066,7 +13066,7 @@
             <node concept="3clFbH" id="55RsgUt58HK" role="3cqZAp" />
             <node concept="3clFbF" id="gGnCBOHgv2" role="3cqZAp">
               <node concept="1rXfSq" id="gGnCBOHgv0" role="3clFbG">
-                <ref role="37wK5l" node="2ppo89mf8FM" resolve="showMessageDialog" />
+                <ref role="37wK5l" node="938$CrOsoZ" resolve="showMessageDialog" />
                 <node concept="2YIFZM" id="55RsgUt4OxB" role="37wK5m">
                   <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
                   <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
@@ -13704,7 +13704,7 @@
         </node>
         <node concept="3clFbF" id="Qi6kT915S6" role="3cqZAp">
           <node concept="1rXfSq" id="Qi6kT915S4" role="3clFbG">
-            <ref role="37wK5l" node="4nH4LOEuFKu" resolve="logTracing" />
+            <ref role="37wK5l" node="4nH4LOErImx" resolve="logTracing" />
             <node concept="2OqwBi" id="4nH4LOEEuiV" role="37wK5m">
               <node concept="2OqwBi" id="4nH4LOEEtZR" role="2Oq$k0">
                 <node concept="Xjq3P" id="4nH4LOEEtXs" role="2Oq$k0" />

@@ -188,7 +188,7 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
@@ -308,10 +308,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -7667,6 +7667,68 @@
       <node concept="_YKpA" id="4ufYzPFnNZI" role="3clF45">
         <node concept="3Tqbb2" id="4ufYzPFnNZJ" role="_ZDj9">
           <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6_Sln9uHcdj" role="13h7CS">
+      <property role="TrG5h" value="getParamNameForExpression" />
+      <property role="2Ki8OM" value="true" />
+      <node concept="37vLTG" id="6_Sln9uHgN5" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="6_Sln9uHgNG" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="6_Sln9uHcdk" role="1B3o_S" />
+      <node concept="17QB3L" id="6_Sln9uHgMi" role="3clF45" />
+      <node concept="3clFbS" id="6_Sln9uHcdm" role="3clF47">
+        <node concept="3clFbJ" id="6_Sln9uHgO3" role="3cqZAp">
+          <node concept="2OqwBi" id="6_Sln9uHgWt" role="3clFbw">
+            <node concept="37vLTw" id="6_Sln9uHgOn" role="2Oq$k0">
+              <ref role="3cqZAo" node="6_Sln9uHgN5" resolve="node" />
+            </node>
+            <node concept="1mIQ4w" id="6_Sln9uHh2e" role="2OqNvi">
+              <node concept="chp4Y" id="6_Sln9uHh4d" role="cj9EA">
+                <ref role="cht4Q" to="tpee:fz7vLUo" resolve="VariableReference" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="6_Sln9uHgO5" role="3clFbx">
+            <node concept="3cpWs6" id="6_Sln9uHh89" role="3cqZAp">
+              <node concept="2OqwBi" id="6_Sln9uHhVM" role="3cqZAk">
+                <node concept="2OqwBi" id="6_Sln9uHhrM" role="2Oq$k0">
+                  <node concept="1PxgMI" id="6_Sln9uHhf6" role="2Oq$k0">
+                    <node concept="chp4Y" id="6_Sln9uHhfE" role="3oSUPX">
+                      <ref role="cht4Q" to="tpee:fz7vLUo" resolve="VariableReference" />
+                    </node>
+                    <node concept="37vLTw" id="6_Sln9uHh8s" role="1m5AlR">
+                      <ref role="3cqZAo" node="6_Sln9uHgN5" resolve="node" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="6_Sln9uHhCX" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6_Sln9uHigK" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6_Sln9uHikf" role="3cqZAp" />
+        <node concept="YS8fn" id="6_Sln9uHirh" role="3cqZAp">
+          <node concept="2ShNRf" id="6_Sln9uHisi" role="YScLw">
+            <node concept="1pGfFk" id="6_Sln9uHjC$" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="3cpWs3" id="6_Sln9uHkqg" role="37wK5m">
+                <node concept="37vLTw" id="6_Sln9uHkr4" role="3uHU7w">
+                  <ref role="3cqZAo" node="6_Sln9uHgN5" resolve="node" />
+                </node>
+                <node concept="Xl_RD" id="6_Sln9uHjEg" role="3uHU7B">
+                  <property role="Xl_RC" value="Don't know how to extract varname from conecpt " />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

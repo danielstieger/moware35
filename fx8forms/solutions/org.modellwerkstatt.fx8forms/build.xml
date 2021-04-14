@@ -27,6 +27,9 @@
 
   <target name="default">
   
+  
+    <mkdir dir="classes_gen" />
+   
     <path id="master-classpath">
     	<fileset dir="./jars/richclient">
     		<include name="*.jar"/>
