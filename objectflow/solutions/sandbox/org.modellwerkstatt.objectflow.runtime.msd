@@ -27,7 +27,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" languageLevel="JAVA_8">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
@@ -51,7 +51,6 @@
     <stubModelEntry path="${module}/jars/printing21/pdfbox-app-1.8.16.jar" />
     <stubModelEntry path="${module}/jars/printing21/serializer-2.7.2.jar" />
     <stubModelEntry path="${module}/jars/printing21/xercesImpl-2.12.0.jar" />
-    <stubModelEntry path="${module}/jars/printing21/xml-apis-1.4.01.jar" />
     <stubModelEntry path="${module}/jars/printing21/xmlgraphics-commons-2.6.jar" />
     <stubModelEntry path="${module}/jars/printing21/avalon-framework-api-4.3.1.jar" />
     <stubModelEntry path="${module}/jars/printing21/avalon-framework-impl-4.3.1.jar" />
@@ -62,7 +61,7 @@
     <dependency reexport="true">37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.runtime)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
+    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
     <language slang="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" version="2" />

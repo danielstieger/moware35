@@ -32,7 +32,7 @@
   </registry>
   <node concept="2WPaUQ" id="7L8_IJAz2Hy">
     <property role="TrG5h" value="All" />
-    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaFX8Config" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="7L8_IJAz2H_" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="so85:1oH_MJfbPWk" resolve="ALL ALL ManMap Testsuits" />

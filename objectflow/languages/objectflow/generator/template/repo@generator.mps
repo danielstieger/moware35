@@ -5,7 +5,7 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -140,7 +140,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="2580416627845338977" name="jetbrains.mps.baseLanguage.structure.ImplicitAnnotationInstanceValue" flags="ng" index="1SXeKx" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -169,7 +169,7 @@
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
         <child id="1167169362365" name="conditionFunction" index="30HLyM" />
       </concept>
-      <concept id="1227303129915" name="jetbrains.mps.lang.generator.structure.AbstractMacro" flags="lg" index="30XT8A">
+      <concept id="1227303129915" name="jetbrains.mps.lang.generator.structure.AbstractMacro" flags="ng" index="30XT8A">
         <property id="3265704088513289864" name="comment" index="34cw8o" />
       </concept>
       <concept id="1087833241328" name="jetbrains.mps.lang.generator.structure.PropertyMacro" flags="ln" index="17Uvod">
@@ -729,7 +729,7 @@
             </node>
             <node concept="3clFbH" id="1y3D6gOutaA" role="3cqZAp" />
             <node concept="3SKdUt" id="1y3D6gPh2Y6" role="3cqZAp">
-              <node concept="1PaTwC" id="5HvIBdINIG5" role="3ndbpf">
+              <node concept="1PaTwC" id="5HvIBdINIG5" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdINIG6" role="1PaTwD">
                   <property role="3oM_SC" value="add" />
                 </node>
@@ -787,7 +787,7 @@
             </node>
             <node concept="3clFbH" id="1y3D6gOuFON" role="3cqZAp" />
             <node concept="3SKdUt" id="1y3D6gPh6nu" role="3cqZAp">
-              <node concept="1PaTwC" id="5HvIBdINIGa" role="3ndbpf">
+              <node concept="1PaTwC" id="5HvIBdINIGa" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdINIGb" role="1PaTwD">
                   <property role="3oM_SC" value="do" />
                 </node>
