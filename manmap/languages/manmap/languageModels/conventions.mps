@@ -29,7 +29,7 @@
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -260,10 +260,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -5945,7 +5945,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="7AUhyiFDgum" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="7AUhyiFDdAS" role="3clFbw">
             <node concept="37vLTw" id="7AUhyiFDd$v" role="2Oq$k0">
@@ -5958,12 +5957,77 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7PrPimHs$Fk" role="3cqZAp" />
+        <node concept="3clFbJ" id="7PrPimHs$Rr" role="3cqZAp">
+          <node concept="3clFbS" id="7PrPimHs$Rt" role="3clFbx">
+            <node concept="3clFbJ" id="7PrPimHs_rO" role="3cqZAp">
+              <node concept="3clFbS" id="7PrPimHs_rQ" role="3clFbx">
+                <node concept="3cpWs6" id="7PrPimHsAfm" role="3cqZAp">
+                  <node concept="2OqwBi" id="7PrPimHsAYd" role="3cqZAk">
+                    <node concept="1PxgMI" id="7PrPimHsAxU" role="2Oq$k0">
+                      <node concept="chp4Y" id="7PrPimHsAMT" role="3oSUPX">
+                        <ref role="cht4Q" to="r5tz:7ITJFzooHvN" resolve="InOperation" />
+                      </node>
+                      <node concept="37vLTw" id="7PrPimHsAgh" role="1m5AlR">
+                        <ref role="3cqZAo" node="7$A8r6g0BNs" resolve="bo" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="7PrPimHsBbz" role="2OqNvi">
+                      <ref role="3Tt5mk" to="r5tz:7ITJFzooHvP" resolve="targetList" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1rXfSq" id="7PrPimHs_td" role="3clFbw">
+                <ref role="37wK5l" node="7$A8r6g0BNU" resolve="mrHere" />
+                <node concept="2OqwBi" id="7PrPimHs_SU" role="37wK5m">
+                  <node concept="1PxgMI" id="7PrPimHs_Co" role="2Oq$k0">
+                    <node concept="chp4Y" id="7PrPimHs_JO" role="3oSUPX">
+                      <ref role="cht4Q" to="r5tz:7ITJFzooHvN" resolve="InOperation" />
+                    </node>
+                    <node concept="37vLTw" id="7PrPimHs_wI" role="1m5AlR">
+                      <ref role="3cqZAo" node="7$A8r6g0BNs" resolve="bo" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="7PrPimHsA9O" role="2OqNvi">
+                    <ref role="3Tt5mk" to="r5tz:7ITJFzooHvO" resolve="operand" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="YS8fn" id="7PrPimHsBlc" role="3cqZAp">
+              <node concept="2ShNRf" id="7PrPimHsByA" role="YScLw">
+                <node concept="1pGfFk" id="7PrPimHsCIB" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="Xl_RD" id="7PrPimHsCRz" role="37wK5m">
+                    <property role="Xl_RC" value="Mapping Reference should be in InOperation's operand. This can not happen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7PrPimHs_6D" role="3clFbw">
+            <node concept="37vLTw" id="7PrPimHs$WT" role="2Oq$k0">
+              <ref role="3cqZAo" node="7$A8r6g0BNs" resolve="bo" />
+            </node>
+            <node concept="1mIQ4w" id="7PrPimHs_kY" role="2OqNvi">
+              <node concept="chp4Y" id="7PrPimHs_nm" role="cj9EA">
+                <ref role="cht4Q" to="r5tz:7ITJFzooHvN" resolve="InOperation" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="YS8fn" id="7AUhyiFDh1p" role="3cqZAp">
           <node concept="2ShNRf" id="7AUhyiFDh1q" role="YScLw">
             <node concept="1pGfFk" id="7AUhyiFDh1r" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-              <node concept="Xl_RD" id="7AUhyiFDh1s" role="37wK5m">
-                <property role="Xl_RC" value="Oooooops - this can t happen. " />
+              <node concept="3cpWs3" id="7PrPimHrS7v" role="37wK5m">
+                <node concept="37vLTw" id="7PrPimHrSbV" role="3uHU7w">
+                  <ref role="3cqZAo" node="7$A8r6g0BNs" resolve="bo" />
+                </node>
+                <node concept="Xl_RD" id="7AUhyiFDh1s" role="3uHU7B">
+                  <property role="Xl_RC" value="Operation not supported by manmap optional() feature. Unknown op " />
+                </node>
               </node>
             </node>
           </node>
