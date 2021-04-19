@@ -336,16 +336,6 @@
       <property role="IQ2nx" value="4533072425307715682" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="WgcdpLOvjm" role="1TKVEl">
-      <property role="TrG5h" value="shortDesc" />
-      <property role="IQ2nx" value="1085421207787009238" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="WgcdpLOvjn" role="1TKVEl">
-      <property role="TrG5h" value="longDesc" />
-      <property role="IQ2nx" value="1085421207787009239" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="PrWs8" id="3HlvnSF4naQ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
