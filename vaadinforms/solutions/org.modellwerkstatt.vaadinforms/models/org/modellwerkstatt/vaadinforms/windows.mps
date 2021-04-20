@@ -3642,7 +3642,7 @@
       <node concept="17QB3L" id="4QTIUTC1Wnd" role="1tU5fm" />
       <node concept="3Tm1VV" id="vsIEjNpph7" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTC1Z1Y" role="33vP2m">
-        <property role="Xl_RC" value="VaadinForms 2019_1 (koblach)" />
+        <property role="Xl_RC" value="VaadinForms (moware11)" />
       </node>
     </node>
     <node concept="Wx3nA" id="1JNuSGkemv_" role="jymVt">

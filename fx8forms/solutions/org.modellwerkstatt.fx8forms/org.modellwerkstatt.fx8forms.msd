@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.modellwerkstatt.fx8forms" uuid="86b5ca77-71d4-452d-8c64-76f13a80aab6" moduleVersion="0" compileInMPS="false">
+<solution name="org.modellwerkstatt.fx8forms" uuid="86b5ca77-71d4-452d-8c64-76f13a80aab6" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" languageLevel="JAVA_8">
+    <facet type="java">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>

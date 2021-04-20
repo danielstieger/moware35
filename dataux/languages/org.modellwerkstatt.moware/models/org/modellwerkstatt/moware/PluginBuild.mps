@@ -110,7 +110,6 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
-        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -173,7 +172,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2019.2 / moware 11 2021.X ()" />
+          <property role="3MwjfP" value="MPS 2020.3 / moware11 2021.11 (ko)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1829,7 +1828,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modellwerkstatt.fx8forms" />
         <property role="3LESm3" value="86b5ca77-71d4-452d-8c64-76f13a80aab6" />
-        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="3ZVr8i9E22D" role="3LF7KH">
           <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
           <node concept="2Ry0Ak" id="3ZVr8i9E2sf" role="iGT6I">

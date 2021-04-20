@@ -4,6 +4,7 @@
   <languages>
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -46,6 +47,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -235,10 +237,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -595,6 +597,83 @@
       <ref role="1N5Vy1" to="r5tz:Kou8LeiaZv" resolve="property" />
       <node concept="3dgokm" id="Kou8LeiaZy" role="1N6uqs">
         <node concept="3clFbS" id="fw7nOFAaR6" role="2VODD2">
+          <node concept="3cpWs8" id="5GIPtKdUekw" role="3cqZAp">
+            <node concept="3cpWsn" id="5GIPtKdUekx" role="3cpWs9">
+              <property role="TrG5h" value="parentMapping" />
+              <node concept="3Tqbb2" id="5GIPtKdUeky" role="1tU5fm">
+                <ref role="ehGHo" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
+              </node>
+              <node concept="2OqwBi" id="5GIPtKdUekz" role="33vP2m">
+                <node concept="2rP1CM" id="5GIPtKdUek$" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="5GIPtKdUek_" role="2OqNvi">
+                  <node concept="1xMEDy" id="5GIPtKdUekA" role="1xVPHs">
+                    <node concept="chp4Y" id="5GIPtKdUekB" role="ri$Ld">
+                      <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="5GIPtKdUekC" role="3cqZAp" />
+          <node concept="3clFbJ" id="5GIPtKdUekD" role="3cqZAp">
+            <node concept="3clFbS" id="5GIPtKdUekE" role="3clFbx">
+              <node concept="3SKdUt" id="5GIPtKdUekF" role="3cqZAp">
+                <node concept="1PaTwC" id="5GIPtKdUekG" role="1aUNEU">
+                  <node concept="3oM_SD" id="5GIPtKdUekH" role="1PaTwD">
+                    <property role="3oM_SC" value="not" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekI" role="1PaTwD">
+                    <property role="3oM_SC" value="instantiated..." />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekJ" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekK" role="1PaTwD">
+                    <property role="3oM_SC" value="contextNode" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekL" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekM" role="1PaTwD">
+                    <property role="3oM_SC" value="itself" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekN" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekO" role="1PaTwD">
+                    <property role="3oM_SC" value="mapsClassConcept." />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUekP" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5GIPtKdUekQ" role="3cqZAp">
+                <node concept="37vLTI" id="5GIPtKdUekR" role="3clFbG">
+                  <node concept="2OqwBi" id="5GIPtKdUekS" role="37vLTx">
+                    <node concept="2rP1CM" id="5GIPtKdUekT" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="5GIPtKdUekU" role="2OqNvi">
+                      <node concept="1xMEDy" id="5GIPtKdUekV" role="1xVPHs">
+                        <node concept="chp4Y" id="5GIPtKdUekW" role="ri$Ld">
+                          <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="5GIPtKdUekX" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5GIPtKdUekY" role="37vLTJ">
+                    <ref role="3cqZAo" node="5GIPtKdUekx" resolve="parentMapping" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="5GIPtKdUekZ" role="3clFbw">
+              <node concept="10Nm6u" id="5GIPtKdUel0" role="3uHU7w" />
+              <node concept="3kakTB" id="5GIPtKdUel1" role="3uHU7B" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="5GIPtKdUedY" role="3cqZAp" />
           <node concept="3clFbF" id="fw7nOFAaR7" role="3cqZAp">
             <node concept="2YIFZM" id="fw7nOFAaWv" role="3clFbG">
               <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
@@ -604,22 +683,16 @@
                   <node concept="2qgKlT" id="fw7nOFAaWy" role="2OqNvi">
                     <ref role="37wK5l" to="lfe3:5_gFKlwHLHV" resolve="propertiesScopeToClassifier" />
                     <node concept="2OqwBi" id="fw7nOFAaWz" role="37wK5m">
-                      <node concept="2OqwBi" id="fw7nOFAaW$" role="2Oq$k0">
-                        <node concept="2rP1CM" id="fw7nOFAaW_" role="2Oq$k0" />
-                        <node concept="2Xjw5R" id="fw7nOFAaWA" role="2OqNvi">
-                          <node concept="1xMEDy" id="fw7nOFAaWB" role="1xVPHs">
-                            <node concept="chp4Y" id="fw7nOFAaWC" role="ri$Ld">
-                              <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
-                            </node>
-                          </node>
-                          <node concept="1xIGOp" id="fw7nOFAaWD" role="1xVPHs" />
-                        </node>
+                      <node concept="37vLTw" id="5GIPtKdUeML" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5GIPtKdUekx" resolve="parentMapping" />
                       </node>
                       <node concept="2qgKlT" id="fw7nOFAaWE" role="2OqNvi">
                         <ref role="37wK5l" to="lfe3:Kou8LehQGG" resolve="getClassConcept" />
                       </node>
                     </node>
-                    <node concept="2rP1CM" id="fw7nOFAaWF" role="37wK5m" />
+                    <node concept="37vLTw" id="5GIPtKdUeWQ" role="37wK5m">
+                      <ref role="3cqZAo" node="5GIPtKdUekx" resolve="parentMapping" />
+                    </node>
                   </node>
                   <node concept="35c_gC" id="fw7nOFAcuJ" role="2Oq$k0">
                     <ref role="35c_gD" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
@@ -1077,6 +1150,83 @@
       <ref role="1N5Vy1" to="r5tz:7kypvuIzY7K" resolve="property" />
       <node concept="3dgokm" id="7kypvuI$5Qv" role="1N6uqs">
         <node concept="3clFbS" id="fw7nOFAao_" role="2VODD2">
+          <node concept="3cpWs8" id="5GIPtKdTGSK" role="3cqZAp">
+            <node concept="3cpWsn" id="5GIPtKdTGSN" role="3cpWs9">
+              <property role="TrG5h" value="parentMapping" />
+              <node concept="3Tqbb2" id="5GIPtKdTGSI" role="1tU5fm">
+                <ref role="ehGHo" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
+              </node>
+              <node concept="2OqwBi" id="5GIPtKdTJ5U" role="33vP2m">
+                <node concept="2rP1CM" id="5GIPtKdTJ5V" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="5GIPtKdTJ5W" role="2OqNvi">
+                  <node concept="1xMEDy" id="5GIPtKdTJ5X" role="1xVPHs">
+                    <node concept="chp4Y" id="5GIPtKdTJ5Y" role="ri$Ld">
+                      <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="5GIPtKdTJdb" role="3cqZAp" />
+          <node concept="3clFbJ" id="5GIPtKdTHdN" role="3cqZAp">
+            <node concept="3clFbS" id="5GIPtKdTHdP" role="3clFbx">
+              <node concept="3SKdUt" id="5GIPtKdTMBS" role="3cqZAp">
+                <node concept="1PaTwC" id="5GIPtKdTMBT" role="1aUNEU">
+                  <node concept="3oM_SD" id="5GIPtKdTMBU" role="1PaTwD">
+                    <property role="3oM_SC" value="not" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdTMID" role="1PaTwD">
+                    <property role="3oM_SC" value="instantiated..." />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUdFS" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUdGm" role="1PaTwD">
+                    <property role="3oM_SC" value="contextNode" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUdGt" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUdG_" role="1PaTwD">
+                    <property role="3oM_SC" value="itself" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUdGU" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdUdHg" role="1PaTwD">
+                    <property role="3oM_SC" value="mapsClassConcept." />
+                  </node>
+                  <node concept="3oM_SD" id="5GIPtKdTMJf" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5GIPtKdTNeX" role="3cqZAp">
+                <node concept="37vLTI" id="5GIPtKdTNuC" role="3clFbG">
+                  <node concept="2OqwBi" id="5GIPtKdTNW4" role="37vLTx">
+                    <node concept="2rP1CM" id="5GIPtKdTNH4" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="5GIPtKdTO8K" role="2OqNvi">
+                      <node concept="1xMEDy" id="5GIPtKdTO8M" role="1xVPHs">
+                        <node concept="chp4Y" id="5GIPtKdTOTT" role="ri$Ld">
+                          <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="5GIPtKdTOMM" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5GIPtKdTNeV" role="37vLTJ">
+                    <ref role="3cqZAo" node="5GIPtKdTGSN" resolve="parentMapping" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="5GIPtKdTHC8" role="3clFbw">
+              <node concept="10Nm6u" id="5GIPtKdTIcr" role="3uHU7w" />
+              <node concept="3kakTB" id="5GIPtKdTHlc" role="3uHU7B" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="5GIPtKdTGKp" role="3cqZAp" />
           <node concept="3SKdUt" id="fw7nOFAaoA" role="3cqZAp">
             <node concept="1PaTwC" id="4s5j7kQj$g1" role="1aUNEU">
               <node concept="3oM_SD" id="4s5j7kQj$g2" role="1PaTwD">
@@ -1102,21 +1252,16 @@
                   <node concept="2qgKlT" id="fw7nOFAa_C" role="2OqNvi">
                     <ref role="37wK5l" to="lfe3:5_gFKlwHLHV" resolve="propertiesScopeToClassifier" />
                     <node concept="2OqwBi" id="fw7nOFAa_D" role="37wK5m">
-                      <node concept="2OqwBi" id="fw7nOFAa_E" role="2Oq$k0">
-                        <node concept="2rP1CM" id="fw7nOFAa_F" role="2Oq$k0" />
-                        <node concept="2Xjw5R" id="fw7nOFAa_G" role="2OqNvi">
-                          <node concept="1xMEDy" id="fw7nOFAa_H" role="1xVPHs">
-                            <node concept="chp4Y" id="fw7nOFAa_I" role="ri$Ld">
-                              <ref role="cht4Q" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />
-                            </node>
-                          </node>
-                        </node>
+                      <node concept="37vLTw" id="5GIPtKdTMeO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5GIPtKdTGSN" resolve="parentMapping" />
                       </node>
                       <node concept="2qgKlT" id="fw7nOFAa_K" role="2OqNvi">
                         <ref role="37wK5l" to="lfe3:Kou8LehQGG" resolve="getClassConcept" />
                       </node>
                     </node>
-                    <node concept="2rP1CM" id="fw7nOFAa_L" role="37wK5m" />
+                    <node concept="37vLTw" id="5GIPtKdTMtt" role="37wK5m">
+                      <ref role="3cqZAo" node="5GIPtKdTGSN" resolve="parentMapping" />
+                    </node>
                   </node>
                   <node concept="35c_gC" id="fw7nOFAcuI" role="2Oq$k0">
                     <ref role="35c_gD" to="r5tz:Kou8LehQGC" resolve="IMapsClassConcept" />

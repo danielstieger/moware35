@@ -327,8 +327,6 @@
       </concept>
       <concept id="4533072425307715670" name="org.modellwerkstatt.objectflow.structure.StatusElement" flags="ng" index="2XvgOc">
         <property id="4533072425307715682" name="value" index="2XvgOS" />
-        <property id="1085421207787009238" name="shortDesc" index="1YKsg0" />
-        <property id="1085421207787009239" name="longDesc" index="1YKsg1" />
         <child id="1707086779727598829" name="options" index="2_RhUc" />
         <child id="6436022531938294753" name="shortDescNew" index="3RLGe5" />
         <child id="6436022531938294806" name="longDescNew" index="3RLGhM" />
@@ -821,8 +819,6 @@
       <node concept="2XvgOc" id="612_n8Hc$sv" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIi" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTA" role="3RLGhM">
           <property role="Xl_RC" value="Default" />
@@ -834,8 +830,6 @@
       <node concept="2XvgOc" id="612_n8Hc$sx" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTo" role="3RLGhM">
           <property role="Xl_RC" value="Status 1" />
         </node>
@@ -846,8 +840,6 @@
       <node concept="2XvgOc" id="612_n8Hc$s$" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTy" role="3RLGhM">
           <property role="Xl_RC" value="Status 2" />
         </node>
@@ -13754,8 +13746,6 @@
       <node concept="2XvgOc" id="2i3o0he2lCO" role="2XvgO2">
         <property role="TrG5h" value="on" />
         <property role="2XvgOS" value="1" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIj" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTm" role="3RLGhM">
           <property role="Xl_RC" value="ON" />
@@ -13767,8 +13757,6 @@
       <node concept="2XvgOc" id="2i3o0he2lCQ" role="2XvgO2">
         <property role="TrG5h" value="off" />
         <property role="2XvgOS" value="0" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTe" role="3RLGhM">
           <property role="Xl_RC" value="OFF" />
         </node>
@@ -23541,8 +23529,6 @@
       <node concept="2XvgOc" id="5LYSiLABM5i" role="2XvgO2">
         <property role="TrG5h" value="on" />
         <property role="2XvgOS" value="ON" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIk" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTE" role="3RLGhM">
           <property role="Xl_RC" value="On_Long" />
@@ -23554,8 +23540,6 @@
       <node concept="2XvgOc" id="5LYSiLABM5j" role="2XvgO2">
         <property role="TrG5h" value="off" />
         <property role="2XvgOS" value="OFF" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTu" role="3RLGhM">
           <property role="Xl_RC" value="Off_Long" />
         </node>
@@ -24148,7 +24132,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1vKpqttU8lX" role="3cqZAp" />
+        <node concept="3clFbH" id="5GIPtKeLnKV" role="3cqZAp" />
         <node concept="3cpWs6" id="1vKpqttUkep" role="3cqZAp">
           <node concept="2OqwBi" id="1vKpqttUl2n" role="3cqZAk">
             <node concept="1eaaFm" id="1vKpqttU8m3" role="2Oq$k0">
@@ -30151,8 +30135,6 @@
       <node concept="2XvgOc" id="FplMljbo5e" role="2XvgO2">
         <property role="TrG5h" value="on" />
         <property role="2XvgOS" value="O" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIm" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTg" role="3RLGhM">
           <property role="Xl_RC" value="On" />
@@ -30164,8 +30146,6 @@
       <node concept="2XvgOc" id="FplMljbo5g" role="2XvgO2">
         <property role="TrG5h" value="off" />
         <property role="2XvgOS" value="F" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTw" role="3RLGhM">
           <property role="Xl_RC" value="Off" />
         </node>
@@ -32497,8 +32477,6 @@
       <node concept="2XvgOc" id="5jJxQKSZnVV" role="2XvgO2">
         <property role="TrG5h" value="A" />
         <property role="2XvgOS" value="A" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIl" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTC" role="3RLGhM">
           <property role="Xl_RC" value="A long" />
@@ -32510,8 +32488,6 @@
       <node concept="2XvgOc" id="5jJxQKSZnW4" role="2XvgO2">
         <property role="TrG5h" value="B" />
         <property role="2XvgOS" value="B" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTI" role="3RLGhM">
           <property role="Xl_RC" value="B long" />
         </node>
@@ -32522,8 +32498,6 @@
       <node concept="2XvgOc" id="5jJxQKSZnW7" role="2XvgO2">
         <property role="TrG5h" value="C" />
         <property role="2XvgOS" value="C" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTO" role="3RLGhM">
           <property role="Xl_RC" value="C long" />
         </node>
@@ -32615,8 +32589,6 @@
       <node concept="2XvgOc" id="77lIyOFCilO" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="77lIyOFCilP" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYT$" role="3RLGhM">
           <property role="Xl_RC" value="Default" />
@@ -32628,8 +32600,6 @@
       <node concept="2XvgOc" id="77lIyOFCilQ" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTk" role="3RLGhM">
           <property role="Xl_RC" value="Status 1" />
         </node>
@@ -32640,8 +32610,6 @@
       <node concept="2XvgOc" id="77lIyOFCilR" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTG" role="3RLGhM">
           <property role="Xl_RC" value="Status 2" />
         </node>
@@ -32655,8 +32623,6 @@
       <node concept="2XvgOc" id="77lIyOFCilT" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="77lIyOFCilU" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTq" role="3RLGhM">
           <property role="Xl_RC" value="Default" />
@@ -32668,8 +32634,6 @@
       <node concept="2XvgOc" id="77lIyOFCilV" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTi" role="3RLGhM">
           <property role="Xl_RC" value="Status 1" />
         </node>
@@ -32680,8 +32644,6 @@
       <node concept="2XvgOc" id="77lIyOFCilW" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_6eiF" id="77lIyOFCilX" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTK" role="3RLGhM">
           <property role="Xl_RC" value="Status 2" />
@@ -32696,8 +32658,6 @@
       <node concept="2XvgOc" id="77lIyOFCilZ" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="77lIyOFCim0" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTM" role="3RLGhM">
           <property role="Xl_RC" value="Default" />
@@ -32709,8 +32669,6 @@
       <node concept="2XvgOc" id="77lIyOFCim1" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="2_6etu" id="77lIyOFCim2" role="2_RhUc" />
         <node concept="Xl_RD" id="5_hm6iIKYTs" role="3RLGhM">
           <property role="Xl_RC" value="Status 1" />
@@ -32722,8 +32680,6 @@
       <node concept="2XvgOc" id="77lIyOFCim3" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="" />
-        <property role="1YKsg1" value="" />
         <node concept="Xl_RD" id="5_hm6iIKYTc" role="3RLGhM">
           <property role="Xl_RC" value="Status 2" />
         </node>
