@@ -46,7 +46,7 @@
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -303,10 +303,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -2717,6 +2717,22 @@
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
       <node concept="3clFbS" id="7CJFVfzSd_5" role="3clF47">
+        <node concept="3clFbF" id="6iq8X3aIR5m" role="3cqZAp">
+          <node concept="2YIFZM" id="6iq8X3aIR5n" role="3clFbG">
+            <ref role="1Pybhc" to="tea8:3h3MBx3irbo" resolve="H2ApplicationLoader" />
+            <ref role="37wK5l" to="tea8:4QTIUTCpF18" resolve="hardLog" />
+            <node concept="3cpWs3" id="6iq8X3aIR5o" role="37wK5m">
+              <node concept="2YIFZM" id="6iq8X3aIRkg" role="3uHU7w">
+                <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+              </node>
+              <node concept="Xl_RD" id="6iq8X3aIR5q" role="3uHU7B">
+                <property role="Xl_RC" value="execLocationRedirect() called from " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6iq8X3aIRkZ" role="3cqZAp" />
         <node concept="3clFbF" id="7CJFVfzShR7" role="3cqZAp">
           <node concept="2OqwBi" id="7CJFVfzShU0" role="3clFbG">
             <node concept="37vLTw" id="7CJFVfzShR5" role="2Oq$k0">
@@ -2805,19 +2821,16 @@
             <node concept="10Nm6u" id="3LZok6fati8" role="3uHU7w" />
           </node>
         </node>
-        <node concept="1X3_iC" id="3LZok6fn$ig" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="3LZok6fbeif" role="8Wnug">
-            <node concept="1rXfSq" id="3LZok6fbeid" role="3clFbG">
-              <ref role="37wK5l" to="tea8:4QTIUTCpF18" resolve="hardLog" />
-              <node concept="3cpWs3" id="3LZok6fbfMD" role="37wK5m">
-                <node concept="37vLTw" id="3LZok6fbfOT" role="3uHU7w">
-                  <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-                </node>
-                <node concept="Xl_RD" id="3LZok6fbfJH" role="3uHU7B">
-                  <property role="Xl_RC" value="getRemoteAddr(): Address is " />
-                </node>
+        <node concept="3clFbF" id="3LZok6fbeif" role="3cqZAp">
+          <node concept="2YIFZM" id="6iq8X3aIR2D" role="3clFbG">
+            <ref role="1Pybhc" to="tea8:3h3MBx3irbo" resolve="H2ApplicationLoader" />
+            <ref role="37wK5l" to="tea8:4QTIUTCpF18" resolve="hardLog" />
+            <node concept="3cpWs3" id="6iq8X3aIR2E" role="37wK5m">
+              <node concept="37vLTw" id="6iq8X3aIR2F" role="3uHU7w">
+                <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
+              </node>
+              <node concept="Xl_RD" id="6iq8X3aIR2G" role="3uHU7B">
+                <property role="Xl_RC" value="getRemoteAddr(): Address is " />
               </node>
             </node>
           </node>
