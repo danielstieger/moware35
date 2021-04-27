@@ -20,7 +20,6 @@
       <sourceRoot location="fontbox-2.0.19.jar" />
       <sourceRoot location="pdfbox-app-1.8.16.jar" />
       <sourceRoot location="serializer-2.7.2.jar" />
-      <sourceRoot location="xml-apis-1.4.01.jar" />
       <sourceRoot location="xml-apis-ext-1.3.04.jar" />
       <sourceRoot location="xmlgraphics-commons-2.6.jar" />
       <sourceRoot location="xercesImpl-2.12.0.jar" />

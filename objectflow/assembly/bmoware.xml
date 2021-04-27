@@ -9,7 +9,7 @@
  
  
  
- set JAVA_HOME=c:\javaexe\jbr
+ set JAVA_HOME=c:\javaexe\jbr11
  set PATH=c:\javaexe\jbr\bin;c:\javaexe\ant_MPS25\bin
  
  
