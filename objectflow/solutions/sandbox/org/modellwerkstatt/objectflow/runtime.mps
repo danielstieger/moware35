@@ -2017,7 +2017,7 @@
                     <ref role="1Px2BO" to="w7gk:2dTopMveSQ3" resolve="MMLogger.Priority" />
                   </node>
                   <node concept="Xl_RD" id="7Tmb8cxEM6g" role="37wK5m">
-                    <property role="Xl_RC" value="setLevelOnLogger() resulted in a ClassNotFoundException. Probably log4j is not present in classpath, but this log4j config is used." />
+                    <property role="Xl_RC" value="setLevelOnLogger() resulted in a ClassNotFoundException. Log4JLogLevel can no longer be used in server settings. Please remove it from your configuration." />
                   </node>
                   <node concept="10Nm6u" id="5HvIBdIZiz7" role="37wK5m" />
                 </node>
