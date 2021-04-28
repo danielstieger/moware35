@@ -80,6 +80,13 @@
   	<copy todir="${mowarePluginHomeDir}/h2assembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/h2forms/assembly/artefact/"/>
   	</copy>
+  	
+  	<delete includeEmptyDirs="true" failonerror="false">
+  		<fileset dir="${mowarePluginHomeDir}/vaadinassembly/artefact/" includes="**/*" defaultexcludes="no"/>
+	</delete>
+  	<copy todir="${mowarePluginHomeDir}/vaadinassembly/artefact/" overwrite="true" >
+    	<fileset dir="${mowareHome}/vaadinforms/assembly/artefact/"/>
+  	</copy>
   	 
   	 
   	<!-- JARS and dependencies ++ ++ ++ ++ ++ ++ ++ --> 

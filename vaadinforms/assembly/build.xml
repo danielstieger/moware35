@@ -25,10 +25,10 @@
   <property name="appName"              value="SimpleApplication" />
   <property name="appMainclass"         value="org.modellwerkstatt.simple.app.simpleApp.App_Desktop_Order" />
   <property name="appConfiguration"     value="org/modellwerkstatt/simple/basisUnit/VaadinConfig.xml" /> 
-  <property name="myHome"               value="/Users/danielstieger" />
+  <property name="myHome"               value="/Users/danielstieger/" />
 
   <!-- **** build/solution specific definitions ***************************************************** -->
-  <property name="javawareHomeDir"       value="${myHome}/javaware" /> 
+  <property name="javawareHomeDir"       value="${myHome}/migration/2020_3/" /> 
   <property name="tomcatHomeDir"         value="${myHome}/stuff/green" />
   <property name="solutionSimpleGen"     value="${javawareHomeDir}/simpleone/solutions/Simple/classes_gen" />
 
