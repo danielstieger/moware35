@@ -2372,8 +2372,8 @@
                     <ref role="1Px2BO" to="w7gk:2dTopMveSQ3" resolve="MMLogger.Priority" />
                     <ref role="Rm8GQ" to="w7gk:2dTopMvfAFa" resolve="WARN" />
                   </node>
-                  <node concept="Xl_RD" id="7Tmb8cxEJko" role="37wK5m">
-                    <property role="Xl_RC" value="setLevelOnRootLogger() resulted in a ClassNotFoundException. Probably log4j is not present in classpath, but this log4j config is used." />
+                  <node concept="Xl_RD" id="7Ve8Pjri3Xx" role="37wK5m">
+                    <property role="Xl_RC" value="setLevelOnLogger() resulted in a ClassNotFoundException. Log4JLogLevel can no longer be used in server settings. Please remove it from your configuration." />
                   </node>
                   <node concept="10Nm6u" id="5HvIBdIZjE0" role="37wK5m" />
                 </node>
@@ -42628,7 +42628,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2021.11 (ko) (dev " />
+            <property role="Xl_RC" value="moware11 2021.11 (1A) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
