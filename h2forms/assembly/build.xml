@@ -30,12 +30,12 @@
  
         
   <!-- **** solutions to incorporate in this build ************************************************** -->
-  <property name="solultionSimpleGen"   value="${buildUserHome}/javaware/simpleone/solutions/Simple/classes_gen" />
+  <property name="solultionSimpleGen"   value="${buildUserHome}/simpleone/solutions/Simple/classes_gen" />
 
   <exec executable="java" outputproperty="appBuildVersion">
    <arg value="-cp"/>
-   <arg value="${solultionSimpleGen};${execInBuildClassPathWin}" />
-   <!-- <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" /> -->
+   <!-- <arg value="${solultionSimpleGen};${execInBuildClassPathWin}" /> -->
+   <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
    <arg value="org.modellwerkstatt.simple.basis.TestSetting" />
   </exec>
   

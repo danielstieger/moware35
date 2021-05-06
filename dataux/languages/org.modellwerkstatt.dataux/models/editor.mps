@@ -20,6 +20,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tm9u" ref="r:a8cceaac-a892-4039-8ab4-edfae2590c6d(org.modellwerkstatt.dataux.ofxutil)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="q1sf" ref="r:ef9c70a3-ad04-4165-a5aa-0013bf6d0c5a(org.modellwerkstatt.manmap.editor)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
@@ -752,10 +753,15 @@
               <node concept="3clFbF" id="7rG0OCcGJXT" role="3cqZAp">
                 <node concept="3cpWs3" id="7rG0OCcGZYM" role="3clFbG">
                   <node concept="Xl_RD" id="7rG0OCcGZZK" role="3uHU7B" />
-                  <node concept="2OqwBi" id="7rG0OCcGK0s" role="3uHU7w">
-                    <node concept="pncrf" id="7rG0OCcGJXS" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="7rG0OCcGZT7" role="2OqNvi">
-                      <ref role="37wK5l" to="5y3p:7rG0OCcGK61" resolve="getContentType" />
+                  <node concept="2OqwBi" id="4aT8qoeZEmb" role="3uHU7w">
+                    <node concept="2OqwBi" id="7rG0OCcGK0s" role="2Oq$k0">
+                      <node concept="pncrf" id="7rG0OCcGJXS" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="7rG0OCcGZT7" role="2OqNvi">
+                        <ref role="37wK5l" to="5y3p:7rG0OCcGK61" resolve="getContentType" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="4aT8qoeZF1P" role="2OqNvi">
+                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
                     </node>
                   </node>
                 </node>
