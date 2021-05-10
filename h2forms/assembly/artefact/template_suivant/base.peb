@@ -57,8 +57,9 @@
     <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
 {% endif %}
 
-
-
+  {% if defaultConclusion is not null %}
+  <meta name="h2DefaultConclusion" content="{{ defaultConclusion.triggerCode }}">
+  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 
@@ -112,7 +113,8 @@
 
 <body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% elseif not page.hasSessionToCommit and page.isReadOnly %}sv-back-readOnly{% elseif page.isDocumentSearch %}sv-back-no-session{% else %}sv-back-session{% endif %}"
       {% if message is not null and message.errorLarge %} style="overflow-x: scroll !important;" {% endif %}>
-<form method="POST" name="baseform" id="baseform">
+<script>0 // firefox FOUC </script>
+<form method="POST" name="baseform" id="baseform" onsubmit="svOnFormSubmitHandler()">
     <input type="hidden" name="NaviCrtl" value=""/>
     <input type="hidden" name="SelectionId" value=""/>
     <input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>

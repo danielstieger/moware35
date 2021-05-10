@@ -71,7 +71,6 @@ function layoutSelectAndExec(selectionstr, valstr, dropdown){
 
 
 function saveSubmit(submitParameter){
-    var origScrollPos = parseInt(window.scrollY);
     dbLog('saveSubmit', 'with ' + submitParameter + ' before hideconent');
 
     if (! svHideAllContainsDropdown()) {
@@ -81,13 +80,34 @@ function saveSubmit(submitParameter){
             dbLog('saveSubmit', 'before form submit');
 
             var f = $('form');
-            f.ScrollPosition.value = origScrollPos;
             f.NaviCrtl.value = submitParameter;
             f.DebugInformation.value = getDbLog();
             f.submit();
         }
     }
 }
+
+function svOnFormSubmitHandler(){
+    var f = $('form');
+
+    if (f.NaviCrtl.value) {
+        // this is okay. a navi crtl is given
+    } else {
+        // might be a "go" from the android keyboard.
+        var metaInfoDefaultConclusion = $('meta[name=h2DefaultConclusion]');
+        if (metaInfoDefaultConclusion){
+            f.NaviCrtl.value = 'conclusion_' + metaInfoDefaultConclusion.content;
+        }
+    }
+}
+
+function svSubmitFormWithDefaultConclusion(){
+    // android go key .. handling.
+    svOnFormSubmitHandler();
+    var f = $('form');
+    f.submit();
+}
+
 
 
 function svLogout(){

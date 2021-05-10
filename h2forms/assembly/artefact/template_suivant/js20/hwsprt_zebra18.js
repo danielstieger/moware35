@@ -114,9 +114,9 @@ function hwInitAfterDomReady(){
     var keyCallBack = function(event) {
         // console.log('keyCallBack() KeyCode received ' + event.keyCode);
         if (event.keyCode == 13) {
-            var allInputs = $$('input:enabled, select:enabled');
+            var allInputs = $$('input:enabled:not([type=hidden]), select:enabled:not([type=hidden])');
             var next = false;
-            for (id in allInputs) {
+            for (id = 0; id < allInputs.length; id++)  {
                 if (next == true) {
                     svFocusOnElem(allInputs[id]);
                     break;
@@ -124,6 +124,14 @@ function hwInitAfterDomReady(){
                 if (allInputs[id] == event.target) {
                     next = true;
                 }
+            }
+
+            // last one? working on andoid "go" button?
+            if (allInputs.length == 1 && allInputs[allInputs.length-1] == event.target) {
+                svSubmitFormWithDefaultConclusion();
+            } else if (allInputs[allInputs.length-1] == event.target) {
+                //last one, take first.
+                svFocusOnElem(allInputs[0]);
             }
 
             event.preventDefault();
