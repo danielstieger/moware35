@@ -1,6 +1,6 @@
 #  Moware 2021 (11) 
 MoWare 2021 (11 edition)
-[Compatible with MPS 2019.2 / jbr 11] 
+[Compatible with MPS 2020.3 / jbr 11] 
 
 MoWare Werkbank allows you to create business applications with more efficiency and 
 more development speed. By seperating technical from fachlichem Java and relying on
