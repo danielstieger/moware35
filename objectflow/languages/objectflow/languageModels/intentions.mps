@@ -6728,7 +6728,7 @@
           <node concept="3cpWsn" id="oQy5dTtyq2" role="3cpWs9">
             <property role="TrG5h" value="srv" />
             <node concept="3Tqbb2" id="oQy5dTtypX" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:2jXWHXa_nYK" resolve="IO2RTComponent" />
+              <ref role="ehGHo" to="tpee:fz12cDA" resolve="ClassConcept" />
             </node>
             <node concept="2OqwBi" id="oQy5dTvf4d" role="33vP2m">
               <node concept="2Sf5sV" id="oQy5dTvf4e" role="2Oq$k0" />
@@ -6829,13 +6829,8 @@
                 <ref role="3Tt5mk" to="un0u:6S08D5JofmO" resolve="runtimeHandledObject" />
               </node>
             </node>
-            <node concept="1PxgMI" id="oQy5dTNJL0" role="37vLTx">
-              <node concept="chp4Y" id="oQy5dTNJLW" role="3oSUPX">
-                <ref role="cht4Q" to="tpee:fz12cDA" resolve="ClassConcept" />
-              </node>
-              <node concept="37vLTw" id="oQy5dTtyJw" role="1m5AlR">
-                <ref role="3cqZAo" node="oQy5dTtyq2" resolve="srv" />
-              </node>
+            <node concept="37vLTw" id="oQy5dTtyJw" role="37vLTx">
+              <ref role="3cqZAo" node="oQy5dTtyq2" resolve="srv" />
             </node>
           </node>
         </node>

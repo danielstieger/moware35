@@ -13086,6 +13086,13 @@
         <ref role="3uigEE" to="l152:~BorderPane" resolve="BorderPane" />
       </node>
     </node>
+    <node concept="312cEg" id="4hFGgskg6PM" role="jymVt">
+      <property role="TrG5h" value="colorPane" />
+      <node concept="3Tmbuc" id="4hFGgskg6PN" role="1B3o_S" />
+      <node concept="3uibUv" id="4hFGgskg6PO" role="1tU5fm">
+        <ref role="3uigEE" to="l152:~BorderPane" resolve="BorderPane" />
+      </node>
+    </node>
     <node concept="312cEg" id="1KdmgfEFgrh" role="jymVt">
       <property role="TrG5h" value="notificationPane" />
       <node concept="3Tmbuc" id="1KdmgfEFgzz" role="1B3o_S" />
@@ -13309,14 +13316,14 @@
                       <node concept="3Tm1VV" id="1KdmgfEJ$TI" role="1B3o_S" />
                       <node concept="3cqZAl" id="1KdmgfEJ$TK" role="3clF45" />
                       <node concept="3clFbS" id="1KdmgfEJ$TL" role="3clF47">
-                        <node concept="3clFbF" id="1KdmgfEJ$VH" role="3cqZAp">
-                          <node concept="2OqwBi" id="1KdmgfEJ$Yf" role="3clFbG">
-                            <node concept="Xjq3P" id="1KdmgfEJ$VG" role="2Oq$k0">
-                              <ref role="1HBi2w" node="5_bDd1d5SsD" resolve="FX8CmdUiBasis" />
+                        <node concept="3clFbF" id="4hFGgskgicO" role="3cqZAp">
+                          <node concept="2OqwBi" id="4hFGgskgiDV" role="3clFbG">
+                            <node concept="37vLTw" id="4hFGgskgicM" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4hFGgskg6PM" resolve="colorPane" />
                             </node>
-                            <node concept="liA8E" id="1KdmgfEJ_vL" role="2OqNvi">
+                            <node concept="liA8E" id="4hFGgskgj7m" role="2OqNvi">
                               <ref role="37wK5l" to="l152:~BorderPane.setTop(javafx.scene.Node)" resolve="setTop" />
-                              <node concept="10Nm6u" id="1KdmgfEJ_wg" role="37wK5m" />
+                              <node concept="10Nm6u" id="4hFGgskgjjV" role="37wK5m" />
                             </node>
                           </node>
                         </node>
@@ -13340,6 +13347,30 @@
           </node>
         </node>
         <node concept="3clFbH" id="zBgVaCU0gC" role="3cqZAp" />
+        <node concept="3clFbF" id="4hFGgskgbt6" role="3cqZAp">
+          <node concept="37vLTI" id="4hFGgskgci5" role="3clFbG">
+            <node concept="2ShNRf" id="4hFGgskgd3K" role="37vLTx">
+              <node concept="1pGfFk" id="4hFGgskgc_T" role="2ShVmc">
+                <ref role="37wK5l" to="l152:~BorderPane.&lt;init&gt;()" resolve="BorderPane" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4hFGgskgbt4" role="37vLTJ">
+              <ref role="3cqZAo" node="4hFGgskg6PM" resolve="colorPane" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4hFGgskgdW$" role="3cqZAp">
+          <node concept="2OqwBi" id="4hFGgskge_W" role="3clFbG">
+            <node concept="Xjq3P" id="4hFGgskgdWy" role="2Oq$k0" />
+            <node concept="liA8E" id="4hFGgskgfou" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~BorderPane.setTop(javafx.scene.Node)" resolve="setTop" />
+              <node concept="37vLTw" id="4hFGgskgfHe" role="37wK5m">
+                <ref role="3cqZAo" node="4hFGgskg6PM" resolve="colorPane" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4hFGgskgakE" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="5_bDd1d89Et" role="jymVt" />
@@ -14196,16 +14227,18 @@
         </node>
         <node concept="3clFbF" id="ao4XGSV$ra" role="3cqZAp">
           <node concept="2OqwBi" id="ao4XGSV$tJ" role="3clFbG">
-            <node concept="Xjq3P" id="ao4XGSV$r9" role="2Oq$k0" />
+            <node concept="37vLTw" id="4hFGgskgpXT" role="2Oq$k0">
+              <ref role="3cqZAo" node="4hFGgskg6PM" resolve="colorPane" />
+            </node>
             <node concept="liA8E" id="ao4XGSV$M8" role="2OqNvi">
               <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String)" resolve="setStyle" />
               <node concept="3cpWs3" id="ao4XGSVBRW" role="37wK5m">
                 <node concept="Xl_RD" id="ao4XGSVBTM" role="3uHU7w">
-                  <property role="Xl_RC" value="; -fx-border-insets: 2 0 0 0;" />
+                  <property role="Xl_RC" value="; -fx-border-insets: 1 0 0 0;" />
                 </node>
                 <node concept="3cpWs3" id="ao4XGSVBLT" role="3uHU7B">
                   <node concept="Xl_RD" id="ao4XGSV$Oe" role="3uHU7B">
-                    <property role="Xl_RC" value="-fx-border-width: 2 0 0 0; -fx-border-color: " />
+                    <property role="Xl_RC" value="-fx-border-width: 3 0 0 0; -fx-border-color: " />
                   </node>
                   <node concept="37vLTw" id="ao4XGSVBOa" role="3uHU7w">
                     <ref role="3cqZAo" node="ao4XGSVyO9" resolve="color" />
@@ -14241,12 +14274,14 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1KdmgfEJAEI" role="3cqZAp">
-          <node concept="2OqwBi" id="1KdmgfEJAIY" role="3clFbG">
-            <node concept="Xjq3P" id="1KdmgfEJAEG" role="2Oq$k0" />
-            <node concept="liA8E" id="1KdmgfEJB2R" role="2OqNvi">
+        <node concept="3clFbF" id="4hFGgskggaG" role="3cqZAp">
+          <node concept="2OqwBi" id="4hFGgskgg$K" role="3clFbG">
+            <node concept="37vLTw" id="4hFGgskggaE" role="2Oq$k0">
+              <ref role="3cqZAo" node="4hFGgskg6PM" resolve="colorPane" />
+            </node>
+            <node concept="liA8E" id="4hFGgskggWl" role="2OqNvi">
               <ref role="37wK5l" to="l152:~BorderPane.setTop(javafx.scene.Node)" resolve="setTop" />
-              <node concept="37vLTw" id="1KdmgfEJB3B" role="37wK5m">
+              <node concept="37vLTw" id="4hFGgskghkH" role="37wK5m">
                 <ref role="3cqZAo" node="1KdmgfEFgrh" resolve="notificationPane" />
               </node>
             </node>
@@ -32624,16 +32659,18 @@
       <node concept="3clFbS" id="g2nNIPm6Tm" role="3clF47">
         <node concept="3clFbF" id="g2nNIPlQoW" role="3cqZAp">
           <node concept="2OqwBi" id="g2nNIPlQoX" role="3clFbG">
-            <node concept="Xjq3P" id="g2nNIPlQoY" role="2Oq$k0" />
+            <node concept="37vLTw" id="4hFGgskgloT" role="2Oq$k0">
+              <ref role="3cqZAo" node="4hFGgskg6PM" resolve="colorPane" />
+            </node>
             <node concept="liA8E" id="g2nNIPlQoZ" role="2OqNvi">
               <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String)" resolve="setStyle" />
               <node concept="3cpWs3" id="g2nNIPlQp0" role="37wK5m">
                 <node concept="Xl_RD" id="g2nNIPlQp1" role="3uHU7w">
-                  <property role="Xl_RC" value=" derive(#2185C5, 50.0%) derive(#2185C5, 50.0%) derive(#2185C5, 50.0%); -fx-border-insets: 2 0 0 0;" />
+                  <property role="Xl_RC" value=" derive(#2185C5, 50.0%) derive(#2185C5, 50.0%) derive(#2185C5, 50.0%); -fx-border-insets: 0 0 0 0;" />
                 </node>
                 <node concept="3cpWs3" id="g2nNIPlQp2" role="3uHU7B">
                   <node concept="Xl_RD" id="g2nNIPlQp3" role="3uHU7B">
-                    <property role="Xl_RC" value="-fx-border-width: 2 2 2 2; -fx-border-color: " />
+                    <property role="Xl_RC" value="-fx-border-width: 3 2 2 2; -fx-border-color: " />
                   </node>
                   <node concept="37vLTw" id="g2nNIPlQp4" role="3uHU7w">
                     <ref role="3cqZAo" node="g2nNIPm6T8" resolve="color" />
