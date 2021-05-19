@@ -4017,6 +4017,73 @@
                                                   </node>
                                                 </node>
                                               </node>
+                                              <node concept="3eNFk2" id="6UkfGkBPuMt" role="3eNLev">
+                                                <node concept="3clFbS" id="6UkfGkBPuMv" role="3eOfB_">
+                                                  <node concept="3clFbF" id="6UkfGkBPsQD" role="3cqZAp">
+                                                    <node concept="37vLTI" id="6UkfGkBPsQE" role="3clFbG">
+                                                      <node concept="3clFbT" id="6UkfGkBPsQF" role="37vLTx">
+                                                        <property role="3clFbU" value="false" />
+                                                      </node>
+                                                      <node concept="37vLTw" id="6UkfGkBPsQG" role="37vLTJ">
+                                                        <ref role="3cqZAo" node="1Kh5rzHUFdk" resolve="relayToCommandContainer" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                  <node concept="3clFbF" id="6UkfGkBPCmt" role="3cqZAp">
+                                                    <node concept="2OqwBi" id="6UkfGkBPCLx" role="3clFbG">
+                                                      <node concept="37vLTw" id="6UkfGkBPCmr" role="2Oq$k0">
+                                                        <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                      </node>
+                                                      <node concept="liA8E" id="6UkfGkBPEPt" role="2OqNvi">
+                                                        <ref role="37wK5l" to="1e0c:4nH4LOEuFKE" resolve="logFrmwrkProblem" />
+                                                        <node concept="3clFbT" id="6UkfGkBPFDd" role="37wK5m">
+                                                          <property role="3clFbU" value="true" />
+                                                        </node>
+                                                        <node concept="Xl_RD" id="6UkfGkBPXca" role="37wK5m">
+                                                          <property role="Xl_RC" value="PickResultChooser.processOffer" />
+                                                        </node>
+                                                        <node concept="Xl_RD" id="6UkfGkBPXEm" role="37wK5m">
+                                                          <property role="Xl_RC" value="the unclear prblm" />
+                                                        </node>
+                                                        <node concept="2OqwBi" id="6UkfGkBQ7kU" role="37wK5m">
+                                                          <node concept="37vLTw" id="6UkfGkBQ6IT" role="2Oq$k0">
+                                                            <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                          </node>
+                                                          <node concept="liA8E" id="6UkfGkBQ9vH" role="2OqNvi">
+                                                            <ref role="37wK5l" to="1e0c:4n24ZlEyn1Q" resolve="fullApplicationCrtlState" />
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="2OqwBi" id="6UkfGkBPsR1" role="3eO9$A">
+                                                  <node concept="2OqwBi" id="6UkfGkBPsR2" role="2Oq$k0">
+                                                    <node concept="AH0OO" id="6UkfGkBPsR3" role="2Oq$k0">
+                                                      <node concept="3cmrfG" id="6UkfGkBPsR4" role="AHEQo">
+                                                        <property role="3cmrfH" value="0" />
+                                                      </node>
+                                                      <node concept="2OqwBi" id="6UkfGkBPsR5" role="AHHXb">
+                                                        <node concept="37vLTw" id="6UkfGkBPsR6" role="2Oq$k0">
+                                                          <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                                        </node>
+                                                        <node concept="liA8E" id="6UkfGkBPsR7" role="2OqNvi">
+                                                          <ref role="37wK5l" to="wyt6:~Throwable.getStackTrace()" resolve="getStackTrace" />
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                    <node concept="liA8E" id="6UkfGkBPsR8" role="2OqNvi">
+                                                      <ref role="37wK5l" to="wyt6:~StackTraceElement.toString()" resolve="toString" />
+                                                    </node>
+                                                  </node>
+                                                  <node concept="liA8E" id="6UkfGkBPsR9" role="2OqNvi">
+                                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                                                    <node concept="Xl_RD" id="6UkfGkBPsRa" role="37wK5m">
+                                                      <property role="Xl_RC" value="PickResultChooser.processOffer" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
                                             </node>
                                           </node>
                                           <node concept="2ZW3vV" id="1Kh5rzHUEW7" role="3clFbw">
