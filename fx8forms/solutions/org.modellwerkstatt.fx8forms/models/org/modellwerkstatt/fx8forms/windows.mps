@@ -3922,8 +3922,36 @@
                                         </node>
                                         <node concept="3clFbJ" id="1Kh5rzHUC_G" role="3cqZAp">
                                           <node concept="3clFbS" id="1Kh5rzHUC_I" role="3clFbx">
+                                            <node concept="3clFbH" id="3EJOQfNfQsc" role="3cqZAp" />
                                             <node concept="3clFbJ" id="1Kh5rzHUFb4" role="3cqZAp">
                                               <node concept="3clFbS" id="1Kh5rzHUFb6" role="3clFbx">
+                                                <node concept="3clFbF" id="3EJOQfNfNuY" role="3cqZAp">
+                                                  <node concept="2OqwBi" id="3EJOQfNfNuZ" role="3clFbG">
+                                                    <node concept="37vLTw" id="3EJOQfNfNv0" role="2Oq$k0">
+                                                      <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                    </node>
+                                                    <node concept="liA8E" id="3EJOQfNfNv1" role="2OqNvi">
+                                                      <ref role="37wK5l" to="1e0c:4nH4LOEuFKE" resolve="logFrmwrkProblem" />
+                                                      <node concept="3clFbT" id="3EJOQfNfNv2" role="37wK5m">
+                                                        <property role="3clFbU" value="true" />
+                                                      </node>
+                                                      <node concept="Xl_RD" id="3EJOQfNfNv3" role="37wK5m">
+                                                        <property role="Xl_RC" value="FX8Application jdk8 bug" />
+                                                      </node>
+                                                      <node concept="Xl_RD" id="3EJOQfNfNv4" role="37wK5m">
+                                                        <property role="Xl_RC" value="ComboBoxPopupControl.positionAndShowPopup" />
+                                                      </node>
+                                                      <node concept="2OqwBi" id="3EJOQfNfNv5" role="37wK5m">
+                                                        <node concept="37vLTw" id="3EJOQfNfNv6" role="2Oq$k0">
+                                                          <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                        </node>
+                                                        <node concept="liA8E" id="3EJOQfNfNv7" role="2OqNvi">
+                                                          <ref role="37wK5l" to="1e0c:4n24ZlEyn1Q" resolve="fullApplicationCrtlState" />
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
                                                 <node concept="3clFbF" id="1Kh5rzHULT5" role="3cqZAp">
                                                   <node concept="37vLTI" id="1Kh5rzHULYS" role="3clFbG">
                                                     <node concept="3clFbT" id="1Kh5rzHUM00" role="37vLTx">
@@ -3934,62 +3962,7 @@
                                                     </node>
                                                   </node>
                                                 </node>
-                                                <node concept="1X3_iC" id="4xVSf7d5ONX" role="lGtFl">
-                                                  <property role="3V$3am" value="statement" />
-                                                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                  <node concept="3clFbF" id="1Kh5rzHQS7P" role="8Wnug">
-                                                    <node concept="2OqwBi" id="1Kh5rzHQS7M" role="3clFbG">
-                                                      <node concept="10M0yZ" id="1Kh5rzHQS7N" role="2Oq$k0">
-                                                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                                                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                                                      </node>
-                                                      <node concept="liA8E" id="1Kh5rzHQS7O" role="2OqNvi">
-                                                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                                                        <node concept="3cpWs3" id="1Kh5rzHQSpv" role="37wK5m">
-                                                          <node concept="37vLTw" id="1Kh5rzHQSsS" role="3uHU7w">
-                                                            <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
-                                                          </node>
-                                                          <node concept="Xl_RD" id="1Kh5rzHQSb0" role="3uHU7B">
-                                                            <property role="Xl_RC" value="THIS WAS AN UnCaught Exception + " />
-                                                          </node>
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                </node>
-                                                <node concept="1X3_iC" id="4xVSf7d5ONY" role="lGtFl">
-                                                  <property role="3V$3am" value="statement" />
-                                                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                  <node concept="3clFbF" id="1Kh5rzHTAKz" role="8Wnug">
-                                                    <node concept="2OqwBi" id="1Kh5rzHTAK$" role="3clFbG">
-                                                      <node concept="10M0yZ" id="1Kh5rzHTAK_" role="2Oq$k0">
-                                                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                                                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                                                      </node>
-                                                      <node concept="liA8E" id="1Kh5rzHTAKA" role="2OqNvi">
-                                                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                                                        <node concept="3cpWs3" id="1Kh5rzHTAKB" role="37wK5m">
-                                                          <node concept="AH0OO" id="1Kh5rzHTBvZ" role="3uHU7w">
-                                                            <node concept="3cmrfG" id="1Kh5rzHTBGE" role="AHEQo">
-                                                              <property role="3cmrfH" value="0" />
-                                                            </node>
-                                                            <node concept="2OqwBi" id="1Kh5rzHTBbe" role="AHHXb">
-                                                              <node concept="37vLTw" id="1Kh5rzHTAKC" role="2Oq$k0">
-                                                                <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
-                                                              </node>
-                                                              <node concept="liA8E" id="1Kh5rzHTBqi" role="2OqNvi">
-                                                                <ref role="37wK5l" to="wyt6:~Throwable.getStackTrace()" resolve="getStackTrace" />
-                                                              </node>
-                                                            </node>
-                                                          </node>
-                                                          <node concept="Xl_RD" id="1Kh5rzHTAKD" role="3uHU7B">
-                                                            <property role="Xl_RC" value=" " />
-                                                          </node>
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                </node>
+                                                <node concept="3clFbH" id="yaMucoQM0H" role="3cqZAp" />
                                               </node>
                                               <node concept="2OqwBi" id="1Kh5rzHUHN3" role="3clFbw">
                                                 <node concept="2OqwBi" id="1Kh5rzHUHd_" role="2Oq$k0">
@@ -4040,10 +4013,10 @@
                                                           <property role="3clFbU" value="true" />
                                                         </node>
                                                         <node concept="Xl_RD" id="6UkfGkBPXca" role="37wK5m">
-                                                          <property role="Xl_RC" value="PickResultChooser.processOffer" />
+                                                          <property role="Xl_RC" value="FX8Application jdk11 bug" />
                                                         </node>
                                                         <node concept="Xl_RD" id="6UkfGkBPXEm" role="37wK5m">
-                                                          <property role="Xl_RC" value="the unclear prblm" />
+                                                          <property role="Xl_RC" value="PickResultChooser.processOffer" />
                                                         </node>
                                                         <node concept="2OqwBi" id="6UkfGkBQ7kU" role="37wK5m">
                                                           <node concept="37vLTw" id="6UkfGkBQ6IT" role="2Oq$k0">
@@ -4056,6 +4029,7 @@
                                                       </node>
                                                     </node>
                                                   </node>
+                                                  <node concept="3clFbH" id="yaMucoQM1c" role="3cqZAp" />
                                                 </node>
                                                 <node concept="2OqwBi" id="6UkfGkBPsR1" role="3eO9$A">
                                                   <node concept="2OqwBi" id="6UkfGkBPsR2" role="2Oq$k0">
@@ -4080,6 +4054,74 @@
                                                     <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                                                     <node concept="Xl_RD" id="6UkfGkBPsRa" role="37wK5m">
                                                       <property role="Xl_RC" value="PickResultChooser.processOffer" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="3eNFk2" id="yaMucoQP3L" role="3eNLev">
+                                                <node concept="3clFbS" id="yaMucoQP3M" role="3eOfB_">
+                                                  <node concept="3clFbF" id="yaMucoQP3N" role="3cqZAp">
+                                                    <node concept="37vLTI" id="yaMucoQP3O" role="3clFbG">
+                                                      <node concept="3clFbT" id="yaMucoQP3P" role="37vLTx">
+                                                        <property role="3clFbU" value="false" />
+                                                      </node>
+                                                      <node concept="37vLTw" id="yaMucoQP3Q" role="37vLTJ">
+                                                        <ref role="3cqZAo" node="1Kh5rzHUFdk" resolve="relayToCommandContainer" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                  <node concept="3clFbF" id="yaMucoQP3R" role="3cqZAp">
+                                                    <node concept="2OqwBi" id="yaMucoQP3S" role="3clFbG">
+                                                      <node concept="37vLTw" id="yaMucoQP3T" role="2Oq$k0">
+                                                        <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                      </node>
+                                                      <node concept="liA8E" id="yaMucoQP3U" role="2OqNvi">
+                                                        <ref role="37wK5l" to="1e0c:4nH4LOEuFKE" resolve="logFrmwrkProblem" />
+                                                        <node concept="3clFbT" id="yaMucoQP3V" role="37wK5m">
+                                                          <property role="3clFbU" value="true" />
+                                                        </node>
+                                                        <node concept="Xl_RD" id="yaMucoQP3W" role="37wK5m">
+                                                          <property role="Xl_RC" value="FX8Application jdk11 bug" />
+                                                        </node>
+                                                        <node concept="Xl_RD" id="yaMucoQP3X" role="37wK5m">
+                                                          <property role="Xl_RC" value="TableViewBehaviorBase.activate" />
+                                                        </node>
+                                                        <node concept="2OqwBi" id="yaMucoQP3Y" role="37wK5m">
+                                                          <node concept="37vLTw" id="yaMucoQP3Z" role="2Oq$k0">
+                                                            <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                          </node>
+                                                          <node concept="liA8E" id="yaMucoQP40" role="2OqNvi">
+                                                            <ref role="37wK5l" to="1e0c:4n24ZlEyn1Q" resolve="fullApplicationCrtlState" />
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                  <node concept="3clFbH" id="yaMucoQP41" role="3cqZAp" />
+                                                </node>
+                                                <node concept="2OqwBi" id="yaMucoQP42" role="3eO9$A">
+                                                  <node concept="2OqwBi" id="yaMucoQP43" role="2Oq$k0">
+                                                    <node concept="AH0OO" id="yaMucoQP44" role="2Oq$k0">
+                                                      <node concept="3cmrfG" id="yaMucoQP45" role="AHEQo">
+                                                        <property role="3cmrfH" value="0" />
+                                                      </node>
+                                                      <node concept="2OqwBi" id="yaMucoQP46" role="AHHXb">
+                                                        <node concept="37vLTw" id="yaMucoQP47" role="2Oq$k0">
+                                                          <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                                        </node>
+                                                        <node concept="liA8E" id="yaMucoQP48" role="2OqNvi">
+                                                          <ref role="37wK5l" to="wyt6:~Throwable.getStackTrace()" resolve="getStackTrace" />
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                    <node concept="liA8E" id="yaMucoQP49" role="2OqNvi">
+                                                      <ref role="37wK5l" to="wyt6:~StackTraceElement.toString()" resolve="toString" />
+                                                    </node>
+                                                  </node>
+                                                  <node concept="liA8E" id="yaMucoQP4a" role="2OqNvi">
+                                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                                                    <node concept="Xl_RD" id="yaMucoQP4b" role="37wK5m">
+                                                      <property role="Xl_RC" value="TableViewBehaviorBase.activate" />
                                                     </node>
                                                   </node>
                                                 </node>

@@ -24170,32 +24170,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4Ms4M3532oG" role="3cqZAp" />
-        <node concept="3SKdUt" id="6$YiAc0AKRv" role="3cqZAp">
-          <node concept="1PaTwC" id="5HvIBdJXHGk" role="1aUNEU">
-            <node concept="3oM_SD" id="5HvIBdJXHGl" role="1PaTwD">
-              <property role="3oM_SC" value="Handling" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXHGm" role="1PaTwD">
-              <property role="3oM_SC" value="of" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXHGn" role="1PaTwD">
-              <property role="3oM_SC" value="strange," />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXHGo" role="1PaTwD">
-              <property role="3oM_SC" value="non" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXHGp" role="1PaTwD">
-              <property role="3oM_SC" value="reproduceable" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXHGq" role="1PaTwD">
-              <property role="3oM_SC" value="npe" />
-            </node>
-            <node concept="3oM_SD" id="5HvIBdJXHGr" role="1PaTwD">
-              <property role="3oM_SC" value="bug" />
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="yaMucoPv6P" role="3cqZAp" />
         <node concept="3clFbJ" id="6$YiAc0ADFC" role="3cqZAp">
           <node concept="3clFbS" id="6$YiAc0ADFE" role="3clFbx">
             <node concept="3clFbF" id="6$YiAc0AVoU" role="3cqZAp">
@@ -24218,7 +24193,7 @@
                     <node concept="3cpWs3" id="6$YiAc0B02m" role="3uHU7B">
                       <node concept="3cpWs3" id="6$YiAc0AZJ9" role="3uHU7B">
                         <node concept="Xl_RD" id="6$YiAc0AYZk" role="3uHU7B">
-                          <property role="Xl_RC" value="fg.handleChildTerminate() NPE predecessor=" />
+                          <property role="Xl_RC" value="fg.handleChildTerminate() (due to printing?) NPE predecessor=" />
                         </node>
                         <node concept="37vLTw" id="1LBGCxvZMi1" role="3uHU7w">
                           <ref role="3cqZAo" node="1LBGCxvYOOc" resolve="predecessorCommand" />
@@ -25112,6 +25087,41 @@
           </node>
         </node>
         <node concept="3clFbH" id="6X2OBnWs4SB" role="3cqZAp" />
+        <node concept="3clFbJ" id="3EJOQfNdi0w" role="3cqZAp">
+          <node concept="3clFbS" id="3EJOQfNdi0y" role="3clFbx">
+            <node concept="3clFbF" id="3EJOQfNdncM" role="3cqZAp">
+              <node concept="2OqwBi" id="3EJOQfNdncN" role="3clFbG">
+                <node concept="37vLTw" id="3EJOQfNdncO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                </node>
+                <node concept="liA8E" id="3EJOQfNdncP" role="2OqNvi">
+                  <ref role="37wK5l" node="4nH4LOErIJJ" resolve="logFrmwrkProblem" />
+                  <node concept="3clFbT" id="3EJOQfNdncQ" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                  <node concept="37vLTw" id="3EJOQfNdncR" role="37wK5m">
+                    <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
+                  </node>
+                  <node concept="Xl_RD" id="3EJOQfNdncS" role="37wK5m">
+                    <property role="Xl_RC" value="Command is null here (Bug moware11)" />
+                  </node>
+                  <node concept="2YIFZM" id="3EJOQfNdoIs" role="37wK5m">
+                    <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                    <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="3EJOQfNdoEG" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="3EJOQfNdkZG" role="3clFbw">
+            <node concept="10Nm6u" id="3EJOQfNdl0l" role="3uHU7w" />
+            <node concept="37vLTw" id="3EJOQfNdjTp" role="3uHU7B">
+              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3EJOQfNdd_U" role="3cqZAp" />
         <node concept="3clFbJ" id="5I8HAEt49jU" role="3cqZAp">
           <node concept="3clFbS" id="5I8HAEt49jV" role="3clFbx">
             <node concept="3clFbH" id="7l_2F8_uMCp" role="3cqZAp" />
@@ -37007,7 +37017,7 @@
                     <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
                   </node>
                   <node concept="Xl_RD" id="7_LnCNXPkld" role="37wK5m">
-                    <property role="Xl_RC" value="processPendingEvents() in EventCommandContainer called without any events to process." />
+                    <property role="Xl_RC" value="processPendingEvents() in EventCommandContainer called without any events to process (or lock recv. while open ui)" />
                   </node>
                   <node concept="10Nm6u" id="4nH4LOEtZD4" role="37wK5m" />
                 </node>
