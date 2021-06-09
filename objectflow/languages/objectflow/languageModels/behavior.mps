@@ -8974,7 +8974,7 @@
               <property role="3oM_SC" value="with" />
             </node>
             <node concept="3oM_SD" id="5HvIBdINHPB" role="1PaTwD">
-              <property role="3oM_SC" value="getComponentClasFqName()" />
+              <property role="3oM_SC" value="getComponentClassFqName()" />
             </node>
           </node>
         </node>
