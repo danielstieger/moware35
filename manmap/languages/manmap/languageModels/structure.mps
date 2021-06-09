@@ -29,6 +29,7 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -1021,6 +1022,7 @@
     <node concept="PrWs8" id="6TB1IkohxSY" role="PzmwI">
       <ref role="PrY4T" to="87nw:2dWzqxEBBFG" resolve="IWord" />
     </node>
+    <node concept="asaX9" id="1czi4d3aGTR" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6TB1IkohxT4">
     <property role="TrG5h" value="SqlStringPropRef" />
@@ -1036,6 +1038,7 @@
     <node concept="PrWs8" id="6TB1IkohxT5" role="PzmwI">
       <ref role="PrY4T" to="87nw:2dWzqxEBBFG" resolve="IWord" />
     </node>
+    <node concept="asaX9" id="1czi4d3aH1G" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="1Rx6rUSp3_E">
     <property role="TrG5h" value="IRepositoryField" />
