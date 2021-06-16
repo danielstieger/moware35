@@ -9,6 +9,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
+    <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -1113,8 +1114,8 @@
     <property role="34LRSv" value="isAuthenticated" />
     <property role="EcuMT" value="7784207101902368101" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="PrWs8" id="65KdKINXug6" role="PzmwI">
-      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXDvp_q" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
   </node>
   <node concept="1TIwiD" id="6K73LRuYUa9">
@@ -1247,8 +1248,8 @@
     <node concept="PrWs8" id="2qrl3a2NyQC" role="PzmwI">
       <ref role="PrY4T" to="un0u:6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
-    <node concept="PrWs8" id="2qrl3a2N$RI" role="PzmwI">
-      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXDvpBZ" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
   </node>
   <node concept="1TIwiD" id="1K7fNI_kq$B">
@@ -1582,8 +1583,8 @@
     <property role="34LRSv" value="tileInit" />
     <property role="EcuMT" value="4920377772573248079" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="PrWs8" id="4h8GofeXcEz" role="PzmwI">
-      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXDvpHb" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
   </node>
   <node concept="1TIwiD" id="3OfvFtmn_Ez">
@@ -1604,8 +1605,8 @@
       <property role="IQ2ns" value="4399874686859853317" />
       <ref role="20lvS9" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
     </node>
-    <node concept="PrWs8" id="hcdqIeJT7b" role="PzmwI">
-      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXDvpE_" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
     <node concept="PrWs8" id="3OfvFtmn_EZ" role="PzmwI">
       <ref role="PrY4T" to="un0u:6xpSWdTCm5i" resolve="ICanRunCommands" />

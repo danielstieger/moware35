@@ -214,8 +214,8 @@
       <property role="IQ2ns" value="5847590543402886022" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
     </node>
-    <node concept="PrWs8" id="6g3SR2CPcSO" role="PzmwI">
-      <ref role="PrY4T" node="2jXWHXa_nYK" resolve="IO2RTComponent" />
+    <node concept="PrWs8" id="Yd9evR5G6a" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oNxakb" resolve="L2RTComponent" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iif" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/service.png" />
@@ -484,8 +484,8 @@
     <node concept="PrWs8" id="6S08D5JpsK1" role="PzmwI">
       <ref role="PrY4T" to="tpee:hxndl_i" resolve="IMethodCall" />
     </node>
-    <node concept="PrWs8" id="6g3SR2CURDp" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    <node concept="PrWs8" id="Yd9evR5B17" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
     </node>
     <node concept="PrWs8" id="7PeCy_MurV0" role="PzmwI">
       <ref role="PrY4T" node="7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
@@ -884,8 +884,8 @@
       <property role="IQ2ns" value="354037604352607587" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="4H7K4Wq6tR$" role="PzmwI">
-      <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXD7tqW" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
     <node concept="PrWs8" id="2i1R3ftT_s2" role="PzmwI">
       <ref role="PrY4T" node="2i1R3ftT$uv" resolve="IOFXParameterized" />
@@ -1125,8 +1125,8 @@
       <property role="IQ2ns" value="594565203028725343" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="4H7K4Wq6tCR" role="PzmwI">
-      <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXDvvlx" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iid" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/ofxconcept2.png" />
@@ -1197,14 +1197,14 @@
     <node concept="PrWs8" id="6W_Qo9f2MnD" role="PzmwI">
       <ref role="PrY4T" to="r5tz:EYyuKpdQjB" resolve="IRepository" />
     </node>
-    <node concept="PrWs8" id="6g3SR2CPioI" role="PzmwI">
-      <ref role="PrY4T" node="2jXWHXa_nYK" resolve="IO2RTComponent" />
+    <node concept="PrWs8" id="Yd9evR5_Zi" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oNxakb" resolve="L2RTComponent" />
     </node>
     <node concept="PrWs8" id="qHvcCAYMxs" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iil" role="rwd14">
-      <property role="1iqoE4" value="${module}/icons/modelrepo.png" />
+      <property role="1iqoE4" value="${module}/icons/repository.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W_Qo9f2MnC">
@@ -1247,11 +1247,6 @@
     <property role="R4oN_" value="specifies a back-reference to parent entity" />
     <property role="EcuMT" value="3262649880239917894" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
-  </node>
-  <node concept="PlHQZ" id="4H7K4Wq6tCQ">
-    <property role="3GE5qa" value="OFXCore.session" />
-    <property role="TrG5h" value="IHandlesSession" />
-    <property role="EcuMT" value="5424515722163903030" />
   </node>
   <node concept="1TIwiD" id="x0kurEidQ2">
     <property role="3GE5qa" value="OFXCore.session" />
@@ -1465,8 +1460,8 @@
     <node concept="PrWs8" id="3UOln1HfD3d" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="2jXWHXa_o3e" role="PzmwI">
-      <ref role="PrY4T" node="2jXWHXa_nYK" resolve="IO2RTComponent" />
+    <node concept="PrWs8" id="Yd9evR5EIL" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oNxakb" resolve="L2RTComponent" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iiq" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/rolesnew.png" />
@@ -1484,14 +1479,6 @@
     </node>
     <node concept="1QGGSu" id="1iISEUi_iim" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/rolesnew.png" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="2jXWHXa_nYK">
-    <property role="3GE5qa" value="Permission" />
-    <property role="TrG5h" value="IO2RTComponent" />
-    <property role="EcuMT" value="2665553595316142000" />
-    <node concept="PrWs8" id="4Wj1gYCt1YO" role="PrDN$">
-      <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
   </node>
   <node concept="1TIwiD" id="4Wj1gYHiHdF">
@@ -1514,8 +1501,8 @@
       <property role="IQ2ns" value="4779674245224959520" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="49kO6rSRoLD" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    <node concept="PrWs8" id="Yd9evR5EPr" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iii" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/rolesnew.png" />
@@ -1531,14 +1518,9 @@
       <property role="IQ2ns" value="5697903518443819941" />
       <ref role="20lvS9" node="49kO6rQD4ZQ" resolve="IRole" />
     </node>
-    <node concept="PrWs8" id="4Wj1gYJvt8V" role="PrDN$">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    <node concept="PrWs8" id="Yd9evR5zZQ" role="PrDN$">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="4Wj1gYJvlKE">
-    <property role="3GE5qa" value="Permission" />
-    <property role="TrG5h" value="IO2ResultsInRTComponentCall" />
-    <property role="EcuMT" value="5697903518480686122" />
   </node>
   <node concept="1TIwiD" id="49kO6rP6mg_">
     <property role="3GE5qa" value="Permission" />
@@ -1928,8 +1910,8 @@
         </node>
       </node>
     </node>
-    <node concept="PrWs8" id="5tU8YWFOb7x" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    <node concept="PrWs8" id="Yd9evR5z81" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
     </node>
   </node>
   <node concept="PlHQZ" id="6Rdz00$u0vd">
@@ -2019,8 +2001,8 @@
     <node concept="PrWs8" id="61VVfi2ZEVD" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="PrWs8" id="2m3V4yOwXPK" role="PzmwI">
-      <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXDvviT" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
   </node>
   <node concept="1TIwiD" id="2w93nZwA5N_">
@@ -2610,8 +2592,8 @@
       <property role="IQ2ns" value="7633836622691047972" />
       <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
     </node>
-    <node concept="PrWs8" id="6BKPvpCYM3g" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    <node concept="PrWs8" id="Yd9evR5_Iw" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iis" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/ofxconcept2.png" />
@@ -2843,8 +2825,8 @@
     <node concept="PrWs8" id="3U0QWztHqz0" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="PrWs8" id="4jlzLDlW3lu" role="PzmwI">
-      <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    <node concept="PrWs8" id="vSWWXDvvgi" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
     </node>
     <node concept="1TJgyj" id="3U0QWztHoNm" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3135,8 +3117,8 @@
       <property role="IQ2ns" value="3551693089254935783" />
       <ref role="20lvS9" node="35a9wK7WMy0" resolve="Identity" />
     </node>
-    <node concept="PrWs8" id="35a9wK8brvW" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    <node concept="PrWs8" id="Yd9evR5$ux" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iit" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/rolesnew.png" />

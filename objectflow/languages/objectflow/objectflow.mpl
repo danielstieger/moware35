@@ -92,20 +92,6 @@
         <module reference="5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.objectflow.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities>
-        <mapping-priority-rule kind="strictly_together">
-          <greater-priority-mapping>
-            <generator generatorUID="6533ac7b-4d34-40f7-a1bd-37b8dd08dd50(org.modellwerkstatt.objectflow#7099872270191970661)" />
-            <external-mapping>
-              <mapping-node modelUID="r:0f3fe0d4-49eb-4050-b993-eee758a48da2(org.modellwerkstatt.objectflow.gen.repo@generator)" nodeID="*" />
-            </external-mapping>
-          </greater-priority-mapping>
-          <lesser-priority-mapping>
-            <generator generatorUID="51f51d1f-630c-4bde-a927-015e1db534ee(org.modellwerkstatt.manmap#871579071900374031)" />
-            <external-mapping>
-              <mapping-node modelUID="r:03ecb556-c3b8-4490-964e-e30f12ad09e3(org.modellwerkstatt.manmap.generator.template.main@generator)" nodeID="*" />
-            </external-mapping>
-          </lesser-priority-mapping>
-        </mapping-priority-rule>
         <mapping-priority-rule kind="strictly_after">
           <greater-priority-mapping>
             <generator generatorUID="6533ac7b-4d34-40f7-a1bd-37b8dd08dd50(org.modellwerkstatt.objectflow#7099872270191970661)" />

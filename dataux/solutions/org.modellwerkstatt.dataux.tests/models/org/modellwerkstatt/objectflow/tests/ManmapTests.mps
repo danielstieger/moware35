@@ -13632,7 +13632,7 @@
       </node>
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/migration/2019_3/moware/objectflow/testdata/sqls/" />
+      <property role="J2Nxv" value="/Users/danielstieger/migration/2020_3/moware/objectflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="2d2NRx" id="7cOyB3YiydU" role="3yTP5x">
@@ -27895,7 +27895,7 @@
             <node concept="1gVbGN" id="38$Wln9sXbg" role="3cqZAp">
               <node concept="3eOSWO" id="38$Wln9te3s" role="1gVkn0">
                 <node concept="3cmrfG" id="38$Wln9sXbi" role="3uHU7w">
-                  <property role="3cmrfH" value="190" />
+                  <property role="3cmrfH" value="170" />
                 </node>
                 <node concept="3cpWsd" id="38$Wln9UdML" role="3uHU7B">
                   <node concept="37vLTw" id="38$Wln9UdO4" role="3uHU7w">

@@ -17,6 +17,7 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
+    <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -1071,7 +1072,7 @@
                     <node concept="I4A8Y" id="3B2vGTdJfGH" role="2OqNvi" />
                   </node>
                   <node concept="3lApI0" id="3B2vGTdJfGr" role="2OqNvi">
-                    <ref role="3lApI3" to="un0u:2jXWHXa_nYK" resolve="IO2RTComponent" />
+                    <ref role="3lApI3" to="r5tz:5dYK2oNxakb" resolve="L2RTComponent" />
                   </node>
                 </node>
                 <node concept="3zZkjj" id="3B2vGTdJfGs" role="2OqNvi">
@@ -2651,8 +2652,8 @@
               <node concept="nLn13" id="3B2vGTdJfpy" role="2Oq$k0" />
               <node concept="2Xjw5R" id="3B2vGTdJfpz" role="2OqNvi">
                 <node concept="3gmYPX" id="3B2vGTdJfp$" role="1xVPHs">
-                  <node concept="3gn64h" id="3B2vGTdJfp_" role="3gmYPZ">
-                    <ref role="3gnhBz" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                  <node concept="3gn64h" id="vSWWXDvpQW" role="3gmYPZ">
+                    <ref role="3gnhBz" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
                   </node>
                   <node concept="3gn64h" id="3B2vGTdJfpA" role="3gmYPZ">
                     <ref role="3gnhBz" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
@@ -3332,8 +3333,8 @@
               <node concept="nLn13" id="3B2vGTdJfp5" role="2Oq$k0" />
               <node concept="2Xjw5R" id="3B2vGTdJfp6" role="2OqNvi">
                 <node concept="1xMEDy" id="3B2vGTdJfp7" role="1xVPHs">
-                  <node concept="chp4Y" id="3B2vGTdJfp8" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                  <node concept="chp4Y" id="vSWWXDvukk" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="3B2vGTdJfp9" role="1xVPHs" />
@@ -4188,8 +4189,8 @@
               <node concept="nLn13" id="3B2vGTdJfs0" role="2Oq$k0" />
               <node concept="2Xjw5R" id="3B2vGTdJfs1" role="2OqNvi">
                 <node concept="1xMEDy" id="3B2vGTdJfs2" role="1xVPHs">
-                  <node concept="chp4Y" id="3B2vGTdJfs3" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                  <node concept="chp4Y" id="vSWWXDvqpB" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="3B2vGTdJfs4" role="1xVPHs" />
@@ -4239,8 +4240,8 @@
               <node concept="nLn13" id="3B2vGTdJfjs" role="2Oq$k0" />
               <node concept="2Xjw5R" id="3B2vGTdJfjt" role="2OqNvi">
                 <node concept="1xMEDy" id="3B2vGTdJfju" role="1xVPHs">
-                  <node concept="chp4Y" id="3B2vGTdJfjv" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                  <node concept="chp4Y" id="vSWWXDvuHc" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="3B2vGTdJfjw" role="1xVPHs" />
@@ -4334,8 +4335,8 @@
               <node concept="nLn13" id="3B2vGTdJfmO" role="2Oq$k0" />
               <node concept="2Xjw5R" id="3B2vGTdJfmP" role="2OqNvi">
                 <node concept="1xMEDy" id="3B2vGTdJfmQ" role="1xVPHs">
-                  <node concept="chp4Y" id="3B2vGTdJfmR" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                  <node concept="chp4Y" id="vSWWXDvv2u" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="3B2vGTdJfmS" role="1xVPHs" />

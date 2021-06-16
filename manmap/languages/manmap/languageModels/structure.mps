@@ -114,7 +114,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="1QGGSu" id="5xTZIeOlRkR" role="rwd14">
-      <property role="1iqoE4" value="${module}/icons/data_table.png" />
+      <property role="1iqoE4" value="${module}/icons/persistancedesc.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="Kou8LehH1z">
@@ -440,6 +440,9 @@
   <node concept="PlHQZ" id="EYyuKpdQjB">
     <property role="TrG5h" value="IRepository" />
     <property role="EcuMT" value="774207833082651879" />
+    <node concept="PrWs8" id="5dYK2oPGHoh" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="EYyuKpeapr">
     <property role="3GE5qa" value="query" />
@@ -1373,6 +1376,24 @@
       <property role="3tVfz5" value="3972477068525647708" />
       <ref role="2wpffI" node="3sx4Hz3QNts" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="5dYK2oNxakb">
+    <property role="EcuMT" value="6016457422519182603" />
+    <property role="3GE5qa" value="L2" />
+    <property role="TrG5h" value="L2RTComponent" />
+    <node concept="PrWs8" id="vSWWXFOi5m" role="PrDN$">
+      <ref role="PrY4T" node="5dYK2oPFKmz" resolve="L2RTHasSession" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5dYK2oPFKmz">
+    <property role="EcuMT" value="6016457422555514275" />
+    <property role="3GE5qa" value="L2" />
+    <property role="TrG5h" value="L2RTHasSession" />
+  </node>
+  <node concept="PlHQZ" id="5dYK2oPFKvT">
+    <property role="EcuMT" value="6016457422555514873" />
+    <property role="3GE5qa" value="L2" />
+    <property role="TrG5h" value="L2RTComponentCall" />
   </node>
 </model>
 
