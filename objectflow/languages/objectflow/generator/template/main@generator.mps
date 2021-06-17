@@ -41,6 +41,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
+    <import index="n4mo" ref="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" implicit="true" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
   </imports>
   <registry>
@@ -2635,8 +2636,8 @@
                 <node concept="3clFbS" id="1jAcMFYhtJJ" role="2VODD2">
                   <node concept="3cpWs6" id="Yd9evRN7ZO" role="3cqZAp">
                     <node concept="2YIFZM" id="Yd9evRN7ZP" role="3cqZAk">
-                      <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                       <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
+                      <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                       <node concept="2OqwBi" id="Yd9evRN7ZQ" role="37wK5m">
                         <node concept="30H73N" id="Yd9evRN7ZR" role="2Oq$k0" />
                         <node concept="2qgKlT" id="Yd9evRN7ZS" role="2OqNvi">
@@ -2852,8 +2853,8 @@
                 <node concept="3clFbS" id="35a9wK9fOy5" role="2VODD2">
                   <node concept="3cpWs6" id="Yd9evRNhPu" role="3cqZAp">
                     <node concept="2YIFZM" id="Yd9evRNhPv" role="3cqZAk">
-                      <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                       <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
+                      <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                       <node concept="2OqwBi" id="35a9wK9fOyB" role="37wK5m">
                         <node concept="2qgKlT" id="Yd9evRNhIz" role="2OqNvi">
                           <ref role="37wK5l" to="lfe3:4Wj1gYKHbnw" resolve="getRtComponentFQName" />
@@ -4637,13 +4638,10 @@
             </node>
             <node concept="3clFbF" id="5cU7ygsV24b" role="3cqZAp">
               <node concept="2OqwBi" id="5cU7ygsV24c" role="3clFbG">
-                <node concept="2YIFZM" id="5cU7ygsV24d" role="2Oq$k0">
+                <node concept="2YIFZM" id="2A4tPUmuQZ9" role="2Oq$k0">
+                  <ref role="37wK5l" to="n4mo:oHsXc94d1q" resolve="calcL2RTRequirementsInComponent" />
                   <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                  <ref role="37wK5l" to="3ojc:oHsXc94d1q" resolve="calcO2RuntimeRequirementsInComponent" />
-                  <node concept="30H73N" id="5cU7ygsV24e" role="37wK5m" />
-                  <node concept="3clFbT" id="59p98S7X3yb" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
+                  <node concept="30H73N" id="2A4tPUmuTxz" role="37wK5m" />
                 </node>
                 <node concept="2es0OD" id="5cU7ygsV24f" role="2OqNvi">
                   <node concept="1bVj0M" id="5cU7ygsV24g" role="23t8la">
@@ -4714,8 +4712,8 @@
           <node concept="3clFbS" id="5cU7ygsV24D" role="2VODD2">
             <node concept="3clFbF" id="5cU7ygsV24E" role="3cqZAp">
               <node concept="2YIFZM" id="5cU7ygsV24F" role="3clFbG">
-                <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
+                <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <node concept="2OqwBi" id="5cU7ygsV24G" role="37wK5m">
                   <node concept="30H73N" id="5cU7ygsV24H" role="2Oq$k0" />
                   <node concept="3TrcHB" id="5cU7ygsV24I" role="2OqNvi">
@@ -12419,13 +12417,10 @@
             </node>
             <node concept="3clFbF" id="5cU7ygsSRMf" role="3cqZAp">
               <node concept="2OqwBi" id="5cU7ygsSRMg" role="3clFbG">
-                <node concept="2YIFZM" id="5cU7ygsSRMh" role="2Oq$k0">
+                <node concept="2YIFZM" id="2A4tPUmuWbC" role="2Oq$k0">
+                  <ref role="37wK5l" to="n4mo:oHsXc94d1q" resolve="calcL2RTRequirementsInComponent" />
                   <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                  <ref role="37wK5l" to="3ojc:oHsXc94d1q" resolve="calcO2RuntimeRequirementsInComponent" />
-                  <node concept="30H73N" id="5cU7ygsSRMi" role="37wK5m" />
-                  <node concept="3clFbT" id="59p98S7XoJF" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
+                  <node concept="30H73N" id="2A4tPUmuWbD" role="37wK5m" />
                 </node>
                 <node concept="2es0OD" id="5cU7ygsSRMj" role="2OqNvi">
                   <node concept="1bVj0M" id="5cU7ygsSRMk" role="23t8la">
@@ -12496,8 +12491,8 @@
           <node concept="3clFbS" id="5cU7ygsSRMH" role="2VODD2">
             <node concept="3clFbF" id="5cU7ygsSRMI" role="3cqZAp">
               <node concept="2YIFZM" id="5cU7ygsSRMJ" role="3clFbG">
-                <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
+                <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <node concept="2OqwBi" id="5cU7ygsSRMK" role="37wK5m">
                   <node concept="30H73N" id="5cU7ygsSRML" role="2Oq$k0" />
                   <node concept="3TrcHB" id="5cU7ygsSRMM" role="2OqNvi">
@@ -12528,8 +12523,8 @@
           <node concept="3clFbS" id="4vOTo2yM33P" role="2VODD2">
             <node concept="3clFbF" id="4vOTo2yM3c2" role="3cqZAp">
               <node concept="2YIFZM" id="4vOTo2yM3gp" role="3clFbG">
-                <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
+                <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <node concept="2OqwBi" id="4vOTo2yM3vJ" role="37wK5m">
                   <node concept="30H73N" id="4vOTo2yM3kf" role="2Oq$k0" />
                   <node concept="2qgKlT" id="4vOTo2yM5NM" role="2OqNvi">
@@ -13673,7 +13668,7 @@
                                       <node concept="3clFbF" id="5cU7ygq4fDW" role="3cqZAp">
                                         <node concept="2YIFZM" id="5cU7ygq4fDX" role="3clFbG">
                                           <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                                          <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
+                                          <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                                           <node concept="2OqwBi" id="5cU7ygq4fDY" role="37wK5m">
                                             <node concept="30H73N" id="5cU7ygq4fDZ" role="2Oq$k0" />
                                             <node concept="2qgKlT" id="Yd9evRN$7d" role="2OqNvi">
@@ -14436,13 +14431,10 @@
             </node>
             <node concept="3clFbF" id="5cU7ygsT5AV" role="3cqZAp">
               <node concept="2OqwBi" id="5cU7ygsT5AW" role="3clFbG">
-                <node concept="2YIFZM" id="5cU7ygsT5AX" role="2Oq$k0">
+                <node concept="2YIFZM" id="2A4tPUmv5$c" role="2Oq$k0">
+                  <ref role="37wK5l" to="n4mo:oHsXc94d1q" resolve="calcL2RTRequirementsInComponent" />
                   <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                  <ref role="37wK5l" to="3ojc:oHsXc94d1q" resolve="calcO2RuntimeRequirementsInComponent" />
-                  <node concept="30H73N" id="5cU7ygsT5AY" role="37wK5m" />
-                  <node concept="3clFbT" id="59p98S7Xl8T" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
+                  <node concept="30H73N" id="2A4tPUmv5$d" role="37wK5m" />
                 </node>
                 <node concept="2es0OD" id="5cU7ygsT5AZ" role="2OqNvi">
                   <node concept="1bVj0M" id="5cU7ygsT5B0" role="23t8la">
@@ -14513,8 +14505,8 @@
           <node concept="3clFbS" id="5cU7ygsT5Bp" role="2VODD2">
             <node concept="3clFbF" id="5cU7ygsT5Bq" role="3cqZAp">
               <node concept="2YIFZM" id="5cU7ygsT5Br" role="3clFbG">
-                <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
+                <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <node concept="2OqwBi" id="5cU7ygsT5Bs" role="37wK5m">
                   <node concept="30H73N" id="5cU7ygsT5Bt" role="2Oq$k0" />
                   <node concept="3TrcHB" id="5cU7ygsT5Bu" role="2OqNvi">
@@ -16212,13 +16204,10 @@
             </node>
             <node concept="3clFbF" id="7ECLRBgCPo4" role="3cqZAp">
               <node concept="2OqwBi" id="7ECLRBgCPo5" role="3clFbG">
-                <node concept="2YIFZM" id="7ECLRBgCPo6" role="2Oq$k0">
-                  <ref role="37wK5l" to="3ojc:oHsXc94d1q" resolve="calcO2RuntimeRequirementsInComponent" />
+                <node concept="2YIFZM" id="2A4tPUmv1W2" role="2Oq$k0">
+                  <ref role="37wK5l" to="n4mo:oHsXc94d1q" resolve="calcL2RTRequirementsInComponent" />
                   <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                  <node concept="30H73N" id="7ECLRBgCPo7" role="37wK5m" />
-                  <node concept="3clFbT" id="59p98S7Xh45" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
+                  <node concept="30H73N" id="2A4tPUmv1W3" role="37wK5m" />
                 </node>
                 <node concept="2es0OD" id="7ECLRBgCPo8" role="2OqNvi">
                   <node concept="1bVj0M" id="7ECLRBgCPo9" role="23t8la">
@@ -16290,7 +16279,7 @@
             <node concept="3clFbF" id="7ECLRBgCPoz" role="3cqZAp">
               <node concept="2YIFZM" id="7ECLRBgCPo$" role="3clFbG">
                 <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
+                <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <node concept="2OqwBi" id="7ECLRBgCPo_" role="37wK5m">
                   <node concept="30H73N" id="7ECLRBgCPoA" role="2Oq$k0" />
                   <node concept="3TrcHB" id="7ECLRBgCPoB" role="2OqNvi">
@@ -22971,7 +22960,7 @@
             <node concept="3clFbF" id="1GCNgYa0$Cb" role="3cqZAp">
               <node concept="2YIFZM" id="1GCNgYa0$Cc" role="3clFbG">
                 <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                <ref role="37wK5l" to="3ojc:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
+                <ref role="37wK5l" to="n4mo:5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
                 <node concept="2OqwBi" id="1GCNgYa0$Cd" role="37wK5m">
                   <node concept="30H73N" id="1GCNgYa0$Ce" role="2Oq$k0" />
                   <node concept="3TrcHB" id="1GCNgYa0$Cf" role="2OqNvi">
