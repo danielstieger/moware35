@@ -123,6 +123,7 @@
     <input type="hidden" name="H1HttpClient" value="{{ client.deviceSw }}"/>
     <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
     <input type="hidden" name="DebugInformation" value="-"/>
+    <input type="hidden" name="DeviceId" value=""/>
 
 {% if message is not null and message.modalWithButtons %}
     <div class="w3-top">

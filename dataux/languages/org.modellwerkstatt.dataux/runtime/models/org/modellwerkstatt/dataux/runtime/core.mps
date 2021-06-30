@@ -29689,6 +29689,11 @@
       <node concept="3Tmbuc" id="4nH4LOEEP8I" role="1B3o_S" />
       <node concept="17QB3L" id="4nH4LOEEP8J" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="5KMLUmAvwvt" role="jymVt">
+      <property role="TrG5h" value="deviceId" />
+      <node concept="3Tmbuc" id="5KMLUmAvwvu" role="1B3o_S" />
+      <node concept="17QB3L" id="5KMLUmAvwvv" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="4nH4LOEEKp8" role="jymVt" />
     <node concept="2tJIrI" id="4nH4LOEEL_q" role="jymVt" />
     <node concept="312cEg" id="6YMRHoFaypN" role="jymVt">
@@ -30019,6 +30024,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5KMLUmASOY8" role="3cqZAp">
+          <node concept="37vLTI" id="5KMLUmASOY9" role="3clFbG">
+            <node concept="2OqwBi" id="5KMLUmASOYa" role="37vLTx">
+              <node concept="37vLTw" id="5KMLUmASOYb" role="2Oq$k0">
+                <ref role="3cqZAo" node="2ppo89mgq$1" resolve="userEnv" />
+              </node>
+              <node concept="liA8E" id="5KMLUmASQlp" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:5KMLUmAvz$v" resolve="getDeviceId" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5KMLUmASPIL" role="37vLTJ">
+              <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6lA5DXSS4TZ" role="3cqZAp" />
         <node concept="3clFbF" id="4nH4LOEFaab" role="3cqZAp">
           <node concept="37vLTI" id="4nH4LOEFamC" role="3clFbG">
@@ -30073,6 +30093,30 @@
         <node concept="3clFbF" id="5CLOs0Tqs23" role="3cqZAp">
           <node concept="37vLTw" id="5CLOs0Tqs22" role="3clFbG">
             <ref role="3cqZAo" node="4nH4LOEF6ZU" resolve="deviceName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5KMLUmBMMZ5" role="jymVt">
+      <property role="TrG5h" value="getuser_deviceId" />
+      <node concept="17QB3L" id="5KMLUmBMMZ6" role="3clF45" />
+      <node concept="3Tm1VV" id="5KMLUmBMMZ7" role="1B3o_S" />
+      <node concept="3clFbS" id="5KMLUmBMMZb" role="3clF47">
+        <node concept="3clFbF" id="5KMLUmBMMZe" role="3cqZAp">
+          <node concept="37vLTw" id="5KMLUmBMW1W" role="3clFbG">
+            <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5KMLUmBMMZf" role="jymVt">
+      <property role="TrG5h" value="getuser_deviceSw" />
+      <node concept="17QB3L" id="5KMLUmBMMZg" role="3clF45" />
+      <node concept="3Tm1VV" id="5KMLUmBMMZh" role="1B3o_S" />
+      <node concept="3clFbS" id="5KMLUmBMMZl" role="3clF47">
+        <node concept="3clFbF" id="5KMLUmBMMZo" role="3cqZAp">
+          <node concept="37vLTw" id="5KMLUmBMWEE" role="3clFbG">
+            <ref role="3cqZAo" node="6lA5DXSooSq" resolve="deviceSwName" />
           </node>
         </node>
       </node>
@@ -30432,6 +30476,9 @@
               <node concept="1rXfSq" id="6lA5DXSoJyi" role="37wK5m">
                 <ref role="37wK5l" node="6lA5DXSoxxj" resolve="fullDeviceName" />
               </node>
+              <node concept="37vLTw" id="5KMLUmBg8GU" role="37wK5m">
+                <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
+              </node>
               <node concept="37vLTw" id="4X6$QoYxTSL" role="37wK5m">
                 <ref role="3cqZAo" node="1YUU7GW1osX" resolve="userId" />
               </node>
@@ -30628,6 +30675,9 @@
               <node concept="1rXfSq" id="6lA5DXSoJGQ" role="37wK5m">
                 <ref role="37wK5l" node="6lA5DXSoxxj" resolve="fullDeviceName" />
               </node>
+              <node concept="37vLTw" id="5KMLUmBg6UZ" role="37wK5m">
+                <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
+              </node>
               <node concept="37vLTw" id="4nH4LOEFwIu" role="37wK5m">
                 <ref role="3cqZAo" node="1YUU7GW1osX" resolve="userId" />
               </node>
@@ -30787,6 +30837,9 @@
               </node>
               <node concept="1rXfSq" id="6lA5DXSoK2v" role="37wK5m">
                 <ref role="37wK5l" node="6lA5DXSoxxj" resolve="fullDeviceName" />
+              </node>
+              <node concept="37vLTw" id="5KMLUmBg7Q3" role="37wK5m">
+                <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
               </node>
               <node concept="37vLTw" id="4nH4LOEFJjk" role="37wK5m">
                 <ref role="3cqZAo" node="1YUU7GW1osX" resolve="userId" />
@@ -30959,6 +31012,9 @@
               </node>
               <node concept="1rXfSq" id="6lA5DXSoKnF" role="37wK5m">
                 <ref role="37wK5l" node="6lA5DXSoxxj" resolve="fullDeviceName" />
+              </node>
+              <node concept="37vLTw" id="5KMLUmBg9zT" role="37wK5m">
+                <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
               </node>
               <node concept="37vLTw" id="4nH4LOEFJEh" role="37wK5m">
                 <ref role="3cqZAo" node="1YUU7GW1osX" resolve="userId" />
@@ -35113,6 +35169,45 @@
         <node concept="3clFbF" id="1dzqM5xv5a2" role="3cqZAp">
           <node concept="37vLTw" id="1dzqM5xv5a1" role="3clFbG">
             <ref role="3cqZAo" node="1dzqM5xv4z2" resolve="mainMenuEvalSession" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5KMLUmDCOtK" role="jymVt">
+      <property role="TrG5h" value="adjustDeviceID" />
+      <node concept="37vLTG" id="5KMLUmDD39v" role="3clF46">
+        <property role="TrG5h" value="newId" />
+        <node concept="17QB3L" id="5KMLUmDD6CM" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="5KMLUmDCOtM" role="3clF45" />
+      <node concept="3Tm1VV" id="5KMLUmDCOtN" role="1B3o_S" />
+      <node concept="3clFbS" id="5KMLUmDCOtO" role="3clF47">
+        <node concept="3clFbF" id="5KMLUmDD8K2" role="3cqZAp">
+          <node concept="2OqwBi" id="5KMLUmDD8Sr" role="3clFbG">
+            <node concept="37vLTw" id="5KMLUmDD8K1" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+            </node>
+            <node concept="liA8E" id="5KMLUmDDa2c" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:5KMLUmDBeip" resolve="adjustDeviceId" />
+              <node concept="37vLTw" id="5KMLUmDDab2" role="37wK5m">
+                <ref role="3cqZAo" node="5KMLUmDD39v" resolve="newId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5KMLUmDDb0C" role="3cqZAp">
+          <node concept="37vLTI" id="5KMLUmDDclP" role="3clFbG">
+            <node concept="2OqwBi" id="5KMLUmDDfRm" role="37vLTx">
+              <node concept="37vLTw" id="5KMLUmDDeB0" role="2Oq$k0">
+                <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+              </node>
+              <node concept="liA8E" id="5KMLUmDDgxV" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:5KMLUmAvz$v" resolve="getDeviceId" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5KMLUmDDb0A" role="37vLTJ">
+              <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
+            </node>
           </node>
         </node>
       </node>
@@ -42472,6 +42567,10 @@
         <property role="TrG5h" value="device" />
         <node concept="17QB3L" id="4nH4LOEQte1" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="5KMLUmBgjLp" role="3clF46">
+        <property role="TrG5h" value="deviceId" />
+        <node concept="17QB3L" id="5KMLUmBgl2r" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="4nH4LOEQte2" role="3clF46">
         <property role="TrG5h" value="userId" />
         <node concept="10Oyi0" id="4nH4LOEQte3" role="1tU5fm" />
@@ -42724,8 +42823,8 @@
                                 <ref role="3cqZAo" node="77tRpxxFLLS" resolve="BUSMSG_SPACE" />
                               </node>
                             </node>
-                            <node concept="Xl_RD" id="7XXWpoMYQpH" role="3uHU7w">
-                              <property role="Xl_RC" value="" />
+                            <node concept="37vLTw" id="5KMLUmBglwQ" role="3uHU7w">
+                              <ref role="3cqZAo" node="5KMLUmBgjLp" resolve="deviceId" />
                             </node>
                           </node>
                           <node concept="37vLTw" id="7XXWpoMYQwd" role="3uHU7w">
@@ -43755,6 +43854,18 @@
       <node concept="17QB3L" id="wGbog3pzbA" role="3clF45" />
       <node concept="3Tm1VV" id="wGbog3pzbB" role="1B3o_S" />
       <node concept="3clFbS" id="wGbog3pzbC" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5KMLUmBMBdn" role="jymVt">
+      <property role="TrG5h" value="getuser_deviceId" />
+      <node concept="17QB3L" id="5KMLUmBMBdo" role="3clF45" />
+      <node concept="3Tm1VV" id="5KMLUmBMBdp" role="1B3o_S" />
+      <node concept="3clFbS" id="5KMLUmBMBdq" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5KMLUmBMGK0" role="jymVt">
+      <property role="TrG5h" value="getuser_deviceSw" />
+      <node concept="17QB3L" id="5KMLUmBMGK1" role="3clF45" />
+      <node concept="3Tm1VV" id="5KMLUmBMGK2" role="1B3o_S" />
+      <node concept="3clFbS" id="5KMLUmBMGK3" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6TYnK1btYlo" role="jymVt">
       <property role="TrG5h" value="getuser_connectionInfo" />

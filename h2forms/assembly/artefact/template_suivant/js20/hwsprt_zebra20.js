@@ -102,6 +102,13 @@ function hwInitAfterDomReady(){
     };
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
 
+    try {
+        var f = $('form');
+        f.DeviceId.value = EB.System.deviceSerialNumber;
+
+    } catch(err) {
+        svLog('hwInitAfterDomReady', 'Not able to get Device ID ' + err);
+    }
 
 
     /*var capturekeyCallback = function (params){

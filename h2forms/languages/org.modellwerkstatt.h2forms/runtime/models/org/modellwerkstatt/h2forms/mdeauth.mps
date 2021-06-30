@@ -32,7 +32,7 @@
       </concept>
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
       </concept>
@@ -186,10 +186,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -443,7 +443,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="ltdRgVMjzv" role="jymVt" />
-    <node concept="2tJIrI" id="ltdRgVMkAL" role="jymVt" />
     <node concept="2YIFZL" id="7WBKY1WhWkJ" role="jymVt">
       <property role="TrG5h" value="detectAndSetClient" />
       <property role="DiZV1" value="false" />
@@ -847,7 +846,62 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4p4tCe_bjEy" role="3cqZAp" />
+        <node concept="3clFbH" id="5KMLUmDBgcd" role="3cqZAp" />
+        <node concept="3SKdUt" id="5KMLUmDBh2X" role="3cqZAp">
+          <node concept="1PaTwC" id="5KMLUmDBh2Y" role="1aUNEU">
+            <node concept="3oM_SD" id="5KMLUmDBh2Z" role="1PaTwD">
+              <property role="3oM_SC" value="typicall," />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBheY" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBhf9" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBhfd" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBhfq" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBhge" role="1PaTwD">
+              <property role="3oM_SC" value="POST," />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBhgt" role="1PaTwD">
+              <property role="3oM_SC" value="DeviceId" />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBhgP" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="5KMLUmDBhgY" role="1PaTwD">
+              <property role="3oM_SC" value="present" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5KMLUmAS_e8" role="3cqZAp">
+          <node concept="37vLTI" id="5KMLUmASA7k" role="3clFbG">
+            <node concept="2OqwBi" id="5KMLUmAS_OW" role="37vLTJ">
+              <node concept="37vLTw" id="5KMLUmAS_e6" role="2Oq$k0">
+                <ref role="3cqZAo" node="7WBKY1WhUa0" resolve="client" />
+              </node>
+              <node concept="2S8uIT" id="5KMLUmAS_XQ" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:5KMLUmASjtx" resolve="deviceId" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6YMRHoFajUH" role="37vLTx">
+              <node concept="37vLTw" id="5KMLUmASAh9" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
+              </node>
+              <node concept="liA8E" id="6YMRHoFak8s" role="2OqNvi">
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
+                <node concept="Xl_RD" id="6YMRHoFakbo" role="37wK5m">
+                  <property role="Xl_RC" value="DeviceId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5KMLUmDBgoJ" role="3cqZAp" />
         <node concept="3clFbF" id="7WBKY1WhU$Q" role="3cqZAp">
           <node concept="37vLTI" id="7WBKY1WhV34" role="3clFbG">
             <node concept="37vLTw" id="7WBKY1WhVcn" role="37vLTx">
@@ -986,9 +1040,19 @@
                   </node>
                 </node>
               </node>
+              <node concept="2OqwBi" id="5KMLUmDDVCC" role="37wK5m">
+                <node concept="37vLTw" id="5KMLUmDDVq1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1wwgtxzgBSI" resolve="client" />
+                </node>
+                <node concept="2S8uIT" id="5KMLUmDDVWr" role="2OqNvi">
+                  <ref role="2S8YL0" to="tea8:5KMLUmASjtx" resolve="deviceId" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5KMLUmASA_N" role="3cqZAp" />
+        <node concept="3clFbH" id="5KMLUmASAlV" role="3cqZAp" />
         <node concept="3clFbH" id="6lA5DXSRM0o" role="3cqZAp" />
         <node concept="3cpWs8" id="2f$GH$eemXJ" role="3cqZAp">
           <node concept="3cpWsn" id="2f$GH$eemXK" role="3cpWs9">
@@ -1811,6 +1875,14 @@
                   <node concept="2S8uIT" id="6lA5DXSRNG3" role="2OqNvi">
                     <ref role="2S8YL0" to="tea8:7WBKY1WeOyz" resolve="deviceSw" />
                   </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5KMLUmDDUd6" role="37wK5m">
+                <node concept="37vLTw" id="5KMLUmDDU8O" role="2Oq$k0">
+                  <ref role="3cqZAo" node="57ov2S_z6R" resolve="client" />
+                </node>
+                <node concept="2S8uIT" id="5KMLUmDDUvd" role="2OqNvi">
+                  <ref role="2S8YL0" to="tea8:5KMLUmASjtx" resolve="deviceId" />
                 </node>
               </node>
             </node>

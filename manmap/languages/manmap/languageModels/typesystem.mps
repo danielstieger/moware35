@@ -296,10 +296,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -3959,6 +3959,36 @@
       </node>
     </node>
     <node concept="1YaCAy" id="5Wi2c3mo1Dr" role="1YuTPh">
+      <property role="TrG5h" value="additionalTableReference" />
+      <ref role="1YaFvo" to="r5tz:5Wi2c3ml7kW" resolve="AdditionalTableReference" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="5KMLUmC7C9U">
+    <property role="TrG5h" value="typeof_AdditionalTableReference" />
+    <property role="3GE5qa" value="query" />
+    <node concept="3clFbS" id="5KMLUmC7C9V" role="18ibNy">
+      <node concept="1Z5TYs" id="5KMLUmC7CGx" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="5KMLUmC7CGT" role="1ZfhKB">
+          <node concept="2c44tf" id="5KMLUmC7CGP" role="mwGJk">
+            <node concept="10P_77" id="5KMLUmC7CHf" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="5KMLUmC7CG$" role="1ZfhK$">
+          <node concept="1Z2H0r" id="5KMLUmC7Ca1" role="mwGJk">
+            <node concept="2OqwBi" id="5KMLUmC7Ck$" role="1Z2MuG">
+              <node concept="1YBJjd" id="5KMLUmC7CbP" role="2Oq$k0">
+                <ref role="1YBMHb" node="5KMLUmC7C9X" resolve="additionalTableReference" />
+              </node>
+              <node concept="3TrEf2" id="5KMLUmC7Cwu" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:5KMLUmC7C2A" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5KMLUmC7C9X" role="1YuTPh">
       <property role="TrG5h" value="additionalTableReference" />
       <ref role="1YaFvo" to="r5tz:5Wi2c3ml7kW" resolve="AdditionalTableReference" />
     </node>

@@ -1238,10 +1238,17 @@
   <node concept="1TIwiD" id="5Wi2c3ml7kW">
     <property role="3GE5qa" value="query" />
     <property role="TrG5h" value="AdditionalTableReference" />
-    <property role="34LRSv" value="ON" />
+    <property role="34LRSv" value="WHEN" />
     <property role="R4oN_" value="alternative access / table name" />
     <property role="EcuMT" value="6850547607506548028" />
     <ref role="1TJDcQ" node="hm5BQDIYNw" resolve="SaveOption" />
+    <node concept="1TJgyj" id="5KMLUmC7C2A" role="1TKVEi">
+      <property role="IQ2ns" value="6643591914629005478" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="5Wi2c3ml7pg" role="1TKVEi">
       <property role="20kJfa" value="alternativeAccess" />
       <property role="20lbJX" value="fLJekj4/_1" />
