@@ -933,31 +933,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5cOCID51cdb" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51cdc" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51cd4" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51cd5" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="5cOCID51cd6" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51cd7" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="5cOCID51cd8" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51cd9" role="2Ry0An">
-                        <property role="2Ry0Am" value="zoo" />
-                        <node concept="2Ry0Ak" id="5cOCID51cda" role="2Ry0An">
-                          <property role="2Ry0Am" value="zookeeper-3.4.5.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="5cOCID51cdj" role="3bR37C">
           <node concept="1BurEX" id="5cOCID51cdk" role="1SiIV1">
             <node concept="398BVA" id="5cOCID51cdd" role="1BurEY">

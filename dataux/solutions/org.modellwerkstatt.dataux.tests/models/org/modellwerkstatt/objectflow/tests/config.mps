@@ -278,12 +278,6 @@
         <ref role="2CJ4_N" node="4LC0Y0L2pbw" resolve="UserRelatedStuff" />
       </node>
       <node concept="2CPvp3" id="7agSOE7Kjvn" role="2CJdiS" />
-      <node concept="2CJf3v" id="7agSOE7Kjvo" role="2CJdiS">
-        <property role="TrG5h" value="lockService" />
-        <node concept="Xl_RD" id="7agSOE7Kjvp" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeLockService" />
-        </node>
-      </node>
       <node concept="2CJf3v" id="7agSOE7Kjvq" role="2CJdiS">
         <property role="TrG5h" value="printFactory" />
         <node concept="Xl_RD" id="7agSOE7Kjvr" role="2CJf0U">
