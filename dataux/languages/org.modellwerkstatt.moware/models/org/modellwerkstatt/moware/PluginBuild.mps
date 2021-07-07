@@ -1177,6 +1177,31 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5j5DccCr1gl" role="3bR37C">
+          <node concept="1BurEX" id="5j5DccCr1gm" role="1SiIV1">
+            <node concept="398BVA" id="5j5DccCr1ge" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="5j5DccCr1gf" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="5j5DccCr1gg" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="5j5DccCr1gh" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="5j5DccCr1gi" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="5j5DccCr1gj" role="2Ry0An">
+                        <property role="2Ry0Am" value="basis" />
+                        <node concept="2Ry0Ak" id="5j5DccCr1gk" role="2Ry0An">
+                          <property role="2Ry0Am" value="jackson-core-2.12.3.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1JLTjCmZpP8" role="2G$12L">
         <property role="BnDLt" value="true" />

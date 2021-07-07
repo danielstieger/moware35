@@ -22,6 +22,7 @@
       <sourceRoot location="richclient/smtp.jar" />
       <sourceRoot location="basis/mo-javaxbus-1.0.jar" />
       <sourceRoot location="servletclient/servlet-api.jar" />
+      <sourceRoot location="basis/jackson-core-2.12.3.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -51,6 +52,7 @@
     <stubModelEntry path="${module}/jars/printing21/xmlgraphics-commons-2.6.jar" />
     <stubModelEntry path="${module}/jars/printing21/avalon-framework-api-4.3.1.jar" />
     <stubModelEntry path="${module}/jars/printing21/avalon-framework-impl-4.3.1.jar" />
+    <stubModelEntry path="${module}/jars/basis/jackson-core-2.12.3.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
