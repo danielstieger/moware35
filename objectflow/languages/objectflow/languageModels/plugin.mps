@@ -8034,6 +8034,24 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5j5DccBSgFL" role="3cqZAp">
+          <node concept="2OqwBi" id="5j5DccBSiwP" role="3clFbG">
+            <node concept="2OqwBi" id="5j5DccBShe3" role="2Oq$k0">
+              <node concept="37vLTw" id="5j5DccBSgFJ" role="2Oq$k0">
+                <ref role="3cqZAo" node="7HXmtz0DMm$" resolve="dialog" />
+              </node>
+              <node concept="2OwXpG" id="5j5DccBShEG" role="2OqNvi">
+                <ref role="2Oxat5" node="7yJ7v78h7e3" resolve="myText" />
+              </node>
+            </node>
+            <node concept="liA8E" id="5j5DccBSjFL" role="2OqNvi">
+              <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String)" resolve="setText" />
+              <node concept="Xl_RD" id="5j5DccBSjGL" role="37wK5m">
+                <property role="Xl_RC" value="{\n    \&quot;id\&quot;: 1,\n    \&quot;itemName\&quot;: \&quot;theItem\&quot;,\n    \&quot;owner\&quot;: {\n        \&quot;id\&quot;: 2,\n        \&quot;name\&quot;: \&quot;theUser\&quot;\n    }\n}" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7HXmtz0DMmG" role="3cqZAp">
           <node concept="2OqwBi" id="7HXmtz0DMmH" role="3clFbG">
             <node concept="37vLTw" id="7HXmtz0DMmI" role="2Oq$k0">
