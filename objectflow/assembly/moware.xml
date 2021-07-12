@@ -73,7 +73,6 @@
 			
 			<fileset dir="${mowarePluginHomeDir}/jars/basis/" 		includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/printing21" 	includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/zoo" 			includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/richclient" 	includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/" 			includes="slf4j-log4j12-1.6.1.jar" />
 			
