@@ -8471,6 +8471,13 @@
         <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
       </node>
     </node>
+    <node concept="312cEg" id="4fv2V_fMMd5" role="jymVt">
+      <property role="TrG5h" value="autoOptimize" />
+      <node concept="3Tm1VV" id="4fv2V_fMMd6" role="1B3o_S" />
+      <node concept="3uibUv" id="4fv2V_fMQp5" role="1tU5fm">
+        <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7yJ7v78hScY" role="jymVt" />
     <node concept="312cEg" id="7yJ7v78h7e6" role="jymVt">
       <property role="TrG5h" value="isOkayButton" />
@@ -8887,7 +8894,7 @@
                   <node concept="1pGfFk" id="4X6$QoZaufg" role="2ShVmc">
                     <ref role="37wK5l" to="z60i:~GridLayout.&lt;init&gt;(int,int)" resolve="GridLayout" />
                     <node concept="3cmrfG" id="4X6$QoZb5Uj" role="37wK5m">
-                      <property role="3cmrfH" value="3" />
+                      <property role="3cmrfH" value="4" />
                     </node>
                     <node concept="3cmrfG" id="4X6$QoZaufi" role="37wK5m">
                       <property role="3cmrfH" value="2" />
@@ -9040,6 +9047,64 @@
           </node>
         </node>
         <node concept="3clFbH" id="7yJ7v78hDHR" role="3cqZAp" />
+        <node concept="3clFbF" id="4fv2V_fMT2Q" role="3cqZAp">
+          <node concept="2OqwBi" id="4fv2V_fMT2R" role="3clFbG">
+            <node concept="37vLTw" id="4fv2V_fMT2S" role="2Oq$k0">
+              <ref role="3cqZAo" node="4X6$QoZaufb" resolve="optionsPanel" />
+            </node>
+            <node concept="liA8E" id="4fv2V_fMT2T" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+              <node concept="2ShNRf" id="4fv2V_fMT2U" role="37wK5m">
+                <node concept="1pGfFk" id="4fv2V_fMT2V" role="2ShVmc">
+                  <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+                  <node concept="Xl_RD" id="4fv2V_fMT2W" role="37wK5m">
+                    <property role="Xl_RC" value="AutoOptimize (maximize objects)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4fv2V_fMT2X" role="3cqZAp">
+          <node concept="37vLTI" id="4fv2V_fMT2Y" role="3clFbG">
+            <node concept="2ShNRf" id="4fv2V_fMWio" role="37vLTx">
+              <node concept="1pGfFk" id="4fv2V_fNkls" role="2ShVmc">
+                <ref role="37wK5l" to="dxuu:~JCheckBox.&lt;init&gt;()" resolve="JCheckBox" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4fv2V_fMW22" role="37vLTJ">
+              <ref role="3cqZAo" node="4fv2V_fMMd5" resolve="autoOptimize" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4fv2V_fNlOn" role="3cqZAp">
+          <node concept="2OqwBi" id="4fv2V_fNnzS" role="3clFbG">
+            <node concept="37vLTw" id="4fv2V_fNlOl" role="2Oq$k0">
+              <ref role="3cqZAo" node="4fv2V_fMMd5" resolve="autoOptimize" />
+            </node>
+            <node concept="liA8E" id="4fv2V_fNvIq" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.setSelected(boolean)" resolve="setSelected" />
+              <node concept="3clFbT" id="4fv2V_fNvOC" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4fv2V_fMT33" role="3cqZAp">
+          <node concept="2OqwBi" id="4fv2V_fMT34" role="3clFbG">
+            <node concept="37vLTw" id="4fv2V_fMT35" role="2Oq$k0">
+              <ref role="3cqZAo" node="4X6$QoZaufb" resolve="optionsPanel" />
+            </node>
+            <node concept="liA8E" id="4fv2V_fMT36" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+              <node concept="37vLTw" id="4fv2V_fNk_c" role="37wK5m">
+                <ref role="3cqZAo" node="4fv2V_fMMd5" resolve="autoOptimize" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4fv2V_fMRij" role="3cqZAp" />
+        <node concept="3clFbH" id="4fv2V_fMSEn" role="3cqZAp" />
         <node concept="3clFbF" id="7yJ7v78hJpu" role="3cqZAp">
           <node concept="2OqwBi" id="7yJ7v78hKhx" role="3clFbG">
             <node concept="37vLTw" id="7yJ7v78hJps" role="2Oq$k0">
