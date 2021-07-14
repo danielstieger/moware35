@@ -7,11 +7,11 @@
   </languages>
   <imports>
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
+    <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
-    <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -157,52 +157,6 @@
               <node concept="2Sf5sV" id="3_3eNg0PcYY" role="2Oq$k0" />
               <node concept="3TrcHB" id="3_3eNg0PcZ7" role="2OqNvi">
                 <ref role="3TsBF5" to="r5tz:36k2UwstchH" resolve="readOnly" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="6TB1IkoDh9Z">
-    <property role="TrG5h" value="PrintSqlToStdOut" />
-    <property role="2ZfUl0" value="true" />
-    <property role="3GE5qa" value="customsql" />
-    <ref role="2ZfgGC" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
-    <node concept="2S6ZIM" id="6TB1IkoDha0" role="2ZfVej">
-      <node concept="3clFbS" id="6TB1IkoDha1" role="2VODD2">
-        <node concept="3clFbF" id="6TB1IkoDhmo" role="3cqZAp">
-          <node concept="Xl_RD" id="6TB1IkoDhmn" role="3clFbG">
-            <property role="Xl_RC" value="Print SQL to Stdout" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="6TB1IkoDha2" role="2ZfgGD">
-      <node concept="3clFbS" id="6TB1IkoDha3" role="2VODD2">
-        <node concept="3clFbF" id="6TB1IkoDiuA" role="3cqZAp">
-          <node concept="2OqwBi" id="6TB1IkoDiuy" role="3clFbG">
-            <node concept="10M0yZ" id="6TB1IkoDiuz" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="6TB1IkoDiu$" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="6TB1IkoDkgE" role="37wK5m">
-                <node concept="Xl_RD" id="6TB1IkoDkgY" role="3uHU7w">
-                  <property role="Xl_RC" value="\n" />
-                </node>
-                <node concept="3cpWs3" id="6TB1IkoDiDf" role="3uHU7B">
-                  <node concept="Xl_RD" id="6TB1IkoDiu_" role="3uHU7B">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="2OqwBi" id="6TB1IkoDiJH" role="3uHU7w">
-                    <node concept="2Sf5sV" id="6TB1IkoDiEP" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="6TB1IkoDk3A" role="2OqNvi">
-                      <ref role="37wK5l" to="lfe3:6TB1IkoDjkO" resolve="printSql" />
-                    </node>
-                  </node>
-                </node>
               </node>
             </node>
           </node>

@@ -29,7 +29,6 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -1007,41 +1006,6 @@
       <property role="IQ2ns" value="7955334847797796239" />
       <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
     </node>
-    <node concept="PrWs8" id="6TB1IkoA2ji" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6TB1IkohxSX">
-    <property role="TrG5h" value="SqlStringEntityRef" />
-    <property role="3GE5qa" value="customsql" />
-    <property role="EcuMT" value="7955334847797796413" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6TB1IkohEg$" role="1TKVEi">
-      <property role="20kJfa" value="entityMapping" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="7955334847797830692" />
-      <ref role="20lvS9" node="Kou8LehH1E" resolve="EntityMapping" />
-    </node>
-    <node concept="PrWs8" id="6TB1IkohxSY" role="PzmwI">
-      <ref role="PrY4T" to="87nw:2dWzqxEBBFG" resolve="IWord" />
-    </node>
-    <node concept="asaX9" id="1czi4d3aGTR" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="6TB1IkohxT4">
-    <property role="TrG5h" value="SqlStringPropRef" />
-    <property role="3GE5qa" value="customsql" />
-    <property role="EcuMT" value="7955334847797796420" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6TB1IkohGwJ" role="1TKVEi">
-      <property role="20kJfa" value="fieldMapping" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="7955334847797839919" />
-      <ref role="20lvS9" node="Kou8LehH1z" resolve="FieldMapping" />
-    </node>
-    <node concept="PrWs8" id="6TB1IkohxT5" role="PzmwI">
-      <ref role="PrY4T" to="87nw:2dWzqxEBBFG" resolve="IWord" />
-    </node>
-    <node concept="asaX9" id="1czi4d3aH1G" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="1Rx6rUSp3_E">
     <property role="TrG5h" value="IRepositoryField" />

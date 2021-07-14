@@ -11,7 +11,6 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -556,20 +555,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="_XfAh" id="2A4tPUlRY3B" role="_YvDr">
-      <property role="_XH9r" value="DEPRECATED!! Usage of SqlStringPropRef in Probject" />
-      <ref role="_XDHR" to="r5tz:6TB1IkohxT4" resolve="SqlStringPropRef" />
-      <node concept="_ZGcI" id="2A4tPUlRY3D" role="_XPhp">
-        <node concept="3clFbS" id="2A4tPUlRY3F" role="2VODD2" />
-      </node>
-    </node>
-    <node concept="_XfAh" id="2A4tPUlRZ1x" role="_YvDr">
-      <property role="_XH9r" value="DEPRECATED!! Usage of SqlStringEntityRef in Probject" />
-      <ref role="_XDHR" to="r5tz:6TB1IkohxSX" resolve="SqlStringEntityRef" />
-      <node concept="_ZGcI" id="2A4tPUlRZ1y" role="_XPhp">
-        <node concept="3clFbS" id="2A4tPUlRZ1z" role="2VODD2" />
       </node>
     </node>
     <node concept="1opIMY" id="6BWozUSffU0" role="_YvDr" />

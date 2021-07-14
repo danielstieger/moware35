@@ -800,7 +800,7 @@
   </node>
   <node concept="3HP615" id="5j5DccBU75X">
     <property role="TrG5h" value="ConvDeserializer" />
-    <property role="3GE5qa" value="internal" />
+    <property role="3GE5qa" value="internal.deprecated" />
     <node concept="2tJIrI" id="5j5DccBU76B" role="jymVt" />
     <node concept="3clFb_" id="276_WB8ZHV0" role="jymVt">
       <property role="TrG5h" value="init" />
@@ -871,6 +871,9 @@
     <node concept="2tJIrI" id="5j5DccBU76G" role="jymVt" />
     <node concept="2tJIrI" id="2G8k9pWyv5E" role="jymVt" />
     <node concept="3Tm1VV" id="5j5DccBU75Y" role="1B3o_S" />
+    <node concept="2AHcQZ" id="3t1W4GCaIL6" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="312cEu" id="5j5DccBU7hI">
     <property role="TrG5h" value="PrintDes" />
@@ -1087,7 +1090,7 @@
     <node concept="2tJIrI" id="2G8k9pWyBEg" role="jymVt" />
   </node>
   <node concept="312cEu" id="5j5DccBU9ZG">
-    <property role="3GE5qa" value="internal" />
+    <property role="3GE5qa" value="internal.deprecated" />
     <property role="TrG5h" value="ConvJacksonParser" />
     <node concept="Wx3nA" id="5j5DccBUcIt" role="jymVt">
       <property role="TrG5h" value="ROOT" />
@@ -1974,9 +1977,12 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5j5DccBU9ZH" role="1B3o_S" />
+    <node concept="2AHcQZ" id="3t1W4GCaFj1" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="312cEu" id="2G8k9pWNg$S">
-    <property role="3GE5qa" value="internal.obj" />
+    <property role="3GE5qa" value="internal.representation" />
     <property role="TrG5h" value="CObject" />
     <node concept="312cEg" id="2G8k9pWPQaZ" role="jymVt">
       <property role="TrG5h" value="parent" />
@@ -2095,7 +2101,7 @@
     </node>
   </node>
   <node concept="312cEu" id="2G8k9pWNg_6">
-    <property role="3GE5qa" value="internal.obj" />
+    <property role="3GE5qa" value="internal.representation" />
     <property role="TrG5h" value="CField" />
     <node concept="312cEg" id="2G8k9pWNizU" role="jymVt">
       <property role="TrG5h" value="value" />
@@ -2210,7 +2216,7 @@
     </node>
   </node>
   <node concept="312cEu" id="2G8k9pWNg_i">
-    <property role="3GE5qa" value="internal.obj" />
+    <property role="3GE5qa" value="internal.representation" />
     <property role="TrG5h" value="CList" />
     <node concept="312cEg" id="2G8k9pWNi_1" role="jymVt">
       <property role="TrG5h" value="objects" />
@@ -2276,7 +2282,7 @@
     </node>
   </node>
   <node concept="312cEu" id="2G8k9pWNgAi">
-    <property role="3GE5qa" value="internal.obj" />
+    <property role="3GE5qa" value="internal.representation" />
     <property role="TrG5h" value="CElement" />
     <node concept="312cEg" id="2G8k9pWNiyf" role="jymVt">
       <property role="TrG5h" value="name" />
@@ -3958,6 +3964,15 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="2G8k9pWNiLo" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="3t1W4GCaIVn">
+    <property role="TrG5h" value="ObjReflector" />
+    <node concept="2tJIrI" id="3t1W4GCaJ3S" role="jymVt" />
+    <node concept="2tJIrI" id="3t1W4GCaJ3U" role="jymVt" />
+    <node concept="2tJIrI" id="3t1W4GCaJ5e" role="jymVt" />
+    <node concept="2tJIrI" id="3t1W4GCaJ4s" role="jymVt" />
+    <node concept="2tJIrI" id="3t1W4GCaJ4w" role="jymVt" />
+    <node concept="3Tm1VV" id="3t1W4GCaIVo" role="1B3o_S" />
   </node>
 </model>
 
