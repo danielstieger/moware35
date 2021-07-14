@@ -299,9 +299,6 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
@@ -11151,9 +11148,9 @@
         <node concept="17QB3L" id="7PEc_DJU6MH" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="7PEc_DJU8jZ" role="3clF46">
-        <property role="TrG5h" value="cls" />
-        <node concept="3uibUv" id="7PEc_DJUayI" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        <property role="TrG5h" value="t" />
+        <node concept="3uibUv" id="3t1W4GCoEd9" role="1tU5fm">
+          <ref role="3uigEE" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
         </node>
       </node>
       <node concept="17QB3L" id="7PEc_DJUORW" role="3clF45" />
@@ -11161,9 +11158,12 @@
       <node concept="3clFbS" id="7PEc_DJTZ00" role="3clF47">
         <node concept="3clFbJ" id="7PEc_DJUbba" role="3cqZAp">
           <node concept="3clFbC" id="7PEc_DJUc5k" role="3clFbw">
-            <node concept="10Nm6u" id="7PEc_DJUcib" role="3uHU7w" />
             <node concept="37vLTw" id="7PEc_DJUboe" role="3uHU7B">
-              <ref role="3cqZAo" node="7PEc_DJU8jZ" resolve="cls" />
+              <ref role="3cqZAo" node="7PEc_DJU8jZ" resolve="t" />
+            </node>
+            <node concept="Rm8GO" id="3t1W4GCoF5f" role="3uHU7w">
+              <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
+              <ref role="Rm8GQ" to="18b:3t1W4GCaU_c" resolve="NULL" />
             </node>
           </node>
           <node concept="3clFbS" id="7PEc_DJUbbc" role="3clFbx">
@@ -11193,11 +11193,12 @@
             </node>
           </node>
           <node concept="3clFbC" id="7PEc_DJUr3U" role="3clFbw">
-            <node concept="3VsKOn" id="7PEc_DJUs1M" role="3uHU7w">
-              <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
-            </node>
             <node concept="37vLTw" id="7PEc_DJUqmO" role="3uHU7B">
-              <ref role="3cqZAo" node="7PEc_DJU8jZ" resolve="cls" />
+              <ref role="3cqZAo" node="7PEc_DJU8jZ" resolve="t" />
+            </node>
+            <node concept="Rm8GO" id="3t1W4GCoH3f" role="3uHU7w">
+              <ref role="Rm8GQ" to="18b:3t1W4GCaZ26" resolve="OBJECT" />
+              <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
             </node>
           </node>
         </node>
@@ -11225,9 +11226,9 @@
         <node concept="17QB3L" id="6pHVb7yNDol" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="6pHVb7yNDom" role="3clF46">
-        <property role="TrG5h" value="cls" />
-        <node concept="3uibUv" id="6pHVb7yNDon" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="3t1W4GCotSz" role="1tU5fm">
+          <ref role="3uigEE" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
         </node>
       </node>
       <node concept="3cqZAl" id="6pHVb7yNDoo" role="3clF45" />
@@ -11242,7 +11243,7 @@
                 <ref role="3cqZAo" node="6pHVb7yNDoi" resolve="name" />
               </node>
               <node concept="37vLTw" id="7PEc_DJV0UI" role="37wK5m">
-                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
               </node>
             </node>
             <node concept="37vLTw" id="7PEc_DJUUM_" role="37vLTJ">
@@ -11280,11 +11281,12 @@
               <node concept="3clFbH" id="7PEc_DJ$hxD" role="3cqZAp" />
             </node>
             <node concept="3clFbC" id="6pHVb7yNDoT" role="3eO9$A">
-              <node concept="3VsKOn" id="6pHVb7yNDoU" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~Integer" resolve="Integer" />
-              </node>
               <node concept="37vLTw" id="6pHVb7yNDoV" role="3uHU7B">
-                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoyz1" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCaYME" resolve="INT" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
           </node>
@@ -11316,18 +11318,22 @@
             <node concept="3clFbH" id="7PEc_DJPJRZ" role="3cqZAp" />
           </node>
           <node concept="3clFbC" id="6pHVb7yNDpm" role="3clFbw">
-            <node concept="10Nm6u" id="6pHVb7yNDpn" role="3uHU7w" />
+            <node concept="Rm8GO" id="3t1W4GCowHL" role="3uHU7w">
+              <ref role="Rm8GQ" to="18b:3t1W4GCaU_c" resolve="NULL" />
+              <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
+            </node>
             <node concept="37vLTw" id="6pHVb7yNDpo" role="3uHU7B">
-              <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+              <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
             </node>
           </node>
           <node concept="3eNFk2" id="6pHVb7yNDpp" role="3eNLev">
             <node concept="3clFbC" id="6pHVb7yNDpq" role="3eO9$A">
-              <node concept="3VsKOn" id="6pHVb7yNDpr" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~String" resolve="String" />
-              </node>
               <node concept="37vLTw" id="6pHVb7yNDps" role="3uHU7B">
-                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCo$Ir" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCb2Za" resolve="STRING" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="6pHVb7yNDpt" role="3eOfB_">
@@ -11675,11 +11681,12 @@
           </node>
           <node concept="3eNFk2" id="6pHVb7yNDsw" role="3eNLev">
             <node concept="3clFbC" id="6pHVb7yNDsx" role="3eO9$A">
-              <node concept="3VsKOn" id="6pHVb7yNDsy" role="3uHU7w">
-                <ref role="3VsUkX" to="xlxw:~BigDecimal" resolve="BigDecimal" />
-              </node>
               <node concept="37vLTw" id="6pHVb7yNDsz" role="3uHU7B">
-                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCo_u5" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCaUCW" resolve="BIGDECIMAL" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="6pHVb7yNDs$" role="3eOfB_">
@@ -11715,11 +11722,12 @@
           </node>
           <node concept="3eNFk2" id="6pHVb7yNDt0" role="3eNLev">
             <node concept="3clFbC" id="6pHVb7yNDt1" role="3eO9$A">
-              <node concept="3VsKOn" id="6pHVb7yNDt2" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~Boolean" resolve="Boolean" />
-              </node>
               <node concept="37vLTw" id="6pHVb7yNDt3" role="3uHU7B">
-                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoAf4" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCb3fi" resolve="BOOLEAN" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="6pHVb7yNDt4" role="3eOfB_">
@@ -11775,11 +11783,12 @@
           </node>
           <node concept="3eNFk2" id="6pHVb7yNDu8" role="3eNLev">
             <node concept="3clFbC" id="6pHVb7yNDu9" role="3eO9$A">
-              <node concept="3VsKOn" id="6pHVb7yNDua" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
-              </node>
               <node concept="37vLTw" id="6pHVb7yNDub" role="3uHU7B">
-                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+                <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoCkl" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCaZ26" resolve="OBJECT" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="6pHVb7yNDuc" role="3eOfB_">
@@ -11825,7 +11834,7 @@
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                     <node concept="3cpWs3" id="6pHVb7yNDuI" role="37wK5m">
                       <node concept="37vLTw" id="6pHVb7yNDuJ" role="3uHU7w">
-                        <ref role="3cqZAo" node="6pHVb7yNDom" resolve="cls" />
+                        <ref role="3cqZAo" node="6pHVb7yNDom" resolve="type" />
                       </node>
                       <node concept="Xl_RD" id="6pHVb7yNDuK" role="3uHU7B">
                         <property role="Xl_RC" value="Unknown field type " />
@@ -11863,8 +11872,8 @@
       </node>
       <node concept="37vLTG" id="7PEc_DJQ2AK" role="3clF46">
         <property role="TrG5h" value="cls" />
-        <node concept="3uibUv" id="7PEc_DJQ2AL" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        <node concept="3uibUv" id="3t1W4GCoCFy" role="1tU5fm">
+          <ref role="3uigEE" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
         </node>
       </node>
       <node concept="3cqZAl" id="7PEc_DJQ2AM" role="3clF45" />
@@ -11969,11 +11978,12 @@
               <node concept="3clFbH" id="7PEc_DJQ2Bn" role="3cqZAp" />
             </node>
             <node concept="3clFbC" id="7PEc_DJQ2Bo" role="3eO9$A">
-              <node concept="3VsKOn" id="7PEc_DJQ2Bp" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~Integer" resolve="Integer" />
-              </node>
               <node concept="37vLTw" id="7PEc_DJQ2Bq" role="3uHU7B">
                 <ref role="3cqZAo" node="7PEc_DJQ2AK" resolve="cls" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoJoF" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCaYME" resolve="INT" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
           </node>
@@ -12002,18 +12012,22 @@
             <node concept="3clFbH" id="7PEc_DJQ2BC" role="3cqZAp" />
           </node>
           <node concept="3clFbC" id="7PEc_DJQ2BV" role="3clFbw">
-            <node concept="10Nm6u" id="7PEc_DJQ2BW" role="3uHU7w" />
             <node concept="37vLTw" id="7PEc_DJQ2BX" role="3uHU7B">
               <ref role="3cqZAo" node="7PEc_DJQ2AK" resolve="cls" />
+            </node>
+            <node concept="Rm8GO" id="3t1W4GCoHnH" role="3uHU7w">
+              <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
+              <ref role="Rm8GQ" to="18b:3t1W4GCaU_c" resolve="NULL" />
             </node>
           </node>
           <node concept="3eNFk2" id="7PEc_DJQ2BY" role="3eNLev">
             <node concept="3clFbC" id="7PEc_DJQ2BZ" role="3eO9$A">
-              <node concept="3VsKOn" id="7PEc_DJQ2C0" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~String" resolve="String" />
-              </node>
               <node concept="37vLTw" id="7PEc_DJQ2C1" role="3uHU7B">
                 <ref role="3cqZAo" node="7PEc_DJQ2AK" resolve="cls" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoL_w" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCb2Za" resolve="STRING" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="7PEc_DJQ2C2" role="3eOfB_">
@@ -12311,11 +12325,12 @@
           </node>
           <node concept="3eNFk2" id="7PEc_DJQ2Fp" role="3eNLev">
             <node concept="3clFbC" id="7PEc_DJQ2Fq" role="3eO9$A">
-              <node concept="3VsKOn" id="7PEc_DJQ2Fr" role="3uHU7w">
-                <ref role="3VsUkX" to="xlxw:~BigDecimal" resolve="BigDecimal" />
-              </node>
               <node concept="37vLTw" id="7PEc_DJQ2Fs" role="3uHU7B">
                 <ref role="3cqZAo" node="7PEc_DJQ2AK" resolve="cls" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoMnz" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCaUCW" resolve="BIGDECIMAL" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="7PEc_DJQ2Ft" role="3eOfB_">
@@ -12356,11 +12371,12 @@
           </node>
           <node concept="3eNFk2" id="7PEc_DJQ2FZ" role="3eNLev">
             <node concept="3clFbC" id="7PEc_DJQ2G0" role="3eO9$A">
-              <node concept="3VsKOn" id="7PEc_DJQ2G1" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~Boolean" resolve="Boolean" />
-              </node>
               <node concept="37vLTw" id="7PEc_DJQ2G2" role="3uHU7B">
                 <ref role="3cqZAo" node="7PEc_DJQ2AK" resolve="cls" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoN95" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCb3fi" resolve="BOOLEAN" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="7PEc_DJQ2G3" role="3eOfB_">
@@ -12490,11 +12506,12 @@
           </node>
           <node concept="3eNFk2" id="7PEc_DJQ2He" role="3eNLev">
             <node concept="3clFbC" id="7PEc_DJQ2Hf" role="3eO9$A">
-              <node concept="3VsKOn" id="7PEc_DJQ2Hg" role="3uHU7w">
-                <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
-              </node>
               <node concept="37vLTw" id="7PEc_DJQ2Hh" role="3uHU7B">
                 <ref role="3cqZAo" node="7PEc_DJQ2AK" resolve="cls" />
+              </node>
+              <node concept="Rm8GO" id="3t1W4GCoPg_" role="3uHU7w">
+                <ref role="Rm8GQ" to="18b:3t1W4GCaZ26" resolve="OBJECT" />
+                <ref role="1Px2BO" to="18b:3t1W4GCaUuD" resolve="CField.Type" />
               </node>
             </node>
             <node concept="3clFbS" id="7PEc_DJQ2Hi" role="3eOfB_">
