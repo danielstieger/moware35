@@ -1502,21 +1502,26 @@
               <node concept="2ShNRf" id="4EvUyFTFMPc" role="YScLw">
                 <node concept="1pGfFk" id="4EvUyFTFMPe" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="3cpWs3" id="6nF$iZDN3JA" role="37wK5m">
-                    <node concept="Xl_RD" id="6nF$iZDN3K$" role="3uHU7w">
-                      <property role="Xl_RC" value=") while obtaining value." />
+                  <node concept="3cpWs3" id="1gQHsZ_VW4N" role="37wK5m">
+                    <node concept="37vLTw" id="1gQHsZ_W0mK" role="3uHU7w">
+                      <ref role="3cqZAo" node="3KDG5JVyet6" resolve="referenceDescriptions" />
                     </node>
-                    <node concept="3cpWs3" id="6nF$iZDN0PH" role="3uHU7B">
-                      <node concept="Xl_RD" id="4EvUyFTFMPf" role="3uHU7B">
-                        <property role="Xl_RC" value="org.modellwerkstatt.fxforms.delegates.ReferenceDelegate: No reference found for given text (" />
+                    <node concept="3cpWs3" id="6nF$iZDN3JA" role="3uHU7B">
+                      <node concept="3cpWs3" id="6nF$iZDN0PH" role="3uHU7B">
+                        <node concept="Xl_RD" id="4EvUyFTFMPf" role="3uHU7B">
+                          <property role="Xl_RC" value="No reference found for given text (" />
+                        </node>
+                        <node concept="2OqwBi" id="6nF$iZDN3zv" role="3uHU7w">
+                          <node concept="37vLTw" id="6nF$iZDN3uP" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                          </node>
+                          <node concept="liA8E" id="6nF$iZDN3CE" role="2OqNvi">
+                            <ref role="37wK5l" to="250q:5Y1b9tR2iZp" resolve="getText" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="2OqwBi" id="6nF$iZDN3zv" role="3uHU7w">
-                        <node concept="37vLTw" id="6nF$iZDN3uP" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
-                        </node>
-                        <node concept="liA8E" id="6nF$iZDN3CE" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:5Y1b9tR2iZp" resolve="getText" />
-                        </node>
+                      <node concept="Xl_RD" id="6nF$iZDN3K$" role="3uHU7w">
+                        <property role="Xl_RC" value=") while obtaining value. Available are " />
                       </node>
                     </node>
                   </node>
