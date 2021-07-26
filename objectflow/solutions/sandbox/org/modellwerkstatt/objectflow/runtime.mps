@@ -17313,6 +17313,46 @@
       <node concept="3Tm1VV" id="7mHuU7gH6C5" role="1B3o_S" />
       <node concept="3clFbS" id="7mHuU7gH6C6" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="173gpc0T66B" role="jymVt" />
+    <node concept="2YIFZL" id="173gpc0TiIz" role="jymVt">
+      <property role="TrG5h" value="s" />
+      <node concept="37vLTG" id="173gpc0TiYc" role="3clF46">
+        <property role="TrG5h" value="map" />
+        <node concept="3uibUv" id="173gpc0Tj1G" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~HashMap" resolve="HashMap" />
+          <node concept="17QB3L" id="173gpc0Tj5C" role="11_B2D" />
+          <node concept="17QB3L" id="173gpc0Tj9d" role="11_B2D" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="173gpc0TjcB" role="3clF46">
+        <property role="TrG5h" value="key" />
+        <node concept="17QB3L" id="173gpc0Tjgb" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="173gpc0Tjji" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="17QB3L" id="173gpc0Tjn6" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="173gpc0TiI_" role="3clF45" />
+      <node concept="3Tm1VV" id="173gpc0TiIA" role="1B3o_S" />
+      <node concept="3clFbS" id="173gpc0TiIB" role="3clF47">
+        <node concept="3clFbF" id="173gpc0TjyU" role="3cqZAp">
+          <node concept="2OqwBi" id="173gpc0TjIf" role="3clFbG">
+            <node concept="37vLTw" id="173gpc0TjyT" role="2Oq$k0">
+              <ref role="3cqZAo" node="173gpc0TiYc" resolve="map" />
+            </node>
+            <node concept="liA8E" id="173gpc0Tk7j" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~HashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+              <node concept="37vLTw" id="173gpc0TkkP" role="37wK5m">
+                <ref role="3cqZAo" node="173gpc0TjcB" resolve="key" />
+              </node>
+              <node concept="37vLTw" id="173gpc0Tkyg" role="37wK5m">
+                <ref role="3cqZAo" node="173gpc0Tjji" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="7mHuU7gH6$P" role="jymVt">
       <property role="TrG5h" value="sum" />
       <node concept="3uibUv" id="7mHuU7gH6$Q" role="3clF45">
