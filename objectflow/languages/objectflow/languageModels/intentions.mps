@@ -25,6 +25,7 @@
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -1500,7 +1501,7 @@
         <node concept="3clFbH" id="1cvpOu_FBex" role="3cqZAp" />
         <node concept="3cpWs8" id="SgAsOS2u_M" role="3cqZAp">
           <node concept="3cpWsn" id="SgAsOS2u_P" role="3cpWs9">
-            <property role="TrG5h" value="RELEVANT_PROPS" />
+            <property role="TrG5h" value="relevantProperties" />
             <node concept="A3Dl8" id="SgAsOS4kWj" role="1tU5fm">
               <node concept="3Tqbb2" id="SgAsOS4kWl" role="A3Ik2">
                 <ref role="ehGHo" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
@@ -1563,7 +1564,7 @@
                       <node concept="3clFbC" id="1cvpOu_FPjm" role="3clFbG">
                         <node concept="2OqwBi" id="1cvpOu_FR0D" role="3uHU7w">
                           <node concept="37vLTw" id="SgAsOS3vRQ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="SgAsOS2u_P" resolve="RELEVANT_PROPS" />
+                            <ref role="3cqZAo" node="SgAsOS2u_P" resolve="relevantProperties" />
                           </node>
                           <node concept="34oBXx" id="1cvpOu_FSzJ" role="2OqNvi" />
                         </node>
@@ -1614,7 +1615,7 @@
             <node concept="3clFbF" id="1cvpOu_G1aV" role="3cqZAp">
               <node concept="2OqwBi" id="1cvpOu_G2WK" role="3clFbG">
                 <node concept="37vLTw" id="SgAsOS2TU9" role="2Oq$k0">
-                  <ref role="3cqZAo" node="SgAsOS2u_P" resolve="RELEVANT_PROPS" />
+                  <ref role="3cqZAo" node="SgAsOS2u_P" resolve="relevantProperties" />
                 </node>
                 <node concept="2es0OD" id="1cvpOu_G3GL" role="2OqNvi">
                   <node concept="1bVj0M" id="1cvpOu_G3GN" role="23t8la">
@@ -1669,12 +1670,16 @@
                             <node concept="Xl_RD" id="1cvpOu_Gf2c" role="3uHU7B">
                               <property role="Xl_RC" value="a" />
                             </node>
-                            <node concept="2OqwBi" id="1cvpOu_Ge43" role="3uHU7w">
-                              <node concept="37vLTw" id="SgAsOS39PR" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1cvpOu_G3GP" resolve="it" />
-                              </node>
-                              <node concept="3TrcHB" id="1cvpOu_GefR" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            <node concept="2YIFZM" id="23eALbvRM4n" role="3uHU7w">
+                              <ref role="37wK5l" to="28jr:3thSvUuYthJ" resolve="getCapitalizedShortNameFromFQ" />
+                              <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                              <node concept="2OqwBi" id="1cvpOu_Ge43" role="37wK5m">
+                                <node concept="37vLTw" id="SgAsOS39PR" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1cvpOu_G3GP" resolve="it" />
+                                </node>
+                                <node concept="3TrcHB" id="1cvpOu_GefR" role="2OqNvi">
+                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -1710,7 +1715,7 @@
             <node concept="3clFbF" id="1cvpOu_Gn6w" role="3cqZAp">
               <node concept="2OqwBi" id="1cvpOu_Gorp" role="3clFbG">
                 <node concept="37vLTw" id="SgAsOS3zlX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="SgAsOS2u_P" resolve="RELEVANT_PROPS" />
+                  <ref role="3cqZAo" node="SgAsOS2u_P" resolve="relevantProperties" />
                 </node>
                 <node concept="2es0OD" id="1cvpOu_Gpbc" role="2OqNvi">
                   <node concept="1bVj0M" id="1cvpOu_Gpbe" role="23t8la">
@@ -2215,7 +2220,7 @@
                   <node concept="3clFbF" id="1cvpOu_GO0a" role="3cqZAp">
                     <node concept="2OqwBi" id="1cvpOu_GPN5" role="3clFbG">
                       <node concept="37vLTw" id="SgAsOS3aPq" role="2Oq$k0">
-                        <ref role="3cqZAo" node="SgAsOS2u_P" resolve="RELEVANT_PROPS" />
+                        <ref role="3cqZAo" node="SgAsOS2u_P" resolve="relevantProperties" />
                       </node>
                       <node concept="2es0OD" id="1cvpOu_GQOs" role="2OqNvi">
                         <node concept="1bVj0M" id="1cvpOu_GQOu" role="23t8la">
