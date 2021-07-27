@@ -19,6 +19,7 @@
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -54,6 +55,9 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -4527,6 +4531,43 @@
                 </node>
                 <node concept="2qgKlT" id="38$Wln8B$x3" role="2OqNvi">
                   <ref role="37wK5l" to="70o0:3iT39Dw7Yu" resolve="getTestMethods" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1fdEi1nfhwo">
+    <property role="3GE5qa" value="BusinessObject" />
+    <ref role="1M2myG" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
+    <node concept="EnEH3" id="1fdEi1nfhwp" role="1MhHOB">
+      <ref role="EomxK" to="tpee:huRkwj$" resolve="propertyName" />
+      <node concept="QB0g5" id="1fdEi1nfhyj" role="QCWH9">
+        <node concept="3clFbS" id="1fdEi1nfhyk" role="2VODD2">
+          <node concept="3clFbF" id="hDMFLSx" role="3cqZAp">
+            <node concept="1Wc70l" id="DxJezr2fbp" role="3clFbG">
+              <node concept="3fqX7Q" id="DxJezr2fbs" role="3uHU7w">
+                <node concept="2YIFZM" id="DxJezr2qvJ" role="3fr31v">
+                  <ref role="37wK5l" to="18ew:~JavaNameUtil.isJavaReserved(java.lang.String)" resolve="isJavaReserved" />
+                  <ref role="1Pybhc" to="18ew:~JavaNameUtil" resolve="JavaNameUtil" />
+                  <node concept="1Wqviy" id="DxJezr2qvK" role="37wK5m" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3jCIZp$uTLS" role="3uHU7B">
+                <node concept="2OqwBi" id="hDMFLSy" role="2Oq$k0">
+                  <node concept="liA8E" id="3jCIZp$uToT" role="2OqNvi">
+                    <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
+                    <node concept="1Wqviy" id="3jCIZp$uTvL" role="37wK5m" />
+                  </node>
+                  <node concept="10M0yZ" id="3jCIZp$uSVj" role="2Oq$k0">
+                    <ref role="1PxDUh" to="18ew:~JavaNameUtil" resolve="JavaNameUtil" />
+                    <ref role="3cqZAo" to="18ew:~JavaNameUtil.VALID_ID_PATTERN" resolve="VALID_ID_PATTERN" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3jCIZp$uU2m" role="2OqNvi">
+                  <ref role="37wK5l" to="ni5j:~Matcher.matches()" resolve="matches" />
                 </node>
               </node>
             </node>
