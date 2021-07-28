@@ -8015,8 +8015,21 @@
                     <ref role="2WH_rO" node="7HXmtz0DMlQ" resolve="frame" />
                   </node>
                 </node>
-                <node concept="Xl_RD" id="7HXmtz0DMmb" role="37wK5m">
-                  <property role="Xl_RC" value="Selected a model where DTOs should be put in . . ." />
+                <node concept="3cpWs3" id="16YJG28trgS" role="37wK5m">
+                  <node concept="Xl_RD" id="16YJG28trGF" role="3uHU7w">
+                    <property role="Xl_RC" value="]" />
+                  </node>
+                  <node concept="3cpWs3" id="16YJG28tef4" role="3uHU7B">
+                    <node concept="Xl_RD" id="7HXmtz0DMmb" role="3uHU7B">
+                      <property role="Xl_RC" value="Selected a model where DTOs should be put in . . . [" />
+                    </node>
+                    <node concept="2OqwBi" id="16YJG28tqmF" role="3uHU7w">
+                      <node concept="2WthIp" id="16YJG28tpYc" role="2Oq$k0" />
+                      <node concept="1DTwFV" id="16YJG28tqMi" role="2OqNvi">
+                        <ref role="2WH_rO" node="7HXmtz0DMlU" resolve="mod" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
                 <node concept="Xl_RD" id="7HXmtz0DMmc" role="37wK5m">
                   <property role="Xl_RC" value="Wrong selection in project explorer" />
@@ -8050,10 +8063,10 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="2G8k9pWwtTz" role="37wK5m">
-                  <property role="Xl_RC" value="Selected a model where DTOs should be put in . . ." />
+                  <property role="Xl_RC" value="Model contains already a DTO named as ROOT. Rename that one first." />
                 </node>
                 <node concept="Xl_RD" id="2G8k9pWwtT$" role="37wK5m">
-                  <property role="Xl_RC" value="There is already a DTO called ROOT present in the model. Please rename that first." />
+                  <property role="Xl_RC" value="There is already a ROOT present in the model." />
                 </node>
                 <node concept="10M0yZ" id="2G8k9pWwtT_" role="37wK5m">
                   <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
