@@ -145,6 +145,8 @@ document.addEventListener('DOMContentLoaded', function() {
             EB.Barcode.pdf417 = true;
             EB.Barcode.qrCode = true;
             EB.Barcode.datamatrix = true;
+            EB.Barcode.UPCEAN_439 = true;
+
 
             EB.Barcode.enable({}, mScanReceived);
 
