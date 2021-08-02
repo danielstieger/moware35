@@ -145,8 +145,8 @@ document.addEventListener('DOMContentLoaded', function() {
             EB.Barcode.pdf417 = true;
             EB.Barcode.qrCode = true;
             EB.Barcode.datamatrix = true;
-            EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_SMART;
-            mLog('DOMContentLoaded', 'UPCEAN SMART enbld.');
+            EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_AUTO;
+            mLog('DOMContentLoaded', 'UPCEAN AUTO enbld.');
 
             EB.Barcode.enable({}, mScanReceived);
 
