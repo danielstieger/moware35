@@ -12,6 +12,7 @@
     <import index="by87" ref="r:3fd71311-ae9c-4a95-889b-8542e84d2ec1(org.modellwerkstatt.objectflow.tests.OrderDocument)" />
     <import index="7rjc" ref="r:40578ea0-bba5-4ae6-abfa-3691d42660ff(org.modellwerkstatt.objectflow.tests.OrderDocumentRunCmd)" />
     <import index="stck" ref="r:92160189-dec1-4f0a-9046-c09a5bafe28d(org.modellwerkstatt.objectflow.tests.FixedBugs)" />
+    <import index="rnm6" ref="r:5563dc37-9db2-4dbb-a901-1b0ac516aac8(org.modellwerkstatt.objectflow.tests.conv)" />
   </imports>
   <registry>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
@@ -60,6 +61,14 @@
     <node concept="1DZZI9" id="7L8_IJAz79q" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="qtgg:5lMTsSlMocw" resolve="Consumer Producer" />
+    </node>
+    <node concept="1DZZI9" id="5ncAbMsCTCt" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="rnm6:16YJG28qXXm" resolve="JSonSerialization" />
+    </node>
+    <node concept="1DZZI9" id="5ncAbMsCTCB" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="rnm6:2vMvnqOsTvD" resolve="JSonDeserialization" />
     </node>
   </node>
 </model>

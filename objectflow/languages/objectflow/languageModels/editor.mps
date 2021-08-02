@@ -1735,6 +1735,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F1sOY" id="1ZjWxf4RkC4" role="3EZMnx">
+          <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
           <ref role="1NtTu8" to="un0u:5kAqSpTXjYK" resolve="expression" />
         </node>
         <node concept="2iRfu4" id="1ZjWxf4RkC5" role="2iSdaV" />
