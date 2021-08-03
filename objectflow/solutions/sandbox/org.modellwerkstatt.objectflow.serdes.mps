@@ -1121,15 +1121,19 @@
       <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="Mode" />
       <node concept="QsSxf" id="1fdEi1n$XC4" role="Qtgdg">
-        <property role="TrG5h" value="COMPLETE_EXACT" />
+        <property role="TrG5h" value="ALL_PROPERTIES_NECESSARY" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="1fdEi1n$XFo" role="Qtgdg">
-        <property role="TrG5h" value="FILL_NULL" />
+        <property role="TrG5h" value="SET_MISSING_PROPERTIES_NULL" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="5Db$$mDvWYP" role="Qtgdg">
-        <property role="TrG5h" value="COMPACT_ARRAYS" />
+        <property role="TrG5h" value="SIMPLE_ARRAYS_TO_DTO" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="7ecvNzalkGx" role="Qtgdg">
+        <property role="TrG5h" value="NULL_ARRAY_TO_EMPTY" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="1fdEi1n$XAa" role="1B3o_S" />
@@ -1164,12 +1168,12 @@
       </node>
       <node concept="TZ5HA" id="5ncAbMsJg61" role="TZ5H$">
         <node concept="1dT_AC" id="5ncAbMsJg62" role="1dT_Ay">
-          <property role="1dT_AB" value="- EXACT: all props have to be present in json" />
+          <property role="1dT_AB" value="- ALL_PROPERTIES_NECESSARY: all props have to be present in json" />
         </node>
       </node>
       <node concept="TZ5HA" id="5ncAbMsJg6m" role="TZ5H$">
         <node concept="1dT_AC" id="5ncAbMsJg6n" role="1dT_Ay">
-          <property role="1dT_AB" value="- FILL:  props might be missing in json. fill them with null" />
+          <property role="1dT_AB" value="- SET_MISSING_PROPERTIES_NULL:  props might be missing in json. fill them with null" />
         </node>
       </node>
       <node concept="TZ5HA" id="5ncAbMsJg6H" role="TZ5H$">

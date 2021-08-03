@@ -329,7 +329,7 @@
                 </node>
                 <node concept="Rm8GO" id="1fdEi1n_kWT" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -767,7 +767,7 @@
                   <property role="Xl_RC" value="en" />
                 </node>
                 <node concept="Rm8GO" id="1fdEi1n_jUk" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
@@ -870,7 +870,7 @@
                 </node>
                 <node concept="Rm8GO" id="1fdEi1n_keE" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -1100,7 +1100,7 @@
                 </node>
                 <node concept="Rm8GO" id="1fdEi1n_pZe" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -1212,7 +1212,7 @@
                 </node>
                 <node concept="Rm8GO" id="5Db$$mDyY$z" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -1428,7 +1428,7 @@
                   <property role="Xl_RC" value="en" />
                 </node>
                 <node concept="Rm8GO" id="1fdEi1nA3dL" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XFo" resolve="FILL_NULL" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XFo" resolve="SET_MISSING_PROPERTIES_NULL" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
@@ -1636,6 +1636,235 @@
         <node concept="3clFbH" id="1fdEi1n_XRf" role="3cqZAp" />
       </node>
     </node>
+    <node concept="3yPF9F" id="7ecvNzalnGF" role="3yMuLx">
+      <property role="TrG5h" value="Null array should set list property to null" />
+      <node concept="3cqZAl" id="7ecvNzalnGG" role="3clF45" />
+      <node concept="3clFbS" id="7ecvNzalnGH" role="3clF47">
+        <node concept="3cpWs8" id="7ecvNzalnGI" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzalnGJ" role="3cpWs9">
+            <property role="TrG5h" value="opts" />
+            <node concept="3uibUv" id="7ecvNzalnGK" role="1tU5fm">
+              <ref role="3uigEE" to="18b:7yJ7v78jCli" resolve="ConvFormatOptions" />
+            </node>
+            <node concept="2ShNRf" id="7ecvNzalnGL" role="33vP2m">
+              <node concept="1pGfFk" id="7ecvNzalnGM" role="2ShVmc">
+                <ref role="37wK5l" to="18b:7yJ7v78kCbU" resolve="ConvFormatOptions" />
+                <node concept="Xl_RD" id="7ecvNzalnGN" role="37wK5m">
+                  <property role="Xl_RC" value="hh:mm:ss dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzalnGO" role="37wK5m">
+                  <property role="Xl_RC" value="dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzalnGP" role="37wK5m">
+                  <property role="Xl_RC" value="#,##0.00" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzalnGQ" role="37wK5m">
+                  <property role="Xl_RC" value="en" />
+                </node>
+                <node concept="Rm8GO" id="7ecvNzalzw_" role="37wK5m">
+                  <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XFo" resolve="SET_MISSING_PROPERTIES_NULL" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzalnGS" role="3cqZAp" />
+        <node concept="3cpWs8" id="7ecvNzalnGT" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzalnGU" role="3cpWs9">
+            <property role="TrG5h" value="json_Adopted" />
+            <node concept="17QB3L" id="7ecvNzalnGV" role="1tU5fm" />
+            <node concept="Xl_RD" id="7ecvNzalB1w" role="33vP2m">
+              <property role="Xl_RC" value="{\&quot;multipleChilds\&quot;: null}" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzalnGX" role="3cqZAp" />
+        <node concept="3cpWs8" id="7ecvNzalnGY" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzalnGZ" role="3cpWs9">
+            <property role="TrG5h" value="myDeser" />
+            <node concept="3uibUv" id="7ecvNzalnH0" role="1tU5fm">
+              <ref role="3uigEE" to="18b:2G8k9pWNiEM" resolve="IConvSerdes" />
+              <node concept="3uibUv" id="7ecvNzalnH1" role="11_B2D">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="7ecvNzalnH2" role="33vP2m">
+              <ref role="1Pybhc" to="18b:6qNJO0Imc8R" resolve="CONV" />
+              <ref role="37wK5l" to="18b:1gQHsZ_YqEX" resolve="jsonSerdes" />
+              <node concept="3VsKOn" id="7ecvNzalnH3" role="37wK5m">
+                <ref role="3VsUkX" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+              <node concept="2ShNRf" id="7ecvNzalnH4" role="37wK5m">
+                <node concept="1pGfFk" id="7ecvNzalnH5" role="2ShVmc">
+                  <ref role="37wK5l" to="18b:7yJ7v78jTAN" resolve="ConvStdFormatters" />
+                  <node concept="37vLTw" id="7ecvNzalnH6" role="37wK5m">
+                    <ref role="3cqZAo" node="7ecvNzalnGJ" resolve="opts" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="7ecvNzalnH7" role="3PaCim">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzalnH8" role="3cqZAp" />
+        <node concept="3cpWs8" id="7ecvNzalnH9" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzalnHa" role="3cpWs9">
+            <property role="TrG5h" value="newObj" />
+            <node concept="3uibUv" id="7ecvNzalnHb" role="1tU5fm">
+              <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+            </node>
+            <node concept="2OqwBi" id="7ecvNzalnHc" role="33vP2m">
+              <node concept="37vLTw" id="7ecvNzalnHd" role="2Oq$k0">
+                <ref role="3cqZAo" node="7ecvNzalnGZ" resolve="myDeser" />
+              </node>
+              <node concept="liA8E" id="7ecvNzalnHe" role="2OqNvi">
+                <ref role="37wK5l" to="18b:1gQHsZ_Yo_K" resolve="deser" />
+                <node concept="37vLTw" id="7ecvNzalnHf" role="37wK5m">
+                  <ref role="3cqZAo" node="7ecvNzalnGU" resolve="json_Adopted" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzalnHg" role="3cqZAp" />
+        <node concept="1gVbGN" id="7ecvNzalnI5" role="3cqZAp">
+          <node concept="3clFbC" id="7ecvNzalGf4" role="1gVkn0">
+            <node concept="10Nm6u" id="7ecvNzalGff" role="3uHU7w" />
+            <node concept="2OqwBi" id="7ecvNzalnI9" role="3uHU7B">
+              <node concept="37vLTw" id="7ecvNzalnIa" role="2Oq$k0">
+                <ref role="3cqZAo" node="7ecvNzalnHa" resolve="newObj" />
+              </node>
+              <node concept="2S8uIT" id="7ecvNzalnIb" role="2OqNvi">
+                <ref role="2S8YL0" node="1gQHsZ_W4KM" resolve="multipleChilds" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzalnId" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="7ecvNzanUBY" role="3yMuLx">
+      <property role="TrG5h" value="Null array should set list property to empty in case of NULL_ARRAY_TO_EMPTY" />
+      <node concept="3cqZAl" id="7ecvNzanUBZ" role="3clF45" />
+      <node concept="3clFbS" id="7ecvNzanUC0" role="3clF47">
+        <node concept="3cpWs8" id="7ecvNzanUC1" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzanUC2" role="3cpWs9">
+            <property role="TrG5h" value="opts" />
+            <node concept="3uibUv" id="7ecvNzanUC3" role="1tU5fm">
+              <ref role="3uigEE" to="18b:7yJ7v78jCli" resolve="ConvFormatOptions" />
+            </node>
+            <node concept="2ShNRf" id="7ecvNzanUC4" role="33vP2m">
+              <node concept="1pGfFk" id="7ecvNzanUC5" role="2ShVmc">
+                <ref role="37wK5l" to="18b:7yJ7v78kCbU" resolve="ConvFormatOptions" />
+                <node concept="Xl_RD" id="7ecvNzanUC6" role="37wK5m">
+                  <property role="Xl_RC" value="hh:mm:ss dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzanUC7" role="37wK5m">
+                  <property role="Xl_RC" value="dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzanUC8" role="37wK5m">
+                  <property role="Xl_RC" value="#,##0.00" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzanUC9" role="37wK5m">
+                  <property role="Xl_RC" value="en" />
+                </node>
+                <node concept="Rm8GO" id="7ecvNzanUCa" role="37wK5m">
+                  <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XFo" resolve="SET_MISSING_PROPERTIES_NULL" />
+                </node>
+                <node concept="Rm8GO" id="7ecvNzanX0D" role="37wK5m">
+                  <ref role="Rm8GQ" to="18b:7ecvNzalkGx" resolve="NULL_ARRAY_TO_EMPTY" />
+                  <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzanUCb" role="3cqZAp" />
+        <node concept="3cpWs8" id="7ecvNzanUCc" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzanUCd" role="3cpWs9">
+            <property role="TrG5h" value="json_Adopted" />
+            <node concept="17QB3L" id="7ecvNzanUCe" role="1tU5fm" />
+            <node concept="Xl_RD" id="7ecvNzanUCf" role="33vP2m">
+              <property role="Xl_RC" value="{\&quot;multipleChilds\&quot;: null}" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzanUCg" role="3cqZAp" />
+        <node concept="3cpWs8" id="7ecvNzanUCh" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzanUCi" role="3cpWs9">
+            <property role="TrG5h" value="myDeser" />
+            <node concept="3uibUv" id="7ecvNzanUCj" role="1tU5fm">
+              <ref role="3uigEE" to="18b:2G8k9pWNiEM" resolve="IConvSerdes" />
+              <node concept="3uibUv" id="7ecvNzanUCk" role="11_B2D">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="7ecvNzanUCl" role="33vP2m">
+              <ref role="1Pybhc" to="18b:6qNJO0Imc8R" resolve="CONV" />
+              <ref role="37wK5l" to="18b:1gQHsZ_YqEX" resolve="jsonSerdes" />
+              <node concept="3VsKOn" id="7ecvNzanUCm" role="37wK5m">
+                <ref role="3VsUkX" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+              <node concept="2ShNRf" id="7ecvNzanUCn" role="37wK5m">
+                <node concept="1pGfFk" id="7ecvNzanUCo" role="2ShVmc">
+                  <ref role="37wK5l" to="18b:7yJ7v78jTAN" resolve="ConvStdFormatters" />
+                  <node concept="37vLTw" id="7ecvNzanUCp" role="37wK5m">
+                    <ref role="3cqZAo" node="7ecvNzanUC2" resolve="opts" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="7ecvNzanUCq" role="3PaCim">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzanUCr" role="3cqZAp" />
+        <node concept="3cpWs8" id="7ecvNzanUCs" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzanUCt" role="3cpWs9">
+            <property role="TrG5h" value="newObj" />
+            <node concept="3uibUv" id="7ecvNzanUCu" role="1tU5fm">
+              <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+            </node>
+            <node concept="2OqwBi" id="7ecvNzanUCv" role="33vP2m">
+              <node concept="37vLTw" id="7ecvNzanUCw" role="2Oq$k0">
+                <ref role="3cqZAo" node="7ecvNzanUCi" resolve="myDeser" />
+              </node>
+              <node concept="liA8E" id="7ecvNzanUCx" role="2OqNvi">
+                <ref role="37wK5l" to="18b:1gQHsZ_Yo_K" resolve="deser" />
+                <node concept="37vLTw" id="7ecvNzanUCy" role="37wK5m">
+                  <ref role="3cqZAo" node="7ecvNzanUCd" resolve="json_Adopted" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzanUCz" role="3cqZAp" />
+        <node concept="1gVbGN" id="7ecvNzanUC$" role="3cqZAp">
+          <node concept="3clFbC" id="7ecvNzao2xI" role="1gVkn0">
+            <node concept="2OqwBi" id="7ecvNzao1kp" role="3uHU7B">
+              <node concept="2OqwBi" id="7ecvNzanUCB" role="2Oq$k0">
+                <node concept="37vLTw" id="7ecvNzanUCC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7ecvNzanUCt" resolve="newObj" />
+                </node>
+                <node concept="2S8uIT" id="7ecvNzanUCD" role="2OqNvi">
+                  <ref role="2S8YL0" node="1gQHsZ_W4KM" resolve="multipleChilds" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="7ecvNzao1Rc" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="7ecvNzao3tz" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzanUCE" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="3yPF9F" id="1fdEi1nRXty" role="3yMuLx">
       <property role="TrG5h" value="Deserialize a list of object straight on - using array and class." />
       <node concept="3cqZAl" id="1fdEi1nRXtz" role="3clF45" />
@@ -1662,7 +1891,7 @@
                   <property role="Xl_RC" value="en" />
                 </node>
                 <node concept="Rm8GO" id="1fdEi1nRXtI" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XFo" resolve="FILL_NULL" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XFo" resolve="SET_MISSING_PROPERTIES_NULL" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
@@ -2013,7 +2242,7 @@
                 </node>
                 <node concept="Rm8GO" id="6rkqlN9LSq_" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -2251,7 +2480,7 @@
                   <property role="Xl_RC" value="en" />
                 </node>
                 <node concept="Rm8GO" id="5Db$$mDzfX6" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="COMPACT_ARRAYS" />
+                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="SIMPLE_ARRAYS_TO_DTO" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
@@ -2432,7 +2661,7 @@
                   <property role="Xl_RC" value="en" />
                 </node>
                 <node concept="Rm8GO" id="5Db$$mD_Ov6" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="COMPACT_ARRAYS" />
+                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="SIMPLE_ARRAYS_TO_DTO" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
@@ -4931,7 +5160,7 @@
                 </node>
                 <node concept="Rm8GO" id="16YJG28qXXA" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -5348,7 +5577,7 @@
                 </node>
                 <node concept="Rm8GO" id="16YJG28HGyK" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -5474,7 +5703,7 @@
                 </node>
                 <node concept="Rm8GO" id="16YJG28IN12" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -5624,7 +5853,7 @@
                 </node>
                 <node concept="Rm8GO" id="16YJG28J3$V" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -5879,7 +6108,7 @@
                 </node>
                 <node concept="Rm8GO" id="16YJG28Itc8" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -5977,7 +6206,7 @@
                 </node>
                 <node concept="Rm8GO" id="16YJG28J$0y" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -6126,7 +6355,7 @@
                 </node>
                 <node concept="Rm8GO" id="16YJG28S3Be" role="37wK5m">
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="COMPLETE_EXACT" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                 </node>
               </node>
             </node>
@@ -6280,6 +6509,129 @@
         <node concept="3clFbH" id="16YJG28S3BV" role="3cqZAp" />
       </node>
     </node>
+    <node concept="3yPF9F" id="7ecvNzaoBl3" role="3yMuLx">
+      <property role="TrG5h" value="Serialize null list property to null field" />
+      <node concept="3cqZAl" id="7ecvNzaoBl5" role="3clF45" />
+      <node concept="3clFbS" id="7ecvNzaoBl6" role="3clF47">
+        <node concept="3cpWs8" id="7ecvNzaoBz9" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzaoBza" role="3cpWs9">
+            <property role="TrG5h" value="opts" />
+            <node concept="3uibUv" id="7ecvNzaoBzb" role="1tU5fm">
+              <ref role="3uigEE" to="18b:7yJ7v78jCli" resolve="ConvFormatOptions" />
+            </node>
+            <node concept="2ShNRf" id="7ecvNzaoBzc" role="33vP2m">
+              <node concept="1pGfFk" id="7ecvNzaoBzd" role="2ShVmc">
+                <ref role="37wK5l" to="18b:7yJ7v78kCbU" resolve="ConvFormatOptions" />
+                <node concept="Xl_RD" id="7ecvNzaoBze" role="37wK5m">
+                  <property role="Xl_RC" value="hh:mm:ss dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzaoBzf" role="37wK5m">
+                  <property role="Xl_RC" value="dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzaoBzg" role="37wK5m">
+                  <property role="Xl_RC" value="#,##0.00" />
+                </node>
+                <node concept="Xl_RD" id="7ecvNzaoBzh" role="37wK5m">
+                  <property role="Xl_RC" value="en" />
+                </node>
+                <node concept="Rm8GO" id="7ecvNzaoBzi" role="37wK5m">
+                  <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzaoBzj" role="3cqZAp" />
+        <node concept="3cpWs8" id="7ecvNzaoBzk" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzaoBzl" role="3cpWs9">
+            <property role="TrG5h" value="myDeser" />
+            <node concept="3uibUv" id="7ecvNzaoBzm" role="1tU5fm">
+              <ref role="3uigEE" to="18b:2G8k9pWNiEM" resolve="IConvSerdes" />
+              <node concept="3uibUv" id="7ecvNzaoBzn" role="11_B2D">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="7ecvNzaoBzo" role="33vP2m">
+              <ref role="1Pybhc" to="18b:6qNJO0Imc8R" resolve="CONV" />
+              <ref role="37wK5l" to="18b:1gQHsZ_YqEX" resolve="jsonSerdes" />
+              <node concept="3VsKOn" id="7ecvNzaoBzp" role="37wK5m">
+                <ref role="3VsUkX" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+              <node concept="2ShNRf" id="7ecvNzaoBzq" role="37wK5m">
+                <node concept="1pGfFk" id="7ecvNzaoBzr" role="2ShVmc">
+                  <ref role="37wK5l" to="18b:7yJ7v78jTAN" resolve="ConvStdFormatters" />
+                  <node concept="37vLTw" id="7ecvNzaoBzs" role="37wK5m">
+                    <ref role="3cqZAo" node="7ecvNzaoBza" resolve="opts" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="7ecvNzaoBzt" role="3PaCim">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7ecvNzaoBzu" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzaoBzv" role="3cpWs9">
+            <property role="TrG5h" value="origObj" />
+            <node concept="3uibUv" id="7ecvNzaoBzw" role="1tU5fm">
+              <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+            </node>
+            <node concept="1odsa" id="7ecvNzaoBzx" role="33vP2m">
+              <ref role="1ods_" node="1fdEi1nROez" resolve="JsonRootFactory" />
+              <ref role="37wK5l" node="16YJG28_Rdd" resolve="create" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzaoCYc" role="3cqZAp" />
+        <node concept="3clFbH" id="7ecvNzaoCYI" role="3cqZAp" />
+        <node concept="3clFbF" id="7ecvNzaoBEM" role="3cqZAp">
+          <node concept="37vLTI" id="7ecvNzaoCei" role="3clFbG">
+            <node concept="10Nm6u" id="7ecvNzaoCq5" role="37vLTx" />
+            <node concept="2OqwBi" id="7ecvNzaoBKS" role="37vLTJ">
+              <node concept="37vLTw" id="7ecvNzaoBEK" role="2Oq$k0">
+                <ref role="3cqZAo" node="7ecvNzaoBzv" resolve="origObj" />
+              </node>
+              <node concept="2S8uIT" id="7ecvNzaoBOK" role="2OqNvi">
+                <ref role="2S8YL0" node="1gQHsZ_W4KM" resolve="multipleChilds" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7ecvNzaoDtk" role="3cqZAp">
+          <node concept="3cpWsn" id="7ecvNzaoDtn" role="3cpWs9">
+            <property role="TrG5h" value="st" />
+            <node concept="17QB3L" id="7ecvNzaoDti" role="1tU5fm" />
+            <node concept="2OqwBi" id="7ecvNzaoDMv" role="33vP2m">
+              <node concept="37vLTw" id="7ecvNzaoDFJ" role="2Oq$k0">
+                <ref role="3cqZAo" node="7ecvNzaoBzl" resolve="myDeser" />
+              </node>
+              <node concept="liA8E" id="7ecvNzaoDRj" role="2OqNvi">
+                <ref role="37wK5l" to="18b:23eALbvRgEu" resolve="ser" />
+                <node concept="37vLTw" id="7ecvNzaoDU2" role="37wK5m">
+                  <ref role="3cqZAo" node="7ecvNzaoBzv" resolve="origObj" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ecvNzaoDVi" role="3cqZAp" />
+        <node concept="1gVbGN" id="7ecvNzaoEMT" role="3cqZAp">
+          <node concept="2OqwBi" id="7ecvNzaoFnT" role="1gVkn0">
+            <node concept="37vLTw" id="7ecvNzaoFan" role="2Oq$k0">
+              <ref role="3cqZAo" node="7ecvNzaoDtn" resolve="st" />
+            </node>
+            <node concept="liA8E" id="7ecvNzaoFsa" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+              <node concept="Xl_RD" id="7ecvNzaoF_w" role="37wK5m">
+                <property role="Xl_RC" value="\&quot;multipleChilds\&quot;:null" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yPF9F" id="5Db$$mDCTlM" role="3yMuLx">
       <property role="TrG5h" value="Serialize a list of simple int's " />
       <node concept="3cqZAl" id="5Db$$mDCTlN" role="3clF45" />
@@ -6306,7 +6658,7 @@
                   <property role="Xl_RC" value="en" />
                 </node>
                 <node concept="Rm8GO" id="5Db$$mDCUaf" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="COMPACT_ARRAYS" />
+                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="SIMPLE_ARRAYS_TO_DTO" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
@@ -6445,7 +6797,7 @@
                   <property role="Xl_RC" value="en" />
                 </node>
                 <node concept="Rm8GO" id="5Db$$mDEXBN" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="COMPACT_ARRAYS" />
+                  <ref role="Rm8GQ" to="18b:5Db$$mDvWYP" resolve="SIMPLE_ARRAYS_TO_DTO" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
