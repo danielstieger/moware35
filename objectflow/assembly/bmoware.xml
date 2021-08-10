@@ -22,7 +22,9 @@
 <project>      
   <!-- **** build specific definitions ************************************************************** -->
 
-  <property name="buildUserHome"         value="/Users/danielstieger/migration/2020_3" /> 
+  <property name="buildUserHome"         value="/Users/danielstieger/migration/2020_3" />
+  <property name="stuffHome"             value="/Users/danielstieger/stuff" />
+   
   <property name="mowareMpsHomeDir"      value="/Applications/MPS_2020_3.app/Contents" />
   <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
   <property name="mowareHome"            value="${buildUserHome}/moware" />
@@ -115,16 +117,16 @@
     <property name="javaxbusFile"      value="mo-javaxbus-1.0.jar" />
     
     <delete includeEmptyDirs="true">
-  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/basis/" includes="*javaxbus*" defaultexcludes="no"/>
+  		<fileset dir="${mowareHome}/objectflow/solutions/sandbox/jars/basis/" includes="*javaxbus*" defaultexcludes="no"/>
 	</delete>  
 	
 	<mkdir dir="xbustmp" />
-    <jar destfile="${mowareHome}/objectflow/languages/objectflow/jars/basis/${javaxbusFile}" basedir="xbustmp" update="false">
+    <jar destfile="${mowareHome}/objectflow/solutions/sandbox/jars/basis/${javaxbusFile}" basedir="xbustmp" update="false">
       <manifest>
         <attribute name="Version"    value="1.0" />
       </manifest>
-      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/target" includes="*javaxbus*.jar" />
-      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/lib"    includes="*mjson*.jar" />
+      <zipgroupfileset dir="${stuffHome}/javaxbus/target" includes="*javaxbus*.jar" />
+      <zipgroupfileset dir="${stuffHome}/javaxbus/lib"    includes="*mjson*.jar" />
     </jar>
     <delete dir="xbusTmp" />
     
@@ -134,7 +136,7 @@
   		<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*javaxbus*" defaultexcludes="no"/>
 	</delete>  
   	<copy todir="${mowarePluginHomeDir}/jars/basis">
-  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/basis/" includes="${javaxbusFile}" />
+  		<fileset dir="${mowareHome}/objectflow/solutions/sandbox/jars/basis/" includes="${javaxbusFile}" />
   	</copy>
   </target>
 
