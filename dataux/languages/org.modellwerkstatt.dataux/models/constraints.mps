@@ -1225,38 +1225,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="2rqRJfqYMgU">
-    <property role="3GE5qa" value="uimodule" />
-    <ref role="1M2myG" to="1btx:2rqRJfqYGTr" resolve="InfoWidget" />
-    <node concept="9SLcT" id="2rqRJfqYMoS" role="9SGkU">
-      <node concept="3clFbS" id="1ZEzZmq2eXf" role="2VODD2">
-        <node concept="3clFbJ" id="1ZEzZmq2eXg" role="3cqZAp">
-          <node concept="3clFbC" id="1ZEzZmq2eXh" role="3clFbw">
-            <node concept="359W_D" id="1ZEzZmq2eXu" role="3uHU7w">
-              <ref role="359W_E" to="1btx:2rqRJfqYGTr" resolve="InfoWidget" />
-              <ref role="359W_F" to="1btx:2rqRJfqYHOs" resolve="color" />
-            </node>
-            <node concept="2DA6wF" id="1ZEzZmq2eXt" role="3uHU7B" />
-          </node>
-          <node concept="3clFbS" id="1ZEzZmq2eXk" role="3clFbx">
-            <node concept="3cpWs6" id="1ZEzZmq2eXl" role="3cqZAp">
-              <node concept="3clFbC" id="1ZEzZmq2eXm" role="3cqZAk">
-                <node concept="2DD5aU" id="1ZEzZmq2eXr" role="3uHU7B" />
-                <node concept="35c_gC" id="1ZEzZmq2eXs" role="3uHU7w">
-                  <ref role="35c_gD" to="un0u:3VCHlE3_TvF" resolve="StatusConstReference" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1ZEzZmq2eXp" role="3cqZAp">
-          <node concept="3clFbT" id="1ZEzZmq2eXq" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="3scH5FpaPZq">
     <property role="3GE5qa" value="formopt" />
     <ref role="1M2myG" to="1btx:pQ21WN5qog" resolve="LabelFOption" />

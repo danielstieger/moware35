@@ -1065,13 +1065,6 @@
       <property role="IQ2ns" value="4920377772573251431" />
       <ref role="20lvS9" node="4h8GofeXcDf" resolve="TileInitFunction" />
     </node>
-    <node concept="1TJgyj" id="2rqRJfqYMVo" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="infoWidget" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <property role="IQ2ns" value="2799795257296498392" />
-      <ref role="20lvS9" node="2rqRJfqYGTr" resolve="InfoWidget" />
-    </node>
     <node concept="PrWs8" id="2N7eHMakYK0" role="PzmwI">
       <ref role="PrY4T" node="2N7eHMakYIc" resolve="IModule" />
     </node>
@@ -1285,32 +1278,6 @@
     </node>
     <node concept="1QGGSu" id="62e43W0Y$zE" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2rqRJfqYGTr">
-    <property role="3GE5qa" value="uimodule" />
-    <property role="TrG5h" value="InfoWidget" />
-    <property role="EcuMT" value="2799795257296473691" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2rqRJfqYHFV" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="title" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="2799795257296476923" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="2rqRJfqYHJl" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="value" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="2799795257296477141" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="2rqRJfqYHOs" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="color" />
-      <property role="IQ2ns" value="2799795257296477468" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="2N7eHMabazD">
