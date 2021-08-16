@@ -4930,7 +4930,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5Y1b9tR0Sc4" role="3cqZAp" />
+            <node concept="3clFbH" id="4CMGaDCYCla" role="3cqZAp" />
           </node>
           <node concept="9aQIb" id="5Y1b9tR0Sc5" role="9aQIa">
             <node concept="3clFbS" id="5Y1b9tR0Sc6" role="9aQI4">
@@ -4947,21 +4947,21 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="5Y1b9tR0Scl" role="3cqZAp">
-                <node concept="2OqwBi" id="5Y1b9tR0Scm" role="3clFbG">
-                  <node concept="liA8E" id="5Y1b9tR0Sco" role="2OqNvi">
+              <node concept="3clFbF" id="4CMGaDD0UKZ" role="3cqZAp">
+                <node concept="2OqwBi" id="4CMGaDD0Vt0" role="3clFbG">
+                  <node concept="37vLTw" id="4CMGaDD0UKX" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
+                  </node>
+                  <node concept="liA8E" id="4CMGaDD0WjR" role="2OqNvi">
                     <ref role="37wK5l" to="rb41:~Control.setTooltip(javafx.scene.control.Tooltip)" resolve="setTooltip" />
-                    <node concept="2ShNRf" id="5Y1b9tR0Scp" role="37wK5m">
-                      <node concept="1pGfFk" id="5Y1b9tR0Scq" role="2ShVmc">
+                    <node concept="2ShNRf" id="4CMGaDD0Wyo" role="37wK5m">
+                      <node concept="1pGfFk" id="4CMGaDD0YqH" role="2ShVmc">
                         <ref role="37wK5l" to="rb41:~Tooltip.&lt;init&gt;(java.lang.String)" resolve="Tooltip" />
-                        <node concept="37vLTw" id="5Y1b9tR0Scr" role="37wK5m">
+                        <node concept="37vLTw" id="4CMGaDD0YEy" role="37wK5m">
                           <ref role="3cqZAo" node="5Y1b9tR0Q5U" resolve="text" />
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="37vLTw" id="5Y1b9tR0STD" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
                   </node>
                 </node>
               </node>
