@@ -2109,14 +2109,14 @@
         <property role="TrG5h" value="START" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtD" role="37wK5m">
-          <property role="Xl_RC" value="_START" />
+          <property role="Xl_RC" value="START" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQtE" role="37wK5m">
           <property role="Xl_RC" value="START" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVF" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf4FN" role="37wK5m">
-          <property role="Xl_RC" value="_START" />
+          <property role="Xl_RC" value="START" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtF" role="Qtgdg">
@@ -2171,42 +2171,42 @@
         <property role="TrG5h" value="EXTRA" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtJ" role="37wK5m">
-          <property role="Xl_RC" value="_Extras" />
+          <property role="Xl_RC" value="Extras" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQtK" role="37wK5m">
           <property role="Xl_RC" value="Extras" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVO" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf4KR" role="37wK5m">
-          <property role="Xl_RC" value="_Extras" />
+          <property role="Xl_RC" value="Extras" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtO" role="Qtgdg">
         <property role="TrG5h" value="HELP" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtP" role="37wK5m">
-          <property role="Xl_RC" value="_Hilfe" />
+          <property role="Xl_RC" value="Hilfe" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQtQ" role="37wK5m">
           <property role="Xl_RC" value="Hilfe" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVP" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf4M5" role="37wK5m">
-          <property role="Xl_RC" value="_Help" />
+          <property role="Xl_RC" value="Help" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtR" role="Qtgdg">
         <property role="TrG5h" value="VERSION" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtS" role="37wK5m">
-          <property role="Xl_RC" value="_Version" />
+          <property role="Xl_RC" value="Version" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQtT" role="37wK5m">
           <property role="Xl_RC" value="Version" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVQ" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf4N7" role="37wK5m">
-          <property role="Xl_RC" value="_Version" />
+          <property role="Xl_RC" value="Version" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtU" role="Qtgdg">
