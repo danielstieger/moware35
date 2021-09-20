@@ -1675,6 +1675,12 @@
       <property role="IQ2ns" value="406105322043153886" />
       <ref role="20lvS9" node="myLEe5LLB3" resolve="IOFXDependencyResolutionStrategy" />
     </node>
+    <node concept="1TJgyj" id="2ycqWmmzafK" role="1TKVEi">
+      <property role="IQ2ns" value="2921828754635138032" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="docu" />
+      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
+    </node>
     <node concept="PrWs8" id="q_zDmI5wCk" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
