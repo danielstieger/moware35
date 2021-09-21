@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -13,10 +12,7 @@
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="i4mf" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:com.fasterxml.jackson.core(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="kiw1" ref="r:94ffcee1-0674-484a-872a-0a7170595a7b(org.modellwerkstatt.objectflow.sdservices)" />
   </imports>
   <registry>
@@ -1140,6 +1136,10 @@
         <property role="TrG5h" value="DEBUG_TO_STDERR" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
+      <node concept="QsSxf" id="7_PeuXExTRW" role="Qtgdg">
+        <property role="TrG5h" value="PRETTY" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
       <node concept="3Tm1VV" id="1fdEi1n$XAa" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="1fdEi1n_4u3" role="jymVt" />
@@ -1238,12 +1238,12 @@
     <property role="3GE5qa" value="" />
     <node concept="2tJIrI" id="6qNJO0Imcat" role="jymVt" />
     <node concept="2YIFZL" id="1gQHsZ_YqEX" role="jymVt">
-      <property role="TrG5h" value="jsonSerdes" />
+      <property role="TrG5h" value="jsonSerDes" />
       <node concept="3clFbS" id="6qNJO0ImcU6" role="3clF47">
         <node concept="3cpWs6" id="1gQHsZA7uPJ" role="3cqZAp">
           <node concept="2ShNRf" id="1gQHsZA7uQJ" role="3cqZAk">
             <node concept="1pGfFk" id="1gQHsZA7wkx" role="2ShVmc">
-              <ref role="37wK5l" to="kiw1:2o1C51ToTus" resolve="JackySerdes" />
+              <ref role="37wK5l" to="kiw1:7_PeuXEmcn6" resolve="JackySerdes" />
               <node concept="16syzq" id="1gQHsZA7wuJ" role="1pMfVU">
                 <ref role="16sUi3" node="1gQHsZ_YoH8" resolve="T" />
               </node>
@@ -1283,8 +1283,108 @@
       </node>
       <node concept="3Tm1VV" id="6qNJO0ImcU5" role="1B3o_S" />
     </node>
+    <node concept="2YIFZL" id="7_PeuXElDzq" role="jymVt">
+      <property role="TrG5h" value="fopXmlSer" />
+      <node concept="3clFbS" id="7_PeuXElDzr" role="3clF47">
+        <node concept="3cpWs6" id="7_PeuXElDzs" role="3cqZAp">
+          <node concept="2ShNRf" id="7_PeuXElDzt" role="3cqZAk">
+            <node concept="1pGfFk" id="7_PeuXEmo6x" role="2ShVmc">
+              <ref role="37wK5l" to="kiw1:7_PeuXETmvX" resolve="FopXmlSer" />
+              <node concept="3uibUv" id="7_PeuXEVoIP" role="1pMfVU">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="7_PeuXElDzB" role="3clF45">
+        <ref role="3uigEE" node="2G8k9pWNiEM" resolve="IConvSerdes" />
+        <node concept="3uibUv" id="7_PeuXEVoNm" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7_PeuXElDzE" role="1B3o_S" />
+    </node>
+    <node concept="2YIFZL" id="7_PeuXElDD$" role="jymVt">
+      <property role="TrG5h" value="stringSer" />
+      <node concept="3clFbS" id="7_PeuXElDD_" role="3clF47">
+        <node concept="3cpWs6" id="7_PeuXElDDA" role="3cqZAp">
+          <node concept="2ShNRf" id="7_PeuXElDDB" role="3cqZAk">
+            <node concept="1pGfFk" id="7_PeuXEmorO" role="2ShVmc">
+              <ref role="37wK5l" to="kiw1:7_PeuXEmmfe" resolve="StringSer" />
+              <node concept="37vLTw" id="7_PeuXEmoyl" role="37wK5m">
+                <ref role="3cqZAo" node="7_PeuXElDDG" resolve="type" />
+              </node>
+              <node concept="37vLTw" id="7_PeuXEmoCR" role="37wK5m">
+                <ref role="3cqZAo" node="7_PeuXElDDJ" resolve="config" />
+              </node>
+              <node concept="16syzq" id="7_PeuXEmoQ8" role="1pMfVU">
+                <ref role="16sUi3" node="7_PeuXElDDN" resolve="T" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7_PeuXElDDG" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="7_PeuXElDDH" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+          <node concept="16syzq" id="7_PeuXElDDI" role="11_B2D">
+            <ref role="16sUi3" node="7_PeuXElDDN" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7_PeuXElDDJ" role="3clF46">
+        <property role="TrG5h" value="config" />
+        <node concept="3uibUv" id="7_PeuXElDDK" role="1tU5fm">
+          <ref role="3uigEE" node="7yJ7v78jUYu" resolve="IConvFormatOptions" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7_PeuXElDDL" role="3clF45">
+        <ref role="3uigEE" node="2G8k9pWNiEM" resolve="IConvSerdes" />
+        <node concept="16syzq" id="7_PeuXElDDM" role="11_B2D">
+          <ref role="16sUi3" node="7_PeuXElDDN" resolve="T" />
+        </node>
+      </node>
+      <node concept="16euLQ" id="7_PeuXElDDN" role="16eVyc">
+        <property role="TrG5h" value="T" />
+      </node>
+      <node concept="3Tm1VV" id="7_PeuXElDDO" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="6qNJO0ImcaG" role="jymVt" />
     <node concept="3Tm1VV" id="6qNJO0Imc8S" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7_PeuXEUJpF" role="lGtFl">
+      <node concept="TZ5HA" id="7_PeuXEUJpG" role="TZ5H$">
+        <node concept="1dT_AC" id="7_PeuXEUJpH" role="1dT_Ay">
+          <property role="1dT_AB" value="CONV serdes conversion interface" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7_PeuXEUJq4" role="TZ5H$">
+        <node concept="1dT_AC" id="7_PeuXEUJq5" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7_PeuXEUJqa" role="TZ5H$">
+        <node concept="1dT_AC" id="7_PeuXEUJqb" role="1dT_Ay">
+          <property role="1dT_AB" value="you can have multiple instances of configured serialize/deserializers in an application." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7_PeuXEUJqk" role="TZ5H$">
+        <node concept="1dT_AC" id="7_PeuXEUJql" role="1dT_Ay">
+          <property role="1dT_AB" value="therefore this conv is not handled via ioc container. right now, there are also no other " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7_PeuXEUJqw" role="TZ5H$">
+        <node concept="1dT_AC" id="7_PeuXEUJqx" role="1dT_Ay">
+          <property role="1dT_AB" value="CONV's available." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7_PeuXEUJqI" role="TZ5H$">
+        <node concept="1dT_AC" id="7_PeuXEUJqJ" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

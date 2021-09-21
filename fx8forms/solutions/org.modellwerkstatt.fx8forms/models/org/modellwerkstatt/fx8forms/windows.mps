@@ -49,6 +49,7 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="gfk1" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.scene(org.modellwerkstatt.fx8forms/)" />
     <import index="5akx" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.scene.traversal(org.modellwerkstatt.fx8forms/)" />
+    <import index="kiw1" ref="r:94ffcee1-0674-484a-872a-0a7170595a7b(org.modellwerkstatt.objectflow.sdservices)" />
     <import index="cpcw" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.beans.binding(org.modellwerkstatt.fx8forms/)" implicit="true" />
   </imports>
   <registry>
@@ -41922,8 +41923,8 @@
     <node concept="312cEg" id="wDSRHNJXjy" role="jymVt">
       <property role="TrG5h" value="introspector" />
       <node concept="3Tm6S6" id="wDSRHNJXjz" role="1B3o_S" />
-      <node concept="3uibUv" id="wDSRHNJXuq" role="1tU5fm">
-        <ref role="3uigEE" to="gyq6:wDSRHNJpdM" resolve="MoGraphIntrospector" />
+      <node concept="3uibUv" id="7_PeuXF0jID" role="1tU5fm">
+        <ref role="3uigEE" to="kiw1:wDSRHNJpdM" resolve="LgcyGraphIntrospector" />
       </node>
     </node>
     <node concept="312cEg" id="wDSRHNMkwA" role="jymVt">
@@ -41958,7 +41959,7 @@
           <node concept="37vLTI" id="wDSRHNJXx4" role="3clFbG">
             <node concept="2ShNRf" id="wDSRHNJX_k" role="37vLTx">
               <node concept="1pGfFk" id="wDSRHNJXTL" role="2ShVmc">
-                <ref role="37wK5l" to="gyq6:wDSRHNJpGB" resolve="MoGraphIntrospector" />
+                <ref role="37wK5l" to="kiw1:wDSRHNJpGB" resolve="LgcyGraphIntrospector" />
               </node>
             </node>
             <node concept="37vLTw" id="wDSRHNJXw4" role="37vLTJ">
@@ -42032,7 +42033,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="wDSRHNNuNs" role="jymVt" />
     <node concept="3clFb_" id="wDSRHNMjkF" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="handleInteger" />
@@ -42549,7 +42549,7 @@
                   <ref role="3cqZAo" node="wDSRHNJXjy" resolve="introspector" />
                 </node>
                 <node concept="liA8E" id="wDSRHNN3K6" role="2OqNvi">
-                  <ref role="37wK5l" to="gyq6:wDSRHNK8V7" resolve="introspectionPrint" />
+                  <ref role="37wK5l" to="kiw1:wDSRHNK8V7" resolve="introspectionPrint" />
                   <node concept="Xl_RD" id="6PKqlsSYQIi" role="37wK5m">
                     <property role="Xl_RC" value="" />
                   </node>
@@ -42691,7 +42691,7 @@
               <ref role="3cqZAo" node="wDSRHNJXjy" resolve="introspector" />
             </node>
             <node concept="liA8E" id="wDSRHNMX$O" role="2OqNvi">
-              <ref role="37wK5l" to="gyq6:wDSRHNK8V7" resolve="introspectionPrint" />
+              <ref role="37wK5l" to="kiw1:wDSRHNK8V7" resolve="introspectionPrint" />
               <node concept="Xl_RD" id="6PKqlsSYQX3" role="37wK5m">
                 <property role="Xl_RC" value="" />
               </node>
@@ -42798,7 +42798,7 @@
                   <ref role="3cqZAo" node="wDSRHNJXjy" resolve="introspector" />
                 </node>
                 <node concept="liA8E" id="wDSRHNNe6a" role="2OqNvi">
-                  <ref role="37wK5l" to="gyq6:wDSRHNK8V7" resolve="introspectionPrint" />
+                  <ref role="37wK5l" to="kiw1:wDSRHNK8V7" resolve="introspectionPrint" />
                   <node concept="Xl_RD" id="6PKqlsSYRag" role="37wK5m">
                     <property role="Xl_RC" value="" />
                   </node>
@@ -42960,7 +42960,7 @@
               <ref role="3cqZAo" node="wDSRHNJXjy" resolve="introspector" />
             </node>
             <node concept="liA8E" id="wDSRHNNXaj" role="2OqNvi">
-              <ref role="37wK5l" to="gyq6:wDSRHNK8V7" resolve="introspectionPrint" />
+              <ref role="37wK5l" to="kiw1:wDSRHNK8V7" resolve="introspectionPrint" />
               <node concept="Xl_RD" id="wDSRHNNXcZ" role="37wK5m">
                 <property role="Xl_RC" value="" />
               </node>
@@ -42991,8 +42991,8 @@
     <node concept="2tJIrI" id="wDSRHNJWB2" role="jymVt" />
     <node concept="2tJIrI" id="wDSRHNJWtF" role="jymVt" />
     <node concept="3Tm1VV" id="wDSRHNJpds" role="1B3o_S" />
-    <node concept="3uibUv" id="wDSRHNK4Nf" role="EKbjA">
-      <ref role="3uigEE" to="gyq6:wDSRHNK4aM" resolve="IMoIntrospectionPrinter" />
+    <node concept="3uibUv" id="7_PeuXF0cwe" role="EKbjA">
+      <ref role="3uigEE" to="kiw1:wDSRHNK4aM" resolve="ILgcyGraphPrinter" />
     </node>
   </node>
   <node concept="312cEu" id="6PKqlsSVVVi">
