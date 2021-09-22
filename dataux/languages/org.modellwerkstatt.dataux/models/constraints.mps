@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -1490,6 +1491,24 @@
               </node>
             </node>
             <node concept="3x8VRR" id="1ZEzZmq2eYl" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7Nm35wsupdt">
+    <property role="3GE5qa" value="delegates" />
+    <ref role="1M2myG" to="1btx:7Nm35wsun$p" resolve="DummyDelegate" />
+    <node concept="9S07l" id="7Nm35wsupdu" role="9Vyp8">
+      <node concept="3clFbS" id="7Nm35wsupdv" role="2VODD2">
+        <node concept="3clFbF" id="7Nm35wsuphp" role="3cqZAp">
+          <node concept="2OqwBi" id="7Nm35wsuptw" role="3clFbG">
+            <node concept="nLn13" id="7Nm35wsupho" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="7Nm35wsupAQ" role="2OqNvi">
+              <node concept="chp4Y" id="7Nm35wsupGJ" role="cj9EA">
+                <ref role="cht4Q" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

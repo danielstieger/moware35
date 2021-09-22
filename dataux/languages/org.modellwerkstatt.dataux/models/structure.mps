@@ -48,7 +48,6 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
-        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -409,7 +408,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="1469414169489720478" />
       <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
-      <ref role="20ksaX" node="4nSJmixDyA8" resolve="boundTo" />
     </node>
     <node concept="PrWs8" id="1h$q6rwmHiU" role="PzmwI">
       <ref role="PrY4T" node="1h$q6rwmHiT" resolve="IDelegate" />
@@ -420,7 +418,7 @@
   </node>
   <node concept="PlHQZ" id="1h$q6rwmHiT">
     <property role="TrG5h" value="IDelegate" />
-    <property role="3GE5qa" value="delegates.options" />
+    <property role="3GE5qa" value="delegates" />
     <property role="EcuMT" value="1469414169489626297" />
     <node concept="1TJgyj" id="pQ21WN5qoe" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -428,13 +426,6 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="465568541573490190" />
       <ref role="20lvS9" node="pQ21WN5qo6" resolve="IDOption" />
-    </node>
-    <node concept="1TJgyj" id="4nSJmixDyA8" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="boundTo" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="5041988022747670920" />
-      <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
     </node>
   </node>
   <node concept="1TIwiD" id="1h$q6rwn4fl">
@@ -1591,6 +1582,20 @@
     </node>
     <node concept="1QGGSu" id="62e43W0Y$zW" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Nm35wsun$p">
+    <property role="EcuMT" value="8995390878293522713" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="DummyDelegate" />
+    <property role="34LRSv" value="Dummy" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7Nm35wsun$q" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwmHiT" resolve="IDelegate" />
+    </node>
+    <node concept="1QGGSu" id="7Nm35wsH1eq" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/delegate2.png" />
     </node>
   </node>
 </model>

@@ -47081,6 +47081,21 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="7Nm35wt4fye" role="jymVt">
+      <property role="TrG5h" value="createDummyEditor" />
+      <node concept="3uibUv" id="7Nm35wt4fyf" role="3clF45">
+        <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+      </node>
+      <node concept="3Tm1VV" id="7Nm35wt4fyg" role="1B3o_S" />
+      <node concept="3clFbS" id="7Nm35wt4fyi" role="3clF47">
+        <node concept="3clFbF" id="7Nm35wt4fyl" role="3cqZAp">
+          <node concept="10Nm6u" id="7Nm35wt4fyk" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7Nm35wt4fyj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="1vmXD1nb2H$" role="jymVt">
       <property role="TrG5h" value="createReferenceEditor" />
       <node concept="3uibUv" id="1vmXD1nb2H_" role="3clF45">

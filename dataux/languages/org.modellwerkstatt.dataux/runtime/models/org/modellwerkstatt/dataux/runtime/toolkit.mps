@@ -444,6 +444,14 @@
       <node concept="3Tm1VV" id="5Y1b9tR4bXA" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tR4bXB" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="7Nm35wsLoKO" role="jymVt">
+      <property role="TrG5h" value="createDummyEditor" />
+      <node concept="3uibUv" id="7Nm35wsLoKP" role="3clF45">
+        <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+      </node>
+      <node concept="3Tm1VV" id="7Nm35wsLoKQ" role="1B3o_S" />
+      <node concept="3clFbS" id="7Nm35wsLoKR" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="1YFjUjI0DMa" role="jymVt">
       <property role="TrG5h" value="createReferenceEditor" />
       <node concept="3uibUv" id="1YFjUjI0DOZ" role="3clF45">

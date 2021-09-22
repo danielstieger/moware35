@@ -1440,7 +1440,7 @@
     </node>
   </node>
   <node concept="PKFIW" id="pQ21WN8x3J">
-    <property role="3GE5qa" value="delegates.options" />
+    <property role="3GE5qa" value="delegates" />
     <property role="TrG5h" value="IDOptionsEditor" />
     <ref role="1XX52x" to="1btx:1h$q6rwmHiT" resolve="IDelegate" />
     <node concept="3EZMnI" id="pQ21WN8x3L" role="2wV5jI">
@@ -1530,7 +1530,7 @@
   <node concept="PKFIW" id="pQ21WNlsXr">
     <property role="3GE5qa" value="delegates" />
     <property role="TrG5h" value="DelegateMenuComponent" />
-    <ref role="1XX52x" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
+    <ref role="1XX52x" to="1btx:1h$q6rwmHiT" resolve="IDelegate" />
     <node concept="PMmxH" id="1h$q6rwn4hO" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="1h$q6rwn4i5" resolve="SubConcept" />
@@ -1693,6 +1693,22 @@
                       <node concept="3zrR0B" id="3ouNayfGq6x" role="2ShVmc">
                         <node concept="3Tqbb2" id="3ouNayfGq6y" role="3zrR0E">
                           <ref role="ehGHo" to="1btx:1h$q6rwn4fM" resolve="StringDelegate" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7Nm35wsyDKz" role="3cqZAp">
+                <node concept="2OqwBi" id="7Nm35wsyDK$" role="3clFbG">
+                  <node concept="37vLTw" id="7Nm35wsyDK_" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1h$q6rwp5ud" resolve="delegates" />
+                  </node>
+                  <node concept="TSZUe" id="7Nm35wsyDKA" role="2OqNvi">
+                    <node concept="2ShNRf" id="7Nm35wsyDKB" role="25WWJ7">
+                      <node concept="3zrR0B" id="7Nm35wsyDKC" role="2ShVmc">
+                        <node concept="3Tqbb2" id="7Nm35wsyDKD" role="3zrR0E">
+                          <ref role="ehGHo" to="1btx:7Nm35wsun$p" resolve="DummyDelegate" />
                         </node>
                       </node>
                     </node>
@@ -1883,6 +1899,26 @@
                         <node concept="3GMtW1" id="3ouNayfGCMY" role="2Oq$k0" />
                         <node concept="2DeJnW" id="3ouNayfGCMZ" role="2OqNvi">
                           <ref role="1_rbq0" to="1btx:1h$q6rwn4fM" resolve="StringDelegate" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eNFk2" id="7Nm35wsyE5y" role="3eNLev">
+                  <node concept="2OqwBi" id="7Nm35wsyE5z" role="3eO9$A">
+                    <node concept="3GLrbK" id="7Nm35wsyE5$" role="2Oq$k0" />
+                    <node concept="1mIQ4w" id="7Nm35wsyE5_" role="2OqNvi">
+                      <node concept="chp4Y" id="7Nm35wsyEbv" role="cj9EA">
+                        <ref role="cht4Q" to="1btx:7Nm35wsun$p" resolve="DummyDelegate" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="7Nm35wsyE5B" role="3eOfB_">
+                    <node concept="3clFbF" id="7Nm35wsyE5C" role="3cqZAp">
+                      <node concept="2OqwBi" id="7Nm35wsyE5D" role="3clFbG">
+                        <node concept="3GMtW1" id="7Nm35wsyE5E" role="2Oq$k0" />
+                        <node concept="2DeJnW" id="7Nm35wsyE5F" role="2OqNvi">
+                          <ref role="1_rbq0" to="1btx:7Nm35wsun$p" resolve="DummyDelegate" />
                         </node>
                       </node>
                     </node>
@@ -3401,6 +3437,7 @@
     <node concept="382kZG" id="6ihoZu$guVu" role="lGtFl" />
   </node>
   <node concept="22mcaB" id="62e43W0YzZ3">
+    <property role="3GE5qa" value="delegates" />
     <ref role="aqKnT" to="1btx:1h$q6rwmHiT" resolve="IDelegate" />
     <node concept="22hDWj" id="7UdH_jFR0ey" role="22hAXT" />
     <node concept="2F$Pav" id="62e43W0YzZ5" role="3ft7WO">
@@ -3922,6 +3959,20 @@
       </node>
     </node>
     <node concept="2VfDsV" id="6ihoZu$guVy" role="3ft7WO" />
+  </node>
+  <node concept="24kQdi" id="7Nm35wsunH6">
+    <property role="3GE5qa" value="delegates" />
+    <ref role="1XX52x" to="1btx:7Nm35wsun$p" resolve="DummyDelegate" />
+    <node concept="3EZMnI" id="7Nm35wsunIj" role="2wV5jI">
+      <node concept="2iRfu4" id="7Nm35wsunIk" role="2iSdaV" />
+      <node concept="PMmxH" id="7Nm35wsyEYf" role="3EZMnx">
+        <ref role="PMmxG" node="pQ21WNlsXr" resolve="DelegateMenuComponent" />
+      </node>
+      <node concept="3F0ifn" id="7Nm35wsunIo" role="3EZMnx">
+        <property role="3F0ifm" value=" " />
+        <ref role="1k5W1q" to="tpen:hFDgi_W" resolve="Semicolon" />
+      </node>
+    </node>
   </node>
 </model>
 
