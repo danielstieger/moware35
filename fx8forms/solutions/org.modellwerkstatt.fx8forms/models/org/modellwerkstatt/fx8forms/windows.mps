@@ -8983,6 +8983,22 @@
     <node concept="3uibUv" id="2qrl3a2o7Oy" role="1zkMxy">
       <ref role="3uigEE" to="1e0c:69JiVbyVOt3" resolve="BaseUiFactory" />
     </node>
+    <node concept="3clFb_" id="7Nm35wtJkE1" role="jymVt">
+      <property role="TrG5h" value="createDummyEditor" />
+      <node concept="3uibUv" id="7Nm35wtJkE2" role="3clF45">
+        <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+      </node>
+      <node concept="3Tm1VV" id="7Nm35wtJkE3" role="1B3o_S" />
+      <node concept="3clFbS" id="7Nm35wtJkE5" role="3clF47">
+        <node concept="3clFbF" id="7Nm35wtJnxy" role="3cqZAp">
+          <node concept="2ShNRf" id="7Nm35wtJnxw" role="3clFbG">
+            <node concept="1pGfFk" id="7Nm35wtJwj6" role="2ShVmc">
+              <ref role="37wK5l" to="qhmq:7Nm35wtJoHf" resolve="FX8DummyEditor" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2bCatzz6vPy">
     <property role="TrG5h" value="FX8MenuItem" />

@@ -8722,6 +8722,22 @@
     <node concept="3uibUv" id="4IByiy88EDL" role="1zkMxy">
       <ref role="3uigEE" to="1e0c:69JiVbyVOt3" resolve="BaseUiFactory" />
     </node>
+    <node concept="3clFb_" id="7Nm35wtUntD" role="jymVt">
+      <property role="TrG5h" value="createDummyEditor" />
+      <node concept="3uibUv" id="7Nm35wtUntE" role="3clF45">
+        <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+      </node>
+      <node concept="3Tm1VV" id="7Nm35wtUntF" role="1B3o_S" />
+      <node concept="3clFbS" id="7Nm35wtUntH" role="3clF47">
+        <node concept="3clFbF" id="7Nm35wtUpTE" role="3cqZAp">
+          <node concept="2ShNRf" id="7Nm35wtUpTC" role="3clFbG">
+            <node concept="1pGfFk" id="7Nm35wtUFZC" role="2ShVmc">
+              <ref role="37wK5l" to="8ers:7Nm35wtUrFB" resolve="VDummyEditor" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4QTIUTClCwd">
     <property role="TrG5h" value="VHotkeyHelper" />

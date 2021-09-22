@@ -2695,6 +2695,53 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="7Nm35wtXgq$" role="jymVt">
+      <property role="TrG5h" value="createDummyEditor" />
+      <node concept="3uibUv" id="7Nm35wtXgq_" role="3clF45">
+        <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+      </node>
+      <node concept="3Tm1VV" id="7Nm35wtXgqA" role="1B3o_S" />
+      <node concept="3clFbS" id="7Nm35wtXgqD" role="3clF47">
+        <node concept="3cpWs8" id="7Nm35wtXyar" role="3cqZAp">
+          <node concept="3cpWsn" id="7Nm35wtXyas" role="3cpWs9">
+            <property role="TrG5h" value="txt" />
+            <node concept="3uibUv" id="7Nm35wtXyat" role="1tU5fm">
+              <ref role="3uigEE" node="46JJF8ILyze" resolve="TextEditor" />
+            </node>
+            <node concept="2ShNRf" id="7Nm35wtX$uI" role="33vP2m">
+              <node concept="1pGfFk" id="7Nm35wtX$sS" role="2ShVmc">
+                <ref role="37wK5l" node="46JJF8ILG2e" resolve="TextEditor" />
+                <node concept="37vLTw" id="7Nm35wtX$$u" role="37wK5m">
+                  <ref role="3cqZAo" node="19VJYqAtL_7" resolve="textEditor" />
+                </node>
+                <node concept="3cmrfG" id="7Nm35wtX$BV" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7Nm35wtXDDl" role="3cqZAp">
+          <node concept="2OqwBi" id="7Nm35wtXETB" role="3clFbG">
+            <node concept="37vLTw" id="7Nm35wtXDDj" role="2Oq$k0">
+              <ref role="3cqZAo" node="7Nm35wtXyas" resolve="txt" />
+            </node>
+            <node concept="liA8E" id="7Nm35wtXG5V" role="2OqNvi">
+              <ref role="37wK5l" node="46JJF8IMpjb" resolve="setEnabled" />
+              <node concept="3clFbT" id="7Nm35wtXGab" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7Nm35wtXmvC" role="3cqZAp">
+          <node concept="37vLTw" id="7Nm35wtXBKN" role="3cqZAk">
+            <ref role="3cqZAo" node="7Nm35wtXyas" resolve="txt" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7Nm35wtXgqE" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3pVc9XTQAco" role="jymVt" />
     <node concept="2tJIrI" id="3pVc9XTQAih" role="jymVt" />
     <node concept="2tJIrI" id="3pVc9XTQAob" role="jymVt" />
