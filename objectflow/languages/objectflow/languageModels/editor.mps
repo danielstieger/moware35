@@ -2569,6 +2569,10 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="3F0ifn" id="6e3ErBU0tk8" role="3EZMnx">
+          <property role="3F0ifm" value="// do not use preconditions in page init (except warnings)" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        </node>
         <node concept="3F1sOY" id="1Csx3LqtqVq" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:1Csx3LqtqVo" resolve="pageInit" />
           <node concept="pVoyu" id="1Csx3LqtqVr" role="3F10Kt">
