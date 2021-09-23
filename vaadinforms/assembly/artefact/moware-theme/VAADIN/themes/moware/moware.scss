@@ -63,6 +63,13 @@
 		color: $mo-max-borderclr; */
 		color: $mo-flag-label-color;
 	}
+    
+    .mo-flaglabel-multiline {
+    line-height: 1.1em !important;
+    padding-left: ($v-unit-size / 9);
+    font-weight: bold;
+    }
+
 
 	.mo-lablespace {
 		margin-left: 20px;
@@ -77,10 +84,12 @@
 		border-radius: 0px !important;
 	}
 
+    /* no longer used .... 23.9.21 */
 	.mo-flaglabel-error {
 		color: $v-error-indicator-color !important;
 	}
-
+	
+   /* no longer used .... 23.9.21 */
   .mo-flaglabel-multiline-error {
     line-height: 1.1em !important;
     padding-left: ($v-unit-size / 9);

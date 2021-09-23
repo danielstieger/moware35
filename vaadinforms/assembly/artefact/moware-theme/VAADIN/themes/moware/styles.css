@@ -13099,6 +13099,12 @@ div.v-layout.v-horizontal.v-widget {
 	color: #454545;
 }
 
+.moware .mo-flaglabel-multiline {
+	line-height: 1.1em !important;
+	padding-left: 2.66667px;
+	font-weight: bold;
+}
+
 .moware .mo-lablespace {
 	margin-left: 20px;
 	margin-top: 20px;
