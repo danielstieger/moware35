@@ -540,6 +540,51 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4ChE6YfkFmO" role="jymVt" />
+    <node concept="3clFb_" id="2TtvlLCLpgI" role="jymVt">
+      <property role="TrG5h" value="batchInsert" />
+      <node concept="37vLTG" id="2TtvlLCLpgJ" role="3clF46">
+        <property role="TrG5h" value="listOfEntities" />
+        <node concept="3uibUv" id="2TtvlLCLrXO" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="16syzq" id="2TtvlLCLsfp" role="11_B2D">
+            <ref role="16sUi3" node="Kou8Lehl0V" resolve="Entity" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2TtvlLCLpgL" role="3clF46">
+        <property role="TrG5h" value="evals" />
+        <node concept="10Q1$e" id="2TtvlLCLpgM" role="1tU5fm">
+          <node concept="3uibUv" id="2TtvlLCLpgN" role="10Q1$1">
+            <ref role="3uigEE" node="5KMLUmC7AGy" resolve="IM3DynamicTableEvaluator" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2TtvlLCLpgO" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="2TtvlLCLpgP" role="1tU5fm">
+          <ref role="3uigEE" node="2P7gGuyliuf" resolve="IM3Session" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2TtvlLCLpgQ" role="3clF46">
+        <property role="TrG5h" value="audit" />
+        <node concept="10P_77" id="2TtvlLCLpgR" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2TtvlLCLpgS" role="3clF46">
+        <property role="TrG5h" value="debugTextOrNull" />
+        <node concept="3uibUv" id="2TtvlLCLpgT" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2TtvlLCLpgU" role="3clF45" />
+      <node concept="3Tm1VV" id="2TtvlLCLpgV" role="1B3o_S" />
+      <node concept="3clFbS" id="2TtvlLCLpgW" role="3clF47" />
+      <node concept="3uibUv" id="2TtvlLCLpgX" role="Sfmx6">
+        <ref role="3uigEE" to="ebvv:~DataAccessException" resolve="DataAccessException" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2TtvlLCLpao" role="jymVt" />
+    <node concept="2tJIrI" id="2TtvlLAa8aG" role="jymVt" />
+    <node concept="2tJIrI" id="2TtvlLAa84p" role="jymVt" />
     <node concept="3clFb_" id="2Oo32eoLopz" role="jymVt">
       <property role="TrG5h" value="fieldsForSelect" />
       <node concept="17QB3L" id="2Oo32eoLopD" role="3clF45" />
@@ -8407,6 +8452,21 @@
         <node concept="17QB3L" id="4GRUFlpFS4C" role="1tU5fm" />
       </node>
     </node>
+    <node concept="3clFb_" id="2TtvlLCSlU6" role="jymVt">
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="queryForListOfKey" />
+      <node concept="3clFbS" id="2TtvlLCSlU7" role="3clF47" />
+      <node concept="3Tm1VV" id="2TtvlLCSlU8" role="1B3o_S" />
+      <node concept="17QB3L" id="2TtvlLCSlU9" role="3clF45" />
+      <node concept="37vLTG" id="2TtvlLCSlUa" role="3clF46">
+        <property role="TrG5h" value="sequenceName" />
+        <node concept="17QB3L" id="2TtvlLCSlUb" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2TtvlLCSlWv" role="3clF46">
+        <property role="TrG5h" value="num" />
+        <node concept="10Oyi0" id="2TtvlLCSlY1" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="3clFb_" id="1YSLAaBz9w6" role="jymVt">
       <property role="TrG5h" value="needsSequenceSelectPre" />
       <node concept="10P_77" id="1YSLAaBzsj4" role="3clF45" />
@@ -8551,6 +8611,49 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="2TtvlLCSk2v" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="queryForListOfKey" />
+      <node concept="3Tm1VV" id="2TtvlLCSk2w" role="1B3o_S" />
+      <node concept="17QB3L" id="2TtvlLCSk2x" role="3clF45" />
+      <node concept="37vLTG" id="2TtvlLCSk2y" role="3clF46">
+        <property role="TrG5h" value="sequenceName" />
+        <node concept="17QB3L" id="2TtvlLCSk2z" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2TtvlLCSkXu" role="3clF46">
+        <property role="TrG5h" value="num" />
+        <node concept="10Oyi0" id="2TtvlLCSl3F" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2TtvlLCSk2$" role="3clF47">
+        <node concept="3clFbF" id="2TtvlLCSk2_" role="3cqZAp">
+          <node concept="3cpWs3" id="2TtvlLCSlAt" role="3clFbG">
+            <node concept="Xl_RD" id="2TtvlLCSlGI" role="3uHU7w">
+              <property role="Xl_RC" value=")" />
+            </node>
+            <node concept="3cpWs3" id="2TtvlLCSkRq" role="3uHU7B">
+              <node concept="3cpWs3" id="2TtvlLCSk2A" role="3uHU7B">
+                <node concept="3cpWs3" id="2TtvlLCSk2C" role="3uHU7B">
+                  <node concept="37vLTw" id="2TtvlLCSk2D" role="3uHU7w">
+                    <ref role="3cqZAo" node="2TtvlLCSk2y" resolve="sequenceName" />
+                  </node>
+                  <node concept="Xl_RD" id="2TtvlLCSk2E" role="3uHU7B">
+                    <property role="Xl_RC" value="SELECT " />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="2TtvlLCSk2B" role="3uHU7w">
+                  <property role="Xl_RC" value=".NEXTVAL FROM (SELECT level FROM DUAL CONNECT BY level &lt;= " />
+                </node>
+              </node>
+              <node concept="37vLTw" id="2TtvlLCSl6k" role="3uHU7w">
+                <ref role="3cqZAo" node="2TtvlLCSkXu" resolve="num" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2TtvlLCSjWE" role="jymVt" />
   </node>
   <node concept="312cEu" id="1YSLAaBzspJ">
     <property role="TrG5h" value="MMMySqlDescription" />
@@ -8641,9 +8744,32 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="1VxIuFTBzKm" role="jymVt" />
-    <node concept="2tJIrI" id="1VxIuFTBzKS" role="jymVt" />
-    <node concept="2tJIrI" id="1VxIuFTBzLr" role="jymVt" />
+    <node concept="3clFb_" id="2TtvlLCSmgZ" role="jymVt">
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="queryForListOfKey" />
+      <node concept="3Tm1VV" id="2TtvlLCSmh1" role="1B3o_S" />
+      <node concept="17QB3L" id="2TtvlLCSmh2" role="3clF45" />
+      <node concept="37vLTG" id="2TtvlLCSmh3" role="3clF46">
+        <property role="TrG5h" value="sequenceName" />
+        <node concept="17QB3L" id="2TtvlLCSmh4" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2TtvlLCSmh5" role="3clF46">
+        <property role="TrG5h" value="num" />
+        <node concept="10Oyi0" id="2TtvlLCSmh6" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2TtvlLCSmh7" role="3clF47">
+        <node concept="YS8fn" id="2TtvlLCSmyD" role="3cqZAp">
+          <node concept="2ShNRf" id="2TtvlLCSmzo" role="YScLw">
+            <node concept="1pGfFk" id="2TtvlLCSnYN" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="2TtvlLCSnZh" role="37wK5m">
+                <property role="Xl_RC" value="Not implemented yet." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="1YSLAaBzsq4" role="1B3o_S" />
     <node concept="3uibUv" id="1YSLAaBzsq5" role="EKbjA">
       <ref role="3uigEE" node="1YSLAaBz9tw" resolve="IM3DatabaseDescription" />

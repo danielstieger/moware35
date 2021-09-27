@@ -1366,5 +1366,13 @@
     <property role="3GE5qa" value="L2" />
     <property role="TrG5h" value="L2RTComponentCall" />
   </node>
+  <node concept="1TIwiD" id="2TtvlLE_JZL">
+    <property role="EcuMT" value="3340964334457520113" />
+    <property role="3GE5qa" value="save" />
+    <property role="TrG5h" value="BatchSaveOption" />
+    <property role="34LRSv" value="BATCH" />
+    <property role="R4oN_" value="use batch functionality" />
+    <ref role="1TJDcQ" node="hm5BQDIYNw" resolve="SaveOption" />
+  </node>
 </model>
 
