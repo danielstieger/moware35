@@ -582,9 +582,50 @@
         <ref role="3uigEE" to="ebvv:~DataAccessException" resolve="DataAccessException" />
       </node>
     </node>
+    <node concept="3clFb_" id="5jBG_EMSTSu" role="jymVt">
+      <property role="TrG5h" value="batchUpdate" />
+      <node concept="37vLTG" id="5jBG_EMSTSv" role="3clF46">
+        <property role="TrG5h" value="listOfEntities" />
+        <node concept="3uibUv" id="5jBG_EMSTSw" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="16syzq" id="5jBG_EMSTSx" role="11_B2D">
+            <ref role="16sUi3" node="Kou8Lehl0V" resolve="Entity" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5jBG_EMSTSy" role="3clF46">
+        <property role="TrG5h" value="evals" />
+        <node concept="10Q1$e" id="5jBG_EMSTSz" role="1tU5fm">
+          <node concept="3uibUv" id="5jBG_EMSTS$" role="10Q1$1">
+            <ref role="3uigEE" node="5KMLUmC7AGy" resolve="IM3DynamicTableEvaluator" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5jBG_EMSTS_" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="5jBG_EMSTSA" role="1tU5fm">
+          <ref role="3uigEE" node="2P7gGuyliuf" resolve="IM3Session" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5jBG_EMSTSB" role="3clF46">
+        <property role="TrG5h" value="audit" />
+        <node concept="10P_77" id="5jBG_EMSTSC" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5jBG_EMSTSD" role="3clF46">
+        <property role="TrG5h" value="debugTextOrNull" />
+        <node concept="3uibUv" id="5jBG_EMSTSE" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5jBG_EMSTSF" role="3clF45" />
+      <node concept="3Tm1VV" id="5jBG_EMSTSG" role="1B3o_S" />
+      <node concept="3clFbS" id="5jBG_EMSTSH" role="3clF47" />
+      <node concept="3uibUv" id="5jBG_EMSTSI" role="Sfmx6">
+        <ref role="3uigEE" to="ebvv:~DataAccessException" resolve="DataAccessException" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2TtvlLCLpao" role="jymVt" />
     <node concept="2tJIrI" id="2TtvlLAa8aG" role="jymVt" />
-    <node concept="2tJIrI" id="2TtvlLAa84p" role="jymVt" />
     <node concept="3clFb_" id="2Oo32eoLopz" role="jymVt">
       <property role="TrG5h" value="fieldsForSelect" />
       <node concept="17QB3L" id="2Oo32eoLopD" role="3clF45" />
@@ -8496,6 +8537,16 @@
       <node concept="3Tm1VV" id="1YSLAaBzrBb" role="1B3o_S" />
       <node concept="17QB3L" id="1YSLAaBzrAg" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="5jBG_EScliC" role="jymVt">
+      <property role="TrG5h" value="ensureOneRowHit" />
+      <node concept="37vLTG" id="5jBG_EScm$E" role="3clF46">
+        <property role="TrG5h" value="innerStatement" />
+        <node concept="17QB3L" id="5jBG_EScm$I" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="5jBG_ESclrY" role="3clF45" />
+      <node concept="3Tm1VV" id="5jBG_EScliF" role="1B3o_S" />
+      <node concept="3clFbS" id="5jBG_EScliG" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="1YSLAaBz9tx" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1YSLAaBzsbA">
@@ -8654,6 +8705,32 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2TtvlLCSjWE" role="jymVt" />
+    <node concept="3clFb_" id="5jBG_EScl_$" role="jymVt">
+      <property role="TrG5h" value="ensureOneRowHit" />
+      <node concept="37vLTG" id="5jBG_EScm2t" role="3clF46">
+        <property role="TrG5h" value="innerStatement" />
+        <node concept="17QB3L" id="5jBG_EScm9w" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="5jBG_EScl__" role="3clF45" />
+      <node concept="3Tm1VV" id="5jBG_EScl_A" role="1B3o_S" />
+      <node concept="3clFbS" id="5jBG_EScl_C" role="3clF47">
+        <node concept="3clFbF" id="5jBG_EScl_F" role="3cqZAp">
+          <node concept="3cpWs3" id="5jBG_ERVPxa" role="3clFbG">
+            <node concept="Xl_RD" id="5jBG_ERVPyF" role="3uHU7w">
+              <property role="Xl_RC" value="; IF SQL%%ROWCOUNT &lt;&gt; 1 THEN RAISE_APPLICATION_ERROR(-20001, 'Expected to update one row for given key. Updated ' || SQL%%ROWCOUNT || ' on ....'); END IF; END;" />
+            </node>
+            <node concept="3cpWs3" id="5jBG_ERVOsj" role="3uHU7B">
+              <node concept="Xl_RD" id="5jBG_ERVPdH" role="3uHU7B">
+                <property role="Xl_RC" value="BEGIN " />
+              </node>
+              <node concept="37vLTw" id="5jBG_EScJCs" role="3uHU7w">
+                <ref role="3cqZAo" node="5jBG_EScm2t" resolve="innerStatement" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="1YSLAaBzspJ">
     <property role="TrG5h" value="MMMySqlDescription" />
@@ -8773,6 +8850,27 @@
     <node concept="3Tm1VV" id="1YSLAaBzsq4" role="1B3o_S" />
     <node concept="3uibUv" id="1YSLAaBzsq5" role="EKbjA">
       <ref role="3uigEE" node="1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+    </node>
+    <node concept="3clFb_" id="5jBG_EScmZi" role="jymVt">
+      <property role="TrG5h" value="ensureOneRowHit" />
+      <node concept="37vLTG" id="5jBG_EScmZj" role="3clF46">
+        <property role="TrG5h" value="innerStatement" />
+        <node concept="17QB3L" id="5jBG_EScmZk" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="5jBG_EScmZl" role="3clF45" />
+      <node concept="3Tm1VV" id="5jBG_EScmZm" role="1B3o_S" />
+      <node concept="3clFbS" id="5jBG_EScmZo" role="3clF47">
+        <node concept="YS8fn" id="5jBG_EScnpz" role="3cqZAp">
+          <node concept="2ShNRf" id="5jBG_EScnp$" role="YScLw">
+            <node concept="1pGfFk" id="5jBG_EScnp_" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="5jBG_EScnpA" role="37wK5m">
+                <property role="Xl_RC" value="Not implemented yet." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="3HP615" id="1VxIuFTB$3v">

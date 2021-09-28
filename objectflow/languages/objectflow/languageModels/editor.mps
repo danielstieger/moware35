@@ -234,6 +234,9 @@
       <concept id="7291101478617127464" name="jetbrains.mps.lang.editor.structure.IExtensibleTransformationMenuPart" flags="ng" index="1joUw2">
         <child id="8954657570916349207" name="features" index="2jZA2a" />
       </concept>
+      <concept id="1165339175678" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceChild_Item" flags="ng" index="1jCaJL">
+        <property id="1165339639991" name="matchingText" index="1jDW6S" />
+      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
@@ -1509,18 +1512,33 @@
           <node concept="3F1sOY" id="2M2kZGoXcO6" role="2reSmM">
             <property role="1$x2rV" value="..." />
             <ref role="1NtTu8" to="un0u:50keBnSQl$0" resolve="shortDesc" />
+            <node concept="OXEIz" id="2w28E2WZv53" role="P5bDN">
+              <node concept="1jCaJL" id="2w28E2X2Z2A" role="OY2wv">
+                <property role="1jDW6S" value="&quot;" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2reCLy" id="2M2kZGoXcOg" role="2reCL6">
           <node concept="3F1sOY" id="2M2kZGoXcOs" role="2reSmM">
             <property role="1$x2rV" value="..." />
             <ref role="1NtTu8" to="un0u:50keBnSQl$4" resolve="longDesc" />
+            <node concept="OXEIz" id="2w28E2X4DBa" role="P5bDN">
+              <node concept="1jCaJL" id="2w28E2X4DBc" role="OY2wv">
+                <property role="1jDW6S" value="&quot;" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2reCLy" id="3du2WtJQj2V" role="2reCL6">
           <node concept="3F1sOY" id="3du2WtJQjz5" role="2reSmM">
             <property role="1$x2rV" value="..." />
             <ref role="1NtTu8" to="un0u:5ggda_nfSoQ" resolve="numberFormat" />
+            <node concept="OXEIz" id="2w28E2X4DBe" role="P5bDN">
+              <node concept="1jCaJL" id="2w28E2X4DBg" role="OY2wv">
+                <property role="1jDW6S" value="&quot;" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2reCLy" id="2M2kZGoXcOC" role="2reCL6">
@@ -1540,6 +1558,11 @@
           <node concept="3F1sOY" id="2M2kZGoXcPk" role="2reSmM">
             <property role="1$x2rV" value="..." />
             <ref role="1NtTu8" to="un0u:5t0K6TkrDRI" resolve="documentation" />
+            <node concept="OXEIz" id="2w28E2X4DBi" role="P5bDN">
+              <node concept="1jCaJL" id="2w28E2X4DBk" role="OY2wv">
+                <property role="1jDW6S" value="//" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
