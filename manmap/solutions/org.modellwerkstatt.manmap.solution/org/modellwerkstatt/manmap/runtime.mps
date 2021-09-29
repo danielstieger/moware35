@@ -8714,17 +8714,33 @@
       <node concept="17QB3L" id="5jBG_EScl__" role="3clF45" />
       <node concept="3Tm1VV" id="5jBG_EScl_A" role="1B3o_S" />
       <node concept="3clFbS" id="5jBG_EScl_C" role="3clF47">
-        <node concept="3clFbF" id="5jBG_EScl_F" role="3cqZAp">
-          <node concept="3cpWs3" id="5jBG_ERVPxa" role="3clFbG">
-            <node concept="Xl_RD" id="5jBG_ERVPyF" role="3uHU7w">
+        <node concept="3clFbF" id="6w_G7LXf6on" role="3cqZAp">
+          <node concept="37vLTw" id="6w_G7LXf6og" role="3clFbG">
+            <ref role="3cqZAo" node="5jBG_EScm2t" resolve="innerStatement" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6w_G7LXf5QM" role="jymVt">
+      <property role="TrG5h" value="ensureOneRowHitALTERNATIVE" />
+      <node concept="37vLTG" id="6w_G7LXf5QN" role="3clF46">
+        <property role="TrG5h" value="innerStatement" />
+        <node concept="17QB3L" id="6w_G7LXf5QO" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="6w_G7LXf5QP" role="3clF45" />
+      <node concept="3Tm1VV" id="6w_G7LXf5QQ" role="1B3o_S" />
+      <node concept="3clFbS" id="6w_G7LXf5QR" role="3clF47">
+        <node concept="3clFbF" id="6w_G7LXf5QS" role="3cqZAp">
+          <node concept="3cpWs3" id="6w_G7LXf5QT" role="3clFbG">
+            <node concept="Xl_RD" id="6w_G7LXf5QU" role="3uHU7w">
               <property role="Xl_RC" value="; IF SQL%%ROWCOUNT &lt;&gt; 1 THEN RAISE_APPLICATION_ERROR(-20001, 'Expected to update one row for given key. Updated ' || SQL%%ROWCOUNT || ' on ....'); END IF; END;" />
             </node>
-            <node concept="3cpWs3" id="5jBG_ERVOsj" role="3uHU7B">
-              <node concept="Xl_RD" id="5jBG_ERVPdH" role="3uHU7B">
+            <node concept="3cpWs3" id="6w_G7LXf5QV" role="3uHU7B">
+              <node concept="Xl_RD" id="6w_G7LXf5QW" role="3uHU7B">
                 <property role="Xl_RC" value="BEGIN " />
               </node>
-              <node concept="37vLTw" id="5jBG_EScJCs" role="3uHU7w">
-                <ref role="3cqZAo" node="5jBG_EScm2t" resolve="innerStatement" />
+              <node concept="37vLTw" id="6w_G7LXf5QX" role="3uHU7w">
+                <ref role="3cqZAo" node="6w_G7LXf5QN" resolve="innerStatement" />
               </node>
             </node>
           </node>

@@ -177,7 +177,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3 / moware11 2021.35 (bgs)" />
+          <property role="3MwjfP" value="MPS 2020.3 / moware11 2021.36 (batch)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -858,31 +858,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5cOCID51ccK" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51ccL" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51ccD" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51ccE" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="5cOCID51ccF" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51ccG" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="5cOCID51ccH" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51ccI" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="5cOCID51ccJ" role="2Ry0An">
-                          <property role="2Ry0Am" value="ojdbc14.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="5cOCID51ccT" role="3bR37C">
           <node concept="1BurEX" id="5cOCID51ccU" role="1SiIV1">
             <node concept="398BVA" id="5cOCID51ccM" role="1BurEY">
@@ -1193,6 +1168,31 @@
                         <property role="2Ry0Am" value="printing21" />
                         <node concept="2Ry0Ak" id="3uYHxPOETfK" role="2Ry0An">
                           <property role="2Ry0Am" value="pdfbox-app-2.0.24.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6w_G7LZgGEM" role="3bR37C">
+          <node concept="1BurEX" id="6w_G7LZgGEN" role="1SiIV1">
+            <node concept="398BVA" id="6w_G7LZgGEF" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="6w_G7LZgGEG" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="6w_G7LZgGEH" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6w_G7LZgGEI" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="6w_G7LZgGEJ" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="6w_G7LZgGEK" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="6w_G7LZgGEL" role="2Ry0An">
+                          <property role="2Ry0Am" value="ojdbc8.jar" />
                         </node>
                       </node>
                     </node>

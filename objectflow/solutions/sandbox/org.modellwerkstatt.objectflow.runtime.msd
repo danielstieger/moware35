@@ -33,7 +33,6 @@
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/jars/richclient/mailapi.jar" />
-    <stubModelEntry path="${module}/jars/richclient/ojdbc14.jar" />
     <stubModelEntry path="${module}/jars/richclient/smtp.jar" />
     <stubModelEntry path="${module}/jars/servletclient/servlet-api.jar" />
     <stubModelEntry path="${module}/jars/slf4j-log4j12-1.7.25.jar" />
@@ -54,6 +53,7 @@
     <stubModelEntry path="${module}/jars/printing21/avalon-framework-impl-4.3.1.jar" />
     <stubModelEntry path="${module}/jars/basis/jackson-core-2.12.3.jar" />
     <stubModelEntry path="${module}/jars/printing21/pdfbox-app-2.0.24.jar" />
+    <stubModelEntry path="${module}/jars/richclient/ojdbc8.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
