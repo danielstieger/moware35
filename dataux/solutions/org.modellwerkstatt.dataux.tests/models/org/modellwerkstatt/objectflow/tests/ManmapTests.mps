@@ -18,6 +18,7 @@
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.runtime/)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
     <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)" />
+    <import index="ebvv" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.dao(org.modellwerkstatt.manmap.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -401,9 +402,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -628,6 +626,7 @@
         <child id="1209727996925" name="ascending" index="2Dq5b$" />
       </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
+      <concept id="1235566831861" name="jetbrains.mps.baseLanguage.collections.structure.AllOperation" flags="nn" index="2HxqBE" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -27687,7 +27686,7 @@
         <node concept="1gVbGN" id="38$Wln8ZjpI" role="3cqZAp">
           <node concept="3eOSWO" id="38$Wln8ZlQL" role="1gVkn0">
             <node concept="3cmrfG" id="38$Wln8ZlQO" role="3uHU7w">
-              <property role="3cmrfH" value="400" />
+              <property role="3cmrfH" value="100" />
             </node>
             <node concept="2YIFZM" id="38$Wln95_jU" role="3uHU7B">
               <ref role="37wK5l" to="wyt6:~Math.abs(long)" resolve="abs" />
@@ -34708,11 +34707,6 @@
       </node>
       <node concept="10Oyi0" id="6fvTt2jOXpI" role="2RkE6I" />
       <node concept="jyRCx" id="4HJH2PnkkWo" role="0orDa" />
-      <node concept="jyRCY" id="4HJH2PnkkWp" role="0orDa">
-        <node concept="Xl_RD" id="4HJH2PnkkWq" role="jyRCS">
-          <property role="Xl_RC" value="S_" />
-        </node>
-      </node>
     </node>
     <node concept="1bOX9e" id="4HJH2Pnklrz" role="TxmiU">
       <property role="2RkwnN" value="totalAmount" />
@@ -34900,11 +34894,6 @@
       </node>
       <node concept="10Oyi0" id="4HJH2PnkkYq" role="2RkE6I" />
       <node concept="jyRCx" id="4HJH2PnkkYr" role="0orDa" />
-      <node concept="jyRCY" id="4HJH2PnkkYs" role="0orDa">
-        <node concept="Xl_RD" id="4HJH2PnkkYt" role="jyRCS">
-          <property role="Xl_RC" value="S_" />
-        </node>
-      </node>
     </node>
     <node concept="1bOX9e" id="4HJH2PnkkZt" role="TxmiU">
       <property role="2RkwnN" value="backRef" />
@@ -34996,6 +34985,11 @@
         <ref role="12nL8z" node="4HJH2PnkkW9" resolve="id" />
         <node concept="Xl_RD" id="6fvTt2jOXsx" role="12k7lF">
           <property role="Xl_RC" value="KEY_ID" />
+        </node>
+        <node concept="jyRCY" id="1gBvvbtPpMU" role="jzqmW">
+          <node concept="Xl_RD" id="1gBvvbtPpMV" role="jyRCS">
+            <property role="Xl_RC" value="S_MMT_INVOICE" />
+          </node>
         </node>
       </node>
       <node concept="12nEzJ" id="4HJH2PnkoJN" role="3caO6$">
@@ -35097,6 +35091,43 @@
         </node>
       </node>
       <node concept="Xl_RD" id="4HJH2PnkoP7" role="12gAQd">
+        <property role="Xl_RC" value="MMT_INVOICEPOS" />
+      </node>
+    </node>
+    <node concept="12nEzA" id="1gBvvbse8sQ" role="12nEwW">
+      <property role="TrG5h" value="MapNewInvoicePosNOKEY" />
+      <ref role="12nOxz" node="4HJH2PnkkY5" resolve="NewInvoicePos" />
+      <node concept="12nEzJ" id="1gBvvbse8sR" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnkkYc" resolve="id" />
+        <node concept="Xl_RD" id="1gBvvbse8sS" role="12k7lF">
+          <property role="Xl_RC" value="KEY_ID" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="1gBvvbse8sV" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnklF_" resolve="posAvalue" />
+        <node concept="Xl_RD" id="1gBvvbse8sW" role="12k7lF">
+          <property role="Xl_RC" value="NUM_VALUE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="1gBvvbse8sX" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnklFI" resolve="posText" />
+        <node concept="Xl_RD" id="1gBvvbse8sY" role="12k7lF">
+          <property role="Xl_RC" value="TXT_POSTXT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="1gBvvbse8sZ" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnklFR" resolve="date" />
+        <node concept="Xl_RD" id="1gBvvbse8t0" role="12k7lF">
+          <property role="Xl_RC" value="DAT_LOCALDATE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="1gBvvbse8t1" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnkkZt" resolve="backRef" />
+        <node concept="Xl_RD" id="1gBvvbse8t2" role="12k7lF">
+          <property role="Xl_RC" value="KEY_INVOICE" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="1gBvvbse8t3" role="12gAQd">
         <property role="Xl_RC" value="MMT_INVOICEPOS" />
       </node>
     </node>
@@ -35234,6 +35265,31 @@
             </node>
           </node>
           <node concept="14MSaH" id="5jBG_EQbeIx" role="2HVurX" />
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="1gBvvbse8Ja" role="jymVt">
+      <property role="TrG5h" value="checkinPosForceInsertKeyGiven" />
+      <property role="wbJLN" value="75DS814r42t/CHECKIN" />
+      <node concept="37vLTG" id="1gBvvbse8Jb" role="3clF46">
+        <property role="TrG5h" value="positions" />
+        <node concept="_YKpA" id="1gBvvbse9Qz" role="1tU5fm">
+          <node concept="3uibUv" id="1gBvvbseciT" role="_ZDj9">
+            <ref role="3uigEE" node="4HJH2PnkkY5" resolve="NewInvoicePos" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1gBvvbse8Jd" role="3clF45" />
+      <node concept="3Tm1VV" id="1gBvvbse8Je" role="1B3o_S" />
+      <node concept="3clFbS" id="1gBvvbse8Jf" role="3clF47">
+        <node concept="P1rGi" id="1gBvvbse8J$" role="3cqZAp">
+          <property role="2tzffV" value="true" />
+          <ref role="P14SV" node="1gBvvbse8sQ" resolve="MapNewInvoicePosNOKEY" />
+          <node concept="37vLTw" id="1gBvvbseboM" role="P1rGp">
+            <ref role="3cqZAo" node="1gBvvbse8Jb" resolve="positions" />
+          </node>
+          <node concept="14MSaH" id="1gBvvbse8JC" role="2HVurX" />
+          <node concept="2Mswnz" id="1gBvvbsebQf" role="2HVurX" />
         </node>
       </node>
     </node>
@@ -49260,6 +49316,235 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="1gBvvbrYSPC" role="3yMuLx">
+      <property role="TrG5h" value="Batch Insert: Provoke exception, field to long - check batchUpdateException" />
+      <node concept="3cqZAl" id="1gBvvbrYSPD" role="3clF45" />
+      <node concept="3clFbS" id="1gBvvbrYSPE" role="3clF47">
+        <node concept="3cpWs8" id="1gBvvbrYSPF" role="3cqZAp">
+          <node concept="3cpWsn" id="1gBvvbrYSPG" role="3cpWs9">
+            <property role="TrG5h" value="newInvoice" />
+            <node concept="3uibUv" id="1gBvvbrYSPH" role="1tU5fm">
+              <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="1odsa" id="1gBvvbrYSPI" role="33vP2m">
+              <ref role="1ods_" node="4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <ref role="37wK5l" node="4nH4LOF0NAH" resolve="createInvoiceGraphWith4Positions_NOTonDB" />
+              <node concept="Xl_RD" id="1gBvvbrYSPJ" role="37wK5m">
+                <property role="Xl_RC" value="toolong" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1gBvvbrYSPK" role="3cqZAp" />
+        <node concept="3cpWs8" id="1gBvvbs08pn" role="3cqZAp">
+          <node concept="3cpWsn" id="1gBvvbs08pq" role="3cpWs9">
+            <property role="TrG5h" value="RANDOM" />
+            <node concept="17QB3L" id="1gBvvbs08pl" role="1tU5fm" />
+            <node concept="Xl_RD" id="1gBvvbs0bsI" role="33vP2m">
+              <property role="Xl_RC" value="1234567890" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1gBvvbs0RB$" role="3cqZAp">
+          <node concept="3cpWsn" id="1gBvvbs0RBB" role="3cpWs9">
+            <property role="TrG5h" value="RANDOM_60" />
+            <node concept="17QB3L" id="1gBvvbs0RBy" role="1tU5fm" />
+            <node concept="3cpWs3" id="1gBvvbs0CQn" role="33vP2m">
+              <node concept="37vLTw" id="1gBvvbs0FwV" role="3uHU7w">
+                <ref role="3cqZAo" node="1gBvvbs08pq" resolve="RANDOM" />
+              </node>
+              <node concept="3cpWs3" id="1gBvvbs0z_G" role="3uHU7B">
+                <node concept="3cpWs3" id="1gBvvbs0r8d" role="3uHU7B">
+                  <node concept="3cpWs3" id="1gBvvbs0meP" role="3uHU7B">
+                    <node concept="3cpWs3" id="1gBvvbs0gQ_" role="3uHU7B">
+                      <node concept="37vLTw" id="1gBvvbs0ebP" role="3uHU7B">
+                        <ref role="3cqZAo" node="1gBvvbs08pq" resolve="RANDOM" />
+                      </node>
+                      <node concept="37vLTw" id="1gBvvbs0js5" role="3uHU7w">
+                        <ref role="3cqZAo" node="1gBvvbs08pq" resolve="RANDOM" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="1gBvvbs0oSM" role="3uHU7w">
+                      <ref role="3cqZAo" node="1gBvvbs08pq" resolve="RANDOM" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="1gBvvbs0tMn" role="3uHU7w">
+                    <ref role="3cqZAo" node="1gBvvbs08pq" resolve="RANDOM" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1gBvvbs0Ag3" role="3uHU7w">
+                  <ref role="3cqZAo" node="1gBvvbs08pq" resolve="RANDOM" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1gBvvbrZNH0" role="3cqZAp">
+          <node concept="37vLTI" id="1gBvvbrZXzg" role="3clFbG">
+            <node concept="2OqwBi" id="1gBvvbrZUwc" role="37vLTJ">
+              <node concept="2OqwBi" id="1gBvvbrZRxD" role="2Oq$k0">
+                <node concept="2OqwBi" id="1gBvvbrZQR9" role="2Oq$k0">
+                  <node concept="37vLTw" id="1gBvvbrZNGY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1gBvvbrYSPG" resolve="newInvoice" />
+                  </node>
+                  <node concept="2S8uIT" id="1gBvvbrZR6i" role="2OqNvi">
+                    <ref role="2S8YL0" node="612_n8Hc$wy" resolve="positions" />
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="1gBvvbs6ZfK" role="2OqNvi" />
+              </node>
+              <node concept="2S8uIT" id="1gBvvbrZXhx" role="2OqNvi">
+                <ref role="2S8YL0" node="612_n8HcC5n" resolve="posText" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1gBvvbs0XDq" role="37vLTx">
+              <ref role="3cqZAo" node="1gBvvbs0RBB" resolve="RANDOM_60" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1gBvvbrYSPL" role="3cqZAp">
+          <node concept="1odsa" id="1gBvvbrYSPM" role="3clFbG">
+            <ref role="37wK5l" node="2TtvlLA9a5a" resolve="saveInvoicePosListBatch" />
+            <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+            <node concept="37vLTw" id="1gBvvbrYSPN" role="37wK5m">
+              <ref role="3cqZAo" node="1gBvvbrYSPG" resolve="newInvoice" />
+            </node>
+            <node concept="3clFbT" id="1gBvvbrYSPO" role="37wK5m" />
+          </node>
+          <node concept="16GPin" id="1gBvvbsecOC" role="lGtFl">
+            <ref role="16PnFS" to="rapu:~UncategorizedSQLException" resolve="UncategorizedSQLException" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1gBvvbs0KM1" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="1gBvvbsecPo" role="3yMuLx">
+      <property role="TrG5h" value="Batch Insert: Provoke exception, unique constraint failure - check batchUpdateException" />
+      <node concept="3cqZAl" id="1gBvvbsecPp" role="3clF45" />
+      <node concept="3clFbS" id="1gBvvbsecPq" role="3clF47">
+        <node concept="3cpWs8" id="1gBvvbsecPr" role="3cqZAp">
+          <node concept="3cpWsn" id="1gBvvbsecPs" role="3cpWs9">
+            <property role="TrG5h" value="newInvoice" />
+            <node concept="3uibUv" id="1gBvvbseU_I" role="1tU5fm">
+              <ref role="3uigEE" node="4HJH2PnkkW2" resolve="NewInvoice" />
+            </node>
+            <node concept="1odsa" id="1gBvvbsecPu" role="33vP2m">
+              <ref role="1ods_" node="4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <ref role="37wK5l" node="5jBG_EQbNbI" resolve="createNewInvoiceGraphWithNPositions_NOTonDB" />
+              <node concept="Xl_RD" id="1gBvvbsecPv" role="37wK5m">
+                <property role="Xl_RC" value="unique" />
+              </node>
+              <node concept="3cmrfG" id="1gBvvbsf15A" role="37wK5m">
+                <property role="3cmrfH" value="4" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1gBvvbsestl" role="3cqZAp" />
+        <node concept="3clFbF" id="1gBvvbsecPX" role="3cqZAp">
+          <node concept="1odsa" id="1gBvvbsecPY" role="3clFbG">
+            <ref role="1ods_" node="4HJH2PnNs0v" resolve="NewInvRepo" />
+            <ref role="37wK5l" node="5jBG_EQb3M9" resolve="checkinBatch" />
+            <node concept="37vLTw" id="1gBvvbsecPZ" role="37wK5m">
+              <ref role="3cqZAo" node="1gBvvbsecPs" resolve="newInvoice" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1gBvvbsecQ2" role="3cqZAp" />
+        <node concept="1gVbGN" id="1gBvvbsrrho" role="3cqZAp">
+          <node concept="2OqwBi" id="1gBvvbsrAex" role="1gVkn0">
+            <node concept="2OqwBi" id="1gBvvbsrwcu" role="2Oq$k0">
+              <node concept="37vLTw" id="1gBvvbsrtyl" role="2Oq$k0">
+                <ref role="3cqZAo" node="1gBvvbsecPs" resolve="newInvoice" />
+              </node>
+              <node concept="2S8uIT" id="1gBvvbsrz7k" role="2OqNvi">
+                <ref role="2S8YL0" node="4HJH2Pnklqx" resolve="positions" />
+              </node>
+            </node>
+            <node concept="2HxqBE" id="1gBvvbsrCyh" role="2OqNvi">
+              <node concept="1bVj0M" id="1gBvvbsrCyj" role="23t8la">
+                <node concept="3clFbS" id="1gBvvbsrCyk" role="1bW5cS">
+                  <node concept="3clFbF" id="1gBvvbsrCLe" role="3cqZAp">
+                    <node concept="3eOSWO" id="1gBvvbsrLLN" role="3clFbG">
+                      <node concept="3cmrfG" id="1gBvvbsrLLQ" role="3uHU7w">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="2OqwBi" id="1gBvvbsrFvV" role="3uHU7B">
+                        <node concept="37vLTw" id="1gBvvbsrCLd" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1gBvvbsrCyl" resolve="it" />
+                        </node>
+                        <node concept="2S8uIT" id="1gBvvbsrIoI" role="2OqNvi">
+                          <ref role="2S8YL0" node="4HJH2PnkkYc" resolve="id" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="1gBvvbsrCyl" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1gBvvbsrCym" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1gBvvbseyLQ" role="3cqZAp">
+          <node concept="2OqwBi" id="1gBvvbse_pS" role="3clFbG">
+            <node concept="2OqwBi" id="1gBvvbse$MK" role="2Oq$k0">
+              <node concept="37vLTw" id="1gBvvbsf3q9" role="2Oq$k0">
+                <ref role="3cqZAo" node="1gBvvbsecPs" resolve="newInvoice" />
+              </node>
+              <node concept="2S8uIT" id="1gBvvbsf5Bg" role="2OqNvi">
+                <ref role="2S8YL0" node="4HJH2Pnklqx" resolve="positions" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="1gBvvbseClM" role="2OqNvi">
+              <node concept="1bVj0M" id="1gBvvbseClO" role="23t8la">
+                <node concept="3clFbS" id="1gBvvbseClP" role="1bW5cS">
+                  <node concept="3clFbF" id="1gBvvbseCqK" role="3cqZAp">
+                    <node concept="d57v9" id="1gBvvbseJMc" role="3clFbG">
+                      <node concept="Xl_RD" id="1gBvvbseLVR" role="37vLTx">
+                        <property role="Xl_RC" value="_chg" />
+                      </node>
+                      <node concept="2OqwBi" id="1gBvvbseFbU" role="37vLTJ">
+                        <node concept="37vLTw" id="1gBvvbsf897" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1gBvvbseClQ" resolve="it" />
+                        </node>
+                        <node concept="2S8uIT" id="1gBvvbsfapk" role="2OqNvi">
+                          <ref role="2S8YL0" node="4HJH2PnklFI" resolve="posText" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="1gBvvbseClQ" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1gBvvbseClR" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1gBvvbseSqQ" role="3cqZAp">
+          <node concept="1odsa" id="1gBvvbseSqO" role="3clFbG">
+            <ref role="1ods_" node="4HJH2PnNs0v" resolve="NewInvRepo" />
+            <ref role="37wK5l" node="1gBvvbse8Ja" resolve="checkinPosForceInsertKeyGiven" />
+            <node concept="2OqwBi" id="1gBvvbsf3mB" role="37wK5m">
+              <node concept="37vLTw" id="1gBvvbsf3hW" role="2Oq$k0">
+                <ref role="3cqZAo" node="1gBvvbsecPs" resolve="newInvoice" />
+              </node>
+              <node concept="2S8uIT" id="1gBvvbsf3po" role="2OqNvi">
+                <ref role="2S8YL0" node="4HJH2Pnklqx" resolve="positions" />
+              </node>
+            </node>
+          </node>
+          <node concept="16GPin" id="1gBvvbteZzL" role="lGtFl">
+            <ref role="16PnFS" to="ebvv:~DuplicateKeyException" resolve="DuplicateKeyException" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1gBvvbseQfY" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="3yPF9F" id="5jBG_ERt9Fs" role="3yMuLx">
       <property role="TrG5h" value="Batch Update: simple update the changed newinvoice - simple update" />
       <node concept="3cqZAl" id="5jBG_ERt9Fu" role="3clF45" />
@@ -49513,6 +49798,9 @@
               <ref role="3cqZAo" node="5jBG_EQbf$J" resolve="newInvoice" />
             </node>
           </node>
+          <node concept="16GPin" id="1gBvvbtmQNg" role="lGtFl">
+            <ref role="16PnFS" to="rapu:~UncategorizedSQLException" resolve="UncategorizedSQLException" />
+          </node>
         </node>
         <node concept="3clFbH" id="5jBG_EQd7AI" role="3cqZAp" />
       </node>
@@ -49533,102 +49821,6 @@
       <node concept="3uibUv" id="6VW5G61xws4" role="1tU5fm">
         <ref role="3uigEE" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
       </node>
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxA" role="38MLOi">
-      <ref role="1Cak38" node="70qPrkCyg_r" resolve="Store and Load Invoices by Graph get/where" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxB" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0he1AQi" resolve="Update an Invoice and reload it again." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxC" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWj6Vb" resolve="Use join to load two different invoice graphs" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxD" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWjV3t" resolve="Use join to load two different invoice graphs, REVERSE" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxE" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWkPk2" resolve="Dirty flag should not be set when loading a graph" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxF" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWlDwB" resolve="Dirty flag should not be set when loading a graph, REVERSE" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxG" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeNKKb" resolve="Multiple saves should be easily possible (legacy?)" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxH" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0hedaHD" resolve="Delete and Insert changes object count by one." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxI" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWs3Wd" resolve="Store and Load Extended Invoices by Graph get/where (legacy)" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxJ" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0hdZJez" resolve="Use Extended Invoice to load from Invoice table" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxK" role="38MLOi">
-      <ref role="1Cak38" node="RffU3ztq7U" resolve="Reload Invoice again changes object." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxL" role="38MLOi">
-      <ref role="1Cak38" node="221r9bOXWIe" resolve="Deleting a readonly object results in an exception" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxM" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zrz6V" resolve="Changing a readonly object results in an exception" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxN" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zv8kn" resolve="Reloading an Invoice read only object results not in an exception" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxO" role="38MLOi">
-      <ref role="1Cak38" node="221r9bOZPAq" resolve="Deleting an non existing object should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxP" role="38MLOi">
-      <ref role="1Cak38" node="221r9bP1uw9" resolve="Get() an object with unknown id should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxQ" role="38MLOi">
-      <ref role="1Cak38" node="221r9bP2aYa" resolve="Double write with optimistic locking should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxR" role="38MLOi">
-      <ref role="1Cak38" node="RffU3z7Ydn" resolve="Store and reload a string key object." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxS" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zdIdp" resolve="Create, load save an entity with ValueObject Key." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxT" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zfP_D" resolve="Delete an entity with ValueObject Key." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxU" role="38MLOi">
-      <ref role="1Cak38" node="RffU3ziqj9" resolve="Create multiple account objects with same key and checkaut as list." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxV" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeR3Kk" resolve="Setting a BigDecimal Number to null should not lead to an exception." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxW" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeTegH" resolve="Setting a string to null should not lead to an exception." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxX" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeWwZ4" resolve="Saving an entity refering to unseaved entity leads to an exception" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxY" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeZEk$" resolve="Dirty on Reference if object not saved." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLxZ" role="38MLOi">
-      <ref role="1Cak38" node="35a9wK7Cbqy" resolve="Use Overwrite auto_id, that will gen an errer, since seq won t exist." />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLy0" role="38MLOi">
-      <ref role="1Cak38" node="6fvTt2kn2tT" resolve="Load NewInvoice Aggregate with key only backref" />
-    </node>
-    <node concept="1Cak35" id="2TtvlLHwLy1" role="38MLOi">
-      <ref role="1Cak38" node="6fvTt2kD_Ae" resolve="Load all invoices with new Aggregate mapping (keyonly backref)" />
-    </node>
-    <node concept="1Cak35" id="5jBG_EQG3te" role="38MLOi">
-      <ref role="1Cak38" node="2TtvlLA97Nz" resolve="Batch Insert: Save positions with list save command - simple insert" />
-    </node>
-    <node concept="1Cak35" id="5jBG_EQG3tf" role="38MLOi">
-      <ref role="1Cak38" node="2TtvlLA98oo" resolve="Batch Insert: Save positions with list save command - check performance)" />
-    </node>
-    <node concept="1Cak35" id="5jBG_EQG3tg" role="38MLOi">
-      <ref role="1Cak38" node="5jBG_EPUAAf" resolve="Batch Insert: Save positions with list save command - check dirty mechanism" />
-    </node>
-    <node concept="1Cak35" id="5jBG_ESJyOW" role="38MLOi">
-      <ref role="1Cak38" node="5jBG_ERt9Fs" resolve="Batch Update: simple update the changed newinvoice - simple update" />
     </node>
   </node>
   <node concept="2EH5hC" id="4wgjvSoeJVG">

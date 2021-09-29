@@ -392,5 +392,115 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="1gBvvbsrOZd">
+    <property role="3GE5qa" value="save" />
+    <property role="TrG5h" value="SaveWithMap_ToggleDebug" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:75DS814r5Ii" resolve="SaveWithMap" />
+    <node concept="2S6ZIM" id="1gBvvbsrOZe" role="2ZfVej">
+      <node concept="3clFbS" id="1gBvvbsrOZf" role="2VODD2">
+        <node concept="3clFbF" id="1gBvvbsrP49" role="3cqZAp">
+          <node concept="Xl_RD" id="1gBvvbsrP48" role="3clFbG">
+            <property role="Xl_RC" value="Toggle debug for save statement" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1gBvvbsrOZg" role="2ZfgGD">
+      <node concept="3clFbS" id="1gBvvbsrOZh" role="2VODD2">
+        <node concept="3clFbF" id="1gBvvbsrPck" role="3cqZAp">
+          <node concept="37vLTI" id="1gBvvbsrPXc" role="3clFbG">
+            <node concept="3fqX7Q" id="1gBvvbsrQ1u" role="37vLTx">
+              <node concept="2OqwBi" id="1gBvvbsrQ55" role="3fr31v">
+                <node concept="2Sf5sV" id="1gBvvbsrQ2a" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1gBvvbsrQqg" role="2OqNvi">
+                  <ref role="3TsBF5" to="r5tz:S3k7ajzUe9" resolve="debugMe" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1gBvvbsrPnu" role="37vLTJ">
+              <node concept="2Sf5sV" id="1gBvvbsrPcj" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1gBvvbsrPBQ" role="2OqNvi">
+                <ref role="3TsBF5" to="r5tz:S3k7ajzUe9" resolve="debugMe" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1gBvvbsrQB3">
+    <property role="3GE5qa" value="query" />
+    <property role="2ZfUl0" value="true" />
+    <property role="TrG5h" value="QueryFromMap_ToggleDebug" />
+    <ref role="2ZfgGC" to="r5tz:EYyuKpdz9q" resolve="QueryFromMap" />
+    <node concept="2S6ZIM" id="1gBvvbsrQB4" role="2ZfVej">
+      <node concept="3clFbS" id="1gBvvbsrQB5" role="2VODD2">
+        <node concept="3clFbF" id="1gBvvbsrQIN" role="3cqZAp">
+          <node concept="Xl_RD" id="1gBvvbsrQIM" role="3clFbG">
+            <property role="Xl_RC" value="Toggle debug for this query" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1gBvvbsrQB6" role="2ZfgGD">
+      <node concept="3clFbS" id="1gBvvbsrQB7" role="2VODD2">
+        <node concept="3clFbF" id="1gBvvbsrQQv" role="3cqZAp">
+          <node concept="37vLTI" id="1gBvvbsrRyL" role="3clFbG">
+            <node concept="3fqX7Q" id="1gBvvbsrRPS" role="37vLTx">
+              <node concept="2OqwBi" id="1gBvvbsrS6I" role="3fr31v">
+                <node concept="2Sf5sV" id="1gBvvbsrRUa" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1gBvvbsrSkx" role="2OqNvi">
+                  <ref role="3TsBF5" to="r5tz:7wLkuGB4T4V" resolve="debugMe" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1gBvvbsrR0l" role="37vLTJ">
+              <node concept="2Sf5sV" id="1gBvvbsrQQu" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1gBvvbsrRdE" role="2OqNvi">
+                <ref role="3TsBF5" to="r5tz:7wLkuGB4T4V" resolve="debugMe" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1gBvvbssjQO">
+    <property role="3GE5qa" value="save" />
+    <property role="TrG5h" value="DeleteWithMap_ToggleDebug" />
+    <ref role="2ZfgGC" to="r5tz:75DS814sa2p" resolve="DeleteWithMap" />
+    <node concept="2S6ZIM" id="1gBvvbssjQP" role="2ZfVej">
+      <node concept="3clFbS" id="1gBvvbssjQQ" role="2VODD2">
+        <node concept="3clFbF" id="1gBvvbssjVK" role="3cqZAp">
+          <node concept="Xl_RD" id="1gBvvbssjVJ" role="3clFbG">
+            <property role="Xl_RC" value="Toggle debug for delete" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1gBvvbssjQR" role="2ZfgGD">
+      <node concept="3clFbS" id="1gBvvbssjQS" role="2VODD2">
+        <node concept="3clFbF" id="1gBvvbssjXM" role="3cqZAp">
+          <node concept="37vLTI" id="1gBvvbsskIB" role="3clFbG">
+            <node concept="3fqX7Q" id="1gBvvbsskJj" role="37vLTx">
+              <node concept="2OqwBi" id="1gBvvbsskQw" role="3fr31v">
+                <node concept="2Sf5sV" id="1gBvvbsskN_" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1gBvvbsskRO" role="2OqNvi">
+                  <ref role="3TsBF5" to="r5tz:S3k7ajzTzs" resolve="debugMe" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1gBvvbssk8W" role="37vLTJ">
+              <node concept="2Sf5sV" id="1gBvvbssjXL" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1gBvvbsskph" role="2OqNvi">
+                <ref role="3TsBF5" to="r5tz:S3k7ajzTzs" resolve="debugMe" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
