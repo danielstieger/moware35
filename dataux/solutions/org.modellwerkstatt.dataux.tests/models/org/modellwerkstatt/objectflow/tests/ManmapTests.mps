@@ -402,9 +402,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -50713,111 +50710,6 @@
       <node concept="3uibUv" id="6VW5G61xws4" role="1tU5fm">
         <ref role="3uigEE" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
       </node>
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b3" role="38MLOi">
-      <ref role="1Cak38" node="70qPrkCyg_r" resolve="Store and Load Invoices by Graph get/where" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b4" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0he1AQi" resolve="Update an Invoice and reload it again." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b5" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWj6Vb" resolve="Use join to load two different invoice graphs" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b6" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWjV3t" resolve="Use join to load two different invoice graphs, REVERSE" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b7" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWkPk2" resolve="Dirty flag should not be set when loading a graph" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b8" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWlDwB" resolve="Dirty flag should not be set when loading a graph, REVERSE" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b9" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeNKKb" resolve="Multiple saves should be easily possible (legacy?)" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67ba" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0hedaHD" resolve="Delete and Insert changes object count by one." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bb" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWs3Wd" resolve="Store and Load Extended Invoices by Graph get/where (legacy)" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bc" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0hdZJez" resolve="Use Extended Invoice to load from Invoice table" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bd" role="38MLOi">
-      <ref role="1Cak38" node="RffU3ztq7U" resolve="Reload Invoice again changes object." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67be" role="38MLOi">
-      <ref role="1Cak38" node="221r9bOXWIe" resolve="Deleting a readonly object results in an exception" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bf" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zrz6V" resolve="Changing a readonly object results in an exception" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bg" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zv8kn" resolve="Reloading an Invoice read only object results not in an exception" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bh" role="38MLOi">
-      <ref role="1Cak38" node="221r9bOZPAq" resolve="Deleting an non existing object should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bi" role="38MLOi">
-      <ref role="1Cak38" node="221r9bP1uw9" resolve="Get() an object with unknown id should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bj" role="38MLOi">
-      <ref role="1Cak38" node="221r9bP2aYa" resolve="Double write with optimistic locking should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bk" role="38MLOi">
-      <ref role="1Cak38" node="RffU3z7Ydn" resolve="Store and reload a string key object." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bl" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zdIdp" resolve="Create, load save an entity with ValueObject Key." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bm" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zfP_D" resolve="Delete an entity with ValueObject Key." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bn" role="38MLOi">
-      <ref role="1Cak38" node="RffU3ziqj9" resolve="Create multiple account objects with same key and checkaut as list." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bo" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeR3Kk" resolve="Setting a BigDecimal Number to null should not lead to an exception." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bp" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeTegH" resolve="Setting a string to null should not lead to an exception." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bq" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeWwZ4" resolve="Saving an entity refering to unseaved entity leads to an exception" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67br" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeZEk$" resolve="Dirty on Reference if object not saved." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bs" role="38MLOi">
-      <ref role="1Cak38" node="35a9wK7Cbqy" resolve="Use Overwrite auto_id, that will gen an errer, since seq won t exist." />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bt" role="38MLOi">
-      <ref role="1Cak38" node="6fvTt2kn2tT" resolve="Load NewInvoice Aggregate with key only backref" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bu" role="38MLOi">
-      <ref role="1Cak38" node="6fvTt2kD_Ae" resolve="Load all invoices with new Aggregate mapping (keyonly backref)" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bv" role="38MLOi">
-      <ref role="1Cak38" node="2TtvlLA97Nz" resolve="Batch Insert: Save positions with list save command - simple insert" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bw" role="38MLOi">
-      <ref role="1Cak38" node="2TtvlLA98oo" resolve="Batch Insert: Save positions with list save command - check performance)" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bx" role="38MLOi">
-      <ref role="1Cak38" node="5jBG_EPUAAf" resolve="Batch Insert: Save positions with list save command - check dirty mechanism" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67by" role="38MLOi">
-      <ref role="1Cak38" node="1gBvvbrYSPC" resolve="Batch Insert: Provoke exception, field to long - check batchUpdateException" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67bz" role="38MLOi">
-      <ref role="1Cak38" node="1gBvvbsecPo" resolve="Batch Insert: Provoke exception, unique constraint failure - check batchUpdateException" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b$" role="38MLOi">
-      <ref role="1Cak38" node="5jBG_ERt9Fs" resolve="Batch Update: simple update the changed newinvoice - simple update" />
-    </node>
-    <node concept="1Cak35" id="6sEaDHV67b_" role="38MLOi">
-      <ref role="1Cak38" node="5jBG_EQbf$F" resolve="Batch Insert: provoke an error using forced update - forced update" />
     </node>
   </node>
   <node concept="2EH5hC" id="4wgjvSoeJVG">
