@@ -8686,8 +8686,15 @@
       </node>
       <node concept="3Tm1VV" id="41UdyNB_BhF" role="1B3o_S" />
       <node concept="3clFbS" id="41UdyNB_BhI" role="3clF47">
-        <node concept="3clFbF" id="41UdyNB_BhK" role="3cqZAp">
-          <node concept="10Nm6u" id="41UdyNB_BhJ" role="3clFbG" />
+        <node concept="YS8fn" id="65FLMuChll5" role="3cqZAp">
+          <node concept="2ShNRf" id="65FLMuChlo6" role="YScLw">
+            <node concept="1pGfFk" id="65FLMuChtEG" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="65FLMuChtJ3" role="37wK5m">
+                <property role="Xl_RC" value="createImageEditor() Image editor not implemented in VaadinForms" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
