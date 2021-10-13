@@ -42,11 +42,12 @@
   <echo>
     Run by ${user.name} on Java Home : ${java.home}
     Building VERSION ${appBuildVersion} of ${appMainclass}
-	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}    
+	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}
+	
+	Java/JVM version: ${ant.java.version}
+	Java/JVM detail version: ${java.version}  
+	Java Specific version: ${java.specification.version} 
   </echo>
-
-
-
 
 
 

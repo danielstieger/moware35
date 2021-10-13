@@ -438,6 +438,12 @@
       <node concept="3clFbS" id="32SBLyAXPxv" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="32SBLyAXNQU" role="jymVt" />
+    <node concept="3clFb_" id="3EFS_eyCJrE" role="jymVt">
+      <property role="TrG5h" value="preDelayedAfterFullUiInitialized" />
+      <node concept="3cqZAl" id="3EFS_eyCJrG" role="3clF45" />
+      <node concept="3Tm1VV" id="3EFS_eyCJrH" role="1B3o_S" />
+      <node concept="3clFbS" id="3EFS_eyCJrI" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="2ImrVgXfOI5" role="jymVt">
       <property role="TrG5h" value="getDelegateUiImpl" />
       <node concept="3uibUv" id="2ImrVgXfVz5" role="3clF45">
