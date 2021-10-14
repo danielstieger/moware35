@@ -10013,18 +10013,29 @@
         <node concept="3clFbH" id="3EFS_eyBGB5" role="3cqZAp" />
         <node concept="3J1_TO" id="5Ict9HxROGd" role="3cqZAp">
           <node concept="3clFbS" id="5Ict9HxROGe" role="1zxBo7">
+            <node concept="3cpWs8" id="3vgI8fpAyBl" role="3cqZAp">
+              <node concept="3cpWsn" id="3vgI8fpAyBm" role="3cpWs9">
+                <property role="TrG5h" value="in" />
+                <node concept="3uibUv" id="3vgI8fpAyBn" role="1tU5fm">
+                  <ref role="3uigEE" to="guwi:~FileInputStream" resolve="FileInputStream" />
+                </node>
+                <node concept="2ShNRf" id="65FLMuCOLJS" role="33vP2m">
+                  <node concept="1pGfFk" id="65FLMuCOM3e" role="2ShVmc">
+                    <ref role="37wK5l" to="guwi:~FileInputStream.&lt;init&gt;(java.lang.String)" resolve="FileInputStream" />
+                    <node concept="37vLTw" id="65FLMuCOMb3" role="37wK5m">
+                      <ref role="3cqZAo" node="6Ag5kTzHwo4" resolve="text" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="59G7jqrjz90" role="3cqZAp">
               <node concept="37vLTI" id="59G7jqrjzg3" role="3clFbG">
                 <node concept="2ShNRf" id="59G7jqrjzwz" role="37vLTx">
                   <node concept="1pGfFk" id="59G7jqrjzws" role="2ShVmc">
                     <ref role="37wK5l" to="xqm7:~Image.&lt;init&gt;(java.io.InputStream)" resolve="Image" />
-                    <node concept="2ShNRf" id="65FLMuCOLJS" role="37wK5m">
-                      <node concept="1pGfFk" id="65FLMuCOM3e" role="2ShVmc">
-                        <ref role="37wK5l" to="guwi:~FileInputStream.&lt;init&gt;(java.lang.String)" resolve="FileInputStream" />
-                        <node concept="37vLTw" id="65FLMuCOMb3" role="37wK5m">
-                          <ref role="3cqZAo" node="6Ag5kTzHwo4" resolve="text" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="3vgI8fpAzXo" role="37wK5m">
+                      <ref role="3cqZAo" node="3vgI8fpAyBm" resolve="in" />
                     </node>
                   </node>
                 </node>
@@ -10059,7 +10070,17 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3EFS_eywcdq" role="3cqZAp" />
+            <node concept="3clFbF" id="3vgI8fpA$1w" role="3cqZAp">
+              <node concept="2OqwBi" id="3vgI8fpA$ew" role="3clFbG">
+                <node concept="37vLTw" id="3vgI8fpA$1u" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3vgI8fpAyBm" resolve="in" />
+                </node>
+                <node concept="liA8E" id="3vgI8fpA$ku" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~FileInputStream.close()" resolve="close" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3vgI8fpAzSx" role="3cqZAp" />
             <node concept="3SKdUt" id="1g4weU8d8Fi" role="3cqZAp">
               <node concept="1PaTwC" id="HtHth3sG$w" role="1aUNEU">
                 <node concept="3oM_SD" id="HtHth3sG$x" role="1PaTwD">
