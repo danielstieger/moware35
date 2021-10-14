@@ -36695,6 +36695,110 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3F_ifPukNmR" role="jymVt" />
+    <node concept="2tJIrI" id="3vgI8foZv2r" role="jymVt" />
+    <node concept="3clFb_" id="3vgI8foZz5e" role="jymVt">
+      <property role="TrG5h" value="setAppInfo" />
+      <node concept="37vLTG" id="3vgI8foZz5f" role="3clF46">
+        <property role="TrG5h" value="appName" />
+        <node concept="17QB3L" id="3vgI8foZz5g" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3vgI8foZz5h" role="3clF46">
+        <property role="TrG5h" value="version" />
+        <node concept="17QB3L" id="3vgI8foZz5i" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3vgI8foZz5j" role="3clF46">
+        <property role="TrG5h" value="dynTitle" />
+        <node concept="17QB3L" id="3vgI8foZz5k" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="3vgI8foZz5l" role="3clF45" />
+      <node concept="3Tm1VV" id="3vgI8foZz5m" role="1B3o_S" />
+      <node concept="3clFbS" id="3vgI8foZz5o" role="3clF47">
+        <node concept="3clFbH" id="3vgI8foZdVm" role="3cqZAp" />
+        <node concept="3cpWs8" id="3vgI8foWTwa" role="3cqZAp">
+          <node concept="3cpWsn" id="3vgI8foWTwd" role="3cpWs9">
+            <property role="TrG5h" value="vaadinTitle" />
+            <node concept="17QB3L" id="3vgI8foWTw8" role="1tU5fm" />
+            <node concept="3cpWs3" id="3vgI8foWX3t" role="33vP2m">
+              <node concept="37vLTw" id="3vgI8foWYPM" role="3uHU7w">
+                <ref role="3cqZAo" node="3vgI8foZz5h" resolve="version" />
+              </node>
+              <node concept="3cpWs3" id="3vgI8foWVjz" role="3uHU7B">
+                <node concept="37vLTw" id="3vgI8foWTIy" role="3uHU7B">
+                  <ref role="3cqZAo" node="3vgI8foZz5f" resolve="appName" />
+                </node>
+                <node concept="Xl_RD" id="3vgI8foWVnr" role="3uHU7w">
+                  <property role="Xl_RC" value=" " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3vgI8foZTE4" role="3cqZAp">
+          <node concept="2OqwBi" id="3vgI8foZV82" role="3clFbG">
+            <node concept="37vLTw" id="3vgI8foZTE2" role="2Oq$k0">
+              <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
+            </node>
+            <node concept="liA8E" id="3vgI8foZWtG" role="2OqNvi">
+              <ref role="37wK5l" node="vsIEjNW_1W" resolve="setAppInfo" />
+              <node concept="37vLTw" id="3vgI8foZX6x" role="37wK5m">
+                <ref role="3cqZAo" node="3vgI8foWTwd" resolve="vaadinTitle" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3vgI8foZXm3" role="3cqZAp" />
+        <node concept="3clFbJ" id="3vgI8foWP_o" role="3cqZAp">
+          <node concept="3clFbS" id="3vgI8foWP_q" role="3clFbx">
+            <node concept="3clFbF" id="3vgI8foX4xM" role="3cqZAp">
+              <node concept="d57v9" id="3vgI8foXa7z" role="3clFbG">
+                <node concept="37vLTw" id="3vgI8foX4xK" role="37vLTJ">
+                  <ref role="3cqZAo" node="3vgI8foWTwd" resolve="vaadinTitle" />
+                </node>
+                <node concept="3cpWs3" id="3vgI8foX4H5" role="37vLTx">
+                  <node concept="37vLTw" id="3vgI8foX4Q6" role="3uHU7w">
+                    <ref role="3cqZAo" node="3vgI8foZz5j" resolve="dynTitle" />
+                  </node>
+                  <node concept="Xl_RD" id="3vgI8foX4Fo" role="3uHU7B">
+                    <property role="Xl_RC" value=" - " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="3vgI8foX0$m" role="3clFbw">
+            <node concept="2OqwBi" id="3vgI8foX0$o" role="3fr31v">
+              <node concept="liA8E" id="3vgI8foX0$q" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="37vLTw" id="3vgI8foX0$p" role="37wK5m">
+                  <ref role="3cqZAo" node="3vgI8foZz5j" resolve="dynTitle" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="3vgI8foX0$r" role="2Oq$k0">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3vgI8foZYUr" role="3cqZAp" />
+        <node concept="3clFbF" id="61_QXqSd2n5" role="3cqZAp">
+          <node concept="2OqwBi" id="61_QXqSd2n6" role="3clFbG">
+            <node concept="2YIFZM" id="61_QXqSd2n7" role="2Oq$k0">
+              <ref role="37wK5l" to="tk4x:~Page.getCurrent()" resolve="getCurrent" />
+              <ref role="1Pybhc" to="tk4x:~Page" resolve="Page" />
+            </node>
+            <node concept="liA8E" id="61_QXqSd2n8" role="2OqNvi">
+              <ref role="37wK5l" to="tk4x:~Page.setTitle(java.lang.String)" resolve="setTitle" />
+              <node concept="37vLTw" id="3vgI8foZZ8Z" role="37wK5m">
+                <ref role="3cqZAo" node="3vgI8foWTwd" resolve="vaadinTitle" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3vgI8foZz5p" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="61_QXqSd2mM" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setAppVersionInfo" />
@@ -36749,20 +36853,6 @@
             </node>
             <node concept="3oM_SD" id="1cdRHvewWTl" role="1PaTwD">
               <property role="3oM_SC" value="title" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="61_QXqSd2n5" role="3cqZAp">
-          <node concept="2OqwBi" id="61_QXqSd2n6" role="3clFbG">
-            <node concept="2YIFZM" id="61_QXqSd2n7" role="2Oq$k0">
-              <ref role="1Pybhc" to="tk4x:~Page" resolve="Page" />
-              <ref role="37wK5l" to="tk4x:~Page.getCurrent()" resolve="getCurrent" />
-            </node>
-            <node concept="liA8E" id="61_QXqSd2n8" role="2OqNvi">
-              <ref role="37wK5l" to="tk4x:~Page.setTitle(java.lang.String)" resolve="setTitle" />
-              <node concept="37vLTw" id="61_QXqSd2n9" role="37wK5m">
-                <ref role="3cqZAo" node="61_QXqSd2mY" resolve="name" />
-              </node>
             </node>
           </node>
         </node>
