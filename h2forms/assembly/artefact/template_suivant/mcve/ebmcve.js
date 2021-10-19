@@ -3,7 +3,7 @@
  *                  koblach 2020
  *
  *
- *
+ * version 13: distributed to m, autumn 2021
  *
  */
 

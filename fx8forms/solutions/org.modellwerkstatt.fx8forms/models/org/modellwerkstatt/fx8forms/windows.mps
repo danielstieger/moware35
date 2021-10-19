@@ -5697,22 +5697,27 @@
                 </node>
                 <node concept="liA8E" id="7yuc6gmVdj2" role="2OqNvi">
                   <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="3cpWs3" id="7yuc6gmVhcw" role="37wK5m">
-                    <node concept="2OqwBi" id="7yuc6gmVmd0" role="3uHU7w">
-                      <node concept="2ShNRf" id="7yuc6gmVjD2" role="2Oq$k0">
-                        <node concept="1pGfFk" id="7yuc6gmVlG4" role="2ShVmc">
-                          <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                          <node concept="Xl_RD" id="7yuc6gmVlQ8" role="37wK5m">
-                            <property role="Xl_RC" value="." />
+                  <node concept="3cpWs3" id="5M9yEVnacCK" role="37wK5m">
+                    <node concept="Xl_RD" id="5M9yEVnagYu" role="3uHU7w">
+                      <property role="Xl_RC" value="'." />
+                    </node>
+                    <node concept="3cpWs3" id="7yuc6gmVhcw" role="3uHU7B">
+                      <node concept="Xl_RD" id="7yuc6gmVd$I" role="3uHU7B">
+                        <property role="Xl_RC" value="Current WD: '" />
+                      </node>
+                      <node concept="2OqwBi" id="7yuc6gmVmd0" role="3uHU7w">
+                        <node concept="2ShNRf" id="7yuc6gmVjD2" role="2Oq$k0">
+                          <node concept="1pGfFk" id="7yuc6gmVlG4" role="2ShVmc">
+                            <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                            <node concept="Xl_RD" id="7yuc6gmVlQ8" role="37wK5m">
+                              <property role="Xl_RC" value="." />
+                            </node>
                           </node>
                         </node>
+                        <node concept="liA8E" id="7yuc6gmVmnU" role="2OqNvi">
+                          <ref role="37wK5l" to="guwi:~File.getCanonicalPath()" resolve="getCanonicalPath" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="7yuc6gmVmnU" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.getCanonicalPath()" resolve="getCanonicalPath" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="7yuc6gmVd$I" role="3uHU7B">
-                      <property role="Xl_RC" value="Current WD " />
                     </node>
                   </node>
                 </node>
@@ -5725,7 +5730,7 @@
               <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String)" resolve="getProperty" />
               <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
               <node concept="Xl_RD" id="7yuc6gmVYop" role="37wK5m">
-                <property role="Xl_RC" value="fx8forms.printwd" />
+                <property role="Xl_RC" value="fx8forms.pwd" />
               </node>
             </node>
           </node>
