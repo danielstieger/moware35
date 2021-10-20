@@ -86,9 +86,6 @@
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -3419,10 +3416,19 @@
         <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4FgSVMtrzFF" role="jymVt" />
     <node concept="312cEg" id="1w1DleJ3AhD" role="jymVt">
       <property role="TrG5h" value="runsWithRider" />
       <node concept="3Tm6S6" id="1w1DleJ3AhE" role="1B3o_S" />
       <node concept="10P_77" id="1w1DleJ3CjA" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="4FgSVMtrEFK" role="jymVt">
+      <property role="TrG5h" value="systemName" />
+      <node concept="3Tm6S6" id="4FgSVMtrEFL" role="1B3o_S" />
+      <node concept="17QB3L" id="4FgSVMtrHYf" role="1tU5fm" />
+      <node concept="Xl_RD" id="4FgSVMtrR9Q" role="33vP2m">
+        <property role="Xl_RC" value="" />
+      </node>
     </node>
     <node concept="2tJIrI" id="4yPnHrQKXjB" role="jymVt" />
     <node concept="2YIFZL" id="4M9afjaRza2" role="jymVt">
@@ -3795,15 +3801,18 @@
                                                       <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                     </node>
                                                     <node concept="liA8E" id="3EJOQfNfNv1" role="2OqNvi">
-                                                      <ref role="37wK5l" to="1e0c:4nH4LOEuFKE" resolve="logFrmwrkProblem" />
+                                                      <ref role="37wK5l" to="1e0c:4FgSVMsqEn_" resolve="logFrmwrkProblem" />
                                                       <node concept="3clFbT" id="3EJOQfNfNv2" role="37wK5m">
                                                         <property role="3clFbU" value="true" />
                                                       </node>
+                                                      <node concept="Xl_RD" id="4FgSVMtrupm" role="37wK5m">
+                                                        <property role="Xl_RC" value="" />
+                                                      </node>
                                                       <node concept="Xl_RD" id="3EJOQfNfNv3" role="37wK5m">
-                                                        <property role="Xl_RC" value="FX8Application jdk8 bug" />
+                                                        <property role="Xl_RC" value="FX8" />
                                                       </node>
                                                       <node concept="Xl_RD" id="3EJOQfNfNv4" role="37wK5m">
-                                                        <property role="Xl_RC" value="ComboBoxPopupControl.positionAndShowPopup" />
+                                                        <property role="Xl_RC" value="jdk8 bug - ComboBoxPopupControl.positionAndShowPopup" />
                                                       </node>
                                                       <node concept="2OqwBi" id="3EJOQfNfNv5" role="37wK5m">
                                                         <node concept="37vLTw" id="3EJOQfNfNv6" role="2Oq$k0">
@@ -3872,15 +3881,16 @@
                                                         <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                       </node>
                                                       <node concept="liA8E" id="6UkfGkBPEPt" role="2OqNvi">
-                                                        <ref role="37wK5l" to="1e0c:4nH4LOEuFKE" resolve="logFrmwrkProblem" />
+                                                        <ref role="37wK5l" to="1e0c:4FgSVMsqEn_" resolve="logFrmwrkProblem" />
                                                         <node concept="3clFbT" id="6UkfGkBPFDd" role="37wK5m">
                                                           <property role="3clFbU" value="true" />
                                                         </node>
-                                                        <node concept="Xl_RD" id="6UkfGkBPXca" role="37wK5m">
-                                                          <property role="Xl_RC" value="FX8Application jdk11 bug" />
+                                                        <node concept="Xl_RD" id="6UkfGkBPXca" role="37wK5m" />
+                                                        <node concept="Xl_RD" id="4FgSVMtryWt" role="37wK5m">
+                                                          <property role="Xl_RC" value="FX8" />
                                                         </node>
                                                         <node concept="Xl_RD" id="6UkfGkBPXEm" role="37wK5m">
-                                                          <property role="Xl_RC" value="PickResultChooser.processOffer" />
+                                                          <property role="Xl_RC" value="jdk11 bug - PickResultChooser.processOffer" />
                                                         </node>
                                                         <node concept="2OqwBi" id="6UkfGkBQ7kU" role="37wK5m">
                                                           <node concept="37vLTw" id="6UkfGkBQ6IT" role="2Oq$k0">
@@ -3934,55 +3944,6 @@
                                                       </node>
                                                     </node>
                                                   </node>
-                                                  <node concept="1X3_iC" id="2iISby5uJVq" role="lGtFl">
-                                                    <property role="3V$3am" value="statement" />
-                                                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                    <node concept="3clFbF" id="2iISby5ufkS" role="8Wnug">
-                                                      <node concept="2OqwBi" id="2iISby5ufkP" role="3clFbG">
-                                                        <node concept="10M0yZ" id="2iISby5ufkQ" role="2Oq$k0">
-                                                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                                                          <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                                                        </node>
-                                                        <node concept="liA8E" id="2iISby5ufkR" role="2OqNvi">
-                                                          <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                                                          <node concept="Xl_RD" id="2iISby5ufs8" role="37wK5m">
-                                                            <property role="Xl_RC" value="TableViewBehaviorBase.activate .... " />
-                                                          </node>
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                  <node concept="1X3_iC" id="73W0U3BX$hh" role="lGtFl">
-                                                    <property role="3V$3am" value="statement" />
-                                                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                    <node concept="3clFbF" id="yaMucoQP3R" role="8Wnug">
-                                                      <node concept="2OqwBi" id="yaMucoQP3S" role="3clFbG">
-                                                        <node concept="37vLTw" id="yaMucoQP3T" role="2Oq$k0">
-                                                          <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
-                                                        </node>
-                                                        <node concept="liA8E" id="yaMucoQP3U" role="2OqNvi">
-                                                          <ref role="37wK5l" to="1e0c:4nH4LOEuFKE" resolve="logFrmwrkProblem" />
-                                                          <node concept="3clFbT" id="yaMucoQP3V" role="37wK5m">
-                                                            <property role="3clFbU" value="true" />
-                                                          </node>
-                                                          <node concept="Xl_RD" id="yaMucoQP3W" role="37wK5m">
-                                                            <property role="Xl_RC" value="FX8Application jdk11 bug" />
-                                                          </node>
-                                                          <node concept="Xl_RD" id="yaMucoQP3X" role="37wK5m">
-                                                            <property role="Xl_RC" value="TableViewBehaviorBase.activate" />
-                                                          </node>
-                                                          <node concept="2OqwBi" id="yaMucoQP3Y" role="37wK5m">
-                                                            <node concept="37vLTw" id="yaMucoQP3Z" role="2Oq$k0">
-                                                              <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
-                                                            </node>
-                                                            <node concept="liA8E" id="yaMucoQP40" role="2OqNvi">
-                                                              <ref role="37wK5l" to="1e0c:4n24ZlEyn1Q" resolve="fullApplicationCrtlState" />
-                                                            </node>
-                                                          </node>
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
                                                   <node concept="3clFbH" id="yaMucoQP41" role="3cqZAp" />
                                                 </node>
                                                 <node concept="2OqwBi" id="yaMucoQP42" role="3eO9$A">
@@ -4007,7 +3968,7 @@
                                                   <node concept="liA8E" id="yaMucoQP4a" role="2OqNvi">
                                                     <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                                                     <node concept="Xl_RD" id="yaMucoQP4b" role="37wK5m">
-                                                      <property role="Xl_RC" value="TableViewBehaviorBase.activate" />
+                                                      <property role="Xl_RC" value="jdk11 bug - TableViewBehaviorBase.activate" />
                                                     </node>
                                                   </node>
                                                 </node>
@@ -5378,7 +5339,20 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7aUgYCzFDll" role="3cqZAp" />
+        <node concept="3clFbF" id="4FgSVMtrSVn" role="3cqZAp">
+          <node concept="37vLTI" id="4FgSVMtrUDM" role="3clFbG">
+            <node concept="2YIFZM" id="4FgSVMtrZFE" role="37vLTx">
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+              <ref role="37wK5l" to="wyt6:~System.getenv(java.lang.String)" resolve="getenv" />
+              <node concept="Xl_RD" id="5KMLUmAS91G" role="37wK5m">
+                <property role="Xl_RC" value="COMPUTERNAME" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4FgSVMtrSVl" role="37vLTJ">
+              <ref role="3cqZAo" node="4FgSVMtrEFK" resolve="systemName" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="r$jHpF5$yy" role="3cqZAp">
           <node concept="3cpWsn" id="r$jHpF5$yz" role="3cpWs9">
             <property role="TrG5h" value="loginCrtl" />
@@ -5386,8 +5360,15 @@
               <ref role="3uigEE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
             </node>
             <node concept="2ShNRf" id="r$jHpF5_s_" role="33vP2m">
-              <node concept="HV5vD" id="r$jHpF5_NZ" role="2ShVmc">
-                <ref role="HV5vE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
+              <node concept="1pGfFk" id="4FgSVMts3Yu" role="2ShVmc">
+                <ref role="37wK5l" to="1e0c:4FgSVMsQsVk" resolve="LoginController" />
+                <node concept="Rm8GO" id="4FgSVMts5zj" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:4FgSVMpn0zc" resolve="MOWARE_FX8" />
+                  <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+                </node>
+                <node concept="37vLTw" id="4FgSVMts6he" role="37wK5m">
+                  <ref role="3cqZAo" node="4FgSVMtrEFK" resolve="systemName" />
+                </node>
               </node>
             </node>
           </node>
@@ -5406,12 +5387,8 @@
                 <property role="Xl_RC" value="" />
               </node>
               <node concept="3cpWs3" id="5KMLUmAS8FB" role="37wK5m">
-                <node concept="2YIFZM" id="5KMLUmAS8Us" role="3uHU7w">
-                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.getenv(java.lang.String)" resolve="getenv" />
-                  <node concept="Xl_RD" id="5KMLUmAS91G" role="37wK5m">
-                    <property role="Xl_RC" value="COMPUTERNAME" />
-                  </node>
+                <node concept="37vLTw" id="4FgSVMts04Z" role="3uHU7w">
+                  <ref role="3cqZAo" node="4FgSVMtrEFK" resolve="systemName" />
                 </node>
                 <node concept="Xl_RD" id="5KMLUmAS8s$" role="3uHU7B" />
               </node>
@@ -5445,6 +5422,9 @@
                   <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
                 </node>
                 <node concept="37vLTw" id="r$jHpF5CtD" role="37wK5m">
+                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                </node>
+                <node concept="37vLTw" id="4FgSVMts8sN" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                 </node>
               </node>
@@ -5548,6 +5528,9 @@
                   </node>
                   <node concept="liA8E" id="r$jHpF2qI3" role="2OqNvi">
                     <ref role="37wK5l" to="1e0c:20ohnkbJa49" resolve="initializeApplication" />
+                    <node concept="37vLTw" id="4FgSVMts27j" role="37wK5m">
+                      <ref role="3cqZAo" node="4FgSVMtrEFK" resolve="systemName" />
+                    </node>
                     <node concept="37vLTw" id="r$jHpF2qNi" role="37wK5m">
                       <ref role="3cqZAo" node="7aUgYCzss6K" resolve="userEnv" />
                     </node>

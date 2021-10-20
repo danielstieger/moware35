@@ -3199,7 +3199,7 @@
                           </node>
                           <node concept="10M0yZ" id="5j5DccBPFf7" role="37wK5m">
                             <ref role="3cqZAo" to="1e0c:5tY3Zy1St1S" resolve="GLOBAL_LOG_SLOT" />
-                            <ref role="1PxDUh" to="1e0c:SQhsWRUr6_" resolve="CoreReporter" />
+                            <ref role="1PxDUh" to="1e0c:SQhsWRUr6_" resolve="AppReporter" />
                           </node>
                           <node concept="Xl_RD" id="5j5DccBPFf8" role="37wK5m">
                             <property role="Xl_RC" value="IPCHANGE" />
@@ -3661,7 +3661,7 @@
                             </node>
                           </node>
                           <node concept="10M0yZ" id="5tY3Zy1SxDd" role="37wK5m">
-                            <ref role="1PxDUh" to="1e0c:SQhsWRUr6_" resolve="CoreReporter" />
+                            <ref role="1PxDUh" to="1e0c:SQhsWRUr6_" resolve="AppReporter" />
                             <ref role="3cqZAo" to="1e0c:5tY3Zy1St1S" resolve="GLOBAL_LOG_SLOT" />
                           </node>
                           <node concept="Xl_RD" id="4nH4LOEVb8n" role="37wK5m">
@@ -7997,19 +7997,6 @@
                     <property role="Xl_RC" value=" / cur " />
                   </node>
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7j$Y$TjcUWw" role="3cqZAp">
-          <node concept="2OqwBi" id="7j$Y$TjcXiR" role="3clFbG">
-            <node concept="37vLTw" id="7j$Y$TjcUWu" role="2Oq$k0">
-              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-            </node>
-            <node concept="liA8E" id="7j$Y$TjdvUw" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:7j$Y$TjdbIr" resolve="setuser_connectionDetails" />
-              <node concept="37vLTw" id="7j$Y$Tjdx0G" role="37wK5m">
-                <ref role="3cqZAo" node="7j$Y$Tj9tkf" resolve="connInfo" />
               </node>
             </node>
           </node>
