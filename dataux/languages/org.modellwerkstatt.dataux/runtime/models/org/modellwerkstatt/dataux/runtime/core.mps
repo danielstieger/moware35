@@ -29314,7 +29314,7 @@
     </node>
   </node>
   <node concept="312cEu" id="SQhsWRUr6_">
-    <property role="TrG5h" value="CoreReporter" />
+    <property role="TrG5h" value="ApplicationReporter" />
     <property role="1sVAO0" value="true" />
     <node concept="Wx3nA" id="5tY3Zy1St1S" role="jymVt">
       <property role="TrG5h" value="GLOBAL_LOG_SLOT" />
@@ -30478,7 +30478,7 @@
                   <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
                   <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
                   <node concept="3VsKOn" id="2ppo89mgfgN" role="37wK5m">
-                    <ref role="3VsUkX" node="SQhsWRUr6_" resolve="CoreReporter" />
+                    <ref role="3VsUkX" node="SQhsWRUr6_" resolve="ApplicationReporter" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2ppo89mgfgO" role="2OqNvi">
@@ -30653,7 +30653,7 @@
                   <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
                   <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
                   <node concept="3VsKOn" id="4nH4LOEFYFH" role="37wK5m">
-                    <ref role="3VsUkX" node="SQhsWRUr6_" resolve="CoreReporter" />
+                    <ref role="3VsUkX" node="SQhsWRUr6_" resolve="ApplicationReporter" />
                   </node>
                 </node>
                 <node concept="liA8E" id="4nH4LOEFYFI" role="2OqNvi">
@@ -31115,7 +31115,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="4nH4LOFTmy8" role="3cqZAp" />
-        <node concept="3clFbH" id="4nH4LOFTn4U" role="3cqZAp" />
         <node concept="3clFbJ" id="2ppo89mfJxk" role="3cqZAp">
           <node concept="3clFbS" id="2ppo89mfJxm" role="3clFbx">
             <node concept="3clFbF" id="2ppo89mfSsR" role="3cqZAp">
@@ -32028,7 +32027,7 @@
                   <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
                   <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
                   <node concept="3VsKOn" id="4nH4LOFTlS4" role="37wK5m">
-                    <ref role="3VsUkX" node="SQhsWRUr6_" resolve="CoreReporter" />
+                    <ref role="3VsUkX" node="SQhsWRUr6_" resolve="ApplicationReporter" />
                   </node>
                 </node>
                 <node concept="liA8E" id="4nH4LOFTlS5" role="2OqNvi">
@@ -32606,7 +32605,7 @@
       <node concept="3Tm1VV" id="2ppo89mgvks" role="1B3o_S" />
       <node concept="3clFbS" id="2ppo89mgvkt" role="3clF47">
         <node concept="XkiVB" id="2ppo89mgw5i" role="3cqZAp">
-          <ref role="37wK5l" node="2ppo89mgh$3" resolve="CoreReporter" />
+          <ref role="37wK5l" node="2ppo89mgh$3" resolve="ApplicationReporter" />
           <node concept="37vLTw" id="2ppo89mgw5S" role="37wK5m">
             <ref role="3cqZAo" node="2ppo89mgvJZ" resolve="uf" />
           </node>
@@ -35126,7 +35125,7 @@
     </node>
     <node concept="3Tm1VV" id="2ppo89mdzp9" role="1B3o_S" />
     <node concept="3uibUv" id="2ppo89mdzqY" role="1zkMxy">
-      <ref role="3uigEE" node="SQhsWRUr6_" resolve="CoreReporter" />
+      <ref role="3uigEE" node="SQhsWRUr6_" resolve="ApplicationReporter" />
     </node>
     <node concept="3uibUv" id="1dzqM5xuWG7" role="EKbjA">
       <ref role="3uigEE" node="4XXgpAAeZ45" resolve="IEventProcessor" />
@@ -43530,7 +43529,7 @@
                     </node>
                     <node concept="10M0yZ" id="5j5DccBPFf7" role="37wK5m">
                       <ref role="3cqZAo" node="5tY3Zy1St1S" resolve="GLOBAL_LOG_SLOT" />
-                      <ref role="1PxDUh" node="SQhsWRUr6_" resolve="CoreReporter" />
+                      <ref role="1PxDUh" node="SQhsWRUr6_" resolve="ApplicationReporter" />
                     </node>
                     <node concept="Xl_RD" id="5j5DccBPFf8" role="37wK5m">
                       <property role="Xl_RC" value="NO LOGIN EX" />
@@ -43642,7 +43641,7 @@
                   </node>
                   <node concept="10M0yZ" id="3lGZSNMQa59" role="37wK5m">
                     <ref role="3cqZAo" node="5tY3Zy1St1S" resolve="GLOBAL_LOG_SLOT" />
-                    <ref role="1PxDUh" node="SQhsWRUr6_" resolve="CoreReporter" />
+                    <ref role="1PxDUh" node="SQhsWRUr6_" resolve="ApplicationReporter" />
                   </node>
                   <node concept="Xl_RD" id="3lGZSNMQa5a" role="37wK5m">
                     <property role="Xl_RC" value="NO LOGIN" />

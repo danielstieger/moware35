@@ -10059,5 +10059,28 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="4FgSVMp7Gp9">
+    <property role="TrG5h" value="MMAdditionalInfoException" />
+    <node concept="3Tm1VV" id="4FgSVMp7Gpa" role="1B3o_S" />
+    <node concept="3uibUv" id="4FgSVMp7GBT" role="1zkMxy">
+      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+    </node>
+    <node concept="3clFbW" id="4FgSVMp9fzH" role="jymVt">
+      <node concept="37vLTG" id="4FgSVMp9f$N" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="4FgSVMp9fAz" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4FgSVMp9fzJ" role="3clF45" />
+      <node concept="3Tm1VV" id="4FgSVMp9fzK" role="1B3o_S" />
+      <node concept="3clFbS" id="4FgSVMp9fzL" role="3clF47">
+        <node concept="XkiVB" id="4FgSVMp9fDW" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="4FgSVMp9fF4" role="37wK5m">
+            <ref role="3cqZAo" node="4FgSVMp9f$N" resolve="msg" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
