@@ -4256,8 +4256,14 @@
                   <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
                   <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
                 </node>
-                <node concept="Xl_RD" id="2yuEF6qoSCl" role="3uHU7B">
-                  <property role="Xl_RC" value="FX8 / " />
+                <node concept="3cpWs3" id="1WX6wrPMTV6" role="3uHU7B">
+                  <node concept="Xl_RD" id="2yuEF6qoSCl" role="3uHU7w">
+                    <property role="Xl_RC" value=" / " />
+                  </node>
+                  <node concept="Rm8GO" id="1WX6wrPMUNV" role="3uHU7B">
+                    <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+                    <ref role="Rm8GQ" to="28jr:4FgSVMpn0zc" resolve="MOWARE_FX8" />
+                  </node>
                 </node>
               </node>
               <node concept="Xl_RD" id="63IPdUQC0Cd" role="37wK5m">
@@ -4349,6 +4355,10 @@
                 </node>
                 <node concept="37vLTw" id="2yuEF6qnlIe" role="37wK5m">
                   <ref role="3cqZAo" node="2yuEF6qmaQ1" resolve="jmxHelper" />
+                </node>
+                <node concept="Rm8GO" id="1WX6wrPMTqp" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:4FgSVMpn0zc" resolve="MOWARE_FX8" />
+                  <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
                 </node>
               </node>
             </node>
@@ -5422,9 +5432,6 @@
                   <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
                 </node>
                 <node concept="37vLTw" id="r$jHpF5CtD" role="37wK5m">
-                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                </node>
-                <node concept="37vLTw" id="4FgSVMts8sN" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                 </node>
               </node>

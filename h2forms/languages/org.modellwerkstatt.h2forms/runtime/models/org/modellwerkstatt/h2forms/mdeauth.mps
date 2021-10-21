@@ -36,9 +36,6 @@
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -980,8 +977,34 @@
               <ref role="3uigEE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
             </node>
             <node concept="2ShNRf" id="1wwgtxzg_87" role="33vP2m">
-              <node concept="HV5vD" id="1wwgtxzg_$s" role="2ShVmc">
-                <ref role="HV5vE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
+              <node concept="1pGfFk" id="1WX6wrPOwwC" role="2ShVmc">
+                <ref role="37wK5l" to="1e0c:4FgSVMsQsVk" resolve="LoginController" />
+                <node concept="2OqwBi" id="1WX6wrPPj4m" role="37wK5m">
+                  <node concept="2OqwBi" id="1WX6wrPPiAT" role="2Oq$k0">
+                    <node concept="37vLTw" id="1WX6wrPPica" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1wwgtxzgiJS" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="1WX6wrPPiXr" role="2OqNvi">
+                      <ref role="37wK5l" to="tea8:2462lDSnlNr" resolve="getContextStatics" />
+                    </node>
+                  </node>
+                  <node concept="2S8uIT" id="1WX6wrPPjn8" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:1WX6wrPO$KQ" resolve="mowarePlatform" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1WX6wrPPknG" role="37wK5m">
+                  <node concept="2OqwBi" id="1WX6wrPPjTD" role="2Oq$k0">
+                    <node concept="37vLTw" id="1WX6wrPPjwc" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1wwgtxzgiJS" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="1WX6wrPPkdD" role="2OqNvi">
+                      <ref role="37wK5l" to="tea8:2462lDSnlNr" resolve="getContextStatics" />
+                    </node>
+                  </node>
+                  <node concept="2S8uIT" id="1WX6wrPPkFi" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:7WBKY1WeN$n" resolve="guessedServerName" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -1817,8 +1840,34 @@
               <ref role="3uigEE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
             </node>
             <node concept="2ShNRf" id="57ov2S_z9A" role="33vP2m">
-              <node concept="HV5vD" id="57ov2S_z9B" role="2ShVmc">
-                <ref role="HV5vE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
+              <node concept="1pGfFk" id="1WX6wrPOWXh" role="2ShVmc">
+                <ref role="37wK5l" to="1e0c:4FgSVMsQsVk" resolve="LoginController" />
+                <node concept="2OqwBi" id="1WX6wrPPloo" role="37wK5m">
+                  <node concept="2OqwBi" id="1WX6wrPPlop" role="2Oq$k0">
+                    <node concept="37vLTw" id="1WX6wrPPloq" role="2Oq$k0">
+                      <ref role="3cqZAo" node="57ov2S_z6E" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="1WX6wrPPlor" role="2OqNvi">
+                      <ref role="37wK5l" to="tea8:2462lDSnlNr" resolve="getContextStatics" />
+                    </node>
+                  </node>
+                  <node concept="2S8uIT" id="1WX6wrPPlos" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:1WX6wrPO$KQ" resolve="mowarePlatform" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1WX6wrPPlot" role="37wK5m">
+                  <node concept="2OqwBi" id="1WX6wrPPlou" role="2Oq$k0">
+                    <node concept="37vLTw" id="1WX6wrPPlov" role="2Oq$k0">
+                      <ref role="3cqZAo" node="57ov2S_z6E" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="1WX6wrPPlow" role="2OqNvi">
+                      <ref role="37wK5l" to="tea8:2462lDSnlNr" resolve="getContextStatics" />
+                    </node>
+                  </node>
+                  <node concept="2S8uIT" id="1WX6wrPPlox" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:7WBKY1WeN$n" resolve="guessedServerName" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

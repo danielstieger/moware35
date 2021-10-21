@@ -2243,8 +2243,20 @@
               <ref role="3uigEE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
             </node>
             <node concept="2ShNRf" id="5$BCFrwb1fQ" role="33vP2m">
-              <node concept="HV5vD" id="5$BCFrwb1fR" role="2ShVmc">
-                <ref role="HV5vE" to="1e0c:r$jHpF3wNf" resolve="LoginController" />
+              <node concept="1pGfFk" id="1WX6wrQ6frR" role="2ShVmc">
+                <ref role="37wK5l" to="1e0c:4FgSVMsQsVk" resolve="LoginController" />
+                <node concept="Rm8GO" id="1WX6wrQ6gcS" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:4FgSVMpn0yT" resolve="MOWARE_VAADIN" />
+                  <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+                </node>
+                <node concept="2OqwBi" id="1WX6wrQ6O4e" role="37wK5m">
+                  <node concept="37vLTw" id="1WX6wrQ6NfP" role="2Oq$k0">
+                    <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                  </node>
+                  <node concept="liA8E" id="1WX6wrQ6P$Q" role="2OqNvi">
+                    <ref role="37wK5l" node="1WX6wrQ6$WF" resolve="getGuessedServerName" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -2270,7 +2282,7 @@
             <node concept="liA8E" id="6lA5DXSRMpQ" role="2OqNvi">
               <ref role="37wK5l" to="28jr:6lA5DXSRDr8" resolve="setDevice" />
               <node concept="Xl_RD" id="6lA5DXSRRwH" role="37wK5m">
-                <property role="Xl_RC" value="WEB DESKTOP" />
+                <property role="Xl_RC" value="VAADIN DESK" />
               </node>
               <node concept="Xl_RD" id="6lA5DXSRN3S" role="37wK5m">
                 <property role="Xl_RC" value="" />
@@ -2596,6 +2608,14 @@
                         </node>
                       </node>
                       <node concept="Xjq3P" id="3bLKpg8THtZ" role="37wK5m" />
+                      <node concept="2OqwBi" id="1WX6wrQ8LSW" role="37wK5m">
+                        <node concept="37vLTw" id="1WX6wrQ8L7s" role="2Oq$k0">
+                          <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                        </node>
+                        <node concept="liA8E" id="1WX6wrQ8Nky" role="2OqNvi">
+                          <ref role="37wK5l" node="1WX6wrQ6$WF" resolve="getGuessedServerName" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node concept="37vLTw" id="3bLKpg8TGmD" role="37vLTJ">
@@ -3696,6 +3716,11 @@
       <node concept="3Tm6S6" id="6QRLe84jItr" role="1B3o_S" />
       <node concept="17QB3L" id="6QRLe84jIts" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="1WX6wrQ6xaq" role="jymVt">
+      <property role="TrG5h" value="guessedServerName" />
+      <node concept="3Tm6S6" id="1WX6wrQ6xar" role="1B3o_S" />
+      <node concept="17QB3L" id="1WX6wrQ6xas" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="6QRLe84jIkF" role="jymVt" />
     <node concept="2tJIrI" id="4d3Pnf3TBGj" role="jymVt" />
     <node concept="312cEg" id="5HhpRjTuA97" role="jymVt">
@@ -3783,6 +3808,18 @@
         <node concept="3clFbF" id="5$BCFrw8YCt" role="3cqZAp">
           <node concept="37vLTw" id="5$BCFrw90WZ" role="3clFbG">
             <ref role="3cqZAo" node="5$BCFrw7kmn" resolve="authenticationInterface" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1WX6wrQ6$WF" role="jymVt">
+      <property role="TrG5h" value="getGuessedServerName" />
+      <node concept="17QB3L" id="1WX6wrQ6AOM" role="3clF45" />
+      <node concept="3Tm1VV" id="1WX6wrQ6$WI" role="1B3o_S" />
+      <node concept="3clFbS" id="1WX6wrQ6$WJ" role="3clF47">
+        <node concept="3clFbF" id="1WX6wrQ6G0l" role="3cqZAp">
+          <node concept="37vLTw" id="1WX6wrQ6G0k" role="3clFbG">
+            <ref role="3cqZAo" node="1WX6wrQ6xaq" resolve="guessedServerName" />
           </node>
         </node>
       </node>
@@ -3962,16 +3999,17 @@
         </node>
         <node concept="3clFbH" id="7HBdlGU59aq" role="3cqZAp" />
         <node concept="3clFbH" id="7HBdlGU5akY" role="3cqZAp" />
-        <node concept="3cpWs8" id="3VF1NMV5RDz" role="3cqZAp">
-          <node concept="3cpWsn" id="3VF1NMV5RDA" role="3cpWs9">
-            <property role="TrG5h" value="guessedServerName" />
-            <node concept="17QB3L" id="3VF1NMV5RDx" role="1tU5fm" />
-            <node concept="2YIFZM" id="3VF1NMV5VyJ" role="33vP2m">
+        <node concept="3clFbF" id="1WX6wrQ6vsi" role="3cqZAp">
+          <node concept="37vLTI" id="1WX6wrQ6vsk" role="3clFbG">
+            <node concept="2YIFZM" id="3VF1NMV5VyJ" role="37vLTx">
               <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
               <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String)" resolve="getProperty" />
               <node concept="Xl_RD" id="3VF1NMV5VzV" role="37wK5m">
                 <property role="Xl_RC" value="server.instancename" />
               </node>
+            </node>
+            <node concept="37vLTw" id="1WX6wrQ6Gqj" role="37vLTJ">
+              <ref role="3cqZAo" node="1WX6wrQ6xaq" resolve="guessedServerName" />
             </node>
           </node>
         </node>
@@ -4344,8 +4382,8 @@
                   <ref role="3cqZAo" node="7708TIHL749" resolve="frameworkVersion" />
                 </node>
               </node>
-              <node concept="37vLTw" id="63IPdUQEiy9" role="37wK5m">
-                <ref role="3cqZAo" node="3VF1NMV5RDA" resolve="guessedServerName" />
+              <node concept="37vLTw" id="1WX6wrQ6GWB" role="37wK5m">
+                <ref role="3cqZAo" node="1WX6wrQ6xaq" resolve="guessedServerName" />
               </node>
             </node>
           </node>
@@ -35379,6 +35417,11 @@
         <ref role="3uigEE" node="6MOvunDkLlD" resolve="VUserSessionUI" />
       </node>
     </node>
+    <node concept="312cEg" id="1WX6wrQ8yUT" role="jymVt">
+      <property role="TrG5h" value="systemName" />
+      <node concept="3Tm6S6" id="1WX6wrQ8yUU" role="1B3o_S" />
+      <node concept="17QB3L" id="1WX6wrQ8As0" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="61_QXqSd2a7" role="jymVt" />
     <node concept="3clFbW" id="61_QXqSd2a8" role="jymVt">
       <node concept="37vLTG" id="61_QXqSf9eh" role="3clF46">
@@ -35392,6 +35435,10 @@
         <node concept="3uibUv" id="61_QXqShYGP" role="1tU5fm">
           <ref role="3uigEE" node="6MOvunDkLlD" resolve="VUserSessionUI" />
         </node>
+      </node>
+      <node concept="37vLTG" id="1WX6wrQ8tRz" role="3clF46">
+        <property role="TrG5h" value="systemName" />
+        <node concept="17QB3L" id="1WX6wrQ8uE5" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="61_QXqSd2a9" role="3clF45" />
       <node concept="3Tm1VV" id="61_QXqSd2aa" role="1B3o_S" />
@@ -35418,6 +35465,19 @@
               <node concept="Xjq3P" id="61_QXqSdnQY" role="2Oq$k0" />
               <node concept="2OwXpG" id="7b0XfCDHP0u" role="2OqNvi">
                 <ref role="2Oxat5" node="7b0XfCDHBhY" resolve="mainUserSessionUI" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1WX6wrQ8CMs" role="3cqZAp">
+          <node concept="37vLTI" id="1WX6wrQ8DWj" role="3clFbG">
+            <node concept="37vLTw" id="1WX6wrQ8EI5" role="37vLTx">
+              <ref role="3cqZAo" node="1WX6wrQ8tRz" resolve="systemName" />
+            </node>
+            <node concept="2OqwBi" id="1WX6wrQ8CZJ" role="37vLTJ">
+              <node concept="Xjq3P" id="1WX6wrQ8CMq" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1WX6wrQ8DeG" role="2OqNvi">
+                <ref role="2Oxat5" node="1WX6wrQ8yUT" resolve="systemName" />
               </node>
             </node>
           </node>
@@ -35473,6 +35533,10 @@
                 </node>
                 <node concept="37vLTw" id="7b0XfCDImzQ" role="37wK5m">
                   <ref role="3cqZAo" node="7b0XfCDIkJL" resolve="jmxRegistration" />
+                </node>
+                <node concept="Rm8GO" id="1WX6wrQ6jv5" role="37wK5m">
+                  <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+                  <ref role="Rm8GQ" to="28jr:4FgSVMpn0yT" resolve="MOWARE_VAADIN" />
                 </node>
               </node>
             </node>
@@ -35898,6 +35962,9 @@
             </node>
             <node concept="liA8E" id="r$jHpEYDRC" role="2OqNvi">
               <ref role="37wK5l" to="1e0c:20ohnkbJa49" resolve="initializeApplication" />
+              <node concept="37vLTw" id="1WX6wrQ8EUE" role="37wK5m">
+                <ref role="3cqZAo" node="1WX6wrQ8yUT" resolve="systemName" />
+              </node>
               <node concept="37vLTw" id="3bLKpg8PjOB" role="37wK5m">
                 <ref role="3cqZAo" node="7b0XfCDI2rc" resolve="userEnv" />
               </node>
