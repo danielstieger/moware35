@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     try {
         if (isInit == "true") {
             EB.Barcode.enable({}, mScanReceived);
+            mLog('DOMContentLoaded', 'Fast init, settings already configured.')
 
         } else {
             EB.Barcode.allDecoders = false;

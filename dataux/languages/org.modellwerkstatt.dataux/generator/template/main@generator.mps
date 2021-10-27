@@ -7504,26 +7504,6 @@
       </node>
       <node concept="3Tm1VV" id="653Wpvy8Em9" role="1B3o_S" />
       <node concept="3clFbS" id="653Wpvy8Ema" role="3clF47">
-        <node concept="3clFbF" id="5ukLWtNJVAV" role="3cqZAp">
-          <node concept="2OqwBi" id="5ukLWtNJVAS" role="3clFbG">
-            <node concept="10M0yZ" id="5ukLWtNJVAT" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="5ukLWtNJVAU" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="5ukLWtNK21r" role="37wK5m">
-                <node concept="Xl_RD" id="5ukLWtNK1lR" role="3uHU7B">
-                  <property role="Xl_RC" value="&gt;" />
-                </node>
-                <node concept="2YIFZM" id="5ukLWtNJM1r" role="3uHU7w">
-                  <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
-                  <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="653Wpvy9bDH" role="3cqZAp">
           <node concept="2OqwBi" id="653Wpvy9bW6" role="3clFbw">
             <node concept="37vLTw" id="653Wpvy9bOx" role="2Oq$k0">
@@ -20453,7 +20433,77 @@
           </node>
         </node>
         <node concept="3clFbH" id="5zdT7CxvJ8H" role="3cqZAp" />
-        <node concept="3clFbH" id="7tfEsbFs_EO" role="3cqZAp" />
+        <node concept="3cpWs8" id="19EO7JPdCe5" role="3cqZAp">
+          <node concept="3cpWsn" id="19EO7JPdCe6" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="3uibUv" id="19EO7JPdCe7" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+            </node>
+            <node concept="2ShNRf" id="19EO7JPdDYV" role="33vP2m">
+              <node concept="1pGfFk" id="19EO7JPdDY1" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:19EO7JPdm_E" resolve="JobProperties" />
+                <node concept="37vLTw" id="19EO7JPdE5i" role="37wK5m">
+                  <ref role="3cqZAo" node="5a3fk7zosTW" resolve="newSymbolicNAme" />
+                </node>
+                <node concept="37vLTw" id="19EO7JPdE75" role="37wK5m">
+                  <ref role="3cqZAo" node="5BROMrW1wHW" resolve="version" />
+                </node>
+                <node concept="2OqwBi" id="7tfEsbFsFtT" role="37wK5m">
+                  <node concept="2OqwBi" id="7tfEsbFsF5g" role="2Oq$k0">
+                    <node concept="37vLTw" id="19EO7JPdEM6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
+                    </node>
+                    <node concept="2OwXpG" id="7tfEsbFsFhb" role="2OqNvi">
+                      <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7tfEsbFsFHt" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="19EO7JPdGTM" role="37wK5m">
+                  <node concept="2OqwBi" id="19EO7JPdGTN" role="2Oq$k0">
+                    <node concept="37vLTw" id="19EO7JPdGTS" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
+                    </node>
+                    <node concept="2OwXpG" id="19EO7JPdGTO" role="2OqNvi">
+                      <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="19EO7JPdJ0d" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="3VF1NMV5VyJ" role="37wK5m">
+                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                  <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String)" resolve="getProperty" />
+                  <node concept="Xl_RD" id="3VF1NMV5VzV" role="37wK5m">
+                    <property role="Xl_RC" value="server.instancename" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7tfEsbFsDaW" role="37wK5m">
+                  <node concept="2OqwBi" id="7tfEsbFsCTf" role="2Oq$k0">
+                    <node concept="37vLTw" id="19EO7JPdW0N" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
+                    </node>
+                    <node concept="2OwXpG" id="7tfEsbFsD4o" role="2OqNvi">
+                      <ref role="2Oxat5" node="4jlzLDkHYbm" resolve="__localApplicationFactory" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7tfEsbFsDox" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:4T6wObo62Pu" resolve="getConnectionUrl" />
+                  </node>
+                </node>
+                <node concept="Rm8GO" id="7tfEsbFsEI8" role="37wK5m">
+                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+                  <ref role="Rm8GQ" to="z3ji:1tVklsmzhSn" resolve="TOMMY_MODE" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="19EO7JPdL9n" role="3cqZAp" />
+        <node concept="3clFbH" id="19EO7JPdLi8" role="3cqZAp" />
         <node concept="3cpWs8" id="7tfEsbFv8fH" role="3cqZAp">
           <node concept="3cpWsn" id="7tfEsbFv8fI" role="3cpWs9">
             <property role="TrG5h" value="cmc" />
@@ -20474,65 +20524,8 @@
             </node>
             <node concept="liA8E" id="7tfEsbFsB8q" role="2OqNvi">
               <ref role="37wK5l" to="z3ji:6uo0g5Wm6dy" resolve="init" />
-              <node concept="37vLTw" id="7Ako_ORorpF" role="37wK5m">
-                <ref role="3cqZAo" node="5a3fk7zosTW" resolve="newSymbolicNAme" />
-              </node>
-              <node concept="37vLTw" id="7tfEsbFsBtC" role="37wK5m">
-                <ref role="3cqZAo" node="5BROMrW1wHW" resolve="version" />
-              </node>
-              <node concept="3cpWs3" id="7tfEsbFsGcG" role="37wK5m">
-                <node concept="2OqwBi" id="7tfEsbFsGTq" role="3uHU7w">
-                  <node concept="2OqwBi" id="7tfEsbFsG_u" role="2Oq$k0">
-                    <node concept="37vLTw" id="2B50FNWbeDs" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                    </node>
-                    <node concept="2OwXpG" id="7tfEsbFsGKY" role="2OqNvi">
-                      <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7tfEsbFsH9K" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
-                  </node>
-                </node>
-                <node concept="3cpWs3" id="7tfEsbFsFS$" role="3uHU7B">
-                  <node concept="2OqwBi" id="7tfEsbFsFtT" role="3uHU7B">
-                    <node concept="2OqwBi" id="7tfEsbFsF5g" role="2Oq$k0">
-                      <node concept="37vLTw" id="2B50FNWbeDw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                      </node>
-                      <node concept="2OwXpG" id="7tfEsbFsFhb" role="2OqNvi">
-                        <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="7tfEsbFsFHt" role="2OqNvi">
-                      <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="7tfEsbFsFTE" role="3uHU7w">
-                    <property role="Xl_RC" value="_" />
-                  </node>
-                </node>
-              </node>
-              <node concept="10M0yZ" id="7tfEsbFsCp6" role="37wK5m">
-                <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
-                <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-              </node>
-              <node concept="2OqwBi" id="7tfEsbFsDaW" role="37wK5m">
-                <node concept="2OqwBi" id="7tfEsbFsCTf" role="2Oq$k0">
-                  <node concept="37vLTw" id="2B50FNWbeDA" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                  </node>
-                  <node concept="2OwXpG" id="7tfEsbFsD4o" role="2OqNvi">
-                    <ref role="2Oxat5" node="4jlzLDkHYbm" resolve="__localApplicationFactory" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="7tfEsbFsDox" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:4T6wObo62Pu" resolve="getConnectionUrl" />
-                </node>
-              </node>
-              <node concept="Rm8GO" id="7tfEsbFsEI8" role="37wK5m">
-                <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
-                <ref role="Rm8GQ" to="z3ji:1tVklsmzhSn" resolve="TOMMY_MODE" />
+              <node concept="37vLTw" id="19EO7JPdYJK" role="37wK5m">
+                <ref role="3cqZAo" node="19EO7JPdCe6" resolve="props" />
               </node>
             </node>
           </node>

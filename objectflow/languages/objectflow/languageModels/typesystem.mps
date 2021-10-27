@@ -251,6 +251,10 @@
         <reference id="1216386999476" name="quickFixArgument" index="QkamJ" />
         <child id="1210784642750" name="value" index="3CoRuB" />
       </concept>
+      <concept id="1176543928247" name="jetbrains.mps.lang.typesystem.structure.IsSubtypeExpression" flags="nn" index="3JuTUA">
+        <child id="1176543945045" name="subtypeExpression" index="3JuY14" />
+        <child id="1176543950311" name="supertypeExpression" index="3JuZjQ" />
+      </concept>
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
@@ -14164,6 +14168,94 @@
     <node concept="1YaCAy" id="7ymmWYIuqY0" role="1YuTPh">
       <property role="TrG5h" value="precondition" />
       <ref role="1YaFvo" to="un0u:51llZt605sG" resolve="Precondition" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="19EO7JM$v1S">
+    <property role="TrG5h" value="typeof_LogStatementProperty" />
+    <property role="3GE5qa" value="LogPrint" />
+    <node concept="3clFbS" id="19EO7JM$v1T" role="18ibNy">
+      <node concept="1Z5TYs" id="19EO7JM$vsJ" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="19EO7JM$vt7" role="1ZfhKB">
+          <node concept="2c44tf" id="19EO7JM$vt3" role="mwGJk">
+            <node concept="17QB3L" id="19EO7JM$vtt" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="19EO7JM$vsM" role="1ZfhK$">
+          <node concept="1Z2H0r" id="19EO7JM$v1Z" role="mwGJk">
+            <node concept="2OqwBi" id="19EO7JM$vbk" role="1Z2MuG">
+              <node concept="1YBJjd" id="19EO7JM$v3N" role="2Oq$k0">
+                <ref role="1YBMHb" node="19EO7JM$v1V" resolve="logStatementProperty" />
+              </node>
+              <node concept="3TrEf2" id="19EO7JM$vjU" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:19EO7JM$v1a" resolve="propName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="nvevp" id="19EO7JM$vDf" role="3cqZAp">
+        <node concept="3clFbS" id="19EO7JM$vDh" role="nvhr_">
+          <node concept="3clFbJ" id="19EO7JM$vRd" role="3cqZAp">
+            <node concept="3clFbS" id="19EO7JM$vRf" role="3clFbx" />
+            <node concept="3JuTUA" id="19EO7JM$waV" role="3clFbw">
+              <node concept="2X3wrD" id="19EO7JM$wbg" role="3JuY14">
+                <ref role="2X3Bk0" node="19EO7JM$vDl" resolve="valueType" />
+              </node>
+              <node concept="2c44tf" id="19EO7JM$wbx" role="3JuZjQ">
+                <node concept="17QB3L" id="19EO7JM$wc3" role="2c44tc" />
+              </node>
+            </node>
+            <node concept="3eNFk2" id="19EO7JM$wc$" role="3eNLev">
+              <node concept="3JuTUA" id="19EO7JM$wdn" role="3eO9$A">
+                <node concept="2X3wrD" id="19EO7JM$wdG" role="3JuY14">
+                  <ref role="2X3Bk0" node="19EO7JM$vDl" resolve="valueType" />
+                </node>
+                <node concept="2c44tf" id="19EO7JM$wdX" role="3JuZjQ">
+                  <node concept="10Oyi0" id="19EO7JM$wev" role="2c44tc" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="19EO7JM$wcA" role="3eOfB_" />
+            </node>
+            <node concept="9aQIb" id="19EO7JM$wf0" role="9aQIa">
+              <node concept="3clFbS" id="19EO7JM$wf1" role="9aQI4">
+                <node concept="2MkqsV" id="19EO7JM$wjj" role="3cqZAp">
+                  <node concept="Xl_RD" id="19EO7JM$wjv" role="2MkJ7o">
+                    <property role="Xl_RC" value="Only string or int are supported here." />
+                  </node>
+                  <node concept="2OqwBi" id="19EO7JM$wrE" role="1urrMF">
+                    <node concept="1YBJjd" id="19EO7JM$wk6" role="2Oq$k0">
+                      <ref role="1YBMHb" node="19EO7JM$v1V" resolve="logStatementProperty" />
+                    </node>
+                    <node concept="3TrEf2" id="19EO7JM$wA$" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:19EO7JM$v1c" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Z2H0r" id="19EO7JM$vEo" role="nvjzm">
+          <node concept="2OqwBi" id="19EO7JM$vM3" role="1Z2MuG">
+            <node concept="1YBJjd" id="19EO7JM$vEO" role="2Oq$k0">
+              <ref role="1YBMHb" node="19EO7JM$v1V" resolve="logStatementProperty" />
+            </node>
+            <node concept="3TrEf2" id="19EO7JM$vPS" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:19EO7JM$v1c" resolve="value" />
+            </node>
+          </node>
+        </node>
+        <node concept="2X1qdy" id="19EO7JM$vDl" role="2X0Ygz">
+          <property role="TrG5h" value="valueType" />
+          <node concept="2jxLKc" id="19EO7JM$vDm" role="1tU5fm" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="19EO7JM$vtL" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="19EO7JM$v1V" role="1YuTPh">
+      <property role="TrG5h" value="logStatementProperty" />
+      <ref role="1YaFvo" to="un0u:19EO7JM$uV_" resolve="LogStatementProperty" />
     </node>
   </node>
 </model>

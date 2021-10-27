@@ -423,6 +423,13 @@
       <property role="IQ2ns" value="2356914237085088917" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="19EO7JM$_W0" role="1TKVEi">
+      <property role="IQ2ns" value="1327102270983266048" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="props" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="19EO7JM$uV_" resolve="LogStatementProperty" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6j_KBLoaFpF">
     <property role="TrG5h" value="BPRefIdReference" />
@@ -5009,6 +5016,26 @@
       <property role="TrG5h" value="boundList" />
       <property role="3tVfz5" value="7866227139384348210" />
       <ref role="2wpffI" node="6OEsYvXyCSM" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="19EO7JM$uV_">
+    <property role="EcuMT" value="1327102270983237349" />
+    <property role="3GE5qa" value="LogPrint" />
+    <property role="TrG5h" value="LogStatementProperty" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="19EO7JM$v1a" role="1TKVEi">
+      <property role="IQ2ns" value="1327102270983237706" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="propName" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="19EO7JM$v1c" role="1TKVEi">
+      <property role="IQ2ns" value="1327102270983237708" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
 </model>

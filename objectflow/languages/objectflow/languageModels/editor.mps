@@ -154,6 +154,7 @@
       <concept id="1186413799158" name="jetbrains.mps.lang.editor.structure.BracketColorStyleClassItem" flags="ln" index="VLuvy" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
+        <child id="1223387335081" name="query" index="3n$kyP" />
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
@@ -241,6 +242,7 @@
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1223386653097" name="jetbrains.mps.lang.editor.structure.StrikeOutStyleSheet" flags="ln" index="3nxI2P" />
+      <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="1165424453110" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item" flags="ng" index="1oHujT">
         <property id="1165424453111" name="matchingText" index="1oHujS" />
         <child id="1165424453112" name="handlerFunction" index="1oHujR" />
@@ -1967,6 +1969,61 @@
         <ref role="1NtTu8" to="un0u:22Psgbrx7Ml" resolve="exp" />
       </node>
       <node concept="l2Vlx" id="22Psgbrx7Mq" role="2iSdaV" />
+      <node concept="3F0ifn" id="19EO7JMTr_g" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="19EO7JMTr_q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+          <node concept="3nzxsE" id="19EO7JMV2P0" role="3n$kyP">
+            <node concept="3clFbS" id="19EO7JMV2P1" role="2VODD2">
+              <node concept="3clFbF" id="19EO7JMV2Ps" role="3cqZAp">
+                <node concept="3eOSWO" id="19EO7JMV8wQ" role="3clFbG">
+                  <node concept="3cmrfG" id="19EO7JMV8wU" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="19EO7JMV510" role="3uHU7B">
+                    <node concept="2OqwBi" id="19EO7JMV35c" role="2Oq$k0">
+                      <node concept="pncrf" id="19EO7JMV2Pr" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="19EO7JMV3qv" role="2OqNvi">
+                        <ref role="3TtcxE" to="un0u:19EO7JM$_W0" resolve="props" />
+                      </node>
+                    </node>
+                    <node concept="34oBXx" id="19EO7JMV7jH" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F2HdR" id="19EO7JM$A5p" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:19EO7JM$_W0" resolve="props" />
+        <node concept="3F0ifn" id="19EO7JM$A5_" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;prop&gt;" />
+        </node>
+        <node concept="2iRkQZ" id="19EO7JMRNJY" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="19EO7JMYlEg" role="3EZMnx">
+        <property role="3F0ifm" value="// no session available - not logged on core reporter" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="19EO7JMYm50" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="19EO7JMYm53" role="pqm2j">
+          <node concept="3clFbS" id="19EO7JMYm54" role="2VODD2">
+            <node concept="3clFbF" id="19EO7JMYm5v" role="3cqZAp">
+              <node concept="3fqX7Q" id="19EO7JMYn$f" role="3clFbG">
+                <node concept="2OqwBi" id="19EO7JMYn$h" role="3fr31v">
+                  <node concept="pncrf" id="19EO7JMYn$i" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="19EO7JMYn$j" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:19EO7JM$sTb" resolve="logViaUserServiceAlso" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3EZMnI" id="I5W9GWGl$3" role="6VMZX">
       <node concept="l2Vlx" id="I5W9GWGl$4" role="2iSdaV" />
@@ -12472,6 +12529,22 @@
       </node>
     </node>
     <node concept="2VfDsV" id="6ihoZuzTclj" role="3ft7WO" />
+  </node>
+  <node concept="24kQdi" id="19EO7JM$v1m">
+    <property role="3GE5qa" value="LogPrint" />
+    <ref role="1XX52x" to="un0u:19EO7JM$uV_" resolve="LogStatementProperty" />
+    <node concept="3EZMnI" id="19EO7JM$v1o" role="2wV5jI">
+      <node concept="3F1sOY" id="19EO7JM$v1v" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:19EO7JM$v1a" resolve="propName" />
+      </node>
+      <node concept="3F0ifn" id="19EO7JM$v1_" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="19EO7JM$v1H" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:19EO7JM$v1c" resolve="value" />
+      </node>
+      <node concept="l2Vlx" id="19EO7JM$v1r" role="2iSdaV" />
+    </node>
   </node>
 </model>
 
