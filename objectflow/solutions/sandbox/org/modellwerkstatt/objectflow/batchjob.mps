@@ -17681,7 +17681,7 @@
                               </node>
                               <node concept="3cpWs3" id="4$zcAettnvE" role="3uHU7B">
                                 <node concept="Xl_RD" id="4$zcAettnvJ" role="3uHU7B">
-                                  <property role="Xl_RC" value="When specifying cron expressions in time-specific mode, specify a specific time in form of '0 0 23 * * *' and not '" />
+                                  <property role="Xl_RC" value="When specifying cron expressions in time-specific mode, specify a specific time (starting at 0 sec) in form of '0 0 23 * * *' and not '" />
                                 </node>
                                 <node concept="2OqwBi" id="4$zcAettnvF" role="3uHU7w">
                                   <node concept="37vLTw" id="4$zcAettnvG" role="2Oq$k0">
