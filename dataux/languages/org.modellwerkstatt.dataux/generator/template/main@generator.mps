@@ -16893,17 +16893,22 @@
           <node concept="3clFbS" id="7tfEsbGVux0" role="3clFbx">
             <node concept="3clFbF" id="7tfEsbGVuR3" role="3cqZAp">
               <node concept="37vLTI" id="7tfEsbGVv6$" role="3clFbG">
-                <node concept="2OqwBi" id="7tfEsbGVvej" role="37vLTx">
-                  <node concept="liA8E" id="7tfEsbGVvl3" role="2OqNvi">
-                    <ref role="37wK5l" to="z3ji:1fWmkEQr9u9" resolve="getJobFqName" />
+                <node concept="2OqwBi" id="19EO7JQ5_De" role="37vLTx">
+                  <node concept="2OqwBi" id="7tfEsbGVvej" role="2Oq$k0">
+                    <node concept="liA8E" id="19EO7JQ5_vz" role="2OqNvi">
+                      <ref role="37wK5l" to="z3ji:19EO7JPeBMh" resolve="getJobProperties" />
+                    </node>
+                    <node concept="2OqwBi" id="7tfEsbHXIaH" role="2Oq$k0">
+                      <node concept="37vLTw" id="2B50FNWbeA2" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
+                      </node>
+                      <node concept="2OwXpG" id="7tfEsbHXIaI" role="2OqNvi">
+                        <ref role="2Oxat5" node="7tfEsbHXDI7" resolve="masterController" />
+                      </node>
+                    </node>
                   </node>
-                  <node concept="2OqwBi" id="7tfEsbHXIaH" role="2Oq$k0">
-                    <node concept="37vLTw" id="2B50FNWbeA2" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                    </node>
-                    <node concept="2OwXpG" id="7tfEsbHXIaI" role="2OqNvi">
-                      <ref role="2Oxat5" node="7tfEsbHXDI7" resolve="masterController" />
-                    </node>
+                  <node concept="2OwXpG" id="19EO7JQ5AkG" role="2OqNvi">
+                    <ref role="2Oxat5" to="z3ji:5lMTsSlKvNV" resolve="swJobFqName" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="7tfEsbGVuR1" role="37vLTJ">

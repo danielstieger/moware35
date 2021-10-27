@@ -50,6 +50,12 @@
         <child id="1173175577737" name="index" index="AHEQo" />
         <child id="1173175590490" name="array" index="AHHXb" />
       </concept>
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1188220165133" name="jetbrains.mps.baseLanguage.structure.ArrayLiteral" flags="nn" index="2BsdOp">
         <child id="1188220173759" name="item" index="2BsfMF" />
       </concept>
@@ -10951,6 +10957,16 @@
         <property role="3clFbU" value="false" />
       </node>
     </node>
+    <node concept="312cEg" id="19EO7JR24zL" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="properties" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm1VV" id="19EO7JR24zM" role="1B3o_S" />
+      <node concept="3uibUv" id="19EO7JR25gL" role="1tU5fm">
+        <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2smfeL1XAjO" role="jymVt" />
     <node concept="312cEg" id="2smfeL1KxPm" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -10988,6 +11004,12 @@
         <property role="TrG5h" value="refs" />
         <node concept="10Oyi0" id="2smfeL1FH2H" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="19EO7JR248Q" role="3clF46">
+        <property role="TrG5h" value="props" />
+        <node concept="3uibUv" id="19EO7JR24ok" role="1tU5fm">
+          <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="2smfeL1FGVw" role="3clF45" />
       <node concept="3Tm1VV" id="2smfeL1FGVx" role="1B3o_S" />
       <node concept="3clFbS" id="2smfeL1FGVy" role="3clF47">
@@ -11001,63 +11023,34 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5lMTsSlMpA7" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getJobFqName" />
-      <node concept="3Tm1VV" id="5lMTsSlMpA8" role="1B3o_S" />
-      <node concept="17QB3L" id="5lMTsSlMpA9" role="3clF45" />
-      <node concept="3clFbS" id="5lMTsSlMpAa" role="3clF47">
-        <node concept="3clFbF" id="5lMTsSlMpAb" role="3cqZAp">
-          <node concept="Xl_RD" id="5lMTsSlMpAc" role="3clFbG">
-            <property role="Xl_RC" value="TestFqName" />
+        <node concept="3clFbF" id="19EO7JR25RM" role="3cqZAp">
+          <node concept="37vLTI" id="19EO7JR269Z" role="3clFbG">
+            <node concept="37vLTw" id="19EO7JR26lx" role="37vLTx">
+              <ref role="3cqZAo" node="19EO7JR248Q" resolve="props" />
+            </node>
+            <node concept="37vLTw" id="19EO7JR25RK" role="37vLTJ">
+              <ref role="3cqZAo" node="19EO7JR24zL" resolve="properties" />
+            </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="5lMTsSlMpAd" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getJobVersion" />
-      <node concept="3Tm1VV" id="5lMTsSlMpAe" role="1B3o_S" />
-      <node concept="17QB3L" id="5lMTsSlMpAf" role="3clF45" />
-      <node concept="3clFbS" id="5lMTsSlMpAg" role="3clF47">
-        <node concept="3clFbF" id="5lMTsSlMpAh" role="3cqZAp">
-          <node concept="Xl_RD" id="5lMTsSlMpAi" role="3clFbG">
-            <property role="Xl_RC" value="0" />
+    <node concept="2tJIrI" id="19EO7JPGiRS" role="jymVt" />
+    <node concept="3clFb_" id="19EO7JPGjvp" role="jymVt">
+      <property role="TrG5h" value="getJobProperties" />
+      <node concept="3Tm1VV" id="19EO7JPGjvr" role="1B3o_S" />
+      <node concept="3uibUv" id="19EO7JPGjvs" role="3clF45">
+        <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+      </node>
+      <node concept="3clFbS" id="19EO7JPGjvt" role="3clF47">
+        <node concept="3clFbF" id="19EO7JR26mr" role="3cqZAp">
+          <node concept="37vLTw" id="19EO7JR26mo" role="3clFbG">
+            <ref role="3cqZAo" node="19EO7JR24zL" resolve="properties" />
           </node>
         </node>
       </node>
-    </node>
-    <node concept="3clFb_" id="5lMTsSlMpAj" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getUserNameAndId" />
-      <node concept="3Tm1VV" id="5lMTsSlMpAk" role="1B3o_S" />
-      <node concept="17QB3L" id="5lMTsSlMpAl" role="3clF45" />
-      <node concept="3clFbS" id="5lMTsSlMpAm" role="3clF47">
-        <node concept="3clFbF" id="5lMTsSlMpAn" role="3cqZAp">
-          <node concept="Xl_RD" id="5lMTsSlMpAo" role="3clFbG">
-            <property role="Xl_RC" value="user_1" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5lMTsSlMpAp" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getFrameworkVersion" />
-      <node concept="3Tm1VV" id="5lMTsSlMpAq" role="1B3o_S" />
-      <node concept="17QB3L" id="5lMTsSlMpAr" role="3clF45" />
-      <node concept="3clFbS" id="5lMTsSlMpAs" role="3clF47">
-        <node concept="3clFbF" id="5lMTsSlMpAt" role="3cqZAp">
-          <node concept="10M0yZ" id="5lMTsSlMpAu" role="3clFbG">
-            <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-            <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
-          </node>
-        </node>
+      <node concept="2AHcQZ" id="19EO7JPGjvu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="5lMTsSlMpAv" role="jymVt">
@@ -11076,37 +11069,6 @@
         <node concept="3clFbF" id="5lMTsSlMpA_" role="3cqZAp">
           <node concept="Xl_RD" id="5lMTsSlMpAA" role="3clFbG">
             <property role="Xl_RC" value="null" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5lMTsSlMpAB" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getConnectionInfo" />
-      <node concept="3Tm1VV" id="5lMTsSlMpAC" role="1B3o_S" />
-      <node concept="17QB3L" id="5lMTsSlMpAD" role="3clF45" />
-      <node concept="3clFbS" id="5lMTsSlMpAE" role="3clF47">
-        <node concept="3clFbF" id="5lMTsSlMpAF" role="3cqZAp">
-          <node concept="Xl_RD" id="5lMTsSlMpAG" role="3clFbG">
-            <property role="Xl_RC" value="null" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5lMTsSlMpAH" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getCrtlMode" />
-      <node concept="3Tm1VV" id="5lMTsSlMpAI" role="1B3o_S" />
-      <node concept="3uibUv" id="5lMTsSlMpAJ" role="3clF45">
-        <ref role="3uigEE" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
-      </node>
-      <node concept="3clFbS" id="5lMTsSlMpAK" role="3clF47">
-        <node concept="3clFbF" id="5lMTsSlMpAL" role="3cqZAp">
-          <node concept="Rm8GO" id="5lMTsSlMpAM" role="3clFbG">
-            <ref role="Rm8GQ" to="z3ji:1tVklsmzjS5" resolve="CONSOLE_MODE" />
-            <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
           </node>
         </node>
       </node>
@@ -11659,7 +11621,7 @@
     <node concept="2tJIrI" id="2smfeL1Ku7j" role="jymVt" />
     <node concept="3clFb_" id="7b0Ejx_aM5O" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getCurrentVersion" />
+      <property role="TrG5h" value="getCurrentTimerVersion" />
       <node concept="10Oyi0" id="7b0Ejx_aM5P" role="3clF45" />
       <node concept="3Tm1VV" id="7b0Ejx_aM5Q" role="1B3o_S" />
       <node concept="3clFbS" id="7b0Ejx_aM5S" role="3clF47">
@@ -12580,7 +12542,57 @@
         <ref role="3uigEE" to="wyt6:~Thread" resolve="Thread" />
       </node>
     </node>
+    <node concept="312cEg" id="19EO7JR2Vlu" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="properties" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm1VV" id="19EO7JR2Vlv" role="1B3o_S" />
+      <node concept="3uibUv" id="19EO7JR2VH0" role="1tU5fm">
+        <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7n_$dfX2rZg" role="jymVt" />
+    <node concept="2tJIrI" id="19EO7JR2Wym" role="jymVt" />
+    <node concept="3clFbW" id="19EO7JR2Xme" role="jymVt">
+      <node concept="37vLTG" id="19EO7JR2XVC" role="3clF46">
+        <property role="TrG5h" value="props" />
+        <node concept="3uibUv" id="19EO7JR2Y7k" role="1tU5fm">
+          <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="19EO7JR2Xmg" role="3clF45" />
+      <node concept="3Tm1VV" id="19EO7JR2Xmh" role="1B3o_S" />
+      <node concept="3clFbS" id="19EO7JR2Xmi" role="3clF47">
+        <node concept="3clFbF" id="19EO7JR2Yj6" role="3cqZAp">
+          <node concept="37vLTI" id="19EO7JR2YxB" role="3clFbG">
+            <node concept="37vLTw" id="19EO7JR2YHr" role="37vLTx">
+              <ref role="3cqZAo" node="19EO7JR2XVC" resolve="props" />
+            </node>
+            <node concept="37vLTw" id="19EO7JR2Yj5" role="37vLTJ">
+              <ref role="3cqZAo" node="19EO7JR2Vlu" resolve="properties" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="19EO7JPGp_D" role="jymVt">
+      <property role="TrG5h" value="getJobProperties" />
+      <node concept="3Tm1VV" id="19EO7JPGp_E" role="1B3o_S" />
+      <node concept="3uibUv" id="19EO7JPGp_F" role="3clF45">
+        <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+      </node>
+      <node concept="3clFbS" id="19EO7JPGp_G" role="3clF47">
+        <node concept="3clFbF" id="19EO7JPGp_H" role="3cqZAp">
+          <node concept="37vLTw" id="19EO7JR2WmV" role="3clFbG">
+            <ref role="3cqZAo" node="19EO7JR2Vlu" resolve="properties" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="19EO7JPGp_J" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7n_$dfX2s1a" role="jymVt" />
     <node concept="3clFb_" id="7n_$dfX2pXY" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -13012,65 +13024,7 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="7n_$dfX2rGX" role="jymVt" />
-    <node concept="2tJIrI" id="7n_$dfX2rIN" role="jymVt" />
     <node concept="2tJIrI" id="7n_$dfX2rKE" role="jymVt" />
-    <node concept="3clFb_" id="7n_$dfX2pWN" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getJobFqName" />
-      <node concept="3Tm1VV" id="7n_$dfX2pWP" role="1B3o_S" />
-      <node concept="17QB3L" id="7n_$dfX2pWQ" role="3clF45" />
-      <node concept="3clFbS" id="7n_$dfX2pWR" role="3clF47">
-        <node concept="3clFbF" id="7n_$dfX2qa9" role="3cqZAp">
-          <node concept="Xl_RD" id="7n_$dfX2qa8" role="3clFbG">
-            <property role="Xl_RC" value="OutOfCronDummyCrtl" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="7n_$dfX2pWS" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getJobVersion" />
-      <node concept="3Tm1VV" id="7n_$dfX2pWU" role="1B3o_S" />
-      <node concept="17QB3L" id="7n_$dfX2pWV" role="3clF45" />
-      <node concept="3clFbS" id="7n_$dfX2pWW" role="3clF47">
-        <node concept="3clFbF" id="7n_$dfX2qh2" role="3cqZAp">
-          <node concept="Xl_RD" id="7n_$dfX2qh4" role="3clFbG">
-            <property role="Xl_RC" value="OutOfCronDummyCrtl" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="7n_$dfX2pWX" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getUserNameAndId" />
-      <node concept="3Tm1VV" id="7n_$dfX2pWZ" role="1B3o_S" />
-      <node concept="17QB3L" id="7n_$dfX2pX0" role="3clF45" />
-      <node concept="3clFbS" id="7n_$dfX2pX1" role="3clF47">
-        <node concept="3clFbF" id="7n_$dfX2qi2" role="3cqZAp">
-          <node concept="Xl_RD" id="7n_$dfX2qi4" role="3clFbG">
-            <property role="Xl_RC" value="OutOfCronDummyCrtl" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="7n_$dfX2pX2" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getFrameworkVersion" />
-      <node concept="3Tm1VV" id="7n_$dfX2pX4" role="1B3o_S" />
-      <node concept="17QB3L" id="7n_$dfX2pX5" role="3clF45" />
-      <node concept="3clFbS" id="7n_$dfX2pX6" role="3clF47">
-        <node concept="3clFbF" id="7n_$dfX2qju" role="3cqZAp">
-          <node concept="Xl_RD" id="7n_$dfX2qjw" role="3clFbG">
-            <property role="Xl_RC" value="OutOfCronDummyCrtl" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="7n_$dfX2pX7" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -13086,20 +13040,6 @@
       <node concept="3clFbS" id="7n_$dfX2pXd" role="3clF47">
         <node concept="3clFbF" id="7n_$dfX2qnW" role="3cqZAp">
           <node concept="Xl_RD" id="7n_$dfX2qnY" role="3clFbG">
-            <property role="Xl_RC" value="OutOfCronDummyCrtl" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="7n_$dfX2pXe" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getConnectionInfo" />
-      <node concept="3Tm1VV" id="7n_$dfX2pXg" role="1B3o_S" />
-      <node concept="17QB3L" id="7n_$dfX2pXh" role="3clF45" />
-      <node concept="3clFbS" id="7n_$dfX2pXi" role="3clF47">
-        <node concept="3clFbF" id="7n_$dfX2qoW" role="3cqZAp">
-          <node concept="Xl_RD" id="7n_$dfX2qoY" role="3clFbG">
             <property role="Xl_RC" value="OutOfCronDummyCrtl" />
           </node>
         </node>
@@ -13125,23 +13065,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="7n_$dfX2pXq" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getCrtlMode" />
-      <node concept="3Tm1VV" id="7n_$dfX2pXs" role="1B3o_S" />
-      <node concept="3uibUv" id="7n_$dfX2pXt" role="3clF45">
-        <ref role="3uigEE" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
-      </node>
-      <node concept="3clFbS" id="7n_$dfX2pXu" role="3clF47">
-        <node concept="3clFbF" id="7n_$dfX2qvI" role="3cqZAp">
-          <node concept="Rm8GO" id="7n_$dfX2qH2" role="3clFbG">
-            <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
-            <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="7n_$dfX2pY7" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -13162,7 +13085,7 @@
     </node>
     <node concept="3clFb_" id="7n_$dfX2pYg" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getCurrentVersion" />
+      <property role="TrG5h" value="getCurrentTimerVersion" />
       <node concept="10Oyi0" id="7n_$dfX2pYh" role="3clF45" />
       <node concept="3Tm1VV" id="7n_$dfX2pYi" role="1B3o_S" />
       <node concept="3clFbS" id="7n_$dfX2pYk" role="3clF47">
@@ -13231,6 +13154,41 @@
         <ref role="3uigEE" node="5lMTsSlMp_C" resolve="ContinousTestDummyTimerCrtl" />
       </node>
       <node concept="3clFbS" id="4nH4LOF0NMJ" role="3clF47">
+        <node concept="3cpWs8" id="19EO7JR2bG0" role="3cqZAp">
+          <node concept="3cpWsn" id="19EO7JR2bG1" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="3uibUv" id="19EO7JR2bG2" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+            </node>
+            <node concept="2ShNRf" id="19EO7JR2bG3" role="33vP2m">
+              <node concept="1pGfFk" id="19EO7JR2bG4" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:19EO7JPdm_E" resolve="JobProperties" />
+                <node concept="Xl_RD" id="19EO7JR2bG5" role="37wK5m">
+                  <property role="Xl_RC" value="with.ContinousTestDummyTimerCrtl" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2bG6" role="37wK5m">
+                  <property role="Xl_RC" value="0.0" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2bG7" role="37wK5m">
+                  <property role="Xl_RC" value="dan" />
+                </node>
+                <node concept="3cmrfG" id="19EO7JR2bG8" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2bG9" role="37wK5m">
+                  <property role="Xl_RC" value="testSystem" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2bGa" role="37wK5m">
+                  <property role="Xl_RC" value="none" />
+                </node>
+                <node concept="Rm8GO" id="19EO7JR2bGb" role="37wK5m">
+                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+                  <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4nH4LOF0NMK" role="3cqZAp" />
         <node concept="3cpWs8" id="4nH4LOF0NML" role="3cqZAp">
           <node concept="3cpWsn" id="4nH4LOF0NMM" role="3cpWs9">
@@ -13243,6 +13201,9 @@
                 <ref role="37wK5l" node="2smfeL1FGVu" resolve="ContinousTestDummyTimerCrtl" />
                 <node concept="37vLTw" id="4nH4LOF0NMQ" role="37wK5m">
                   <ref role="3cqZAo" node="4nH4LOF0NMG" resolve="refills" />
+                </node>
+                <node concept="37vLTw" id="19EO7JR2d7Z" role="37wK5m">
+                  <ref role="3cqZAo" node="19EO7JR2bG1" resolve="props" />
                 </node>
               </node>
             </node>
@@ -13886,6 +13847,42 @@
         <ref role="3uigEE" node="5lMTsSlMp_C" resolve="ContinousTestDummyTimerCrtl" />
       </node>
       <node concept="3clFbS" id="4nH4LOF0NQy" role="3clF47">
+        <node concept="3cpWs8" id="19EO7JR29wu" role="3cqZAp">
+          <node concept="3cpWsn" id="19EO7JR29wv" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="3uibUv" id="19EO7JR29ww" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+            </node>
+            <node concept="2ShNRf" id="19EO7JR29wx" role="33vP2m">
+              <node concept="1pGfFk" id="19EO7JR29wy" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:19EO7JPdm_E" resolve="JobProperties" />
+                <node concept="Xl_RD" id="19EO7JR29wz" role="37wK5m">
+                  <property role="Xl_RC" value="with.ContinousTestDummyTimerCrtl" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR29w$" role="37wK5m">
+                  <property role="Xl_RC" value="0.0" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR29w_" role="37wK5m">
+                  <property role="Xl_RC" value="dan" />
+                </node>
+                <node concept="3cmrfG" id="19EO7JR29wA" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR29wB" role="37wK5m">
+                  <property role="Xl_RC" value="testSystem" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR29wC" role="37wK5m">
+                  <property role="Xl_RC" value="none" />
+                </node>
+                <node concept="Rm8GO" id="19EO7JR29wD" role="37wK5m">
+                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+                  <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="19EO7JR28I7" role="3cqZAp" />
         <node concept="3cpWs8" id="4nH4LOF0NQz" role="3cqZAp">
           <node concept="3cpWsn" id="4nH4LOF0NQ$" role="3cpWs9">
             <property role="TrG5h" value="timerCrtl" />
@@ -13906,11 +13903,14 @@
                     <node concept="1Rwk04" id="4nH4LOF0NQG" role="2OqNvi" />
                   </node>
                 </node>
+                <node concept="37vLTw" id="19EO7JR2aS4" role="37wK5m">
+                  <ref role="3cqZAo" node="19EO7JR29wv" resolve="props" />
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4nH4LOF0NQH" role="3cqZAp" />
+        <node concept="3clFbH" id="19EO7JR21uL" role="3cqZAp" />
         <node concept="3cpWs8" id="4nH4LOF0NQI" role="3cqZAp">
           <node concept="3cpWsn" id="4nH4LOF0NQJ" role="3cpWs9">
             <property role="TrG5h" value="tp" />
@@ -14022,6 +14022,41 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="19EO7JPfPox" role="3cqZAp">
+          <node concept="3cpWsn" id="19EO7JPfPoy" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="3uibUv" id="19EO7JPfPoz" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+            </node>
+            <node concept="2ShNRf" id="19EO7JPfQaC" role="33vP2m">
+              <node concept="1pGfFk" id="19EO7JPfQav" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:19EO7JPdm_E" resolve="JobProperties" />
+                <node concept="Xl_RD" id="19EO7JPfQcN" role="37wK5m">
+                  <property role="Xl_RC" value="with.OFXCronMasterController" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfQem" role="37wK5m">
+                  <property role="Xl_RC" value="0.0" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfQlI" role="37wK5m">
+                  <property role="Xl_RC" value="dan" />
+                </node>
+                <node concept="3cmrfG" id="19EO7JPfQor" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfQrY" role="37wK5m">
+                  <property role="Xl_RC" value="testSystem" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfQx_" role="37wK5m">
+                  <property role="Xl_RC" value="none" />
+                </node>
+                <node concept="Rm8GO" id="4nH4LOF0NRz" role="37wK5m">
+                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+                  <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4nH4LOF0NRq" role="3cqZAp">
           <node concept="2OqwBi" id="4nH4LOF0NRr" role="3clFbG">
             <node concept="37vLTw" id="4nH4LOF0NRs" role="2Oq$k0">
@@ -14029,25 +14064,8 @@
             </node>
             <node concept="liA8E" id="4nH4LOF0NRt" role="2OqNvi">
               <ref role="37wK5l" to="z3ji:6uo0g5Wm6dy" resolve="init" />
-              <node concept="Xl_RD" id="4nH4LOF0NRu" role="37wK5m">
-                <property role="Xl_RC" value="T" />
-              </node>
-              <node concept="Xl_RD" id="4nH4LOF0NRv" role="37wK5m">
-                <property role="Xl_RC" value="0" />
-              </node>
-              <node concept="Xl_RD" id="4nH4LOF0NRw" role="37wK5m">
-                <property role="Xl_RC" value="dan_1" />
-              </node>
-              <node concept="10M0yZ" id="4nH4LOF0NRx" role="37wK5m">
-                <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-                <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
-              </node>
-              <node concept="Xl_RD" id="4nH4LOF0NRy" role="37wK5m">
-                <property role="Xl_RC" value="none" />
-              </node>
-              <node concept="Rm8GO" id="4nH4LOF0NRz" role="37wK5m">
-                <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
-                <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+              <node concept="37vLTw" id="19EO7JPfR9U" role="37wK5m">
+                <ref role="3cqZAo" node="19EO7JPfPoy" resolve="props" />
               </node>
             </node>
           </node>
@@ -14422,6 +14440,42 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="19EO7JPfU9V" role="3cqZAp" />
+        <node concept="3cpWs8" id="19EO7JPfSb0" role="3cqZAp">
+          <node concept="3cpWsn" id="19EO7JPfSb1" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="3uibUv" id="19EO7JPfSb2" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+            </node>
+            <node concept="2ShNRf" id="19EO7JPfSb3" role="33vP2m">
+              <node concept="1pGfFk" id="19EO7JPfSb4" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:19EO7JPdm_E" resolve="JobProperties" />
+                <node concept="Xl_RD" id="19EO7JPfSb5" role="37wK5m">
+                  <property role="Xl_RC" value="TestFqName" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfSb6" role="37wK5m">
+                  <property role="Xl_RC" value="0.0" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfSb7" role="37wK5m">
+                  <property role="Xl_RC" value="dan" />
+                </node>
+                <node concept="3cmrfG" id="19EO7JPfSb8" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfSb9" role="37wK5m">
+                  <property role="Xl_RC" value="testSystem" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JPfSba" role="37wK5m">
+                  <property role="Xl_RC" value="none" />
+                </node>
+                <node concept="Rm8GO" id="19EO7JPfSbb" role="37wK5m">
+                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+                  <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4nH4LOF0NTR" role="3cqZAp">
           <node concept="2OqwBi" id="4nH4LOF0NTS" role="3clFbG">
             <node concept="37vLTw" id="4nH4LOF0NTT" role="2Oq$k0">
@@ -14429,25 +14483,8 @@
             </node>
             <node concept="liA8E" id="4nH4LOF0NTU" role="2OqNvi">
               <ref role="37wK5l" to="z3ji:6uo0g5Wm6dy" resolve="init" />
-              <node concept="Xl_RD" id="4nH4LOF0NTV" role="37wK5m">
-                <property role="Xl_RC" value="T" />
-              </node>
-              <node concept="Xl_RD" id="4nH4LOF0NTW" role="37wK5m">
-                <property role="Xl_RC" value="0" />
-              </node>
-              <node concept="Xl_RD" id="4nH4LOF0NTX" role="37wK5m">
-                <property role="Xl_RC" value="dan_1" />
-              </node>
-              <node concept="10M0yZ" id="4nH4LOF0NTY" role="37wK5m">
-                <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-                <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
-              </node>
-              <node concept="Xl_RD" id="4nH4LOF0NTZ" role="37wK5m">
-                <property role="Xl_RC" value="none" />
-              </node>
-              <node concept="Rm8GO" id="4nH4LOF0NU0" role="37wK5m">
-                <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
-                <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+              <node concept="37vLTw" id="19EO7JPfTdm" role="37wK5m">
+                <ref role="3cqZAo" node="19EO7JPfSb1" resolve="props" />
               </node>
             </node>
           </node>
@@ -14809,6 +14846,42 @@
         <ref role="3uigEE" node="7n_$dfX2pPl" resolve="OutOfCronDummyCrtl" />
       </node>
       <node concept="3clFbS" id="4nH4LOF0NWe" role="3clF47">
+        <node concept="3cpWs8" id="19EO7JR2Sdm" role="3cqZAp">
+          <node concept="3cpWsn" id="19EO7JR2Sdn" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="3uibUv" id="19EO7JR2Sdo" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:5lMTsSlKufS" resolve="JobProperties" />
+            </node>
+            <node concept="2ShNRf" id="19EO7JR2Sdp" role="33vP2m">
+              <node concept="1pGfFk" id="19EO7JR2Sdq" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:19EO7JPdm_E" resolve="JobProperties" />
+                <node concept="Xl_RD" id="19EO7JR2Sdr" role="37wK5m">
+                  <property role="Xl_RC" value="with.OutOfCronDummyCrtl" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2Sds" role="37wK5m">
+                  <property role="Xl_RC" value="0.0" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2Sdt" role="37wK5m">
+                  <property role="Xl_RC" value="dan" />
+                </node>
+                <node concept="3cmrfG" id="19EO7JR2Sdu" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2Sdv" role="37wK5m">
+                  <property role="Xl_RC" value="testSystem" />
+                </node>
+                <node concept="Xl_RD" id="19EO7JR2Sdw" role="37wK5m">
+                  <property role="Xl_RC" value="none" />
+                </node>
+                <node concept="Rm8GO" id="19EO7JR2Sdx" role="37wK5m">
+                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
+                  <ref role="Rm8GQ" to="z3ji:1tVklsmzkwg" resolve="TEST_MODE_WITH_CRON" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="19EO7JR2RoE" role="3cqZAp" />
         <node concept="3cpWs8" id="4nH4LOF0NWf" role="3cqZAp">
           <node concept="3cpWsn" id="4nH4LOF0NWg" role="3cpWs9">
             <property role="TrG5h" value="cronCrtl" />
@@ -14816,12 +14889,17 @@
               <ref role="3uigEE" node="7n_$dfX2pPl" resolve="OutOfCronDummyCrtl" />
             </node>
             <node concept="2ShNRf" id="4nH4LOF0NWi" role="33vP2m">
-              <node concept="HV5vD" id="4nH4LOF0NWj" role="2ShVmc">
-                <ref role="HV5vE" node="7n_$dfX2pPl" resolve="OutOfCronDummyCrtl" />
+              <node concept="1pGfFk" id="19EO7JR300P" role="2ShVmc">
+                <ref role="37wK5l" node="19EO7JR2Xme" resolve="OutOfCronDummyCrtl" />
+                <node concept="37vLTw" id="19EO7JR30Qa" role="37wK5m">
+                  <ref role="3cqZAo" node="19EO7JR2Sdn" resolve="props" />
+                </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="19EO7JR2TB_" role="3cqZAp" />
+        <node concept="3clFbH" id="19EO7JR2SYk" role="3cqZAp" />
         <node concept="3clFbH" id="4nH4LOF0NWk" role="3cqZAp" />
         <node concept="3cpWs8" id="4nH4LOF0NWl" role="3cqZAp">
           <node concept="3cpWsn" id="4nH4LOF0NWm" role="3cpWs9">
