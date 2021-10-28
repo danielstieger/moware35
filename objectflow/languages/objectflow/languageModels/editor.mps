@@ -8130,7 +8130,7 @@
         <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu$pmu" role="3EZMnx">
-        <property role="3F0ifm" value="// always check if unit of work was ALREADY processed (UI edits) -&gt; cancel" />
+        <property role="3F0ifm" value="// always check with precondition if unit of work was already processed, e.g ui edits" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         <node concept="pVoyu" id="3U0QWzu$pqn" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -8357,10 +8357,6 @@
       </node>
       <node concept="3F0ifn" id="382CQP4S7_7" role="3EZMnx">
         <property role="3F0ifm" value=" " />
-      </node>
-      <node concept="3F0ifn" id="382CQP4S7_H" role="3EZMnx">
-        <property role="3F0ifm" value="// and no problems before ... " />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
       </node>
       <node concept="3F0ifn" id="382CQP4RmNR" role="3EZMnx">
         <property role="3F0ifm" value="" />

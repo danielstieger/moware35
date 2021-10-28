@@ -25,7 +25,7 @@
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
-    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -417,7 +417,7 @@
       <property role="TrG5h" value="jmxRegistration" />
       <node concept="3Tm6S6" id="4ZThPOYBKXn" role="1B3o_S" />
       <node concept="3uibUv" id="2yuEF6qbSH0" role="1tU5fm">
-        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
       </node>
     </node>
     <node concept="312cEg" id="3Lpsq4dDyOj" role="jymVt">
@@ -894,12 +894,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="64g0II1yWxK" role="3cqZAp" />
-        <node concept="3clFbH" id="2QUDrsyoBBv" role="3cqZAp" />
         <node concept="3clFbF" id="2yuEF6qc4rx" role="3cqZAp">
           <node concept="37vLTI" id="2yuEF6qc4WC" role="3clFbG">
             <node concept="2ShNRf" id="2yuEF6qc7Rl" role="37vLTx">
               <node concept="1pGfFk" id="2yuEF6qc5cf" role="2ShVmc">
-                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="JmxRegistrationHelper" />
+                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="AppJmxRegistration" />
                 <node concept="37vLTw" id="7WBKY1WhevF" role="37wK5m">
                   <ref role="3cqZAo" node="7WBKY1WhevD" resolve="genApplicationFqName" />
                 </node>
@@ -3240,31 +3239,26 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="78d1$l3UbCC" role="3cqZAp">
-                      <node concept="2OqwBi" id="78d1$l3UbCD" role="3clFbG">
-                        <node concept="37vLTw" id="78d1$l3UbCE" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
-                        </node>
-                        <node concept="liA8E" id="78d1$l3UbCF" role="2OqNvi">
-                          <ref role="37wK5l" to="x37d:5NnlNqtAniw" resolve="logWithoutApplication" />
-                          <node concept="3cpWs3" id="78d1$l3UbCH" role="37wK5m">
-                            <node concept="1rXfSq" id="78d1$l3UbCI" role="3uHU7w">
-                              <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
-                              <node concept="37vLTw" id="78d1$l3UbCJ" role="37wK5m">
-                                <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
-                              </node>
-                              <node concept="37vLTw" id="78d1$l3UbCK" role="37wK5m">
-                                <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
-                              </node>
+                    <node concept="3clFbF" id="2rXgTRsfviR" role="3cqZAp">
+                      <node concept="1rXfSq" id="2rXgTRsfviP" role="3clFbG">
+                        <ref role="37wK5l" to="opgt:~GenericServlet.log(java.lang.String)" resolve="log" />
+                        <node concept="3cpWs3" id="78d1$l3UbCH" role="37wK5m">
+                          <node concept="1rXfSq" id="78d1$l3UbCI" role="3uHU7w">
+                            <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
+                            <node concept="37vLTw" id="78d1$l3UbCJ" role="37wK5m">
+                              <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
                             </node>
-                            <node concept="37vLTw" id="78d1$l3UbCL" role="3uHU7B">
-                              <ref role="3cqZAo" node="78d1$l3UdIk" resolve="msg" />
+                            <node concept="37vLTw" id="78d1$l3UbCK" role="37wK5m">
+                              <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
                             </node>
+                          </node>
+                          <node concept="37vLTw" id="78d1$l3UbCL" role="3uHU7B">
+                            <ref role="3cqZAo" node="78d1$l3UdIk" resolve="msg" />
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="5j5DccBPIvZ" role="3cqZAp" />
+                    <node concept="3clFbH" id="2rXgTRsftNG" role="3cqZAp" />
                     <node concept="3cpWs8" id="1WX6wrPVPHp" role="3cqZAp">
                       <node concept="3cpWsn" id="1WX6wrPVPHq" role="3cpWs9">
                         <property role="TrG5h" value="info" />
@@ -5985,6 +5979,13 @@
             <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
           </node>
         </node>
+        <node concept="3clFbF" id="2rXgTRschDA" role="3cqZAp">
+          <node concept="2YIFZM" id="2rXgTRschYL" role="3clFbG">
+            <ref role="1Pybhc" to="w7gk:3wMahqy82Ju" resolve="MMStaticAccessHelper" />
+            <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="gcClean" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2rXgTRscpPA" role="3cqZAp" />
         <node concept="3clFbF" id="3oZR98NhiDu" role="3cqZAp">
           <node concept="3nyPlj" id="3oZR98NhiDs" role="3clFbG">
             <ref role="37wK5l" to="opgt:~GenericServlet.destroy()" resolve="destroy" />
@@ -7249,7 +7250,7 @@
       <node concept="37vLTG" id="kA5KhwcNhg" role="3clF46">
         <property role="TrG5h" value="reghelper" />
         <node concept="3uibUv" id="kA5KhwcNpW" role="1tU5fm">
-          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
         </node>
       </node>
       <node concept="37vLTG" id="kA5KhwiF4W" role="3clF46">
@@ -14392,7 +14393,7 @@
       <node concept="37vLTG" id="1wwgtxzhi8Y" role="3clF46">
         <property role="TrG5h" value="regHelper" />
         <node concept="3uibUv" id="1wwgtxzhicw" role="1tU5fm">
-          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
         </node>
       </node>
       <node concept="37vLTG" id="1wwgtxzhigw" role="3clF46">

@@ -47,6 +47,8 @@
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.runtime/)" />
     <import index="yuyh" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.fop.configuration(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.runtime/)" />
+    <import index="9vh7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management(JDK/)" />
+    <import index="uzjr" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.management(JDK/)" />
     <import index="9n95" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote(JDK/)" implicit="true" />
     <import index="21r8" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.xmlgraphics.util(org.modellwerkstatt.objectflow.runtime/)" implicit="true" />
   </imports>
@@ -32851,6 +32853,14 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2rXgTRsbZ7N" role="3cqZAp">
+          <node concept="37vLTI" id="2rXgTRsbZCL" role="3clFbG">
+            <node concept="10Nm6u" id="2rXgTRsbZE7" role="37vLTx" />
+            <node concept="37vLTw" id="2rXgTRsbZ7L" role="37vLTJ">
+              <ref role="3cqZAo" node="1YSLAaBzt10" resolve="databaseDescription" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1fGCQmfPtez" role="3cqZAp">
           <node concept="37vLTI" id="1fGCQmfPtfV" role="3clFbG">
             <node concept="10Nm6u" id="1fGCQmfPtgW" role="37vLTx" />
@@ -33156,34 +33166,6 @@
       <node concept="17QB3L" id="4T6wObo7vS7" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="3J6KGB_wf9q" role="jymVt" />
-    <node concept="312cEg" id="xCUXDOmS7O" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="userEnv" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="xCUXDOmS7P" role="1B3o_S" />
-      <node concept="3uibUv" id="xCUXDOmTAR" role="1tU5fm">
-        <ref role="3uigEE" node="2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
-      </node>
-      <node concept="2AHcQZ" id="xCUXDOmS7R" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
-    </node>
-    <node concept="312cEg" id="xCUXDOmTjT" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="userSrv" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="xCUXDOmTjU" role="1B3o_S" />
-      <node concept="3uibUv" id="xCUXDOmTMx" role="1tU5fm">
-        <ref role="3uigEE" node="67D5vCCQkbw" resolve="IOFXUserServices" />
-      </node>
-      <node concept="2AHcQZ" id="xCUXDOmTjW" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="xCUXDOmRLl" role="jymVt" />
-    <node concept="2tJIrI" id="xCUXDOmRW$" role="jymVt" />
     <node concept="3clFbW" id="41UdyNBCv8N" role="jymVt">
       <node concept="3cqZAl" id="41UdyNBCv8P" role="3clF45" />
       <node concept="3Tm1VV" id="41UdyNBCv8Q" role="1B3o_S" />
@@ -33514,26 +33496,6 @@
         <node concept="3clFbF" id="3J6KGB_A0VY" role="3cqZAp">
           <node concept="37vLTw" id="3J6KGB_A0VW" role="3clFbG">
             <ref role="3cqZAo" node="3J6KGB__ZWg" resolve="session" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="xCUXDOmVot" role="jymVt">
-      <property role="TrG5h" value="newSession" />
-      <node concept="3uibUv" id="xCUXDOmVVQ" role="3clF45">
-        <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
-      </node>
-      <node concept="3Tm1VV" id="xCUXDOmVow" role="1B3o_S" />
-      <node concept="3clFbS" id="xCUXDOmVox" role="3clF47">
-        <node concept="3cpWs6" id="xCUXDOmWsP" role="3cqZAp">
-          <node concept="1rXfSq" id="xCUXDOmWwP" role="3cqZAk">
-            <ref role="37wK5l" node="3J6KGB_wf9B" resolve="createNewSession" />
-            <node concept="37vLTw" id="xCUXDOmWR$" role="37wK5m">
-              <ref role="3cqZAo" node="xCUXDOmS7O" resolve="userEnv" />
-            </node>
-            <node concept="37vLTw" id="xCUXDOmXo3" role="37wK5m">
-              <ref role="3cqZAo" node="xCUXDOmTjT" resolve="userSrv" />
-            </node>
           </node>
         </node>
       </node>
@@ -56384,6 +56346,28 @@
     </node>
     <node concept="2tJIrI" id="4FgSVMpnNXX" role="jymVt" />
     <node concept="3Tm1VV" id="4FgSVMpmPYZ" role="1B3o_S" />
+    <node concept="3UR2Jj" id="2rXgTRseHp5" role="lGtFl">
+      <node concept="TZ5HA" id="2rXgTRseHp6" role="TZ5H$">
+        <node concept="1dT_AC" id="2rXgTRseHp7" role="1dT_Ay">
+          <property role="1dT_AB" value="Basically one could also integrate jmx support here" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="2rXgTRseHSM" role="TZ5H$">
+        <node concept="1dT_AC" id="2rXgTRseHSN" role="1dT_Ay">
+          <property role="1dT_AB" value="reg / unreg log jmx via IOFXCoreReporter. That would allow access from everywhere" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="2rXgTRseHSU" role="TZ5H$">
+        <node concept="1dT_AC" id="2rXgTRseHSV" role="1dT_Ay">
+          <property role="1dT_AB" value="without having to distribout jmxreghelpers around the app." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="2rXgTRseHT4" role="TZ5H$">
+        <node concept="1dT_AC" id="2rXgTRseHT5" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4FgSVMpn0nI">
     <property role="3GE5qa" value="OFXArchitecture.reporting" />
@@ -57611,6 +57595,478 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="2yuEF6q8DRM">
+    <property role="TrG5h" value="StaticJmxAccess" />
+    <property role="3GE5qa" value="util" />
+    <node concept="2tJIrI" id="6TYnK1btwGU" role="jymVt" />
+    <node concept="2tJIrI" id="7HSdIeXWCxx" role="jymVt" />
+    <node concept="2tJIrI" id="7HSdIeXWEIt" role="jymVt" />
+    <node concept="2tJIrI" id="2yuEF6qamJf" role="jymVt" />
+    <node concept="2YIFZL" id="2rXgTRscYg$" role="jymVt">
+      <property role="TrG5h" value="register" />
+      <node concept="3clFbS" id="2yuEF6qaG8e" role="3clF47">
+        <node concept="3SKdUt" id="2yuEF6qbK6B" role="3cqZAp">
+          <node concept="1PaTwC" id="5HvIBdINIRN" role="1aUNEU">
+            <node concept="3oM_SD" id="5HvIBdINIRO" role="1PaTwD">
+              <property role="3oM_SC" value="it" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINIRP" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINIRQ" role="1PaTwD">
+              <property role="3oM_SC" value="necessary" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINIRR" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINIRS" role="1PaTwD">
+              <property role="3oM_SC" value="call" />
+            </node>
+            <node concept="3oM_SD" id="5HvIBdINIRT" role="1PaTwD">
+              <property role="3oM_SC" value="registerAppTelemetrics" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2rXgTRsdffe" role="3cqZAp">
+          <node concept="3cpWsn" id="2rXgTRsdffh" role="3cpWs9">
+            <property role="TrG5h" value="regErrorText" />
+            <node concept="17QB3L" id="2rXgTRsdffc" role="1tU5fm" />
+            <node concept="3cpWs3" id="2rXgTRsdgX6" role="33vP2m">
+              <node concept="2OqwBi" id="2rXgTRsdjzT" role="3uHU7w">
+                <node concept="2OqwBi" id="2rXgTRsdhbl" role="2Oq$k0">
+                  <node concept="37vLTw" id="2rXgTRsdh4r" role="2Oq$k0">
+                    <ref role="3cqZAo" node="66durT$Xo9q" resolve="objToRegister" />
+                  </node>
+                  <node concept="liA8E" id="2rXgTRsdiDP" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2rXgTRsdkdE" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="2rXgTRsdgE8" role="3uHU7B">
+                <node concept="3cpWs3" id="2rXgTRsdge1" role="3uHU7B">
+                  <node concept="Xl_RD" id="2rXgTRsdg2z" role="3uHU7B">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                  <node concept="37vLTw" id="2rXgTRsdgoh" role="3uHU7w">
+                    <ref role="3cqZAo" node="2rXgTRsd2na" resolve="name" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="2rXgTRsdgFt" role="3uHU7w">
+                  <property role="Xl_RC" value=" = " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2rXgTRsdiTr" role="3cqZAp" />
+        <node concept="3J1_TO" id="2yuEF6qbsGv" role="3cqZAp">
+          <node concept="3clFbS" id="2yuEF6qbsG$" role="1zxBo7">
+            <node concept="3clFbF" id="2rXgTRsd0Sp" role="3cqZAp">
+              <node concept="2OqwBi" id="2rXgTRsd15T" role="3clFbG">
+                <node concept="2YIFZM" id="2rXgTRsd0Y1" role="2Oq$k0">
+                  <ref role="37wK5l" to="uzjr:~ManagementFactory.getPlatformMBeanServer()" resolve="getPlatformMBeanServer" />
+                  <ref role="1Pybhc" to="uzjr:~ManagementFactory" resolve="ManagementFactory" />
+                </node>
+                <node concept="liA8E" id="2rXgTRsd1dG" role="2OqNvi">
+                  <ref role="37wK5l" to="9vh7:~MBeanServer.registerMBean(java.lang.Object,javax.management.ObjectName)" resolve="registerMBean" />
+                  <node concept="37vLTw" id="2rXgTRsd1oE" role="37wK5m">
+                    <ref role="3cqZAo" node="66durT$Xo9q" resolve="objToRegister" />
+                  </node>
+                  <node concept="2ShNRf" id="2yuEF6qbd6r" role="37wK5m">
+                    <node concept="1pGfFk" id="2yuEF6qbd_B" role="2ShVmc">
+                      <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
+                      <node concept="37vLTw" id="2rXgTRsd3c7" role="37wK5m">
+                        <ref role="3cqZAo" node="2rXgTRsd2na" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7HSdIeXWEqb" role="3cqZAp" />
+          </node>
+          <node concept="3uVAMA" id="2yuEF6qbsGA" role="1zxBo5">
+            <node concept="XOnhg" id="2yuEF6qbsGE" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="9qpP$OtJd0j" role="1tU5fm">
+                <node concept="3uibUv" id="2yuEF6qbsG_" role="nSUat">
+                  <ref role="3uigEE" to="9vh7:~MalformedObjectNameException" resolve="MalformedObjectNameException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2yuEF6qbsGD" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqOa7" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqOeD" role="3clFbG">
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="4FgSVMqqOi8" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqOW_" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsd7s7" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsdlaU" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdffh" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="4FgSVMqqOia" role="3uHU7B">
+                      <property role="Xl_RC" value="MalformedObjectNameEx during reg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqqOib" role="37wK5m">
+                    <ref role="3cqZAo" node="2yuEF6qbsGE" resolve="e" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="2yuEF6qbsGH" role="1zxBo5">
+            <node concept="XOnhg" id="2yuEF6qbsGL" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="9qpP$OtJd0_" role="1tU5fm">
+                <node concept="3uibUv" id="2yuEF6qbsGG" role="nSUat">
+                  <ref role="3uigEE" to="9vh7:~MBeanRegistrationException" resolve="MBeanRegistrationException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2yuEF6qbsGK" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqPnY" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqPnZ" role="3clFbG">
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="4FgSVMqqPo0" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqPo1" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsdbsC" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsdlSy" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdffh" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="66durT$XW5p" role="3uHU7B">
+                      <property role="Xl_RC" value="MBeanRegistrationException during reg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqqPo3" role="37wK5m">
+                    <ref role="3cqZAo" node="2yuEF6qbsGL" resolve="e" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="2yuEF6qbsGO" role="1zxBo5">
+            <node concept="XOnhg" id="2yuEF6qbsGS" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="9qpP$OtJd0R" role="1tU5fm">
+                <node concept="3uibUv" id="2yuEF6qbsGN" role="nSUat">
+                  <ref role="3uigEE" to="9vh7:~NotCompliantMBeanException" resolve="NotCompliantMBeanException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2yuEF6qbsGR" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqQhM" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqQhN" role="3clFbG">
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <node concept="3VsKOn" id="4FgSVMqqQhO" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqQhP" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsdcJs" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsdmAa" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdffh" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="66durT$XWeN" role="3uHU7B">
+                      <property role="Xl_RC" value="NotCompliantMBeanException during reg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqqQhR" role="37wK5m">
+                    <ref role="3cqZAo" node="2yuEF6qbsGS" resolve="e" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="2yuEF6qbsGV" role="1zxBo5">
+            <node concept="XOnhg" id="2yuEF6qbsGZ" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="9qpP$OtJd0T" role="1tU5fm">
+                <node concept="3uibUv" id="2yuEF6qbsGU" role="nSUat">
+                  <ref role="3uigEE" to="9vh7:~InstanceAlreadyExistsException" resolve="InstanceAlreadyExistsException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2yuEF6qbsGY" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqQLE" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqQLF" role="3clFbG">
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="4FgSVMqqQLG" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqQLH" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsde3T" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsdnjM" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdffh" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="66durT$XWob" role="3uHU7B">
+                      <property role="Xl_RC" value="InstanceAlreadyExistsException during reg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqqQLJ" role="37wK5m">
+                    <ref role="3cqZAo" node="2yuEF6qbsGZ" resolve="e" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2yuEF6qbalr" role="3cqZAp" />
+      </node>
+      <node concept="37vLTG" id="66durT$Xo9q" role="3clF46">
+        <property role="TrG5h" value="objToRegister" />
+        <node concept="3uibUv" id="2rXgTRscZc_" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2rXgTRsd2na" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="2rXgTRsd333" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2yuEF6qaG8c" role="3clF45" />
+      <node concept="3Tm1VV" id="2yuEF6qaG8d" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="66durT$Yd$r" role="jymVt" />
+    <node concept="2tJIrI" id="66durT$Yd3K" role="jymVt" />
+    <node concept="2YIFZL" id="2rXgTRsdCXp" role="jymVt">
+      <property role="TrG5h" value="unregister" />
+      <node concept="3clFbS" id="66durT$Y14s" role="3clF47">
+        <node concept="3cpWs8" id="2rXgTRsdrmf" role="3cqZAp">
+          <node concept="3cpWsn" id="2rXgTRsdrmg" role="3cpWs9">
+            <property role="TrG5h" value="regErrorText" />
+            <node concept="17QB3L" id="2rXgTRsdrmh" role="1tU5fm" />
+            <node concept="3cpWs3" id="2rXgTRsdrmo" role="33vP2m">
+              <node concept="3cpWs3" id="2rXgTRsdrmp" role="3uHU7B">
+                <node concept="Xl_RD" id="2rXgTRsdrmq" role="3uHU7B">
+                  <property role="Xl_RC" value=" " />
+                </node>
+                <node concept="37vLTw" id="2rXgTRsdrmr" role="3uHU7w">
+                  <ref role="3cqZAo" node="5lMTsSlJ9qD" resolve="name" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="2rXgTRsdrms" role="3uHU7w">
+                <property role="Xl_RC" value=" (no obj class info)" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="66durT$Y14t" role="3cqZAp" />
+        <node concept="3SKdUt" id="66durT$Y14u" role="3cqZAp">
+          <node concept="1PaTwC" id="2rXgTRsdqNr" role="1aUNEU">
+            <node concept="3oM_SD" id="2rXgTRsdqNs" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3J1_TO" id="66durT$Y14w" role="3cqZAp">
+          <node concept="3clFbS" id="66durT$Y14x" role="1zxBo7">
+            <node concept="3clFbF" id="2rXgTRsds4w" role="3cqZAp">
+              <node concept="2OqwBi" id="2rXgTRsdshZ" role="3clFbG">
+                <node concept="2YIFZM" id="2rXgTRsds8t" role="2Oq$k0">
+                  <ref role="37wK5l" to="uzjr:~ManagementFactory.getPlatformMBeanServer()" resolve="getPlatformMBeanServer" />
+                  <ref role="1Pybhc" to="uzjr:~ManagementFactory" resolve="ManagementFactory" />
+                </node>
+                <node concept="liA8E" id="2rXgTRsdsqM" role="2OqNvi">
+                  <ref role="37wK5l" to="9vh7:~MBeanServer.unregisterMBean(javax.management.ObjectName)" resolve="unregisterMBean" />
+                  <node concept="2ShNRf" id="2rXgTRsdsLh" role="37wK5m">
+                    <node concept="1pGfFk" id="2rXgTRsdtHb" role="2ShVmc">
+                      <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
+                      <node concept="37vLTw" id="2rXgTRsdtPE" role="37wK5m">
+                        <ref role="3cqZAo" node="5lMTsSlJ9qD" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3eB7cNzJy4a" role="3cqZAp" />
+          </node>
+          <node concept="3uVAMA" id="66durT$Y14J" role="1zxBo5">
+            <node concept="XOnhg" id="66durT$Y14S" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="iYs5bw5QgQ" role="1tU5fm">
+                <node concept="3uibUv" id="66durT$Y14T" role="nSUat">
+                  <ref role="3uigEE" to="9vh7:~MalformedObjectNameException" resolve="MalformedObjectNameException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="66durT$Y14K" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqSQy" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqSQz" role="3clFbG">
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="4FgSVMqqSQ$" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqSQ_" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsdvVv" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsdwrx" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdrmg" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="66durT$Y14P" role="3uHU7B">
+                      <property role="Xl_RC" value="MalformedObjectNameEx during unreg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqqSQB" role="37wK5m">
+                    <ref role="3cqZAo" node="66durT$Y14S" resolve="e" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="66durT$Y14U" role="1zxBo5">
+            <node concept="XOnhg" id="66durT$Y153" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="iYs5bw5Qj0" role="1tU5fm">
+                <node concept="3uibUv" id="66durT$Y154" role="nSUat">
+                  <ref role="3uigEE" to="9vh7:~MBeanRegistrationException" resolve="MBeanRegistrationException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="66durT$Y14V" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqTw9" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqTwa" role="3clFbG">
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <node concept="3VsKOn" id="4FgSVMqqTwb" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqTwc" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsd$ez" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsd$HD" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdrmg" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="66durT$Y150" role="3uHU7B">
+                      <property role="Xl_RC" value="MBeanRegistrationException during unreg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqqTwe" role="37wK5m">
+                    <ref role="3cqZAo" node="66durT$Y153" resolve="e" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="66durT$Y15g" role="1zxBo5">
+            <node concept="XOnhg" id="66durT$Y15o" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="iYs5bw5QjQ" role="1tU5fm">
+                <node concept="3uibUv" id="66durT$Y5T8" role="nSUat">
+                  <ref role="3uigEE" to="9vh7:~InstanceNotFoundException" resolve="InstanceNotFoundException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="66durT$Y15h" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqTPw" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqTPx" role="3clFbG">
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <node concept="3VsKOn" id="4FgSVMqqTPy" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqTPz" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsdzip" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsdzLm" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdrmg" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="66durT$Y15m" role="3uHU7B">
+                      <property role="Xl_RC" value="InstanceNotFoundException during unreg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqqTP_" role="37wK5m">
+                    <ref role="3cqZAo" node="66durT$Y15o" resolve="e" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="66durT$Y8Rc" role="1zxBo5">
+            <node concept="XOnhg" id="66durT$Y8Rd" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="ex" />
+              <node concept="nSUau" id="iYs5bw5_Rs" role="1tU5fm">
+                <node concept="3uibUv" id="66durT$Y8Zy" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~NullPointerException" resolve="NullPointerException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="66durT$Y8Rf" role="1zc67A">
+              <node concept="3clFbF" id="4FgSVMqqUse" role="3cqZAp">
+                <node concept="2YIFZM" id="4FgSVMqqUsf" role="3clFbG">
+                  <ref role="37wK5l" node="4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="4FgSVMqqUsg" role="37wK5m">
+                    <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="StaticJmxAccess" />
+                  </node>
+                  <node concept="Rm8GO" id="4FgSVMqqUsh" role="37wK5m">
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                    <ref role="Rm8GQ" node="2dTopMvfA_o" resolve="ERROR" />
+                  </node>
+                  <node concept="3cpWs3" id="2rXgTRsdyvB" role="37wK5m">
+                    <node concept="37vLTw" id="2rXgTRsdyYr" role="3uHU7w">
+                      <ref role="3cqZAo" node="2rXgTRsdrmg" resolve="regErrorText" />
+                    </node>
+                    <node concept="Xl_RD" id="66durT$Y93r" role="3uHU7B">
+                      <property role="Xl_RC" value="NPE during unreg. of " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4FgSVMqramS" role="37wK5m">
+                    <ref role="3cqZAo" node="66durT$Y8Rd" resolve="ex" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5lMTsSlJ9qD" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="2rXgTRsdqCA" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="66durT$Y14q" role="3clF45" />
+      <node concept="3Tm1VV" id="66durT$Y14r" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="3eB7cNzJ6JA" role="jymVt" />
+    <node concept="3Tm1VV" id="2yuEF6q8DRN" role="1B3o_S" />
   </node>
 </model>
 
