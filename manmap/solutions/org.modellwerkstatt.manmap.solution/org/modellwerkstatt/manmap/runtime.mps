@@ -8074,7 +8074,7 @@
     </node>
     <node concept="2tJIrI" id="2rXgTRsc9Ut" role="jymVt" />
     <node concept="2YIFZL" id="2rXgTRscacr" role="jymVt">
-      <property role="TrG5h" value="gcClean" />
+      <property role="TrG5h" value="shutdownAndGcClean" />
       <node concept="3cqZAl" id="2rXgTRscact" role="3clF45" />
       <node concept="3Tm1VV" id="2rXgTRscacu" role="1B3o_S" />
       <node concept="3clFbS" id="2rXgTRscacv" role="3clF47">

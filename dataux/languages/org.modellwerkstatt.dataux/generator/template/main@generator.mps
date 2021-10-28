@@ -16802,14 +16802,13 @@
     <node concept="312cEg" id="2rXgTRr5yks" role="jymVt">
       <property role="TrG5h" value="cl_ProdConsInitializer" />
       <node concept="3uibUv" id="2rXgTRr5ykv" role="1tU5fm">
-        <ref role="3uigEE" node="5BROMrVN42N" resolve="map_BatchJobModule.__ProdConsInitializer__" />
+        <ref role="3uigEE" node="5BROMrVN42N" resolve="map_BatchJobModule.__initializer__" />
       </node>
       <node concept="3Tm6S6" id="2rXgTRr5ykw" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="7tfEsbGV1jp" role="jymVt" />
-    <node concept="2tJIrI" id="7tfEsbGUTTG" role="jymVt" />
     <node concept="312cEu" id="5BROMrVN42N" role="jymVt">
-      <property role="TrG5h" value="__ProdConsInitializer__" />
+      <property role="TrG5h" value="__initializer__" />
       <node concept="312cEg" id="4jlzLDkIq6h" role="jymVt">
         <property role="TrG5h" value="variablesComponents" />
         <node concept="3Tm6S6" id="4jlzLDkIq6i" role="1B3o_S" />
@@ -18246,7 +18245,7 @@
               <node concept="liA8E" id="3J6KGB_AGJy" role="2OqNvi">
                 <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class)" resolve="createBean" />
                 <node concept="3VsKOn" id="5BROMrVNWLb" role="37wK5m">
-                  <ref role="3VsUkX" node="5BROMrVN42N" resolve="map_BatchJobModule.__ProdConsInitializer__" />
+                  <ref role="3VsUkX" node="5BROMrVN42N" resolve="map_BatchJobModule.__initializer__" />
                 </node>
               </node>
             </node>
@@ -19402,7 +19401,7 @@
             <node concept="3clFbF" id="2rXgTRschDA" role="3cqZAp">
               <node concept="2YIFZM" id="2rXgTRschYL" role="3clFbG">
                 <ref role="1Pybhc" to="w7gk:3wMahqy82Ju" resolve="MMStaticAccessHelper" />
-                <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="gcClean" />
+                <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="shutdownAndGcClean" />
               </node>
             </node>
             <node concept="3clFbH" id="2rXgTRsc_yf" role="3cqZAp" />

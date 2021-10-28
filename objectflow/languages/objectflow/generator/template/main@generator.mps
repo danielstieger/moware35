@@ -20520,43 +20520,6 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3SKdUt" id="1CRSlngnIhQ" role="3cqZAp">
-                    <node concept="1PaTwC" id="5HvIBdINIC7" role="1aUNEU">
-                      <node concept="3oM_SD" id="5HvIBdINIC8" role="1PaTwD">
-                        <property role="3oM_SC" value="TODO:" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINIC9" role="1PaTwD">
-                        <property role="3oM_SC" value="but" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICa" role="1PaTwD">
-                        <property role="3oM_SC" value="then" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICb" role="1PaTwD">
-                        <property role="3oM_SC" value="we" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICc" role="1PaTwD">
-                        <property role="3oM_SC" value="are" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICd" role="1PaTwD">
-                        <property role="3oM_SC" value="stumpling" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICe" role="1PaTwD">
-                        <property role="3oM_SC" value="into" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICf" role="1PaTwD">
-                        <property role="3oM_SC" value="the" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICg" role="1PaTwD">
-                        <property role="3oM_SC" value="next" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICh" role="1PaTwD">
-                        <property role="3oM_SC" value="page" />
-                      </node>
-                      <node concept="3oM_SD" id="5HvIBdINICi" role="1PaTwD">
-                        <property role="3oM_SC" value="..." />
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3clFbH" id="1CRSlngnJGj" role="3cqZAp" />
                   <node concept="3clFbF" id="65g7rxk_onT" role="3cqZAp">
                     <node concept="2OqwBi" id="65g7rxk_qqf" role="3clFbG">
@@ -21571,6 +21534,18 @@
                             </node>
                           </node>
                           <node concept="3clFbH" id="4InK$iNkxR0" role="3cqZAp" />
+                          <node concept="3clFbF" id="2rXgTRtlAoq" role="3cqZAp">
+                            <node concept="2YIFZM" id="2rXgTRtlAor" role="3clFbG">
+                              <ref role="1Pybhc" to="28jr:7ymmWYJjVRz" resolve="Workarounds2" />
+                              <ref role="37wK5l" to="28jr:2rXgTRtfxjU" resolve="checkForWarningsInRunCommand" />
+                              <node concept="37vLTw" id="2rXgTRtlAos" role="37wK5m">
+                                <ref role="3cqZAo" node="6cn6oSwfibs" resolve="__userServices" />
+                              </node>
+                              <node concept="37vLTw" id="2rXgTRtlD3x" role="37wK5m">
+                                <ref role="3cqZAo" node="6bl3$WOMWCr" resolve="successorCommand" />
+                              </node>
+                            </node>
+                          </node>
                           <node concept="3clFbH" id="7UdH_jFzOlq" role="3cqZAp" />
                         </node>
                         <node concept="1wplmZ" id="7UdH_jF$mwV" role="1zxBo6">
@@ -21836,6 +21811,19 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="2q7OPuPXjvn" role="3cqZAp" />
+                  <node concept="3clFbH" id="2rXgTRtlggQ" role="3cqZAp" />
+                  <node concept="3clFbF" id="2rXgTRtlgzf" role="3cqZAp">
+                    <node concept="2YIFZM" id="2rXgTRtfzzo" role="3clFbG">
+                      <ref role="1Pybhc" to="28jr:7ymmWYJjVRz" resolve="Workarounds2" />
+                      <ref role="37wK5l" to="28jr:2rXgTRtfxjU" resolve="checkForWarningsInRunCommand" />
+                      <node concept="37vLTw" id="2rXgTRtlbUn" role="37wK5m">
+                        <ref role="3cqZAo" node="6cn6oSwfibs" resolve="__userServices" />
+                      </node>
+                      <node concept="37vLTw" id="2rXgTRtlyHi" role="37wK5m">
+                        <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="350ozEAcCyG" role="3cqZAp">
                     <node concept="37vLTI" id="350ozEAcFif" role="3clFbG">
                       <node concept="3clFbT" id="350ozEAcFiX" role="37vLTx">
@@ -22070,67 +22058,6 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="7ymmWYJhSB1" role="3cqZAp" />
-                    <node concept="3SKdUt" id="7ymmWYJhV6x" role="3cqZAp">
-                      <node concept="1PaTwC" id="5HvIBdINIES" role="1aUNEU">
-                        <node concept="3oM_SD" id="5HvIBdINIET" role="1PaTwD">
-                          <property role="3oM_SC" value="check" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIEU" role="1PaTwD">
-                          <property role="3oM_SC" value="problems?" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIEV" role="1PaTwD">
-                          <property role="3oM_SC" value="eg." />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIEW" role="1PaTwD">
-                          <property role="3oM_SC" value="session.getAndClearProblemState?" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3SKdUt" id="7ymmWYKvLTS" role="3cqZAp">
-                      <node concept="1PaTwC" id="5HvIBdINIEX" role="1aUNEU">
-                        <node concept="3oM_SD" id="5HvIBdINIEY" role="1PaTwD">
-                          <property role="3oM_SC" value="no," />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIEZ" role="1PaTwD">
-                          <property role="3oM_SC" value="warnings" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF0" role="1PaTwD">
-                          <property role="3oM_SC" value="are" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF1" role="1PaTwD">
-                          <property role="3oM_SC" value="not" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF2" role="1PaTwD">
-                          <property role="3oM_SC" value="reported" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF3" role="1PaTwD">
-                          <property role="3oM_SC" value="without" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF4" role="1PaTwD">
-                          <property role="3oM_SC" value="ui." />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF5" role="1PaTwD">
-                          <property role="3oM_SC" value="Problems" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF6" role="1PaTwD">
-                          <property role="3oM_SC" value="are" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF7" role="1PaTwD">
-                          <property role="3oM_SC" value="already" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF8" role="1PaTwD">
-                          <property role="3oM_SC" value="reported" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIF9" role="1PaTwD">
-                          <property role="3oM_SC" value="-&gt;" />
-                        </node>
-                        <node concept="3oM_SD" id="5HvIBdINIFa" role="1PaTwD">
-                          <property role="3oM_SC" value="hopefully." />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbH" id="7UdH_jFzd6m" role="3cqZAp" />
                   </node>
                 </node>
               </node>
