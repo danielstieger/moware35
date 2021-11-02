@@ -17055,7 +17055,6 @@
           <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
         </node>
       </node>
-      <node concept="2tJIrI" id="2rXgTRr3odf" role="jymVt" />
       <node concept="312cEg" id="2rXgTRqSIWz" role="jymVt">
         <property role="34CwA1" value="false" />
         <property role="eg7rD" value="false" />
@@ -17135,6 +17134,10 @@
       <node concept="3clFb_" id="4jlzLDkIH3r" role="jymVt">
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="createPairController" />
+        <node concept="37vLTG" id="4g_sjDODCDP" role="3clF46">
+          <property role="TrG5h" value="fromConsole" />
+          <node concept="10P_77" id="4g_sjDOEjHU" role="1tU5fm" />
+        </node>
         <node concept="3uibUv" id="4jlzLDkIH3s" role="3clF45">
           <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
           <node concept="3uibUv" id="4jlzLDkKoeH" role="11_B2D">
@@ -18003,8 +18006,18 @@
                   <node concept="37vLTw" id="2rXgTRqYqqs" role="37wK5m">
                     <ref role="3cqZAo" node="2rXgTRqSIWz" resolve="printServiceImpl" />
                   </node>
-                  <node concept="37vLTw" id="2rXgTRqYw_8" role="37wK5m">
-                    <ref role="3cqZAo" node="2rXgTRqRfjj" resolve="__localApplicationFactory" />
+                  <node concept="3K4zz7" id="4g_sjDOEwKS" role="37wK5m">
+                    <node concept="2ShNRf" id="4g_sjDOE$uP" role="3K4E3e">
+                      <node concept="1pGfFk" id="4g_sjDOECAF" role="2ShVmc">
+                        <ref role="37wK5l" to="28jr:4g_sjDOBItr" resolve="OFXSimpleConsoleReporter" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="4g_sjDOECGQ" role="3K4GZi">
+                      <ref role="3cqZAo" node="2rXgTRqRfjj" resolve="__localApplicationFactory" />
+                    </node>
+                    <node concept="37vLTw" id="4g_sjDODJk1" role="3K4Cdx">
+                      <ref role="3cqZAo" node="4g_sjDODCDP" resolve="fromConsole" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -18679,6 +18692,9 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                    <node concept="37vLTw" id="4g_sjDOE9PU" role="37wK5m">
+                      <ref role="3cqZAo" node="DRZf0SyyJ6" resolve="fromConsole" />
                     </node>
                   </node>
                 </node>
