@@ -3413,7 +3413,7 @@
       <property role="TrG5h" value="jmxHelper" />
       <node concept="3Tm6S6" id="2yuEF6qmaQ2" role="1B3o_S" />
       <node concept="3uibUv" id="2yuEF6qm_1R" role="1tU5fm">
-        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
       </node>
     </node>
     <node concept="2tJIrI" id="4FgSVMtrzFF" role="jymVt" />
@@ -3808,8 +3808,9 @@
                                                       <node concept="Xl_RD" id="4FgSVMtrupm" role="37wK5m">
                                                         <property role="Xl_RC" value="" />
                                                       </node>
-                                                      <node concept="Xl_RD" id="3EJOQfNfNv3" role="37wK5m">
-                                                        <property role="Xl_RC" value="FX8" />
+                                                      <node concept="10M0yZ" id="4g_sjDLc36U" role="37wK5m">
+                                                        <ref role="3cqZAo" to="28jr:4g_sjDLbUdh" resolve="RT" />
+                                                        <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
                                                       </node>
                                                       <node concept="Xl_RD" id="3EJOQfNfNv4" role="37wK5m">
                                                         <property role="Xl_RC" value="jdk8 bug - ComboBoxPopupControl.positionAndShowPopup" />
@@ -3886,8 +3887,9 @@
                                                           <property role="3clFbU" value="true" />
                                                         </node>
                                                         <node concept="Xl_RD" id="6UkfGkBPXca" role="37wK5m" />
-                                                        <node concept="Xl_RD" id="4FgSVMtryWt" role="37wK5m">
-                                                          <property role="Xl_RC" value="FX8" />
+                                                        <node concept="10M0yZ" id="4g_sjDLc3VU" role="37wK5m">
+                                                          <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                                                          <ref role="3cqZAo" to="28jr:4g_sjDLbUdh" resolve="RT" />
                                                         </node>
                                                         <node concept="Xl_RD" id="6UkfGkBPXEm" role="37wK5m">
                                                           <property role="Xl_RC" value="jdk11 bug - PickResultChooser.processOffer" />
@@ -4178,7 +4180,7 @@
           <node concept="37vLTI" id="2yuEF6qmjBz" role="3clFbG">
             <node concept="2ShNRf" id="2yuEF6qmkEB" role="37vLTx">
               <node concept="1pGfFk" id="2yuEF6qmkpd" role="2ShVmc">
-                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="JmxRegistrationHelper" />
+                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="AppJmxRegistration" />
                 <node concept="2OqwBi" id="2yuEF6qml9I" role="37wK5m">
                   <node concept="2OqwBi" id="2yuEF6qmkLS" role="2Oq$k0">
                     <node concept="37vLTw" id="2yuEF6qmkKe" role="2Oq$k0">

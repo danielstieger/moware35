@@ -2129,8 +2129,9 @@
                     <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
                   </node>
                 </node>
-                <node concept="Xl_RD" id="4FgSVMsQwQn" role="37wK5m">
-                  <property role="Xl_RC" value="H2" />
+                <node concept="10M0yZ" id="4g_sjDLcpxv" role="37wK5m">
+                  <ref role="3cqZAo" to="28jr:4g_sjDLbUdh" resolve="RT" />
+                  <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
                 </node>
                 <node concept="Xl_RD" id="4FgSVMsQx0Q" role="37wK5m">
                   <property role="Xl_RC" value="" />
@@ -5982,7 +5983,7 @@
         <node concept="3clFbF" id="2rXgTRschDA" role="3cqZAp">
           <node concept="2YIFZM" id="2rXgTRschYL" role="3clFbG">
             <ref role="1Pybhc" to="w7gk:3wMahqy82Ju" resolve="MMStaticAccessHelper" />
-            <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="gcClean" />
+            <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="shutdownAndGcClean" />
           </node>
         </node>
         <node concept="3clFbH" id="2rXgTRscpPA" role="3cqZAp" />
@@ -12021,8 +12022,9 @@
                   <node concept="Xl_RD" id="1WX6wrPUbHC" role="37wK5m">
                     <property role="Xl_RC" value="" />
                   </node>
-                  <node concept="Xl_RD" id="1WX6wrPU7NQ" role="37wK5m">
-                    <property role="Xl_RC" value="H2" />
+                  <node concept="10M0yZ" id="4g_sjDLc36U" role="37wK5m">
+                    <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                    <ref role="3cqZAo" to="28jr:4g_sjDLbUdh" resolve="RT" />
                   </node>
                   <node concept="37vLTw" id="uIozejHkHh" role="37wK5m">
                     <ref role="3cqZAo" node="uIozejHeTI" resolve="msg" />
