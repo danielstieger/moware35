@@ -49,7 +49,6 @@
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
-      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -269,62 +268,6 @@
       <node concept="3clFbS" id="5XGplYAWG3L" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="7HkVpVbYc7c" role="jymVt" />
-    <node concept="3clFb_" id="4nH4LOEExIs" role="jymVt">
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="msgToEventBus" />
-      <node concept="3clFbS" id="4nH4LOEExIv" role="3clF47" />
-      <node concept="3Tm1VV" id="4nH4LOEExIw" role="1B3o_S" />
-      <node concept="3cqZAl" id="4nH4LOEExCO" role="3clF45" />
-      <node concept="37vLTG" id="4nH4LOEE$kI" role="3clF46">
-        <property role="TrG5h" value="swName" />
-        <node concept="17QB3L" id="4nH4LOEE$rQ" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEE$xN" role="3clF46">
-        <property role="TrG5h" value="swVersion" />
-        <node concept="17QB3L" id="4nH4LOEE$D4" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEExRN" role="3clF46">
-        <property role="TrG5h" value="device" />
-        <node concept="17QB3L" id="4nH4LOEExRM" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="5KMLUmASQxw" role="3clF46">
-        <property role="TrG5h" value="deviceId" />
-        <node concept="17QB3L" id="5KMLUmBghIp" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEExYu" role="3clF46">
-        <property role="TrG5h" value="userId" />
-        <node concept="10Oyi0" id="4nH4LOEEyqi" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEEy6P" role="3clF46">
-        <property role="TrG5h" value="userName" />
-        <node concept="17QB3L" id="4nH4LOEEydH" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEEyia" role="3clF46">
-        <property role="TrG5h" value="channel" />
-        <node concept="17QB3L" id="4nH4LOEEyvf" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEFVSr" role="3clF46">
-        <property role="TrG5h" value="what" />
-        <node concept="17QB3L" id="4nH4LOEFVZu" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEFzrM" role="3clF46">
-        <property role="TrG5h" value="timeTaken" />
-        <node concept="3cpWsb" id="4nH4LOEFzyL" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="2gs9poW5zpK" role="3clF46">
-        <property role="TrG5h" value="source" />
-        <node concept="17QB3L" id="2gs9poW5zwU" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4nH4LOEEyz5" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="17QB3L" id="4nH4LOEEyB0" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="7XXWpoMQ0BP" role="3clF46">
-        <property role="TrG5h" value="param1" />
-        <node concept="17QB3L" id="7XXWpoMQ0LI" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="4nH4LOEEyEV" role="jymVt" />
     <node concept="3clFb_" id="1SuqpWQX7r3" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createGenPagePaneByFqName" />

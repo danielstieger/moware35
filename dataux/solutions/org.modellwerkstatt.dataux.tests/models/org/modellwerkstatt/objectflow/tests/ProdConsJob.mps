@@ -11925,7 +11925,7 @@
       <node concept="3Tm1VV" id="7tfEsbG8tgM" role="1B3o_S" />
       <node concept="3clFbS" id="7tfEsbG8tgN" role="3clF47">
         <node concept="XkiVB" id="7tfEsbG8tnE" role="3cqZAp">
-          <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXPCPairController" />
+          <ref role="37wK5l" to="z3ji:2rXgTRqW$g6" resolve="OFXPCPairController" />
           <node concept="37vLTw" id="7tfEsbG8u8m" role="37wK5m">
             <ref role="3cqZAo" node="7XC7Kvk8jxC" resolve="id" />
           </node>
@@ -11937,6 +11937,12 @@
           </node>
           <node concept="37vLTw" id="7tfEsbG8upq" role="37wK5m">
             <ref role="3cqZAo" node="3eB7cNzMIgx" resolve="strat" />
+          </node>
+          <node concept="10Nm6u" id="kQHSkO$fNM" role="37wK5m" />
+          <node concept="2ShNRf" id="kQHSkO$fY0" role="37wK5m">
+            <node concept="1pGfFk" id="kQHSkO$gx1" role="2ShVmc">
+              <ref role="37wK5l" to="28jr:4g_sjDOBItr" resolve="OFXSimpleConsoleReporter" />
+            </node>
           </node>
         </node>
       </node>
@@ -12325,7 +12331,7 @@
                                 <node concept="1pGfFk" id="4$zcAetrbpo" role="2ShVmc">
                                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                                   <node concept="10M0yZ" id="4$zcAetrbrc" role="37wK5m">
-                                    <ref role="3cqZAo" to="z3ji:4$zcAetqYm_" resolve="STOP_EVENT_LOOP_EX_MSG" />
+                                    <ref role="3cqZAo" to="z3ji:4$zcAetqYm_" resolve="TEST_STOP_EVENT_LOOP_EX_MSG" />
                                     <ref role="1PxDUh" to="z3ji:7BWfrtCZ5Vu" resolve="OFXConsumerRunnable" />
                                   </node>
                                 </node>
@@ -12362,7 +12368,7 @@
                                   <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
                                   <node concept="10M0yZ" id="4$zcAetrcJ7" role="37wK5m">
                                     <ref role="1PxDUh" to="z3ji:7BWfrtCZ5Vu" resolve="OFXConsumerRunnable" />
-                                    <ref role="3cqZAo" to="z3ji:4$zcAetqYm_" resolve="STOP_EVENT_LOOP_EX_MSG" />
+                                    <ref role="3cqZAo" to="z3ji:4$zcAetqYm_" resolve="TEST_STOP_EVENT_LOOP_EX_MSG" />
                                   </node>
                                 </node>
                               </node>
@@ -13228,7 +13234,7 @@
                 <node concept="1Y3b0j" id="4nH4LOF0NMZ" role="YeSDq">
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
-                  <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXPCPairController" />
+                  <ref role="37wK5l" to="z3ji:2rXgTRqW$g6" resolve="OFXPCPairController" />
                   <node concept="3cmrfG" id="4nH4LOF0NN0" role="37wK5m">
                     <property role="3cmrfH" value="0" />
                   </node>
@@ -13280,6 +13286,12 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="kQHSkOyJ8i" role="37wK5m" />
+                  <node concept="2ShNRf" id="kQHSkOyHKe" role="37wK5m">
+                    <node concept="1pGfFk" id="kQHSkOyIth" role="2ShVmc">
+                      <ref role="37wK5l" to="28jr:4g_sjDOBItr" resolve="OFXSimpleConsoleReporter" />
                     </node>
                   </node>
                   <node concept="2tJIrI" id="4nH4LOF0NNk" role="jymVt" />
