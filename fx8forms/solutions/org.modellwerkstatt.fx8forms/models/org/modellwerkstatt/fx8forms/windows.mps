@@ -5440,7 +5440,72 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="69JiVbyXKsR" role="3cqZAp" />
+        <node concept="3clFbH" id="4WoSiUMiu0p" role="3cqZAp" />
+        <node concept="3clFbF" id="4WoSiUMimGX" role="3cqZAp">
+          <node concept="2OqwBi" id="4WoSiUMixYv" role="3clFbG">
+            <node concept="2OqwBi" id="4WoSiUMioR2" role="2Oq$k0">
+              <node concept="37vLTw" id="4WoSiUMimGV" role="2Oq$k0">
+                <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+              </node>
+              <node concept="liA8E" id="4WoSiUMixUD" role="2OqNvi">
+                <ref role="37wK5l" to="1e0c:7HkVpVcgYkW" resolve="getEventBus" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4WoSiUMiAlQ" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2LxPC2g$TLK" resolve="setSysInfo" />
+              <node concept="3cpWs3" id="4WoSiUMiRJt" role="37wK5m">
+                <node concept="2OqwBi" id="4WoSiUMiV81" role="3uHU7w">
+                  <node concept="37vLTw" id="4WoSiUMiU5T" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
+                  </node>
+                  <node concept="liA8E" id="4WoSiUMiXA9" role="2OqNvi">
+                    <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="4WoSiUMiNZQ" role="3uHU7B">
+                  <node concept="3cpWs3" id="4WoSiUMiJnk" role="3uHU7B">
+                    <node concept="3cpWs3" id="4WoSiUMiGPT" role="3uHU7B">
+                      <node concept="3cpWs3" id="4WoSiUMiDLS" role="3uHU7B">
+                        <node concept="3cpWs3" id="4WoSiUMiBcm" role="3uHU7B">
+                          <node concept="3cpWs3" id="4WoSiUMiC35" role="3uHU7B">
+                            <node concept="Xl_RD" id="4WoSiUMiCGL" role="3uHU7B">
+                              <property role="Xl_RC" value="" />
+                            </node>
+                            <node concept="Rm8GO" id="4WoSiUMiAL7" role="3uHU7w">
+                              <ref role="Rm8GQ" to="28jr:4FgSVMpn0zc" resolve="MOWARE_FX8" />
+                              <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="4WoSiUMiBg8" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4WoSiUMiExU" role="3uHU7w">
+                          <ref role="3cqZAo" node="4FgSVMtrEFK" resolve="systemName" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="4WoSiUMiHAo" role="3uHU7w">
+                        <property role="Xl_RC" value=": " />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4WoSiUMiKZb" role="3uHU7w">
+                      <node concept="37vLTw" id="4WoSiUMiKkY" role="2Oq$k0">
+                        <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
+                      </node>
+                      <node concept="liA8E" id="4WoSiUMiNhV" role="2OqNvi">
+                        <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4WoSiUMiO4L" role="3uHU7w">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4WoSiUMieCk" role="3cqZAp" />
         <node concept="3clFbJ" id="7r26jiO5h38" role="3cqZAp">
           <node concept="3clFbS" id="7r26jiO5h3a" role="3clFbx">
             <node concept="3clFbF" id="7r26jiO5j6A" role="3cqZAp">

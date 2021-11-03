@@ -1099,6 +1099,77 @@
           </node>
         </node>
         <node concept="3clFbH" id="7WBKY1WfQE3" role="3cqZAp" />
+        <node concept="3clFbF" id="4WoSiUMimGX" role="3cqZAp">
+          <node concept="2OqwBi" id="4WoSiUMixYv" role="3clFbG">
+            <node concept="2OqwBi" id="4WoSiUMioR2" role="2Oq$k0">
+              <node concept="37vLTw" id="4WoSiUMjdVK" role="2Oq$k0">
+                <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+              </node>
+              <node concept="liA8E" id="4WoSiUMjfda" role="2OqNvi">
+                <ref role="37wK5l" to="250q:7HkVpVbXnBN" resolve="getEventBus" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4WoSiUMiAlQ" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2LxPC2g$TLK" resolve="setSysInfo" />
+              <node concept="3cpWs3" id="4WoSiUMiRJt" role="37wK5m">
+                <node concept="3cpWs3" id="4WoSiUMiNZQ" role="3uHU7B">
+                  <node concept="3cpWs3" id="4WoSiUMiJnk" role="3uHU7B">
+                    <node concept="3cpWs3" id="4WoSiUMiGPT" role="3uHU7B">
+                      <node concept="3cpWs3" id="4WoSiUMiDLS" role="3uHU7B">
+                        <node concept="3cpWs3" id="4WoSiUMiBcm" role="3uHU7B">
+                          <node concept="3cpWs3" id="4WoSiUMiC35" role="3uHU7B">
+                            <node concept="Xl_RD" id="4WoSiUMiCGL" role="3uHU7B">
+                              <property role="Xl_RC" value="" />
+                            </node>
+                            <node concept="Rm8GO" id="4WoSiUMjgsz" role="3uHU7w">
+                              <ref role="Rm8GQ" to="28jr:4FgSVMpn0wp" resolve="MOWARE_H2" />
+                              <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="4WoSiUMiBg8" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="4WoSiUMjhqN" role="3uHU7w">
+                          <node concept="37vLTw" id="4WoSiUMjhav" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2462lDSpvEp" resolve="statics" />
+                          </node>
+                          <node concept="2S8uIT" id="4WoSiUMji5l" role="2OqNvi">
+                            <ref role="2S8YL0" node="7WBKY1WeN$n" resolve="guessedServerName" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="4WoSiUMiHAo" role="3uHU7w">
+                        <property role="Xl_RC" value=": " />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4WoSiUMjjQe" role="3uHU7w">
+                      <node concept="37vLTw" id="4WoSiUMjjqO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2462lDSpvEp" resolve="statics" />
+                      </node>
+                      <node concept="2S8uIT" id="4WoSiUMjkC8" role="2OqNvi">
+                        <ref role="2S8YL0" node="7WBKY1WeN0o" resolve="applicationName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4WoSiUMiO4L" role="3uHU7w">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4WoSiUMjpnu" role="3uHU7w">
+                  <node concept="37vLTw" id="4WoSiUMjoww" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                  </node>
+                  <node concept="liA8E" id="4WoSiUMjqtJ" role="2OqNvi">
+                    <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4WoSiUMj8WU" role="3cqZAp" />
+        <node concept="3clFbH" id="4WoSiUMj92z" role="3cqZAp" />
         <node concept="3clFbF" id="3Lpsq4dDC0B" role="3cqZAp">
           <node concept="37vLTI" id="3Lpsq4dDDlU" role="3clFbG">
             <node concept="3clFbT" id="3Lpsq4dDEz0" role="37vLTx">
@@ -2095,6 +2166,16 @@
         <property role="TrG5h" value="nameSwNameId" />
         <node concept="17QB3L" id="1WX6wrPVfpE" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="4WoSiUNa$Il" role="3clF46">
+        <property role="TrG5h" value="prio" />
+        <node concept="3uibUv" id="4WoSiUNaBPL" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4WoSiUNaskz" role="3clF46">
+        <property role="TrG5h" value="desc" />
+        <node concept="17QB3L" id="4WoSiUNauAe" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="1WX6wrPUpvB" role="3clF45">
         <ref role="3uigEE" to="28jr:4FgSVMpn0nI" resolve="CoreReporterInfo" />
       </node>
@@ -2136,6 +2217,9 @@
                 <node concept="Xl_RD" id="4FgSVMsQx0Q" role="37wK5m">
                   <property role="Xl_RC" value="" />
                 </node>
+                <node concept="37vLTw" id="4WoSiUNaF_q" role="37wK5m">
+                  <ref role="3cqZAo" node="4WoSiUNa$Il" resolve="prio" />
+                </node>
                 <node concept="37vLTw" id="1WX6wrPV0NQ" role="37wK5m">
                   <ref role="3cqZAo" node="1WX6wrPUREN" resolve="uId" />
                 </node>
@@ -2174,6 +2258,9 @@
                   <node concept="2S8uIT" id="1WX6wrPVeHP" role="2OqNvi">
                     <ref role="2S8YL0" node="7WBKY1WeN$n" resolve="guessedServerName" />
                   </node>
+                </node>
+                <node concept="37vLTw" id="4WoSiUNazH0" role="37wK5m">
+                  <ref role="3cqZAo" node="4WoSiUNaskz" resolve="desc" />
                 </node>
               </node>
             </node>
@@ -3287,19 +3374,9 @@
                               </node>
                             </node>
                           </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbF" id="1WX6wrPW2Ur" role="3cqZAp">
-                      <node concept="2OqwBi" id="1WX6wrPW3wS" role="3clFbG">
-                        <node concept="37vLTw" id="1WX6wrPW2Up" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1WX6wrPVPHq" resolve="info" />
-                        </node>
-                        <node concept="liA8E" id="1WX6wrPW4Fd" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:4FgSVMs$3eX" resolve="addParameter" />
-                          <node concept="10M0yZ" id="1WX6wrPVCXY" role="37wK5m">
-                            <ref role="3cqZAo" to="28jr:1WX6wrPVx0Y" resolve="DESCRIPTION" />
-                            <ref role="1PxDUh" to="28jr:4FgSVMpn0nI" resolve="CoreReporterInfo" />
+                          <node concept="Rm8GO" id="4WoSiUNaJZD" role="37wK5m">
+                            <ref role="Rm8GQ" to="28jr:2dTopMvfBq_" resolve="INFO" />
+                            <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
                           </node>
                           <node concept="Xl_RD" id="1WX6wrPW7Rh" role="37wK5m">
                             <property role="Xl_RC" value="ip adr changed" />
@@ -3763,19 +3840,9 @@
                               </node>
                             </node>
                           </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbF" id="1WX6wrPWuft" role="3cqZAp">
-                      <node concept="2OqwBi" id="1WX6wrPWufu" role="3clFbG">
-                        <node concept="37vLTw" id="1WX6wrPWufv" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1WX6wrPWufj" resolve="info" />
-                        </node>
-                        <node concept="liA8E" id="1WX6wrPWufw" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:4FgSVMs$3eX" resolve="addParameter" />
-                          <node concept="10M0yZ" id="1WX6wrPWufx" role="37wK5m">
-                            <ref role="3cqZAo" to="28jr:1WX6wrPVx0Y" resolve="DESCRIPTION" />
-                            <ref role="1PxDUh" to="28jr:4FgSVMpn0nI" resolve="CoreReporterInfo" />
+                          <node concept="Rm8GO" id="4WoSiUNaSB_" role="37wK5m">
+                            <ref role="Rm8GQ" to="28jr:2dTopMvfBq_" resolve="INFO" />
+                            <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
                           </node>
                           <node concept="Xl_RD" id="1WX6wrPWufy" role="37wK5m">
                             <property role="Xl_RC" value="browser start" />

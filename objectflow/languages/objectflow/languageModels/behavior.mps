@@ -3475,7 +3475,7 @@
       <node concept="3Tm1VV" id="3g5RX4qMJr7" role="1B3o_S" />
     </node>
     <node concept="13i0hz" id="19EO7JM$sTb" role="13h7CS">
-      <property role="TrG5h" value="logViaUserServiceAlso" />
+      <property role="TrG5h" value="loggedViaUserService" />
       <node concept="3Tm1VV" id="19EO7JM$sTc" role="1B3o_S" />
       <node concept="10P_77" id="19EO7JM$sWS" role="3clF45" />
       <node concept="3clFbS" id="19EO7JM$sTe" role="3clF47">
@@ -3514,6 +3514,236 @@
                 </node>
               </node>
               <node concept="34oBXx" id="19EO7JN3Fa2" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="4WoSiUMllPo" role="13h7CS">
+      <property role="TrG5h" value="logStatementOff" />
+      <node concept="3Tm1VV" id="4WoSiUMllPp" role="1B3o_S" />
+      <node concept="10P_77" id="4WoSiUMlv0W" role="3clF45" />
+      <node concept="3clFbS" id="4WoSiUMllPr" role="3clF47">
+        <node concept="3clFbF" id="4WoSiUMlm5R" role="3cqZAp">
+          <node concept="2OqwBi" id="4WoSiUMlmMP" role="3clFbG">
+            <node concept="2OqwBi" id="4WoSiUMlmgr" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMlm5Q" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMlmtN" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMln2p" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMln3x" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHdb" resolve="OFF" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="4WoSiUMl8ny" role="13h7CS">
+      <property role="TrG5h" value="translateLogLevel" />
+      <node concept="3Tm1VV" id="4WoSiUMl8nz" role="1B3o_S" />
+      <node concept="3Tqbb2" id="4WoSiUMl90x" role="3clF45">
+        <ref role="ehGHo" to="tpee:fKRm8J8" resolve="EnumConstantReference" />
+      </node>
+      <node concept="3clFbS" id="4WoSiUMl8n_" role="3clF47">
+        <node concept="3clFbJ" id="4WoSiUMlbeQ" role="3cqZAp">
+          <node concept="3clFbS" id="4WoSiUMlbeS" role="3clFbx">
+            <node concept="3cpWs6" id="4WoSiUMlc40" role="3cqZAp">
+              <node concept="2c44tf" id="4WoSiUMlc6z" role="3cqZAk">
+                <node concept="Rm8GO" id="4WoSiUMlckN" role="2c44tc">
+                  <ref role="Rm8GQ" to="28jr:2dTopMveSUl" resolve="FATAL" />
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4WoSiUMlbPp" role="3clFbw">
+            <node concept="2OqwBi" id="4WoSiUMlbu7" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMlbi5" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMlbGh" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMlbZz" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMlc2a" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHd9" resolve="FATAL" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4WoSiUMlhlu" role="3cqZAp">
+          <node concept="3clFbS" id="4WoSiUMlhlv" role="3clFbx">
+            <node concept="3cpWs6" id="4WoSiUMlhlw" role="3cqZAp">
+              <node concept="2c44tf" id="4WoSiUMlhlx" role="3cqZAk">
+                <node concept="Rm8GO" id="4WoSiUMlosH" role="2c44tc">
+                  <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4WoSiUMlhlz" role="3clFbw">
+            <node concept="2OqwBi" id="4WoSiUMlhl$" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMlhl_" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMlhlA" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMlhlB" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMln6K" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHd8" resolve="ERROR" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4WoSiUMliGn" role="3cqZAp">
+          <node concept="3clFbS" id="4WoSiUMliGo" role="3clFbx">
+            <node concept="3cpWs6" id="4WoSiUMliGp" role="3cqZAp">
+              <node concept="2c44tf" id="4WoSiUMliGq" role="3cqZAk">
+                <node concept="Rm8GO" id="4WoSiUMlomK" role="2c44tc">
+                  <ref role="Rm8GQ" to="28jr:2dTopMvfAFa" resolve="WARN" />
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4WoSiUMliGs" role="3clFbw">
+            <node concept="2OqwBi" id="4WoSiUMliGt" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMliGu" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMliGv" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMliGw" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMlnb0" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHd7" resolve="WARN" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4WoSiUMliKl" role="3cqZAp">
+          <node concept="3clFbS" id="4WoSiUMliKm" role="3clFbx">
+            <node concept="3cpWs6" id="4WoSiUMliKn" role="3cqZAp">
+              <node concept="2c44tf" id="4WoSiUMliKo" role="3cqZAk">
+                <node concept="Rm8GO" id="4WoSiUMlo9v" role="2c44tc">
+                  <ref role="Rm8GQ" to="28jr:2dTopMvfBq_" resolve="INFO" />
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4WoSiUMliKq" role="3clFbw">
+            <node concept="2OqwBi" id="4WoSiUMliKr" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMliKs" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMliKt" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMliKu" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMlneN" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHd6" resolve="INFO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4WoSiUMliOd" role="3cqZAp">
+          <node concept="3clFbS" id="4WoSiUMliOe" role="3clFbx">
+            <node concept="3cpWs6" id="4WoSiUMliOf" role="3cqZAp">
+              <node concept="2c44tf" id="4WoSiUMliOg" role="3cqZAk">
+                <node concept="Rm8GO" id="4WoSiUMlo3u" role="2c44tc">
+                  <ref role="Rm8GQ" to="28jr:2dTopMvfAVl" resolve="DEBUG" />
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4WoSiUMliOi" role="3clFbw">
+            <node concept="2OqwBi" id="4WoSiUMliOj" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMliOk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMliOl" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMliOm" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMlngT" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHd5" resolve="DEBUG" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4WoSiUMliTl" role="3cqZAp">
+          <node concept="3clFbS" id="4WoSiUMliTm" role="3clFbx">
+            <node concept="3cpWs6" id="4WoSiUMliTn" role="3cqZAp">
+              <node concept="2c44tf" id="4WoSiUMliTo" role="3cqZAk">
+                <node concept="Rm8GO" id="4WoSiUMlnXu" role="2c44tc">
+                  <ref role="Rm8GQ" to="28jr:2dTopMvfBbN" resolve="TRACE" />
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4WoSiUMliTq" role="3clFbw">
+            <node concept="2OqwBi" id="4WoSiUMliTr" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMliTs" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMliTt" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMliTu" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMlnjH" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHd4" resolve="TRACE" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4WoSiUMlj6h" role="3cqZAp">
+          <node concept="3clFbS" id="4WoSiUMlj6i" role="3clFbx">
+            <node concept="3cpWs6" id="4WoSiUMlj6j" role="3cqZAp">
+              <node concept="2c44tf" id="4WoSiUMlj6k" role="3cqZAk">
+                <node concept="Rm8GO" id="4WoSiUMlnK7" role="2c44tc">
+                  <ref role="Rm8GQ" to="28jr:2dTopMvfBbN" resolve="TRACE" />
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4WoSiUMlj6m" role="3clFbw">
+            <node concept="2OqwBi" id="4WoSiUMlj6n" role="2Oq$k0">
+              <node concept="13iPFW" id="4WoSiUMlj6o" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4WoSiUMlj6p" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4WoSiUMlj6q" role="2OqNvi">
+              <node concept="21nZrQ" id="4WoSiUMlnlN" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHda" resolve="ALL" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4WoSiUMlcmX" role="3cqZAp" />
+        <node concept="YS8fn" id="4WoSiUMlcp$" role="3cqZAp">
+          <node concept="2ShNRf" id="4WoSiUMlctD" role="YScLw">
+            <node concept="1pGfFk" id="4WoSiUMlf0h" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="3cpWs3" id="4WoSiUMlgAI" role="37wK5m">
+                <node concept="Xl_RD" id="4WoSiUMlgBI" role="3uHU7w">
+                  <property role="Xl_RC" value=". Unknown level." />
+                </node>
+                <node concept="3cpWs3" id="4WoSiUMlfBP" role="3uHU7B">
+                  <node concept="Xl_RD" id="4WoSiUMlf1j" role="3uHU7B">
+                    <property role="Xl_RC" value="Can not translate log level " />
+                  </node>
+                  <node concept="2OqwBi" id="4WoSiUMlfUt" role="3uHU7w">
+                    <node concept="13iPFW" id="4WoSiUMlfE1" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="4WoSiUMlgmQ" role="2OqNvi">
+                      <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

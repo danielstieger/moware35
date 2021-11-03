@@ -3756,7 +3756,7 @@
       <property role="TrG5h" value="jmxRegistration" />
       <node concept="3Tm6S6" id="1EBV9L$tw46" role="1B3o_S" />
       <node concept="3uibUv" id="1EBV9L$tyS9" role="1tU5fm">
-        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
       </node>
     </node>
     <node concept="2tJIrI" id="1EBV9L$ttg9" role="jymVt" />
@@ -3827,7 +3827,7 @@
     <node concept="3clFb_" id="1EBV9L$v8Vd" role="jymVt">
       <property role="TrG5h" value="getJmxRegistration" />
       <node concept="3uibUv" id="1EBV9L$vb_v" role="3clF45">
-        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
       </node>
       <node concept="3Tm1VV" id="1EBV9L$v8Vg" role="1B3o_S" />
       <node concept="3clFbS" id="1EBV9L$v8Vh" role="3clF47">
@@ -4017,7 +4017,7 @@
           <node concept="37vLTI" id="1EBV9L$tFIP" role="3clFbG">
             <node concept="2ShNRf" id="1EBV9L$tIx$" role="37vLTx">
               <node concept="1pGfFk" id="1EBV9L$tIxz" role="2ShVmc">
-                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="JmxRegistrationHelper" />
+                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="AppJmxRegistration" />
                 <node concept="37vLTw" id="1EBV9L$tNnc" role="37wK5m">
                   <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
                 </node>
@@ -4319,8 +4319,72 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4WoSiUMjL13" role="3cqZAp" />
+        <node concept="3clFbF" id="4WoSiUMimGX" role="3cqZAp">
+          <node concept="2OqwBi" id="4WoSiUMixYv" role="3clFbG">
+            <node concept="2OqwBi" id="4WoSiUMioR2" role="2Oq$k0">
+              <node concept="37vLTw" id="4WoSiUMjI8V" role="2Oq$k0">
+                <ref role="3cqZAo" node="4QTIUTBQA3g" resolve="appFactory" />
+              </node>
+              <node concept="liA8E" id="4WoSiUMjfda" role="2OqNvi">
+                <ref role="37wK5l" to="250q:7HkVpVbXnBN" resolve="getEventBus" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4WoSiUMiAlQ" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2LxPC2g$TLK" resolve="setSysInfo" />
+              <node concept="3cpWs3" id="4WoSiUMiRJt" role="37wK5m">
+                <node concept="3cpWs3" id="4WoSiUMiNZQ" role="3uHU7B">
+                  <node concept="3cpWs3" id="4WoSiUMiJnk" role="3uHU7B">
+                    <node concept="3cpWs3" id="4WoSiUMiGPT" role="3uHU7B">
+                      <node concept="3cpWs3" id="4WoSiUMiDLS" role="3uHU7B">
+                        <node concept="3cpWs3" id="4WoSiUMiBcm" role="3uHU7B">
+                          <node concept="3cpWs3" id="4WoSiUMiC35" role="3uHU7B">
+                            <node concept="Xl_RD" id="4WoSiUMiCGL" role="3uHU7B">
+                              <property role="Xl_RC" value="" />
+                            </node>
+                            <node concept="Rm8GO" id="4WoSiUMjIBP" role="3uHU7w">
+                              <ref role="Rm8GQ" to="28jr:4FgSVMpn0yT" resolve="MOWARE_VAADIN" />
+                              <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="4WoSiUMiBg8" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4WoSiUMjJdj" role="3uHU7w">
+                          <ref role="3cqZAo" node="1WX6wrQ6xaq" resolve="guessedServerName" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="4WoSiUMiHAo" role="3uHU7w">
+                        <property role="Xl_RC" value=": " />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4WoSiUMjKhq" role="3uHU7w">
+                      <node concept="37vLTw" id="4WoSiUMjK0P" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                      </node>
+                      <node concept="liA8E" id="4WoSiUMjKLC" role="2OqNvi">
+                        <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4WoSiUMiO4L" role="3uHU7w">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4WoSiUMjpnu" role="3uHU7w">
+                  <node concept="37vLTw" id="4WoSiUMjoww" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                  </node>
+                  <node concept="liA8E" id="4WoSiUMjqtJ" role="2OqNvi">
+                    <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="5cpEwAg785Z" role="3cqZAp" />
-        <node concept="3clFbH" id="5HhpRjTyWHw" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$xlG1" role="3cqZAp">
           <node concept="2OqwBi" id="1EBV9L$xlWu" role="3clFbG">
             <node concept="37vLTw" id="1EBV9L$xlFZ" role="2Oq$k0">
@@ -5266,7 +5330,7 @@
         </node>
         <node concept="3clFbF" id="2rXgTRschDA" role="3cqZAp">
           <node concept="2YIFZM" id="2rXgTRschYL" role="3clFbG">
-            <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="gcClean" />
+            <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="shutdownAndGcClean" />
             <ref role="1Pybhc" to="w7gk:3wMahqy82Ju" resolve="MMStaticAccessHelper" />
           </node>
         </node>
@@ -36063,7 +36127,7 @@
       <node concept="37vLTG" id="7b0XfCDIkJL" role="3clF46">
         <property role="TrG5h" value="jmxRegistration" />
         <node concept="3uibUv" id="7b0XfCDImjj" role="1tU5fm">
-          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
         </node>
       </node>
     </node>
