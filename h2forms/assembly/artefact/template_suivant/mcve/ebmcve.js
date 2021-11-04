@@ -3,7 +3,7 @@
  *                  koblach 2020
  *
  *
- * version 13: distributed to m, autumn 2021
+ * version 16: distributed to m, autumn 2021
  *
  */
 
@@ -127,11 +127,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     /* init eb 2.0 scanner */
-    var isInit = sessionStorage.getItem("isEBInitialized");
+    /* var isInit = sessionStorage.getItem("isEBInitialized");
     try {
         if (isInit == "true") {
             EB.Barcode.enable({}, mScanReceived);
-            mLog('DOMContentLoaded', 'Fast init, settings already configured.')
+            mLog('DOMContentLoaded', 'Fast init, settings already configured. allDecoders='+ EB.Barcode.allDecoders);
 
         } else {
             EB.Barcode.allDecoders = false;
@@ -157,22 +157,28 @@ document.addEventListener('DOMContentLoaded', function() {
     } catch(err) {
         mLog('DOMContentLoaded', 'EX while zebra EB.Barcode.enable(). ' + err);
     }
+    */
+    try {
+        EB.Barcode.allDecoders = false;
+        EB.Barcode.code128 = true;
+        EB.Barcode.code128ean128 = true;
+        EB.Barcode.code39 = true;
+        EB.Barcode.ean13 = true;
+        EB.Barcode.ean8 = true;
+        EB.Barcode.gs1dataBar = true;
+        EB.Barcode.gs1dataBarExpanded = true;
+        EB.Barcode.gs1dataBarLimited = true;
+        EB.Barcode.pdf417 = true;
+        EB.Barcode.qrCode = true;
+        EB.Barcode.datamatrix = true;
+        EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_AUTO;
+        mLog('DOMContentLoaded', 'UPCEAN AUTO ' + EB.Barcode.upcEanSupplementalMode + " allDecoders: " +  EB.Barcode.allDecoders);
 
+        EB.Barcode.enable({}, mScanReceived);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    } catch(err) {
+        mLog('DOMContentLoaded', 'EX while zebra EB.Barcode.enable(). ' + err);
+    }
 
     mLog('DOMContentLoaded', 'EB API initialized - ready')
 

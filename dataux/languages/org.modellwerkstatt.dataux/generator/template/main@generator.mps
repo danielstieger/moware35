@@ -10251,37 +10251,37 @@
                           </node>
                           <node concept="3clFbJ" id="63VjT6lA5Gi" role="3cqZAp">
                             <node concept="3clFbS" id="63VjT6lA5Gj" role="3clFbx">
-                              <node concept="3clFbF" id="63VjT6lA5Gk" role="3cqZAp">
-                                <node concept="2OqwBi" id="63VjT6lA5Gl" role="3clFbG">
-                                  <node concept="2YIFZM" id="63VjT6lA5Gm" role="2Oq$k0">
-                                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                    <node concept="3VsKOn" id="63VjT6lA5Gn" role="37wK5m">
-                                      <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
-                                    </node>
+                              <node concept="3clFbF" id="1jCLyDuMgjj" role="3cqZAp">
+                                <node concept="2YIFZM" id="1jCLyDuMgun" role="3clFbG">
+                                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                                  <node concept="3VsKOn" id="1jCLyDuMgxo" role="37wK5m">
+                                    <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                                   </node>
-                                  <node concept="liA8E" id="63VjT6lA5Go" role="2OqNvi">
-                                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                    <node concept="3cpWs3" id="63VjT6lA5Gp" role="37wK5m">
-                                      <node concept="2YIFZM" id="63VjT6lA5Gq" role="3uHU7w">
-                                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                                        <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
-                                      </node>
-                                      <node concept="3cpWs3" id="63VjT6lA5Gr" role="3uHU7B">
-                                        <node concept="3cpWs3" id="63VjT6lA5Gs" role="3uHU7B">
-                                          <node concept="Xl_RD" id="63VjT6lA5Gt" role="3uHU7B">
-                                            <property role="Xl_RC" value="ERROR MenuCompoundAction.startCommand() while already gcClean " />
-                                          </node>
-                                          <node concept="37vLTw" id="63VjT6lA5Gu" role="3uHU7w">
-                                            <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
-                                          </node>
+                                  <node concept="Rm8GO" id="1jCLyDuMhhy" role="37wK5m">
+                                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                                  </node>
+                                  <node concept="3cpWs3" id="63VjT6lA5Gp" role="37wK5m">
+                                    <node concept="2YIFZM" id="63VjT6lA5Gq" role="3uHU7w">
+                                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                      <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                                    </node>
+                                    <node concept="3cpWs3" id="63VjT6lA5Gr" role="3uHU7B">
+                                      <node concept="3cpWs3" id="63VjT6lA5Gs" role="3uHU7B">
+                                        <node concept="Xl_RD" id="63VjT6lA5Gt" role="3uHU7B">
+                                          <property role="Xl_RC" value="ERROR MenuCompoundAction.startCommand() while already gcClean " />
                                         </node>
-                                        <node concept="Xl_RD" id="63VjT6lA5Gv" role="3uHU7w">
-                                          <property role="Xl_RC" value="\n" />
+                                        <node concept="37vLTw" id="63VjT6lA5Gu" role="3uHU7w">
+                                          <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                                         </node>
                                       </node>
+                                      <node concept="Xl_RD" id="63VjT6lA5Gv" role="3uHU7w">
+                                        <property role="Xl_RC" value="\n" />
+                                      </node>
                                     </node>
                                   </node>
+                                  <node concept="10Nm6u" id="1jCLyDuMj3W" role="37wK5m" />
                                 </node>
                               </node>
                               <node concept="3cpWs6" id="63VjT6lA5Gw" role="3cqZAp" />
@@ -10302,78 +10302,78 @@
                                 </node>
                               </node>
                               <node concept="3clFbS" id="7UdH_jFSEMO" role="1zc67A">
-                                <node concept="3clFbF" id="63VjT6lA5ID" role="3cqZAp">
-                                  <node concept="2OqwBi" id="63VjT6lA5IE" role="3clFbG">
-                                    <node concept="2YIFZM" id="63VjT6lA5IF" role="2Oq$k0">
-                                      <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                      <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                      <node concept="3VsKOn" id="63VjT6lA5IG" role="37wK5m">
-                                        <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
-                                      </node>
+                                <node concept="3clFbF" id="1jCLyDuMjpr" role="3cqZAp">
+                                  <node concept="2YIFZM" id="1jCLyDuMjps" role="3clFbG">
+                                    <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                                    <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                                    <node concept="3VsKOn" id="1jCLyDuMjpt" role="37wK5m">
+                                      <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                                     </node>
-                                    <node concept="liA8E" id="63VjT6lA5IH" role="2OqNvi">
-                                      <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                      <node concept="3cpWs3" id="63VjT6lA5II" role="37wK5m">
-                                        <node concept="2YIFZM" id="63VjT6lA5IJ" role="3uHU7w">
-                                          <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                                          <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                                          <node concept="37vLTw" id="63VjT6lA5IK" role="37wK5m">
-                                            <ref role="3cqZAo" node="7UdH_jFSEMM" resolve="ex" />
-                                          </node>
-                                        </node>
-                                        <node concept="3cpWs3" id="63VjT6lA5IL" role="3uHU7B">
-                                          <node concept="3cpWs3" id="63VjT6lA5IM" role="3uHU7B">
-                                            <node concept="3cpWs3" id="63VjT6lA5IN" role="3uHU7B">
-                                              <node concept="3cpWs3" id="63VjT6lA5IO" role="3uHU7B">
-                                                <node concept="3cpWs3" id="63VjT6lA5IP" role="3uHU7B">
-                                                  <node concept="3cpWs3" id="63VjT6lA5IQ" role="3uHU7B">
-                                                    <node concept="Xl_RD" id="63VjT6lA5IR" role="3uHU7B">
-                                                      <property role="Xl_RC" value="EXCEPTION occured in MenuCompoundAction.startCommand() " />
-                                                    </node>
-                                                    <node concept="37vLTw" id="63VjT6lA5IS" role="3uHU7w">
-                                                      <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
-                                                    </node>
-                                                  </node>
-                                                  <node concept="Xl_RD" id="63VjT6lA5IT" role="3uHU7w">
-                                                    <property role="Xl_RC" value="\n" />
-                                                  </node>
-                                                </node>
-                                                <node concept="2OqwBi" id="63VjT6lA5IU" role="3uHU7w">
-                                                  <node concept="2OqwBi" id="63VjT6lA5IV" role="2Oq$k0">
-                                                    <node concept="37vLTw" id="63VjT6lA5IW" role="2Oq$k0">
-                                                      <ref role="3cqZAo" node="7UdH_jFSEMM" resolve="ex" />
-                                                    </node>
-                                                    <node concept="liA8E" id="63VjT6lA5IX" role="2OqNvi">
-                                                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-                                                    </node>
-                                                  </node>
-                                                  <node concept="liA8E" id="63VjT6lA5IY" role="2OqNvi">
-                                                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
-                                                  </node>
-                                                </node>
-                                              </node>
-                                              <node concept="Xl_RD" id="63VjT6lA5IZ" role="3uHU7w">
-                                                <property role="Xl_RC" value=": " />
-                                              </node>
-                                            </node>
-                                            <node concept="2OqwBi" id="63VjT6lA5J0" role="3uHU7w">
-                                              <node concept="37vLTw" id="63VjT6lA5J1" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="7UdH_jFSEMM" resolve="ex" />
-                                              </node>
-                                              <node concept="liA8E" id="63VjT6lA5J2" role="2OqNvi">
-                                                <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
-                                              </node>
-                                            </node>
-                                          </node>
-                                          <node concept="Xl_RD" id="63VjT6lA5J3" role="3uHU7w">
-                                            <property role="Xl_RC" value="\n" />
-                                          </node>
+                                    <node concept="Rm8GO" id="1jCLyDuMjpu" role="37wK5m">
+                                      <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                                      <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                                    </node>
+                                    <node concept="3cpWs3" id="63VjT6lA5II" role="37wK5m">
+                                      <node concept="2YIFZM" id="63VjT6lA5IJ" role="3uHU7w">
+                                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                        <node concept="37vLTw" id="63VjT6lA5IK" role="37wK5m">
+                                          <ref role="3cqZAo" node="7UdH_jFSEMM" resolve="ex" />
                                         </node>
                                       </node>
+                                      <node concept="3cpWs3" id="63VjT6lA5IL" role="3uHU7B">
+                                        <node concept="3cpWs3" id="63VjT6lA5IM" role="3uHU7B">
+                                          <node concept="3cpWs3" id="63VjT6lA5IN" role="3uHU7B">
+                                            <node concept="3cpWs3" id="63VjT6lA5IO" role="3uHU7B">
+                                              <node concept="3cpWs3" id="63VjT6lA5IP" role="3uHU7B">
+                                                <node concept="3cpWs3" id="63VjT6lA5IQ" role="3uHU7B">
+                                                  <node concept="Xl_RD" id="63VjT6lA5IR" role="3uHU7B">
+                                                    <property role="Xl_RC" value="EXCEPTION occured in MenuCompoundAction.startCommand() " />
+                                                  </node>
+                                                  <node concept="37vLTw" id="63VjT6lA5IS" role="3uHU7w">
+                                                    <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
+                                                  </node>
+                                                </node>
+                                                <node concept="Xl_RD" id="63VjT6lA5IT" role="3uHU7w">
+                                                  <property role="Xl_RC" value="\n" />
+                                                </node>
+                                              </node>
+                                              <node concept="2OqwBi" id="63VjT6lA5IU" role="3uHU7w">
+                                                <node concept="2OqwBi" id="63VjT6lA5IV" role="2Oq$k0">
+                                                  <node concept="37vLTw" id="63VjT6lA5IW" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="7UdH_jFSEMM" resolve="ex" />
+                                                  </node>
+                                                  <node concept="liA8E" id="63VjT6lA5IX" role="2OqNvi">
+                                                    <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                                                  </node>
+                                                </node>
+                                                <node concept="liA8E" id="63VjT6lA5IY" role="2OqNvi">
+                                                  <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="Xl_RD" id="63VjT6lA5IZ" role="3uHU7w">
+                                              <property role="Xl_RC" value=": " />
+                                            </node>
+                                          </node>
+                                          <node concept="2OqwBi" id="63VjT6lA5J0" role="3uHU7w">
+                                            <node concept="37vLTw" id="63VjT6lA5J1" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="7UdH_jFSEMM" resolve="ex" />
+                                            </node>
+                                            <node concept="liA8E" id="63VjT6lA5J2" role="2OqNvi">
+                                              <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="63VjT6lA5J3" role="3uHU7w">
+                                          <property role="Xl_RC" value="\n" />
+                                        </node>
+                                      </node>
                                     </node>
+                                    <node concept="10Nm6u" id="1jCLyDuMjpA" role="37wK5m" />
                                   </node>
                                 </node>
-                                <node concept="3clFbH" id="7UdH_jFSGpY" role="3cqZAp" />
+                                <node concept="3clFbH" id="1jCLyDuMjh8" role="3cqZAp" />
                               </node>
                             </node>
                             <node concept="3clFbS" id="7UdH_jFSE7a" role="1zxBo7">
@@ -11821,39 +11821,40 @@
                           </node>
                           <node concept="3clFbJ" id="3bNT_p59noi" role="3cqZAp">
                             <node concept="3clFbS" id="3bNT_p59nok" role="3clFbx">
-                              <node concept="3clFbF" id="5YEYfHwPiur" role="3cqZAp">
-                                <node concept="2OqwBi" id="5YEYfHwPius" role="3clFbG">
-                                  <node concept="2YIFZM" id="5YEYfHwPiut" role="2Oq$k0">
-                                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                    <node concept="3VsKOn" id="5YEYfHwPiuu" role="37wK5m">
-                                      <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
-                                    </node>
+                              <node concept="3clFbF" id="1jCLyDuMo5Y" role="3cqZAp">
+                                <node concept="2YIFZM" id="1jCLyDuMo5Z" role="3clFbG">
+                                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                                  <node concept="3VsKOn" id="1jCLyDuMo60" role="37wK5m">
+                                    <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                                   </node>
-                                  <node concept="liA8E" id="5YEYfHwPiuv" role="2OqNvi">
-                                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                    <node concept="3cpWs3" id="5YEYfHwPng1" role="37wK5m">
-                                      <node concept="2YIFZM" id="5YEYfHwPnwj" role="3uHU7w">
-                                        <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
-                                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                                      </node>
-                                      <node concept="3cpWs3" id="5YEYfHwPmQ0" role="3uHU7B">
-                                        <node concept="3cpWs3" id="5YEYfHwPiuF" role="3uHU7B">
-                                          <node concept="Xl_RD" id="5YEYfHwPiuG" role="3uHU7B">
-                                            <property role="Xl_RC" value="ERROR MenuAction.startCommand() while already gcClean " />
-                                          </node>
-                                          <node concept="37vLTw" id="5YEYfHwPk7s" role="3uHU7w">
-                                            <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
-                                          </node>
+                                  <node concept="Rm8GO" id="1jCLyDuMo61" role="37wK5m">
+                                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                                  </node>
+                                  <node concept="3cpWs3" id="5YEYfHwPng1" role="37wK5m">
+                                    <node concept="2YIFZM" id="5YEYfHwPnwj" role="3uHU7w">
+                                      <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                    </node>
+                                    <node concept="3cpWs3" id="5YEYfHwPmQ0" role="3uHU7B">
+                                      <node concept="3cpWs3" id="5YEYfHwPiuF" role="3uHU7B">
+                                        <node concept="Xl_RD" id="5YEYfHwPiuG" role="3uHU7B">
+                                          <property role="Xl_RC" value="ERROR MenuAction.startCommand() while already gcClean " />
                                         </node>
-                                        <node concept="Xl_RD" id="5YEYfHwPmR3" role="3uHU7w">
-                                          <property role="Xl_RC" value="\n" />
+                                        <node concept="37vLTw" id="5YEYfHwPk7s" role="3uHU7w">
+                                          <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                                         </node>
                                       </node>
+                                      <node concept="Xl_RD" id="5YEYfHwPmR3" role="3uHU7w">
+                                        <property role="Xl_RC" value="\n" />
+                                      </node>
                                     </node>
                                   </node>
+                                  <node concept="10Nm6u" id="1jCLyDuMo6o" role="37wK5m" />
                                 </node>
                               </node>
+                              <node concept="3clFbH" id="1jCLyDuMrS7" role="3cqZAp" />
                               <node concept="3cpWs6" id="3bNT_p59oPS" role="3cqZAp" />
                             </node>
                             <node concept="37vLTw" id="3bNT_p59o7Q" role="3clFbw">
@@ -11872,75 +11873,75 @@
                                 </node>
                               </node>
                               <node concept="3clFbS" id="7UdH_jFSLoX" role="1zc67A">
-                                <node concept="3clFbF" id="69bzya$iLCo" role="3cqZAp">
-                                  <node concept="2OqwBi" id="69bzya$iMiO" role="3clFbG">
-                                    <node concept="2YIFZM" id="69bzya$iLLX" role="2Oq$k0">
-                                      <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                      <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                      <node concept="3VsKOn" id="69bzya$iMgk" role="37wK5m">
-                                        <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
-                                      </node>
+                                <node concept="3clFbF" id="1jCLyDuMsiR" role="3cqZAp">
+                                  <node concept="2YIFZM" id="1jCLyDuMsiS" role="3clFbG">
+                                    <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                                    <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                                    <node concept="3VsKOn" id="1jCLyDuMsiT" role="37wK5m">
+                                      <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                                     </node>
-                                    <node concept="liA8E" id="69bzya$iMoB" role="2OqNvi">
-                                      <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                      <node concept="3cpWs3" id="5YEYfHwPtQ4" role="37wK5m">
-                                        <node concept="2YIFZM" id="5YEYfHwPuc1" role="3uHU7w">
-                                          <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                                          <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                                          <node concept="37vLTw" id="5YEYfHwPuik" role="37wK5m">
-                                            <ref role="3cqZAo" node="7UdH_jFSLoV" resolve="ex" />
-                                          </node>
-                                        </node>
-                                        <node concept="3cpWs3" id="5YEYfHwPtf6" role="3uHU7B">
-                                          <node concept="3cpWs3" id="5YEYfHwPsMY" role="3uHU7B">
-                                            <node concept="3cpWs3" id="5YEYfHwPsz7" role="3uHU7B">
-                                              <node concept="3cpWs3" id="5YEYfHwPrtD" role="3uHU7B">
-                                                <node concept="3cpWs3" id="5YEYfHwPr5R" role="3uHU7B">
-                                                  <node concept="3cpWs3" id="69bzya$iMHs" role="3uHU7B">
-                                                    <node concept="Xl_RD" id="69bzya$iMpZ" role="3uHU7B">
-                                                      <property role="Xl_RC" value="EXCEPTION occured in MenuAction.startCommand() " />
-                                                    </node>
-                                                    <node concept="37vLTw" id="5YEYfHwPqTx" role="3uHU7w">
-                                                      <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
-                                                    </node>
-                                                  </node>
-                                                  <node concept="Xl_RD" id="5YEYfHwPrkS" role="3uHU7w">
-                                                    <property role="Xl_RC" value="\n" />
-                                                  </node>
-                                                </node>
-                                                <node concept="2OqwBi" id="5YEYfHwPs1o" role="3uHU7w">
-                                                  <node concept="2OqwBi" id="5YEYfHwPrQn" role="2Oq$k0">
-                                                    <node concept="37vLTw" id="5YEYfHwPrMH" role="2Oq$k0">
-                                                      <ref role="3cqZAo" node="7UdH_jFSLoV" resolve="ex" />
-                                                    </node>
-                                                    <node concept="liA8E" id="5YEYfHwPrW$" role="2OqNvi">
-                                                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-                                                    </node>
-                                                  </node>
-                                                  <node concept="liA8E" id="5YEYfHwPsl3" role="2OqNvi">
-                                                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
-                                                  </node>
-                                                </node>
-                                              </node>
-                                              <node concept="Xl_RD" id="5YEYfHwPs$u" role="3uHU7w">
-                                                <property role="Xl_RC" value=": " />
-                                              </node>
-                                            </node>
-                                            <node concept="2OqwBi" id="5YEYfHwPsTo" role="3uHU7w">
-                                              <node concept="37vLTw" id="5YEYfHwPsOs" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="7UdH_jFSLoV" resolve="ex" />
-                                              </node>
-                                              <node concept="liA8E" id="5YEYfHwPt8p" role="2OqNvi">
-                                                <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
-                                              </node>
-                                            </node>
-                                          </node>
-                                          <node concept="Xl_RD" id="5YEYfHwPtt_" role="3uHU7w">
-                                            <property role="Xl_RC" value="\n" />
-                                          </node>
+                                    <node concept="Rm8GO" id="1jCLyDuMsiU" role="37wK5m">
+                                      <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                                      <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                                    </node>
+                                    <node concept="3cpWs3" id="5YEYfHwPtQ4" role="37wK5m">
+                                      <node concept="2YIFZM" id="5YEYfHwPuc1" role="3uHU7w">
+                                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                        <node concept="37vLTw" id="5YEYfHwPuik" role="37wK5m">
+                                          <ref role="3cqZAo" node="7UdH_jFSLoV" resolve="ex" />
                                         </node>
                                       </node>
+                                      <node concept="3cpWs3" id="5YEYfHwPtf6" role="3uHU7B">
+                                        <node concept="3cpWs3" id="5YEYfHwPsMY" role="3uHU7B">
+                                          <node concept="3cpWs3" id="5YEYfHwPsz7" role="3uHU7B">
+                                            <node concept="3cpWs3" id="5YEYfHwPrtD" role="3uHU7B">
+                                              <node concept="3cpWs3" id="5YEYfHwPr5R" role="3uHU7B">
+                                                <node concept="3cpWs3" id="69bzya$iMHs" role="3uHU7B">
+                                                  <node concept="Xl_RD" id="69bzya$iMpZ" role="3uHU7B">
+                                                    <property role="Xl_RC" value="EXCEPTION occured in MenuAction.startCommand() " />
+                                                  </node>
+                                                  <node concept="37vLTw" id="5YEYfHwPqTx" role="3uHU7w">
+                                                    <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
+                                                  </node>
+                                                </node>
+                                                <node concept="Xl_RD" id="5YEYfHwPrkS" role="3uHU7w">
+                                                  <property role="Xl_RC" value="\n" />
+                                                </node>
+                                              </node>
+                                              <node concept="2OqwBi" id="5YEYfHwPs1o" role="3uHU7w">
+                                                <node concept="2OqwBi" id="5YEYfHwPrQn" role="2Oq$k0">
+                                                  <node concept="37vLTw" id="5YEYfHwPrMH" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="7UdH_jFSLoV" resolve="ex" />
+                                                  </node>
+                                                  <node concept="liA8E" id="5YEYfHwPrW$" role="2OqNvi">
+                                                    <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                                                  </node>
+                                                </node>
+                                                <node concept="liA8E" id="5YEYfHwPsl3" role="2OqNvi">
+                                                  <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="Xl_RD" id="5YEYfHwPs$u" role="3uHU7w">
+                                              <property role="Xl_RC" value=": " />
+                                            </node>
+                                          </node>
+                                          <node concept="2OqwBi" id="5YEYfHwPsTo" role="3uHU7w">
+                                            <node concept="37vLTw" id="5YEYfHwPsOs" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="7UdH_jFSLoV" resolve="ex" />
+                                            </node>
+                                            <node concept="liA8E" id="5YEYfHwPt8p" role="2OqNvi">
+                                              <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="5YEYfHwPtt_" role="3uHU7w">
+                                          <property role="Xl_RC" value="\n" />
+                                        </node>
+                                      </node>
                                     </node>
+                                    <node concept="10Nm6u" id="1jCLyDuMsj2" role="37wK5m" />
                                   </node>
                                 </node>
                                 <node concept="3clFbH" id="7UdH_jFSPUE" role="3cqZAp" />
@@ -13192,39 +13193,40 @@
                           </node>
                           <node concept="3clFbJ" id="4RCyjo5gFpW" role="3cqZAp">
                             <node concept="3clFbS" id="4RCyjo5gFpX" role="3clFbx">
-                              <node concept="3clFbF" id="4RCyjo5gFpY" role="3cqZAp">
-                                <node concept="2OqwBi" id="4RCyjo5gFpZ" role="3clFbG">
-                                  <node concept="2YIFZM" id="4RCyjo5gFq0" role="2Oq$k0">
-                                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                    <node concept="3VsKOn" id="4RCyjo5gFq1" role="37wK5m">
-                                      <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
-                                    </node>
+                              <node concept="3clFbF" id="1jCLyDuMvaT" role="3cqZAp">
+                                <node concept="2YIFZM" id="1jCLyDuMvaU" role="3clFbG">
+                                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                                  <node concept="3VsKOn" id="1jCLyDuMvaV" role="37wK5m">
+                                    <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                                   </node>
-                                  <node concept="liA8E" id="4RCyjo5gFq2" role="2OqNvi">
-                                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                    <node concept="3cpWs3" id="4RCyjo5gFq3" role="37wK5m">
-                                      <node concept="2YIFZM" id="4RCyjo5gFq4" role="3uHU7w">
-                                        <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
-                                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                                      </node>
-                                      <node concept="3cpWs3" id="4RCyjo5gFq5" role="3uHU7B">
-                                        <node concept="3cpWs3" id="4RCyjo5gFq6" role="3uHU7B">
-                                          <node concept="Xl_RD" id="4RCyjo5gFq7" role="3uHU7B">
-                                            <property role="Xl_RC" value="ERROR MenuAction.startCommand() while already gcClean " />
-                                          </node>
-                                          <node concept="37vLTw" id="4RCyjo5gFq8" role="3uHU7w">
-                                            <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
-                                          </node>
+                                  <node concept="Rm8GO" id="1jCLyDuMvaW" role="37wK5m">
+                                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                                  </node>
+                                  <node concept="3cpWs3" id="4RCyjo5gFq3" role="37wK5m">
+                                    <node concept="2YIFZM" id="4RCyjo5gFq4" role="3uHU7w">
+                                      <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                    </node>
+                                    <node concept="3cpWs3" id="4RCyjo5gFq5" role="3uHU7B">
+                                      <node concept="3cpWs3" id="4RCyjo5gFq6" role="3uHU7B">
+                                        <node concept="Xl_RD" id="4RCyjo5gFq7" role="3uHU7B">
+                                          <property role="Xl_RC" value="ERROR MenuAction.startCommand() while already gcClean " />
                                         </node>
-                                        <node concept="Xl_RD" id="4RCyjo5gFq9" role="3uHU7w">
-                                          <property role="Xl_RC" value="\n" />
+                                        <node concept="37vLTw" id="4RCyjo5gFq8" role="3uHU7w">
+                                          <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                                         </node>
                                       </node>
+                                      <node concept="Xl_RD" id="4RCyjo5gFq9" role="3uHU7w">
+                                        <property role="Xl_RC" value="\n" />
+                                      </node>
                                     </node>
                                   </node>
+                                  <node concept="10Nm6u" id="1jCLyDuMvbj" role="37wK5m" />
                                 </node>
                               </node>
+                              <node concept="3clFbH" id="1jCLyDuMv7i" role="3cqZAp" />
                               <node concept="3cpWs6" id="4RCyjo5gFqa" role="3cqZAp" />
                             </node>
                             <node concept="37vLTw" id="4RCyjo5gFqb" role="3clFbw">
@@ -13310,77 +13312,78 @@
                                 </node>
                               </node>
                               <node concept="3clFbS" id="4RCyjo5gFsn" role="1zc67A">
-                                <node concept="3clFbF" id="4RCyjo5gFso" role="3cqZAp">
-                                  <node concept="2OqwBi" id="4RCyjo5gFsp" role="3clFbG">
-                                    <node concept="2YIFZM" id="4RCyjo5gFsq" role="2Oq$k0">
-                                      <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                      <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                      <node concept="3VsKOn" id="4RCyjo5gFsr" role="37wK5m">
-                                        <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
-                                      </node>
+                                <node concept="3clFbF" id="1jCLyDuMy3d" role="3cqZAp">
+                                  <node concept="2YIFZM" id="1jCLyDuMy3e" role="3clFbG">
+                                    <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                                    <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                                    <node concept="3VsKOn" id="1jCLyDuMy3f" role="37wK5m">
+                                      <ref role="3VsUkX" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                                     </node>
-                                    <node concept="liA8E" id="4RCyjo5gFss" role="2OqNvi">
-                                      <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                      <node concept="3cpWs3" id="4RCyjo5gFst" role="37wK5m">
-                                        <node concept="2YIFZM" id="4RCyjo5gFsu" role="3uHU7w">
-                                          <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                                          <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                                          <node concept="37vLTw" id="4RCyjo5gFsv" role="37wK5m">
-                                            <ref role="3cqZAo" node="4RCyjo5gFsl" resolve="ex" />
-                                          </node>
-                                        </node>
-                                        <node concept="3cpWs3" id="4RCyjo5gFsw" role="3uHU7B">
-                                          <node concept="3cpWs3" id="4RCyjo5gFsx" role="3uHU7B">
-                                            <node concept="3cpWs3" id="4RCyjo5gFsy" role="3uHU7B">
-                                              <node concept="3cpWs3" id="4RCyjo5gFsz" role="3uHU7B">
-                                                <node concept="3cpWs3" id="4RCyjo5gFs$" role="3uHU7B">
-                                                  <node concept="3cpWs3" id="4RCyjo5gFs_" role="3uHU7B">
-                                                    <node concept="Xl_RD" id="4RCyjo5gFsA" role="3uHU7B">
-                                                      <property role="Xl_RC" value="EXCEPTION occured in MenuAction.startCommand() " />
-                                                    </node>
-                                                    <node concept="37vLTw" id="4RCyjo5gFsB" role="3uHU7w">
-                                                      <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
-                                                    </node>
-                                                  </node>
-                                                  <node concept="Xl_RD" id="4RCyjo5gFsC" role="3uHU7w">
-                                                    <property role="Xl_RC" value="\n" />
-                                                  </node>
-                                                </node>
-                                                <node concept="2OqwBi" id="4RCyjo5gFsD" role="3uHU7w">
-                                                  <node concept="2OqwBi" id="4RCyjo5gFsE" role="2Oq$k0">
-                                                    <node concept="37vLTw" id="4RCyjo5gFsF" role="2Oq$k0">
-                                                      <ref role="3cqZAo" node="4RCyjo5gFsl" resolve="ex" />
-                                                    </node>
-                                                    <node concept="liA8E" id="4RCyjo5gFsG" role="2OqNvi">
-                                                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-                                                    </node>
-                                                  </node>
-                                                  <node concept="liA8E" id="4RCyjo5gFsH" role="2OqNvi">
-                                                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
-                                                  </node>
-                                                </node>
-                                              </node>
-                                              <node concept="Xl_RD" id="4RCyjo5gFsI" role="3uHU7w">
-                                                <property role="Xl_RC" value=": " />
-                                              </node>
-                                            </node>
-                                            <node concept="2OqwBi" id="4RCyjo5gFsJ" role="3uHU7w">
-                                              <node concept="37vLTw" id="4RCyjo5gFsK" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="4RCyjo5gFsl" resolve="ex" />
-                                              </node>
-                                              <node concept="liA8E" id="4RCyjo5gFsL" role="2OqNvi">
-                                                <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
-                                              </node>
-                                            </node>
-                                          </node>
-                                          <node concept="Xl_RD" id="4RCyjo5gFsM" role="3uHU7w">
-                                            <property role="Xl_RC" value="\n" />
-                                          </node>
+                                    <node concept="Rm8GO" id="1jCLyDuMy3g" role="37wK5m">
+                                      <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                                      <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                                    </node>
+                                    <node concept="3cpWs3" id="4RCyjo5gFst" role="37wK5m">
+                                      <node concept="2YIFZM" id="4RCyjo5gFsu" role="3uHU7w">
+                                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                        <node concept="37vLTw" id="4RCyjo5gFsv" role="37wK5m">
+                                          <ref role="3cqZAo" node="4RCyjo5gFsl" resolve="ex" />
                                         </node>
                                       </node>
+                                      <node concept="3cpWs3" id="4RCyjo5gFsw" role="3uHU7B">
+                                        <node concept="3cpWs3" id="4RCyjo5gFsx" role="3uHU7B">
+                                          <node concept="3cpWs3" id="4RCyjo5gFsy" role="3uHU7B">
+                                            <node concept="3cpWs3" id="4RCyjo5gFsz" role="3uHU7B">
+                                              <node concept="3cpWs3" id="4RCyjo5gFs$" role="3uHU7B">
+                                                <node concept="3cpWs3" id="4RCyjo5gFs_" role="3uHU7B">
+                                                  <node concept="Xl_RD" id="4RCyjo5gFsA" role="3uHU7B">
+                                                    <property role="Xl_RC" value="EXCEPTION occured in MenuAction.startCommand() " />
+                                                  </node>
+                                                  <node concept="37vLTw" id="4RCyjo5gFsB" role="3uHU7w">
+                                                    <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
+                                                  </node>
+                                                </node>
+                                                <node concept="Xl_RD" id="4RCyjo5gFsC" role="3uHU7w">
+                                                  <property role="Xl_RC" value="\n" />
+                                                </node>
+                                              </node>
+                                              <node concept="2OqwBi" id="4RCyjo5gFsD" role="3uHU7w">
+                                                <node concept="2OqwBi" id="4RCyjo5gFsE" role="2Oq$k0">
+                                                  <node concept="37vLTw" id="4RCyjo5gFsF" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="4RCyjo5gFsl" resolve="ex" />
+                                                  </node>
+                                                  <node concept="liA8E" id="4RCyjo5gFsG" role="2OqNvi">
+                                                    <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                                                  </node>
+                                                </node>
+                                                <node concept="liA8E" id="4RCyjo5gFsH" role="2OqNvi">
+                                                  <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="Xl_RD" id="4RCyjo5gFsI" role="3uHU7w">
+                                              <property role="Xl_RC" value=": " />
+                                            </node>
+                                          </node>
+                                          <node concept="2OqwBi" id="4RCyjo5gFsJ" role="3uHU7w">
+                                            <node concept="37vLTw" id="4RCyjo5gFsK" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="4RCyjo5gFsl" resolve="ex" />
+                                            </node>
+                                            <node concept="liA8E" id="4RCyjo5gFsL" role="2OqNvi">
+                                              <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="4RCyjo5gFsM" role="3uHU7w">
+                                          <property role="Xl_RC" value="\n" />
+                                        </node>
+                                      </node>
                                     </node>
+                                    <node concept="10Nm6u" id="1jCLyDuMy3o" role="37wK5m" />
                                   </node>
                                 </node>
+                                <node concept="3clFbH" id="1jCLyDuMxXb" role="3cqZAp" />
                               </node>
                             </node>
                           </node>
@@ -18204,21 +18207,21 @@
           </node>
           <node concept="9aQIb" id="DRZf0SyB8N" role="9aQIa">
             <node concept="3clFbS" id="DRZf0SyB8O" role="9aQI4">
-              <node concept="3clFbF" id="s_xv0_6vtw" role="3cqZAp">
-                <node concept="2OqwBi" id="s_xv0_6vtx" role="3clFbG">
-                  <node concept="2YIFZM" id="s_xv0_6vty" role="2Oq$k0">
-                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                    <node concept="3VsKOn" id="s_xv0_6vtz" role="37wK5m">
-                      <ref role="3VsUkX" node="4jlzLDkHVuo" resolve="map_BatchJobModule" />
-                    </node>
+              <node concept="3clFbF" id="1jCLyDuLpu6" role="3cqZAp">
+                <node concept="2YIFZM" id="1jCLyDuLpA4" role="3clFbG">
+                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="s_xv0_6vtz" role="37wK5m">
+                    <ref role="3VsUkX" node="4jlzLDkHVuo" resolve="map_BatchJobModule" />
                   </node>
-                  <node concept="liA8E" id="s_xv0_6vt$" role="2OqNvi">
-                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                    <node concept="Xl_RD" id="s_xv0_6vjA" role="37wK5m">
-                      <property role="Xl_RC" value=" * * * * * * * * * * starting job from console * * * * * * * * * * " />
-                    </node>
+                  <node concept="Rm8GO" id="1jCLyDuLrO4" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
                   </node>
+                  <node concept="Xl_RD" id="s_xv0_6vjA" role="37wK5m">
+                    <property role="Xl_RC" value=" * * * * * * * * * * starting job from console * * * * * * * * * * " />
+                  </node>
+                  <node concept="10Nm6u" id="1jCLyDuLskI" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -18487,65 +18490,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="19EO7JPdL9n" role="3cqZAp" />
-        <node concept="3cpWs8" id="7tfEsbFv8fH" role="3cqZAp">
-          <node concept="3cpWsn" id="7tfEsbFv8fI" role="3cpWs9">
-            <property role="TrG5h" value="cmc" />
-            <node concept="3uibUv" id="7tfEsbFv8fJ" role="1tU5fm">
-              <ref role="3uigEE" to="z3ji:6uo0g5Wm5Z4" resolve="OFXCronMasterController" />
-            </node>
-            <node concept="2ShNRf" id="7tfEsbFsytJ" role="33vP2m">
-              <node concept="1pGfFk" id="7tfEsbFsym1" role="2ShVmc">
-                <ref role="37wK5l" to="z3ji:6uo0g5Wm5ZB" resolve="OFXCronMasterController" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7tfEsbFvaqj" role="3cqZAp">
-          <node concept="2OqwBi" id="7tfEsbFvbje" role="3clFbG">
-            <node concept="37vLTw" id="7tfEsbFvaqh" role="2Oq$k0">
-              <ref role="3cqZAo" node="7tfEsbFv8fI" resolve="cmc" />
-            </node>
-            <node concept="liA8E" id="7tfEsbFsB8q" role="2OqNvi">
-              <ref role="37wK5l" to="z3ji:6uo0g5Wm6dy" resolve="init" />
-              <node concept="37vLTw" id="19EO7JPdYJK" role="37wK5m">
-                <ref role="3cqZAo" node="19EO7JPdCe6" resolve="props" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="19EO7JSa$S_" role="3cqZAp">
-          <node concept="37vLTI" id="19EO7JSaBuW" role="3clFbG">
-            <node concept="37vLTw" id="19EO7JSaC_L" role="37vLTx">
-              <ref role="3cqZAo" node="7tfEsbFv8fI" resolve="cmc" />
-            </node>
-            <node concept="37vLTw" id="19EO7JSa$Sz" role="37vLTJ">
-              <ref role="3cqZAo" to="z3ji:19EO7JRZ3wv" resolve="masterController" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2rXgTRr64eo" role="3cqZAp">
-          <node concept="2OqwBi" id="2rXgTRr66ae" role="3clFbG">
-            <node concept="37vLTw" id="2rXgTRr64em" role="2Oq$k0">
-              <ref role="3cqZAo" node="2rXgTRr5yks" resolve="cl_ProdConsInitializer" />
-            </node>
-            <node concept="liA8E" id="2rXgTRr67EJ" role="2OqNvi">
-              <ref role="37wK5l" node="2rXgTRr410C" resolve="init" />
-              <node concept="1rXfSq" id="2rXgTRr6dyl" role="37wK5m">
-                <ref role="37wK5l" node="4jlzLDkJuMB" resolve="createJobExceptionStrategy" />
-              </node>
-              <node concept="37vLTw" id="2rXgTRr6e1Q" role="37wK5m">
-                <ref role="3cqZAo" node="7tfEsbFv8fI" resolve="cmc" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7tfEsbFPlMc" role="3cqZAp" />
+        <node concept="3clFbH" id="1jCLyDuLsC0" role="3cqZAp" />
         <node concept="3clFbF" id="19EO7JRYpbg" role="3cqZAp">
           <node concept="1rXfSq" id="19EO7JRYpbe" role="3clFbG">
             <ref role="37wK5l" to="z3ji:19EO7JRY9zL" resolve="ensureLocalTimeFitsServerTime" />
           </node>
         </node>
-        <node concept="3clFbH" id="DRZf0Synd1" role="3cqZAp" />
         <node concept="3J1_TO" id="s_xv0_DBt0" role="3cqZAp">
           <node concept="3clFbS" id="s_xv0_DBt2" role="1zxBo7">
             <node concept="3clFbF" id="3Ux7NZuXUK_" role="3cqZAp">
@@ -18617,29 +18567,22 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="s_xv0_DEog" role="3cqZAp">
-                <node concept="2OqwBi" id="s_xv0_DEoh" role="3clFbG">
-                  <node concept="2YIFZM" id="s_xv0_DEoi" role="2Oq$k0">
-                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                    <node concept="3VsKOn" id="s_xv0_DEoj" role="37wK5m">
-                      <ref role="3VsUkX" node="4jlzLDkHVuo" resolve="map_BatchJobModule" />
-                    </node>
+              <node concept="3clFbF" id="1jCLyDuLTOb" role="3cqZAp">
+                <node concept="2YIFZM" id="1jCLyDuLU0Z" role="3clFbG">
+                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="s_xv0_DEoj" role="37wK5m">
+                    <ref role="3VsUkX" node="4jlzLDkHVuo" resolve="map_BatchJobModule" />
                   </node>
-                  <node concept="liA8E" id="s_xv0_DEok" role="2OqNvi">
-                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                    <node concept="3cpWs3" id="s_xv0_DEXK" role="37wK5m">
-                      <node concept="Xl_RD" id="s_xv0_DF0e" role="3uHU7B">
-                        <property role="Xl_RC" value="Exception in startup() \n" />
-                      </node>
-                      <node concept="2YIFZM" id="s_xv0_DETM" role="3uHU7w">
-                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                        <node concept="37vLTw" id="s_xv0_DEWm" role="37wK5m">
-                          <ref role="3cqZAo" node="s_xv0_DBt5" resolve="t" />
-                        </node>
-                      </node>
-                    </node>
+                  <node concept="Rm8GO" id="1jCLyDuLWgs" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                  </node>
+                  <node concept="Xl_RD" id="s_xv0_DF0e" role="37wK5m">
+                    <property role="Xl_RC" value="Exception in batchjob onStartup(), job not initialized and started." />
+                  </node>
+                  <node concept="37vLTw" id="1jCLyDuLWSg" role="37wK5m">
+                    <ref role="3cqZAo" node="s_xv0_DBt5" resolve="t" />
                   </node>
                 </node>
               </node>
@@ -18647,6 +18590,61 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1jCLyDuLEmh" role="3cqZAp" />
+        <node concept="3clFbH" id="1jCLyDuLBKy" role="3cqZAp" />
+        <node concept="3cpWs8" id="7tfEsbFv8fH" role="3cqZAp">
+          <node concept="3cpWsn" id="7tfEsbFv8fI" role="3cpWs9">
+            <property role="TrG5h" value="cmc" />
+            <node concept="3uibUv" id="7tfEsbFv8fJ" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:6uo0g5Wm5Z4" resolve="OFXCronMasterController" />
+            </node>
+            <node concept="2ShNRf" id="7tfEsbFsytJ" role="33vP2m">
+              <node concept="1pGfFk" id="7tfEsbFsym1" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:6uo0g5Wm5ZB" resolve="OFXCronMasterController" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7tfEsbFvaqj" role="3cqZAp">
+          <node concept="2OqwBi" id="7tfEsbFvbje" role="3clFbG">
+            <node concept="37vLTw" id="7tfEsbFvaqh" role="2Oq$k0">
+              <ref role="3cqZAo" node="7tfEsbFv8fI" resolve="cmc" />
+            </node>
+            <node concept="liA8E" id="7tfEsbFsB8q" role="2OqNvi">
+              <ref role="37wK5l" to="z3ji:6uo0g5Wm6dy" resolve="init" />
+              <node concept="37vLTw" id="19EO7JPdYJK" role="37wK5m">
+                <ref role="3cqZAo" node="19EO7JPdCe6" resolve="props" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="19EO7JSa$S_" role="3cqZAp">
+          <node concept="37vLTI" id="19EO7JSaBuW" role="3clFbG">
+            <node concept="37vLTw" id="19EO7JSaC_L" role="37vLTx">
+              <ref role="3cqZAo" node="7tfEsbFv8fI" resolve="cmc" />
+            </node>
+            <node concept="37vLTw" id="19EO7JSa$Sz" role="37vLTJ">
+              <ref role="3cqZAo" to="z3ji:19EO7JRZ3wv" resolve="masterController" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2rXgTRr64eo" role="3cqZAp">
+          <node concept="2OqwBi" id="2rXgTRr66ae" role="3clFbG">
+            <node concept="37vLTw" id="2rXgTRr64em" role="2Oq$k0">
+              <ref role="3cqZAo" node="2rXgTRr5yks" resolve="cl_ProdConsInitializer" />
+            </node>
+            <node concept="liA8E" id="2rXgTRr67EJ" role="2OqNvi">
+              <ref role="37wK5l" node="2rXgTRr410C" resolve="init" />
+              <node concept="1rXfSq" id="2rXgTRr6dyl" role="37wK5m">
+                <ref role="37wK5l" node="4jlzLDkJuMB" resolve="createJobExceptionStrategy" />
+              </node>
+              <node concept="37vLTw" id="2rXgTRr6e1Q" role="37wK5m">
+                <ref role="3cqZAo" node="7tfEsbFv8fI" resolve="cmc" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7tfEsbFPlMc" role="3cqZAp" />
         <node concept="3clFbH" id="DRZf0Syi5X" role="3cqZAp" />
         <node concept="3clFbH" id="6MAhPz6XxXs" role="3cqZAp" />
         <node concept="9aQIb" id="7tfEsbFtqSK" role="3cqZAp">
@@ -19163,89 +19161,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="19EO7JSdnuW" role="3cqZAp" />
-            <node concept="3J1_TO" id="s_xv0_DFCx" role="3cqZAp">
-              <node concept="3clFbS" id="s_xv0_DFCz" role="1zxBo7">
-                <node concept="3clFbF" id="3Ux7NZuXUZv" role="3cqZAp">
-                  <node concept="2OqwBi" id="3Ux7NZuXUZw" role="3clFbG">
-                    <node concept="10M0yZ" id="3Ux7NZuXUZx" role="2Oq$k0">
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                    </node>
-                    <node concept="liA8E" id="3Ux7NZuXUZy" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                      <node concept="Xl_RD" id="3Ux7NZuXUZz" role="37wK5m">
-                        <property role="Xl_RC" value="?" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2b32R4" id="3Ux7NZuXVd0" role="lGtFl">
-                    <node concept="3JmXsc" id="3Ux7NZuXVd8" role="2P8S$">
-                      <node concept="3clFbS" id="3Ux7NZuXVdg" role="2VODD2">
-                        <node concept="3clFbF" id="3Ux7NZuXXPm" role="3cqZAp">
-                          <node concept="2OqwBi" id="3Ux7NZuXYLo" role="3clFbG">
-                            <node concept="2OqwBi" id="3Ux7NZuXYiX" role="2Oq$k0">
-                              <node concept="2OqwBi" id="3Ux7NZuXXTr" role="2Oq$k0">
-                                <node concept="30H73N" id="3Ux7NZuXXPl" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="2B50FNWc3Nf" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="1btx:2N7eHMabhMH" resolve="onShutdown" />
-                                </node>
-                              </node>
-                              <node concept="3TrEf2" id="3Ux7NZuXYxn" role="2OqNvi">
-                                <ref role="3Tt5mk" to="tpee:gyVODHa" resolve="body" />
-                              </node>
-                            </node>
-                            <node concept="3Tsc0h" id="3Ux7NZuXZ1c" role="2OqNvi">
-                              <ref role="3TtcxE" to="tpee:fzcqZ_x" resolve="statement" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3uVAMA" id="s_xv0_DFC$" role="1zxBo5">
-                <node concept="XOnhg" id="s_xv0_DFCA" role="1zc67B">
-                  <property role="3TUv4t" value="false" />
-                  <property role="TrG5h" value="t" />
-                  <node concept="nSUau" id="cBJycTyEz8b" role="1tU5fm">
-                    <node concept="3uibUv" id="s_xv0_DGlU" role="nSUat">
-                      <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbS" id="s_xv0_DFCE" role="1zc67A">
-                  <node concept="3clFbF" id="s_xv0_DGzo" role="3cqZAp">
-                    <node concept="2OqwBi" id="s_xv0_DGzp" role="3clFbG">
-                      <node concept="2YIFZM" id="s_xv0_DGzq" role="2Oq$k0">
-                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                        <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                        <node concept="3VsKOn" id="s_xv0_DGzr" role="37wK5m">
-                          <ref role="3VsUkX" node="4jlzLDkHVuo" resolve="map_BatchJobModule" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="s_xv0_DGzs" role="2OqNvi">
-                        <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                        <node concept="3cpWs3" id="s_xv0_DGzt" role="37wK5m">
-                          <node concept="Xl_RD" id="s_xv0_DGzu" role="3uHU7B">
-                            <property role="Xl_RC" value="Exception in shutdown() \n" />
-                          </node>
-                          <node concept="2YIFZM" id="s_xv0_DGzv" role="3uHU7w">
-                            <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                            <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                            <node concept="37vLTw" id="s_xv0_DGzw" role="37wK5m">
-                              <ref role="3cqZAo" node="s_xv0_DFCA" resolve="t" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="s_xv0_DGYn" role="3cqZAp" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="5BROMrVOKVB" role="3cqZAp" />
             <node concept="3SKdUt" id="7tfEsbFuHgQ" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdJXHc0" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdJXHc1" role="1PaTwD">
@@ -19345,7 +19260,81 @@
               </node>
             </node>
             <node concept="3clFbH" id="7tfEsbFuBxE" role="3cqZAp" />
-            <node concept="3clFbH" id="19EO7JSdzRJ" role="3cqZAp" />
+            <node concept="3J1_TO" id="s_xv0_DFCx" role="3cqZAp">
+              <node concept="3clFbS" id="s_xv0_DFCz" role="1zxBo7">
+                <node concept="3clFbF" id="3Ux7NZuXUZv" role="3cqZAp">
+                  <node concept="2OqwBi" id="3Ux7NZuXUZw" role="3clFbG">
+                    <node concept="10M0yZ" id="3Ux7NZuXUZx" role="2Oq$k0">
+                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                    </node>
+                    <node concept="liA8E" id="3Ux7NZuXUZy" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                      <node concept="Xl_RD" id="3Ux7NZuXUZz" role="37wK5m">
+                        <property role="Xl_RC" value="?" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2b32R4" id="3Ux7NZuXVd0" role="lGtFl">
+                    <node concept="3JmXsc" id="3Ux7NZuXVd8" role="2P8S$">
+                      <node concept="3clFbS" id="3Ux7NZuXVdg" role="2VODD2">
+                        <node concept="3clFbF" id="3Ux7NZuXXPm" role="3cqZAp">
+                          <node concept="2OqwBi" id="3Ux7NZuXYLo" role="3clFbG">
+                            <node concept="2OqwBi" id="3Ux7NZuXYiX" role="2Oq$k0">
+                              <node concept="2OqwBi" id="3Ux7NZuXXTr" role="2Oq$k0">
+                                <node concept="30H73N" id="3Ux7NZuXXPl" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="2B50FNWc3Nf" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="1btx:2N7eHMabhMH" resolve="onShutdown" />
+                                </node>
+                              </node>
+                              <node concept="3TrEf2" id="3Ux7NZuXYxn" role="2OqNvi">
+                                <ref role="3Tt5mk" to="tpee:gyVODHa" resolve="body" />
+                              </node>
+                            </node>
+                            <node concept="3Tsc0h" id="3Ux7NZuXZ1c" role="2OqNvi">
+                              <ref role="3TtcxE" to="tpee:fzcqZ_x" resolve="statement" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3uVAMA" id="s_xv0_DFC$" role="1zxBo5">
+                <node concept="XOnhg" id="s_xv0_DFCA" role="1zc67B">
+                  <property role="3TUv4t" value="false" />
+                  <property role="TrG5h" value="t" />
+                  <node concept="nSUau" id="cBJycTyEz8b" role="1tU5fm">
+                    <node concept="3uibUv" id="s_xv0_DGlU" role="nSUat">
+                      <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="s_xv0_DFCE" role="1zc67A">
+                  <node concept="3clFbF" id="1jCLyDuLXKI" role="3cqZAp">
+                    <node concept="2YIFZM" id="1jCLyDuLXKJ" role="3clFbG">
+                      <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                      <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                      <node concept="3VsKOn" id="1jCLyDuLXKK" role="37wK5m">
+                        <ref role="3VsUkX" node="4jlzLDkHVuo" resolve="map_BatchJobModule" />
+                      </node>
+                      <node concept="Rm8GO" id="1jCLyDuLXKL" role="37wK5m">
+                        <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                        <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                      </node>
+                      <node concept="Xl_RD" id="1jCLyDuLXKM" role="37wK5m">
+                        <property role="Xl_RC" value="Exception in batchjob onShutdown()" />
+                      </node>
+                      <node concept="37vLTw" id="1jCLyDuLXKN" role="37wK5m">
+                        <ref role="3cqZAo" node="s_xv0_DFCA" resolve="t" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="s_xv0_DGYn" role="3cqZAp" />
+                </node>
+              </node>
+            </node>
             <node concept="3SKdUt" id="4NpYXr5Xf3Y" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdJXHcg" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdJXHch" role="1PaTwD">
@@ -19408,33 +19397,33 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="5BROMrVMLLu" role="3cqZAp">
-              <node concept="2YIFZM" id="5BROMrVMLLv" role="3clFbG">
-                <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
-                <ref role="37wK5l" to="28jr:1fGCQmfQhcV" resolve="shutdownAndGcClean" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="2rXgTRschDA" role="3cqZAp">
-              <node concept="2YIFZM" id="2rXgTRschYL" role="3clFbG">
-                <ref role="1Pybhc" to="w7gk:3wMahqy82Ju" resolve="MMStaticAccessHelper" />
-                <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="shutdownAndGcClean" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="2rXgTRsc_yf" role="3cqZAp" />
-            <node concept="3clFbF" id="3Ux7NZv0V79" role="3cqZAp">
-              <node concept="37vLTI" id="3Ux7NZv0Vso" role="3clFbG">
-                <node concept="10Nm6u" id="3Ux7NZv0Vz7" role="37vLTx" />
-                <node concept="10M0yZ" id="3Ux7NZv0V78" role="37vLTJ">
-                  <ref role="3cqZAo" to="28jr:3UVBaKgdmwJ" resolve="GLOBAL_INSTANCE_DEFAULT_LANG" />
-                  <ref role="1PxDUh" to="28jr:76zKLSqSNNr" resolve="OFXStringFormatter2" />
-                </node>
-              </node>
-            </node>
           </node>
           <node concept="3y3z36" id="19EO7JSdaRN" role="3clFbw">
             <node concept="10Nm6u" id="19EO7JSdbNI" role="3uHU7w" />
             <node concept="37vLTw" id="19EO7JSd9MU" role="3uHU7B">
               <ref role="3cqZAo" to="z3ji:19EO7JRZ3wv" resolve="masterController" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1jCLyDuLPmx" role="3cqZAp" />
+        <node concept="3clFbF" id="5BROMrVMLLu" role="3cqZAp">
+          <node concept="2YIFZM" id="5BROMrVMLLv" role="3clFbG">
+            <ref role="37wK5l" to="28jr:1fGCQmfQhcV" resolve="shutdownAndGcClean" />
+            <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2rXgTRschDA" role="3cqZAp">
+          <node concept="2YIFZM" id="2rXgTRschYL" role="3clFbG">
+            <ref role="37wK5l" to="w7gk:2rXgTRscacr" resolve="shutdownAndGcClean" />
+            <ref role="1Pybhc" to="w7gk:3wMahqy82Ju" resolve="MMStaticAccessHelper" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Ux7NZv0V79" role="3cqZAp">
+          <node concept="37vLTI" id="3Ux7NZv0Vso" role="3clFbG">
+            <node concept="10Nm6u" id="3Ux7NZv0Vz7" role="37vLTx" />
+            <node concept="10M0yZ" id="3Ux7NZv0V78" role="37vLTJ">
+              <ref role="1PxDUh" to="28jr:76zKLSqSNNr" resolve="OFXStringFormatter2" />
+              <ref role="3cqZAo" to="28jr:3UVBaKgdmwJ" resolve="GLOBAL_INSTANCE_DEFAULT_LANG" />
             </node>
           </node>
         </node>

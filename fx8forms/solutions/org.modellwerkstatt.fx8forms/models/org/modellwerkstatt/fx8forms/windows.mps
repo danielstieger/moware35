@@ -3802,9 +3802,6 @@
                                                     </node>
                                                     <node concept="liA8E" id="3EJOQfNfNv1" role="2OqNvi">
                                                       <ref role="37wK5l" to="1e0c:4FgSVMsqEn_" resolve="logFrmwrkProblem" />
-                                                      <node concept="3clFbT" id="3EJOQfNfNv2" role="37wK5m">
-                                                        <property role="3clFbU" value="true" />
-                                                      </node>
                                                       <node concept="Xl_RD" id="4FgSVMtrupm" role="37wK5m">
                                                         <property role="Xl_RC" value="" />
                                                       </node>
@@ -3883,9 +3880,6 @@
                                                       </node>
                                                       <node concept="liA8E" id="6UkfGkBPEPt" role="2OqNvi">
                                                         <ref role="37wK5l" to="1e0c:4FgSVMsqEn_" resolve="logFrmwrkProblem" />
-                                                        <node concept="3clFbT" id="6UkfGkBPFDd" role="37wK5m">
-                                                          <property role="3clFbU" value="true" />
-                                                        </node>
                                                         <node concept="Xl_RD" id="6UkfGkBPXca" role="37wK5m" />
                                                         <node concept="10M0yZ" id="4g_sjDLc3VU" role="37wK5m">
                                                           <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
@@ -22053,32 +22047,47 @@
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="1X3_iC" id="5mKi2ysqG8O" role="lGtFl">
-                                    <property role="3V$3am" value="statement" />
-                                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                    <node concept="3clFbF" id="2JDNIBMNc42" role="8Wnug">
-                                      <node concept="2OqwBi" id="2JDNIBMNedA" role="3clFbG">
-                                        <node concept="2YIFZM" id="2JDNIBMNcOS" role="2Oq$k0">
-                                          <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                          <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                          <node concept="3VsKOn" id="2JDNIBMNebj" role="37wK5m">
-                                            <ref role="3VsUkX" node="1e8699aCJb7" resolve="FX8TableForm" />
-                                          </node>
-                                        </node>
-                                        <node concept="liA8E" id="2JDNIBMNeJu" role="2OqNvi">
-                                          <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                          <node concept="3cpWs3" id="2JDNIBMNigV" role="37wK5m">
-                                            <node concept="37vLTw" id="2JDNIBMNPuk" role="3uHU7w">
-                                              <ref role="3cqZAo" node="2JDNIBMNjTp" resolve="info" />
-                                            </node>
-                                            <node concept="Xl_RD" id="2JDNIBMNeVR" role="3uHU7B">
-                                              <property role="Xl_RC" value="This Is the IOB BUG - please forwards this information to daniel.stieger@modellwerkstatt.org " />
-                                            </node>
-                                          </node>
-                                        </node>
+                                  <node concept="3SKdUt" id="1jCLyDuKBxY" role="3cqZAp">
+                                    <node concept="1PaTwC" id="1jCLyDuKBxZ" role="1aUNEU">
+                                      <node concept="3oM_SD" id="1jCLyDuKBFZ" role="1PaTwD">
+                                        <property role="3oM_SC" value="This" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG0" role="1PaTwD">
+                                        <property role="3oM_SC" value="Is" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG1" role="1PaTwD">
+                                        <property role="3oM_SC" value="the" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG2" role="1PaTwD">
+                                        <property role="3oM_SC" value="IOB" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG3" role="1PaTwD">
+                                        <property role="3oM_SC" value="BUG" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG4" role="1PaTwD">
+                                        <property role="3oM_SC" value="-" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG5" role="1PaTwD">
+                                        <property role="3oM_SC" value="please" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG6" role="1PaTwD">
+                                        <property role="3oM_SC" value="forwards" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG7" role="1PaTwD">
+                                        <property role="3oM_SC" value="this" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG8" role="1PaTwD">
+                                        <property role="3oM_SC" value="information" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBG9" role="1PaTwD">
+                                        <property role="3oM_SC" value="to" />
+                                      </node>
+                                      <node concept="3oM_SD" id="1jCLyDuKBGa" role="1PaTwD">
+                                        <property role="3oM_SC" value="daniel.stieger@modellwerkstatt.org" />
                                       </node>
                                     </node>
                                   </node>
+                                  <node concept="3clFbH" id="1jCLyDuKPbb" role="3cqZAp" />
                                   <node concept="3clFbF" id="5mKi2ysqHiM" role="3cqZAp">
                                     <node concept="2YIFZM" id="5mKi2ysqHjO" role="3clFbG">
                                       <ref role="37wK5l" to="ahg6:~Platform.runLater(java.lang.Runnable)" resolve="runLater" />
@@ -28997,24 +29006,46 @@
                                               <node concept="3clFbH" id="zBgVaCZz9Z" role="3cqZAp" />
                                               <node concept="3clFbJ" id="3YbyKXcL_Lp" role="3cqZAp">
                                                 <node concept="3clFbS" id="3YbyKXcL_Lq" role="3clFbx">
-                                                  <node concept="1X3_iC" id="5NRQBQlAoBH" role="lGtFl">
-                                                    <property role="3V$3am" value="statement" />
-                                                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                    <node concept="3clFbF" id="3gX1ss0SvEa" role="8Wnug">
-                                                      <node concept="2OqwBi" id="3gX1ss0Sxll" role="3clFbG">
-                                                        <node concept="2YIFZM" id="3gX1ss0SvN3" role="2Oq$k0">
-                                                          <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                                                          <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                                                          <node concept="3VsKOn" id="3gX1ss0Sx0X" role="37wK5m">
-                                                            <ref role="3VsUkX" node="3u6rNybdaVr" resolve="FX8TabForm" />
-                                                          </node>
-                                                        </node>
-                                                        <node concept="liA8E" id="3gX1ss0Sxq0" role="2OqNvi">
-                                                          <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                                                          <node concept="Xl_RD" id="x4_9fkSpUn" role="37wK5m">
-                                                            <property role="Xl_RC" value="Java 1.8_181 migration, this should not happen. request focus not wokring as expected." />
-                                                          </node>
-                                                        </node>
+                                                  <node concept="3SKdUt" id="1jCLyDuJ6Yq" role="3cqZAp">
+                                                    <node concept="1PaTwC" id="1jCLyDuJ6Yr" role="1aUNEU">
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6Zw" role="1PaTwD">
+                                                        <property role="3oM_SC" value="Java" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6Zx" role="1PaTwD">
+                                                        <property role="3oM_SC" value="1.8_181" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6Zy" role="1PaTwD">
+                                                        <property role="3oM_SC" value="migration," />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6Zz" role="1PaTwD">
+                                                        <property role="3oM_SC" value="this" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6Z$" role="1PaTwD">
+                                                        <property role="3oM_SC" value="should" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6Z_" role="1PaTwD">
+                                                        <property role="3oM_SC" value="not" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6ZA" role="1PaTwD">
+                                                        <property role="3oM_SC" value="happen." />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6ZB" role="1PaTwD">
+                                                        <property role="3oM_SC" value="request" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6ZC" role="1PaTwD">
+                                                        <property role="3oM_SC" value="focus" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6ZD" role="1PaTwD">
+                                                        <property role="3oM_SC" value="not" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6ZE" role="1PaTwD">
+                                                        <property role="3oM_SC" value="wokring" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6ZF" role="1PaTwD">
+                                                        <property role="3oM_SC" value="as" />
+                                                      </node>
+                                                      <node concept="3oM_SD" id="1jCLyDuJ6ZG" role="1PaTwD">
+                                                        <property role="3oM_SC" value="expected." />
                                                       </node>
                                                     </node>
                                                   </node>
@@ -29048,35 +29079,6 @@
                                                                         <ref role="37wK5l" to="1e0c:1U$SEulqx1o" resolve="myRequestFocusOnChild" />
                                                                         <node concept="37vLTw" id="3YbyKXcLM1w" role="37wK5m">
                                                                           <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
-                                                                        </node>
-                                                                      </node>
-                                                                    </node>
-                                                                  </node>
-                                                                  <node concept="1X3_iC" id="4xVSf7d5Vjf" role="lGtFl">
-                                                                    <property role="3V$3am" value="statement" />
-                                                                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                                    <node concept="3clFbF" id="3YbyKXcL_LF" role="8Wnug">
-                                                                      <node concept="2OqwBi" id="3YbyKXcL_LG" role="3clFbG">
-                                                                        <node concept="10M0yZ" id="3YbyKXcL_LH" role="2Oq$k0">
-                                                                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                                                                          <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                                                                        </node>
-                                                                        <node concept="liA8E" id="3YbyKXcL_LI" role="2OqNvi">
-                                                                          <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                                                                          <node concept="3cpWs3" id="3YbyKXcL_LJ" role="37wK5m">
-                                                                            <node concept="Xl_RD" id="3YbyKXcL_LK" role="3uHU7w">
-                                                                              <property role="Xl_RC" value=" Fx8FormContainer .. manual 200ms readjust focus delivered." />
-                                                                            </node>
-                                                                            <node concept="2OqwBi" id="3YbyKXcL_LL" role="3uHU7B">
-                                                                              <node concept="2YIFZM" id="3YbyKXcL_LM" role="2Oq$k0">
-                                                                                <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                                                                                <ref role="37wK5l" to="wyt6:~Thread.currentThread()" resolve="currentThread" />
-                                                                              </node>
-                                                                              <node concept="liA8E" id="3YbyKXcL_LN" role="2OqNvi">
-                                                                                <ref role="37wK5l" to="wyt6:~Thread.getName()" resolve="getName" />
-                                                                              </node>
-                                                                            </node>
-                                                                          </node>
                                                                         </node>
                                                                       </node>
                                                                     </node>

@@ -5326,7 +5326,7 @@
               <ref role="3cqZAo" node="oHsXcakj0e" resolve="session" />
             </node>
             <node concept="liA8E" id="19EO7JMzd5X" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:19EO7JMyRFz" resolve="cmdStarted" />
+              <ref role="37wK5l" to="28jr:19EO7JMyRFz" resolve="setSessionOwnerFqName" />
               <node concept="1rXfSq" id="19EO7JMzkzw" role="37wK5m">
                 <ref role="37wK5l" node="3PmKne7Js27" resolve="getCommandFqName" />
               </node>
@@ -7628,19 +7628,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="19EO7JMztZu" role="3cqZAp">
-          <node concept="2OqwBi" id="19EO7JMztZv" role="3clFbG">
-            <node concept="37vLTw" id="19EO7JMzuTk" role="2Oq$k0">
-              <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
-            </node>
-            <node concept="liA8E" id="19EO7JMztZx" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:19EO7JMyS0q" resolve="cmdConcluded" />
-              <node concept="1rXfSq" id="19EO7JMztZy" role="37wK5m">
-                <ref role="37wK5l" node="3PmKne7Js27" resolve="getCommandFqName" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1HDSUXvHQwX" role="3cqZAp">
           <node concept="1rXfSq" id="1HDSUXvHQwV" role="3clFbG">
             <ref role="37wK5l" node="5gqYsAQLOFm" resolve="revertToShadow" />
@@ -8749,20 +8736,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="1dqt$gIOq8D" role="3cqZAp" />
-            <node concept="3clFbF" id="19EO7JMzy5F" role="3cqZAp">
-              <node concept="2OqwBi" id="19EO7JMzy5G" role="3clFbG">
-                <node concept="37vLTw" id="19EO7JMzy5H" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
-                </node>
-                <node concept="liA8E" id="19EO7JMzy5I" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:19EO7JMyS0q" resolve="cmdConcluded" />
-                  <node concept="1rXfSq" id="19EO7JMzy5J" role="37wK5m">
-                    <ref role="37wK5l" node="3PmKne7Js27" resolve="getCommandFqName" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="19EO7JQT3FG" role="3cqZAp" />
             <node concept="3SKdUt" id="382CQP4Gx0S" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdINI$d" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdINI$e" role="1PaTwD">
@@ -9265,20 +9238,6 @@
                         </node>
                       </node>
                     </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="19EO7JQT82Z" role="3cqZAp" />
-            <node concept="3clFbF" id="19EO7JMz$r4" role="3cqZAp">
-              <node concept="2OqwBi" id="19EO7JMz$r5" role="3clFbG">
-                <node concept="37vLTw" id="19EO7JMz$r6" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
-                </node>
-                <node concept="liA8E" id="19EO7JMz$r7" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:19EO7JMyS0q" resolve="cmdConcluded" />
-                  <node concept="1rXfSq" id="19EO7JMz$r8" role="37wK5m">
-                    <ref role="37wK5l" node="3PmKne7Js27" resolve="getCommandFqName" />
                   </node>
                 </node>
               </node>
@@ -11855,6 +11814,16 @@
         <node concept="10P_77" id="7dYuT2duZse" role="3clF45" />
         <node concept="3Tm1VV" id="7dYuT2dfLAD" role="1B3o_S" />
         <node concept="3clFbS" id="7dYuT2dfLAE" role="3clF47">
+          <node concept="3clFbF" id="1jCLyDwBmbI" role="3cqZAp">
+            <node concept="2OqwBi" id="1jCLyDwBmFY" role="3clFbG">
+              <node concept="37vLTw" id="1jCLyDwBmbG" role="2Oq$k0">
+                <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
+              </node>
+              <node concept="liA8E" id="1jCLyDwBo9G" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:1jCLyDwAgKb" resolve="clearGraphEditFqName" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="7dYuT2dfXFj" role="3cqZAp">
             <node concept="2OqwBi" id="7dYuT2dfXFk" role="3clFbG">
               <node concept="10M0yZ" id="7dYuT2dfXFl" role="2Oq$k0">
@@ -23772,6 +23741,19 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbF" id="1jCLyDw8DcD" role="3cqZAp">
+                    <node concept="2OqwBi" id="1jCLyDw8Doi" role="3clFbG">
+                      <node concept="37vLTw" id="1jCLyDw8DcB" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5TC7JC3ZSRC" resolve="session" />
+                      </node>
+                      <node concept="liA8E" id="1jCLyDw8TW3" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:19EO7JMyRFz" resolve="setSessionOwnerFqName" />
+                        <node concept="37vLTw" id="1jCLyDw8U2W" role="37wK5m">
+                          <ref role="3cqZAo" node="5TC7JC3ZCua" resolve="commandFqName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbJ" id="5TC7JC3ZSS9" role="3cqZAp">
                     <node concept="3clFbS" id="5TC7JC3ZSSa" role="3clFbx">
                       <node concept="YS8fn" id="5TC7JC3ZSSb" role="3cqZAp">
@@ -23984,6 +23966,35 @@
                 </node>
                 <node concept="37vLTw" id="5TC7JC3ZSTE" role="37vLTJ">
                   <ref role="3cqZAo" node="5TC7JC3ZSRs" resolve="cmd" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1jCLyDwBsp$" role="3cqZAp">
+              <node concept="2OqwBi" id="1jCLyDwBtUz" role="3clFbG">
+                <node concept="37vLTw" id="1jCLyDwBspy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5TC7JC3ZSRC" resolve="session" />
+                </node>
+                <node concept="liA8E" id="1jCLyDwBv8u" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:1jCLyDwAgqa" resolve="setGraphEditFqName" />
+                  <node concept="37vLTw" id="1jCLyDwBvJj" role="37wK5m">
+                    <ref role="3cqZAo" node="5TC7JC3ZCua" resolve="commandFqName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1W57fq" id="1jCLyDwBwdk" role="lGtFl">
+                <node concept="3IZrLx" id="1jCLyDwBwdn" role="3IZSJc">
+                  <node concept="3clFbS" id="1jCLyDwBwdo" role="2VODD2">
+                    <node concept="3clFbF" id="1jCLyDwBwdu" role="3cqZAp">
+                      <node concept="3fqX7Q" id="1jCLyDwBx3n" role="3clFbG">
+                        <node concept="2OqwBi" id="1jCLyDwBx3p" role="3fr31v">
+                          <node concept="2qgKlT" id="1jCLyDwBx3q" role="2OqNvi">
+                            <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
+                          </node>
+                          <node concept="30H73N" id="1jCLyDwBx3r" role="2Oq$k0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

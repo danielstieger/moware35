@@ -5237,26 +5237,22 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="1yQJrOWzg8w" role="3cqZAp">
-                <node concept="2OqwBi" id="1yQJrOWzgd6" role="3clFbG">
-                  <node concept="Xjq3P" id="1yQJrOWzg8u" role="2Oq$k0" />
-                  <node concept="liA8E" id="1yQJrOWzgua" role="2OqNvi">
-                    <ref role="37wK5l" to="opgt:~GenericServlet.log(java.lang.String,java.lang.Throwable)" resolve="log" />
-                    <node concept="3cpWs3" id="2B7Nd3VsClZ" role="37wK5m">
-                      <node concept="2YIFZM" id="2B7Nd3VsG0s" role="3uHU7w">
-                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                        <node concept="37vLTw" id="2B7Nd3VsGda" role="37wK5m">
-                          <ref role="3cqZAo" node="1yQJrOWzdPo" resolve="e" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="1yQJrOWzgD8" role="3uHU7B">
-                        <property role="Xl_RC" value="Exception in VApplicationLoader.service() \n\n" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="1yQJrOWzh7N" role="37wK5m">
-                      <ref role="3cqZAo" node="1yQJrOWzdPo" resolve="e" />
-                    </node>
+              <node concept="3clFbF" id="1jCLyDuRnSz" role="3cqZAp">
+                <node concept="2YIFZM" id="1jCLyDuRogX" role="3clFbG">
+                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="1jCLyDuRpPC" role="37wK5m">
+                    <ref role="3VsUkX" node="6MOvunDm3sG" resolve="VApplicationLoader" />
+                  </node>
+                  <node concept="Rm8GO" id="1jCLyDuRr3l" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                  </node>
+                  <node concept="Xl_RD" id="1yQJrOWzgD8" role="37wK5m">
+                    <property role="Xl_RC" value="Exception in VApplicationLoader.service()" />
+                  </node>
+                  <node concept="37vLTw" id="1jCLyDuRs0X" role="37wK5m">
+                    <ref role="3cqZAo" node="1yQJrOWzdPo" resolve="e" />
                   </node>
                 </node>
               </node>
@@ -5322,6 +5318,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1jCLyDuQ1Wx" role="3cqZAp" />
         <node concept="3clFbF" id="6rMtHgbD_DW" role="3cqZAp">
           <node concept="2YIFZM" id="6rMtHgbDD0Z" role="3clFbG">
             <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
@@ -5334,7 +5331,15 @@
             <ref role="1Pybhc" to="w7gk:3wMahqy82Ju" resolve="MMStaticAccessHelper" />
           </node>
         </node>
-        <node concept="3clFbH" id="6OyHsl$VmpS" role="3cqZAp" />
+        <node concept="3clFbF" id="1jCLyDuQ29D" role="3cqZAp">
+          <node concept="37vLTI" id="1jCLyDuQ2zK" role="3clFbG">
+            <node concept="10Nm6u" id="1jCLyDuQ2Fe" role="37vLTx" />
+            <node concept="10M0yZ" id="1jCLyDuQ2mz" role="37vLTJ">
+              <ref role="3cqZAo" to="28jr:3UVBaKgdmwJ" resolve="GLOBAL_INSTANCE_DEFAULT_LANG" />
+              <ref role="1PxDUh" to="28jr:76zKLSqSNNr" resolve="OFXStringFormatter2" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6OyHsl$VmrI" role="3cqZAp" />
         <node concept="3SKdUt" id="3cwHg4BT$So" role="3cqZAp">
           <node concept="1PaTwC" id="1cdRHvewW$o" role="1aUNEU">
@@ -9030,21 +9035,23 @@
               </node>
             </node>
             <node concept="3clFbS" id="4M9afjaQ8VP" role="1zc67A">
-              <node concept="3clFbF" id="3tgwmmDbHO4" role="3cqZAp">
-                <node concept="2OqwBi" id="3tgwmmDbIjn" role="3clFbG">
-                  <node concept="2YIFZM" id="3tgwmmDbHZp" role="2Oq$k0">
-                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class)" resolve="getLog" />
-                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                    <node concept="3VsKOn" id="3tgwmmDbIgg" role="37wK5m">
-                      <ref role="3VsUkX" node="4QTIUTClCwd" resolve="VHotkeyHelper" />
-                    </node>
+              <node concept="3clFbF" id="1jCLyDuP_NK" role="3cqZAp">
+                <node concept="2YIFZM" id="1jCLyDuPAbC" role="3clFbG">
+                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                  <node concept="3VsKOn" id="1jCLyDuPAgA" role="37wK5m">
+                    <ref role="3VsUkX" node="4QTIUTClCwd" resolve="VHotkeyHelper" />
                   </node>
-                  <node concept="liA8E" id="3tgwmmDbIr_" role="2OqNvi">
-                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
-                    <node concept="3cpWs3" id="3tgwmmDbIUu" role="37wK5m">
-                      <node concept="Xl_RD" id="3tgwmmDbIV$" role="3uHU7w">
-                        <property role="Xl_RC" value=" not available in vaadin applications. Choose different one? " />
-                      </node>
+                  <node concept="Rm8GO" id="1jCLyDuPBcc" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                  </node>
+                  <node concept="3cpWs3" id="1jCLyDuPCC8" role="37wK5m">
+                    <node concept="2YIFZM" id="1jCLyDuPD0$" role="3uHU7w">
+                      <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                    </node>
+                    <node concept="3cpWs3" id="3tgwmmDbIUu" role="3uHU7B">
                       <node concept="3cpWs3" id="3tgwmmDbIJw" role="3uHU7B">
                         <node concept="Xl_RD" id="3tgwmmDbItC" role="3uHU7B">
                           <property role="Xl_RC" value="Hotkey " />
@@ -9053,8 +9060,12 @@
                           <ref role="3cqZAo" node="7QITxIiTth_" resolve="key" />
                         </node>
                       </node>
+                      <node concept="Xl_RD" id="3tgwmmDbIV$" role="3uHU7w">
+                        <property role="Xl_RC" value=" not available in vaadin applications. Choose different one? Stacktrace: " />
+                      </node>
                     </node>
                   </node>
+                  <node concept="10Nm6u" id="1jCLyDuPBUp" role="37wK5m" />
                 </node>
               </node>
               <node concept="3cpWs6" id="3tgwmmDbFzz" role="3cqZAp">
