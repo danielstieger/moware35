@@ -18205,29 +18205,7 @@
               <ref role="3cqZAo" node="DRZf0SyyJ6" resolve="fromConsole" />
             </node>
           </node>
-          <node concept="9aQIb" id="DRZf0SyB8N" role="9aQIa">
-            <node concept="3clFbS" id="DRZf0SyB8O" role="9aQI4">
-              <node concept="3clFbF" id="1jCLyDuLpu6" role="3cqZAp">
-                <node concept="2YIFZM" id="1jCLyDuLpA4" role="3clFbG">
-                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
-                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
-                  <node concept="3VsKOn" id="s_xv0_6vtz" role="37wK5m">
-                    <ref role="3VsUkX" node="4jlzLDkHVuo" resolve="map_BatchJobModule" />
-                  </node>
-                  <node concept="Rm8GO" id="1jCLyDuLrO4" role="37wK5m">
-                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
-                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
-                  </node>
-                  <node concept="Xl_RD" id="s_xv0_6vjA" role="37wK5m">
-                    <property role="Xl_RC" value=" * * * * * * * * * * starting job from console * * * * * * * * * * " />
-                  </node>
-                  <node concept="10Nm6u" id="1jCLyDuLskI" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
-        <node concept="3clFbH" id="7Ako_ORnUp5" role="3cqZAp" />
         <node concept="3clFbH" id="2rXgTRr57qJ" role="3cqZAp" />
         <node concept="3clFbF" id="3tgwmmDiDfT" role="3cqZAp">
           <node concept="37vLTI" id="3tgwmmDiD$O" role="3clFbG">
@@ -18490,7 +18468,52 @@
           </node>
         </node>
         <node concept="3clFbH" id="19EO7JPdL9n" role="3cqZAp" />
-        <node concept="3clFbH" id="1jCLyDuLsC0" role="3cqZAp" />
+        <node concept="3clFbJ" id="4IVaCy$Pz_i" role="3cqZAp">
+          <node concept="3clFbS" id="4IVaCy$Pz_k" role="3clFbx">
+            <node concept="3clFbF" id="4IVaCy$P0B3" role="3cqZAp">
+              <node concept="2YIFZM" id="4IVaCy$Po3Z" role="3clFbG">
+                <ref role="37wK5l" to="28jr:4IVaCy$P1I$" resolve="logConsole" />
+                <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                <node concept="3cpWs3" id="4IVaCy$PpSB" role="37wK5m">
+                  <node concept="Xl_RD" id="4IVaCy$PpUD" role="3uHU7w">
+                    <property role="Xl_RC" value="  from console  * * * * * * * * * *\n" />
+                  </node>
+                  <node concept="3cpWs3" id="4IVaCy$PByy" role="3uHU7B">
+                    <node concept="2OqwBi" id="4IVaCy$PBPb" role="3uHU7w">
+                      <node concept="37vLTw" id="4IVaCy$PBCv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="19EO7JPdCe6" resolve="props" />
+                      </node>
+                      <node concept="2OwXpG" id="4IVaCy$PBZc" role="2OqNvi">
+                        <ref role="2Oxat5" to="z3ji:5lMTsSlKvOT" resolve="swJobVersion" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="4IVaCy$PBqA" role="3uHU7B">
+                      <node concept="3cpWs3" id="4IVaCy$Pqfw" role="3uHU7B">
+                        <node concept="Xl_RD" id="s_xv0_6vjA" role="3uHU7B">
+                          <property role="Xl_RC" value="\n * * * * * * * * * * starting job  " />
+                        </node>
+                        <node concept="2OqwBi" id="4IVaCy$PAXa" role="3uHU7w">
+                          <node concept="37vLTw" id="4IVaCy$PALI" role="2Oq$k0">
+                            <ref role="3cqZAo" node="19EO7JPdCe6" resolve="props" />
+                          </node>
+                          <node concept="2OwXpG" id="4IVaCy$PB6K" role="2OqNvi">
+                            <ref role="2Oxat5" to="z3ji:5lMTsSlKvNV" resolve="swJobFqName" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="4IVaCy$PBsV" role="3uHU7w">
+                        <property role="Xl_RC" value=" / " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="4IVaCy$PA02" role="3clFbw">
+            <ref role="3cqZAo" node="DRZf0SyyJ6" resolve="fromConsole" />
+          </node>
+        </node>
         <node concept="3clFbF" id="19EO7JRYpbg" role="3cqZAp">
           <node concept="1rXfSq" id="19EO7JRYpbe" role="3clFbG">
             <ref role="37wK5l" to="z3ji:19EO7JRY9zL" resolve="ensureLocalTimeFitsServerTime" />

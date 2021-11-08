@@ -12879,8 +12879,9 @@
                     <ref role="2Oxat5" node="5lMTsSlKvOT" resolve="swJobVersion" />
                   </node>
                 </node>
-                <node concept="Xl_RD" id="4WoSiUNa9fe" role="37wK5m">
-                  <property role="Xl_RC" value="" />
+                <node concept="10M0yZ" id="4IVaCy$U7W7" role="37wK5m">
+                  <ref role="3cqZAo" to="28jr:4g_sjDL92_6" resolve="EVENT" />
+                  <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
                 </node>
                 <node concept="Xl_RD" id="4g_sjDN95xR" role="37wK5m">
                   <property role="Xl_RC" value="" />
@@ -24205,17 +24206,12 @@
         <node concept="3clFbH" id="6uo0g5Wm6oj" role="3cqZAp" />
         <node concept="3clFbJ" id="6uo0g5Wm6ok" role="3cqZAp">
           <node concept="3clFbS" id="6uo0g5Wm6ol" role="3clFbx">
-            <node concept="3clFbF" id="6uo0g5Wm6om" role="3cqZAp">
-              <node concept="2OqwBi" id="6uo0g5Wm6on" role="3clFbG">
-                <node concept="10M0yZ" id="6uo0g5Wm6oo" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                </node>
-                <node concept="liA8E" id="6uo0g5Wm6op" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="37vLTw" id="6uo0g5Wm6oq" role="37wK5m">
-                    <ref role="3cqZAo" node="6uo0g5Wm6nY" resolve="logEntry" />
-                  </node>
+            <node concept="3clFbF" id="4IVaCy$NuZe" role="3cqZAp">
+              <node concept="2YIFZM" id="4IVaCy$PZ94" role="3clFbG">
+                <ref role="37wK5l" to="28jr:4IVaCy$P1I$" resolve="logConsole" />
+                <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                <node concept="37vLTw" id="4IVaCy$PZ97" role="37wK5m">
+                  <ref role="3cqZAo" node="6uo0g5Wm6nY" resolve="logEntry" />
                 </node>
               </node>
             </node>

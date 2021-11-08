@@ -504,6 +504,7 @@
       </concept>
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <reference id="1171315804605" name="concept" index="2RRcyH" />
       </concept>
@@ -6163,7 +6164,7 @@
               <property role="TrG5h" value="cancel" />
               <node concept="nSUau" id="7UdH_jF_C4$" role="1tU5fm">
                 <node concept="3uibUv" id="7UdH_jF_C$e" role="nSUat">
-                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
                 </node>
               </node>
             </node>
@@ -6783,7 +6784,7 @@
               <property role="TrG5h" value="cancelEx" />
               <node concept="nSUau" id="fHhdRWKSU7R" role="1tU5fm">
                 <node concept="3uibUv" id="1TUQyycwBfp" role="nSUat">
-                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
                 </node>
               </node>
             </node>
@@ -6994,7 +6995,7 @@
               <property role="TrG5h" value="cancelEx" />
               <node concept="nSUau" id="aYJf8KsakiN" role="1tU5fm">
                 <node concept="3uibUv" id="3g5RX4qTK6z" role="nSUat">
-                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
                 </node>
               </node>
             </node>
@@ -7290,7 +7291,7 @@
               <property role="TrG5h" value="ex" />
               <node concept="nSUau" id="dQpKHvE26UT" role="1tU5fm">
                 <node concept="3uibUv" id="OuCfNxY3_T" role="nSUat">
-                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
                 </node>
               </node>
             </node>
@@ -11102,7 +11103,7 @@
                   </node>
                 </node>
                 <node concept="3uibUv" id="6Gy9ythMxIu" role="Sfmx6">
-                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+                  <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
                 </node>
                 <node concept="3uibUv" id="6Gy9ythMxIv" role="Sfmx6">
                   <ref role="3uigEE" to="28jr:6dnXV8mIuJM" resolve="OFXChangePageException" />
@@ -12240,7 +12241,7 @@
           <ref role="3uigEE" to="28jr:6dnXV8mIuJM" resolve="OFXChangePageException" />
         </node>
         <node concept="3uibUv" id="6Gy9ythMxJx" role="Sfmx6">
-          <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+          <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
         </node>
         <node concept="3uibUv" id="6Gy9ythMxJy" role="Sfmx6">
           <ref role="3uigEE" to="28jr:6dnXV8mIuJY" resolve="OFXCommandDoneException" />
@@ -13079,18 +13080,46 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="4WoSiUMl6JR" role="37wK5m">
-                  <property role="Xl_RC" value="packageName" />
+                  <property role="Xl_RC" value="source" />
                   <node concept="17Uvod" id="4WoSiUMl6JS" role="lGtFl">
                     <property role="2qtEX9" value="value" />
                     <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
                     <node concept="3zFVjK" id="4WoSiUMl6JT" role="3zH0cK">
                       <node concept="3clFbS" id="4WoSiUMl6JU" role="2VODD2">
-                        <node concept="3clFbF" id="4WoSiUMl6JV" role="3cqZAp">
-                          <node concept="2OqwBi" id="4WoSiUMl6JW" role="3clFbG">
-                            <node concept="30H73N" id="4WoSiUMl6JX" role="2Oq$k0" />
-                            <node concept="2qgKlT" id="4WoSiUMl6JY" role="2OqNvi">
-                              <ref role="37wK5l" to="70o0:I5W9GWGlyX" resolve="getPackageName" />
+                        <node concept="3clFbJ" id="4IVaCy$UKn0" role="3cqZAp">
+                          <node concept="3clFbS" id="4IVaCy$UKn2" role="3clFbx">
+                            <node concept="3cpWs6" id="4IVaCy$ULP9" role="3cqZAp">
+                              <node concept="2OqwBi" id="4IVaCy$UME8" role="3cqZAk">
+                                <node concept="1PxgMI" id="4IVaCy$UMs9" role="2Oq$k0">
+                                  <node concept="chp4Y" id="4IVaCy$UMt$" role="3oSUPX">
+                                    <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                                  </node>
+                                  <node concept="2OqwBi" id="4IVaCy$UJoR" role="1m5AlR">
+                                    <node concept="30H73N" id="4IVaCy$UJaC" role="2Oq$k0" />
+                                    <node concept="2Rxl7S" id="4IVaCy$UJAD" role="2OqNvi" />
+                                  </node>
+                                </node>
+                                <node concept="2qgKlT" id="4IVaCy$UMM_" role="2OqNvi">
+                                  <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                                </node>
+                              </node>
                             </node>
+                          </node>
+                          <node concept="2OqwBi" id="4IVaCy$ULyg" role="3clFbw">
+                            <node concept="2OqwBi" id="4IVaCy$ULkP" role="2Oq$k0">
+                              <node concept="30H73N" id="4IVaCy$UL4M" role="2Oq$k0" />
+                              <node concept="2Rxl7S" id="4IVaCy$ULw5" role="2OqNvi" />
+                            </node>
+                            <node concept="1mIQ4w" id="4IVaCy$ULD8" role="2OqNvi">
+                              <node concept="chp4Y" id="4IVaCy$ULFJ" role="cj9EA">
+                                <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3cpWs6" id="4IVaCy$UMTL" role="3cqZAp">
+                          <node concept="Xl_RD" id="4IVaCy$UMUf" role="3cqZAk">
+                            <property role="Xl_RC" value="" />
                           </node>
                         </node>
                       </node>
@@ -13256,19 +13285,47 @@
                         <ref role="37wK5l" to="28jr:19EO7JMyBXN" resolve="getCurrentCmdName" />
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="4WoSiUMl716" role="37wK5m">
-                      <property role="Xl_RC" value="packageName" />
-                      <node concept="17Uvod" id="4WoSiUMl717" role="lGtFl">
+                    <node concept="Xl_RD" id="4IVaCy$VaYd" role="37wK5m">
+                      <property role="Xl_RC" value="source" />
+                      <node concept="17Uvod" id="4IVaCy$VaYe" role="lGtFl">
                         <property role="2qtEX9" value="value" />
                         <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                        <node concept="3zFVjK" id="4WoSiUMl718" role="3zH0cK">
-                          <node concept="3clFbS" id="4WoSiUMl719" role="2VODD2">
-                            <node concept="3clFbF" id="4WoSiUMl71a" role="3cqZAp">
-                              <node concept="2OqwBi" id="4WoSiUMl71b" role="3clFbG">
-                                <node concept="30H73N" id="4WoSiUMl71c" role="2Oq$k0" />
-                                <node concept="2qgKlT" id="4WoSiUMl71d" role="2OqNvi">
-                                  <ref role="37wK5l" to="70o0:I5W9GWGlyX" resolve="getPackageName" />
+                        <node concept="3zFVjK" id="4IVaCy$VaYf" role="3zH0cK">
+                          <node concept="3clFbS" id="4IVaCy$VaYg" role="2VODD2">
+                            <node concept="3clFbJ" id="4IVaCy$VaYh" role="3cqZAp">
+                              <node concept="3clFbS" id="4IVaCy$VaYi" role="3clFbx">
+                                <node concept="3cpWs6" id="4IVaCy$VaYj" role="3cqZAp">
+                                  <node concept="2OqwBi" id="4IVaCy$VaYk" role="3cqZAk">
+                                    <node concept="1PxgMI" id="4IVaCy$VaYl" role="2Oq$k0">
+                                      <node concept="chp4Y" id="4IVaCy$VaYm" role="3oSUPX">
+                                        <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                                      </node>
+                                      <node concept="2OqwBi" id="4IVaCy$VaYn" role="1m5AlR">
+                                        <node concept="30H73N" id="4IVaCy$VaYo" role="2Oq$k0" />
+                                        <node concept="2Rxl7S" id="4IVaCy$VaYp" role="2OqNvi" />
+                                      </node>
+                                    </node>
+                                    <node concept="2qgKlT" id="4IVaCy$VaYq" role="2OqNvi">
+                                      <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                                    </node>
+                                  </node>
                                 </node>
+                              </node>
+                              <node concept="2OqwBi" id="4IVaCy$VaYr" role="3clFbw">
+                                <node concept="2OqwBi" id="4IVaCy$VaYs" role="2Oq$k0">
+                                  <node concept="30H73N" id="4IVaCy$VaYt" role="2Oq$k0" />
+                                  <node concept="2Rxl7S" id="4IVaCy$VaYu" role="2OqNvi" />
+                                </node>
+                                <node concept="1mIQ4w" id="4IVaCy$VaYv" role="2OqNvi">
+                                  <node concept="chp4Y" id="4IVaCy$VaYw" role="cj9EA">
+                                    <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3cpWs6" id="4IVaCy$VaYx" role="3cqZAp">
+                              <node concept="Xl_RD" id="4IVaCy$VaYy" role="3cqZAk">
+                                <property role="Xl_RC" value="" />
                               </node>
                             </node>
                           </node>
@@ -19689,13 +19746,13 @@
                     <node concept="YS8fn" id="2q7OPuPWlWC" role="3cqZAp">
                       <node concept="2ShNRf" id="2q7OPuPWmnI" role="YScLw">
                         <node concept="1pGfFk" id="2q7OPuPWn3C" role="2ShVmc">
-                          <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXCommandCancelException" />
+                          <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXJobCancelWorkException" />
                           <node concept="2OqwBi" id="2q7OPuPY2z$" role="37wK5m">
                             <node concept="37vLTw" id="2q7OPuPY2oD" role="2Oq$k0">
                               <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
                             </node>
-                            <node concept="liA8E" id="2q7OPuPY3$G" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:1oz7qwEK3xO" resolve="getCommandName" />
+                            <node concept="liA8E" id="4IVaCy$Zv7j" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
                             </node>
                           </node>
                           <node concept="37vLTw" id="4DaB5G9aTex" role="37wK5m">
@@ -19715,7 +19772,7 @@
                     <property role="TrG5h" value="occe" />
                     <node concept="nSUau" id="7UdH_jFyrpU" role="1tU5fm">
                       <node concept="3uibUv" id="7UdH_jFyvwM" role="nSUat">
-                        <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+                        <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
                       </node>
                     </node>
                   </node>
@@ -19877,13 +19934,13 @@
                     <node concept="YS8fn" id="2q7OPuPWEPI" role="3cqZAp">
                       <node concept="2ShNRf" id="2q7OPuPY5L1" role="YScLw">
                         <node concept="1pGfFk" id="2q7OPuPY962" role="2ShVmc">
-                          <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXCommandCancelException" />
+                          <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXJobCancelWorkException" />
                           <node concept="2OqwBi" id="2q7OPuPYa6b" role="37wK5m">
                             <node concept="37vLTw" id="2q7OPuPY9YY" role="2Oq$k0">
                               <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
                             </node>
-                            <node concept="liA8E" id="2q7OPuPYb6P" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:1oz7qwEK3xO" resolve="getCommandName" />
+                            <node concept="liA8E" id="4IVaCy$ZwW6" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="2q7OPuPYfyv" role="37wK5m">
@@ -20473,13 +20530,13 @@
                             <node concept="YS8fn" id="2q7OPuPXKwF" role="3cqZAp">
                               <node concept="2ShNRf" id="2q7OPuPXKwG" role="YScLw">
                                 <node concept="1pGfFk" id="2q7OPuPXKwH" role="2ShVmc">
-                                  <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXCommandCancelException" />
+                                  <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXJobCancelWorkException" />
                                   <node concept="2OqwBi" id="2q7OPuPXYJ0" role="37wK5m">
                                     <node concept="37vLTw" id="2q7OPuPXYGR" role="2Oq$k0">
                                       <ref role="3cqZAo" node="6bl3$WOMWCr" resolve="successorCommand" />
                                     </node>
-                                    <node concept="liA8E" id="2q7OPuPXZD$" role="2OqNvi">
-                                      <ref role="37wK5l" to="28jr:1oz7qwEK3xO" resolve="getCommandName" />
+                                    <node concept="liA8E" id="4IVaCy$ZyMw" role="2OqNvi">
+                                      <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
                                     </node>
                                   </node>
                                   <node concept="37vLTw" id="4DaB5G9bbRE" role="37wK5m">
@@ -20499,7 +20556,7 @@
                             <property role="TrG5h" value="occe" />
                             <node concept="nSUau" id="7UdH_jF$1FS" role="1tU5fm">
                               <node concept="3uibUv" id="7UdH_jF$3oe" role="nSUat">
-                                <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+                                <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
                               </node>
                             </node>
                           </node>
@@ -20661,13 +20718,13 @@
                             <node concept="YS8fn" id="2q7OPuPYgY7" role="3cqZAp">
                               <node concept="2ShNRf" id="2q7OPuPYgY8" role="YScLw">
                                 <node concept="1pGfFk" id="2q7OPuPYgY9" role="2ShVmc">
-                                  <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXCommandCancelException" />
+                                  <ref role="37wK5l" to="28jr:ncJg$HbYpX" resolve="OFXJobCancelWorkException" />
                                   <node concept="2OqwBi" id="2q7OPuPYgYf" role="37wK5m">
                                     <node concept="37vLTw" id="2q7OPuPYid4" role="2Oq$k0">
                                       <ref role="3cqZAo" node="6bl3$WOMWCr" resolve="successorCommand" />
                                     </node>
-                                    <node concept="liA8E" id="2q7OPuPYgYh" role="2OqNvi">
-                                      <ref role="37wK5l" to="28jr:1oz7qwEK3xO" resolve="getCommandName" />
+                                    <node concept="liA8E" id="4IVaCy$Z$Bj" role="2OqNvi">
+                                      <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
                                     </node>
                                   </node>
                                   <node concept="2OqwBi" id="2q7OPuPYgYb" role="37wK5m">
@@ -21070,7 +21127,7 @@
                           <node concept="3clFbF" id="2rXgTRtlAoq" role="3cqZAp">
                             <node concept="2YIFZM" id="2rXgTRtlAor" role="3clFbG">
                               <ref role="1Pybhc" to="28jr:7ymmWYJjVRz" resolve="Workarounds2" />
-                              <ref role="37wK5l" to="28jr:2rXgTRtfxjU" resolve="checkForWarningsInRunCommand" />
+                              <ref role="37wK5l" to="28jr:2rXgTRtfxjU" resolve="clearSessionProblemState" />
                               <node concept="37vLTw" id="2rXgTRtlAos" role="37wK5m">
                                 <ref role="3cqZAo" node="6cn6oSwfibs" resolve="__userServices" />
                               </node>
@@ -21348,7 +21405,7 @@
                   <node concept="3clFbF" id="2rXgTRtlgzf" role="3cqZAp">
                     <node concept="2YIFZM" id="2rXgTRtfzzo" role="3clFbG">
                       <ref role="1Pybhc" to="28jr:7ymmWYJjVRz" resolve="Workarounds2" />
-                      <ref role="37wK5l" to="28jr:2rXgTRtfxjU" resolve="checkForWarningsInRunCommand" />
+                      <ref role="37wK5l" to="28jr:2rXgTRtfxjU" resolve="clearSessionProblemState" />
                       <node concept="37vLTw" id="2rXgTRtlbUn" role="37wK5m">
                         <ref role="3cqZAo" node="6cn6oSwfibs" resolve="__userServices" />
                       </node>
@@ -21731,7 +21788,7 @@
           <node concept="3clFbH" id="65g7rxkv7yI" role="3cqZAp" />
         </node>
         <node concept="3uibUv" id="2q7OPuPVTX1" role="Sfmx6">
-          <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+          <ref role="3uigEE" to="28jr:ncJg$HbYpV" resolve="OFXJobCancelWorkException" />
         </node>
         <node concept="3uibUv" id="2q7OPuPVZPL" role="Sfmx6">
           <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
