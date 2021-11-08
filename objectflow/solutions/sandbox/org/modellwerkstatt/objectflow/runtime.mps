@@ -7801,7 +7801,7 @@
                 </node>
                 <node concept="3cpWs3" id="1jCLyDwB4V4" role="3uHU7B">
                   <node concept="Xl_RD" id="1jCLyDwB4V5" role="3uHU7B">
-                    <property role="Xl_RC" value="Graph edit fqNAme: " />
+                    <property role="Xl_RC" value="Graph edit fqName: " />
                   </node>
                   <node concept="2OqwBi" id="1jCLyDwB4V6" role="3uHU7w">
                     <node concept="Xjq3P" id="1jCLyDwB4V7" role="2Oq$k0" />
@@ -7823,7 +7823,7 @@
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="3cpWs3" id="1jCLyDw9WgK" role="37wK5m">
                 <node concept="Xl_RD" id="1jCLyDw9WgL" role="3uHU7w">
-                  <property role="Xl_RC" value="\n" />
+                  <property role="Xl_RC" value="\n\n" />
                 </node>
                 <node concept="3cpWs3" id="1jCLyDw9WgM" role="3uHU7B">
                   <node concept="Xl_RD" id="1jCLyDw9WgN" role="3uHU7B">
@@ -56504,6 +56504,15 @@
         <property role="Xl_RC" value="org.modellwerkstatt.Rt" />
       </node>
       <node concept="17QB3L" id="4g_sjDLbUdk" role="1tU5fm" />
+    </node>
+    <node concept="Wx3nA" id="4IVaCyzxkU7" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="TCN" />
+      <node concept="3Tm1VV" id="4IVaCyzxkU8" role="1B3o_S" />
+      <node concept="Xl_RD" id="4IVaCyzxkU9" role="33vP2m">
+        <property role="Xl_RC" value="org.modellwerkstatt.TCN" />
+      </node>
+      <node concept="17QB3L" id="4IVaCyzxkUa" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="4g_sjDLdQO2" role="jymVt" />
     <node concept="3clFb_" id="4FgSVMpn6uk" role="jymVt">

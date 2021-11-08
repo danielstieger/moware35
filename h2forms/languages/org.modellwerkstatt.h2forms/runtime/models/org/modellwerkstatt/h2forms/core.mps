@@ -564,7 +564,23 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2462lDSpGzc" role="3cqZAp" />
+        <node concept="3clFbF" id="4IVaCyzGjJg" role="3cqZAp">
+          <node concept="37vLTI" id="4IVaCyzGnSY" role="3clFbG">
+            <node concept="Rm8GO" id="4IVaCyzGs1x" role="37vLTx">
+              <ref role="Rm8GQ" to="28jr:4FgSVMpn0wp" resolve="MOWARE_H2" />
+              <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+            </node>
+            <node concept="2OqwBi" id="4IVaCyzGkTF" role="37vLTJ">
+              <node concept="37vLTw" id="4IVaCyzGjJe" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSpvEp" resolve="statics" />
+              </node>
+              <node concept="2S8uIT" id="4IVaCyzGn9i" role="2OqNvi">
+                <ref role="2S8YL0" node="1WX6wrPO$KQ" resolve="mowarePlatform" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4IVaCyzGhhj" role="3cqZAp" />
         <node concept="3clFbF" id="7WBKY1Wf4VB" role="3cqZAp">
           <node concept="37vLTI" id="7WBKY1Wf65c" role="3clFbG">
             <node concept="2OqwBi" id="7WBKY1Wf5jE" role="37vLTJ">

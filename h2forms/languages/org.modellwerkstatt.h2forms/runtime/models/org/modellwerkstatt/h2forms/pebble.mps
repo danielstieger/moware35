@@ -2200,7 +2200,7 @@
       <node concept="37vLTG" id="1wwgtxzhBq$" role="3clF46">
         <property role="TrG5h" value="regHelper" />
         <node concept="3uibUv" id="1wwgtxzhBq_" role="1tU5fm">
-          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="AppJmxRegistration" />
         </node>
       </node>
       <node concept="37vLTG" id="1wwgtxzhBqA" role="3clF46">
@@ -2899,7 +2899,7 @@
       <node concept="3Tm1VV" id="3LZok6f9UgF" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="ltdRgVPJ6Z" role="jymVt" />
-    <node concept="3Tm1VV" id="7RHNXGyQGiy" role="1B3o_S" />
+    <node concept="3Tm1VV" id="4IVaCyzFJTZ" role="1B3o_S" />
     <node concept="3uibUv" id="2xnCXJMm6l7" role="EKbjA">
       <ref role="3uigEE" to="tea8:2xnCXJMm5Qy" resolve="IH2UiFactory" />
     </node>
