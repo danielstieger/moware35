@@ -19,6 +19,7 @@
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
     <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)" />
     <import index="ebvv" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.dao(org.modellwerkstatt.manmap.runtime/)" />
+    <import index="18b" ref="r:897bfb69-0a8e-477a-9053-de701ae9e158(org.modellwerkstatt.objectflow.serdes)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -409,7 +410,6 @@
       <concept id="3292003893123123200" name="org.modellwerkstatt.objectflow.structure.IsNull" flags="ng" index="1Poggp" />
       <concept id="4706474809433529865" name="org.modellwerkstatt.objectflow.structure.AllowNullStatusDeclOption" flags="ng" index="1TNdZI" />
       <concept id="6303390138597557532" name="org.modellwerkstatt.objectflow.structure.ConvTextExpression" flags="ng" index="1WHerN">
-        <property id="6303390138597572053" name="type" index="1WHdSU" />
         <child id="6303390138597674847" name="expression" index="1WEEMK" />
       </concept>
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.ViewObject" flags="ig" index="1YeyE5">
@@ -8448,13 +8448,6 @@
               <node concept="WNRgn" id="RffU3zlMdR" role="2OqNvi">
                 <ref role="WNRgg" node="4hzI9eTUYNa" resolve="mainPosRef" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="38$l6q" id="RffU3zo37s" role="3cqZAp">
-          <node concept="1WHerN" id="RffU3zo3cZ" role="38$l6p">
-            <node concept="37vLTw" id="RffU3zo3hE" role="1WEEMK">
-              <ref role="3cqZAo" node="RffU3zlLAd" resolve="reloaded" />
             </node>
           </node>
         </node>
@@ -20773,10 +20766,16 @@
           <node concept="3cpWsn" id="6pbeIz$tYa9" role="3cpWs9">
             <property role="TrG5h" value="xmlText" />
             <node concept="17QB3L" id="6pbeIz$tYa4" role="1tU5fm" />
-            <node concept="1WHerN" id="6pbeIz$tYaH" role="33vP2m">
-              <property role="1WHdSU" value="5tU8YWFO8zP/XML" />
-              <node concept="37vLTw" id="4wgjvSoeKC8" role="1WEEMK">
-                <ref role="3cqZAo" node="4wgjvSoeKC4" resolve="inv" />
+            <node concept="2OqwBi" id="4IVaCyAVeng" role="33vP2m">
+              <node concept="2YIFZM" id="4IVaCyAVebD" role="2Oq$k0">
+                <ref role="37wK5l" to="18b:7_PeuXElDzq" resolve="fopXmlSer" />
+                <ref role="1Pybhc" to="18b:6qNJO0Imc8R" resolve="CONV" />
+              </node>
+              <node concept="liA8E" id="4IVaCyAVevt" role="2OqNvi">
+                <ref role="37wK5l" to="18b:23eALbvRgEu" resolve="ser" />
+                <node concept="37vLTw" id="4IVaCyAVlMU" role="37wK5m">
+                  <ref role="3cqZAo" node="4wgjvSoeKC4" resolve="inv" />
+                </node>
               </node>
             </node>
           </node>

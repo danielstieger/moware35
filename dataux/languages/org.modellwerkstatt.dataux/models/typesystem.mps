@@ -72,6 +72,7 @@
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -7908,6 +7909,58 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6W9Z7_cQBwn" role="1B3o_S" />
+  </node>
+  <node concept="18kY7G" id="4IVaCyB6D8h">
+    <property role="TrG5h" value="check_IModule" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="4IVaCyB6D8i" role="18ibNy">
+      <node concept="3clFbH" id="4IVaCyB6Dl1" role="3cqZAp" />
+      <node concept="3clFbJ" id="4IVaCyB57DM" role="3cqZAp">
+        <node concept="1Wc70l" id="4IVaCyB6Ei8" role="3clFbw">
+          <node concept="2OqwBi" id="4IVaCyB6F3B" role="3uHU7w">
+            <node concept="2OqwBi" id="4IVaCyB6Exq" role="2Oq$k0">
+              <node concept="1YBJjd" id="4IVaCyB6Ej2" role="2Oq$k0">
+                <ref role="1YBMHb" node="4IVaCyB6D8k" resolve="iModule" />
+              </node>
+              <node concept="3TrcHB" id="4IVaCyB6EGJ" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4IVaCyB6FlV" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+              <node concept="Xl_RD" id="4IVaCyB6FlY" role="37wK5m">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4IVaCyB6DCu" role="3uHU7B">
+            <node concept="2OqwBi" id="4IVaCyB57DO" role="2Oq$k0">
+              <node concept="1YBJjd" id="4IVaCyB6Fyn" role="2Oq$k0">
+                <ref role="1YBMHb" node="4IVaCyB6D8k" resolve="iModule" />
+              </node>
+              <node concept="3TrcHB" id="4IVaCyB6Dky" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="17RvpY" id="4IVaCyB6DXX" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="4IVaCyB57DS" role="3clFbx">
+          <node concept="2MkqsV" id="4IVaCyB57DT" role="3cqZAp">
+            <node concept="Xl_RD" id="4IVaCyB57DU" role="2MkJ7o">
+              <property role="Xl_RC" value="It's strongly recommended to use identifiers/names without spaces here (Typically '_' is used instead of spaces)." />
+            </node>
+            <node concept="1YBJjd" id="4IVaCyB6Fzw" role="1urrMF">
+              <ref role="1YBMHb" node="4IVaCyB6D8k" resolve="iModule" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4IVaCyB6D8k" role="1YuTPh">
+      <property role="TrG5h" value="iModule" />
+      <ref role="1YaFvo" to="1btx:2N7eHMakYIc" resolve="IModule" />
+    </node>
   </node>
 </model>
 
