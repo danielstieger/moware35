@@ -42913,7 +42913,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2021.41 (icn) (dev " />
+            <property role="Xl_RC" value="moware11 2021.42 (lg2) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -57140,6 +57140,13 @@
       <node concept="3Tm6S6" id="4g_sjDPbTYk" role="1B3o_S" />
       <node concept="3clFbT" id="4g_sjDPbUL3" role="33vP2m" />
     </node>
+    <node concept="Wx3nA" id="3fagrvRmtz$" role="jymVt">
+      <property role="TrG5h" value="portJLog" />
+      <node concept="3uibUv" id="3fagrvRmzwo" role="1tU5fm">
+        <ref role="3uigEE" to="1u6b:~Log" resolve="Log" />
+      </node>
+      <node concept="3Tm6S6" id="3fagrvRmtzA" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="4g_sjDPbTA9" role="jymVt" />
     <node concept="2YIFZL" id="4g_sjDPc20u" role="jymVt">
       <property role="TrG5h" value="enablePortJ" />
@@ -57154,12 +57161,23 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="4g_sjDPc2OL" role="3cqZAp">
-          <node concept="2ShNRf" id="4g_sjDPc2QB" role="3cqZAk">
-            <node concept="HV5vD" id="4g_sjDPc4oM" role="2ShVmc">
-              <ref role="HV5vE" node="4FgSVMqlPtR" resolve="OFXLogger" />
+        <node concept="3clFbF" id="3fagrvRm$eW" role="3cqZAp">
+          <node concept="37vLTI" id="3fagrvRm$mM" role="3clFbG">
+            <node concept="37vLTw" id="3fagrvRm$eU" role="37vLTJ">
+              <ref role="3cqZAo" node="3fagrvRmtz$" resolve="portJLog" />
+            </node>
+            <node concept="2YIFZM" id="4g_sjDPe259" role="37vLTx">
+              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String)" resolve="getLog" />
+              <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+              <node concept="Xl_RD" id="4g_sjDPe2L6" role="37wK5m">
+                <property role="Xl_RC" value="org.modellwerkstatt.portj" />
+              </node>
             </node>
           </node>
+        </node>
+        <node concept="3clFbH" id="3fagrvRmAci" role="3cqZAp" />
+        <node concept="3cpWs6" id="4g_sjDPc2OL" role="3cqZAp">
+          <node concept="10Nm6u" id="3fagrvRmAi4" role="3cqZAk" />
         </node>
       </node>
       <node concept="3uibUv" id="4g_sjDPc2zB" role="3clF45">
@@ -58146,13 +58164,6 @@
           <node concept="3clFbS" id="4g_sjDPc9Ql" role="3clFbx">
             <node concept="3clFbF" id="4g_sjDPe2E6" role="3cqZAp">
               <node concept="2OqwBi" id="4g_sjDPe6_f" role="3clFbG">
-                <node concept="2YIFZM" id="4g_sjDPe259" role="2Oq$k0">
-                  <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-                  <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String)" resolve="getLog" />
-                  <node concept="Xl_RD" id="4g_sjDPe2L6" role="37wK5m">
-                    <property role="Xl_RC" value="org.modellwerkstatt.portj" />
-                  </node>
-                </node>
                 <node concept="liA8E" id="4g_sjDPe6ME" role="2OqNvi">
                   <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object)" resolve="error" />
                   <node concept="1rXfSq" id="4g_sjDPe5xE" role="37wK5m">
@@ -58161,6 +58172,9 @@
                       <ref role="3cqZAo" node="4g_sjDPc5th" resolve="info" />
                     </node>
                   </node>
+                </node>
+                <node concept="37vLTw" id="3fagrvRm_PJ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3fagrvRmtz$" resolve="portJLog" />
                 </node>
               </node>
             </node>

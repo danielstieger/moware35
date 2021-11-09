@@ -678,13 +678,8 @@
         <node concept="3clFbF" id="4g_sjDMg_nX" role="3cqZAp">
           <node concept="1rXfSq" id="4g_sjDMg_nV" role="3clFbG">
             <ref role="37wK5l" node="4g_sjDMg9oN" resolve="logFrmwrkTrace" />
-            <node concept="3cpWs3" id="2fj6lk$fbFt" role="37wK5m">
-              <node concept="37vLTw" id="2fj6lk$ffaB" role="3uHU7w">
-                <ref role="3cqZAo" node="gmxFf4ooJy" resolve="consumerImplementations" />
-              </node>
-              <node concept="Xl_RD" id="2fj6lk$fbFw" role="3uHU7B">
-                <property role="Xl_RC" value="Starting into event loop with " />
-              </node>
+            <node concept="Xl_RD" id="2fj6lk$fbFw" role="37wK5m">
+              <property role="Xl_RC" value="Starting into event loop." />
             </node>
           </node>
         </node>
