@@ -18,12 +18,12 @@
       <sourceRoot location="avalon-framework-impl-4.3.1.jar" />
       <sourceRoot location="batik-all-1.14.jar" />
       <sourceRoot location="fop.jar" />
-      <sourceRoot location="fontbox-2.0.19.jar" />
       <sourceRoot location="serializer-2.7.2.jar" />
       <sourceRoot location="xml-apis-ext-1.3.04.jar" />
       <sourceRoot location="xmlgraphics-commons-2.6.jar" />
       <sourceRoot location="xercesImpl-2.12.0.jar" />
       <sourceRoot location="pdfbox-app-2.0.24.jar" />
+      <sourceRoot location="fontbox-2.0.24.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -45,7 +45,6 @@
     <stubModelEntry path="${module}/jars/printing21/xalan-2.7.2.jar" />
     <stubModelEntry path="${module}/jars/printing21/xml-apis-ext-1.3.04.jar" />
     <stubModelEntry path="${module}/jars/printing21/batik-all-1.14.jar" />
-    <stubModelEntry path="${module}/jars/printing21/fontbox-2.0.19.jar" />
     <stubModelEntry path="${module}/jars/printing21/serializer-2.7.2.jar" />
     <stubModelEntry path="${module}/jars/printing21/xercesImpl-2.12.0.jar" />
     <stubModelEntry path="${module}/jars/printing21/xmlgraphics-commons-2.6.jar" />
@@ -54,6 +53,7 @@
     <stubModelEntry path="${module}/jars/basis/jackson-core-2.12.3.jar" />
     <stubModelEntry path="${module}/jars/printing21/pdfbox-app-2.0.24.jar" />
     <stubModelEntry path="${module}/jars/richclient/ojdbc8.jar" />
+    <stubModelEntry path="${module}/jars/printing21/fontbox-2.0.24.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
