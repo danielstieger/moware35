@@ -281,6 +281,9 @@
         <child id="6952410984685371541" name="content" index="3yMuLx" />
       </concept>
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
+      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
+        <reference id="59360650270057722" name="test" index="1Cak38" />
+      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -10638,6 +10641,54 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZi" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1KbDF" resolve="Exception in Producer delays call according to strategy." />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZj" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1Ma5D" resolve="Exception in Producer delays call according to strategy, proceed with re-runs" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZk" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1Nxvt" resolve="Exception in Consumer, wait and then work up inbox, receive runCompleteResched()" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZm" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1SFbu" resolve="Exception in Consumer, wait and proceed on inbox, then next inbox load" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZn" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1RdQ4" resolve="2 Exception in Consumers, wait the longer one, then work up inbox, receive runCompleteResched()" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZo" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1VDs6" resolve="2 Exception in Consumers, wait longer, work up inbox, resched" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZp" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1WcQq" resolve="2 Exception in Consumers, wait longer, work up inbox, resched, ex resched" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZq" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1Y3Ia" resolve="2 Exception in Consumers, wait longer, unexpected prodrun clears inbox, then again resched" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZr" role="38MLOi">
+      <ref role="1Cak38" node="4$zcAetq$hH" resolve="Exception in Consumer, will start a new one. " />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZs" role="38MLOi">
+      <ref role="1Cak38" node="4$zcAetrTCh" resolve="Exception in Consumer, will be parked without restart." />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZt" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1TWT8" resolve="Manualrun does not issue resched, even if exception inmid., stops execution!" />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZu" role="38MLOi">
+      <ref role="1Cak38" node="2smfeL1Uwu9" resolve="Manualrun does not issue resched, even if exception inmid AND last inbox item." />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZv" role="38MLOi">
+      <ref role="1Cak38" node="7tfEsbGyfWj" resolve="Run independent crons in delay mode. Both should process." />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZw" role="38MLOi">
+      <ref role="1Cak38" node="7tfEsbGyAfA" resolve="Run dependent crons in delay mode. Only one should process." />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZx" role="38MLOi">
+      <ref role="1Cak38" node="7tfEsbG$cA7" resolve="Run dependent crons in delay mode. EX should make them run with enought time. " />
+    </node>
+    <node concept="1Cak35" id="7Kr$v2f$wZy" role="38MLOi">
+      <ref role="1Cak38" node="7n_$dfX2k7B" resolve="Run job and process some items, then out of cron window, " />
     </node>
   </node>
   <node concept="2WPaUQ" id="5lMTsSlMp$c">
