@@ -4561,6 +4561,16 @@
                 <node concept="3clFbS" id="1_PJNZXDCKL" role="3clFbx">
                   <node concept="3clFbJ" id="3n6HPRZCW62" role="3cqZAp">
                     <node concept="3clFbS" id="3n6HPRZCW64" role="3clFbx">
+                      <node concept="3clFbF" id="1_PJNZY9NcA" role="3cqZAp">
+                        <node concept="2OqwBi" id="1_PJNZY9Nec" role="3clFbG">
+                          <node concept="37vLTw" id="1_PJNZY9Nc_" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5Y1b9tR1Q67" resolve="delegate" />
+                          </node>
+                          <node concept="liA8E" id="1_PJNZY9NmX" role="2OqNvi">
+                            <ref role="37wK5l" to="zhcn:1_PJNZY9Mli" resolve="issueUpdateConclusionAfterContentChange" />
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="1_PJNZYNBSN" role="3cqZAp">
                         <node concept="37vLTI" id="1_PJNZYNC3c" role="3clFbG">
                           <node concept="2OqwBi" id="1_PJNZYNCgm" role="37vLTx">
@@ -4573,16 +4583,6 @@
                           </node>
                           <node concept="37vLTw" id="1_PJNZYNBSL" role="37vLTJ">
                             <ref role="3cqZAo" node="1_PJNZYNyqn" resolve="lastTextIssuedUpdate" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="1_PJNZY9NcA" role="3cqZAp">
-                        <node concept="2OqwBi" id="1_PJNZY9Nec" role="3clFbG">
-                          <node concept="37vLTw" id="1_PJNZY9Nc_" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5Y1b9tR1Q67" resolve="delegate" />
-                          </node>
-                          <node concept="liA8E" id="1_PJNZY9NmX" role="2OqNvi">
-                            <ref role="37wK5l" to="zhcn:1_PJNZY9Mli" resolve="issueUpdateConclusionAfterContentChange" />
                           </node>
                         </node>
                       </node>
