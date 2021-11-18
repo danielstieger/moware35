@@ -154,35 +154,23 @@ function hwInitAfterDomReady(){
     installDateCommaReplacer();
 
     if (svScanEnabled()) {
-        var isInit = sessionStorage.getItem("isEBInitialized");
-
-        svLog('hwEnableScan', 'sessionStorage isInit now ' + isInit);
-
         try {
-            if (isInit == "true") {
-                EB.Barcode.enable({}, zzScanReceived);
-
-            } else {
-                svLog('hwEnableScan', 'calling EB.Barcode.setProperties()');
-                EB.Barcode.allDecoders = false;
-                EB.Barcode.code128 = true;
-                EB.Barcode.code128ean128 = true;
-                EB.Barcode.code39 = true;
-                EB.Barcode.ean13 = true;
-                EB.Barcode.ean8 = true;
-                EB.Barcode.gs1dataBar = true;
-                EB.Barcode.gs1dataBarExpanded = true;
-                EB.Barcode.gs1dataBarLimited = true;
-                EB.Barcode.pdf417 = true;
-                EB.Barcode.qrCode = true;
-                EB.Barcode.datamatrix = true;
+            EB.Barcode.allDecoders = false;
+            EB.Barcode.code128 = true;
+            EB.Barcode.code128ean128 = true;
+            EB.Barcode.code39 = true;
+            EB.Barcode.ean13 = true;
+            EB.Barcode.ean8 = true;
+            EB.Barcode.gs1dataBar = true;
+            EB.Barcode.gs1dataBarExpanded = true;
+            EB.Barcode.gs1dataBarLimited = true;
+            EB.Barcode.pdf417 = true;
+            EB.Barcode.qrCode = true;
+            EB.Barcode.datamatrix = true;
 
 
-                svLog('hwEnableScan', 'calling EB.Barcode.enable()');
-                EB.Barcode.enable({}, zzScanReceived);
-
-                sessionStorage.setItem("isEBInitialized", "true");
-            }
+            svLog('hwEnableScan', 'calling EB.Barcode.enable()');
+            EB.Barcode.enable({}, zzScanReceived);
 
             /* EB.Barcode.enable({allDecoders:true,  }, scanReceived); */
             zzEnableSoftScanButton(true);

@@ -113,6 +113,45 @@ function mScanSubmit(){
 }
 
 
+/* ------------------------------------------------------------------------------------------------ */
+function mUploadFileDone(args){
+    status = args['status'];
+    mLog('mUploadFileDone', 'Status is  ' + status);
+    mLog('mUploadFileDone', 'Arguments are  ' + args);
+}
+
+function mCameraPicTaken(cbData){
+    mLog('mCameraPicTaken', 'Image URI is ' + cbData.imageUri);
+
+    var uploadfileProps = {
+        url: 'http://localhost:8081/upload_image_file',
+        //authType: "basic",
+        //authUser: "admin",
+        //authPassword: "password",
+        filename: cbData.imageUri,
+        body: "uploading file",
+        fileContentType: "image/jpeg"
+    };
+
+   EB.Network.uploadFile(uploadfileProps, mUploadFileDone);
+}
+
+
+function mTakePicture() {
+
+  mLog('mTakePicture', 'called handler');
+
+  try {
+    var globalCamArray = EB.Camera.enumerate();
+
+    EB.Camera.takePicture({'fileName' : '/myImagename', 'outputFormat': 'imagePath'}, mCameraPicTaken);
+    mLog('mTakePicture', 'takePicture ebapi called.');
+
+  } catch(err) {
+    mLog('mTakePicture', 'Ex occured: ' + err);
+  }
+}
+
 
 
 
@@ -125,8 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
         $('#myLogCode').innerText = myLogCode;
     }
 
-
-    /* init eb 2.0 scanner */
+    /* init eb 1.8 scanner, no longer relevant 18 Nov 2021 */
     /* var isInit = sessionStorage.getItem("isEBInitialized");
     try {
         if (isInit == "true") {
@@ -171,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
         EB.Barcode.pdf417 = true;
         EB.Barcode.qrCode = true;
         EB.Barcode.datamatrix = true;
-        EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_AUTO;
+#        EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_AUTO;
         mLog('DOMContentLoaded', 'UPCEAN AUTO ' + EB.Barcode.upcEanSupplementalMode + " allDecoders: " +  EB.Barcode.allDecoders);
 
         EB.Barcode.enable({}, mScanReceived);
