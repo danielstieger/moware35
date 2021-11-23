@@ -8,6 +8,7 @@
  */
 
 
+var ebCameraEnumeration;
 
 var $ = function(query) {
   return document.querySelector(query);
@@ -117,34 +118,57 @@ function mScanSubmit(){
 function mUploadFileDone(args){
     status = args['status'];
     mLog('mUploadFileDone', 'Status is  ' + status);
-    mLog('mUploadFileDone', 'Arguments are  ' + args);
+    for (let prop in args) {
+        mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
+    }
 }
 
 function mCameraPicTaken(cbData){
-    mLog('mCameraPicTaken', 'Image URI is ' + cbData.imageUri);
+    if ('imageUri' in cbData) {
+        mLog('mCameraPicTaken', 'Image uri is ' + cbData.imageUri);
 
-    var uploadfileProps = {
-        url: 'http://localhost:8081/upload_image_file',
-        //authType: "basic",
-        //authUser: "admin",
-        //authPassword: "password",
-        filename: cbData.imageUri,
-        body: "uploading file",
-        fileContentType: "image/jpeg"
-    };
+        try {
+            var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
+            var fullUrl = 'http://192.168.0.73:8080/upload/' + imgName;
 
-   EB.Network.uploadFile(uploadfileProps, mUploadFileDone);
+            //set the upload file properties; Refer network module for more details
+            var uploadfileProps = {
+                url: fullUrl,
+                //authType: "basic",
+                //authUser: "admin",
+                //authPassword: "password",
+                filename: cbData.imageUri,
+                body: "uploading file",
+                fileContentType: "image/jpeg"
+            };
+
+            //below is the network module API used for uploading images when camera fire the callback
+            EB.Network.uploadFile(uploadfileProps, mUploadFileDone);
+
+            mLog('mCameraPicTaken', 'upload called ... ');
+
+        } catch(err) {
+            mLog('mCameraPicTaken', 'Ex while uploading file: ' + err);
+        }
+
+    } else {
+        mLog('mCameraPicTaken', 'No imageUri in cbData!!');
+    }
 }
 
 
 function mTakePicture() {
-
   mLog('mTakePicture', 'called handler');
 
   try {
-    var globalCamArray = EB.Camera.enumerate();
+    var param = {
+            /* 'fileName' : '/Downloads/myImagename',
+            'outputFormat': 'imagePath'                    Argument ImagePath not working? Dan 22.Nov 21 */
+            'outputFormat': 'image'
+            };
 
-    EB.Camera.takePicture({'fileName' : '/myImagename', 'outputFormat': 'imagePath'}, mCameraPicTaken);
+
+    ebCameraEnumeration[0].takePicture(param, mCameraPicTaken);
     mLog('mTakePicture', 'takePicture ebapi called.');
 
   } catch(err) {
@@ -164,38 +188,6 @@ document.addEventListener('DOMContentLoaded', function() {
         $('#myLogCode').innerText = myLogCode;
     }
 
-    /* init eb 1.8 scanner, no longer relevant 18 Nov 2021 */
-    /* var isInit = sessionStorage.getItem("isEBInitialized");
-    try {
-        if (isInit == "true") {
-            EB.Barcode.enable({}, mScanReceived);
-            mLog('DOMContentLoaded', 'Fast init, settings already configured. allDecoders='+ EB.Barcode.allDecoders);
-
-        } else {
-            EB.Barcode.allDecoders = false;
-            EB.Barcode.code128 = true;
-            EB.Barcode.code128ean128 = true;
-            EB.Barcode.code39 = true;
-            EB.Barcode.ean13 = true;
-            EB.Barcode.ean8 = true;
-            EB.Barcode.gs1dataBar = true;
-            EB.Barcode.gs1dataBarExpanded = true;
-            EB.Barcode.gs1dataBarLimited = true;
-            EB.Barcode.pdf417 = true;
-            EB.Barcode.qrCode = true;
-            EB.Barcode.datamatrix = true;
-            EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_AUTO;
-            mLog('DOMContentLoaded', 'UPCEAN AUTO enbld.');
-
-            EB.Barcode.enable({}, mScanReceived);
-
-            sessionStorage.setItem("isEBInitialized", "true");
-        }
-
-    } catch(err) {
-        mLog('DOMContentLoaded', 'EX while zebra EB.Barcode.enable(). ' + err);
-    }
-    */
     try {
         EB.Barcode.allDecoders = false;
         EB.Barcode.code128 = true;
@@ -209,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
         EB.Barcode.pdf417 = true;
         EB.Barcode.qrCode = true;
         EB.Barcode.datamatrix = true;
-#        EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_AUTO;
+//      EB.Barcode.upcEanSupplementalMode = EB.Barcode.UPCEAN_AUTO;
         mLog('DOMContentLoaded', 'UPCEAN AUTO ' + EB.Barcode.upcEanSupplementalMode + " allDecoders: " +  EB.Barcode.allDecoders);
 
         EB.Barcode.enable({}, mScanReceived);
@@ -217,6 +209,8 @@ document.addEventListener('DOMContentLoaded', function() {
     } catch(err) {
         mLog('DOMContentLoaded', 'EX while zebra EB.Barcode.enable(). ' + err);
     }
+
+    ebCameraEnumeration = EB.Camera.enumerate();
 
     mLog('DOMContentLoaded', 'EB API initialized - ready')
 

@@ -168,7 +168,6 @@ function hwInitAfterDomReady(){
             EB.Barcode.qrCode = true;
             EB.Barcode.datamatrix = true;
 
-
             svLog('hwEnableScan', 'calling EB.Barcode.enable()');
             EB.Barcode.enable({}, zzScanReceived);
 
