@@ -13733,7 +13733,7 @@
             <node concept="3clFbS" id="2rFQaTbSTyP" role="3clFbx">
               <node concept="2MkqsV" id="2rFQaTbR7J4" role="3cqZAp">
                 <node concept="Xl_RD" id="2rFQaTbR7Jj" role="2MkJ7o">
-                  <property role="Xl_RC" value="Do not manipulate the properties of ValueObjects. Program in imutable style." />
+                  <property role="Xl_RC" value="Do not manipulate the properties of ValueObjects. Program in immutable style - create a new ValueObject." />
                 </node>
                 <node concept="1YBJjd" id="2rFQaTbR7Mq" role="1urrMF">
                   <ref role="1YBMHb" node="2rFQaTbR7bK" resolve="propertyReference" />
