@@ -482,7 +482,7 @@
             </node>
           </node>
           <node concept="16GPin" id="7ymmWYKBNsO" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXJobWorkCanceledException" />
           </node>
         </node>
         <node concept="3clFbH" id="4DaB5G99OTX" role="3cqZAp" />
@@ -586,7 +586,7 @@
             </node>
           </node>
           <node concept="16GPin" id="4DaB5G9m3gi" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXJobWorkCanceledException" />
           </node>
         </node>
         <node concept="3clFbH" id="4DaB5G99OZH" role="3cqZAp" />
@@ -1225,7 +1225,7 @@
             </node>
           </node>
           <node concept="16GPin" id="4DaB5G9nr72" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXJobWorkCanceledException" />
           </node>
         </node>
         <node concept="3clFbH" id="4DaB5G9nmzR" role="3cqZAp" />
@@ -1430,7 +1430,7 @@
             </node>
           </node>
           <node concept="16GPin" id="4DaB5G9nqO9" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXCommandCancelException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpV" resolve="OFXJobWorkCanceledException" />
           </node>
         </node>
         <node concept="3clFbH" id="4DaB5G9nmLQ" role="3cqZAp" />

@@ -10,6 +10,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -52,6 +53,7 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -113,6 +115,73 @@
               </node>
               <node concept="Xl_RD" id="3oZR98NhouC" role="2Oq$k0">
                 <property role="Xl_RC" value="System" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="4pfCiMawd24" role="_YvDr">
+      <property role="_XH9r" value="Deprecated Annotations used" />
+      <ref role="_XDHR" to="tpee:hiAHcMF" resolve="AnnotationInstance" />
+      <node concept="_ZGcI" id="4pfCiMawd25" role="_XPhp">
+        <node concept="3clFbS" id="4pfCiMawd26" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4pfCiMawd27" role="_XDHO">
+        <node concept="3clFbS" id="4pfCiMawd28" role="2VODD2">
+          <node concept="3clFbF" id="4pfCiMawkpy" role="3cqZAp">
+            <node concept="2OqwBi" id="4pfCiMawo60" role="3clFbG">
+              <node concept="2OqwBi" id="4pfCiMawnog" role="2Oq$k0">
+                <node concept="2OqwBi" id="4pfCiMawlhi" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4pfCiMawkBI" role="2Oq$k0">
+                    <node concept="_YI3z" id="4pfCiMawkpx" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="4pfCiMawkPm" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:hiAI5P0" resolve="annotation" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="4pfCiMawlSr" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="4pfCiMawnMv" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4pfCiMawox3" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="Xl_RD" id="4pfCiMawoyM" role="37wK5m">
+                  <property role="Xl_RC" value="deprecated" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="4pfCiMaW7xW" role="_YvDr">
+      <property role="_XH9r" value="Deprecated Concepts in MOWARE languages used" />
+      <ref role="_XDHR" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="_ZGcI" id="4pfCiMaW7xX" role="_XPhp">
+        <node concept="3clFbS" id="4pfCiMaW7xY" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4pfCiMaW7xZ" role="_XDHO">
+        <node concept="3clFbS" id="4pfCiMaW7y0" role="2VODD2">
+          <node concept="3clFbF" id="4pfCiMaW88i" role="3cqZAp">
+            <node concept="2OqwBi" id="4pfCiMaW9Bl" role="3clFbG">
+              <node concept="2OqwBi" id="4pfCiMaW96R" role="2Oq$k0">
+                <node concept="2OqwBi" id="4pfCiMaW8FI" role="2Oq$k0">
+                  <node concept="_YI3z" id="4pfCiMaW88h" role="2Oq$k0" />
+                  <node concept="2yIwOk" id="4pfCiMaW8P4" role="2OqNvi" />
+                </node>
+                <node concept="liA8E" id="4pfCiMaW9jD" role="2OqNvi">
+                  <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4pfCiMaW9VV" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="Xl_RD" id="4pfCiMaWa2x" role="37wK5m">
+                  <property role="Xl_RC" value="DeprecatedNodeAnnotation" />
+                </node>
               </node>
             </node>
           </node>

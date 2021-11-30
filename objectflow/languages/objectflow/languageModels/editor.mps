@@ -2016,7 +2016,7 @@
                 <node concept="2OqwBi" id="19EO7JMYn$h" role="3fr31v">
                   <node concept="pncrf" id="19EO7JMYn$i" role="2Oq$k0" />
                   <node concept="2qgKlT" id="19EO7JMYn$j" role="2OqNvi">
-                    <ref role="37wK5l" to="70o0:19EO7JM$sTb" resolve="logViaUserServiceAlso" />
+                    <ref role="37wK5l" to="70o0:19EO7JM$sTb" resolve="loggedViaUserService" />
                   </node>
                 </node>
               </node>

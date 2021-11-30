@@ -1771,8 +1771,13 @@
                 <property role="TrG5h" value="start" />
                 <node concept="10Oyi0" id="7LzF1ZCyO3P" role="1tU5fm" />
                 <node concept="3cpWs3" id="7LzF1ZCyP6Q" role="33vP2m">
-                  <node concept="3cmrfG" id="7LzF1ZCyPav" role="3uHU7w">
-                    <property role="3cmrfH" value="4" />
+                  <node concept="2OqwBi" id="gwYVgBLNFk" role="3uHU7w">
+                    <node concept="37vLTw" id="gwYVgBLN7T" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7LzF1ZCzfK8" resolve="ESN_IDENTIFIER" />
+                    </node>
+                    <node concept="liA8E" id="gwYVgBLNSG" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+                    </node>
                   </node>
                   <node concept="2OqwBi" id="7LzF1ZCyOhP" role="3uHU7B">
                     <node concept="37vLTw" id="7LzF1ZCyX1W" role="2Oq$k0">

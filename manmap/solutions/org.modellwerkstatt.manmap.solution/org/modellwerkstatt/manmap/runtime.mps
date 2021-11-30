@@ -18,7 +18,6 @@
     <import index="mbv" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jdbc.core(org.modellwerkstatt.manmap.runtime/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.runtime/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.runtime/)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
   <registry>
@@ -5672,6 +5671,34 @@
       <node concept="3cqZAl" id="3_5k9VmQ$7x" role="3clF45" />
       <node concept="3Tm1VV" id="3_5k9VmQ$7y" role="1B3o_S" />
       <node concept="3clFbS" id="3_5k9VmQ$7z" role="3clF47">
+        <node concept="3SKdUt" id="4pfCiMawS0D" role="3cqZAp">
+          <node concept="1PaTwC" id="4pfCiMawS0E" role="1aUNEU">
+            <node concept="3oM_SD" id="4pfCiMawS0F" role="1PaTwD">
+              <property role="3oM_SC" value="only" />
+            </node>
+            <node concept="3oM_SD" id="4pfCiMawS2Z" role="1PaTwD">
+              <property role="3oM_SC" value="session" />
+            </node>
+            <node concept="3oM_SD" id="4pfCiMawS40" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4pfCiMawS4B" role="1PaTwD">
+              <property role="3oM_SC" value="set" />
+            </node>
+            <node concept="3oM_SD" id="4pfCiMawS5f" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4pfCiMawS5S" role="1PaTwD">
+              <property role="3oM_SC" value="readonly," />
+            </node>
+            <node concept="3oM_SD" id="4pfCiMawS7g" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="4pfCiMawS8L" role="1PaTwD">
+              <property role="3oM_SC" value="entities" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3_5k9VmQ$7A" role="3cqZAp">
           <node concept="37vLTI" id="3_5k9VmQ$8b" role="3clFbG">
             <node concept="3clFbT" id="4yJihROrrh4" role="37vLTx">
@@ -5682,37 +5709,6 @@
               <node concept="2OwXpG" id="3_5k9VmQ$7V" role="2OqNvi">
                 <ref role="2Oxat5" node="3_5k9VmQvsG" resolve="readOnly" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="5dZoziQtDza" role="3cqZAp">
-          <node concept="1PaTwC" id="4s5j7kQj$xC" role="1aUNEU">
-            <node concept="3oM_SD" id="4s5j7kQj$xD" role="1PaTwD">
-              <property role="3oM_SC" value="TODO:" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xE" role="1PaTwD">
-              <property role="3oM_SC" value="Shouldnt" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xF" role="1PaTwD">
-              <property role="3oM_SC" value="all" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xG" role="1PaTwD">
-              <property role="3oM_SC" value="entities" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xH" role="1PaTwD">
-              <property role="3oM_SC" value="be" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xI" role="1PaTwD">
-              <property role="3oM_SC" value="set" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xJ" role="1PaTwD">
-              <property role="3oM_SC" value="to" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xK" role="1PaTwD">
-              <property role="3oM_SC" value="readonly" />
-            </node>
-            <node concept="3oM_SD" id="4s5j7kQj$xL" role="1PaTwD">
-              <property role="3oM_SC" value="also?" />
             </node>
           </node>
         </node>
