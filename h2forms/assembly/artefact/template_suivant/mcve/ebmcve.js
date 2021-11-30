@@ -9,6 +9,9 @@
 
 
 var ebCameraEnumeration;
+//var tomcatServer = '192.168.0.73:8080';
+var tomcatServer = '10.1.1.143:8080';
+
 
 var $ = function(query) {
   return document.querySelector(query);
@@ -117,10 +120,15 @@ function mScanSubmit(){
 /* ------------------------------------------------------------------------------------------------ */
 function mUploadFileDone(args){
     status = args['status'];
-    mLog('mUploadFileDone', 'Status is  ' + status);
-    for (let prop in args) {
-        mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
+    if ('body' in args) {
+        status += ' ' + args['body'];
+        $('img').src = 'http://' + tomcatServer + '/FileUploadServlet/static/upload/'+args['body'];
     }
+    mLog('mUploadFileDone', 'Status is  ' + status);
+
+//    for (let prop in args) {
+//        mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
+//    }
 }
 
 function mCameraPicTaken(cbData){
@@ -129,23 +137,22 @@ function mCameraPicTaken(cbData){
 
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
-            var fullUrl = 'http://192.168.0.73:8080/upload/' + imgName;
+            var fullUrl = 'http://' + tomcatServer +'/FileUploadServlet/';
 
-            //set the upload file properties; Refer network module for more details
             var uploadfileProps = {
-                url: fullUrl,
-                //authType: "basic",
-                //authUser: "admin",
-                //authPassword: "password",
-                filename: cbData.imageUri,
-                body: "uploading file",
-                fileContentType: "image/jpeg"
-            };
+              url: fullUrl,
+             //authType: "basic",
+             //authUser: "admin",
+             //authPassword: "password",
+             filename: cbData.imageUri,
+             body: imgName,
+             fileContentType: "image/jpeg"
+           };
 
-            //below is the network module API used for uploading images when camera fire the callback
-            EB.Network.uploadFile(uploadfileProps, mUploadFileDone);
+           //below is the network module API used for uploading images when camera fire the callback
+           EB.Network.uploadFile(uploadfileProps, mUploadFileDone);
 
-            mLog('mCameraPicTaken', 'upload called ... ');
+           mLog('mCameraPicTaken', 'upload called ... ');
 
         } catch(err) {
             mLog('mCameraPicTaken', 'Ex while uploading file: ' + err);
@@ -153,6 +160,9 @@ function mCameraPicTaken(cbData){
 
     } else {
         mLog('mCameraPicTaken', 'No imageUri in cbData!!');
+        for (let prop in cbData) {
+            mLog('mCameraPicTaken', ''+ prop + ": " + cbData[prop]);
+        }
     }
 }
 
@@ -212,6 +222,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     ebCameraEnumeration = EB.Camera.enumerate();
 
-    mLog('DOMContentLoaded', 'EB API initialized - ready')
+    mLog('DOMContentLoaded', 'EB API initialized - ready. tommy=' + tomcatServer);
 
  });

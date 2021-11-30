@@ -67,10 +67,10 @@
   </registry>
   <node concept="_UgoZ" id="1Rx6rUS8fO1">
     <property role="TrG5h" value="MoWareTodoFinder" />
-    <property role="_Wzho" value="aaa TODO TODO TODO finder" />
+    <property role="_Wzho" value="aaaMoWare TODO FINDER" />
     <node concept="_XfAh" id="1Rx6rUS8rcC" role="_YvDr">
       <property role="_XH9r" value="Todo s in Project" />
-      <ref role="_XDHR" to="tpee:5vlcUuJ5uOX" resolve="TextCommentPart" />
+      <ref role="_XDHR" to="tpee:fB3l7ZcM9H" resolve="IComment" />
       <node concept="_ZGcI" id="1Rx6rUS8rcE" role="_XPhp">
         <node concept="3clFbS" id="1Rx6rUS8rcG" role="2VODD2" />
       </node>
@@ -79,8 +79,8 @@
           <node concept="3clFbF" id="1Rx6rUS8wwC" role="3cqZAp">
             <node concept="2OqwBi" id="1Rx6rUS8xOv" role="3clFbG">
               <node concept="_YI3z" id="1Rx6rUS8wwB" role="2Oq$k0" />
-              <node concept="2qgKlT" id="1Rx6rUS8T1W" role="2OqNvi">
-                <ref role="37wK5l" to="tpek:6hHyb3YSGHZ" resolve="isToDo" />
+              <node concept="2qgKlT" id="5v2IheNcFc4" role="2OqNvi">
+                <ref role="37wK5l" to="tpek:fB3l7ZufMD" resolve="isTODOComment" />
               </node>
             </node>
           </node>

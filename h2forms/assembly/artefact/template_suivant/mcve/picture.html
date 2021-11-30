@@ -20,7 +20,7 @@
   <!-- <script charset="utf-8" src="ebapi-modules3.js"></script> -->
   <script charset="utf-8" src="../ebapi2/elements.js"></script>
 
-  <script charset="utf-8" src="ebmcve.js?17"></script>
+  <script charset="utf-8" src="ebmcve.js?27"></script>
 
   <style media="screen" type="text/css">
       body   {font-family: Arial, Helvetica, sans-serif; font-size: smaller; color: #393939;}
@@ -32,16 +32,19 @@
 <body>
 <form method="GET" name="baseform" id="baseform">
 
-    <u>modellwerkstatt EB 2.0 MCVE (version 17)</u>
+    <u>modellwerkstatt EB 2.0 MCVE (version 26)</u>
     <button type="button" name="clearLog" onclick="javascript: mClearLog();">Clear LOG</button>
     <button type="button" name="reload" onclick="javascript: window.location.reload(true);">Reload</button>
 <br>
 <br>
 
+
   <button type="button" name="takepic" onclick="javascript:mTakePicture();">Take Picture</button>
 
-
   <br><br>
+  <img id="pic_preview'" default="Bild" height="640px" width="480px" />
+  <br><br>
+
   <a href="index.html">Back to main page</a>
 <br> <br>
 <code id="myLogCode">Logger:
