@@ -18,12 +18,6 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
-      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
-        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-      </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
-        <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
       <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
@@ -569,15 +563,6 @@
       <node concept="3cqZAl" id="5Y1b9tR28Wi" role="3clF45" />
       <node concept="3Tm1VV" id="5Y1b9tR28Wj" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tR28Wk" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="5Y1b9tRfbL9" role="jymVt">
-      <property role="TrG5h" value="isValidationErrorText" />
-      <node concept="10P_77" id="5Y1b9tRfbTv" role="3clF45" />
-      <node concept="3Tm1VV" id="5Y1b9tRfbLd" role="1B3o_S" />
-      <node concept="3clFbS" id="5Y1b9tRfbLe" role="3clF47" />
-      <node concept="2AHcQZ" id="73W0U3BYD__" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
     </node>
     <node concept="3clFb_" id="5Y1b9tR2aLV" role="jymVt">
       <property role="TrG5h" value="setLabel" />

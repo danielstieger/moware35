@@ -12,6 +12,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
+    <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -39,6 +40,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -634,6 +638,88 @@
     </node>
     <node concept="1opIMY" id="2AV7EAPV$Kt" role="_YvDr" />
     <node concept="1opIMY" id="2AV7EAPV$Ku" role="_YvDr" />
+  </node>
+  <node concept="_UgoZ" id="4pfCiMc1qX0">
+    <property role="2BwPSy" value="4AbjR7I215i/migration" />
+    <property role="TrG5h" value="Moware2021Analytics" />
+    <property role="_Wzho" value="MoWare 2021 Compound Analysis" />
+    <property role="2BwPS$" value="MoWare Scripts" />
+    <node concept="_XfAh" id="4pfCiMc1qX1" role="_YvDr">
+      <property role="_XH9r" value="Usage of Compound Command" />
+      <ref role="_XDHR" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+      <node concept="_ZGcI" id="4pfCiMc1qX2" role="_XPhp">
+        <node concept="3clFbS" id="4pfCiMc1qX3" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4pfCiMc1qX4" role="_XDHO">
+        <node concept="3clFbS" id="4pfCiMc1qX5" role="2VODD2">
+          <node concept="3clFbF" id="4pfCiMc1rZT" role="3cqZAp">
+            <node concept="3clFbT" id="4pfCiMc1rZS" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="4pfCiMc1__J" role="_YvDr">
+      <property role="_XH9r" value="Usage of Compound Command and multiple Pages" />
+      <ref role="_XDHR" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+      <node concept="_ZGcI" id="4pfCiMc1__K" role="_XPhp">
+        <node concept="3clFbS" id="4pfCiMc1__L" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4pfCiMc1__M" role="_XDHO">
+        <node concept="3clFbS" id="4pfCiMc1__N" role="2VODD2">
+          <node concept="3clFbF" id="4pfCiMc1_E_" role="3cqZAp">
+            <node concept="22lmx$" id="4pfCiMc1Ha8" role="3clFbG">
+              <node concept="3eOSWO" id="4pfCiMc1P60" role="3uHU7w">
+                <node concept="3cmrfG" id="4pfCiMc1P64" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="2OqwBi" id="4pfCiMc1L_y" role="3uHU7B">
+                  <node concept="2OqwBi" id="4pfCiMc1IVg" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4pfCiMc1Ib8" role="2Oq$k0">
+                      <node concept="2OqwBi" id="4pfCiMc1HA2" role="2Oq$k0">
+                        <node concept="_YI3z" id="4pfCiMc1Hcu" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="4pfCiMc1HZ7" role="2OqNvi">
+                          <ref role="3Tt5mk" to="1btx:7yNVvqNVkqb" resolve="graphEditCall" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="4pfCiMc1IDe" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="4pfCiMc1Jil" role="2OqNvi">
+                      <ref role="3TtcxE" to="un0u:6ffh1MXzXnB" resolve="pages" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="4pfCiMc1NFT" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="3eOSWO" id="4pfCiMc1GGX" role="3uHU7B">
+                <node concept="2OqwBi" id="4pfCiMc1DfA" role="3uHU7B">
+                  <node concept="2OqwBi" id="4pfCiMc1AAq" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4pfCiMc1_Yf" role="2Oq$k0">
+                      <node concept="_YI3z" id="4pfCiMc1_E$" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4pfCiMc1Aik" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="4pfCiMc1B2R" role="2OqNvi">
+                      <ref role="3TtcxE" to="un0u:6ffh1MXzXnB" resolve="pages" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="4pfCiMc1Fkg" role="2OqNvi" />
+                </node>
+                <node concept="3cmrfG" id="4pfCiMc1GH1" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1opIMY" id="4pfCiMc1qXG" role="_YvDr" />
+    <node concept="1opIMY" id="4pfCiMc1qXH" role="_YvDr" />
   </node>
 </model>
 
