@@ -11992,7 +11992,7 @@
           <node concept="10Nm6u" id="kQHSkO$fNM" role="37wK5m" />
           <node concept="2ShNRf" id="kQHSkO$fY0" role="37wK5m">
             <node concept="1pGfFk" id="kQHSkO$gx1" role="2ShVmc">
-              <ref role="37wK5l" to="28jr:4g_sjDOBItr" resolve="OFXSimpleConsoleReporter" />
+              <ref role="37wK5l" to="28jr:41UdyNBCv8N" resolve="OFXSimpleAppFactory" />
             </node>
           </node>
         </node>
@@ -13342,7 +13342,7 @@
                   <node concept="10Nm6u" id="kQHSkOyJ8i" role="37wK5m" />
                   <node concept="2ShNRf" id="kQHSkOyHKe" role="37wK5m">
                     <node concept="1pGfFk" id="kQHSkOyIth" role="2ShVmc">
-                      <ref role="37wK5l" to="28jr:4g_sjDOBItr" resolve="OFXSimpleConsoleReporter" />
+                      <ref role="37wK5l" to="28jr:41UdyNBCv8N" resolve="OFXSimpleAppFactory" />
                     </node>
                   </node>
                   <node concept="2tJIrI" id="4nH4LOF0NNk" role="jymVt" />

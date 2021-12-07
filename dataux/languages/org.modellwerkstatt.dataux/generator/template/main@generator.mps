@@ -17169,10 +17169,6 @@
       <node concept="3clFb_" id="4jlzLDkIH3r" role="jymVt">
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="createPairController" />
-        <node concept="37vLTG" id="4g_sjDODCDP" role="3clF46">
-          <property role="TrG5h" value="fromConsole" />
-          <node concept="10P_77" id="4g_sjDOEjHU" role="1tU5fm" />
-        </node>
         <node concept="3uibUv" id="4jlzLDkIH3s" role="3clF45">
           <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
           <node concept="3uibUv" id="4jlzLDkKoeH" role="11_B2D">
@@ -18041,18 +18037,8 @@
                   <node concept="37vLTw" id="2rXgTRqYqqs" role="37wK5m">
                     <ref role="3cqZAo" node="2rXgTRqSIWz" resolve="printServiceImpl" />
                   </node>
-                  <node concept="3K4zz7" id="4g_sjDOEwKS" role="37wK5m">
-                    <node concept="2ShNRf" id="4g_sjDOE$uP" role="3K4E3e">
-                      <node concept="1pGfFk" id="4g_sjDOECAF" role="2ShVmc">
-                        <ref role="37wK5l" to="28jr:4g_sjDOBItr" resolve="OFXSimpleConsoleReporter" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="4g_sjDOECGQ" role="3K4GZi">
-                      <ref role="3cqZAo" node="2rXgTRqRfjj" resolve="__localApplicationFactory" />
-                    </node>
-                    <node concept="37vLTw" id="4g_sjDODJk1" role="3K4Cdx">
-                      <ref role="3cqZAo" node="4g_sjDODCDP" resolve="fromConsole" />
-                    </node>
+                  <node concept="37vLTw" id="37j3FAMuVqT" role="37wK5m">
+                    <ref role="3cqZAo" node="2rXgTRqRfjj" resolve="__localApplicationFactory" />
                   </node>
                 </node>
               </node>
@@ -18211,30 +18197,38 @@
           </node>
         </node>
         <node concept="3clFbH" id="DRZf0Syu4i" role="3cqZAp" />
-        <node concept="3clFbJ" id="DRZf0Sy$zM" role="3cqZAp">
-          <node concept="3clFbS" id="DRZf0Sy$zO" role="3clFbx">
-            <node concept="3clFbF" id="19EO7JRXgPS" role="3cqZAp">
-              <node concept="37vLTI" id="19EO7JRXgWO" role="3clFbG">
-                <node concept="1rXfSq" id="19EO7JRXgZh" role="37vLTx">
-                  <ref role="37wK5l" to="z3ji:19EO7JRWW3W" resolve="getXmlConfigFromContext" />
-                  <node concept="2OqwBi" id="19EO7JRXhnS" role="37wK5m">
-                    <node concept="37vLTw" id="19EO7JRXhc4" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4jlzLDkJ$vt" resolve="event" />
-                    </node>
-                    <node concept="liA8E" id="19EO7JRXhIW" role="2OqNvi">
-                      <ref role="37wK5l" to="opgt:~ServletContextEvent.getServletContext()" resolve="getServletContext" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="37vLTw" id="19EO7JRXgPR" role="37vLTJ">
-                  <ref role="3cqZAo" node="6MAhPz6Xhu4" resolve="xmlConfigFileParam" />
-                </node>
+        <node concept="3clFbJ" id="37j3FANaO2j" role="3cqZAp">
+          <node concept="3clFbS" id="37j3FANaO2l" role="3clFbx">
+            <node concept="3clFbF" id="37j3FANaRcM" role="3cqZAp">
+              <node concept="2YIFZM" id="37j3FANaRqI" role="3clFbG">
+                <ref role="37wK5l" to="28jr:37j3FANajXB" resolve="enableBatchJobLogOnConsole" />
+                <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
               </node>
             </node>
           </node>
-          <node concept="3fqX7Q" id="DRZf0Sy_sg" role="3clFbw">
-            <node concept="37vLTw" id="DRZf0Sy_SC" role="3fr31v">
-              <ref role="3cqZAo" node="DRZf0SyyJ6" resolve="fromConsole" />
+          <node concept="37vLTw" id="37j3FANaQq9" role="3clFbw">
+            <ref role="3cqZAo" node="DRZf0SyyJ6" resolve="fromConsole" />
+          </node>
+          <node concept="9aQIb" id="37j3FANaRts" role="9aQIa">
+            <node concept="3clFbS" id="37j3FANaRtt" role="9aQI4">
+              <node concept="3clFbF" id="19EO7JRXgPS" role="3cqZAp">
+                <node concept="37vLTI" id="19EO7JRXgWO" role="3clFbG">
+                  <node concept="1rXfSq" id="19EO7JRXgZh" role="37vLTx">
+                    <ref role="37wK5l" to="z3ji:19EO7JRWW3W" resolve="getXmlConfigFromContext" />
+                    <node concept="2OqwBi" id="19EO7JRXhnS" role="37wK5m">
+                      <node concept="37vLTw" id="19EO7JRXhc4" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4jlzLDkJ$vt" resolve="event" />
+                      </node>
+                      <node concept="liA8E" id="19EO7JRXhIW" role="2OqNvi">
+                        <ref role="37wK5l" to="opgt:~ServletContextEvent.getServletContext()" resolve="getServletContext" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="19EO7JRXgPR" role="37vLTJ">
+                    <ref role="3cqZAo" node="6MAhPz6Xhu4" resolve="xmlConfigFileParam" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -18745,9 +18739,6 @@
                           </node>
                         </node>
                       </node>
-                    </node>
-                    <node concept="37vLTw" id="4g_sjDOE9PU" role="37wK5m">
-                      <ref role="3cqZAo" node="DRZf0SyyJ6" resolve="fromConsole" />
                     </node>
                   </node>
                 </node>

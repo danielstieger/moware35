@@ -11503,31 +11503,36 @@
                               <node concept="3cpWsn" id="G_aOOcumjV" role="3cpWs9">
                                 <property role="TrG5h" value="errorText" />
                                 <node concept="17QB3L" id="G_aOOcumjQ" role="1tU5fm" />
-                                <node concept="3cpWs3" id="2LxPC2g$SPT" role="33vP2m">
-                                  <node concept="37vLTw" id="2LxPC2g$SYE" role="3uHU7w">
-                                    <ref role="3cqZAo" node="2LxPC2g$LE5" resolve="systemsInformation" />
+                                <node concept="3cpWs3" id="37j3FAMngMR" role="33vP2m">
+                                  <node concept="Xl_RD" id="37j3FAMnhfX" role="3uHU7w">
+                                    <property role="Xl_RC" value="] " />
                                   </node>
-                                  <node concept="3cpWs3" id="G_aOOcun84" role="3uHU7B">
-                                    <node concept="3cpWs3" id="G_aOOculwo" role="3uHU7B">
-                                      <node concept="3cpWs3" id="G_aOOculdJ" role="3uHU7B">
-                                        <node concept="3cpWs3" id="G_aOOcul6E" role="3uHU7B">
-                                          <node concept="Xl_RD" id="G_aOOcukqW" role="3uHU7B">
-                                            <property role="Xl_RC" value="Eventbus error msg received: connected-now " />
+                                  <node concept="3cpWs3" id="2LxPC2g$SPT" role="3uHU7B">
+                                    <node concept="3cpWs3" id="G_aOOcun84" role="3uHU7B">
+                                      <node concept="3cpWs3" id="G_aOOculwo" role="3uHU7B">
+                                        <node concept="3cpWs3" id="G_aOOculdJ" role="3uHU7B">
+                                          <node concept="3cpWs3" id="G_aOOcul6E" role="3uHU7B">
+                                            <node concept="Xl_RD" id="G_aOOcukqW" role="3uHU7B">
+                                              <property role="Xl_RC" value="Eventbus error msg received: connected-now " />
+                                            </node>
+                                            <node concept="37vLTw" id="G_aOOcul8o" role="3uHU7w">
+                                              <ref role="3cqZAo" node="G_aOOcujDQ" resolve="stillConnected" />
+                                            </node>
                                           </node>
-                                          <node concept="37vLTw" id="G_aOOcul8o" role="3uHU7w">
-                                            <ref role="3cqZAo" node="G_aOOcujDQ" resolve="stillConnected" />
+                                          <node concept="Xl_RD" id="G_aOOculfy" role="3uHU7w">
+                                            <property role="Xl_RC" value=", bus-receiver-running " />
                                           </node>
                                         </node>
-                                        <node concept="Xl_RD" id="G_aOOculfy" role="3uHU7w">
-                                          <property role="Xl_RC" value=", bus-receiver-running " />
+                                        <node concept="37vLTw" id="G_aOOcul_v" role="3uHU7w">
+                                          <ref role="3cqZAo" node="G_aOOcujDS" resolve="eventLoopRunning" />
                                         </node>
                                       </node>
-                                      <node concept="37vLTw" id="G_aOOcul_v" role="3uHU7w">
-                                        <ref role="3cqZAo" node="G_aOOcujDS" resolve="eventLoopRunning" />
+                                      <node concept="Xl_RD" id="G_aOOcun8B" role="3uHU7w">
+                                        <property role="Xl_RC" value=" on [" />
                                       </node>
                                     </node>
-                                    <node concept="Xl_RD" id="G_aOOcun8B" role="3uHU7w">
-                                      <property role="Xl_RC" value=" on " />
+                                    <node concept="37vLTw" id="2LxPC2g$SYE" role="3uHU7w">
+                                      <ref role="3cqZAo" node="2LxPC2g$LE5" resolve="systemsInformation" />
                                     </node>
                                   </node>
                                 </node>
@@ -11554,7 +11559,7 @@
                                           <node concept="3cpWs3" id="G_aOOcunvE" role="3uHU7B">
                                             <node concept="3cpWs3" id="G_aOOcumL8" role="3uHU7B">
                                               <node concept="Xl_RD" id="G_aOOcup_D" role="3uHU7B">
-                                                <property role="Xl_RC" value="bus-error-msg " />
+                                                <property role="Xl_RC" value="bus-error-msg '" />
                                               </node>
                                               <node concept="2OqwBi" id="G_aOOcumQq" role="3uHU7w">
                                                 <node concept="37vLTw" id="G_aOOcunnt" role="2Oq$k0">
@@ -11566,7 +11571,7 @@
                                               </node>
                                             </node>
                                             <node concept="Xl_RD" id="G_aOOcunxz" role="3uHU7w">
-                                              <property role="Xl_RC" value=", code " />
+                                              <property role="Xl_RC" value="', code " />
                                             </node>
                                           </node>
                                           <node concept="2OqwBi" id="G_aOOcunNU" role="3uHU7w">
@@ -11598,22 +11603,27 @@
                                 <node concept="3clFbS" id="G_aOOcuowV" role="9aQI4">
                                   <node concept="3clFbF" id="G_aOOcuo_t" role="3cqZAp">
                                     <node concept="d57v9" id="G_aOOcuoBL" role="3clFbG">
-                                      <node concept="3cpWs3" id="G_aOOcuoLs" role="37vLTx">
-                                        <node concept="2OqwBi" id="G_aOOcuoS$" role="3uHU7w">
-                                          <node concept="2OqwBi" id="G_aOOcuoNS" role="2Oq$k0">
-                                            <node concept="37vLTw" id="G_aOOcuoMc" role="2Oq$k0">
-                                              <ref role="3cqZAo" node="G_aOOcujDU" resolve="msg" />
-                                            </node>
-                                            <node concept="liA8E" id="G_aOOcuoR9" role="2OqNvi">
-                                              <ref role="37wK5l" to="ybfw:~Message.getBodyAsMJson()" resolve="getBodyAsMJson" />
-                                            </node>
-                                          </node>
-                                          <node concept="liA8E" id="G_aOOcuoXo" role="2OqNvi">
-                                            <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
-                                          </node>
+                                      <node concept="3cpWs3" id="37j3FAMnfaj" role="37vLTx">
+                                        <node concept="Xl_RD" id="37j3FAMnfbk" role="3uHU7w">
+                                          <property role="Xl_RC" value="'." />
                                         </node>
-                                        <node concept="Xl_RD" id="G_aOOcuoCs" role="3uHU7B">
-                                          <property role="Xl_RC" value=" message " />
+                                        <node concept="3cpWs3" id="G_aOOcuoLs" role="3uHU7B">
+                                          <node concept="Xl_RD" id="G_aOOcuoCs" role="3uHU7B">
+                                            <property role="Xl_RC" value="message '" />
+                                          </node>
+                                          <node concept="2OqwBi" id="G_aOOcuoS$" role="3uHU7w">
+                                            <node concept="2OqwBi" id="G_aOOcuoNS" role="2Oq$k0">
+                                              <node concept="37vLTw" id="G_aOOcuoMc" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="G_aOOcujDU" resolve="msg" />
+                                              </node>
+                                              <node concept="liA8E" id="G_aOOcuoR9" role="2OqNvi">
+                                                <ref role="37wK5l" to="ybfw:~Message.getBodyAsMJson()" resolve="getBodyAsMJson" />
+                                              </node>
+                                            </node>
+                                            <node concept="liA8E" id="G_aOOcuoXo" role="2OqNvi">
+                                              <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                                            </node>
+                                          </node>
                                         </node>
                                       </node>
                                       <node concept="37vLTw" id="G_aOOcuo_s" role="37vLTJ">
@@ -11695,31 +11705,36 @@
                               <node concept="3cpWsn" id="G_aOOcur4_" role="3cpWs9">
                                 <property role="TrG5h" value="errorText" />
                                 <node concept="17QB3L" id="G_aOOcur4A" role="1tU5fm" />
-                                <node concept="3cpWs3" id="2LxPC2g$Sgh" role="33vP2m">
-                                  <node concept="37vLTw" id="2LxPC2g$Sn2" role="3uHU7w">
-                                    <ref role="3cqZAo" node="2LxPC2g$LE5" resolve="systemsInformation" />
+                                <node concept="3cpWs3" id="37j3FAMndgx" role="33vP2m">
+                                  <node concept="Xl_RD" id="37j3FAMndhA" role="3uHU7w">
+                                    <property role="Xl_RC" value="] " />
                                   </node>
-                                  <node concept="3cpWs3" id="G_aOOcur4B" role="3uHU7B">
-                                    <node concept="3cpWs3" id="G_aOOcur4D" role="3uHU7B">
-                                      <node concept="3cpWs3" id="G_aOOcur4E" role="3uHU7B">
-                                        <node concept="3cpWs3" id="G_aOOcur4F" role="3uHU7B">
-                                          <node concept="Xl_RD" id="G_aOOcur4G" role="3uHU7B">
-                                            <property role="Xl_RC" value="Eventbus exception: connected-now " />
+                                  <node concept="3cpWs3" id="2LxPC2g$Sgh" role="3uHU7B">
+                                    <node concept="3cpWs3" id="G_aOOcur4B" role="3uHU7B">
+                                      <node concept="3cpWs3" id="G_aOOcur4D" role="3uHU7B">
+                                        <node concept="3cpWs3" id="G_aOOcur4E" role="3uHU7B">
+                                          <node concept="3cpWs3" id="G_aOOcur4F" role="3uHU7B">
+                                            <node concept="Xl_RD" id="G_aOOcur4G" role="3uHU7B">
+                                              <property role="Xl_RC" value="Eventbus exception: connected-now " />
+                                            </node>
+                                            <node concept="37vLTw" id="G_aOOcur4H" role="3uHU7w">
+                                              <ref role="3cqZAo" node="G_aOOcukU7" resolve="stillConnected" />
+                                            </node>
                                           </node>
-                                          <node concept="37vLTw" id="G_aOOcur4H" role="3uHU7w">
-                                            <ref role="3cqZAo" node="G_aOOcukU7" resolve="stillConnected" />
+                                          <node concept="Xl_RD" id="G_aOOcur4I" role="3uHU7w">
+                                            <property role="Xl_RC" value=", bus-receiver-running " />
                                           </node>
                                         </node>
-                                        <node concept="Xl_RD" id="G_aOOcur4I" role="3uHU7w">
-                                          <property role="Xl_RC" value=", bus-receiver-running " />
+                                        <node concept="37vLTw" id="G_aOOcur4J" role="3uHU7w">
+                                          <ref role="3cqZAo" node="G_aOOcukU9" resolve="eventLoopRunning" />
                                         </node>
                                       </node>
-                                      <node concept="37vLTw" id="G_aOOcur4J" role="3uHU7w">
-                                        <ref role="3cqZAo" node="G_aOOcukU9" resolve="eventLoopRunning" />
+                                      <node concept="Xl_RD" id="G_aOOcur4C" role="3uHU7w">
+                                        <property role="Xl_RC" value=" on [" />
                                       </node>
                                     </node>
-                                    <node concept="Xl_RD" id="G_aOOcur4C" role="3uHU7w">
-                                      <property role="Xl_RC" value=" on " />
+                                    <node concept="37vLTw" id="2LxPC2g$Sn2" role="3uHU7w">
+                                      <ref role="3cqZAo" node="2LxPC2g$LE5" resolve="systemsInformation" />
                                     </node>
                                   </node>
                                 </node>
@@ -12505,7 +12520,7 @@
                       <ref role="3cqZAo" node="1SDXsyHoLXt" resolve="msg" />
                     </node>
                     <node concept="Xl_RD" id="1SDXsyHoMJ9" role="3uHU7B">
-                      <property role="Xl_RC" value="EB.debug(): " />
+                      <property role="Xl_RC" value="MoOEb.debug(): " />
                     </node>
                   </node>
                 </node>
