@@ -1203,12 +1203,7 @@
                         <node concept="2YIFZM" id="1W$tMb53cSj" role="37vLTx">
                           <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
                           <ref role="37wK5l" to="dxuu:~JOptionPane.showConfirmDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showConfirmDialog" />
-                          <node concept="2OqwBi" id="1W$tMb53dfI" role="37wK5m">
-                            <node concept="2WthIp" id="1W$tMb53dcC" role="2Oq$k0" />
-                            <node concept="1DTwFV" id="1W$tMb53dmc" role="2OqNvi">
-                              <ref role="2WH_rO" node="swLfMHQSd5" resolve="frame" />
-                            </node>
-                          </node>
+                          <node concept="10Nm6u" id="3ET_HGDNFX8" role="37wK5m" />
                           <node concept="3cpWs3" id="1W$tMb53wc5" role="37wK5m">
                             <node concept="37vLTw" id="1W$tMb53w8t" role="3uHU7B">
                               <ref role="3cqZAo" node="1W$tMb53uYq" resolve="problems" />
