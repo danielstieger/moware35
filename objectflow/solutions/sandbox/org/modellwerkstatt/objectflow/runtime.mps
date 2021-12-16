@@ -33161,8 +33161,49 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="416IgOEYEOg" role="jymVt">
+      <property role="TrG5h" value="setPortJ" />
+      <node concept="37vLTG" id="416IgOEYEOh" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="416IgOEYEOi" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="416IgOEYEOj" role="3clF45" />
+      <node concept="3Tm1VV" id="416IgOEYEOk" role="1B3o_S" />
+      <node concept="3clFbS" id="416IgOEYEOl" role="3clF47">
+        <node concept="3clFbJ" id="416IgOEZby0" role="3cqZAp">
+          <node concept="3clFbC" id="416IgOEZbLT" role="3clFbw">
+            <node concept="3clFbT" id="416IgOEZbPK" role="3uHU7w">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="416IgOEZb$H" role="3uHU7B">
+              <ref role="3cqZAo" node="416IgOEYEOh" resolve="val" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="416IgOEZby2" role="3clFbx">
+            <node concept="3clFbF" id="416IgOEZbUM" role="3cqZAp">
+              <node concept="2YIFZM" id="416IgOEZbYF" role="3clFbG">
+                <ref role="37wK5l" node="4g_sjDPc20u" resolve="enablePortJ" />
+                <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="416IgOEYEOq" role="jymVt">
+      <property role="TrG5h" value="getPortJ" />
+      <node concept="10P_77" id="416IgOEYEOr" role="3clF45" />
+      <node concept="3Tm1VV" id="416IgOEYEOs" role="1B3o_S" />
+      <node concept="3clFbS" id="416IgOEYEOt" role="3clF47">
+        <node concept="3clFbF" id="416IgOEZc4J" role="3cqZAp">
+          <node concept="2YIFZM" id="416IgOEZc8F" role="3clFbG">
+            <ref role="37wK5l" node="416IgOEZ2sS" resolve="isEnabledPortJ" />
+            <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4IVaCyB46qH" role="jymVt" />
-    <node concept="2tJIrI" id="4IVaCyB3YYg" role="jymVt" />
     <node concept="3clFb_" id="2qrl3a2nuuu" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getModuleByInstanceName" />
@@ -57211,6 +57252,18 @@
         <ref role="3uigEE" node="4FgSVMqlPtR" resolve="OFXLogger" />
       </node>
       <node concept="3Tm1VV" id="4g_sjDPbVdP" role="1B3o_S" />
+    </node>
+    <node concept="2YIFZL" id="416IgOEZ2sS" role="jymVt">
+      <property role="TrG5h" value="isEnabledPortJ" />
+      <node concept="3clFbS" id="416IgOEZ2sV" role="3clF47">
+        <node concept="3clFbF" id="416IgOEZ2sW" role="3cqZAp">
+          <node concept="37vLTw" id="416IgOEZ2sZ" role="3clFbG">
+            <ref role="3cqZAo" node="4g_sjDPbUkW" resolve="portJLoggingEnabled" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="416IgOEZ3X$" role="3clF45" />
+      <node concept="3Tm1VV" id="416IgOEZ2t6" role="1B3o_S" />
     </node>
     <node concept="2YIFZL" id="37j3FANajXB" role="jymVt">
       <property role="TrG5h" value="enableBatchJobLogOnConsole" />
