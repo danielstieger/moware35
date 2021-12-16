@@ -18247,7 +18247,11 @@
                   <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                 </node>
                 <node concept="liA8E" id="7yNVvqNtjRq" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:7yNVvqMRvbo" resolve="isNoEscOption" />
+                  <ref role="37wK5l" to="28jr:7yNVvqMRvbo" resolve="hasOption" />
+                  <node concept="Rm8GO" id="1du6qEViHKn" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:1du6qEVaZIu" resolve="NO_ESC" />
+                    <ref role="1Px2BO" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -18752,7 +18756,11 @@
                   <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                 </node>
                 <node concept="liA8E" id="7yNVvqNtizd" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:7yNVvqMRvbo" resolve="isNoEscOption" />
+                  <ref role="37wK5l" to="28jr:7yNVvqMRvbo" resolve="hasOption" />
+                  <node concept="Rm8GO" id="1du6qEViI64" role="37wK5m">
+                    <ref role="1Px2BO" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+                    <ref role="Rm8GQ" to="28jr:1du6qEVaZIu" resolve="NO_ESC" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -33132,29 +33140,46 @@
                   <ref role="37wK5l" to="250q:kWPevMcyfQ" resolve="useBackgroundThread" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="66CXFVBbWGP" role="3uHU7w">
-                <node concept="37vLTw" id="66CXFVBbWDB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4XXgpAAgpq6" resolve="cmd" />
-                </node>
-                <node concept="liA8E" id="66CXFVBbX4k" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
-                  <node concept="Rm8GO" id="66CXFVBbXsT" role="37wK5m">
-                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
-                    <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+              <node concept="1eOMI4" id="1du6qEViMgY" role="3uHU7w">
+                <node concept="22lmx$" id="1du6qEViMBi" role="1eOMHV">
+                  <node concept="2OqwBi" id="1du6qEViN2l" role="3uHU7w">
+                    <node concept="37vLTw" id="1du6qEViMNw" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4XXgpAAgpq6" resolve="cmd" />
+                    </node>
+                    <node concept="liA8E" id="1du6qEViNcJ" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:7yNVvqMRvbo" resolve="hasOption" />
+                      <node concept="Rm8GO" id="1du6qEViNJV" role="37wK5m">
+                        <ref role="Rm8GQ" to="28jr:1du6qEVaZIv" resolve="BACKGROUND" />
+                        <ref role="1Px2BO" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+                      </node>
+                    </node>
                   </node>
-                  <node concept="Rm8GO" id="66CXFVBbXO3" role="37wK5m">
-                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
-                    <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
-                  </node>
-                  <node concept="Rm8GO" id="66CXFVBbYnT" role="37wK5m">
-                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
-                    <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                  <node concept="2OqwBi" id="1du6qEViMgZ" role="3uHU7B">
+                    <node concept="37vLTw" id="1du6qEViMh0" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4XXgpAAgpq6" resolve="cmd" />
+                    </node>
+                    <node concept="liA8E" id="1du6qEViMh1" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                      <node concept="Rm8GO" id="1du6qEViMh2" role="37wK5m">
+                        <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                        <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+                      </node>
+                      <node concept="Rm8GO" id="1du6qEViMh3" role="37wK5m">
+                        <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                        <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
+                      </node>
+                      <node concept="Rm8GO" id="1du6qEViMh4" role="37wK5m">
+                        <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                        <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1du6qEVLxOQ" role="3cqZAp" />
         <node concept="3clFbF" id="5NnlNqtACeg" role="3cqZAp">
           <node concept="2OqwBi" id="5NnlNqtACzh" role="3clFbG">
             <node concept="37vLTw" id="5NnlNqtACee" role="2Oq$k0">

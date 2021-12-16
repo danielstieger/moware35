@@ -984,6 +984,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1du6qEVQcYZ" role="3cqZAp">
+          <node concept="2OqwBi" id="1du6qEVQcYW" role="3clFbG">
+            <node concept="10M0yZ" id="1du6qEVQcYX" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="1du6qEVQcYY" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="1du6qEVQdQ$" role="37wK5m">
+                <node concept="2OqwBi" id="1du6qEVQer4" role="3uHU7w">
+                  <node concept="37vLTw" id="1du6qEVQdYs" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6qxhjMM7zZo" resolve="progressIndicator" />
+                  </node>
+                  <node concept="liA8E" id="1du6qEVQDkp" role="2OqNvi">
+                    <ref role="37wK5l" to="p18y:~Node.isVisible()" resolve="isVisible" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1du6qEVQdaR" role="3uHU7B">
+                  <property role="Xl_RC" value="Progress Ind " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="6qxhjMMaQZ4" role="3clF46">
         <property role="TrG5h" value="lock" />

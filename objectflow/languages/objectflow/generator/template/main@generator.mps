@@ -10277,29 +10277,88 @@
     <node concept="3clFb_" id="7yNVvqMREh$" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isNoEscOption" />
+      <property role="TrG5h" value="hasOption" />
+      <node concept="37vLTG" id="1du6qEVb_fA" role="3clF46">
+        <property role="TrG5h" value="opt" />
+        <node concept="3uibUv" id="1du6qEVbKjm" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="7yNVvqMREhA" role="1B3o_S" />
       <node concept="10P_77" id="7yNVvqMREhB" role="3clF45" />
       <node concept="3clFbS" id="7yNVvqMREhC" role="3clF47">
-        <node concept="3clFbF" id="7yNVvqMREhE" role="3cqZAp">
-          <node concept="3clFbT" id="7yNVvqMREhD" role="3clFbG">
-            <node concept="17Uvod" id="7yNVvqMROql" role="lGtFl">
-              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
-              <property role="2qtEX9" value="value" />
-              <node concept="3zFVjK" id="7yNVvqMROqm" role="3zH0cK">
-                <node concept="3clFbS" id="7yNVvqMROqn" role="2VODD2">
-                  <node concept="3clFbF" id="7yNVvqMS3iu" role="3cqZAp">
-                    <node concept="2OqwBi" id="7yNVvqMS3mR" role="3clFbG">
-                      <node concept="30H73N" id="7yNVvqMS3it" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="7yNVvqMS49p" role="2OqNvi">
-                        <ref role="37wK5l" to="70o0:7yNVvqMRspj" resolve="isNoEsc" />
-                      </node>
+        <node concept="3clFbJ" id="1du6qEVbM7M" role="3cqZAp">
+          <node concept="3clFbS" id="1du6qEVbM7O" role="3clFbx">
+            <node concept="3cpWs6" id="1du6qEVbRhM" role="3cqZAp">
+              <node concept="3clFbT" id="1du6qEVbRip" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1du6qEVbNaO" role="3clFbw">
+            <node concept="liA8E" id="1du6qEVbOk9" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
+              <node concept="37vLTw" id="1du6qEVbM9Y" role="37wK5m">
+                <ref role="3cqZAo" node="1du6qEVb_fA" resolve="opt" />
+              </node>
+            </node>
+            <node concept="Rm8GO" id="1du6qEVbPbw" role="2Oq$k0">
+              <ref role="Rm8GQ" to="28jr:1du6qEVaZIu" resolve="NO_ESC" />
+              <ref role="1Px2BO" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+            </node>
+          </node>
+          <node concept="1W57fq" id="1du6qEVceho" role="lGtFl">
+            <node concept="3IZrLx" id="1du6qEVcehr" role="3IZSJc">
+              <node concept="3clFbS" id="1du6qEVcehs" role="2VODD2">
+                <node concept="3clFbF" id="7yNVvqMS3iu" role="3cqZAp">
+                  <node concept="2OqwBi" id="7yNVvqMS3mR" role="3clFbG">
+                    <node concept="30H73N" id="7yNVvqMS3it" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="7yNVvqMS49p" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:7yNVvqMRspj" resolve="isNoEsc" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3clFbJ" id="1du6qEVc2Rd" role="3cqZAp">
+          <node concept="3clFbS" id="1du6qEVc2Re" role="3clFbx">
+            <node concept="3cpWs6" id="1du6qEVc2Rf" role="3cqZAp">
+              <node concept="3clFbT" id="1du6qEVc2Rg" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1du6qEVc2Rh" role="3clFbw">
+            <node concept="liA8E" id="1du6qEVc2Ri" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
+              <node concept="37vLTw" id="1du6qEVc2Rj" role="37wK5m">
+                <ref role="3cqZAo" node="1du6qEVb_fA" resolve="opt" />
+              </node>
+            </node>
+            <node concept="Rm8GO" id="1du6qEVcKy5" role="2Oq$k0">
+              <ref role="Rm8GQ" to="28jr:1du6qEVaZIv" resolve="BACKGROUND" />
+              <ref role="1Px2BO" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+            </node>
+          </node>
+          <node concept="1W57fq" id="1du6qEVcpFP" role="lGtFl">
+            <node concept="3IZrLx" id="1du6qEVcpFS" role="3IZSJc">
+              <node concept="3clFbS" id="1du6qEVcpFT" role="2VODD2">
+                <node concept="3clFbF" id="1du6qEVcpFZ" role="3cqZAp">
+                  <node concept="2OqwBi" id="1du6qEVcpFU" role="3clFbG">
+                    <node concept="2qgKlT" id="1du6qEVd2OI" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:1du6qEVcNLr" resolve="isBackground" />
+                    </node>
+                    <node concept="30H73N" id="1du6qEVcpFY" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1du6qEVbRjz" role="3cqZAp">
+          <node concept="3clFbT" id="1du6qEVbRjy" role="3clFbG" />
         </node>
       </node>
     </node>

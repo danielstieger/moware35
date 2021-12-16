@@ -5039,5 +5039,16 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1du6qEVaZk5">
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <property role="TrG5h" value="CommandBackgroundOption" />
+    <property role="34LRSv" value="IN_BACKGROUND" />
+    <property role="EcuMT" value="1395581155606787333" />
+    <property role="R4oN_" value="init in background" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1du6qEVaZk6" role="PzmwI">
+      <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
+    </node>
+  </node>
 </model>
 

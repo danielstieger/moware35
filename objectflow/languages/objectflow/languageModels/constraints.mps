@@ -4576,5 +4576,38 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1du6qEVaZyz">
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <ref role="1M2myG" to="un0u:1du6qEVaZk5" resolve="CommandBackgroundOption" />
+    <node concept="9S07l" id="1du6qEVaZy$" role="9Vyp8">
+      <node concept="3clFbS" id="1du6qEVaZy_" role="2VODD2">
+        <node concept="3clFbF" id="1du6qEVaZyV" role="3cqZAp">
+          <node concept="2OqwBi" id="1du6qEVaZyW" role="3clFbG">
+            <node concept="2OqwBi" id="1du6qEVaZyX" role="2Oq$k0">
+              <node concept="2OqwBi" id="1du6qEVaZyY" role="2Oq$k0">
+                <node concept="nLn13" id="1du6qEVaZyZ" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="1du6qEVaZz0" role="2OqNvi">
+                  <node concept="1xMEDy" id="1du6qEVaZz1" role="1xVPHs">
+                    <node concept="chp4Y" id="1du6qEVaZz2" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="1du6qEVaZz3" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="1du6qEVaZz4" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:5HvIBdINHAd" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="21noJN" id="1du6qEVaZz5" role="2OqNvi">
+              <node concept="21nZrQ" id="1du6qEVaZz6" role="21noJM">
+                <ref role="21nZrZ" to="un0u:5HvIBdINHdI" resolve="GRAPH_EDIT_CMD" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

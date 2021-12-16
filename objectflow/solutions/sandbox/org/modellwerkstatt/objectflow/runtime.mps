@@ -4071,7 +4071,13 @@
     </node>
     <node concept="3clFb_" id="7yNVvqMRvbo" role="jymVt">
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isNoEscOption" />
+      <property role="TrG5h" value="hasOption" />
+      <node concept="37vLTG" id="1du6qEVb0zC" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="3uibUv" id="1du6qEVbfzq" role="1tU5fm">
+          <ref role="3uigEE" node="1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+        </node>
+      </node>
       <node concept="3clFbS" id="7yNVvqMRvbp" role="3clF47" />
       <node concept="3Tm1VV" id="7yNVvqMRvbq" role="1B3o_S" />
       <node concept="10P_77" id="7yNVvqMRvbr" role="3clF45" />
@@ -4103,6 +4109,18 @@
       </node>
       <node concept="QsSxf" id="66CXFVAgYge" role="Qtgdg">
         <property role="TrG5h" value="GRAPH_OWNER_CMD_MODAL" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+    </node>
+    <node concept="Qs71p" id="1du6qEVaZIs" role="jymVt">
+      <property role="TrG5h" value="OFXCmdOptions" />
+      <node concept="3Tm1VV" id="1du6qEVaZIt" role="1B3o_S" />
+      <node concept="QsSxf" id="1du6qEVaZIu" role="Qtgdg">
+        <property role="TrG5h" value="NO_ESC" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1du6qEVaZIv" role="Qtgdg">
+        <property role="TrG5h" value="BACKGROUND" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
     </node>
