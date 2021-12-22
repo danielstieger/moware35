@@ -14258,5 +14258,49 @@
       <ref role="1YaFvo" to="un0u:19EO7JM$uV_" resolve="LogStatementProperty" />
     </node>
   </node>
+  <node concept="18kY7G" id="7vbJIwtfacG">
+    <property role="TrG5h" value="check_LogStatement" />
+    <property role="3GE5qa" value="LogPrint" />
+    <node concept="3clFbS" id="7vbJIwtfacH" role="18ibNy">
+      <node concept="3clFbJ" id="7vbJIwtfacN" role="3cqZAp">
+        <node concept="1Wc70l" id="7vbJIwtfbRu" role="3clFbw">
+          <node concept="3fqX7Q" id="7vbJIwtfcmY" role="3uHU7w">
+            <node concept="2OqwBi" id="7vbJIwtfcn0" role="3fr31v">
+              <node concept="1YBJjd" id="7vbJIwtfcn1" role="2Oq$k0">
+                <ref role="1YBMHb" node="7vbJIwtfacJ" resolve="logStatement" />
+              </node>
+              <node concept="2qgKlT" id="7vbJIwtfcn2" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:19EO7JM$sTb" resolve="loggedViaUserService" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="7vbJIwtfbxx" role="3uHU7B">
+            <node concept="2OqwBi" id="7vbJIwtfbxz" role="3fr31v">
+              <node concept="1YBJjd" id="7vbJIwtfbx$" role="2Oq$k0">
+                <ref role="1YBMHb" node="7vbJIwtfacJ" resolve="logStatement" />
+              </node>
+              <node concept="2qgKlT" id="7vbJIwtfbx_" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:19EO7JN3AJZ" resolve="noProperties" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="7vbJIwtfacP" role="3clFbx">
+          <node concept="2MkqsV" id="7vbJIwtfcnU" role="3cqZAp">
+            <node concept="Xl_RD" id="7vbJIwtfco6" role="2MkJ7o">
+              <property role="Xl_RC" value="You can not specify additional properties to the log statement here, since no user service (session) is available in this context." />
+            </node>
+            <node concept="1YBJjd" id="7vbJIwtfcq$" role="1urrMF">
+              <ref role="1YBMHb" node="7vbJIwtfacJ" resolve="logStatement" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7vbJIwtfacJ" role="1YuTPh">
+      <property role="TrG5h" value="logStatement" />
+      <ref role="1YaFvo" to="un0u:22PsgbrwQlW" resolve="LogStatement" />
+    </node>
+  </node>
 </model>
 

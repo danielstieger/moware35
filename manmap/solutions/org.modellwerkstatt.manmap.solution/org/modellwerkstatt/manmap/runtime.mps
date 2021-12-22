@@ -9189,5 +9189,16 @@
       </node>
     </node>
   </node>
+  <node concept="3HP615" id="7vbJIwtfmBK">
+    <property role="TrG5h" value="IM3Repository" />
+    <node concept="3Tm1VV" id="7vbJIwtfmBL" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7vbJIwtfFVK" role="lGtFl">
+      <node concept="TZ5HA" id="7vbJIwtfFVL" role="TZ5H$">
+        <node concept="1dT_AC" id="7vbJIwtfFVM" role="1dT_Ay">
+          <property role="1dT_AB" value="Do not change this name, it s used in IRepository_Behavior :)" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
