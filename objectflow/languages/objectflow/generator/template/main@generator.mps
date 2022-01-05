@@ -10497,7 +10497,7 @@
     <node concept="3clFb_" id="5yru0E46SsM" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="needsPresuablyFullSizeWindow" />
+      <property role="TrG5h" value="wizzardWithFullSizeUis" />
       <node concept="3Tm1VV" id="5yru0E46SsO" role="1B3o_S" />
       <node concept="10P_77" id="5yru0E46SsP" role="3clF45" />
       <node concept="3clFbS" id="5yru0E46SsQ" role="3clF47">
@@ -10512,7 +10512,7 @@
                     <node concept="2OqwBi" id="5yru0E47lQL" role="3clFbG">
                       <node concept="30H73N" id="5yru0E47lMN" role="2Oq$k0" />
                       <node concept="2qgKlT" id="5yru0E47lZ5" role="2OqNvi">
-                        <ref role="37wK5l" to="70o0:5yru0E47b0w" resolve="needsPresumeablyFullSizeWindow" />
+                        <ref role="37wK5l" to="70o0:5yru0E47b0w" resolve="wizzardWithFullSizeUis" />
                       </node>
                     </node>
                   </node>
