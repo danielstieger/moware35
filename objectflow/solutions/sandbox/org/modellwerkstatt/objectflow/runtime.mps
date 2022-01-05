@@ -69,6 +69,9 @@
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
+      <concept id="2323553266850475941" name="jetbrains.mps.baseLanguage.structure.IHasModifiers" flags="ng" index="2frcj7">
+        <child id="2323553266850475953" name="modifiers" index="2frcjj" />
+      </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
@@ -102,6 +105,7 @@
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
+      <concept id="4678410916365116210" name="jetbrains.mps.baseLanguage.structure.DefaultModifier" flags="ng" index="2JFqV2" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -33594,17 +33598,49 @@
               </node>
             </node>
           </node>
-          <node concept="9aQIb" id="4IVaCyB4cDa" role="9aQIa">
-            <node concept="3clFbS" id="4IVaCyB4cDb" role="9aQI4">
-              <node concept="3clFbF" id="4g_sjDPc6XX" role="3cqZAp">
-                <node concept="2YIFZM" id="4g_sjDPc7D2" role="3clFbG">
-                  <ref role="37wK5l" node="4g_sjDPc5am" resolve="logCoreInfoToJOrConsole" />
+          <node concept="3eNFk2" id="6CTqzKmjbqV" role="3eNLev">
+            <node concept="3clFbS" id="6CTqzKmjbqW" role="3eOfB_">
+              <node concept="3clFbJ" id="6CTqzKmjbqX" role="3cqZAp">
+                <property role="TyiWL" value="true" />
+                <node concept="3clFbS" id="6CTqzKmjbqY" role="3clFbx">
+                  <node concept="3clFbF" id="4g_sjDPc6XX" role="3cqZAp">
+                    <node concept="2YIFZM" id="4g_sjDPc7D2" role="3clFbG">
+                      <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
+                      <ref role="37wK5l" node="4g_sjDPc5am" resolve="logCoreInfoToJOrConsole" />
+                      <node concept="37vLTw" id="4g_sjDPc7Z7" role="37wK5m">
+                        <ref role="3cqZAo" node="4g_sjDODni1" resolve="cri" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6CTqzKmjbr2" role="3clFbw">
+                  <node concept="Xjq3P" id="6CTqzKmjbr3" role="2Oq$k0" />
+                  <node concept="liA8E" id="6CTqzKmjbr4" role="2OqNvi">
+                    <ref role="37wK5l" node="6CTqzKmiiU4" resolve="sendToPortJ" />
+                    <node concept="37vLTw" id="6CTqzKmjbr5" role="37wK5m">
+                      <ref role="3cqZAo" node="4g_sjDODni1" resolve="cri" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6CTqzKmjcsd" role="3cqZAp" />
+            </node>
+            <node concept="1rXfSq" id="6CTqzKmjbFW" role="3eO9$A">
+              <ref role="37wK5l" node="416IgOEYEOq" resolve="getPortJ" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="6CTqzKmjct$" role="9aQIa">
+            <node concept="3clFbS" id="6CTqzKmjct_" role="9aQI4">
+              <node concept="3clFbF" id="6CTqzKmjcw_" role="3cqZAp">
+                <node concept="2YIFZM" id="6CTqzKmjcwB" role="3clFbG">
                   <ref role="1Pybhc" node="4FgSVMqlPtR" resolve="OFXLogger" />
-                  <node concept="37vLTw" id="4g_sjDPc7Z7" role="37wK5m">
+                  <ref role="37wK5l" node="4g_sjDPc5am" resolve="logCoreInfoToJOrConsole" />
+                  <node concept="37vLTw" id="6CTqzKmjcwC" role="37wK5m">
                     <ref role="3cqZAo" node="4g_sjDODni1" resolve="cri" />
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="6CTqzKmjcEE" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -42966,7 +43002,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2021.49 (lg6) (dev " />
+            <property role="Xl_RC" value="moware11 2022.1 (lg7) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -56547,6 +56583,81 @@
       <node concept="3clFbS" id="4FgSVMpn6uo" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="4FgSVMpnbD7" role="jymVt" />
+    <node concept="3clFb_" id="6CTqzKmiiU4" role="jymVt">
+      <property role="TrG5h" value="sendToPortJ" />
+      <node concept="37vLTG" id="6CTqzKmijQU" role="3clF46">
+        <property role="TrG5h" value="cri" />
+        <node concept="3uibUv" id="6CTqzKmijQV" role="1tU5fm">
+          <ref role="3uigEE" node="4FgSVMpn0nI" resolve="CoreReporterInfo" />
+        </node>
+      </node>
+      <node concept="10P_77" id="6CTqzKmijCN" role="3clF45" />
+      <node concept="3Tm1VV" id="6CTqzKmiiU7" role="1B3o_S" />
+      <node concept="3clFbS" id="6CTqzKmiiU8" role="3clF47">
+        <node concept="3clFbJ" id="6CTqzKmika0" role="3cqZAp">
+          <node concept="1Wc70l" id="6CTqzKmil3d" role="3clFbw">
+            <node concept="3clFbC" id="6CTqzKmikIG" role="3uHU7B">
+              <node concept="2OqwBi" id="6CTqzKmikgJ" role="3uHU7B">
+                <node concept="37vLTw" id="6CTqzKmikbq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6CTqzKmijQU" resolve="cri" />
+                </node>
+                <node concept="2S8uIT" id="6CTqzKmikhY" role="2OqNvi">
+                  <ref role="2S8YL0" node="4FgSVMpnjwB" resolve="msgType" />
+                </node>
+              </node>
+              <node concept="Rm8GO" id="6CTqzKmikOc" role="3uHU7w">
+                <ref role="Rm8GQ" node="4FgSVMpnf8U" resolve="APP_MESSAGE" />
+                <ref role="1Px2BO" node="4FgSVMpnf8Q" resolve="IOFXCoreReporter.Type" />
+              </node>
+            </node>
+            <node concept="1eOMI4" id="6CTqzKmimx9" role="3uHU7w">
+              <node concept="22lmx$" id="6CTqzKmimWP" role="1eOMHV">
+                <node concept="3clFbC" id="6CTqzKmimxa" role="3uHU7B">
+                  <node concept="2OqwBi" id="6CTqzKmimxb" role="3uHU7B">
+                    <node concept="37vLTw" id="6CTqzKmimxc" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6CTqzKmijQU" resolve="cri" />
+                    </node>
+                    <node concept="2S8uIT" id="6CTqzKmimxd" role="2OqNvi">
+                      <ref role="2S8YL0" node="4WoSiUMJ6Q0" resolve="prio" />
+                    </node>
+                  </node>
+                  <node concept="Rm8GO" id="6CTqzKmimxe" role="3uHU7w">
+                    <ref role="Rm8GQ" node="2dTopMvfAVl" resolve="DEBUG" />
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                  </node>
+                </node>
+                <node concept="3clFbC" id="6CTqzKmin4O" role="3uHU7w">
+                  <node concept="2OqwBi" id="6CTqzKmin4P" role="3uHU7B">
+                    <node concept="37vLTw" id="6CTqzKmin4Q" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6CTqzKmijQU" resolve="cri" />
+                    </node>
+                    <node concept="2S8uIT" id="6CTqzKmin4R" role="2OqNvi">
+                      <ref role="2S8YL0" node="4WoSiUMJ6Q0" resolve="prio" />
+                    </node>
+                  </node>
+                  <node concept="Rm8GO" id="6CTqzKmineK" role="3uHU7w">
+                    <ref role="Rm8GQ" node="2dTopMvfAFa" resolve="WARN" />
+                    <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="6CTqzKmika2" role="3clFbx">
+            <node concept="3cpWs6" id="6CTqzKminnO" role="3cqZAp">
+              <node concept="3clFbT" id="6CTqzKminpd" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6CTqzKminGI" role="3cqZAp">
+          <node concept="3clFbT" id="6CTqzKminGH" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2JFqV2" id="6CTqzKmijvu" role="2frcjj" />
+    </node>
+    <node concept="2tJIrI" id="6CTqzKmi9rP" role="jymVt" />
     <node concept="Qs71p" id="4FgSVMpn0u8" role="jymVt">
       <property role="TrG5h" value="MoWarePlatform" />
       <node concept="QsSxf" id="4FgSVMpn0wp" role="Qtgdg">
@@ -58861,6 +58972,11 @@
       <node concept="TZ5HA" id="4FgSVMqlVoP" role="TZ5H$">
         <node concept="1dT_AC" id="4FgSVMqlVoQ" role="1dT_Ay">
           <property role="1dT_AB" value="OFXLogger will always use log file / mail logging to report incidences." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6CTqzKmjeNj" role="TZ5H$">
+        <node concept="1dT_AC" id="6CTqzKmjeNk" role="1dT_Ay">
+          <property role="1dT_AB" value="OFXLogger supports a file interface called portJ for jobs, but for apps also." />
         </node>
       </node>
       <node concept="TZ5HA" id="4FgSVMqlVnT" role="TZ5H$">
