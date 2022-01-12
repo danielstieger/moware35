@@ -182,7 +182,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
         <node concept="3Mxwew" id="1JLTjCmZp2l" role="3MwsjC">
-          <property role="3MwjfP" value="modellwerkstatt.org    MoWare Languages" />
+          <property role="3MwjfP" value="The MoWare DDD Werkbank 2022" />
         </node>
       </node>
       <node concept="2iUeEo" id="3UOln1JALmW" role="2iVFfd">
@@ -2391,7 +2391,7 @@
                   <node concept="2Ry0Ak" id="4EjcJZr7lV6" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="4EjcJZr7md3" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS_2020_3.app" />
+                      <property role="2Ry0Am" value="MPS_2020_36.app" />
                       <node concept="2Ry0Ak" id="4EjcJZr7mq$" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                         <node concept="2Ry0Ak" id="4EjcJZr7mv5" role="2Ry0An" />

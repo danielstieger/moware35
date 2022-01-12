@@ -242,10 +242,17 @@
     </node>
     <node concept="3clFb_" id="4X6$QoZ0_id" role="jymVt">
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getDetailCmdLogging" />
+      <property role="TrG5h" value="getMowareTrace" />
       <node concept="3clFbS" id="4X6$QoZ0_ie" role="3clF47" />
       <node concept="3Tm1VV" id="4X6$QoZ0_if" role="1B3o_S" />
       <node concept="10P_77" id="4X6$QoZ0_ig" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2het$DE1fBO" role="jymVt">
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getAppTrace" />
+      <node concept="3clFbS" id="2het$DE1fBP" role="3clF47" />
+      <node concept="3Tm1VV" id="2het$DE1fBQ" role="1B3o_S" />
+      <node concept="10P_77" id="2het$DE1fBR" role="3clF45" />
     </node>
     <node concept="3clFb_" id="4Z3lS8AGmF5" role="jymVt">
       <property role="2aFKle" value="false" />

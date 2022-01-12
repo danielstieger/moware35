@@ -33102,7 +33102,7 @@
     </node>
     <node concept="2tJIrI" id="3J6KGB_wf9q" role="jymVt" />
     <node concept="312cEg" id="4IVaCyB409H" role="jymVt">
-      <property role="TrG5h" value="mowareTraceEnabled" />
+      <property role="TrG5h" value="mowareTrace" />
       <node concept="3Tm6S6" id="4IVaCyB409I" role="1B3o_S" />
       <node concept="10P_77" id="4IVaCyB40Ti" role="1tU5fm" />
       <node concept="3clFbT" id="4IVaCyB41C2" role="33vP2m" />
@@ -33133,7 +33133,7 @@
     <node concept="2tJIrI" id="65g7rxkCyVl" role="jymVt" />
     <node concept="2tJIrI" id="4IVaCyB42bJ" role="jymVt" />
     <node concept="3clFb_" id="4IVaCyB42ZO" role="jymVt">
-      <property role="TrG5h" value="setMowareTraceEnabled" />
+      <property role="TrG5h" value="setMowareTrace" />
       <node concept="37vLTG" id="4IVaCyB45$w" role="3clF46">
         <property role="TrG5h" value="val" />
         <node concept="10P_77" id="4IVaCyB46hW" role="1tU5fm" />
@@ -33147,20 +33147,20 @@
               <ref role="3cqZAo" node="4IVaCyB45$w" resolve="val" />
             </node>
             <node concept="37vLTw" id="4IVaCyB44TD" role="37vLTJ">
-              <ref role="3cqZAo" node="4IVaCyB409H" resolve="mowareTraceEnabled" />
+              <ref role="3cqZAo" node="4IVaCyB409H" resolve="mowareTrace" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="3clFb_" id="4IVaCyB479N" role="jymVt">
-      <property role="TrG5h" value="getMowareTraceEnabled" />
+      <property role="TrG5h" value="getMowareTrace" />
       <node concept="10P_77" id="4IVaCyB47Vd" role="3clF45" />
       <node concept="3Tm1VV" id="4IVaCyB479Q" role="1B3o_S" />
       <node concept="3clFbS" id="4IVaCyB479R" role="3clF47">
         <node concept="3clFbF" id="4IVaCyB49Mq" role="3cqZAp">
           <node concept="37vLTw" id="4IVaCyB49Mp" role="3clFbG">
-            <ref role="3cqZAo" node="4IVaCyB409H" resolve="mowareTraceEnabled" />
+            <ref role="3cqZAo" node="4IVaCyB409H" resolve="mowareTrace" />
           </node>
         </node>
       </node>
@@ -33594,7 +33594,7 @@
             </node>
             <node concept="3fqX7Q" id="4IVaCyB4ciI" role="3uHU7w">
               <node concept="37vLTw" id="4IVaCyB4ctW" role="3fr31v">
-                <ref role="3cqZAo" node="4IVaCyB409H" resolve="mowareTraceEnabled" />
+                <ref role="3cqZAo" node="4IVaCyB409H" resolve="mowareTrace" />
               </node>
             </node>
           </node>
@@ -42986,7 +42986,7 @@
     <property role="TrG5h" value="MoVersion" />
     <node concept="Wx3nA" id="79n7_omq6WT" role="jymVt">
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="DEVELOPMENT_SETTING" />
+      <property role="TrG5h" value="H2_DEV_HARDLOG" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
       <node concept="3clFbT" id="6iq8X3aVnqL" role="33vP2m" />
@@ -43005,7 +43005,7 @@
             <property role="Xl_RC" value="moware11 2022.1 (lg7) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
-            <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+            <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
           </node>
         </node>
       </node>
@@ -56556,7 +56556,7 @@
       <property role="TrG5h" value="RT" />
       <node concept="3Tm1VV" id="4g_sjDLbUdi" role="1B3o_S" />
       <node concept="Xl_RD" id="4g_sjDLbUdj" role="33vP2m">
-        <property role="Xl_RC" value="org.modellwerkstatt.Rt" />
+        <property role="Xl_RC" value="org.modellwerkstatt.RT" />
       </node>
       <node concept="17QB3L" id="4g_sjDLbUdk" role="1tU5fm" />
     </node>
@@ -56569,6 +56569,16 @@
       </node>
       <node concept="17QB3L" id="4IVaCyzxkUa" role="1tU5fm" />
     </node>
+    <node concept="Wx3nA" id="2het$DFevAL" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="DELEGATGECHAGNE" />
+      <node concept="3Tm1VV" id="2het$DFevAM" role="1B3o_S" />
+      <node concept="Xl_RD" id="2het$DFevAN" role="33vP2m">
+        <property role="Xl_RC" value="org.modellwerkstatt.DelegateChange" />
+      </node>
+      <node concept="17QB3L" id="2het$DFevAO" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="2het$DFevrR" role="jymVt" />
     <node concept="2tJIrI" id="4g_sjDLdQO2" role="jymVt" />
     <node concept="3clFb_" id="4FgSVMpn6uk" role="jymVt">
       <property role="TrG5h" value="report" />
@@ -56694,6 +56704,10 @@
       </node>
       <node concept="QsSxf" id="4FgSVMpnf8U" role="Qtgdg">
         <property role="TrG5h" value="APP_MESSAGE" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="2het$DEKXyf" role="Qtgdg">
+        <property role="TrG5h" value="APP_TRACE" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="4FgSVMpnf8V" role="1B3o_S" />

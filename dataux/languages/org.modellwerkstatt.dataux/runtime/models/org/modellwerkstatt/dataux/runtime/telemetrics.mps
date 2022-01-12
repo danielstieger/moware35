@@ -472,12 +472,32 @@
                     <ref role="37wK5l" to="250q:5XGplYAWG3H" resolve="getSettingsDescription" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="2YKZ3ifj3zy" role="37wK5m">
-                  <node concept="37vLTw" id="2YKZ3ifj3wE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
+                <node concept="3cpWs3" id="2het$DE1f7_" role="37wK5m">
+                  <node concept="2OqwBi" id="2het$DE1fq9" role="3uHU7w">
+                    <node concept="37vLTw" id="2het$DE1fgA" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
+                    </node>
+                    <node concept="liA8E" id="2het$DE1h8v" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:2het$DE1fBO" resolve="getAppTrace" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="2YKZ3ifj3ER" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:4X6$QoZ0_id" resolve="getDetailCmdLogging" />
+                  <node concept="3cpWs3" id="2het$DE1eND" role="3uHU7B">
+                    <node concept="3cpWs3" id="2het$DE1eqE" role="3uHU7B">
+                      <node concept="Xl_RD" id="2het$DE1ev9" role="3uHU7B">
+                        <property role="Xl_RC" value="MoWare Trace " />
+                      </node>
+                      <node concept="2OqwBi" id="2YKZ3ifj3zy" role="3uHU7w">
+                        <node concept="37vLTw" id="2YKZ3ifj3wE" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
+                        </node>
+                        <node concept="liA8E" id="2YKZ3ifj3ER" role="2OqNvi">
+                          <ref role="37wK5l" to="250q:4X6$QoZ0_id" resolve="getMowareTrace" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="2het$DE1eOr" role="3uHU7w">
+                      <property role="Xl_RC" value=", App Trace " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -753,9 +773,9 @@
       <node concept="10P_77" id="1XvfUlynVNB" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="3oZR98NhJfc" role="jymVt">
-      <property role="TrG5h" value="eventBusLogging" />
+      <property role="TrG5h" value="settings" />
       <node concept="3Tm6S6" id="3oZR98NhJfd" role="1B3o_S" />
-      <node concept="10P_77" id="3oZR98NhJfe" role="1tU5fm" />
+      <node concept="17QB3L" id="2het$DE16KY" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="1S90xUtsOUW" role="jymVt">
       <property role="TrG5h" value="preventHtmlCache" />
@@ -933,8 +953,8 @@
         <node concept="17QB3L" id="5XGplYAW8U4" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="2YKZ3ifj3U8" role="3clF46">
-        <property role="TrG5h" value="cmdLogging" />
-        <node concept="10P_77" id="2YKZ3ifj3Uu" role="1tU5fm" />
+        <property role="TrG5h" value="aSettings" />
+        <node concept="17QB3L" id="2het$DE12U_" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="4x14MABr4xo" role="3clF45" />
       <node concept="3Tm1VV" id="4x14MABr4xp" role="1B3o_S" />
@@ -1056,10 +1076,10 @@
         <node concept="3clFbF" id="3oZR98NirEe" role="3cqZAp">
           <node concept="37vLTI" id="3oZR98NirOj" role="3clFbG">
             <node concept="37vLTw" id="2YKZ3ifj48t" role="37vLTx">
-              <ref role="3cqZAo" node="2YKZ3ifj3U8" resolve="cmdLogging" />
+              <ref role="3cqZAo" node="2YKZ3ifj3U8" resolve="aSettings" />
             </node>
             <node concept="37vLTw" id="3oZR98NirEc" role="37vLTJ">
-              <ref role="3cqZAo" node="3oZR98NhJfc" resolve="eventBusLogging" />
+              <ref role="3cqZAo" node="3oZR98NhJfc" resolve="settings" />
             </node>
           </node>
         </node>
@@ -2171,40 +2191,13 @@
     <node concept="2tJIrI" id="4ZThPOYHHN4" role="jymVt" />
     <node concept="3clFb_" id="3oZR98NhM0k" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getapp_CmdDetailLogging" />
-      <node concept="10P_77" id="3oZR98NhNdS" role="3clF45" />
+      <property role="TrG5h" value="getapp_Settings" />
+      <node concept="17QB3L" id="2het$DE17lz" role="3clF45" />
       <node concept="3Tm1VV" id="3oZR98NhM0m" role="1B3o_S" />
       <node concept="3clFbS" id="3oZR98NhM0q" role="3clF47">
         <node concept="3clFbF" id="3oZR98NhMWM" role="3cqZAp">
           <node concept="37vLTw" id="3oZR98NhMZq" role="3clFbG">
-            <ref role="3cqZAo" node="3oZR98NhJfc" resolve="eventBusLogging" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="3oZR98NhM0r" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="cmdDetailLogging" />
-      <node concept="37vLTG" id="3oZR98NhM0s" role="3clF46">
-        <property role="TrG5h" value="status" />
-        <node concept="10P_77" id="3oZR98NhM0t" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="3oZR98NhM0u" role="3clF45" />
-      <node concept="3Tm1VV" id="3oZR98NhM0v" role="1B3o_S" />
-      <node concept="3clFbS" id="3oZR98NhM0z" role="3clF47">
-        <node concept="3clFbF" id="3oZR98NhPpL" role="3cqZAp">
-          <node concept="3cpWs3" id="2YKZ3ifj21q" role="3clFbG">
-            <node concept="Xl_RD" id="2YKZ3ifj22a" role="3uHU7w">
-              <property role="Xl_RC" value=" (can not be changed via jmx right now)" />
-            </node>
-            <node concept="3cpWs3" id="3oZR98NhPrI" role="3uHU7B">
-              <node concept="Xl_RD" id="3oZR98NhPpK" role="3uHU7B">
-                <property role="Xl_RC" value="Eventbus logging is " />
-              </node>
-              <node concept="37vLTw" id="1S90xUtsRIE" role="3uHU7w">
-                <ref role="3cqZAo" node="3oZR98NhJfc" resolve="eventBusLogging" />
-              </node>
-            </node>
+            <ref role="3cqZAo" node="3oZR98NhJfc" resolve="settings" />
           </node>
         </node>
       </node>
@@ -2640,8 +2633,8 @@
       <node concept="3clFbS" id="2yuEF6qpWqr" role="3clF47" />
     </node>
     <node concept="3clFb_" id="3oZR98NhHtM" role="jymVt">
-      <property role="TrG5h" value="getapp_CmdDetailLogging" />
-      <node concept="10P_77" id="3oZR98NhO37" role="3clF45" />
+      <property role="TrG5h" value="getapp_Settings" />
+      <node concept="17QB3L" id="2het$DE1d9S" role="3clF45" />
       <node concept="3Tm1VV" id="3oZR98NhHtO" role="1B3o_S" />
       <node concept="3clFbS" id="3oZR98NhHtP" role="3clF47" />
     </node>
@@ -2796,16 +2789,6 @@
       <node concept="17QB3L" id="1w5Ldyj69Ml" role="3clF45" />
       <node concept="3Tm1VV" id="1w5Ldyj69Ja" role="1B3o_S" />
       <node concept="3clFbS" id="1w5Ldyj69Jb" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="3oZR98NhGFI" role="jymVt">
-      <property role="TrG5h" value="cmdDetailLogging" />
-      <node concept="37vLTG" id="3oZR98NhGFJ" role="3clF46">
-        <property role="TrG5h" value="status" />
-        <node concept="10P_77" id="3oZR98NhGFK" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="3oZR98NhGFL" role="3clF45" />
-      <node concept="3Tm1VV" id="3oZR98NhGFM" role="1B3o_S" />
-      <node concept="3clFbS" id="3oZR98NhGFN" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1S90xUtsKMR" role="jymVt">
       <property role="TrG5h" value="preventHtmlCaching" />
