@@ -1014,19 +1014,6 @@
             </node>
           </node>
           <node concept="3clFbH" id="pQ21WN6Uhi" role="3cqZAp" />
-          <node concept="3clFbF" id="pQ21WN6t02" role="3cqZAp">
-            <node concept="2OqwBi" id="pQ21WN6tDg" role="3clFbG">
-              <node concept="2OqwBi" id="pQ21WN6t34" role="2Oq$k0">
-                <node concept="1r4Lsj" id="pQ21WN6t01" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="pQ21WN6thP" role="2OqNvi">
-                  <ref role="3TtcxE" to="1btx:pQ21WN5qo8" resolve="options" />
-                </node>
-              </node>
-              <node concept="2DeJg1" id="pQ21WN6uf$" role="2OqNvi">
-                <ref role="1A0vxQ" to="1btx:pQ21WN5s6V" resolve="SelectFirstFOption" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
     </node>
