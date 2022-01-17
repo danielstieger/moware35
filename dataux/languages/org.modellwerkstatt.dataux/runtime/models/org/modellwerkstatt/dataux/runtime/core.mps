@@ -47164,11 +47164,6 @@
       <node concept="17QB3L" id="19EO7JR8$kU" role="1tU5fm" />
       <node concept="3Tm1VV" id="19EO7JR8$IZ" role="1B3o_S" />
     </node>
-    <node concept="312cEg" id="19EO7JR8$Tz" role="jymVt">
-      <property role="TrG5h" value="appVersion" />
-      <node concept="17QB3L" id="19EO7JR8$T$" role="1tU5fm" />
-      <node concept="3Tm1VV" id="19EO7JR8$T_" role="1B3o_S" />
-    </node>
     <node concept="2tJIrI" id="19EO7JRaxdf" role="jymVt" />
     <node concept="312cEg" id="19EO7JRbhZX" role="jymVt">
       <property role="TrG5h" value="__iOFXPlatform" />
@@ -47210,10 +47205,6 @@
         <property role="TrG5h" value="aAppFqName" />
         <node concept="17QB3L" id="19EO7JR8_BO" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="19EO7JR8_Do" role="3clF46">
-        <property role="TrG5h" value="aAppVersion" />
-        <node concept="17QB3L" id="19EO7JR8_Px" role="1tU5fm" />
-      </node>
       <node concept="3cqZAl" id="19EO7JR8zUM" role="3clF45" />
       <node concept="3Tm1VV" id="19EO7JR8zUN" role="1B3o_S" />
       <node concept="3clFbS" id="19EO7JR8zUO" role="3clF47">
@@ -47224,16 +47215,6 @@
             </node>
             <node concept="37vLTw" id="19EO7JR8_SP" role="37vLTJ">
               <ref role="3cqZAo" node="19EO7JR8$xW" resolve="appFqName" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="19EO7JR8Al_" role="3cqZAp">
-          <node concept="37vLTI" id="19EO7JR8AlA" role="3clFbG">
-            <node concept="37vLTw" id="19EO7JR8ARz" role="37vLTx">
-              <ref role="3cqZAo" node="19EO7JR8_Do" resolve="aAppVersion" />
-            </node>
-            <node concept="37vLTw" id="19EO7JR8AAJ" role="37vLTJ">
-              <ref role="3cqZAo" node="19EO7JR8$Tz" resolve="appVersion" />
             </node>
           </node>
         </node>
@@ -47419,21 +47400,6 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="19EO7JR8gfh" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="19EO7JR8gfi" role="jymVt">
-      <property role="TrG5h" value="getApplicationVersion" />
-      <node concept="17QB3L" id="19EO7JR8gfj" role="3clF45" />
-      <node concept="3Tm1VV" id="19EO7JR8gfk" role="1B3o_S" />
-      <node concept="3clFbS" id="19EO7JR8gfm" role="3clF47">
-        <node concept="3clFbF" id="19EO7JR8gfp" role="3cqZAp">
-          <node concept="37vLTw" id="19EO7JR8AZj" role="3clFbG">
-            <ref role="3cqZAo" node="19EO7JR8$Tz" resolve="appVersion" />
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="19EO7JR8gfn" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
