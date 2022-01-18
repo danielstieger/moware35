@@ -9139,6 +9139,42 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1pNkZjV7dax" role="jymVt" />
+    <node concept="2tJIrI" id="3PbVxlQkBEp" role="jymVt" />
+    <node concept="2YIFZL" id="3PbVxlQkBHh" role="jymVt">
+      <property role="TrG5h" value="main" />
+      <node concept="37vLTG" id="3PbVxlQkBHi" role="3clF46">
+        <property role="TrG5h" value="args" />
+        <node concept="10Q1$e" id="3PbVxlQkBHj" role="1tU5fm">
+          <node concept="17QB3L" id="3PbVxlQkBHk" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3PbVxlQkBHl" role="3clF45" />
+      <node concept="3Tm1VV" id="3PbVxlQkBHm" role="1B3o_S" />
+      <node concept="3clFbS" id="3PbVxlQkBHn" role="3clF47">
+        <node concept="3clFbF" id="3PbVxlQkBLq" role="3cqZAp">
+          <node concept="2YIFZM" id="3PbVxlQkBMn" role="3clFbG">
+            <ref role="37wK5l" node="1pNkZjV7db5" resolve="equalsBigDecimal" />
+            <ref role="1Pybhc" node="2vvVhmrHh2U" resolve="SaveObjectComperator" />
+            <node concept="1eOMI4" id="3PbVxlQkBPx" role="37wK5m">
+              <node concept="10QFUN" id="3PbVxlQkBPu" role="1eOMHV">
+                <node concept="3uibUv" id="3PbVxlQkBQA" role="10QFUM">
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+                </node>
+                <node concept="10Nm6u" id="3PbVxlQkBSi" role="10QFUP" />
+              </node>
+            </node>
+            <node concept="1eOMI4" id="3PbVxlQkBSN" role="37wK5m">
+              <node concept="10QFUN" id="3PbVxlQkBSO" role="1eOMHV">
+                <node concept="3uibUv" id="3PbVxlQkBSP" role="10QFUM">
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+                </node>
+                <node concept="10Nm6u" id="3PbVxlQkBSQ" role="10QFUP" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="2vvVhmrHh2V" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3aesqnvc$0z">
@@ -56571,7 +56607,7 @@
     </node>
     <node concept="Wx3nA" id="2het$DFevAL" role="jymVt">
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="DELEGATGECHAGNE" />
+      <property role="TrG5h" value="DELEGATGECHANGE" />
       <node concept="3Tm1VV" id="2het$DFevAM" role="1B3o_S" />
       <node concept="Xl_RD" id="2het$DFevAN" role="33vP2m">
         <property role="Xl_RC" value="org.modellwerkstatt.DelegateChange" />

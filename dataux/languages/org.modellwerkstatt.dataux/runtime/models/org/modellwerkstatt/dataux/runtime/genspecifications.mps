@@ -372,7 +372,7 @@
       <node concept="3clFbS" id="3sx4Hz319kd" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6CVJxS8gcow" role="jymVt">
-      <property role="TrG5h" value="getApplicationName" />
+      <property role="TrG5h" value="getShortAppName" />
       <node concept="17QB3L" id="6CVJxS8gcox" role="3clF45" />
       <node concept="3Tm1VV" id="6CVJxS8gcoy" role="1B3o_S" />
       <node concept="3clFbS" id="6CVJxS8gcoz" role="3clF47" />
@@ -499,6 +499,17 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="3PbVxlOJ$7_" role="jymVt">
+      <property role="TrG5h" value="collectDelegateChanges" />
+      <node concept="_YKpA" id="3PbVxlOJ$VW" role="3clF45">
+        <node concept="3uibUv" id="3PbVxlOJCjD" role="_ZDj9">
+          <ref role="3uigEE" to="1e0c:3PbVxlOJ_In" resolve="IDelegateChange" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3PbVxlOJ$7B" role="1B3o_S" />
+      <node concept="3clFbS" id="3PbVxlOJ$7C" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="3PbVxlOJ$4Z" role="jymVt" />
     <node concept="3clFb_" id="4xjkqfyaUVo" role="jymVt">
       <property role="TrG5h" value="forceNotEditable" />
       <node concept="3cqZAl" id="4xjkqfyaUVq" role="3clF45" />
@@ -2757,6 +2768,20 @@
       <node concept="3clFbS" id="5XruxTJFm$x" role="3clF47">
         <node concept="3clFbF" id="73W0U3CyBTX" role="3cqZAp">
           <node concept="10Nm6u" id="73W0U3CyBTW" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3PbVxlOLLRQ" role="jymVt">
+      <property role="TrG5h" value="collectDelegateChanges" />
+      <node concept="_YKpA" id="3PbVxlOLLRR" role="3clF45">
+        <node concept="3uibUv" id="3PbVxlOLLRS" role="_ZDj9">
+          <ref role="3uigEE" to="1e0c:3PbVxlOJ_In" resolve="IDelegateChange" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3PbVxlOLLRT" role="1B3o_S" />
+      <node concept="3clFbS" id="3PbVxlOLLRV" role="3clF47">
+        <node concept="3clFbF" id="3PbVxlOLMuh" role="3cqZAp">
+          <node concept="10Nm6u" id="3PbVxlOLMug" role="3clFbG" />
         </node>
       </node>
     </node>

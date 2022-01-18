@@ -5282,7 +5282,7 @@
                         </node>
                       </node>
                       <node concept="Xl_RD" id="7wwuOyhDM_s" role="3uHU7w">
-                        <property role="Xl_RC" value=": " />
+                        <property role="Xl_RC" value=" " />
                       </node>
                     </node>
                   </node>

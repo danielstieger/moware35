@@ -24,6 +24,12 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -380,7 +386,9 @@
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
-      <node concept="3cqZAl" id="3Ojm3UuyRaL" role="3clF45" />
+      <node concept="3uibUv" id="3PbVxlOPplI" role="3clF45">
+        <ref role="3uigEE" to="1e0c:3PbVxlOJ_In" resolve="IDelegateChange" />
+      </node>
       <node concept="3Tm1VV" id="3Ojm3UuyRaM" role="1B3o_S" />
       <node concept="3clFbS" id="3Ojm3UuyRaN" role="3clF47" />
     </node>
@@ -1167,6 +1175,23 @@
       </node>
       <node concept="3Tm1VV" id="3Ojm3UunEE0" role="1B3o_S" />
       <node concept="17QB3L" id="73W0U3Cz6Db" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="3PbVxlQ1Qpa" role="jymVt">
+      <property role="TrG5h" value="collectDelegateChanges" />
+      <node concept="_YKpA" id="3PbVxlQ1Qpb" role="3clF45">
+        <node concept="3uibUv" id="3PbVxlQ1Qpc" role="_ZDj9">
+          <ref role="3uigEE" to="1e0c:3PbVxlOJ_In" resolve="IDelegateChange" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3PbVxlQ1Qpd" role="1B3o_S" />
+      <node concept="3clFbS" id="3PbVxlQ1Qpf" role="3clF47">
+        <node concept="3clFbF" id="3PbVxlQ1ZRj" role="3cqZAp">
+          <node concept="10Nm6u" id="3PbVxlQ1ZRi" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3PbVxlQ1Qpg" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="3Ojm3UunEE2" role="jymVt">
       <property role="TrG5h" value="forceNotEditable" />
