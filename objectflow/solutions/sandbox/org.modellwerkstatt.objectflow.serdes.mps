@@ -49,8 +49,16 @@
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
@@ -74,6 +82,7 @@
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ" />
@@ -1236,7 +1245,41 @@
   <node concept="312cEu" id="6qNJO0Imc8R">
     <property role="TrG5h" value="CONV" />
     <property role="3GE5qa" value="" />
-    <node concept="2tJIrI" id="6qNJO0Imcat" role="jymVt" />
+    <node concept="Wx3nA" id="3wl_P2NF_Mk" role="jymVt">
+      <property role="TrG5h" value="CONV_DEFAULT_EN" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="3wl_P2NF$07" role="1tU5fm">
+        <ref role="3uigEE" node="7yJ7v78jUYu" resolve="IConvFormatOptions" />
+      </node>
+      <node concept="3Tm1VV" id="3wl_P2NFA4r" role="1B3o_S" />
+      <node concept="2ShNRf" id="3wl_P2NF$n0" role="33vP2m">
+        <node concept="1pGfFk" id="3wl_P2NF_J3" role="2ShVmc">
+          <ref role="37wK5l" node="7yJ7v78jTAN" resolve="ConvStdFormatters" />
+          <node concept="2ShNRf" id="16YJG28qXXw" role="37wK5m">
+            <node concept="1pGfFk" id="16YJG28qXXx" role="2ShVmc">
+              <ref role="37wK5l" node="7yJ7v78kCbU" resolve="ConvFormatOptions" />
+              <node concept="Xl_RD" id="16YJG28qXXy" role="37wK5m">
+                <property role="Xl_RC" value="hh:mm:ss dd.MM.yy" />
+              </node>
+              <node concept="Xl_RD" id="16YJG28qXXz" role="37wK5m">
+                <property role="Xl_RC" value="dd.MM.yy" />
+              </node>
+              <node concept="Xl_RD" id="16YJG28qXX$" role="37wK5m">
+                <property role="Xl_RC" value="#,##0.00" />
+              </node>
+              <node concept="Xl_RD" id="16YJG28qXX_" role="37wK5m">
+                <property role="Xl_RC" value="en" />
+              </node>
+              <node concept="Rm8GO" id="16YJG28qXXA" role="37wK5m">
+                <ref role="1Px2BO" node="1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
+                <ref role="Rm8GQ" node="1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3wl_P2NFxCM" role="jymVt" />
     <node concept="2YIFZL" id="1gQHsZ_YqEX" role="jymVt">
       <property role="TrG5h" value="jsonSerDes" />
       <node concept="3clFbS" id="6qNJO0ImcU6" role="3clF47">
