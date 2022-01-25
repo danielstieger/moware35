@@ -276,9 +276,6 @@
         <child id="1803469493727536396" name="concept" index="hTh3Z" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
-        <child id="1138662048170" name="value" index="tz02z" />
-      </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC">
         <reference id="1139880128956" name="concept" index="1A9B2P" />
@@ -3346,23 +3343,7 @@
       </node>
     </node>
     <node concept="13hLZK" id="22Psgbrx7Mv" role="13h7CW">
-      <node concept="3clFbS" id="22Psgbrx7Mw" role="2VODD2">
-        <node concept="3clFbF" id="I5W9GWGlbK" role="3cqZAp">
-          <node concept="2OqwBi" id="I5W9GWGlbY" role="3clFbG">
-            <node concept="2OqwBi" id="I5W9GWGlbO" role="2Oq$k0">
-              <node concept="13iPFW" id="I5W9GWGlbL" role="2Oq$k0" />
-              <node concept="3TrcHB" id="I5W9GWGlbU" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:5HvIBdINHAb" resolve="logLevel" />
-              </node>
-            </node>
-            <node concept="tyxLq" id="I5W9GWGlc4" role="2OqNvi">
-              <node concept="21nZrQ" id="5HvIBdINHBe" role="tz02z">
-                <ref role="21nZrZ" to="un0u:5HvIBdINHd5" resolve="DEBUG" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="22Psgbrx7Mw" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="3g5RX4qMJr6" role="13h7CS">
       <property role="2Ki8OM" value="true" />
