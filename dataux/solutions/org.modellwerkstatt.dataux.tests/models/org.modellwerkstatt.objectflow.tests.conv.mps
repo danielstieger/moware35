@@ -14,6 +14,7 @@
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -194,7 +195,6 @@
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="4079546759073522236" name="configuredComponents" index="23Ghgl" />
-        <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
       </concept>
       <concept id="4533072425307715670" name="org.modellwerkstatt.objectflow.structure.StatusElement" flags="ng" index="2XvgOc">
@@ -256,9 +256,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="6303390138597557532" name="org.modellwerkstatt.objectflow.structure.ConvTextExpression" flags="ng" index="1WHerN">
         <property id="6303390138597572053" name="type" index="1WHdSU" />
         <child id="6303390138597674847" name="expression" index="1WEEMK" />
@@ -280,6 +277,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -2767,7 +2771,7 @@
             <property role="TrG5h" value="JSON_INPUT" />
             <node concept="17QB3L" id="6MByTIyxxOE" role="1tU5fm" />
             <node concept="Xl_RD" id="6MByTIyxxQf" role="33vP2m">
-              <property role="Xl_RC" value="{\&quot;id\&quot;:1,\&quot;rootName\&quot;:\&quot;Root\&quot;,\&quot;listOfChilds\&quot;:[{\&quot;id\&quot;:2,\&quot;childName\&quot;:\&quot;Child 2\&quot;,\&quot;listOfChilds\&quot;:[]},{\&quot;id\&quot;:3,\&quot;childName\&quot;:\&quot;Child 3\&quot;,\&quot;listOfChilds\&quot;:[]},{\&quot;id\&quot;:4,\&quot;childName\&quot;:\&quot;Child 4\&quot;,\&quot;listOfChilds\&quot;:[{\&quot;id\&quot;:5,\&quot;childName\&quot;:\&quot;Child 5\&quot;}]}]}\n" />
+              <property role="Xl_RC" value="{\&quot;id\&quot;:1,\&quot;rootName\&quot;:\&quot;Root\&quot;,\&quot;listOfChilds\&quot;:[{\&quot;id\&quot;:2,\&quot;childName\&quot;:\&quot;Child 2\&quot;,\&quot;listOfChilds\&quot;:[]},{\&quot;id\&quot;:3,\&quot;childName\&quot;:\&quot;Child 3\&quot;,\&quot;listOfChilds\&quot;:[]},{\&quot;id\&quot;:4,\&quot;childName\&quot;:\&quot;Child 4\&quot;,\&quot;listOfChilds\&quot;:[{\&quot;id\&quot;:5,\&quot;childName\&quot;:\&quot;Child 5\&quot;,\&quot;listOfChilds\&quot;:[]}]}]}" />
             </node>
           </node>
         </node>
@@ -8068,8 +8072,8 @@
                 <node concept="Xl_RD" id="mfwRPHf15Y" role="37wK5m">
                   <property role="Xl_RC" value="en" />
                 </node>
-                <node concept="Rm8GO" id="mfwRPHf2uN" role="37wK5m">
-                  <ref role="Rm8GQ" to="18b:16NbNVBStC0" resolve="DEBUG_TO_STDERR" />
+                <node concept="Rm8GO" id="mfwRPHjpsV" role="37wK5m">
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
                   <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
                 </node>
               </node>
@@ -8106,9 +8110,11 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="6MByTIyxwlj" role="3cqZAp">
-          <node concept="2OqwBi" id="6MByTIyxwT5" role="1gVkn0">
-            <node concept="2OqwBi" id="6MByTIyxwtX" role="2Oq$k0">
+        <node concept="3cpWs8" id="mfwRPHl26e" role="3cqZAp">
+          <node concept="3cpWsn" id="mfwRPHl26h" role="3cpWs9">
+            <property role="TrG5h" value="st" />
+            <node concept="17QB3L" id="mfwRPHl26c" role="1tU5fm" />
+            <node concept="2OqwBi" id="6MByTIyxwtX" role="33vP2m">
               <node concept="37vLTw" id="6MByTIyxwno" role="2Oq$k0">
                 <ref role="3cqZAo" node="6MByTIyrFBM" resolve="myDeser" />
               </node>
@@ -8119,11 +8125,37 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="mfwRPHlQun" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="mfwRPHl2k$" role="8Wnug">
+            <node concept="2OqwBi" id="mfwRPHl2kx" role="3clFbG">
+              <node concept="10M0yZ" id="mfwRPHl2ky" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="mfwRPHl2kz" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <node concept="37vLTw" id="mfwRPHl2ov" role="37wK5m">
+                  <ref role="3cqZAo" node="mfwRPHl26h" resolve="st" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="mfwRPHlQgP" role="3cqZAp" />
+        <node concept="1gVbGN" id="6MByTIyxwlj" role="3cqZAp">
+          <node concept="2OqwBi" id="6MByTIyxwT5" role="1gVkn0">
             <node concept="liA8E" id="6MByTIyxx0E" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="6MByTIyxx5J" role="37wK5m">
                 <property role="Xl_RC" value="Child 5" />
               </node>
+            </node>
+            <node concept="37vLTw" id="mfwRPHl2jD" role="2Oq$k0">
+              <ref role="3cqZAo" node="mfwRPHl26h" resolve="st" />
             </node>
           </node>
         </node>
@@ -8576,45 +8608,6 @@
         </node>
         <node concept="3clFbH" id="7_PeuXFoMZs" role="3cqZAp" />
       </node>
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpcY" role="38MLOi">
-      <ref role="1Cak38" node="16YJG28qXXq" resolve="Serialize and check various types here.." />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpcZ" role="38MLOi">
-      <ref role="1Cak38" node="3aWJ4fwLzDa" resolve="Serialize null fields to json correctly.." />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd0" role="38MLOi">
-      <ref role="1Cak38" node="16YJG28HGy$" resolve="Using Key Substitutioner for json to obj graph" />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd1" role="38MLOi">
-      <ref role="1Cak38" node="16YJG28IN0Q" resolve="Writing empty list and null object to json" />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd2" role="38MLOi">
-      <ref role="1Cak38" node="16YJG28J3$J" resolve="Writing null values to json" />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd3" role="38MLOi">
-      <ref role="1Cak38" node="16YJG28ItbW" resolve="Just trying to serialize the complex ROOT obj, but check for BOOLEAN also." />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd4" role="38MLOi">
-      <ref role="1Cak38" node="16YJG28J$0m" resolve="Just trying to serialize an entity with valueObject" />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd5" role="38MLOi">
-      <ref role="1Cak38" node="16YJG28S3B2" resolve="Serialize a list of DTOs into a string." />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd6" role="38MLOi">
-      <ref role="1Cak38" node="7ecvNzaoBl3" resolve="Serialize null list property to null field" />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd7" role="38MLOi">
-      <ref role="1Cak38" node="5Db$$mDCTlM" resolve="Serialize a list of simple int's " />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpd9" role="38MLOi">
-      <ref role="1Cak38" node="5Db$$mDEXBB" resolve="Serialize complex object with list of simple int's " />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpda" role="38MLOi">
-      <ref role="1Cak38" node="7_PeuXEvyJS" resolve="StringSerDes: Serialize and check various types here.." />
-    </node>
-    <node concept="1Cak35" id="mfwRPHfpdb" role="38MLOi">
-      <ref role="1Cak38" node="7_PeuXFoMYo" resolve="FopXMLSerializer: Serialize and check various types here.." />
     </node>
   </node>
   <node concept="34Athd" id="16YJG28Jyx5">
