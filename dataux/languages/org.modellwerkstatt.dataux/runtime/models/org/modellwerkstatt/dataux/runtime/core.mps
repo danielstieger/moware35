@@ -71,6 +71,7 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
@@ -8588,6 +8589,7 @@
     </node>
     <node concept="2tJIrI" id="4nH4LOErF0l" role="jymVt" />
     <node concept="2tJIrI" id="4nH4LOErZzc" role="jymVt" />
+    <node concept="2tJIrI" id="6f52sUEIkcF" role="jymVt" />
     <node concept="3clFb_" id="4nH4LOErImx" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="logMowareTracing" />
@@ -8633,6 +8635,10 @@
       <node concept="37vLTG" id="4FgSVMsj9D6" role="3clF46">
         <property role="TrG5h" value="diffTime" />
         <node concept="3cpWsb" id="4FgSVMsjE5$" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6f52sUEIz5x" role="3clF46">
+        <property role="TrG5h" value="mem" />
+        <node concept="3cpWsb" id="6f52sUEIzbK" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4FgSVMsj9wO" role="3clF47" />
       <node concept="3Tm1VV" id="4FgSVMsj9wP" role="1B3o_S" />
@@ -30461,6 +30467,10 @@
         <property role="TrG5h" value="diffTime" />
         <node concept="3cpWsb" id="4FgSVMsqEnt" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="6f52sUEIsr6" role="3clF46">
+        <property role="TrG5h" value="mem" />
+        <node concept="3cpWsb" id="6f52sUEIuo6" role="1tU5fm" />
+      </node>
       <node concept="3Tm1VV" id="4FgSVMsqEnv" role="1B3o_S" />
       <node concept="3cqZAl" id="4FgSVMsqEnw" role="3clF45" />
       <node concept="3clFbS" id="4FgSVMsqEnz" role="3clF47">
@@ -30527,6 +30537,35 @@
           </node>
         </node>
         <node concept="3clFbH" id="4FgSVMs$usZ" role="3cqZAp" />
+        <node concept="3clFbJ" id="6f52sUEIvQO" role="3cqZAp">
+          <node concept="3clFbS" id="6f52sUEIvQQ" role="3clFbx">
+            <node concept="3clFbF" id="6f52sUEIxXk" role="3cqZAp">
+              <node concept="2OqwBi" id="6f52sUEIy30" role="3clFbG">
+                <node concept="37vLTw" id="6f52sUEIxXi" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4FgSVMs_cKl" resolve="info" />
+                </node>
+                <node concept="liA8E" id="6f52sUEIy8h" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:4FgSVMs$3eX" resolve="addParameter" />
+                  <node concept="10M0yZ" id="6f52sUEIyl$" role="37wK5m">
+                    <ref role="3cqZAo" to="28jr:6f52sUEIpdJ" resolve="MEM" />
+                    <ref role="1PxDUh" to="28jr:4FgSVMpn0nI" resolve="CoreReporterInfo" />
+                  </node>
+                  <node concept="37vLTw" id="6f52sUEIyuT" role="37wK5m">
+                    <ref role="3cqZAo" node="6f52sUEIsr6" resolve="mem" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eOSWO" id="6f52sUEIxbU" role="3clFbw">
+            <node concept="3cmrfG" id="6f52sUEIxeG" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="6f52sUEIw7D" role="3uHU7B">
+              <ref role="3cqZAo" node="6f52sUEIsr6" resolve="mem" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4FgSVMs$ut0" role="3cqZAp">
           <node concept="2OqwBi" id="4FgSVMs$ut1" role="3clFbG">
             <node concept="37vLTw" id="1WX6wrRF8Km" role="2Oq$k0">
@@ -39058,9 +39097,76 @@
                     <node concept="37vLTw" id="3PbVxlO73LE" role="37wK5m">
                       <ref role="3cqZAo" node="3PbVxlO6KQw" resolve="diffTime" />
                     </node>
+                    <node concept="3cmrfG" id="6f52sUEIC9b" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="6f52sUEIbQJ" role="3eNLev">
+            <node concept="2ZW3vV" id="6f52sUEIdIM" role="3eO9$A">
+              <node concept="3uibUv" id="6f52sUEIedB" role="2ZW6by">
+                <ref role="3uigEE" node="zBgVaD6heB" resolve="OpenUiEvent" />
+              </node>
+              <node concept="37vLTw" id="6f52sUEIdb_" role="2ZW6bz">
+                <ref role="3cqZAo" node="3PbVxlO5Na4" resolve="ev" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="6f52sUEIbQL" role="3eOfB_">
+              <node concept="3clFbF" id="6f52sUEIgk4" role="3cqZAp">
+                <node concept="2OqwBi" id="6f52sUEIgk5" role="3clFbG">
+                  <node concept="37vLTw" id="6f52sUEIgk6" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                  </node>
+                  <node concept="liA8E" id="6f52sUEIgk7" role="2OqNvi">
+                    <ref role="37wK5l" node="4FgSVMsj9wF" resolve="logMowareTracing" />
+                    <node concept="37vLTw" id="6f52sUEIgk8" role="37wK5m">
+                      <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
+                    </node>
+                    <node concept="10M0yZ" id="6f52sUEIgk9" role="37wK5m">
+                      <ref role="3cqZAo" to="28jr:4g_sjDL92_6" resolve="EVENT" />
+                      <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                    </node>
+                    <node concept="2OqwBi" id="6f52sUEIiuc" role="37wK5m">
+                      <node concept="37vLTw" id="6f52sUEIip5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3PbVxlO5Na4" resolve="ev" />
+                      </node>
+                      <node concept="liA8E" id="6f52sUEIj2x" role="2OqNvi">
+                        <ref role="37wK5l" node="77tRpxxGzwB" resolve="name" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="6f52sUEIgkb" role="37wK5m">
+                      <node concept="37vLTw" id="6f52sUEIgkc" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3PbVxlO5Na4" resolve="ev" />
+                      </node>
+                      <node concept="liA8E" id="6f52sUEIgkd" role="2OqNvi">
+                        <ref role="37wK5l" node="77tRpxxGwCd" resolve="paramInfo" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="6f52sUEIgke" role="37wK5m">
+                      <ref role="3cqZAo" node="3PbVxlO6KQw" resolve="diffTime" />
+                    </node>
+                    <node concept="FJ1c_" id="6f52sUEIDbX" role="37wK5m">
+                      <node concept="2OqwBi" id="6f52sUEICzn" role="3uHU7B">
+                        <node concept="2YIFZM" id="6f52sUEICtU" role="2Oq$k0">
+                          <ref role="37wK5l" to="wyt6:~Runtime.getRuntime()" resolve="getRuntime" />
+                          <ref role="1Pybhc" to="wyt6:~Runtime" resolve="Runtime" />
+                        </node>
+                        <node concept="liA8E" id="6f52sUEICFD" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Runtime.totalMemory()" resolve="totalMemory" />
+                        </node>
+                      </node>
+                      <node concept="3cmrfG" id="6f52sUEIDiX" role="3uHU7w">
+                        <property role="3cmrfH" value="1000000" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6f52sUEIedW" role="3cqZAp" />
+              <node concept="3clFbH" id="6f52sUEIedY" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -40058,6 +40164,9 @@
                                 </node>
                                 <node concept="37vLTw" id="4FgSVMspk54" role="37wK5m">
                                   <ref role="3cqZAo" node="2P$1DRip_Qm" resolve="diffTime" />
+                                </node>
+                                <node concept="3cmrfG" id="6f52sUF7uef" role="37wK5m">
+                                  <property role="3cmrfH" value="0" />
                                 </node>
                               </node>
                             </node>

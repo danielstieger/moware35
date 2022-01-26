@@ -25,7 +25,7 @@
   <property name="buildUserHome"         value="/Users/danielstieger/migration/2020_3" />
   <property name="stuffHome"             value="/Users/danielstieger/stuff" />
    
-  <property name="mowareMpsHomeDir"      value="/Applications/MPS_2020_3.app/Contents" />
+  <property name="mowareMpsHomeDir"      value="/Applications/MPS_2020_36.app/Contents" />
   <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
   <property name="mowareHome"            value="${buildUserHome}/moware" />
     
