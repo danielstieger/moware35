@@ -12542,6 +12542,82 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="7G122NuetyH" role="3cqZAp">
+          <node concept="3cpWsn" id="7G122NuetyK" role="3cpWs9">
+            <property role="TrG5h" value="noGraphsOpen" />
+            <node concept="10P_77" id="7G122NuetyF" role="1tU5fm" />
+            <node concept="1eOMI4" id="7G122Nufxwx" role="33vP2m">
+              <node concept="3clFbC" id="7G122Nufxwy" role="1eOMHV">
+                <node concept="10Nm6u" id="7G122Nufxwz" role="3uHU7w" />
+                <node concept="37vLTw" id="7G122Nufxw$" role="3uHU7B">
+                  <ref role="3cqZAo" node="1dzqM5xovLP" resolve="promptWindowCommandContainer" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7G122NueXF4" role="3cqZAp" />
+        <node concept="1Dw8fO" id="7G122NueCcV" role="3cqZAp">
+          <node concept="3clFbS" id="7G122NueCcX" role="2LFqv$">
+            <node concept="3clFbJ" id="7G122Nufa_s" role="3cqZAp">
+              <node concept="3clFbS" id="7G122Nufa_u" role="3clFbx">
+                <node concept="3clFbF" id="7G122Nufw_r" role="3cqZAp">
+                  <node concept="37vLTI" id="7G122Nufx1S" role="3clFbG">
+                    <node concept="3clFbT" id="7G122NufxjG" role="37vLTx" />
+                    <node concept="37vLTw" id="7G122Nufw_p" role="37vLTJ">
+                      <ref role="3cqZAo" node="7G122NuetyK" resolve="noGraphsOpen" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="7G122NufrY4" role="3clFbw">
+                <node concept="2OqwBi" id="7G122NufrY6" role="3fr31v">
+                  <node concept="2OqwBi" id="7G122NufrY7" role="2Oq$k0">
+                    <node concept="37vLTw" id="7G122NufrY8" role="2Oq$k0">
+                      <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
+                    </node>
+                    <node concept="liA8E" id="7G122NufrY9" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                      <node concept="37vLTw" id="7G122NufrYa" role="37wK5m">
+                        <ref role="3cqZAo" node="7G122NueCcY" resolve="i" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7G122NufrYb" role="2OqNvi">
+                    <ref role="37wK5l" node="T1jWmsXBXk" resolve="isDocumentSearch" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="7G122NueCcY" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="7G122NueCKa" role="1tU5fm" />
+            <node concept="3cmrfG" id="7G122NueCZn" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="7G122NueE4d" role="1Dwp0S">
+            <node concept="2OqwBi" id="7G122NueG8x" role="3uHU7w">
+              <node concept="37vLTw" id="7G122NueEJW" role="2Oq$k0">
+                <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
+              </node>
+              <node concept="liA8E" id="7G122NueGO9" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="7G122NueDev" role="3uHU7B">
+              <ref role="3cqZAo" node="7G122NueCcY" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="7G122NueM3z" role="1Dwrff">
+            <node concept="37vLTw" id="7G122NueM3_" role="2$L3a6">
+              <ref role="3cqZAo" node="7G122NueCcY" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7G122NueBcd" role="3cqZAp" />
+        <node concept="3clFbH" id="7G122NueBA1" role="3cqZAp" />
         <node concept="3clFbJ" id="20ohnkbA6At" role="3cqZAp">
           <node concept="3clFbS" id="20ohnkbA6Aw" role="3clFbx">
             <node concept="3clFbF" id="7Mah_ahp0XP" role="3cqZAp">
@@ -12578,28 +12654,8 @@
             <node concept="37vLTw" id="64PSf$EEibD" role="3uHU7B">
               <ref role="3cqZAo" node="64PSf$EEg9o" resolve="force" />
             </node>
-            <node concept="1eOMI4" id="64PSf$EEihL" role="3uHU7w">
-              <node concept="1Wc70l" id="64PSf$EEihM" role="1eOMHV">
-                <node concept="3clFbC" id="64PSf$EEihN" role="3uHU7w">
-                  <node concept="10Nm6u" id="64PSf$EEihO" role="3uHU7w" />
-                  <node concept="37vLTw" id="64PSf$EEihP" role="3uHU7B">
-                    <ref role="3cqZAo" node="1dzqM5xovLP" resolve="promptWindowCommandContainer" />
-                  </node>
-                </node>
-                <node concept="3clFbC" id="64PSf$EEihQ" role="3uHU7B">
-                  <node concept="2OqwBi" id="64PSf$EEihR" role="3uHU7B">
-                    <node concept="37vLTw" id="64PSf$EEihS" role="2Oq$k0">
-                      <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
-                    </node>
-                    <node concept="liA8E" id="64PSf$EEihT" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
-                    </node>
-                  </node>
-                  <node concept="3cmrfG" id="64PSf$EEihU" role="3uHU7w">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                </node>
-              </node>
+            <node concept="37vLTw" id="7G122Nuf_6m" role="3uHU7w">
+              <ref role="3cqZAo" node="7G122NuetyK" resolve="noGraphsOpen" />
             </node>
           </node>
           <node concept="9aQIb" id="2wSq35xIXLh" role="9aQIa">

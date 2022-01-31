@@ -2085,7 +2085,7 @@
         <property role="TrG5h" value="CLOSE_APP" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="2zlZ_in69ht" role="37wK5m">
-          <property role="Xl_RC" value="Soll die Applikation wirklich geschlossen werden?\nAlle laufenden Kommandos werden abgebrochen." />
+          <property role="Xl_RC" value="Vorsicht: Es sind Belege/Dokumente offen, die noch NICHT gespeichert sind!\nWenn Sie die Applikation jetzt schließen werden alle laufenden Kommandos\nabgebrochen und deren Daten NICHT gespeichert!\n\nWollen Sie die Applikation dennoch jetzt schließen?" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVB" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVC" role="37wK5m" />
@@ -2637,11 +2637,11 @@
         <property role="TrG5h" value="SESSION_DIRTY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4vUcH_0hKSP" role="37wK5m">
-          <property role="Xl_RC" value="Veränderungen wurden NICHT gespeichert!\nMöchten Sie fortfahren ohne zu speichern?\n" />
+          <property role="Xl_RC" value="Vorsicht: Veränderungen sind NICHT gespeichert!\nWollen Sie wirklich schließen OHNE zu speichern?\n" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD0" role="37wK5m" />
         <node concept="Xl_RD" id="3V1gzeLFrAl" role="37wK5m">
-          <property role="Xl_RC" value="Veränderungen wurden NICHT gespeichert!\nMöchten Sie fortfahren ohne zu speichern?\n" />
+          <property role="Xl_RC" value="Vorsicht: Veränderungen wurden NICHT gespeichert!\nWollen Sie wirklich schließen OHNE zu speichern?\n" />
         </node>
         <node concept="Xl_RD" id="WkCinTf5Ug" role="37wK5m">
           <property role="Xl_RC" value="Data was changed but NOT saved yet. Do you want to proceed without saving?" />

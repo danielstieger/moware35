@@ -129,13 +129,13 @@
         <div class="w3-col s6 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("-") }}</div>
         <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
     </div>
-    <div class="w3-bar sv-question-red" onclick="svHideAllContainsDropdown()">
+    <div class="w3-bar" onclick="svHideAllContainsDropdown()">
         {% for btn in message.buttons %}
         {% if loop.length == 1 %}
             <span class="w3-bar-item sv-bartitle"> </span>
             <div class="w3-right">
         {% endif %}
-        <button type="button" id="{{ btn.buttonCode }}" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('{{ btn.buttonCode }}');">
+        <button type="button" id="{{ btn.buttonCode }}" class="w3-bar-item w3-button w3-dark-gray" onClick="javascript: saveSubmit('{{ btn.buttonCode }}');">
         {{ btn.label }} </button>
 
         {% if loop.first and loop.length >= 2 %}
