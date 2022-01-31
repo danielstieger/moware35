@@ -39800,6 +39800,21 @@
                                 <node concept="3oM_SD" id="5HvIBdJXHSt" role="1PaTwD">
                                   <property role="3oM_SC" value="..." />
                                 </node>
+                                <node concept="3oM_SD" id="7G122NtS9T2" role="1PaTwD">
+                                  <property role="3oM_SC" value="some" />
+                                </node>
+                                <node concept="3oM_SD" id="7G122NtS9T6" role="1PaTwD">
+                                  <property role="3oM_SC" value="old" />
+                                </node>
+                                <node concept="3oM_SD" id="7G122NtS9Tb" role="1PaTwD">
+                                  <property role="3oM_SC" value="session" />
+                                </node>
+                                <node concept="3oM_SD" id="7G122NtSa03" role="1PaTwD">
+                                  <property role="3oM_SC" value="hanging" />
+                                </node>
+                                <node concept="3oM_SD" id="7G122NtSa0a" role="1PaTwD">
+                                  <property role="3oM_SC" value="around?" />
+                                </node>
                               </node>
                             </node>
                             <node concept="3clFbF" id="6nqn8kLvFc$" role="3cqZAp">
@@ -40031,7 +40046,7 @@
                                   </node>
                                   <node concept="3cpWs3" id="ZwppkOwTRN" role="37wK5m">
                                     <node concept="Xl_RD" id="ZwppkOwTTt" role="3uHU7w">
-                                      <property role="Xl_RC" value=") took more then one sec. - ?clocks sync?" />
+                                      <property role="Xl_RC" value=") took more then one sec. - (clocks synced?)" />
                                     </node>
                                     <node concept="3cpWs3" id="ZwppkOwT8D" role="3uHU7B">
                                       <node concept="3cpWs3" id="ZwppkOwSIA" role="3uHU7B">
