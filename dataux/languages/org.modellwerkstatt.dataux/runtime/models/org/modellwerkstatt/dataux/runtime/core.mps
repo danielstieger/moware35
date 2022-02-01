@@ -9411,7 +9411,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3ooJmL_yul6" role="3cqZAp" />
             <node concept="3SKdUt" id="20ohnkbKBme" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdJXHmg" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdJXHmh" role="1PaTwD">
@@ -9428,6 +9427,23 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="6hRtSBj$PCD" role="3cqZAp">
+              <node concept="2OqwBi" id="6hRtSBj$TXi" role="3clFbG">
+                <node concept="37vLTw" id="6hRtSBj$PCB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+                </node>
+                <node concept="liA8E" id="6hRtSBj$XaP" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:6hRtSBjzphB" resolve="setAppStartupLocalMillis" />
+                  <node concept="2YIFZM" id="6hRtSBj$XVe" role="37wK5m">
+                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
+                    <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6hRtSBj_bS1" role="3cqZAp" />
+            <node concept="3clFbH" id="6hRtSBj_dwv" role="3cqZAp" />
+            <node concept="3clFbH" id="6hRtSBj_dBJ" role="3cqZAp" />
             <node concept="3clFbF" id="5YG5DD8TIDs" role="3cqZAp">
               <node concept="2OqwBi" id="5YG5DD8TJ99" role="3clFbG">
                 <node concept="Xjq3P" id="5YG5DD8TIDq" role="2Oq$k0" />
@@ -9475,6 +9491,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="6hRtSBj_3b0" role="3cqZAp" />
             <node concept="3SKdUt" id="20ohnkbKCcl" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdJXHml" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdJXHmm" role="1PaTwD">
@@ -16606,75 +16623,101 @@
                       <node concept="Xl_RD" id="7lZUamR5poy" role="37wK5m">
                         <property role="Xl_RC" value="locking" />
                       </node>
-                      <node concept="2OqwBi" id="ZwppkOvTt6" role="37wK5m">
-                        <node concept="2OqwBi" id="ZwppkOvSjD" role="2Oq$k0">
-                          <node concept="2OqwBi" id="4Z3lS8BbP4E" role="2Oq$k0">
-                            <node concept="2OqwBi" id="7lZUamReGct" role="2Oq$k0">
-                              <node concept="2OqwBi" id="7lZUamR5wC_" role="2Oq$k0">
-                                <node concept="2OqwBi" id="7lZUamRgWyR" role="2Oq$k0">
-                                  <node concept="2YIFZM" id="7lZUamR5wBe" role="2Oq$k0">
-                                    <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
-                                    <ref role="37wK5l" to="vpat:~Json.object()" resolve="object" />
-                                  </node>
-                                  <node concept="liA8E" id="7lZUamRgW_g" role="2OqNvi">
-                                    <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
-                                    <node concept="Xl_RD" id="7lZUamRgW_J" role="37wK5m">
-                                      <property role="Xl_RC" value="type" />
+                      <node concept="2OqwBi" id="6hRtSBjxRnd" role="37wK5m">
+                        <node concept="2OqwBi" id="ZwppkOvTt6" role="2Oq$k0">
+                          <node concept="2OqwBi" id="ZwppkOvSjD" role="2Oq$k0">
+                            <node concept="2OqwBi" id="4Z3lS8BbP4E" role="2Oq$k0">
+                              <node concept="2OqwBi" id="7lZUamReGct" role="2Oq$k0">
+                                <node concept="2OqwBi" id="7lZUamR5wC_" role="2Oq$k0">
+                                  <node concept="2OqwBi" id="7lZUamRgWyR" role="2Oq$k0">
+                                    <node concept="2YIFZM" id="7lZUamR5wBe" role="2Oq$k0">
+                                      <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
+                                      <ref role="37wK5l" to="vpat:~Json.object()" resolve="object" />
                                     </node>
-                                    <node concept="Xl_RD" id="7lZUamRgWIo" role="37wK5m">
-                                      <property role="Xl_RC" value="requestLock" />
+                                    <node concept="liA8E" id="7lZUamRgW_g" role="2OqNvi">
+                                      <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
+                                      <node concept="Xl_RD" id="7lZUamRgW_J" role="37wK5m">
+                                        <property role="Xl_RC" value="type" />
+                                      </node>
+                                      <node concept="Xl_RD" id="7lZUamRgWIo" role="37wK5m">
+                                        <property role="Xl_RC" value="requestLock" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="7lZUamR5wH1" role="2OqNvi">
+                                    <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
+                                    <node concept="Xl_RD" id="7lZUamR5wJh" role="37wK5m">
+                                      <property role="Xl_RC" value="lockName" />
+                                    </node>
+                                    <node concept="37vLTw" id="7lZUamR5wQJ" role="37wK5m">
+                                      <ref role="3cqZAo" node="4Z3lS8B2L9s" resolve="lockName" />
                                     </node>
                                   </node>
                                 </node>
-                                <node concept="liA8E" id="7lZUamR5wH1" role="2OqNvi">
+                                <node concept="liA8E" id="7lZUamReGf8" role="2OqNvi">
                                   <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
-                                  <node concept="Xl_RD" id="7lZUamR5wJh" role="37wK5m">
-                                    <property role="Xl_RC" value="lockName" />
+                                  <node concept="Xl_RD" id="7lZUamReGjT" role="37wK5m">
+                                    <property role="Xl_RC" value="userName" />
                                   </node>
-                                  <node concept="37vLTw" id="7lZUamR5wQJ" role="37wK5m">
-                                    <ref role="3cqZAo" node="4Z3lS8B2L9s" resolve="lockName" />
+                                  <node concept="1rXfSq" id="7lZUamRgyT$" role="37wK5m">
+                                    <ref role="37wK5l" node="7lZUamRfqwu" resolve="getLockingUserName" />
                                   </node>
                                 </node>
                               </node>
-                              <node concept="liA8E" id="7lZUamReGf8" role="2OqNvi">
+                              <node concept="liA8E" id="4Z3lS8BbPkj" role="2OqNvi">
                                 <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
-                                <node concept="Xl_RD" id="7lZUamReGjT" role="37wK5m">
-                                  <property role="Xl_RC" value="userName" />
+                                <node concept="Xl_RD" id="4Z3lS8BbPoF" role="37wK5m">
+                                  <property role="Xl_RC" value="userInstanceName" />
                                 </node>
-                                <node concept="1rXfSq" id="7lZUamRgyT$" role="37wK5m">
-                                  <ref role="37wK5l" node="7lZUamRfqwu" resolve="getLockingUserName" />
+                                <node concept="1rXfSq" id="4Z3lS8BcKje" role="37wK5m">
+                                  <ref role="37wK5l" node="4Z3lS8BbWUT" resolve="getLockingInstName" />
                                 </node>
                               </node>
                             </node>
-                            <node concept="liA8E" id="4Z3lS8BbPkj" role="2OqNvi">
+                            <node concept="liA8E" id="ZwppkOvS$d" role="2OqNvi">
                               <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
-                              <node concept="Xl_RD" id="4Z3lS8BbPoF" role="37wK5m">
-                                <property role="Xl_RC" value="userInstanceName" />
+                              <node concept="Xl_RD" id="ZwppkOvSDi" role="37wK5m">
+                                <property role="Xl_RC" value="requestTimestamp" />
                               </node>
-                              <node concept="1rXfSq" id="4Z3lS8BcKje" role="37wK5m">
-                                <ref role="37wK5l" node="4Z3lS8BbWUT" resolve="getLockingInstName" />
+                              <node concept="37vLTw" id="6EKawapJdcr" role="37wK5m">
+                                <ref role="3cqZAo" node="6EKawapJ4A_" resolve="ebLockRequestedTimestamp" />
                               </node>
                             </node>
                           </node>
-                          <node concept="liA8E" id="ZwppkOvS$d" role="2OqNvi">
+                          <node concept="liA8E" id="ZwppkOvTEb" role="2OqNvi">
                             <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
-                            <node concept="Xl_RD" id="ZwppkOvSDi" role="37wK5m">
-                              <property role="Xl_RC" value="requestTimestamp" />
+                            <node concept="Xl_RD" id="ZwppkOvTQB" role="37wK5m">
+                              <property role="Xl_RC" value="containerHash" />
                             </node>
-                            <node concept="37vLTw" id="6EKawapJdcr" role="37wK5m">
-                              <ref role="3cqZAo" node="6EKawapJ4A_" resolve="ebLockRequestedTimestamp" />
+                            <node concept="2OqwBi" id="ZwppkOvUiH" role="37wK5m">
+                              <node concept="Xjq3P" id="ZwppkOvUer" role="2Oq$k0" />
+                              <node concept="liA8E" id="ZwppkOvUrY" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
+                              </node>
                             </node>
                           </node>
                         </node>
-                        <node concept="liA8E" id="ZwppkOvTEb" role="2OqNvi">
+                        <node concept="liA8E" id="6hRtSBjxRXV" role="2OqNvi">
                           <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
-                          <node concept="Xl_RD" id="ZwppkOvTQB" role="37wK5m">
-                            <property role="Xl_RC" value="containerHash" />
+                          <node concept="Xl_RD" id="6hRtSBjxVl3" role="37wK5m">
+                            <property role="Xl_RC" value="appStartup" />
                           </node>
-                          <node concept="2OqwBi" id="ZwppkOvUiH" role="37wK5m">
-                            <node concept="Xjq3P" id="ZwppkOvUer" role="2Oq$k0" />
-                            <node concept="liA8E" id="ZwppkOvUrY" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
+                          <node concept="2OqwBi" id="6hRtSBj_DS7" role="37wK5m">
+                            <node concept="2OqwBi" id="6hRtSBj_BdO" role="2Oq$k0">
+                              <node concept="2OqwBi" id="6hRtSBj_BdP" role="2Oq$k0">
+                                <node concept="37vLTw" id="6hRtSBj_BdQ" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                                </node>
+                                <node concept="liA8E" id="6hRtSBj_BdR" role="2OqNvi">
+                                  <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="6hRtSBj_BdS" role="2OqNvi">
+                                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="6hRtSBj_GGq" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:6hRtSBjy8HU" resolve="getAppStartupLocalMillis" />
                             </node>
                           </node>
                         </node>
@@ -27909,18 +27952,6 @@
               </node>
               <node concept="3clFbJ" id="2M4KcIQWNqH" role="3cqZAp">
                 <node concept="3clFbS" id="2M4KcIQWNqI" role="3clFbx">
-                  <node concept="1X3_iC" id="2M4KcIQWNqJ" role="lGtFl">
-                    <property role="3V$3am" value="statement" />
-                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                    <node concept="3clFbF" id="2M4KcIQWNqK" role="8Wnug">
-                      <node concept="37vLTI" id="2M4KcIQWNqL" role="3clFbG">
-                        <node concept="10Nm6u" id="2M4KcIQWNqM" role="37vLTx" />
-                        <node concept="37vLTw" id="2M4KcIQWNqN" role="37vLTJ">
-                          <ref role="3cqZAo" node="SQhsWRQegx" resolve="currentLockingMessage" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3clFbF" id="2M4KcIQWNqO" role="3cqZAp">
                     <node concept="2OqwBi" id="2M4KcIQWNqP" role="3clFbG">
                       <node concept="37vLTw" id="2M4KcIQWNqQ" role="2Oq$k0">
@@ -27934,10 +27965,51 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="2M4KcIQWR1k" role="3cqZAp" />
-                  <node concept="3clFbF" id="2M4KcIQWNqV" role="3cqZAp">
-                    <node concept="1rXfSq" id="2M4KcIQWNqW" role="3clFbG">
-                      <ref role="37wK5l" node="7aUgYCzljCb" resolve="fg_reevalConlcusions" />
+                  <node concept="3SKdUt" id="6hRtSBhCsY5" role="3cqZAp">
+                    <node concept="1PaTwC" id="6hRtSBhCsY6" role="1aUNEU">
+                      <node concept="3oM_SD" id="6hRtSBhCsY7" role="1PaTwD">
+                        <property role="3oM_SC" value="shortcut," />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt1u" role="1PaTwD">
+                        <property role="3oM_SC" value="but" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt1L" role="1PaTwD">
+                        <property role="3oM_SC" value="open" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt0t" role="1PaTwD">
+                        <property role="3oM_SC" value="ui" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt0x" role="1PaTwD">
+                        <property role="3oM_SC" value="might" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt0A" role="1PaTwD">
+                        <property role="3oM_SC" value="not" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt0O" role="1PaTwD">
+                        <property role="3oM_SC" value="be" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt0V" role="1PaTwD">
+                        <property role="3oM_SC" value="processed" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt13" role="1PaTwD">
+                        <property role="3oM_SC" value="fully." />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt1c" role="1PaTwD">
+                        <property role="3oM_SC" value="" />
+                      </node>
+                      <node concept="3oM_SD" id="6hRtSBhCt0i" role="1PaTwD">
+                        <property role="3oM_SC" value="" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="6hRtSBhC7zL" role="3cqZAp">
+                    <node concept="1rXfSq" id="6hRtSBhC7zJ" role="3clFbG">
+                      <ref role="37wK5l" node="7b0Ejx_yqRf" resolve="receiveAndProcess" />
+                      <node concept="2ShNRf" id="6hRtSBhC9QY" role="37wK5m">
+                        <node concept="1pGfFk" id="6hRtSBhCazo" role="2ShVmc">
+                          <ref role="37wK5l" node="3GQ300QoPVT" resolve="ReevalEvent" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -29669,6 +29741,11 @@
       <node concept="3Tmbuc" id="cMAJ_Mgehs" role="1B3o_S" />
       <node concept="3cpWsb" id="cMAJ_Mgemr" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="6hRtSBj_Vs9" role="jymVt">
+      <property role="TrG5h" value="appStartupLocalMillis" />
+      <node concept="3Tmbuc" id="6hRtSBj_Vsa" role="1B3o_S" />
+      <node concept="3cpWsb" id="6hRtSBj_Vsb" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="cMAJ_MghHM" role="jymVt" />
     <node concept="312cEg" id="57ov2SMA9m" role="jymVt">
       <property role="TrG5h" value="debug" />
@@ -29814,7 +29891,16 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4FgSVMtsw6H" role="3cqZAp" />
+        <node concept="3clFbF" id="6hRtSBjA3eI" role="3cqZAp">
+          <node concept="37vLTI" id="6hRtSBjA4$i" role="3clFbG">
+            <node concept="37vLTw" id="6hRtSBjA5YK" role="37vLTx">
+              <ref role="3cqZAo" node="cMAJ_Mgdmb" resolve="lastInteraction" />
+            </node>
+            <node concept="37vLTw" id="6hRtSBjA3eG" role="37vLTJ">
+              <ref role="3cqZAo" node="6hRtSBj_Vs9" resolve="appStartupLocalMillis" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4FgSVMtswoK" role="3cqZAp">
           <node concept="37vLTI" id="4FgSVMtsxy6" role="3clFbG">
             <node concept="37vLTw" id="4FgSVMtsy0H" role="37vLTx">
@@ -29860,6 +29946,22 @@
       <node concept="3cqZAl" id="2ppo89mgo8R" role="3clF45" />
       <node concept="3Tmbuc" id="3ooJmL_xVVD" role="1B3o_S" />
       <node concept="3clFbS" id="2ppo89mgo8T" role="3clF47">
+        <node concept="3clFbH" id="6hRtSBj$8aH" role="3cqZAp" />
+        <node concept="3clFbF" id="6hRtSBjA72T" role="3cqZAp">
+          <node concept="37vLTI" id="6hRtSBjA8hx" role="3clFbG">
+            <node concept="2OqwBi" id="6hRtSBjA9vI" role="37vLTx">
+              <node concept="37vLTw" id="6hRtSBjA9hm" role="2Oq$k0">
+                <ref role="3cqZAo" node="2ppo89mgq$1" resolve="userEnv" />
+              </node>
+              <node concept="liA8E" id="6hRtSBjAaeN" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:6hRtSBjy8HU" resolve="getAppStartupLocalMillis" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6hRtSBjA72R" role="37vLTJ">
+              <ref role="3cqZAo" node="6hRtSBj_Vs9" resolve="appStartupLocalMillis" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4cdUWYrGvKS" role="3cqZAp">
           <node concept="37vLTI" id="4cdUWYrGvRc" role="3clFbG">
             <node concept="2OqwBi" id="4cdUWYrGw3b" role="37vLTx">
@@ -30305,6 +30407,28 @@
               </node>
             </node>
             <node concept="liA8E" id="4n24ZlEydvp" role="2OqNvi">
+              <ref role="37wK5l" to="oz00:~AbstractDateTime.toString()" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6hRtSBj_O9V" role="jymVt">
+      <property role="TrG5h" value="getuser_appStartupLocalTime" />
+      <node concept="17QB3L" id="6hRtSBj_O9W" role="3clF45" />
+      <node concept="3Tm1VV" id="6hRtSBj_O9X" role="1B3o_S" />
+      <node concept="3clFbS" id="6hRtSBj_Oa1" role="3clF47">
+        <node concept="3cpWs6" id="6hRtSBjAahD" role="3cqZAp">
+          <node concept="2OqwBi" id="6hRtSBjAahE" role="3cqZAk">
+            <node concept="2ShNRf" id="6hRtSBjAahF" role="2Oq$k0">
+              <node concept="1pGfFk" id="6hRtSBjAahG" role="2ShVmc">
+                <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;(long)" resolve="DateTime" />
+                <node concept="37vLTw" id="6hRtSBjAahH" role="37wK5m">
+                  <ref role="3cqZAo" node="6hRtSBj_Vs9" resolve="appStartupLocalMillis" />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="6hRtSBjAahI" role="2OqNvi">
               <ref role="37wK5l" to="oz00:~AbstractDateTime.toString()" resolve="toString" />
             </node>
           </node>
@@ -36324,6 +36448,21 @@
   </node>
   <node concept="312cEu" id="zBgVaD6zJ6">
     <property role="TrG5h" value="EventCommandContainer" />
+    <node concept="Wx3nA" id="6uo0g5Wm5Pt" role="jymVt">
+      <property role="TrG5h" value="LOCK_DBG_TIME_FRMT" />
+      <node concept="3Tm1VV" id="6uo0g5Wm5Pu" role="1B3o_S" />
+      <node concept="3uibUv" id="6uo0g5Wm5Pv" role="1tU5fm">
+        <ref role="3uigEE" to="x5li:~DateTimeFormatter" resolve="DateTimeFormatter" />
+      </node>
+      <node concept="2YIFZM" id="6uo0g5Wm5Pw" role="33vP2m">
+        <ref role="1Pybhc" to="x5li:~DateTimeFormat" resolve="DateTimeFormat" />
+        <ref role="37wK5l" to="x5li:~DateTimeFormat.forPattern(java.lang.String)" resolve="forPattern" />
+        <node concept="Xl_RD" id="6uo0g5Wm5Px" role="37wK5m">
+          <property role="Xl_RC" value="EEE HH:mm:ss.SSS" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6hRtSBjwgKF" role="jymVt" />
     <node concept="312cEg" id="7BWfrtCZtdh" role="jymVt">
       <property role="TrG5h" value="containerEventQueue" />
       <node concept="3Tm6S6" id="7BWfrtCZtdi" role="1B3o_S" />
@@ -39815,6 +39954,45 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3cpWs8" id="6hRtSBjxlJL" role="3cqZAp">
+                  <node concept="3cpWsn" id="6hRtSBjxlJM" role="3cpWs9">
+                    <property role="TrG5h" value="appStartup" />
+                    <node concept="3cpWsb" id="6hRtSBjxlJN" role="1tU5fm" />
+                    <node concept="3K4zz7" id="6hRtSBjxlJO" role="33vP2m">
+                      <node concept="2OqwBi" id="6hRtSBjxlJP" role="3K4E3e">
+                        <node concept="2OqwBi" id="6hRtSBjxlJQ" role="2Oq$k0">
+                          <node concept="37vLTw" id="6hRtSBjxlJR" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
+                          </node>
+                          <node concept="liA8E" id="6hRtSBjxlJS" role="2OqNvi">
+                            <ref role="37wK5l" to="vpat:~Json.at(java.lang.String)" resolve="at" />
+                            <node concept="Xl_RD" id="6hRtSBjxlJT" role="37wK5m">
+                              <property role="Xl_RC" value="appStartup" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="6hRtSBjxlJU" role="2OqNvi">
+                          <ref role="37wK5l" to="vpat:~Json.asLong()" resolve="asLong" />
+                        </node>
+                      </node>
+                      <node concept="3cmrfG" id="6hRtSBjxlJV" role="3K4GZi">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="2OqwBi" id="6hRtSBjxlJW" role="3K4Cdx">
+                        <node concept="37vLTw" id="6hRtSBjxlJX" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1SDXsyHyvpt" resolve="body" />
+                        </node>
+                        <node concept="liA8E" id="6hRtSBjxlJY" role="2OqNvi">
+                          <ref role="37wK5l" to="vpat:~Json.has(java.lang.String)" resolve="has" />
+                          <node concept="Xl_RD" id="6hRtSBjxlJZ" role="37wK5m">
+                            <property role="Xl_RC" value="appStartup" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6hRtSBjxjRV" role="3cqZAp" />
                 <node concept="3clFbH" id="ZwppkOw49z" role="3cqZAp" />
                 <node concept="3clFbJ" id="2M4KcIQVoAU" role="3cqZAp">
                   <node concept="3clFbS" id="2M4KcIQVoAW" role="3clFbx">
@@ -39900,7 +40078,7 @@
                                                 <node concept="3cpWs3" id="6nqn8kLvFcJ" role="3uHU7B">
                                                   <node concept="3cpWs3" id="6nqn8kLvFcK" role="3uHU7B">
                                                     <node concept="Xl_RD" id="6nqn8kLvFcL" role="3uHU7B">
-                                                      <property role="Xl_RC" value="Receiving relevant requestLock (from " />
+                                                      <property role="Xl_RC" value="Receiving relevant 'requestLock' (from " />
                                                     </node>
                                                     <node concept="37vLTw" id="6nqn8kLvFcM" role="3uHU7w">
                                                       <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="byUserName" />
@@ -39918,10 +40096,13 @@
                                                 <property role="Xl_RC" value="). We have an old session? " />
                                               </node>
                                             </node>
-                                            <node concept="2ShNRf" id="6nqn8kLvHIV" role="3uHU7w">
-                                              <node concept="1pGfFk" id="6nqn8kLvNWS" role="2ShVmc">
-                                                <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;(long)" resolve="DateTime" />
-                                                <node concept="37vLTw" id="6nqn8kLvW3O" role="37wK5m">
+                                            <node concept="2OqwBi" id="6hRtSBjwCZR" role="3uHU7w">
+                                              <node concept="37vLTw" id="6hRtSBjwCMu" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="6uo0g5Wm5Pt" resolve="LOCK_DBG_TIME_FRMT" />
+                                              </node>
+                                              <node concept="liA8E" id="6hRtSBjwE0Z" role="2OqNvi">
+                                                <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long)" resolve="print" />
+                                                <node concept="37vLTw" id="6hRtSBjwEta" role="37wK5m">
                                                   <ref role="3cqZAo" node="6EKawapJ4A_" resolve="ebLockRequestedTimestamp" />
                                                 </node>
                                               </node>
@@ -39945,7 +40126,7 @@
                                       <ref role="3cqZAo" node="6nqn8kLvQwK" resolve="diff" />
                                     </node>
                                     <node concept="Xl_RD" id="4FgSVMsp76k" role="3uHU7B">
-                                      <property role="Xl_RC" value="Diff between ebLockRequest and now" />
+                                      <property role="Xl_RC" value="Diff between ebLockRequest and now " />
                                     </node>
                                   </node>
                                 </node>
@@ -40066,6 +40247,111 @@
                                   </node>
                                 </node>
                               </node>
+                              <node concept="3clFbH" id="6hRtSBhAEaa" role="3cqZAp" />
+                              <node concept="3clFbF" id="6hRtSBhA8IZ" role="3cqZAp">
+                                <node concept="2OqwBi" id="6hRtSBhA8J0" role="3clFbG">
+                                  <node concept="37vLTw" id="6hRtSBhA8J1" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                                  </node>
+                                  <node concept="liA8E" id="6hRtSBhA8J2" role="2OqNvi">
+                                    <ref role="37wK5l" node="4FgSVMsj9wF" resolve="logMowareTracing" />
+                                    <node concept="37vLTw" id="6hRtSBhA8J3" role="37wK5m">
+                                      <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
+                                    </node>
+                                    <node concept="10M0yZ" id="6hRtSBhA8J4" role="37wK5m">
+                                      <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                                      <ref role="3cqZAo" to="28jr:4g_sjDLbn4o" resolve="LOCKING" />
+                                    </node>
+                                    <node concept="3cpWs3" id="6hRtSBjw_aI" role="37wK5m">
+                                      <node concept="Xl_RD" id="6hRtSBjw_bX" role="3uHU7w">
+                                        <property role="Xl_RC" value=")" />
+                                      </node>
+                                      <node concept="3cpWs3" id="6hRtSBjw$0W" role="3uHU7B">
+                                        <node concept="3cpWs3" id="6hRtSBhA8J8" role="3uHU7B">
+                                          <node concept="3cpWs3" id="6hRtSBhA8J9" role="3uHU7B">
+                                            <node concept="Xl_RD" id="6hRtSBhA8Ja" role="3uHU7B">
+                                              <property role="Xl_RC" value="sent lock not granted for " />
+                                            </node>
+                                            <node concept="37vLTw" id="6hRtSBhA8Jb" role="3uHU7w">
+                                              <ref role="3cqZAo" node="2M4KcIQU5xc" resolve="lockName" />
+                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="6hRtSBjwyCB" role="3uHU7w">
+                                            <property role="Xl_RC" value=" (requested by" />
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="6hRtSBjw$Fu" role="3uHU7w">
+                                          <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="byUserName" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3cpWs3" id="6hRtSBjx3uc" role="37wK5m">
+                                      <node concept="Xl_RD" id="6hRtSBjx3vr" role="3uHU7w">
+                                        <property role="Xl_RC" value="]" />
+                                      </node>
+                                      <node concept="3cpWs3" id="6hRtSBjwXX4" role="3uHU7B">
+                                        <node concept="3cpWs3" id="6hRtSBjwUL4" role="3uHU7B">
+                                          <node concept="3cpWs3" id="6hRtSBjwP33" role="3uHU7B">
+                                            <node concept="3cpWs3" id="6hRtSBjwNds" role="3uHU7B">
+                                              <node concept="3cpWs3" id="6hRtSBjwIvD" role="3uHU7B">
+                                                <node concept="Xl_RD" id="6hRtSBjwGsw" role="3uHU7B">
+                                                  <property role="Xl_RC" value="lock hold since " />
+                                                </node>
+                                                <node concept="2OqwBi" id="6hRtSBjwJXL" role="3uHU7w">
+                                                  <node concept="37vLTw" id="6hRtSBjwIQW" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="6uo0g5Wm5Pt" resolve="LOCK_DBG_TIME_FRMT" />
+                                                  </node>
+                                                  <node concept="liA8E" id="6hRtSBjwL48" role="2OqNvi">
+                                                    <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long)" resolve="print" />
+                                                    <node concept="37vLTw" id="6hRtSBjwLvY" role="37wK5m">
+                                                      <ref role="3cqZAo" node="6EKawapJ4A_" resolve="ebLockRequestedTimestamp" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="Xl_RD" id="6hRtSBjwNfl" role="3uHU7w">
+                                                <property role="Xl_RC" value=" [reqT " />
+                                              </node>
+                                            </node>
+                                            <node concept="2OqwBi" id="6hRtSBjwSdM" role="3uHU7w">
+                                              <node concept="37vLTw" id="6hRtSBjwR3V" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="6uo0g5Wm5Pt" resolve="LOCK_DBG_TIME_FRMT" />
+                                              </node>
+                                              <node concept="liA8E" id="6hRtSBjwTkB" role="2OqNvi">
+                                                <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long)" resolve="print" />
+                                                <node concept="37vLTw" id="6hRtSBjwTOD" role="37wK5m">
+                                                  <ref role="3cqZAo" node="ZwppkOw4$t" resolve="requestTimestamp" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="6hRtSBjwUVR" role="3uHU7w">
+                                            <property role="Xl_RC" value=", localT " />
+                                          </node>
+                                        </node>
+                                        <node concept="2OqwBi" id="6hRtSBjwZTt" role="3uHU7w">
+                                          <node concept="37vLTw" id="6hRtSBjwZhz" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="6uo0g5Wm5Pt" resolve="LOCK_DBG_TIME_FRMT" />
+                                          </node>
+                                          <node concept="liA8E" id="6hRtSBjx0DK" role="2OqNvi">
+                                            <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long)" resolve="print" />
+                                            <node concept="37vLTw" id="6hRtSBjx1AZ" role="37wK5m">
+                                              <ref role="3cqZAo" node="ZwppkOweV9" resolve="timeStampMillis" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3cmrfG" id="6hRtSBhABAA" role="37wK5m">
+                                      <property role="3cmrfH" value="0" />
+                                    </node>
+                                    <node concept="3cmrfG" id="6hRtSBhACvD" role="37wK5m">
+                                      <property role="3cmrfH" value="0" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="6hRtSBhA62G" role="3cqZAp" />
                             </node>
                           </node>
                         </node>
@@ -40108,7 +40394,7 @@
                                       <node concept="3cpWs3" id="ZwppkOwSIA" role="3uHU7B">
                                         <node concept="3cpWs3" id="ZwppkOwS27" role="3uHU7B">
                                           <node concept="Xl_RD" id="ZwppkOwNmX" role="3uHU7B">
-                                            <property role="Xl_RC" value="Receiving relevant requestLock (from " />
+                                            <property role="Xl_RC" value="Receiving relevant 'requestLock' (from " />
                                           </node>
                                           <node concept="37vLTw" id="ZwppkOwSuZ" role="3uHU7w">
                                             <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="byUserName" />
@@ -40128,7 +40414,7 @@
                                       <ref role="3cqZAo" node="ZwppkOwLCi" resolve="diffTime" />
                                     </node>
                                     <node concept="Xl_RD" id="4FgSVMspeew" role="3uHU7B">
-                                      <property role="Xl_RC" value="response took " />
+                                      <property role="Xl_RC" value="Diff between req. and now " />
                                     </node>
                                   </node>
                                 </node>
@@ -40202,34 +40488,70 @@
                                   <ref role="3cqZAo" to="28jr:4g_sjDLbn4o" resolve="LOCKING" />
                                   <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
                                 </node>
-                                <node concept="Xl_RD" id="2P$1DRipEfc" role="37wK5m">
-                                  <property role="Xl_RC" value="lock not granted" />
-                                </node>
-                                <node concept="3cpWs3" id="17aWCoMv$bz" role="37wK5m">
-                                  <node concept="2ShNRf" id="17aWCoMv$r$" role="3uHU7w">
-                                    <node concept="1pGfFk" id="17aWCoMvBfX" role="2ShVmc">
-                                      <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;(long)" resolve="DateTime" />
-                                      <node concept="37vLTw" id="17aWCoMvBHH" role="37wK5m">
-                                        <ref role="3cqZAo" node="17aWCoMvpLW" resolve="lockTimestamp" />
-                                      </node>
-                                    </node>
+                                <node concept="3cpWs3" id="6hRtSBjwAXA" role="37wK5m">
+                                  <node concept="Xl_RD" id="6hRtSBjwAZl" role="3uHU7w">
+                                    <property role="Xl_RC" value=")" />
                                   </node>
-                                  <node concept="3cpWs3" id="17aWCoMvzHw" role="3uHU7B">
-                                    <node concept="3cpWs3" id="77tRpxxGR$A" role="3uHU7B">
-                                      <node concept="3cpWs3" id="77tRpxxGSj4" role="3uHU7B">
-                                        <node concept="Xl_RD" id="77tRpxxGStH" role="3uHU7w">
-                                          <property role="Xl_RC" value=" by " />
+                                  <node concept="3cpWs3" id="6hRtSBjwv6N" role="3uHU7B">
+                                    <node concept="3cpWs3" id="6hRtSBjwtF7" role="3uHU7B">
+                                      <node concept="3cpWs3" id="6hRtSBjwsGY" role="3uHU7B">
+                                        <node concept="Xl_RD" id="2P$1DRipEfc" role="3uHU7B">
+                                          <property role="Xl_RC" value="received lock not granted for " />
                                         </node>
-                                        <node concept="37vLTw" id="77tRpxxGRWF" role="3uHU7B">
+                                        <node concept="37vLTw" id="6hRtSBjwt1F" role="3uHU7w">
                                           <ref role="3cqZAo" node="2M4KcIQU5xc" resolve="lockName" />
                                         </node>
                                       </node>
-                                      <node concept="37vLTw" id="77tRpxxGQzQ" role="3uHU7w">
-                                        <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="byUserName" />
+                                      <node concept="Xl_RD" id="6hRtSBjwujY" role="3uHU7w">
+                                        <property role="Xl_RC" value=" (held by " />
                                       </node>
                                     </node>
-                                    <node concept="Xl_RD" id="17aWCoMvzJ6" role="3uHU7w">
-                                      <property role="Xl_RC" value=" from " />
+                                    <node concept="37vLTw" id="6hRtSBjwvL4" role="3uHU7w">
+                                      <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="byUserName" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3cpWs3" id="6hRtSBjxxie" role="37wK5m">
+                                  <node concept="Xl_RD" id="6hRtSBjxxmK" role="3uHU7w">
+                                    <property role="Xl_RC" value=")" />
+                                  </node>
+                                  <node concept="3cpWs3" id="6hRtSBjxrLD" role="3uHU7B">
+                                    <node concept="3cpWs3" id="6hRtSBjxpju" role="3uHU7B">
+                                      <node concept="3cpWs3" id="6hRtSBjx9Or" role="3uHU7B">
+                                        <node concept="Xl_RD" id="6hRtSBjx8Ti" role="3uHU7B">
+                                          <property role="Xl_RC" value="lock hold since " />
+                                        </node>
+                                        <node concept="2OqwBi" id="6hRtSBjxaG7" role="3uHU7w">
+                                          <node concept="37vLTw" id="6hRtSBjxaaw" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="6uo0g5Wm5Pt" resolve="LOCK_DBG_TIME_FRMT" />
+                                          </node>
+                                          <node concept="liA8E" id="6hRtSBjxbW3" role="2OqNvi">
+                                            <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(long)" resolve="print" />
+                                            <node concept="37vLTw" id="6hRtSBjxckH" role="37wK5m">
+                                              <ref role="3cqZAo" node="17aWCoMvpLW" resolve="lockTimestamp" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="Xl_RD" id="6hRtSBjxquO" role="3uHU7w">
+                                        <property role="Xl_RC" value=" (appstart " />
+                                      </node>
+                                    </node>
+                                    <node concept="2OqwBi" id="6hRtSBjxtxG" role="3uHU7w">
+                                      <node concept="37vLTw" id="6hRtSBjxsYp" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="6uo0g5Wm5Pt" resolve="LOCK_DBG_TIME_FRMT" />
+                                      </node>
+                                      <node concept="liA8E" id="6hRtSBjxuFG" role="2OqNvi">
+                                        <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant)" resolve="print" />
+                                        <node concept="2ShNRf" id="6hRtSBjxv6y" role="37wK5m">
+                                          <node concept="1pGfFk" id="6hRtSBjxwcp" role="2ShVmc">
+                                            <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;(long)" resolve="DateTime" />
+                                            <node concept="37vLTw" id="6hRtSBjxwC0" role="37wK5m">
+                                              <ref role="3cqZAo" node="6hRtSBjxlJM" resolve="appStartup" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -40433,7 +40755,7 @@
                                 </node>
                                 <node concept="3cpWs3" id="ZwppkOwEJj" role="37wK5m">
                                   <node concept="Xl_RD" id="ZwppkOwEOK" role="3uHU7w">
-                                    <property role="Xl_RC" value="(simultaneous open)" />
+                                    <property role="Xl_RC" value="(simultaneous open?)" />
                                   </node>
                                   <node concept="3cpWs3" id="ZwppkOwDsL" role="3uHU7B">
                                     <node concept="3cpWs3" id="ZwppkOwD0R" role="3uHU7B">
@@ -40442,10 +40764,15 @@
                                           <node concept="3cpWs3" id="ZwppkOwoKg" role="3uHU7B">
                                             <node concept="3cpWs3" id="ZwppkOwoKh" role="3uHU7B">
                                               <node concept="Xl_RD" id="ZwppkOwoKi" role="3uHU7w">
-                                                <property role="Xl_RC" value=" by " />
+                                                <property role="Xl_RC" value=" (held by " />
                                               </node>
-                                              <node concept="37vLTw" id="ZwppkOwoKj" role="3uHU7B">
-                                                <ref role="3cqZAo" node="2M4KcIQU5xc" resolve="lockName" />
+                                              <node concept="3cpWs3" id="6hRtSBjxd0X" role="3uHU7B">
+                                                <node concept="Xl_RD" id="6hRtSBjxd$N" role="3uHU7B">
+                                                  <property role="Xl_RC" value="Received 'locked' for" />
+                                                </node>
+                                                <node concept="37vLTw" id="ZwppkOwoKj" role="3uHU7w">
+                                                  <ref role="3cqZAo" node="2M4KcIQU5xc" resolve="lockName" />
+                                                </node>
                                               </node>
                                             </node>
                                             <node concept="37vLTw" id="ZwppkOwoKk" role="3uHU7w">
@@ -40453,7 +40780,7 @@
                                             </node>
                                           </node>
                                           <node concept="Xl_RD" id="ZwppkOwC9l" role="3uHU7w">
-                                            <property role="Xl_RC" value=" requested by " />
+                                            <property role="Xl_RC" value=") requested by " />
                                           </node>
                                         </node>
                                         <node concept="37vLTw" id="ZwppkOwCKJ" role="3uHU7w">
@@ -40474,7 +40801,7 @@
                                 </node>
                                 <node concept="3cpWs3" id="4FgSVMspoMb" role="37wK5m">
                                   <node concept="Xl_RD" id="4FgSVMspp5u" role="3uHU7B">
-                                    <property role="Xl_RC" value="diff time to request " />
+                                    <property role="Xl_RC" value="diff time request to now " />
                                   </node>
                                   <node concept="37vLTw" id="4FgSVMspotu" role="3uHU7w">
                                     <ref role="3cqZAo" node="ZwppkOwoK3" resolve="diffTime" />
@@ -41696,6 +42023,16 @@
       <node concept="10P_77" id="3PbVxlQft1b" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="6CTqzKmfcpz" role="jymVt" />
+    <node concept="312cEg" id="6hRtSBir3Tf" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="experimentalFeatures" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="6hRtSBir3Tg" role="1B3o_S" />
+      <node concept="10P_77" id="6hRtSBir3Th" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="6hRtSBir1_3" role="jymVt" />
+    <node concept="2tJIrI" id="6hRtSBir1Mp" role="jymVt" />
     <node concept="312cEg" id="2IXpZ5J4ekj" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -41876,6 +42213,14 @@
             <node concept="3clFbT" id="4WoSiUMkP1u" role="37vLTx" />
             <node concept="37vLTw" id="4WoSiUMkONR" role="37vLTJ">
               <ref role="3cqZAo" node="6CTqzKmfeaG" resolve="portJEnabled" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6hRtSBir5vV" role="3cqZAp">
+          <node concept="37vLTI" id="6hRtSBir5LY" role="3clFbG">
+            <node concept="3clFbT" id="6hRtSBir5Nt" role="37vLTx" />
+            <node concept="37vLTw" id="6hRtSBir5vT" role="37vLTJ">
+              <ref role="3cqZAo" node="6hRtSBir3Tf" resolve="experimentalFeatures" />
             </node>
           </node>
         </node>
@@ -42094,6 +42439,44 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="6hRtSBir6Lz" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getExperimentalFeatures" />
+      <node concept="3Tm1VV" id="6hRtSBir6L$" role="1B3o_S" />
+      <node concept="10P_77" id="6hRtSBir6L_" role="3clF45" />
+      <node concept="3clFbS" id="6hRtSBir6LA" role="3clF47">
+        <node concept="3clFbF" id="6hRtSBir6LB" role="3cqZAp">
+          <node concept="37vLTw" id="6hRtSBir6LC" role="3clFbG">
+            <ref role="3cqZAo" node="6hRtSBir3Tf" resolve="experimentalFeatures" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6hRtSBir6LD" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="setExperimentalFeatures" />
+      <node concept="37vLTG" id="6hRtSBir6LE" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="6hRtSBir6LF" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="6hRtSBir6LG" role="1B3o_S" />
+      <node concept="3cqZAl" id="6hRtSBir6LH" role="3clF45" />
+      <node concept="3clFbS" id="6hRtSBir6LI" role="3clF47">
+        <node concept="3clFbF" id="6hRtSBir6LJ" role="3cqZAp">
+          <node concept="37vLTI" id="6hRtSBir6LK" role="3clFbG">
+            <node concept="37vLTw" id="6hRtSBir6LL" role="37vLTx">
+              <ref role="3cqZAo" node="6hRtSBir6LE" resolve="val" />
+            </node>
+            <node concept="37vLTw" id="6hRtSBir6LM" role="37vLTJ">
+              <ref role="3cqZAo" node="6hRtSBir3Tf" resolve="experimentalFeatures" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6hRtSBir5UQ" role="jymVt" />
     <node concept="3clFb_" id="4Z3lS8AP7Bd" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -44750,6 +45133,12 @@
       <node concept="17QB3L" id="5YG5DD8X9jL" role="3clF45" />
       <node concept="3Tm1VV" id="5YG5DD8X9jM" role="1B3o_S" />
       <node concept="3clFbS" id="5YG5DD8X9jN" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6hRtSBj_K0Q" role="jymVt">
+      <property role="TrG5h" value="getuser_appStartupLocalTime" />
+      <node concept="17QB3L" id="6hRtSBj_K0R" role="3clF45" />
+      <node concept="3Tm1VV" id="6hRtSBj_K0S" role="1B3o_S" />
+      <node concept="3clFbS" id="6hRtSBj_K0T" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6YMRHoFawEX" role="jymVt">
       <property role="TrG5h" value="getuser_progressor" />

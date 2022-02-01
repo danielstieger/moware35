@@ -7131,6 +7131,33 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="6hRtSBigzap" role="3cqZAp">
+          <node concept="1PaTwC" id="6hRtSBigzaq" role="1aUNEU">
+            <node concept="3oM_SD" id="6hRtSBigzar" role="1PaTwD">
+              <property role="3oM_SC" value="necessary" />
+            </node>
+            <node concept="3oM_SD" id="6hRtSBigzpB" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="6hRtSBigzqR" role="1PaTwD">
+              <property role="3oM_SC" value="windows." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6hRtSBigpH1" role="3cqZAp">
+          <node concept="2OqwBi" id="6hRtSBigpH2" role="3clFbG">
+            <node concept="37vLTw" id="6hRtSBigpH3" role="2Oq$k0">
+              <ref role="3cqZAo" node="1kaU3pLWzTQ" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="6hRtSBigpH4" role="2OqNvi">
+              <ref role="37wK5l" to="l152:~Region.setMaxHeight(double)" resolve="setMaxHeight" />
+              <node concept="10M0yZ" id="6hRtSBigpH5" role="37wK5m">
+                <ref role="1PxDUh" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <ref role="3cqZAo" node="3sEA$PIzAp9" resolve="DELEGATE_EDITOR_MINHEIGH" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1kaU3pLWzV2" role="3cqZAp">
           <node concept="2OqwBi" id="1kaU3pLWzV3" role="3clFbG">
             <node concept="37vLTw" id="1kaU3pLWzV4" role="2Oq$k0">

@@ -214,6 +214,17 @@
                       <ref role="37wK5l" to="28jr:6lA5DXSRyEy" resolve="getDeviceName" />
                     </node>
                   </node>
+                  <node concept="2OqwBi" id="6hRtSBjZp9N" role="37wK5m">
+                    <node concept="2OqwBi" id="6hRtSBjZoKW" role="2Oq$k0">
+                      <node concept="3y28L$" id="6hRtSBjZouf" role="2Oq$k0" />
+                      <node concept="liA8E" id="6hRtSBjZoWg" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="6hRtSBjZptG" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:6hRtSBjy8HU" resolve="getAppStartupLocalMillis" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
