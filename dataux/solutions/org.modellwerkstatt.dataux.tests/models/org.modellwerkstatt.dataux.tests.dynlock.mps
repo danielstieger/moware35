@@ -192,39 +192,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="_R35BR0kOG" role="37wK5m">
-                    <node concept="2OqwBi" id="_R35BR0kOH" role="2Oq$k0">
-                      <node concept="3y28L$" id="_R35BR0kOI" role="2Oq$k0" />
-                      <node concept="liA8E" id="_R35BR0kOJ" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="_R35BR0kOK" role="2OqNvi">
-                      <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="_R35BR0kOL" role="37wK5m">
-                    <node concept="2OqwBi" id="_R35BR0kOM" role="2Oq$k0">
-                      <node concept="3y28L$" id="_R35BR0kON" role="2Oq$k0" />
-                      <node concept="liA8E" id="_R35BR0kOO" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="_R35BR0kOP" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:6lA5DXSRyEy" resolve="getDeviceName" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="6hRtSBjZp9N" role="37wK5m">
-                    <node concept="2OqwBi" id="6hRtSBjZoKW" role="2Oq$k0">
-                      <node concept="3y28L$" id="6hRtSBjZouf" role="2Oq$k0" />
-                      <node concept="liA8E" id="6hRtSBjZoWg" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="6hRtSBjZptG" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:6hRtSBjy8HU" resolve="getAppStartupLocalMillis" />
-                    </node>
-                  </node>
+                  <node concept="3y28L$" id="3mnXcQSQGSp" role="37wK5m" />
                 </node>
               </node>
             </node>
