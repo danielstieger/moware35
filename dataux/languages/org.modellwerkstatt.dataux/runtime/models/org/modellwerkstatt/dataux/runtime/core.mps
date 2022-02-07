@@ -39364,7 +39364,7 @@
                         </node>
                       </node>
                       <node concept="3cmrfG" id="6f52sUEIDiX" role="3uHU7w">
-                        <property role="3cmrfH" value="1000000" />
+                        <property role="3cmrfH" value="1048576" />
                       </node>
                     </node>
                   </node>

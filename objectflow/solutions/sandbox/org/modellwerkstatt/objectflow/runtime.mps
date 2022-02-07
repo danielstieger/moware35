@@ -54050,18 +54050,8 @@
             <node concept="37vLTw" id="4WoSiUN$REw" role="37wK5m">
               <ref role="3cqZAo" node="19EO7JNrqMe" resolve="prio" />
             </node>
-            <node concept="3cpWs3" id="4WoSiUN$Tfo" role="37wK5m">
-              <node concept="Xl_RD" id="4WoSiUN$TjT" role="3uHU7w">
-                <property role="Xl_RC" value="'." />
-              </node>
-              <node concept="3cpWs3" id="4WoSiUN$SFe" role="3uHU7B">
-                <node concept="Xl_RD" id="19EO7JSdL_S" role="3uHU7B">
-                  <property role="Xl_RC" value="OFXSimpleUserServices.logOnCoreReporter() not implemented. Got message '" />
-                </node>
-                <node concept="37vLTw" id="4WoSiUN$SJE" role="3uHU7w">
-                  <ref role="3cqZAo" node="19EO7JNrqMg" resolve="desc" />
-                </node>
-              </node>
+            <node concept="37vLTw" id="4WoSiUN$SJE" role="37wK5m">
+              <ref role="3cqZAo" node="19EO7JNrqMg" resolve="desc" />
             </node>
             <node concept="10Nm6u" id="19EO7JSdNRW" role="37wK5m" />
           </node>
@@ -54415,7 +54405,7 @@
                       </node>
                       <node concept="3cpWs3" id="51llZt5Px_r" role="3uHU7B">
                         <node concept="Xl_RD" id="51llZt5Px_s" role="3uHU7B">
-                          <property role="Xl_RC" value="[ex " />
+                          <property role="Xl_RC" value=" [ex " />
                         </node>
                         <node concept="2OqwBi" id="51llZt5Px_t" role="3uHU7w">
                           <node concept="2OqwBi" id="51llZt5Px_u" role="2Oq$k0">
