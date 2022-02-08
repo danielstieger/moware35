@@ -4,15 +4,6 @@
     <modelRoot contentPath="${module}/jars" type="default">
       <sourceRoot path="${module}" />
     </modelRoot>
-    <modelRoot contentPath="${module}/jars" type="java_classes">
-      <sourceRoot location="basis/slf4j-api-1.7.30.jar" />
-      <sourceRoot location="richclient/mailapi.jar" />
-      <sourceRoot location="richclient/smtp.jar" />
-      <sourceRoot location="basis/mo-javaxbus-1.0.jar" />
-      <sourceRoot location="servletclient/servlet-api.jar" />
-      <sourceRoot location="basis/jackson-core-2.12.3.jar" />
-      <sourceRoot location="printing21/pdfbox-app-2.0.24.jar" />
-    </modelRoot>
     <modelRoot contentPath="${module}/jars/printing21" type="java_classes">
       <sourceRoot location="avalon-framework-api-4.3.1.jar" />
       <sourceRoot location="avalon-framework-impl-4.3.1.jar" />
@@ -25,6 +16,23 @@
       <sourceRoot location="pdfbox-app-2.0.24.jar" />
       <sourceRoot location="fontbox-2.0.24.jar" />
     </modelRoot>
+    <modelRoot contentPath="${module}/jars" type="java_classes">
+      <sourceRoot location="basis/slf4j-api-1.7.30.jar" />
+      <sourceRoot location="richclient/mailapi.jar" />
+      <sourceRoot location="richclient/smtp.jar" />
+      <sourceRoot location="basis/mo-javaxbus-1.0.jar" />
+      <sourceRoot location="servletclient/servlet-api.jar" />
+      <sourceRoot location="basis/jackson-core-2.12.3.jar" />
+      <sourceRoot location="printing21/pdfbox-app-2.0.24.jar" />
+      <sourceRoot location="richclient/log4j-core-2.17.1.jar" />
+      <sourceRoot location="richclient/log4j-api-2.17.1.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/richclient" type="java_classes">
+      <sourceRoot location="log4j-api-2.17.1.jar" />
+      <sourceRoot location="log4j-core-2.17.1.jar" />
+      <sourceRoot location="log4j-jcl-2.17.1.jar" />
+      <sourceRoot location="log4j-slf4j-impl-2.17.1.jar" />
+    </modelRoot>
   </models>
   <facets>
     <facet type="java" languageLevel="JAVA_8">
@@ -35,7 +43,6 @@
     <stubModelEntry path="${module}/jars/richclient/mailapi.jar" />
     <stubModelEntry path="${module}/jars/richclient/smtp.jar" />
     <stubModelEntry path="${module}/jars/servletclient/servlet-api.jar" />
-    <stubModelEntry path="${module}/jars/slf4j-log4j12-1.7.25.jar" />
     <stubModelEntry path="${module}/jars/basis/spring-aop-5.2.9.RELEASE.jar" />
     <stubModelEntry path="${module}/jars/basis/slf4j-api-1.7.30.jar" />
     <stubModelEntry path="${module}/jars/basis/mo-javaxbus-1.0.jar" />
@@ -54,6 +61,10 @@
     <stubModelEntry path="${module}/jars/printing21/pdfbox-app-2.0.24.jar" />
     <stubModelEntry path="${module}/jars/richclient/ojdbc8.jar" />
     <stubModelEntry path="${module}/jars/printing21/fontbox-2.0.24.jar" />
+    <stubModelEntry path="${module}/jars/richclient/log4j-api-2.17.1.jar" />
+    <stubModelEntry path="${module}/jars/richclient/log4j-core-2.17.1.jar" />
+    <stubModelEntry path="${module}/jars/richclient/log4j-jcl-2.17.1.jar" />
+    <stubModelEntry path="${module}/jars/richclient/log4j-slf4j-impl-2.17.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
