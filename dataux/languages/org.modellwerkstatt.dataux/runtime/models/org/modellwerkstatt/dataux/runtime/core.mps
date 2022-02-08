@@ -48879,7 +48879,6 @@
                 <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
               </node>
             </node>
-            <node concept="3clFbH" id="37q6uREbUbp" role="3cqZAp" />
             <node concept="3cpWs8" id="37q6uREbUbq" role="3cqZAp">
               <node concept="3cpWsn" id="37q6uREbUbr" role="3cpWs9">
                 <property role="TrG5h" value="context" />
@@ -48896,6 +48895,13 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="4zX5jmVN1yT" role="3cqZAp">
+              <node concept="2YIFZM" id="4zX5jmVN2hb" role="3clFbG">
+                <ref role="37wK5l" to="28jr:4zX5jmVMHFB" resolve="endRichClientSetup" />
+                <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="4zX5jmVNk5Z" role="3cqZAp" />
             <node concept="3cpWs8" id="37q6uREbUbw" role="3cqZAp">
               <node concept="3cpWsn" id="37q6uREbUbx" role="3cpWs9">
                 <property role="TrG5h" value="factory" />

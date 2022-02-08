@@ -18124,13 +18124,6 @@
         </node>
         <node concept="3J1_TO" id="7ECLRBgCPr_" role="3cqZAp">
           <node concept="3clFbS" id="7ECLRBgCPrA" role="1zxBo7">
-            <node concept="3clFbF" id="7ECLRBgCPrB" role="3cqZAp">
-              <node concept="2YIFZM" id="7ECLRBgCPrC" role="3clFbG">
-                <ref role="37wK5l" to="28jr:2h5WDoUYWm9" resolve="initRichClientSetup" />
-                <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="7ECLRBgCPrD" role="3cqZAp" />
             <node concept="3clFbJ" id="4ksEJbWwAVj" role="3cqZAp">
               <node concept="3clFbS" id="4ksEJbWwAVl" role="3clFbx">
                 <node concept="3clFbF" id="4ksEJbWwBy7" role="3cqZAp">
