@@ -177,7 +177,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2022.8 (lock++)" />
+          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2022.9 (log4j)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1271,6 +1271,31 @@
                         <property role="2Ry0Am" value="richclient" />
                         <node concept="2Ry0Ak" id="4zX5jmWjum5" role="2Ry0An">
                           <property role="2Ry0Am" value="log4j-slf4j-impl-2.17.1.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="77GQMAOIf1p" role="3bR37C">
+          <node concept="1BurEX" id="77GQMAOIf1q" role="1SiIV1">
+            <node concept="398BVA" id="77GQMAOIf1i" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="77GQMAOIf1j" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="77GQMAOIf1k" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="77GQMAOIf1l" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="77GQMAOIf1m" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="77GQMAOIf1n" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="77GQMAOIf1o" role="2Ry0An">
+                          <property role="2Ry0Am" value="activation-1.1.jar" />
                         </node>
                       </node>
                     </node>

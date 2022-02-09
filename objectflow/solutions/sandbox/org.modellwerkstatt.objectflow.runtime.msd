@@ -32,6 +32,7 @@
       <sourceRoot location="log4j-core-2.17.1.jar" />
       <sourceRoot location="log4j-jcl-2.17.1.jar" />
       <sourceRoot location="log4j-slf4j-impl-2.17.1.jar" />
+      <sourceRoot location="activation-1.1.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -65,6 +66,7 @@
     <stubModelEntry path="${module}/jars/richclient/log4j-core-2.17.1.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-jcl-2.17.1.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-slf4j-impl-2.17.1.jar" />
+    <stubModelEntry path="${module}/jars/richclient/activation-1.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -18102,7 +18102,7 @@
             <node concept="liA8E" id="7G122Nucp0P" role="2OqNvi">
               <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String)" resolve="setStyle" />
               <node concept="Xl_RD" id="7G122Nucq7$" role="37wK5m">
-                <property role="Xl_RC" value="-fx-background-color: #a5a5a5;" />
+                <property role="Xl_RC" value="-fx-background-color: #4482b6;" />
               </node>
             </node>
           </node>

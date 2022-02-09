@@ -72,11 +72,10 @@
 				
 			
 			<fileset dir="${mowarePluginHomeDir}/jars/basis/" 		includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/printing21" 	includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/richclient" 	includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/" 			includes="slf4j-log4j12-1.6.1.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/printing21/" 	includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/richclient/" 	includes="*.jar" />
 			
-			<fileset dir="${mowarePluginHomeDir}/jars/designtime"   includes="javafx.*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/designtime/"   includes="javafx.*.jar" />
 			
 		
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
@@ -118,10 +117,9 @@
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.jar" />
 				
-			
 			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/printing21" includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/servletclient" includes="*pebble*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/servletclient/" includes="*pebble*.jar" />
 
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
@@ -177,8 +175,8 @@
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.vaadinforms.jar" />
 	  		<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="moware-vaadin-theme-1.0.jar" />
 			
-			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/printing21" includes="*.jar" />
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />
 			<fileset dir="${mowarePluginHomeDir}/jars/vaadinclient/" includes="*.jar" />
 
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
@@ -231,8 +229,8 @@
 
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 							
-			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" /> 
-            <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />   
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />   
  
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
@@ -265,8 +263,8 @@
 
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 							
-			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />
-            
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
+			
             <fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
