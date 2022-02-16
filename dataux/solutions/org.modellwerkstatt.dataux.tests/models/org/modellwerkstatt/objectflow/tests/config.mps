@@ -271,6 +271,12 @@
             <property role="Xl_RC" value="test" />
           </node>
         </node>
+        <node concept="26L8Vk" id="7lpaU3R6$ir" role="2CPvpQ">
+          <ref role="26L8Vy" node="3drXVOoNMYp" resolve="URL" />
+          <node concept="Xl_RD" id="7lpaU3R6$is" role="26L8Vw">
+            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest:1521/LOLA" />
+          </node>
+        </node>
       </node>
       <node concept="2CPvp3" id="7agSOE7Kjvl" role="2CJdiS" />
       <node concept="2CJ4_Q" id="7agSOE7Kjvm" role="2CJdiS">

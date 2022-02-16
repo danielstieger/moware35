@@ -14759,7 +14759,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="19EO7JNeW$l" role="3cqZAp" />
         <node concept="3clFbJ" id="19EO7JN37If" role="3cqZAp">
           <node concept="3clFbS" id="19EO7JN37Ih" role="3clFbx">
             <node concept="1DcWWT" id="19EO7JN3fLY" role="3cqZAp">
@@ -43039,7 +43038,7 @@
                   <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="3cpWs3" id="3PbVxlQjD54" role="37wK5m">
                     <node concept="Xl_RD" id="3PbVxlQjDfw" role="3uHU7B">
-                      <property role="Xl_RC" value="2CONSOLE " />
+                      <property role="Xl_RC" value="BaseUiFactory.report():" />
                     </node>
                     <node concept="2YIFZM" id="3PbVxlQfGTZ" role="3uHU7w">
                       <ref role="37wK5l" to="28jr:7WMhZiR56$U" resolve="convertToString" />
@@ -44824,9 +44823,8 @@
                 <node concept="37vLTw" id="19EO7JNdOfM" role="37wK5m">
                   <ref role="3cqZAo" node="19EO7JNdhnd" resolve="appVersion" />
                 </node>
-                <node concept="10M0yZ" id="4g_sjDLb$Rx" role="37wK5m">
-                  <ref role="3cqZAo" to="28jr:4g_sjDL92p8" resolve="LOGIN" />
-                  <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                <node concept="37vLTw" id="7lpaU3RUVYP" role="37wK5m">
+                  <ref role="3cqZAo" node="4WoSiUNbVbF" resolve="source" />
                 </node>
                 <node concept="37vLTw" id="19EO7JNdRPz" role="37wK5m">
                   <ref role="3cqZAo" node="19EO7JNcGHd" resolve="cmdFqName" />

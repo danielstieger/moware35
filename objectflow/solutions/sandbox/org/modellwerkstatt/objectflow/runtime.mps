@@ -42646,7 +42646,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2022.10 (log4j++) (dev " />
+            <property role="Xl_RC" value="moware11 2022.11 (log4j+++) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
@@ -56289,8 +56289,8 @@
                       <ref role="2S8YL0" node="4WoSiUMJ6Q0" resolve="prio" />
                     </node>
                   </node>
-                  <node concept="Rm8GO" id="6CTqzKmineK" role="3uHU7w">
-                    <ref role="Rm8GQ" node="2dTopMvfAFa" resolve="WARN" />
+                  <node concept="Rm8GO" id="7lpaU3Sfvgi" role="3uHU7w">
+                    <ref role="Rm8GQ" node="2dTopMvfBbN" resolve="TRACE" />
                     <ref role="1Px2BO" node="2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
                   </node>
                 </node>
