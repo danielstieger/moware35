@@ -967,6 +967,9 @@
     <property role="R4oN_" value="set auto timestamp on insert" />
     <property role="EcuMT" value="7925018510953787849" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
+    <node concept="PrWs8" id="4J8oXUXVkjO" role="PzmwI">
+      <ref role="PrY4T" node="4J8oXUXVkjM" resolve="IAtOption" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6RVk_zvMVCR">
     <property role="3GE5qa" value="mapping.fieldoptions" />
@@ -975,6 +978,9 @@
     <property role="R4oN_" value="set auto userid on insert" />
     <property role="EcuMT" value="7925018510953790007" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
+    <node concept="PrWs8" id="4J8oXUXVkjS" role="PzmwI">
+      <ref role="PrY4T" node="4J8oXUXVkjN" resolve="IByOption" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6RVk_zvMW0w">
     <property role="3GE5qa" value="mapping.fieldoptions" />
@@ -983,6 +989,9 @@
     <property role="R4oN_" value="set auto timestamp on update" />
     <property role="EcuMT" value="7925018510953791520" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
+    <node concept="PrWs8" id="4J8oXUXVkjQ" role="PzmwI">
+      <ref role="PrY4T" node="4J8oXUXVkjM" resolve="IAtOption" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6RVk_zvMWcl">
     <property role="3GE5qa" value="mapping.fieldoptions" />
@@ -991,6 +1000,9 @@
     <property role="R4oN_" value="set auto userid on update" />
     <property role="EcuMT" value="7925018510953792277" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
+    <node concept="PrWs8" id="4J8oXUXVkjU" role="PzmwI">
+      <ref role="PrY4T" node="4J8oXUXVkjN" resolve="IByOption" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6TB1IkohjIs">
     <property role="TrG5h" value="SqlString" />
@@ -1373,6 +1385,16 @@
     <property role="34LRSv" value="BATCH" />
     <property role="R4oN_" value="use batch functionality" />
     <ref role="1TJDcQ" node="hm5BQDIYNw" resolve="SaveOption" />
+  </node>
+  <node concept="PlHQZ" id="4J8oXUXVkjM">
+    <property role="EcuMT" value="5460724356507059442" />
+    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="TrG5h" value="IAtOption" />
+  </node>
+  <node concept="PlHQZ" id="4J8oXUXVkjN">
+    <property role="EcuMT" value="5460724356507059443" />
+    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="TrG5h" value="IByOption" />
   </node>
 </model>
 
