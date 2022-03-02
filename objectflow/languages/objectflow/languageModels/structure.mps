@@ -5050,24 +5050,5 @@
       <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
     </node>
   </node>
-  <node concept="1TIwiD" id="_Gi9Jx9vnB">
-    <property role="EcuMT" value="678997478160594407" />
-    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
-    <property role="TrG5h" value="BusinessTransaction" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="_Gi9Jx9vom" role="PzmwI">
-      <ref role="PrY4T" node="ZnB5NvHJ5L" resolve="IServiceInstanceMethodOption" />
-    </node>
-    <node concept="PrWs8" id="_Gi9Jx9voo" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyj" id="_Gi9JxbUvj" role="1TKVEi">
-      <property role="IQ2ns" value="678997478161229779" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="comment" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpee:1w9VmqdQ_lv" resolve="MultiLineComment" />
-    </node>
-  </node>
 </model>
 
