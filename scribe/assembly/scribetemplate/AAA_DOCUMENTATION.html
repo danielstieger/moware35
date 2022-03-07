@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <title>MPREIS Geschäftsvorfälle</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeRDark.css" media="all">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+            document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelector('#mode').addEventListener('click',()=>{
+                document.querySelector('html').classList.toggle('dark');
+            })
+        });
+
+
+    </script>
+
+    <div id="wrapper">
+
+        <div id="mode" >
+            <div class="dark">
+                <svg aria-hidden="true" viewBox="0 0 512 512">
+                    <title>lightmode</title>
+                    <path fill="currentColor" d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"></path>
+                </svg>
+            </div>
+            <div class="light">
+                <svg aria-hidden="true" viewBox="0 0 512 512">
+                    <title>darkmode</title>
+                    <path fill="currentColor" d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <section id="top" class="section docs-heading">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="big-title text-center">
+                            <h1>MPREIS SPOT Konzept 2022</h1>
+                            <p class="lead">Geschäftsvorfälle, Belege und Verbuchng im Warengeschäft</p>
+                        </div>
+                        <!-- end title -->
+                    </div>
+                    <!-- end 12 -->
+                </div>
+                <!-- end row -->
+
+                <hr>
+
+            </section>
+            <!-- end section -->
+
+            <div class="row">
+                <div class="col-md-3">
+                    <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
+                        <ul class="nav">
+                            <li><a href="#line1">Vision SPOT</a></li>
+                            <li><a href="#line2">ToDo's Zusammenfassung</a></li>
+
+                                                            <li><a href="#model0">simple.app.simpleApp</a></li>
+                                                            <li><a href="#model1">simple.domain.invoice</a></li>
+                                                    </ul>
+                    </nav >
+                </div>
+                <div class="col-md-9">
+                    <section id="line1" class="welcome">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                               <h2 class="dark-text">Vision SPOT<hr></h2>
+                                <div class="row">
+
+                                    <div class="col-md-12 full">
+                                        <div class="intro1">
+                                            <ul>
+                                                <li><strong>Item Name : </strong>Spot Geschäftsvorfälle & Belege</li>
+                                                <li><strong>Item Version : </strong> v 1.0</li>
+                                                <li><strong>Author  : </strong> mpreis.at MM,
+                                                    <a href="https://github.com/wolfgangmessner" target="_blank">modellwerkstatt.org WM</a>
+                                                    <a href="https://github.com/danielstieger/" target="_blank">modellwerkstatt.org DS</a></li>
+                                                <li><strong>Support Forum : </strong> none</li>
+                                                <li><strong>License : </strong> none</li>
+                                            </ul>
+                                        </div>
+
+                                        <hr>
+                                        <div>
+                                            <p> Unsere Vision ist es es, die im Warengeschäft relevanten Datenströme einheitlich - nach den Regeln des Rechnungswesens - zu integrieren und in einem genau spezifizierten Kontenplan dem Unternehmen zur Verfügung zu stellen. Wir bezeichnen die Summe dieser Konten als SPOT (Single point of truth) und wollen damit ausdrücken, dass diese Konten dann die Basis für weitere IT-Anwendungen sein soll. Die Anwendungen sollen und dürfen in Zukunft nicht mehr frei Daten aus unterschiedlichen Quellsystemen im Unternehmen abziehen, interpretieren und verknüpfen. Die Daten im SPOT sind exakt und transparent spezifiziert und konsolidieren damit die operativen Daten der vielfältigen Quellsysteme. Wir verwenden dabei die einheitliche Sprache der FIBU, die von allen Stakeholdern zur Kommunikation verwendet werden kann. Nicht nur die FIBU und das Controlling profitieren von den Bemühungen rund um SPOT, die transparenz der gesamten Zusammenhänge und Prozesse im Warengeschäft bei MPREIS wird erhöht. Berichte & Kennzahlen der FIBU und des Controllings sind nachvollziehbar und konsistent untereinander, was auch Rechtlich von höchster Relevanz ist.</p>
+                                            <p> Dies zu erreichen ist äußerst schwierig. MPREIS verfügt über zahlreiche IT Systeme, zugekaufte als auch Eigenentwicklungen. Jedes dieser Systeme verwaltet dessen Datenbestand auf unterschiedliche Weise. Sie sind daher auch inhaltlich unterschiedlich zu interpretieren. Diese Vielfalt einheitlich auf Artikelebene im SPOT darzustellen ist herausfordernd und aufwendig. Die ca. 20 unterschiedlichen Geschäftsvorfälle führen zu etwa 20-30 unterschiedlichen Belegen, die für das SPOT korrekt und konsistent verbucht werden müssen. Dabei muss gerade - über die Zeit hinweg - die Interpretation & Verbuchung der Belege von den unterschiedlichen Anwendern verstanden werden. Gerade der Wirtschaftsprüfer fordert auch höchste Transparenz, Nachvollziehbarkeit und Dokumentation in den Verfahrensabläufen rund um das Warengeschäft.</p>
+                                            <p> Die Zeit dafür ist nun reif. Die SW Toolbox zur Ermittlung der Bestände aus den operativen Systemen ist End-Of-Life und nicht mehr zeitgemäß. Unabhängig davon muss die Digitalisierung für FIBU und Controlling vorangetrieben werden, um die Nachvollziehbarkeit und Revisionssicherheit sicherzustellen. Wir müssen nun auch dringend von manuellen Korrekturen in verschiedenen IT Anwendungen abkommen. Eine Orientierung an der bestandsorientierten Buchung (Fortschreibungsmethode oder Skontrationsmethode) für den Warenvorrat ist anzustreben, um die Auskunftsfähigkeit der FIBU zu erhöhen. Durch Dokumentation der Verfahrensabläufe bei MPREIS, anhand von Geschäftsvorfällen, Belegen und der dazugehörigen buchhalterisch korrekten Verbuchung, schaffen wir Transparenz in der gewachsenen Organisation. Wenn handelnde Mitarbeiter insgesamt Kennzahlen und Verfahrensabläufe schneller und einfacher verstehen können, insgesamt die Flexibilität bei bestehenden und ergänzenden Geschäftsvorfällen für die Zukunft erhöht wird, können wir das Warengeschäft bei MPREIS nachhaltig stärken.</p>
+                                            <p> Diese Vision wollen wir bis Ende 2024 verwirklichen, indem wir intern mit FIBU und Controlling den Aufbau und die Anforderung an ein zentrales SPOT festlegen. Wir wollen mit geeigneten IT-Werkzeugen festhalten, in welchen Geschäftsvorfällen, welche Belege anfallen und wie diese im SPOT verbucht werden (müssen). So können Anwender, wie auch Wirtschaftsprüfer, selbständig nachvollziehen: Durch welchen Geschäftsvorfälle hat eine Bestandsveränderung oder Erfolgsveränderung stattgefunden, welche Buchungen hat dies auf welchen Konten nach sich gezogen, und wie sind diese zu interpretieren. Mit der Perspektive nach Innen wollen wir zeitnah die Geschäftsvorfälle und Belege dokumentieren. Dabei sind wir im Denken an die angestammte Systemlandschaft gebunden. Daher ergänzen wir diese Handlungen durch eine Perspektive nach Außen. Mit externen Experten wollen wir die buchhalterisch korrekte Verbuchung auf Artikelebene und weitere gesetzliche Anforderungen diskutieren. Dabei wollen wir auch neue IT-Lösungen, IT-Technologien & Best-Practice Vorgehen anderer Unternehmen aktiv in Kenntnis bringen.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- end row -->
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="line2" class="section">
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Todo's Geschäftsvorfälle</h2>
+                                                                                                                                                                   <h4>Funktion simple.domain.invoice</h4>
+                                                                                                                    <p><strong>Geschäftsvorfall Barverkauf an Kunden</strong> <br>
+                                        - Das ist ein TODO vom Barverkauf an Kunden<br>- Das ist ein TODO2 vom Barverkauf an Kunden<br></p>
+                                                                                                                                                                         </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                    </section>
+
+
+                                        <section id="model0" class="section">
+						<div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Funktion simple.app.simpleApp<hr></h2>
+                            </div>
+                            <!-- end col -->
+                                                        <div class="col-md-12 left-align">
+                                <h3>Geschäftsvorfall Barverkauf<hr></h3>
+                        	    <p>fasdf <br><br><br></p>
+                        	    <p>fadfasdf <br><br><br></p>
+                        	    <p></p>
+                                                                <p>
+                                <h4> Beleg Order </h4>
+                                                                 <table class="table table-sm">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col">Feld</th>
+                                            <th scope="col">Typ</th>
+                                            <th scope="col">Beschreibung</th>
+                                            <th scope="col">Ausprägung</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                                                                <tr style="background-color: #FFFFFF">
+                                                <th scope="row">id</th>
+                                                <td>int</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">name</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">totalValue</th>
+                                                <td>BigDecimal</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">totalValuePlus10Percent</th>
+                                                <td>BigDecimal</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">orderDat</th>
+                                                <td>LocalDate</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">dt</th>
+                                                <td>DateTime</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">store</th>
+                                                <td>Store</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #EBEBEB">
+                                                <th scope="row">pos</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">id</th>
+                                                <td>int</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">ean</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">name</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">posValue</th>
+                                                <td>BigDecimal</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">timestamp</th>
+                                                <td>DateTime</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">accPos</th>
+                                                <td>list<AccountPosition></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">depAccPos</th>
+                                                <td>list<AccountPosition></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">status</th>
+                                                <td>PositionStatus</td>
+                                                <td></td>
+                                                <td> accepted, rejected, unknown</td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">summarizingLongText</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">summarizingLongText2</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">status</th>
+                                                <td>OrderStat</td>
+                                                <td></td>
+                                                <td> created, ordered, completed</td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">aufgabe</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">status2</th>
+                                                <td>OrderStat</td>
+                                                <td></td>
+                                                <td> created, ordered, completed</td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">someRef</th>
+                                                <td>RefView</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #EBEBEB">
+                                                <th scope="row">money</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">val</th>
+                                                <td>BigDecimal</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">currency</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            
+                                                                                                                            </tbody>
+                                    </table>
+
+                                </p>
+                                
+                            </div>
+                                                    </div>
+                        <!-- end row -->
+                    </section>
+                    <!-- end section -->
+                                        <section id="model1" class="section">
+						<div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Funktion simple.domain.invoice<hr></h2>
+                            </div>
+                            <!-- end col -->
+                                                        <div class="col-md-12 left-align">
+                                <h3>Geschäftsvorfall Barverkauf an Kunden<hr></h3>
+                        	    <p>fgaf adfa ad </p>
+                        	    <p>d asfa </p>
+                        	    <p>- Das ist ein TODO vom Barverkauf an Kunden<br>- Das ist ein TODO2 vom Barverkauf an Kunden<br></p>
+                                                                <p>
+                                <h4> Beleg Article </h4>
+                                                                 <table class="table table-sm">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col">Feld</th>
+                                            <th scope="col">Typ</th>
+                                            <th scope="col">Beschreibung</th>
+                                            <th scope="col">Ausprägung</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                                                                <tr style="background-color: #FFFFFF">
+                                                <th scope="row">id</th>
+                                                <td>int</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #FFFFFF">
+                                                <th scope="row">name</th>
+                                                <td>string</td>
+                                                <td>dfadf a </td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                                                                            <tr style="background-color: #EBEBEB">
+                                                <th scope="row">price</th>
+                                                <td></td>
+                                                <td>fasd a </td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">val</th>
+                                                <td>BigDecimal</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                        <tr style="background-color: #EBEBEB">
+                                                <th scope="row">currency</th>
+                                                <td>string</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            
+                                                                                                                            </tbody>
+                                    </table>
+
+                                </p>
+                                
+                            </div>
+                                                    </div>
+                        <!-- end row -->
+                    </section>
+                    <!-- end section -->
+                    
+                    <section id="copyright" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Copyright and license <hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+                                <p>MPREIS Warenvertriebs GMBH.</p>
+                                <p><a href=" https://www.mpreis.at" target="_blank">mpreis.at</a>.</p>
+                            
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+                </div>
+                <!-- // end .col -->
+
+            </div>
+            <!-- // end .row -->
+
+        </div>
+        <!-- // end container -->
+
+    </div>
+    <!-- end wrapper -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+
+    <!-- CUSTOM PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/syntax-highlighter/scripts/shCore.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+
+</html>

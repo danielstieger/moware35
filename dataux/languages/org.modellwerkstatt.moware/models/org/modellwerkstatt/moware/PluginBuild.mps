@@ -2869,6 +2869,24 @@
               </node>
             </node>
           </node>
+          <node concept="398223" id="6WkQmwhVn$o" role="39821P">
+            <node concept="3_J27D" id="6WkQmwhVn$p" role="Nbhlr">
+              <node concept="3Mxwew" id="6WkQmwhVn$q" role="3MwsjC">
+                <property role="3MwjfP" value="scribeassembly" />
+              </node>
+            </node>
+            <node concept="2HvfSZ" id="6WkQmwhVn$r" role="39821P">
+              <node concept="398BVA" id="6WkQmwhVn$s" role="2HvfZ0">
+                <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+                <node concept="2Ry0Ak" id="6WkQmwhVn$t" role="iGT6I">
+                  <property role="2Ry0Am" value="scribe" />
+                  <node concept="2Ry0Ak" id="6WkQmwhVnN_" role="2Ry0An">
+                    <property role="2Ry0Am" value="assembly" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="pUk6x" id="2hCyDkSRPLS" role="pUk7w" />
         </node>
       </node>
