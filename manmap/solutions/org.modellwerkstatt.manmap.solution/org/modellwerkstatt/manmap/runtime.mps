@@ -8552,16 +8552,6 @@
       <node concept="3Tm1VV" id="1YSLAaBzrBb" role="1B3o_S" />
       <node concept="17QB3L" id="1YSLAaBzrAg" role="3clF45" />
     </node>
-    <node concept="3clFb_" id="5jBG_EScliC" role="jymVt">
-      <property role="TrG5h" value="ensureOneRowHit" />
-      <node concept="37vLTG" id="5jBG_EScm$E" role="3clF46">
-        <property role="TrG5h" value="innerStatement" />
-        <node concept="17QB3L" id="5jBG_EScm$I" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="5jBG_ESclrY" role="3clF45" />
-      <node concept="3Tm1VV" id="5jBG_EScliF" role="1B3o_S" />
-      <node concept="3clFbS" id="5jBG_EScliG" role="3clF47" />
-    </node>
     <node concept="3Tm1VV" id="1YSLAaBz9tx" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1YSLAaBzsbA">
@@ -8720,48 +8710,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2TtvlLCSjWE" role="jymVt" />
-    <node concept="3clFb_" id="5jBG_EScl_$" role="jymVt">
-      <property role="TrG5h" value="ensureOneRowHit" />
-      <node concept="37vLTG" id="5jBG_EScm2t" role="3clF46">
-        <property role="TrG5h" value="innerStatement" />
-        <node concept="17QB3L" id="5jBG_EScm9w" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="5jBG_EScl__" role="3clF45" />
-      <node concept="3Tm1VV" id="5jBG_EScl_A" role="1B3o_S" />
-      <node concept="3clFbS" id="5jBG_EScl_C" role="3clF47">
-        <node concept="3clFbF" id="6w_G7LXf6on" role="3cqZAp">
-          <node concept="37vLTw" id="6w_G7LXf6og" role="3clFbG">
-            <ref role="3cqZAo" node="5jBG_EScm2t" resolve="innerStatement" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="6w_G7LXf5QM" role="jymVt">
-      <property role="TrG5h" value="ensureOneRowHitALTERNATIVE" />
-      <node concept="37vLTG" id="6w_G7LXf5QN" role="3clF46">
-        <property role="TrG5h" value="innerStatement" />
-        <node concept="17QB3L" id="6w_G7LXf5QO" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="6w_G7LXf5QP" role="3clF45" />
-      <node concept="3Tm1VV" id="6w_G7LXf5QQ" role="1B3o_S" />
-      <node concept="3clFbS" id="6w_G7LXf5QR" role="3clF47">
-        <node concept="3clFbF" id="6w_G7LXf5QS" role="3cqZAp">
-          <node concept="3cpWs3" id="6w_G7LXf5QT" role="3clFbG">
-            <node concept="Xl_RD" id="6w_G7LXf5QU" role="3uHU7w">
-              <property role="Xl_RC" value="; IF SQL%%ROWCOUNT &lt;&gt; 1 THEN RAISE_APPLICATION_ERROR(-20001, 'Expected to update one row for given key. Updated ' || SQL%%ROWCOUNT || ' on ....'); END IF; END;" />
-            </node>
-            <node concept="3cpWs3" id="6w_G7LXf5QV" role="3uHU7B">
-              <node concept="Xl_RD" id="6w_G7LXf5QW" role="3uHU7B">
-                <property role="Xl_RC" value="BEGIN " />
-              </node>
-              <node concept="37vLTw" id="6w_G7LXf5QX" role="3uHU7w">
-                <ref role="3cqZAo" node="6w_G7LXf5QN" resolve="innerStatement" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="312cEu" id="1YSLAaBzspJ">
     <property role="TrG5h" value="MMMySqlDescription" />
@@ -8881,27 +8829,6 @@
     <node concept="3Tm1VV" id="1YSLAaBzsq4" role="1B3o_S" />
     <node concept="3uibUv" id="1YSLAaBzsq5" role="EKbjA">
       <ref role="3uigEE" node="1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
-    </node>
-    <node concept="3clFb_" id="5jBG_EScmZi" role="jymVt">
-      <property role="TrG5h" value="ensureOneRowHit" />
-      <node concept="37vLTG" id="5jBG_EScmZj" role="3clF46">
-        <property role="TrG5h" value="innerStatement" />
-        <node concept="17QB3L" id="5jBG_EScmZk" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="5jBG_EScmZl" role="3clF45" />
-      <node concept="3Tm1VV" id="5jBG_EScmZm" role="1B3o_S" />
-      <node concept="3clFbS" id="5jBG_EScmZo" role="3clF47">
-        <node concept="YS8fn" id="5jBG_EScnpz" role="3cqZAp">
-          <node concept="2ShNRf" id="5jBG_EScnp$" role="YScLw">
-            <node concept="1pGfFk" id="5jBG_EScnp_" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="5jBG_EScnpA" role="37wK5m">
-                <property role="Xl_RC" value="Not implemented yet." />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="3HP615" id="1VxIuFTB$3v">
