@@ -111,6 +111,9 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="1146253292180" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Simple" flags="nn" index="3y1jeu">
+        <child id="1146253292181" name="value" index="3y1jev" />
+      </concept>
       <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
         <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
       </concept>
@@ -711,6 +714,32 @@
                 </node>
                 <node concept="3cmrfG" id="4pfCiMc1GH1" role="3uHU7w">
                   <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3Gvjll3ELxG" role="_YvDr">
+      <property role="_XH9r" value="Show DSL Style operation calls" />
+      <ref role="_XDHR" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+      <node concept="_ZGcI" id="3Gvjll3ELxH" role="_XPhp">
+        <node concept="3clFbS" id="3Gvjll3ELxI" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3Gvjll3ELxJ" role="_XDHO">
+        <node concept="3clFbS" id="3Gvjll3ELxK" role="2VODD2">
+          <node concept="3clFbF" id="3Gvjll3EMR2" role="3cqZAp">
+            <node concept="2OqwBi" id="3Gvjll3EP14" role="3clFbG">
+              <node concept="2OqwBi" id="3Gvjll3EN8t" role="2Oq$k0">
+                <node concept="_YI3z" id="3Gvjll3EMR1" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3Gvjll3ENoy" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:4Iw7xyH$5$Q" resolve="longFormat" />
+                </node>
+              </node>
+              <node concept="3y1jeu" id="3Gvjll3EPd1" role="2OqNvi">
+                <node concept="3clFbT" id="3Gvjll3EPhu" role="3y1jev">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>

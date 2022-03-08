@@ -116,6 +116,7 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1154542696413" name="jetbrains.mps.baseLanguage.structure.ArrayCreatorWithInitializer" flags="nn" index="3g6Rrh">
         <child id="1154542793668" name="componentType" index="3g7fb8" />
         <child id="1154542803372" name="initValue" index="3g7hyw" />
@@ -255,10 +256,6 @@
         <property id="569389511234497410" name="day" index="1$4sGW" />
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
-      </concept>
-      <concept id="6303390138597557532" name="org.modellwerkstatt.objectflow.structure.ConvTextExpression" flags="ng" index="1WHerN">
-        <property id="6303390138597572053" name="type" index="1WHdSU" />
-        <child id="6303390138597674847" name="expression" index="1WEEMK" />
       </concept>
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.ViewObject" flags="ig" index="1YeyE5">
         <child id="3498431509526788839" name="status" index="kV5ob" />
@@ -8590,23 +8587,56 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="7_PeuXFqDOJ" role="3cqZAp">
-          <node concept="2OqwBi" id="7_PeuXFqEdx" role="1gVkn0">
-            <node concept="37vLTw" id="7_PeuXFqDXM" role="2Oq$k0">
-              <ref role="3cqZAo" node="7_PeuXFoMYP" resolve="st" />
+        <node concept="3SKdUt" id="3Gvjll544Cd" role="3cqZAp">
+          <node concept="1PaTwC" id="3Gvjll544Ce" role="1aUNEU">
+            <node concept="3oM_SD" id="3Gvjll544Cf" role="1PaTwD">
+              <property role="3oM_SC" value="was" />
             </node>
-            <node concept="liA8E" id="7_PeuXFqEmF" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="1WHerN" id="7_PeuXFqEta" role="37wK5m">
-                <property role="1WHdSU" value="5tU8YWFO8zP/XML" />
-                <node concept="37vLTw" id="7_PeuXFqEw5" role="1WEEMK">
-                  <ref role="3cqZAo" node="7_PeuXFoMYK" resolve="entity" />
-                </node>
+            <node concept="3oM_SD" id="3Gvjll544HI" role="1PaTwD">
+              <property role="3oM_SC" value="checked" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544I1" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544Jn" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544Jv" role="1PaTwD">
+              <property role="3oM_SC" value="backward" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544JS" role="1PaTwD">
+              <property role="3oM_SC" value="compatible" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544Ka" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544Id" role="1PaTwD">
+              <property role="3oM_SC" value="conv(entity)" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544IM" role="1PaTwD">
+              <property role="3oM_SC" value="Winter" />
+            </node>
+            <node concept="3oM_SD" id="3Gvjll544J0" role="1PaTwD">
+              <property role="3oM_SC" value="2021/22" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3Gvjll542Ry" role="3cqZAp">
+          <node concept="3eOSWO" id="3Gvjll543WC" role="1gVkn0">
+            <node concept="3cmrfG" id="3Gvjll543WF" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="3Gvjll543gc" role="3uHU7B">
+              <node concept="37vLTw" id="3Gvjll542Ww" role="2Oq$k0">
+                <ref role="3cqZAo" node="7_PeuXFoMYP" resolve="st" />
+              </node>
+              <node concept="liA8E" id="3Gvjll543mk" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7_PeuXFoMZs" role="3cqZAp" />
+        <node concept="3clFbH" id="3Gvjll544s4" role="3cqZAp" />
       </node>
     </node>
   </node>

@@ -17172,40 +17172,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6WkQmwikRBq" role="3cqZAp">
-          <node concept="2OqwBi" id="6WkQmwikRBn" role="3clFbG">
-            <node concept="10M0yZ" id="6WkQmwikRBo" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="6WkQmwikRBp" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="6WkQmwilaWR" role="37wK5m">
-                <node concept="37vLTw" id="6WkQmwilcPz" role="3uHU7w">
-                  <ref role="3cqZAo" node="5_bDd1dGbFt" resolve="windowTitle" />
-                </node>
-                <node concept="3cpWs3" id="6WkQmwil8q4" role="3uHU7B">
-                  <node concept="3cpWs3" id="6WkQmwil5AF" role="3uHU7B">
-                    <node concept="Xl_RD" id="6WkQmwil0ah" role="3uHU7B">
-                      <property role="Xl_RC" value="cmd_fq: " />
-                    </node>
-                    <node concept="2OqwBi" id="6WkQmwil5Ul" role="3uHU7w">
-                      <node concept="37vLTw" id="6WkQmwil5J_" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                      </node>
-                      <node concept="liA8E" id="6WkQmwil7Rc" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="6WkQmwil8rs" role="3uHU7w">
-                    <property role="Xl_RC" value=" WT: " />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="6WkQmwipk$s" role="3cqZAp" />
         <node concept="3clFbJ" id="3EJ222E2lxC" role="3cqZAp">
           <node concept="3clFbS" id="3EJ222E2lxE" role="3clFbx">

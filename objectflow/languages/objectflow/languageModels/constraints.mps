@@ -1433,7 +1433,7 @@
   </node>
   <node concept="1M2fIO" id="4wvbHtt4hBB">
     <property role="3GE5qa" value="OFXCore.session" />
-    <ref role="1M2myG" to="un0u:4wvbHtt4g$4" resolve="SessionOperation" />
+    <ref role="1M2myG" to="un0u:4wvbHtt4g$4" resolve="SessionOperationAdd" />
     <node concept="9S07l" id="4wvbHtt4hBC" role="9Vyp8">
       <node concept="3clFbS" id="3B2vGTdJfv3" role="2VODD2">
         <node concept="3clFbF" id="3B2vGTdJfv4" role="3cqZAp">
@@ -2644,32 +2644,6 @@
       <ref role="1N5Vy1" to="un0u:33KhHQQdcwZ" resolve="property" />
       <node concept="1dDu$B" id="33KhHQQHREt" role="1N6uqs">
         <ref role="1dDu$A" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="5tU8YWFO8XC">
-    <property role="3GE5qa" value="LogPrint" />
-    <ref role="1M2myG" to="un0u:5tU8YWFNGks" resolve="ConvTextExpression" />
-    <node concept="9S07l" id="5tU8YWFO8Ys" role="9Vyp8">
-      <node concept="3clFbS" id="3B2vGTdJfpu" role="2VODD2">
-        <node concept="3clFbF" id="3B2vGTdJfpv" role="3cqZAp">
-          <node concept="2OqwBi" id="3B2vGTdJfpw" role="3clFbG">
-            <node concept="2OqwBi" id="3B2vGTdJfpx" role="2Oq$k0">
-              <node concept="nLn13" id="3B2vGTdJfpy" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="3B2vGTdJfpz" role="2OqNvi">
-                <node concept="3gmYPX" id="3B2vGTdJfp$" role="1xVPHs">
-                  <node concept="3gn64h" id="vSWWXDvpQW" role="3gmYPZ">
-                    <ref role="3gnhBz" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
-                  </node>
-                  <node concept="3gn64h" id="3B2vGTdJfpA" role="3gmYPZ">
-                    <ref role="3gnhBz" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3x8VRR" id="3B2vGTdJfpB" role="2OqNvi" />
-          </node>
-        </node>
       </node>
     </node>
   </node>

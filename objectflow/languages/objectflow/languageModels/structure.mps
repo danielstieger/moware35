@@ -29,7 +29,6 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -380,12 +379,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="4533072425307838444" />
       <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
-    </node>
-    <node concept="1TJgyj" id="1uLDEXGwbba" role="1TKVEi">
-      <property role="20kJfa" value="element" />
-      <property role="IQ2ns" value="1707329006119989962" />
-      <ref role="20lvS9" node="3VCHlE3_rxm" resolve="StatusElement" />
-      <node concept="asaX9" id="1ei3eG2x_pk" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="51BqQ8Ku62f" role="PzmwI">
       <ref role="PrY4T" to="r5tz:51BqQ8KtRx3" resolve="IPrimitiveConstant" />
@@ -1057,13 +1050,6 @@
       <property role="IQ2ns" value="1881524139085552759" />
       <ref role="20lvS9" node="6ffh1MXzHn6" resolve="PageCrtl" />
     </node>
-    <node concept="1TJgyj" id="2_YacpKx0lq" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="flagMessage" />
-      <property role="IQ2ns" value="2989872035376923994" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-      <node concept="asaX9" id="4qjnIJyc37O" role="lGtFl" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5Ee0EjqTaDb">
     <property role="3GE5qa" value="OFXCore.cmd" />
@@ -1112,8 +1098,8 @@
   </node>
   <node concept="1TIwiD" id="4wvbHtt4g$4">
     <property role="3GE5qa" value="OFXCore.session" />
-    <property role="TrG5h" value="SessionOperation" />
-    <property role="34LRSv" value="sessionOperationAdd" />
+    <property role="TrG5h" value="SessionOperationAdd" />
+    <property role="34LRSv" value="session operation add" />
     <property role="EcuMT" value="5196923997523085572" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="2UKuXobCcuj" role="1TKVEi">
@@ -1884,36 +1870,6 @@
       <property role="IQ2ns" value="3526396426289727551" />
       <ref role="20lvS9" node="q_zDmI6suX" resolve="OFXConfigProperty" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="5tU8YWFNGks">
-    <property role="3GE5qa" value="LogPrint" />
-    <property role="TrG5h" value="ConvTextExpression" />
-    <property role="34LRSv" value="conv" />
-    <property role="EcuMT" value="6303390138597557532" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="5tU8YWFO8Xv" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="6303390138597674847" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyi" id="5HvIBdINHAl" role="1TKVEl">
-      <property role="TrG5h" value="type" />
-      <property role="IQ2nx" value="6303390138597572053" />
-      <ref role="AX2Wp" node="5HvIBdINHdC" resolve="PrintType" />
-      <node concept="3l_iC" id="5HvIBdINHAm" role="lGtFl">
-        <node concept="1TJgyi" id="5tU8YWFNJRl" role="3l_iP">
-          <property role="TrG5h" value="type" />
-          <property role="IQ2nx" value="6303390138597572053" />
-          <ref role="AX2Wp" node="5tU8YWFNTBq" resolve="PrintType" />
-        </node>
-      </node>
-    </node>
-    <node concept="PrWs8" id="Yd9evR5z81" role="PzmwI">
-      <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
-    </node>
-    <node concept="asaX9" id="4pfCiMaW78q" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="6Rdz00$u0vd">
     <property role="3GE5qa" value="OFXCore.cmd" />
@@ -2928,12 +2884,6 @@
     <property role="R4oN_" value="for exception" />
     <property role="EcuMT" value="4503841283144443826" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7bWGJuRDHjl" role="1TKVEl">
-      <property role="TrG5h" value="suspendSeconds" />
-      <property role="IQ2nx" value="8285694191462700245" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-      <node concept="asaX9" id="1Z999TK3tYx" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="3U0QWzu$7hK" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="exMatch" />

@@ -261,7 +261,7 @@
   </node>
   <node concept="3_zdsH" id="Kou8LeiGoP">
     <property role="3GE5qa" value="OFXCore.session" />
-    <ref role="3_znuS" to="un0u:4wvbHtt4g$4" resolve="SessionOperation" />
+    <ref role="3_znuS" to="un0u:4wvbHtt4g$4" resolve="SessionOperationAdd" />
     <node concept="3__wT9" id="Kou8LeiGoQ" role="3_A6iZ">
       <node concept="3clFbS" id="Kou8LeiGoR" role="2VODD2">
         <node concept="3AgYrR" id="Kou8LeiGoS" role="3cqZAp">
@@ -411,14 +411,6 @@
     <ref role="3_znuS" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
     <node concept="3__wT9" id="2zj0tMVckU$" role="3_A6iZ">
       <node concept="3clFbS" id="2zj0tMVckU_" role="2VODD2">
-        <node concept="3AgYrR" id="2_YacpK_Qg3" role="3cqZAp">
-          <node concept="2OqwBi" id="2_YacpK_Qj$" role="3Ah4Yx">
-            <node concept="3__QtB" id="2_YacpK_Qgj" role="2Oq$k0" />
-            <node concept="3TrEf2" id="2_YacpK_QrY" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:2_YacpKx0lq" resolve="flagMessage" />
-            </node>
-          </node>
-        </node>
         <node concept="3AM$9J" id="2zj0tMVckUA" role="3cqZAp" />
       </node>
     </node>
@@ -433,22 +425,6 @@
             <node concept="3__QtB" id="3mhGZDYdrYF" role="2Oq$k0" />
             <node concept="3TrEf2" id="3mhGZDYdsxs" role="2OqNvi">
               <ref role="3Tt5mk" to="un0u:3mhGZDYdmGp" resolve="expression" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="3_zdsH" id="5tU8YWGtzaw">
-    <property role="3GE5qa" value="LogPrint" />
-    <ref role="3_znuS" to="un0u:5tU8YWFNGks" resolve="ConvTextExpression" />
-    <node concept="3__wT9" id="5tU8YWGtzax" role="3_A6iZ">
-      <node concept="3clFbS" id="5tU8YWGtzay" role="2VODD2">
-        <node concept="3AgYrR" id="5tU8YWGtzQC" role="3cqZAp">
-          <node concept="2OqwBi" id="5tU8YWGtzTk" role="3Ah4Yx">
-            <node concept="3__QtB" id="5tU8YWGtzR2" role="2Oq$k0" />
-            <node concept="3TrEf2" id="5tU8YWGt$fw" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:5tU8YWFO8Xv" resolve="expression" />
             </node>
           </node>
         </node>

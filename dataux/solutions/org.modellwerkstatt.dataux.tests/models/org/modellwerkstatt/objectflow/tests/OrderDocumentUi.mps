@@ -168,7 +168,6 @@
       </concept>
       <concept id="1881524139085552758" name="org.modellwerkstatt.objectflow.structure.PageCommand" flags="ng" index="10Adxa">
         <reference id="1881524139085552759" name="page" index="10Adxb" />
-        <child id="2989872035376923994" name="flagMessage" index="1pYyQs" />
       </concept>
       <concept id="1881524139085552751" name="org.modellwerkstatt.objectflow.structure.DoneCommand" flags="ng" index="10Adxj" />
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
@@ -2757,9 +2756,6 @@
             </node>
             <node concept="10Adxa" id="18Et36zn$04" role="3cqZAp">
               <ref role="10Adxb" node="18Et36znzm4" resolve="Page_0" />
-              <node concept="Xl_RD" id="1vrkU0XcbfK" role="1pYyQs">
-                <property role="Xl_RC" value="AdditionalFlagText from page" />
-              </node>
             </node>
           </node>
         </node>
