@@ -189,9 +189,6 @@
         <child id="1895313098170231175" name="multiString" index="28QmyZ" />
       </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXVoidStatementList" flags="ig" index="2d2NRx" />
-      <concept id="9029332601822340346" name="org.modellwerkstatt.objectflow.structure.IOFXSurpErrorMarker" flags="ng" index="fdWrj">
-        <property id="9029332601822340347" name="knowWhatDoing" index="fdWri" />
-      </concept>
       <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
         <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
       </concept>
@@ -2635,7 +2632,6 @@
             <property role="TrG5h" value="st1" />
             <node concept="17QB3L" id="3sIS$IKpYNT" role="1tU5fm" />
             <node concept="1odsa" id="3sIS$IKpYa0" role="33vP2m">
-              <property role="fdWri" value="true" />
               <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
               <ref role="37wK5l" node="4nH4LOF0O72" resolve="calcPlatformString" />
               <node concept="3er55J" id="3sIS$IKpYYQ" role="2f8TIa" />
@@ -2675,7 +2671,6 @@
             <property role="TrG5h" value="st2" />
             <node concept="17QB3L" id="3sIS$IKpZgl" role="1tU5fm" />
             <node concept="1odsa" id="3sIS$IKpZgm" role="33vP2m">
-              <property role="fdWri" value="true" />
               <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
               <ref role="37wK5l" node="4nH4LOF0O72" resolve="calcPlatformString" />
               <node concept="3er55J" id="3sIS$IKpZgn" role="2f8TIa" />
@@ -2714,7 +2709,6 @@
             <property role="TrG5h" value="st3" />
             <node concept="17QB3L" id="3sIS$IKpZqP" role="1tU5fm" />
             <node concept="1odsa" id="3sIS$IKpZqQ" role="33vP2m">
-              <property role="fdWri" value="true" />
               <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
               <ref role="37wK5l" node="4nH4LOF0O72" resolve="calcPlatformString" />
               <node concept="3er55J" id="3sIS$IKpZqR" role="2f8TIa" />
@@ -4087,7 +4081,6 @@
       <node concept="3clFbS" id="7$uuZ_GXgrZ" role="3clF47">
         <node concept="1gVbGN" id="7$uuZ_GYCHf" role="3cqZAp">
           <node concept="1odsa" id="7$uuZ_GYCHp" role="1gVkn0">
-            <property role="fdWri" value="true" />
             <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
             <ref role="37wK5l" node="4nH4LOF0O7h" resolve="authenticatedMe" />
             <node concept="3urNR4" id="7$uuZ_GYDDx" role="37wK5m">
@@ -4108,7 +4101,6 @@
         <node concept="1gVbGN" id="7$uuZ_GYDIu" role="3cqZAp">
           <node concept="3fqX7Q" id="7$uuZ_GYDTR" role="1gVkn0">
             <node concept="1odsa" id="7$uuZ_GYDTT" role="3fr31v">
-              <property role="fdWri" value="true" />
               <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
               <ref role="37wK5l" node="4nH4LOF0O7h" resolve="authenticatedMe" />
               <node concept="3cpWs3" id="7$uuZ_GYDTU" role="37wK5m">
@@ -4135,7 +4127,6 @@
         <node concept="1gVbGN" id="7$uuZ_GYDX1" role="3cqZAp">
           <node concept="3fqX7Q" id="7$uuZ_GYDX2" role="1gVkn0">
             <node concept="1odsa" id="7$uuZ_GYDX3" role="3fr31v">
-              <property role="fdWri" value="true" />
               <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
               <ref role="37wK5l" node="4nH4LOF0O7h" resolve="authenticatedMe" />
               <node concept="3urNR4" id="7$uuZ_GYDX6" role="37wK5m">
@@ -4168,7 +4159,6 @@
               </node>
             </node>
             <node concept="1odsa" id="7$uuZ_GYEdc" role="33vP2m">
-              <property role="fdWri" value="true" />
               <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
               <ref role="37wK5l" node="4nH4LOF0O7v" resolve="getGroupsToUser" />
               <node concept="3urNR4" id="7$uuZ_GYEdd" role="37wK5m">
@@ -4258,7 +4248,6 @@
               </node>
             </node>
             <node concept="1odsa" id="1uYQkaRvk62" role="33vP2m">
-              <property role="fdWri" value="true" />
               <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
               <ref role="37wK5l" node="4nH4LOF0O7v" resolve="getGroupsToUser" />
               <node concept="3urNR4" id="1uYQkaRvk63" role="37wK5m">
@@ -4298,7 +4287,6 @@
                         </node>
                       </node>
                       <node concept="1odsa" id="1uYQkaRvl1N" role="33vP2m">
-                        <property role="fdWri" value="true" />
                         <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
                         <ref role="37wK5l" node="4nH4LOF0O7F" resolve="getGroupsToCommonName" />
                         <node concept="Xl_RD" id="1uYQkaRvlsx" role="37wK5m">

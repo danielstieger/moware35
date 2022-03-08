@@ -494,9 +494,6 @@
     <node concept="PrWs8" id="Yd9evR5B17" role="PzmwI">
       <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
     </node>
-    <node concept="PrWs8" id="7PeCy_MurV0" role="PzmwI">
-      <ref role="PrY4T" node="7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3bYrH4MGv34">
     <property role="3GE5qa" value="BusinessObject.Options" />
@@ -1166,12 +1163,6 @@
       <property role="IQ2ns" value="5847590543402886013" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
     </node>
-    <node concept="1TJgyi" id="6W_Qo9eYs0u" role="1TKVEl">
-      <property role="TrG5h" value="documentation" />
-      <property role="IQ2nx" value="8009046666042261534" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="6WkQmwhD7cQ" role="lGtFl" />
-    </node>
     <node concept="PrWs8" id="3JsUq_S9RiK" role="PzmwI">
       <ref role="PrY4T" node="3JsUq_S9PU7" resolve="IOFXObject" />
     </node>
@@ -1286,11 +1277,6 @@
       <property role="20kJfa" value="documentation2" />
       <property role="IQ2ns" value="5847590543402886019" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
-    </node>
-    <node concept="1TJgyi" id="4y30FCQIiyu" role="1TKVEl">
-      <property role="TrG5h" value="documentation" />
-      <property role="IQ2nx" value="5225022991485184158" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="4y30FCQIix0" role="PzmwI">
       <ref role="PrY4T" node="3JsUq_S9PU7" resolve="IOFXObject" />
@@ -2738,16 +2724,6 @@
     </node>
     <node concept="1QGGSu" id="1iISEUi_iin" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/ofxconcept2.png" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7PeCy_MumjU">
-    <property role="3GE5qa" value="OFXCore.cmdCall" />
-    <property role="TrG5h" value="IOFXSurpErrorMarker" />
-    <property role="EcuMT" value="9029332601822340346" />
-    <node concept="1TJgyi" id="7PeCy_MumjV" role="1TKVEl">
-      <property role="TrG5h" value="knowWhatDoing" />
-      <property role="IQ2nx" value="9029332601822340347" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="1jYXPQ7xYqG">
