@@ -728,10 +728,6 @@
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="20ohnkbA_ZG" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="1w1DleJ3Gn0" role="3clF46">
-        <property role="TrG5h" value="withRider" />
-        <node concept="10P_77" id="1w1DleJ3G$c" role="1tU5fm" />
-      </node>
       <node concept="37vLTG" id="vsIEjNwO4g" role="3clF46">
         <property role="TrG5h" value="callback" />
         <node concept="3uibUv" id="2ppo89mgKzJ" role="1tU5fm">

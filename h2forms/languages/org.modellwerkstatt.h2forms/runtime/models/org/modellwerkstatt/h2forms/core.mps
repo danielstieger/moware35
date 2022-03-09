@@ -393,7 +393,7 @@
       <node concept="3Tm1VV" id="6PWRVmw7ojj" role="1B3o_S" />
       <node concept="10M0yZ" id="79n7_omqbfw" role="33vP2m">
         <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-        <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+        <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
       </node>
     </node>
     <node concept="2tJIrI" id="7WBKY1WhqOB" role="jymVt" />
@@ -1051,7 +1051,7 @@
                 <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
               </node>
               <node concept="liA8E" id="75445jw05ve" role="2OqNvi">
-                <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
               </node>
             </node>
           </node>
@@ -1227,7 +1227,7 @@
           <node concept="3fqX7Q" id="3Lpsq4dDJjf" role="3clFbw">
             <node concept="10M0yZ" id="3Lpsq4dDJjh" role="3fr31v">
               <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-              <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+              <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
             </node>
           </node>
           <node concept="9aQIb" id="3Lpsq4dDF22" role="9aQIa">
@@ -1353,7 +1353,7 @@
                       <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
                     </node>
                     <node concept="liA8E" id="2yuEF6qd7MA" role="2OqNvi">
-                      <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                      <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
                     </node>
                   </node>
                 </node>
@@ -1682,7 +1682,7 @@
                     <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
                   </node>
                   <node concept="liA8E" id="4XZT_pKmijg" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="4XZT_pKmiOc" role="3uHU7w">
@@ -2225,7 +2225,7 @@
                     <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
                   </node>
                   <node concept="liA8E" id="1WX6wrPUOpb" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="4FgSVMsQwAX" role="37wK5m">
@@ -2602,7 +2602,7 @@
           </node>
           <node concept="10M0yZ" id="3Lpsq4dCCX3" role="3clFbw">
             <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-            <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+            <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
           </node>
         </node>
         <node concept="3clFbH" id="3Lpsq4dC_eW" role="3cqZAp" />
@@ -9960,7 +9960,7 @@
                     </node>
                     <node concept="10M0yZ" id="7uReT0jU578" role="3clFbw">
                       <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-                      <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+                      <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
                     </node>
                   </node>
                   <node concept="3SKdUt" id="7uReT0jU4E0" role="3cqZAp">
@@ -11163,7 +11163,7 @@
             <node concept="22lmx$" id="2SRXiXAA81z" role="37vLTx">
               <node concept="10M0yZ" id="2SRXiXAA8wj" role="3uHU7B">
                 <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
-                <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+                <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
               </node>
               <node concept="2OqwBi" id="2462lDSohEu" role="3uHU7w">
                 <node concept="2OqwBi" id="2462lDSoh0k" role="2Oq$k0">
@@ -12460,10 +12460,6 @@
       <node concept="37vLTG" id="kWPevMd7NP" role="3clF46">
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="kWPevMd7NQ" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="1w1DleJcPpb" role="3clF46">
-        <property role="TrG5h" value="rider" />
-        <node concept="10P_77" id="1w1DleJcR$u" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="kWPevMd7NR" role="3clF46">
         <property role="TrG5h" value="callback" />

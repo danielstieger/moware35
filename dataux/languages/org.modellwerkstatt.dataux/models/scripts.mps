@@ -747,6 +747,43 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="7$2_qbrkasu" role="_YvDr">
+      <property role="_XH9r" value="Check conclusion name vs. label name" />
+      <ref role="_XDHR" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+      <node concept="_ZGcI" id="7$2_qbrkasv" role="_XPhp">
+        <node concept="3clFbS" id="7$2_qbrkasw" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7$2_qbrkasx" role="_XDHO">
+        <node concept="3clFbS" id="7$2_qbrkasy" role="2VODD2">
+          <node concept="3clFbF" id="7$2_qbrkaGe" role="3cqZAp">
+            <node concept="3fqX7Q" id="7$2_qbrkdeM" role="3clFbG">
+              <node concept="2OqwBi" id="7$2_qbrkdeO" role="3fr31v">
+                <node concept="2OqwBi" id="7$2_qbrkdeP" role="2Oq$k0">
+                  <node concept="_YI3z" id="7$2_qbrkdeQ" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7$2_qbrkdeR" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7$2_qbrkdeS" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                  <node concept="2OqwBi" id="7$2_qbrkdeT" role="37wK5m">
+                    <node concept="2OqwBi" id="7$2_qbrkdeU" role="2Oq$k0">
+                      <node concept="_YI3z" id="7$2_qbrkdeV" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="7$2_qbrkdeW" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:7qQ6PJv695N" resolve="label" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="7$2_qbrkdeX" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1opIMY" id="4pfCiMc1qXG" role="_YvDr" />
     <node concept="1opIMY" id="4pfCiMc1qXH" role="_YvDr" />
   </node>

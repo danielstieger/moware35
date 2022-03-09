@@ -1238,7 +1238,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5$BCFrw9Ko$" role="2OqNvi">
-                <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
               </node>
             </node>
           </node>
@@ -4363,7 +4363,7 @@
                         <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
                       </node>
                       <node concept="liA8E" id="4WoSiUMjKLC" role="2OqNvi">
-                        <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                        <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
                       </node>
                     </node>
                   </node>
@@ -4412,7 +4412,7 @@
                       <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
                     </node>
                     <node concept="liA8E" id="1EBV9L$xwJb" role="2OqNvi">
-                      <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                      <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="1EBV9L$xxSg" role="3uHU7w">
@@ -32410,7 +32410,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="3bLKpg8Tmgv" role="2OqNvi">
-                        <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                        <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="3bLKpg8TqSY" role="3uHU7w">
@@ -32933,7 +32933,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="4FiFGILh0KW" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getApplicationName" />
+                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
                   </node>
                 </node>
                 <node concept="1rXfSq" id="4FiFGILh1kl" role="37wK5m">
@@ -37028,10 +37028,6 @@
       <node concept="37vLTG" id="r$jHpEN0is" role="3clF46">
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="r$jHpEN0it" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="1w1DleJcWKN" role="3clF46">
-        <property role="TrG5h" value="rider" />
-        <node concept="10P_77" id="1w1DleJcXTK" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="r$jHpEN0iu" role="3clF46">
         <property role="TrG5h" value="callback" />

@@ -991,7 +991,7 @@
     <node concept="1TJgyi" id="5HvIBdINHAh" role="1TKVEl">
       <property role="TrG5h" value="conclusionType" />
       <property role="IQ2nx" value="1881524139085356503" />
-      <ref role="AX2Wp" node="5HvIBdINHdc" resolve="ConclusionType" />
+      <ref role="AX2Wp" node="5HvIBdINHdc" resolve="ConclusionSaveType" />
       <node concept="3l_iC" id="5HvIBdINHAi" role="lGtFl">
         <node concept="1TJgyi" id="1Csx3LqwlRn" role="3l_iP">
           <property role="TrG5h" value="conclusionType" />
@@ -3718,7 +3718,7 @@
     </node>
   </node>
   <node concept="25R3W" id="5HvIBdINHdc">
-    <property role="TrG5h" value="ConclusionType" />
+    <property role="TrG5h" value="ConclusionSaveType" />
     <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="3F6X1D" value="1881524139085356499" />
     <ref role="1H5jkz" node="5HvIBdINHdf" resolve="SAVE_CONCLUSION" />
