@@ -11440,8 +11440,8 @@
                             <node concept="3clFbF" id="7MWNCzY525x" role="3cqZAp">
                               <node concept="2OqwBi" id="7MWNCzY529w" role="3clFbG">
                                 <node concept="30H73N" id="7MWNCzY525w" role="2Oq$k0" />
-                                <node concept="3TrcHB" id="7MWNCzY52gz" role="2OqNvi">
-                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                <node concept="2qgKlT" id="1srm2zBWXd1" role="2OqNvi">
+                                  <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
                                 </node>
                               </node>
                             </node>
@@ -11483,7 +11483,7 @@
                   <node concept="2OqwBi" id="7MqOxzynXuU" role="3uHU7w">
                     <node concept="30H73N" id="7MqOxzynXuP" role="2Oq$k0" />
                     <node concept="2qgKlT" id="7MqOxzynXv6" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:6ffh1MX_A5k" resolve="getEscapedName" />
+                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
                     </node>
                   </node>
                 </node>

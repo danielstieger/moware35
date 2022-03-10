@@ -1012,9 +1012,6 @@
       <property role="IQ2ns" value="7158462476985919208" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="1Csx3LqtqVH" role="PzmwI">
-      <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
-    </node>
     <node concept="PrWs8" id="6QGCiYXuBNr" role="PzmwI">
       <ref role="PrY4T" node="3nLPQZPP4DL" resolve="ISelectionsAvailable" />
     </node>

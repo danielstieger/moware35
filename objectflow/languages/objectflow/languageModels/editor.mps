@@ -3594,12 +3594,8 @@
         <property role="3F0ifm" value="conclusion" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
-      <node concept="3F0A7n" id="uIozejElWj" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-      </node>
       <node concept="3F0ifn" id="7MWNCzXN58J" role="3EZMnx">
-        <property role="3F0ifm" value=" label:" />
+        <property role="3F0ifm" value="label:" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="1iCGBv" id="7qQ6PJv697K" role="3EZMnx">
@@ -7907,9 +7903,14 @@
         <property role="1$x2rV" value="&lt;user_cancel&gt;" />
         <ref role="1NtTu8" to="un0u:3U0QWztHiCe" resolve="conclusion" />
         <node concept="1sVBvm" id="3U0QWztHiOP" role="1sWHZn">
-          <node concept="3F0A7n" id="3U0QWztHiOQ" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="1iCGBv" id="1srm2zBWBfL" role="2wV5jI">
+            <ref role="1NtTu8" to="un0u:7qQ6PJv695N" resolve="label" />
+            <node concept="1sVBvm" id="1srm2zBWBfN" role="1sWHZn">
+              <node concept="3F0A7n" id="1srm2zBWBfU" role="2wV5jI">
+                <property role="1Intyy" value="true" />
+                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
