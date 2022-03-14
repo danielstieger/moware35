@@ -55594,19 +55594,24 @@
                     <node concept="1pGfFk" id="4uCPKHeXr5Q" role="2ShVmc">
                       <ref role="37wK5l" node="51llZt5PgPq" resolve="OFXProblem" />
                       <node concept="3clFbT" id="4uCPKHeXrcw" role="37wK5m" />
-                      <node concept="3cpWs3" id="4uCPKHeXvfk" role="37wK5m">
-                        <node concept="1eOMI4" id="4uCPKHeXvvp" role="3uHU7w">
-                          <node concept="3cpWsd" id="4uCPKHeXw_K" role="1eOMHV">
-                            <node concept="3cmrfG" id="4uCPKHeXwBj" role="3uHU7w">
-                              <property role="3cmrfH" value="20" />
-                            </node>
-                            <node concept="37vLTw" id="4uCPKHeXvH5" role="3uHU7B">
-                              <ref role="3cqZAo" node="4uCPKHeXrB9" resolve="origSize" />
+                      <node concept="3cpWs3" id="7KZPj5enQeF" role="37wK5m">
+                        <node concept="Xl_RD" id="7KZPj5eo9yx" role="3uHU7w">
+                          <property role="Xl_RC" value=" more." />
+                        </node>
+                        <node concept="3cpWs3" id="4uCPKHeXvfk" role="3uHU7B">
+                          <node concept="Xl_RD" id="4uCPKHeXrjM" role="3uHU7B">
+                            <property role="Xl_RC" value="... and " />
+                          </node>
+                          <node concept="1eOMI4" id="4uCPKHeXvvp" role="3uHU7w">
+                            <node concept="3cpWsd" id="4uCPKHeXw_K" role="1eOMHV">
+                              <node concept="3cmrfG" id="4uCPKHeXwBj" role="3uHU7w">
+                                <property role="3cmrfH" value="20" />
+                              </node>
+                              <node concept="37vLTw" id="4uCPKHeXvH5" role="3uHU7B">
+                                <ref role="3cqZAo" node="4uCPKHeXrB9" resolve="origSize" />
+                              </node>
                             </node>
                           </node>
-                        </node>
-                        <node concept="Xl_RD" id="4uCPKHeXrjM" role="3uHU7B">
-                          <property role="Xl_RC" value="... + " />
                         </node>
                       </node>
                       <node concept="10Nm6u" id="4uCPKHeXxgE" role="37wK5m" />

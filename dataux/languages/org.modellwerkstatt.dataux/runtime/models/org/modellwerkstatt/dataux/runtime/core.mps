@@ -22868,28 +22868,6 @@
               </node>
             </node>
             <node concept="3clFbS" id="1xkAMN4BBFo" role="1zc67A">
-              <node concept="3SKdUt" id="79T7hxCkgp0" role="3cqZAp">
-                <node concept="1PaTwC" id="5HvIBdJXHFd" role="1aUNEU">
-                  <node concept="3oM_SD" id="5HvIBdJXHFe" role="1PaTwD">
-                    <property role="3oM_SC" value="TODO:" />
-                  </node>
-                  <node concept="3oM_SD" id="5HvIBdJXHFf" role="1PaTwD">
-                    <property role="3oM_SC" value="currentProblems" />
-                  </node>
-                  <node concept="3oM_SD" id="5HvIBdJXHFg" role="1PaTwD">
-                    <property role="3oM_SC" value="not" />
-                  </node>
-                  <node concept="3oM_SD" id="5HvIBdJXHFh" role="1PaTwD">
-                    <property role="3oM_SC" value="taken" />
-                  </node>
-                  <node concept="3oM_SD" id="5HvIBdJXHFi" role="1PaTwD">
-                    <property role="3oM_SC" value="into" />
-                  </node>
-                  <node concept="3oM_SD" id="5HvIBdJXHFj" role="1PaTwD">
-                    <property role="3oM_SC" value="account?" />
-                  </node>
-                </node>
-              </node>
               <node concept="3cpWs8" id="2gjGACngCPM" role="3cqZAp">
                 <node concept="3cpWsn" id="2gjGACngCPP" role="3cpWs9">
                   <property role="TrG5h" value="problems" />
@@ -25883,7 +25861,7 @@
               <property role="3oM_SC" value="EventCmdContainer" />
             </node>
             <node concept="3oM_SD" id="5HvIBdJXHK5" role="1PaTwD">
-              <property role="3oM_SC" value="globalTermev)" />
+              <property role="3oM_SC" value="globalTermEv)" />
             </node>
           </node>
         </node>
@@ -26719,7 +26697,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="6IYVo2hYLc6" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:7MWNCzY2sAu" resolve="getLegacyConclusionName" />
+                          <ref role="37wK5l" to="28jr:7MWNCzY2sAu" resolve="getName" />
                         </node>
                       </node>
                       <node concept="liA8E" id="6IYVo2hYLqe" role="2OqNvi">
