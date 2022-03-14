@@ -333,6 +333,7 @@
         <child id="7980428675268276157" name="locations" index="1Qtc8$" />
         <child id="7980428675268276159" name="parts" index="1Qtc8A" />
       </concept>
+      <concept id="625126330682908270" name="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" flags="sg" stub="730538219795961225" index="3SHvHV" />
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
       <concept id="1176749715029" name="jetbrains.mps.lang.editor.structure.QueryFunction_CellProvider" flags="in" index="3VJUX4" />
       <concept id="4307758654696938365" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_RefPresentation" flags="ig" index="1WAQ3h" />
@@ -7903,15 +7904,7 @@
         <property role="1$x2rV" value="&lt;user_cancel&gt;" />
         <ref role="1NtTu8" to="un0u:3U0QWztHiCe" resolve="conclusion" />
         <node concept="1sVBvm" id="3U0QWztHiOP" role="1sWHZn">
-          <node concept="1iCGBv" id="1srm2zBWBfL" role="2wV5jI">
-            <ref role="1NtTu8" to="un0u:7qQ6PJv695N" resolve="label" />
-            <node concept="1sVBvm" id="1srm2zBWBfN" role="1sWHZn">
-              <node concept="3F0A7n" id="1srm2zBWBfU" role="2wV5jI">
-                <property role="1Intyy" value="true" />
-                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
+          <node concept="3SHvHV" id="3ivfb$Qq6FI" role="2wV5jI" />
         </node>
       </node>
       <node concept="3F0ifn" id="3U0QWztHiOR" role="3EZMnx">

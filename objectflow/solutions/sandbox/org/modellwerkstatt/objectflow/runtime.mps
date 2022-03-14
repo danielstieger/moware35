@@ -4186,13 +4186,10 @@
       <node concept="3clFbS" id="7MWNCzY27MG" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7MWNCzY2sAu" role="jymVt">
-      <property role="TrG5h" value="getLegacyConclusionName" />
+      <property role="TrG5h" value="getName" />
       <node concept="17QB3L" id="7MWNCzY2sAv" role="3clF45" />
       <node concept="3Tm1VV" id="7MWNCzY2sAw" role="1B3o_S" />
       <node concept="3clFbS" id="7MWNCzY2sAx" role="3clF47" />
-      <node concept="2AHcQZ" id="7MWNCzY2sJZ" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
     </node>
     <node concept="3clFb_" id="ncJg$HcaXB" role="jymVt">
       <property role="TrG5h" value="execute" />

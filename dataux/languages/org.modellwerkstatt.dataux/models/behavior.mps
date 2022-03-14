@@ -5596,7 +5596,7 @@
                 </node>
               </node>
               <node concept="2qgKlT" id="1srm2zBWAF7" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                <ref role="37wK5l" to="70o0:3ivfb$QurMs" resolve="getConclusionName" />
               </node>
             </node>
             <node concept="2OqwBi" id="40Ob5xEOkBE" role="37vLTJ">
