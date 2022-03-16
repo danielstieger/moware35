@@ -17226,7 +17226,7 @@
                           <node concept="1Wc70l" id="2ppo89mgU$r" role="3clFbw">
                             <node concept="3clFbC" id="2ppo89mgUUx" role="3uHU7w">
                               <node concept="Rm8GO" id="2ppo89mgUZL" role="3uHU7w">
-                                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                                 <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                               </node>
                               <node concept="37vLTw" id="2ppo89mgUC5" role="3uHU7B">
@@ -17359,7 +17359,7 @@
                               <node concept="1Wc70l" id="2ppo89mgWV3" role="3clFbw">
                                 <node concept="3clFbC" id="2ppo89mgX34" role="3uHU7w">
                                   <node concept="Rm8GO" id="2ppo89mgXa1" role="3uHU7w">
-                                    <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                                    <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                                     <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                                   </node>
                                   <node concept="37vLTw" id="2ppo89mgWYJ" role="3uHU7B">
@@ -17579,7 +17579,7 @@
     <node concept="2tJIrI" id="5_bDd1dgOhs" role="jymVt" />
     <node concept="2tJIrI" id="5_bDd1doVyM" role="jymVt" />
     <node concept="3clFb_" id="5_bDd1dlxxw" role="jymVt">
-      <property role="TrG5h" value="askYesNoQuestion" />
+      <property role="TrG5h" value="askCloseQuestion" />
       <node concept="37vLTG" id="5_bDd1dpaH4" role="3clF46">
         <property role="TrG5h" value="question" />
         <node concept="17QB3L" id="5_bDd1dpbUS" role="1tU5fm" />
@@ -18072,9 +18072,9 @@
                   <node concept="37vLTw" id="2QY_rtDkLVf" role="37wK5m">
                     <ref role="3cqZAo" node="2QY_rtDkIST" resolve="userLangIndex" />
                   </node>
-                  <node concept="Rm8GO" id="4vHQZKCe5km" role="37wK5m">
+                  <node concept="Rm8GO" id="BloLfykPBa" role="37wK5m">
+                    <ref role="Rm8GQ" to="ache:BloLfykaWT" resolve="DISCARD_BUTTON" />
                     <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
-                    <ref role="Rm8GQ" to="ache:4vHQZKCcE0A" resolve="YES_BUTTON" />
                   </node>
                 </node>
               </node>
@@ -20067,7 +20067,7 @@
           <node concept="3eNFk2" id="2ppo89mgSwy" role="3eNLev">
             <node concept="3clFbC" id="2ppo89mgSZC" role="3eO9$A">
               <node concept="Rm8GO" id="2ppo89mgT3n" role="3uHU7w">
-                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                 <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
               </node>
               <node concept="37vLTw" id="2ppo89mgSWr" role="3uHU7B">
@@ -20077,7 +20077,7 @@
             <node concept="3clFbS" id="2ppo89mgSw$" role="3eOfB_">
               <node concept="3clFbF" id="2ppo89mgT5a" role="3cqZAp">
                 <node concept="1rXfSq" id="2ppo89mgT59" role="3clFbG">
-                  <ref role="37wK5l" node="5_bDd1dlxxw" resolve="askYesNoQuestion" />
+                  <ref role="37wK5l" node="5_bDd1dlxxw" resolve="askCloseQuestion" />
                   <node concept="37vLTw" id="2ppo89mgT6M" role="37wK5m">
                     <ref role="3cqZAo" node="5_bDd1dqiPR" resolve="information" />
                   </node>

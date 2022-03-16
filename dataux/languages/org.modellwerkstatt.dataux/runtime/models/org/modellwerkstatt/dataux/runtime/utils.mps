@@ -2085,7 +2085,7 @@
         <property role="TrG5h" value="CLOSE_APP" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="2zlZ_in69ht" role="37wK5m">
-          <property role="Xl_RC" value="Vorsicht: Es sind Belege/Dokumente offen, die noch NICHT gespeichert sind!\nWenn Sie die Applikation jetzt schließen werden alle laufenden Kommandos\nabgebrochen und deren Daten NICHT gespeichert!\n\nWollen Sie die Applikation dennoch jetzt schließen?" />
+          <property role="Xl_RC" value="Vorsicht: Es sind Belege/Dokumente offen, die noch NICHT gespeichert sind!\nWenn Sie die Applikation jetzt schließen werden alle laufenden Kommandos\nabgebrochen und deren Daten NICHT gespeichert!\n\nWollen Sie die Applikation ohne zu speichern schließen?" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVB" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVC" role="37wK5m" />
@@ -2301,6 +2301,20 @@
         </node>
         <node concept="Xl_RD" id="WkCinTf4Vz" role="37wK5m">
           <property role="Xl_RC" value="No (ESC)" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="BloLfykaWT" role="Qtgdg">
+        <property role="TrG5h" value="DISCARD_BUTTON" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="BloLfykhY$" role="37wK5m">
+          <property role="Xl_RC" value="Nicht speichern (F12)" />
+        </node>
+        <node concept="10Nm6u" id="BloLfykjsC" role="37wK5m" />
+        <node concept="Xl_RD" id="BloLfykkTM" role="37wK5m">
+          <property role="Xl_RC" value="Nicht speichern" />
+        </node>
+        <node concept="Xl_RD" id="BloLfykmnO" role="37wK5m">
+          <property role="Xl_RC" value="Discard changes (F12)" />
         </node>
       </node>
       <node concept="QsSxf" id="5ECQsWUk$8w" role="Qtgdg">

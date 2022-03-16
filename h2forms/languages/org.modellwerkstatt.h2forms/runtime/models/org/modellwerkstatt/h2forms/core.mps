@@ -9869,7 +9869,7 @@
                       <ref role="3cqZAo" node="kA5KhwhNnH" resolve="latestMessage" />
                     </node>
                     <node concept="liA8E" id="7wVqvO39x60" role="2OqNvi">
-                      <ref role="37wK5l" node="7r26jiNZiKs" resolve="isUserQuestion" />
+                      <ref role="37wK5l" node="7r26jiNZiKs" resolve="isCloseQuestion" />
                     </node>
                   </node>
                 </node>
@@ -10044,7 +10044,7 @@
                               <ref role="3cqZAo" node="kA5KhwhNnH" resolve="latestMessage" />
                             </node>
                             <node concept="liA8E" id="7uReT0jUaVj" role="2OqNvi">
-                              <ref role="37wK5l" node="7r26jiNZiKs" resolve="isUserQuestion" />
+                              <ref role="37wK5l" node="7r26jiNZiKs" resolve="isCloseQuestion" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="7r26jiO1Ep6" role="3K4E3e">
@@ -12614,8 +12614,8 @@
                               <ref role="2S8YL0" node="2QY_rtDqe0T" resolve="langIndex" />
                             </node>
                           </node>
-                          <node concept="Rm8GO" id="19VJYqAyCGc" role="37wK5m">
-                            <ref role="Rm8GQ" to="ache:4vHQZKCcE0A" resolve="YES_BUTTON" />
+                          <node concept="Rm8GO" id="BloLfyPfNm" role="37wK5m">
+                            <ref role="Rm8GQ" to="ache:BloLfykaWT" resolve="DISCARD_BUTTON" />
                             <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           </node>
                         </node>
@@ -12637,7 +12637,7 @@
             <node concept="liA8E" id="7r26jiNZ_FU" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
               <node concept="Rm8GO" id="7r26jiNZ_Sp" role="37wK5m">
-                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                 <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
               </node>
             </node>
@@ -15033,7 +15033,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="7r26jiNZiKs" role="jymVt">
-      <property role="TrG5h" value="isUserQuestion" />
+      <property role="TrG5h" value="isCloseQuestion" />
       <node concept="10P_77" id="7r26jiNZme3" role="3clF45" />
       <node concept="3Tm1VV" id="7r26jiNZiKv" role="1B3o_S" />
       <node concept="3clFbS" id="7r26jiNZiKw" role="3clF47">
@@ -15045,7 +15045,7 @@
             <node concept="liA8E" id="7r26jiNZjbn" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
               <node concept="Rm8GO" id="7r26jiNZjep" role="37wK5m">
-                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                 <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
               </node>
             </node>

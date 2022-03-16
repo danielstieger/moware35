@@ -9538,6 +9538,15 @@
         <property role="Xl_RC" value="100px" />
       </node>
     </node>
+    <node concept="Wx3nA" id="BloLfyOMx3" role="jymVt">
+      <property role="TrG5h" value="MSG_BUTTON_WIDTH_WIDE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="BloLfyOMx4" role="1tU5fm" />
+      <node concept="3Tmbuc" id="BloLfyOMx5" role="1B3o_S" />
+      <node concept="Xl_RD" id="BloLfyOMx6" role="33vP2m">
+        <property role="Xl_RC" value="200px" />
+      </node>
+    </node>
     <node concept="312cEg" id="2wSq35xFcCD" role="jymVt">
       <property role="TrG5h" value="uiFactory" />
       <node concept="3Tmbuc" id="2wSq35xFcDf" role="1B3o_S" />
@@ -10647,7 +10656,7 @@
     <node concept="2tJIrI" id="2wSq35xUQqs" role="jymVt" />
     <node concept="2tJIrI" id="2wSq35xUQLi" role="jymVt" />
     <node concept="3clFb_" id="2wSq35xFd8v" role="jymVt">
-      <property role="TrG5h" value="askYesNoQuestion" />
+      <property role="TrG5h" value="askCloseQuestion" />
       <node concept="37vLTG" id="2wSq35xG4Ah" role="3clF46">
         <property role="TrG5h" value="parentWidth" />
         <node concept="10Oyi0" id="2wSq35xG4YX" role="1tU5fm" />
@@ -10770,9 +10779,9 @@
                     <node concept="37vLTw" id="2QY_rtDufyP" role="37wK5m">
                       <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
                     </node>
-                    <node concept="Rm8GO" id="4vHQZKCggDX" role="37wK5m">
+                    <node concept="Rm8GO" id="BloLfykqJg" role="37wK5m">
+                      <ref role="Rm8GQ" to="ache:BloLfykaWT" resolve="DISCARD_BUTTON" />
                       <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
-                      <ref role="Rm8GQ" to="ache:4vHQZKCcE0A" resolve="YES_BUTTON" />
                     </node>
                   </node>
                 </node>
@@ -10896,7 +10905,7 @@
             <node concept="liA8E" id="1LWMBWz1JzZ" role="2OqNvi">
               <ref role="37wK5l" to="waq:~AbstractComponent.setWidth(java.lang.String)" resolve="setWidth" />
               <node concept="37vLTw" id="1LWMBWz1JA5" role="37wK5m">
-                <ref role="3cqZAo" node="1LWMBWz1ENl" resolve="MSG_BUTTON_WIDTH" />
+                <ref role="3cqZAo" node="BloLfyOMx3" resolve="MSG_BUTTON_WIDTH_WIDE" />
               </node>
             </node>
           </node>
@@ -10909,7 +10918,7 @@
             <node concept="liA8E" id="1LWMBWz1LHE" role="2OqNvi">
               <ref role="37wK5l" to="waq:~AbstractComponent.setWidth(java.lang.String)" resolve="setWidth" />
               <node concept="37vLTw" id="1LWMBWz1LJK" role="37wK5m">
-                <ref role="3cqZAo" node="1LWMBWz1ENl" resolve="MSG_BUTTON_WIDTH" />
+                <ref role="3cqZAo" node="BloLfyOMx3" resolve="MSG_BUTTON_WIDTH_WIDE" />
               </node>
             </node>
           </node>
@@ -11557,7 +11566,7 @@
           <node concept="3eNFk2" id="r$jHpENfXa" role="3eNLev">
             <node concept="3clFbC" id="r$jHpENgvq" role="3eO9$A">
               <node concept="Rm8GO" id="r$jHpENgNs" role="3uHU7w">
-                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                 <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
               </node>
               <node concept="37vLTw" id="r$jHpENgko" role="3uHU7B">
@@ -11567,7 +11576,7 @@
             <node concept="3clFbS" id="r$jHpENfXc" role="3eOfB_">
               <node concept="3clFbF" id="r$jHpENh9o" role="3cqZAp">
                 <node concept="1rXfSq" id="r$jHpENh9n" role="3clFbG">
-                  <ref role="37wK5l" node="2wSq35xFd8v" resolve="askYesNoQuestion" />
+                  <ref role="37wK5l" node="2wSq35xFd8v" resolve="askCloseQuestion" />
                   <node concept="37vLTw" id="r$jHpENlze" role="37wK5m">
                     <ref role="3cqZAo" node="45e9mS9viSl" resolve="parentWidth" />
                   </node>

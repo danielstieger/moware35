@@ -1,5 +1,5 @@
 {% if message is not null %}
-    {% if message.userQuestion or message.errorSmall%}
+    {% if message.closeQuestion or message.errorSmall%}
     <div class="w3-panel svMessage">
         <div class="w3-card w3-padding sv-question-red">
             <h1>{{ message.heading }}</h1>

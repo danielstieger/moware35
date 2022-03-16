@@ -8558,7 +8558,7 @@
       <node concept="3clFbS" id="938$CrOsp8" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1dzqM5xjgIy" role="jymVt">
-      <property role="TrG5h" value="askQuestionDialog" />
+      <property role="TrG5h" value="askCloseQuestionDialog" />
       <node concept="37vLTG" id="1dzqM5xjjGH" role="3clF46">
         <property role="TrG5h" value="question" />
         <node concept="17QB3L" id="1dzqM5xjjGI" role="1tU5fm" />
@@ -12526,7 +12526,7 @@
                     <ref role="37wK5l" to="250q:20ohnkbA_X$" resolve="showDialog" />
                     <node concept="Rm8GO" id="938$CrQHfa" role="37wK5m">
                       <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
-                      <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                      <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                     </node>
                     <node concept="2OqwBi" id="938$CrQHIV" role="37wK5m">
                       <node concept="37vLTw" id="938$CrQHA1" role="2Oq$k0">
@@ -30848,7 +30848,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="2ppo89mfdBU" role="jymVt">
-      <property role="TrG5h" value="askQuestionDialog" />
+      <property role="TrG5h" value="askCloseQuestionDialog" />
       <node concept="37vLTG" id="2ppo89mffdN" role="3clF46">
         <property role="TrG5h" value="question" />
         <node concept="17QB3L" id="2ppo89mffwM" role="1tU5fm" />
@@ -30870,7 +30870,7 @@
             <node concept="liA8E" id="2ppo89mfnxP" role="2OqNvi">
               <ref role="37wK5l" to="250q:20ohnkbA_X$" resolve="showDialog" />
               <node concept="Rm8GO" id="2ppo89mgILy" role="37wK5m">
-                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="YESNO_SMALL" />
+                <ref role="Rm8GQ" to="250q:2ppo89mgGof" resolve="QUESTIONCLOSE_SMALL" />
                 <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
               </node>
               <node concept="37vLTw" id="2ppo89mfnBm" role="37wK5m">
@@ -33961,7 +33961,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="1nXeD0e_Lbq" role="jymVt">
-      <property role="TrG5h" value="askQuestionDialog" />
+      <property role="TrG5h" value="askCloseQuestionDialog" />
       <property role="1EzhhJ" value="false" />
       <node concept="37vLTG" id="1nXeD0e_Lbr" role="3clF46">
         <property role="TrG5h" value="question" />
@@ -33983,7 +33983,7 @@
         </node>
         <node concept="3clFbF" id="1nXeD0e_LbI" role="3cqZAp">
           <node concept="3nyPlj" id="1nXeD0e_LbH" role="3clFbG">
-            <ref role="37wK5l" node="2ppo89mfdBU" resolve="askQuestionDialog" />
+            <ref role="37wK5l" node="2ppo89mfdBU" resolve="askCloseQuestionDialog" />
             <node concept="37vLTw" id="1nXeD0e_LbF" role="37wK5m">
               <ref role="3cqZAo" node="1nXeD0e_Lbr" resolve="question" />
             </node>
@@ -38219,7 +38219,7 @@
                             <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
                           </node>
                           <node concept="liA8E" id="1dzqM5xjkcw" role="2OqNvi">
-                            <ref role="37wK5l" node="1dzqM5xjgIy" resolve="askQuestionDialog" />
+                            <ref role="37wK5l" node="1dzqM5xjgIy" resolve="askCloseQuestionDialog" />
                             <node concept="2OqwBi" id="1kxCqBRbrBl" role="37wK5m">
                               <node concept="liA8E" id="1kxCqBRbrML" role="2OqNvi">
                                 <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />

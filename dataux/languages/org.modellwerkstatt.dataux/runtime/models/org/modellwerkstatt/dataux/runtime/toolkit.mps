@@ -974,7 +974,7 @@
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="2ppo89mgGof" role="Qtgdg">
-        <property role="TrG5h" value="YESNO_SMALL" />
+        <property role="TrG5h" value="QUESTIONCLOSE_SMALL" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="4Ucpg8z6mua" role="1B3o_S" />
