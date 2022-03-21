@@ -1592,5 +1592,19 @@
       <property role="1iqoE4" value="${module}/icons/delegate2.png" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1bKck6PLN_Z">
+    <property role="EcuMT" value="1364644845385628031" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="TableEditPreview" />
+    <property role="34LRSv" value="TABLE EDIT PREVIEW" />
+    <property role="R4oN_" value="positions preview" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1bKck6PLNA0" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+    <node concept="1QGGSu" id="1bKck6PQuA7" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
 </model>
 

@@ -3768,6 +3768,47 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="1bKck6PULAD" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="isTableEditPreview" />
+      <node concept="3Tm1VV" id="1bKck6PULAE" role="1B3o_S" />
+      <node concept="10P_77" id="1bKck6PUMan" role="3clF45" />
+      <node concept="3clFbS" id="1bKck6PULAG" role="3clF47">
+        <node concept="3clFbF" id="1bKck6PULAH" role="3cqZAp">
+          <node concept="2OqwBi" id="1bKck6PULAJ" role="3clFbG">
+            <node concept="2OqwBi" id="1bKck6PULAK" role="2Oq$k0">
+              <node concept="13iPFW" id="1bKck6PULAL" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1bKck6PULAM" role="2OqNvi">
+                <ref role="3TtcxE" to="1btx:pQ21WN5qo8" resolve="options" />
+              </node>
+            </node>
+            <node concept="2HwmR7" id="1bKck6PUOPE" role="2OqNvi">
+              <node concept="1bVj0M" id="1bKck6PUOPG" role="23t8la">
+                <node concept="3clFbS" id="1bKck6PUOPH" role="1bW5cS">
+                  <node concept="3clFbF" id="1bKck6PUOPI" role="3cqZAp">
+                    <node concept="2OqwBi" id="1bKck6PUOPJ" role="3clFbG">
+                      <node concept="37vLTw" id="1bKck6PUOPK" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1bKck6PUOPN" resolve="it" />
+                      </node>
+                      <node concept="1mIQ4w" id="1bKck6PUOPL" role="2OqNvi">
+                        <node concept="chp4Y" id="1bKck6PUOPM" role="cj9EA">
+                          <ref role="cht4Q" to="1btx:1bKck6PLN_Z" resolve="TableEditPreview" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="1bKck6PUOPN" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1bKck6PUOPO" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="pQ21WNloN3" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />

@@ -1104,6 +1104,12 @@
       <node concept="3Tm1VV" id="5GCI_cUPnmF" role="1B3o_S" />
       <node concept="3clFbS" id="5GCI_cUPnmG" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1bKck6PQIxG" role="jymVt">
+      <property role="TrG5h" value="setEditPreview" />
+      <node concept="3cqZAl" id="1bKck6PQIxH" role="3clF45" />
+      <node concept="3Tm1VV" id="1bKck6PQIxI" role="1B3o_S" />
+      <node concept="3clFbS" id="1bKck6PQIxJ" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="5GCI_cUPnkr" role="jymVt" />
     <node concept="3clFb_" id="1KgqQuBEsCO" role="jymVt">
       <property role="TrG5h" value="addMenuAndSetButtons" />
