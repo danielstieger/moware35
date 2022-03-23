@@ -738,6 +738,26 @@
       <node concept="3Tm1VV" id="20ohnkbA_XB" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbA_XC" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="2jDJ2hCtWGM" role="jymVt">
+      <property role="TrG5h" value="showProblemsDialog" />
+      <node concept="37vLTG" id="2jDJ2hCtXqa" role="3clF46">
+        <property role="TrG5h" value="problems" />
+        <node concept="_YKpA" id="2jDJ2hCtXCi" role="1tU5fm">
+          <node concept="3uibUv" id="2jDJ2hCtXNH" role="_ZDj9">
+            <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2jDJ2hCtWGR" role="3clF46">
+        <property role="TrG5h" value="callback" />
+        <node concept="3uibUv" id="2jDJ2hCtWGS" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2jDJ2hCtWGT" role="3clF45" />
+      <node concept="3Tm1VV" id="2jDJ2hCtWGU" role="1B3o_S" />
+      <node concept="3clFbS" id="2jDJ2hCtWGV" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="YR7GeSDyNy" role="jymVt">
       <property role="TrG5h" value="showGraphDebugger" />
       <node concept="37vLTG" id="YR7GeSDyNz" role="3clF46">

@@ -1796,26 +1796,6 @@
         </node>
       </node>
       <node concept="3clFbH" id="jDMPdc$lb$" role="3cqZAp" />
-      <node concept="2NvLDW" id="m5XRCDbHC1" role="3cqZAp">
-        <property role="3wDh2S" value="true" />
-        <node concept="mw_s8" id="m5XRCDbHC6" role="1ZfhK$">
-          <node concept="1Z2H0r" id="m5XRCDbHC7" role="mwGJk">
-            <node concept="2OqwBi" id="m5XRCDbHC8" role="1Z2MuG">
-              <node concept="1YBJjd" id="m5XRCDbHC9" role="2Oq$k0">
-                <ref role="1YBMHb" node="5Ee0EjqXsBE" resolve="cmd" />
-              </node>
-              <node concept="3TrEf2" id="m5XRCDbHCa" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:3IuMOEB7hjH" resolve="questionWhenAborting" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="m5XRCDbHC3" role="1ZfhKB">
-          <node concept="2c44tf" id="m5XRCDbHC4" role="mwGJk">
-            <node concept="17QB3L" id="m5XRCDbHC5" role="2c44tc" />
-          </node>
-        </node>
-      </node>
       <node concept="2NvLDW" id="m5XRCDbHcl" role="3cqZAp">
         <property role="3wDh2S" value="true" />
         <node concept="mw_s8" id="m5XRCDbHcq" role="1ZfhK$">

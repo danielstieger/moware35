@@ -1660,27 +1660,6 @@
         <node concept="3clFbH" id="7agSOE8FISV" role="3cqZAp" />
         <node concept="3clFbJ" id="7agSOE8FITm" role="3cqZAp">
           <node concept="3clFbS" id="7agSOE8FITo" role="3clFbx">
-            <node concept="3cpWs8" id="7agSOE8FIXF" role="3cqZAp">
-              <node concept="3cpWsn" id="7agSOE8FIXI" role="3cpWs9">
-                <property role="TrG5h" value="msg" />
-                <node concept="17QB3L" id="7agSOE8FIXD" role="1tU5fm" />
-                <node concept="2OqwBi" id="7agSOE8FJ0D" role="33vP2m">
-                  <node concept="1eOMI4" id="7agSOE8FIZD" role="2Oq$k0">
-                    <node concept="10QFUN" id="7agSOE8FIZA" role="1eOMHV">
-                      <node concept="3uibUv" id="7agSOE8FIZF" role="10QFUM">
-                        <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="InfoAndCloseEvent" />
-                      </node>
-                      <node concept="37vLTw" id="7agSOE8FIZG" role="10QFUP">
-                        <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7agSOE8FJ2c" role="2OqNvi">
-                    <ref role="37wK5l" to="1e0c:SQhsWRSfRP" resolve="getMessage" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="7agSOE8FJ3f" role="3cqZAp">
               <node concept="3cpWsn" id="7agSOE8FJ3g" role="3cpWs9">
                 <property role="TrG5h" value="ex" />
@@ -1693,7 +1672,7 @@
                     <node concept="1eOMI4" id="7agSOE8FJ3j" role="2Oq$k0">
                       <node concept="10QFUN" id="7agSOE8FJ3k" role="1eOMHV">
                         <node concept="3uibUv" id="7agSOE8FJ3l" role="10QFUM">
-                          <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="InfoAndCloseEvent" />
+                          <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="ExInfoAndCloseEvent" />
                         </node>
                         <node concept="37vLTw" id="7agSOE8FJ3m" role="10QFUP">
                           <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -1742,9 +1721,6 @@
                       <ref role="37wK5l" node="7agSOE89Nx0" resolve="getMainParam" />
                     </node>
                   </node>
-                  <node concept="37vLTw" id="7agSOE8FKGr" role="37wK5m">
-                    <ref role="3cqZAo" node="7agSOE8FIXI" resolve="msg" />
-                  </node>
                   <node concept="37vLTw" id="7agSOE8FKI7" role="37wK5m">
                     <ref role="3cqZAo" node="7agSOE8FJ3g" resolve="ex" />
                   </node>
@@ -1755,7 +1731,7 @@
           </node>
           <node concept="2ZW3vV" id="7agSOE8FIUO" role="3clFbw">
             <node concept="3uibUv" id="7agSOE8FIWW" role="2ZW6by">
-              <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="InfoAndCloseEvent" />
+              <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="ExInfoAndCloseEvent" />
             </node>
             <node concept="37vLTw" id="7agSOE8FITL" role="2ZW6bz">
               <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -1863,7 +1839,7 @@
           <node concept="3eNFk2" id="1w1DleJSpZ8" role="3eNLev">
             <node concept="2ZW3vV" id="1w1DleJSq8Y" role="3eO9$A">
               <node concept="3uibUv" id="1w1DleJSqae" role="2ZW6by">
-                <ref role="3uigEE" to="1e0c:1w1DleJRYTc" resolve="FlagEvent" />
+                <ref role="3uigEE" to="1e0c:1w1DleJRYTc" resolve="FlagOnUiEvent" />
               </node>
               <node concept="37vLTw" id="1w1DleJSq7H" role="2ZW6bz">
                 <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -1887,7 +1863,7 @@
                         <node concept="1eOMI4" id="1w1DleJSqVs" role="2Oq$k0">
                           <node concept="10QFUN" id="1w1DleJSqVp" role="1eOMHV">
                             <node concept="3uibUv" id="1w1DleJSr3o" role="10QFUM">
-                              <ref role="3uigEE" to="1e0c:1w1DleJRYTc" resolve="FlagEvent" />
+                              <ref role="3uigEE" to="1e0c:1w1DleJRYTc" resolve="FlagOnUiEvent" />
                             </node>
                             <node concept="37vLTw" id="1w1DleJSrci" role="10QFUP">
                               <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -1924,7 +1900,7 @@
           <node concept="3eNFk2" id="1w1DleK0onW" role="3eNLev">
             <node concept="2ZW3vV" id="1w1DleK0oyV" role="3eO9$A">
               <node concept="3uibUv" id="1w1DleK0o$d" role="2ZW6by">
-                <ref role="3uigEE" to="1e0c:zBgVaD6kbf" resolve="CancelNoDlgEvent" />
+                <ref role="3uigEE" to="1e0c:zBgVaD6kbf" resolve="CancelAndCloseImmediately" />
               </node>
               <node concept="37vLTw" id="1w1DleK0oxu" role="2ZW6bz">
                 <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -1948,7 +1924,7 @@
                         <node concept="1eOMI4" id="1w1DleK0o_2" role="2Oq$k0">
                           <node concept="10QFUN" id="1w1DleK0o_3" role="1eOMHV">
                             <node concept="3uibUv" id="1w1DleK0oFi" role="10QFUM">
-                              <ref role="3uigEE" to="1e0c:zBgVaD6kbf" resolve="CancelNoDlgEvent" />
+                              <ref role="3uigEE" to="1e0c:zBgVaD6kbf" resolve="CancelAndCloseImmediately" />
                             </node>
                             <node concept="37vLTw" id="1w1DleK0o_5" role="10QFUP">
                               <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -1985,7 +1961,7 @@
           <node concept="3eNFk2" id="5LHzrvqWN2f" role="3eNLev">
             <node concept="2ZW3vV" id="5LHzrvqWN2g" role="3eO9$A">
               <node concept="3uibUv" id="5LHzrvqWNqO" role="2ZW6by">
-                <ref role="3uigEE" to="1e0c:7dlwzTfIXj7" resolve="CancelWithDlgEvent" />
+                <ref role="3uigEE" to="1e0c:7dlwzTfIXj7" resolve="CancelAndClose" />
               </node>
               <node concept="37vLTw" id="5LHzrvqWN2i" role="2ZW6bz">
                 <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -2009,7 +1985,7 @@
                         <node concept="1eOMI4" id="5LHzrvqWN2s" role="2Oq$k0">
                           <node concept="10QFUN" id="5LHzrvqWN2t" role="1eOMHV">
                             <node concept="3uibUv" id="5LHzrvqWNsy" role="10QFUM">
-                              <ref role="3uigEE" to="1e0c:7dlwzTfIXj7" resolve="CancelWithDlgEvent" />
+                              <ref role="3uigEE" to="1e0c:7dlwzTfIXj7" resolve="CancelAndClose" />
                             </node>
                             <node concept="37vLTw" id="5LHzrvqWN2v" role="10QFUP">
                               <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />

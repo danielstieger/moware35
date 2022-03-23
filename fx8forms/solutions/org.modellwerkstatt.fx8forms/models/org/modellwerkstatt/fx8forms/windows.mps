@@ -6906,6 +6906,50 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2jDJ2hCT5Wz" role="jymVt" />
+    <node concept="3clFb_" id="2jDJ2hCTex5" role="jymVt">
+      <property role="TrG5h" value="showProblemsDialog" />
+      <node concept="37vLTG" id="2jDJ2hCTex6" role="3clF46">
+        <property role="TrG5h" value="problems" />
+        <node concept="_YKpA" id="2jDJ2hCTex7" role="1tU5fm">
+          <node concept="3uibUv" id="2jDJ2hCTex8" role="_ZDj9">
+            <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2jDJ2hCTex9" role="3clF46">
+        <property role="TrG5h" value="callback" />
+        <node concept="3uibUv" id="2jDJ2hCTexa" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2jDJ2hCTexb" role="3clF45" />
+      <node concept="3Tm1VV" id="2jDJ2hCTexc" role="1B3o_S" />
+      <node concept="3clFbS" id="2jDJ2hCTexf" role="3clF47">
+        <node concept="3clFbF" id="2jDJ2hCTtRP" role="3cqZAp">
+          <node concept="1rXfSq" id="2jDJ2hCTtRO" role="3clFbG">
+            <ref role="37wK5l" node="3zf0S8jSklh" resolve="showDialog" />
+            <node concept="Rm8GO" id="2jDJ2hCTyZu" role="37wK5m">
+              <ref role="Rm8GQ" to="250q:4Ucpg8z6mvn" resolve="INFO_SMALL" />
+              <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
+            </node>
+            <node concept="2YIFZM" id="2jDJ2hCT_XG" role="37wK5m">
+              <ref role="37wK5l" to="1e0c:2jDJ2hATC0l" resolve="asSimpleString" />
+              <ref role="1Pybhc" to="1e0c:1w1DleJRYTc" resolve="FlagOnUiEvent" />
+              <node concept="37vLTw" id="2jDJ2hCTAkv" role="37wK5m">
+                <ref role="3cqZAo" node="2jDJ2hCTex6" resolve="problems" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="2jDJ2hCTD8D" role="37wK5m">
+              <ref role="3cqZAo" node="2jDJ2hCTex9" resolve="callback" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2jDJ2hCTexg" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="YR7GeSGOQy" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="showGraphDebugger" />
@@ -7945,7 +7989,7 @@
                                                 <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                                                 <node concept="2ShNRf" id="938$CrV_19" role="37wK5m">
                                                   <node concept="1pGfFk" id="938$CrV_sj" role="2ShVmc">
-                                                    <ref role="37wK5l" to="1e0c:SQhsWRTq7b" resolve="InfoAndCloseEvent" />
+                                                    <ref role="37wK5l" to="1e0c:SQhsWRTq7b" resolve="ExInfoAndCloseEvent" />
                                                     <node concept="2ShNRf" id="938$CrVBwF" role="37wK5m">
                                                       <node concept="1pGfFk" id="938$CrVCjg" role="2ShVmc">
                                                         <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
@@ -34395,7 +34439,7 @@
                               <ref role="3cqZAo" node="2gjGACn6kpD" resolve="prblm" />
                             </node>
                             <node concept="liA8E" id="2gjGACn6nWp" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleText_Lgcy" />
+                              <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleUserText" />
                             </node>
                           </node>
                         </node>

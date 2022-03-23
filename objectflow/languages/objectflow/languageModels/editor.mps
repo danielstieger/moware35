@@ -2599,7 +2599,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="6e3ErBU0tk8" role="3EZMnx">
-          <property role="3F0ifm" value="// do not use preconditions in page init (except warnings)" />
+          <property role="3F0ifm" value="  // do not use preconditions in page init (except warnings)" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F1sOY" id="1Csx3LqtqVq" role="3EZMnx">
@@ -2629,7 +2629,7 @@
           <ref role="1NtTu8" to="un0u:7j1iBG4KMlj" resolve="dynamicPageTitle" />
         </node>
         <node concept="3F0ifn" id="7FBYhBUxOMS" role="3EZMnx">
-          <property role="3F0ifm" value="// also calculated on child term" />
+          <property role="3F0ifm" value="  // also calculated on child term" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F0ifn" id="1Csx3LqtqUQ" role="3EZMnx">
@@ -2878,7 +2878,7 @@
           <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
         </node>
         <node concept="3F0ifn" id="4Rz9B$cp4kS" role="3EZMnx">
-          <property role="3F0ifm" value=" // anded" />
+          <property role="3F0ifm" value="  // anded" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
       </node>
@@ -3196,6 +3196,10 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="3F0ifn" id="2jDJ2hE_CaY" role="3EZMnx">
+          <property role="3F0ifm" value="  // no more preconditions here" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        </node>
         <node concept="3F2HdR" id="6qsy3WVCIvd" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:6qsy3WVzzKf" resolve="successorCommand" />
           <node concept="2EHx9g" id="5SRT4dTCR6O" role="2czzBx" />
@@ -3341,6 +3345,10 @@
         <node concept="3F0ifn" id="5RXltUm6MPM" role="3EZMnx">
           <property role="3F0ifm" value="listOfProblems" />
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+        </node>
+        <node concept="3F0ifn" id="2jDJ2hE_Cvc" role="3EZMnx">
+          <property role="3F0ifm" value="  // no more preconditions here" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F0ifn" id="1l1sktc821c" role="3EZMnx">
           <property role="3F0ifm" value="// do revert objects" />
