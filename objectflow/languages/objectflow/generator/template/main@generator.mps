@@ -6921,58 +6921,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1HDSUXw2w3u" role="jymVt" />
-    <node concept="2tJIrI" id="3EJ222DXEK7" role="jymVt" />
-    <node concept="3clFb_" id="3EJ222DXMqf" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="extForceOkConclusion" />
-      <node concept="3cqZAl" id="3EJ222DXMqg" role="3clF45" />
-      <node concept="3Tm1VV" id="3EJ222DXMqh" role="1B3o_S" />
-      <node concept="3uibUv" id="3EJ222DXMqj" role="Sfmx6">
-        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-      </node>
-      <node concept="3clFbS" id="3EJ222DXMqk" role="3clF47">
-        <node concept="3clFbJ" id="3EJ222DYfYi" role="3cqZAp">
-          <node concept="3clFbS" id="3EJ222DYfYk" role="3clFbx">
-            <node concept="YS8fn" id="1HDSUXvXI3h" role="3cqZAp">
-              <node concept="2ShNRf" id="1HDSUXvXI4E" role="YScLw">
-                <node concept="1pGfFk" id="1HDSUXvXIKj" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="1rXfSq" id="1HDSUXvXIRR" role="37wK5m">
-                    <ref role="37wK5l" node="1HDSUXvKb3l" resolve="dumpCommandState" />
-                    <node concept="Xl_RD" id="3EJ222DYhW4" role="37wK5m">
-                      <property role="Xl_RC" value="extForceOKConclusion() can only be applied on commands which are waiting for the final ok conclusion." />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="3EJ222DYgPu" role="3clFbw">
-            <node concept="1rXfSq" id="3EJ222DYgPw" role="3fr31v">
-              <ref role="37wK5l" node="3EJ222DVT$z" resolve="isReadyForFinalOkConclusion" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3EJ222E1rgg" role="3cqZAp">
-          <node concept="37vLTI" id="3EJ222E1rkB" role="3clFbG">
-            <node concept="3clFbT" id="3EJ222E1rmV" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="37vLTw" id="3EJ222E1rge" role="37vLTJ">
-              <ref role="3cqZAo" node="3EJ222DZWgR" resolve="lockFinalOkDueSuccessor" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3EJ222E1rnW" role="3cqZAp" />
-        <node concept="3clFbF" id="3EJ222DXz01" role="3cqZAp">
-          <node concept="1rXfSq" id="3EJ222DXz02" role="3clFbG">
-            <ref role="37wK5l" node="6dnXV8mIFnJ" resolve="doFinalOkConclusion" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="3EJ222DYYrG" role="jymVt" />
-    <node concept="2tJIrI" id="1HDSUXvHzxO" role="jymVt" />
     <node concept="3clFb_" id="3RUln15r2g2" role="jymVt">
       <property role="TrG5h" value="doFinalUserCancelConclusion" />
       <node concept="3cqZAl" id="3RUln15r2g4" role="3clF45" />
@@ -7283,9 +7231,7 @@
                         <node concept="2ShNRf" id="4kNjw_lE2Rw" role="25WWJ7">
                           <node concept="1pGfFk" id="4kNjw_lE3bp" role="2ShVmc">
                             <ref role="37wK5l" to="28jr:51llZt5PgPq" resolve="OFXProblem" />
-                            <node concept="3clFbT" id="6kL6rJ18_rW" role="37wK5m">
-                              <property role="3clFbU" value="true" />
-                            </node>
+                            <node concept="3clFbT" id="2c1OwJTjWII" role="37wK5m" />
                             <node concept="3cpWs3" id="4kNjw_lE41I" role="37wK5m">
                               <node concept="2OqwBi" id="4kNjw_lE4nA" role="3uHU7w">
                                 <node concept="2OqwBi" id="4kNjw_lE47N" role="2Oq$k0">
@@ -7301,7 +7247,7 @@
                                 </node>
                               </node>
                               <node concept="Xl_RD" id="4kNjw_lE3fm" role="3uHU7B">
-                                <property role="Xl_RC" value="final_cancel_conclusion forwarded " />
+                                <property role="Xl_RC" value="FINAL_CANCEL forwarded " />
                               </node>
                             </node>
                             <node concept="10Nm6u" id="4kNjw_lE3mY" role="37wK5m" />
@@ -8288,25 +8234,46 @@
             <node concept="3clFbH" id="1dqt$gIOq8D" role="3cqZAp" />
             <node concept="3clFbJ" id="3EJ222E4_VE" role="3cqZAp">
               <node concept="3clFbS" id="3EJ222E4_VF" role="3clFbx">
-                <node concept="3clFbJ" id="2jDJ2hAulJU" role="3cqZAp">
-                  <node concept="3clFbS" id="2jDJ2hAulJW" role="3clFbx">
-                    <node concept="YS8fn" id="2jDJ2hAunzj" role="3cqZAp">
-                      <node concept="2ShNRf" id="2jDJ2hAunA6" role="YScLw">
-                        <node concept="1pGfFk" id="2jDJ2hAuoaG" role="2ShVmc">
-                          <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                          <node concept="Xl_RD" id="2jDJ2hAuocH" role="37wK5m">
-                            <property role="Xl_RC" value="This can not be true. Predecessor is already in terminatedCancel?" />
-                          </node>
-                        </node>
-                      </node>
+                <node concept="3SKdUt" id="2c1OwJT1xV2" role="3cqZAp">
+                  <node concept="1PaTwC" id="2c1OwJT1xV3" role="1aUNEU">
+                    <node concept="3oM_SD" id="2c1OwJT1xV4" role="1PaTwD">
+                      <property role="3oM_SC" value="not" />
                     </node>
-                  </node>
-                  <node concept="2OqwBi" id="2jDJ2hAulWB" role="3clFbw">
-                    <node concept="37vLTw" id="2jDJ2hAulNR" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3EJ222E4oh4" resolve="predecessorCommand" />
+                    <node concept="3oM_SD" id="2c1OwJT1y3T" role="1PaTwD">
+                      <property role="3oM_SC" value="coming" />
                     </node>
-                    <node concept="liA8E" id="2jDJ2hAumJN" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                    <node concept="3oM_SD" id="2c1OwJT1y5s" role="1PaTwD">
+                      <property role="3oM_SC" value="from" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1y90" role="1PaTwD">
+                      <property role="3oM_SC" value="predecessor" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1yeb" role="1PaTwD">
+                      <property role="3oM_SC" value="cancel" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1yhR" role="1PaTwD">
+                      <property role="3oM_SC" value="..." />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1_Jg" role="1PaTwD">
+                      <property role="3oM_SC" value="[unexpected" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1A9m" role="1PaTwD">
+                      <property role="3oM_SC" value="ex" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1AdP" role="1PaTwD">
+                      <property role="3oM_SC" value="not" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1Ahv" role="1PaTwD">
+                      <property role="3oM_SC" value="passed" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1Am0" role="1PaTwD">
+                      <property role="3oM_SC" value="forward," />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1AmW" role="1PaTwD">
+                      <property role="3oM_SC" value="already" />
+                    </node>
+                    <node concept="3oM_SD" id="2c1OwJT1AzM" role="1PaTwD">
+                      <property role="3oM_SC" value="added]" />
                     </node>
                   </node>
                 </node>
@@ -8320,18 +8287,28 @@
                       <node concept="37vLTw" id="7zuurfPcTG7" role="37wK5m">
                         <ref role="3cqZAo" node="7zuurfPc$bT" resolve="listOfProblems" />
                       </node>
-                      <node concept="37vLTw" id="3jf78TZDxXe" role="37wK5m">
-                        <ref role="3cqZAo" node="1HDSUXvT0FO" resolve="unexpecteEX" />
-                      </node>
+                      <node concept="10Nm6u" id="2c1OwJSXTIo" role="37wK5m" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3y3z36" id="3EJ222E4_VK" role="3clFbw">
-                <node concept="37vLTw" id="3EJ222E4_VM" role="3uHU7B">
-                  <ref role="3cqZAo" node="3EJ222E4oh4" resolve="predecessorCommand" />
+              <node concept="1Wc70l" id="2c1OwJT1ypa" role="3clFbw">
+                <node concept="3y3z36" id="3EJ222E4_VK" role="3uHU7B">
+                  <node concept="37vLTw" id="3EJ222E4_VM" role="3uHU7B">
+                    <ref role="3cqZAo" node="3EJ222E4oh4" resolve="predecessorCommand" />
+                  </node>
+                  <node concept="10Nm6u" id="3EJ222E4_VL" role="3uHU7w" />
                 </node>
-                <node concept="10Nm6u" id="3EJ222E4_VL" role="3uHU7w" />
+                <node concept="3fqX7Q" id="2c1OwJT1wHa" role="3uHU7w">
+                  <node concept="2OqwBi" id="2c1OwJT1wHc" role="3fr31v">
+                    <node concept="37vLTw" id="2c1OwJT1wHd" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3EJ222E4oh4" resolve="predecessorCommand" />
+                    </node>
+                    <node concept="liA8E" id="2c1OwJT1wHe" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="3clFbH" id="1HDSUXvTo3z" role="3cqZAp" />
@@ -8417,6 +8394,56 @@
       </node>
       <node concept="3uibUv" id="3g5RX4qTJIP" role="Sfmx6">
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2c1OwJSoRDQ" role="jymVt" />
+    <node concept="3clFb_" id="3EJ222DXMqf" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="doPredecessorFinalOk" />
+      <node concept="3cqZAl" id="3EJ222DXMqg" role="3clF45" />
+      <node concept="3Tm1VV" id="3EJ222DXMqh" role="1B3o_S" />
+      <node concept="3uibUv" id="3EJ222DXMqj" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="3clFbS" id="3EJ222DXMqk" role="3clF47">
+        <node concept="3clFbJ" id="3EJ222DYfYi" role="3cqZAp">
+          <node concept="3clFbS" id="3EJ222DYfYk" role="3clFbx">
+            <node concept="YS8fn" id="1HDSUXvXI3h" role="3cqZAp">
+              <node concept="2ShNRf" id="1HDSUXvXI4E" role="YScLw">
+                <node concept="1pGfFk" id="1HDSUXvXIKj" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="1rXfSq" id="1HDSUXvXIRR" role="37wK5m">
+                    <ref role="37wK5l" node="1HDSUXvKb3l" resolve="dumpCommandState" />
+                    <node concept="Xl_RD" id="3EJ222DYhW4" role="37wK5m">
+                      <property role="Xl_RC" value="extForceOKConclusion() can only be applied on commands which are waiting for the final ok conclusion." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="3EJ222DYgPu" role="3clFbw">
+            <node concept="1rXfSq" id="3EJ222DYgPw" role="3fr31v">
+              <ref role="37wK5l" node="3EJ222DVT$z" resolve="isReadyForSuccessor" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3EJ222E1rgg" role="3cqZAp">
+          <node concept="37vLTI" id="3EJ222E1rkB" role="3clFbG">
+            <node concept="3clFbT" id="3EJ222E1rmV" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="3EJ222E1rge" role="37vLTJ">
+              <ref role="3cqZAo" node="3EJ222DZWgR" resolve="lockFinalOkDueSuccessor" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3EJ222E1rnW" role="3cqZAp" />
+        <node concept="3clFbF" id="3EJ222DXz01" role="3cqZAp">
+          <node concept="1rXfSq" id="3EJ222DXz02" role="3clFbG">
+            <ref role="37wK5l" node="6dnXV8mIFnJ" resolve="doFinalOkConclusion" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1HDSUXvTZR3" role="jymVt" />
@@ -8733,7 +8760,7 @@
                       <ref role="3cqZAo" node="3EJ222E4oh4" resolve="predecessorCommand" />
                     </node>
                     <node concept="liA8E" id="3EJ222E4_9s" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:3EJ222DXbZX" resolve="extForceOkConclusion" />
+                      <ref role="37wK5l" to="28jr:2c1OwJSmlRH" resolve="doPredecessorFinalOk" />
                     </node>
                   </node>
                 </node>
@@ -9513,7 +9540,7 @@
     </node>
     <node concept="3clFb_" id="3EJ222DVT$z" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="isReadyForFinalOkConclusion" />
+      <property role="TrG5h" value="isReadyForSuccessor" />
       <node concept="10P_77" id="3EJ222DVT$$" role="3clF45" />
       <node concept="3Tm1VV" id="3EJ222DVT$_" role="1B3o_S" />
       <node concept="3clFbS" id="3EJ222DVT$B" role="3clF47">

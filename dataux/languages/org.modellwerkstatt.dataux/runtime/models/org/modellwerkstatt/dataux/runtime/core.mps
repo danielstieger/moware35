@@ -16956,7 +16956,7 @@
                 <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
               </node>
               <node concept="liA8E" id="3EJ222E2tAP" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:3EJ222DUOYi" resolve="isReadyForFinalOkConclusion" />
+                <ref role="37wK5l" to="28jr:3EJ222DUOYi" resolve="isReadyForSuccessor" />
               </node>
             </node>
           </node>
@@ -21787,7 +21787,7 @@
                     <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                   </node>
                   <node concept="liA8E" id="3EJ222E34aU" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:3EJ222DUOYi" resolve="isReadyForFinalOkConclusion" />
+                    <ref role="37wK5l" to="28jr:3EJ222DUOYi" resolve="isReadyForSuccessor" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="3EJ222E33GL" role="3uHU7B">
@@ -37498,7 +37498,7 @@
                               <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
                             </node>
                             <node concept="Xl_RD" id="2o7h3aE0WnC" role="37wK5m">
-                              <property role="Xl_RC" value="InfoAndCloseEvent Exception" />
+                              <property role="Xl_RC" value="CloseCntrExInfoEvent Exception" />
                             </node>
                             <node concept="2OqwBi" id="6HvFgwcn3mY" role="37wK5m">
                               <node concept="37vLTw" id="6HvFgwcn3kf" role="2Oq$k0">
@@ -37865,7 +37865,7 @@
                     <node concept="3clFbS" id="3GQ300QxsMx" role="3eOfB_">
                       <node concept="3cpWs8" id="63VjT6lYEsj" role="3cqZAp">
                         <node concept="3cpWsn" id="63VjT6lYEsk" role="3cpWs9">
-                          <property role="TrG5h" value="cte" />
+                          <property role="TrG5h" value="gcte" />
                           <node concept="3uibUv" id="63VjT6lYEsl" role="1tU5fm">
                             <ref role="3uigEE" node="T$VfFDOC$R" resolve="GlobalCmdTermEvent" />
                           </node>
@@ -37887,7 +37887,7 @@
                           <node concept="1rXfSq" id="6X2OBnWvqRP" role="37vLTx">
                             <ref role="37wK5l" node="6X2OBnWrjzd" resolve="fg_handleChildTerminate" />
                             <node concept="37vLTw" id="63VjT6lYF2Y" role="37wK5m">
-                              <ref role="3cqZAo" node="63VjT6lYEsk" resolve="cte" />
+                              <ref role="3cqZAo" node="63VjT6lYEsk" resolve="gcte" />
                             </node>
                           </node>
                         </node>
@@ -37921,7 +37921,7 @@
                           <node concept="3clFbC" id="2c1OwJSh1yN" role="3uHU7B">
                             <node concept="2OqwBi" id="2c1OwJSh1i5" role="3uHU7B">
                               <node concept="37vLTw" id="2c1OwJSh0Zi" role="2Oq$k0">
-                                <ref role="3cqZAo" node="63VjT6lYEsk" resolve="cte" />
+                                <ref role="3cqZAo" node="63VjT6lYEsk" resolve="gcte" />
                               </node>
                               <node concept="liA8E" id="2c1OwJSh1sj" role="2OqNvi">
                                 <ref role="37wK5l" node="T$VfFDOC_f" resolve="getClosedContainer" />
@@ -37963,7 +37963,7 @@
                                           </node>
                                           <node concept="2OqwBi" id="1dqt$gIf2fx" role="3uHU7w">
                                             <node concept="37vLTw" id="63VjT6lYJYm" role="2Oq$k0">
-                                              <ref role="3cqZAo" node="63VjT6lYEsk" resolve="cte" />
+                                              <ref role="3cqZAo" node="63VjT6lYEsk" resolve="gcte" />
                                             </node>
                                             <node concept="liA8E" id="1dqt$gIf2fz" role="2OqNvi">
                                               <ref role="37wK5l" node="1HDSUXwGoTy" resolve="getCancelMessage" />
@@ -37980,7 +37980,7 @@
                                 <node concept="3fqX7Q" id="63VjT6lYJlb" role="3uHU7w">
                                   <node concept="2OqwBi" id="63VjT6lYJld" role="3fr31v">
                                     <node concept="37vLTw" id="63VjT6lYJle" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="63VjT6lYEsk" resolve="cte" />
+                                      <ref role="3cqZAo" node="63VjT6lYEsk" resolve="gcte" />
                                     </node>
                                     <node concept="liA8E" id="63VjT6lYJlf" role="2OqNvi">
                                       <ref role="37wK5l" node="5YVCCVeHjfl" resolve="wasOk" />
@@ -37995,7 +37995,7 @@
                                 <node concept="1Wc70l" id="63VjT6lYKCk" role="3eO9$A">
                                   <node concept="2OqwBi" id="63VjT6lYKRA" role="3uHU7w">
                                     <node concept="37vLTw" id="63VjT6lYKQw" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="63VjT6lYEsk" resolve="cte" />
+                                      <ref role="3cqZAo" node="63VjT6lYEsk" resolve="gcte" />
                                     </node>
                                     <node concept="liA8E" id="63VjT6lYLx7" role="2OqNvi">
                                       <ref role="37wK5l" node="5YVCCVeHjfl" resolve="wasOk" />
@@ -38047,7 +38047,7 @@
                             <node concept="3clFbC" id="63VjT6lYFZ4" role="3uHU7B">
                               <node concept="2OqwBi" id="63VjT6lYFup" role="3uHU7B">
                                 <node concept="37vLTw" id="63VjT6lYFt5" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="63VjT6lYEsk" resolve="cte" />
+                                  <ref role="3cqZAo" node="63VjT6lYEsk" resolve="gcte" />
                                 </node>
                                 <node concept="liA8E" id="39R747twCP$" role="2OqNvi">
                                   <ref role="37wK5l" node="39R747tw$AV" resolve="getParentOfClosed" />

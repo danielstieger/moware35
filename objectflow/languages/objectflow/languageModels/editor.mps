@@ -2990,7 +2990,7 @@
           <ref role="1NtTu8" to="un0u:5HvIBdINHAf" resolve="defaultHotkey" />
         </node>
         <node concept="3F0ifn" id="6Rdz00$u1DJ" role="3EZMnx">
-          <property role="3F0ifm" value="revert on EX / FINAL_CANCEL_CONCLUSION:" />
+          <property role="3F0ifm" value="revert on FINAL_CANCEL_CONCLUSION:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="6Rdz00$u1DK" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -3414,6 +3414,10 @@
           </node>
           <node concept="lj46D" id="jDMPdc$lHU" role="3F10Kt">
             <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="2c1OwJSSTxj" role="3EZMnx">
+            <property role="3F0ifm" value="  // cancel ops immediately in private transaction" />
+            <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
           </node>
         </node>
         <node concept="3F0ifn" id="1dqt$gJyR8K" role="3EZMnx">
