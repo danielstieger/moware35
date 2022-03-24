@@ -6532,6 +6532,24 @@
             </node>
             <node concept="3clFbH" id="23OxdyxmYdG" role="3cqZAp" />
           </node>
+          <node concept="3uVAMA" id="2c1OwJRJU3n" role="1zxBo5">
+            <node concept="XOnhg" id="2c1OwJRJU3o" role="1zc67B">
+              <property role="TrG5h" value="aborted" />
+              <node concept="nSUau" id="2c1OwJRJU3p" role="1tU5fm">
+                <node concept="3uibUv" id="2c1OwJRJULN" role="nSUat">
+                  <ref role="3uigEE" to="28jr:ncJg$HbYpH" resolve="OFXAbortedException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2c1OwJRJU3q" role="1zc67A">
+              <node concept="YS8fn" id="2c1OwJRJVgi" role="3cqZAp">
+                <node concept="37vLTw" id="2c1OwJRJZf3" role="YScLw">
+                  <ref role="3cqZAo" node="2c1OwJRJU3o" resolve="aborted" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="2c1OwJRJVcK" role="3cqZAp" />
+            </node>
+          </node>
           <node concept="3uVAMA" id="1TUQyycwBgG" role="1zxBo5">
             <node concept="XOnhg" id="1TUQyycwBgH" role="1zc67B">
               <property role="3TUv4t" value="false" />
