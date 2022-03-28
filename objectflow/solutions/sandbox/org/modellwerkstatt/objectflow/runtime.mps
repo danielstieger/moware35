@@ -3281,6 +3281,23 @@
       <node concept="10P_77" id="1HDSUXwnQBU" role="3clF45" />
       <node concept="3Tm1VV" id="1HDSUXwnQpR" role="1B3o_S" />
       <node concept="3clFbS" id="1HDSUXwnQpS" role="3clF47" />
+      <node concept="P$JXv" id="D4yAFxAZoB" role="lGtFl">
+        <node concept="TZ5HA" id="D4yAFxAZoC" role="TZ5H$">
+          <node concept="1dT_AC" id="D4yAFxAZoD" role="1dT_Ay">
+            <property role="1dT_AB" value="Improvements Command: " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="D4yAFxAZvO" role="TZ5H$">
+          <node concept="1dT_AC" id="D4yAFxAZvP" role="1dT_Ay">
+            <property role="1dT_AB" value="- instead of exceptions, use return values to control cmd behaviour" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="D4yAFxAZw2" role="TZ5H$">
+          <node concept="1dT_AC" id="D4yAFxAZw3" role="1dT_Ay">
+            <property role="1dT_AB" value="- just on single cmd state after execution (use enum)" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="6dnXV8mIGtD" role="jymVt">
       <property role="TrG5h" value="isTerminatedOk" />
