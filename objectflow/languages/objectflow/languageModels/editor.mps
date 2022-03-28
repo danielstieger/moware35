@@ -3197,7 +3197,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="2jDJ2hE_CaY" role="3EZMnx">
-          <property role="3F0ifm" value="  // no more preconditions here" />
+          <property role="3F0ifm" value="  // no more preconditions in fin ok" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F2HdR" id="6qsy3WVCIvd" role="3EZMnx">
@@ -3306,35 +3306,6 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F0ifn" id="1Csx3LqySkU" role="3EZMnx">
-          <property role="3F0ifm" value="FINAL_USER_CANCEL:" />
-          <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
-          <node concept="pVoyu" id="1Csx3LqySkV" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1l1sktc822Z" role="3EZMnx">
-          <property role="3F0ifm" value="// do revert objects" />
-          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
-          <node concept="pVoyu" id="1l1sktc8230" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="1l1sktc8231" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1Csx3LqyLkP" role="3EZMnx">
-          <property role="3F0ifm" value="" />
-          <node concept="pVoyu" id="1Csx3LqyLkS" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="6qsy3WVzeff" role="3EZMnx">
-          <property role="3F0ifm" value="" />
-          <node concept="pVoyu" id="6qsy3WVzefg" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
         <node concept="3F0ifn" id="1Csx3LqyLkT" role="3EZMnx">
           <property role="3F0ifm" value="FINAL CANCEL_CONCLUSION:" />
           <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
@@ -3347,12 +3318,12 @@
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
         </node>
         <node concept="3F0ifn" id="2jDJ2hE_Cvc" role="3EZMnx">
-          <property role="3F0ifm" value="  // no more preconditions here" />
+          <property role="3F0ifm" value="  // no more preconditions in fin cancel" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F0ifn" id="1l1sktc821c" role="3EZMnx">
-          <property role="3F0ifm" value="// do revert objects" />
-          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <property role="3F0ifm" value="  // do revert objects" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
           <node concept="pVoyu" id="1l1sktc821d" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -3440,6 +3411,35 @@
           </node>
         </node>
         <node concept="l2Vlx" id="1Csx3LqySlc" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="1Csx3LqyLkP" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="1Csx3LqyLkS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6qsy3WVzeff" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="6qsy3WVzefg" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1Csx3LqySkU" role="3EZMnx">
+        <property role="3F0ifm" value="FINAL_USER_CANCEL:" />
+        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+        <node concept="pVoyu" id="1Csx3LqySkV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1l1sktc822Z" role="3EZMnx">
+        <property role="3F0ifm" value="  // do revert objects" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="1l1sktc8230" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="1l1sktc8231" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="2iRkQZ" id="1rbZyOwpJms" role="2iSdaV" />
     </node>

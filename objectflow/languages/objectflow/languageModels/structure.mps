@@ -2555,7 +2555,7 @@
   <node concept="1TIwiD" id="1E9WFYpESlv">
     <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="HideOnDisabledLabelSpacOpt" />
-    <property role="34LRSv" value="HIDE" />
+    <property role="34LRSv" value="HideOnDisabled" />
     <property role="EcuMT" value="1912326421526316383" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1E9WFYpESmh" role="PzmwI">

@@ -3128,7 +3128,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="v5O1Qhq$7N" role="3EZMnx">
-        <property role="3F0ifm" value="(on suc)" />
+        <property role="3F0ifm" value=" (on suc)" />
         <ref role="1k5W1q" to="z8tr:WwSagswj7o" resolve="O2SmallInfo" />
         <node concept="pkWqt" id="v5O1Qhq$b7" role="pqm2j">
           <node concept="3clFbS" id="v5O1Qhq$b8" role="2VODD2">
@@ -3146,6 +3146,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="38D16t1T_Kg" role="3EZMnx" />
       <node concept="l2Vlx" id="v5O1Qhq$7q" role="2iSdaV" />
     </node>
   </node>
