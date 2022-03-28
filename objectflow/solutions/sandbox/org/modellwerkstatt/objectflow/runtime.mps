@@ -3349,13 +3349,6 @@
       <node concept="3Tm1VV" id="1HDSUXwCQgz" role="1B3o_S" />
       <node concept="17QB3L" id="1HDSUXwCQ2H" role="3clF45" />
     </node>
-    <node concept="3clFb_" id="1HDSUXwCQWC" role="jymVt">
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="wasTermCancelDueToException" />
-      <node concept="3clFbS" id="1HDSUXwCQWF" role="3clF47" />
-      <node concept="3Tm1VV" id="1HDSUXwCQWG" role="1B3o_S" />
-      <node concept="10P_77" id="1HDSUXwCQH2" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="1HDSUXw3Gkb" role="jymVt">
       <property role="TrG5h" value="getTerminateCancelSelections" />
       <node concept="_YKpA" id="1HDSUXw3Gkc" role="3clF45">
