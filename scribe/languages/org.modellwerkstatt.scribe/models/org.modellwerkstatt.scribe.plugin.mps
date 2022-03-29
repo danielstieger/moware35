@@ -101,6 +101,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -424,14 +427,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="6WkQmwhVrmg" role="3cqZAp" />
-        <node concept="3clFbF" id="6WkQmwjQd8y" role="3cqZAp">
-          <node concept="37vLTI" id="6WkQmwjQdFO" role="3clFbG">
-            <node concept="10Nm6u" id="6WkQmwjQe0f" role="37vLTx" />
-            <node concept="37vLTw" id="6WkQmwjQd8w" role="37vLTJ">
-              <ref role="3cqZAo" node="6WkQmwi0fys" resolve="templateLocation" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="3czznpMW9MC" role="3cqZAp">
           <node concept="3clFbS" id="3czznpMW9ME" role="3clFbx">
             <node concept="3cpWs8" id="3czznpMUjbt" role="3cqZAp">
@@ -2363,22 +2358,63 @@
                       <node concept="2es0OD" id="3czznpMVTeY" role="2OqNvi">
                         <node concept="1bVj0M" id="3czznpMVTf0" role="23t8la">
                           <node concept="3clFbS" id="3czznpMVTf1" role="1bW5cS">
-                            <node concept="3clFbF" id="3czznpMVWIN" role="3cqZAp">
-                              <node concept="2OqwBi" id="3czznpMVX$2" role="3clFbG">
-                                <node concept="37vLTw" id="3czznpMVWIL" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3czznpMVVs_" resolve="transactions" />
+                            <node concept="3J1_TO" id="W9MOPcxfOk" role="3cqZAp">
+                              <node concept="3uVAMA" id="W9MOPcxgqB" role="1zxBo5">
+                                <node concept="XOnhg" id="W9MOPcxgqC" role="1zc67B">
+                                  <property role="TrG5h" value="e" />
+                                  <node concept="nSUau" id="W9MOPcxgqD" role="1tU5fm">
+                                    <node concept="3uibUv" id="W9MOPcxk0U" role="nSUat">
+                                      <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                                    </node>
+                                  </node>
                                 </node>
-                                <node concept="TSZUe" id="3czznpMVYLJ" role="2OqNvi">
-                                  <node concept="2YIFZM" id="3czznpMVZiv" role="25WWJ7">
-                                    <ref role="1Pybhc" node="3czznpMVJun" resolve="MapInfoCreator" />
-                                    <ref role="37wK5l" node="3czznpMVJ$c" resolve="mapForBusinessTransaction" />
-                                    <node concept="37vLTw" id="3czznpMVZtC" role="37wK5m">
-                                      <ref role="3cqZAo" node="3czznpMVTf2" resolve="it" />
+                                <node concept="3clFbS" id="W9MOPcxgqE" role="1zc67A">
+                                  <node concept="YS8fn" id="W9MOPcJIPi" role="3cqZAp">
+                                    <node concept="2ShNRf" id="W9MOPcJLOz" role="YScLw">
+                                      <node concept="1pGfFk" id="W9MOPcJLKB" role="2ShVmc">
+                                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                                        <node concept="3cpWs3" id="W9MOPcJP7O" role="37wK5m">
+                                          <node concept="2OqwBi" id="W9MOPcJQ9C" role="3uHU7w">
+                                            <node concept="37vLTw" id="W9MOPcJPuD" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="3czznpMVTf2" resolve="it" />
+                                            </node>
+                                            <node concept="3TrcHB" id="W9MOPcJRaz" role="2OqNvi">
+                                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="W9MOPcJNAp" role="3uHU7B">
+                                            <property role="Xl_RC" value="While processing BusinessTransaction " />
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="W9MOPcJMaZ" role="37wK5m">
+                                          <ref role="3cqZAo" node="W9MOPcxgqC" resolve="e" />
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
                               </node>
+                              <node concept="3clFbS" id="W9MOPcxfOm" role="1zxBo7">
+                                <node concept="3clFbF" id="3czznpMVWIN" role="3cqZAp">
+                                  <node concept="2OqwBi" id="3czznpMVX$2" role="3clFbG">
+                                    <node concept="37vLTw" id="3czznpMVWIL" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3czznpMVVs_" resolve="transactions" />
+                                    </node>
+                                    <node concept="TSZUe" id="3czznpMVYLJ" role="2OqNvi">
+                                      <node concept="2YIFZM" id="3czznpMVZiv" role="25WWJ7">
+                                        <ref role="1Pybhc" node="3czznpMVJun" resolve="MapInfoCreator" />
+                                        <ref role="37wK5l" node="3czznpMVJ$c" resolve="mapForBusinessTransaction" />
+                                        <node concept="37vLTw" id="3czznpMVZtC" role="37wK5m">
+                                          <ref role="3cqZAo" node="3czznpMVTf2" resolve="it" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="W9MOPcxfOl" role="3cqZAp" />
+                              </node>
                             </node>
+                            <node concept="3clFbH" id="W9MOPcJK9u" role="3cqZAp" />
                           </node>
                           <node concept="Rh6nW" id="3czznpMVTf2" role="1bW2Oz">
                             <property role="TrG5h" value="it" />
