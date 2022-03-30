@@ -121,10 +121,10 @@
   <node concept="_UgoZ" id="2AV7EAPV$F4">
     <property role="2BwPSy" value="4AbjR7I215i/migration" />
     <property role="TrG5h" value="Moware11_2022_15" />
-    <property role="_Wzho" value="MoWare Page Conclusion Refactoring" />
+    <property role="_Wzho" value="MoWare 11 2022.15 Refactorings" />
     <property role="2BwPS$" value="MoWare Scripts" />
     <node concept="_XfAh" id="2AV7EAPV$Ib" role="_YvDr">
-      <property role="_XH9r" value="Remove name from PageConclusion" />
+      <property role="_XH9r" value="MoWare Page Conclusion Refactoring - remove name from PageConclusion" />
       <property role="1iWc8x" value="true" />
       <ref role="_XDHR" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
       <node concept="_ZGcI" id="2AV7EAPV$Ic" role="_XPhp">

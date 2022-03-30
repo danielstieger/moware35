@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.modellwerkstatt.dataux" uuid="64adc67c-5fcf-45f5-82db-6a6771963d93" languageVersion="0" moduleVersion="0">
+<language namespace="org.modellwerkstatt.dataux" uuid="64adc67c-5fcf-45f5-82db-6a6771963d93" languageVersion="0" moduleVersion="1">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
