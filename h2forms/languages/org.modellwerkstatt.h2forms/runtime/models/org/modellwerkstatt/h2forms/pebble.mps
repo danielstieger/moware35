@@ -4822,7 +4822,7 @@
             <node concept="3EllGN" id="3V1gzeLG99K" role="37vLTJ">
               <node concept="10M0yZ" id="3V1gzeLG99L" role="3ElVtu">
                 <ref role="1PxDUh" node="2JP_IULTUsl" resolve="AbstractForm" />
-                <ref role="3cqZAo" node="1Qo13pXrkhz" resolve="FLAG_TEXT" />
+                <ref role="3cqZAo" node="1Qo13pXrkhz" resolve="LIST_OF_PROBLEMS" />
               </node>
               <node concept="37vLTw" id="3V1gzeLG99M" role="3ElQJh">
                 <ref role="3cqZAo" node="19VJYqAuTR8" resolve="renderMap" />
@@ -5472,7 +5472,7 @@
       </node>
     </node>
     <node concept="Wx3nA" id="1Qo13pXrkhz" role="jymVt">
-      <property role="TrG5h" value="FLAG_TEXT" />
+      <property role="TrG5h" value="LIST_OF_PROBLEMS" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="1Qo13pXrkh$" role="1tU5fm" />
       <node concept="3Tm1VV" id="1Qo13pXrkh_" role="1B3o_S" />
@@ -6086,7 +6086,7 @@
             </node>
             <node concept="3EllGN" id="1Qo13pXrqNU" role="37vLTJ">
               <node concept="37vLTw" id="66oHjdjHsd3" role="3ElVtu">
-                <ref role="3cqZAo" node="1Qo13pXrkhz" resolve="FLAG_TEXT" />
+                <ref role="3cqZAo" node="1Qo13pXrkhz" resolve="LIST_OF_PROBLEMS" />
               </node>
               <node concept="37vLTw" id="1Qo13pXrqNW" role="3ElQJh">
                 <ref role="3cqZAo" node="1Qo13pXqtcZ" resolve="renderMap" />

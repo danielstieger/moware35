@@ -49,12 +49,12 @@
 {% if not statics.scroll or page.scrollPosition == 0 %} </div> {% endif %}
 
 {% for prblm in listOfProblems %}
-    <div id="flagbeep" class="w3-card sv-top-dlg-uicmd {% if prblm.isWarningOnly %}sv-warning-orange{% else %}sv-question-red{% endif %}">{{ prblm.SimpleText_Lgcy|raw }}</div>
+    <div class="w3-card sv-top-dlg-uicmd {% if prblm.isWarningOnly %}sv-warning-orange warnbeep{% else %}sv-question-red errorbeep{% endif %}">{{ prblm.SimpleUserText|raw }}</div>
 {% endfor %}
 
 
 {% if notificationText is not null %}
-<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">{{ notificationText|raw }}</div>
+<div class="w3-card sv-top-dlg sv-question-red errorbeep">{{ notificationText|raw }}</div>
 {% endif %}
 
 {% include "./messages.peb" %}

@@ -944,12 +944,10 @@
     </node>
     <node concept="14StLt" id="5Ee0EjqWOQp" role="V601i">
       <property role="TrG5h" value="O2Documentation" />
-      <node concept="3Xmtl4" id="PyQKzIvTby" role="3F10Kt">
-        <node concept="1wgc9g" id="PyQKzIvTb$" role="3XvnJa">
-          <ref role="1wgcnl" to="tpen:aeM1BF$Qu7" />
-        </node>
-      </node>
       <node concept="2lhJJ2" id="PyQKzI9byN" role="14Sbyx" />
+      <node concept="VechU" id="7YG44tSIMfX" role="3F10Kt">
+        <property role="Vb096" value="fLJRk5_/gray" />
+      </node>
     </node>
     <node concept="14StLt" id="6ffh1MXBJSj" role="V601i">
       <property role="TrG5h" value="O2Name" />

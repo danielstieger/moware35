@@ -3,7 +3,7 @@
     <div class="w3-panel svMessage">
         <div class="w3-card w3-padding sv-question-red">
             <h1>{{ message.heading }}</h1>
-            <p id="errorbeep">{{ message.textBr | raw }}
+            <p class="errorbeep">{{ message.textBr | raw }}
             </p>
         </div>
     </div>
@@ -11,7 +11,7 @@
     <div class="w3-panel svMessage">
         <div class="w3-card w3-padding sv-question-red" style="width: 1200px;">
             <h1>{{ message.heading }}</h1>
-            <pre id="errorbeep">
+            <pre class="errorbeep">
             <code> {{ message.textBr | raw }} </code>
             <br><br><br>
             </pre>
@@ -23,7 +23,7 @@
     </div>
 
     {% elseif message.infoSmall %}
-    <div id="errorbeep" class="w3-card sv-top-dlg sv-question-red svMessage">
+    <div class="errorbeep w3-card sv-top-dlg sv-question-red svMessage">
         <!-- {{ message.heading }}: --> {{ message.textBr | raw }}
     </div>
 

@@ -133,13 +133,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     hwInitAfterDomReady();
 
-    if($$('#flagbeep').length > 0) {
+    if($$('.errorbeep').length > 0) {
+        hwFlagBeep(1000);
+
+    } else if($$('.warnbeep').length > 0) {
         hwFlagBeep(400);
     }
-    if($$('#errorbeep').length > 0) {
-        hwFlagBeep(1000);
-    }
-
 
     var scrollToMeElement = (baseForm.ScrollPosition.value > 0);
     if (scrollToMeElement) {
