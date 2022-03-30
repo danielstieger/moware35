@@ -712,6 +712,9 @@
     <property role="3GE5qa" value="BusinessObject" />
     <ref role="1XX52x" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
     <node concept="3EZMnI" id="3bYrH4MEeYy" role="2wV5jI">
+      <node concept="PMmxH" id="6hynBkjBdj" role="3EZMnx">
+        <ref role="PMmxG" to="tpen:6aS1KHf_xVK" resolve="HasAnnotation_AnnotationComponent" />
+      </node>
       <node concept="3EZMnI" id="12ldMQBwHz2" role="3EZMnx">
         <node concept="VPM3Z" id="12ldMQBwHz4" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -3831,6 +3834,9 @@
     <ref role="1XX52x" to="un0u:6W_Qo9eYrYE" resolve="ValueObject" />
     <node concept="3EZMnI" id="6W_Qo9eYrYH" role="2wV5jI">
       <node concept="2iRkQZ" id="12ldMQBF2lX" role="2iSdaV" />
+      <node concept="PMmxH" id="6hynBkjBlE" role="3EZMnx">
+        <ref role="PMmxG" to="tpen:6aS1KHf_xVK" resolve="HasAnnotation_AnnotationComponent" />
+      </node>
       <node concept="3EZMnI" id="12ldMQBF2y$" role="3EZMnx">
         <node concept="VPM3Z" id="12ldMQBF2yA" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -4196,6 +4202,9 @@
     <ref role="1XX52x" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
     <node concept="3EZMnI" id="4y30FCQIix3" role="2wV5jI">
       <node concept="2iRkQZ" id="12ldMQBF2Cb" role="2iSdaV" />
+      <node concept="PMmxH" id="6hynBkjBet" role="3EZMnx">
+        <ref role="PMmxG" to="tpen:6aS1KHf_xVK" resolve="HasAnnotation_AnnotationComponent" />
+      </node>
       <node concept="3EZMnI" id="12ldMQBF2EH" role="3EZMnx">
         <node concept="VPM3Z" id="12ldMQBF2EJ" role="3F10Kt">
           <property role="VOm3f" value="false" />

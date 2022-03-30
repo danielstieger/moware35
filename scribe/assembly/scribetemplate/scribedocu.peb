@@ -189,11 +189,13 @@
                             <div class="col-md-12 left-align">
                                 <h3>Geschäftsvorfall {{ transaction.name }}<hr></h3>
                         	    <p>{{ transaction.desc }}</p>
-                        	    <p>{{ transaction.examples }}</p>
-                        	    <p>{{ transaction.todo }}</p>
+                        	    <p><strong> Beispiele: </strong> <br>
+                                    {{ transaction.examples }}</p>
+                        	    <p><strong> Noch zu klären: </strong> <br>
+                                        {{ transaction.todo }}</p>
                                 {% for doc in transaction.documents %}
                                 <p>
-                                <h4> Beleg {{ doc.name }} </h4>
+                                <strong> Beleg {{ doc.name }} </strong>
                                 {{ doc.desc }}
                                  <table class="table table-sm">
                                         <thead>
