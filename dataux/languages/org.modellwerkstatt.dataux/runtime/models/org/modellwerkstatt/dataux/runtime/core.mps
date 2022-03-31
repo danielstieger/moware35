@@ -9960,6 +9960,9 @@
                   </node>
                   <node concept="liA8E" id="2qrl3a2UAgs" role="2OqNvi">
                     <ref role="37wK5l" to="yg8v:2qrl3a2UnwH" resolve="createAppTileActions" />
+                    <node concept="37vLTw" id="4ezdYKa22CI" role="37wK5m">
+                      <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
+                    </node>
                     <node concept="37vLTw" id="59p98S7PKAP" role="37wK5m">
                       <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
                     </node>
@@ -16161,6 +16164,56 @@
                     <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
                     <ref role="Rm8GQ" to="28jr:66CXFVAgWJQ" resolve="GRAPH_EDIT_CMD" />
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="4ezdYK9bXvR" role="3cqZAp">
+              <node concept="3clFbS" id="4ezdYK9bXvT" role="3clFbx">
+                <node concept="3clFbF" id="4ezdYK9c7PO" role="3cqZAp">
+                  <node concept="37vLTI" id="4ezdYK9ccBt" role="3clFbG">
+                    <node concept="37vLTw" id="4ezdYK9c7PM" role="37vLTJ">
+                      <ref role="3cqZAo" node="7TsEWieWHE5" resolve="currentUIColor" />
+                    </node>
+                    <node concept="2OqwBi" id="4ezdYKa3I4V" role="37vLTx">
+                      <node concept="2OqwBi" id="4ezdYKa3CeB" role="2Oq$k0">
+                        <node concept="37vLTw" id="4ezdYKa3BMK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+                        </node>
+                        <node concept="liA8E" id="4ezdYKa3E$S" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getModuleByInstanceName" />
+                          <node concept="2YIFZM" id="4ezdYKa3EVd" role="37wK5m">
+                            <ref role="37wK5l" to="28jr:13qccrTLIvO" resolve="getCmdModuleInstanceName" />
+                            <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                            <node concept="2OqwBi" id="4ezdYKa3FaE" role="37wK5m">
+                              <node concept="37vLTw" id="4ezdYKa3F28" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                              </node>
+                              <node concept="liA8E" id="4ezdYKa3Hyt" role="2OqNvi">
+                                <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4ezdYKa3L97" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:4ezdYKa287r" resolve="getCommandColor" />
+                        <node concept="2OqwBi" id="4ezdYKa3Ltc" role="37wK5m">
+                          <node concept="37vLTw" id="4ezdYKa3LjN" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                          </node>
+                          <node concept="liA8E" id="4ezdYKa3NUz" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="4ezdYK9c4_i" role="3clFbw">
+                <node concept="10Nm6u" id="4ezdYK9c4AX" role="3uHU7w" />
+                <node concept="37vLTw" id="4ezdYK9c4ll" role="3uHU7B">
+                  <ref role="3cqZAo" node="7TsEWieWHE5" resolve="currentUIColor" />
                 </node>
               </node>
             </node>
@@ -38288,6 +38341,51 @@
       <node concept="3clFbS" id="3PbVxlO5FKh" role="3clF47">
         <node concept="3clFbH" id="3PbVxlO6nIf" role="3cqZAp" />
         <node concept="3clFbJ" id="3PbVxlO3gDh" role="3cqZAp">
+          <node concept="3eNFk2" id="4ezdYKaH87F" role="3eNLev">
+            <node concept="2ZW3vV" id="4ezdYKaH87G" role="3eO9$A">
+              <node concept="3uibUv" id="4ezdYKaH87H" role="2ZW6by">
+                <ref role="3uigEE" node="1w1DleJRYTc" resolve="FlagOnUiEvent" />
+              </node>
+              <node concept="37vLTw" id="4ezdYKaH87I" role="2ZW6bz">
+                <ref role="3cqZAo" node="3PbVxlO5Na4" resolve="ev" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="4ezdYKaH87J" role="3eOfB_">
+              <node concept="3clFbF" id="4ezdYKaH87K" role="3cqZAp">
+                <node concept="2OqwBi" id="4ezdYKaH87L" role="3clFbG">
+                  <node concept="37vLTw" id="4ezdYKaH87M" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                  </node>
+                  <node concept="liA8E" id="4ezdYKaH87N" role="2OqNvi">
+                    <ref role="37wK5l" node="2het$DELozN" resolve="logAppTrace" />
+                    <node concept="37vLTw" id="4ezdYKaH87O" role="37wK5m">
+                      <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
+                    </node>
+                    <node concept="10M0yZ" id="4ezdYKaH87P" role="37wK5m">
+                      <ref role="3cqZAo" to="28jr:4g_sjDL92_6" resolve="EVENT" />
+                      <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                    </node>
+                    <node concept="Xl_RD" id="4ezdYKaHf8M" role="37wK5m">
+                      <property role="Xl_RC" value="flag on ui" />
+                    </node>
+                    <node concept="2OqwBi" id="4ezdYKaH87T" role="37wK5m">
+                      <node concept="37vLTw" id="4ezdYKaH87U" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3PbVxlO5Na4" resolve="ev" />
+                      </node>
+                      <node concept="liA8E" id="4ezdYKaH87V" role="2OqNvi">
+                        <ref role="37wK5l" node="77tRpxxGwCd" resolve="paramInfo" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="4ezdYKaH87W" role="37wK5m">
+                      <ref role="3cqZAo" node="3PbVxlO6KQw" resolve="diffTime" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="4ezdYKaH882" role="3cqZAp" />
+              <node concept="3clFbH" id="4ezdYKaH883" role="3cqZAp" />
+            </node>
+          </node>
           <node concept="3clFbS" id="3PbVxlO3gDj" role="3clFbx">
             <node concept="3clFbF" id="2het$DELI85" role="3cqZAp">
               <node concept="2OqwBi" id="2het$DELIir" role="3clFbG">

@@ -323,6 +323,12 @@
     <node concept="3clFb_" id="2qrl3a2UnwH" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createAppTileActions" />
+      <node concept="37vLTG" id="4ezdYKa1F1V" role="3clF46">
+        <property role="TrG5h" value="appFactory" />
+        <node concept="3uibUv" id="4ezdYKa1F68" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
+        </node>
+      </node>
       <node concept="37vLTG" id="59p98S7GLRV" role="3clF46">
         <property role="TrG5h" value="userEnvironment" />
         <node concept="3uibUv" id="59p98S7GLRW" role="1tU5fm">

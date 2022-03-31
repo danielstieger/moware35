@@ -3609,6 +3609,17 @@
       <node concept="3Tm1VV" id="5bU9G11cjW0" role="1B3o_S" />
       <node concept="3clFbS" id="5bU9G11cjW1" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="4ezdYKa287r" role="jymVt">
+      <property role="TrG5h" value="getCommandColor" />
+      <node concept="37vLTG" id="4ezdYKa287s" role="3clF46">
+        <property role="TrG5h" value="commandFqName" />
+        <node concept="17QB3L" id="4ezdYKa287t" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="4ezdYKa287u" role="3clF45" />
+      <node concept="3Tm1VV" id="4ezdYKa287v" role="1B3o_S" />
+      <node concept="3clFbS" id="4ezdYKa287w" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="4ezdYKa281l" role="jymVt" />
     <node concept="3clFb_" id="7rqBz8B3End" role="jymVt">
       <property role="TrG5h" value="startCommand" />
       <node concept="37vLTG" id="4z7jlGJrwqK" role="3clF46">

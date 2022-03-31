@@ -825,6 +825,12 @@
       <property role="IQ2ns" value="6185198504743118463" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="4ezdYK8yZAb" role="1TKVEi">
+      <property role="IQ2ns" value="4873800708640209291" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="defaultColor" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="6Rdz00$tXkn" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="locks" />
