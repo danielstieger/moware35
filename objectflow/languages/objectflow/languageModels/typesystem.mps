@@ -4088,6 +4088,46 @@
     <property role="TrG5h" value="check_ValueObject" />
     <property role="3GE5qa" value="BusinessObject" />
     <node concept="3clFbS" id="7kI3k5AXyTs" role="18ibNy">
+      <node concept="3clFbJ" id="5dcXnAbBdyp" role="3cqZAp">
+        <node concept="3clFbS" id="5dcXnAbBdyq" role="3clFbx">
+          <node concept="3SKdUt" id="5dcXnAbBdyr" role="3cqZAp">
+            <node concept="1PaTwC" id="5dcXnAbBdys" role="1aUNEU">
+              <node concept="3oM_SD" id="5dcXnAbBdyt" role="1PaTwD">
+                <property role="3oM_SC" value="ok" />
+              </node>
+              <node concept="3oM_SD" id="5dcXnAbBdyu" role="1PaTwD">
+                <property role="3oM_SC" value=".." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="5dcXnAbBdz3" role="9aQIa">
+          <node concept="3clFbS" id="5dcXnAbBdz4" role="9aQI4">
+            <node concept="2MkqsV" id="5dcXnAbBdz5" role="3cqZAp">
+              <node concept="Xl_RD" id="5dcXnAbBdz6" role="2MkJ7o">
+                <property role="Xl_RC" value="Value Objects can not be extended right now. They are sealed per default." />
+              </node>
+              <node concept="1YBJjd" id="5dcXnAbBdz7" role="1urrMF">
+                <ref role="1YBMHb" node="7kI3k5AXyTt" resolve="vo" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="5dcXnAbBdz8" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="5dcXnAbBdz9" role="3clFbw">
+          <node concept="2OqwBi" id="5dcXnAbBdza" role="2Oq$k0">
+            <node concept="1YBJjd" id="5dcXnAbBdzb" role="2Oq$k0">
+              <ref role="1YBMHb" node="7kI3k5AXyTt" resolve="vo" />
+            </node>
+            <node concept="3TrEf2" id="5dcXnAbBdzc" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="5dcXnAbBdzd" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="5dcXnAbBcIM" role="3cqZAp" />
+      <node concept="3clFbH" id="5dcXnAbBduR" role="3cqZAp" />
       <node concept="3clFbJ" id="2vvVhmohPdk" role="3cqZAp">
         <node concept="3clFbS" id="2vvVhmohPdl" role="3clFbx">
           <node concept="2MkqsV" id="2vvVhmohPdm" role="3cqZAp">
@@ -4178,8 +4218,8 @@
               <node concept="1YBJjd" id="756PNvB53tT" role="2Oq$k0">
                 <ref role="1YBMHb" node="7kI3k5AXyTt" resolve="vo" />
               </node>
-              <node concept="3Tsc0h" id="1F3mBxpGKuo" role="2OqNvi">
-                <ref role="3TtcxE" to="un0u:2M2kZGl1Nt1" resolve="businessProperties" />
+              <node concept="2qgKlT" id="5dcXnAbEz4E" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:8dakBL3erK" resolve="getBusinessPropertiesAndInherited" />
               </node>
             </node>
             <node concept="3zZkjj" id="2kdFTcLxlyb" role="2OqNvi">

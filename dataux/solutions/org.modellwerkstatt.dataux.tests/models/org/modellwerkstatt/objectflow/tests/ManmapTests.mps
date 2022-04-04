@@ -23704,7 +23704,7 @@
       <node concept="1Q8zPT" id="1lpzdTmrIN2" role="2_xi3e">
         <node concept="19SGf9" id="1lpzdTmrIN4" role="1Q8hHE">
           <node concept="19SUe$" id="1lpzdTmrIN5" role="19SJt6">
-            <property role="19SUeA" value="SELECT \nKEY_ID as col1, \nTXT_TEXT as col2,\nDAT_CREATEDAT as col3\nFROM MMT_AUDITENTITY " />
+            <property role="19SUeA" value="SELECT &#10;KEY_ID as col1, TXT_TEXT as col2, DAT_CREATEDAT as col3 FROM MMT_AUDITENTITY " />
           </node>
         </node>
       </node>
@@ -23986,7 +23986,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5GIPtKeLnKV" role="3cqZAp" />
+        <node concept="3clFbH" id="5dcXnAbIuL2" role="3cqZAp" />
         <node concept="3cpWs6" id="1vKpqttUkep" role="3cqZAp">
           <node concept="2OqwBi" id="1vKpqttUl2n" role="3cqZAk">
             <node concept="1eaaFm" id="1vKpqttU8m3" role="2Oq$k0">

@@ -13589,7 +13589,7 @@
                 <ref role="3cqZAo" node="7$2_qbqU3Oh" resolve="node" />
               </node>
               <node concept="2qgKlT" id="SgAsOS5g39" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:50keBnLXzX_" resolve="getDefaultBusinessProperties" />
+                <ref role="37wK5l" to="70o0:3JsUq_S9RiD" resolve="getDefaultBusinessPropertiesAndInherited" />
               </node>
             </node>
           </node>
@@ -14052,7 +14052,7 @@
                 <ref role="3cqZAo" node="7$2_qbqU3Oh" resolve="node" />
               </node>
               <node concept="2qgKlT" id="50keBnM17MV" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:50keBnLXzX_" resolve="getDefaultBusinessProperties" />
+                <ref role="37wK5l" to="70o0:3JsUq_S9RiD" resolve="getDefaultBusinessPropertiesAndInherited" />
               </node>
             </node>
           </node>
