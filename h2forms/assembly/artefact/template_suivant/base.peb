@@ -109,8 +109,8 @@
       .sv-currentfg-D3 { color: #d9d9d9 !important; background: {{ defColD3(page.colorD3) }} !important; }
   </style>
 
-<body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% elseif not page.hasSessionToCommit and page.isReadOnly %}sv-back-readOnly{% elseif page.isDocumentSearch %}sv-back-no-session{% else %}sv-back-session{% endif %}"
-      {% if message is not null and message.errorLarge %} style="overflow-x: scroll !important;" {% endif %}>
+<body class="{% if dialog is not null and dialog.modalWithButtons %}sv-back-modal{% elseif not page.hasSessionToCommit and page.isReadOnly %}sv-back-readOnly{% elseif page.isDocumentSearch %}sv-back-no-session{% else %}sv-back-session{% endif %}"
+      {% if dialog is not null and dialog.errorLarge %} style="overflow-x: scroll !important;" {% endif %}>
 <script>0 // firefox FOUC </script>
 <form method="POST" name="baseform" id="baseform" onsubmit="svOnFormSubmitHandler()">
     <input type="hidden" name="NaviCrtl" value=""/>
@@ -123,14 +123,14 @@
     <input type="hidden" name="DebugInformation" value="-"/>
     <input type="hidden" name="DeviceId" value=""/>
 
-{% if message is not null and message.modalWithButtons %}
+{% if dialog is not null and dialog.modalWithButtons %}
     <div class="w3-top">
     <div class="w3-container w3-row sv-status-gray">
         <div class="w3-col s6 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("-") }}</div>
         <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
     </div>
     <div class="w3-bar" onclick="svHideAllContainsDropdown()">
-        {% for btn in message.buttons %}
+        {% for btn in dialog.buttons %}
         {% if loop.length == 1 %}
             <span class="w3-bar-item sv-bartitle"> </span>
             <div class="w3-right">
@@ -147,8 +147,7 @@
     {% endfor %}
     </div>
     </div>
-
-    {% include "./messages.peb" %}
+    {% include "./dialog.peb" %}
 {% else %}
 {% block content %} {% endblock %}
 {% endif %}

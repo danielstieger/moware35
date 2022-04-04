@@ -57,7 +57,7 @@
 <div class="w3-card sv-top-dlg sv-question-red errorbeep">{{ notificationText|raw }}</div>
 {% endif %}
 
-{% include "./messages.peb" %}
+{% include "./dialog.peb" %}
 {% if statics.scroll and page.scrollPosition > 0 %} </div> {% endif %}
 
 {{ form.toHtml }}

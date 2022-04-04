@@ -663,8 +663,8 @@
       </node>
       <node concept="37vLTG" id="19VJYqAugcx" role="3clF46">
         <property role="TrG5h" value="infoMessage" />
-        <node concept="3uibUv" id="19VJYqAugcy" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Message" />
+        <node concept="3uibUv" id="5dcXnAagcIc" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Dialog" />
         </node>
       </node>
       <node concept="37vLTG" id="19VJYqAugcz" role="3clF46">
@@ -891,8 +891,8 @@
       </node>
       <node concept="37vLTG" id="57ov2SBsGw" role="3clF46">
         <property role="TrG5h" value="infoMessage" />
-        <node concept="3uibUv" id="57ov2SBsGx" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Message" />
+        <node concept="3uibUv" id="5dcXnAagdhn" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Dialog" />
         </node>
       </node>
       <node concept="3uibUv" id="57ov2SBsGy" role="Sfmx6">
@@ -1159,7 +1159,7 @@
       </node>
       <node concept="TZ5HA" id="6HZE0_UkfAM" role="TZ5H$">
         <node concept="1dT_AC" id="6HZE0_UkfAN" role="1dT_Ay">
-          <property role="1dT_AB" value="however, it is not statels regarding windows or message boxes. " />
+          <property role="1dT_AB" value="however, it is not stateless regarding windows or message boxes. " />
         </node>
       </node>
       <node concept="TZ5HA" id="6HZE0_UkfIB" role="TZ5H$">
@@ -4207,9 +4207,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="3Lpsq4dGmyX" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="3uibUv" id="3Lpsq4dGmXk" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Message" />
+        <property role="TrG5h" value="dlg" />
+        <node concept="3uibUv" id="5dcXnAabFoF" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Dialog" />
         </node>
       </node>
       <node concept="3Tm1VV" id="6jihzUGMWuE" role="1B3o_S" />
@@ -4299,11 +4299,11 @@
         <node concept="3clFbF" id="6jihzUGMT8U" role="3cqZAp">
           <node concept="37vLTI" id="6jihzUGMT8V" role="3clFbG">
             <node concept="37vLTw" id="3Lpsq4dGnB2" role="37vLTx">
-              <ref role="3cqZAo" node="3Lpsq4dGmyX" resolve="msg" />
+              <ref role="3cqZAo" node="3Lpsq4dGmyX" resolve="dlg" />
             </node>
             <node concept="3EllGN" id="6jihzUGMT8X" role="37vLTJ">
               <node concept="10M0yZ" id="6jihzUGMT8Y" role="3ElVtu">
-                <ref role="3cqZAo" node="19VJYqAvm2_" resolve="MESSAGE" />
+                <ref role="3cqZAo" node="19VJYqAvm2_" resolve="DIALOG" />
                 <ref role="1PxDUh" node="2JP_IULTUsl" resolve="AbstractForm" />
               </node>
               <node concept="37vLTw" id="6jihzUGMT8Z" role="3ElQJh">
@@ -4498,8 +4498,8 @@
       </node>
       <node concept="37vLTG" id="19VJYqAuXbK" role="3clF46">
         <property role="TrG5h" value="msg" />
-        <node concept="3uibUv" id="19VJYqAuXbL" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Message" />
+        <node concept="3uibUv" id="5dcXnAabGoa" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Dialog" />
         </node>
       </node>
       <node concept="3cqZAl" id="6jihzUGL9LF" role="3clF45" />
@@ -5626,12 +5626,12 @@
       </node>
     </node>
     <node concept="Wx3nA" id="19VJYqAvm2_" role="jymVt">
-      <property role="TrG5h" value="MESSAGE" />
+      <property role="TrG5h" value="DIALOG" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="19VJYqAvm2A" role="1tU5fm" />
       <node concept="3Tm1VV" id="19VJYqAvm2B" role="1B3o_S" />
       <node concept="Xl_RD" id="19VJYqAvm2C" role="33vP2m">
-        <property role="Xl_RC" value="message" />
+        <property role="Xl_RC" value="dialog" />
       </node>
     </node>
     <node concept="Wx3nA" id="19VJYqAvnfD" role="jymVt">

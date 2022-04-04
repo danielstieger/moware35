@@ -14,7 +14,7 @@
     </div>
 </div>
 
-{% include "./messages.peb" %}
+{% include "./dialog.peb" %}
 <div class="w3-panel">
     <div class="w3-card w3-padding sv-branding-gray">
         <h1>Login / Anmeldung</h1>

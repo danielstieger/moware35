@@ -59,7 +59,7 @@
 .sv-tile-badge-h1 {font-size: 15px;}
 .sv-tiny {font-size: 4px !important;}
 
-/* messages and questions */
+/* dialog and questions */
 .sv-top-dlg { margin: 2px 6px 0px 6px; padding: 4px 8px; }
 .sv-top-dlg-uicmd { margin: 2px 6px 0px 6px; padding: 1px 8px; }
 .sv-question-red { color: #FFF !important; background-color: #E4211f !important}

@@ -4,6 +4,7 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
   </languages>
   <imports>
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.objectflow.runtime/)" />
@@ -1528,7 +1529,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="37vLTw" id="2462lDSopb3" role="37wK5m">
+              <node concept="37vLTw" id="5dcXnAagaDZ" role="37wK5m">
                 <ref role="3cqZAo" node="1wwgtxzgm_Q" resolve="h2msg" />
               </node>
             </node>
@@ -3000,15 +3001,15 @@
                   </node>
                 </node>
               </node>
-              <node concept="37vLTw" id="57ov2S_zbs" role="37wK5m">
+              <node concept="37vLTw" id="5dcXnAagbOQ" role="37wK5m">
                 <ref role="3cqZAo" node="57ov2S_zb2" resolve="h2msg" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="57ov2SA9WU" role="3cqZAp" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5dcXnAa1L8B" role="jymVt" />
     <node concept="3clFb_" id="57ov2S_zbu" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isRemoveFromSessionAndClose" />

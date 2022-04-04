@@ -37,7 +37,7 @@
     </div>
 
 </div>
-{% include "./messages.peb" %}
+{% include "./dialog.peb" %}
 <div class="w3-panel w3-row-padding sv-tile-panel">
 {% for itm in page.mainLandingMenu %}
     <div class="w3-col s12 m6 sv-nav">
