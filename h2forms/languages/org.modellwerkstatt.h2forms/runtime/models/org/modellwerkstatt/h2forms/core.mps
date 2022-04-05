@@ -2220,12 +2220,17 @@
                   <ref role="1Px2BO" to="28jr:4FgSVMpnf8Q" resolve="IOFXCoreReporter.Type" />
                   <ref role="Rm8GQ" to="28jr:4FgSVMpnf8T" resolve="APP_PROBLEM" />
                 </node>
-                <node concept="2OqwBi" id="1WX6wrPUMT8" role="37wK5m">
-                  <node concept="37vLTw" id="1WX6wrPUM63" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                <node concept="2OqwBi" id="MF5RAMCY2y" role="37wK5m">
+                  <node concept="2OqwBi" id="1WX6wrPUMT8" role="2Oq$k0">
+                    <node concept="37vLTw" id="1WX6wrPUM63" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                    </node>
+                    <node concept="liA8E" id="1WX6wrPUOpb" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="1WX6wrPUOpb" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
+                  <node concept="liA8E" id="MF5RAMCZUV" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="4FgSVMsQwAX" role="37wK5m">
