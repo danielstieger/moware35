@@ -1672,7 +1672,7 @@
                     <node concept="1eOMI4" id="7agSOE8FJ3j" role="2Oq$k0">
                       <node concept="10QFUN" id="7agSOE8FJ3k" role="1eOMHV">
                         <node concept="3uibUv" id="7agSOE8FJ3l" role="10QFUM">
-                          <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="ExInfoAndCloseEvent" />
+                          <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="CloseCntrExInfoEvent" />
                         </node>
                         <node concept="37vLTw" id="7agSOE8FJ3m" role="10QFUP">
                           <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -1731,7 +1731,7 @@
           </node>
           <node concept="2ZW3vV" id="7agSOE8FIUO" role="3clFbw">
             <node concept="3uibUv" id="7agSOE8FIWW" role="2ZW6by">
-              <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="ExInfoAndCloseEvent" />
+              <ref role="3uigEE" to="1e0c:SQhsWRS3L4" resolve="CloseCntrExInfoEvent" />
             </node>
             <node concept="37vLTw" id="7agSOE8FITL" role="2ZW6bz">
               <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -2022,7 +2022,7 @@
           <node concept="3eNFk2" id="5O582uf9g3X" role="3eNLev">
             <node concept="2ZW3vV" id="5O582uf9gh0" role="3eO9$A">
               <node concept="3uibUv" id="5O582uf9gik" role="2ZW6by">
-                <ref role="3uigEE" to="1e0c:1LBGCxvJ9W6" resolve="CloseContainerEvent" />
+                <ref role="3uigEE" to="1e0c:1LBGCxvJ9W6" resolve="CloseCntrCmdTermedEvent" />
               </node>
               <node concept="37vLTw" id="5O582uf9gfG" role="2ZW6bz">
                 <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />
@@ -2046,7 +2046,7 @@
                         <node concept="1eOMI4" id="5O582uf9hxz" role="2Oq$k0">
                           <node concept="10QFUN" id="5O582uf9hxw" role="1eOMHV">
                             <node concept="3uibUv" id="5O582uf9hHx" role="10QFUM">
-                              <ref role="3uigEE" to="1e0c:1LBGCxvJ9W6" resolve="CloseContainerEvent" />
+                              <ref role="3uigEE" to="1e0c:1LBGCxvJ9W6" resolve="CloseCntrCmdTermedEvent" />
                             </node>
                             <node concept="37vLTw" id="5O582uf9hTk" role="10QFUP">
                               <ref role="3cqZAo" node="7agSOE8FIQy" resolve="ev" />

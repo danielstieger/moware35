@@ -583,6 +583,11 @@
             <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7Ys$zjgxVaX" role="3bR37C">
+          <node concept="3bR9La" id="7Ys$zjgxVaY" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="1JLTjCmZpiM" role="2G$12L">
         <property role="TrG5h" value="org.modellwerkstatt.objectflow.runtime" />

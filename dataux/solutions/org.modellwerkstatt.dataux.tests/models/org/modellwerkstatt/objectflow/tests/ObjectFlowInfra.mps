@@ -2497,7 +2497,7 @@
             <ref role="37wK5l" node="4nH4LOF0O4S" resolve="dependsOnPlatForm" />
           </node>
           <node concept="16GPin" id="6BKPvpE3IMu" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortedException" />
           </node>
         </node>
         <node concept="3clFbH" id="6BKPvpE3IMw" role="3cqZAp" />
@@ -2774,7 +2774,7 @@
             </node>
           </node>
           <node concept="16GPin" id="$leETUOdE5" role="lGtFl">
-            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortException" />
+            <ref role="16PnFS" to="28jr:ncJg$HbYpH" resolve="OFXAbortedException" />
             <node concept="Xl_RD" id="$leETUOdE6" role="16NUyR">
               <property role="Xl_RC" value="some text" />
             </node>

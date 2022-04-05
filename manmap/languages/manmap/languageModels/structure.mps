@@ -9,6 +9,7 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
+    <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -29,6 +30,7 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -1017,6 +1019,14 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="7955334847797796239" />
       <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <node concept="asaX9" id="7Ys$zjg4ikB" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="7Ys$zjfHiJb" role="1TKVEi">
+      <property role="IQ2ns" value="9195385294704421835" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="newText" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" to="zqge:2cLqkTm6J5A" resolve="Line" />
     </node>
   </node>
   <node concept="PlHQZ" id="1Rx6rUSp3_E">
