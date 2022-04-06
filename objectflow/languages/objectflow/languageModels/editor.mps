@@ -835,6 +835,12 @@
       <node concept="3F1sOY" id="6BPsIt0y1k9" role="3EZMnx">
         <ref role="1NtTu8" to="tpee:h9B3oxE" resolve="visibility" />
       </node>
+      <node concept="PMmxH" id="1v_dMXwJDkB" role="3EZMnx">
+        <ref role="PMmxG" node="1v_dMXwJDks" resolve="Standard_BusinessObject_Property" />
+        <node concept="pVoyu" id="1v_dMXwJDkF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="l2Vlx" id="6BPsIt0y1k2" role="2iSdaV" />
     </node>
   </node>
@@ -12556,6 +12562,46 @@
       <node concept="2j_NTm" id="7$2_qbqRxXn" role="1Qtc8$" />
     </node>
     <node concept="22hDWj" id="7$2_qbqRCJ8" role="22hAXT" />
+  </node>
+  <node concept="PKFIW" id="1v_dMXwJDks">
+    <property role="3GE5qa" value="BusinessObject" />
+    <property role="TrG5h" value="Standard_BusinessObject_Property" />
+    <ref role="1XX52x" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+    <node concept="3F2HdR" id="1v_dMXwJDku" role="2wV5jI">
+      <ref role="1NtTu8" to="un0u:2M2kZGl1Nt1" resolve="businessProperties" />
+      <node concept="2EHx9g" id="1v_dMXwJDkx" role="2czzBx" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="1v_dMXwJDkH">
+    <property role="3GE5qa" value="BusinessObject" />
+    <property role="TrG5h" value="Standard_BusinessProperty" />
+    <ref role="1XX52x" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
+    <node concept="3EZMnI" id="1v_dMXwJFcI" role="2wV5jI">
+      <node concept="3F1sOY" id="1v_dMXwJFcP" role="3EZMnx">
+        <ref role="1NtTu8" to="tpee:huRkE2T" resolve="type" />
+      </node>
+      <node concept="3F0A7n" id="1v_dMXwJFcV" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F1sOY" id="1v_dMXwJFd3" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:50keBnSQl$0" resolve="shortDesc" />
+      </node>
+      <node concept="3F1sOY" id="1v_dMXwJFdd" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:50keBnSQl$4" resolve="longDesc" />
+      </node>
+      <node concept="3EZMnI" id="1v_dMXwJFdG" role="3EZMnx">
+        <node concept="VPM3Z" id="1v_dMXwJFdI" role="3F10Kt" />
+        <node concept="3F2HdR" id="1v_dMXwJFdU" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:3bYrH4MBXir" resolve="propertyOption" />
+          <node concept="2iRfu4" id="1v_dMXwJFdW" role="2czzBx" />
+        </node>
+        <node concept="2iRfu4" id="1v_dMXwJFdL" role="2iSdaV" />
+      </node>
+      <node concept="3F1sOY" id="1v_dMXwJFea" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:5t0K6TkrDRI" resolve="documentation" />
+      </node>
+      <node concept="2iRfu4" id="1v_dMXwJFcL" role="2iSdaV" />
+    </node>
   </node>
 </model>
 
