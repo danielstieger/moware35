@@ -43314,12 +43314,17 @@
           <node concept="3clFbS" id="1EA1lDXekGF" role="1zxBo7">
             <node concept="3clFbF" id="19EO7JNdmiU" role="3cqZAp">
               <node concept="37vLTI" id="19EO7JNdnxI" role="3clFbG">
-                <node concept="2OqwBi" id="19EO7JNdobC" role="37vLTx">
-                  <node concept="37vLTw" id="19EO7JNdo6c" role="2Oq$k0">
-                    <ref role="3cqZAo" node="r$jHpF3F98" resolve="uiModule" />
+                <node concept="2OqwBi" id="1v_dMXwHUyC" role="37vLTx">
+                  <node concept="2OqwBi" id="19EO7JNdobC" role="2Oq$k0">
+                    <node concept="37vLTw" id="19EO7JNdo6c" role="2Oq$k0">
+                      <ref role="3cqZAo" node="r$jHpF3F98" resolve="uiModule" />
+                    </node>
+                    <node concept="liA8E" id="1v_dMXwHTJ6" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="19EO7JNdotW" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
+                  <node concept="liA8E" id="1v_dMXwHVrU" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="19EO7JNdmiS" role="37vLTJ">
