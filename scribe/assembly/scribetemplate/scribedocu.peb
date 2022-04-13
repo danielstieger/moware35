@@ -1,303 +1,206 @@
 {% autoescape false %}
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-<!--<![endif]-->
-
 <head>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <title>MPREIS Spot</title>
+    <meta name="description" content="Your ThemeForest item Name and description">
+    <meta name="author" content="harnishdesign.net">
 
-    <title>MPREIS Geschäftsvorfälle</title>
+    <!-- Stylesheet
+    ============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+    <!-- Highlight Syntax -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+    <style>
+        html {
+            font-size: 12px;
+        }
 
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        .transaction {
+            margin: 7rem 0 1.5rem 0 !important;
+        }
 
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/stroke.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
-    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeRDark.css" media="all">
-
-    <!-- CUSTOM -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+        .belege {
+            margin: 5rem 0 1.5rem 0 !important;
+        }
+    </style>
 </head>
 
-<body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
 
-    <script>
-        var mybutton = document.getElementById("myBtn");
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-        function topFunction() {
-            window.scrollTo({ top: 0, behavior: 'smooth' })
-            document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
-        }
+<!-- Preloader -->
+<div class="preloader">
+    <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- Preloader End -->
 
-        document.addEventListener("DOMContentLoaded", () => {
-            document.querySelector('#mode').addEventListener('click',()=>{
-                document.querySelector('html').classList.toggle('dark');
-            })
-        });
+<!-- Document Wrapper
+=============================== -->
+<div id="main-wrapper">
 
 
-    </script>
 
-    <div id="wrapper">
+<div id="content" role="main">
+    <!-- Sidebar Navigation ============================ -->
+    <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+            {% for mod in models %}
+            <li class="nav-item"><a class="nav-link" href="#{{ mod.id }}">{{ mod.name }}</a>
+                <ul class="nav flex-column">
+                {% for transaction in mod.transactions %}
+                    <li class="nav-item"><a class="nav-link" href="#{{ transaction.id }}">{{ transaction.name }}</a></li>
+                {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 
-        <div id="mode" >
-            <div class="dark">
-                <svg aria-hidden="true" viewBox="0 0 512 512">
-                    <title>lightmode</title>
-                    <path fill="currentColor" d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"></path>
-                </svg>
-            </div>
-            <div class="light">
-                <svg aria-hidden="true" viewBox="0 0 512 512">
-                    <title>darkmode</title>
-                    <path fill="currentColor" d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"></path>
-                </svg>
-            </div>
-        </div>
 
-        <div class="container">
+    <!-- Docs Content ============================ -->
+    <div class="idocs-content">
+    <div class="container">
 
-            <section id="top" class="section docs-heading">
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="big-title text-center">
-                            <h1>MPREIS SPOT Konzept 2022</h1>
-                            <p class="lead">Geschäftsvorfälle, Belege und Verbuchng im Warengeschäft</p>
-                        </div>
-                        <!-- end title -->
-                    </div>
-                    <!-- end 12 -->
-                </div>
-                <!-- end row -->
-
-                <hr>
-
-            </section>
-            <!-- end section -->
-
+        <!-- TODO's ============================ -->
+        <section id="section_intro">
+            <h1>MPREIS SPOT Prototype 2022</h1>
+            <h2>Geschäftsvorfälle, Belege und Verbuchng im Warengeschäft</h2>
+            <p class="lead">Im Sinne des DDD schaffen wir mit diesem Spot Projekt einen Bounded-Context, der in anderen Projekten genutzt werden kann. Wir definieren in diesem Projekt die für das Warengeschäft bei MPREIS wesentlichen Geschäftsvorfälle, die dabei relevanten Belege und deren buchhalterisch korrekte Verbuchung auf Konten. Die Beziehung des SPOT zu anderen Contexten sehen wir als "Conformist". Andere haben sich der Logik des SPOT anzupassen, wenn sie die definierte Fachlichkeit nutzen wollen. Operative Gates (Konkrete Belege/Tabellen/Mappings/Jobs etc.) sind nicht Bestandteil dieses Projektes. </p>
+            <hr>
             <div class="row">
-                <div class="col-md-3">
-                    <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
-                        <ul class="nav">
-                            <li><a href="#line1">Vision SPOT</a></li>
-                            <li><a href="#line2">ToDo's Zusammenfassung</a></li>
-
-                            {% for mod in models %}
-                                <li><a href="#model{{ loop.index }}">{{ mod.name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </nav >
+                <div class="col-sm-6 col-lg-4">
+                    <ul class="list-unstyled">
+                        <li><strong>Version:</strong> 1.0</li>
+                        <li><strong>Author:</strong> MM, WOME, DST</li>
+                    </ul>
                 </div>
-                <div class="col-md-9">
-                    <section id="line1" class="welcome">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                               <h2 class="dark-text">Vision SPOT<hr></h2>
-                                <div class="row">
-
-                                    <div class="col-md-12 full">
-                                        <div class="intro1">
-                                            <ul>
-                                                <li><strong>Item Name : </strong>Spot Geschäftsvorfälle & Belege</li>
-                                                <li><strong>Item Version : </strong> v 1.0</li>
-                                                <li><strong>Author  : </strong> mpreis.at MM,
-                                                    <a href="https://github.com/wolfgangmessner" target="_blank">modellwerkstatt.org WM</a>
-                                                    <a href="https://github.com/danielstieger/" target="_blank">modellwerkstatt.org DS</a></li>
-                                                <li><strong>Support Forum : </strong> none</li>
-                                                <li><strong>License : </strong> none</li>
-                                            </ul>
-                                        </div>
-
-                                        <hr>
-                                        <div>
-                                        <p>Unsere Vision ist es es, die im Warengeschäft relevanten Datenströme einheitlich - nach den Regeln des Rechnungswesens - zu integrieren und in einem genau spezifizierten Kontenplan dem Unternehmen zur Verfügung zu stellen. Wir bezeichnen die Summe dieser Konten als SPOT (Single point of truth) und wollen damit ausdrücken, dass diese Konten dann die Basis für weitere IT-Anwendungen sein soll. Die Anwendungen sollen und dürfen in Zukunft nicht mehr frei Daten aus unterschiedlichen Quellsystemen im Unternehmen abziehen, interpretieren und verknüpfen. Die Daten im SPOT sind exakt und transparent spezifiziert und konsolidieren damit die operativen Daten der vielfältigen Quellsysteme. Wir verwenden dabei die einheitliche Sprache der FIBU, die von allen Stakeholdern zur Kommunikation verwendet werden kann. Nicht nur die FIBU und das Controlling profitieren von den Bemühungen rund um SPOT, die transparenz der gesamten Zusammenhänge und Prozesse im Warengeschäft bei MPREIS wird erhöht. Berichte & Kennzahlen der FIBU und des Controllings sind nachvollziehbar und zu jedem Zeitpunkt konsistent untereinander, was auch Rechtlich von höchster Relevanz ist.
-                                        </p>
-                                        <p>Im Sinne des DDD schaffen wir mit diesem Spot Projekt einen Bounded-Context, der in anderen Projekten genutzt werden kann. Wir definieren in diesem Projekt die für das Warengeschäft bei MPREIS wesentlichen Geschäftsvorfälle, die dabei relevanten Belege und deren buchhalterisch korrekte Verbuchung auf Konten. Die Beziehung des SPOT zu anderen Contexten sehen wir als "Conformist". Andere haben sich der Logik des SPOT anzupassen, wenn sie die definierte Fachlichkeit nutzen wollen. Operative Gates (Konkrete Belege/Tabellen/Mappings/Jobs etc.) sind nicht Bestandteil dieses Projektes.
-                                        </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- end row -->
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <section id="line2" class="section">
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Todo's Geschäftsvorfälle</h2>
-                                {% for mod in models %}
-                                 {% if mod.hasTodos %}
-                                 <h4>Funktion {{ mod.name }}</h4>
-                                    {% for transaction in mod.transactions %}
-                                        {% if transaction.hasTodos %}
-                                        <p><strong>Geschäftsvorfall {{ transaction.name }}</strong> <br>
-                                        {{ transaction.todo }}</p>
-                                        {% endif %}
-                                    {% endfor %}
-                                 {% endif %}
-                                {% endfor %}
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </section>
-
-
-                    {% for mod in models %}
-                    <section id="model{{ loop.index }}" class="section">
-						<div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Funktion {{ mod.name }}<hr></h2>
-                            </div>
-                            <!-- end col -->
-                            {% for transaction in mod.transactions %}
-                            <div class="col-md-12 left-align">
-                                <h3>Geschäftsvorfall {{ transaction.name }}<hr></h3>
-                        	    <p>{{ transaction.desc }}</p>
-                        	    <p><strong> Beispiele: </strong> <br>
-                                    {{ transaction.examples }}</p>
-                        	    <p><strong> Noch zu klären: </strong> <br>
-                                        {{ transaction.todo }}</p>
-                                {% for doc in transaction.documents %}
-                                <p>
-                                <strong> Beleg {{ doc.name }} </strong>
-                                {{ doc.desc }}
-                                 <table class="table table-sm">
-                                        <thead>
-                                        <tr>
-                                            <th scope="col">Feld</th>
-                                            <th scope="col">Typ</th>
-                                            <th scope="col">Beschreibung</th>
-                                            <th scope="col">Ausprägung</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        {% for prop in doc.properties %}
-                                            {% if prop.inner is not null %}
-                                            <tr style="background-color: #{{ prop.inner.color }}">
-                                                <th scope="row"><strong>{{ prop.name }}</strong></th>
-                                                <td></td>
-                                                <td>{{ prop.desc }}</td>
-                                                <td>{{ prop.elements }}</td>
-                                            </tr>
-                                            {% for childprop in prop.inner.properties %}
-                                            <tr style="background-color: #{{ prop.inner.color }}">
-                                                <th scope="row">{{ childprop.name }}</th>
-                                                <td>{{ childprop.type }}</td>
-                                                <td>{{ childprop.desc }}</td>
-                                                <td>{{ childprop.elements }}</td>
-                                            </tr>
-                                            {% endfor %}
-
-                                            {% else %}
-                                            <tr style="background-color: #{{ doc.color }}">
-                                                <th scope="row">{{ prop.name }}</th>
-                                                <td>{{ prop.type }}</td>
-                                                <td>{{ prop.desc }}</td>
-                                                <td>{{ prop.elements }}</td>
-                                            </tr>
-                                            {% endif %}
-                                        {% endfor %}
-                                        </tbody>
-                                    </table>
-
-                                </p>
-                                {% endfor %}
-
-                            </div>
-                            {% endfor %}
-                        </div>
-                        <!-- end row -->
-                    </section>
-                    <!-- end section -->
-                    {% endfor %}
-
-                    <section id="copyright" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Copyright and license <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                
-                                <p>MPREIS Warenvertriebs GMBH.</p>
-                                <p><a href=" https://www.mpreis.at" target="_blank">mpreis.at</a>.</p>
-                            
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
+                <div class="col-sm-6 col-lg-4">
+                    <ul class="list-unstyled">
+                        <li><strong class="font-weight-700">Gestartet:</strong> 2022-04-01 </li>
+                        <li><strong>Generiert:</strong> {{ generated }}</li>
+                    </ul>
                 </div>
-                <!-- // end .col -->
-
             </div>
-            <!-- // end .row -->
+            <p class="alert alert-info">Bei dieser Seite handelt es sich um generierte Information. Korrekturen können nicht an diesem Dokument vorgenommen werden. </p>
+        </section>
+        <hr class="divider">
+        <section id="section_intro">
+            <h2 id="todos">Wichtige aktuelle Todos</h2>
+            {% for mod in models %}
+                {% if mod.hasTodos %}
+                    {% for transaction in mod.transactions %}
+                        {% if transaction.hasTodos %}
+                            <h4> <span class="badge badge-danger">Todo</span> {{ mod.name }} - Geschäftsvorfall '{{ transaction.name }}' </h4>
+                            {{ transaction.todo }}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        </section>
 
-        </div>
-        <!-- // end container -->
+{% for mod in models %}
+        <hr class="divider">
+        <section id="{{ mod.id }}">
+            <h2> <span class="badge badge-info">Funktion</span> {{ mod.name }}</h2>
+            <hr><hr>
+            {% for transaction in mod.transactions %}
+            <h3 class="transaction">Geschäftsvorfall {{ transaction.name }}</h3>
+                <h5> Beschreibung / Information </h5>
+                    {{ transaction.desc }}
+                <h5> Beispiele: </h5>
+                    {{ transaction.examples }}
+                {% if transaction.hasTodos %}
+                <h5> Noch zu klären: </h5>
+                    {{ transaction.todo }}
+                {% endif %}
+
+                {% for doc in transaction.documents %}
+                    <h5 class="belege"> {{ doc.name }} </h5>
+                    {{ doc.desc }}
+                    <table class="table table-sm">
+                        <thead>
+                        <tr>
+                            <th scope="col">Num</th>
+                            <th scope="col">Feld</th>
+                            <th scope="col">Typ</th>
+                            <th scope="col">Beschreibung</th>
+                            <th scope="col">Ausprägung</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                {% for prop in doc.properties %}
+                                {% if prop.inner is not null %}
+                                <tr style="background-color: #{{ prop.inner.color }};">
+                                    <th scope="row">{{ loop.index }}</th>
+                                    <td><strong>{{ prop.name }}</strong></td>
+                                    <td>{{ prop.type }}</td>
+                                    <td>{{ prop.desc }}</td>
+                                    <td>{{ prop.elements }}</td>
+                                </tr>
+                                {% for childprop in prop.inner.properties %}
+                                <tr style="background-color: #{{ prop.inner.color }};">
+                                    <th></th>
+                                    <td>- {{ childprop.name }}</td>
+                                    <td>{{ childprop.type }}</td>
+                                    <td>{{ childprop.desc }}</td>
+                                    <td>{{ childprop.elements }}</td>
+                                </tr>
+                                {% endfor %}
+
+                                {% else %}
+                                <tr style="background-color: #{{ prop.color }}">
+                                    <th scope="row">{{ loop.index }}</th>
+                                    <td><strong>{{ prop.name }}</strong></td>
+                                    <td>{{ prop.type }}</td>
+                                    <td>{{ prop.desc }}</td>
+                                    <td>{{ prop.elements }}</td>
+                                </tr>
+                                {% endif %}
+                                {% endfor %}
+                        </tbody>
+                    </table>
+                {% endfor %}
+                <hr>
+            {% endfor %}
+        </section>
+{% endfor %}
+    </div></div>
 
     </div>
-    <!-- end wrapper -->
+</div>
+<!-- Document Wrapper end -->
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/retina.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
+<!-- Back To Top -->
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
 
-    <!-- CUSTOM PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="js/main.js"></script>
-
-    <script src="js/syntax-highlighter/scripts/shCore.js"></script>
-    <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
-    <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
-    <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
-
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script>
+<!-- Easing -->
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<!-- Magnific Popup -->
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
 </body>
-
 </html>
+
 {% endautoescape %}
