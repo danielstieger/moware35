@@ -849,24 +849,15 @@
                         </node>
                       </node>
                       <node concept="3clFbF" id="3czznpMVA65" role="3cqZAp">
-                        <node concept="2YIFZM" id="3czznpMVA66" role="3clFbG">
+                        <node concept="2YIFZM" id="2E94cTkGfLu" role="3clFbG">
                           <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                          <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
-                          <node concept="10Nm6u" id="3czznpMVA67" role="37wK5m" />
-                          <node concept="3cpWs3" id="3czznpMVC3G" role="37wK5m">
-                            <node concept="37vLTw" id="3czznpMVCWz" role="3uHU7w">
-                              <ref role="3cqZAo" node="3czznpMVCt$" resolve="resultFile" />
-                            </node>
-                            <node concept="Xl_RD" id="3czznpMVBtN" role="3uHU7B">
-                              <property role="Xl_RC" value="Documentation was generated in the html file\n" />
-                            </node>
+                          <ref role="37wK5l" to="dxuu:~JOptionPane.showInputDialog(java.awt.Component,java.lang.Object,java.lang.Object)" resolve="showInputDialog" />
+                          <node concept="10Nm6u" id="2E94cTkGfLv" role="37wK5m" />
+                          <node concept="Xl_RD" id="2E94cTkGfLy" role="37wK5m">
+                            <property role="Xl_RC" value="Documentation was generated in the html file!" />
                           </node>
-                          <node concept="Xl_RD" id="3czznpMVA6l" role="37wK5m">
-                            <property role="Xl_RC" value="Generation successfull" />
-                          </node>
-                          <node concept="10M0yZ" id="3czznpMVAyZ" role="37wK5m">
-                            <ref role="3cqZAo" to="dxuu:~JOptionPane.PLAIN_MESSAGE" resolve="PLAIN_MESSAGE" />
-                            <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                          <node concept="37vLTw" id="2E94cTkGs9f" role="37wK5m">
+                            <ref role="3cqZAo" node="3czznpMVCt$" resolve="resultFile" />
                           </node>
                         </node>
                       </node>
