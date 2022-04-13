@@ -6320,41 +6320,58 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3SKdUt" id="1B6k9MY8EDU" role="3cqZAp">
-                      <node concept="1PaTwC" id="1B6k9MY8EDV" role="1aUNEU">
-                        <node concept="3oM_SD" id="1B6k9MY8EDW" role="1PaTwD">
-                          <property role="3oM_SC" value="skip" />
-                        </node>
-                        <node concept="3oM_SD" id="1B6k9MY8EFy" role="1PaTwD">
-                          <property role="3oM_SC" value="formatter?" />
-                        </node>
-                        <node concept="3oM_SD" id="1B6k9MY8EG5" role="1PaTwD">
-                          <property role="3oM_SC" value="is" />
-                        </node>
-                        <node concept="3oM_SD" id="1B6k9MY8EGD" role="1PaTwD">
-                          <property role="3oM_SC" value="that" />
-                        </node>
-                        <node concept="3oM_SD" id="1B6k9MY8EGI" role="1PaTwD">
-                          <property role="3oM_SC" value="correct??" />
+                    <node concept="3clFbJ" id="2E94cTk_ZQE" role="3cqZAp">
+                      <node concept="3clFbS" id="2E94cTk_ZQG" role="3clFbx">
+                        <node concept="3clFbF" id="2E94cTkA7H4" role="3cqZAp">
+                          <node concept="2OqwBi" id="2E94cTkA7PZ" role="3clFbG">
+                            <node concept="37vLTw" id="2E94cTkA7H2" role="2Oq$k0">
+                              <ref role="3cqZAo" node="23eALbvVxJZ" resolve="gen" />
+                            </node>
+                            <node concept="liA8E" id="2E94cTkA83Z" role="2OqNvi">
+                              <ref role="37wK5l" to="i4mf:~JsonGenerator.writeString(java.lang.String)" resolve="writeString" />
+                              <node concept="2OqwBi" id="1B6k9MY8ERP" role="37wK5m">
+                                <node concept="37vLTw" id="1B6k9MY8ENe" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="23eALbvVu3a" resolve="formatters" />
+                                </node>
+                                <node concept="liA8E" id="1B6k9MY8F3H" role="2OqNvi">
+                                  <ref role="37wK5l" to="18b:7yJ7v78jVeU" resolve="printBigDecimal" />
+                                  <node concept="37vLTw" id="1B6k9MY8Fen" role="37wK5m">
+                                    <ref role="3cqZAo" node="1B6k9MY8Dl8" resolve="bd" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
-                    </node>
-                    <node concept="3clFbH" id="1B6k9MY8EHZ" role="3cqZAp" />
-                    <node concept="3clFbF" id="1B6k9MY8D_g" role="3cqZAp">
-                      <node concept="2OqwBi" id="1B6k9MY8DJh" role="3clFbG">
-                        <node concept="37vLTw" id="1B6k9MY8D_e" role="2Oq$k0">
-                          <ref role="3cqZAo" node="23eALbvVxJZ" resolve="gen" />
+                      <node concept="2OqwBi" id="2E94cTkA7nz" role="3clFbw">
+                        <node concept="37vLTw" id="2E94cTkA7gd" role="2Oq$k0">
+                          <ref role="3cqZAo" node="23eALbvVu3a" resolve="formatters" />
                         </node>
-                        <node concept="liA8E" id="1B6k9MY8DPM" role="2OqNvi">
-                          <ref role="37wK5l" to="i4mf:~JsonGenerator.writeNumber(java.lang.String)" resolve="writeNumber" />
-                          <node concept="2OqwBi" id="1B6k9MY8ERP" role="37wK5m">
-                            <node concept="37vLTw" id="1B6k9MY8ENe" role="2Oq$k0">
-                              <ref role="3cqZAo" node="23eALbvVu3a" resolve="formatters" />
-                            </node>
-                            <node concept="liA8E" id="1B6k9MY8F3H" role="2OqNvi">
-                              <ref role="37wK5l" to="18b:7yJ7v78jVeU" resolve="printBigDecimal" />
-                              <node concept="37vLTw" id="1B6k9MY8Fen" role="37wK5m">
-                                <ref role="3cqZAo" node="1B6k9MY8Dl8" resolve="bd" />
+                        <node concept="liA8E" id="2E94cTkA7Ef" role="2OqNvi">
+                          <ref role="37wK5l" to="18b:2E94cTkA0mE" resolve="serializeBigDecimalAsString" />
+                        </node>
+                      </node>
+                      <node concept="9aQIb" id="2E94cTkA9pC" role="9aQIa">
+                        <node concept="3clFbS" id="2E94cTkA9pD" role="9aQI4">
+                          <node concept="3clFbF" id="1B6k9MY8D_g" role="3cqZAp">
+                            <node concept="2OqwBi" id="1B6k9MY8DJh" role="3clFbG">
+                              <node concept="37vLTw" id="1B6k9MY8D_e" role="2Oq$k0">
+                                <ref role="3cqZAo" node="23eALbvVxJZ" resolve="gen" />
+                              </node>
+                              <node concept="liA8E" id="1B6k9MY8DPM" role="2OqNvi">
+                                <ref role="37wK5l" to="i4mf:~JsonGenerator.writeNumber(java.lang.String)" resolve="writeNumber" />
+                                <node concept="2OqwBi" id="2E94cTkAaYe" role="37wK5m">
+                                  <node concept="37vLTw" id="2E94cTkAaYf" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="23eALbvVu3a" resolve="formatters" />
+                                  </node>
+                                  <node concept="liA8E" id="2E94cTkAaYg" role="2OqNvi">
+                                    <ref role="37wK5l" to="18b:7yJ7v78jVeU" resolve="printBigDecimal" />
+                                    <node concept="37vLTw" id="2E94cTkAaYh" role="37wK5m">
+                                      <ref role="3cqZAo" node="1B6k9MY8Dl8" resolve="bd" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>

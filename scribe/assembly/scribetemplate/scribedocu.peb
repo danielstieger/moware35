@@ -146,7 +146,7 @@
                                 {% for prop in doc.properties %}
                                 {% if prop.inner is not null %}
                                 <tr style="background-color: #{{ prop.inner.color }};">
-                                    <th scope="row">{{ loop.index }}</th>
+                                    <th scope="row">{{ loop.index + 1 }}</th>
                                     <td><strong>{{ prop.name }}</strong></td>
                                     <td>{{ prop.type }}</td>
                                     <td>{{ prop.desc }}</td>
@@ -164,7 +164,7 @@
 
                                 {% else %}
                                 <tr style="background-color: #{{ prop.color }}">
-                                    <th scope="row">{{ loop.index }}</th>
+                                    <th scope="row">{{ loop.index + 1 }}</th>
                                     <td><strong>{{ prop.name }}</strong></td>
                                     <td>{{ prop.type }}</td>
                                     <td>{{ prop.desc }}</td>

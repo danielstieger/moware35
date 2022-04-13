@@ -369,6 +369,12 @@
         <node concept="17QB3L" id="1fdEi1nzCpq" role="11_B2D" />
       </node>
     </node>
+    <node concept="312cEg" id="2E94cTkB3lD" role="jymVt">
+      <property role="TrG5h" value="serializeBigDeciAsString" />
+      <node concept="3Tmbuc" id="2E94cTkB3lE" role="1B3o_S" />
+      <node concept="10P_77" id="2E94cTkB59U" role="1tU5fm" />
+      <node concept="3clFbT" id="2E94cTkB8hr" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="7yJ7v78jP0Y" role="jymVt" />
     <node concept="2tJIrI" id="7yJ7v78jOXX" role="jymVt" />
     <node concept="3clFbW" id="7yJ7v78jTAN" role="jymVt">
@@ -534,6 +540,37 @@
           </node>
         </node>
         <node concept="3clFbH" id="1fdEi1nzDff" role="3cqZAp" />
+        <node concept="3clFbJ" id="2E94cTkBa9h" role="3cqZAp">
+          <node concept="3clFbS" id="2E94cTkBa9j" role="3clFbx">
+            <node concept="3clFbF" id="2E94cTkBd_1" role="3cqZAp">
+              <node concept="37vLTI" id="2E94cTkBdX1" role="3clFbG">
+                <node concept="3clFbT" id="2E94cTkBeae" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="2E94cTkBd$Z" role="37vLTJ">
+                  <ref role="3cqZAo" node="2E94cTkB3lD" resolve="serializeBigDeciAsString" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2E94cTkBcFO" role="3clFbw">
+            <node concept="2OqwBi" id="2E94cTkBbFX" role="2Oq$k0">
+              <node concept="37vLTw" id="2E94cTkBb6P" role="2Oq$k0">
+                <ref role="3cqZAo" node="7yJ7v78jP2U" resolve="options" />
+              </node>
+              <node concept="2OwXpG" id="2E94cTkBcto" role="2OqNvi">
+                <ref role="2Oxat5" node="7yJ7v78jRwc" resolve="bigDeciFormat" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2E94cTkBdsG" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+              <node concept="Xl_RD" id="2E94cTkBduq" role="37wK5m">
+                <property role="Xl_RC" value="," />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2E94cTkBeeo" role="3cqZAp" />
         <node concept="3clFbJ" id="1fdEi1nzDrR" role="3cqZAp">
           <node concept="3clFbS" id="1fdEi1nzDrT" role="3clFbx">
             <node concept="3clFbF" id="1fdEi1nzEoe" role="3cqZAp">
@@ -824,6 +861,21 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1fdEi1neHqg" role="jymVt" />
+    <node concept="3clFb_" id="2E94cTkAY0y" role="jymVt">
+      <property role="TrG5h" value="serializeBigDecimalAsString" />
+      <node concept="10P_77" id="2E94cTkAY0z" role="3clF45" />
+      <node concept="3Tm1VV" id="2E94cTkAY0$" role="1B3o_S" />
+      <node concept="3clFbS" id="2E94cTkAY0A" role="3clF47">
+        <node concept="3clFbF" id="2E94cTkBfbo" role="3cqZAp">
+          <node concept="37vLTw" id="2E94cTkBfbn" role="3clFbG">
+            <ref role="3cqZAo" node="2E94cTkB3lD" resolve="serializeBigDeciAsString" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2E94cTkAY0B" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1fdEi1neHsJ" role="jymVt" />
     <node concept="3clFb_" id="1fdEi1nzSYz" role="jymVt">
       <property role="TrG5h" value="jsonPathToField" />
@@ -1087,6 +1139,12 @@
       <node concept="17QB3L" id="7yJ7v78jVeX" role="3clF45" />
       <node concept="3Tm1VV" id="7yJ7v78jVeY" role="1B3o_S" />
       <node concept="3clFbS" id="7yJ7v78jVeZ" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="2E94cTkA0mE" role="jymVt">
+      <property role="TrG5h" value="serializeBigDecimalAsString" />
+      <node concept="10P_77" id="2E94cTkA0tw" role="3clF45" />
+      <node concept="3Tm1VV" id="2E94cTkA0mI" role="1B3o_S" />
+      <node concept="3clFbS" id="2E94cTkA0mJ" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="7yJ7v78jVem" role="jymVt" />
     <node concept="3clFb_" id="1fdEi1neGI3" role="jymVt">
