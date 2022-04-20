@@ -12160,12 +12160,12 @@
                       <ref role="37wK5l" to="28jr:4IVaCy_f3ux" resolve="translatedLogPrio" />
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="4IVaCy_ftG$" role="37wK5m">
-                    <node concept="37vLTw" id="4IVaCy_ftlo" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4IVaCy_evLU" resolve="prblm" />
+                  <node concept="3cpWs3" id="3MGX4UCcJi3" role="37wK5m">
+                    <node concept="37vLTw" id="3MGX4UCcJ_a" role="3uHU7w">
+                      <ref role="3cqZAo" node="7HSdIeXMvqf" resolve="currentKey" />
                     </node>
-                    <node concept="liA8E" id="4IVaCy_ftVh" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleText_Lgcy" />
+                    <node concept="Xl_RD" id="3MGX4UCcHG2" role="3uHU7B">
+                      <property role="Xl_RC" value="Canceled processing of " />
                     </node>
                   </node>
                 </node>
@@ -12214,12 +12214,12 @@
                     <ref role="1PxDUh" to="28jr:4FgSVMpn0nI" resolve="CoreReporterInfo" />
                     <ref role="3cqZAo" to="28jr:1WX6wrPVxfw" resolve="PARAM" />
                   </node>
-                  <node concept="3cpWs3" id="4g_sjDPCO9C" role="37wK5m">
-                    <node concept="Xl_RD" id="4g_sjDPCOrU" role="3uHU7B">
-                      <property role="Xl_RC" value="" />
+                  <node concept="2OqwBi" id="3MGX4UCcH8m" role="37wK5m">
+                    <node concept="37vLTw" id="3MGX4UCcH8n" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4IVaCy_evLU" resolve="prblm" />
                     </node>
-                    <node concept="37vLTw" id="4g_sjDNbG2T" role="3uHU7w">
-                      <ref role="3cqZAo" node="7HSdIeXMvqf" resolve="currentKey" />
+                    <node concept="liA8E" id="3MGX4UCcH8o" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleUserText" />
                     </node>
                   </node>
                 </node>
