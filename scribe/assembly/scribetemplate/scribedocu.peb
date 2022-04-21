@@ -176,6 +176,11 @@
                     </table>
                 {% endfor %}
                 <hr>
+                <br><br><br><br>
+                <h5> Verbuchung des Beleges für {{ transaction.name }}</h5>
+                <pre style="font-size: 1em;"><code class="html hljs xml">
+                {{ transaction.fake }}
+                </code></pre>
             {% endfor %}
         </section>
 {% endfor %}

@@ -14,7 +14,9 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
@@ -163,6 +165,9 @@
         <ref role="1NtTu8" to="ipam:fzclF7Z" resolve="body" />
       </node>
       <node concept="2iRkQZ" id="3czznpM1tLL" role="2iSdaV" />
+    </node>
+    <node concept="3F1sOY" id="6QAI3GgA75C" role="6VMZX">
+      <ref role="1NtTu8" to="ipam:6QAI3GgA75v" resolve="fake" />
     </node>
   </node>
   <node concept="V5hpn" id="3czznpM1uAz">
