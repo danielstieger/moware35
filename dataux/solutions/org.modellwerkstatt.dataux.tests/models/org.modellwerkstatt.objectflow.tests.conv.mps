@@ -6173,7 +6173,7 @@
             <node concept="liA8E" id="16YJG28Aci5" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="16YJG28Aci6" role="37wK5m">
-                <property role="Xl_RC" value="\&quot;bdValue\&quot;:12.45" />
+                <property role="Xl_RC" value="\&quot;bdValue\&quot;:\&quot;12.45\&quot;" />
               </node>
             </node>
           </node>
@@ -8178,7 +8178,7 @@
                   <property role="Xl_RC" value="dd.MM.yy" />
                 </node>
                 <node concept="Xl_RD" id="5Db$$mDEXBL" role="37wK5m">
-                  <property role="Xl_RC" value="#,##0.00" />
+                  <property role="Xl_RC" value="#0.00" />
                 </node>
                 <node concept="Xl_RD" id="5Db$$mDEXBM" role="37wK5m">
                   <property role="Xl_RC" value="en" />

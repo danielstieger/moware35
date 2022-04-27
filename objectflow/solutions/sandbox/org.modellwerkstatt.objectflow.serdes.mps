@@ -1323,7 +1323,7 @@
                 <property role="Xl_RC" value="dd.MM.yy" />
               </node>
               <node concept="Xl_RD" id="16YJG28qXX$" role="37wK5m">
-                <property role="Xl_RC" value="#,##0.00" />
+                <property role="Xl_RC" value="#0.00" />
               </node>
               <node concept="Xl_RD" id="16YJG28qXX_" role="37wK5m">
                 <property role="Xl_RC" value="en" />
