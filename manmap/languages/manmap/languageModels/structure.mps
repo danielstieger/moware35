@@ -178,7 +178,7 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="871579071900244155" />
       <ref role="20lvS9" node="Kou8LehPz3" resolve="IAtomMapping" />
-      <ref role="20ksaX" node="3X0BsfNqXLB" resolve="mapping" />
+      <ref role="20ksaX" node="3X0BsfNqXLB" resolve="atomMpig" />
     </node>
     <node concept="1TJgyj" id="Kou8LehN3J" role="1TKVEi">
       <property role="20kJfa" value="classConcept" />
@@ -225,7 +225,7 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="871579071900248760" />
       <ref role="20lvS9" node="Kou8LehPz3" resolve="IAtomMapping" />
-      <ref role="20ksaX" node="3X0BsfNqXLB" resolve="mapping" />
+      <ref role="20ksaX" node="3X0BsfNqXLB" resolve="atomMpig" />
     </node>
     <node concept="PrWs8" id="Kou8LehQF9" role="PzmwI">
       <ref role="PrY4T" node="Kou8LehPz3" resolve="IAtomMapping" />
@@ -243,7 +243,7 @@
     <property role="EcuMT" value="871579071900248872" />
     <node concept="1TJgyj" id="3X0BsfNqXLB" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="mapping" />
+      <property role="20kJfa" value="atomMpig" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="4557816287827057767" />
       <ref role="20lvS9" node="Kou8LehPz3" resolve="IAtomMapping" />
@@ -287,7 +287,7 @@
     <node concept="1TJgyj" id="Kou8LemxNH" role="1TKVEi">
       <property role="20kJfa" value="mapping" />
       <property role="IQ2ns" value="871579071901474029" />
-      <ref role="20lvS9" node="Kou8LehH1E" resolve="EntityMapping" />
+      <ref role="20lvS9" node="Kou8LehQGC" resolve="IMapsClassConcept" />
     </node>
     <node concept="PrWs8" id="Kou8LemzUq" role="PzmwI">
       <ref role="PrY4T" node="Kou8LehPz3" resolve="IAtomMapping" />
@@ -1107,7 +1107,7 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="781751828139417503" />
       <ref role="20lvS9" node="Kou8LehPz3" resolve="IAtomMapping" />
-      <ref role="20ksaX" node="3X0BsfNqXLB" resolve="mapping" />
+      <ref role="20ksaX" node="3X0BsfNqXLB" resolve="atomMpig" />
     </node>
     <node concept="1TJgyj" id="FplMliKLlD" role="1TKVEi">
       <property role="20kJfa" value="classConcept" />
