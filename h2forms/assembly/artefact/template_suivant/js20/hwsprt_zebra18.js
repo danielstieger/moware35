@@ -164,6 +164,7 @@ function hwInitAfterDomReady(){
                            pdf417:true,
                            qrCode:true,
                            dataMatrix:true,
+                           upca:true;
 
                    }, zzScanReceived);
 

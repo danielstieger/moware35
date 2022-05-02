@@ -167,6 +167,7 @@ function hwInitAfterDomReady(){
             EB.Barcode.pdf417 = true;
             EB.Barcode.qrCode = true;
             EB.Barcode.datamatrix = true;
+            EB.Barcode.upca = true;
 
             svLog('hwEnableScan', 'calling EB.Barcode.enable()');
             EB.Barcode.enable({}, zzScanReceived);
