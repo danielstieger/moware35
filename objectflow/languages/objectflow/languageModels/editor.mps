@@ -7702,7 +7702,7 @@
         <node concept="l2Vlx" id="1Z999TJVqrb" role="2czzBx" />
         <node concept="3F0ifn" id="1Z999TK2OTJ" role="2czzBI">
           <property role="3F0ifm" value="" />
-          <property role="ilYzB" value="&lt;props&gt;" />
+          <property role="ilYzB" value="&lt;no specific behaviour&gt;" />
         </node>
       </node>
       <node concept="3F0ifn" id="3U0QWzuFWM1" role="3EZMnx">

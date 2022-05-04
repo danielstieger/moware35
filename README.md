@@ -27,5 +27,5 @@ This is the moware 11 branch
 ```
 
 More information is provided at http://www.modellwerkstatt.org
-More information on version can be found at http://www.modellwerkstatt.org/moware
+More information on version can be found at https://www.modellwerkstatt.org/werkbank.html
 Released plugins can be found at https://github.com/danielstieger/moware35/releases
