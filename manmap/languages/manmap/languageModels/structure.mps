@@ -186,11 +186,8 @@
       <property role="IQ2ns" value="871579071900233967" />
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
-    <node concept="PrWs8" id="Kou8LehN3I" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="PrWs8" id="Kou8LehQGM" role="PzmwI">
-      <ref role="PrY4T" node="Kou8LehQGC" resolve="IMapsClassConcept" />
+      <ref role="PrY4T" node="6OP6D4ZAUWJ" resolve="IIncludeAbleMapsClassConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="Kou8LehH1W">
@@ -287,7 +284,7 @@
     <node concept="1TJgyj" id="Kou8LemxNH" role="1TKVEi">
       <property role="20kJfa" value="mapping" />
       <property role="IQ2ns" value="871579071901474029" />
-      <ref role="20lvS9" node="Kou8LehQGC" resolve="IMapsClassConcept" />
+      <ref role="20lvS9" node="6OP6D4ZAUWJ" resolve="IIncludeAbleMapsClassConcept" />
     </node>
     <node concept="PrWs8" id="Kou8LemzUq" role="PzmwI">
       <ref role="PrY4T" node="Kou8LehPz3" resolve="IAtomMapping" />
@@ -1098,7 +1095,7 @@
   <node concept="1TIwiD" id="FplMliKLhC">
     <property role="3GE5qa" value="customsql.nokey" />
     <property role="TrG5h" value="NoKeyMapperField" />
-    <property role="34LRSv" value="nokey/read-only map" />
+    <property role="34LRSv" value="nokeystore/read-only map" />
     <property role="EcuMT" value="781751828139414632" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="FplMliKLYv" role="1TKVEi">
@@ -1119,7 +1116,7 @@
       <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
     </node>
     <node concept="PrWs8" id="FplMliKLYl" role="PzmwI">
-      <ref role="PrY4T" node="Kou8LehQGC" resolve="IMapsClassConcept" />
+      <ref role="PrY4T" node="6OP6D4ZAUWJ" resolve="IIncludeAbleMapsClassConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="FplMljbxON">
@@ -1405,6 +1402,17 @@
     <property role="EcuMT" value="5460724356507059443" />
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="IByOption" />
+  </node>
+  <node concept="PlHQZ" id="6OP6D4ZAUWJ">
+    <property role="EcuMT" value="7869225135039557423" />
+    <property role="3GE5qa" value="mapping" />
+    <property role="TrG5h" value="IIncludeAbleMapsClassConcept" />
+    <node concept="PrWs8" id="6OP6D4ZAUWK" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6OP6D4ZIn4d" role="PrDN$">
+      <ref role="PrY4T" node="Kou8LehQGC" resolve="IMapsClassConcept" />
+    </node>
   </node>
 </model>
 

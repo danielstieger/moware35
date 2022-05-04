@@ -24596,6 +24596,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6OP6D4ZsMnF" role="3cqZAp" />
       </node>
     </node>
     <node concept="wbJLE" id="1Mr6ahDfj2K" role="jymVt">
@@ -35771,47 +35772,8 @@
           </node>
         </node>
       </node>
-      <node concept="12nEzJ" id="4HJH2PnkoJN" role="3caO6$">
-        <ref role="12nL8z" node="4HJH2Pnklrz" resolve="totalAmount" />
-        <node concept="Xl_RD" id="4HJH2PnkoJO" role="12k7lF">
-          <property role="Xl_RC" value="NUM_TOTALAMNT" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="4HJH2PnkoJP" role="3caO6$">
-        <ref role="12nL8z" node="4HJH2Pnklrp" resolve="nameLen2" />
-        <node concept="Xl_RD" id="4HJH2PnkoJQ" role="12k7lF">
-          <property role="Xl_RC" value="NUM_RESTRICTEDMNT" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="4HJH2PnkoJR" role="3caO6$">
-        <ref role="12nL8z" node="4HJH2Pnklrf" resolve="text" />
-        <node concept="Xl_RD" id="4HJH2PnkoJS" role="12k7lF">
-          <property role="Xl_RC" value="TXT_TEXT" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="4HJH2PnkoJT" role="3caO6$">
-        <ref role="12nL8z" node="4HJH2Pnklr5" resolve="name" />
-        <node concept="Xl_RD" id="4HJH2PnkoJU" role="12k7lF">
-          <property role="Xl_RC" value="TXT_TEXT2" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="4HJH2PnkoJV" role="3caO6$">
-        <ref role="12nL8z" node="4HJH2PnklqW" resolve="localDate" />
-        <node concept="Xl_RD" id="4HJH2PnkoJW" role="12k7lF">
-          <property role="Xl_RC" value="DAT_LOCALDATE" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="4HJH2PnkoJX" role="3caO6$">
-        <ref role="12nL8z" node="4HJH2PnklqN" resolve="dateTime" />
-        <node concept="Xl_RD" id="4HJH2PnkoJY" role="12k7lF">
-          <property role="Xl_RC" value="DATE_DATETIME" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="4HJH2PnkoJZ" role="3caO6$">
-        <ref role="12nL8z" node="4HJH2PnklqE" resolve="headState" />
-        <node concept="Xl_RD" id="4HJH2PnkoK0" role="12k7lF">
-          <property role="Xl_RC" value="COD_HEAD" />
-        </node>
+      <node concept="12gALL" id="6OP6D50_msw" role="3caO6$">
+        <ref role="12gAhx" node="6OP6D50qPJO" resolve="nkNewInvoiceMapper" />
       </node>
       <node concept="12kdtm" id="4HJH2PnAhpG" role="3caO6$">
         <ref role="12kdtj" node="4HJH2Pnklqx" resolve="positions" />
@@ -36299,6 +36261,52 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4HJH2PnNs0w" role="1B3o_S" />
+    <node concept="1o6$dd" id="6OP6D50qPJO" role="2_$AKh">
+      <property role="TrG5h" value="nkNewInvoiceMapper" />
+      <ref role="1o6$9c" node="4HJH2PnkkW2" resolve="NewInvoice" />
+      <node concept="12nEzJ" id="4HJH2PnkoJN" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2Pnklrz" resolve="totalAmount" />
+        <node concept="Xl_RD" id="4HJH2PnkoJO" role="12k7lF">
+          <property role="Xl_RC" value="NUM_TOTALAMNT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="4HJH2PnkoJP" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2Pnklrp" resolve="nameLen2" />
+        <node concept="Xl_RD" id="4HJH2PnkoJQ" role="12k7lF">
+          <property role="Xl_RC" value="NUM_RESTRICTEDMNT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="4HJH2PnkoJR" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2Pnklrf" resolve="text" />
+        <node concept="Xl_RD" id="4HJH2PnkoJS" role="12k7lF">
+          <property role="Xl_RC" value="TXT_TEXT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="4HJH2PnkoJT" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2Pnklr5" resolve="name" />
+        <node concept="Xl_RD" id="4HJH2PnkoJU" role="12k7lF">
+          <property role="Xl_RC" value="TXT_TEXT2" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="4HJH2PnkoJV" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnklqW" resolve="localDate" />
+        <node concept="Xl_RD" id="4HJH2PnkoJW" role="12k7lF">
+          <property role="Xl_RC" value="DAT_LOCALDATE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="4HJH2PnkoJX" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnklqN" resolve="dateTime" />
+        <node concept="Xl_RD" id="4HJH2PnkoJY" role="12k7lF">
+          <property role="Xl_RC" value="DATE_DATETIME" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="4HJH2PnkoJZ" role="3caO6$">
+        <ref role="12nL8z" node="4HJH2PnklqE" resolve="headState" />
+        <node concept="Xl_RD" id="4HJH2PnkoK0" role="12k7lF">
+          <property role="Xl_RC" value="COD_HEAD" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="xR6oC" id="6fvTt2jAB6$">
     <property role="3GE5qa" value="NewInvoice" />
