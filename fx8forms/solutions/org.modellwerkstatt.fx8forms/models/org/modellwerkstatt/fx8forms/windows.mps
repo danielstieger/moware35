@@ -4121,29 +4121,43 @@
                                                 </node>
                                                 <node concept="liA8E" id="7vbJIwtvOxV" role="2OqNvi">
                                                   <ref role="37wK5l" to="1e0c:938$CrOsma" resolve="showBigInformationDialog" />
-                                                  <node concept="3cpWs3" id="7vbJIwt_cfe" role="37wK5m">
-                                                    <node concept="2OqwBi" id="7vbJIwtvZ35" role="3uHU7w">
-                                                      <node concept="37vLTw" id="7vbJIwtvYFp" role="2Oq$k0">
-                                                        <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                                                  <node concept="3cpWs3" id="2sBNOGp93AM" role="37wK5m">
+                                                    <node concept="3cpWs3" id="2sBNOGp8YJX" role="3uHU7B">
+                                                      <node concept="3cpWs3" id="7vbJIwt_cfe" role="3uHU7B">
+                                                        <node concept="Xl_RD" id="7vbJIwt_b43" role="3uHU7B">
+                                                          <property role="Xl_RC" value="\n\n\n" />
+                                                        </node>
+                                                        <node concept="2OqwBi" id="7vbJIwtvZ35" role="3uHU7w">
+                                                          <node concept="37vLTw" id="7vbJIwtvYFp" role="2Oq$k0">
+                                                            <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                                                          </node>
+                                                          <node concept="liA8E" id="7vbJIwtw19_" role="2OqNvi">
+                                                            <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                                                            <node concept="2OqwBi" id="7vbJIwtwaI3" role="37wK5m">
+                                                              <node concept="37vLTw" id="7vbJIwtw8wi" role="2Oq$k0">
+                                                                <ref role="3cqZAo" node="7aUgYCzss6K" resolve="userEnv" />
+                                                              </node>
+                                                              <node concept="liA8E" id="7vbJIwtwbit" role="2OqNvi">
+                                                                <ref role="37wK5l" to="28jr:Da7DaffF7d" resolve="getLangIndex" />
+                                                              </node>
+                                                            </node>
+                                                            <node concept="Rm8GO" id="7vbJIwtwuzn" role="37wK5m">
+                                                              <ref role="Rm8GQ" to="ache:4ysbFF_K1ve" resolve="FATA_APPFRMWRK_PROBLEM" />
+                                                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                                                            </node>
+                                                          </node>
+                                                        </node>
                                                       </node>
-                                                      <node concept="liA8E" id="7vbJIwtw19_" role="2OqNvi">
-                                                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
-                                                        <node concept="2OqwBi" id="7vbJIwtwaI3" role="37wK5m">
-                                                          <node concept="37vLTw" id="7vbJIwtw8wi" role="2Oq$k0">
-                                                            <ref role="3cqZAo" node="7aUgYCzss6K" resolve="userEnv" />
-                                                          </node>
-                                                          <node concept="liA8E" id="7vbJIwtwbit" role="2OqNvi">
-                                                            <ref role="37wK5l" to="28jr:Da7DaffF7d" resolve="getLangIndex" />
-                                                          </node>
-                                                        </node>
-                                                        <node concept="Rm8GO" id="7vbJIwtwuzn" role="37wK5m">
-                                                          <ref role="Rm8GQ" to="ache:4ysbFF_K1ve" resolve="FATA_APPFRMWRK_PROBLEM" />
-                                                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
-                                                        </node>
+                                                      <node concept="Xl_RD" id="2sBNOGp92sA" role="3uHU7w">
+                                                        <property role="Xl_RC" value="\n\n\n\n\n\n" />
                                                       </node>
                                                     </node>
-                                                    <node concept="Xl_RD" id="7vbJIwt_b43" role="3uHU7B">
-                                                      <property role="Xl_RC" value="\n\n\n" />
+                                                    <node concept="2YIFZM" id="2sBNOGp8UZp" role="3uHU7w">
+                                                      <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                                                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                                      <node concept="37vLTw" id="2sBNOGp8Vxn" role="37wK5m">
+                                                        <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                                      </node>
                                                     </node>
                                                   </node>
                                                   <node concept="2ShNRf" id="64PSf$EEbeo" role="37wK5m">
@@ -7989,7 +8003,7 @@
                                                 <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveAndProcess" />
                                                 <node concept="2ShNRf" id="938$CrV_19" role="37wK5m">
                                                   <node concept="1pGfFk" id="938$CrV_sj" role="2ShVmc">
-                                                    <ref role="37wK5l" to="1e0c:SQhsWRTq7b" resolve="ExInfoAndCloseEvent" />
+                                                    <ref role="37wK5l" to="1e0c:SQhsWRTq7b" resolve="CloseCntrExInfoEvent" />
                                                     <node concept="2ShNRf" id="938$CrVBwF" role="37wK5m">
                                                       <node concept="1pGfFk" id="938$CrVCjg" role="2ShVmc">
                                                         <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
