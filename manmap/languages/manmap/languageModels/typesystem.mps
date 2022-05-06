@@ -4375,5 +4375,82 @@
       <ref role="1YaFvo" to="r5tz:5Wi2c3ml7kW" resolve="AdditionalTableReference" />
     </node>
   </node>
+  <node concept="18kY7G" id="3zGP8DBKgH5">
+    <property role="TrG5h" value="SqlStringNotEndingOn" />
+    <node concept="3clFbS" id="3zGP8DBKgH6" role="18ibNy">
+      <node concept="3cpWs8" id="3zGP8DBRpbC" role="3cqZAp">
+        <node concept="3cpWsn" id="3zGP8DBRpbF" role="3cpWs9">
+          <property role="TrG5h" value="toCheck" />
+          <node concept="17QB3L" id="3zGP8DBRpbA" role="1tU5fm" />
+          <node concept="2OqwBi" id="3zGP8DBRpt$" role="33vP2m">
+            <node concept="2OqwBi" id="3zGP8DBKhr2" role="2Oq$k0">
+              <node concept="2OqwBi" id="3zGP8DBKgS3" role="2Oq$k0">
+                <node concept="1YBJjd" id="3zGP8DBKgIo" role="2Oq$k0">
+                  <ref role="1YBMHb" node="3zGP8DBKgI3" resolve="sqlString" />
+                </node>
+                <node concept="2qgKlT" id="3zGP8DBKh0t" role="2OqNvi">
+                  <ref role="37wK5l" to="lfe3:6TB1IkoDjkO" resolve="getCleanedSql" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3zGP8DBRoH$" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                <node concept="Xl_RD" id="3zGP8DBRoID" role="37wK5m">
+                  <property role="Xl_RC" value=" " />
+                </node>
+                <node concept="Xl_RD" id="3zGP8DBRp5s" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="3zGP8DBRpUV" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3zGP8DBKgIc" role="3cqZAp">
+        <node concept="1Wc70l" id="3zGP8DBRqfG" role="3clFbw">
+          <node concept="3fqX7Q" id="3zGP8DBRqgL" role="3uHU7w">
+            <node concept="2OqwBi" id="3zGP8DBRqqT" role="3fr31v">
+              <node concept="37vLTw" id="3zGP8DBRqhx" role="2Oq$k0">
+                <ref role="3cqZAo" node="3zGP8DBRpbF" resolve="toCheck" />
+              </node>
+              <node concept="liA8E" id="3zGP8DBRqFU" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                <node concept="Xl_RD" id="3zGP8DBRqHf" role="37wK5m">
+                  <property role="Xl_RC" value="end;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3zGP8DBKhXY" role="3uHU7B">
+            <node concept="liA8E" id="3zGP8DBKili" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+              <node concept="Xl_RD" id="3zGP8DBKimp" role="37wK5m">
+                <property role="Xl_RC" value=";" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3zGP8DBRpX5" role="2Oq$k0">
+              <ref role="3cqZAo" node="3zGP8DBRpbF" resolve="toCheck" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="3zGP8DBKgIe" role="3clFbx">
+          <node concept="2MkqsV" id="3zGP8DBKirF" role="3cqZAp">
+            <node concept="Xl_RD" id="3zGP8DBKirR" role="2MkJ7o">
+              <property role="Xl_RC" value="Custom SQL is not allowed to end on ';' Only one statement per custom sql is expected." />
+            </node>
+            <node concept="1YBJjd" id="3zGP8DBKitF" role="1urrMF">
+              <ref role="1YBMHb" node="3zGP8DBKgI3" resolve="sqlString" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3zGP8DBKgI3" role="1YuTPh">
+      <property role="TrG5h" value="sqlString" />
+      <ref role="1YaFvo" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
+    </node>
+  </node>
 </model>
 

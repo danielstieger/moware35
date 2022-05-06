@@ -9694,7 +9694,7 @@
     <node concept="2tJIrI" id="3iJaUC74lRJ" role="jymVt" />
     <node concept="3clFb_" id="7j1iBG6HgfC" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="calcCurrentPageDynamicTitle" />
+      <property role="TrG5h" value="calcCurrentPageDynamicTitleAndScopres" />
       <node concept="17QB3L" id="7j1iBG6HgfD" role="3clF45" />
       <node concept="3Tm1VV" id="7j1iBG6HgfE" role="1B3o_S" />
       <node concept="3clFbS" id="7j1iBG6HgfG" role="3clF47">
@@ -9726,7 +9726,7 @@
               </node>
             </node>
             <node concept="liA8E" id="7j1iBG6Ineh" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:7j1iBG4JvzO" resolve="calcDynamicPageTitle" />
+              <ref role="37wK5l" to="28jr:7j1iBG4JvzO" resolve="calcDynamicPageTitleAndScopes" />
             </node>
           </node>
         </node>
@@ -11293,7 +11293,7 @@
       </node>
       <node concept="3clFb_" id="7j1iBG58MKs" role="jymVt">
         <property role="1EzhhJ" value="false" />
-        <property role="TrG5h" value="calcDynamicPageTitle" />
+        <property role="TrG5h" value="calcDynamicPageTitleAndScopes" />
         <node concept="17QB3L" id="7j1iBG58MKt" role="3clF45" />
         <node concept="3Tm1VV" id="7j1iBG58MKu" role="1B3o_S" />
         <node concept="3clFbS" id="7j1iBG58MKw" role="3clF47">
@@ -23217,7 +23217,7 @@
             <node concept="3cpWsn" id="1OfmaES3Dpn" role="3cpWs9">
               <property role="TrG5h" value="sessionOwner" />
               <node concept="3uibUv" id="1OfmaES3Dpo" role="1tU5fm">
-                <ref role="3uigEE" to="28jr:1OfmaERXDT2" resolve="OFXRunCommandContainer" />
+                <ref role="3uigEE" to="28jr:1OfmaERXDT2" resolve="OFXRunCmdContainer" />
               </node>
               <node concept="10Nm6u" id="1OfmaES3Dpp" role="33vP2m" />
             </node>
@@ -23229,11 +23229,11 @@
                 <node concept="3cpWsn" id="1OfmaES4eJw" role="3cpWs9">
                   <property role="TrG5h" value="container" />
                   <node concept="3uibUv" id="1OfmaES4eJx" role="1tU5fm">
-                    <ref role="3uigEE" to="28jr:1OfmaERXDT2" resolve="OFXRunCommandContainer" />
+                    <ref role="3uigEE" to="28jr:1OfmaERXDT2" resolve="OFXRunCmdContainer" />
                   </node>
                   <node concept="2ShNRf" id="1OfmaES4m1L" role="33vP2m">
                     <node concept="1pGfFk" id="1OfmaES9hOq" role="2ShVmc">
-                      <ref role="37wK5l" to="28jr:1OfmaERYpRP" resolve="OFXRunCommandContainer" />
+                      <ref role="37wK5l" to="28jr:1OfmaERYpRP" resolve="OFXRunCmdContainer" />
                       <node concept="Xl_RD" id="1OfmaES4DOs" role="37wK5m">
                         <property role="Xl_RC" value="package" />
                         <node concept="17Uvod" id="1OfmaES4DOt" role="lGtFl">
@@ -23284,7 +23284,7 @@
                       <node concept="gft3U" id="1OfmaESalM5" role="UU_$l">
                         <node concept="2ShNRf" id="1OfmaESapB4" role="gfFT$">
                           <node concept="1pGfFk" id="1OfmaESarqK" role="2ShVmc">
-                            <ref role="37wK5l" to="28jr:1OfmaERXZmU" resolve="OFXRunCommandContainer" />
+                            <ref role="37wK5l" to="28jr:1OfmaERXZmU" resolve="OFXRunCmdContainer" />
                             <node concept="37vLTw" id="1OfmaESasK0" role="37wK5m">
                               <ref role="3cqZAo" node="1OfmaES3Dpn" resolve="sessionOwner" />
                             </node>
@@ -23335,7 +23335,7 @@
                       <node concept="YeOm9" id="1OfmaES8MF4" role="2ShVmc">
                         <node concept="1Y3b0j" id="1OfmaES8MF7" role="YeSDq">
                           <property role="2bfB8j" value="true" />
-                          <ref role="1Y3XeK" to="28jr:1OfmaES7koN" resolve="OFXRunCommandContainer.IOFXPageHandler" />
+                          <ref role="1Y3XeK" to="28jr:1OfmaES7koN" resolve="OFXRunCmdContainer.IOFXPageHandler" />
                           <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                           <node concept="3Tm1VV" id="1OfmaES8MF8" role="1B3o_S" />
                           <node concept="3clFb_" id="1OfmaES8MFd" role="jymVt">
@@ -23407,7 +23407,7 @@
                       <node concept="YeOm9" id="1OfmaES8Xwh" role="2ShVmc">
                         <node concept="1Y3b0j" id="1OfmaES8Xwi" role="YeSDq">
                           <property role="2bfB8j" value="true" />
-                          <ref role="1Y3XeK" to="28jr:1OfmaES7koN" resolve="OFXRunCommandContainer.IOFXPageHandler" />
+                          <ref role="1Y3XeK" to="28jr:1OfmaES7koN" resolve="OFXRunCmdContainer.IOFXPageHandler" />
                           <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                           <node concept="3Tm1VV" id="1OfmaES8Xwj" role="1B3o_S" />
                           <node concept="3clFb_" id="1OfmaES8Xwk" role="jymVt">
