@@ -1,6 +1,5 @@
-#  Moware 2022 (11) 
-MoWare 2022 (11 edition)
-[Compatible with MPS 2020.3.6 / jbr 11] 
+#  MoWare Werkbank 2022 (11) 
+MoWare Werkbank 2022 (11 edition) [Compatible with MPS 2020.3.6 / jbr 11] 
 
 MoWare Werkbank is a low code domain driven design platform for developing business applications. Efficiency and speed 
 while developing is at our heart. MoWare Werkbank makes any boiler plate code in your DDD business application superfluous. 
