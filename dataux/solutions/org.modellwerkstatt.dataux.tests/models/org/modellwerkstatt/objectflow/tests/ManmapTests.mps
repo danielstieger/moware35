@@ -30769,19 +30769,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="FplMliKw0w" role="1B3o_S" />
-    <node concept="2_xi3j" id="3zGP8DBKx5z" role="2_$AKh">
-      <property role="TrG5h" value="danMan" />
-      <node concept="1Q8zPT" id="3zGP8DBKx5_" role="2_xi3e">
-        <node concept="19SGf9" id="3zGP8DBKx5B" role="1Q8hHE">
-          <node concept="19SUe$" id="3zGP8DBKx5C" role="19SJt6" />
-        </node>
-        <node concept="1PaTwC" id="3zGP8DBKx5E" role="2KarBZ">
-          <node concept="3oM_SD" id="3zGP8DBKx8C" role="1PaTwD">
-            <property role="3oM_SC" value="UPDATE;" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="1o6$dd" id="26OSHcuOdnl" role="2_$AKh">
       <property role="TrG5h" value="nkMapperComplex" />
       <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkDTO" />
