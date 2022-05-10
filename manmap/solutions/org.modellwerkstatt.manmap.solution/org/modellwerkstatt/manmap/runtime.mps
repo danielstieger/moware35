@@ -4323,6 +4323,17 @@
       </node>
       <node concept="10Oyi0" id="7p_SS2uZjBw" role="2RkE6I" />
     </node>
+    <node concept="2RhdJD" id="3SviUCzRl$D" role="jymVt">
+      <property role="2RkwnN" value="dummyStringProperty" />
+      <node concept="3Tm1VV" id="3SviUCzRl$E" role="1B3o_S" />
+      <node concept="2RoN1w" id="3SviUCzRl$F" role="2RnVtd">
+        <node concept="3wEZqW" id="3SviUCzRl$G" role="3wFrgM" />
+        <node concept="3xqBd$" id="3SviUCzRl$H" role="3xrYvX">
+          <node concept="3Tm1VV" id="3SviUCzRl$I" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="3SviUCzRlMc" role="2RkE6I" />
+    </node>
     <node concept="2RhdJD" id="7p_SS2uZUCh" role="jymVt">
       <property role="2RkwnN" value="dummyDateTimeProperty" />
       <node concept="3Tm1VV" id="7p_SS2uZUCi" role="1B3o_S" />
