@@ -714,7 +714,7 @@
                             <node concept="3cpWs3" id="7gwY4W66ENJ" role="37wK5m">
                               <node concept="3cpWs3" id="4CC4ok07lV2" role="3uHU7B">
                                 <node concept="Xl_RD" id="4CC4ok07q88" role="3uHU7w">
-                                  <property role="Xl_RC" value=") is not allowed. NEW=" />
+                                  <property role="Xl_RC" value=") is not allowed. You set new val=" />
                                 </node>
                                 <node concept="3cpWs3" id="4CC4ok07tWv" role="3uHU7B">
                                   <node concept="2OqwBi" id="4CC4ok07uEk" role="3uHU7w">

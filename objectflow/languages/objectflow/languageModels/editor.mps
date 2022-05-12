@@ -615,6 +615,12 @@
       <concept id="5168775467716640652" name="jetbrains.mps.lang.smodel.structure.OperationParm_LinkQualifier" flags="ng" index="1aIX9F">
         <child id="5168775467716640653" name="linkQualifier" index="1aIX9E" />
       </concept>
+      <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
+        <child id="1154546920563" name="concept" index="3gmYPZ" />
+      </concept>
+      <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">
+        <reference id="1154546997487" name="concept" index="3gnhBz" />
+      </concept>
       <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
         <reference id="1182511038750" name="concept" index="1j9C0d" />
       </concept>
@@ -11091,15 +11097,16 @@
             <node concept="3cpWs8" id="1iISEUi_hGV" role="3cqZAp">
               <node concept="3cpWsn" id="1iISEUi_hGW" role="3cpWs9">
                 <property role="TrG5h" value="origSn" />
-                <node concept="3Tqbb2" id="1iISEUi_hGX" role="1tU5fm">
-                  <ref role="ehGHo" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
-                </node>
+                <node concept="3Tqbb2" id="1iISEUi_hGX" role="1tU5fm" />
                 <node concept="2OqwBi" id="1iISEUi_hGY" role="33vP2m">
                   <node concept="7Obwk" id="1iISEUi_hHn" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="1iISEUi_hH0" role="2OqNvi">
-                    <node concept="1xMEDy" id="1iISEUi_hH1" role="1xVPHs">
-                      <node concept="chp4Y" id="1iISEUi_hH2" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                    <node concept="3gmYPX" id="5kHCeeYLwrw" role="1xVPHs">
+                      <node concept="3gn64h" id="5kHCeeYLwrx" role="3gmYPZ">
+                        <ref role="3gnhBz" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                      </node>
+                      <node concept="3gn64h" id="5kHCeeYLwry" role="3gmYPZ">
+                        <ref role="3gnhBz" to="tpee:fJuHJVf" resolve="BinaryOperation" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1iISEUi_hH3" role="1xVPHs" />
@@ -11136,9 +11143,12 @@
                 <node concept="2OqwBi" id="1iISEUi_hHf" role="37vLTx">
                   <node concept="7Obwk" id="1iISEUi_hHo" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="1iISEUi_hHh" role="2OqNvi">
-                    <node concept="1xMEDy" id="1iISEUi_hHi" role="1xVPHs">
-                      <node concept="chp4Y" id="1iISEUi_hHj" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                    <node concept="3gmYPX" id="5kHCeeYLwFn" role="1xVPHs">
+                      <node concept="3gn64h" id="5kHCeeYLwFo" role="3gmYPZ">
+                        <ref role="3gnhBz" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                      </node>
+                      <node concept="3gn64h" id="5kHCeeYLwFp" role="3gmYPZ">
+                        <ref role="3gnhBz" to="tpee:fJuHJVf" resolve="BinaryOperation" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1iISEUi_hHk" role="1xVPHs" />
@@ -11174,9 +11184,12 @@
                 <node concept="2OqwBi" id="7cmgiVYmOTq" role="2Oq$k0">
                   <node concept="7Obwk" id="7cmgiVYmOGa" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="7cmgiVYmPpW" role="2OqNvi">
-                    <node concept="1xMEDy" id="7cmgiVYmPpY" role="1xVPHs">
-                      <node concept="chp4Y" id="7cmgiVYmPCb" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                    <node concept="3gmYPX" id="5kHCeeYLvgd" role="1xVPHs">
+                      <node concept="3gn64h" id="5kHCeeYLvgg" role="3gmYPZ">
+                        <ref role="3gnhBz" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                      </node>
+                      <node concept="3gn64h" id="5kHCeeYLvwA" role="3gmYPZ">
+                        <ref role="3gnhBz" to="tpee:fJuHJVf" resolve="BinaryOperation" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="7cmgiVYmQ06" role="1xVPHs" />
@@ -11203,15 +11216,16 @@
             <node concept="3cpWs8" id="1iISEUi_hHD" role="3cqZAp">
               <node concept="3cpWsn" id="1iISEUi_hHE" role="3cpWs9">
                 <property role="TrG5h" value="origSn" />
-                <node concept="3Tqbb2" id="1iISEUi_hHF" role="1tU5fm">
-                  <ref role="ehGHo" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
-                </node>
+                <node concept="3Tqbb2" id="1iISEUi_hHF" role="1tU5fm" />
                 <node concept="2OqwBi" id="1iISEUi_hHG" role="33vP2m">
                   <node concept="7Obwk" id="1iISEUi_hI5" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="1iISEUi_hHI" role="2OqNvi">
-                    <node concept="1xMEDy" id="1iISEUi_hHJ" role="1xVPHs">
-                      <node concept="chp4Y" id="1iISEUi_hHK" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                    <node concept="3gmYPX" id="5kHCeeYLwIg" role="1xVPHs">
+                      <node concept="3gn64h" id="5kHCeeYLwIh" role="3gmYPZ">
+                        <ref role="3gnhBz" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                      </node>
+                      <node concept="3gn64h" id="5kHCeeYLwIi" role="3gmYPZ">
+                        <ref role="3gnhBz" to="tpee:fJuHJVf" resolve="BinaryOperation" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1iISEUi_hHL" role="1xVPHs" />
@@ -11248,9 +11262,12 @@
                 <node concept="2OqwBi" id="1iISEUi_hHX" role="37vLTx">
                   <node concept="7Obwk" id="1iISEUi_hI6" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="1iISEUi_hHZ" role="2OqNvi">
-                    <node concept="1xMEDy" id="1iISEUi_hI0" role="1xVPHs">
-                      <node concept="chp4Y" id="1iISEUi_hI1" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                    <node concept="3gmYPX" id="5kHCeeYLx2Y" role="1xVPHs">
+                      <node concept="3gn64h" id="5kHCeeYLx2Z" role="3gmYPZ">
+                        <ref role="3gnhBz" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                      </node>
+                      <node concept="3gn64h" id="5kHCeeYLx30" role="3gmYPZ">
+                        <ref role="3gnhBz" to="tpee:fJuHJVf" resolve="BinaryOperation" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1iISEUi_hI2" role="1xVPHs" />
@@ -11286,9 +11303,12 @@
                 <node concept="2OqwBi" id="7cmgiVYmR6f" role="2Oq$k0">
                   <node concept="7Obwk" id="7cmgiVYmR6g" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="7cmgiVYmR6h" role="2OqNvi">
-                    <node concept="1xMEDy" id="7cmgiVYmR6i" role="1xVPHs">
-                      <node concept="chp4Y" id="7cmgiVYmR6j" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                    <node concept="3gmYPX" id="5kHCeeYLwOf" role="1xVPHs">
+                      <node concept="3gn64h" id="5kHCeeYLwOg" role="3gmYPZ">
+                        <ref role="3gnhBz" to="un0u:6RAFKVMR_DQ" resolve="StatusOfOperator" />
+                      </node>
+                      <node concept="3gn64h" id="5kHCeeYLwOh" role="3gmYPZ">
+                        <ref role="3gnhBz" to="tpee:fJuHJVf" resolve="BinaryOperation" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="7cmgiVYmR6k" role="1xVPHs" />
