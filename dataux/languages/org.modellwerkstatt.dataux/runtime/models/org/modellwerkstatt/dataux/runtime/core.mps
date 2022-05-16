@@ -20460,13 +20460,16 @@
                     <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
                   </node>
                   <node concept="liA8E" id="6bl3$WOKKVI" role="2OqNvi">
-                    <ref role="37wK5l" node="4nH4LOErIJJ" resolve="logFrmwrkProblem" />
+                    <ref role="37wK5l" node="4FgSVMsprD7" resolve="logFrmwrkProblem" />
                     <node concept="37vLTw" id="4nH4LOEt$qe" role="37wK5m">
                       <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
                     </node>
                     <node concept="10M0yZ" id="4g_sjDLaP6W" role="37wK5m">
                       <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
                       <ref role="3cqZAo" to="28jr:4g_sjDL91Z4" resolve="APP" />
+                    </node>
+                    <node concept="37vLTw" id="gUBnNqU50$" role="37wK5m">
+                      <ref role="3cqZAo" node="6bl3$WOKJCj" resolve="ex" />
                     </node>
                     <node concept="3cpWs3" id="6bl3$WOKLFb" role="37wK5m">
                       <node concept="Xl_RD" id="6bl3$WOKLFK" role="3uHU7w">
@@ -20489,13 +20492,6 @@
                             <property role="Xl_RC" value=" / " />
                           </node>
                         </node>
-                      </node>
-                    </node>
-                    <node concept="2YIFZM" id="6bl3$WOKKVL" role="37wK5m">
-                      <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                      <node concept="37vLTw" id="6bl3$WOKMp5" role="37wK5m">
-                        <ref role="3cqZAo" node="6bl3$WOKJCj" resolve="ex" />
                       </node>
                     </node>
                   </node>
