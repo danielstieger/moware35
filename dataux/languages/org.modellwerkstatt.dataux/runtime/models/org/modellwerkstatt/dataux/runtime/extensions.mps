@@ -2059,5 +2059,35 @@
       <property role="TrG5h" value="T" />
     </node>
   </node>
+  <node concept="3HP615" id="1LATE1Cf4V2">
+    <property role="TrG5h" value="ICommandsListener" />
+    <node concept="2tJIrI" id="1LATE1Cf4VA" role="jymVt" />
+    <node concept="3clFb_" id="1LATE1Cf4Wv" role="jymVt">
+      <property role="TrG5h" value="beforeCommandInit" />
+      <node concept="37vLTG" id="1LATE1Cf4Xu" role="3clF46">
+        <property role="TrG5h" value="fullCmdNameAndSuccessor" />
+        <node concept="17QB3L" id="1LATE1Cf4XP" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1LATE1Cf4Wx" role="3clF45" />
+      <node concept="3Tm1VV" id="1LATE1Cf4Wy" role="1B3o_S" />
+      <node concept="3clFbS" id="1LATE1Cf4Wz" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1LATE1Cf4Yy" role="jymVt">
+      <property role="TrG5h" value="afterCommandTermination" />
+      <node concept="37vLTG" id="1LATE1Cf4Yz" role="3clF46">
+        <property role="TrG5h" value="fullCmdNameAndSuccessor" />
+        <node concept="17QB3L" id="1LATE1Cf4Y$" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1LATE1Cf5_q" role="3clF46">
+        <property role="TrG5h" value="wasOk" />
+        <node concept="10P_77" id="1LATE1Cf5_W" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1LATE1Cf4Y_" role="3clF45" />
+      <node concept="3Tm1VV" id="1LATE1Cf4YA" role="1B3o_S" />
+      <node concept="3clFbS" id="1LATE1Cf4YB" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1LATE1Cf4Wj" role="jymVt" />
+    <node concept="3Tm1VV" id="1LATE1Cf4V3" role="1B3o_S" />
+  </node>
 </model>
 

@@ -8453,7 +8453,12 @@
       <node concept="3Tm6S6" id="5XGplYAVaOY" role="1B3o_S" />
       <node concept="17QB3L" id="5XGplYAVaZX" role="1tU5fm" />
     </node>
-    <node concept="2tJIrI" id="Y3fiVL8S6h" role="jymVt" />
+    <node concept="Wx3nA" id="3OJPVoyEpte" role="jymVt">
+      <property role="TrG5h" value="ALLOW_EURO_SIGN" />
+      <node concept="10P_77" id="3OJPVoyEp7P" role="1tU5fm" />
+      <node concept="3Tm1VV" id="3OJPVoyEnxS" role="1B3o_S" />
+      <node concept="3clFbT" id="3OJPVoyEoQ_" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="2vHEu_NFgLl" role="jymVt" />
     <node concept="3clFbW" id="1lpzdTlM41v" role="jymVt">
       <node concept="3cqZAl" id="1lpzdTlM41x" role="3clF45" />
@@ -8512,6 +8517,39 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5XGplYAV7vM" role="jymVt" />
+    <node concept="3clFb_" id="3OJPVoyEqto" role="jymVt">
+      <property role="TrG5h" value="setAllowEuroSign" />
+      <node concept="37vLTG" id="3OJPVoyEs6m" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="3OJPVoyEssX" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="3OJPVoyEqtq" role="3clF45" />
+      <node concept="3Tm1VV" id="3OJPVoyEqtr" role="1B3o_S" />
+      <node concept="3clFbS" id="3OJPVoyEqts" role="3clF47">
+        <node concept="3clFbF" id="3OJPVoyEv4$" role="3cqZAp">
+          <node concept="37vLTI" id="3OJPVoyEvyL" role="3clFbG">
+            <node concept="37vLTw" id="3OJPVoyEv$M" role="37vLTx">
+              <ref role="3cqZAo" node="3OJPVoyEs6m" resolve="val" />
+            </node>
+            <node concept="37vLTw" id="3OJPVoyEv4z" role="37vLTJ">
+              <ref role="3cqZAo" node="3OJPVoyEpte" resolve="ALLOW_EURO_SIGN" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3OJPVoyEsww" role="jymVt">
+      <property role="TrG5h" value="getAllowEuroSign" />
+      <node concept="10P_77" id="3OJPVoyEtbw" role="3clF45" />
+      <node concept="3Tm1VV" id="3OJPVoyEsw$" role="1B3o_S" />
+      <node concept="3clFbS" id="3OJPVoyEsw_" role="3clF47">
+        <node concept="3clFbF" id="3OJPVoyEu8K" role="3cqZAp">
+          <node concept="37vLTw" id="3OJPVoyEu8J" role="3clFbG">
+            <ref role="3cqZAo" node="3OJPVoyEpte" resolve="ALLOW_EURO_SIGN" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5XGplYAYxDj" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getSettingsDescription" />

@@ -25575,7 +25575,48 @@
           </node>
         </node>
         <node concept="3clFbH" id="5YVCCVeHmlz" role="3cqZAp" />
-        <node concept="3clFbH" id="4DaB5G9Hp0f" role="3cqZAp" />
+        <node concept="3J1_TO" id="1LATE1Cg5Ky" role="3cqZAp">
+          <node concept="3uVAMA" id="1LATE1Cg7vZ" role="1zxBo5">
+            <node concept="XOnhg" id="1LATE1Cg7w0" role="1zc67B">
+              <property role="TrG5h" value="t" />
+              <node concept="nSUau" id="1LATE1Cg7w1" role="1tU5fm">
+                <node concept="3uibUv" id="1LATE1Cg8nM" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="1LATE1Cg7w2" role="1zc67A">
+              <node concept="3clFbF" id="1LATE1Cg97G" role="3cqZAp">
+                <node concept="2OqwBi" id="1LATE1Cg97H" role="3clFbG">
+                  <node concept="37vLTw" id="1LATE1Cg97I" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                  </node>
+                  <node concept="liA8E" id="1LATE1Cg97J" role="2OqNvi">
+                    <ref role="37wK5l" node="4FgSVMsDhDQ" resolve="logAppProblem" />
+                    <node concept="37vLTw" id="1LATE1Cg97K" role="37wK5m">
+                      <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
+                    </node>
+                    <node concept="10M0yZ" id="1LATE1Cg97L" role="37wK5m">
+                      <ref role="3cqZAo" to="28jr:4g_sjDL91Z4" resolve="APP" />
+                      <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                    </node>
+                    <node concept="37vLTw" id="1LATE1Cge03" role="37wK5m">
+                      <ref role="3cqZAo" node="1LATE1Cg7w0" resolve="t" />
+                    </node>
+                    <node concept="Xl_RD" id="1LATE1Cg97M" role="37wK5m">
+                      <property role="Xl_RC" value="CommandContainer.fg_closeUiAndContainer(): Exception while processing command listener afterTermination()." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1LATE1CgcLI" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="1LATE1Cg5K$" role="1zxBo7">
+            <node concept="3clFbH" id="1LATE1Cg5Kz" role="3cqZAp" />
+            <node concept="3clFbH" id="1LATE1Cgmr4" role="3cqZAp" />
+          </node>
+        </node>
         <node concept="3SKdUt" id="64d_SurwvrN" role="3cqZAp">
           <node concept="1PaTwC" id="5HvIBdJXHJm" role="1aUNEU">
             <node concept="3oM_SD" id="5HvIBdJXHJn" role="1PaTwD">
@@ -37301,7 +37342,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="3PbVxlO36EF" role="3cqZAp" />
+                    <node concept="3clFbH" id="1LATE1CfnGI" role="3cqZAp" />
                     <node concept="3clFbJ" id="3GQ300QsYKQ" role="3cqZAp">
                       <node concept="3clFbS" id="3GQ300QsYKS" role="3clFbx">
                         <node concept="3clFbF" id="3GQ300QtnLQ" role="3cqZAp">

@@ -585,24 +585,32 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="1Wc70l" id="xFWXJS7eWO" role="3clFbw">
-                          <node concept="2OqwBi" id="xFWXJS7gfj" role="3uHU7w">
-                            <node concept="37vLTw" id="xFWXJS7g59" role="2Oq$k0">
-                              <ref role="3cqZAo" node="xFWXJS7fH9" resolve="text" />
-                            </node>
-                            <node concept="liA8E" id="xFWXJS7god" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                              <node concept="Xl_RD" id="3sEA$PIzyYo" role="37wK5m">
-                                <property role="Xl_RC" value="€" />
-                              </node>
+                        <node concept="1Wc70l" id="3OJPVoyEQ$S" role="3clFbw">
+                          <node concept="3fqX7Q" id="3OJPVoyETdv" role="3uHU7w">
+                            <node concept="10M0yZ" id="3OJPVoyEVnq" role="3fr31v">
+                              <ref role="3cqZAo" to="nkg7:3OJPVoyEpte" resolve="ALLOW_EURO_SIGN" />
+                              <ref role="1PxDUh" to="nkg7:41UdyNB$u$Z" resolve="VUiFactory" />
                             </node>
                           </node>
-                          <node concept="2OqwBi" id="xFWXJS7cWn" role="3uHU7B">
-                            <node concept="37vLTw" id="xFWXJS7cEN" role="2Oq$k0">
-                              <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+                          <node concept="1Wc70l" id="xFWXJS7eWO" role="3uHU7B">
+                            <node concept="2OqwBi" id="xFWXJS7cWn" role="3uHU7B">
+                              <node concept="37vLTw" id="xFWXJS7cEN" role="2Oq$k0">
+                                <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+                              </node>
+                              <node concept="liA8E" id="xFWXJS7eoG" role="2OqNvi">
+                                <ref role="37wK5l" to="waq:~AbstractComponent.isEnabled()" resolve="isEnabled" />
+                              </node>
                             </node>
-                            <node concept="liA8E" id="xFWXJS7eoG" role="2OqNvi">
-                              <ref role="37wK5l" to="waq:~AbstractComponent.isEnabled()" resolve="isEnabled" />
+                            <node concept="2OqwBi" id="xFWXJS7gfj" role="3uHU7w">
+                              <node concept="37vLTw" id="xFWXJS7g59" role="2Oq$k0">
+                                <ref role="3cqZAo" node="xFWXJS7fH9" resolve="text" />
+                              </node>
+                              <node concept="liA8E" id="xFWXJS7god" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                                <node concept="Xl_RD" id="3sEA$PIzyYo" role="37wK5m">
+                                  <property role="Xl_RC" value="€" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -4770,24 +4778,32 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="1Wc70l" id="6KBCmIORgvM" role="3clFbw">
-                          <node concept="2OqwBi" id="6KBCmIORgvN" role="3uHU7w">
-                            <node concept="37vLTw" id="6KBCmIORgvO" role="2Oq$k0">
-                              <ref role="3cqZAo" node="6KBCmIORgvl" resolve="text" />
-                            </node>
-                            <node concept="liA8E" id="6KBCmIORgvP" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                              <node concept="Xl_RD" id="6KBCmIORgvQ" role="37wK5m">
-                                <property role="Xl_RC" value="€" />
-                              </node>
+                        <node concept="1Wc70l" id="3OJPVoyF2ST" role="3clFbw">
+                          <node concept="3fqX7Q" id="3OJPVoyF5Ki" role="3uHU7w">
+                            <node concept="10M0yZ" id="3OJPVoyF6DZ" role="3fr31v">
+                              <ref role="3cqZAo" to="nkg7:3OJPVoyEpte" resolve="ALLOW_EURO_SIGN" />
+                              <ref role="1PxDUh" to="nkg7:41UdyNB$u$Z" resolve="VUiFactory" />
                             </node>
                           </node>
-                          <node concept="2OqwBi" id="6KBCmIORgvR" role="3uHU7B">
-                            <node concept="37vLTw" id="6KBCmIORgvS" role="2Oq$k0">
-                              <ref role="3cqZAo" node="6KBCmIORgus" resolve="textArea" />
+                          <node concept="1Wc70l" id="6KBCmIORgvM" role="3uHU7B">
+                            <node concept="2OqwBi" id="6KBCmIORgvR" role="3uHU7B">
+                              <node concept="37vLTw" id="6KBCmIORgvS" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6KBCmIORgus" resolve="textArea" />
+                              </node>
+                              <node concept="liA8E" id="6KBCmIORgvT" role="2OqNvi">
+                                <ref role="37wK5l" to="waq:~AbstractComponent.isEnabled()" resolve="isEnabled" />
+                              </node>
                             </node>
-                            <node concept="liA8E" id="6KBCmIORgvT" role="2OqNvi">
-                              <ref role="37wK5l" to="waq:~AbstractComponent.isEnabled()" resolve="isEnabled" />
+                            <node concept="2OqwBi" id="6KBCmIORgvN" role="3uHU7w">
+                              <node concept="37vLTw" id="6KBCmIORgvO" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6KBCmIORgvl" resolve="text" />
+                              </node>
+                              <node concept="liA8E" id="6KBCmIORgvP" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                                <node concept="Xl_RD" id="6KBCmIORgvQ" role="37wK5m">
+                                  <property role="Xl_RC" value="€" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
