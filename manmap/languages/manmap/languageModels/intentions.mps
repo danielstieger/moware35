@@ -522,7 +522,7 @@
       <node concept="3clFbS" id="2sBNOGoREyc" role="2VODD2">
         <node concept="3clFbF" id="2sBNOGoREyV" role="3cqZAp">
           <node concept="Xl_RD" id="2sBNOGoREyU" role="3clFbG">
-            <property role="Xl_RC" value="Copy SQL 'correctly' to Clipboard" />
+            <property role="Xl_RC" value="Copy SQL" />
           </node>
         </node>
       </node>
@@ -602,7 +602,7 @@
       <node concept="3clFbS" id="5DH_KhuR3vc" role="2VODD2">
         <node concept="3clFbF" id="5DH_KhuR3vd" role="3cqZAp">
           <node concept="Xl_RD" id="5DH_KhuR3ve" role="3clFbG">
-            <property role="Xl_RC" value="Copy SQL 'correctly' from Clipboard" />
+            <property role="Xl_RC" value="Paste SQL" />
           </node>
         </node>
       </node>
