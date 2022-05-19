@@ -4928,6 +4928,11 @@
       <node concept="3Tm6S6" id="g2nNIPm_qR" role="1B3o_S" />
       <node concept="10P_77" id="g2nNIPm_qS" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="467ssIp8003" role="jymVt">
+      <property role="TrG5h" value="alwaysRollbackSession" />
+      <node concept="3Tm6S6" id="467ssIp8004" role="1B3o_S" />
+      <node concept="10P_77" id="467ssIp8005" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="4L33b_FHrBe" role="jymVt">
       <property role="TrG5h" value="isLocked" />
       <property role="34CwA1" value="true" />
@@ -5066,6 +5071,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="467ssIp88Oo" role="3cqZAp">
+          <node concept="37vLTI" id="467ssIp89ls" role="3clFbG">
+            <node concept="3clFbT" id="467ssIp89pe" role="37vLTx" />
+            <node concept="2OqwBi" id="467ssIp891n" role="37vLTJ">
+              <node concept="Xjq3P" id="467ssIp88Om" role="2Oq$k0" />
+              <node concept="2OwXpG" id="467ssIp898i" role="2OqNvi">
+                <ref role="2Oxat5" node="467ssIp8003" resolve="alwaysRollbackSession" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4L33b_FS1TL" role="3cqZAp">
           <node concept="37vLTI" id="4L33b_FS2bb" role="3clFbG">
             <node concept="10Nm6u" id="4L33b_FS2dk" role="37vLTx" />
@@ -5160,6 +5176,10 @@
           <ref role="3uigEE" node="67D5vCCQkbw" resolve="IOFXUserServices" />
         </node>
       </node>
+      <node concept="37vLTG" id="467ssIp7SZj" role="3clF46">
+        <property role="TrG5h" value="rollbackAlways" />
+        <node concept="10P_77" id="467ssIp7Zzl" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="3ooJmL_GGNy" role="3clF45" />
       <node concept="3Tm1VV" id="3ooJmL_GGNz" role="1B3o_S" />
       <node concept="3clFbS" id="3ooJmL_GGN$" role="3clF47">
@@ -5180,6 +5200,16 @@
             </node>
             <node concept="37vLTw" id="3ooJmL_GOrQ" role="37vLTJ">
               <ref role="3cqZAo" node="67D5vCCQsKH" resolve="usersServices" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="467ssIp8aa4" role="3cqZAp">
+          <node concept="37vLTI" id="467ssIp8aVM" role="3clFbG">
+            <node concept="37vLTw" id="467ssIp8b$R" role="37vLTx">
+              <ref role="3cqZAo" node="467ssIp7SZj" resolve="rollbackAlways" />
+            </node>
+            <node concept="37vLTw" id="467ssIp8aa2" role="37vLTJ">
+              <ref role="3cqZAo" node="467ssIp8003" resolve="alwaysRollbackSession" />
             </node>
           </node>
         </node>
@@ -5927,15 +5957,39 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="7$A8r6g3qnr" role="3cqZAp">
-              <node concept="2OqwBi" id="7$A8r6g3qns" role="3clFbG">
-                <node concept="37vLTw" id="6svR_JBEN$5" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+            <node concept="3clFbJ" id="467ssIp8cSs" role="3cqZAp">
+              <node concept="3clFbS" id="467ssIp8cSu" role="3clFbx">
+                <node concept="3clFbF" id="467ssIp8e4H" role="3cqZAp">
+                  <node concept="2OqwBi" id="467ssIp8eRV" role="3clFbG">
+                    <node concept="37vLTw" id="467ssIp8e4F" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                    </node>
+                    <node concept="liA8E" id="467ssIp8fAk" role="2OqNvi">
+                      <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
+                      <node concept="37vLTw" id="467ssIp8fP9" role="37wK5m">
+                        <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="7$A8r6g3xbN" role="2OqNvi">
-                  <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.commit(org.springframework.transaction.TransactionStatus)" resolve="commit" />
-                  <node concept="37vLTw" id="6svR_JBENS4" role="37wK5m">
-                    <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+              </node>
+              <node concept="37vLTw" id="467ssIp8dlW" role="3clFbw">
+                <ref role="3cqZAo" node="467ssIp8003" resolve="alwaysRollbackSession" />
+              </node>
+              <node concept="9aQIb" id="467ssIp8fWN" role="9aQIa">
+                <node concept="3clFbS" id="467ssIp8fWO" role="9aQI4">
+                  <node concept="3clFbF" id="7$A8r6g3qnr" role="3cqZAp">
+                    <node concept="2OqwBi" id="7$A8r6g3qns" role="3clFbG">
+                      <node concept="37vLTw" id="6svR_JBEN$5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                      </node>
+                      <node concept="liA8E" id="7$A8r6g3xbN" role="2OqNvi">
+                        <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.commit(org.springframework.transaction.TransactionStatus)" resolve="commit" />
+                        <node concept="37vLTw" id="6svR_JBENS4" role="37wK5m">
+                          <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6069,15 +6123,39 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbF" id="1fVuXfYtcpS" role="3cqZAp">
-                            <node concept="2OqwBi" id="1fVuXfYtcpW" role="3clFbG">
-                              <node concept="37vLTw" id="6svR_JBENyj" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                          <node concept="3clFbJ" id="467ssIp8ih6" role="3cqZAp">
+                            <node concept="3clFbS" id="467ssIp8ih7" role="3clFbx">
+                              <node concept="3clFbF" id="467ssIp8ih8" role="3cqZAp">
+                                <node concept="2OqwBi" id="467ssIp8ih9" role="3clFbG">
+                                  <node concept="37vLTw" id="467ssIp8iha" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                                  </node>
+                                  <node concept="liA8E" id="467ssIp8ihb" role="2OqNvi">
+                                    <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
+                                    <node concept="37vLTw" id="467ssIp8ihc" role="37wK5m">
+                                      <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
-                              <node concept="liA8E" id="1fVuXfYtcq1" role="2OqNvi">
-                                <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.commit(org.springframework.transaction.TransactionStatus)" resolve="commit" />
-                                <node concept="37vLTw" id="6svR_JBENR4" role="37wK5m">
-                                  <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+                            </node>
+                            <node concept="37vLTw" id="467ssIp8ihd" role="3clFbw">
+                              <ref role="3cqZAo" node="467ssIp8003" resolve="alwaysRollbackSession" />
+                            </node>
+                            <node concept="9aQIb" id="467ssIp8ihe" role="9aQIa">
+                              <node concept="3clFbS" id="467ssIp8ihf" role="9aQI4">
+                                <node concept="3clFbF" id="467ssIp8ihg" role="3cqZAp">
+                                  <node concept="2OqwBi" id="467ssIp8ihh" role="3clFbG">
+                                    <node concept="37vLTw" id="467ssIp8ihi" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                                    </node>
+                                    <node concept="liA8E" id="467ssIp8ihj" role="2OqNvi">
+                                      <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.commit(org.springframework.transaction.TransactionStatus)" resolve="commit" />
+                                      <node concept="37vLTw" id="467ssIp8ihk" role="37wK5m">
+                                        <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+                                      </node>
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -6627,15 +6705,39 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="1l1sktc6Is3" role="3cqZAp">
-              <node concept="2OqwBi" id="1l1sktc6Is4" role="3clFbG">
-                <node concept="37vLTw" id="1l1sktc6Is5" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+            <node concept="3clFbJ" id="467ssIp8j3Y" role="3cqZAp">
+              <node concept="3clFbS" id="467ssIp8j3Z" role="3clFbx">
+                <node concept="3clFbF" id="467ssIp8j40" role="3cqZAp">
+                  <node concept="2OqwBi" id="467ssIp8j41" role="3clFbG">
+                    <node concept="37vLTw" id="467ssIp8j42" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                    </node>
+                    <node concept="liA8E" id="467ssIp8j43" role="2OqNvi">
+                      <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
+                      <node concept="37vLTw" id="467ssIp8j44" role="37wK5m">
+                        <ref role="3cqZAo" node="1l1sktc6Iqz" resolve="status" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="1l1sktc6Is6" role="2OqNvi">
-                  <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.commit(org.springframework.transaction.TransactionStatus)" resolve="commit" />
-                  <node concept="37vLTw" id="1l1sktc6Is7" role="37wK5m">
-                    <ref role="3cqZAo" node="1l1sktc6Iqz" resolve="status" />
+              </node>
+              <node concept="37vLTw" id="467ssIp8j45" role="3clFbw">
+                <ref role="3cqZAo" node="467ssIp8003" resolve="alwaysRollbackSession" />
+              </node>
+              <node concept="9aQIb" id="467ssIp8j46" role="9aQIa">
+                <node concept="3clFbS" id="467ssIp8j47" role="9aQI4">
+                  <node concept="3clFbF" id="467ssIp8j48" role="3cqZAp">
+                    <node concept="2OqwBi" id="467ssIp8j49" role="3clFbG">
+                      <node concept="37vLTw" id="467ssIp8j4a" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                      </node>
+                      <node concept="liA8E" id="467ssIp8j4b" role="2OqNvi">
+                        <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.commit(org.springframework.transaction.TransactionStatus)" resolve="commit" />
+                        <node concept="37vLTw" id="467ssIp8j4c" role="37wK5m">
+                          <ref role="3cqZAo" node="1l1sktc6Iqz" resolve="status" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -32548,6 +32650,15 @@
       <node concept="10P_77" id="4IVaCyB40Ti" role="1tU5fm" />
       <node concept="3clFbT" id="4IVaCyB41C2" role="33vP2m" />
     </node>
+    <node concept="312cEg" id="467ssIp7tdV" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="alwaysRollbackSession" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="467ssIp7tdW" role="1B3o_S" />
+      <node concept="10P_77" id="467ssIp7tdX" role="1tU5fm" />
+      <node concept="3clFbT" id="467ssIpx6AW" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="4IVaCyB3ZJf" role="jymVt" />
     <node concept="3clFbW" id="41UdyNBCv8N" role="jymVt">
       <node concept="3cqZAl" id="41UdyNBCv8P" role="3clF45" />
@@ -32648,7 +32759,43 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="4IVaCyB46qH" role="jymVt" />
+    <node concept="3clFb_" id="467ssIp7_Nq" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getAlwaysRollbackSession" />
+      <node concept="3Tm1VV" id="467ssIp7_Nr" role="1B3o_S" />
+      <node concept="10P_77" id="467ssIp7_Ns" role="3clF45" />
+      <node concept="3clFbS" id="467ssIp7_Nt" role="3clF47">
+        <node concept="3clFbF" id="467ssIp7_Nu" role="3cqZAp">
+          <node concept="37vLTw" id="467ssIp7_Nv" role="3clFbG">
+            <ref role="3cqZAo" node="467ssIp7tdV" resolve="alwaysRollbackSession" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="467ssIp7_Nw" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="setAlwaysRollbackSession" />
+      <node concept="37vLTG" id="467ssIp7_Nx" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="467ssIp7_Ny" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="467ssIp7_Nz" role="1B3o_S" />
+      <node concept="3cqZAl" id="467ssIp7_N$" role="3clF45" />
+      <node concept="3clFbS" id="467ssIp7_N_" role="3clF47">
+        <node concept="3clFbF" id="467ssIp7_NA" role="3cqZAp">
+          <node concept="37vLTI" id="467ssIp7_NB" role="3clFbG">
+            <node concept="37vLTw" id="467ssIp7_NC" role="37vLTx">
+              <ref role="3cqZAo" node="467ssIp7_Nx" resolve="val" />
+            </node>
+            <node concept="37vLTw" id="467ssIp7_ND" role="37vLTJ">
+              <ref role="3cqZAo" node="467ssIp7tdV" resolve="alwaysRollbackSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="2qrl3a2nuuu" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getModuleByInstanceName" />
@@ -32949,6 +33096,9 @@
               </node>
               <node concept="37vLTw" id="6cn6oSwfXkR" role="37wK5m">
                 <ref role="3cqZAo" node="3ooJmL_OVvs" resolve="usrServ" />
+              </node>
+              <node concept="37vLTw" id="467ssIpx9vh" role="37wK5m">
+                <ref role="3cqZAo" node="467ssIp7tdV" resolve="alwaysRollbackSession" />
               </node>
             </node>
           </node>

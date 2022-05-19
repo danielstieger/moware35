@@ -41264,6 +41264,14 @@
       <node concept="3Tmbuc" id="467ssIoEQ2z" role="1B3o_S" />
       <node concept="10P_77" id="467ssIoEQ2$" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="467ssIp7tdV" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="alwaysRollbackSession" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="467ssIp7tdW" role="1B3o_S" />
+      <node concept="10P_77" id="467ssIp7tdX" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="6hRtSBir1_3" role="jymVt" />
     <node concept="2tJIrI" id="6hRtSBir1Mp" role="jymVt" />
     <node concept="312cEg" id="2IXpZ5J4ekj" role="jymVt">
@@ -41462,6 +41470,14 @@
             <node concept="3clFbT" id="467ssIoF1lT" role="37vLTx" />
             <node concept="37vLTw" id="467ssIoF1lU" role="37vLTJ">
               <ref role="3cqZAo" node="467ssIoEQ2y" resolve="reloadOnTabChange" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="467ssIp7vAH" role="3cqZAp">
+          <node concept="37vLTI" id="467ssIp7vWi" role="3clFbG">
+            <node concept="3clFbT" id="467ssIp7w1m" role="37vLTx" />
+            <node concept="37vLTw" id="467ssIp7vAF" role="37vLTJ">
+              <ref role="3cqZAo" node="467ssIp7tdV" resolve="alwaysRollbackSession" />
             </node>
           </node>
         </node>
@@ -41754,8 +41770,43 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="467ssIoESfB" role="jymVt" />
-    <node concept="2tJIrI" id="6hRtSBir5UQ" role="jymVt" />
+    <node concept="3clFb_" id="467ssIp7_Nq" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getAlwaysRollbackSession" />
+      <node concept="3Tm1VV" id="467ssIp7_Nr" role="1B3o_S" />
+      <node concept="10P_77" id="467ssIp7_Ns" role="3clF45" />
+      <node concept="3clFbS" id="467ssIp7_Nt" role="3clF47">
+        <node concept="3clFbF" id="467ssIp7_Nu" role="3cqZAp">
+          <node concept="37vLTw" id="467ssIp7_Nv" role="3clFbG">
+            <ref role="3cqZAo" node="467ssIp7tdV" resolve="alwaysRollbackSession" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="467ssIp7_Nw" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="setAlwaysRollbackSession" />
+      <node concept="37vLTG" id="467ssIp7_Nx" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="467ssIp7_Ny" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="467ssIp7_Nz" role="1B3o_S" />
+      <node concept="3cqZAl" id="467ssIp7_N$" role="3clF45" />
+      <node concept="3clFbS" id="467ssIp7_N_" role="3clF47">
+        <node concept="3clFbF" id="467ssIp7_NA" role="3cqZAp">
+          <node concept="37vLTI" id="467ssIp7_NB" role="3clFbG">
+            <node concept="37vLTw" id="467ssIp7_NC" role="37vLTx">
+              <ref role="3cqZAo" node="467ssIp7_Nx" resolve="val" />
+            </node>
+            <node concept="37vLTw" id="467ssIp7_ND" role="37vLTJ">
+              <ref role="3cqZAo" node="467ssIp7tdV" resolve="alwaysRollbackSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4Z3lS8AP7Bd" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -41770,7 +41821,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6v1stH8mC2E" role="jymVt" />
     <node concept="3clFb_" id="4X6$QoZ0GLg" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -42215,6 +42265,9 @@
               </node>
               <node concept="37vLTw" id="3ooJmL_GTGY" role="37wK5m">
                 <ref role="3cqZAo" node="3ooJmL_Gmoa" resolve="srv" />
+              </node>
+              <node concept="37vLTw" id="467ssIp8m8u" role="37wK5m">
+                <ref role="3cqZAo" node="467ssIp7tdV" resolve="alwaysRollbackSession" />
               </node>
             </node>
           </node>

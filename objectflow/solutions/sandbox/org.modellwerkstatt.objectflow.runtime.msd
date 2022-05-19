@@ -16,6 +16,13 @@
       <sourceRoot location="pdfbox-app-2.0.24.jar" />
       <sourceRoot location="fontbox-2.0.24.jar" />
     </modelRoot>
+    <modelRoot contentPath="${module}/jars/richclient" type="java_classes">
+      <sourceRoot location="log4j-api-2.17.1.jar" />
+      <sourceRoot location="log4j-core-2.17.1.jar" />
+      <sourceRoot location="log4j-jcl-2.17.1.jar" />
+      <sourceRoot location="log4j-slf4j-impl-2.17.1.jar" />
+      <sourceRoot location="activation-1.1.jar" />
+    </modelRoot>
     <modelRoot contentPath="${module}/jars" type="java_classes">
       <sourceRoot location="basis/slf4j-api-1.7.30.jar" />
       <sourceRoot location="richclient/mailapi.jar" />
@@ -26,13 +33,10 @@
       <sourceRoot location="printing21/pdfbox-app-2.0.24.jar" />
       <sourceRoot location="richclient/log4j-core-2.17.1.jar" />
       <sourceRoot location="richclient/log4j-api-2.17.1.jar" />
+      <sourceRoot location="basis/spring-web-5.2.9.RELEASE.jar" />
     </modelRoot>
-    <modelRoot contentPath="${module}/jars/richclient" type="java_classes">
-      <sourceRoot location="log4j-api-2.17.1.jar" />
-      <sourceRoot location="log4j-core-2.17.1.jar" />
-      <sourceRoot location="log4j-jcl-2.17.1.jar" />
-      <sourceRoot location="log4j-slf4j-impl-2.17.1.jar" />
-      <sourceRoot location="activation-1.1.jar" />
+    <modelRoot contentPath="${module}/jars/basis" type="java_classes">
+      <sourceRoot location="spring-web-5.2.9.RELEASE.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -67,6 +71,7 @@
     <stubModelEntry path="${module}/jars/richclient/log4j-jcl-2.17.1.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-slf4j-impl-2.17.1.jar" />
     <stubModelEntry path="${module}/jars/richclient/activation-1.1.jar" />
+    <stubModelEntry path="${module}/jars/basis/spring-web-5.2.9.RELEASE.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
