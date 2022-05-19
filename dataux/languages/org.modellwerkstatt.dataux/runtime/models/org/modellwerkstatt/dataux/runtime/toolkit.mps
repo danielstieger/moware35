@@ -268,7 +268,19 @@
       <node concept="3Tm1VV" id="5XGplYAWG3K" role="1B3o_S" />
       <node concept="3clFbS" id="5XGplYAWG3L" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="7HkVpVbYc7c" role="jymVt" />
+    <node concept="3clFb_" id="467ssIo$ZA1" role="jymVt">
+      <property role="TrG5h" value="getExperimentalFeatures" />
+      <node concept="10P_77" id="467ssIo$ZKe" role="3clF45" />
+      <node concept="3Tm1VV" id="467ssIo$ZA4" role="1B3o_S" />
+      <node concept="3clFbS" id="467ssIo$ZA5" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="467ssIoEBkm" role="jymVt">
+      <property role="TrG5h" value="getReloadOnTabChange" />
+      <node concept="10P_77" id="467ssIoEBkn" role="3clF45" />
+      <node concept="3Tm1VV" id="467ssIoEBko" role="1B3o_S" />
+      <node concept="3clFbS" id="467ssIoEBkp" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="467ssIo$YxS" role="jymVt" />
     <node concept="3clFb_" id="1SuqpWQX7r3" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createGenPagePaneByFqName" />
@@ -451,6 +463,7 @@
       <node concept="3clFbS" id="3sEA$PI$eTs" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="5Y1b9tR4bzl" role="jymVt" />
+    <node concept="2tJIrI" id="467ssIo$Ysv" role="jymVt" />
     <node concept="2tJIrI" id="6j4XqQEnNVy" role="jymVt" />
     <node concept="3clFb_" id="2vHEu_NBRze" role="jymVt">
       <property role="2aFKle" value="false" />
