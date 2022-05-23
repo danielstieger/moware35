@@ -2212,7 +2212,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="6S08D5JofmQ" role="3EZMnx">
-        <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
+        <property role="1$x2rV" value="&lt;component&gt;" />
         <ref role="1NtTu8" to="un0u:6S08D5JofmO" resolve="runtimeHandledObject" />
         <node concept="1sVBvm" id="6S08D5JofmR" role="1sWHZn">
           <node concept="3F0A7n" id="6S08D5JofmT" role="2wV5jI">
@@ -2233,6 +2233,8 @@
         </node>
       </node>
       <node concept="1iCGBv" id="6S08D5JofmK" role="3EZMnx">
+        <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
+        <property role="1$x2rV" value="&lt;method&gt;" />
         <ref role="1NtTu8" to="un0u:6S08D5Jofm$" resolve="instanceMethodDeclaration" />
         <node concept="1sVBvm" id="6S08D5JofmL" role="1sWHZn">
           <node concept="3F0A7n" id="6S08D5JofmN" role="2wV5jI">
