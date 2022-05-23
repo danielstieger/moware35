@@ -42625,7 +42625,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2022.20 (rfct5) (dev " />
+            <property role="Xl_RC" value="moware11 2022.21 (rfct6) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
@@ -59951,6 +59951,14 @@
                   <node concept="37vLTw" id="1OfmaES7ZdU" role="37wK5m">
                     <ref role="3cqZAo" node="1OfmaERY$lS" resolve="command" />
                   </node>
+                  <node concept="2OqwBi" id="2ntTMgV4wSB" role="37wK5m">
+                    <node concept="37vLTw" id="2ntTMgV4wP9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1OfmaERY$lS" resolve="command" />
+                    </node>
+                    <node concept="liA8E" id="2ntTMgV4xnY" role="2OqNvi">
+                      <ref role="37wK5l" node="4C7UZKDAoDO" resolve="getCommandSession" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -60561,6 +60569,14 @@
                 <ref role="37wK5l" node="1OfmaES7oY7" resolve="handlePages" />
                 <node concept="37vLTw" id="1OfmaES803H" role="37wK5m">
                   <ref role="3cqZAo" node="1OfmaERZGlz" resolve="successorCommand" />
+                </node>
+                <node concept="2OqwBi" id="2ntTMgV4vWc" role="37wK5m">
+                  <node concept="37vLTw" id="2ntTMgV4vv3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1OfmaERZGlz" resolve="successorCommand" />
+                  </node>
+                  <node concept="liA8E" id="2ntTMgV4wqP" role="2OqNvi">
+                    <ref role="37wK5l" node="4C7UZKDAoDO" resolve="getCommandSession" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -61295,6 +61311,12 @@
           <property role="TrG5h" value="__cmd" />
           <node concept="3uibUv" id="1OfmaES7psU" role="1tU5fm">
             <ref role="3uigEE" node="7rqBz8B3ElL" resolve="IOFXCommand" />
+          </node>
+        </node>
+        <node concept="37vLTG" id="2ntTMgV4oK4" role="3clF46">
+          <property role="TrG5h" value="__manMapSession" />
+          <node concept="3uibUv" id="2ntTMgV4v2a" role="1tU5fm">
+            <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
           </node>
         </node>
         <node concept="10P_77" id="1OfmaES7p7H" role="3clF45" />

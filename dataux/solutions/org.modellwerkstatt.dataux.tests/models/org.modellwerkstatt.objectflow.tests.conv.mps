@@ -193,6 +193,9 @@
         <child id="6135709767654760053" name="elements" index="GOFnN" />
         <child id="8174619299762601960" name="type" index="115eGp" />
       </concept>
+      <concept id="7270431012770461291" name="org.modellwerkstatt.objectflow.structure.BPRefIdReference" flags="ng" index="WNRgn">
+        <reference id="7270431012770461292" name="businessProperty" index="WNRgg" />
+      </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="4079546759073522236" name="configuredComponents" index="23Ghgl" />
@@ -319,7 +322,7 @@
       <property role="TrG5h" value="entityJsonTxt" />
       <node concept="17QB3L" id="mfwRPHcigI" role="1tU5fm" />
       <node concept="Xl_RD" id="mfwRPHcih1" role="33vP2m">
-        <property role="Xl_RC" value="{\&quot;id\&quot;:4711,\&quot;vo1\&quot;:{\&quot;myIntVal\&quot;:4712,\&quot;myStringVal\&quot;:\&quot;4712\&quot;},\&quot;vo2\&quot;:{\&quot;myIntVal\&quot;:4713,\&quot;myStringVal\&quot;:\&quot;4713\&quot;},\&quot;childs\&quot;:[{\&quot;id\&quot;:7,\&quot;name\&quot;:\&quot;Entity Child\&quot;}]}" />
+        <property role="Xl_RC" value="{\&quot;id\&quot;:4711,\&quot;vo1\&quot;:{\&quot;myIntVal\&quot;:4712,\&quot;myStringVal\&quot;:\&quot;4712\&quot;},\&quot;vo2\&quot;:{\&quot;myIntVal\&quot;:4713,\&quot;myStringVal\&quot;:\&quot;4713\&quot;},\&quot;childs\&quot;:[{\&quot;id\&quot;:7,\&quot;name\&quot;:\&quot;Entity Child\&quot;,\&quot;parentKEY\&quot;:4711}]}" />
       </node>
     </node>
     <node concept="3yPF9F" id="2o1C51ToPah" role="3yMuLx">
@@ -2737,8 +2740,10 @@
           </node>
         </node>
         <node concept="1gVbGN" id="mfwRPHcqTo" role="3cqZAp">
-          <node concept="3clFbC" id="mfwRPHcsb$" role="1gVkn0">
-            <node concept="10Nm6u" id="mfwRPHcsbR" role="3uHU7w" />
+          <node concept="3clFbC" id="2ntTMgVNAak" role="1gVkn0">
+            <node concept="3cmrfG" id="2ntTMgVNAcE" role="3uHU7w">
+              <property role="3cmrfH" value="4711" />
+            </node>
             <node concept="2OqwBi" id="mfwRPHcrTx" role="3uHU7B">
               <node concept="2OqwBi" id="mfwRPHcr_M" role="2Oq$k0">
                 <node concept="2OqwBi" id="mfwRPHcr1F" role="2Oq$k0">
@@ -2751,8 +2756,8 @@
                 </node>
                 <node concept="1uHKPH" id="mfwRPHcrIX" role="2OqNvi" />
               </node>
-              <node concept="2S8uIT" id="mfwRPHcs33" role="2OqNvi">
-                <ref role="2S8YL0" node="7_PeuXE_0Bi" resolve="parent" />
+              <node concept="WNRgn" id="2ntTMgVN_zC" role="2OqNvi">
+                <ref role="WNRgg" node="7_PeuXE_0Bi" resolve="parent" />
               </node>
             </node>
           </node>

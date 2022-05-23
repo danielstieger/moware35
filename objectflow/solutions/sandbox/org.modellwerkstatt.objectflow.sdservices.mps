@@ -5860,15 +5860,10 @@
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="3cpWs3" id="173gpc0JG6x" role="37wK5m">
                 <node concept="Xl_RD" id="173gpc0JG6P" role="3uHU7w">
-                  <property role="Xl_RC" value="] " />
+                  <property role="Xl_RC" value=": " />
                 </node>
-                <node concept="3cpWs3" id="173gpc0JG1g" role="3uHU7B">
-                  <node concept="Xl_RD" id="173gpc0JFqj" role="3uHU7B">
-                    <property role="Xl_RC" value="[" />
-                  </node>
-                  <node concept="37vLTw" id="173gpc0JG1v" role="3uHU7w">
-                    <ref role="3cqZAo" node="2G8k9pWNiyf" resolve="name" />
-                  </node>
+                <node concept="37vLTw" id="173gpc0JG1v" role="3uHU7B">
+                  <ref role="3cqZAo" node="2G8k9pWNiyf" resolve="name" />
                 </node>
               </node>
             </node>

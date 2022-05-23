@@ -22627,6 +22627,12 @@
             <ref role="3uigEE" to="28jr:7rqBz8B3ElL" resolve="IOFXCommand" />
           </node>
         </node>
+        <node concept="37vLTG" id="2ntTMgV4hKN" role="3clF46">
+          <property role="TrG5h" value="_manMapSession" />
+          <node concept="3uibUv" id="2ntTMgV4khJ" role="1tU5fm">
+            <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+          </node>
+        </node>
         <node concept="3cqZAl" id="1OfmaERZMB1" role="3clF45" />
         <node concept="3Tm1VV" id="1OfmaERZMB2" role="1B3o_S" />
         <node concept="3clFbS" id="1OfmaERZMB3" role="3clF47">
@@ -23434,7 +23440,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="1OfmaES9kEG" role="3cqZAp" />
               <node concept="3clFbF" id="1OfmaES82Xq" role="3cqZAp">
                 <node concept="2OqwBi" id="1OfmaES85yz" role="3clFbG">
                   <node concept="37vLTw" id="1OfmaES82Xo" role="2Oq$k0">
@@ -23455,6 +23460,12 @@
                               <property role="TrG5h" value="__cmd" />
                               <node concept="3uibUv" id="1OfmaES8MFf" role="1tU5fm">
                                 <ref role="3uigEE" to="28jr:7rqBz8B3ElL" resolve="IOFXCommand" />
+                              </node>
+                            </node>
+                            <node concept="37vLTG" id="2ntTMgV4zcH" role="3clF46">
+                              <property role="TrG5h" value="__manMapSession" />
+                              <node concept="3uibUv" id="2ntTMgV4zir" role="1tU5fm">
+                                <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
                               </node>
                             </node>
                             <node concept="10P_77" id="1OfmaES8MFg" role="3clF45" />
@@ -23529,6 +23540,12 @@
                                 <ref role="3uigEE" to="28jr:7rqBz8B3ElL" resolve="IOFXCommand" />
                               </node>
                             </node>
+                            <node concept="37vLTG" id="2ntTMgV4zvw" role="3clF46">
+                              <property role="TrG5h" value="__manMapSession" />
+                              <node concept="3uibUv" id="2ntTMgV4zvx" role="1tU5fm">
+                                <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+                              </node>
+                            </node>
                             <node concept="10P_77" id="1OfmaES8Xwn" role="3clF45" />
                             <node concept="3Tm1VV" id="1OfmaES8Xwo" role="1B3o_S" />
                             <node concept="3clFbS" id="1OfmaES8Xwp" role="3clF47">
@@ -23539,6 +23556,7 @@
                                   <node concept="3clFbT" id="1OfmaETN0q$" role="33vP2m" />
                                 </node>
                               </node>
+                              <node concept="3clFbH" id="2ntTMgV0VJv" role="3cqZAp" />
                               <node concept="3clFbJ" id="1OfmaES94py" role="3cqZAp">
                                 <node concept="3clFbS" id="1OfmaES94pz" role="3clFbx">
                                   <node concept="3clFbF" id="1OfmaETN0ww" role="3cqZAp">

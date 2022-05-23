@@ -260,6 +260,10 @@
       <concept id="4503841283131944576" name="org.modellwerkstatt.objectflow.structure.OFXRunCmdVarRef" flags="ng" index="3zknl8">
         <reference id="4503841283131945225" name="varRef" index="3zkmF1" />
       </concept>
+      <concept id="2356914237085017468" name="org.modellwerkstatt.objectflow.structure.LogStatement" flags="ng" index="3VdxhY">
+        <property id="830334255848575723" name="logLevel" index="Rda9K" />
+        <child id="2356914237085088917" name="exp" index="3VcgQn" />
+      </concept>
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.ViewObject" flags="ig" index="1YeyE5" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -1610,6 +1614,16 @@
                     <property role="TrG5h" value="orderDocumentPos" />
                     <ref role="3zdv75" node="4DaB5G8T0Ff" resolve="Page_0" />
                     <ref role="3zdv76" node="4DaB5G8T0L2" resolve="ok" />
+                    <node concept="3zdqQj" id="2ntTMgVgh8A" role="3zdlsu">
+                      <node concept="3clFbS" id="2ntTMgVgh8B" role="2VODD2">
+                        <node concept="3VdxhY" id="2ntTMgVgh92" role="3cqZAp">
+                          <property role="Rda9K" value="I5W9GWEMXX/DEBUG" />
+                          <node concept="Xl_RD" id="2ntTMgVgh9x" role="3VcgQn">
+                            <property role="Xl_RC" value="Hello World" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                   <node concept="2_HltQ" id="4DaB5G9nmzI" role="2TpcRq">
                     <ref role="2_Hrw8" node="4DaB5G8SXV5" resolve="GE" />
