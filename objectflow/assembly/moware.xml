@@ -291,11 +291,19 @@
 		<copy todir="${mowareWorkDir}/WEB-INF/lib">
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
-
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 							
 			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="spring-webmvc*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="spring-web*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="springdoc-openapi*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="swagger*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="spring-boot*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="jackson*.jar"/> 
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="commons-lang3*.jar"/> 
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="jakarta*.jar"/> 
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="webjars*.jar"/> 
+			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="classgraph*.jar"/> 
+			
 			
 			
             <fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
@@ -307,7 +315,6 @@
 		<copy file="${mowarePluginHomeDir}/ofassembly/artefact/rest-web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
-				  <replaceregex pattern="APPLICATION_NAME"       replace="${appName}"/>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
 				  <replaceregex pattern="APPLICATION_CONFIG"       replace="WEB-INF/classes/${appConfiguration}"/>
 				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
