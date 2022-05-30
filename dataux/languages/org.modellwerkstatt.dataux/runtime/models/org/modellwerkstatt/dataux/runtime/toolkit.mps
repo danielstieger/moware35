@@ -604,6 +604,23 @@
         <node concept="10P_77" id="5Y1b9tR2euj" role="1tU5fm" />
       </node>
     </node>
+    <node concept="3clFb_" id="1DW7q9hZZGY" role="jymVt">
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i0fbp" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i0flb" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9hZZH0" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9hZZH1" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hZZH2" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="7Sjrk8xhK38" role="jymVt" />
+    <node concept="3clFb_" id="7Sjrk8xEQqx" role="jymVt">
+      <property role="TrG5h" value="newObjectBound" />
+      <node concept="3cqZAl" id="7Sjrk8xEQqz" role="3clF45" />
+      <node concept="3Tm1VV" id="7Sjrk8xEQq$" role="1B3o_S" />
+      <node concept="3clFbS" id="7Sjrk8xEQq_" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="5Y1b9tR2isn" role="jymVt">
       <property role="TrG5h" value="setText" />
       <node concept="3cqZAl" id="5Y1b9tR2isp" role="3clF45" />
@@ -619,16 +636,6 @@
       <node concept="17QB3L" id="5Y1b9tR2jDU" role="3clF45" />
       <node concept="3Tm1VV" id="5Y1b9tR2iZr" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tR2iZs" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="1DW7q9hZZGY" role="jymVt">
-      <property role="TrG5h" value="setEditorPrompt" />
-      <node concept="37vLTG" id="1DW7q9i0fbp" role="3clF46">
-        <property role="TrG5h" value="promptText" />
-        <node concept="17QB3L" id="1DW7q9i0flb" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="1DW7q9hZZH0" role="3clF45" />
-      <node concept="3Tm1VV" id="1DW7q9hZZH1" role="1B3o_S" />
-      <node concept="3clFbS" id="1DW7q9hZZH2" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="4ceCyFmoTuE" role="jymVt" />
     <node concept="3clFb_" id="3yfWYM0WS3B" role="jymVt">
