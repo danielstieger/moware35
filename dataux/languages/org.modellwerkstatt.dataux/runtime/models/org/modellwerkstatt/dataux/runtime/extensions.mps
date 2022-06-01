@@ -199,6 +199,12 @@
     <node concept="16euLQ" id="653Wpvygw_v" role="16eVyc">
       <property role="TrG5h" value="T" />
     </node>
+    <node concept="3uibUv" id="5Cyya9$ayCq" role="3HQHJm">
+      <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
+      <node concept="16syzq" id="5Cyya9$ayQv" role="11_B2D">
+        <ref role="16sUi3" node="653Wpvygw_v" resolve="T" />
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="653Wpvyfc7V">
     <property role="TrG5h" value="IDataUxElementHook" />
