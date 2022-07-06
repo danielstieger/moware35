@@ -6341,7 +6341,7 @@
             <node concept="10Nm6u" id="75iQIE94$zJ" role="37wK5m" />
           </node>
         </node>
-        <node concept="1X3_iC" id="2QY_rtE0np_" role="lGtFl">
+        <node concept="1X3_iC" id="7IcK5LnKlsi" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="7QbqkVWK2ab" role="8Wnug">
@@ -6359,7 +6359,7 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2QY_rtE0otp" role="lGtFl">
+        <node concept="1X3_iC" id="7IcK5LnKmVt" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="78E3KqmNiuz" role="8Wnug">
@@ -6371,7 +6371,7 @@
               <node concept="liA8E" id="78E3KqmNiuA" role="2OqNvi">
                 <ref role="37wK5l" to="j62g:~StyleManager.addUserAgentStylesheet(java.lang.String)" resolve="addUserAgentStylesheet" />
                 <node concept="Xl_RD" id="78E3KqmNiuB" role="37wK5m">
-                  <property role="Xl_RC" value="file:/Users/danielstieger/moware/fx8forms/solutions/jars/richclient/inputRuntimeTest/fx8flatter.css" />
+                  <property role="Xl_RC" value="file:/Users/danielstieger/migration/2020_3/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/jars/richclient/inputRuntimeTest/fx8flatter.css" />
                 </node>
               </node>
             </node>

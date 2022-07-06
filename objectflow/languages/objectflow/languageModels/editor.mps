@@ -6970,8 +6970,8 @@
         </node>
       </node>
       <node concept="2iRfu4" id="4kNjw_mLT6q" role="2iSdaV" />
-      <node concept="3F0ifn" id="2IDWU6Zc559" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
+      <node concept="3F0ifn" id="7IcK5LnLknv" role="3EZMnx">
+        <property role="3F0ifm" value="." />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
     </node>
