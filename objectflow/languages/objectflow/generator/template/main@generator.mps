@@ -9694,7 +9694,7 @@
     <node concept="2tJIrI" id="3iJaUC74lRJ" role="jymVt" />
     <node concept="3clFb_" id="7j1iBG6HgfC" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="calcCurrentPageDynamicTitleAndScopres" />
+      <property role="TrG5h" value="calcCurrentPageDynamicTitleAndScopes" />
       <node concept="17QB3L" id="7j1iBG6HgfD" role="3clF45" />
       <node concept="3Tm1VV" id="7j1iBG6HgfE" role="1B3o_S" />
       <node concept="3clFbS" id="7j1iBG6HgfG" role="3clF47">

@@ -27375,6 +27375,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7IcK5LndAyV" role="3cqZAp">
+          <node concept="2OqwBi" id="7IcK5LndBfw" role="3clFbG">
+            <node concept="37vLTw" id="7IcK5LndAyT" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+            </node>
+            <node concept="liA8E" id="7IcK5LndJr6" role="2OqNvi">
+              <ref role="37wK5l" to="p18y:~Node.setDisable(boolean)" resolve="setDisable" />
+              <node concept="3clFbT" id="7IcK5LndYz9" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2AHcQZ" id="1bKck6Q0hre" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />

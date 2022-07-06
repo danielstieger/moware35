@@ -3195,7 +3195,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="7j1iBG6Fp5A" role="jymVt">
-      <property role="TrG5h" value="calcCurrentPageDynamicTitleAndScopres" />
+      <property role="TrG5h" value="calcCurrentPageDynamicTitleAndScopes" />
       <node concept="17QB3L" id="7j1iBG6FpbP" role="3clF45" />
       <node concept="3Tm1VV" id="7j1iBG6Fp5D" role="1B3o_S" />
       <node concept="3clFbS" id="7j1iBG6Fp5E" role="3clF47" />
@@ -61398,6 +61398,107 @@
     </node>
     <node concept="2tJIrI" id="61BSV5IuS6Z" role="jymVt" />
     <node concept="3Tm1VV" id="61BSV5IuPBP" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="7IcK5LnvyAL">
+    <property role="3GE5qa" value="OFXImpl" />
+    <property role="TrG5h" value="OFXPagePaneSelRecorder" />
+    <node concept="312cEg" id="7IcK5LnvH6b" role="jymVt">
+      <property role="TrG5h" value="recordedSelection" />
+      <node concept="3Tm6S6" id="7IcK5LnvH6c" role="1B3o_S" />
+      <node concept="3uibUv" id="7IcK5LnvHc6" role="1tU5fm">
+        <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
+      </node>
+      <node concept="10Nm6u" id="7IcK5LnvHBN" role="33vP2m" />
+    </node>
+    <node concept="2tJIrI" id="7IcK5LnvzDU" role="jymVt" />
+    <node concept="3clFb_" id="7IcK5LnvHNG" role="jymVt">
+      <property role="TrG5h" value="clear" />
+      <node concept="3cqZAl" id="7IcK5LnvHNI" role="3clF45" />
+      <node concept="3Tm1VV" id="7IcK5LnvHNJ" role="1B3o_S" />
+      <node concept="3clFbS" id="7IcK5LnvHNK" role="3clF47">
+        <node concept="3clFbF" id="7IcK5LnvJf4" role="3cqZAp">
+          <node concept="37vLTI" id="7IcK5LnvJp_" role="3clFbG">
+            <node concept="10Nm6u" id="7IcK5LnvJxl" role="37vLTx" />
+            <node concept="37vLTw" id="7IcK5LnvJf3" role="37vLTJ">
+              <ref role="3cqZAo" node="7IcK5LnvH6b" resolve="recordedSelection" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="7IcK5LnvJEX" role="jymVt">
+      <property role="TrG5h" value="hasSelection" />
+      <node concept="10P_77" id="7IcK5LnvKoz" role="3clF45" />
+      <node concept="3Tm1VV" id="7IcK5LnvJF0" role="1B3o_S" />
+      <node concept="3clFbS" id="7IcK5LnvJF1" role="3clF47">
+        <node concept="3clFbF" id="7IcK5LnvK1o" role="3cqZAp">
+          <node concept="3y3z36" id="7IcK5LnvKe4" role="3clFbG">
+            <node concept="10Nm6u" id="7IcK5LnvKhc" role="3uHU7w" />
+            <node concept="37vLTw" id="7IcK5LnvK1n" role="3uHU7B">
+              <ref role="3cqZAo" node="7IcK5LnvH6b" resolve="recordedSelection" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7IcK5LnvHFf" role="jymVt" />
+    <node concept="3Tm1VV" id="7IcK5LnvyAM" role="1B3o_S" />
+    <node concept="3uibUv" id="7IcK5LnvzCR" role="EKbjA">
+      <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+    </node>
+    <node concept="3clFb_" id="7IcK5LnvzF5" role="jymVt">
+      <property role="TrG5h" value="getSelection" />
+      <node concept="37vLTG" id="7IcK5LnvzF6" role="3clF46">
+        <property role="TrG5h" value="clazz" />
+        <node concept="3uibUv" id="7IcK5LnvzF7" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7IcK5LnvzF8" role="3clF46">
+        <property role="TrG5h" value="includingDerived" />
+        <node concept="10P_77" id="7IcK5LnvzF9" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="7IcK5LnvzFa" role="3clF45">
+        <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
+      </node>
+      <node concept="3Tm1VV" id="7IcK5LnvzFb" role="1B3o_S" />
+      <node concept="3clFbS" id="7IcK5LnvzFd" role="3clF47">
+        <node concept="3clFbF" id="7IcK5LnvKBo" role="3cqZAp">
+          <node concept="37vLTw" id="7IcK5LnvKBn" role="3clFbG">
+            <ref role="3cqZAo" node="7IcK5LnvH6b" resolve="recordedSelection" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7IcK5LnvzFe" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7IcK5LnvzFh" role="jymVt">
+      <property role="TrG5h" value="pushSelection" />
+      <node concept="37vLTG" id="7IcK5LnvzFi" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="7IcK5LnvzFj" role="1tU5fm">
+          <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7IcK5LnvzFk" role="3clF45" />
+      <node concept="3Tm1VV" id="7IcK5LnvzFl" role="1B3o_S" />
+      <node concept="3clFbS" id="7IcK5LnvzFn" role="3clF47">
+        <node concept="3clFbF" id="7IcK5LnvKMe" role="3cqZAp">
+          <node concept="37vLTI" id="7IcK5LnvKV$" role="3clFbG">
+            <node concept="37vLTw" id="7IcK5LnvL5Z" role="37vLTx">
+              <ref role="3cqZAo" node="7IcK5LnvzFi" resolve="selection" />
+            </node>
+            <node concept="37vLTw" id="7IcK5LnvKMd" role="37vLTJ">
+              <ref role="3cqZAo" node="7IcK5LnvH6b" resolve="recordedSelection" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7IcK5LnvzFo" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
 </model>
 

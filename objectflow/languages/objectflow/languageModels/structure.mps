@@ -1051,6 +1051,9 @@
     <property role="34LRSv" value="pageLoadFunc" />
     <property role="EcuMT" value="6525155817176738379" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="7IcK5Lnshnd" role="PzmwI">
+      <ref role="PrY4T" node="3nLPQZPP4DL" resolve="ISelectionsAvailable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5Ee0EjqTeD5">
     <property role="3GE5qa" value="OFXCore.cmd" />
