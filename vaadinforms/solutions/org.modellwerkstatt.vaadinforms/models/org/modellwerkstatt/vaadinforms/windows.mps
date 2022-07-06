@@ -22760,14 +22760,27 @@
             <ref role="3cqZAo" node="5tLhDse44bA" resolve="allColumns" />
           </node>
         </node>
-        <node concept="3clFbF" id="7IcK5LpY5Fe" role="3cqZAp">
-          <node concept="2OqwBi" id="7IcK5LpY88S" role="3clFbG">
-            <node concept="37vLTw" id="7IcK5LpY5Fc" role="2Oq$k0">
+        <node concept="3clFbF" id="7IcK5Lq2zN2" role="3cqZAp">
+          <node concept="2OqwBi" id="7IcK5Lq2AOd" role="3clFbG">
+            <node concept="37vLTw" id="7IcK5Lq2zN0" role="2Oq$k0">
               <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
             </node>
-            <node concept="liA8E" id="7IcK5LpYh4J" role="2OqNvi">
+            <node concept="liA8E" id="7IcK5Lq2S8t" role="2OqNvi">
               <ref role="37wK5l" to="waq:~Table.setEnabled(boolean)" resolve="setEnabled" />
-              <node concept="3clFbT" id="7IcK5LpYhLI" role="37wK5m" />
+              <node concept="3clFbT" id="7IcK5Lq2TMY" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7IcK5Lq6b6V" role="3cqZAp">
+          <node concept="2OqwBi" id="7IcK5Lq6dkn" role="3clFbG">
+            <node concept="37vLTw" id="7IcK5Lq6b6T" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
+            </node>
+            <node concept="liA8E" id="7IcK5Lq6mfq" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractComponent.addStyleName(java.lang.String)" resolve="addStyleName" />
+              <node concept="Xl_RD" id="7IcK5Lq6qoD" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
             </node>
           </node>
         </node>
