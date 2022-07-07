@@ -33804,7 +33804,7 @@
       </node>
       <node concept="2ShNRf" id="7ApkBIQWQMy" role="33vP2m">
         <node concept="1pGfFk" id="7ApkBIQWQMY" role="2ShVmc">
-          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,com.vaadin.server.Resource,int,int...)" resolve="ShortcutAction" />
+          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutAction" />
           <node concept="Xl_RD" id="7ApkBIQWQKs" role="37wK5m">
             <property role="Xl_RC" value="Tab" />
           </node>
@@ -33827,7 +33827,7 @@
       </node>
       <node concept="2ShNRf" id="7ApkBIQWQN2" role="33vP2m">
         <node concept="1pGfFk" id="7ApkBIQWQNt" role="2ShVmc">
-          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,com.vaadin.server.Resource,int,int...)" resolve="ShortcutAction" />
+          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutAction" />
           <node concept="Xl_RD" id="7ApkBIQWQKz" role="37wK5m">
             <property role="Xl_RC" value="Shift+Tab" />
           </node>
@@ -33858,7 +33858,7 @@
       </node>
       <node concept="2ShNRf" id="7ApkBIQWQN$" role="33vP2m">
         <node concept="1pGfFk" id="7ApkBIQWQNZ" role="2ShVmc">
-          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,com.vaadin.server.Resource,int,int...)" resolve="ShortcutAction" />
+          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutAction" />
           <node concept="Xl_RD" id="7ApkBIQWQKH" role="37wK5m">
             <property role="Xl_RC" value="Down" />
           </node>
@@ -33881,7 +33881,7 @@
       </node>
       <node concept="2ShNRf" id="7ApkBIQWQO3" role="33vP2m">
         <node concept="1pGfFk" id="7ApkBIQWQOu" role="2ShVmc">
-          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,com.vaadin.server.Resource,int,int...)" resolve="ShortcutAction" />
+          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutAction" />
           <node concept="Xl_RD" id="7ApkBIQWQKO" role="37wK5m">
             <property role="Xl_RC" value="Up" />
           </node>
@@ -33904,7 +33904,7 @@
       </node>
       <node concept="2ShNRf" id="7ApkBIQWQOy" role="33vP2m">
         <node concept="1pGfFk" id="7ApkBIQWQOX" role="2ShVmc">
-          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,com.vaadin.server.Resource,int,int...)" resolve="ShortcutAction" />
+          <ref role="37wK5l" to="tj3g:~ShortcutAction.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutAction" />
           <node concept="Xl_RD" id="7ApkBIQWQKV" role="37wK5m">
             <property role="Xl_RC" value="Enter" />
           </node>
