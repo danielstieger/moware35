@@ -4981,5 +4981,18 @@
       <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="18mjR$3M6sg">
+    <property role="EcuMT" value="1303316523343439632" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusAllElements" />
+    <property role="34LRSv" value="allStatusElements" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="18mjR$3M6si" role="PzmwI">
+      <ref role="PrY4T" node="1ei3eG2x_ge" resolve="IStatusConstOperation" />
+    </node>
+    <node concept="1QGGSu" id="18mjR$3M6sj" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/statusminor.png" />
+    </node>
+  </node>
 </model>
 
