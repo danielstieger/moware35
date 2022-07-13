@@ -1077,7 +1077,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="2znuo4cKkGb" role="3EZMnx">
-        <property role="3F0ifm" value="visibility (dan test only):" />
+        <property role="3F0ifm" value="visibility (test only):" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="2znuo4cKkQS" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -2727,6 +2727,23 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="lj46D" id="7dYuT2d6juX" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="3DDVbNiK9my" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:1OYKdEatXna" resolve="updaters" />
+          <node concept="l2Vlx" id="3DDVbNiK9m$" role="2czzBx" />
+          <node concept="3F0ifn" id="3DDVbNiK9oe" role="2czzBI">
+            <property role="3F0ifm" value="" />
+            <property role="ilYzB" value="&lt;no scopes&gt;" />
+          </node>
+          <node concept="pVoyu" id="3DDVbNiK9og" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="3DDVbNiK9oi" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pj6Ft" id="3DDVbNiK9ol" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -12952,6 +12969,37 @@
       </node>
       <node concept="3F0A7n" id="6YzHNmEO98v" role="3EZMnx">
         <ref role="1NtTu8" to="tpee:huRkwj$" resolve="propertyName" />
+        <node concept="30gYXW" id="3DDVbNjUR_v" role="3F10Kt">
+          <node concept="3ZlJ5R" id="3DDVbNjUR_w" role="VblUZ">
+            <node concept="3clFbS" id="3DDVbNjUR_x" role="2VODD2">
+              <node concept="3clFbF" id="3DDVbNjUR_y" role="3cqZAp">
+                <node concept="3K4zz7" id="3DDVbNjUR_z" role="3clFbG">
+                  <node concept="10M0yZ" id="3DDVbNjUR_$" role="3K4E3e">
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                  </node>
+                  <node concept="10M0yZ" id="3DDVbNjUR__" role="3K4GZi">
+                    <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                  </node>
+                  <node concept="2OqwBi" id="3DDVbNjUR_A" role="3K4Cdx">
+                    <node concept="2OqwBi" id="3DDVbNjUR_B" role="2Oq$k0">
+                      <node concept="pncrf" id="3DDVbNjUR_C" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3DDVbNjUR_D" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:huRnVpq" resolve="propertyImplementation" />
+                      </node>
+                    </node>
+                    <node concept="1mIQ4w" id="3DDVbNjUR_E" role="2OqNvi">
+                      <node concept="chp4Y" id="3DDVbNjUR_F" role="cj9EA">
+                        <ref role="cht4Q" to="tpee:huRoN5R" resolve="DefaultPropertyImplementation" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="6YzHNmEO9dc" role="3EZMnx">
         <property role="1$x2rV" value="&lt;sdesc&gt;" />
@@ -12972,6 +13020,9 @@
         <node concept="3F0ifn" id="6YzHNmFiYSS" role="2czzBI">
           <property role="3F0ifm" value="" />
           <property role="ilYzB" value="&lt;opts&gt;" />
+          <node concept="VPxyj" id="3DDVbNja8CM" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
       </node>
       <node concept="3F1sOY" id="6YzHNmEO9g_" role="3EZMnx">
@@ -13535,7 +13586,7 @@
     <ref role="1XX52x" to="un0u:1OYKdEatMle" resolve="PageUpdater" />
     <node concept="3EZMnI" id="1OYKdEatMlv" role="2wV5jI">
       <node concept="3F0ifn" id="1OYKdEatMlw" role="3EZMnx">
-        <property role="3F0ifm" value="scoper for" />
+        <property role="3F0ifm" value="scope for" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
       <node concept="1iCGBv" id="1OYKdEatMmd" role="3EZMnx">
