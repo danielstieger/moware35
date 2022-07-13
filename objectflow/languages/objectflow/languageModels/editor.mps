@@ -2730,20 +2730,6 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F2HdR" id="1OYKdEatXqV" role="3EZMnx">
-          <ref role="1NtTu8" to="un0u:1OYKdEatXna" resolve="updaters" />
-          <node concept="l2Vlx" id="1OYKdEatXqX" role="2czzBx" />
-          <node concept="pVoyu" id="1OYKdEatXsB" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="1OYKdEatXsD" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="3F0ifn" id="1OYKdEatXsG" role="2czzBI">
-            <property role="3F0ifm" value="" />
-            <property role="ilYzB" value="&lt;no updaters&gt;" />
-          </node>
-        </node>
         <node concept="3F0ifn" id="7dYuT2ddZ47" role="3EZMnx">
           <property role="3F0ifm" value="" />
           <node concept="pVoyu" id="7dYuT2ddZ48" role="3F10Kt">
@@ -13549,7 +13535,7 @@
     <ref role="1XX52x" to="un0u:1OYKdEatMle" resolve="PageUpdater" />
     <node concept="3EZMnI" id="1OYKdEatMlv" role="2wV5jI">
       <node concept="3F0ifn" id="1OYKdEatMlw" role="3EZMnx">
-        <property role="3F0ifm" value="update" />
+        <property role="3F0ifm" value="scoper for" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
       <node concept="1iCGBv" id="1OYKdEatMmd" role="3EZMnx">

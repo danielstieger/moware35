@@ -3622,19 +3622,26 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="5Cyya9$4S2i" role="3clFbw">
-                <node concept="2OqwBi" id="5Cyya9$4S2j" role="2Oq$k0">
-                  <node concept="37vLTw" id="5Cyya9$4S2k" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4M9afjaRRAJ" resolve="keyName" />
-                  </node>
-                  <node concept="liA8E" id="5Cyya9$4S2l" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+              <node concept="1Wc70l" id="3DDVbNegQKV" role="3clFbw">
+                <node concept="3fqX7Q" id="3DDVbNegTzG" role="3uHU7w">
+                  <node concept="37vLTw" id="3DDVbNegUMl" role="3fr31v">
+                    <ref role="3cqZAo" node="3DDVbNegFjT" resolve="isStatusComboBox" />
                   </node>
                 </node>
-                <node concept="liA8E" id="5Cyya9$4S2m" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                  <node concept="Xl_RD" id="5Cyya9$4S2n" role="37wK5m">
-                    <property role="Xl_RC" value="DOWN" />
+                <node concept="2OqwBi" id="5Cyya9$4S2i" role="3uHU7B">
+                  <node concept="2OqwBi" id="5Cyya9$4S2j" role="2Oq$k0">
+                    <node concept="37vLTw" id="5Cyya9$4S2k" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4M9afjaRRAJ" resolve="keyName" />
+                    </node>
+                    <node concept="liA8E" id="5Cyya9$4S2l" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5Cyya9$4S2m" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                    <node concept="Xl_RD" id="5Cyya9$4S2n" role="37wK5m">
+                      <property role="Xl_RC" value="DOWN" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3647,19 +3654,26 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="5Cyya9$4UCU" role="3clFbw">
-                <node concept="2OqwBi" id="5Cyya9$4UCV" role="2Oq$k0">
-                  <node concept="37vLTw" id="5Cyya9$4UCW" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4M9afjaRRAJ" resolve="keyName" />
-                  </node>
-                  <node concept="liA8E" id="5Cyya9$4UCX" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+              <node concept="1Wc70l" id="3DDVbNegX0r" role="3clFbw">
+                <node concept="3fqX7Q" id="3DDVbNegZAU" role="3uHU7w">
+                  <node concept="37vLTw" id="3DDVbNegZVC" role="3fr31v">
+                    <ref role="3cqZAo" node="3DDVbNegFjT" resolve="isStatusComboBox" />
                   </node>
                 </node>
-                <node concept="liA8E" id="5Cyya9$4UCY" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                  <node concept="Xl_RD" id="5Cyya9$4UCZ" role="37wK5m">
-                    <property role="Xl_RC" value="UP" />
+                <node concept="2OqwBi" id="5Cyya9$4UCU" role="3uHU7B">
+                  <node concept="2OqwBi" id="5Cyya9$4UCV" role="2Oq$k0">
+                    <node concept="37vLTw" id="5Cyya9$4UCW" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4M9afjaRRAJ" resolve="keyName" />
+                    </node>
+                    <node concept="liA8E" id="5Cyya9$4UCX" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5Cyya9$4UCY" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                    <node concept="Xl_RD" id="5Cyya9$4UCZ" role="37wK5m">
+                      <property role="Xl_RC" value="UP" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3681,6 +3695,10 @@
       <node concept="37vLTG" id="4M9afjaRRAJ" role="3clF46">
         <property role="TrG5h" value="keyName" />
         <node concept="17QB3L" id="4M9afjaRRAK" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3DDVbNegFjT" role="3clF46">
+        <property role="TrG5h" value="isStatusComboBox" />
+        <node concept="10P_77" id="3DDVbNegHPm" role="1tU5fm" />
       </node>
       <node concept="10P_77" id="4M9afjaRRAL" role="3clF45" />
       <node concept="3Tm1VV" id="4M9afjaRRAM" role="1B3o_S" />
@@ -33825,6 +33843,7 @@
                                     <ref role="37wK5l" to="yp2m:~KeyCode.getName()" resolve="getName" />
                                   </node>
                                 </node>
+                                <node concept="3clFbT" id="3DDVbNemRSS" role="37wK5m" />
                               </node>
                             </node>
                           </node>

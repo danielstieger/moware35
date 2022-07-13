@@ -5005,7 +5005,7 @@
     <property role="EcuMT" value="2107333720514438478" />
     <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageUpdater" />
-    <property role="34LRSv" value="update when" />
+    <property role="34LRSv" value="scope for" />
     <property role="R4oN_" value="update session / graph" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1OYKdEbfLok" role="1TKVEl">
