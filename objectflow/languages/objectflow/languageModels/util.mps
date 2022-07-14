@@ -2516,7 +2516,7 @@
                     <ref role="3cqZAo" node="1TGYwFrb0_2" resolve="mapping" />
                   </node>
                   <node concept="3Tsc0h" id="35a9wK5T5Ty" role="2OqNvi">
-                    <ref role="3TtcxE" to="r5tz:3X0BsfNqXLB" resolve="mapping" />
+                    <ref role="3TtcxE" to="r5tz:3X0BsfNqXLB" resolve="atomMpig" />
                   </node>
                 </node>
                 <node concept="TSZUe" id="3uuuASvHFiR" role="2OqNvi">
@@ -9736,7 +9736,7 @@
                                     <ref role="3cqZAo" node="4lEQj7bpDA8" resolve="classConceptToMap" />
                                   </node>
                                   <node concept="3Tsc0h" id="1adoO1bN3GW" role="2OqNvi">
-                                    <ref role="3TtcxE" to="r5tz:3X0BsfNqXLB" resolve="mapping" />
+                                    <ref role="3TtcxE" to="r5tz:3X0BsfNqXLB" resolve="atomMpig" />
                                   </node>
                                 </node>
                                 <node concept="1z4cxt" id="1adoO1bA72E" role="2OqNvi">
@@ -14713,12 +14713,34 @@
                 <ref role="ehGHo" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
               </node>
             </node>
-            <node concept="2OqwBi" id="7$2_qbqUwUn" role="33vP2m">
-              <node concept="37vLTw" id="7$2_qbqUwUo" role="2Oq$k0">
-                <ref role="3cqZAo" node="7$2_qbqUwUe" resolve="node" />
+            <node concept="2OqwBi" id="3LpLOPqzWfY" role="33vP2m">
+              <node concept="2OqwBi" id="7$2_qbqUwUn" role="2Oq$k0">
+                <node concept="37vLTw" id="7$2_qbqUwUo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7$2_qbqUwUe" resolve="node" />
+                </node>
+                <node concept="2qgKlT" id="7$2_qbqUwUp" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:8dakBL3erK" resolve="getBusinessPropertiesAndInherited" />
+                </node>
               </node>
-              <node concept="2qgKlT" id="7$2_qbqUwUp" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:8dakBL3erK" resolve="getBusinessPropertiesAndInherited" />
+              <node concept="3zZkjj" id="3LpLOPq$0GR" role="2OqNvi">
+                <node concept="1bVj0M" id="3LpLOPq$0GT" role="23t8la">
+                  <node concept="3clFbS" id="3LpLOPq$0GU" role="1bW5cS">
+                    <node concept="3clFbF" id="3LpLOPq$0Tb" role="3cqZAp">
+                      <node concept="2OqwBi" id="3LpLOPq$1hH" role="3clFbG">
+                        <node concept="37vLTw" id="3LpLOPq$0Ta" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3LpLOPq$0GV" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="3LpLOPq$2cI" role="2OqNvi">
+                          <ref role="37wK5l" to="tpek:hEwIIZu" resolve="isDefaultImplementation" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="3LpLOPq$0GV" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="3LpLOPq$0GW" role="1tU5fm" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
