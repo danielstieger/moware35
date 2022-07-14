@@ -4155,7 +4155,7 @@
                                                   <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                 </node>
                                                 <node concept="liA8E" id="7vbJIwtwHnz" role="2OqNvi">
-                                                  <ref role="37wK5l" to="1e0c:4FgSVMsprD7" resolve="logFrmwrkProblem" />
+                                                  <ref role="37wK5l" to="1e0c:4FgSVMsEmSV" resolve="logAppProblem" />
                                                   <node concept="2OqwBi" id="7vbJIwtwP4n" role="37wK5m">
                                                     <node concept="3VsKOn" id="7vbJIwtwOKM" role="2Oq$k0">
                                                       <ref role="3VsUkX" node="6qxhjMM6dmo" resolve="FX8Application" />
