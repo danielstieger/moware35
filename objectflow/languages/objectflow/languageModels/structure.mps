@@ -3300,6 +3300,9 @@
     <node concept="PrWs8" id="1uKMA6MHfxD" role="PzmwI">
       <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
     </node>
+    <node concept="PrWs8" id="4dTPSB6XJ9c" role="PzmwI">
+      <ref role="PrY4T" node="4dTPSB4DTBy" resolve="ICanHaveColor" />
+    </node>
   </node>
   <node concept="PlHQZ" id="45gKusSALGn">
     <property role="3GE5qa" value="Status" />
