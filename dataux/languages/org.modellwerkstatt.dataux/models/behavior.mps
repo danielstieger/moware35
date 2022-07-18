@@ -5367,33 +5367,6 @@
       <node concept="3clFbS" id="4mZSGsbX9n3" role="2VODD2" />
     </node>
   </node>
-  <node concept="13h7C7" id="ao4XGTiFGV">
-    <property role="3GE5qa" value="pagepane" />
-    <ref role="13h7C2" to="1btx:ao4XGSvQ8_" resolve="ColorPpOption" />
-    <node concept="13i0hz" id="ao4XGTiFH5" role="13h7CS">
-      <property role="TrG5h" value="getColor" />
-      <node concept="3Tm1VV" id="ao4XGTiFH6" role="1B3o_S" />
-      <node concept="17QB3L" id="ao4XGTiFHk" role="3clF45" />
-      <node concept="3clFbS" id="ao4XGTiFH8" role="3clF47">
-        <node concept="3clFbF" id="ao4XGTiFHA" role="3cqZAp">
-          <node concept="3cpWs3" id="ao4XGTiFJN" role="3clFbG">
-            <node concept="2OqwBi" id="ao4XGTiFMl" role="3uHU7w">
-              <node concept="13iPFW" id="ao4XGTiFK8" role="2Oq$k0" />
-              <node concept="3TrcHB" id="ao4XGTiFQ4" role="2OqNvi">
-                <ref role="3TsBF5" to="1btx:ao4XGSvQc6" resolve="value" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="ao4XGTiFH_" role="3uHU7B">
-              <property role="Xl_RC" value="#" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="13hLZK" id="ao4XGTiFGW" role="13h7CW">
-      <node concept="3clFbS" id="ao4XGTiFGX" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="50l$rcpKbIp">
     <property role="3GE5qa" value="internalInfra" />
     <ref role="13h7C2" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />

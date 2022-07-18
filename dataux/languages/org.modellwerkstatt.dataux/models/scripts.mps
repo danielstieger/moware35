@@ -10,17 +10,12 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
-        <child id="1154032183016" name="body" index="2LFqv$" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -28,10 +23,6 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -41,36 +32,18 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
-        <child id="1068580123160" name="condition" index="3clFbw" />
-        <child id="1068580123161" name="ifTrue" index="3clFbx" />
-      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
-      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
-      </concept>
-      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
-        <reference id="1107535924139" name="classifier" index="3uigEE" />
-      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
-        <child id="1144226360166" name="iterable" index="1DdaDG" />
-      </concept>
-      <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
-        <child id="1144230900587" name="variable" index="1Duv9x" />
-      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="0eddeefa-c2d6-4437-bc2c-de50fd4ce470" name="jetbrains.mps.lang.script">
@@ -82,7 +55,6 @@
       </concept>
       <concept id="1177457850499" name="jetbrains.mps.lang.script.structure.MigrationScriptPart_Instance" flags="lg" index="_XfAh">
         <property id="1177457972041" name="description" index="_XH9r" />
-        <property id="1225457189692" name="showAsIntention" index="1iWc8x" />
         <reference id="1177457957477" name="affectedInstanceConcept" index="_XDHR" />
         <child id="1177457957478" name="affectedInstancePredicate" index="_XDHO" />
         <child id="1177458005323" name="affectedInstanceUpdater" index="_XPhp" />
@@ -100,9 +72,6 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
-      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
-        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
-      </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -130,75 +99,6 @@
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
-  <node concept="_UgoZ" id="2AV7EAPV$F4">
-    <property role="2BwPSy" value="4AbjR7I215i/migration" />
-    <property role="TrG5h" value="Moware11_2022_15" />
-    <property role="_Wzho" value="MoWare 11 2022.15 Refactorings" />
-    <property role="2BwPS$" value="MoWare Scripts" />
-    <node concept="_XfAh" id="2AV7EAPV$Ib" role="_YvDr">
-      <property role="_XH9r" value="MoWare Page Conclusion Refactoring - remove name from PageConclusion" />
-      <property role="1iWc8x" value="true" />
-      <ref role="_XDHR" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
-      <node concept="_ZGcI" id="2AV7EAPV$Ic" role="_XPhp">
-        <node concept="3clFbS" id="2AV7EAPV$Id" role="2VODD2">
-          <node concept="1DcWWT" id="3ivfb$QtKid" role="3cqZAp">
-            <node concept="3clFbS" id="3ivfb$QtKif" role="2LFqv$">
-              <node concept="3clFbJ" id="3ivfb$QtOmT" role="3cqZAp">
-                <node concept="2OqwBi" id="3ivfb$QtP7Y" role="3clFbw">
-                  <node concept="2OqwBi" id="3ivfb$QtOCo" role="2Oq$k0">
-                    <node concept="37vLTw" id="3ivfb$QtOnd" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3ivfb$QtKig" resolve="prop" />
-                    </node>
-                    <node concept="liA8E" id="3ivfb$QtOP0" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SProperty.getName()" resolve="getName" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="3ivfb$QtPpK" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                    <node concept="Xl_RD" id="3ivfb$QtPqI" role="37wK5m">
-                      <property role="Xl_RC" value="name" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbS" id="3ivfb$QtOmV" role="3clFbx">
-                  <node concept="3clFbF" id="3ivfb$QtPBK" role="3cqZAp">
-                    <node concept="2OqwBi" id="3ivfb$QtPBM" role="3clFbG">
-                      <node concept="2JrnkZ" id="3ivfb$QtPBN" role="2Oq$k0">
-                        <node concept="_YI3z" id="3ivfb$QtPBO" role="2JrQYb" />
-                      </node>
-                      <node concept="liA8E" id="3ivfb$QtPBP" role="2OqNvi">
-                        <ref role="37wK5l" to="mhbf:~SNode.setProperty(org.jetbrains.mps.openapi.language.SProperty,java.lang.String)" resolve="setProperty" />
-                        <node concept="37vLTw" id="3ivfb$QtPIT" role="37wK5m">
-                          <ref role="3cqZAo" node="3ivfb$QtKig" resolve="prop" />
-                        </node>
-                        <node concept="10Nm6u" id="3ivfb$QtPZw" role="37wK5m" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="3ivfb$QtKig" role="1Duv9x">
-              <property role="TrG5h" value="prop" />
-              <node concept="3uibUv" id="3ivfb$QtKtv" role="1tU5fm">
-                <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="HL_aTAgb2S" role="1DdaDG">
-              <node concept="2JrnkZ" id="WXD5HGUxai" role="2Oq$k0">
-                <node concept="_YI3z" id="WXD5HGUxaj" role="2JrQYb" />
-              </node>
-              <node concept="liA8E" id="HL_aTAgbhB" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getProperties()" resolve="getProperties" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1opIMY" id="2AV7EAPV$Kt" role="_YvDr" />
-    <node concept="1opIMY" id="2AV7EAPV$Ku" role="_YvDr" />
-  </node>
   <node concept="_UgoZ" id="4pfCiMc1qX0">
     <property role="2BwPSy" value="4AbjR7I215i/migration" />
     <property role="TrG5h" value="Moware2022Analytics" />
