@@ -13151,7 +13151,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="6YzHNmEO9jo" role="3EZMnx">
-        <property role="3F0ifm" value="visibility (dan test only):" />
+        <property role="3F0ifm" value="visibility (-&gt; always public!):" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="6YzHNmEO9jp" role="3F10Kt">
           <property role="VOm3f" value="true" />

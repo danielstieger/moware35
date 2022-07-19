@@ -2630,6 +2630,9 @@
         <ref role="1k5W1q" node="pQ21WNdZAs" resolve="Option" />
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
+      <node concept="3F1sOY" id="5D2sKonMMYK" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:4dTPSB5$367" resolve="color" />
+      </node>
       <node concept="l2Vlx" id="ao4XGSvQg2" role="2iSdaV" />
     </node>
     <node concept="3EZMnI" id="4dTPSB5$4YV" role="6VMZX">

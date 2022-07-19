@@ -1182,6 +1182,9 @@
     <node concept="PrWs8" id="ao4XGSvQed" role="PzmwI">
       <ref role="PrY4T" node="ao4XGSvQ0S" resolve="IPagePaneOption" />
     </node>
+    <node concept="PrWs8" id="5D2sKoonBWp" role="PzmwI">
+      <ref role="PrY4T" to="un0u:4dTPSB4DTBy" resolve="ICanHaveColor" />
+    </node>
     <node concept="1QGGSu" id="62e43W0Y$zI" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
     </node>

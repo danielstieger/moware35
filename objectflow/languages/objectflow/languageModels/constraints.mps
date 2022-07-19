@@ -4235,50 +4235,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="1uKMA6MHfyc">
-    <property role="3GE5qa" value="Status" />
-    <ref role="1M2myG" to="un0u:1uKMA6MHfxC" resolve="ColorStatusElemOption" />
-    <node concept="EnEH3" id="1uKMA6MHfyd" role="1MhHOB">
-      <ref role="EomxK" to="un0u:1uKMA6MHfxE" resolve="val" />
-      <node concept="QB0g5" id="1uKMA6MHfyf" role="QCWH9">
-        <node concept="3clFbS" id="1uKMA6MHfyg" role="2VODD2">
-          <node concept="3cpWs8" id="1uKMA6MHf_1" role="3cqZAp">
-            <node concept="3cpWsn" id="1uKMA6MHf_4" role="3cpWs9">
-              <property role="TrG5h" value="PATTERN" />
-              <node concept="17QB3L" id="1uKMA6MHf_0" role="1tU5fm" />
-              <node concept="Xl_RD" id="1uKMA6MHfD1" role="33vP2m">
-                <property role="Xl_RC" value="^#[A-Fa-f0-9]{6}$" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbJ" id="1uKMA6MLu3C" role="3cqZAp">
-            <node concept="3clFbS" id="1uKMA6MLu3E" role="3clFbx">
-              <node concept="3cpWs6" id="1uKMA6MLuir" role="3cqZAp">
-                <node concept="2OqwBi" id="1uKMA6MLieX" role="3cqZAk">
-                  <node concept="1Wqviy" id="1uKMA6MLibF" role="2Oq$k0" />
-                  <node concept="liA8E" id="1uKMA6MLiqY" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                    <node concept="37vLTw" id="1uKMA6MLisx" role="37wK5m">
-                      <ref role="3cqZAo" node="1uKMA6MHf_4" resolve="PATTERN" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3y3z36" id="1uKMA6MLE75" role="3clFbw">
-              <node concept="10Nm6u" id="1uKMA6MLE8C" role="3uHU7w" />
-              <node concept="1Wqviy" id="1uKMA6MLE3k" role="3uHU7B" />
-            </node>
-          </node>
-          <node concept="3cpWs6" id="1uKMA6MLuq5" role="3cqZAp">
-            <node concept="3clFbT" id="1uKMA6MLusq" role="3cqZAk">
-              <property role="3clFbU" value="false" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="51llZt55MSs">
     <property role="3GE5qa" value="OFXCore.cmdCrtl" />
     <ref role="1M2myG" to="un0u:51llZt55MSr" resolve="Guard" />
