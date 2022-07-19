@@ -37720,23 +37720,25 @@
                 </node>
               </node>
             </node>
+            <node concept="3SKdUt" id="5D2sKooKD8p" role="3cqZAp">
+              <node concept="1PaTwC" id="5D2sKooKD8q" role="1aUNEU">
+                <node concept="3oM_SD" id="5D2sKooKGwL" role="1PaTwD">
+                  <property role="3oM_SC" value="removed" />
+                </node>
+                <node concept="3oM_SD" id="5D2sKooKGwN" role="1PaTwD">
+                  <property role="3oM_SC" value="xmlGraphData.replaceAll(&quot;&amp;&quot;," />
+                </node>
+                <node concept="3oM_SD" id="5D2sKooKMQA" role="1PaTwD">
+                  <property role="3oM_SC" value="&quot;&amp;amp;&quot;)" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="6j4XqQEtagT" role="3cqZAp">
               <node concept="37vLTI" id="6j4XqQEtagU" role="3clFbG">
                 <node concept="1rXfSq" id="6j4XqQEtagV" role="37vLTx">
                   <ref role="37wK5l" node="6j4XqQEtafN" resolve="adjustXmlData" />
-                  <node concept="2OqwBi" id="6j4XqQEtagW" role="37wK5m">
-                    <node concept="37vLTw" id="6j4XqQEtTeE" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6nb2rfWGriO" resolve="xmlGraphData" />
-                    </node>
-                    <node concept="liA8E" id="6j4XqQEtagY" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
-                      <node concept="Xl_RD" id="6j4XqQEtagZ" role="37wK5m">
-                        <property role="Xl_RC" value="&amp;" />
-                      </node>
-                      <node concept="Xl_RD" id="6j4XqQEtah0" role="37wK5m">
-                        <property role="Xl_RC" value="&amp;amp;" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="5D2sKooKPSJ" role="37wK5m">
+                    <ref role="3cqZAo" node="6nb2rfWGriO" resolve="xmlGraphData" />
                   </node>
                   <node concept="37vLTw" id="6j4XqQEtTlC" role="37wK5m">
                     <ref role="3cqZAo" node="6j4XqQEtPEU" resolve="userEnvironment" />
@@ -37747,7 +37749,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5LL59WQr7BE" role="3cqZAp" />
             <node concept="3SKdUt" id="6j4XqQEzit0" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdINJg7" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdINJg8" role="1PaTwD">
@@ -37952,11 +37953,10 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="5D2sKooJogL" role="3cqZAp" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="6j4XqQEz8J9" role="3cqZAp" />
-            <node concept="3clFbH" id="6j4XqQEuvn_" role="3cqZAp" />
             <node concept="3SKdUt" id="6j4XqQEviGM" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdINJgi" role="1aUNEU">
                 <node concept="3oM_SD" id="5HvIBdINJgj" role="1PaTwD">
