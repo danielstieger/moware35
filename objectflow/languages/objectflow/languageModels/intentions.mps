@@ -6924,5 +6924,92 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="15kyJAomjJr">
+    <property role="3GE5qa" value="Service" />
+    <property role="TrG5h" value="AddRemoveMethodAttribute" />
+    <ref role="2ZfgGC" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+    <node concept="2S6ZIM" id="15kyJAomjJs" role="2ZfVej">
+      <node concept="3clFbS" id="15kyJAomjJt" role="2VODD2">
+        <node concept="3clFbJ" id="15kyJAomjOq" role="3cqZAp">
+          <node concept="2OqwBi" id="15kyJAomlwy" role="3clFbw">
+            <node concept="2OqwBi" id="15kyJAomkqW" role="2Oq$k0">
+              <node concept="2Sf5sV" id="15kyJAomjT6" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="15kyJAomleo" role="2OqNvi">
+                <node concept="3CFYIy" id="15kyJAomllL" role="3CFYIz">
+                  <ref role="3CFYIx" to="un0u:15kyJAomiYy" resolve="MethodAttributes" />
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="15kyJAomlTd" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="15kyJAomjOs" role="3clFbx">
+            <node concept="3cpWs6" id="15kyJAommMc" role="3cqZAp">
+              <node concept="Xl_RD" id="15kyJAommMd" role="3cqZAk">
+                <property role="Xl_RC" value="Add Method-Information" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="15kyJAommo2" role="9aQIa">
+            <node concept="3clFbS" id="15kyJAommo3" role="9aQI4">
+              <node concept="3cpWs6" id="15kyJAomn0r" role="3cqZAp">
+                <node concept="Xl_RD" id="15kyJAomn0s" role="3cqZAk">
+                  <property role="Xl_RC" value="Remove Method-Information" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="15kyJAomjJu" role="2ZfgGD">
+      <node concept="3clFbS" id="15kyJAomjJv" role="2VODD2">
+        <node concept="3clFbJ" id="15kyJAomn1n" role="3cqZAp">
+          <node concept="2OqwBi" id="15kyJAomow8" role="3clFbw">
+            <node concept="2OqwBi" id="15kyJAomnv1" role="2Oq$k0">
+              <node concept="2Sf5sV" id="15kyJAomn1u" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="15kyJAomoea" role="2OqNvi">
+                <node concept="3CFYIy" id="15kyJAomolt" role="3CFYIz">
+                  <ref role="3CFYIx" to="un0u:15kyJAomiYy" resolve="MethodAttributes" />
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="15kyJAomoGN" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="15kyJAomn1p" role="3clFbx">
+            <node concept="3clFbF" id="15kyJAomoLj" role="3cqZAp">
+              <node concept="2OqwBi" id="15kyJAomq9c" role="3clFbG">
+                <node concept="2OqwBi" id="15kyJAomp9R" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="15kyJAomoLi" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="15kyJAompT3" role="2OqNvi">
+                    <node concept="3CFYIy" id="15kyJAomq0m" role="3CFYIz">
+                      <ref role="3CFYIx" to="un0u:15kyJAomiYy" resolve="MethodAttributes" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2DeJnY" id="15kyJAomqlo" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="15kyJAomqn4" role="9aQIa">
+            <node concept="3clFbS" id="15kyJAomqn5" role="9aQI4">
+              <node concept="3clFbF" id="15kyJAomqyf" role="3cqZAp">
+                <node concept="2OqwBi" id="15kyJAomrOZ" role="3clFbG">
+                  <node concept="2OqwBi" id="15kyJAomqUN" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="15kyJAomqye" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="15kyJAomrDZ" role="2OqNvi">
+                      <node concept="3CFYIy" id="15kyJAomrG9" role="3CFYIz">
+                        <ref role="3CFYIx" to="un0u:15kyJAomiYy" resolve="MethodAttributes" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3YRAZt" id="15kyJAoms6k" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -198,6 +198,9 @@
         <child id="1175147624276" name="body" index="2sgrp5" />
       </concept>
       <concept id="1175147670730" name="jetbrains.mps.lang.typesystem.structure.SubtypingRule" flags="ig" index="2sgARr" />
+      <concept id="1175517400280" name="jetbrains.mps.lang.typesystem.structure.AssertStatement" flags="nn" index="2Mj0R9">
+        <child id="1175517761460" name="condition" index="2MkoU_" />
+      </concept>
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
@@ -296,6 +299,7 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
+      <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -335,6 +339,12 @@
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
       <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
+      </concept>
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
@@ -13172,7 +13182,7 @@
   </node>
   <node concept="18kY7G" id="6RAFKVMgm$8">
     <property role="TrG5h" value="check_ServiceInstanceMethodDeclaration" />
-    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
+    <property role="3GE5qa" value="Service" />
     <node concept="3clFbS" id="6RAFKVMgm$9" role="18ibNy">
       <node concept="3clFbJ" id="6RAFKVMgm$R" role="3cqZAp">
         <node concept="22lmx$" id="6RAFKVMyplU" role="3clFbw">
@@ -14690,6 +14700,117 @@
     <node concept="1YaCAy" id="4dTPSB4iq0Q" role="1YuTPh">
       <property role="TrG5h" value="color" />
       <ref role="1YaFvo" to="un0u:4dTPSB4i4ck" resolve="Color" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="15kyJApX3PM">
+    <property role="TrG5h" value="IMDforServicesAndRepos" />
+    <node concept="3clFbS" id="15kyJApX3PN" role="18ibNy">
+      <node concept="3cpWs8" id="15kyJApX3Q5" role="3cqZAp">
+        <node concept="3cpWsn" id="15kyJApX3Q8" role="3cpWs9">
+          <property role="TrG5h" value="parent" />
+          <node concept="3Tqbb2" id="15kyJApX3Q3" role="1tU5fm" />
+          <node concept="2OqwBi" id="15kyJApX4k4" role="33vP2m">
+            <node concept="1YBJjd" id="15kyJApX3Qu" role="2Oq$k0">
+              <ref role="1YBMHb" node="15kyJApX3PP" resolve="imd" />
+            </node>
+            <node concept="1mfA1w" id="15kyJApX50M" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="15kyJApX52H" role="3cqZAp" />
+      <node concept="3clFbJ" id="15kyJApX53g" role="3cqZAp">
+        <node concept="3clFbS" id="15kyJApX53i" role="3clFbx">
+          <node concept="2Mj0R9" id="15kyJApXW$b" role="3cqZAp">
+            <node concept="Xl_RD" id="15kyJApXWV1" role="2MkJ7o">
+              <property role="Xl_RC" value="Methods in components need method attributes" />
+            </node>
+            <node concept="1YBJjd" id="15kyJApXWXw" role="1urrMF">
+              <ref role="1YBMHb" node="15kyJApX3PP" resolve="imd" />
+            </node>
+            <node concept="2OqwBi" id="15kyJApX7qI" role="2MkoU_">
+              <node concept="2OqwBi" id="15kyJApX6j1" role="2Oq$k0">
+                <node concept="1YBJjd" id="15kyJApX5Ky" role="2Oq$k0">
+                  <ref role="1YBMHb" node="15kyJApX3PP" resolve="imd" />
+                </node>
+                <node concept="3CFZ6_" id="15kyJApX79z" role="2OqNvi">
+                  <node concept="3CFYIy" id="15kyJApX7gk" role="3CFYIz">
+                    <ref role="3CFYIx" to="un0u:15kyJAomiYy" resolve="MethodAttributes" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3x8VRR" id="15kyJApXWUL" role="2OqNvi" />
+            </node>
+            <node concept="3Cnw8n" id="15kyJApXYFA" role="1urrFz">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="15kyJApXWzH" resolve="AddMethodAttributeQuickFix" />
+              <node concept="3CnSsL" id="15kyJApXYPc" role="3Coj4f">
+                <ref role="QkamJ" node="15kyJApXX2U" resolve="imdecl" />
+                <node concept="1YBJjd" id="15kyJApXYPs" role="3CoRuB">
+                  <ref role="1YBMHb" node="15kyJApX3PP" resolve="imd" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="15kyJApYLh1" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="15kyJApX5bI" role="3clFbw">
+          <node concept="37vLTw" id="15kyJApX53B" role="2Oq$k0">
+            <ref role="3cqZAo" node="15kyJApX3Q8" resolve="parent" />
+          </node>
+          <node concept="1mIQ4w" id="15kyJApX5hB" role="2OqNvi">
+            <node concept="chp4Y" id="15kyJApX5ju" role="cj9EA">
+              <ref role="cht4Q" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eNFk2" id="15kyJApX5nb" role="3eNLev">
+          <node concept="2OqwBi" id="15kyJApX5$E" role="3eO9$A">
+            <node concept="37vLTw" id="15kyJApX5sz" role="2Oq$k0">
+              <ref role="3cqZAo" node="15kyJApX3Q8" resolve="parent" />
+            </node>
+            <node concept="1mIQ4w" id="15kyJApX5Ez" role="2OqNvi">
+              <node concept="chp4Y" id="15kyJApX5ES" role="cj9EA">
+                <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="15kyJApX5nd" role="3eOfB_" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="15kyJApX3Q0" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="15kyJApX3PP" role="1YuTPh">
+      <property role="TrG5h" value="imd" />
+      <ref role="1YaFvo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="15kyJApXWzH">
+    <property role="3GE5qa" value="Builder" />
+    <property role="TrG5h" value="AddMethodAttributeQuickFix" />
+    <node concept="Q6JDH" id="15kyJApXX2U" role="Q6Id_">
+      <property role="TrG5h" value="imdecl" />
+      <node concept="3Tqbb2" id="15kyJApXX30" role="Q6QK4">
+        <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="15kyJApXWzI" role="Q6x$H">
+      <node concept="3clFbS" id="15kyJApXWzJ" role="2VODD2">
+        <node concept="3clFbF" id="15kyJApXX3e" role="3cqZAp">
+          <node concept="2OqwBi" id="15kyJApXYoO" role="3clFbG">
+            <node concept="2OqwBi" id="15kyJApXXrN" role="2Oq$k0">
+              <node concept="QwW4i" id="15kyJApXX3d" role="2Oq$k0">
+                <ref role="QwW4h" node="15kyJApXX2U" resolve="imdecl" />
+              </node>
+              <node concept="3CFZ6_" id="15kyJApXY8H" role="2OqNvi">
+                <node concept="3CFYIy" id="15kyJApXYfZ" role="3CFYIz">
+                  <ref role="3CFYIx" to="un0u:15kyJAomiYy" resolve="MethodAttributes" />
+                </node>
+              </node>
+            </node>
+            <node concept="zfrQC" id="15kyJApXYAU" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

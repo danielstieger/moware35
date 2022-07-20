@@ -19284,7 +19284,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="6RAFKVMF6tS">
-    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
+    <property role="3GE5qa" value="Service" />
     <ref role="13h7C2" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
     <node concept="13hLZK" id="6RAFKVMF6tT" role="13h7CW">
       <node concept="3clFbS" id="6RAFKVMF6tU" role="2VODD2" />
