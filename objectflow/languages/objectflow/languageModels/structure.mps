@@ -3485,7 +3485,6 @@
     <node concept="PrWs8" id="6RAFKVMF6tV" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="asaX9" id="15kyJAnULWZ" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6RAFKVMR_DQ">
     <property role="3GE5qa" value="Status" />
@@ -3532,7 +3531,6 @@
     <property role="3GE5qa" value="Service" />
     <property role="TrG5h" value="IServiceInstanceMethodOption" />
     <property role="EcuMT" value="1141552953265942897" />
-    <node concept="asaX9" id="15kyJAnULX1" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="150ifyc27tm">
     <property role="3GE5qa" value="Permission.cmd" />
@@ -5140,20 +5138,6 @@
     <property role="EcuMT" value="4862154259432970722" />
     <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="ICanHaveColor" />
-  </node>
-  <node concept="1TIwiD" id="15kyJAomiYy">
-    <property role="EcuMT" value="1248775801295941538" />
-    <property role="3GE5qa" value="Service" />
-    <property role="TrG5h" value="MethodAttributes" />
-    <property role="34LRSv" value="method attributes" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="15kyJAomiYz" role="lGtFl">
-      <property role="Hh88m" value="methodAttributes" />
-      <node concept="tn0Fv" id="15kyJAomiY_" role="HhnKV" />
-      <node concept="trNpa" id="15kyJAomiYB" role="EQaZv">
-        <ref role="trN6q" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
-      </node>
-    </node>
   </node>
 </model>
 

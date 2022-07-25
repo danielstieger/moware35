@@ -9624,16 +9624,14 @@
                 <node concept="10Nm6u" id="1ckeo1pmZfi" role="gfFT$" />
               </node>
             </node>
-            <node concept="17Uvod" id="1ckeo1pmZfj" role="lGtFl">
-              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-              <property role="2qtEX9" value="value" />
-              <node concept="3zFVjK" id="1ckeo1pmZfk" role="3zH0cK">
-                <node concept="3clFbS" id="1ckeo1pmZfl" role="2VODD2">
-                  <node concept="3clFbF" id="1ckeo1pmZfm" role="3cqZAp">
-                    <node concept="2OqwBi" id="1ckeo1pmZfn" role="3clFbG">
-                      <node concept="30H73N" id="1ckeo1pmZfo" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="1ckeo1pmZfp" role="2OqNvi">
-                        <ref role="37wK5l" to="70o0:1uKMA6MOJgE" resolve="getColor" />
+            <node concept="29HgVG" id="4MLuC9Da9RX" role="lGtFl">
+              <node concept="3NFfHV" id="4MLuC9DaaZ0" role="3NFExx">
+                <node concept="3clFbS" id="4MLuC9DaaZ1" role="2VODD2">
+                  <node concept="3clFbF" id="4MLuC9DaaZ9" role="3cqZAp">
+                    <node concept="2OqwBi" id="4MLuC9Dacu7" role="3clFbG">
+                      <node concept="30H73N" id="4MLuC9DaaZ8" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="4MLuC9Daecw" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:1uKMA6MOJgE" resolve="getColorReference" />
                       </node>
                     </node>
                   </node>

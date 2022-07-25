@@ -4,7 +4,6 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
   </languages>
   <imports>
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.objectflow.runtime/)" />
@@ -1456,11 +1455,11 @@
           <node concept="3cpWsn" id="1wwgtxzgm_Q" role="3cpWs9">
             <property role="TrG5h" value="h2msg" />
             <node concept="3uibUv" id="1wwgtxzgm_R" role="1tU5fm">
-              <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Message" />
+              <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Dialog" />
             </node>
             <node concept="2ShNRf" id="7r26jiO5N28" role="33vP2m">
               <node concept="1pGfFk" id="7r26jiO5N1Z" role="2ShVmc">
-                <ref role="37wK5l" to="tea8:5hYsHqQzfX7" resolve="H2Message" />
+                <ref role="37wK5l" to="tea8:5hYsHqQzfX7" resolve="H2Dialog" />
                 <node concept="Rm8GO" id="7r26jiO5NeQ" role="37wK5m">
                   <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                   <ref role="Rm8GQ" to="250q:4Ucpg8z6mvq" resolve="ERROR_SMALL" />
@@ -2909,7 +2908,7 @@
           <node concept="3cpWsn" id="57ov2S_zb2" role="3cpWs9">
             <property role="TrG5h" value="h2msg" />
             <node concept="3uibUv" id="57ov2S_zb3" role="1tU5fm">
-              <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Message" />
+              <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="H2Dialog" />
             </node>
             <node concept="10Nm6u" id="57ov2SFzIT" role="33vP2m" />
           </node>
@@ -2920,7 +2919,7 @@
               <node concept="37vLTI" id="57ov2SFz6u" role="3clFbG">
                 <node concept="2ShNRf" id="57ov2S_zb4" role="37vLTx">
                   <node concept="1pGfFk" id="57ov2S_zb5" role="2ShVmc">
-                    <ref role="37wK5l" to="tea8:5hYsHqQzfX7" resolve="H2Message" />
+                    <ref role="37wK5l" to="tea8:5hYsHqQzfX7" resolve="H2Dialog" />
                     <node concept="Rm8GO" id="57ov2S_zb6" role="37wK5m">
                       <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                       <ref role="Rm8GQ" to="250q:4Ucpg8z6mvq" resolve="ERROR_SMALL" />
