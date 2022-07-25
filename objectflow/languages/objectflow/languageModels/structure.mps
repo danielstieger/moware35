@@ -1205,6 +1205,7 @@
     <node concept="1QGGSu" id="1iISEUi_iil" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/repository.png" />
     </node>
+    <node concept="asaX9" id="7CiiQbKfCll" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6W_Qo9f2MnC">
     <property role="3GE5qa" value="Repository" />
@@ -1226,6 +1227,7 @@
     <node concept="PrWs8" id="6W_Qo9f2Z$5" role="PzmwI">
       <ref role="PrY4T" to="r5tz:6W_Qo9f2MZI" resolve="IRepositoryMethod" />
     </node>
+    <node concept="asaX9" id="7CiiQbKfClo" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="3JsUq_S9PU7">
     <property role="3GE5qa" value="BusinessObject" />
@@ -4001,6 +4003,7 @@
       <property role="3tVfz5" value="7032039167863747812" />
       <ref role="2wpffI" node="66mO_QB9Jj$" />
     </node>
+    <node concept="asaX9" id="7CiiQbKfClq" role="lGtFl" />
   </node>
   <node concept="25R3W" id="5HvIBdINHdC">
     <property role="TrG5h" value="PrintType" />

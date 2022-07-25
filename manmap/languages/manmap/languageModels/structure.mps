@@ -442,6 +442,7 @@
     <node concept="PrWs8" id="5dYK2oPGHoh" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="asaX9" id="7CiiQbJZID5" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="EYyuKpeapr">
     <property role="3GE5qa" value="query" />
@@ -796,6 +797,7 @@
     <property role="TrG5h" value="IRepositoryMethod" />
     <property role="EcuMT" value="8009046666043404270" />
     <property role="3GE5qa" value="repository" />
+    <node concept="asaX9" id="7CiiQbJZID7" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="3JsUq_Sf9jY">
     <property role="3GE5qa" value="mapping" />
@@ -1035,13 +1037,14 @@
     <node concept="PrWs8" id="1Rx6rUSp3_F" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="asaX9" id="7CiiQbJZID9" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1Rx6rUSp3_H">
     <property role="TrG5h" value="SqlStringField" />
     <property role="3GE5qa" value="customsql" />
     <property role="34LRSv" value="sql string" />
-    <property role="R4oN_" value="as repo field" />
     <property role="EcuMT" value="2153030403787864429" />
+    <property role="R4oN_" value="reusable sql text" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1Rx6rUSp3_K" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1053,12 +1056,16 @@
     <node concept="PrWs8" id="1Rx6rUSp3_I" role="PzmwI">
       <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
     </node>
+    <node concept="PrWs8" id="7CiiQbKkDxk" role="PzmwI">
+      <ref role="PrY4T" node="7CiiQbKuR3U" resolve="IRepositoryContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1Rx6rUSp5XL">
     <property role="TrG5h" value="RowMapperField" />
     <property role="3GE5qa" value="customsql" />
     <property role="34LRSv" value="row mapper" />
     <property role="EcuMT" value="2153030403787874161" />
+    <property role="R4oN_" value="manual resultset row to object mapper" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1Rx6rUSp5XO" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1069,6 +1076,9 @@
     </node>
     <node concept="PrWs8" id="1Rx6rUSp5XM" role="PzmwI">
       <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
+    </node>
+    <node concept="PrWs8" id="7CiiQbKkDxn" role="PzmwI">
+      <ref role="PrY4T" node="7CiiQbKuR3U" resolve="IRepositoryContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="qHvcCAVs5N">
@@ -1100,6 +1110,7 @@
     <property role="TrG5h" value="NoKeyMapperField" />
     <property role="34LRSv" value="nokeystore/read-only map" />
     <property role="EcuMT" value="781751828139414632" />
+    <property role="R4oN_" value="resultset to object mapping" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="FplMliKLYv" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1120,6 +1131,9 @@
     </node>
     <node concept="PrWs8" id="FplMliKLYl" role="PzmwI">
       <ref role="PrY4T" node="6OP6D4ZAUWJ" resolve="IIncludeAbleMapsClassConcept" />
+    </node>
+    <node concept="PrWs8" id="7CiiQbKkEfI" role="PzmwI">
+      <ref role="PrY4T" node="7CiiQbKuR3U" resolve="IRepositoryContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="FplMljbxON">
@@ -1425,9 +1439,6 @@
     <property role="34LRSv" value="Repository" />
     <property role="R4oN_" value="db access" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
-    <node concept="PrWs8" id="3PtsrckEx5j" role="PzmwI">
-      <ref role="PrY4T" node="EYyuKpdQjB" resolve="IRepository" />
-    </node>
     <node concept="PrWs8" id="3PtsrckEx5l" role="PzmwI">
       <ref role="PrY4T" node="5dYK2oNxakb" resolve="L2RTComponent" />
     </node>
@@ -1442,7 +1453,17 @@
     <property role="EcuMT" value="4421815423107469588" />
     <property role="3GE5qa" value="repository" />
     <property role="TrG5h" value="RepositoryInstanceMethodDeclaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="34LRSv" value="repo method" />
+    <property role="R4oN_" value="accessing persistance storage" />
+    <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+    <node concept="1TJgyi" id="7CiiQbK0TEX" role="1TKVEl">
+      <property role="IQ2nx" value="8796175910513646269" />
+      <property role="TrG5h" value="repoMethodType" />
+      <ref role="AX2Wp" node="3PtsrckEx4l" resolve="RepositoryInstanceMethodType" />
+    </node>
+    <node concept="PrWs8" id="7CiiQbKAqrI" role="PzmwI">
+      <ref role="PrY4T" node="7CiiQbKuR3U" resolve="IRepositoryContent" />
+    </node>
   </node>
   <node concept="25R3W" id="3PtsrckEx4l">
     <property role="3F6X1D" value="4421815423107469589" />
@@ -1464,6 +1485,17 @@
     <node concept="25R33" id="3PtsrckEx4u" role="25R1y">
       <property role="3tVfz5" value="4421815423107469598" />
       <property role="TrG5h" value="DELETE" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7CiiQbKuR3U">
+    <property role="EcuMT" value="8796175910521499898" />
+    <property role="3GE5qa" value="repository" />
+    <property role="TrG5h" value="IRepositoryContent" />
+    <node concept="PrWs8" id="7CiiQbKuR3V" role="PrDN$">
+      <ref role="PrY4T" to="tpee:h9ngReX" resolve="ClassifierMember" />
+    </node>
+    <node concept="PrWs8" id="7CiiQbKuR3X" role="PrDN$">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
 </model>

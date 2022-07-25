@@ -4735,5 +4735,23 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="7CiiQbK17I1">
+    <property role="3GE5qa" value="Service" />
+    <ref role="1M2myG" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
+    <node concept="9S07l" id="7CiiQbK17I2" role="9Vyp8">
+      <node concept="3clFbS" id="7CiiQbK17I3" role="2VODD2">
+        <node concept="3clFbF" id="7CiiQbK17PI" role="3cqZAp">
+          <node concept="2OqwBi" id="7CiiQbK17PJ" role="3clFbG">
+            <node concept="nLn13" id="7CiiQbK17PK" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="7CiiQbK17PL" role="2OqNvi">
+              <node concept="chp4Y" id="7CiiQbK17PM" role="cj9EA">
+                <ref role="cht4Q" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
