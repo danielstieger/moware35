@@ -438,6 +438,7 @@
   <node concept="PlHQZ" id="EYyuKpdQjB">
     <property role="TrG5h" value="IRepository" />
     <property role="EcuMT" value="774207833082651879" />
+    <property role="3GE5qa" value="repository" />
     <node concept="PrWs8" id="5dYK2oPGHoh" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -794,6 +795,7 @@
   <node concept="PlHQZ" id="6W_Qo9f2MZI">
     <property role="TrG5h" value="IRepositoryMethod" />
     <property role="EcuMT" value="8009046666043404270" />
+    <property role="3GE5qa" value="repository" />
   </node>
   <node concept="PlHQZ" id="3JsUq_Sf9jY">
     <property role="3GE5qa" value="mapping" />
@@ -1029,6 +1031,7 @@
   <node concept="PlHQZ" id="1Rx6rUSp3_E">
     <property role="TrG5h" value="IRepositoryField" />
     <property role="EcuMT" value="2153030403787864426" />
+    <property role="3GE5qa" value="repository" />
     <node concept="PrWs8" id="1Rx6rUSp3_F" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
