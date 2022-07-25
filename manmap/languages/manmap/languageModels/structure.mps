@@ -1417,5 +1417,54 @@
       <ref role="PrY4T" node="Kou8LehQGC" resolve="IMapsClassConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3PtsrckEx4j">
+    <property role="EcuMT" value="4421815423107469587" />
+    <property role="3GE5qa" value="repository" />
+    <property role="TrG5h" value="Repository" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Repository" />
+    <property role="R4oN_" value="db access" />
+    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
+    <node concept="PrWs8" id="3PtsrckEx5j" role="PzmwI">
+      <ref role="PrY4T" node="EYyuKpdQjB" resolve="IRepository" />
+    </node>
+    <node concept="PrWs8" id="3PtsrckEx5l" role="PzmwI">
+      <ref role="PrY4T" node="5dYK2oNxakb" resolve="L2RTComponent" />
+    </node>
+    <node concept="PrWs8" id="3PtsrckEx5o" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1QGGSu" id="3PtsrckEyIf" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/repository.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3PtsrckEx4k">
+    <property role="EcuMT" value="4421815423107469588" />
+    <property role="3GE5qa" value="repository" />
+    <property role="TrG5h" value="RepositoryInstanceMethodDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="25R3W" id="3PtsrckEx4l">
+    <property role="3F6X1D" value="4421815423107469589" />
+    <property role="3GE5qa" value="repository" />
+    <property role="TrG5h" value="RepositoryInstanceMethodType" />
+    <ref role="1H5jkz" node="3PtsrckEx4m" resolve="READONLY" />
+    <node concept="25R33" id="3PtsrckEx4m" role="25R1y">
+      <property role="3tVfz5" value="4421815423107469590" />
+      <property role="TrG5h" value="READONLY" />
+    </node>
+    <node concept="25R33" id="3PtsrckEx4n" role="25R1y">
+      <property role="3tVfz5" value="4421815423107469591" />
+      <property role="TrG5h" value="CHECKOUT" />
+    </node>
+    <node concept="25R33" id="3PtsrckEx4q" role="25R1y">
+      <property role="3tVfz5" value="4421815423107469594" />
+      <property role="TrG5h" value="CHECKIN" />
+    </node>
+    <node concept="25R33" id="3PtsrckEx4u" role="25R1y">
+      <property role="3tVfz5" value="4421815423107469598" />
+      <property role="TrG5h" value="DELETE" />
+    </node>
+  </node>
 </model>
 

@@ -11198,5 +11198,40 @@
       <node concept="3clFbS" id="6OP6D4ZB160" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="3PtsrckLWwQ">
+    <property role="3GE5qa" value="repository" />
+    <ref role="13h7C2" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+    <node concept="13hLZK" id="3PtsrckLWwR" role="13h7CW">
+      <node concept="3clFbS" id="3PtsrckLWwS" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3PtsrckLWx9" role="13h7CS">
+      <property role="TrG5h" value="getRepoMethods" />
+      <ref role="13i0hy" node="4PEV5$Q8Isf" resolve="getRepoMethods" />
+      <node concept="3Tm1VV" id="3PtsrckLWxa" role="1B3o_S" />
+      <node concept="3clFbS" id="3PtsrckLWxe" role="3clF47">
+        <node concept="3cpWs6" id="3PtsrckLWxV" role="3cqZAp">
+          <node concept="10Nm6u" id="3PtsrckLWyj" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="A3Dl8" id="3PtsrckLWxf" role="3clF45">
+        <node concept="3Tqbb2" id="3PtsrckLWxg" role="A3Ik2">
+          <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="3PtsrckLWxh" role="13h7CS">
+      <property role="TrG5h" value="getComponentClassFqName" />
+      <ref role="13i0hy" node="Yd9evR5_dz" resolve="getComponentClassFqName" />
+      <node concept="3Tm1VV" id="3PtsrckLWxi" role="1B3o_S" />
+      <node concept="3clFbS" id="3PtsrckLWxl" role="3clF47">
+        <node concept="3clFbF" id="3PtsrckLWxo" role="3cqZAp">
+          <node concept="Xl_RD" id="3PtsrckLWxn" role="3clFbG">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="3PtsrckLWxm" role="3clF45" />
+    </node>
+  </node>
 </model>
 
