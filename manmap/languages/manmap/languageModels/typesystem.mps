@@ -5221,7 +5221,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="2BBx5JAAk0I">
-    <property role="TrG5h" value="check_IMDInServiceComponent" />
+    <property role="TrG5h" value="check_IMDInRepository" />
     <property role="3GE5qa" value="repository" />
     <node concept="3clFbS" id="2BBx5JAAk0J" role="18ibNy">
       <node concept="3clFbJ" id="2BBx5JAAk0U" role="3cqZAp">

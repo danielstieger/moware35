@@ -7052,6 +7052,15 @@
     <property role="3GE5qa" value="Repository" />
     <property role="1$Xk0j" value="true" />
     <node concept="3clFbS" id="qHvcCAXy_r" role="18ibNy">
+      <node concept="2MkqsV" id="7wnMfTralHz" role="3cqZAp">
+        <node concept="Xl_RD" id="7wnMfTramcS" role="2MkJ7o">
+          <property role="Xl_RC" value="Objectflow Model Repositories are deprecated and can no longer be used!" />
+        </node>
+        <node concept="1YBJjd" id="7wnMfTramen" role="1urrMF">
+          <ref role="1YBMHb" node="qHvcCAXy_t" resolve="modelRepository" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="7wnMfTrameK" role="3cqZAp" />
       <node concept="3clFbF" id="qHvcCAXQDX" role="3cqZAp">
         <node concept="2OqwBi" id="qHvcCAXUL1" role="3clFbG">
           <node concept="2OqwBi" id="qHvcCAXQM_" role="2Oq$k0">

@@ -338,7 +338,7 @@
         <reference id="871579071900248759" name="property" index="12nL8V" />
       </concept>
       <concept id="871579071900248872" name="org.modellwerkstatt.manmap.structure.IMapsClassConcept" flags="ng" index="12nLe$">
-        <child id="4557816287827057767" name="mapping" index="3caO6$" />
+        <child id="4557816287827057767" name="atomMpig" index="3caO6$" />
       </concept>
       <concept id="1974135804380344167" name="org.modellwerkstatt.manmap.structure.MappingReference" flags="ng" index="3_7ulE">
         <reference id="5159282717680535116" name="fieldMapping" index="2OG787" />
