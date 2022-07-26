@@ -1439,6 +1439,12 @@
     <property role="34LRSv" value="Repository" />
     <property role="R4oN_" value="db access" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
+    <node concept="1TJgyj" id="4d9s5S$OcIC" role="1TKVEi">
+      <property role="IQ2ns" value="4848530023487949736" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="documentation2" />
+      <ref role="20lvS9" node="4d9s5S$OcIB" resolve="L2Comment" />
+    </node>
     <node concept="PrWs8" id="3PtsrckEx5l" role="PzmwI">
       <ref role="PrY4T" node="5dYK2oNxakb" resolve="L2RTComponent" />
     </node>
@@ -1497,6 +1503,11 @@
     <node concept="PrWs8" id="7CiiQbKuR3X" role="PrDN$">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="4d9s5S$OcIB">
+    <property role="EcuMT" value="4848530023487949735" />
+    <property role="3GE5qa" value="L2" />
+    <property role="TrG5h" value="L2Comment" />
   </node>
 </model>
 
