@@ -11236,6 +11236,28 @@
       <node concept="3Tm1VV" id="7CiiQbJZI_O" role="1B3o_S" />
       <node concept="10P_77" id="7CiiQbJZI_P" role="3clF45" />
       <node concept="3clFbS" id="7CiiQbJZI_Q" role="3clF47">
+        <node concept="3SKdUt" id="4d9s5Sw0tqN" role="3cqZAp">
+          <node concept="1PaTwC" id="4d9s5Sw0tqO" role="1aUNEU">
+            <node concept="3oM_SD" id="4d9s5Sw0tqP" role="1PaTwD">
+              <property role="3oM_SC" value="helper" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0tt4" role="1PaTwD">
+              <property role="3oM_SC" value="against" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0tti" role="1PaTwD">
+              <property role="3oM_SC" value="gen" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0trS" role="1PaTwD">
+              <property role="3oM_SC" value="prio" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0tsb" role="1PaTwD">
+              <property role="3oM_SC" value="problems" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0tsn" role="1PaTwD">
+              <property role="3oM_SC" value="of/mm" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="7CiiQbJZI_R" role="3cqZAp">
           <node concept="2OqwBi" id="7CiiQbJZI_S" role="3clFbw">
             <node concept="liA8E" id="7CiiQbJZI_T" role="2OqNvi">
@@ -11258,6 +11280,87 @@
         </node>
         <node concept="3clFbF" id="7CiiQbJZI_Z" role="3cqZAp">
           <node concept="3clFbT" id="7CiiQbJZIA0" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="4d9s5Sw0rjL" role="13h7CS">
+      <property role="TrG5h" value="isRepoMethodNeedsTransaction" />
+      <property role="2Ki8OM" value="true" />
+      <node concept="37vLTG" id="4d9s5Sw0rjM" role="3clF46">
+        <property role="TrG5h" value="imd" />
+        <node concept="3Tqbb2" id="4d9s5Sw0rQl" role="1tU5fm">
+          <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4d9s5Sw0rjO" role="1B3o_S" />
+      <node concept="10P_77" id="4d9s5Sw0rjP" role="3clF45" />
+      <node concept="3clFbS" id="4d9s5Sw0rjQ" role="3clF47">
+        <node concept="3SKdUt" id="4d9s5Sw0ttL" role="3cqZAp">
+          <node concept="1PaTwC" id="4d9s5Sw0ttM" role="1aUNEU">
+            <node concept="3oM_SD" id="4d9s5Sw0ttN" role="1PaTwD">
+              <property role="3oM_SC" value="helper" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0ttO" role="1PaTwD">
+              <property role="3oM_SC" value="against" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0ttP" role="1PaTwD">
+              <property role="3oM_SC" value="gen" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0ttQ" role="1PaTwD">
+              <property role="3oM_SC" value="prio" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0ttR" role="1PaTwD">
+              <property role="3oM_SC" value="problems" />
+            </node>
+            <node concept="3oM_SD" id="4d9s5Sw0ttS" role="1PaTwD">
+              <property role="3oM_SC" value="of/mm" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4d9s5Sw0tlJ" role="3cqZAp">
+          <node concept="2OqwBi" id="4d9s5Sw0tlK" role="3cqZAk">
+            <node concept="2OqwBi" id="4d9s5Sw0tlL" role="2Oq$k0">
+              <node concept="37vLTw" id="4d9s5Sw0tlM" role="2Oq$k0">
+                <ref role="3cqZAo" node="4d9s5Sw0rjM" resolve="imd" />
+              </node>
+              <node concept="3Tsc0h" id="4d9s5Sw0tlN" role="2OqNvi">
+                <ref role="3TtcxE" to="tpee:hiAJF2X" resolve="annotation" />
+              </node>
+            </node>
+            <node concept="2HwmR7" id="4d9s5Sw0tlO" role="2OqNvi">
+              <node concept="1bVj0M" id="4d9s5Sw0tlP" role="23t8la">
+                <node concept="3clFbS" id="4d9s5Sw0tlQ" role="1bW5cS">
+                  <node concept="3clFbF" id="4d9s5Sw0tlR" role="3cqZAp">
+                    <node concept="2OqwBi" id="4d9s5Sw0tlS" role="3clFbG">
+                      <node concept="Xl_RD" id="4d9s5Sw0tlT" role="2Oq$k0">
+                        <property role="Xl_RC" value="RepoMethodNeedsTransaction" />
+                      </node>
+                      <node concept="liA8E" id="4d9s5Sw0tlU" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                        <node concept="2OqwBi" id="4d9s5Sw0tlV" role="37wK5m">
+                          <node concept="2OqwBi" id="4d9s5Sw0tlW" role="2Oq$k0">
+                            <node concept="37vLTw" id="4d9s5Sw0tlX" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4d9s5Sw0tm0" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="4d9s5Sw0tlY" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:hiAI5P0" resolve="annotation" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="4d9s5Sw0tlZ" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="4d9s5Sw0tm0" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="4d9s5Sw0tm1" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -11611,6 +11714,28 @@
                 <node concept="21nZrQ" id="7CiiQbKGO3I" role="21noJM">
                   <ref role="21nZrZ" to="r5tz:3PtsrckEx4q" resolve="CHECKIN" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="4d9s5Sw0LuX" role="13h7CS">
+      <property role="TrG5h" value="isCheckout" />
+      <node concept="3Tm1VV" id="4d9s5Sw0LuY" role="1B3o_S" />
+      <node concept="10P_77" id="4d9s5Sw0LuZ" role="3clF45" />
+      <node concept="3clFbS" id="4d9s5Sw0Lv0" role="3clF47">
+        <node concept="3clFbF" id="4d9s5Sw0Lv1" role="3cqZAp">
+          <node concept="2OqwBi" id="4d9s5Sw0Lv9" role="3clFbG">
+            <node concept="2OqwBi" id="4d9s5Sw0Lva" role="2Oq$k0">
+              <node concept="13iPFW" id="4d9s5Sw0Lvb" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4d9s5Sw0Lvc" role="2OqNvi">
+                <ref role="3TsBF5" to="r5tz:7CiiQbK0TEX" resolve="repoMethodType" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4d9s5Sw0Lvd" role="2OqNvi">
+              <node concept="21nZrQ" id="4d9s5Sw0Lve" role="21noJM">
+                <ref role="21nZrZ" to="r5tz:3PtsrckEx4n" resolve="CHECKOUT" />
               </node>
             </node>
           </node>

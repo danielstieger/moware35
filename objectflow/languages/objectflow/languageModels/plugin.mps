@@ -4794,7 +4794,7 @@
                         </node>
                         <node concept="2SmgA7" id="5dKi1fAIO2G" role="2OqNvi">
                           <node concept="chp4Y" id="5dKi1fAIRFF" role="1dBWTz">
-                            <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+                            <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
                           </node>
                         </node>
                       </node>
@@ -6111,7 +6111,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="35a9wK5RH6P" role="37wK5m">
-                  <property role="Xl_RC" value="Selected a 'model respository' where NoKeyMapper should be put in . . ." />
+                  <property role="Xl_RC" value="Selected a Respository where NoKeyMapper should be put in . . ." />
                 </node>
                 <node concept="Xl_RD" id="35a9wK5RH6Q" role="37wK5m">
                   <property role="Xl_RC" value="Wrong selection in project explorer" />
@@ -6132,7 +6132,7 @@
                 </node>
                 <node concept="1mIQ4w" id="35a9wK5RH6X" role="2OqNvi">
                   <node concept="chp4Y" id="35a9wK5S$lf" role="cj9EA">
-                    <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+                    <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
                   </node>
                 </node>
               </node>
@@ -6286,11 +6286,11 @@
                         <ref role="3cqZAo" node="35a9wK5RH6C" resolve="modelRepository" />
                       </node>
                       <node concept="chp4Y" id="3B2vGTdJh1I" role="3oSUPX">
-                        <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+                        <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
                       </node>
                     </node>
                     <node concept="3Tsc0h" id="35a9wK5Tj_k" role="2OqNvi">
-                      <ref role="3TtcxE" to="un0u:1Rx6rUSsRmJ" resolve="customSqlRepoFields" />
+                      <ref role="3TtcxE" to="tpee:4EqhHTp4Mw3" resolve="member" />
                     </node>
                   </node>
                   <node concept="2DeJg1" id="35a9wK5RH8j" role="2OqNvi">
@@ -7044,7 +7044,7 @@
                           </node>
                           <node concept="1mIQ4w" id="50jY$XkLQlB" role="2OqNvi">
                             <node concept="chp4Y" id="50jY$XkLRd8" role="cj9EA">
-                              <ref role="cht4Q" to="un0u:6W_Qo9f2MnC" resolve="ModelRepositoryMethod" />
+                              <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
                             </node>
                           </node>
                         </node>
@@ -7225,7 +7225,7 @@
                                     </node>
                                     <node concept="1mIQ4w" id="50jY$XkM5VE" role="2OqNvi">
                                       <node concept="chp4Y" id="50jY$XkM66o" role="cj9EA">
-                                        <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+                                        <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
                                       </node>
                                     </node>
                                   </node>
@@ -7238,7 +7238,7 @@
                               </node>
                               <node concept="1mIQ4w" id="50jY$XkM5I1" role="2OqNvi">
                                 <node concept="chp4Y" id="50jY$XkM5Q1" role="cj9EA">
-                                  <ref role="cht4Q" to="un0u:6W_Qo9f2MnC" resolve="ModelRepositoryMethod" />
+                                  <ref role="cht4Q" to="r5tz:3PtsrckEx4k" resolve="RepositoryInstanceMethodDeclaration" />
                                 </node>
                               </node>
                             </node>
@@ -7507,7 +7507,7 @@
                                             </node>
                                             <node concept="1mIQ4w" id="50jY$XkMlOO" role="2OqNvi">
                                               <node concept="chp4Y" id="50jY$XkMm4v" role="cj9EA">
-                                                <ref role="cht4Q" to="un0u:6W_Qo9f2MnC" resolve="ModelRepositoryMethod" />
+                                                <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
                                               </node>
                                             </node>
                                           </node>
