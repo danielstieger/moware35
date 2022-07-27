@@ -7044,7 +7044,7 @@
                           </node>
                           <node concept="1mIQ4w" id="50jY$XkLQlB" role="2OqNvi">
                             <node concept="chp4Y" id="50jY$XkLRd8" role="cj9EA">
-                              <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+                              <ref role="cht4Q" to="r5tz:3PtsrckEx4k" resolve="RepositoryInstanceMethodDeclaration" />
                             </node>
                           </node>
                         </node>
@@ -7507,7 +7507,7 @@
                                             </node>
                                             <node concept="1mIQ4w" id="50jY$XkMlOO" role="2OqNvi">
                                               <node concept="chp4Y" id="50jY$XkMm4v" role="cj9EA">
-                                                <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+                                                <ref role="cht4Q" to="r5tz:3PtsrckEx4k" resolve="RepositoryInstanceMethodDeclaration" />
                                               </node>
                                             </node>
                                           </node>
