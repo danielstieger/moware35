@@ -3163,7 +3163,7 @@
             <node concept="3clFbS" id="1l1sktcbOD0" role="3clFbx">
               <node concept="2MkqsV" id="1l1sktcbQaN" role="3cqZAp">
                 <node concept="Xl_RD" id="1l1sktcbQb4" role="2MkJ7o">
-                  <property role="Xl_RC" value="Only GRAPH_OWNER commands support the maker/journal operation for FINAL_CANCEL." />
+                  <property role="Xl_RC" value="Only GRAPH_OWNER commands support the marker/journal operation for FINAL_CANCEL." />
                 </node>
                 <node concept="1YBJjd" id="1l1sktcbQd$" role="1urrMF">
                   <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />

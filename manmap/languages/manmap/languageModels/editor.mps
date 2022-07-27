@@ -423,15 +423,6 @@
         </node>
         <node concept="l2Vlx" id="4bYxf2FrThq" role="2iSdaV" />
       </node>
-      <node concept="3F2HdR" id="Kou8LehH2G" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="r5tz:Kou8LehH2F" resolve="entityReference" />
-        <node concept="l2Vlx" id="Kou8LehH2H" role="2czzBx" />
-        <node concept="3F0ifn" id="Kou8LehH2I" role="2czzBI">
-          <property role="3F0ifm" value="" />
-          <property role="ilYzB" value="&lt;entities&gt;" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="Kou8LehH2L" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
@@ -701,18 +692,6 @@
     </node>
     <node concept="14StLt" id="6TB1IkohSxZ" role="V601i">
       <property role="TrG5h" value="MappingRefBackground" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="Kou8LehH2_">
-    <ref role="1XX52x" to="r5tz:Kou8LehH1W" resolve="EntityReference" />
-    <node concept="1iCGBv" id="Kou8LehH2B" role="2wV5jI">
-      <ref role="1NtTu8" to="r5tz:Kou8LehH1X" resolve="classConcept" />
-      <node concept="1sVBvm" id="Kou8LehH2C" role="1sWHZn">
-        <node concept="3F0A7n" id="Kou8LehH2E" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="Kou8LehQET">

@@ -97,13 +97,6 @@
     <property role="34LRSv" value="Persistence Description" />
     <property role="EcuMT" value="871579071900124823" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="Kou8LehH2F" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="entityReference" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <property role="IQ2ns" value="871579071900209323" />
-      <ref role="20lvS9" node="Kou8LehH1W" resolve="EntityReference" />
-    </node>
     <node concept="1TJgyj" id="Kou8LehH2K" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="persistenceMapping" />
@@ -188,17 +181,6 @@
     </node>
     <node concept="PrWs8" id="Kou8LehQGM" role="PzmwI">
       <ref role="PrY4T" node="6OP6D4ZAUWJ" resolve="IIncludeAbleMapsClassConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="Kou8LehH1W">
-    <property role="TrG5h" value="EntityReference" />
-    <property role="EcuMT" value="871579071900209276" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="Kou8LehH1X" role="1TKVEi">
-      <property role="20kJfa" value="classConcept" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="871579071900209277" />
-      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="Kou8LehPz3">
