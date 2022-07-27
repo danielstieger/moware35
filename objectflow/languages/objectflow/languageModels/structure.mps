@@ -5145,5 +5145,53 @@
     <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="ICanHaveColor" />
   </node>
+  <node concept="1TIwiD" id="5RCLcUroajt">
+    <property role="EcuMT" value="6766874831773279453" />
+    <property role="3GE5qa" value="Builder" />
+    <property role="TrG5h" value="MergeInto" />
+    <property role="34LRSv" value="merge" />
+    <property role="R4oN_" value="copy information for source to destination" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="5RCLcUryCQ9" role="1TKVEl">
+      <property role="IQ2nx" value="6766874831776025993" />
+      <property role="TrG5h" value="mergeType" />
+      <ref role="AX2Wp" node="5RCLcUryCUR" resolve="MergeIntoType" />
+    </node>
+    <node concept="1TJgyj" id="5RCLcUroajw" role="1TKVEi">
+      <property role="IQ2ns" value="6766874831773279456" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="5RCLcUroajy" role="1TKVEi">
+      <property role="IQ2ns" value="6766874831773279458" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="destination" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5RCLcUryCUR">
+    <property role="3F6X1D" value="6766874831776026295" />
+    <property role="3GE5qa" value="Builder" />
+    <property role="TrG5h" value="MergeIntoType" />
+    <ref role="1H5jkz" node="5RCLcUryCUS" resolve="into" />
+    <node concept="25R33" id="5RCLcUryCUS" role="25R1y">
+      <property role="3tVfz5" value="6766874831776026296" />
+      <property role="TrG5h" value="into" />
+      <property role="1L1pqM" value="into" />
+    </node>
+    <node concept="25R33" id="5RCLcUryCUT" role="25R1y">
+      <property role="3tVfz5" value="6766874831776026297" />
+      <property role="TrG5h" value="into_list" />
+      <property role="1L1pqM" value="into list" />
+    </node>
+    <node concept="25R33" id="5RCLcUrFnnS" role="25R1y">
+      <property role="3tVfz5" value="6766874831778313720" />
+      <property role="TrG5h" value="into_ro" />
+      <property role="1L1pqM" value="into (R/O)" />
+    </node>
+  </node>
 </model>
 
