@@ -21210,16 +21210,6 @@
       </node>
       <node concept="10P_77" id="5RCLcUrD_UD" role="3clF45" />
     </node>
-    <node concept="13i0hz" id="5RCLcUrHYhw" role="13h7CS">
-      <property role="TrG5h" value="autoMergePropos" />
-      <node concept="3Tm1VV" id="5RCLcUrHYhx" role="1B3o_S" />
-      <node concept="_YKpA" id="5RCLcUrHYik" role="3clF45">
-        <node concept="3Tqbb2" id="5RCLcUrHYiw" role="_ZDj9">
-          <ref role="ehGHo" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="5RCLcUrHYhz" role="3clF47" />
-    </node>
   </node>
 </model>
 
