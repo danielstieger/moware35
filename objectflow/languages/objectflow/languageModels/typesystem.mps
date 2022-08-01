@@ -15037,8 +15037,41 @@
     <property role="TrG5h" value="typeof_MergeInto" />
     <property role="3GE5qa" value="Builder" />
     <node concept="3clFbS" id="5RCLcUrqNoi" role="18ibNy">
-      <node concept="3clFbJ" id="5RCLcUryDKG" role="3cqZAp">
-        <node concept="3clFbS" id="5RCLcUryDKI" role="3clFbx">
+      <node concept="3clFbJ" id="6kyyM6pxblh" role="3cqZAp">
+        <node concept="3clFbS" id="6kyyM6pxblj" role="3clFbx">
+          <node concept="2MkqsV" id="6kyyM6pxd0A" role="3cqZAp">
+            <node concept="Xl_RD" id="6kyyM6pxd0P" role="2MkJ7o">
+              <property role="Xl_RC" value="In case source is a list, destination has also to be a list" />
+            </node>
+            <node concept="1YBJjd" id="6kyyM6pxd1L" role="1urrMF">
+              <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="6kyyM6pxcv1" role="3clFbw">
+          <node concept="3fqX7Q" id="6kyyM6pxcyu" role="3uHU7w">
+            <node concept="2OqwBi" id="6kyyM6pxcH5" role="3fr31v">
+              <node concept="1YBJjd" id="6kyyM6pxcz1" role="2Oq$k0">
+                <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
+              </node>
+              <node concept="2qgKlT" id="6kyyM6pxcWN" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:5RCLcUryCrJ" resolve="isListDestination" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6kyyM6pxbyY" role="3uHU7B">
+            <node concept="1YBJjd" id="6kyyM6pxbpj" role="2Oq$k0">
+              <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
+            </node>
+            <node concept="2qgKlT" id="6kyyM6pxc5C" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:6kyyM6px5p8" resolve="isListSource" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6kyyM6pxd2f" role="3cqZAp" />
+      <node concept="3clFbJ" id="6kyyM6pxdg6" role="3cqZAp">
+        <node concept="3clFbS" id="6kyyM6pxdg8" role="3clFbx">
           <node concept="nvevp" id="5RCLcUrxEdb" role="3cqZAp">
             <node concept="3clFbS" id="5RCLcUrxEdd" role="nvhr_">
               <node concept="3clFbJ" id="5RCLcUrxEtE" role="3cqZAp">
@@ -15140,38 +15173,39 @@
               <node concept="2jxLKc" id="5RCLcUrxEdi" role="1tU5fm" />
             </node>
           </node>
+          <node concept="3clFbH" id="6kyyM6pxdg7" role="3cqZAp" />
         </node>
-        <node concept="2OqwBi" id="5RCLcUryDPz" role="3clFbw">
-          <node concept="1YBJjd" id="5RCLcUryDLK" role="2Oq$k0">
+        <node concept="2OqwBi" id="6kyyM6pxdTj" role="3clFbw">
+          <node concept="1YBJjd" id="6kyyM6pxdJe" role="2Oq$k0">
             <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
           </node>
-          <node concept="2qgKlT" id="5RCLcUryE23" role="2OqNvi">
-            <ref role="37wK5l" to="70o0:5RCLcUryCrJ" resolve="istListMerge" />
+          <node concept="2qgKlT" id="6kyyM6pxejZ" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:5RCLcUryCrJ" resolve="isListDestination" />
           </node>
         </node>
-        <node concept="9aQIb" id="5RCLcUryFRL" role="9aQIa">
-          <node concept="3clFbS" id="5RCLcUryFRM" role="9aQI4">
-            <node concept="1Z5TYs" id="5RCLcUrxEUC" role="3cqZAp">
+        <node concept="9aQIb" id="6kyyM6pxekh" role="9aQIa">
+          <node concept="3clFbS" id="6kyyM6pxeki" role="9aQI4">
+            <node concept="1Z5TYs" id="6kyyM6pxb9J" role="3cqZAp">
               <property role="3wDh2S" value="true" />
-              <node concept="mw_s8" id="5RCLcUrxEUD" role="1ZfhKB">
-                <node concept="1Z2H0r" id="5RCLcUrxEUE" role="mwGJk">
-                  <node concept="2OqwBi" id="5RCLcUrxEUF" role="1Z2MuG">
-                    <node concept="1YBJjd" id="5RCLcUrxEUG" role="2Oq$k0">
+              <node concept="mw_s8" id="6kyyM6pxb9K" role="1ZfhKB">
+                <node concept="1Z2H0r" id="6kyyM6pxb9L" role="mwGJk">
+                  <node concept="2OqwBi" id="6kyyM6pxb9M" role="1Z2MuG">
+                    <node concept="1YBJjd" id="6kyyM6pxb9N" role="2Oq$k0">
                       <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
                     </node>
-                    <node concept="3TrEf2" id="5RCLcUrxEUH" role="2OqNvi">
+                    <node concept="3TrEf2" id="6kyyM6pxb9O" role="2OqNvi">
                       <ref role="3Tt5mk" to="un0u:5RCLcUroajy" resolve="destination" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="mw_s8" id="5RCLcUrxEUI" role="1ZfhK$">
-                <node concept="1Z2H0r" id="5RCLcUrxEUJ" role="mwGJk">
-                  <node concept="2OqwBi" id="5RCLcUrxEUK" role="1Z2MuG">
-                    <node concept="1YBJjd" id="5RCLcUrxEUL" role="2Oq$k0">
+              <node concept="mw_s8" id="6kyyM6pxb9P" role="1ZfhK$">
+                <node concept="1Z2H0r" id="6kyyM6pxb9Q" role="mwGJk">
+                  <node concept="2OqwBi" id="6kyyM6pxb9R" role="1Z2MuG">
+                    <node concept="1YBJjd" id="6kyyM6pxb9S" role="2Oq$k0">
                       <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
                     </node>
-                    <node concept="3TrEf2" id="5RCLcUrxEUM" role="2OqNvi">
+                    <node concept="3TrEf2" id="6kyyM6pxb9T" role="2OqNvi">
                       <ref role="3Tt5mk" to="un0u:5RCLcUroajw" resolve="source" />
                     </node>
                   </node>
@@ -15181,6 +15215,9 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="6kyyM6pxeU_" role="3cqZAp" />
+      <node concept="3clFbH" id="6kyyM6pxb4Z" role="3cqZAp" />
+      <node concept="3clFbH" id="6kyyM6pxb5U" role="3cqZAp" />
       <node concept="1Z5TYs" id="5RCLcUrqOwy" role="3cqZAp">
         <node concept="mw_s8" id="5RCLcUrqOx1" role="1ZfhKB">
           <node concept="1Z2H0r" id="5RCLcUrqOwX" role="mwGJk">

@@ -21172,7 +21172,7 @@
     <property role="3GE5qa" value="Builder" />
     <ref role="13h7C2" to="un0u:5RCLcUroajt" resolve="MergeInto" />
     <node concept="13i0hz" id="5RCLcUryCrJ" role="13h7CS">
-      <property role="TrG5h" value="istListMerge" />
+      <property role="TrG5h" value="isListDestination" />
       <node concept="3Tm1VV" id="5RCLcUryCrK" role="1B3o_S" />
       <node concept="10P_77" id="5RCLcUryCVi" role="3clF45" />
       <node concept="3clFbS" id="5RCLcUryCrM" role="3clF47">
@@ -21181,12 +21181,34 @@
             <node concept="2OqwBi" id="5RCLcUryCZy" role="2Oq$k0">
               <node concept="13iPFW" id="5RCLcUryCVH" role="2Oq$k0" />
               <node concept="3TrcHB" id="5RCLcUryD1n" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:5RCLcUryCQ9" resolve="mergeType" />
+                <ref role="3TsBF5" to="un0u:1lcI4x2i8$V" resolve="destObjType" />
               </node>
             </node>
             <node concept="21noJN" id="5RCLcUryDjr" role="2OqNvi">
               <node concept="21nZrQ" id="5RCLcUryDjt" role="21noJM">
-                <ref role="21nZrZ" to="un0u:5RCLcUryCUT" resolve="into_list" />
+                <ref role="21nZrZ" to="un0u:1lcI4x2i8$P" resolve="list" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6kyyM6px5p8" role="13h7CS">
+      <property role="TrG5h" value="isListSource" />
+      <node concept="3Tm1VV" id="6kyyM6px5p9" role="1B3o_S" />
+      <node concept="10P_77" id="6kyyM6px5pa" role="3clF45" />
+      <node concept="3clFbS" id="6kyyM6px5pb" role="3clF47">
+        <node concept="3clFbF" id="6kyyM6px5pc" role="3cqZAp">
+          <node concept="2OqwBi" id="6kyyM6px5pd" role="3clFbG">
+            <node concept="2OqwBi" id="6kyyM6px5pe" role="2Oq$k0">
+              <node concept="13iPFW" id="6kyyM6px5pf" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6kyyM6px5Lt" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:1lcI4x2i8$S" resolve="sourceObjType" />
+              </node>
+            </node>
+            <node concept="21noJN" id="6kyyM6px5ph" role="2OqNvi">
+              <node concept="21nZrQ" id="6kyyM6px5pi" role="21noJM">
+                <ref role="21nZrZ" to="un0u:1lcI4x2i8$P" resolve="list" />
               </node>
             </node>
           </node>

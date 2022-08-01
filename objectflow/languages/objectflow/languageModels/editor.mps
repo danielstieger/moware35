@@ -14024,12 +14024,24 @@
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
       </node>
+      <node concept="3F0A7n" id="1lcI4x2i8_5" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1lcI4x2i8$S" resolve="sourceObjType" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
       <node concept="3F1sOY" id="5RCLcUroajU" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:5RCLcUroajw" resolve="source" />
       </node>
-      <node concept="3F0A7n" id="5RCLcUryCUW" role="3EZMnx">
+      <node concept="3F0A7n" id="1lcI4x2i8_C" role="3EZMnx">
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <ref role="1NtTu8" to="un0u:5RCLcUryCQ9" resolve="mergeType" />
+      </node>
+      <node concept="3F0ifn" id="1lcI4x2i8_T" role="3EZMnx">
+        <property role="3F0ifm" value="into" />
         <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
+      </node>
+      <node concept="3F0A7n" id="1lcI4x2i8_j" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1lcI4x2i8$V" resolve="destObjType" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="5RCLcUroak2" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:5RCLcUroajy" resolve="destination" />
