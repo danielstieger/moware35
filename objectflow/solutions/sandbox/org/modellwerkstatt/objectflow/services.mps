@@ -7801,7 +7801,7 @@
                         <ref role="3cqZAo" node="6zTm1h91czz" resolve="problm" />
                       </node>
                       <node concept="liA8E" id="6zTm1h91icF" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleText_Lgcy" />
+                        <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleUserText" />
                       </node>
                     </node>
                   </node>
@@ -12463,7 +12463,7 @@
               <node concept="d57v9" id="7dmRtJogrdq" role="3clFbG">
                 <node concept="3cpWs3" id="7dmRtJogrZI" role="37vLTx">
                   <node concept="Xl_RD" id="7dmRtJogs5W" role="3uHU7B">
-                    <property role="Xl_RC" value=", con" />
+                    <property role="Xl_RC" value=", con " />
                   </node>
                   <node concept="2OqwBi" id="7dmRtJogrfZ" role="3uHU7w">
                     <node concept="37vLTw" id="7dmRtJogrej" role="2Oq$k0">

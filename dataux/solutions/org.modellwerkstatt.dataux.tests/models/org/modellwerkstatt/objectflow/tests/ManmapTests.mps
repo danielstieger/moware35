@@ -508,7 +508,6 @@
         <child id="7754962537266881395" name="mappedfieldRef" index="1VRwC$" />
       </concept>
       <concept id="871579071900124823" name="org.modellwerkstatt.manmap.structure.PersistenceDescription" flags="ng" index="12nvSr">
-        <child id="871579071900209323" name="entityReference" index="12nEwB" />
         <child id="871579071900209328" name="persistenceMapping" index="12nEwW" />
       </concept>
       <concept id="871579071900209258" name="org.modellwerkstatt.manmap.structure.EntityMapping" flags="ng" index="12nEzA">
@@ -520,9 +519,6 @@
         <reference id="871579071900248751" name="property" index="12nL8z" />
         <child id="774207833082375248" name="mappingOption" index="jzqmW" />
         <child id="871579071900290535" name="fieldName" index="12k7lF" />
-      </concept>
-      <concept id="871579071900209276" name="org.modellwerkstatt.manmap.structure.EntityReference" flags="ng" index="12nEzK">
-        <reference id="871579071900209277" name="classConcept" index="12nEzL" />
       </concept>
       <concept id="871579071900248758" name="org.modellwerkstatt.manmap.structure.EmbeddedMapping" flags="ng" index="12nL8U">
         <reference id="871579071900248759" name="property" index="12nL8V" />
@@ -2172,36 +2168,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="12nEzK" id="70qPrkCyb9r" role="12nEwB">
-      <ref role="12nEzL" node="612_n8HbweS" resolve="Invoice" />
-    </node>
-    <node concept="12nEzK" id="70qPrkCyb9x" role="12nEwB">
-      <ref role="12nEzL" node="612_n8HbChx" resolve="InvoicePosition" />
-    </node>
-    <node concept="12nEzK" id="4ksEJbWs4bF" role="12nEwB">
-      <ref role="12nEzL" node="4ksEJbWs44A" resolve="ExtendedInvoice" />
-    </node>
-    <node concept="12nEzK" id="2i3o0he2ppa" role="12nEwB">
-      <ref role="12nEzL" node="2i3o0he2k$7" resolve="Account" />
-    </node>
-    <node concept="12nEzK" id="RffU3z0kgh" role="12nEwB">
-      <ref role="12nEzL" node="RffU3z0k3d" resolve="Referer" />
-    </node>
-    <node concept="12nEzK" id="4eJAcMlChfy" role="12nEwB">
-      <ref role="12nEzL" node="66mO_QBe4P4" resolve="AuditEntity" />
-    </node>
-    <node concept="12nEzK" id="6_ccWWo7I9E" role="12nEwB">
-      <ref role="12nEzL" node="6_ccWWo4ps7" resolve="SubInvoicePosition" />
-    </node>
-    <node concept="12nEzK" id="77lIyOFCmRX" role="12nEwB">
-      <ref role="12nEzL" node="77lIyOFCilG" resolve="InvoiceStat" />
-    </node>
-    <node concept="12nEzK" id="3UVBaKgDnRs" role="12nEwB">
-      <ref role="12nEzL" node="3UVBaKgDmMW" resolve="InvoiceStKey" />
-    </node>
-    <node concept="12nEzK" id="3UVBaKgE7ed" role="12nEwB">
-      <ref role="12nEzL" node="3UVBaKgE66j" resolve="InvoiceStKeyPosition" />
     </node>
   </node>
   <node concept="34Athd" id="4ksEJbWs44A">
@@ -14346,6 +14312,9 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbT" id="Fih8BhbfW8" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
             </node>
           </node>
         </node>
@@ -14910,6 +14879,9 @@
                     <ref role="3cqZAo" node="gR$0Z1zrLC" resolve="three" />
                   </node>
                 </node>
+              </node>
+              <node concept="3clFbT" id="Fih8BhbgM4" role="37wK5m">
+                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
@@ -15528,6 +15500,9 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbT" id="Fih8BhbiqP" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
             </node>
           </node>
         </node>
@@ -15992,6 +15967,9 @@
                     <ref role="3cqZAo" node="6pbeIz$oIL3" resolve="third" />
                   </node>
                 </node>
+              </node>
+              <node concept="3clFbT" id="Fih8BhbjU7" role="37wK5m">
+                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
@@ -16542,6 +16520,9 @@
                     <ref role="3cqZAo" node="6pbeIz$tJzn" resolve="third" />
                   </node>
                 </node>
+              </node>
+              <node concept="3clFbT" id="Fih8BhblpT" role="37wK5m">
+                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
@@ -26157,9 +26138,6 @@
   <node concept="12nvSr" id="26OSHcuO_aA">
     <property role="TrG5h" value="NKPersistanceDescription" />
     <property role="3GE5qa" value="nk" />
-    <node concept="12nEzK" id="26OSHcuO_aC" role="12nEwB">
-      <ref role="12nEzL" node="26OSHcu9Ub2" resolve="NKArticle" />
-    </node>
     <node concept="12nEzA" id="26OSHcuO_aF" role="12nEwW">
       <property role="TrG5h" value="MapNKArticle" />
       <ref role="12nOxz" node="26OSHcu9Ub2" resolve="NKArticle" />
@@ -28341,12 +28319,6 @@
   <node concept="12nvSr" id="4HJH2PnklO1">
     <property role="3GE5qa" value="NewInvoice" />
     <property role="TrG5h" value="NewInvoicePosDesc" />
-    <node concept="12nEzK" id="4HJH2Pnkorn" role="12nEwB">
-      <ref role="12nEzL" node="4HJH2PnkkW2" resolve="NewInvoice" />
-    </node>
-    <node concept="12nEzK" id="4HJH2Pnkor$" role="12nEwB">
-      <ref role="12nEzL" node="4HJH2PnkkY5" resolve="NewInvoicePos" />
-    </node>
     <node concept="12nEzA" id="4HJH2PnkorQ" role="12nEwW">
       <property role="TrG5h" value="MapNewInvoice" />
       <ref role="12nOxz" node="4HJH2PnkkW2" resolve="NewInvoice" />
