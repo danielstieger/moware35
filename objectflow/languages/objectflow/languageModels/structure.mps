@@ -1629,8 +1629,8 @@
   <node concept="1TIwiD" id="5WxVUBAMhc0">
     <property role="3GE5qa" value="OFXCore.session" />
     <property role="TrG5h" value="CheckedOutEntities" />
-    <property role="34LRSv" value="sessionCheckedOut" />
-    <property role="R4oN_" value="entities checked out in session" />
+    <property role="34LRSv" value="sessionEntities" />
+    <property role="R4oN_" value="entities in session" />
     <property role="EcuMT" value="6855023620835054336" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="5WxVUBAMhc3" role="1TKVEi">
@@ -1643,6 +1643,12 @@
       <property role="TrG5h" value="keysOnly" />
       <property role="IQ2nx" value="6855023620835054337" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="asaX9" id="5rqgrTzC1wo" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="5rqgrTzC1jg" role="1TKVEl">
+      <property role="IQ2nx" value="6258386918155752656" />
+      <property role="TrG5h" value="mode" />
+      <ref role="AX2Wp" node="5rqgrTzC1iS" resolve="CheckedOutEntitiesType" />
     </node>
     <node concept="1QGGSu" id="1iISEUi_iiw" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/ofxconcept2.png" />
@@ -5150,22 +5156,22 @@
     <property role="3GE5qa" value="Builder" />
     <property role="TrG5h" value="MergeInto" />
     <property role="34LRSv" value="merge" />
-    <property role="R4oN_" value="copy information for source to destination" />
+    <property role="R4oN_" value="copy primitives from source to destination" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyi" id="5RCLcUryCQ9" role="1TKVEl">
-      <property role="IQ2nx" value="6766874831776025993" />
-      <property role="TrG5h" value="mergeType" />
-      <ref role="AX2Wp" node="5RCLcUryCUR" resolve="MergeIntoType" />
+    <node concept="1TJgyi" id="5rqgrTyJnTK" role="1TKVEl">
+      <property role="IQ2nx" value="6258386918140903024" />
+      <property role="TrG5h" value="sessionIntegration" />
+      <ref role="AX2Wp" node="5rqgrTyJnVV" resolve="MergeSessionType" />
     </node>
     <node concept="1TJgyi" id="1lcI4x2i8$S" role="1TKVEl">
       <property role="IQ2nx" value="1534804193515702584" />
       <property role="TrG5h" value="sourceObjType" />
-      <ref role="AX2Wp" node="1lcI4x2i8$N" resolve="MegeObjTyp" />
+      <ref role="AX2Wp" node="1lcI4x2i8$N" resolve="MergeObjType" />
     </node>
     <node concept="1TJgyi" id="1lcI4x2i8$V" role="1TKVEl">
       <property role="IQ2nx" value="1534804193515702587" />
       <property role="TrG5h" value="destObjType" />
-      <ref role="AX2Wp" node="1lcI4x2i8$N" resolve="MegeObjTyp" />
+      <ref role="AX2Wp" node="1lcI4x2i8$N" resolve="MergeObjType" />
     </node>
     <node concept="1TJgyj" id="5RCLcUroajw" role="1TKVEi">
       <property role="IQ2ns" value="6766874831773279456" />
@@ -5181,47 +5187,69 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-  </node>
-  <node concept="25R3W" id="5RCLcUryCUR">
-    <property role="3F6X1D" value="6766874831776026295" />
-    <property role="3GE5qa" value="Builder" />
-    <property role="TrG5h" value="MergeIntoType" />
-    <ref role="1H5jkz" node="1lcI4x2i8_r" resolve="primitives" />
-    <node concept="25R33" id="5RCLcUryCUS" role="25R1y">
-      <property role="3tVfz5" value="6766874831776026296" />
-      <property role="TrG5h" value="complete" />
-      <property role="1L1pqM" value="(complete)" />
-    </node>
-    <node concept="25R33" id="5RCLcUryCUT" role="25R1y">
-      <property role="3tVfz5" value="6766874831776026297" />
-      <property role="TrG5h" value="refs_list" />
-      <property role="1L1pqM" value="(refs + lists)" />
-    </node>
-    <node concept="25R33" id="5RCLcUrFnnS" role="25R1y">
-      <property role="3tVfz5" value="6766874831778313720" />
-      <property role="TrG5h" value="refs" />
-      <property role="1L1pqM" value="(refs)" />
-    </node>
-    <node concept="25R33" id="1lcI4x2i8_r" role="25R1y">
-      <property role="3tVfz5" value="1534804193515702619" />
-      <property role="1L1pqM" value="(only primtvs)" />
-      <property role="TrG5h" value="primitives" />
+    <node concept="1TJgyj" id="5rqgrTyJnW0" role="1TKVEi">
+      <property role="IQ2ns" value="6258386918140903168" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="session" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="25R3W" id="1lcI4x2i8$N">
     <property role="3F6X1D" value="1534804193515702579" />
     <property role="3GE5qa" value="Builder" />
-    <property role="TrG5h" value="MegeObjTyp" />
-    <ref role="1H5jkz" node="1lcI4x2i8$O" resolve="obj" />
+    <property role="TrG5h" value="MergeObjType" />
+    <ref role="1H5jkz" node="1lcI4x2i8$P" resolve="list" />
     <node concept="25R33" id="1lcI4x2i8$O" role="25R1y">
       <property role="3tVfz5" value="1534804193515702580" />
       <property role="TrG5h" value="obj" />
-      <property role="1L1pqM" value=" " />
+      <property role="1L1pqM" value="obj" />
     </node>
     <node concept="25R33" id="1lcI4x2i8$P" role="25R1y">
       <property role="3tVfz5" value="1534804193515702581" />
       <property role="TrG5h" value="list" />
       <property role="1L1pqM" value="list&lt;&gt;" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5rqgrTyJnVV">
+    <property role="3F6X1D" value="6258386918140903163" />
+    <property role="3GE5qa" value="Builder" />
+    <property role="TrG5h" value="MergeSessionType" />
+    <ref role="1H5jkz" node="5rqgrTyJnVW" resolve="consider_session" />
+    <node concept="25R33" id="5rqgrTyJnVW" role="25R1y">
+      <property role="3tVfz5" value="6258386918140903164" />
+      <property role="TrG5h" value="consider_session" />
+      <property role="1L1pqM" value="(session integrated)" />
+    </node>
+    <node concept="25R33" id="5rqgrTyJnVX" role="25R1y">
+      <property role="3tVfz5" value="6258386918140903165" />
+      <property role="TrG5h" value="not_consider_session" />
+      <property role="1L1pqM" value="(do not consider session)" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5rqgrTzC1iS">
+    <property role="3F6X1D" value="6258386918155752632" />
+    <property role="3GE5qa" value="OFXCore.session" />
+    <property role="TrG5h" value="CheckedOutEntitiesType" />
+    <ref role="1H5jkz" node="5rqgrTzC1iT" resolve="checked_out" />
+    <node concept="25R33" id="5rqgrTzC1iT" role="25R1y">
+      <property role="3tVfz5" value="6258386918155752633" />
+      <property role="TrG5h" value="checked_out" />
+      <property role="1L1pqM" value="(checked out)" />
+    </node>
+    <node concept="25R33" id="5rqgrTzC1iU" role="25R1y">
+      <property role="3tVfz5" value="6258386918155752634" />
+      <property role="TrG5h" value="ckecked_out_keys" />
+      <property role="1L1pqM" value="(keys of checked out)" />
+    </node>
+    <node concept="25R33" id="5rqgrTzC1iX" role="25R1y">
+      <property role="3tVfz5" value="6258386918155752637" />
+      <property role="TrG5h" value="all" />
+      <property role="1L1pqM" value="(all)" />
+    </node>
+    <node concept="25R33" id="5rqgrTzC1j1" role="25R1y">
+      <property role="3tVfz5" value="6258386918155752641" />
+      <property role="TrG5h" value="all_keys" />
+      <property role="1L1pqM" value="(keys of all)" />
     </node>
   </node>
 </model>

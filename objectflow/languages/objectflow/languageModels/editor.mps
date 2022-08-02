@@ -5015,21 +5015,9 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="5WxVUBAMhcK" role="3EZMnx">
-        <property role="3F0ifm" value="keys" />
-        <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
-        <node concept="pkWqt" id="5WxVUBAMhcR" role="pqm2j">
-          <node concept="3clFbS" id="5WxVUBAMhcS" role="2VODD2">
-            <node concept="3clFbF" id="5WxVUBAMhQk" role="3cqZAp">
-              <node concept="2OqwBi" id="5WxVUBAMhUR" role="3clFbG">
-                <node concept="pncrf" id="5WxVUBAMhQj" role="2Oq$k0" />
-                <node concept="3TrcHB" id="5WxVUBAMip0" role="2OqNvi">
-                  <ref role="3TsBF5" to="un0u:5WxVUBAMhc1" resolve="keysOnly" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+      <node concept="3F0A7n" id="5rqgrTzC1q7" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:5rqgrTzC1jg" resolve="mode" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F0ifn" id="wd17k6lNnz" role="3EZMnx">
         <property role="3F0ifm" value=" " />
@@ -14031,13 +14019,15 @@
       <node concept="3F1sOY" id="5RCLcUroajU" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:5RCLcUroajw" resolve="source" />
       </node>
-      <node concept="3F0A7n" id="1lcI4x2i8_C" role="3EZMnx">
-        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
-        <ref role="1NtTu8" to="un0u:5RCLcUryCQ9" resolve="mergeType" />
-      </node>
       <node concept="3F0ifn" id="1lcI4x2i8_T" role="3EZMnx">
         <property role="3F0ifm" value="into" />
         <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
+        <node concept="pVoyu" id="5rqgrTyJnSM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="5rqgrTyJnSO" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="1lcI4x2i8_j" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:1lcI4x2i8$V" resolve="destObjType" />
@@ -14046,7 +14036,31 @@
       <node concept="3F1sOY" id="5RCLcUroak2" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:5RCLcUroajy" resolve="destination" />
       </node>
+      <node concept="3F0A7n" id="5rqgrTz0H9d" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:5rqgrTyJnTK" resolve="sessionIntegration" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
       <node concept="l2Vlx" id="5RCLcUroajN" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="5rqgrTyJr1p" role="6VMZX">
+      <node concept="3F0ifn" id="5rqgrTyJr1q" role="3EZMnx">
+        <property role="3F0ifm" value="merge into - options" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="VQ3r3" id="5rqgrTyJr1r" role="3F10Kt">
+          <property role="2USNnj" value="gtbM8PH/underlined" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5rqgrTyJr1s" role="2iSdaV" />
+      <node concept="3F0ifn" id="5rqgrTyJr1t" role="3EZMnx">
+        <property role="3F0ifm" value="session:" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="pVoyu" id="5rqgrTyJr1u" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="5rqgrTyJr1v" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:5rqgrTyJnW0" resolve="session" />
+      </node>
     </node>
   </node>
 </model>
