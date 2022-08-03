@@ -5214,11 +5214,16 @@
     <property role="3F6X1D" value="6258386918140903163" />
     <property role="3GE5qa" value="Builder" />
     <property role="TrG5h" value="MergeSessionType" />
-    <ref role="1H5jkz" node="5rqgrTyJnVW" resolve="consider_session" />
+    <ref role="1H5jkz" node="5rqgrTyJnVW" resolve="session_readonly" />
     <node concept="25R33" id="5rqgrTyJnVW" role="25R1y">
       <property role="3tVfz5" value="6258386918140903164" />
-      <property role="TrG5h" value="consider_session" />
-      <property role="1L1pqM" value="(session integrated)" />
+      <property role="TrG5h" value="session_readonly" />
+      <property role="1L1pqM" value="(in session as readonly)" />
+    </node>
+    <node concept="25R33" id="5PYG8oiUhXT" role="25R1y">
+      <property role="3tVfz5" value="6737016182482214777" />
+      <property role="TrG5h" value="session_checkedout" />
+      <property role="1L1pqM" value="(in session as checkedout)" />
     </node>
     <node concept="25R33" id="5rqgrTyJnVX" role="25R1y">
       <property role="3tVfz5" value="6258386918140903165" />
