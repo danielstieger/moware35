@@ -1629,7 +1629,7 @@
   <node concept="1TIwiD" id="5WxVUBAMhc0">
     <property role="3GE5qa" value="OFXCore.session" />
     <property role="TrG5h" value="CheckedOutEntities" />
-    <property role="34LRSv" value="sessionEntities" />
+    <property role="34LRSv" value="session entities" />
     <property role="R4oN_" value="entities in session" />
     <property role="EcuMT" value="6855023620835054336" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -5155,7 +5155,7 @@
     <property role="EcuMT" value="6766874831773279453" />
     <property role="3GE5qa" value="Builder" />
     <property role="TrG5h" value="MergeInto" />
-    <property role="34LRSv" value="merge" />
+    <property role="34LRSv" value="session merge" />
     <property role="R4oN_" value="copy primitives from source to destination" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyi" id="5rqgrTyJnTK" role="1TKVEl">
@@ -5193,6 +5193,9 @@
       <property role="20kJfa" value="session" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1QGGSu" id="5X8QPlaxwlr" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/ofxconcept2.png" />
+    </node>
   </node>
   <node concept="25R3W" id="1lcI4x2i8$N">
     <property role="3F6X1D" value="1534804193515702579" />
@@ -5201,13 +5204,18 @@
     <ref role="1H5jkz" node="1lcI4x2i8$P" resolve="list" />
     <node concept="25R33" id="1lcI4x2i8$O" role="25R1y">
       <property role="3tVfz5" value="1534804193515702580" />
-      <property role="TrG5h" value="obj" />
-      <property role="1L1pqM" value="obj" />
+      <property role="TrG5h" value="entity" />
+      <property role="1L1pqM" value="entity" />
     </node>
     <node concept="25R33" id="1lcI4x2i8$P" role="25R1y">
       <property role="3tVfz5" value="1534804193515702581" />
       <property role="TrG5h" value="list" />
       <property role="1L1pqM" value="list&lt;&gt;" />
+    </node>
+    <node concept="25R33" id="5X8QPl9zox8" role="25R1y">
+      <property role="3tVfz5" value="6865978791279036488" />
+      <property role="TrG5h" value="ref" />
+      <property role="1L1pqM" value="ref" />
     </node>
   </node>
   <node concept="25R3W" id="5rqgrTyJnVV">

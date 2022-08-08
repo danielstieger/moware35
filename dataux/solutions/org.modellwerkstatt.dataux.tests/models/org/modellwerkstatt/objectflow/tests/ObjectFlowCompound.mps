@@ -50,6 +50,10 @@
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="h0l3:6Lgq4tpieLM" resolve="Test RolesAndPermission" />
     </node>
+    <node concept="1DZZI9" id="5X8QPlbDgo4" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="h0l3:5X8QPlbBc8J" resolve="SessionAndMerge" />
+    </node>
     <node concept="1DZZI9" id="7L8_IJAz4Lp" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="7rjc:4DaB5G8SV3w" resolve="RunCmdTests" />
@@ -69,10 +73,6 @@
     <node concept="1DZZI9" id="5ncAbMsCTCB" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="rnm6:2vMvnqOsTvD" resolve="JSonDeserialization" />
-    </node>
-    <node concept="1DZZI9" id="5rqgrTzyVQQ" role="38MLOi">
-      <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" to="by87:5RCLcUrqAZL" resolve="OrderMergeInto" />
     </node>
   </node>
 </model>
