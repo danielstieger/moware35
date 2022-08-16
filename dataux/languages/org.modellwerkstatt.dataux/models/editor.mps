@@ -638,7 +638,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="7Cs1IG3kp0M" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;object&gt;" />
+        <property role="1$x2rV" value="&lt;selected&gt;" />
         <ref role="1NtTu8" to="1btx:7Cs1IG3kosY" resolve="boundClassifier" />
         <node concept="1sVBvm" id="7Cs1IG3kp0O" role="1sWHZn">
           <node concept="3F0A7n" id="7Cs1IG3kp0V" role="2wV5jI">

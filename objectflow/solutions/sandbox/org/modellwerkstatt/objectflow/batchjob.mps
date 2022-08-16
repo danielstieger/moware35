@@ -20421,7 +20421,7 @@
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
               <node concept="Xl_RD" id="7QIR7yTHkkM" role="37wK5m">
-                <property role="Xl_RC" value="Loaded &amp; Processed %d items ok %d canceld and %d with ex in %dms" />
+                <property role="Xl_RC" value="Loaded &amp; Processed %d items ok, %d canceled and %d with ex in %dms" />
               </node>
               <node concept="37vLTw" id="7QIR7yTHlbx" role="37wK5m">
                 <ref role="3cqZAo" node="7QIR7yTE_6G" resolve="consumerThisRunSuccessful" />
