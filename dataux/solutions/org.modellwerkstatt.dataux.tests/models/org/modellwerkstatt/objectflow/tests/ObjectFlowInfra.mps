@@ -30,6 +30,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
@@ -268,6 +269,7 @@
         <property id="6258386918140903024" name="sessionIntegration" index="OpNZe" />
         <property id="1534804193515702584" name="sourceObjType" index="1n135K" />
         <property id="1534804193515702587" name="destObjType" index="1n135N" />
+        <property id="6378348624659876501" name="clearDestList" index="3yW7zi" />
         <child id="6766874831773279458" name="destination" index="36y60G" />
         <child id="6766874831773279456" name="source" index="36y60I" />
       </concept>
@@ -367,6 +369,7 @@
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
+      <concept id="1235566831861" name="jetbrains.mps.baseLanguage.collections.structure.AllOperation" flags="nn" index="2HxqBE" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -7970,7 +7973,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="5X8QPlcmadH" role="3yMuLx">
-      <property role="TrG5h" value="DTO Style merging ... " />
+      <property role="TrG5h" value="DTO Style merging; not considerung current session." />
       <node concept="3cqZAl" id="5X8QPlcmadI" role="3clF45" />
       <node concept="3clFbS" id="5X8QPlcmadJ" role="3clF47">
         <node concept="3cpWs8" id="5X8QPlcmadK" role="3cqZAp">
@@ -8112,35 +8115,351 @@
         <node concept="3clFbH" id="5X8QPlcmaeD" role="3cqZAp" />
       </node>
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_m" role="38MLOi">
+    <node concept="3yPF9F" id="5y4s$uUo_X_" role="3yMuLx">
+      <property role="TrG5h" value="Merging positions in existing aggregate" />
+      <node concept="3cqZAl" id="5y4s$uUo_XA" role="3clF45" />
+      <node concept="3clFbS" id="5y4s$uUo_XB" role="3clF47">
+        <node concept="3cpWs8" id="5y4s$uUo_XC" role="3cqZAp">
+          <node concept="3cpWsn" id="5y4s$uUo_XD" role="3cpWs9">
+            <property role="TrG5h" value="sess" />
+            <node concept="3uibUv" id="5y4s$uUo_XE" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="1odsa" id="5y4s$uUo_XF" role="33vP2m">
+              <ref role="1ods_" to="so85:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <ref role="37wK5l" to="so85:4nH4LOF0N$q" resolve="CREATE_SESSION" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5y4s$uUo_XG" role="3cqZAp">
+          <node concept="3cpWsn" id="5y4s$uUo_XH" role="3cpWs9">
+            <property role="TrG5h" value="invoice1" />
+            <node concept="3uibUv" id="5y4s$uUo_XI" role="1tU5fm">
+              <ref role="3uigEE" to="so85:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="1odsa" id="5y4s$uUo_XJ" role="33vP2m">
+              <ref role="37wK5l" to="so85:5PYG8oij7OB" resolve="createInvoiceGraphWith4PositionsAndFirstAsMainRef_onDB" />
+              <ref role="1ods_" to="so85:4wgjvSoeJVG" resolve="CreatorsFactory" />
+              <node concept="Xl_RD" id="5y4s$uUo_XK" role="37wK5m">
+                <property role="Xl_RC" value="postst-1" />
+              </node>
+              <node concept="37vLTw" id="5y4s$uUo_XL" role="2f8TIa">
+                <ref role="3cqZAo" node="5y4s$uUo_XD" resolve="sess" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5y4s$uUo_XM" role="3cqZAp" />
+        <node concept="3cpWs8" id="5y4s$uUoR4H" role="3cqZAp">
+          <node concept="3cpWsn" id="5y4s$uUoR4I" role="3cpWs9">
+            <property role="TrG5h" value="reloaded" />
+            <node concept="3uibUv" id="5y4s$uUoR4J" role="1tU5fm">
+              <ref role="3uigEE" to="so85:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="1odsa" id="5y4s$uUoR4K" role="33vP2m">
+              <ref role="37wK5l" to="so85:5PYG8oijoVZ" resolve="getInvoiceByIdWithRefs" />
+              <ref role="1ods_" to="so85:32etEQRuSRv" resolve="RepoInvoice" />
+              <node concept="2OqwBi" id="5y4s$uUoR4L" role="37wK5m">
+                <node concept="37vLTw" id="5y4s$uUoR4M" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5y4s$uUo_XH" resolve="invoice1" />
+                </node>
+                <node concept="2S8uIT" id="5y4s$uUoR4N" role="2OqNvi">
+                  <ref role="2S8YL0" to="so85:612_n8HbChJ" resolve="id" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5y4s$uUoXqj" role="3cqZAp" />
+        <node concept="3cpWs8" id="5y4s$uUpedP" role="3cqZAp">
+          <node concept="3cpWsn" id="5y4s$uUpedQ" role="3cpWs9">
+            <property role="TrG5h" value="pos" />
+            <node concept="3uibUv" id="5y4s$uUpedR" role="1tU5fm">
+              <ref role="3uigEE" to="so85:612_n8HbChx" resolve="InvoicePosition" />
+            </node>
+            <node concept="2ShNRf" id="5y4s$uUpfFI" role="33vP2m">
+              <node concept="1pGfFk" id="5y4s$uUpfFH" role="2ShVmc">
+                <ref role="37wK5l" to="so85:612_n8HcCaq" resolve="InvoicePosition" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5y4s$uUpgQX" role="3cqZAp">
+          <node concept="37vLTI" id="5y4s$uUpjEl" role="3clFbG">
+            <node concept="37vLTw" id="5y4s$uUpkOT" role="37vLTx">
+              <ref role="3cqZAo" node="5y4s$uUoR4I" resolve="reloaded" />
+            </node>
+            <node concept="2OqwBi" id="5y4s$uUpicB" role="37vLTJ">
+              <node concept="37vLTw" id="5y4s$uUpgQV" role="2Oq$k0">
+                <ref role="3cqZAo" node="5y4s$uUpedQ" resolve="pos" />
+              </node>
+              <node concept="2S8uIT" id="5y4s$uUpjAy" role="2OqNvi">
+                <ref role="2S8YL0" to="so85:70qPrkCybJa" resolve="invoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5y4s$uUpnzl" role="3cqZAp">
+          <node concept="37vLTI" id="5y4s$uUpqzD" role="3clFbG">
+            <node concept="Xl_RD" id="5y4s$uUprGP" role="37vLTx">
+              <property role="Xl_RC" value="created pos" />
+            </node>
+            <node concept="2OqwBi" id="5y4s$uUpoTg" role="37vLTJ">
+              <node concept="37vLTw" id="5y4s$uUpnzj" role="2Oq$k0">
+                <ref role="3cqZAo" node="5y4s$uUpedQ" resolve="pos" />
+              </node>
+              <node concept="2S8uIT" id="5y4s$uUpqpw" role="2OqNvi">
+                <ref role="2S8YL0" to="so85:612_n8HcC5n" resolve="posText" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5y4s$uUp3MK" role="3cqZAp">
+          <node concept="2OqwBi" id="5y4s$uUp6Ld" role="3clFbG">
+            <node concept="2OqwBi" id="5y4s$uUp580" role="2Oq$k0">
+              <node concept="37vLTw" id="5y4s$uUp3MI" role="2Oq$k0">
+                <ref role="3cqZAo" node="5y4s$uUoR4I" resolve="reloaded" />
+              </node>
+              <node concept="2S8uIT" id="5y4s$uUp6nH" role="2OqNvi">
+                <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="5y4s$uUp8mj" role="2OqNvi">
+              <node concept="37vLTw" id="5y4s$uUpx7K" role="25WWJ7">
+                <ref role="3cqZAo" node="5y4s$uUpedQ" resolve="pos" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5y4s$uUpzLM" role="3cqZAp">
+          <node concept="3clFbC" id="5y4s$uUpEV$" role="1gVkn0">
+            <node concept="3cmrfG" id="5y4s$uUpGhW" role="3uHU7w">
+              <property role="3cmrfH" value="5" />
+            </node>
+            <node concept="2OqwBi" id="5y4s$uUpC_h" role="3uHU7B">
+              <node concept="2OqwBi" id="5y4s$uUpAI5" role="2Oq$k0">
+                <node concept="37vLTw" id="5y4s$uUp_nT" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5y4s$uUoR4I" resolve="reloaded" />
+                </node>
+                <node concept="2S8uIT" id="5y4s$uUpC1T" role="2OqNvi">
+                  <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="5y4s$uUpEiz" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5y4s$uUpHPD" role="3cqZAp" />
+        <node concept="3clFbF" id="5y4s$uUr$8C" role="3cqZAp">
+          <node concept="2OqwBi" id="5y4s$uUrAcF" role="3clFbG">
+            <node concept="2OqwBi" id="5y4s$uUr_Kv" role="2Oq$k0">
+              <node concept="37vLTw" id="5y4s$uUr$8A" role="2Oq$k0">
+                <ref role="3cqZAo" node="5y4s$uUo_XH" resolve="invoice1" />
+              </node>
+              <node concept="2S8uIT" id="5y4s$uUr_Nb" role="2OqNvi">
+                <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="5y4s$uUrC6x" role="2OqNvi">
+              <node concept="1bVj0M" id="5y4s$uUrC6z" role="23t8la">
+                <node concept="3clFbS" id="5y4s$uUrC6$" role="1bW5cS">
+                  <node concept="3clFbF" id="5y4s$uUrC8$" role="3cqZAp">
+                    <node concept="d57v9" id="5y4s$uUskDB" role="3clFbG">
+                      <node concept="2OqwBi" id="5y4s$uUrDHH" role="37vLTJ">
+                        <node concept="37vLTw" id="5y4s$uUrC8z" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5y4s$uUrC6_" resolve="it" />
+                        </node>
+                        <node concept="2S8uIT" id="5y4s$uUrFA3" role="2OqNvi">
+                          <ref role="2S8YL0" to="so85:612_n8HcC5n" resolve="posText" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="5y4s$uUrH92" role="37vLTx">
+                        <property role="Xl_RC" value=" *" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="5y4s$uUrC6_" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5y4s$uUrC6A" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5y4s$uUpPqi" role="3cqZAp" />
+        <node concept="3cpWs8" id="5y4s$uUo_XN" role="3cqZAp">
+          <node concept="3cpWsn" id="5y4s$uUo_XO" role="3cpWs9">
+            <property role="TrG5h" value="integrated" />
+            <node concept="3uibUv" id="5y4s$uUo_XP" role="1tU5fm">
+              <ref role="3uigEE" to="so85:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="36y60j" id="5y4s$uUo_XQ" role="33vP2m">
+              <property role="1n135K" value="1lcI4x2i8$O/entity" />
+              <property role="1n135N" value="1lcI4x2i8$O/entity" />
+              <node concept="37vLTw" id="5y4s$uUo_XR" role="36y60I">
+                <ref role="3cqZAo" node="5y4s$uUo_XH" resolve="invoice1" />
+              </node>
+              <node concept="37vLTw" id="5y4s$uUpSdC" role="36y60G">
+                <ref role="3cqZAo" node="5y4s$uUoR4I" resolve="reloaded" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5y4s$uUo_XT" role="3cqZAp" />
+        <node concept="3cpWs8" id="5y4s$uUo_XU" role="3cqZAp">
+          <node concept="3cpWsn" id="5y4s$uUo_XV" role="3cpWs9">
+            <property role="TrG5h" value="integrated_pos" />
+            <node concept="_YKpA" id="5y4s$uUpTGO" role="1tU5fm">
+              <node concept="3uibUv" id="5y4s$uUpTGP" role="_ZDj9">
+                <ref role="3uigEE" to="so85:612_n8HbChx" resolve="InvoicePosition" />
+              </node>
+            </node>
+            <node concept="36y60j" id="5y4s$uUo_XX" role="33vP2m">
+              <property role="3yW7zi" value="5y4s$uUvBWD/cleared" />
+              <node concept="2OqwBi" id="5y4s$uUo_XY" role="36y60I">
+                <node concept="37vLTw" id="5y4s$uUo_XZ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5y4s$uUo_XH" resolve="invoice1" />
+                </node>
+                <node concept="2S8uIT" id="5y4s$uUo_Y0" role="2OqNvi">
+                  <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5y4s$uUo_Y1" role="36y60G">
+                <node concept="37vLTw" id="5y4s$uUo_Y2" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5y4s$uUo_XO" resolve="integrated" />
+                </node>
+                <node concept="2S8uIT" id="5y4s$uUo_Y3" role="2OqNvi">
+                  <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5y4s$uUo_Y4" role="3cqZAp" />
+        <node concept="1gVbGN" id="5y4s$uUo_Y5" role="3cqZAp">
+          <node concept="3clFbC" id="5y4s$uUo_Y6" role="1gVkn0">
+            <node concept="3cmrfG" id="5y4s$uUo_Y7" role="3uHU7w">
+              <property role="3cmrfH" value="4" />
+            </node>
+            <node concept="2OqwBi" id="5y4s$uUo_Y8" role="3uHU7B">
+              <node concept="2TUfMD" id="5y4s$uUo_Y9" role="2Oq$k0">
+                <property role="Pu_lI" value="5rqgrTzC1iX/all" />
+                <ref role="2TUfME" to="so85:612_n8HbChx" resolve="InvoicePosition" />
+              </node>
+              <node concept="34oBXx" id="5y4s$uUo_Ya" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5y4s$uUqaHb" role="3cqZAp">
+          <node concept="3clFbC" id="5y4s$uUqdvX" role="1gVkn0">
+            <node concept="3cmrfG" id="5y4s$uUqdwU" role="3uHU7w">
+              <property role="3cmrfH" value="4" />
+            </node>
+            <node concept="2OqwBi" id="5y4s$uUqc_Q" role="3uHU7B">
+              <node concept="37vLTw" id="5y4s$uUqbOm" role="2Oq$k0">
+                <ref role="3cqZAo" node="5y4s$uUo_XV" resolve="integrated_pos" />
+              </node>
+              <node concept="34oBXx" id="5y4s$uUqcR0" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5y4s$uUqf92" role="3cqZAp">
+          <node concept="3clFbC" id="5y4s$uUqh6W" role="1gVkn0">
+            <node concept="3cmrfG" id="5y4s$uUqizO" role="3uHU7w">
+              <property role="3cmrfH" value="4" />
+            </node>
+            <node concept="2OqwBi" id="5y4s$uUqkaA" role="3uHU7B">
+              <node concept="2OqwBi" id="5y4s$uUqgpV" role="2Oq$k0">
+                <node concept="37vLTw" id="5y4s$uUqglC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5y4s$uUoR4I" resolve="reloaded" />
+                </node>
+                <node concept="2S8uIT" id="5y4s$uUqgth" role="2OqNvi">
+                  <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="5y4s$uUqlRh" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5y4s$uUrLkn" role="3cqZAp">
+          <node concept="2OqwBi" id="5y4s$uUrPu1" role="1gVkn0">
+            <node concept="2OqwBi" id="5y4s$uUrMYB" role="2Oq$k0">
+              <node concept="37vLTw" id="5y4s$uUrMUc" role="2Oq$k0">
+                <ref role="3cqZAo" node="5y4s$uUoR4I" resolve="reloaded" />
+              </node>
+              <node concept="2S8uIT" id="5y4s$uUrN1n" role="2OqNvi">
+                <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
+              </node>
+            </node>
+            <node concept="2HxqBE" id="5y4s$uUrR78" role="2OqNvi">
+              <node concept="1bVj0M" id="5y4s$uUrR7a" role="23t8la">
+                <node concept="3clFbS" id="5y4s$uUrR7b" role="1bW5cS">
+                  <node concept="3clFbF" id="5y4s$uUrRa_" role="3cqZAp">
+                    <node concept="2OqwBi" id="5y4s$uUrWwJ" role="3clFbG">
+                      <node concept="2OqwBi" id="5y4s$uUrT1I" role="2Oq$k0">
+                        <node concept="37vLTw" id="5y4s$uUrRa$" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5y4s$uUrR7c" resolve="it" />
+                        </node>
+                        <node concept="2S8uIT" id="5y4s$uUrUmS" role="2OqNvi">
+                          <ref role="2S8YL0" to="so85:612_n8HcC5n" resolve="posText" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5y4s$uUrYs8" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                        <node concept="Xl_RD" id="5y4s$uUs08R" role="37wK5m">
+                          <property role="Xl_RC" value="*" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="5y4s$uUrR7c" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5y4s$uUrR7d" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5y4s$uUrK1Z" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="1Cak35" id="5y4s$uUqD$m" role="38MLOi">
       <ref role="1Cak38" node="rcyLvSEHn1" resolve="SessionEntities Test Checkout / RO marked" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_n" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$n" role="38MLOi">
       <ref role="1Cak38" node="5rqgrTzFEEZ" resolve="Use of concept sessionEntities" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_o" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$o" role="38MLOi">
       <ref role="1Cak38" node="5PYG8oigk9z" resolve="Using Merge - entity into entity merged into session" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_p" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$p" role="38MLOi">
       <ref role="1Cak38" node="5X8QPlc6dfv" resolve="Using Merge - entity into entity merged into session - [Read Only Error]" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_q" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$q" role="38MLOi">
       <ref role="1Cak38" node="5X8QPlc49fy" resolve="Using Merge - situation in a search command.. " />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_r" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$r" role="38MLOi">
       <ref role="1Cak38" node="5X8QPlc6P4S" resolve="Using Merge - integrate ref into session" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_s" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$s" role="38MLOi">
       <ref role="1Cak38" node="5X8QPlcfhxd" resolve="Using Merge - integrate ref into session [Read Only Error]" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_t" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$t" role="38MLOi">
       <ref role="1Cak38" node="5PYG8ojZGBo" resolve="Using Merge - situation in a search command (article ref changes)" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_u" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$u" role="38MLOi">
       <ref role="1Cak38" node="5PYG8okUis6" resolve="Using Merge - situation in a search command (merge positions also)" />
     </node>
-    <node concept="1Cak35" id="5X8QPlckN_v" role="38MLOi">
+    <node concept="1Cak35" id="5y4s$uUqD$v" role="38MLOi">
       <ref role="1Cak38" node="5PYG8olpNkX" resolve="Using Merge - situation in a search command (merge positions also - adding a new one!)" />
+    </node>
+    <node concept="1Cak35" id="5y4s$uUqD$w" role="38MLOi">
+      <ref role="1Cak38" node="5X8QPlci6ea" resolve="Merging Invoices multiple times ... " />
+    </node>
+    <node concept="1Cak35" id="5y4s$uUqD$x" role="38MLOi">
+      <ref role="1Cak38" node="5X8QPlcmadH" resolve="DTO Style merging; not considerung current session." />
     </node>
   </node>
 </model>

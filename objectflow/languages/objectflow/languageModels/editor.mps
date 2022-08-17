@@ -582,6 +582,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1204851882688" name="jetbrains.mps.lang.smodel.structure.LinkRefQualifier" flags="ng" index="26LbJo">
         <reference id="1204851882689" name="link" index="26LbJp" />
       </concept>
@@ -14032,6 +14038,29 @@
       <node concept="3F0A7n" id="1lcI4x2i8_j" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:1lcI4x2i8$V" resolve="destObjType" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="3F0A7n" id="5y4s$uUt0E_" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:5y4s$uUt0El" resolve="clearDestList" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="pkWqt" id="5y4s$uUt0EL" role="pqm2j">
+          <node concept="3clFbS" id="5y4s$uUt0EM" role="2VODD2">
+            <node concept="3clFbF" id="5y4s$uUt0IK" role="3cqZAp">
+              <node concept="2OqwBi" id="5y4s$uUt1i2" role="3clFbG">
+                <node concept="2OqwBi" id="5y4s$uUt0Wa" role="2Oq$k0">
+                  <node concept="pncrf" id="5y4s$uUt0IJ" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="5y4s$uUt18H" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:1lcI4x2i8$V" resolve="destObjType" />
+                  </node>
+                </node>
+                <node concept="21noJN" id="5y4s$uUt1u0" role="2OqNvi">
+                  <node concept="21nZrQ" id="5y4s$uUt1u2" role="21noJM">
+                    <ref role="21nZrZ" to="un0u:1lcI4x2i8$P" resolve="list" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="5RCLcUroak2" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:5RCLcUroajy" resolve="destination" />

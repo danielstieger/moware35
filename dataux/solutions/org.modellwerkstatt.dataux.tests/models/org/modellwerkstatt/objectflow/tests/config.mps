@@ -274,7 +274,7 @@
         <node concept="26L8Vk" id="7lpaU3R6$ir" role="2CPvpQ">
           <ref role="26L8Vy" node="3drXVOoNMYp" resolve="URL" />
           <node concept="Xl_RD" id="7lpaU3R6$is" role="26L8Vw">
-            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest:1521/LOLA" />
+            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest.mpreis.co.at:1521/LOLA" />
           </node>
         </node>
       </node>
@@ -466,7 +466,7 @@
         <node concept="2CJ4$C" id="3drXVOoNMYp" role="2CJ4_l">
           <property role="TrG5h" value="URL" />
           <node concept="Xl_RD" id="3drXVOoNMYx" role="2CaGCA">
-            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest:1521/LOLA" />
+            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest.mpreis.co.at:1521/LOLA" />
           </node>
         </node>
         <node concept="2CJ4$C" id="3drXVOoNMYE" role="2CJ4_l">
@@ -556,7 +556,7 @@
         <node concept="2CJ4$C" id="4LC0Y0L2paW" role="2CJ4_l">
           <property role="TrG5h" value="url" />
           <node concept="Xl_RD" id="4LC0Y0L2paX" role="2CaGCA">
-            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest:1521/LOLA" />
+            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest.mpreis.co.at:1521/LOLA" />
           </node>
         </node>
         <node concept="2CJ4$C" id="4LC0Y0L2paY" role="2CJ4_l">
