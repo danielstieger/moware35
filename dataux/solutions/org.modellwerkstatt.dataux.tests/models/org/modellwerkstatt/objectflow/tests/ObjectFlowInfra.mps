@@ -269,7 +269,6 @@
         <property id="6258386918140903024" name="sessionIntegration" index="OpNZe" />
         <property id="1534804193515702584" name="sourceObjType" index="1n135K" />
         <property id="1534804193515702587" name="destObjType" index="1n135N" />
-        <property id="6378348624659876501" name="clearDestList" index="3yW7zi" />
         <child id="6766874831773279458" name="destination" index="36y60G" />
         <child id="6766874831773279456" name="source" index="36y60I" />
       </concept>
@@ -5740,43 +5739,91 @@
           </node>
         </node>
         <node concept="3clFbH" id="5X8QPlcanji" role="3cqZAp" />
-        <node concept="3clFbF" id="5X8QPlcakoL" role="3cqZAp">
-          <node concept="36y60j" id="5X8QPlcakoM" role="3clFbG">
-            <property role="1n135K" value="5X8QPl9zox8/ref" />
-            <property role="1n135N" value="5X8QPl9zox8/ref" />
-            <node concept="2OqwBi" id="5X8QPlcaoOa" role="36y60I">
-              <node concept="2OqwBi" id="5X8QPlcakoN" role="2Oq$k0">
-                <node concept="37vLTw" id="5X8QPlcakoO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5X8QPlc49fE" resolve="invoice1" />
-                </node>
-                <node concept="2S8uIT" id="5X8QPlcakoP" role="2OqNvi">
-                  <ref role="2S8YL0" to="so85:4hzI9eTUYNa" resolve="mainPosRef" />
-                </node>
+        <node concept="1gVbGN" id="5y4s$uUOmr8" role="3cqZAp">
+          <node concept="3y3z36" id="5y4s$uUOqZ7" role="1gVkn0">
+            <node concept="10Nm6u" id="5y4s$uUOsjl" role="3uHU7w" />
+            <node concept="2OqwBi" id="5y4s$uUOpsI" role="3uHU7B">
+              <node concept="37vLTw" id="5y4s$uUOnRu" role="2Oq$k0">
+                <ref role="3cqZAo" node="5X8QPlc49gW" resolve="mergedInvoice" />
               </node>
-              <node concept="2S8uIT" id="5X8QPlcaqnl" role="2OqNvi">
-                <ref role="2S8YL0" to="so85:70qPrkCybJa" resolve="invoice" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="5X8QPlcarFg" role="36y60G">
-              <node concept="2OqwBi" id="5X8QPlcakoQ" role="2Oq$k0">
-                <node concept="37vLTw" id="5X8QPlcakoR" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5X8QPlc49gW" resolve="mergedInvoice" />
-                </node>
-                <node concept="2S8uIT" id="5X8QPlcakoS" role="2OqNvi">
-                  <ref role="2S8YL0" to="so85:4hzI9eTUYNa" resolve="mainPosRef" />
-                </node>
-              </node>
-              <node concept="2S8uIT" id="5X8QPlcat5S" role="2OqNvi">
-                <ref role="2S8YL0" to="so85:70qPrkCybJa" resolve="invoice" />
+              <node concept="2S8uIT" id="5y4s$uUOqSf" role="2OqNvi">
+                <ref role="2S8YL0" to="so85:4hzI9eTUYNa" resolve="mainPosRef" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5y4s$uUOtGu" role="3cqZAp" />
+        <node concept="3SKdUt" id="5y4s$uUZS_A" role="3cqZAp">
+          <node concept="1PaTwC" id="5y4s$uUZS_B" role="1aUNEU">
+            <node concept="3oM_SD" id="5y4s$uUZS_C" role="1PaTwD">
+              <property role="3oM_SC" value="manually" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uUZTWs" role="1PaTwD">
+              <property role="3oM_SC" value="set" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtEvh" role="1PaTwD">
+              <property role="3oM_SC" value="backrer," />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtEvW" role="1PaTwD">
+              <property role="3oM_SC" value="does" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtEx7" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtExd" role="1PaTwD">
+              <property role="3oM_SC" value="work" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtExV" role="1PaTwD">
+              <property role="3oM_SC" value="on" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtEyb" role="1PaTwD">
+              <property role="3oM_SC" value="read" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtEyN" role="1PaTwD">
+              <property role="3oM_SC" value="only" />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVtEyX" role="1PaTwD">
+              <property role="3oM_SC" value="entities" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5y4s$uUZD8K" role="3cqZAp">
+          <node concept="37vLTI" id="5y4s$uUZLa6" role="3clFbG">
+            <node concept="37vLTw" id="5y4s$uUZMJ6" role="37vLTx">
+              <ref role="3cqZAo" node="5X8QPlc49gW" resolve="mergedInvoice" />
+            </node>
+            <node concept="2OqwBi" id="5y4s$uUZJo0" role="37vLTJ">
+              <node concept="2OqwBi" id="5y4s$uUZEH$" role="2Oq$k0">
+                <node concept="37vLTw" id="5y4s$uUZD8I" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5X8QPlc49gW" resolve="mergedInvoice" />
+                </node>
+                <node concept="2S8uIT" id="5y4s$uUZG6Q" role="2OqNvi">
+                  <ref role="2S8YL0" to="so85:4hzI9eTUYNa" resolve="mainPosRef" />
+                </node>
+              </node>
+              <node concept="2S8uIT" id="5y4s$uUZL6j" role="2OqNvi">
+                <ref role="2S8YL0" to="so85:70qPrkCybJa" resolve="invoice" />
+              </node>
+            </node>
+          </node>
+          <node concept="16GPin" id="5y4s$uVtG1H" role="lGtFl">
+            <ref role="16PnFS" to="28jr:7gwY4W66c4B" resolve="OFXIllegalAccessException" />
+          </node>
+        </node>
         <node concept="3clFbH" id="5X8QPlcalSY" role="3cqZAp" />
-        <node concept="3clFbH" id="5X8QPlc49hr" role="3cqZAp" />
+        <node concept="3SKdUt" id="5y4s$uVuFIV" role="3cqZAp">
+          <node concept="1PaTwC" id="5y4s$uVuFIW" role="1aUNEU">
+            <node concept="3oM_SD" id="5y4s$uVuFIX" role="1PaTwD">
+              <property role="3oM_SC" value="however," />
+            </node>
+            <node concept="3oM_SD" id="5y4s$uVuHbM" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+          </node>
+        </node>
         <node concept="1gVbGN" id="5X8QPlc934_" role="3cqZAp">
           <node concept="3clFbC" id="5X8QPlc9brQ" role="1gVkn0">
-            <node concept="37vLTw" id="5X8QPlcauwQ" role="3uHU7w">
+            <node concept="37vLTw" id="5y4s$uVuldH" role="3uHU7w">
               <ref role="3cqZAo" node="5X8QPlc49gW" resolve="mergedInvoice" />
             </node>
             <node concept="2OqwBi" id="5X8QPlc97p7" role="3uHU7B">
@@ -8315,21 +8362,20 @@
                 <ref role="3uigEE" to="so85:612_n8HbChx" resolve="InvoicePosition" />
               </node>
             </node>
-            <node concept="36y60j" id="5y4s$uUo_XX" role="33vP2m">
-              <property role="3yW7zi" value="5y4s$uUvBWD/cleared" />
-              <node concept="2OqwBi" id="5y4s$uUo_XY" role="36y60I">
-                <node concept="37vLTw" id="5y4s$uUo_XZ" role="2Oq$k0">
+            <node concept="36y60j" id="5y4s$uVhl1U" role="33vP2m">
+              <node concept="2OqwBi" id="5y4s$uVhl9m" role="36y60I">
+                <node concept="37vLTw" id="5y4s$uVhl43" role="2Oq$k0">
                   <ref role="3cqZAo" node="5y4s$uUo_XH" resolve="invoice1" />
                 </node>
-                <node concept="2S8uIT" id="5y4s$uUo_Y0" role="2OqNvi">
+                <node concept="2S8uIT" id="5y4s$uVhldu" role="2OqNvi">
                   <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="5y4s$uUo_Y1" role="36y60G">
-                <node concept="37vLTw" id="5y4s$uUo_Y2" role="2Oq$k0">
+              <node concept="2OqwBi" id="5y4s$uVhmVc" role="36y60G">
+                <node concept="37vLTw" id="5y4s$uVhleU" role="2Oq$k0">
                   <ref role="3cqZAo" node="5y4s$uUo_XO" resolve="integrated" />
                 </node>
-                <node concept="2S8uIT" id="5y4s$uUo_Y3" role="2OqNvi">
+                <node concept="2S8uIT" id="5y4s$uVhort" role="2OqNvi">
                   <ref role="2S8YL0" to="so85:612_n8Hc$wy" resolve="positions" />
                 </node>
               </node>
@@ -8424,42 +8470,6 @@
         </node>
         <node concept="3clFbH" id="5y4s$uUrK1Z" role="3cqZAp" />
       </node>
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$m" role="38MLOi">
-      <ref role="1Cak38" node="rcyLvSEHn1" resolve="SessionEntities Test Checkout / RO marked" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$n" role="38MLOi">
-      <ref role="1Cak38" node="5rqgrTzFEEZ" resolve="Use of concept sessionEntities" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$o" role="38MLOi">
-      <ref role="1Cak38" node="5PYG8oigk9z" resolve="Using Merge - entity into entity merged into session" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$p" role="38MLOi">
-      <ref role="1Cak38" node="5X8QPlc6dfv" resolve="Using Merge - entity into entity merged into session - [Read Only Error]" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$q" role="38MLOi">
-      <ref role="1Cak38" node="5X8QPlc49fy" resolve="Using Merge - situation in a search command.. " />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$r" role="38MLOi">
-      <ref role="1Cak38" node="5X8QPlc6P4S" resolve="Using Merge - integrate ref into session" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$s" role="38MLOi">
-      <ref role="1Cak38" node="5X8QPlcfhxd" resolve="Using Merge - integrate ref into session [Read Only Error]" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$t" role="38MLOi">
-      <ref role="1Cak38" node="5PYG8ojZGBo" resolve="Using Merge - situation in a search command (article ref changes)" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$u" role="38MLOi">
-      <ref role="1Cak38" node="5PYG8okUis6" resolve="Using Merge - situation in a search command (merge positions also)" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$v" role="38MLOi">
-      <ref role="1Cak38" node="5PYG8olpNkX" resolve="Using Merge - situation in a search command (merge positions also - adding a new one!)" />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$w" role="38MLOi">
-      <ref role="1Cak38" node="5X8QPlci6ea" resolve="Merging Invoices multiple times ... " />
-    </node>
-    <node concept="1Cak35" id="5y4s$uUqD$x" role="38MLOi">
-      <ref role="1Cak38" node="5X8QPlcmadH" resolve="DTO Style merging; not considerung current session." />
     </node>
   </node>
 </model>

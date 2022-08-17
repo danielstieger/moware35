@@ -21341,6 +21341,43 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="5y4s$uUWYhP" role="13h7CS">
+      <property role="TrG5h" value="referencesDestinationProperty" />
+      <node concept="3Tm1VV" id="5y4s$uUWYhQ" role="1B3o_S" />
+      <node concept="3Tqbb2" id="5y4s$uUWYns" role="3clF45">
+        <ref role="ehGHo" to="tpee:huRhdFY" resolve="Property" />
+      </node>
+      <node concept="3clFbS" id="5y4s$uUWYhS" role="3clF47">
+        <node concept="3clFbF" id="5y4s$uUWYxl" role="3cqZAp">
+          <node concept="2OqwBi" id="5X8QPla6LNv" role="3clFbG">
+            <node concept="1PxgMI" id="5X8QPla6LuK" role="2Oq$k0">
+              <node concept="chp4Y" id="5X8QPla6L$x" role="3oSUPX">
+                <ref role="cht4Q" to="tpee:huS8uEI" resolve="PropertyReference" />
+              </node>
+              <node concept="2OqwBi" id="5X8QPla6KlR" role="1m5AlR">
+                <node concept="1PxgMI" id="5X8QPla6Ka9" role="2Oq$k0">
+                  <node concept="chp4Y" id="5X8QPla6KaY" role="3oSUPX">
+                    <ref role="cht4Q" to="tpee:hqOqwz4" resolve="DotExpression" />
+                  </node>
+                  <node concept="2OqwBi" id="5X8QPla6JHS" role="1m5AlR">
+                    <node concept="13iPFW" id="5X8QPla6J_X" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5X8QPla6JQj" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:5RCLcUroajy" resolve="destination" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="5X8QPla6Kz8" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                </node>
+              </node>
+            </node>
+            <node concept="3TrEf2" id="5X8QPla6LYp" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:huS8YPn" resolve="property" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="5X8QPla6JvU" role="13h7CS">
       <property role="TrG5h" value="nameOfReferencePropertySetter" />
       <node concept="3Tm1VV" id="5X8QPla6JvV" role="1B3o_S" />
@@ -21351,34 +21388,11 @@
             <property role="TrG5h" value="propName" />
             <node concept="17QB3L" id="5X8QPla77uS" role="1tU5fm" />
             <node concept="2OqwBi" id="5X8QPla6Mk8" role="33vP2m">
-              <node concept="2OqwBi" id="5X8QPla6LNv" role="2Oq$k0">
-                <node concept="1PxgMI" id="5X8QPla6LuK" role="2Oq$k0">
-                  <node concept="chp4Y" id="5X8QPla6L$x" role="3oSUPX">
-                    <ref role="cht4Q" to="tpee:huS8uEI" resolve="PropertyReference" />
-                  </node>
-                  <node concept="2OqwBi" id="5X8QPla6KlR" role="1m5AlR">
-                    <node concept="1PxgMI" id="5X8QPla6Ka9" role="2Oq$k0">
-                      <node concept="chp4Y" id="5X8QPla6KaY" role="3oSUPX">
-                        <ref role="cht4Q" to="tpee:hqOqwz4" resolve="DotExpression" />
-                      </node>
-                      <node concept="2OqwBi" id="5X8QPla6JHS" role="1m5AlR">
-                        <node concept="13iPFW" id="5X8QPla6J_X" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="5X8QPla6JQj" role="2OqNvi">
-                          <ref role="3Tt5mk" to="un0u:5RCLcUroajy" resolve="destination" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3TrEf2" id="5X8QPla6Kz8" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="5X8QPla6LYp" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tpee:huS8YPn" resolve="property" />
-                </node>
-              </node>
               <node concept="3TrcHB" id="5X8QPla6MCK" role="2OqNvi">
                 <ref role="3TsBF5" to="tpee:huRkwj$" resolve="propertyName" />
+              </node>
+              <node concept="BsUDl" id="5y4s$uUWYtH" role="2Oq$k0">
+                <ref role="37wK5l" node="5y4s$uUWYhP" resolve="referencesDestinationProperty" />
               </node>
             </node>
           </node>

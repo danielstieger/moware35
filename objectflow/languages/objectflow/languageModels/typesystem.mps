@@ -15341,6 +15341,41 @@
                   </node>
                 </node>
               </node>
+              <node concept="3eNFk2" id="5y4s$uUWXrH" role="3eNLev">
+                <node concept="3clFbS" id="5y4s$uUWXrI" role="3eOfB_">
+                  <node concept="2MkqsV" id="5y4s$uUX0UQ" role="3cqZAp">
+                    <node concept="Xl_RD" id="5y4s$uUX0V5" role="2MkJ7o">
+                      <property role="Xl_RC" value="Do no merge 'opposite' references since lists and references will be cleared on target entities." />
+                    </node>
+                    <node concept="2OqwBi" id="5y4s$uUX15S" role="1urrMF">
+                      <node concept="1YBJjd" id="5y4s$uUX0XE" role="2Oq$k0">
+                        <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
+                      </node>
+                      <node concept="3TrEf2" id="5y4s$uUX1Py" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:5RCLcUroajy" resolve="destination" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="5y4s$uUX02J" role="3eO9$A">
+                  <node concept="1PxgMI" id="5y4s$uUWZE2" role="2Oq$k0">
+                    <node concept="chp4Y" id="5y4s$uUWZRJ" role="3oSUPX">
+                      <ref role="cht4Q" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
+                    </node>
+                    <node concept="2OqwBi" id="5y4s$uUWXAc" role="1m5AlR">
+                      <node concept="1YBJjd" id="5y4s$uUWXsy" role="2Oq$k0">
+                        <ref role="1YBMHb" node="5RCLcUrqNok" resolve="mergeInto" />
+                      </node>
+                      <node concept="2qgKlT" id="5y4s$uUWXRt" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:5y4s$uUWYhP" resolve="referencesDestinationProperty" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="5y4s$uUX0Mq" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:1jMXz13pjjo" resolve="isOpposite" />
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="3clFbH" id="5X8QPla_RLr" role="3cqZAp" />
           </node>
