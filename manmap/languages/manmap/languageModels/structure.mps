@@ -8,7 +8,6 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" />
-    <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -996,14 +995,6 @@
     <property role="3GE5qa" value="customsql" />
     <property role="EcuMT" value="7955334847797738396" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="6TB1IkohxQf" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="text" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="7955334847797796239" />
-      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
-      <node concept="asaX9" id="7Ys$zjg4ikB" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="7Ys$zjfHiJb" role="1TKVEi">
       <property role="IQ2ns" value="9195385294704421835" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

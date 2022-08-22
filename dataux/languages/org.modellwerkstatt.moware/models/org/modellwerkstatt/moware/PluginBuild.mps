@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -575,12 +574,6 @@
             <node concept="3qWCbU" id="4EjcJZr7mQE" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4zX5jmWjuj4" role="3bR37C">
-          <node concept="3bR9La" id="4zX5jmWjuj5" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
         <node concept="1SiIV0" id="7Ys$zjgxVaX" role="3bR37C">
@@ -1302,31 +1295,6 @@
                         <property role="2Ry0Am" value="richclient" />
                         <node concept="2Ry0Ak" id="77GQMAOIf1o" role="2Ry0An">
                           <property role="2Ry0Am" value="activation-1.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="467ssIpx2AO" role="3bR37C">
-          <node concept="1BurEX" id="467ssIpx2AP" role="1SiIV1">
-            <node concept="398BVA" id="467ssIpx2AH" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="467ssIpx2AI" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="467ssIpx2AJ" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="467ssIpx2AK" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="467ssIpx2AL" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="467ssIpx2AM" role="2Ry0An">
-                        <property role="2Ry0Am" value="basis" />
-                        <node concept="2Ry0Ak" id="467ssIpx2AN" role="2Ry0An">
-                          <property role="2Ry0Am" value="spring-web-5.2.9.RELEASE.jar" />
                         </node>
                       </node>
                     </node>
@@ -2952,15 +2920,6 @@
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="1JLTjCmZp1Z" role="2JcizS">
         <ref role="398BVh" node="1JLTjCmZkWr" resolve="mps_home" />
-      </node>
-    </node>
-    <node concept="2sgV4H" id="4AUDKc2mwXF" role="1l3spa">
-      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="4AUDKc2mx6d" role="2JcizS">
-        <ref role="398BVh" node="1JLTjCmZkWr" resolve="mps_home" />
-        <node concept="2Ry0Ak" id="_8xEBEjsUK" role="iGT6I">
-          <property role="2Ry0Am" value="mw-plugins" />
-        </node>
       </node>
     </node>
     <node concept="2_Ic$z" id="4lWBY$2WmIx" role="3989C9">

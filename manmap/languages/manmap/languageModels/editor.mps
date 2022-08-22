@@ -2134,13 +2134,6 @@
   <node concept="24kQdi" id="6TB1IkohxQm">
     <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
-    <node concept="3F1sOY" id="6TB1IkohxRb" role="6VMZX">
-      <ref role="1NtTu8" to="r5tz:6TB1IkohxQf" resolve="text" />
-      <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
-      <node concept="3vyZuw" id="6TB1IkohxSQ" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-    </node>
     <node concept="3EZMnI" id="5Ee0EjqWOQw" role="2wV5jI">
       <ref role="1k5W1q" node="5Ee0EjqWOQp" resolve="SqlString" />
       <node concept="3F2HdR" id="1w9VmqdQOcS" role="3EZMnx">
