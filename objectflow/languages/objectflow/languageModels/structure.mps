@@ -688,13 +688,14 @@
       <property role="20kJfa" value="childTermConceptFunc" />
       <property role="IQ2ns" value="8322225022200000541" />
       <ref role="20lvS9" node="7dYuT2d5JDD" resolve="PageChildTermConceptFunc" />
+      <node concept="asaX9" id="71rMyjSCvg2" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="1OYKdEatXna" role="1TKVEi">
       <property role="IQ2ns" value="2107333720514483658" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="updaters" />
+      <property role="20kJfa" value="childTermHandler" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1OYKdEatMle" resolve="PageUpdater" />
+      <ref role="20lvS9" node="1OYKdEatMle" resolve="PageCmdTermHandler" />
     </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
@@ -2654,6 +2655,7 @@
     <property role="R4oN_" value="child terminated while in page" />
     <property role="EcuMT" value="8322225022199855721" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="asaX9" id="71rMyjSCuUK" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7dYuT2d6irc">
     <property role="3GE5qa" value="OFXCore.cmd" />
@@ -5037,21 +5039,21 @@
   <node concept="1TIwiD" id="1OYKdEatMle">
     <property role="EcuMT" value="2107333720514438478" />
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <property role="TrG5h" value="PageUpdater" />
-    <property role="34LRSv" value="scope for" />
+    <property role="TrG5h" value="PageCmdTermHandler" />
+    <property role="34LRSv" value="cmdTermHandler" />
     <property role="R4oN_" value="update session / graph" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1OYKdEbfLok" role="1TKVEl">
       <property role="IQ2nx" value="2107333720527541780" />
-      <property role="TrG5h" value="type" />
-      <ref role="AX2Wp" node="1OYKdEb2e2z" resolve="PageUpdaterType" />
+      <property role="TrG5h" value="cmdTermType" />
+      <ref role="AX2Wp" node="1OYKdEb2e2z" resolve="CmdTermType" />
     </node>
     <node concept="1TJgyj" id="1OYKdEatMlj" role="1TKVEi">
       <property role="IQ2ns" value="2107333720514438483" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="func" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1OYKdEatMlf" resolve="PageUpdaterConceptFunction" />
+      <ref role="20lvS9" node="1OYKdEatMlf" resolve="CmdTermConceptFunction" />
     </node>
     <node concept="1TJgyj" id="1OYKdEatMlh" role="1TKVEi">
       <property role="IQ2ns" value="2107333720514438481" />
@@ -5062,7 +5064,7 @@
   <node concept="1TIwiD" id="1OYKdEatMlf">
     <property role="EcuMT" value="2107333720514438479" />
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <property role="TrG5h" value="PageUpdaterConceptFunction" />
+    <property role="TrG5h" value="CmdTermConceptFunction" />
     <property role="34LRSv" value="func" />
     <property role="R4oN_" value="update function" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
@@ -5070,47 +5072,32 @@
   <node concept="1TIwiD" id="1OYKdEatMlg">
     <property role="EcuMT" value="2107333720514438480" />
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <property role="TrG5h" value="PageUpdaterConceptFuntionParamForeign" />
-    <property role="34LRSv" value="foreign" />
+    <property role="TrG5h" value="PageUpdaterConceptFuntionParamPushed" />
+    <property role="34LRSv" value="pushed" />
     <property role="R4oN_" value="the entity/aggregate from another session" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="25R3W" id="1OYKdEb2e2z">
     <property role="3F6X1D" value="2107333720523989155" />
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <property role="TrG5h" value="PageUpdaterType" />
-    <ref role="1H5jkz" node="1OYKdEbQZZ7" resolve="PageInitAndChildCmdTerminate" />
-    <node concept="25R33" id="1OYKdEdVUkQ" role="25R1y">
-      <property role="3tVfz5" value="2107333720572667190" />
-      <property role="TrG5h" value="InitOnly" />
-      <property role="1L1pqM" value="Page init only" />
-    </node>
+    <property role="TrG5h" value="CmdTermType" />
+    <ref role="1H5jkz" node="1OYKdEb2e2_" resolve="ChildCmdTerminated" />
     <node concept="25R33" id="1OYKdEb2e2$" role="25R1y">
       <property role="3tVfz5" value="2107333720523989156" />
       <property role="TrG5h" value="AnyCmdTerminated" />
-      <property role="1L1pqM" value="Any cmd terminated" />
+      <property role="1L1pqM" value="any cmd term" />
     </node>
     <node concept="25R33" id="1OYKdEb2e2_" role="25R1y">
       <property role="3tVfz5" value="2107333720523989157" />
       <property role="TrG5h" value="ChildCmdTerminated" />
-      <property role="1L1pqM" value="Child cmd terminated" />
-    </node>
-    <node concept="25R33" id="1OYKdEbQZZ3" role="25R1y">
-      <property role="3tVfz5" value="2107333720537825219" />
-      <property role="TrG5h" value="PageInitAndAnyCmdTerminate" />
-      <property role="1L1pqM" value="Page init and any cmd terminated" />
-    </node>
-    <node concept="25R33" id="1OYKdEbQZZ7" role="25R1y">
-      <property role="3tVfz5" value="2107333720537825223" />
-      <property role="TrG5h" value="PageInitAndChildCmdTerminate" />
-      <property role="1L1pqM" value="Page init and child cmd terminated" />
+      <property role="1L1pqM" value="child cmd term" />
     </node>
   </node>
   <node concept="1TIwiD" id="1OYKdEb2e2C">
     <property role="EcuMT" value="2107333720523989160" />
     <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageUpdaterConceptFuntionParamTermOk" />
-    <property role="34LRSv" value="wasOk" />
+    <property role="34LRSv" value="inFinalOk" />
     <property role="R4oN_" value="cmd terminated in ok" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>

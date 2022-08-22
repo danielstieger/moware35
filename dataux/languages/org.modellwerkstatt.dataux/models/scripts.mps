@@ -12,7 +12,6 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -94,7 +93,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
-      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="_UgoZ" id="4pfCiMc1qX0">
@@ -102,39 +100,6 @@
     <property role="TrG5h" value="Moware2022Analytics" />
     <property role="_Wzho" value="MoWare 2022 Analysis" />
     <property role="2BwPS$" value="MoWare Scripts" />
-    <node concept="_XfAh" id="4pfCiMc1qX1" role="_YvDr">
-      <property role="_XH9r" value="Usage of update information " />
-      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
-      <node concept="_ZGcI" id="4pfCiMc1qX2" role="_XPhp">
-        <node concept="3clFbS" id="4pfCiMc1qX3" role="2VODD2" />
-      </node>
-      <node concept="_Y34e" id="4pfCiMc1qX4" role="_XDHO">
-        <node concept="3clFbS" id="4pfCiMc1qX5" role="2VODD2">
-          <node concept="3clFbF" id="1OYKdEasqi7" role="3cqZAp">
-            <node concept="22lmx$" id="1OYKdEasvmw" role="3clFbG">
-              <node concept="2OqwBi" id="1OYKdEasxSB" role="3uHU7w">
-                <node concept="2OqwBi" id="1OYKdEasvA8" role="2Oq$k0">
-                  <node concept="_YI3z" id="1OYKdEasvo5" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="1OYKdEasvUn" role="2OqNvi">
-                    <ref role="3TtcxE" to="un0u:1dqt$gJc2G4" resolve="finalCancelSelection" />
-                  </node>
-                </node>
-                <node concept="3GX2aA" id="1OYKdEaszAr" role="2OqNvi" />
-              </node>
-              <node concept="2OqwBi" id="1OYKdEastc7" role="3uHU7B">
-                <node concept="2OqwBi" id="1OYKdEasqzr" role="2Oq$k0">
-                  <node concept="_YI3z" id="1OYKdEasqi6" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="1OYKdEasrkL" role="2OqNvi">
-                    <ref role="3TtcxE" to="un0u:6IXTkEOVX_p" resolve="finalOkSelection" />
-                  </node>
-                </node>
-                <node concept="3GX2aA" id="1OYKdEasuCH" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="_XfAh" id="3DDVbNjcmcA" role="_YvDr">
       <property role="_XH9r" value="Usage of child term handler" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
@@ -274,13 +239,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="_XfAh" id="1OYKdEasHtn" role="_YvDr">
-      <property role="_XH9r" value="Commands in total" />
-      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
-      <node concept="_ZGcI" id="1OYKdEasHto" role="_XPhp">
-        <node concept="3clFbS" id="1OYKdEasHtp" role="2VODD2" />
       </node>
     </node>
     <node concept="1opIMY" id="4pfCiMc1qXG" role="_YvDr" />

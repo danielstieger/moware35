@@ -20758,7 +20758,7 @@
   </node>
   <node concept="13h7C7" id="1OYKdEatMWJ">
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <ref role="13h7C2" to="un0u:1OYKdEatMlf" resolve="PageUpdaterConceptFunction" />
+    <ref role="13h7C2" to="un0u:1OYKdEatMlf" resolve="CmdTermConceptFunction" />
     <node concept="13hLZK" id="1OYKdEatMWK" role="13h7CW">
       <node concept="3clFbS" id="1OYKdEatMWL" role="2VODD2" />
     </node>
@@ -20794,7 +20794,7 @@
                 </node>
                 <node concept="TSZUe" id="2D1PBM_bzwI" role="2OqNvi">
                   <node concept="35c_gC" id="2xELmDxRnL1" role="25WWJ7">
-                    <ref role="35c_gD" to="un0u:1OYKdEatMlg" resolve="PageUpdaterConceptFuntionParamForeign" />
+                    <ref role="35c_gD" to="un0u:1OYKdEatMlg" resolve="PageUpdaterConceptFuntionParamPushed" />
                   </node>
                 </node>
               </node>
@@ -20806,7 +20806,7 @@
               <node concept="2Xjw5R" id="1OYKdEatP3d" role="2OqNvi">
                 <node concept="1xMEDy" id="1OYKdEatP3f" role="1xVPHs">
                   <node concept="chp4Y" id="1OYKdEatP5u" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:1OYKdEatMle" resolve="PageUpdater" />
+                    <ref role="cht4Q" to="un0u:1OYKdEatMle" resolve="PageCmdTermHandler" />
                   </node>
                 </node>
               </node>
@@ -20872,7 +20872,29 @@
   </node>
   <node concept="13h7C7" id="1OYKdEcYjZp">
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <ref role="13h7C2" to="un0u:1OYKdEatMle" resolve="PageUpdater" />
+    <ref role="13h7C2" to="un0u:1OYKdEatMle" resolve="PageCmdTermHandler" />
+    <node concept="13i0hz" id="71rMyjTs47h" role="13h7CS">
+      <property role="TrG5h" value="onlyOnChildTerm" />
+      <node concept="3Tm1VV" id="71rMyjTs47i" role="1B3o_S" />
+      <node concept="10P_77" id="71rMyjTs491" role="3clF45" />
+      <node concept="3clFbS" id="71rMyjTs47k" role="3clF47">
+        <node concept="3clFbF" id="71rMyjTs49t" role="3cqZAp">
+          <node concept="2OqwBi" id="71rMyjTs4EW" role="3clFbG">
+            <node concept="2OqwBi" id="71rMyjTs4in" role="2Oq$k0">
+              <node concept="13iPFW" id="71rMyjTs49s" role="2Oq$k0" />
+              <node concept="3TrcHB" id="71rMyjTs4pn" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:1OYKdEbfLok" resolve="cmdTermType" />
+              </node>
+            </node>
+            <node concept="21noJN" id="71rMyjTs4Hl" role="2OqNvi">
+              <node concept="21nZrQ" id="71rMyjTs4Hn" role="21noJM">
+                <ref role="21nZrZ" to="un0u:1OYKdEb2e2_" resolve="ChildCmdTerminated" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="1OYKdEcYjZ$" role="13h7CS">
       <property role="TrG5h" value="isClassifierSpecific" />
       <node concept="3Tm1VV" id="1OYKdEcYjZ_" role="1B3o_S" />

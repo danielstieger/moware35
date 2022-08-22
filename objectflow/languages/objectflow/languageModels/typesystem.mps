@@ -14559,7 +14559,7 @@
         <node concept="3cpWsn" id="1OYKdEatRTI" role="3cpWs9">
           <property role="TrG5h" value="pu" />
           <node concept="3Tqbb2" id="1OYKdEatRTE" role="1tU5fm">
-            <ref role="ehGHo" to="un0u:1OYKdEatMle" resolve="PageUpdater" />
+            <ref role="ehGHo" to="un0u:1OYKdEatMle" resolve="PageCmdTermHandler" />
           </node>
           <node concept="2OqwBi" id="1OYKdEatS5w" role="33vP2m">
             <node concept="1YBJjd" id="1OYKdEatRUd" role="2Oq$k0">
@@ -14568,7 +14568,7 @@
             <node concept="2Xjw5R" id="1OYKdEatSsQ" role="2OqNvi">
               <node concept="1xMEDy" id="1OYKdEatSsS" role="1xVPHs">
                 <node concept="chp4Y" id="1OYKdEatSuP" role="ri$Ld">
-                  <ref role="cht4Q" to="un0u:1OYKdEatMle" resolve="PageUpdater" />
+                  <ref role="cht4Q" to="un0u:1OYKdEatMle" resolve="PageCmdTermHandler" />
                 </node>
               </node>
             </node>
@@ -14597,7 +14597,7 @@
     </node>
     <node concept="1YaCAy" id="1OYKdEatRTA" role="1YuTPh">
       <property role="TrG5h" value="param" />
-      <ref role="1YaFvo" to="un0u:1OYKdEatMlg" resolve="PageUpdaterConceptFuntionParamForeign" />
+      <ref role="1YaFvo" to="un0u:1OYKdEatMlg" resolve="PageUpdaterConceptFuntionParamPushed" />
     </node>
   </node>
   <node concept="1YbPZF" id="1OYKdEb2e2J">

@@ -1835,13 +1835,14 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1Clc7wPShHL" role="3EZMnx">
-          <property role="3F0ifm" value="scopes/child cmd term for page:" />
+          <property role="3F0ifm" value="scope/ cmd term for page:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1Clc7wPShHM" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
         <node concept="3F1sOY" id="1Clc7wPShHO" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;no scope&gt;" />
           <ref role="1NtTu8" to="un0u:1Clc7wPShHw" resolve="scopeConceptFunc" />
           <node concept="pVoyu" id="1Clc7wPShHP" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -1850,38 +1851,21 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F1sOY" id="7dYuT2d6juV" role="3EZMnx">
-          <ref role="1NtTu8" to="un0u:7dYuT2d6j0t" resolve="childTermConceptFunc" />
-          <node concept="pVoyu" id="7dYuT2d6juW" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="7dYuT2d6juX" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F2HdR" id="3LpLOPqg8iS" role="3EZMnx">
-          <ref role="1NtTu8" to="un0u:1OYKdEatXna" resolve="updaters" />
-          <node concept="l2Vlx" id="3LpLOPqg8iT" role="2czzBx" />
-          <node concept="3F0ifn" id="3LpLOPqg8iU" role="2czzBI">
+        <node concept="3F2HdR" id="71rMyjTmuxY" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:1OYKdEatXna" resolve="childTermHandler" />
+          <node concept="2iRkQZ" id="71rMyjTmuy1" role="2czzBx" />
+          <node concept="VPM3Z" id="71rMyjTmuy2" role="3F10Kt" />
+          <node concept="3F0ifn" id="71rMyjTmu_I" role="2czzBI">
             <property role="3F0ifm" value="" />
-            <property role="ilYzB" value="&lt;no scopes&gt;" />
-            <node concept="VPxyj" id="3LpLOPqzMzD" role="3F10Kt">
+            <property role="ilYzB" value="&lt;no chlid term&gt;" />
+            <node concept="VPxyj" id="71rMyjTmu_K" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
           </node>
-          <node concept="pVoyu" id="3LpLOPqg8iV" role="3F10Kt">
+          <node concept="pVoyu" id="71rMyjTmuCM" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="lj46D" id="3LpLOPqg8iW" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="pj6Ft" id="3LpLOPqg8iX" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="7dYuT2ddZ47" role="3EZMnx">
-          <property role="3F0ifm" value="" />
-          <node concept="pVoyu" id="7dYuT2ddZ48" role="3F10Kt">
+          <node concept="lj46D" id="71rMyjTmuCP" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -2020,6 +2004,15 @@
         <node concept="VPM3Z" id="6sS15k5M61c" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
+      </node>
+    </node>
+    <node concept="3F1sOY" id="7dYuT2d6juV" role="6VMZX">
+      <ref role="1NtTu8" to="un0u:7dYuT2d6j0t" resolve="childTermConceptFunc" />
+      <node concept="pVoyu" id="7dYuT2d6juW" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="lj46D" id="7dYuT2d6juX" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>
@@ -12524,10 +12517,14 @@
   </node>
   <node concept="24kQdi" id="1OYKdEatMlt">
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <ref role="1XX52x" to="un0u:1OYKdEatMle" resolve="PageUpdater" />
+    <ref role="1XX52x" to="un0u:1OYKdEatMle" resolve="PageCmdTermHandler" />
     <node concept="3EZMnI" id="1OYKdEatMlv" role="2wV5jI">
+      <node concept="3F0A7n" id="1OYKdEbfLp2" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1OYKdEbfLok" resolve="cmdTermType" />
+        <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+      </node>
       <node concept="3F0ifn" id="1OYKdEatMlw" role="3EZMnx">
-        <property role="3F0ifm" value="update/scope for" />
+        <property role="3F0ifm" value="with" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
       <node concept="1iCGBv" id="1OYKdEatMmd" role="3EZMnx">
@@ -12539,13 +12536,6 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="1OYKdEbfLo$" role="3EZMnx">
-        <property role="3F0ifm" value="on" />
-        <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
-      </node>
-      <node concept="3F0A7n" id="1OYKdEbfLp2" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:1OYKdEbfLok" resolve="type" />
       </node>
       <node concept="3F0ifn" id="1OYKdEdq$AI" role="3EZMnx">
         <property role="3F0ifm" value="// restriction? foreign = null?" />
@@ -12569,9 +12559,6 @@
         <node concept="lj46D" id="1OYKdEatMlN" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-      </node>
-      <node concept="3F0ifn" id="1OYKdEatMlO" role="3EZMnx">
-        <property role="3F0ifm" value="" />
       </node>
       <node concept="l2Vlx" id="1OYKdEatMlP" role="2iSdaV" />
     </node>

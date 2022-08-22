@@ -242,14 +242,6 @@
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
     </language>
-    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
-      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
-        <child id="2557074442922392302" name="words" index="19SJt6" />
-      </concept>
-      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
-        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
-      </concept>
-    </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
         <property id="5449388640458266934" name="longFormat" index="3Ac4sI" />
@@ -557,7 +549,6 @@
       </concept>
       <concept id="7955334847797738396" name="org.modellwerkstatt.manmap.structure.SqlString" flags="ng" index="1Q8zPT">
         <child id="9195385294704421835" name="newText" index="2KarBZ" />
-        <child id="7955334847797796239" name="text" index="1Q8hHE" />
       </concept>
       <concept id="7754962537266810665" name="org.modellwerkstatt.manmap.structure.MappedFieldRef" flags="ng" index="1VRMpY">
         <reference id="7754962537266810667" name="refMapping" index="1VRMpW" />
@@ -50391,11 +50382,6 @@
     <node concept="2_xi3j" id="1lpzdTmrIN0" role="jymVt">
       <property role="TrG5h" value="mappingPart" />
       <node concept="1Q8zPT" id="1lpzdTmrIN2" role="2_xi3e">
-        <node concept="19SGf9" id="1lpzdTmrIN4" role="1Q8hHE">
-          <node concept="19SUe$" id="1lpzdTmrIN5" role="19SJt6">
-            <property role="19SUeA" value="SELECT &#10;KEY_ID as col1, TXT_TEXT as col2, DAT_CREATEDAT as col3 FROM MMT_AUDITENTITY " />
-          </node>
-        </node>
         <node concept="1PaTwC" id="7Ys$zjgj2Ii" role="2KarBZ">
           <node concept="3oM_SD" id="7Ys$zjgj2Ij" role="1PaTwD">
             <property role="3oM_SC" value="SELECT" />
@@ -50441,11 +50427,6 @@
     <node concept="2_xi3j" id="1lpzdTmrIYJ" role="jymVt">
       <property role="TrG5h" value="whereClause" />
       <node concept="1Q8zPT" id="1lpzdTmrIYL" role="2_xi3e">
-        <node concept="19SGf9" id="1lpzdTmrIYN" role="1Q8hHE">
-          <node concept="19SUe$" id="1lpzdTmyDA5" role="19SJt6">
-            <property role="19SUeA" value="WHERE KEY_ID &gt; 0" />
-          </node>
-        </node>
         <node concept="1PaTwC" id="7Ys$zjgj2Im" role="2KarBZ">
           <node concept="3oM_SD" id="7Ys$zjgj2In" role="1PaTwD">
             <property role="3oM_SC" value="WHERE" />
@@ -50465,11 +50446,6 @@
     <node concept="2_xi3j" id="1lpzdTmy_dU" role="jymVt">
       <property role="TrG5h" value="whereIdClause" />
       <node concept="1Q8zPT" id="1lpzdTmy_dW" role="2_xi3e">
-        <node concept="19SGf9" id="1lpzdTmy_dY" role="1Q8hHE">
-          <node concept="19SUe$" id="1lpzdTmy_dZ" role="19SJt6">
-            <property role="19SUeA" value="WHERE KEY_ID = ?" />
-          </node>
-        </node>
         <node concept="1PaTwC" id="7Ys$zjgj2Io" role="2KarBZ">
           <node concept="3oM_SD" id="7Ys$zjgj2Ip" role="1PaTwD">
             <property role="3oM_SC" value="WHERE" />
@@ -50964,11 +50940,6 @@
                 </node>
                 <node concept="3oM_SD" id="7Ys$zjgj2HV" role="1PaTwD">
                   <property role="3oM_SC" value="MMT_AUDITENTITY" />
-                </node>
-              </node>
-              <node concept="19SGf9" id="4r0DqI1982e" role="1Q8hHE">
-                <node concept="19SUe$" id="4r0DqI1982f" role="19SJt6">
-                  <property role="19SUeA" value="SELECT KEY_ID, TXT_TEXT, DAT_CREATEDAT FROM MMT_AUDITENTITY" />
                 </node>
               </node>
             </node>
@@ -51576,11 +51547,6 @@
             <property role="TrG5h" value="sql" />
             <node concept="17QB3L" id="1y3D6gOnVJN" role="1tU5fm" />
             <node concept="1Q8zPT" id="1y3D6gOo1T4" role="33vP2m">
-              <node concept="19SGf9" id="1y3D6gOo1T6" role="1Q8hHE">
-                <node concept="19SUe$" id="1y3D6gOo1T7" role="19SJt6">
-                  <property role="19SUeA" value="SELECT KEY_ID,&#10;       TXT_TEXT,&#10;       TXT_STATUS,&#10;       DAT_CREATEDAT,&#10;       NUM_CREATEDBY,&#10;       DAT_MODIFIEDAT,&#10;       NUM_MODIFIEDBY&#10;&#10;FROM MMT_AUDITENTITY where KEY_ID = ? " />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2Iq" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2Ir" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -51992,11 +51958,6 @@
       <node concept="3clFbS" id="4r0DqI1Q1nT" role="3clF47">
         <node concept="3cpWs6" id="4r0DqI1Q2mJ" role="3cqZAp">
           <node concept="1Q8zPT" id="4r0DqI1Q2o7" role="3cqZAk">
-            <node concept="19SGf9" id="4r0DqI1Q2o9" role="1Q8hHE">
-              <node concept="19SUe$" id="4r0DqI1Q2qO" role="19SJt6">
-                <property role="19SUeA" value="MMT_AUDITENTITY" />
-              </node>
-            </node>
             <node concept="1PaTwC" id="7Ys$zjgj2IG" role="2KarBZ">
               <node concept="3oM_SD" id="7Ys$zjgj2IH" role="1PaTwD">
                 <property role="3oM_SC" value="MMT_AUDITENTITY" />
@@ -52040,11 +52001,6 @@
                 </node>
               </node>
               <node concept="1Q8zPT" id="5ztwEZdH5T1" role="1ea49x">
-                <node concept="19SGf9" id="5ztwEZdH5T2" role="1Q8hHE">
-                  <node concept="19SUe$" id="5ztwEZdH5T3" role="19SJt6">
-                    <property role="19SUeA" value="SELECT count(*)&#10;from&#10;MMT_KONTOAUDIT WHERE NUM_INTVAL == ?" />
-                  </node>
-                </node>
                 <node concept="1PaTwC" id="7Ys$zjgj2II" role="2KarBZ">
                   <node concept="3oM_SD" id="7Ys$zjgj2IJ" role="1PaTwD">
                     <property role="3oM_SC" value="SELECT" />
@@ -52098,11 +52054,6 @@
               <ref role="3cqZAo" node="5ztwEZdH6O3" resolve="value" />
             </node>
             <node concept="1Q8zPT" id="5ztwEZdH7Vr" role="2KoP_5">
-              <node concept="19SGf9" id="5ztwEZdH7Vs" role="1Q8hHE">
-                <node concept="19SUe$" id="5ztwEZdH7Vt" role="19SJt6">
-                  <property role="19SUeA" value="UPDATE MMT_KONTOAUDIT WHERE NUM_INTVAL == ?" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2IO" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2IP" role="1PaTwD">
                   <property role="3oM_SC" value="UPDATE" />
@@ -52141,11 +52092,6 @@
         <node concept="3clFbF" id="7dEVQYbDsPy" role="3cqZAp">
           <node concept="2KoPwa" id="7dEVQYbDsPx" role="3clFbG">
             <node concept="1Q8zPT" id="7dEVQYbDsVF" role="2KoP_5">
-              <node concept="19SGf9" id="7dEVQYbDsVG" role="1Q8hHE">
-                <node concept="19SUe$" id="7dEVQYbDsVH" role="19SJt6">
-                  <property role="19SUeA" value="UPDATE MMT_KONTOAUDIT SET NUM_TOTALVAL= 0 WHERE (1 = 0)" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2IQ" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2IR" role="1PaTwD">
                   <property role="3oM_SC" value="UPDATE" />
@@ -52582,11 +52528,6 @@
               <ref role="1pXOCo" node="26OSHcuO$Qw" resolve="nkMapperJoined" />
             </node>
             <node concept="1Q8zPT" id="26OSHcw1DZc" role="1ea49x">
-              <node concept="19SGf9" id="26OSHcw1DZd" role="1Q8hHE">
-                <node concept="19SUe$" id="26OSHcw1DZe" role="19SJt6">
-                  <property role="19SUeA" value="SELECT r.NAME as rNAME, r.COUNT as rCOUNT, r.BIG_DECI as rBIG_DECI, r.LOCAL_DATE as rLOCAL_DATE, &#10;       r.DATE_TIME as rDATE_TIME, r.STA_STATUS as rSTA_STATUS, r.REF_ARTICLE as rREF_ARTICLE, &#10;       a.ID as aID, a.NAME as aNAME, a.STATUS as aSTATUS &#10;&#10;FROM MMT_NKVIEWOBJECT r JOIN MMT_NKARTICLE a on r.REF_ARTICLE = a.ID&#10; &#10;WHERE r.REF_ARTICLE = ?&#10;" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2IS" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2IT" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -52812,11 +52753,6 @@
               <ref role="1pXOCo" node="FplMliTv5U" resolve="nkMapper" />
             </node>
             <node concept="1Q8zPT" id="FplMlj9s1o" role="1ea49x">
-              <node concept="19SGf9" id="FplMlj9s1p" role="1Q8hHE">
-                <node concept="19SUe$" id="FplMlj9s1q" role="19SJt6">
-                  <property role="19SUeA" value="SELECT NAME, COUNT, BIG_DECI, LOCAL_DATE, &#10;&#10;DATE_TIME, STA_STATUS FROM MMT_NKVIEWOBJECT" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2J6" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2J7" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -52878,11 +52814,6 @@
               <ref role="1pXOCo" node="FplMliTv5U" resolve="nkMapper" />
             </node>
             <node concept="1Q8zPT" id="26OSHcuV_Su" role="1ea49x">
-              <node concept="19SGf9" id="26OSHcuV_Sv" role="1Q8hHE">
-                <node concept="19SUe$" id="26OSHcuV_Sw" role="19SJt6">
-                  <property role="19SUeA" value="SELECT NAME, COUNT, BIG_DECI, LOCAL_DATE, DATE_TIME, STA_STATUS FROM MMT_NKVIEWOBJECT&#10;WHERE NAME = ?" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2Jc" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2Jd" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -53005,11 +52936,6 @@
               <ref role="1pXOCo" node="26OSHcuOdnl" resolve="nkMapperComplex" />
             </node>
             <node concept="1Q8zPT" id="26OSHcuW8Qi" role="1ea49x">
-              <node concept="19SGf9" id="26OSHcuW8Qj" role="1Q8hHE">
-                <node concept="19SUe$" id="26OSHcuW8Qk" role="19SJt6">
-                  <property role="19SUeA" value="SELECT NAME, COUNT, NAME, COUNT, BIG_DECI, LOCAL_DATE, DATE_TIME, STA_STATUS, REF_ARTICLE FROM MMT_NKVIEWOBJECT" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2Jg" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2Jh" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -53070,11 +52996,6 @@
               <ref role="1pXOCo" node="YzHupsv4pO" resolve="fullyIncludedNkMapperComplex" />
             </node>
             <node concept="1Q8zPT" id="YzHupsv4wG" role="1ea49x">
-              <node concept="19SGf9" id="YzHupsv4wH" role="1Q8hHE">
-                <node concept="19SUe$" id="YzHupsv4wI" role="19SJt6">
-                  <property role="19SUeA" value="SELECT NAME, COUNT, NAME, COUNT, BIG_DECI, LOCAL_DATE, DATE_TIME, STA_STATUS, REF_ARTICLE FROM MMT_NKVIEWOBJECT" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="YzHupsv4wJ" role="2KarBZ">
                 <node concept="3oM_SD" id="YzHupsv4wK" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -53135,11 +53056,6 @@
               <ref role="1pXOCo" node="26OSHcuO$Qw" resolve="nkMapperJoined" />
             </node>
             <node concept="1Q8zPT" id="26OSHcuW9GO" role="1ea49x">
-              <node concept="19SGf9" id="26OSHcuW9GP" role="1Q8hHE">
-                <node concept="19SUe$" id="26OSHcuW9GQ" role="19SJt6">
-                  <property role="19SUeA" value="SELECT r.NAME, r.COUNT, r.BIG_DECI, r.LOCAL_DATE, r.DATE_TIME, r.STA_STATUS, &#10;       r.REF_ARTICLE, a.ID, a.NAME, a.STATUS &#10;&#10;FROM MMT_NKVIEWOBJECT r JOIN MMT_NKARTICLE a on r.REF_ARTICLE = a.ID&#10; &#10;&#10;" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2Ji" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2Jj" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -53256,11 +53172,6 @@
               <ref role="1pXOCo" node="1ZjRqWqLrvr" resolve="nkMajoschkaMapper" />
             </node>
             <node concept="1Q8zPT" id="26OSHcx_pb9" role="1ea49x">
-              <node concept="19SGf9" id="26OSHcx_pba" role="1Q8hHE">
-                <node concept="19SUe$" id="26OSHcx_pbb" role="19SJt6">
-                  <property role="19SUeA" value="SELECT NAME, COUNT, BIG_DECI, LOCAL_DATE, DATE_TIME, STA_STATUS, NAME, COUNT, NAME, COUNT FROM MMT_NKVIEWOBJECT" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2Jq" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2Jr" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
@@ -53320,11 +53231,6 @@
         <node concept="3clFbF" id="1ZjRqWqWJHy" role="3cqZAp">
           <node concept="1eaaFm" id="1ZjRqWqWJHt" role="3clFbG">
             <node concept="1Q8zPT" id="1ZjRqWqWJSE" role="1ea49x">
-              <node concept="19SGf9" id="1ZjRqWqWJSF" role="1Q8hHE">
-                <node concept="19SUe$" id="1ZjRqWqWJSG" role="19SJt6">
-                  <property role="19SUeA" value="SELECT &#10;       r.NAME as &quot;MY_NAME&quot;, &#10;       r.COUNT AS &quot;MY_COUNT&quot;, &#10;       r.BIG_DECI as &quot;MY_BIG_DECI&quot;, &#10;       r.LOCAL_DATE as &quot;MY_LOCAL_DATE&quot;, &#10;       r.DATE_TIME as &quot;MY_DATE_TIME&quot;, &#10;       r.STA_STATUS  as &quot;MY_STA_STATUS&quot; &#10;&#10;FROM MMT_NKVIEWOBJECT r" />
-                </node>
-              </node>
               <node concept="1PaTwC" id="7Ys$zjgj2Js" role="2KarBZ">
                 <node concept="3oM_SD" id="7Ys$zjgj2Jt" role="1PaTwD">
                   <property role="3oM_SC" value="SELECT" />
