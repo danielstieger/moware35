@@ -5427,7 +5427,7 @@
                 <node concept="3clFbS" id="1l1sktcf9Y4" role="3clFbx">
                   <node concept="2MkqsV" id="1l1sktcbVRI" role="3cqZAp">
                     <node concept="Xl_RD" id="1l1sktcbVRX" role="2MkJ7o">
-                      <property role="Xl_RC" value="Call as maker operation in FINAL_CANCEL_CONCLUSION can solely call repository methods." />
+                      <property role="Xl_RC" value="Call as marker operation in FINAL_CANCEL_CONCLUSION can solely call repository methods." />
                     </node>
                     <node concept="1YBJjd" id="1l1sktcbVVc" role="1urrMF">
                       <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
@@ -14582,7 +14582,7 @@
               <ref role="3cqZAo" node="1OYKdEatRTI" resolve="pu" />
             </node>
             <node concept="2qgKlT" id="1OYKdEcYq6m" role="2OqNvi">
-              <ref role="37wK5l" to="70o0:1OYKdEcYoeo" resolve="getClassifierType" />
+              <ref role="37wK5l" to="70o0:1OYKdEcYoeo" resolve="getHandlerType" />
             </node>
           </node>
         </node>
@@ -15632,6 +15632,150 @@
     <node concept="1YaCAy" id="5RCLcUrqNok" role="1YuTPh">
       <property role="TrG5h" value="mergeInto" />
       <ref role="1YaFvo" to="un0u:5RCLcUroajt" resolve="MergeInto" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="OpUSe1rn4M">
+    <property role="TrG5h" value="check_PageCmdTermHandler" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <node concept="3clFbS" id="OpUSe1rn4N" role="18ibNy">
+      <node concept="3clFbJ" id="OpUSe1rn4T" role="3cqZAp">
+        <node concept="2OqwBi" id="OpUSe1rn$6" role="3clFbw">
+          <node concept="2OqwBi" id="OpUSe1rndY" role="2Oq$k0">
+            <node concept="1YBJjd" id="OpUSe1rn55" role="2Oq$k0">
+              <ref role="1YBMHb" node="OpUSe1rn4P" resolve="pageCmdTermHandler" />
+            </node>
+            <node concept="3TrEf2" id="OpUSe1rnkX" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:OpUSe1rlHM" resolve="handlerType" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="OpUSe1rnO8" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="OpUSe1rn4V" role="3clFbx">
+          <node concept="3cpWs8" id="OpUSe1rnTw" role="3cqZAp">
+            <node concept="3cpWsn" id="OpUSe1rnTz" role="3cpWs9">
+              <property role="TrG5h" value="elementType" />
+              <node concept="3Tqbb2" id="OpUSe1rnTu" role="1tU5fm">
+                <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+              </node>
+              <node concept="2OqwBi" id="OpUSe1ro2S" role="33vP2m">
+                <node concept="1YBJjd" id="OpUSe1rnTV" role="2Oq$k0">
+                  <ref role="1YBMHb" node="OpUSe1rn4P" resolve="pageCmdTermHandler" />
+                </node>
+                <node concept="3TrEf2" id="OpUSe1rogK" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:OpUSe1rlHM" resolve="handlerType" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="OpUSe1rohh" role="3cqZAp">
+            <node concept="3clFbS" id="OpUSe1rohj" role="3clFbx">
+              <node concept="3clFbF" id="OpUSe1roPZ" role="3cqZAp">
+                <node concept="37vLTI" id="OpUSe1roYb" role="3clFbG">
+                  <node concept="2OqwBi" id="OpUSe1rpat" role="37vLTx">
+                    <node concept="1PxgMI" id="OpUSe1rp0J" role="2Oq$k0">
+                      <node concept="chp4Y" id="OpUSe1rp1s" role="3oSUPX">
+                        <ref role="cht4Q" to="tp2q:gK_YKtE" resolve="ListType" />
+                      </node>
+                      <node concept="37vLTw" id="OpUSe1roYw" role="1m5AlR">
+                        <ref role="3cqZAo" node="OpUSe1rnTz" resolve="elementType" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="OpUSe1rpk4" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tp2q:gK_ZDn5" resolve="elementType" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="OpUSe1roPX" role="37vLTJ">
+                    <ref role="3cqZAo" node="OpUSe1rnTz" resolve="elementType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="OpUSe1ros3" role="3clFbw">
+              <node concept="37vLTw" id="OpUSe1rohA" role="2Oq$k0">
+                <ref role="3cqZAo" node="OpUSe1rnTz" resolve="elementType" />
+              </node>
+              <node concept="1mIQ4w" id="OpUSe1roKd" role="2OqNvi">
+                <node concept="chp4Y" id="OpUSe1roMJ" role="cj9EA">
+                  <ref role="cht4Q" to="tp2q:gK_YKtE" resolve="ListType" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="OpUSe1rpnZ" role="3cqZAp">
+            <node concept="3clFbS" id="OpUSe1rpo1" role="3clFbx">
+              <node concept="2MkqsV" id="OpUSe1rp$9" role="3cqZAp">
+                <node concept="Xl_RD" id="OpUSe1rp$o" role="2MkJ7o">
+                  <property role="Xl_RC" value="Only an Entity / DTO is acceptable here." />
+                </node>
+                <node concept="2OqwBi" id="OpUSe1rpHr" role="1urrMF">
+                  <node concept="1YBJjd" id="OpUSe1rp_R" role="2Oq$k0">
+                    <ref role="1YBMHb" node="OpUSe1rn4P" resolve="pageCmdTermHandler" />
+                  </node>
+                  <node concept="3TrEf2" id="OpUSe1rq7p" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:OpUSe1rlHM" resolve="handlerType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="OpUSe1rpzz" role="3clFbw">
+              <node concept="2OqwBi" id="OpUSe1rpz_" role="3fr31v">
+                <node concept="37vLTw" id="OpUSe1rpzA" role="2Oq$k0">
+                  <ref role="3cqZAo" node="OpUSe1rnTz" resolve="elementType" />
+                </node>
+                <node concept="1mIQ4w" id="OpUSe1rpzB" role="2OqNvi">
+                  <node concept="chp4Y" id="OpUSe1rpzC" role="cj9EA">
+                    <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3eNFk2" id="OpUSe1rq7F" role="3eNLev">
+              <node concept="3fqX7Q" id="OpUSe1rs8v" role="3eO9$A">
+                <node concept="2OqwBi" id="OpUSe1rs8x" role="3fr31v">
+                  <node concept="2OqwBi" id="OpUSe1rs8y" role="2Oq$k0">
+                    <node concept="1PxgMI" id="OpUSe1rs8z" role="2Oq$k0">
+                      <node concept="chp4Y" id="OpUSe1rs8$" role="3oSUPX">
+                        <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                      </node>
+                      <node concept="37vLTw" id="OpUSe1rs8_" role="1m5AlR">
+                        <ref role="3cqZAo" node="OpUSe1rnTz" resolve="elementType" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="OpUSe1rs8A" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                    </node>
+                  </node>
+                  <node concept="1mIQ4w" id="OpUSe1rs8B" role="2OqNvi">
+                    <node concept="chp4Y" id="OpUSe1rs8C" role="cj9EA">
+                      <ref role="cht4Q" to="un0u:3JsUq_S9PU7" resolve="IOFXObject" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="OpUSe1rq7H" role="3eOfB_">
+                <node concept="2MkqsV" id="OpUSe1rscC" role="3cqZAp">
+                  <node concept="Xl_RD" id="OpUSe1rscD" role="2MkJ7o">
+                    <property role="Xl_RC" value="Only an Entity / DTO is acceptable here." />
+                  </node>
+                  <node concept="2OqwBi" id="OpUSe1rscE" role="1urrMF">
+                    <node concept="1YBJjd" id="OpUSe1rscF" role="2Oq$k0">
+                      <ref role="1YBMHb" node="OpUSe1rn4P" resolve="pageCmdTermHandler" />
+                    </node>
+                    <node concept="3TrEf2" id="OpUSe1rscG" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:OpUSe1rlHM" resolve="handlerType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="OpUSe1rpnB" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="OpUSe1rn4P" role="1YuTPh">
+      <property role="TrG5h" value="pageCmdTermHandler" />
+      <ref role="1YaFvo" to="un0u:1OYKdEatMle" resolve="PageCmdTermHandler" />
     </node>
   </node>
 </model>

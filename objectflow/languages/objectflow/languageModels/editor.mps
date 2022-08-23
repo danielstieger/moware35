@@ -544,6 +544,12 @@
       <concept id="5480835971642155304" name="jetbrains.mps.lang.actions.structure.NF_Model_CreateNewNodeOperation" flags="nn" index="15TzpJ" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1204851882688" name="jetbrains.mps.lang.smodel.structure.LinkRefQualifier" flags="ng" index="26LbJo">
         <reference id="1204851882689" name="link" index="26LbJp" />
       </concept>
@@ -2273,6 +2279,53 @@
             <node concept="VPxyj" id="3LpLOPqzMr6" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
+          </node>
+        </node>
+        <node concept="1HlG4h" id="OpUSe0KMmF" role="3EZMnx">
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+          <node concept="1HfYo3" id="OpUSe0KMmH" role="1HlULh">
+            <node concept="3TQlhw" id="OpUSe0KMmJ" role="1Hhtcw">
+              <node concept="3clFbS" id="OpUSe0KMmL" role="2VODD2">
+                <node concept="3clFbJ" id="OpUSe0KMnJ" role="3cqZAp">
+                  <node concept="1Wc70l" id="OpUSe0KNcY" role="3clFbw">
+                    <node concept="2OqwBi" id="OpUSe0KO9A" role="3uHU7B">
+                      <node concept="2OqwBi" id="OpUSe0KNxe" role="2Oq$k0">
+                        <node concept="pncrf" id="OpUSe0KNe4" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="OpUSe0KNZR" role="2OqNvi">
+                          <ref role="3TsBF5" to="un0u:5HvIBdINHAd" resolve="newCommandType" />
+                        </node>
+                      </node>
+                      <node concept="21noJN" id="OpUSe0KOiM" role="2OqNvi">
+                        <node concept="21nZrQ" id="OpUSe0KOiO" role="21noJM">
+                          <ref role="21nZrZ" to="un0u:5HvIBdINHdK" resolve="SEARCH_CMD" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="OpUSe0KMEx" role="3uHU7w">
+                      <node concept="pncrf" id="OpUSe0KMnQ" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="OpUSe0KN39" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:OpUSe0Kl$z" resolve="usingCmdTermHandlers" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="OpUSe0KMnL" role="3clFbx">
+                    <node concept="3cpWs6" id="OpUSe0KN9i" role="3cqZAp">
+                      <node concept="Xl_RD" id="OpUSe0KNa0" role="3cqZAk">
+                        <property role="Xl_RC" value="// no local auto exchange of pushed objects, cmd term handler present." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="OpUSe0KOIK" role="3cqZAp">
+                  <node concept="Xl_RD" id="OpUSe0KOJ7" role="3cqZAk">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="pVoyu" id="OpUSe0KMn$" role="3F10Kt">
+            <property role="VOm3f" value="true" />
           </node>
         </node>
       </node>
@@ -12527,19 +12580,9 @@
         <property role="3F0ifm" value="with" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
-      <node concept="1iCGBv" id="1OYKdEatMmd" role="3EZMnx">
+      <node concept="3F1sOY" id="OpUSe1rlI4" role="3EZMnx">
         <property role="1$x2rV" value="&lt;any&gt;" />
-        <ref role="1NtTu8" to="un0u:1OYKdEatMlh" resolve="classifier" />
-        <node concept="1sVBvm" id="1OYKdEatMmf" role="1sWHZn">
-          <node concept="3F0A7n" id="1OYKdEatMmE" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="1OYKdEdq$AI" role="3EZMnx">
-        <property role="3F0ifm" value="// restriction? foreign = null?" />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <ref role="1NtTu8" to="un0u:OpUSe1rlHM" resolve="handlerType" />
       </node>
       <node concept="3EZMnI" id="1OYKdEatMlH" role="3EZMnx">
         <node concept="VPM3Z" id="1OYKdEatMlI" role="3F10Kt">
