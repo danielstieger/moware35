@@ -4774,5 +4774,31 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="4LngyNJDGBb">
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <ref role="1M2myG" to="un0u:1OYKdEatMle" resolve="PageCmdTermHandler" />
+    <node concept="1N5Pfh" id="4LngyNJDGBc" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:4LngyNJDGAI" resolve="classifier" />
+      <node concept="3dgokm" id="4LngyNJDGF8" role="1N6uqs">
+        <node concept="3clFbS" id="4LngyNJDGFa" role="2VODD2">
+          <node concept="3clFbF" id="4LngyNJDIeN" role="3cqZAp">
+            <node concept="2YIFZM" id="4LngyNJDIeO" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="4LngyNJDKBN" role="37wK5m">
+                <node concept="2OqwBi" id="4LngyNJDKfh" role="2Oq$k0">
+                  <node concept="2rP1CM" id="4LngyNJDK6F" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="4LngyNJDKs0" role="2OqNvi" />
+                </node>
+                <node concept="1j9C0f" id="4LngyNJDKLT" role="2OqNvi">
+                  <ref role="1j9C0d" to="un0u:3JsUq_S9PU7" resolve="IOFXObject" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

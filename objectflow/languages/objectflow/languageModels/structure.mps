@@ -693,7 +693,7 @@
     <node concept="1TJgyj" id="1OYKdEatXna" role="1TKVEi">
       <property role="IQ2ns" value="2107333720514483658" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="childTermHandler" />
+      <property role="20kJfa" value="cmdTermHandler" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1OYKdEatMle" resolve="PageCmdTermHandler" />
     </node>
@@ -5043,6 +5043,11 @@
     <property role="34LRSv" value="cmdTermHandler" />
     <property role="R4oN_" value="update session / graph" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4LngyNJDGAI" role="1TKVEi">
+      <property role="IQ2ns" value="5500938230623029678" />
+      <property role="20kJfa" value="classifier" />
+      <ref role="20lvS9" to="tpee:g7pOWCK" resolve="Classifier" />
+    </node>
     <node concept="1TJgyi" id="1OYKdEbfLok" role="1TKVEl">
       <property role="IQ2nx" value="2107333720527541780" />
       <property role="TrG5h" value="cmdTermType" />
@@ -5054,12 +5059,6 @@
       <property role="20kJfa" value="func" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1OYKdEatMlf" resolve="CmdTermConceptFunction" />
-    </node>
-    <node concept="1TJgyj" id="OpUSe1rlHM" role="1TKVEi">
-      <property role="IQ2ns" value="944044546955500402" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="handlerType" />
-      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
     </node>
   </node>
   <node concept="1TIwiD" id="1OYKdEatMlf">
@@ -5101,7 +5100,7 @@
     <property role="EcuMT" value="2107333720523989160" />
     <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="PageUpdaterConceptFuntionParamTermOk" />
-    <property role="34LRSv" value="inFinalOk" />
+    <property role="34LRSv" value="terminatedInFinalOk" />
     <property role="R4oN_" value="cmd terminated in ok" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
@@ -5254,6 +5253,17 @@
       <property role="3tVfz5" value="6258386918155752641" />
       <property role="TrG5h" value="all_keys" />
       <property role="1L1pqM" value="(keys of all)" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4LngyNMFm_V">
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <property role="TrG5h" value="CommandNoPushNewTermOption" />
+    <property role="34LRSv" value="NEWSTYLE_CMD_TERM_HANDLING" />
+    <property role="R4oN_" value="do not push selections from term cmds" />
+    <property role="EcuMT" value="5500938230673795451" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4LngyNMFm_W" role="PzmwI">
+      <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
     </node>
   </node>
 </model>
