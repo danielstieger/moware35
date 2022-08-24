@@ -21654,7 +21654,7 @@
         <node concept="1gVbGN" id="38$Wln8ZjpI" role="3cqZAp">
           <node concept="3eOSWO" id="38$Wln8ZlQL" role="1gVkn0">
             <node concept="3cmrfG" id="38$Wln8ZlQO" role="3uHU7w">
-              <property role="3cmrfH" value="50" />
+              <property role="3cmrfH" value="30" />
             </node>
             <node concept="2YIFZM" id="38$Wln95_jU" role="3uHU7B">
               <ref role="37wK5l" to="wyt6:~Math.abs(long)" resolve="abs" />

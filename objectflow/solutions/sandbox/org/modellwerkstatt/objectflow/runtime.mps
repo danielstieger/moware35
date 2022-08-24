@@ -3533,7 +3533,7 @@
       <property role="TrG5h" value="OFXTermHandlerType" />
       <node concept="3Tm1VV" id="4LngyNKGxVY" role="1B3o_S" />
       <node concept="QsSxf" id="4LngyNKGxVZ" role="Qtgdg">
-        <property role="TrG5h" value="NONE" />
+        <property role="TrG5h" value="NO_HANDLER_PRESENT" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="4LngyNKGxW0" role="Qtgdg">
@@ -3541,7 +3541,7 @@
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="4LngyNKGyth" role="Qtgdg">
-        <property role="TrG5h" value="ANY_CMD_TERM" />
+        <property role="TrG5h" value="ALSO_ANY_CMD_TERM" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
     </node>

@@ -7256,32 +7256,7 @@
             </node>
             <node concept="Rm8GO" id="4LngyNKHzfg" role="33vP2m">
               <ref role="1Px2BO" to="28jr:4LngyNKGxVX" resolve="IOFXCommand.OFXTermHandlerType" />
-              <ref role="Rm8GQ" to="28jr:4LngyNKGxVZ" resolve="NONE" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4LngyNKIOE_" role="3cqZAp">
-          <node concept="37vLTI" id="4LngyNKIW9$" role="3clFbG">
-            <node concept="Rm8GO" id="4LngyNKJ3lH" role="37vLTx">
-              <ref role="Rm8GQ" to="28jr:4LngyNKGyth" resolve="ANY_CMD_TERM" />
-              <ref role="1Px2BO" to="28jr:4LngyNKGxVX" resolve="IOFXCommand.OFXTermHandlerType" />
-            </node>
-            <node concept="37vLTw" id="4LngyNKIOEz" role="37vLTJ">
-              <ref role="3cqZAo" node="4LngyNKI2qQ" resolve="type" />
-            </node>
-          </node>
-          <node concept="1W57fq" id="4LngyNLdLMb" role="lGtFl">
-            <node concept="3IZrLx" id="4LngyNLdLMc" role="3IZSJc">
-              <node concept="3clFbS" id="4LngyNLdLMd" role="2VODD2">
-                <node concept="3clFbF" id="4LngyNLdMyw" role="3cqZAp">
-                  <node concept="2OqwBi" id="4LngyNLdMOC" role="3clFbG">
-                    <node concept="30H73N" id="4LngyNLdMyv" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="4LngyNLdNbI" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:4LngyNKJK9n" resolve="usingAnyCmdTermHandlers" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+              <ref role="Rm8GQ" to="28jr:4LngyNKGxVZ" resolve="NO_HANDLER_PRESENT" />
             </node>
           </node>
         </node>
@@ -7313,6 +7288,31 @@
                       <node concept="2qgKlT" id="4LngyNLdN_f" role="2OqNvi">
                         <ref role="37wK5l" to="70o0:4LngyNKJMHT" resolve="usingChildCmdTermHandlers" />
                       </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4LngyNKIOE_" role="3cqZAp">
+          <node concept="37vLTI" id="4LngyNKIW9$" role="3clFbG">
+            <node concept="Rm8GO" id="4LngyNKJ3lH" role="37vLTx">
+              <ref role="1Px2BO" to="28jr:4LngyNKGxVX" resolve="IOFXCommand.OFXTermHandlerType" />
+              <ref role="Rm8GQ" to="28jr:4LngyNKGyth" resolve="ALSO_ANY_CMD_TERM" />
+            </node>
+            <node concept="37vLTw" id="4LngyNKIOEz" role="37vLTJ">
+              <ref role="3cqZAo" node="4LngyNKI2qQ" resolve="type" />
+            </node>
+          </node>
+          <node concept="1W57fq" id="4LngyNLdLMb" role="lGtFl">
+            <node concept="3IZrLx" id="4LngyNLdLMc" role="3IZSJc">
+              <node concept="3clFbS" id="4LngyNLdLMd" role="2VODD2">
+                <node concept="3clFbF" id="4LngyNLdMyw" role="3cqZAp">
+                  <node concept="2OqwBi" id="4LngyNLdMOC" role="3clFbG">
+                    <node concept="30H73N" id="4LngyNLdMyv" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="4LngyNLdNbI" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:4LngyNKJK9n" resolve="usingAnyCmdTermHandlers" />
                     </node>
                   </node>
                 </node>
