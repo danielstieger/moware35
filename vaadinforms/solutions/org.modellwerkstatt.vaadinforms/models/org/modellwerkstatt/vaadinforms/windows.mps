@@ -6649,20 +6649,28 @@
                                 <node concept="1rXfSq" id="vsIEjNWCUj" role="37wK5m">
                                   <ref role="37wK5l" node="vsIEjNv0dS" resolve="getBrowserWidth" />
                                 </node>
-                                <node concept="3cpWs3" id="vsIEjNWFo7" role="37wK5m">
-                                  <node concept="3cpWs3" id="6go2Mrsu7KP" role="3uHU7B">
-                                    <node concept="Xl_RD" id="6go2Mrsu7US" role="3uHU7w">
-                                      <property role="Xl_RC" value=")\n\n" />
-                                    </node>
-                                    <node concept="3cpWs3" id="6go2Mrsu5b4" role="3uHU7B">
-                                      <node concept="3cpWs3" id="7708TIHL47P" role="3uHU7B">
-                                        <node concept="3cpWs3" id="7708TIHL5FR" role="3uHU7B">
-                                          <node concept="10M0yZ" id="7708TIHL5RO" role="3uHU7w">
-                                            <ref role="1PxDUh" node="6MOvunDm3sG" resolve="VApplicationLoader" />
-                                            <ref role="3cqZAo" node="7708TIHL749" resolve="frameworkVersion" />
-                                          </node>
-                                          <node concept="3cpWs3" id="7708TIHL5jG" role="3uHU7B">
-                                            <node concept="2OqwBi" id="7708TIHL4vX" role="3uHU7B">
+                                <node concept="3cpWs3" id="6go2Mrsu7KP" role="37wK5m">
+                                  <node concept="Xl_RD" id="6go2Mrsu7US" role="3uHU7w">
+                                    <property role="Xl_RC" value=")" />
+                                  </node>
+                                  <node concept="3cpWs3" id="6go2Mrsu5b4" role="3uHU7B">
+                                    <node concept="3cpWs3" id="7708TIHL47P" role="3uHU7B">
+                                      <node concept="3cpWs3" id="7708TIHL5FR" role="3uHU7B">
+                                        <node concept="10M0yZ" id="7708TIHL5RO" role="3uHU7w">
+                                          <ref role="1PxDUh" node="6MOvunDm3sG" resolve="VApplicationLoader" />
+                                          <ref role="3cqZAo" node="7708TIHL749" resolve="frameworkVersion" />
+                                        </node>
+                                        <node concept="3cpWs3" id="7708TIHL5jG" role="3uHU7B">
+                                          <node concept="3cpWs3" id="1jy7rUtDF1W" role="3uHU7B">
+                                            <node concept="3cpWs3" id="1jy7rUtDGHh" role="3uHU7B">
+                                              <node concept="Xl_RD" id="1jy7rUtDHJu" role="3uHU7w">
+                                                <property role="Xl_RC" value="\n\n\n" />
+                                              </node>
+                                              <node concept="37vLTw" id="1jy7rUtDFPg" role="3uHU7B">
+                                                <ref role="3cqZAo" node="vsIEjNWyKX" resolve="applicationInformation" />
+                                              </node>
+                                            </node>
+                                            <node concept="2OqwBi" id="7708TIHL4vX" role="3uHU7w">
                                               <node concept="37vLTw" id="7708TIHL4nv" role="2Oq$k0">
                                                 <ref role="3cqZAo" node="6go2MrsuUX7" resolve="factory" />
                                               </node>
@@ -6677,23 +6685,20 @@
                                                 </node>
                                               </node>
                                             </node>
-                                            <node concept="Xl_RD" id="7708TIHL5qf" role="3uHU7w">
-                                              <property role="Xl_RC" value="\n" />
-                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="7708TIHL5qf" role="3uHU7w">
+                                            <property role="Xl_RC" value="\n" />
                                           </node>
                                         </node>
-                                        <node concept="Xl_RD" id="vsIEjNWFvC" role="3uHU7w">
-                                          <property role="Xl_RC" value="\n(Vaadin framework version " />
-                                        </node>
                                       </node>
-                                      <node concept="2YIFZM" id="6go2Mrsu7Ge" role="3uHU7w">
-                                        <ref role="37wK5l" to="605v:~Version.getFullVersion()" resolve="getFullVersion" />
-                                        <ref role="1Pybhc" to="605v:~Version" resolve="Version" />
+                                      <node concept="Xl_RD" id="vsIEjNWFvC" role="3uHU7w">
+                                        <property role="Xl_RC" value="\n(Vaadin framework version " />
                                       </node>
                                     </node>
-                                  </node>
-                                  <node concept="37vLTw" id="vsIEjNWFbU" role="3uHU7w">
-                                    <ref role="3cqZAo" node="vsIEjNWyKX" resolve="applicationInformation" />
+                                    <node concept="2YIFZM" id="6go2Mrsu7Ge" role="3uHU7w">
+                                      <ref role="37wK5l" to="605v:~Version.getFullVersion()" resolve="getFullVersion" />
+                                      <ref role="1Pybhc" to="605v:~Version" resolve="Version" />
+                                    </node>
                                   </node>
                                 </node>
                                 <node concept="10Nm6u" id="vsIEjNWEqm" role="37wK5m" />

@@ -2766,6 +2766,7 @@
         <ref role="1NtTu8" to="1btx:3wfz3qPfteK" resolve="graphOwnerAutoCon" />
       </node>
       <node concept="1iCGBv" id="7yNVvqNVmbW" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;no GE action&gt;" />
         <ref role="1NtTu8" to="1btx:7yNVvqNVkqb" resolve="graphEditCall" />
         <node concept="1sVBvm" id="7yNVvqNVmbY" role="1sWHZn">
           <node concept="PMmxH" id="7yNVvqNVmhq" role="2wV5jI">

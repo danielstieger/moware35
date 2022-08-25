@@ -14597,7 +14597,7 @@
     </node>
     <node concept="1YaCAy" id="1OYKdEatRTA" role="1YuTPh">
       <property role="TrG5h" value="param" />
-      <ref role="1YaFvo" to="un0u:1OYKdEatMlg" resolve="PageUpdaterConceptFuntionParamPushed" />
+      <ref role="1YaFvo" to="un0u:1OYKdEatMlg" resolve="PageCmdTermConceptFuntionParamPushed" />
     </node>
   </node>
   <node concept="1YbPZF" id="1OYKdEb2e2J">
@@ -14621,7 +14621,7 @@
     </node>
     <node concept="1YaCAy" id="1OYKdEb2e2M" role="1YuTPh">
       <property role="TrG5h" value="tok" />
-      <ref role="1YaFvo" to="un0u:1OYKdEb2e2C" resolve="PageUpdaterConceptFuntionParamTermOk" />
+      <ref role="1YaFvo" to="un0u:1OYKdEb2e2C" resolve="PageCmdTermConceptFuntionParamTermOk" />
     </node>
   </node>
   <node concept="18kY7G" id="4dTPSB4iq0N">

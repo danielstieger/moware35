@@ -7600,74 +7600,74 @@
                               <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                               <ref role="Rm8GQ" to="250q:4Ucpg8z6mvn" resolve="INFO_SMALL" />
                             </node>
-                            <node concept="3cpWs3" id="3sx4Hz35$ME" role="37wK5m">
-                              <node concept="37vLTw" id="3sx4Hz35BxJ" role="3uHU7w">
-                                <ref role="3cqZAo" node="3sx4Hz35byI" resolve="appVersionInfo" />
+                            <node concept="3cpWs3" id="5fkhsROx$eC" role="37wK5m">
+                              <node concept="3cpWs3" id="5fkhsROxvAE" role="3uHU7B">
+                                <node concept="3cpWs3" id="5fkhsROxvb5" role="3uHU7B">
+                                  <node concept="3cpWs3" id="3zf0S8jUMbE" role="3uHU7B">
+                                    <node concept="3cpWs3" id="3zf0S8jULRQ" role="3uHU7B">
+                                      <node concept="3cpWs3" id="3zf0S8jULl2" role="3uHU7B">
+                                        <node concept="3cpWs3" id="7708TIHGLJU" role="3uHU7B">
+                                          <node concept="3cpWs3" id="1jy7rUtALm_" role="3uHU7B">
+                                            <node concept="2OqwBi" id="7708TIHJ33B" role="3uHU7w">
+                                              <node concept="37vLTw" id="2QY_rtE0YLY" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                                              </node>
+                                              <node concept="liA8E" id="7708TIHJ3lL" role="2OqNvi">
+                                                <ref role="37wK5l" to="1e0c:69JiVbyW3G1" resolve="getSystemLabel" />
+                                                <node concept="3cmrfG" id="2QY_rtDjXBE" role="37wK5m">
+                                                  <property role="3cmrfH" value="-1" />
+                                                </node>
+                                                <node concept="Rm8GO" id="7708TIHJ3$u" role="37wK5m">
+                                                  <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                                                  <ref role="Rm8GQ" to="ache:7708TIHHbb2" resolve="MOWARE_VERSION" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="3cpWs3" id="1jy7rUtAAft" role="3uHU7B">
+                                              <node concept="Xl_RD" id="1jy7rUtAAm8" role="3uHU7w">
+                                                <property role="Xl_RC" value="\n\n\n" />
+                                              </node>
+                                              <node concept="37vLTw" id="1jy7rUtAzqk" role="3uHU7B">
+                                                <ref role="3cqZAo" node="3sx4Hz35byI" resolve="appVersionInfo" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7w">
+                                            <property role="Xl_RC" value="\nFX8 fat client     Java Ver. " />
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="38_UPIIQmLm" role="3uHU7w">
+                                          <ref role="3cqZAo" node="38_UPIIQlx9" resolve="versionInfoGetVersion" />
+                                        </node>
+                                      </node>
+                                      <node concept="Xl_RD" id="3zf0S8jUM0k" role="3uHU7w">
+                                        <property role="Xl_RC" value="     Java RT Ver. " />
+                                      </node>
+                                    </node>
+                                    <node concept="37vLTw" id="38_UPIIQnuZ" role="3uHU7w">
+                                      <ref role="3cqZAo" node="38_UPIIQm1c" resolve="versionInfoGetRuntimeVersion" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="5fkhsROxvpF" role="3uHU7w">
+                                    <property role="Xl_RC" value="\nPlatform '" />
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="5fkhsROxweD" role="3uHU7w">
+                                  <node concept="2OqwBi" id="5fkhsROxvUU" role="2Oq$k0">
+                                    <node concept="37vLTw" id="2QY_rtE0YMZ" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                                    </node>
+                                    <node concept="liA8E" id="5fkhsROxw9M" role="2OqNvi">
+                                      <ref role="37wK5l" to="1e0c:69JiVbyY2dp" resolve="getPlatform" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="5fkhsROx$8n" role="2OqNvi">
+                                    <ref role="37wK5l" to="28jr:5fkhsROxw$p" resolve="getPlatformFQName" />
+                                  </node>
+                                </node>
                               </node>
-                              <node concept="3cpWs3" id="5fkhsROx$eC" role="3uHU7B">
-                                <node concept="3cpWs3" id="5fkhsROxvAE" role="3uHU7B">
-                                  <node concept="3cpWs3" id="5fkhsROxvb5" role="3uHU7B">
-                                    <node concept="3cpWs3" id="3zf0S8jUMbE" role="3uHU7B">
-                                      <node concept="3cpWs3" id="3zf0S8jULRQ" role="3uHU7B">
-                                        <node concept="3cpWs3" id="3zf0S8jULl2" role="3uHU7B">
-                                          <node concept="3cpWs3" id="3zf0S8jUL2K" role="3uHU7B">
-                                            <node concept="Xl_RD" id="3zf0S8jUL3b" role="3uHU7w">
-                                              <property role="Xl_RC" value="\nJAVA Version:   " />
-                                            </node>
-                                            <node concept="3cpWs3" id="7708TIHGLJU" role="3uHU7B">
-                                              <node concept="2OqwBi" id="7708TIHJ33B" role="3uHU7B">
-                                                <node concept="37vLTw" id="2QY_rtE0YLY" role="2Oq$k0">
-                                                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                                                </node>
-                                                <node concept="liA8E" id="7708TIHJ3lL" role="2OqNvi">
-                                                  <ref role="37wK5l" to="1e0c:69JiVbyW3G1" resolve="getSystemLabel" />
-                                                  <node concept="3cmrfG" id="2QY_rtDjXBE" role="37wK5m">
-                                                    <property role="3cmrfH" value="-1" />
-                                                  </node>
-                                                  <node concept="Rm8GO" id="7708TIHJ3$u" role="37wK5m">
-                                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
-                                                    <ref role="Rm8GQ" to="ache:7708TIHHbb2" resolve="MOWARE_VERSION" />
-                                                  </node>
-                                                </node>
-                                              </node>
-                                              <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7w">
-                                                <property role="Xl_RC" value="\nFX8 fat client, 4th rev. summer 21 (moware11)" />
-                                              </node>
-                                            </node>
-                                          </node>
-                                          <node concept="37vLTw" id="38_UPIIQmLm" role="3uHU7w">
-                                            <ref role="3cqZAo" node="38_UPIIQlx9" resolve="versionInfoGetVersion" />
-                                          </node>
-                                        </node>
-                                        <node concept="Xl_RD" id="3zf0S8jUM0k" role="3uHU7w">
-                                          <property role="Xl_RC" value="\nJava Runtime Version:   " />
-                                        </node>
-                                      </node>
-                                      <node concept="37vLTw" id="38_UPIIQnuZ" role="3uHU7w">
-                                        <ref role="3cqZAo" node="38_UPIIQm1c" resolve="versionInfoGetRuntimeVersion" />
-                                      </node>
-                                    </node>
-                                    <node concept="Xl_RD" id="5fkhsROxvpF" role="3uHU7w">
-                                      <property role="Xl_RC" value="\nPlatform '" />
-                                    </node>
-                                  </node>
-                                  <node concept="2OqwBi" id="5fkhsROxweD" role="3uHU7w">
-                                    <node concept="2OqwBi" id="5fkhsROxvUU" role="2Oq$k0">
-                                      <node concept="37vLTw" id="2QY_rtE0YMZ" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                                      </node>
-                                      <node concept="liA8E" id="5fkhsROxw9M" role="2OqNvi">
-                                        <ref role="37wK5l" to="1e0c:69JiVbyY2dp" resolve="getPlatform" />
-                                      </node>
-                                    </node>
-                                    <node concept="liA8E" id="5fkhsROx$8n" role="2OqNvi">
-                                      <ref role="37wK5l" to="28jr:5fkhsROxw$p" resolve="getPlatformFQName" />
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="Xl_RD" id="5fkhsROx$ly" role="3uHU7w">
-                                  <property role="Xl_RC" value="', \n\n" />
-                                </node>
+                              <node concept="Xl_RD" id="5fkhsROx$ly" role="3uHU7w">
+                                <property role="Xl_RC" value="'" />
                               </node>
                             </node>
                             <node concept="10Nm6u" id="vsIEjNCWpj" role="37wK5m" />

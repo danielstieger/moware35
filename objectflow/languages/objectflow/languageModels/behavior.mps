@@ -20984,7 +20984,7 @@
   </node>
   <node concept="13h7C7" id="1OYKdEatMWJ">
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <ref role="13h7C2" to="un0u:1OYKdEatMlf" resolve="CmdTermConceptFunction" />
+    <ref role="13h7C2" to="un0u:1OYKdEatMlf" resolve="PageCmdTermConceptFunction" />
     <node concept="13hLZK" id="1OYKdEatMWK" role="13h7CW">
       <node concept="3clFbS" id="1OYKdEatMWL" role="2VODD2" />
     </node>
@@ -21020,7 +21020,7 @@
                 </node>
                 <node concept="TSZUe" id="2D1PBM_bzwI" role="2OqNvi">
                   <node concept="35c_gC" id="2xELmDxRnL1" role="25WWJ7">
-                    <ref role="35c_gD" to="un0u:1OYKdEatMlg" resolve="PageUpdaterConceptFuntionParamPushed" />
+                    <ref role="35c_gD" to="un0u:1OYKdEatMlg" resolve="PageCmdTermConceptFuntionParamPushed" />
                   </node>
                 </node>
               </node>
@@ -21049,7 +21049,7 @@
             </node>
             <node concept="TSZUe" id="1OYKdEb2ggA" role="2OqNvi">
               <node concept="35c_gC" id="1OYKdEb2glp" role="25WWJ7">
-                <ref role="35c_gD" to="un0u:1OYKdEb2e2C" resolve="PageUpdaterConceptFuntionParamTermOk" />
+                <ref role="35c_gD" to="un0u:1OYKdEb2e2C" resolve="PageCmdTermConceptFuntionParamTermOk" />
               </node>
             </node>
           </node>
