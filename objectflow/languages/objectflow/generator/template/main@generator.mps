@@ -9152,6 +9152,24 @@
                   </node>
                 </node>
               </node>
+              <node concept="3cpWs8" id="1OxuqLfz0XS" role="3cqZAp">
+                <node concept="3cpWsn" id="1OxuqLfz0XV" role="3cpWs9">
+                  <property role="TrG5h" value="prblms" />
+                  <node concept="_YKpA" id="1OxuqLfz0XI" role="1tU5fm">
+                    <node concept="3uibUv" id="1OxuqLfz2Bv" role="_ZDj9">
+                      <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="1OxuqLfz5sC" role="33vP2m">
+                    <node concept="37vLTw" id="1OxuqLfz3AG" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
+                    </node>
+                    <node concept="liA8E" id="1OxuqLfz7fN" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:1OxuqLfyrFN" resolve="getCopyOfProblemState" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="2jDJ2hEFEs5" role="3cqZAp">
                 <node concept="2OqwBi" id="2jDJ2hEFEAB" role="3clFbG">
                   <node concept="Xjq3P" id="2jDJ2hEFEs3" role="2Oq$k0" />
@@ -9164,12 +9182,27 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="1OxuqLfy410" role="3cqZAp" />
               <node concept="YS8fn" id="2jDJ2hEoqw6" role="3cqZAp">
                 <node concept="2ShNRf" id="2jDJ2hENwyC" role="YScLw">
                   <node concept="1pGfFk" id="2jDJ2hENxb2" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                    <node concept="Xl_RD" id="2jDJ2hENxsa" role="37wK5m">
-                      <property role="Xl_RC" value="Preconditions in FINAL_OK of commands are not supported yet!" />
+                    <node concept="3cpWs3" id="1OxuqLfCILO" role="37wK5m">
+                      <node concept="Xl_RD" id="1OxuqLfCIO7" role="3uHU7w">
+                        <property role="Xl_RC" value="\n\n" />
+                      </node>
+                      <node concept="3cpWs3" id="1OxuqLfz7xK" role="3uHU7B">
+                        <node concept="Xl_RD" id="2jDJ2hENxsa" role="3uHU7B">
+                          <property role="Xl_RC" value="Preconditions in FINAL_OK of commands are not supported yet!\n\n" />
+                        </node>
+                        <node concept="2YIFZM" id="1OxuqLfztnk" role="3uHU7w">
+                          <ref role="37wK5l" to="28jr:2jDJ2hATC0l" resolve="asSimpleString" />
+                          <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                          <node concept="37vLTw" id="1OxuqLfztwF" role="37wK5m">
+                            <ref role="3cqZAo" node="1OxuqLfz0XV" resolve="prblms" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
