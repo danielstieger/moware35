@@ -23147,7 +23147,7 @@
       <node concept="10P_77" id="3PbVxlO43Hn" role="3clF45" />
       <node concept="3Tm1VV" id="6X2OBnWrjzg" role="1B3o_S" />
       <node concept="3clFbS" id="6X2OBnWrjzh" role="3clF47">
-        <node concept="1X3_iC" id="3LpLOPqrz86" role="lGtFl">
+        <node concept="1X3_iC" id="KHAAyQyJTh" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="3XOxBxNOMgQ" role="8Wnug">
@@ -23163,26 +23163,36 @@
                     <ref role="3cqZAo" node="6X2OBnWrLYG" resolve="ev" />
                   </node>
                   <node concept="3cpWs3" id="3XOxBxNOPNK" role="3uHU7B">
-                    <node concept="3cpWs3" id="3XOxBxNOPEK" role="3uHU7B">
-                      <node concept="3cpWs3" id="7TgG1qSkBy5" role="3uHU7B">
-                        <node concept="37vLTw" id="7TgG1qSkB__" role="3uHU7B">
-                          <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
-                        </node>
-                        <node concept="Xl_RD" id="3XOxBxNOPd_" role="3uHU7w">
-                          <property role="Xl_RC" value=" fg_handleChildTerminate() called, " />
-                        </node>
+                    <node concept="3cpWs3" id="KHAAyQtNDA" role="3uHU7B">
+                      <node concept="Xl_RD" id="KHAAyQtNF$" role="3uHU7w">
+                        <property role="Xl_RC" value=" was closed]" />
                       </node>
-                      <node concept="2OqwBi" id="7TgG1qSmG$J" role="3uHU7w">
-                        <node concept="37vLTw" id="7TgG1qSmGyn" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6X2OBnWrLYG" resolve="ev" />
+                      <node concept="3cpWs3" id="3XOxBxNOPEK" role="3uHU7B">
+                        <node concept="3cpWs3" id="7TgG1qSkBy5" role="3uHU7B">
+                          <node concept="3cpWs3" id="KHAAyQtz4x" role="3uHU7B">
+                            <node concept="Xl_RD" id="KHAAyQtzoN" role="3uHU7B">
+                              <property role="Xl_RC" value="CommandContainer.fg_handleGlobalCmdTerminate() " />
+                            </node>
+                            <node concept="37vLTw" id="7TgG1qSkB__" role="3uHU7w">
+                              <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="3XOxBxNOPd_" role="3uHU7w">
+                            <property role="Xl_RC" value=" [" />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="7TgG1qSmGBu" role="2OqNvi">
-                          <ref role="37wK5l" node="T$VfFDOC_f" resolve="getClosedContainer" />
+                        <node concept="2OqwBi" id="7TgG1qSmG$J" role="3uHU7w">
+                          <node concept="37vLTw" id="7TgG1qSmGyn" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6X2OBnWrLYG" resolve="ev" />
+                          </node>
+                          <node concept="liA8E" id="7TgG1qSmGBu" role="2OqNvi">
+                            <ref role="37wK5l" node="T$VfFDOC_f" resolve="getClosedContainer" />
+                          </node>
                         </node>
                       </node>
                     </node>
                     <node concept="Xl_RD" id="3XOxBxNOPOl" role="3uHU7w">
-                      <property role="Xl_RC" value=" was closed in ok: " />
+                      <property role="Xl_RC" value=" - " />
                     </node>
                   </node>
                 </node>
@@ -28594,6 +28604,7 @@
     <property role="TrG5h" value="IEventProcessor" />
     <property role="3GE5qa" value="interfaces" />
     <node concept="2tJIrI" id="4XXgpAAeZ4j" role="jymVt" />
+    <node concept="2tJIrI" id="KHAAyQoD_o" role="jymVt" />
     <node concept="3clFb_" id="7b0Ejx_yqRf" role="jymVt">
       <property role="TrG5h" value="receiveAndProcess" />
       <node concept="37vLTG" id="7b0Ejx_yqVM" role="3clF46">
@@ -32532,7 +32543,7 @@
         <node concept="3clFbH" id="7_LnCNXP7qT" role="3cqZAp" />
       </node>
     </node>
-    <node concept="2tJIrI" id="2ppo89mgt_o" role="jymVt" />
+    <node concept="2tJIrI" id="KHAAyQr92w" role="jymVt" />
     <node concept="3clFb_" id="7_LnCNXOC77" role="jymVt">
       <property role="TrG5h" value="receiveAndProcess" />
       <node concept="37vLTG" id="7_LnCNXOGfQ" role="3clF46">
@@ -36693,7 +36704,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1X3_iC" id="7C2V1jU6MR9" role="lGtFl">
+                <node concept="1X3_iC" id="KHAAyQ$JTp" role="lGtFl">
                   <property role="3V$3am" value="statement" />
                   <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
                   <node concept="3clFbF" id="7C2V1jU5_FO" role="8Wnug">
@@ -36705,8 +36716,13 @@
                       <node concept="liA8E" id="7C2V1jU5_FR" role="2OqNvi">
                         <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                         <node concept="3cpWs3" id="7C2V1jU5_FU" role="37wK5m">
-                          <node concept="Xl_RD" id="7C2V1jU5_FV" role="3uHU7B">
-                            <property role="Xl_RC" value="EventCommandContainer.processPendingEvents() processing " />
+                          <node concept="3cpWs3" id="KHAAyQ$49y" role="3uHU7B">
+                            <node concept="37vLTw" id="KHAAyQ$5lR" role="3uHU7B">
+                              <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
+                            </node>
+                            <node concept="Xl_RD" id="7C2V1jU5_FV" role="3uHU7w">
+                              <property role="Xl_RC" value=": EventCommandContainer.processPendingEvents() processing " />
+                            </node>
                           </node>
                           <node concept="37vLTw" id="7C2V1jU5B5n" role="3uHU7w">
                             <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />

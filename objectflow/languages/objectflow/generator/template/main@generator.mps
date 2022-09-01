@@ -11674,7 +11674,7 @@
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="initPage" />
         <node concept="37vLTG" id="7MqOxzy_ziB" role="3clF46">
-          <property role="TrG5h" value="__selectionProvider" />
+          <property role="TrG5h" value="selRecorder" />
           <node concept="3uibUv" id="6Gy9ythMxKJ" role="1tU5fm">
             <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
             <node concept="3uibUv" id="6Gy9ythMxKK" role="11_B2D">
@@ -11717,7 +11717,17 @@
         </node>
         <node concept="3Tm1VV" id="7MqOxzyt6TH" role="1B3o_S" />
         <node concept="3clFbS" id="7MqOxzyt6TI" role="3clF47">
-          <node concept="3clFbH" id="4cdUWYsoUaS" role="3cqZAp" />
+          <node concept="3clFbF" id="KHAAyQJls1" role="3cqZAp">
+            <node concept="37vLTI" id="KHAAyQJoP1" role="3clFbG">
+              <node concept="37vLTw" id="KHAAyQJpMf" role="37vLTx">
+                <ref role="3cqZAo" node="7MqOxzy_ziB" resolve="selRecorder" />
+              </node>
+              <node concept="37vLTw" id="KHAAyQJlrZ" role="37vLTJ">
+                <ref role="3cqZAo" node="6Gy9ythMxGI" resolve="__selectionProvider" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="KHAAyQJjiU" role="3cqZAp" />
           <node concept="3cpWs8" id="7MqOxzyuLKW" role="3cqZAp">
             <node concept="3cpWsn" id="7MqOxzyuLKX" role="3cpWs9">
               <property role="TrG5h" value="listToLoad" />
