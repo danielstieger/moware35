@@ -15802,25 +15802,36 @@
           </node>
         </node>
       </node>
+      <node concept="3cpWs8" id="Vvu817cHRX" role="3cqZAp">
+        <node concept="3cpWsn" id="Vvu817cHS0" role="3cpWs9">
+          <property role="TrG5h" value="cmd" />
+          <node concept="3Tqbb2" id="Vvu817cHRV" role="1tU5fm">
+            <ref role="ehGHo" to="un0u:6ffh1MXzHna" resolve="Command" />
+          </node>
+          <node concept="2OqwBi" id="4LngyNMIqci" role="33vP2m">
+            <node concept="1YBJjd" id="4LngyNMIq3n" role="2Oq$k0">
+              <ref role="1YBMHb" node="OpUSe1rn4P" resolve="handler" />
+            </node>
+            <node concept="2Xjw5R" id="4LngyNMIqCC" role="2OqNvi">
+              <node concept="1xMEDy" id="4LngyNMIqCE" role="1xVPHs">
+                <node concept="chp4Y" id="4LngyNMIqEy" role="ri$Ld">
+                  <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3cpWs8" id="4LngyNMIpYQ" role="3cqZAp">
         <node concept="3cpWsn" id="4LngyNMIpYT" role="3cpWs9">
           <property role="TrG5h" value="newStyle" />
           <node concept="10P_77" id="4LngyNMIpYO" role="1tU5fm" />
           <node concept="2OqwBi" id="4LngyNMIqTt" role="33vP2m">
-            <node concept="2OqwBi" id="4LngyNMIqci" role="2Oq$k0">
-              <node concept="1YBJjd" id="4LngyNMIq3n" role="2Oq$k0">
-                <ref role="1YBMHb" node="OpUSe1rn4P" resolve="handler" />
-              </node>
-              <node concept="2Xjw5R" id="4LngyNMIqCC" role="2OqNvi">
-                <node concept="1xMEDy" id="4LngyNMIqCE" role="1xVPHs">
-                  <node concept="chp4Y" id="4LngyNMIqEy" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="2qgKlT" id="4LngyNMIrwv" role="2OqNvi">
               <ref role="37wK5l" to="70o0:4LngyNMHWHv" resolve="newStyleCmdTermHandling" />
+            </node>
+            <node concept="37vLTw" id="Vvu817cIh2" role="2Oq$k0">
+              <ref role="3cqZAo" node="Vvu817cHS0" resolve="cmd" />
             </node>
           </node>
         </node>
@@ -15882,6 +15893,26 @@
         </node>
       </node>
       <node concept="3clFbH" id="4LngyNMIpTK" role="3cqZAp" />
+      <node concept="3clFbJ" id="Vvu817cIt_" role="3cqZAp">
+        <node concept="3clFbS" id="Vvu817cItB" role="3clFbx">
+          <node concept="2MkqsV" id="Vvu817cMl6" role="3cqZAp">
+            <node concept="Xl_RD" id="Vvu817cMll" role="2MkJ7o">
+              <property role="Xl_RC" value="Cmd Term handlers are not supported for predecessor commands (yet)." />
+            </node>
+            <node concept="1YBJjd" id="Vvu817cMn2" role="1urrMF">
+              <ref role="1YBMHb" node="OpUSe1rn4P" resolve="handler" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="Vvu817cIIN" role="3clFbw">
+          <node concept="37vLTw" id="Vvu817cIws" role="2Oq$k0">
+            <ref role="3cqZAo" node="Vvu817cHS0" resolve="cmd" />
+          </node>
+          <node concept="2qgKlT" id="Vvu817cMfA" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="OpUSe1rn4P" role="1YuTPh">
       <property role="TrG5h" value="handler" />
