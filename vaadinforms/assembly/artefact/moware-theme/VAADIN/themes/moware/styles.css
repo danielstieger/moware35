@@ -13180,7 +13180,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .mo-table .mo-searchfield {
 	width: 120px;
-	background-color: #ece6b4;
+	background-color: #f8f8c2;
 	height: 19.2px;
 	border: 1px solid transparent;
 }
@@ -13211,7 +13211,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .mo-delegate .mo-delegate-editor, .moware .mo-delegate .mo-delegate-editor input {
-	background-color: #ece6b4 !important;
+	background-color: #f8f8c2 !important;
 	border: 1px solid transparent;
 	background-image: none !important;
 }
