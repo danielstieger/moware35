@@ -18535,6 +18535,15 @@
     </node>
     <node concept="tnohg" id="2kt2F1b9T8H" role="tncku">
       <node concept="3clFbS" id="2kt2F1b9T8I" role="2VODD2">
+        <node concept="3cpWs8" id="3RBGlAZGXNa" role="3cqZAp">
+          <node concept="3cpWsn" id="3RBGlAZGXNd" role="3cpWs9">
+            <property role="TrG5h" value="TESTS_ALSO" />
+            <node concept="10P_77" id="3RBGlAZGXN8" role="1tU5fm" />
+            <node concept="3clFbT" id="3RBGlAZH4JI" role="33vP2m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="2kt2F1b9T8N" role="3cqZAp">
           <node concept="3cpWsn" id="2kt2F1b9T8O" role="3cpWs9">
             <property role="TrG5h" value="myStringWriter" />
@@ -18670,7 +18679,9 @@
                       <ref role="2WH_rO" node="2kt2F1b9T8D" resolve="project" />
                     </node>
                   </node>
-                  <node concept="3clFbT" id="4J_D98bMwrT" role="37wK5m" />
+                  <node concept="37vLTw" id="3RBGlAZH5pz" role="37wK5m">
+                    <ref role="3cqZAo" node="3RBGlAZGXNd" resolve="TESTS_ALSO" />
+                  </node>
                 </node>
               </node>
             </node>
