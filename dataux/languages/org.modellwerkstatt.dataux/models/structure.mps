@@ -522,7 +522,7 @@
   <node concept="1TIwiD" id="3ouNayfF_eg">
     <property role="3GE5qa" value="delegates" />
     <property role="TrG5h" value="DateTimeDateOnlyDelegate" />
-    <property role="34LRSv" value="DateTime Date Only" />
+    <property role="34LRSv" value="DateTime (Date Only)" />
     <property role="R4oN_" value="Delegate" />
     <property role="EcuMT" value="3899779351686566800" />
     <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
