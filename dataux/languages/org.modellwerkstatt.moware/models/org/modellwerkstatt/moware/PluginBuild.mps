@@ -176,7 +176,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2022.XX ()" />
+          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2022.27 ()" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1938,6 +1938,16 @@
             <node concept="3qWCbU" id="4EjcJZr7mU6" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2XXCNWfCS0V" role="3bR37C">
+          <node concept="3bR9La" id="2XXCNWfCS0W" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2XXCNWfCS0X" role="3bR37C">
+          <node concept="3bR9La" id="2XXCNWfCS0Y" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:2eDSGe9d1qi" resolve="jetbrains.mps.ide" />
           </node>
         </node>
       </node>

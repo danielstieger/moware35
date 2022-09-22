@@ -1624,7 +1624,7 @@
         <ref role="tCJdB" node="4J_D98bHJr7" resolve="GeneralizedAutoRefactor" />
       </node>
       <node concept="tCFHf" id="4dTPSB6Jena" role="ftvYc">
-        <ref role="tCJdB" node="3g1Uva$SOi$" resolve="MPS2022_XX_ColorAndMethodAdoption" />
+        <ref role="tCJdB" node="3g1Uva$SOi$" resolve="MoWare2022_27_ColorAndMethodAdoption" />
       </node>
     </node>
   </node>
@@ -11506,8 +11506,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="3g1Uva$SOi$">
-    <property role="TrG5h" value="MPS2022_XX_ColorAndMethodAdoption" />
-    <property role="2uzpH1" value="Werkbank - MOWARE 2022.XX AutoRefactoring" />
+    <property role="TrG5h" value="MoWare2022_27_ColorAndMethodAdoption" />
+    <property role="2uzpH1" value="Werkbank - MOWARE 2022.27 AutoRefactoring" />
     <property role="fJN8o" value="true" />
     <property role="1WHSii" value="Refactor to 2022.26" />
     <node concept="2XrIbr" id="4dTPSB6GszK" role="32lrUH">
