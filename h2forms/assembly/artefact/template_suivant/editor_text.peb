@@ -18,6 +18,6 @@
 </div>
 
 {% else %}
-<div class="w3-col m3 s5 sv-multiline-edit-label">{% for label in multilineLabels %}{% if label is not null %}{{ label|raw }}:{% else %}&nbsp;{% endif %}<br>{% endfor %}</div>
+<div class="w3-col m3 s5 sv-multiline-edit-label">{% for label in multilineLabels %}{% if label is not null %}{{ label|raw }}{% else %}&nbsp;{% endif %}<br>{% endfor %}</div>
 <div class="w3-col m9 s7 sv-multiline-edit-input-col-dis">{% for vals in multilineValues %}{{ vals|raw }}<br>{% endfor %}</div>
 {% endif %}

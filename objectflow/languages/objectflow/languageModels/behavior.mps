@@ -426,6 +426,9 @@
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
+        <child id="1240687658305" name="delimiter" index="3uJOhx" />
+      </concept>
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -18759,6 +18762,59 @@
   <node concept="13h7C7" id="1Zhh973W4Mc">
     <property role="3GE5qa" value="OFXCore.infra" />
     <ref role="13h7C2" to="un0u:6ffh1MXA9UE" resolve="Container" />
+    <node concept="13i0hz" id="5YyqL3zm$YM" role="13h7CS">
+      <property role="TrG5h" value="getParamInfo" />
+      <node concept="3Tm1VV" id="5YyqL3zm$YN" role="1B3o_S" />
+      <node concept="17QB3L" id="5YyqL3zm_29" role="3clF45" />
+      <node concept="3clFbS" id="5YyqL3zm$YP" role="3clF47">
+        <node concept="3clFbF" id="5YyqL3zm_2S" role="3cqZAp">
+          <node concept="2OqwBi" id="5YyqL3zmIDo" role="3clFbG">
+            <node concept="2OqwBi" id="5YyqL3zmDJF" role="2Oq$k0">
+              <node concept="2OqwBi" id="5YyqL3zm_c6" role="2Oq$k0">
+                <node concept="13iPFW" id="5YyqL3zm_2R" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="5YyqL3zm_nl" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:6ffh1MXA9UH" resolve="parameter" />
+                </node>
+              </node>
+              <node concept="3$u5V9" id="5YyqL3zmGMN" role="2OqNvi">
+                <node concept="1bVj0M" id="5YyqL3zmGMP" role="23t8la">
+                  <node concept="3clFbS" id="5YyqL3zmGMQ" role="1bW5cS">
+                    <node concept="3clFbF" id="5YyqL3zmGS6" role="3cqZAp">
+                      <node concept="2YIFZM" id="5YyqL3zpzAE" role="3clFbG">
+                        <ref role="37wK5l" to="28jr:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
+                        <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                        <node concept="2OqwBi" id="5YyqL3zmI6h" role="37wK5m">
+                          <node concept="2OqwBi" id="5YyqL3zmHa8" role="2Oq$k0">
+                            <node concept="37vLTw" id="5YyqL3zmGS5" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5YyqL3zmGMR" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="5YyqL3zmH_s" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:4VkOLwjf83e" resolve="type" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="5YyqL3zmIkB" role="2OqNvi">
+                            <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="5YyqL3zmGMR" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="5YyqL3zmGMS" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3uJxvA" id="5YyqL3zmJRN" role="2OqNvi">
+              <node concept="Xl_RD" id="5YyqL3zmKbK" role="3uJOhx">
+                <property role="Xl_RC" value=", " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="1Zhh973W4Md" role="13h7CW">
       <node concept="3clFbS" id="1Zhh973W4Me" role="2VODD2" />
     </node>
