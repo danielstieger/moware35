@@ -6180,6 +6180,10 @@
     <property role="3GE5qa" value="StaticRessource" />
     <ref role="1XX52x" to="un0u:1lwvTLPwTCs" resolve="IncludePlatform" />
     <node concept="3EZMnI" id="1lwvTLPwTF_" role="2wV5jI">
+      <node concept="3F0ifn" id="33mP2Snzqrw" role="3EZMnx">
+        <property role="3F0ifm" value="extended" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
       <node concept="1iCGBv" id="1lwvTLPwTFN" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:1lwvTLPwTDG" resolve="platform" />
         <node concept="1sVBvm" id="1lwvTLPwTFP" role="1sWHZn">
