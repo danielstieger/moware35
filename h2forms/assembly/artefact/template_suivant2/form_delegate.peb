@@ -1,0 +1,15 @@
+{% if splittedPageTitleText is not null %}
+    <div class="w3-panel {% if formId == 1 %}sv-splittedtitle{% endif %}" onclick="svHideAllContainsDropdown()">
+    {% for line in splittedPageTitleText %}
+        <div class="w3-block"> {{ line }} </div>
+    {% endfor %}
+    </div>
+{% endif %}
+
+<div class="w3-panel sv-editor">
+{% for dlgt in delegates %}
+    <div class="w3-row sv-edit-row">
+        {{ dlgt.toHtml }}
+    </div>
+{% endfor %}
+</div>

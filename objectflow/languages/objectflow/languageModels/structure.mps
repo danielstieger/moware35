@@ -5109,6 +5109,12 @@
     <property role="3GE5qa" value="StaticRessource" />
     <property role="TrG5h" value="Color" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6gfqYg9bDMR" role="1TKVEi">
+      <property role="IQ2ns" value="7210100155594218679" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="docu" />
+      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
+    </node>
     <node concept="1TJgyi" id="4dTPSB4i4cn" role="1TKVEl">
       <property role="IQ2nx" value="4862154259426722583" />
       <property role="TrG5h" value="value" />

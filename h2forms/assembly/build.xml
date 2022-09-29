@@ -13,6 +13,8 @@
 -->
  
 <project name="MdeApplication" default="default">      
+  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
+ 
   
   <!-- **** include files setup **************************************************************** -->
   <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
@@ -87,7 +89,7 @@
   	<copy todir="${tomcatHomeDir}/webapps/${appName}/static/template_leg">
   		<fileset dir="artefact/template_leg" />
   	</copy>
-    	<copy todir="${tomcatHomeDir}/webapps/${appName}/static/template_suivant">
+    <copy todir="${tomcatHomeDir}/webapps/${appName}/static/template_suivant">
   		<fileset dir="artefact/template_suivant" />
   	</copy>
   </target>

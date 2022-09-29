@@ -1,0 +1,124 @@
+/* ---- Material Icons Stuff ------------------------------------------------ */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(MaterialIcons-Regular.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;  /* Preferred icon size */
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: bottom;
+  line-height: 1;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+
+/* moware suivant adoptions * * * * * * * * * * * * * * * * * * * * * * * * * */
+.sv-nav { cursor: pointer; }
+.sv-disabled { cursor: not-allowed; opacity: 0.85;}
+
+/* body and start screen with tiles -------------------------------------- */
+.sv-status-gray {color:#000 !important; background-color:#b3b3b3 !important}
+.sv-branding-gray {color:#000 !important; background-color:#d9d9d9}
+
+.sv-back-no-session {color:#d9d9d9 !important; background-color:#333333 !important}
+.sv-back-readOnly {color:#000 !important; background-color:#f2f2f2!important;}
+.sv-back-session {color:#000 !important; background-color:#f2f2f2!important;}
+.sv-back-modal {color: #000 !important; background-color: #f2f2f2 !important;}
+
+.sv-tile-panel { padding: 0.01em 8px !important }
+.sv-tile {color:#000 !important; background-color:#f2f2f2!important;
+          border-right:10px solid #ccc!important;
+          margin-bottom: 12px;
+        }
+
+.sv-tile h1 {margin: 4px;}
+.sv-tile p  {margin: 4px;}
+.sv-tile-badge-h1 {font-size: 15px;}
+.sv-tiny {font-size: 4px !important;}
+
+/* dialog and questions */
+.sv-top-dlg { margin: 2px 6px 0px 6px; padding: 4px 8px; }
+.sv-top-dlg-uicmd { margin: 2px 6px 0px 6px; padding: 1px 8px; }
+.sv-question-red { color: #FFF !important; background-color: #E4211f !important}
+.sv-warning-orange { color: #FFF !important; background-color: #e49f1f !important}
+.sv-info-gray { color: #000 !important; background-color: #f2f2f2 !important }
+
+/* action handling in page title area -------------------------------------- */
+.sv-top-title { margin-top: 0px !important; color:#d9d9d9 !important; background-color:#333333 !important}
+div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div.sv-top-title + div.sv-editor {margin-top: 0px !important;}
+
+
+.sv-layout-menu { padding: 0px 8px 0px 12px !important; }
+.sv-layout-menu-item { height: 50px !important; }
+
+
+/* document search screen -------------------------------------------------- */
+.w3-bar-item {height: 50px !important }
+.sv-dropdown-wide {min-width: 220px !important}
+.sv-bartitle {font-size: 18px; line-height: 34px}  /* bar-item height - padding (16) */
+
+/* document screen itself -------------------------------------------------- */
+.sv-table-doc {color:#000 !important; background-color:#f2f2f2!important;
+                  padding: 0.01em 0px !important; }
+.sv-table-posrow {border-bottom:1px solid #333333!important;
+                  padding: 8px 16px; }
+
+.sv-table-search { padding: 0.01em 8px !important }
+.sv-table-docrow {color:#000 !important; background-color:#f2f2f2!important;
+            padding: 8px 16px; margin-bottom: 6px; }
+.sv-table-button-bar {margin-top: 8px; display: none; }
+
+.sv-table-impcell {font-weight: bold;}
+
+.sv-cropped-text {overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+@media only screen and (max-width: 600px) {
+  .sv-s-right-align {text-align: right !important;}
+}
+
+
+
+
+/* editor screen, scanning, etc.  ------------------------------------------ */
+.w3-input {}
+.w3-input:disabled {border-bottom: none !important;}
+
+.sv-editor {color:#000 !important; background-color:#f2f2f2 !important; padding: 0.01em 8px !important; }
+.sv-edit-row {padding: 0px 0px; }
+.sv-edit-label {color: #888 !important; text-align: right; padding-right: 24px;
+      line-height: 38px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
+.sv-edit-input-col {background-color:#FFF !important;}
+.sv-edit-input-col-dis {line-height: 38px; border-bottom: 1px solid #FFF !important;}
+.sv-edit-input { border-bottom: 1px solid #009688 !important; line-height: 22px !important; }
+.sv-edit-select { height: 39px; background-color: #FFF !important; border-bottom: 1px solid #009688 !important; }
+
+.sv-multiline-edit-input-col-dis {line-height: 24px; border-bottom: 1px solid #FFF !important; }
+.sv-multiline-edit-label {color: #888 !important; text-align: right; padding-right: 24px;
+      line-height: 24px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
+
+body[class="sv-back-no-session"] div[class*="sv-editor"] {padding-bottom: 300px !important; }
+
+.sv-keyboard-spacer { min-height: 460px; height: 460px; }

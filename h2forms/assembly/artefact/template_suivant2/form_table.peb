@@ -1,0 +1,55 @@
+{% macro jsLinkWhenEnabled(act, index) %}
+{% if act.enabled %} onClick="tableSelectAndExec('menu_{{ act.popupMenuId }}_{{ index }}', 'trigger_{{ act.triggerCode }}', 'TR_index');"{% endif %}
+{% endmacro %}
+{% macro renderCell(cell, last) %}
+<div class="w3-col s{{ cell.sizeS }} m{{ cell.sizeM }} {% if cell.closeRow %}sv-s-right-align{% endif %} {% if last %}w3-right-align{% endif %}{% if cell.important %} sv-table-impcell{% endif %} sv-cropped-text" {% if cell.color is not null %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content | default("&nbsp;") | raw }}</div>
+{% endmacro %}
+{% macro rowType(page) %}
+{% if page.isDocumentSearch %}sv-table-docrow{% else %}sv-table-posrow{% endif %}
+{% endmacro %}
+{% macro imgLabel(act) %}
+{% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>
+{% else %}{{ act.label }}{% endif %}
+{% endmacro %}
+{% if splittedPageTitleText is not null %}
+    <div class="w3-panel {% if formId == 1 %}sv-splittedtitle{% endif %}" onclick="svHideAllContainsDropdown()">
+    {% for line in splittedPageTitleText %}
+        <div class="w3-block"> {{ line }} </div>
+    {% endfor %}
+    </div>
+{% endif %}
+
+<div class="w3-panel {% if page.isDocumentSearch %}sv-table-search{% else %}sv-table-doc{% endif %}">
+{% for row in tableRows %}
+    {% if row.numActions == 0 %}
+        <div class="w3-row {{ rowType(page) }} sv-disabled">
+        {% for cell in row.cells %}
+            {{ renderCell(cell, loop.last) }}
+        {% endfor %}
+        </div>
+    {% elseif row.numActions == 1 %}
+        <div class="w3-row {{ rowType(page) }} {% if row.mainAction.enabled %}sv-nav{% else %}sv-disabled{% endif %} {% if row.selected %} rowSelected {% endif %}" {{ jsLinkWhenEnabled(row.mainAction, row.index) }}>
+        {% for cell in row.cells %}
+            {{ renderCell(cell, loop.last) }}
+        {% endfor %}
+        </div>
+    {% else %}
+        <div class="w3-row {{ rowType(page) }} sv-nav {% if row.selected %} rowSelected {% endif %}" onClick="javascript: svShowTableActionButtons(event, this);">
+        {% for cell in row.cells %}
+            {{ renderCell(cell, loop.last) }}
+        {% endfor %}
+            <div class="w3-col s12 sv-table-button-bar {% if row.selected %}w3-show{% endif %}">
+                {% for act in row.actions %}
+                    <button type="button" class="w3-button sv-table-button w3-theme" {% if not act.enabled %}disabled{% endif %} {{ jsLinkWhenEnabled(act, row.index) }}> {{ imgLabel(act) }} </button>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}
+
+{% if footer is not null %}
+    <div class="w3-row {{ rowType(page) }} sv-disabled">
+        <div class="w3-col s12 m12 sv-s-right-align w3-right-align">{{ footer }}</div>
+    </div>
+{% endif %}
+</div>
