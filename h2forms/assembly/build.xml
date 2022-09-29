@@ -23,8 +23,8 @@
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appName"              value="MDEApp" />
-  <property name="appMainclass"         value="org.modellwerkstatt.simple.app.simpleApp.App_MDE_Order" />
-  <property name="appConfiguration"     value="org/modellwerkstatt/simple/basisUnit/MdeConfig.xml" /> 
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.o1deploy_simpleApp.App_MDE_Order" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/o9infra_configs/MdeConfig.xml" /> 
   <property name="appHomeScreen"        value="${appName}" />
     
   <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
@@ -38,7 +38,7 @@
    <arg value="-cp"/>
    <!-- <arg value="${solultionSimpleGen};${execInBuildClassPathWin}" /> -->
    <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
-   <arg value="org.modellwerkstatt.simple.basis.TestSetting" />
+   <arg value="org.modellwerkstatt.simple.o8infra_objects.TestSetting" />
   </exec>
   
   <echo>
@@ -92,6 +92,10 @@
     <copy todir="${tomcatHomeDir}/webapps/${appName}/static/template_suivant">
   		<fileset dir="artefact/template_suivant" />
   	</copy>
+  	<copy todir="${tomcatHomeDir}/webapps/${appName}/static/template_suivant2">
+  		<fileset dir="artefact/template_suivant2" />
+  	</copy>
+
   </target>
   
   <target name="redeploy" depends="default">

@@ -4,13 +4,12 @@
 {% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
 
 {% elseif not multiline %}
-<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>
-<div class="w3-col m9 s7 {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
+<div class="w3-col m12 s12 {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
 {% if enabled %}
     <input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input {% if isDateDelegate %}sv-datedelegate{% endif %}" type="text"
            {% if scanable %}scanable="true"{% endif %}
     {% if requestFocus %} focusme="true" {% endif %}
-    {% if useNumericKeyboard %} useNumericKeyboard="true" {% endif %} value="{{ text }}"/>
+    {% if useNumericKeyboard %} useNumericKeyboard="true" {% endif %} placeholder="{{ labelText }}" value="{{ text }}"/>
 {% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
 {% else %}
 {{ text }}
@@ -18,6 +17,5 @@
 </div>
 
 {% else %}
-<div class="w3-col m3 s5 sv-multiline-edit-label">{% for label in multilineLabels %}{% if label is not null %}{{ label|raw }}{% else %}&nbsp;{% endif %}<br>{% endfor %}</div>
-<div class="w3-col m9 s7 sv-multiline-edit-input-col-dis">{% for vals in multilineValues %}{{ vals|raw }}<br>{% endfor %}</div>
+<div class="w3-col m12 s12 sv-multiline-edit-input-col-dis">{% for vals in multilineValues %}{{ vals|raw }}<br>{% endfor %}</div>
 {% endif %}
