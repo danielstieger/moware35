@@ -28,6 +28,11 @@ function saveSubmitDueScan(){
     saveSubmit(conclusion);
 }
 
+function saveSubmitDueUpdate(){
+    var conclusion = $('input[name="scanconclusion"]').value;
+    saveSubmit(conclusion);
+}
+
 function saveSubmitDueGo(){
     var conclusion = $('input[name="goconclusion"]').value;
     saveSubmit(conclusion);
