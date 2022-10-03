@@ -33,9 +33,7 @@
         <child id="414384289274416996" name="parts" index="3ft7WO" />
       </concept>
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
-        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
-      </concept>
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
       <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
       <concept id="7429591467341004871" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Group" flags="ng" index="aenpk">
@@ -2634,20 +2632,6 @@
         <ref role="1NtTu8" to="1btx:4dTPSB5$367" resolve="color" />
       </node>
       <node concept="l2Vlx" id="ao4XGSvQg2" role="2iSdaV" />
-    </node>
-    <node concept="3EZMnI" id="4dTPSB5$4YV" role="6VMZX">
-      <node concept="3F0ifn" id="ao4XGSxJEn" role="3EZMnx">
-        <property role="3F0ifm" value="#" />
-        <ref role="1k5W1q" node="pQ21WNdZAs" resolve="Option" />
-        <node concept="11LMrY" id="ao4XGSxJFN" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="ao4XGSvQgB" role="3EZMnx">
-        <ref role="1k5W1q" node="pQ21WNdZAs" resolve="Option" />
-        <ref role="1NtTu8" to="1btx:ao4XGSvQc6" resolve="value" />
-      </node>
-      <node concept="l2Vlx" id="4dTPSB5$4YY" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="ao4XGSxWsK">

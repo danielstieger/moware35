@@ -30,7 +30,6 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -683,13 +682,6 @@
       <property role="IQ2ns" value="3887124829264538806" />
       <ref role="20lvS9" node="3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
     </node>
-    <node concept="1TJgyj" id="7dYuT2d6j0t" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="childTermConceptFunc" />
-      <property role="IQ2ns" value="8322225022200000541" />
-      <ref role="20lvS9" node="7dYuT2d5JDD" resolve="PageChildTermConceptFunc" />
-      <node concept="asaX9" id="71rMyjSCvg2" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="1OYKdEatXna" role="1TKVEi">
       <property role="IQ2ns" value="2107333720514483658" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1081,14 +1073,6 @@
     <property role="R4oN_" value="some space for writing" />
     <property role="EcuMT" value="6525155817177697680" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5Ee0EjqWOQt" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="lines" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <property role="IQ2ns" value="6525155817177697693" />
-      <ref role="20lvS9" node="5Ee0EjqWOQh" resolve="OFXDocumentationLine" />
-      <node concept="asaX9" id="W9MOPcxr2Q" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="W9MOPcxr0T" role="1TKVEi">
       <property role="IQ2ns" value="1083620718216065081" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1176,62 +1160,6 @@
     <node concept="1QGGSu" id="1iISEUi_ii1" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/valueobject.png" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6W_Qo9f2MnB">
-    <property role="3GE5qa" value="Repository" />
-    <property role="TrG5h" value="ModelRepository" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Repository" />
-    <property role="EcuMT" value="8009046666043401703" />
-    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
-    <node concept="1TJgyj" id="54AO9SbtAec" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="documentation2" />
-      <property role="IQ2ns" value="5847590543402886028" />
-      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
-    </node>
-    <node concept="1TJgyj" id="1Rx6rUSsRmJ" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="customSqlRepoFields" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <property role="IQ2ns" value="2153030403788862895" />
-      <ref role="20lvS9" to="r5tz:1Rx6rUSp3_E" resolve="IRepositoryField" />
-    </node>
-    <node concept="PrWs8" id="6W_Qo9f2MnD" role="PzmwI">
-      <ref role="PrY4T" to="r5tz:EYyuKpdQjB" resolve="IRepository" />
-    </node>
-    <node concept="PrWs8" id="Yd9evR5_Zi" role="PzmwI">
-      <ref role="PrY4T" to="r5tz:5dYK2oNxakb" resolve="L2RTComponent" />
-    </node>
-    <node concept="PrWs8" id="qHvcCAYMxs" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="1QGGSu" id="1iISEUi_iil" role="rwd14">
-      <property role="1iqoE4" value="${module}/icons/repository.png" />
-    </node>
-    <node concept="asaX9" id="7CiiQbKfCll" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="6W_Qo9f2MnC">
-    <property role="3GE5qa" value="Repository" />
-    <property role="TrG5h" value="ModelRepositoryMethod" />
-    <property role="EcuMT" value="8009046666043401704" />
-    <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
-    <node concept="1TJgyi" id="5HvIBdINHAj" role="1TKVEl">
-      <property role="TrG5h" value="methodType" />
-      <property role="IQ2nx" value="8009046666043401713" />
-      <ref role="AX2Wp" node="5HvIBdINHdy" resolve="ModelRepositoryMethodType" />
-      <node concept="3l_iC" id="5HvIBdINHAk" role="lGtFl">
-        <node concept="1TJgyi" id="6W_Qo9f2MnL" role="3l_iP">
-          <property role="TrG5h" value="methodType" />
-          <property role="IQ2nx" value="8009046666043401713" />
-          <ref role="AX2Wp" node="6RQ_77qtOVD" resolve="ModelRepositoryMethodType" />
-        </node>
-      </node>
-    </node>
-    <node concept="PrWs8" id="6W_Qo9f2Z$5" role="PzmwI">
-      <ref role="PrY4T" to="r5tz:6W_Qo9f2MZI" resolve="IRepositoryMethod" />
-    </node>
-    <node concept="asaX9" id="7CiiQbKfClo" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="3JsUq_S9PU7">
     <property role="3GE5qa" value="BusinessObject" />
@@ -1639,12 +1567,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="6855023620835054339" />
       <ref role="20lvS9" node="1caoEBn$Vr$" resolve="BusinessObject" />
-    </node>
-    <node concept="1TJgyi" id="5WxVUBAMhc1" role="1TKVEl">
-      <property role="TrG5h" value="keysOnly" />
-      <property role="IQ2nx" value="6855023620835054337" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-      <node concept="asaX9" id="5rqgrTzC1wo" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="5rqgrTzC1jg" role="1TKVEl">
       <property role="IQ2nx" value="6258386918155752656" />
@@ -2648,15 +2570,6 @@
       <property role="1iqoE4" value="${module}/icons/cmdcrtl.png" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7dYuT2d5JDD">
-    <property role="3GE5qa" value="OFXCore.cmd" />
-    <property role="TrG5h" value="PageChildTermConceptFunc" />
-    <property role="34LRSv" value="pageChildTerminatedFunc" />
-    <property role="R4oN_" value="child terminated while in page" />
-    <property role="EcuMT" value="8322225022199855721" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="asaX9" id="71rMyjSCuUK" role="lGtFl" />
-  </node>
   <node concept="1TIwiD" id="7dYuT2d6irc">
     <property role="3GE5qa" value="OFXCore.cmd" />
     <property role="TrG5h" value="TermOkParameter" />
@@ -3304,12 +3217,6 @@
       <property role="20kJfa" value="colorRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4dTPSB4odjt" resolve="ColorReference" />
-    </node>
-    <node concept="1TJgyi" id="1uKMA6MHfxE" role="1TKVEl">
-      <property role="TrG5h" value="val" />
-      <property role="IQ2nx" value="1707086779732260970" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="5D2sKook$Fw" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="1uKMA6MHfxD" role="PzmwI">
       <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
@@ -3962,59 +3869,6 @@
       <property role="3tVfz5" value="7597083895870343938" />
       <ref role="2wpffI" node="6_IgSPuckG2" />
     </node>
-  </node>
-  <node concept="25R3W" id="5HvIBdINHdy">
-    <property role="TrG5h" value="ModelRepositoryMethodType" />
-    <property role="3GE5qa" value="Repository" />
-    <property role="3F6X1D" value="7923683811122433769" />
-    <ref role="1H5jkz" node="5HvIBdINHd$" resolve="READONLY" />
-    <node concept="2JgGob" id="5HvIBdINHdz" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
-      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
-      <node concept="AxPO7" id="6RQ_77qtOVD" role="3lCyv">
-        <property role="TrG5h" value="ModelRepositoryMethodType" />
-        <property role="3GE5qa" value="Repository" />
-        <property role="3F6X1D" value="7923683811122433769" />
-        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-        <node concept="M4N5e" id="6RQ_77qtOVE" role="M5hS2">
-          <property role="1uS6qv" value="READONLY" />
-          <property role="1uS6qo" value="READONLY" />
-        </node>
-        <node concept="M4N5e" id="6RQ_77qtOVF" role="M5hS2">
-          <property role="1uS6qv" value="CHECKOUT" />
-          <property role="1uS6qo" value="CHECKOUT" />
-        </node>
-        <node concept="M4N5e" id="75DS814r42t" role="M5hS2">
-          <property role="1uS6qv" value="CHECKIN" />
-          <property role="1uS6qo" value="CHECKIN" />
-        </node>
-        <node concept="M4N5e" id="66mO_QB9Jj$" role="M5hS2">
-          <property role="1uS6qv" value="DELETE" />
-          <property role="1uS6qo" value="DELETE" />
-        </node>
-      </node>
-    </node>
-    <node concept="25R33" id="5HvIBdINHd$" role="25R1y">
-      <property role="TrG5h" value="READONLY" />
-      <property role="3tVfz5" value="7923683811122433770" />
-      <ref role="2wpffI" node="6RQ_77qtOVE" />
-    </node>
-    <node concept="25R33" id="5HvIBdINHd_" role="25R1y">
-      <property role="TrG5h" value="CHECKOUT" />
-      <property role="3tVfz5" value="7923683811122433771" />
-      <ref role="2wpffI" node="6RQ_77qtOVF" />
-    </node>
-    <node concept="25R33" id="5HvIBdINHdA" role="25R1y">
-      <property role="TrG5h" value="CHECKIN" />
-      <property role="3tVfz5" value="8172309840348856477" />
-      <ref role="2wpffI" node="75DS814r42t" />
-    </node>
-    <node concept="25R33" id="5HvIBdINHdB" role="25R1y">
-      <property role="TrG5h" value="DELETE" />
-      <property role="3tVfz5" value="7032039167863747812" />
-      <ref role="2wpffI" node="66mO_QB9Jj$" />
-    </node>
-    <node concept="asaX9" id="7CiiQbKfClq" role="lGtFl" />
   </node>
   <node concept="25R3W" id="5HvIBdINHdC">
     <property role="TrG5h" value="PrintType" />

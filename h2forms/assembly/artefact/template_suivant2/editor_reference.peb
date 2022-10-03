@@ -1,6 +1,7 @@
-<div class="w3-col m12 s12 {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
+{% if not wide %}<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>{% endif %}
+<div class="w3-col {% if wide %}m12 s12{% else %}m9 s7{% endif %} {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
 {% if enabled %}
-    <select name="{{ editorId }}" id="{{ editorId }}" class="w3-select sv-edit-select"{% if requestFocus %} focusme="true" {% endif %} placeholder="{{ labelText }}">
+    <select name="{{ editorId }}" id="{{ editorId }}" class="w3-select sv-edit-select"{% if requestFocus %} focusme="true" {% endif %}>
     {% for item in items %}
         <option value="{{ item.itemId }}" {% if item.selected %} selected {% endif %}>{{ item.label }}</option>
     {% endfor %}

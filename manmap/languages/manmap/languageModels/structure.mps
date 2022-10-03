@@ -29,7 +29,6 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -416,15 +415,6 @@
       <property role="1iqoE4" value="${module}/icons/data_find.png" />
     </node>
   </node>
-  <node concept="PlHQZ" id="EYyuKpdQjB">
-    <property role="TrG5h" value="IRepository" />
-    <property role="EcuMT" value="774207833082651879" />
-    <property role="3GE5qa" value="repository" />
-    <node concept="PrWs8" id="5dYK2oPGHoh" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="asaX9" id="7CiiQbJZID5" role="lGtFl" />
-  </node>
   <node concept="1TIwiD" id="EYyuKpeapr">
     <property role="3GE5qa" value="query" />
     <property role="TrG5h" value="WhereQuery" />
@@ -774,12 +764,6 @@
       <ref role="PrY4T" node="7opW4z3To$c" resolve="IDataBaseOperation" />
     </node>
   </node>
-  <node concept="PlHQZ" id="6W_Qo9f2MZI">
-    <property role="TrG5h" value="IRepositoryMethod" />
-    <property role="EcuMT" value="8009046666043404270" />
-    <property role="3GE5qa" value="repository" />
-    <node concept="asaX9" id="7CiiQbJZID7" role="lGtFl" />
-  </node>
   <node concept="PlHQZ" id="3JsUq_Sf9jY">
     <property role="3GE5qa" value="mapping" />
     <property role="TrG5h" value="IKeyMapping" />
@@ -1003,15 +987,6 @@
       <ref role="20lvS9" to="zqge:2cLqkTm6J5A" resolve="Line" />
     </node>
   </node>
-  <node concept="PlHQZ" id="1Rx6rUSp3_E">
-    <property role="TrG5h" value="IRepositoryField" />
-    <property role="EcuMT" value="2153030403787864426" />
-    <property role="3GE5qa" value="repository" />
-    <node concept="PrWs8" id="1Rx6rUSp3_F" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="asaX9" id="7CiiQbJZID9" role="lGtFl" />
-  </node>
   <node concept="1TIwiD" id="1Rx6rUSp3_H">
     <property role="TrG5h" value="SqlStringField" />
     <property role="3GE5qa" value="customsql" />
@@ -1025,9 +1000,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="2153030403787864432" />
       <ref role="20lvS9" node="6TB1IkohjIs" resolve="SqlString" />
-    </node>
-    <node concept="PrWs8" id="1Rx6rUSp3_I" role="PzmwI">
-      <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
     </node>
     <node concept="PrWs8" id="7CiiQbKkDxk" role="PzmwI">
       <ref role="PrY4T" node="7CiiQbKuR3U" resolve="IRepositoryContent" />
@@ -1046,9 +1018,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="2153030403787874164" />
       <ref role="20lvS9" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
-    </node>
-    <node concept="PrWs8" id="1Rx6rUSp5XM" role="PzmwI">
-      <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
     </node>
     <node concept="PrWs8" id="7CiiQbKkDxn" role="PzmwI">
       <ref role="PrY4T" node="7CiiQbKuR3U" resolve="IRepositoryContent" />
@@ -1098,9 +1067,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="781751828139414889" />
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
-    </node>
-    <node concept="PrWs8" id="FplMliKLlv" role="PzmwI">
-      <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
     </node>
     <node concept="PrWs8" id="FplMliKLYl" role="PzmwI">
       <ref role="PrY4T" node="6OP6D4ZAUWJ" resolve="IIncludeAbleMapsClassConcept" />

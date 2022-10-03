@@ -3392,12 +3392,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="OpUSe0DabF" role="jymVt" />
-    <node concept="3clFb_" id="4LngyNMOK2y" role="jymVt">
-      <property role="TrG5h" value="isNewStyleCmdTermHandling" />
-      <node concept="3clFbS" id="4LngyNMOK2_" role="3clF47" />
-      <node concept="3Tm1VV" id="4LngyNMOK2A" role="1B3o_S" />
-      <node concept="10P_77" id="4LngyNMOJP9" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="7dYuT2dhdWo" role="jymVt">
       <property role="TrG5h" value="handleCmdTermAndClearGeFqName" />
       <node concept="37vLTG" id="OpUSe0GXOu" role="3clF46">
@@ -3689,6 +3683,10 @@
       </node>
       <node concept="QsSxf" id="1du6qEVaZIv" role="Qtgdg">
         <property role="TrG5h" value="BACKGROUND" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="69CNZTml5XT" role="Qtgdg">
+        <property role="TrG5h" value="NEW_STYLE_TERM_HANDLING" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
     </node>

@@ -52919,7 +52919,49 @@
         <node concept="10Oyi0" id="26OSHcxHsVg" role="1tU5fm" />
       </node>
     </node>
-    <node concept="2tJIrI" id="32etEQRuSUB" role="jymVt" />
+    <node concept="2_xi3j" id="69CNZTp5rNu" role="jymVt">
+      <property role="TrG5h" value="testString" />
+      <node concept="1Q8zPT" id="69CNZTp5rNw" role="2_xi3e">
+        <node concept="1PaTwC" id="69CNZTp5rWD" role="2KarBZ">
+          <node concept="3oM_SD" id="69CNZTp5rX$" role="1PaTwD">
+            <property role="3oM_SC" value="SELECT" />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rWV" role="1PaTwD">
+            <property role="3oM_SC" value="NAME," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rWW" role="1PaTwD">
+            <property role="3oM_SC" value="COUNT," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rWX" role="1PaTwD">
+            <property role="3oM_SC" value="NAME," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rWY" role="1PaTwD">
+            <property role="3oM_SC" value="COUNT," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rWZ" role="1PaTwD">
+            <property role="3oM_SC" value="BIG_DECI," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rX0" role="1PaTwD">
+            <property role="3oM_SC" value="LOCAL_DATE," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rX1" role="1PaTwD">
+            <property role="3oM_SC" value="DATE_TIME," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rX2" role="1PaTwD">
+            <property role="3oM_SC" value="STA_STATUS," />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rX3" role="1PaTwD">
+            <property role="3oM_SC" value="REF_ARTICLE" />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rX4" role="1PaTwD">
+            <property role="3oM_SC" value="FROM" />
+          </node>
+          <node concept="3oM_SD" id="69CNZTp5rX5" role="1PaTwD">
+            <property role="3oM_SC" value="MMT_NKVIEWOBJECT" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="DXQ2B" id="32etEQRuSUC" role="jymVt">
       <property role="TrG5h" value="findAllDTOWithValAndRef" />
       <node concept="3Tm1VV" id="26OSHcuW8Qb" role="1B3o_S" />
@@ -52935,45 +52977,8 @@
             <node concept="1pXOCm" id="26OSHcuW9DZ" role="q55Dl">
               <ref role="1pXOCo" node="26OSHcuOdnl" resolve="nkMapperComplex" />
             </node>
-            <node concept="1Q8zPT" id="26OSHcuW8Qi" role="1ea49x">
-              <node concept="1PaTwC" id="7Ys$zjgj2Jg" role="2KarBZ">
-                <node concept="3oM_SD" id="7Ys$zjgj2Jh" role="1PaTwD">
-                  <property role="3oM_SC" value="SELECT" />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qc" role="1PaTwD">
-                  <property role="3oM_SC" value="NAME," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qd" role="1PaTwD">
-                  <property role="3oM_SC" value="COUNT," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qe" role="1PaTwD">
-                  <property role="3oM_SC" value="NAME," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qf" role="1PaTwD">
-                  <property role="3oM_SC" value="COUNT," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qg" role="1PaTwD">
-                  <property role="3oM_SC" value="BIG_DECI," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qh" role="1PaTwD">
-                  <property role="3oM_SC" value="LOCAL_DATE," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qi" role="1PaTwD">
-                  <property role="3oM_SC" value="DATE_TIME," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qj" role="1PaTwD">
-                  <property role="3oM_SC" value="STA_STATUS," />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qk" role="1PaTwD">
-                  <property role="3oM_SC" value="REF_ARTICLE" />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3ql" role="1PaTwD">
-                  <property role="3oM_SC" value="FROM" />
-                </node>
-                <node concept="3oM_SD" id="7Ys$zjgj3qm" role="1PaTwD">
-                  <property role="3oM_SC" value="MMT_NKVIEWOBJECT" />
-                </node>
-              </node>
+            <node concept="wgbQT" id="69CNZTp5s09" role="1ea49x">
+              <ref role="wgbOb" node="69CNZTp5rNu" resolve="testString" />
             </node>
           </node>
         </node>

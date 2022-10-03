@@ -18,7 +18,6 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -55,7 +54,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -1173,12 +1171,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="1TJgyi" id="ao4XGSvQc6" role="1TKVEl">
-      <property role="TrG5h" value="value" />
-      <property role="IQ2nx" value="186921216802513670" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="4dTPSB5$4Z5" role="lGtFl" />
-    </node>
     <node concept="PrWs8" id="ao4XGSvQed" role="PzmwI">
       <ref role="PrY4T" node="ao4XGSvQ0S" resolve="IPagePaneOption" />
     </node>
@@ -1620,6 +1612,17 @@
     </node>
     <node concept="1QGGSu" id="1bKck6PQuA7" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="69CNZTqn4GG">
+    <property role="EcuMT" value="7091146304639486764" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="WideDOption" />
+    <property role="34LRSv" value="WIDE" />
+    <property role="R4oN_" value="hide label if possible" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="69CNZTqn4Lp" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
     </node>
   </node>
 </model>

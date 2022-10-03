@@ -23551,7 +23551,11 @@
                   <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                 </node>
                 <node concept="liA8E" id="4LngyNMPPnz" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:4LngyNMOK2y" resolve="isNewStyleCmdTermHandling" />
+                  <ref role="37wK5l" to="28jr:7yNVvqMRvbo" resolve="hasOption" />
+                  <node concept="Rm8GO" id="69CNZTmmrSp" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:69CNZTml5XT" resolve="NEW_STYLE_TERM_HANDLING" />
+                    <ref role="1Px2BO" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
+                  </node>
                 </node>
               </node>
             </node>

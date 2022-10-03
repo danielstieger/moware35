@@ -10075,37 +10075,6 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="6W_Qo9f2MZJ">
-    <property role="3GE5qa" value="repository" />
-    <ref role="13h7C2" to="r5tz:6W_Qo9f2MZI" resolve="IRepositoryMethod" />
-    <node concept="13hLZK" id="6W_Qo9f2MZK" role="13h7CW">
-      <node concept="3clFbS" id="6W_Qo9f2MZL" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="6W_Qo9f2MZM" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="isReadOnly" />
-      <node concept="3Tm1VV" id="6W_Qo9f2MZN" role="1B3o_S" />
-      <node concept="10P_77" id="6W_Qo9f2MZQ" role="3clF45" />
-      <node concept="3clFbS" id="6W_Qo9f2MZP" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="S3k7ajzR13" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getName" />
-      <node concept="3Tm1VV" id="S3k7ajzR14" role="1B3o_S" />
-      <node concept="17QB3L" id="S3k7ajzR1f" role="3clF45" />
-      <node concept="3clFbS" id="S3k7ajzR16" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="vSWWXEl3uA" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="checkinOrDelete" />
-      <node concept="3Tm1VV" id="vSWWXEl3uB" role="1B3o_S" />
-      <node concept="10P_77" id="vSWWXEl4_v" role="3clF45" />
-      <node concept="3clFbS" id="vSWWXEl3uD" role="3clF47" />
-    </node>
-  </node>
   <node concept="13h7C7" id="3JsUq_Sf9jZ">
     <property role="3GE5qa" value="mapping" />
     <ref role="13h7C2" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
@@ -10959,60 +10928,6 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="4PEV5$Q8Hzp">
-    <property role="3GE5qa" value="repository" />
-    <ref role="13h7C2" to="r5tz:EYyuKpdQjB" resolve="IRepository" />
-    <node concept="13i0hz" id="4PEV5$Q8Isf" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getRepoMethods" />
-      <node concept="3Tm1VV" id="4PEV5$Q8Isg" role="1B3o_S" />
-      <node concept="A3Dl8" id="4PEV5$Q8Ish" role="3clF45">
-        <node concept="3Tqbb2" id="4PEV5$Q8Isi" role="A3Ik2">
-          <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="4PEV5$Q8Isj" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="7vbJIwtfE0x" role="13h7CS">
-      <property role="TrG5h" value="isRepoClass" />
-      <property role="2Ki8OM" value="true" />
-      <node concept="37vLTG" id="7vbJIwtfE0Y" role="3clF46">
-        <property role="TrG5h" value="fqName" />
-        <node concept="17QB3L" id="7vbJIwtfE1c" role="1tU5fm" />
-      </node>
-      <node concept="3Tm1VV" id="7vbJIwtfE0y" role="1B3o_S" />
-      <node concept="10P_77" id="7vbJIwtfE2e" role="3clF45" />
-      <node concept="3clFbS" id="7vbJIwtfE0$" role="3clF47">
-        <node concept="3clFbJ" id="7vbJIwtfE2x" role="3cqZAp">
-          <node concept="2OqwBi" id="7vbJIwtfEoT" role="3clFbw">
-            <node concept="liA8E" id="7vbJIwtfEBr" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="37vLTw" id="7vbJIwtfE2P" role="37wK5m">
-                <ref role="3cqZAo" node="7vbJIwtfE0Y" resolve="fqName" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="7vbJIwtfFTz" role="2Oq$k0">
-              <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.IM3Repository" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="7vbJIwtfE2z" role="3clFbx">
-            <node concept="3cpWs6" id="7vbJIwtfG16" role="3cqZAp">
-              <node concept="3clFbT" id="7vbJIwtfG18" role="3cqZAk">
-                <property role="3clFbU" value="true" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7vbJIwtfG04" role="3cqZAp">
-          <node concept="3clFbT" id="7vbJIwtfG03" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="13hLZK" id="4PEV5$Q8Hzq" role="13h7CW">
-      <node concept="3clFbS" id="4PEV5$Q8Hzr" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="7K21hvEcg1v">
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <ref role="13h7C2" to="r5tz:7K21hvEcg0d" resolve="ISizeSpecified" />
@@ -11539,7 +11454,7 @@
             </node>
             <node concept="2Zo12i" id="qHvcCB4NbW" role="2OqNvi">
               <node concept="chp4Y" id="qHvcCB4Pp3" role="2Zo12j">
-                <ref role="cht4Q" to="r5tz:1Rx6rUSp3_E" resolve="IRepositoryField" />
+                <ref role="cht4Q" to="r5tz:7CiiQbKuR3U" resolve="IRepositoryContent" />
               </node>
             </node>
           </node>
