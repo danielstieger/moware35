@@ -101,8 +101,7 @@
 	<target name="h2forms">
 		<!--     H2 forms settings      -->
 		<property name="h2formsAppLoader"      value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
-  		<property name="h2formsTemplate1"      value="template_leg" /> 
-		<property name="h2formsTemplate2"      value="template_suivant" /> 
+  		<property name="h2formsTemplate2"      value="template_suivant" /> 
 		<property name="h2formsTemplate3"      value="template_suivant2" /> 
 		
 
@@ -128,11 +127,6 @@
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
 			
-		</copy>
-		
-		<mkdir dir="${mowareWorkDir}/static/${h2formsTemplate1}"/>
-		<copy todir="${mowareWorkDir}/static/${h2formsTemplate1}">
-		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate1}/" />
 		</copy>
 	
 		<mkdir dir="${mowareWorkDir}/static/${h2formsTemplate2}"/>
