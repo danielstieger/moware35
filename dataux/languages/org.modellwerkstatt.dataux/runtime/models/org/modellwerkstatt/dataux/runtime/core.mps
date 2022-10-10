@@ -48228,6 +48228,7 @@
               <node concept="2YIFZM" id="4zX5jmVN2hb" role="3clFbG">
                 <ref role="37wK5l" to="28jr:4zX5jmVMHFB" resolve="endRichClientSetup" />
                 <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
+                <node concept="3clFbT" id="6I2imnZtf2H" role="37wK5m" />
               </node>
             </node>
             <node concept="3clFbH" id="4zX5jmVNk5Z" role="3cqZAp" />

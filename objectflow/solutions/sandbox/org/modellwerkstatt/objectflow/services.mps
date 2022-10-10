@@ -7764,8 +7764,8 @@
               <node concept="37vLTw" id="6I2imnXNeKJ" role="37wK5m">
                 <ref role="3cqZAo" node="2w93nZwlg1T" resolve="testName" />
               </node>
-              <node concept="Rm8GO" id="6I2imnZhC1T" role="37wK5m">
-                <ref role="Rm8GQ" to="28jr:2dTopMvfAVl" resolve="DEBUG" />
+              <node concept="Rm8GO" id="6I2imnZjL9m" role="37wK5m">
+                <ref role="Rm8GQ" to="28jr:2dTopMvfBq_" resolve="INFO" />
                 <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
               </node>
               <node concept="37vLTw" id="6I2imnXNeKL" role="37wK5m">

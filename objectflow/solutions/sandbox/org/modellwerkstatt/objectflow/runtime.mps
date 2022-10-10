@@ -2116,7 +2116,7 @@
     <node concept="2tJIrI" id="3J6KGB__don" role="jymVt" />
     <node concept="2tJIrI" id="2UFgF_lMySG" role="jymVt" />
     <node concept="2YIFZL" id="5OLgD$_0Bd" role="jymVt">
-      <property role="TrG5h" value="initialize" />
+      <property role="TrG5h" value="initializeForTestSuit" />
       <node concept="3uibUv" id="3J6KGB_ADdA" role="3clF45">
         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
@@ -2162,6 +2162,9 @@
               <node concept="2YIFZM" id="4zX5jmVN2hb" role="3clFbG">
                 <ref role="37wK5l" node="4zX5jmVMHFB" resolve="endRichClientSetup" />
                 <ref role="1Pybhc" node="2UFgF_pdJvB" resolve="Log4JProperties" />
+                <node concept="3clFbT" id="6I2imnZtrwa" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
               </node>
             </node>
             <node concept="3clFbH" id="5OLgD$_0BX" role="3cqZAp" />
@@ -18212,7 +18215,7 @@
       <node concept="3Tm6S6" id="4zX5jmVM6Z4" role="1B3o_S" />
     </node>
     <node concept="Wx3nA" id="3O5laZYmGry" role="jymVt">
-      <property role="TrG5h" value="mailOrFileInitUsed" />
+      <property role="TrG5h" value="mailOrFileOrSpecialInitUsed" />
       <node concept="10P_77" id="3O5laZYmDhq" role="1tU5fm" />
       <node concept="3Tm6S6" id="3O5laZYmBR$" role="1B3o_S" />
       <node concept="3clFbT" id="3O5laZYmHOW" role="33vP2m" />
@@ -18221,6 +18224,12 @@
     <node concept="2tJIrI" id="2UFgF_pdQtf" role="jymVt" />
     <node concept="2YIFZL" id="4zX5jmVLFBk" role="jymVt">
       <property role="TrG5h" value="initBuilder" />
+      <node concept="37vLTG" id="6I2imnZjfln" role="3clF46">
+        <property role="TrG5h" value="lvl" />
+        <node concept="3uibUv" id="6I2imnZjfRl" role="1tU5fm">
+          <ref role="3uigEE" to="8mad:~Level" resolve="Level" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="4zX5jmVLFBm" role="3clF45" />
       <node concept="3Tm1VV" id="4zX5jmVLFBn" role="1B3o_S" />
       <node concept="3clFbS" id="4zX5jmVLFBo" role="3clF47">
@@ -18251,9 +18260,8 @@
                   </node>
                   <node concept="liA8E" id="4zX5jmVJsbm" role="2OqNvi">
                     <ref role="37wK5l" to="riup:~ConfigurationBuilder.newRootLogger(org.apache.logging.log4j.Level)" resolve="newRootLogger" />
-                    <node concept="10M0yZ" id="3O5laZYmgKN" role="37wK5m">
-                      <ref role="3cqZAo" to="8mad:~Level.ERROR" resolve="ERROR" />
-                      <ref role="1PxDUh" to="8mad:~Level" resolve="Level" />
+                    <node concept="37vLTw" id="6I2imnZjn5A" role="37wK5m">
+                      <ref role="3cqZAo" node="6I2imnZjfln" resolve="lvl" />
                     </node>
                   </node>
                 </node>
@@ -18284,6 +18292,10 @@
         <node concept="3clFbF" id="4zX5jmVLSBe" role="3cqZAp">
           <node concept="1rXfSq" id="4zX5jmVLSBd" role="3clFbG">
             <ref role="37wK5l" node="4zX5jmVLFBk" resolve="initBuilder" />
+            <node concept="10M0yZ" id="3O5laZYmgKN" role="37wK5m">
+              <ref role="1PxDUh" to="8mad:~Level" resolve="Level" />
+              <ref role="3cqZAo" to="8mad:~Level.ERROR" resolve="ERROR" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="4zX5jmVLSSY" role="3cqZAp" />
@@ -18334,6 +18346,10 @@
         <node concept="3clFbF" id="4zX5jmW_vpc" role="3cqZAp">
           <node concept="1rXfSq" id="4zX5jmW_vpa" role="3clFbG">
             <ref role="37wK5l" node="4zX5jmVLFBk" resolve="initBuilder" />
+            <node concept="10M0yZ" id="6I2imnZjpsg" role="37wK5m">
+              <ref role="1PxDUh" to="8mad:~Level" resolve="Level" />
+              <ref role="3cqZAo" to="8mad:~Level.ERROR" resolve="ERROR" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3O5laZYmIPH" role="3cqZAp">
@@ -18342,7 +18358,7 @@
               <property role="3clFbU" value="true" />
             </node>
             <node concept="37vLTw" id="3O5laZYmIPF" role="37vLTJ">
-              <ref role="3cqZAo" node="3O5laZYmGry" resolve="mailOrFileInitUsed" />
+              <ref role="3cqZAo" node="3O5laZYmGry" resolve="mailOrFileOrSpecialInitUsed" />
             </node>
           </node>
         </node>
@@ -18586,6 +18602,10 @@
         <node concept="3clFbF" id="4zX5jmVM4pW" role="3cqZAp">
           <node concept="1rXfSq" id="4zX5jmVM4pU" role="3clFbG">
             <ref role="37wK5l" node="4zX5jmVLFBk" resolve="initBuilder" />
+            <node concept="10M0yZ" id="6I2imnZjqE6" role="37wK5m">
+              <ref role="3cqZAo" to="8mad:~Level.ERROR" resolve="ERROR" />
+              <ref role="1PxDUh" to="8mad:~Level" resolve="Level" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3O5laZYmL6p" role="3cqZAp">
@@ -18594,7 +18614,7 @@
               <property role="3clFbU" value="true" />
             </node>
             <node concept="37vLTw" id="3O5laZYmL6n" role="37vLTJ">
-              <ref role="3cqZAo" node="3O5laZYmGry" resolve="mailOrFileInitUsed" />
+              <ref role="3cqZAo" node="3O5laZYmGry" resolve="mailOrFileOrSpecialInitUsed" />
             </node>
           </node>
         </node>
@@ -18737,6 +18757,10 @@
         <node concept="3clFbF" id="3O5laZYlvTp" role="3cqZAp">
           <node concept="1rXfSq" id="3O5laZYlvTq" role="3clFbG">
             <ref role="37wK5l" node="4zX5jmVLFBk" resolve="initBuilder" />
+            <node concept="10M0yZ" id="6I2imnZjs1Y" role="37wK5m">
+              <ref role="3cqZAo" to="8mad:~Level.ERROR" resolve="ERROR" />
+              <ref role="1PxDUh" to="8mad:~Level" resolve="Level" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="3O5laZYlvTr" role="3cqZAp" />
@@ -18865,6 +18889,161 @@
       </node>
       <node concept="3cqZAl" id="3O5laZYlvUd" role="3clF45" />
       <node concept="3Tm6S6" id="3O5laZYlvUe" role="1B3o_S" />
+    </node>
+    <node concept="2YIFZL" id="6I2imnZiAxj" role="jymVt">
+      <property role="TrG5h" value="addlog4jTestSuitProperties" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="6I2imnZsO1S" role="3clF46">
+        <property role="TrG5h" value="pattern" />
+        <node concept="17QB3L" id="6I2imnZsO2u" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6I2imnZiAxk" role="3clF47">
+        <node concept="3clFbF" id="6I2imnZiAxl" role="3cqZAp">
+          <node concept="1rXfSq" id="6I2imnZiAxm" role="3clFbG">
+            <ref role="37wK5l" node="4zX5jmVLFBk" resolve="initBuilder" />
+            <node concept="10M0yZ" id="6I2imnZjOhH" role="37wK5m">
+              <ref role="3cqZAo" to="8mad:~Level.INFO" resolve="INFO" />
+              <ref role="1PxDUh" to="8mad:~Level" resolve="Level" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6I2imnZiDc$" role="3cqZAp">
+          <node concept="37vLTI" id="6I2imnZiE2_" role="3clFbG">
+            <node concept="3clFbT" id="6I2imnZiEaG" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="6I2imnZiDcy" role="37vLTJ">
+              <ref role="3cqZAo" node="3O5laZYmGry" resolve="mailOrFileOrSpecialInitUsed" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6I2imnZiAxn" role="3cqZAp" />
+        <node concept="3cpWs8" id="6I2imnZiAxo" role="3cqZAp">
+          <node concept="3cpWsn" id="6I2imnZiAxp" role="3cpWs9">
+            <property role="TrG5h" value="console" />
+            <node concept="3uibUv" id="6I2imnZiAxq" role="1tU5fm">
+              <ref role="3uigEE" to="riup:~AppenderComponentBuilder" resolve="AppenderComponentBuilder" />
+            </node>
+            <node concept="2OqwBi" id="6I2imnZiAxr" role="33vP2m">
+              <node concept="37vLTw" id="6I2imnZiAxs" role="2Oq$k0">
+                <ref role="3cqZAo" node="4zX5jmVLI7c" resolve="log4jConfigBuilder" />
+              </node>
+              <node concept="liA8E" id="6I2imnZiAxt" role="2OqNvi">
+                <ref role="37wK5l" to="riup:~ConfigurationBuilder.newAppender(java.lang.String,java.lang.String)" resolve="newAppender" />
+                <node concept="Xl_RD" id="6I2imnZiAxu" role="37wK5m">
+                  <property role="Xl_RC" value="console" />
+                </node>
+                <node concept="Xl_RD" id="6I2imnZiAxv" role="37wK5m">
+                  <property role="Xl_RC" value="Console" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6I2imnZiAxw" role="3cqZAp">
+          <node concept="2OqwBi" id="6I2imnZiAxx" role="3clFbG">
+            <node concept="37vLTw" id="6I2imnZiAxy" role="2Oq$k0">
+              <ref role="3cqZAo" node="6I2imnZiAxp" resolve="console" />
+            </node>
+            <node concept="liA8E" id="6I2imnZiAxz" role="2OqNvi">
+              <ref role="37wK5l" to="riup:~ComponentBuilder.addAttribute(java.lang.String,java.lang.String)" resolve="addAttribute" />
+              <node concept="Xl_RD" id="6I2imnZiAx$" role="37wK5m">
+                <property role="Xl_RC" value="target" />
+              </node>
+              <node concept="Xl_RD" id="6I2imnZiAx_" role="37wK5m">
+                <property role="Xl_RC" value="SYSTEM_OUT" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6I2imnZiAxA" role="3cqZAp" />
+        <node concept="3cpWs8" id="6I2imnZiAxB" role="3cqZAp">
+          <node concept="3cpWsn" id="6I2imnZiAxC" role="3cpWs9">
+            <property role="TrG5h" value="layout" />
+            <node concept="3uibUv" id="6I2imnZiAxD" role="1tU5fm">
+              <ref role="3uigEE" to="riup:~LayoutComponentBuilder" resolve="LayoutComponentBuilder" />
+            </node>
+            <node concept="2OqwBi" id="6I2imnZiAxE" role="33vP2m">
+              <node concept="37vLTw" id="6I2imnZiAxF" role="2Oq$k0">
+                <ref role="3cqZAo" node="4zX5jmVLI7c" resolve="log4jConfigBuilder" />
+              </node>
+              <node concept="liA8E" id="6I2imnZiAxG" role="2OqNvi">
+                <ref role="37wK5l" to="riup:~ConfigurationBuilder.newLayout(java.lang.String)" resolve="newLayout" />
+                <node concept="Xl_RD" id="6I2imnZiAxH" role="37wK5m">
+                  <property role="Xl_RC" value="PatternLayout" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6I2imnZiAxI" role="3cqZAp">
+          <node concept="2OqwBi" id="6I2imnZiAxJ" role="3clFbG">
+            <node concept="37vLTw" id="6I2imnZiAxK" role="2Oq$k0">
+              <ref role="3cqZAo" node="6I2imnZiAxC" resolve="layout" />
+            </node>
+            <node concept="liA8E" id="6I2imnZiAxL" role="2OqNvi">
+              <ref role="37wK5l" to="riup:~ComponentBuilder.addAttribute(java.lang.String,java.lang.String)" resolve="addAttribute" />
+              <node concept="Xl_RD" id="6I2imnZiAxM" role="37wK5m">
+                <property role="Xl_RC" value="pattern" />
+              </node>
+              <node concept="37vLTw" id="6I2imnZsPrP" role="37wK5m">
+                <ref role="3cqZAo" node="6I2imnZsO1S" resolve="pattern" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6I2imnZiAxO" role="3cqZAp">
+          <node concept="2OqwBi" id="6I2imnZiAxP" role="3clFbG">
+            <node concept="37vLTw" id="6I2imnZiAxQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="6I2imnZiAxp" resolve="console" />
+            </node>
+            <node concept="liA8E" id="6I2imnZiAxR" role="2OqNvi">
+              <ref role="37wK5l" to="riup:~AppenderComponentBuilder.add(org.apache.logging.log4j.core.config.builder.api.LayoutComponentBuilder)" resolve="add" />
+              <node concept="37vLTw" id="6I2imnZiAxS" role="37wK5m">
+                <ref role="3cqZAo" node="6I2imnZiAxC" resolve="layout" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6I2imnZiAxT" role="3cqZAp" />
+        <node concept="3clFbF" id="6I2imnZiAxU" role="3cqZAp">
+          <node concept="2OqwBi" id="6I2imnZiAxV" role="3clFbG">
+            <node concept="37vLTw" id="6I2imnZiAxW" role="2Oq$k0">
+              <ref role="3cqZAo" node="4zX5jmVLI7c" resolve="log4jConfigBuilder" />
+            </node>
+            <node concept="liA8E" id="6I2imnZiAxX" role="2OqNvi">
+              <ref role="37wK5l" to="riup:~ConfigurationBuilder.add(org.apache.logging.log4j.core.config.builder.api.AppenderComponentBuilder)" resolve="add" />
+              <node concept="37vLTw" id="6I2imnZiAxY" role="37wK5m">
+                <ref role="3cqZAo" node="6I2imnZiAxp" resolve="console" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6I2imnZiAxZ" role="3cqZAp">
+          <node concept="2OqwBi" id="6I2imnZiAy0" role="3clFbG">
+            <node concept="37vLTw" id="6I2imnZiAy1" role="2Oq$k0">
+              <ref role="3cqZAo" node="4zX5jmVM6Z1" resolve="rootLoggerBuilder" />
+            </node>
+            <node concept="liA8E" id="6I2imnZiAy2" role="2OqNvi">
+              <ref role="37wK5l" to="riup:~LoggableComponentBuilder.add(org.apache.logging.log4j.core.config.builder.api.AppenderRefComponentBuilder)" resolve="add" />
+              <node concept="2OqwBi" id="6I2imnZiAy3" role="37wK5m">
+                <node concept="37vLTw" id="6I2imnZiAy4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4zX5jmVLI7c" resolve="log4jConfigBuilder" />
+                </node>
+                <node concept="liA8E" id="6I2imnZiAy5" role="2OqNvi">
+                  <ref role="37wK5l" to="riup:~ConfigurationBuilder.newAppenderRef(java.lang.String)" resolve="newAppenderRef" />
+                  <node concept="Xl_RD" id="6I2imnZiAy6" role="37wK5m">
+                    <property role="Xl_RC" value="console" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6I2imnZiAy7" role="3clF45" />
+      <node concept="3Tm6S6" id="6I2imnZiAy8" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="2UFgF_pdMc_" role="jymVt" />
     <node concept="2tJIrI" id="7su1OqB80yg" role="jymVt" />
@@ -19138,24 +19317,58 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="endRichClientSetup" />
+      <node concept="37vLTG" id="6I2imnZsJaC" role="3clF46">
+        <property role="TrG5h" value="forTestSuit" />
+        <node concept="10P_77" id="6I2imnZsJHt" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="4zX5jmVMHFC" role="3clF47">
-        <node concept="3clFbF" id="4zX5jmVMJAg" role="3cqZAp">
-          <node concept="1rXfSq" id="4zX5jmVMJAe" role="3clFbG">
-            <ref role="37wK5l" node="4zX5jmVLFBk" resolve="initBuilder" />
-          </node>
-        </node>
         <node concept="3clFbH" id="4zX5jmW$W1Z" role="3cqZAp" />
         <node concept="3clFbJ" id="3O5laZYmY1T" role="3cqZAp">
           <node concept="3clFbS" id="3O5laZYmY1V" role="3clFbx">
-            <node concept="3clFbF" id="3O5laZYlCbl" role="3cqZAp">
-              <node concept="1rXfSq" id="3O5laZYlCbj" role="3clFbG">
-                <ref role="37wK5l" node="3O5laZYlvTn" resolve="addlog4jConsoleProperties" />
+            <node concept="3clFbJ" id="6I2imnZsL0Y" role="3cqZAp">
+              <node concept="3clFbS" id="6I2imnZsL10" role="3clFbx">
+                <node concept="3clFbF" id="3O5laZYlCbl" role="3cqZAp">
+                  <node concept="1rXfSq" id="3O5laZYlCbj" role="3clFbG">
+                    <ref role="37wK5l" node="3O5laZYlvTn" resolve="addlog4jConsoleProperties" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="6I2imnZsLyO" role="3clFbw">
+                <node concept="37vLTw" id="6I2imnZsLyQ" role="3fr31v">
+                  <ref role="3cqZAo" node="6I2imnZsJaC" resolve="forTestSuit" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="6I2imnZsNfW" role="9aQIa">
+                <node concept="3clFbS" id="6I2imnZsNfX" role="9aQI4">
+                  <node concept="3clFbF" id="6I2imnZsNkH" role="3cqZAp">
+                    <node concept="1rXfSq" id="6I2imnZsNkG" role="3clFbG">
+                      <ref role="37wK5l" node="6I2imnZiAxj" resolve="addlog4jTestSuitProperties" />
+                      <node concept="Xl_RD" id="6I2imnZiZdW" role="37wK5m">
+                        <property role="Xl_RC" value="%m%n" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
+            <node concept="3clFbH" id="6I2imo03um6" role="3cqZAp" />
           </node>
           <node concept="3fqX7Q" id="3O5laZYmYKN" role="3clFbw">
             <node concept="37vLTw" id="3O5laZYmZ8V" role="3fr31v">
-              <ref role="3cqZAo" node="3O5laZYmGry" resolve="mailOrFileInitUsed" />
+              <ref role="3cqZAo" node="3O5laZYmGry" resolve="mailOrFileOrSpecialInitUsed" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="6I2imo03rsF" role="9aQIa">
+            <node concept="3clFbS" id="6I2imo03rsG" role="9aQI4">
+              <node concept="3clFbF" id="4zX5jmVMJAg" role="3cqZAp">
+                <node concept="1rXfSq" id="4zX5jmVMJAe" role="3clFbG">
+                  <ref role="37wK5l" node="4zX5jmVLFBk" resolve="initBuilder" />
+                  <node concept="10M0yZ" id="6I2imnZjvRG" role="37wK5m">
+                    <ref role="3cqZAo" to="8mad:~Level.ERROR" resolve="ERROR" />
+                    <ref role="1PxDUh" to="8mad:~Level" resolve="Level" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

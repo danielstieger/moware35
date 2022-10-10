@@ -17149,29 +17149,29 @@
       <node concept="3cqZAl" id="2w93nZwjL5N" role="3clF45" />
       <node concept="3Tm1VV" id="2w93nZwjL5O" role="1B3o_S" />
       <node concept="3clFbS" id="2w93nZwjL5P" role="3clF47">
-        <node concept="3cpWs8" id="6I2imnYjkir" role="3cqZAp">
-          <node concept="3cpWsn" id="6I2imnYjkis" role="3cpWs9">
+        <node concept="3cpWs8" id="6I2imnZPNk9" role="3cqZAp">
+          <node concept="3cpWsn" id="6I2imnZPNka" role="3cpWs9">
             <property role="TrG5h" value="__manMapSession" />
-            <node concept="3uibUv" id="6I2imnYjkit" role="1tU5fm">
+            <node concept="3uibUv" id="6I2imnZPNkb" role="1tU5fm">
               <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
             </node>
-            <node concept="2OqwBi" id="6I2imnYjkiu" role="33vP2m">
-              <node concept="37vLTw" id="6I2imnYjkiv" role="2Oq$k0">
+            <node concept="2OqwBi" id="6I2imnZPNkc" role="33vP2m">
+              <node concept="37vLTw" id="6I2imnZPNkd" role="2Oq$k0">
                 <ref role="3cqZAo" node="2KwTCJyovtB" resolve="__localApplicationFactory" />
               </node>
-              <node concept="liA8E" id="6I2imnYjkiw" role="2OqNvi">
+              <node concept="liA8E" id="6I2imnZPNke" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
-                <node concept="37vLTw" id="6I2imnYjkix" role="37wK5m">
+                <node concept="37vLTw" id="6I2imnZPNkf" role="37wK5m">
                   <ref role="3cqZAo" node="6U6qQMZCQic" resolve="__userEnvironment" />
                 </node>
-                <node concept="37vLTw" id="6I2imnYjkiy" role="37wK5m">
+                <node concept="37vLTw" id="6I2imnZPNkg" role="37wK5m">
                   <ref role="3cqZAo" node="6cn6oSwfFa6" resolve="__userServices" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6I2imnYjjp0" role="3cqZAp" />
+        <node concept="3clFbH" id="6I2imnZPMvh" role="3cqZAp" />
         <node concept="3clFbJ" id="4_xNQNe01vc" role="3cqZAp">
           <node concept="3clFbS" id="4_xNQNe01ve" role="3clFbx">
             <node concept="3clFbF" id="4_xNQNe04r8" role="3cqZAp">
@@ -18228,29 +18228,29 @@
       <node concept="3cqZAl" id="7ECLRBgEagv" role="3clF45" />
       <node concept="3Tm1VV" id="7ECLRBgEagw" role="1B3o_S" />
       <node concept="3clFbS" id="7ECLRBgEagx" role="3clF47">
-        <node concept="3cpWs8" id="6I2imnYjlN5" role="3cqZAp">
-          <node concept="3cpWsn" id="6I2imnYjlN6" role="3cpWs9">
+        <node concept="3cpWs8" id="6I2imnZPOk5" role="3cqZAp">
+          <node concept="3cpWsn" id="6I2imnZPOk6" role="3cpWs9">
             <property role="TrG5h" value="__manMapSession" />
-            <node concept="3uibUv" id="6I2imnYjlN7" role="1tU5fm">
+            <node concept="3uibUv" id="6I2imnZPOk7" role="1tU5fm">
               <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
             </node>
-            <node concept="2OqwBi" id="6I2imnYjlN8" role="33vP2m">
-              <node concept="37vLTw" id="6I2imnYjlN9" role="2Oq$k0">
+            <node concept="2OqwBi" id="6I2imnZPOk8" role="33vP2m">
+              <node concept="37vLTw" id="6I2imnZPOk9" role="2Oq$k0">
                 <ref role="3cqZAo" node="2KwTCJyovtB" resolve="__localApplicationFactory" />
               </node>
-              <node concept="liA8E" id="6I2imnYjlNa" role="2OqNvi">
+              <node concept="liA8E" id="6I2imnZPOka" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
-                <node concept="37vLTw" id="6I2imnYjlNb" role="37wK5m">
+                <node concept="37vLTw" id="6I2imnZPOkb" role="37wK5m">
                   <ref role="3cqZAo" node="6U6qQMZCQic" resolve="__userEnvironment" />
                 </node>
-                <node concept="37vLTw" id="6I2imnYjlNc" role="37wK5m">
+                <node concept="37vLTw" id="6I2imnZPOkc" role="37wK5m">
                   <ref role="3cqZAo" node="6cn6oSwfFa6" resolve="__userServices" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6I2imnYjljm" role="3cqZAp" />
+        <node concept="3clFbH" id="6I2imnZPOjN" role="3cqZAp" />
         <node concept="3clFbF" id="2w93nZwhaT$" role="3cqZAp">
           <node concept="2OqwBi" id="2w93nZwhaTx" role="3clFbG">
             <node concept="10M0yZ" id="2w93nZwhaTy" role="2Oq$k0">
@@ -18903,7 +18903,7 @@
                   </node>
                   <node concept="2YIFZM" id="7ECLRBgCPrJ" role="10QFUP">
                     <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                    <ref role="37wK5l" to="28jr:5OLgD$_0Bd" resolve="initialize" />
+                    <ref role="37wK5l" to="28jr:5OLgD$_0Bd" resolve="initializeForTestSuit" />
                     <node concept="37vLTw" id="4AdkG1USmzp" role="37wK5m">
                       <ref role="3cqZAo" node="4AdkG1USjsl" resolve="CONFIGFILE_PATH" />
                     </node>
