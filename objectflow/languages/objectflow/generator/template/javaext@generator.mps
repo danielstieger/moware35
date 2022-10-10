@@ -2586,6 +2586,12 @@
       <node concept="2tJIrI" id="2w93nZwoWnT" role="jymVt" />
       <node concept="3clFb_" id="2w93nZwoWn$" role="jymVt">
         <property role="TrG5h" value="method" />
+        <node concept="37vLTG" id="6I2imnYsmwM" role="3clF46">
+          <property role="TrG5h" value="__manMapSession" />
+          <node concept="3uibUv" id="6zTm1h90mRR" role="1tU5fm">
+            <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+          </node>
+        </node>
         <node concept="37vLTG" id="2w93nZwDyfI" role="3clF46">
           <property role="TrG5h" value="__testSuitHandler" />
           <node concept="3uibUv" id="2w93nZwDyiR" role="1tU5fm">
@@ -2626,6 +2632,9 @@
                   </node>
                   <node concept="liA8E" id="72pStkQ3qEN" role="2OqNvi">
                     <ref role="37wK5l" to="gyq6:2w93nZwlfrf" resolve="debug" />
+                    <node concept="37vLTw" id="6I2imnYsmWE" role="37wK5m">
+                      <ref role="3cqZAo" node="6I2imnYsmwM" resolve="__manMapSession" />
+                    </node>
                     <node concept="Xl_RD" id="72pStkQ3qEO" role="37wK5m">
                       <property role="Xl_RC" value="methodName" />
                       <node concept="17Uvod" id="72pStkQ3qEP" role="lGtFl">
@@ -3011,7 +3020,7 @@
                                             <ref role="3cqZAo" node="6t$pRS5I4bl" resolve="problem" />
                                           </node>
                                           <node concept="liA8E" id="6t$pRS5IdS8" role="2OqNvi">
-                                            <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleText_Lgcy" />
+                                            <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleUserText" />
                                           </node>
                                         </node>
                                       </node>
@@ -3040,7 +3049,7 @@
                                           <ref role="3cqZAo" node="6t$pRS5I4bl" resolve="problem" />
                                         </node>
                                         <node concept="liA8E" id="6t$pRS5I4R2" role="2OqNvi">
-                                          <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleText_Lgcy" />
+                                          <ref role="37wK5l" to="28jr:7VbqtSRQEbP" resolve="getSimpleUserText" />
                                         </node>
                                       </node>
                                       <node concept="liA8E" id="6t$pRS5I4ZX" role="2OqNvi">
@@ -3233,6 +3242,9 @@
                             </node>
                             <node concept="liA8E" id="7Z3mGVdEhO1" role="2OqNvi">
                               <ref role="37wK5l" to="gyq6:2w93nZwlfrf" resolve="debug" />
+                              <node concept="37vLTw" id="6I2imnYRdP3" role="37wK5m">
+                                <ref role="3cqZAo" node="6t$pRS5I3ze" resolve="__manMapSession" />
+                              </node>
                               <node concept="Xl_RD" id="7Z3mGVdEhO2" role="37wK5m">
                                 <property role="Xl_RC" value="methodName" />
                                 <node concept="17Uvod" id="7Z3mGVdEhO3" role="lGtFl">

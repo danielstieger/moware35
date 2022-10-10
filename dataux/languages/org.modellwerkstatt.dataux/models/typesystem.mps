@@ -4380,125 +4380,82 @@
     <property role="TrG5h" value="check_EditableDOption" />
     <property role="3GE5qa" value="delegates.options" />
     <node concept="3clFbS" id="21Qe5t1ZTpw" role="18ibNy">
-      <node concept="3cpWs8" id="21Qe5t1ZTAP" role="3cqZAp">
-        <node concept="3cpWsn" id="21Qe5t1ZTAS" role="3cpWs9">
-          <property role="TrG5h" value="tbl" />
-          <node concept="3Tqbb2" id="21Qe5t1ZTAN" role="1tU5fm">
-            <ref role="ehGHo" to="1btx:6MSPLZmFnKD" resolve="Table" />
+      <node concept="3cpWs8" id="21Qe5t1ZUxS" role="3cqZAp">
+        <node concept="3cpWsn" id="21Qe5t1ZUxV" role="3cpWs9">
+          <property role="TrG5h" value="delegate" />
+          <node concept="3Tqbb2" id="21Qe5t1ZUxR" role="1tU5fm">
+            <ref role="ehGHo" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
           </node>
-          <node concept="2OqwBi" id="21Qe5t1ZTEw" role="33vP2m">
-            <node concept="1YBJjd" id="21Qe5t1ZTCo" role="2Oq$k0">
+          <node concept="1PxgMI" id="21Qe5t1ZUJH" role="33vP2m">
+            <node concept="2OqwBi" id="21Qe5t1ZU_c" role="1m5AlR">
+              <node concept="1YBJjd" id="21Qe5t1ZUzb" role="2Oq$k0">
+                <ref role="1YBMHb" node="21Qe5t1ZTpy" resolve="editableDOption" />
+              </node>
+              <node concept="1mfA1w" id="21Qe5t1ZUEK" role="2OqNvi" />
+            </node>
+            <node concept="chp4Y" id="1ZEzZmq2eRW" role="3oSUPX">
+              <ref role="cht4Q" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="21Qe5t1ZWnU" role="3cqZAp" />
+      <node concept="3clFbJ" id="21Qe5t1ZUNg" role="3cqZAp">
+        <node concept="3clFbS" id="21Qe5t1ZUNi" role="3clFbx">
+          <node concept="2MkqsV" id="21Qe5t1ZV$w" role="3cqZAp">
+            <node concept="Xl_RD" id="21Qe5t1ZV$J" role="2MkJ7o">
+              <property role="Xl_RC" value="Editable option can only be used for Status delegates or BigDecimal delegates." />
+            </node>
+            <node concept="1YBJjd" id="21Qe5t1ZVCX" role="1urrMF">
               <ref role="1YBMHb" node="21Qe5t1ZTpy" resolve="editableDOption" />
             </node>
-            <node concept="2Xjw5R" id="21Qe5t1ZTLC" role="2OqNvi">
-              <node concept="1xMEDy" id="21Qe5t1ZTLE" role="1xVPHs">
-                <node concept="chp4Y" id="21Qe5t1ZTMJ" role="ri$Ld">
-                  <ref role="cht4Q" to="1btx:6MSPLZmFnKD" resolve="Table" />
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="21Qe5t1ZVxj" role="3clFbw">
+          <node concept="1eOMI4" id="21Qe5t1ZVxl" role="3fr31v">
+            <node concept="22lmx$" id="21Qe5t1ZVxm" role="1eOMHV">
+              <node concept="2OqwBi" id="21Qe5t1ZVxn" role="3uHU7w">
+                <node concept="37vLTw" id="21Qe5t1ZVxo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
+                </node>
+                <node concept="1mIQ4w" id="21Qe5t1ZVxp" role="2OqNvi">
+                  <node concept="chp4Y" id="21Qe5t1ZVxq" role="cj9EA">
+                    <ref role="cht4Q" to="1btx:1h$q6rwn4fL" resolve="BigDecimalDelegate" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="21Qe5t1ZVxr" role="3uHU7B">
+                <node concept="37vLTw" id="21Qe5t1ZVxs" role="2Oq$k0">
+                  <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
+                </node>
+                <node concept="1mIQ4w" id="21Qe5t1ZVxt" role="2OqNvi">
+                  <node concept="chp4Y" id="21Qe5t1ZVxu" role="cj9EA">
+                    <ref role="cht4Q" to="1btx:3ouNayfF_el" resolve="StatusDelegate" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="3clFbJ" id="21Qe5t1ZU63" role="3cqZAp">
-        <node concept="3clFbS" id="21Qe5t1ZU65" role="3clFbx">
-          <node concept="2MkqsV" id="21Qe5t1ZUq2" role="3cqZAp">
-            <node concept="Xl_RD" id="21Qe5t1ZUqo" role="2MkJ7o">
-              <property role="Xl_RC" value="Editable option can only be used within Tables." />
+      <node concept="3clFbH" id="21Qe5t1ZWm6" role="3cqZAp" />
+      <node concept="3clFbJ" id="21Qe5t1ZVEp" role="3cqZAp">
+        <node concept="3clFbS" id="21Qe5t1ZVEr" role="3clFbx">
+          <node concept="2MkqsV" id="21Qe5t1ZWiD" role="3cqZAp">
+            <node concept="Xl_RD" id="21Qe5t1ZWiZ" role="2MkJ7o">
+              <property role="Xl_RC" value="Editable delegates can not be folded." />
             </node>
-            <node concept="1YBJjd" id="21Qe5t1ZUuV" role="1urrMF">
-              <ref role="1YBMHb" node="21Qe5t1ZTpy" resolve="editableDOption" />
+            <node concept="37vLTw" id="21Qe5t1ZWlm" role="1urrMF">
+              <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
             </node>
           </node>
-          <node concept="3clFbH" id="21Qe5t1ZUx$" role="3cqZAp" />
         </node>
-        <node concept="2OqwBi" id="21Qe5t1ZUcA" role="3clFbw">
-          <node concept="37vLTw" id="21Qe5t1ZU73" role="2Oq$k0">
-            <ref role="3cqZAo" node="21Qe5t1ZTAS" resolve="tbl" />
+        <node concept="2OqwBi" id="21Qe5t1ZVHh" role="3clFbw">
+          <node concept="37vLTw" id="21Qe5t1ZVFk" role="2Oq$k0">
+            <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
           </node>
-          <node concept="3w_OXm" id="21Qe5t1ZUow" role="2OqNvi" />
-        </node>
-        <node concept="9aQIb" id="21Qe5t1ZUvv" role="9aQIa">
-          <node concept="3clFbS" id="21Qe5t1ZUvw" role="9aQI4">
-            <node concept="3cpWs8" id="21Qe5t1ZUxS" role="3cqZAp">
-              <node concept="3cpWsn" id="21Qe5t1ZUxV" role="3cpWs9">
-                <property role="TrG5h" value="delegate" />
-                <node concept="3Tqbb2" id="21Qe5t1ZUxR" role="1tU5fm">
-                  <ref role="ehGHo" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
-                </node>
-                <node concept="1PxgMI" id="21Qe5t1ZUJH" role="33vP2m">
-                  <node concept="2OqwBi" id="21Qe5t1ZU_c" role="1m5AlR">
-                    <node concept="1YBJjd" id="21Qe5t1ZUzb" role="2Oq$k0">
-                      <ref role="1YBMHb" node="21Qe5t1ZTpy" resolve="editableDOption" />
-                    </node>
-                    <node concept="1mfA1w" id="21Qe5t1ZUEK" role="2OqNvi" />
-                  </node>
-                  <node concept="chp4Y" id="1ZEzZmq2eRW" role="3oSUPX">
-                    <ref role="cht4Q" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="21Qe5t1ZWnU" role="3cqZAp" />
-            <node concept="3clFbJ" id="21Qe5t1ZUNg" role="3cqZAp">
-              <node concept="3clFbS" id="21Qe5t1ZUNi" role="3clFbx">
-                <node concept="2MkqsV" id="21Qe5t1ZV$w" role="3cqZAp">
-                  <node concept="Xl_RD" id="21Qe5t1ZV$J" role="2MkJ7o">
-                    <property role="Xl_RC" value="Editable option can only be used for Status delegates or BigDecimal delegates." />
-                  </node>
-                  <node concept="1YBJjd" id="21Qe5t1ZVCX" role="1urrMF">
-                    <ref role="1YBMHb" node="21Qe5t1ZTpy" resolve="editableDOption" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3fqX7Q" id="21Qe5t1ZVxj" role="3clFbw">
-                <node concept="1eOMI4" id="21Qe5t1ZVxl" role="3fr31v">
-                  <node concept="22lmx$" id="21Qe5t1ZVxm" role="1eOMHV">
-                    <node concept="2OqwBi" id="21Qe5t1ZVxn" role="3uHU7w">
-                      <node concept="37vLTw" id="21Qe5t1ZVxo" role="2Oq$k0">
-                        <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
-                      </node>
-                      <node concept="1mIQ4w" id="21Qe5t1ZVxp" role="2OqNvi">
-                        <node concept="chp4Y" id="21Qe5t1ZVxq" role="cj9EA">
-                          <ref role="cht4Q" to="1btx:1h$q6rwn4fL" resolve="BigDecimalDelegate" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2OqwBi" id="21Qe5t1ZVxr" role="3uHU7B">
-                      <node concept="37vLTw" id="21Qe5t1ZVxs" role="2Oq$k0">
-                        <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
-                      </node>
-                      <node concept="1mIQ4w" id="21Qe5t1ZVxt" role="2OqNvi">
-                        <node concept="chp4Y" id="21Qe5t1ZVxu" role="cj9EA">
-                          <ref role="cht4Q" to="1btx:3ouNayfF_el" resolve="StatusDelegate" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="21Qe5t1ZWm6" role="3cqZAp" />
-            <node concept="3clFbJ" id="21Qe5t1ZVEp" role="3cqZAp">
-              <node concept="3clFbS" id="21Qe5t1ZVEr" role="3clFbx">
-                <node concept="2MkqsV" id="21Qe5t1ZWiD" role="3cqZAp">
-                  <node concept="Xl_RD" id="21Qe5t1ZWiZ" role="2MkJ7o">
-                    <property role="Xl_RC" value="Editable delegates can not be folded." />
-                  </node>
-                  <node concept="37vLTw" id="21Qe5t1ZWlm" role="1urrMF">
-                    <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="21Qe5t1ZVHh" role="3clFbw">
-                <node concept="37vLTw" id="21Qe5t1ZVFk" role="2Oq$k0">
-                  <ref role="3cqZAo" node="21Qe5t1ZUxV" resolve="delegate" />
-                </node>
-                <node concept="2qgKlT" id="21Qe5t1ZWhx" role="2OqNvi">
-                  <ref role="37wK5l" to="5y3p:7vQ8h9wqDTZ" resolve="isFold" />
-                </node>
-              </node>
-            </node>
+          <node concept="2qgKlT" id="21Qe5t1ZWhx" role="2OqNvi">
+            <ref role="37wK5l" to="5y3p:7vQ8h9wqDTZ" resolve="isFold" />
           </node>
         </node>
       </node>

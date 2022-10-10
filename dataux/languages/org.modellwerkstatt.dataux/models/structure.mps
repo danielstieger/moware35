@@ -1625,5 +1625,19 @@
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6I2imnXDra8">
+    <property role="EcuMT" value="7746835011426693768" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="StatusLongDescDOption" />
+    <property role="34LRSv" value="LONG DESC" />
+    <property role="R4oN_" value="use long descriptions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6I2imnXDra9" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+    <node concept="1QGGSu" id="6I2imnXDHwr" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
 </model>
 
