@@ -36510,41 +36510,76 @@
                               <node concept="3Tm1VV" id="3YbyKXcJv8r" role="1B3o_S" />
                               <node concept="3cqZAl" id="3YbyKXcJv8s" role="3clF45" />
                               <node concept="3clFbS" id="3YbyKXcJv8t" role="3clF47">
-                                <node concept="3clFbF" id="3YbyKXcJv8u" role="3cqZAp">
-                                  <node concept="2OqwBi" id="3YbyKXcJv8v" role="3clFbG">
-                                    <node concept="2OqwBi" id="3YbyKXcJv8w" role="2Oq$k0">
-                                      <node concept="Xjq3P" id="3YbyKXcJv8x" role="2Oq$k0">
-                                        <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
-                                      </node>
-                                      <node concept="liA8E" id="3YbyKXcJv8y" role="2OqNvi">
-                                        <ref role="37wK5l" to="rb41:~TableCell.getTableView()" resolve="getTableView" />
+                                <node concept="3cpWs8" id="6I2imo0fojS" role="3cqZAp">
+                                  <node concept="3cpWsn" id="6I2imo0fojT" role="3cpWs9">
+                                    <property role="TrG5h" value="columnList" />
+                                    <node concept="3uibUv" id="6I2imo0fojU" role="1tU5fm">
+                                      <ref role="3uigEE" to="os9n:~ObservableList" resolve="ObservableList" />
+                                      <node concept="3uibUv" id="6I2imo0fAph" role="11_B2D">
+                                        <ref role="3uigEE" to="rb41:~TableColumn" resolve="TableColumn" />
+                                        <node concept="16syzq" id="6I2imo0fApi" role="11_B2D">
+                                          <ref role="16sUi3" node="7fo5K04jqyR" resolve="T" />
+                                        </node>
+                                        <node concept="3qTvmN" id="6I2imo0fApj" role="11_B2D" />
                                       </node>
                                     </node>
-                                    <node concept="liA8E" id="3YbyKXcJv8z" role="2OqNvi">
-                                      <ref role="37wK5l" to="rb41:~TableView.edit(int,javafx.scene.control.TableColumn)" resolve="edit" />
-                                      <node concept="37vLTw" id="3YbyKXcJv8$" role="37wK5m">
-                                        <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
+                                    <node concept="2OqwBi" id="3YbyKXcJv8A" role="33vP2m">
+                                      <node concept="2OqwBi" id="3YbyKXcJv8B" role="2Oq$k0">
+                                        <node concept="Xjq3P" id="3YbyKXcJv8C" role="2Oq$k0">
+                                          <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
+                                        </node>
+                                        <node concept="liA8E" id="3YbyKXcJv8D" role="2OqNvi">
+                                          <ref role="37wK5l" to="rb41:~TableCell.getTableView()" resolve="getTableView" />
+                                        </node>
                                       </node>
-                                      <node concept="2OqwBi" id="3YbyKXcJv8_" role="37wK5m">
-                                        <node concept="2OqwBi" id="3YbyKXcJv8A" role="2Oq$k0">
-                                          <node concept="2OqwBi" id="3YbyKXcJv8B" role="2Oq$k0">
-                                            <node concept="Xjq3P" id="3YbyKXcJv8C" role="2Oq$k0">
-                                              <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
-                                            </node>
-                                            <node concept="liA8E" id="3YbyKXcJv8D" role="2OqNvi">
-                                              <ref role="37wK5l" to="rb41:~TableCell.getTableView()" resolve="getTableView" />
-                                            </node>
+                                      <node concept="liA8E" id="3YbyKXcJv8E" role="2OqNvi">
+                                        <ref role="37wK5l" to="rb41:~TableView.getColumns()" resolve="getColumns" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbJ" id="6I2imo0gku5" role="3cqZAp">
+                                  <node concept="3clFbS" id="6I2imo0gku7" role="3clFbx">
+                                    <node concept="3clFbF" id="3YbyKXcJv8u" role="3cqZAp">
+                                      <node concept="2OqwBi" id="3YbyKXcJv8v" role="3clFbG">
+                                        <node concept="2OqwBi" id="3YbyKXcJv8w" role="2Oq$k0">
+                                          <node concept="Xjq3P" id="3YbyKXcJv8x" role="2Oq$k0">
+                                            <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
                                           </node>
-                                          <node concept="liA8E" id="3YbyKXcJv8E" role="2OqNvi">
-                                            <ref role="37wK5l" to="rb41:~TableView.getColumns()" resolve="getColumns" />
-                                          </node>
-                                        </node>
-                                        <node concept="liA8E" id="3YbyKXcJv8F" role="2OqNvi">
-                                          <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
-                                          <node concept="37vLTw" id="3YbyKXcJv8G" role="37wK5m">
-                                            <ref role="3cqZAo" node="3YbyKXcJlty" resolve="colIndex" />
+                                          <node concept="liA8E" id="3YbyKXcJv8y" role="2OqNvi">
+                                            <ref role="37wK5l" to="rb41:~TableCell.getTableView()" resolve="getTableView" />
                                           </node>
                                         </node>
+                                        <node concept="liA8E" id="3YbyKXcJv8z" role="2OqNvi">
+                                          <ref role="37wK5l" to="rb41:~TableView.edit(int,javafx.scene.control.TableColumn)" resolve="edit" />
+                                          <node concept="37vLTw" id="3YbyKXcJv8$" role="37wK5m">
+                                            <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
+                                          </node>
+                                          <node concept="2OqwBi" id="3YbyKXcJv8_" role="37wK5m">
+                                            <node concept="liA8E" id="3YbyKXcJv8F" role="2OqNvi">
+                                              <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                                              <node concept="37vLTw" id="3YbyKXcJv8G" role="37wK5m">
+                                                <ref role="3cqZAo" node="3YbyKXcJlty" resolve="colIndex" />
+                                              </node>
+                                            </node>
+                                            <node concept="37vLTw" id="6I2imo0fuzD" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="6I2imo0fojT" resolve="columnList" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3eOVzh" id="6I2imo0goLR" role="3clFbw">
+                                    <node concept="37vLTw" id="6I2imo0gq5H" role="3uHU7B">
+                                      <ref role="3cqZAo" node="3YbyKXcJlty" resolve="colIndex" />
+                                    </node>
+                                    <node concept="2OqwBi" id="6I2imo0gmZJ" role="3uHU7w">
+                                      <node concept="37vLTw" id="6I2imo0glzX" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="6I2imo0fojT" resolve="columnList" />
+                                      </node>
+                                      <node concept="liA8E" id="6I2imo0goaV" role="2OqNvi">
+                                        <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                                       </node>
                                     </node>
                                   </node>
