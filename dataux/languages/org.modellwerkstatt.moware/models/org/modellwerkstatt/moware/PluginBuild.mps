@@ -176,7 +176,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2022.27A (gogo)" />
+          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2022.28 (frwd)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -2485,177 +2485,6 @@
           </node>
         </node>
       </node>
-      <node concept="1E1JtA" id="3czznpM2hEL" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.modellwerkstatt.scribe.runtime" />
-        <property role="3LESm3" value="61fc842f-5d21-4a37-a8fc-f78074f3e195" />
-        <node concept="398BVA" id="3czznpM2ikp" role="3LF7KH">
-          <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-          <node concept="2Ry0Ak" id="3czznpM2iu7" role="iGT6I">
-            <property role="2Ry0Am" value="scribe" />
-            <node concept="2Ry0Ak" id="3czznpM2iBO" role="2Ry0An">
-              <property role="2Ry0Am" value="languages" />
-              <node concept="2Ry0Ak" id="3czznpM2iLx" role="2Ry0An">
-                <property role="2Ry0Am" value="org.modellwerkstatt.scribe" />
-                <node concept="2Ry0Ak" id="3czznpM2iVe" role="2Ry0An">
-                  <property role="2Ry0Am" value="runtime" />
-                  <node concept="2Ry0Ak" id="3czznpM2j4V" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.scribe.runtime.msd" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="3czznpM2jfJ" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3czznpM2jfK" role="1HemKq">
-            <node concept="398BVA" id="3czznpM2jfD" role="3LXTmr">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="3czznpM2jfE" role="iGT6I">
-                <property role="2Ry0Am" value="scribe" />
-                <node concept="2Ry0Ak" id="3czznpM2jfF" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="3czznpM2jfG" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.scribe" />
-                    <node concept="2Ry0Ak" id="3czznpM2jfH" role="2Ry0An">
-                      <property role="2Ry0Am" value="runtime" />
-                      <node concept="2Ry0Ak" id="3czznpM2jfI" role="2Ry0An">
-                        <property role="2Ry0Am" value="models" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="3czznpM2jfL" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtD" id="3czznpM2ks0" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.modellwerkstatt.scribe" />
-        <property role="3LESm3" value="be5a2939-f26c-4fcb-b00e-829263e7fc90" />
-        <node concept="398BVA" id="3czznpM2kMC" role="3LF7KH">
-          <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-          <node concept="2Ry0Ak" id="3czznpM2l1a" role="iGT6I">
-            <property role="2Ry0Am" value="scribe" />
-            <node concept="2Ry0Ak" id="3czznpM2laR" role="2Ry0An">
-              <property role="2Ry0Am" value="languages" />
-              <node concept="2Ry0Ak" id="3czznpM2lk$" role="2Ry0An">
-                <property role="2Ry0Am" value="org.modellwerkstatt.scribe" />
-                <node concept="2Ry0Ak" id="3czznpM2lGO" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modellwerkstatt.scribe.mpl" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3czznpM2lRE" role="3bR37C">
-          <node concept="3bR9La" id="3czznpM2lRF" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3czznpM2lRG" role="3bR37C">
-          <node concept="3bR9La" id="3czznpM2lRH" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3czznpM2lRI" role="3bR37C">
-          <node concept="3bR9La" id="3czznpM2lRJ" role="1SiIV1">
-            <ref role="3bR37D" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
-          </node>
-        </node>
-        <node concept="1BupzO" id="3czznpM2lRP" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3czznpM2lRQ" role="1HemKq">
-            <node concept="398BVA" id="3czznpM2lRK" role="3LXTmr">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="3czznpM2lRL" role="iGT6I">
-                <property role="2Ry0Am" value="scribe" />
-                <node concept="2Ry0Ak" id="3czznpM2lRM" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="3czznpM2lRN" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.scribe" />
-                    <node concept="2Ry0Ak" id="3czznpM2lRO" role="2Ry0An">
-                      <property role="2Ry0Am" value="models" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="3czznpM2lRR" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-        <node concept="1E0d5M" id="3czznpM2lRS" role="1E1XAP">
-          <ref role="1E0d5P" node="3czznpM2hEL" resolve="org.modellwerkstatt.scribe.runtime" />
-        </node>
-        <node concept="1SiIV0" id="3czznpM2lRT" role="3bR37C">
-          <node concept="1Busua" id="3czznpM2lRU" role="1SiIV1">
-            <ref role="1Busuk" node="1JLTjCmZp6M" resolve="org.modellwerkstatt.manmap" />
-          </node>
-        </node>
-        <node concept="1yeLz9" id="3czznpM2lRV" role="1TViLv">
-          <property role="TrG5h" value="org.modellwerkstatt.scribe.generator" />
-          <property role="3LESm3" value="f4d6c7f8-04c7-4e1e-87ac-3571b57c1df6" />
-          <node concept="1BupzO" id="3czznpM2lS2" role="3bR31x">
-            <property role="3ZfqAx" value="generator/templates" />
-            <property role="1Hdu6h" value="true" />
-            <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="3czznpM2lS3" role="1HemKq">
-              <node concept="398BVA" id="3czznpM2lRW" role="3LXTmr">
-                <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-                <node concept="2Ry0Ak" id="3czznpM2lRX" role="iGT6I">
-                  <property role="2Ry0Am" value="scribe" />
-                  <node concept="2Ry0Ak" id="3czznpM2lRY" role="2Ry0An">
-                    <property role="2Ry0Am" value="languages" />
-                    <node concept="2Ry0Ak" id="3czznpM2lRZ" role="2Ry0An">
-                      <property role="2Ry0Am" value="org.modellwerkstatt.scribe" />
-                      <node concept="2Ry0Ak" id="3czznpM2lS0" role="2Ry0An">
-                        <property role="2Ry0Am" value="generator" />
-                        <node concept="2Ry0Ak" id="3czznpM2lS1" role="2Ry0An">
-                          <property role="2Ry0Am" value="templates" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="3czznpM2lS4" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3czznpMw0O4" role="3bR37C">
-          <node concept="3bR9La" id="3czznpMw0O5" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6WkQmwiG9GN" role="3bR37C">
-          <node concept="3bR9La" id="6WkQmwiG9GO" role="1SiIV1">
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6WkQmwiG9GP" role="3bR37C">
-          <node concept="3bR9La" id="6WkQmwiG9GQ" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6WkQmwiG9GR" role="3bR37C">
-          <node concept="3bR9La" id="6WkQmwiG9GS" role="1SiIV1">
-            <ref role="3bR37D" node="phsLeeLbCJ" resolve="org.modellwerkstatt.h2forms" />
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="398rNT" id="1JLTjCmZkW7" role="1l3spd">
       <property role="TrG5h" value="mowareHome" />
@@ -2896,24 +2725,6 @@
                 <node concept="2Ry0Ak" id="2QMuF3JFY07" role="iGT6I">
                   <property role="2Ry0Am" value="vaadinforms" />
                   <node concept="2Ry0Ak" id="2QMuF3JFZDD" role="2Ry0An">
-                    <property role="2Ry0Am" value="assembly" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="398223" id="6WkQmwhVn$o" role="39821P">
-            <node concept="3_J27D" id="6WkQmwhVn$p" role="Nbhlr">
-              <node concept="3Mxwew" id="6WkQmwhVn$q" role="3MwsjC">
-                <property role="3MwjfP" value="scribeassembly" />
-              </node>
-            </node>
-            <node concept="2HvfSZ" id="6WkQmwhVn$r" role="39821P">
-              <node concept="398BVA" id="6WkQmwhVn$s" role="2HvfZ0">
-                <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-                <node concept="2Ry0Ak" id="6WkQmwhVn$t" role="iGT6I">
-                  <property role="2Ry0Am" value="scribe" />
-                  <node concept="2Ry0Ak" id="6WkQmwhVnN_" role="2Ry0An">
                     <property role="2Ry0Am" value="assembly" />
                   </node>
                 </node>

@@ -25,7 +25,7 @@
   <property name="appName"              value="MDEApp" />
   <property name="appMainclass"         value="org.modellwerkstatt.simple.o1deploy_simpleApp.App_MDE_Order" />
   <property name="appConfiguration"     value="org/modellwerkstatt/simple/o9infra_configs/MdeConfig.xml" /> 
-  <property name="appHomeScreen"        value="${appName}" />
+  <property name="appHomeScreen"        value="MDEApp" />
     
   <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
  
