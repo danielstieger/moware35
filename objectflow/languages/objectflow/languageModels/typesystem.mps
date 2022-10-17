@@ -15431,5 +15431,29 @@
       <ref role="1YaFvo" to="un0u:7UDNdKJ6FFh" resolve="OnStatement" />
     </node>
   </node>
+  <node concept="1YbPZF" id="4dQa7h4Z7_A">
+    <property role="TrG5h" value="typeof_ColorReference" />
+    <property role="3GE5qa" value="StaticRessource" />
+    <node concept="3clFbS" id="4dQa7h4Z7_B" role="18ibNy">
+      <node concept="1Z5TYs" id="4dQa7h4ZjJy" role="3cqZAp">
+        <node concept="mw_s8" id="4dQa7h4ZjJQ" role="1ZfhKB">
+          <node concept="2c44tf" id="4dQa7h4ZjJM" role="mwGJk">
+            <node concept="17QB3L" id="4dQa7h4ZjKR" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="4dQa7h4ZjJ_" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4dQa7h4Zj$A" role="mwGJk">
+            <node concept="1YBJjd" id="4dQa7h4ZjAq" role="1Z2MuG">
+              <ref role="1YBMHb" node="4dQa7h4Z7_D" resolve="colorReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4dQa7h4Z7_D" role="1YuTPh">
+      <property role="TrG5h" value="colorReference" />
+      <ref role="1YaFvo" to="un0u:4dTPSB4odjt" resolve="ColorReference" />
+    </node>
+  </node>
 </model>
 

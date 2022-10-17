@@ -23963,6 +23963,50 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbJ" id="4dQa7h5RWDM" role="3cqZAp">
+              <node concept="3clFbS" id="4dQa7h5RWDO" role="3clFbx">
+                <node concept="3clFbF" id="4dQa7h5SGiP" role="3cqZAp">
+                  <node concept="37vLTI" id="4dQa7h5SGiQ" role="3clFbG">
+                    <node concept="3clFbT" id="4dQa7h5SGiR" role="37vLTx">
+                      <property role="3clFbU" value="false" />
+                    </node>
+                    <node concept="37vLTw" id="4dQa7h5SGiS" role="37vLTJ">
+                      <ref role="3cqZAo" node="1e8699aCJdn" resolve="selectionHandlerEnabled" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1AyJSLe3DjE" role="3cqZAp">
+                  <node concept="2OqwBi" id="1AyJSLe3E7M" role="3clFbG">
+                    <node concept="2OqwBi" id="1AyJSLe3D$g" role="2Oq$k0">
+                      <node concept="37vLTw" id="1AyJSLe3DjC" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                      </node>
+                      <node concept="liA8E" id="1AyJSLe3E2E" role="2OqNvi">
+                        <ref role="37wK5l" to="rb41:~TableView.getSelectionModel()" resolve="getSelectionModel" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1AyJSLe3EOp" role="2OqNvi">
+                      <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.clearSelection()" resolve="clearSelection" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4dQa7h5SP6i" role="3cqZAp">
+                  <node concept="37vLTI" id="4dQa7h5SP6j" role="3clFbG">
+                    <node concept="3clFbT" id="4dQa7h5SP6k" role="37vLTx">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                    <node concept="37vLTw" id="4dQa7h5SP6l" role="37vLTJ">
+                      <ref role="3cqZAo" node="1e8699aCJdn" resolve="selectionHandlerEnabled" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="4dQa7h5RZin" role="3clFbw">
+                <node concept="37vLTw" id="4dQa7h5RZIZ" role="3fr31v">
+                  <ref role="3cqZAo" node="1AyJSLe1rR7" resolve="foundSelection" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="1e8699aCJpU" role="3cqZAp">
               <node concept="1rXfSq" id="fdGRoMYQbZ" role="3clFbG">
                 <ref role="37wK5l" node="1e8699aCJw$" resolve="updateTableToCurrentItems" />
@@ -24036,21 +24080,6 @@
                     </node>
                     <node concept="37vLTw" id="fdGRoMYQ2M" role="37vLTJ">
                       <ref role="3cqZAo" node="1e8699aCJdn" resolve="selectionHandlerEnabled" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="1AyJSLe3DjE" role="3cqZAp">
-                  <node concept="2OqwBi" id="1AyJSLe3E7M" role="3clFbG">
-                    <node concept="2OqwBi" id="1AyJSLe3D$g" role="2Oq$k0">
-                      <node concept="37vLTw" id="1AyJSLe3DjC" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
-                      </node>
-                      <node concept="liA8E" id="1AyJSLe3E2E" role="2OqNvi">
-                        <ref role="37wK5l" to="rb41:~TableView.getSelectionModel()" resolve="getSelectionModel" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="1AyJSLe3EOp" role="2OqNvi">
-                      <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.clearSelection()" resolve="clearSelection" />
                     </node>
                   </node>
                 </node>

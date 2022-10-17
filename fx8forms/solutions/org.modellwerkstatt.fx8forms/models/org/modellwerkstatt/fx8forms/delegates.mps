@@ -4990,11 +4990,9 @@
             </node>
             <node concept="liA8E" id="5Y1b9tR0FmM" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
-              <node concept="3cpWs3" id="5Y1b9tR0FmN" role="37wK5m">
-                <node concept="Xl_RD" id="5Y1b9tR0FmO" role="3uHU7w">
-                  <property role="Xl_RC" value=": " />
-                </node>
-                <node concept="37vLTw" id="5Y1b9tR0Gy_" role="3uHU7B">
+              <node concept="1rXfSq" id="4dQa7h57dNm" role="37wK5m">
+                <ref role="37wK5l" node="4dQa7h571lz" resolve="getLabelTextAdjustColon" />
+                <node concept="37vLTw" id="4dQa7h57elI" role="37wK5m">
                   <ref role="3cqZAo" node="5Y1b9tR0Ds0" resolve="labelString" />
                 </node>
               </node>
@@ -5610,7 +5608,52 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1vtHxfY$Wxq" role="jymVt" />
-    <node concept="2tJIrI" id="1vtHxfY$WIl" role="jymVt" />
+    <node concept="2YIFZL" id="4dQa7h571lz" role="jymVt">
+      <property role="TrG5h" value="getLabelTextAdjustColon" />
+      <node concept="37vLTG" id="4dQa7h578I3" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="17QB3L" id="4dQa7h578Id" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="4dQa7h574hj" role="3clF45" />
+      <node concept="3Tm1VV" id="4dQa7h571lA" role="1B3o_S" />
+      <node concept="3clFbS" id="4dQa7h571lB" role="3clF47">
+        <node concept="3clFbJ" id="4dQa7h579vo" role="3cqZAp">
+          <node concept="2OqwBi" id="4dQa7h57a1V" role="3clFbw">
+            <node concept="2OqwBi" id="4dQa7h579J2" role="2Oq$k0">
+              <node concept="37vLTw" id="4dQa7h579wA" role="2Oq$k0">
+                <ref role="3cqZAo" node="4dQa7h578I3" resolve="label" />
+              </node>
+              <node concept="liA8E" id="4dQa7h579PV" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4dQa7h57ae9" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="Xl_RD" id="4dQa7h57ahC" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="4dQa7h579vq" role="3clFbx">
+            <node concept="3cpWs6" id="4dQa7h57akO" role="3cqZAp">
+              <node concept="Xl_RD" id="4dQa7h57alN" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4dQa7h57aJX" role="3cqZAp">
+          <node concept="3cpWs3" id="4dQa7h57c1v" role="3cqZAk">
+            <node concept="Xl_RD" id="4dQa7h57c2w" role="3uHU7w">
+              <property role="Xl_RC" value=": " />
+            </node>
+            <node concept="37vLTw" id="4dQa7h57bvR" role="3uHU7B">
+              <ref role="3cqZAo" node="4dQa7h578I3" resolve="label" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="1vtHxfY$YRK" role="jymVt">
       <property role="TrG5h" value="getLabelWidthWRKRND" />
       <node concept="37vLTG" id="1vtHxfY_13Q" role="3clF46">
@@ -6564,11 +6607,10 @@
             </node>
             <node concept="liA8E" id="3sEA$PIzUMx" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
-              <node concept="3cpWs3" id="3sEA$PIzUMy" role="37wK5m">
-                <node concept="Xl_RD" id="3sEA$PIzUMz" role="3uHU7w">
-                  <property role="Xl_RC" value=": " />
-                </node>
-                <node concept="37vLTw" id="3sEA$PIzUM$" role="3uHU7B">
+              <node concept="2YIFZM" id="4dQa7h57Bgz" role="37wK5m">
+                <ref role="37wK5l" node="4dQa7h571lz" resolve="getLabelTextAdjustColon" />
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <node concept="37vLTw" id="4dQa7h57BmB" role="37wK5m">
                   <ref role="3cqZAo" node="3sEA$PIzUMp" resolve="labelString" />
                 </node>
               </node>
@@ -7929,11 +7971,10 @@
             </node>
             <node concept="liA8E" id="1kaU3pLWzYL" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
-              <node concept="3cpWs3" id="1kaU3pLWzYM" role="37wK5m">
-                <node concept="Xl_RD" id="1kaU3pLWzYN" role="3uHU7w">
-                  <property role="Xl_RC" value=": " />
-                </node>
-                <node concept="37vLTw" id="1kaU3pLWzYO" role="3uHU7B">
+              <node concept="2YIFZM" id="4dQa7h57Hb5" role="37wK5m">
+                <ref role="37wK5l" node="4dQa7h571lz" resolve="getLabelTextAdjustColon" />
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <node concept="37vLTw" id="4dQa7h57HjR" role="37wK5m">
                   <ref role="3cqZAo" node="1kaU3pLWzYD" resolve="labelString" />
                 </node>
               </node>
@@ -9195,11 +9236,10 @@
             </node>
             <node concept="liA8E" id="1YFjUjHUhZD" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
-              <node concept="3cpWs3" id="1YFjUjHUhZE" role="37wK5m">
-                <node concept="Xl_RD" id="1YFjUjHUhZF" role="3uHU7w">
-                  <property role="Xl_RC" value=": " />
-                </node>
-                <node concept="37vLTw" id="1YFjUjHUhZG" role="3uHU7B">
+              <node concept="2YIFZM" id="4dQa7h57JKS" role="37wK5m">
+                <ref role="37wK5l" node="4dQa7h571lz" resolve="getLabelTextAdjustColon" />
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <node concept="37vLTw" id="4dQa7h57JKT" role="37wK5m">
                   <ref role="3cqZAo" node="1YFjUjHUhZx" resolve="labelString" />
                 </node>
               </node>
@@ -9909,59 +9949,18 @@
       <node concept="3cqZAl" id="6Ag5kTzHwnP" role="3clF45" />
       <node concept="3Tm1VV" id="6Ag5kTzHwnQ" role="1B3o_S" />
       <node concept="3clFbS" id="6Ag5kTzHwnS" role="3clF47">
-        <node concept="3clFbJ" id="65FLMuCPD4D" role="3cqZAp">
-          <node concept="3clFbS" id="65FLMuCPD4F" role="3clFbx">
-            <node concept="3clFbF" id="65FLMuCPGF8" role="3cqZAp">
-              <node concept="2OqwBi" id="65FLMuCPGYi" role="3clFbG">
-                <node concept="37vLTw" id="65FLMuCPGF6" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6Ag5kTzHtAe" resolve="label" />
-                </node>
-                <node concept="liA8E" id="65FLMuCPHGD" role="2OqNvi">
-                  <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
-                  <node concept="Xl_RD" id="65FLMuCPHHr" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                </node>
-              </node>
+        <node concept="3clFbF" id="4dQa7h57L1I" role="3cqZAp">
+          <node concept="2OqwBi" id="4dQa7h57Lze" role="3clFbG">
+            <node concept="37vLTw" id="4dQa7h57L1G" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Ag5kTzHtAe" resolve="label" />
             </node>
-          </node>
-          <node concept="22lmx$" id="65FLMuCPEwW" role="3clFbw">
-            <node concept="2OqwBi" id="65FLMuCPFhG" role="3uHU7w">
-              <node concept="Xl_RD" id="65FLMuCPF3J" role="2Oq$k0">
-                <property role="Xl_RC" value="" />
-              </node>
-              <node concept="liA8E" id="65FLMuCPFmg" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="37vLTw" id="65FLMuCPFph" role="37wK5m">
+            <node concept="liA8E" id="4dQa7h57Mr9" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
+              <node concept="2YIFZM" id="4dQa7h57M$Y" role="37wK5m">
+                <ref role="37wK5l" node="4dQa7h571lz" resolve="getLabelTextAdjustColon" />
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <node concept="37vLTw" id="4dQa7h57M$Z" role="37wK5m">
                   <ref role="3cqZAo" node="6Ag5kTzHwnN" resolve="text" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbC" id="65FLMuCPDST" role="3uHU7B">
-              <node concept="37vLTw" id="65FLMuCPD98" role="3uHU7B">
-                <ref role="3cqZAo" node="6Ag5kTzHwnN" resolve="text" />
-              </node>
-              <node concept="10Nm6u" id="65FLMuCPEvx" role="3uHU7w" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="65FLMuCPFT$" role="9aQIa">
-            <node concept="3clFbS" id="65FLMuCPFT_" role="9aQI4">
-              <node concept="3clFbF" id="6Ag5kTzHBDm" role="3cqZAp">
-                <node concept="2OqwBi" id="6Ag5kTzHBDn" role="3clFbG">
-                  <node concept="37vLTw" id="6Ag5kTzHBDo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6Ag5kTzHtAe" resolve="label" />
-                  </node>
-                  <node concept="liA8E" id="6Ag5kTzHBDp" role="2OqNvi">
-                    <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
-                    <node concept="3cpWs3" id="6Ag5kTzHBDq" role="37wK5m">
-                      <node concept="Xl_RD" id="6Ag5kTzHBDr" role="3uHU7w">
-                        <property role="Xl_RC" value=": " />
-                      </node>
-                      <node concept="37vLTw" id="6Ag5kTzHUHF" role="3uHU7B">
-                        <ref role="3cqZAo" node="6Ag5kTzHwnN" resolve="text" />
-                      </node>
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>
@@ -12246,11 +12245,10 @@
             </node>
             <node concept="liA8E" id="1l2SXGvHPjC" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~Labeled.setText(java.lang.String)" resolve="setText" />
-              <node concept="3cpWs3" id="1l2SXGvHPjD" role="37wK5m">
-                <node concept="Xl_RD" id="1l2SXGvHPjE" role="3uHU7w">
-                  <property role="Xl_RC" value=": " />
-                </node>
-                <node concept="37vLTw" id="1l2SXGvHPS3" role="3uHU7B">
+              <node concept="2YIFZM" id="4dQa7h57Vgw" role="37wK5m">
+                <ref role="37wK5l" node="4dQa7h571lz" resolve="getLabelTextAdjustColon" />
+                <ref role="1Pybhc" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <node concept="37vLTw" id="4dQa7h57Vgx" role="37wK5m">
                   <ref role="3cqZAo" node="1l2SXGvGrTN" resolve="labelString" />
                 </node>
               </node>

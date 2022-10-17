@@ -21,6 +21,7 @@
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -11547,7 +11548,7 @@
                     <ref role="3cqZAo" node="3PmCowOXzpc" resolve="obj" />
                   </node>
                   <node concept="liA8E" id="6mQpab3oRGH" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:1ejJFIu_S8y" resolve="getShortDesc" />
+                    <ref role="37wK5l" to="w7gk:3RwvUFqjPyz" resolve="getDbValue" />
                   </node>
                 </node>
                 <node concept="liA8E" id="59qqFijfYZo" role="2OqNvi">
@@ -11658,7 +11659,7 @@
                           <ref role="3cqZAo" node="6mQpab3rK66" resolve="t" />
                         </node>
                         <node concept="liA8E" id="6mQpab3rKwP" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:1ejJFIu_S8y" resolve="getShortDesc" />
+                          <ref role="37wK5l" to="w7gk:3RwvUFqjPyz" resolve="getDbValue" />
                         </node>
                       </node>
                       <node concept="liA8E" id="59qqFijg0xd" role="2OqNvi">
