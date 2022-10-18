@@ -2395,7 +2395,7 @@
       <property role="20kJfa" value="platforms" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <property role="IQ2ns" value="3146313690715522546" />
-      <ref role="20lvS9" node="1lwvTLPwTBS" resolve="ISRPlatform" />
+      <ref role="20lvS9" node="1lwvTLPwTBS" resolve="IPlatform" />
     </node>
     <node concept="1TJgyj" id="2IDWU6Z9eWe" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2439,14 +2439,14 @@
   </node>
   <node concept="1TIwiD" id="2IDWU6Z30fV">
     <property role="3GE5qa" value="StaticRessource" />
-    <property role="TrG5h" value="Platform" />
+    <property role="TrG5h" value="PlatformDeclaration" />
     <property role="EcuMT" value="3146313690715522043" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7MWNCzXOAva" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
     <node concept="PrWs8" id="1lwvTLPwUhc" role="PzmwI">
-      <ref role="PrY4T" node="1lwvTLPwTBS" resolve="ISRPlatform" />
+      <ref role="PrY4T" node="1lwvTLPwTBS" resolve="IPlatform" />
     </node>
   </node>
   <node concept="1TIwiD" id="2IDWU6Z9eZ_">
@@ -2457,7 +2457,7 @@
     <node concept="1TJgyj" id="7qQ6PJuJ7x7" role="1TKVEi">
       <property role="20kJfa" value="platform" />
       <property role="IQ2ns" value="8554054623629703239" />
-      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
+      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="PlatformDeclaration" />
     </node>
     <node concept="1TJgyi" id="5HvIBdINHAn" role="1TKVEl">
       <property role="TrG5h" value="hotkey" />
@@ -2502,7 +2502,7 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="platform" />
       <property role="IQ2ns" value="7633836622691047972" />
-      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
+      <ref role="20lvS9" node="1lwvTLPwTBS" resolve="IPlatform" />
     </node>
     <node concept="PrWs8" id="Yd9evR5_Iw" role="PzmwI">
       <ref role="PrY4T" to="r5tz:5dYK2oPFKvT" resolve="L2RTComponentCall" />
@@ -2528,22 +2528,22 @@
   </node>
   <node concept="PlHQZ" id="1lwvTLPwTBS">
     <property role="3GE5qa" value="StaticRessource" />
-    <property role="TrG5h" value="ISRPlatform" />
+    <property role="TrG5h" value="IPlatform" />
     <property role="EcuMT" value="1540371382523894264" />
   </node>
   <node concept="1TIwiD" id="1lwvTLPwTCs">
     <property role="3GE5qa" value="StaticRessource" />
-    <property role="TrG5h" value="IncludePlatform" />
+    <property role="TrG5h" value="PlatformExtended" />
     <property role="EcuMT" value="1540371382523894300" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1lwvTLPwTDG" role="1TKVEi">
       <property role="20kJfa" value="platform" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="1540371382523894380" />
-      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
+      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="PlatformDeclaration" />
     </node>
     <node concept="PrWs8" id="1lwvTLPwTDs" role="PzmwI">
-      <ref role="PrY4T" node="1lwvTLPwTBS" resolve="ISRPlatform" />
+      <ref role="PrY4T" node="1lwvTLPwTBS" resolve="IPlatform" />
     </node>
   </node>
   <node concept="PlHQZ" id="4YYGipfafYm">

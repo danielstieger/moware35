@@ -5802,7 +5802,7 @@
   </node>
   <node concept="24kQdi" id="2IDWU6Z30mI">
     <property role="3GE5qa" value="StaticRessource" />
-    <ref role="1XX52x" to="un0u:2IDWU6Z30fV" resolve="Platform" />
+    <ref role="1XX52x" to="un0u:2IDWU6Z30fV" resolve="PlatformDeclaration" />
     <node concept="3EZMnI" id="7MWNCzXPio6" role="2wV5jI">
       <node concept="3F0A7n" id="7MWNCzXPioG" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -5827,7 +5827,7 @@
                   <node concept="2OqwBi" id="7MWNCzXPiNV" role="3uHU7w">
                     <node concept="pncrf" id="7MWNCzXPiKF" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1lwvTLPyo6u" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:1lwvTLPwUf3" resolve="getPlatformFqClassName" />
+                      <ref role="37wK5l" to="70o0:4zNzuhzhIlX" resolve="getPlatformImplClassFqName" />
                     </node>
                   </node>
                 </node>
@@ -5896,9 +5896,21 @@
       <node concept="1iCGBv" id="6BKPvpCRxFc" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:6BKPvpCRxC$" resolve="platform" />
         <node concept="1sVBvm" id="6BKPvpCRxFe" role="1sWHZn">
-          <node concept="3F0A7n" id="6BKPvpCRxFM" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="1HlG4h" id="4zNzuh_9er0" role="2wV5jI">
+            <node concept="1HfYo3" id="4zNzuh_9er2" role="1HlULh">
+              <node concept="3TQlhw" id="4zNzuh_9er4" role="1Hhtcw">
+                <node concept="3clFbS" id="4zNzuh_9er6" role="2VODD2">
+                  <node concept="3clFbF" id="4zNzuh_9evL" role="3cqZAp">
+                    <node concept="2OqwBi" id="4zNzuh_9eFj" role="3clFbG">
+                      <node concept="pncrf" id="4zNzuh_9evK" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="4zNzuh_9eSK" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:4zNzuhz5sxy" resolve="origPlatformName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -5919,7 +5931,7 @@
   </node>
   <node concept="24kQdi" id="1lwvTLPwTEM">
     <property role="3GE5qa" value="StaticRessource" />
-    <ref role="1XX52x" to="un0u:1lwvTLPwTCs" resolve="IncludePlatform" />
+    <ref role="1XX52x" to="un0u:1lwvTLPwTCs" resolve="PlatformExtended" />
     <node concept="3EZMnI" id="1lwvTLPwTF_" role="2wV5jI">
       <node concept="3F0ifn" id="33mP2Snzqrw" role="3EZMnx">
         <property role="3F0ifm" value="extends" />
@@ -5948,7 +5960,7 @@
                   <node concept="2OqwBi" id="1lwvTLPwVBD" role="3uHU7w">
                     <node concept="pncrf" id="1lwvTLPwV$G" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1lwvTLPwVIa" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:1lwvTLPwUf3" resolve="getPlatformFqClassName" />
+                      <ref role="37wK5l" to="70o0:4zNzuhzhIlX" resolve="getPlatformImplClassFqName" />
                     </node>
                   </node>
                 </node>

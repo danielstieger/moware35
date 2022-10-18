@@ -9344,7 +9344,7 @@
                       <ref role="3cqZAo" node="2IDWU6Z6iPW" resolve="root" />
                     </node>
                     <node concept="2qgKlT" id="2IDWU6Z6j4J" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getPlatforms" />
+                      <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getOriginalPlatformDeclarations" />
                     </node>
                   </node>
                   <node concept="3zZkjj" id="2IDWU6Z6lpu" role="2OqNvi">
@@ -9402,7 +9402,7 @@
     </node>
     <node concept="1YaCAy" id="2IDWU6Z6iNd" role="1YuTPh">
       <property role="TrG5h" value="platform" />
-      <ref role="1YaFvo" to="un0u:2IDWU6Z30fV" resolve="Platform" />
+      <ref role="1YaFvo" to="un0u:2IDWU6Z30fV" resolve="PlatformDeclaration" />
     </node>
   </node>
   <node concept="18kY7G" id="2IDWU6ZcJgE">
@@ -9544,13 +9544,13 @@
           <property role="TrG5h" value="platforms" />
           <node concept="2hMVRd" id="2IDWU6ZgVUG" role="1tU5fm">
             <node concept="3Tqbb2" id="2IDWU6ZgVVq" role="2hN53Y">
-              <ref role="ehGHo" to="un0u:2IDWU6Z30fV" resolve="Platform" />
+              <ref role="ehGHo" to="un0u:2IDWU6Z30fV" resolve="PlatformDeclaration" />
             </node>
           </node>
           <node concept="2ShNRf" id="2IDWU6ZgY3u" role="33vP2m">
             <node concept="2i4dXS" id="2IDWU6ZgY3b" role="2ShVmc">
               <node concept="3Tqbb2" id="2IDWU6ZgY3c" role="HW$YZ">
-                <ref role="ehGHo" to="un0u:2IDWU6Z30fV" resolve="Platform" />
+                <ref role="ehGHo" to="un0u:2IDWU6Z30fV" resolve="PlatformDeclaration" />
               </node>
             </node>
           </node>
@@ -9736,7 +9736,7 @@
                         <ref role="3cqZAo" node="2IDWU6Zixbe" resolve="sr" />
                       </node>
                       <node concept="2qgKlT" id="2IDWU6ZixOB" role="2OqNvi">
-                        <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getPlatforms" />
+                        <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getOriginalPlatformDeclarations" />
                       </node>
                     </node>
                     <node concept="34oBXx" id="2IDWU6Zi$aw" role="2OqNvi" />

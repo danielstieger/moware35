@@ -4800,7 +4800,7 @@
     <node concept="3lhOvk" id="7MWNCzYtQiu" role="3lj3bC">
       <property role="36QftV" value="true" />
       <ref role="3lhOvi" node="7MWNCzXOxmx" resolve="map_Platform" />
-      <ref role="30HIoZ" to="un0u:1lwvTLPwTBS" resolve="ISRPlatform" />
+      <ref role="30HIoZ" to="un0u:1lwvTLPwTBS" resolve="IPlatform" />
       <node concept="30G5F_" id="3jHs28k3SLs" role="30HLyM">
         <node concept="3clFbS" id="3jHs28k3SLt" role="2VODD2">
           <node concept="3clFbF" id="3jHs28k3Tzq" role="3cqZAp">
@@ -4812,7 +4812,7 @@
                 </node>
                 <node concept="3O6GUB" id="3jHs28k3TT0" role="2OqNvi">
                   <node concept="chp4Y" id="3jHs28k3TT1" role="3QVz_e">
-                    <ref role="cht4Q" to="un0u:1lwvTLPwTBS" resolve="ISRPlatform" />
+                    <ref role="cht4Q" to="un0u:1lwvTLPwTBS" resolve="IPlatform" />
                   </node>
                 </node>
               </node>
@@ -19268,16 +19268,11 @@
           <property role="2qtEX9" value="value" />
           <node concept="3zFVjK" id="6BKPvpDelFM" role="3zH0cK">
             <node concept="3clFbS" id="6BKPvpDelFN" role="2VODD2">
-              <node concept="3clFbF" id="6BKPvpDelFT" role="3cqZAp">
-                <node concept="2OqwBi" id="6BKPvpDelFO" role="3clFbG">
-                  <node concept="3TrcHB" id="6BKPvpDelFR" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                  <node concept="2OqwBi" id="2cjYBZTaFI3" role="2Oq$k0">
-                    <node concept="30H73N" id="6BKPvpDelFS" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="2cjYBZTaFOz" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:1lwvTLPyr1i" resolve="getPlatform" />
-                    </node>
+              <node concept="3clFbF" id="4zNzuhztVIn" role="3cqZAp">
+                <node concept="2OqwBi" id="4zNzuhztVOC" role="3clFbG">
+                  <node concept="30H73N" id="4zNzuhztVIm" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4zNzuhztVUN" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:4zNzuhz5sxy" resolve="origPlatformName" />
                   </node>
                 </node>
               </node>
@@ -19291,35 +19286,6 @@
       <node concept="3cqZAl" id="6BKPvpCReEw" role="3clF45" />
       <node concept="3Tm1VV" id="6BKPvpCReEx" role="1B3o_S" />
       <node concept="3clFbS" id="6BKPvpCReEy" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="5fkhsROxJKg" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getPlatformFQName" />
-      <node concept="17QB3L" id="5fkhsROxJKh" role="3clF45" />
-      <node concept="3Tm1VV" id="5fkhsROxJKi" role="1B3o_S" />
-      <node concept="3clFbS" id="5fkhsROxJKk" role="3clF47">
-        <node concept="3clFbF" id="5fkhsROxKlA" role="3cqZAp">
-          <node concept="Xl_RD" id="5fkhsROxKl_" role="3clFbG">
-            <property role="Xl_RC" value="PlatformName" />
-            <node concept="17Uvod" id="5fkhsROxKmN" role="lGtFl">
-              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-              <property role="2qtEX9" value="value" />
-              <node concept="3zFVjK" id="5fkhsROxKmO" role="3zH0cK">
-                <node concept="3clFbS" id="5fkhsROxKmP" role="2VODD2">
-                  <node concept="3clFbF" id="5fkhsROxKoM" role="3cqZAp">
-                    <node concept="2OqwBi" id="5fkhsROxKrT" role="3clFbG">
-                      <node concept="30H73N" id="5fkhsROxKoL" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="2cjYBZTvoXG" role="2OqNvi">
-                        <ref role="37wK5l" to="70o0:1lwvTLPwUf3" resolve="getPlatformFqClassName" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="3clFb_" id="6BKPvpDel6z" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -19354,7 +19320,7 @@
     </node>
     <node concept="3clFb_" id="2SRXiXA4TQ$" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setPlatformShortName" />
+      <property role="TrG5h" value="setPlatformName" />
       <node concept="37vLTG" id="2SRXiXA4TQ_" role="3clF46">
         <property role="TrG5h" value="pf" />
         <node concept="17QB3L" id="2SRXiXA4TQA" role="1tU5fm" />
@@ -19376,7 +19342,7 @@
     </node>
     <node concept="3clFb_" id="2SRXiXA4TQF" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getPlatformShortName" />
+      <property role="TrG5h" value="getPlatformName" />
       <node concept="17QB3L" id="2SRXiXA4TQG" role="3clF45" />
       <node concept="3Tm1VV" id="2SRXiXA4TQH" role="1B3o_S" />
       <node concept="3clFbS" id="2SRXiXA4TQJ" role="3clF47">
@@ -19570,8 +19536,13 @@
           <node concept="2ShNRf" id="7MWNCzYug5p" role="YScLw">
             <node concept="1pGfFk" id="7MWNCzYugKQ" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="7MWNCzYugM0" role="37wK5m">
-                <property role="Xl_RC" value="This can not be true" />
+              <node concept="3cpWs3" id="4zNzuh_JnbJ" role="37wK5m">
+                <node concept="37vLTw" id="4zNzuh_Jne9" role="3uHU7w">
+                  <ref role="3cqZAo" node="7MWNCzYtV6r" resolve="labelSpecName" />
+                </node>
+                <node concept="Xl_RD" id="7MWNCzYugM0" role="3uHU7B">
+                  <property role="Xl_RC" value="This can not be true. No text for label " />
+                </node>
               </node>
             </node>
           </node>
@@ -19583,7 +19554,7 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getIconForLabel" />
       <node concept="37vLTG" id="7MWNCzYtV6y" role="3clF46">
-        <property role="TrG5h" value="labelSpecName" />
+        <property role="TrG5h" value="iconSpecName" />
         <node concept="17QB3L" id="7MWNCzYtV6z" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="7MWNCzYtV6$" role="3clF45" />
@@ -19622,7 +19593,7 @@
             <node concept="liA8E" id="4ZuLkDCFKKI" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="4ZuLkDCFKKJ" role="37wK5m">
-                <ref role="3cqZAo" node="7MWNCzYtV6y" resolve="labelSpecName" />
+                <ref role="3cqZAo" node="7MWNCzYtV6y" resolve="iconSpecName" />
               </node>
             </node>
           </node>
@@ -19762,8 +19733,13 @@
           <node concept="2ShNRf" id="7MWNCzYugSC" role="YScLw">
             <node concept="1pGfFk" id="7MWNCzYugSD" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="7MWNCzYugSE" role="37wK5m">
-                <property role="Xl_RC" value="This can not be true" />
+              <node concept="3cpWs3" id="4zNzuh_JnOb" role="37wK5m">
+                <node concept="37vLTw" id="4zNzuh_JnQ_" role="3uHU7w">
+                  <ref role="3cqZAo" node="7MWNCzYtV6y" resolve="iconSpecName" />
+                </node>
+                <node concept="Xl_RD" id="7MWNCzYugSE" role="3uHU7B">
+                  <property role="Xl_RC" value="This can not be true. No icon for label " />
+                </node>
               </node>
             </node>
           </node>
@@ -19778,7 +19754,7 @@
       <node concept="3Tm1VV" id="7MWNCzYtV6E" role="1B3o_S" />
       <node concept="17QB3L" id="7MWNCzYtV6F" role="3clF45" />
       <node concept="37vLTG" id="7MWNCzYtV6G" role="3clF46">
-        <property role="TrG5h" value="labelSpecName" />
+        <property role="TrG5h" value="hotkeySpecName" />
         <node concept="17QB3L" id="7MWNCzYtV6H" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="7MWNCzYtV6I" role="3clF47">
@@ -19815,7 +19791,7 @@
             <node concept="liA8E" id="4ZuLkDCG0PR" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="4ZuLkDCG0PS" role="37wK5m">
-                <ref role="3cqZAo" node="7MWNCzYtV6G" resolve="labelSpecName" />
+                <ref role="3cqZAo" node="7MWNCzYtV6G" resolve="hotkeySpecName" />
               </node>
             </node>
           </node>
@@ -19935,8 +19911,13 @@
           <node concept="2ShNRf" id="7MWNCzYugUv" role="YScLw">
             <node concept="1pGfFk" id="7MWNCzYugUw" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="7MWNCzYugUx" role="37wK5m">
-                <property role="Xl_RC" value="This can not be true" />
+              <node concept="3cpWs3" id="4zNzuh_Jpa_" role="37wK5m">
+                <node concept="37vLTw" id="4zNzuh_JpcZ" role="3uHU7w">
+                  <ref role="3cqZAo" node="7MWNCzYtV6G" resolve="hotkeySpecName" />
+                </node>
+                <node concept="Xl_RD" id="7MWNCzYugUx" role="3uHU7B">
+                  <property role="Xl_RC" value="This can not be true. No hotkey for " />
+                </node>
               </node>
             </node>
           </node>
@@ -19951,7 +19932,7 @@
       <node concept="3Tm1VV" id="1E9WFYpMU21" role="1B3o_S" />
       <node concept="10P_77" id="1E9WFYpMU22" role="3clF45" />
       <node concept="37vLTG" id="1E9WFYpMU23" role="3clF46">
-        <property role="TrG5h" value="labelSpecName" />
+        <property role="TrG5h" value="isHideSpecName" />
         <node concept="17QB3L" id="1E9WFYpMU24" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="1E9WFYpMU25" role="3clF47">
@@ -19988,7 +19969,7 @@
             <node concept="liA8E" id="4ZuLkDCG9Jk" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="4ZuLkDCG9Jl" role="37wK5m">
-                <ref role="3cqZAo" node="1E9WFYpMU23" resolve="labelSpecName" />
+                <ref role="3cqZAo" node="1E9WFYpMU23" resolve="isHideSpecName" />
               </node>
             </node>
           </node>
@@ -20107,8 +20088,13 @@
           <node concept="2ShNRf" id="1E9WFYpMUEO" role="YScLw">
             <node concept="1pGfFk" id="1E9WFYpMUEP" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="1E9WFYpMUEQ" role="37wK5m">
-                <property role="Xl_RC" value="This can not be true" />
+              <node concept="3cpWs3" id="4zNzuh_Jq5s" role="37wK5m">
+                <node concept="37vLTw" id="4zNzuh_Jq7Q" role="3uHU7w">
+                  <ref role="3cqZAo" node="1E9WFYpMU23" resolve="isHideSpecName" />
+                </node>
+                <node concept="Xl_RD" id="1E9WFYpMUEQ" role="3uHU7B">
+                  <property role="Xl_RC" value="This can not be true. No hide spec for " />
+                </node>
               </node>
             </node>
           </node>
@@ -20117,18 +20103,22 @@
     </node>
     <node concept="3Tm1VV" id="7MWNCzXOxmy" role="1B3o_S" />
     <node concept="n94m4" id="7MWNCzXOxmz" role="lGtFl">
-      <ref role="n9lRv" to="un0u:1lwvTLPwTBS" resolve="ISRPlatform" />
+      <ref role="n9lRv" to="un0u:1lwvTLPwTBS" resolve="IPlatform" />
     </node>
     <node concept="17Uvod" id="7MWNCzXOxo$" role="lGtFl">
       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
       <property role="2qtEX9" value="name" />
       <node concept="3zFVjK" id="7MWNCzXOxoB" role="3zH0cK">
         <node concept="3clFbS" id="7MWNCzXOxoC" role="2VODD2">
-          <node concept="3clFbF" id="7MWNCzYu1ew" role="3cqZAp">
-            <node concept="2OqwBi" id="7MWNCzYu1h_" role="3clFbG">
-              <node concept="30H73N" id="7MWNCzYu1ev" role="2Oq$k0" />
-              <node concept="2qgKlT" id="2cjYBZTawzK" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:1lwvTLPwUe7" resolve="getPlatformClassName" />
+          <node concept="3clFbF" id="4zNzuh$ThDF" role="3cqZAp">
+            <node concept="2YIFZM" id="4zNzuh$ThN1" role="3clFbG">
+              <ref role="37wK5l" to="28jr:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
+              <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+              <node concept="2OqwBi" id="7MWNCzYu1h_" role="37wK5m">
+                <node concept="30H73N" id="7MWNCzYu1ev" role="2Oq$k0" />
+                <node concept="2qgKlT" id="2cjYBZTawzK" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:4zNzuhzhIlX" resolve="getPlatformImplClassFqName" />
+                </node>
               </node>
             </node>
           </node>

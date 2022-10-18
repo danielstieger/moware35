@@ -38466,12 +38466,6 @@
     <property role="3GE5qa" value="OFXArchitecture" />
     <property role="TrG5h" value="IOFXPlatform" />
     <node concept="2tJIrI" id="6A6XM2S842B" role="jymVt" />
-    <node concept="3clFb_" id="5fkhsROxw$p" role="jymVt">
-      <property role="TrG5h" value="getPlatformFQName" />
-      <node concept="17QB3L" id="5fkhsROxwCS" role="3clF45" />
-      <node concept="3Tm1VV" id="5fkhsROxw$s" role="1B3o_S" />
-      <node concept="3clFbS" id="5fkhsROxw$t" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="6BKPvpDdCG2" role="jymVt">
       <property role="TrG5h" value="isPlatform" />
       <node concept="37vLTG" id="6BKPvpDemr3" role="3clF46">
@@ -38490,7 +38484,7 @@
     </node>
     <node concept="2tJIrI" id="2SRXiXA4QHs" role="jymVt" />
     <node concept="3clFb_" id="2SRXiX_MA_4" role="jymVt">
-      <property role="TrG5h" value="setPlatformShortName" />
+      <property role="TrG5h" value="setPlatformName" />
       <node concept="37vLTG" id="2SRXiX_MA_5" role="3clF46">
         <property role="TrG5h" value="platformName" />
         <node concept="17QB3L" id="2SRXiX_MA_6" role="1tU5fm" />
@@ -38500,7 +38494,7 @@
       <node concept="3clFbS" id="2SRXiX_MA_b" role="3clF47" />
     </node>
     <node concept="3clFb_" id="2SRXiXA4QsB" role="jymVt">
-      <property role="TrG5h" value="getPlatformShortName" />
+      <property role="TrG5h" value="getPlatformName" />
       <node concept="17QB3L" id="2SRXiXA4QyB" role="3clF45" />
       <node concept="3Tm1VV" id="2SRXiXA4QsF" role="1B3o_S" />
       <node concept="3clFbS" id="2SRXiXA4QsG" role="3clF47" />
@@ -57016,29 +57010,6 @@
     <node concept="3uibUv" id="19EO7JRPdvM" role="EKbjA">
       <ref role="3uigEE" node="7MWNCzY1Tjr" resolve="IOFXPlatform" />
     </node>
-    <node concept="3clFb_" id="19EO7JRPdx4" role="jymVt">
-      <property role="TrG5h" value="getPlatformFQName" />
-      <node concept="17QB3L" id="19EO7JRPdx5" role="3clF45" />
-      <node concept="3Tm1VV" id="19EO7JRPdx6" role="1B3o_S" />
-      <node concept="3clFbS" id="19EO7JRPdx8" role="3clF47">
-        <node concept="3clFbF" id="19EO7JRPdxb" role="3cqZAp">
-          <node concept="2OqwBi" id="19EO7JRPeqH" role="3clFbG">
-            <node concept="2OqwBi" id="19EO7JRPeb1" role="2Oq$k0">
-              <node concept="Xjq3P" id="19EO7JRPe41" role="2Oq$k0" />
-              <node concept="liA8E" id="19EO7JRPefv" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-              </node>
-            </node>
-            <node concept="liA8E" id="19EO7JRPeYc" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="19EO7JRPdx9" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
     <node concept="3clFb_" id="19EO7JRPdxc" role="jymVt">
       <property role="TrG5h" value="isPlatform" />
       <node concept="37vLTG" id="19EO7JRPdxd" role="3clF46">
@@ -57063,7 +57034,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="19EO7JRPdxo" role="jymVt">
-      <property role="TrG5h" value="setPlatformShortName" />
+      <property role="TrG5h" value="setPlatformName" />
       <node concept="37vLTG" id="19EO7JRPdxp" role="3clF46">
         <property role="TrG5h" value="platformName" />
         <node concept="17QB3L" id="19EO7JRPdxq" role="1tU5fm" />
@@ -57076,7 +57047,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="19EO7JRPdxw" role="jymVt">
-      <property role="TrG5h" value="getPlatformShortName" />
+      <property role="TrG5h" value="getPlatformName" />
       <node concept="17QB3L" id="19EO7JRPdxx" role="3clF45" />
       <node concept="3Tm1VV" id="19EO7JRPdxy" role="1B3o_S" />
       <node concept="3clFbS" id="19EO7JRPdx$" role="3clF47">

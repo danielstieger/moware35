@@ -7662,7 +7662,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5fkhsROx$8n" role="2OqNvi">
-                                    <ref role="37wK5l" to="28jr:5fkhsROxw$p" resolve="getPlatformFQName" />
+                                    <ref role="37wK5l" to="28jr:2SRXiXA4QsB" resolve="getPlatformName" />
                                   </node>
                                 </node>
                               </node>
