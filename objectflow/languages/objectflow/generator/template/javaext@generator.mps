@@ -2649,13 +2649,13 @@
                                   <node concept="2Xjw5R" id="72pStkQ3qEW" role="2OqNvi">
                                     <node concept="1xMEDy" id="72pStkQ3qEX" role="1xVPHs">
                                       <node concept="chp4Y" id="72pStkQ3qEY" role="ri$Ld">
-                                        <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+                                        <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
                                       </node>
                                     </node>
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="72pStkQ3sqn" role="2OqNvi">
-                                  <ref role="37wK5l" to="70o0:33fNNpeEYjn" resolve="getPrintableName" />
+                                  <ref role="37wK5l" to="70o0:6ffh1MX_A66" resolve="getEscapedFqName" />
                                 </node>
                               </node>
                             </node>
