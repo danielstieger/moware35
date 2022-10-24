@@ -9344,7 +9344,7 @@
                       <ref role="3cqZAo" node="2IDWU6Z6iPW" resolve="root" />
                     </node>
                     <node concept="2qgKlT" id="2IDWU6Z6j4J" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getOriginalPlatformDeclarations" />
+                      <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getAllOriginalPlatformDeclarations" />
                     </node>
                   </node>
                   <node concept="3zZkjj" id="2IDWU6Z6lpu" role="2OqNvi">
@@ -9736,7 +9736,7 @@
                         <ref role="3cqZAo" node="2IDWU6Zixbe" resolve="sr" />
                       </node>
                       <node concept="2qgKlT" id="2IDWU6ZixOB" role="2OqNvi">
-                        <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getOriginalPlatformDeclarations" />
+                        <ref role="37wK5l" to="70o0:2IDWU6Z6bWm" resolve="getAllOriginalPlatformDeclarations" />
                       </node>
                     </node>
                     <node concept="34oBXx" id="2IDWU6Zi$aw" role="2OqNvi" />
