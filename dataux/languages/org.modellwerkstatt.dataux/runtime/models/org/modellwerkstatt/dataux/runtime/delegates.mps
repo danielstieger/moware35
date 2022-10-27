@@ -620,6 +620,24 @@
           </node>
         </node>
         <node concept="3clFbH" id="1DW7q9i3GUm" role="3cqZAp" />
+        <node concept="3cpWs8" id="5IEkTkmwTcV" role="3cqZAp">
+          <node concept="3cpWsn" id="5IEkTkmwTcY" role="3cpWs9">
+            <property role="TrG5h" value="needsPicker" />
+            <node concept="10P_77" id="5IEkTkmwTcT" role="1tU5fm" />
+            <node concept="2YIFZM" id="5IEkTkmwTrX" role="33vP2m">
+              <ref role="37wK5l" to="250q:5IEkTkkuA32" resolve="has" />
+              <ref role="1Pybhc" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+              <node concept="Rm8GO" id="5IEkTkmwTEy" role="37wK5m">
+                <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="PICKER" />
+                <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+              </node>
+              <node concept="37vLTw" id="5IEkTkmwTOH" role="37wK5m">
+                <ref role="3cqZAo" node="5IEkTkmwQ4S" resolve="pickerOption" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5IEkTkmwTQ$" role="3cqZAp" />
         <node concept="3clFbF" id="3sEA$PIEHtt" role="3cqZAp">
           <node concept="37vLTI" id="3sEA$PIEHtu" role="3clFbG">
             <node concept="2OqwBi" id="3sEA$PIEHtv" role="37vLTx">
@@ -628,6 +646,9 @@
               </node>
               <node concept="liA8E" id="3sEA$PIEHtx" role="2OqNvi">
                 <ref role="37wK5l" to="250q:3sEA$PIARpU" resolve="createDateEditor" />
+                <node concept="37vLTw" id="5IEkTkmwU3o" role="37wK5m">
+                  <ref role="3cqZAo" node="5IEkTkmwTcY" resolve="needsPicker" />
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="3sEA$PIEHty" role="37vLTJ">
@@ -673,6 +694,14 @@
       <node concept="37vLTG" id="6XWBEIFH_3j" role="3clF46">
         <property role="TrG5h" value="langIdx" />
         <node concept="10Oyi0" id="6XWBEIFH_3k" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5IEkTkmwQ4S" role="3clF46">
+        <property role="TrG5h" value="pickerOption" />
+        <node concept="8X2XB" id="5IEkTkmwQEx" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkmwQxo" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="3sEA$PIEHtE" role="jymVt" />
@@ -3789,6 +3818,7 @@
             <ref role="3cqZAo" node="6XWBEIFHvX7" resolve="langIdx" />
           </node>
         </node>
+        <node concept="3clFbH" id="5IEkTkmwQN7" role="3cqZAp" />
         <node concept="3SKdUt" id="1l2SXGvJUdz" role="3cqZAp">
           <node concept="1PaTwC" id="5HvIBdJXHXL" role="1aUNEU">
             <node concept="3oM_SD" id="5HvIBdJXHXM" role="1PaTwD">
@@ -7937,6 +7967,7 @@
               </node>
               <node concept="liA8E" id="3sEA$PIygHj" role="2OqNvi">
                 <ref role="37wK5l" to="250q:3sEA$PIARpU" resolve="createDateEditor" />
+                <node concept="3clFbT" id="5IEkTkmHxeF" role="37wK5m" />
               </node>
             </node>
             <node concept="37vLTw" id="3sEA$PIygHk" role="37vLTJ">

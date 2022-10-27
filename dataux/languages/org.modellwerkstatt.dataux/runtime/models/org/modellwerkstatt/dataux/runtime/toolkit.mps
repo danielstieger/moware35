@@ -469,6 +469,10 @@
     </node>
     <node concept="3clFb_" id="3sEA$PIARpU" role="jymVt">
       <property role="TrG5h" value="createDateEditor" />
+      <node concept="37vLTG" id="5IEkTkmwUaN" role="3clF46">
+        <property role="TrG5h" value="withPicker" />
+        <node concept="10P_77" id="5IEkTkmwUhs" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="3sEA$PIARpV" role="3clF45">
         <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
       </node>

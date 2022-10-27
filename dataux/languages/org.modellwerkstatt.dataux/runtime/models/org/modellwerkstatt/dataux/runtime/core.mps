@@ -47660,6 +47660,10 @@
     </node>
     <node concept="3clFb_" id="1vmXD1nb2HO" role="jymVt">
       <property role="TrG5h" value="createDateEditor" />
+      <node concept="37vLTG" id="5IEkTkmHv3A" role="3clF46">
+        <property role="TrG5h" value="picker" />
+        <node concept="10P_77" id="5IEkTkmHvkX" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="1vmXD1nb2HP" role="3clF45">
         <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
       </node>
