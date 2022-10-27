@@ -29,6 +29,9 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1219920932475" name="jetbrains.mps.baseLanguage.structure.VariableArityType" flags="in" index="8X2XB">
+        <child id="1219921048460" name="componentType" index="8Xvag" />
+      </concept>
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -5485,8 +5488,8 @@
       </node>
       <node concept="3Tm1VV" id="5Y1b9tRfgoL" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tRfgoN" role="3clF47">
-        <node concept="3clFbF" id="5Y1b9tRfj0g" role="3cqZAp">
-          <node concept="37vLTw" id="5Y1b9tRfj0f" role="3clFbG">
+        <node concept="3clFbF" id="6Bv$eygavGj" role="3cqZAp">
+          <node concept="37vLTw" id="6Bv$eygavGh" role="3clFbG">
             <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
           </node>
         </node>
@@ -5550,26 +5553,20 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1DW7q9i2ciF" role="jymVt" />
-    <node concept="3clFb_" id="6oBKRh57bYM" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setForcedNumericalEditor" />
-      <node concept="3cqZAl" id="6oBKRh57bYN" role="3clF45" />
-      <node concept="3Tm1VV" id="6oBKRh57bYO" role="1B3o_S" />
-      <node concept="3clFbS" id="6oBKRh57bYQ" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="32SBLyB6O3J" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFolded" />
-      <node concept="3cqZAl" id="32SBLyB6O3K" role="3clF45" />
-      <node concept="3Tm1VV" id="32SBLyB6O3L" role="1B3o_S" />
-      <node concept="3clFbS" id="32SBLyB6O3N" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="69CNZTqLyHG" role="jymVt">
-      <property role="TrG5h" value="setWide" />
-      <node concept="3cqZAl" id="69CNZTqLyHH" role="3clF45" />
-      <node concept="3Tm1VV" id="69CNZTqLyHI" role="1B3o_S" />
-      <node concept="3clFbS" id="69CNZTqLyHJ" role="3clF47" />
-      <node concept="2AHcQZ" id="69CNZTqLyHK" role="2AJF6D">
+    <node concept="3clFb_" id="5IEkTkk$d3y" role="jymVt">
+      <property role="TrG5h" value="setOption" />
+      <node concept="37vLTG" id="5IEkTkk$d3z" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="8X2XB" id="5IEkTkk$d3$" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkk$d3_" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IEkTkk$d3A" role="3clF45" />
+      <node concept="3Tm1VV" id="5IEkTkk$d3B" role="1B3o_S" />
+      <node concept="3clFbS" id="5IEkTkk$d3D" role="3clF47" />
+      <node concept="2AHcQZ" id="5IEkTkk$d3E" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -6882,35 +6879,29 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="6oBKRh578bz" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setForcedNumericalEditor" />
-      <node concept="3cqZAl" id="6oBKRh578b$" role="3clF45" />
-      <node concept="3Tm1VV" id="6oBKRh578b_" role="1B3o_S" />
-      <node concept="3clFbS" id="6oBKRh578bB" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="32SBLyB6QdS" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFolded" />
-      <node concept="3cqZAl" id="32SBLyB6QdT" role="3clF45" />
-      <node concept="3Tm1VV" id="32SBLyB6QdU" role="1B3o_S" />
-      <node concept="3clFbS" id="32SBLyB6QdW" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="69CNZTqKFcZ" role="jymVt">
-      <property role="TrG5h" value="setWide" />
-      <node concept="3cqZAl" id="69CNZTqKFd0" role="3clF45" />
-      <node concept="3Tm1VV" id="69CNZTqKFd1" role="1B3o_S" />
-      <node concept="3clFbS" id="69CNZTqKFd3" role="3clF47" />
-      <node concept="2AHcQZ" id="69CNZTqKFd4" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
     <node concept="3clFb_" id="7Sjrk8y4Zxn" role="jymVt">
       <property role="TrG5h" value="newObjectBound" />
       <node concept="3cqZAl" id="7Sjrk8y4Zxo" role="3clF45" />
       <node concept="3Tm1VV" id="7Sjrk8y4Zxp" role="1B3o_S" />
       <node concept="3clFbS" id="7Sjrk8y4Zxr" role="3clF47" />
       <node concept="2AHcQZ" id="7Sjrk8y4Zxs" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="5IEkTkkA9GU" role="jymVt">
+      <property role="TrG5h" value="setOption" />
+      <node concept="37vLTG" id="5IEkTkkA9GV" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="8X2XB" id="5IEkTkkA9GW" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkkA9GX" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IEkTkkA9GY" role="3clF45" />
+      <node concept="3Tm1VV" id="5IEkTkkA9GZ" role="1B3o_S" />
+      <node concept="3clFbS" id="5IEkTkkA9H1" role="3clF47" />
+      <node concept="2AHcQZ" id="5IEkTkkA9H2" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -8609,26 +8600,20 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="6oBKRh5772p" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setForcedNumericalEditor" />
-      <node concept="3cqZAl" id="6oBKRh5772q" role="3clF45" />
-      <node concept="3Tm1VV" id="6oBKRh5772r" role="1B3o_S" />
-      <node concept="3clFbS" id="6oBKRh5772u" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="32SBLyB6SYZ" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFolded" />
-      <node concept="3cqZAl" id="32SBLyB6SZ0" role="3clF45" />
-      <node concept="3Tm1VV" id="32SBLyB6SZ1" role="1B3o_S" />
-      <node concept="3clFbS" id="32SBLyB6SZ5" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="69CNZTqLm65" role="jymVt">
-      <property role="TrG5h" value="setWide" />
-      <node concept="3cqZAl" id="69CNZTqLm66" role="3clF45" />
-      <node concept="3Tm1VV" id="69CNZTqLm67" role="1B3o_S" />
-      <node concept="3clFbS" id="69CNZTqLm68" role="3clF47" />
-      <node concept="2AHcQZ" id="69CNZTqLm69" role="2AJF6D">
+    <node concept="3clFb_" id="5IEkTkk_7$I" role="jymVt">
+      <property role="TrG5h" value="setOption" />
+      <node concept="37vLTG" id="5IEkTkk_7$J" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="8X2XB" id="5IEkTkk_7$K" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkk_7$L" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IEkTkk_7$M" role="3clF45" />
+      <node concept="3Tm1VV" id="5IEkTkk_7$N" role="1B3o_S" />
+      <node concept="3clFbS" id="5IEkTkk_7$R" role="3clF47" />
+      <node concept="2AHcQZ" id="5IEkTkk_7$S" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -9669,26 +9654,20 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="6oBKRh57aZT" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setForcedNumericalEditor" />
-      <node concept="3cqZAl" id="6oBKRh57aZU" role="3clF45" />
-      <node concept="3Tm1VV" id="6oBKRh57aZV" role="1B3o_S" />
-      <node concept="3clFbS" id="6oBKRh57aZY" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="32SBLyB6Vq3" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFolded" />
-      <node concept="3cqZAl" id="32SBLyB6Vq4" role="3clF45" />
-      <node concept="3Tm1VV" id="32SBLyB6Vq5" role="1B3o_S" />
-      <node concept="3clFbS" id="32SBLyB6Vq8" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="69CNZTqL8Z1" role="jymVt">
-      <property role="TrG5h" value="setWide" />
-      <node concept="3cqZAl" id="69CNZTqL8Z2" role="3clF45" />
-      <node concept="3Tm1VV" id="69CNZTqL8Z3" role="1B3o_S" />
-      <node concept="3clFbS" id="69CNZTqL8Z4" role="3clF47" />
-      <node concept="2AHcQZ" id="69CNZTqL8Z5" role="2AJF6D">
+    <node concept="3clFb_" id="5IEkTkk_wT9" role="jymVt">
+      <property role="TrG5h" value="setOption" />
+      <node concept="37vLTG" id="5IEkTkk_wTa" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="8X2XB" id="5IEkTkk_wTb" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkk_wTc" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IEkTkk_wTd" role="3clF45" />
+      <node concept="3Tm1VV" id="5IEkTkk_wTe" role="1B3o_S" />
+      <node concept="3clFbS" id="5IEkTkk_wTh" role="3clF47" />
+      <node concept="2AHcQZ" id="5IEkTkk_wTi" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -10557,15 +10536,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="69CNZTqL3a6" role="jymVt">
-      <property role="TrG5h" value="setWide" />
-      <node concept="3cqZAl" id="69CNZTqL3a7" role="3clF45" />
-      <node concept="3Tm1VV" id="69CNZTqL3a8" role="1B3o_S" />
-      <node concept="3clFbS" id="69CNZTqL3a9" role="3clF47" />
-      <node concept="2AHcQZ" id="69CNZTqL3aa" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
     <node concept="3clFb_" id="1_PJNZXkmVc" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -10588,20 +10558,6 @@
       <node concept="3cqZAl" id="4ceCyFmsLek" role="3clF45" />
       <node concept="3Tm1VV" id="4ceCyFmsLel" role="1B3o_S" />
       <node concept="3clFbS" id="4ceCyFmsLeo" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="6oBKRh57agn" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setForcedNumericalEditor" />
-      <node concept="3cqZAl" id="6oBKRh57ago" role="3clF45" />
-      <node concept="3Tm1VV" id="6oBKRh57agp" role="1B3o_S" />
-      <node concept="3clFbS" id="6oBKRh57ags" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="32SBLyB6WJh" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFolded" />
-      <node concept="3cqZAl" id="32SBLyB6WJi" role="3clF45" />
-      <node concept="3Tm1VV" id="32SBLyB6WJj" role="1B3o_S" />
-      <node concept="3clFbS" id="32SBLyB6WJm" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1DW7q9i2rQv" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -10755,6 +10711,23 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5IEkTkk_CKY" role="jymVt">
+      <property role="TrG5h" value="setOption" />
+      <node concept="37vLTG" id="5IEkTkk_CKZ" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="8X2XB" id="5IEkTkk_CL0" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkk_CL1" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IEkTkk_CL2" role="3clF45" />
+      <node concept="3Tm1VV" id="5IEkTkk_CL3" role="1B3o_S" />
+      <node concept="3clFbS" id="5IEkTkk_CL6" role="3clF47" />
+      <node concept="2AHcQZ" id="5IEkTkk_CL7" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="2rVYvNSgZnz" role="jymVt">
@@ -12499,21 +12472,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="1l2SXGvG1mt" role="jymVt" />
-    <node concept="3clFb_" id="6oBKRh579fc" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setForcedNumericalEditor" />
-      <node concept="3cqZAl" id="6oBKRh579fd" role="3clF45" />
-      <node concept="3Tm1VV" id="6oBKRh579fe" role="1B3o_S" />
-      <node concept="3clFbS" id="6oBKRh579fj" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="32SBLyB6ZpM" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFolded" />
-      <node concept="3cqZAl" id="32SBLyB6ZpN" role="3clF45" />
-      <node concept="3Tm1VV" id="32SBLyB6ZpO" role="1B3o_S" />
-      <node concept="3clFbS" id="32SBLyB6ZpU" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="2gdf8TJe3zC" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="requestFocus" />
@@ -12537,16 +12495,24 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="69CNZTqKU8n" role="jymVt">
-      <property role="TrG5h" value="setWide" />
-      <node concept="3cqZAl" id="69CNZTqKU8o" role="3clF45" />
-      <node concept="3Tm1VV" id="69CNZTqKU8p" role="1B3o_S" />
-      <node concept="3clFbS" id="69CNZTqKU8q" role="3clF47" />
-      <node concept="2AHcQZ" id="69CNZTqKU8r" role="2AJF6D">
+    <node concept="2tJIrI" id="2gdf8TJdA8o" role="jymVt" />
+    <node concept="3clFb_" id="5IEkTkk_ZaT" role="jymVt">
+      <property role="TrG5h" value="setOption" />
+      <node concept="37vLTG" id="5IEkTkk_ZaU" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="8X2XB" id="5IEkTkk_ZaV" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkk_ZaW" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IEkTkk_ZaX" role="3clF45" />
+      <node concept="3Tm1VV" id="5IEkTkk_ZaY" role="1B3o_S" />
+      <node concept="3clFbS" id="5IEkTkk_Zb4" role="3clF47" />
+      <node concept="2AHcQZ" id="5IEkTkk_Zb5" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="2gdf8TJdA8o" role="jymVt" />
     <node concept="3clFb_" id="1l2SXGvGrUo" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="gcClear" />
@@ -16719,19 +16685,22 @@
       <node concept="3Tm1VV" id="7Nm35wtJoKR" role="1B3o_S" />
       <node concept="3clFbS" id="7Nm35wtJoKS" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="7Nm35wtJoKT" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setForcedNumericalEditor" />
-      <node concept="3cqZAl" id="7Nm35wtJoKU" role="3clF45" />
-      <node concept="3Tm1VV" id="7Nm35wtJoKV" role="1B3o_S" />
-      <node concept="3clFbS" id="7Nm35wtJoKW" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="7Nm35wtJoKX" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setFolded" />
-      <node concept="3cqZAl" id="7Nm35wtJoKY" role="3clF45" />
-      <node concept="3Tm1VV" id="7Nm35wtJoKZ" role="1B3o_S" />
-      <node concept="3clFbS" id="7Nm35wtJoL0" role="3clF47" />
+    <node concept="3clFb_" id="5IEkTkk_GKs" role="jymVt">
+      <property role="TrG5h" value="setOption" />
+      <node concept="37vLTG" id="5IEkTkk_GKt" role="3clF46">
+        <property role="TrG5h" value="option" />
+        <node concept="8X2XB" id="5IEkTkk_GKu" role="1tU5fm">
+          <node concept="3uibUv" id="5IEkTkk_GKv" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IEkTkk_GKw" role="3clF45" />
+      <node concept="3Tm1VV" id="5IEkTkk_GKx" role="1B3o_S" />
+      <node concept="3clFbS" id="5IEkTkk_GK$" role="3clF47" />
+      <node concept="2AHcQZ" id="5IEkTkk_GK_" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7Nm35wtJoL1" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -16792,15 +16761,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="69CNZTqL0j6" role="jymVt">
-      <property role="TrG5h" value="setWide" />
-      <node concept="3cqZAl" id="69CNZTqL0j7" role="3clF45" />
-      <node concept="3Tm1VV" id="69CNZTqL0j8" role="1B3o_S" />
-      <node concept="3clFbS" id="69CNZTqL0j9" role="3clF47" />
-      <node concept="2AHcQZ" id="69CNZTqL0ja" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="7Nm35wtJoLv" role="jymVt">

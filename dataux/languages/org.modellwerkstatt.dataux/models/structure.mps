@@ -1624,6 +1624,9 @@
     <node concept="PrWs8" id="69CNZTqn4Lp" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
     </node>
+    <node concept="1QGGSu" id="5IEkTkktlkc" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6I2imnXDra8">
     <property role="EcuMT" value="7746835011426693768" />
@@ -1636,6 +1639,20 @@
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
     </node>
     <node concept="1QGGSu" id="6I2imnXDHwr" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5IEkTkksa4g">
+    <property role="EcuMT" value="6605183703250411792" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="PickerDOption" />
+    <property role="34LRSv" value="PICKER" />
+    <property role="R4oN_" value="picker if possible" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5IEkTkksa4h" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+    <node concept="1QGGSu" id="5IEkTkktlAG" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
     </node>
   </node>
