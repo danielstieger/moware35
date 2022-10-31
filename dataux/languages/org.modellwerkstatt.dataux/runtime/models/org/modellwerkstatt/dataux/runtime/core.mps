@@ -9490,6 +9490,9 @@
                   <node concept="37vLTw" id="5YG5DD8XC93" role="37wK5m">
                     <ref role="3cqZAo" node="6TYnK1bwyNW" resolve="userConnectionInfo" />
                   </node>
+                  <node concept="37vLTw" id="5H0CcUR2SVZ" role="37wK5m">
+                    <ref role="3cqZAo" node="7j$Y$Tj8F_x" resolve="startupInfo" />
+                  </node>
                   <node concept="2OqwBi" id="5srGYRYQ5g1" role="37wK5m">
                     <node concept="2OqwBi" id="5srGYRYQ108" role="2Oq$k0">
                       <node concept="37vLTw" id="5srGYRYPXmq" role="2Oq$k0">
@@ -29070,6 +29073,11 @@
       <node concept="3Tmbuc" id="4n24ZlEyejm" role="1B3o_S" />
       <node concept="17QB3L" id="4n24ZlEyejn" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="5H0CcUR0Bkg" role="jymVt">
+      <property role="TrG5h" value="connectionInfoAddOn" />
+      <node concept="3Tmbuc" id="5H0CcUR0Bkh" role="1B3o_S" />
+      <node concept="17QB3L" id="5H0CcUR0Bki" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="4nH4LOEEMN6" role="jymVt" />
     <node concept="312cEg" id="4nH4LOEF6ZU" role="jymVt">
       <property role="TrG5h" value="deviceName" />
@@ -29331,6 +29339,10 @@
         <property role="TrG5h" value="connInfo" />
         <node concept="17QB3L" id="5YG5DD8XuOq" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="5H0CcUR1R5n" role="3clF46">
+        <property role="TrG5h" value="connInfoAddOn" />
+        <node concept="17QB3L" id="5H0CcUR1Tk2" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="5srGYRYPhBx" role="3clF46">
         <property role="TrG5h" value="aAppFqName" />
         <node concept="17QB3L" id="5srGYRYPjt4" role="1tU5fm" />
@@ -29555,6 +29567,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5H0CcUR1UY6" role="3cqZAp">
+          <node concept="37vLTI" id="5H0CcUR1W8Y" role="3clFbG">
+            <node concept="37vLTw" id="5H0CcUR1WCD" role="37vLTx">
+              <ref role="3cqZAo" node="5H0CcUR1R5n" resolve="connInfoAddOn" />
+            </node>
+            <node concept="37vLTw" id="5H0CcUR1UY4" role="37vLTJ">
+              <ref role="3cqZAo" node="5H0CcUR0Bkg" resolve="connectionInfoAddOn" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5H0CcUR1XiW" role="3cqZAp" />
         <node concept="3clFbF" id="4FgSVMszCbN" role="3cqZAp">
           <node concept="37vLTI" id="4FgSVMszD4g" role="3clFbG">
             <node concept="37vLTw" id="4FgSVMszDU4" role="37vLTx">
@@ -29735,6 +29758,19 @@
         <node concept="3clFbF" id="4n24ZlEyi8O" role="3cqZAp">
           <node concept="37vLTw" id="4n24ZlEyi8N" role="3clFbG">
             <ref role="3cqZAo" node="4n24ZlEyejl" resolve="connectionInfo" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5H0CcUR0u_l" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getuser_connectionInfoAddOn" />
+      <node concept="17QB3L" id="5H0CcUR0u_m" role="3clF45" />
+      <node concept="3Tm1VV" id="5H0CcUR0u_n" role="1B3o_S" />
+      <node concept="3clFbS" id="5H0CcUR0u_o" role="3clF47">
+        <node concept="3clFbF" id="5H0CcUR0u_p" role="3cqZAp">
+          <node concept="37vLTw" id="5H0CcUR0u_q" role="3clFbG">
+            <ref role="3cqZAo" node="5H0CcUR0Bkg" resolve="connectionInfoAddOn" />
           </node>
         </node>
       </node>
@@ -32520,6 +32556,10 @@
         <property role="TrG5h" value="connInfo" />
         <node concept="17QB3L" id="5YG5DD8XGy1" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="5H0CcUR2ll8" role="3clF46">
+        <property role="TrG5h" value="connInfoAddOn" />
+        <node concept="17QB3L" id="5H0CcUR2p1b" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="5srGYRYP7LM" role="3clF46">
         <property role="TrG5h" value="appFqName" />
         <node concept="17QB3L" id="5srGYRYPb9n" role="1tU5fm" />
@@ -32546,6 +32586,9 @@
             </node>
             <node concept="37vLTw" id="5YG5DD8XGC0" role="37wK5m">
               <ref role="3cqZAo" node="5YG5DD8XG5x" resolve="connInfo" />
+            </node>
+            <node concept="37vLTw" id="5H0CcUR2tSp" role="37wK5m">
+              <ref role="3cqZAo" node="5H0CcUR2ll8" resolve="connInfoAddOn" />
             </node>
             <node concept="37vLTw" id="5srGYRYPdXM" role="37wK5m">
               <ref role="3cqZAo" node="5srGYRYP7LM" resolve="appFqName" />
@@ -44388,6 +44431,12 @@
       <node concept="17QB3L" id="6TYnK1btYlp" role="3clF45" />
       <node concept="3Tm1VV" id="6TYnK1btYlq" role="1B3o_S" />
       <node concept="3clFbS" id="6TYnK1btYlr" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5H0CcUR0pNB" role="jymVt">
+      <property role="TrG5h" value="getuser_connectionInfoAddOn" />
+      <node concept="17QB3L" id="5H0CcUR0pNC" role="3clF45" />
+      <node concept="3Tm1VV" id="5H0CcUR0pND" role="1B3o_S" />
+      <node concept="3clFbS" id="5H0CcUR0pNE" role="3clF47" />
     </node>
     <node concept="3clFb_" id="5YG5DD8X9jK" role="jymVt">
       <property role="TrG5h" value="getuser_lastInteraction" />

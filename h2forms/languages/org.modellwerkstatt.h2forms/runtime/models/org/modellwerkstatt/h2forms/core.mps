@@ -8277,7 +8277,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="7j$Y$Tj9tkf" role="3clF46">
-        <property role="TrG5h" value="connInfo" />
+        <property role="TrG5h" value="cookieInfo" />
         <node concept="17QB3L" id="7j$Y$Tj9$2s" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="yYLpwAyZ9j" role="3clF45" />
@@ -15946,7 +15946,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="7j$Y$Tj9eGK" role="3clF46">
-        <property role="TrG5h" value="connInfo" />
+        <property role="TrG5h" value="cookieInfo" />
         <node concept="17QB3L" id="7j$Y$Tj9eLL" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="1wwgtxzdEaz" role="3clF45" />
