@@ -3969,25 +3969,43 @@
                             <node concept="37vLTw" id="7j$Y$Tj89UH" role="3uHU7w">
                               <ref role="3cqZAo" node="7j$Y$Tj6Mna" resolve="cookieInfos" />
                             </node>
-                            <node concept="3cpWs3" id="7j$Y$Tj85hJ" role="3uHU7B">
-                              <node concept="3cpWs3" id="4nH4LOEVrUj" role="3uHU7B">
-                                <node concept="Xl_RD" id="4nH4LOEVk$T" role="3uHU7B">
-                                  <property role="Xl_RC" value="appstart=" />
+                            <node concept="3cpWs3" id="2OSzvhGuBfh" role="3uHU7B">
+                              <node concept="Xl_RD" id="7j$Y$Tj86TG" role="3uHU7w">
+                                <property role="Xl_RC" value=" / " />
+                              </node>
+                              <node concept="3cpWs3" id="2OSzvhGuKxO" role="3uHU7B">
+                                <node concept="3cpWs3" id="7j$Y$Tj85hJ" role="3uHU7B">
+                                  <node concept="3cpWs3" id="4nH4LOEVrUj" role="3uHU7B">
+                                    <node concept="Xl_RD" id="4nH4LOEVk$T" role="3uHU7B">
+                                      <property role="Xl_RC" value="appstart=" />
+                                    </node>
+                                    <node concept="2OqwBi" id="4nH4LOEVsVl" role="3uHU7w">
+                                      <node concept="37vLTw" id="4nH4LOEVsVm" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                                      </node>
+                                      <node concept="liA8E" id="4nH4LOEVsVn" role="2OqNvi">
+                                        <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
+                                        <node concept="37vLTw" id="q30e6$qyay" role="37wK5m">
+                                          <ref role="3cqZAo" node="q30e6$pF3w" resolve="URL_PARAM_APPSTART" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="2OSzvhGuGJS" role="3uHU7w">
+                                    <property role="Xl_RC" value="forwardTo=" />
+                                  </node>
                                 </node>
-                                <node concept="2OqwBi" id="4nH4LOEVsVl" role="3uHU7w">
-                                  <node concept="37vLTw" id="4nH4LOEVsVm" role="2Oq$k0">
+                                <node concept="2OqwBi" id="2OSzvhGuMbW" role="3uHU7w">
+                                  <node concept="37vLTw" id="2OSzvhGuMbX" role="2Oq$k0">
                                     <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
                                   </node>
-                                  <node concept="liA8E" id="4nH4LOEVsVn" role="2OqNvi">
+                                  <node concept="liA8E" id="2OSzvhGuMbY" role="2OqNvi">
                                     <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
-                                    <node concept="37vLTw" id="q30e6$qyay" role="37wK5m">
-                                      <ref role="3cqZAo" node="q30e6$pF3w" resolve="URL_PARAM_APPSTART" />
+                                    <node concept="37vLTw" id="2OSzvhGuMc7" role="37wK5m">
+                                      <ref role="3cqZAo" node="q30e6$oCRr" resolve="URL_PARAM_FORWARDTO" />
                                     </node>
                                   </node>
                                 </node>
-                              </node>
-                              <node concept="Xl_RD" id="7j$Y$Tj86TG" role="3uHU7w">
-                                <property role="Xl_RC" value=" / " />
                               </node>
                             </node>
                           </node>
