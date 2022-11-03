@@ -9703,18 +9703,6 @@
                 <node concept="2ShNRf" id="5IEkTkmx5fr" role="3cqZAk">
                   <node concept="1pGfFk" id="5IEkTkmxs3q" role="2ShVmc">
                     <ref role="37wK5l" to="qhmq:5IEkTkmx5Y$" resolve="FX8DatePicker" />
-                    <node concept="2OqwBi" id="5H0CcUQR8Qn" role="37wK5m">
-                      <node concept="1rXfSq" id="5H0CcUQR8wj" role="2Oq$k0">
-                        <ref role="37wK5l" to="1e0c:59qqFijcRkb" resolve="getTransProvider" />
-                      </node>
-                      <node concept="liA8E" id="5H0CcUQR9x2" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:5pvqQyCH9eb" resolve="getDelegateDateTimeEditorFormatter" />
-                        <node concept="3cmrfG" id="5H0CcUQRBCL" role="37wK5m">
-                          <property role="3cmrfH" value="-1" />
-                        </node>
-                        <node concept="10Nm6u" id="5H0CcUQRD9I" role="37wK5m" />
-                      </node>
-                    </node>
                   </node>
                 </node>
               </node>
