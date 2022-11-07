@@ -2570,7 +2570,7 @@
         <node concept="3clFbF" id="19VJYqAthAC" role="3cqZAp">
           <node concept="2ShNRf" id="19VJYqAthAA" role="3clFbG">
             <node concept="1pGfFk" id="19VJYqAtpSc" role="2ShVmc">
-              <ref role="37wK5l" node="19VJYqAtpnr" resolve="DateTimeEditor" />
+              <ref role="37wK5l" node="19VJYqAtpnr" resolve="DateOrTimeEditor" />
               <node concept="37vLTw" id="19VJYqAtOyt" role="37wK5m">
                 <ref role="3cqZAo" node="19VJYqAtLYp" resolve="dateTimeEditor" />
               </node>
@@ -2657,12 +2657,9 @@
         <node concept="3cpWs6" id="7RHNXGyQGid" role="3cqZAp">
           <node concept="2ShNRf" id="7RHNXGyQGie" role="3cqZAk">
             <node concept="1pGfFk" id="7RHNXGyQGif" role="2ShVmc">
-              <ref role="37wK5l" node="46JJF8ILG2e" resolve="TextEditor" />
+              <ref role="37wK5l" node="19VJYqAtpnr" resolve="DateOrTimeEditor" />
               <node concept="37vLTw" id="19VJYqAtS$M" role="37wK5m">
-                <ref role="3cqZAo" node="19VJYqAtL_7" resolve="textEditor" />
-              </node>
-              <node concept="3cmrfG" id="7324YUt8jv5" role="37wK5m">
-                <property role="3cmrfH" value="1" />
+                <ref role="3cqZAo" node="19VJYqAtLYp" resolve="dateTimeEditor" />
               </node>
             </node>
           </node>
@@ -6867,7 +6864,7 @@
   </node>
   <node concept="312cEu" id="EiYh8f1qkw">
     <property role="3GE5qa" value="editors" />
-    <property role="TrG5h" value="DateTimeEditor" />
+    <property role="TrG5h" value="DateOrTimeEditor" />
     <node concept="2tJIrI" id="EiYh8f1qkJ" role="jymVt" />
     <node concept="3clFbW" id="19VJYqAtpnr" role="jymVt">
       <node concept="37vLTG" id="19VJYqAtpqR" role="3clF46">
