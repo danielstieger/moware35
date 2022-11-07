@@ -10283,6 +10283,23 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="4$npG3zRosr" role="jymVt">
+      <property role="TrG5h" value="setFormatter" />
+      <node concept="37vLTG" id="4$npG3zRoss" role="3clF46">
+        <property role="TrG5h" value="format" />
+        <node concept="17QB3L" id="4$npG3zRost" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4$npG3zRosu" role="3clF46">
+        <property role="TrG5h" value="locale" />
+        <node concept="17QB3L" id="4$npG3zRosv" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4$npG3zRosw" role="3clF45" />
+      <node concept="3Tm1VV" id="4$npG3zRosx" role="1B3o_S" />
+      <node concept="3clFbS" id="4$npG3zRosz" role="3clF47" />
+      <node concept="2AHcQZ" id="4$npG3zRos$" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="1l2SXGvX1Ii" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="gcClear" />
@@ -10357,8 +10374,8 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1l2SXGvX1IP" role="1B3o_S" />
-    <node concept="3uibUv" id="1l2SXGvX1IQ" role="EKbjA">
-      <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+    <node concept="3uibUv" id="4$npG3zRjkX" role="EKbjA">
+      <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
     </node>
     <node concept="3uibUv" id="1l2SXGvX1IR" role="EKbjA">
       <ref role="3uigEE" node="5GiT4fwFoe2" resolve="IVClickableEditor" />
@@ -11797,6 +11814,23 @@
       <node concept="3clFbS" id="1mou_EBcEP7" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1mou_EBcFSI" role="jymVt" />
+    <node concept="3clFb_" id="4$npG3zR37p" role="jymVt">
+      <property role="TrG5h" value="setFormatter" />
+      <node concept="37vLTG" id="4$npG3zR37q" role="3clF46">
+        <property role="TrG5h" value="format" />
+        <node concept="17QB3L" id="4$npG3zR37r" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4$npG3zR37s" role="3clF46">
+        <property role="TrG5h" value="locale" />
+        <node concept="17QB3L" id="4$npG3zR37t" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4$npG3zR37u" role="3clF45" />
+      <node concept="3Tm1VV" id="4$npG3zR37v" role="1B3o_S" />
+      <node concept="3clFbS" id="4$npG3zR37x" role="3clF47" />
+      <node concept="2AHcQZ" id="4$npG3zR37y" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="32SBLyB6Lzp" role="jymVt" />
     <node concept="3clFb_" id="hObkZkEYTx" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -11847,7 +11881,7 @@
     </node>
     <node concept="3Tm1VV" id="hObkZkE13P" role="1B3o_S" />
     <node concept="3uibUv" id="hObkZkEYPX" role="EKbjA">
-      <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+      <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
     </node>
     <node concept="3uibUv" id="hObkZkGJwp" role="EKbjA">
       <ref role="3uigEE" node="5GiT4fwFoe2" resolve="IVClickableEditor" />

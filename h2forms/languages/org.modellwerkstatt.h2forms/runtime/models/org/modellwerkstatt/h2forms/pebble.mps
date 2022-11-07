@@ -2564,7 +2564,7 @@
       <property role="TrG5h" value="createDateAndTimeEditor" />
       <node concept="3Tm1VV" id="1l2SXGvSqj2" role="1B3o_S" />
       <node concept="3uibUv" id="1l2SXGvSqj3" role="3clF45">
-        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
       <node concept="3clFbS" id="1l2SXGvSqj5" role="3clF47">
         <node concept="3clFbF" id="19VJYqAthAC" role="3cqZAp">
@@ -2650,7 +2650,7 @@
         <node concept="10P_77" id="5IEkTkmwVnw" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="7RHNXGyQGia" role="3clF45">
-        <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
       <node concept="3Tm1VV" id="7RHNXGyQGib" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyQGic" role="3clF47">
@@ -6890,13 +6890,30 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="4$npG3zRBUm" role="jymVt">
+      <property role="TrG5h" value="setFormatter" />
+      <node concept="37vLTG" id="4$npG3zRBUn" role="3clF46">
+        <property role="TrG5h" value="format" />
+        <node concept="17QB3L" id="4$npG3zRBUo" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4$npG3zRBUp" role="3clF46">
+        <property role="TrG5h" value="locale" />
+        <node concept="17QB3L" id="4$npG3zRBUq" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4$npG3zRBUr" role="3clF45" />
+      <node concept="3Tm1VV" id="4$npG3zRBUs" role="1B3o_S" />
+      <node concept="3clFbS" id="4$npG3zRBUw" role="3clF47" />
+      <node concept="2AHcQZ" id="4$npG3zRBUx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="19VJYqAtpme" role="jymVt" />
     <node concept="3Tm1VV" id="EiYh8f1qkx" role="1B3o_S" />
     <node concept="3uibUv" id="EiYh8f1qma" role="1zkMxy">
       <ref role="3uigEE" node="46JJF8ILyze" resolve="TextEditor" />
     </node>
     <node concept="3uibUv" id="EiYh8f1qnH" role="EKbjA">
-      <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+      <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
     </node>
   </node>
   <node concept="312cEu" id="7RHNXGyZ3Rb">

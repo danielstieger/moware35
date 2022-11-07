@@ -8823,7 +8823,7 @@
         <node concept="10P_77" id="5IEkTkmwVnw" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="41UdyNB_Bhy" role="3clF45">
-        <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
       <node concept="3Tm1VV" id="41UdyNB_Bhz" role="1B3o_S" />
       <node concept="3clFbS" id="41UdyNB_BhA" role="3clF47">
@@ -8845,7 +8845,7 @@
       <property role="TrG5h" value="createDateAndTimeEditor" />
       <node concept="3Tm1VV" id="1l2SXGvSqj2" role="1B3o_S" />
       <node concept="3uibUv" id="1l2SXGvSqj3" role="3clF45">
-        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
       <node concept="3clFbS" id="1l2SXGvSqj5" role="3clF47">
         <node concept="3clFbF" id="hObkZkG6z3" role="3cqZAp">
@@ -36585,7 +36585,7 @@
               <ref role="3cqZAo" node="61_QXqSd29I" resolve="applicaitonCrtl" />
             </node>
             <node concept="liA8E" id="61_QXqSd2j_" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_immediatellyShutdown" />
+              <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_immediatelyShutdown" />
             </node>
           </node>
         </node>

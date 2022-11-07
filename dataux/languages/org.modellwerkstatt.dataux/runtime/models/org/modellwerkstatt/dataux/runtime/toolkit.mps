@@ -14,6 +14,7 @@
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
+    <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.runtime/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -474,7 +475,7 @@
         <node concept="10P_77" id="5IEkTkmwUhs" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3sEA$PIARpV" role="3clF45">
-        <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+        <ref role="3uigEE" node="1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
       <node concept="3Tm1VV" id="3sEA$PIARpW" role="1B3o_S" />
       <node concept="3clFbS" id="3sEA$PIARpX" role="3clF47" />
@@ -485,7 +486,7 @@
       <node concept="3clFbS" id="1l2SXGvBqc7" role="3clF47" />
       <node concept="3Tm1VV" id="1l2SXGvBqc8" role="1B3o_S" />
       <node concept="3uibUv" id="1l2SXGvBq6G" role="3clF45">
-        <ref role="3uigEE" node="1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+        <ref role="3uigEE" node="1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
     </node>
     <node concept="2tJIrI" id="1l2SXGvBq1w" role="jymVt" />
@@ -568,8 +569,22 @@
     </node>
   </node>
   <node concept="3HP615" id="1l2SXGvBp5q">
-    <property role="TrG5h" value="IToolkit_DateAndTimeEditor" />
-    <node concept="2tJIrI" id="1l2SXGvBp6E" role="jymVt" />
+    <property role="TrG5h" value="IToolkit_DateOrTimeEditor" />
+    <node concept="3clFb_" id="4$npG3zzJT7" role="jymVt">
+      <property role="TrG5h" value="setFormatter" />
+      <node concept="37vLTG" id="4$npG3zzJUU" role="3clF46">
+        <property role="TrG5h" value="format" />
+        <node concept="17QB3L" id="4$npG3z$KQ9" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4$npG3z$KQF" role="3clF46">
+        <property role="TrG5h" value="locale" />
+        <node concept="17QB3L" id="4$npG3z$KRj" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4$npG3zzJT9" role="3clF45" />
+      <node concept="3Tm1VV" id="4$npG3zzJTa" role="1B3o_S" />
+      <node concept="3clFbS" id="4$npG3zzJTb" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="4$npG3zzJSN" role="jymVt" />
     <node concept="3Tm1VV" id="1l2SXGvBp5r" role="1B3o_S" />
     <node concept="3uibUv" id="1l2SXGvBpCR" role="3HQHJm">
       <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
@@ -1560,26 +1575,6 @@
   </node>
   <node concept="3HP615" id="6Ag5kTzI9VO">
     <property role="TrG5h" value="IToolkit_ImageEditor" />
-    <node concept="3clFb_" id="6Ag5kTzI9Wa" role="jymVt">
-      <property role="TrG5h" value="setSubtractHeight" />
-      <node concept="37vLTG" id="6Ag5kTzI9WE" role="3clF46">
-        <property role="TrG5h" value="x" />
-        <node concept="10Oyi0" id="6Ag5kTzI9WI" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="6Ag5kTzI9Wc" role="3clF45" />
-      <node concept="3Tm1VV" id="6Ag5kTzI9Wd" role="1B3o_S" />
-      <node concept="3clFbS" id="6Ag5kTzI9We" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="6Ag5kTzI9WL" role="jymVt">
-      <property role="TrG5h" value="setSubtractWidth" />
-      <node concept="37vLTG" id="6Ag5kTzI9WM" role="3clF46">
-        <property role="TrG5h" value="x" />
-        <node concept="10Oyi0" id="6Ag5kTzI9WN" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="6Ag5kTzI9WO" role="3clF45" />
-      <node concept="3Tm1VV" id="6Ag5kTzI9WP" role="1B3o_S" />
-      <node concept="3clFbS" id="6Ag5kTzI9WQ" role="3clF47" />
-    </node>
     <node concept="3Tm1VV" id="6Ag5kTzI9W7" role="1B3o_S" />
     <node concept="3uibUv" id="6Ag5kTzI9W8" role="3HQHJm">
       <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />

@@ -48106,7 +48106,7 @@
         <node concept="10P_77" id="5IEkTkmHvkX" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="1vmXD1nb2HP" role="3clF45">
-        <ref role="3uigEE" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
       <node concept="3Tm1VV" id="1vmXD1nb2HQ" role="1B3o_S" />
       <node concept="3clFbS" id="1vmXD1nb2HS" role="3clF47">
@@ -48123,7 +48123,7 @@
       <property role="TrG5h" value="createDateAndTimeEditor" />
       <node concept="3Tm1VV" id="1vmXD1nb2HY" role="1B3o_S" />
       <node concept="3uibUv" id="1vmXD1nb2HZ" role="3clF45">
-        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+        <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
       </node>
       <node concept="3clFbS" id="1vmXD1nb2I0" role="3clF47">
         <node concept="3clFbF" id="1vmXD1nb2I3" role="3cqZAp">
