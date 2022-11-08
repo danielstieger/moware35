@@ -417,10 +417,6 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         </node>
-        <node concept="3F0ifn" id="4bYxf2FrTjf" role="3EZMnx">
-          <property role="3F0ifm" value="for" />
-          <ref role="1k5W1q" node="Kou8LehH1N" resolve="UserConcept" />
-        </node>
         <node concept="l2Vlx" id="4bYxf2FrThq" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="Kou8LehH2L" role="3EZMnx">

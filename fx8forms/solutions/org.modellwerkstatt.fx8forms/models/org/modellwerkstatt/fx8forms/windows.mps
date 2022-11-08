@@ -44376,7 +44376,7 @@
                         <ref role="3cqZAo" node="wDSRHNJXjy" resolve="introspector" />
                       </node>
                       <node concept="liA8E" id="1oizlxefBF8" role="2OqNvi">
-                        <ref role="37wK5l" to="kiw1:1oizlxefg$s" resolve="noteListFieldNames" />
+                        <ref role="37wK5l" to="kiw1:1oizlxefg$s" resolve="noteKeyAndListFieldNames" />
                       </node>
                     </node>
                   </node>
@@ -44412,7 +44412,7 @@
                       <ref role="3cqZAo" node="wDSRHNJXjy" resolve="introspector" />
                     </node>
                     <node concept="liA8E" id="1oizlxefDq0" role="2OqNvi">
-                      <ref role="37wK5l" to="kiw1:1oizlxe9Gda" resolve="getListCycleInfo" />
+                      <ref role="37wK5l" to="kiw1:1oizlxe9Gda" resolve="getKeyAndListCycleInfo" />
                     </node>
                   </node>
                 </node>
@@ -44424,11 +44424,11 @@
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
                     <node concept="3cpWs3" id="1oizlxegqHf" role="37wK5m">
                       <node concept="Xl_RD" id="1oizlxegqPh" role="3uHU7w">
-                        <property role="Xl_RC" value="\n\n" />
+                        <property role="Xl_RC" value="\n\n\n\n" />
                       </node>
                       <node concept="3cpWs3" id="1oizlxea6cL" role="3uHU7B">
                         <node concept="Xl_RD" id="1oizlxea5DJ" role="3uHU7B">
-                          <property role="Xl_RC" value="StackOverflowError - running in cycle on lists?\n" />
+                          <property role="Xl_RC" value="StackOverflowError - running in cycle on lists/references?\n\n\n" />
                         </node>
                         <node concept="37vLTw" id="1oizlxefEp9" role="3uHU7w">
                           <ref role="3cqZAo" node="1oizlxefxET" resolve="allListFieldNames" />
