@@ -12319,13 +12319,69 @@
   <node concept="312cEu" id="wDSRHNJpdM">
     <property role="TrG5h" value="LgcyGraphIntrospector" />
     <property role="3GE5qa" value="legacy" />
-    <node concept="2tJIrI" id="wDSRHNJpe9" role="jymVt" />
+    <node concept="2tJIrI" id="1oizlxeeBqC" role="jymVt" />
     <node concept="3clFbW" id="wDSRHNJpGB" role="jymVt">
       <node concept="3cqZAl" id="wDSRHNJpGD" role="3clF45" />
       <node concept="3Tm1VV" id="wDSRHNJpGE" role="1B3o_S" />
       <node concept="3clFbS" id="wDSRHNJpGF" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="wDSRHNJpew" role="jymVt" />
+    <node concept="312cEg" id="1oizlxefqQ5" role="jymVt">
+      <property role="TrG5h" value="noteListFieldNames" />
+      <node concept="3Tm6S6" id="1oizlxefqQ6" role="1B3o_S" />
+      <node concept="10P_77" id="1oizlxeftjm" role="1tU5fm" />
+      <node concept="3clFbT" id="1oizlxefu52" role="33vP2m" />
+    </node>
+    <node concept="3clFb_" id="1oizlxefg$s" role="jymVt">
+      <property role="TrG5h" value="noteListFieldNames" />
+      <node concept="3cqZAl" id="1oizlxefg$u" role="3clF45" />
+      <node concept="3Tm1VV" id="1oizlxefg$v" role="1B3o_S" />
+      <node concept="3clFbS" id="1oizlxefg$w" role="3clF47">
+        <node concept="3clFbF" id="1oizlxeftL5" role="3cqZAp">
+          <node concept="37vLTI" id="1oizlxeftYV" role="3clFbG">
+            <node concept="3clFbT" id="1oizlxefu0f" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="1oizlxeftL4" role="37vLTJ">
+              <ref role="3cqZAo" node="1oizlxefqQ5" resolve="noteListFieldNames" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1oizlxefuj2" role="3cqZAp">
+          <node concept="37vLTI" id="1oizlxefuvd" role="3clFbG">
+            <node concept="Xl_RD" id="1oizlxefuwx" role="37vLTx">
+              <property role="Xl_RC" value="" />
+            </node>
+            <node concept="37vLTw" id="1oizlxefuj0" role="37vLTJ">
+              <ref role="3cqZAo" node="1oizlxe9$u4" resolve="allListFieldNames" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1oizlxefb6N" role="jymVt" />
+    <node concept="312cEg" id="1oizlxe9$u4" role="jymVt">
+      <property role="TrG5h" value="allListFieldNames" />
+      <node concept="3Tm6S6" id="1oizlxe9$u5" role="1B3o_S" />
+      <node concept="17QB3L" id="1oizlxe9WGm" role="1tU5fm" />
+      <node concept="Xl_RD" id="1oizlxeeqCe" role="33vP2m">
+        <property role="Xl_RC" value="(none)" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1oizlxe9y0q" role="jymVt" />
+    <node concept="3clFb_" id="1oizlxe9Gda" role="jymVt">
+      <property role="TrG5h" value="getListCycleInfo" />
+      <node concept="17QB3L" id="1oizlxe9ISR" role="3clF45" />
+      <node concept="3Tm1VV" id="1oizlxe9Gdd" role="1B3o_S" />
+      <node concept="3clFbS" id="1oizlxe9Gde" role="3clF47">
+        <node concept="3clFbF" id="1oizlxe9P6u" role="3cqZAp">
+          <node concept="37vLTw" id="1oizlxeeqv0" role="3clFbG">
+            <ref role="3cqZAo" node="1oizlxe9$u4" resolve="allListFieldNames" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1oizlxe9ssW" role="jymVt" />
     <node concept="3clFb_" id="wDSRHNJpHT" role="jymVt">
       <property role="TrG5h" value="getFields" />
       <node concept="37vLTG" id="wDSRHNJqke" role="3clF46">
@@ -13091,7 +13147,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4vlJhW$5GtL" role="3cqZAp" />
+        <node concept="3clFbH" id="1oizlxec1Nv" role="3cqZAp" />
         <node concept="3clFbJ" id="4vlJhW$5I11" role="3cqZAp">
           <node concept="3clFbS" id="4vlJhW$5I14" role="3clFbx">
             <node concept="3clFbF" id="wDSRHNNP6f" role="3cqZAp">
@@ -13348,7 +13404,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="wDSRHNNqDt" role="3cqZAp" />
+              <node concept="3clFbH" id="1oizlxe94Nq" role="3cqZAp" />
               <node concept="1DcWWT" id="wDSRHNJWCg" role="3cqZAp">
                 <node concept="3clFbS" id="wDSRHNJWCj" role="2LFqv$">
                   <node concept="3SKdUt" id="wDSRHNK1fb" role="3cqZAp">
@@ -13864,6 +13920,34 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="wDSRHNKoLu" role="3eOfB_">
+                        <node concept="3clFbJ" id="1oizlxefuGM" role="3cqZAp">
+                          <node concept="3clFbS" id="1oizlxefuGO" role="3clFbx">
+                            <node concept="3clFbF" id="1oizlxefvhJ" role="3cqZAp">
+                              <node concept="d57v9" id="1oizlxefvtx" role="3clFbG">
+                                <node concept="3cpWs3" id="1oizlxefvBi" role="37vLTx">
+                                  <node concept="2OqwBi" id="1oizlxefvLw" role="3uHU7w">
+                                    <node concept="37vLTw" id="1oizlxefvC_" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="wDSRHNJWCm" resolve="field" />
+                                    </node>
+                                    <node concept="2OwXpG" id="1oizlxefvNR" role="2OqNvi">
+                                      <ref role="2Oxat5" node="wDSRHNJ_S2" resolve="name" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="1oizlxefvwn" role="3uHU7B">
+                                    <property role="Xl_RC" value="." />
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="1oizlxefvhI" role="37vLTJ">
+                                  <ref role="3cqZAo" node="1oizlxe9$u4" resolve="allListFieldNames" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="1oizlxefuJ3" role="3clFbw">
+                            <ref role="3cqZAo" node="1oizlxefqQ5" resolve="noteListFieldNames" />
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="1oizlxefwfI" role="3cqZAp" />
                         <node concept="3clFbF" id="wDSRHNKoLv" role="3cqZAp">
                           <node concept="2OqwBi" id="wDSRHNKoLw" role="3clFbG">
                             <node concept="37vLTw" id="wDSRHNKoLx" role="2Oq$k0">
