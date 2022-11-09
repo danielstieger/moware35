@@ -4749,7 +4749,7 @@
   <node concept="312cEu" id="5Ee0EjqZ_jz">
     <property role="TrG5h" value="map_Command" />
     <property role="3GE5qa" value="OFXCore.cmd" />
-    <node concept="3Tm1VV" id="4IVaCy_dnS3" role="1B3o_S" />
+    <node concept="3Tm1VV" id="2ccDDjCu5hK" role="1B3o_S" />
     <node concept="n94m4" id="5Ee0EjqZ_jD" role="lGtFl">
       <ref role="n9lRv" to="un0u:6ffh1MXzHna" resolve="Command" />
     </node>
@@ -8028,22 +8028,16 @@
                 <node concept="3cpWsn" id="2jDJ2hERMGz" role="3cpWs9">
                   <property role="TrG5h" value="stateToReport" />
                   <node concept="17QB3L" id="2jDJ2hERMG$" role="1tU5fm" />
-                  <node concept="3cpWs3" id="2jDJ2hERMG_" role="33vP2m">
-                    <node concept="2YIFZM" id="2jDJ2hERMGA" role="3uHU7w">
-                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                      <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                  <node concept="3cpWs3" id="2ccDDjCupzg" role="33vP2m">
+                    <node concept="Xl_RD" id="2ccDDjCup_G" role="3uHU7w">
+                      <property role="Xl_RC" value="'" />
                     </node>
-                    <node concept="3cpWs3" id="2jDJ2hERMGB" role="3uHU7B">
-                      <node concept="3cpWs3" id="2jDJ2hERMGC" role="3uHU7B">
-                        <node concept="Xl_RD" id="2jDJ2hERMGD" role="3uHU7B">
-                          <property role="Xl_RC" value="OFXAbortedException while processing FINAL_CANCEL for '" />
-                        </node>
-                        <node concept="37vLTw" id="2jDJ2hERMGE" role="3uHU7w">
-                          <ref role="3cqZAo" node="7zuurfPc$bT" resolve="listOfProblems" />
-                        </node>
+                    <node concept="3cpWs3" id="2jDJ2hERMGC" role="3uHU7B">
+                      <node concept="Xl_RD" id="2jDJ2hERMGD" role="3uHU7B">
+                        <property role="Xl_RC" value="OFXAbortedException while processing FINAL_CANCEL for '" />
                       </node>
-                      <node concept="Xl_RD" id="2jDJ2hERMGF" role="3uHU7w">
-                        <property role="Xl_RC" value="'\n" />
+                      <node concept="37vLTw" id="2jDJ2hERMGE" role="3uHU7w">
+                        <ref role="3cqZAo" node="7zuurfPc$bT" resolve="listOfProblems" />
                       </node>
                     </node>
                   </node>
@@ -8182,23 +8176,17 @@
                 <node concept="3cpWsn" id="1HDSUXwmrUq" role="3cpWs9">
                   <property role="TrG5h" value="stateToReport" />
                   <node concept="17QB3L" id="1HDSUXwmrUl" role="1tU5fm" />
-                  <node concept="3cpWs3" id="2jDJ2hAusIu" role="33vP2m">
-                    <node concept="2YIFZM" id="2jDJ2hAutDV" role="3uHU7w">
-                      <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
-                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                  <node concept="3cpWs3" id="1HDSUXwmsmR" role="33vP2m">
+                    <node concept="3cpWs3" id="1HDSUXwmseg" role="3uHU7B">
+                      <node concept="Xl_RD" id="1HDSUXwms28" role="3uHU7B">
+                        <property role="Xl_RC" value="Exception while processing FINAL_CANCEL for '" />
+                      </node>
+                      <node concept="37vLTw" id="1HDSUXwmsfr" role="3uHU7w">
+                        <ref role="3cqZAo" node="7zuurfPc$bT" resolve="listOfProblems" />
+                      </node>
                     </node>
-                    <node concept="3cpWs3" id="1HDSUXwmsmR" role="3uHU7B">
-                      <node concept="3cpWs3" id="1HDSUXwmseg" role="3uHU7B">
-                        <node concept="Xl_RD" id="1HDSUXwms28" role="3uHU7B">
-                          <property role="Xl_RC" value="Exception while processing FINAL_CANCEL for '" />
-                        </node>
-                        <node concept="37vLTw" id="1HDSUXwmsfr" role="3uHU7w">
-                          <ref role="3cqZAo" node="7zuurfPc$bT" resolve="listOfProblems" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="1HDSUXwmsoX" role="3uHU7w">
-                        <property role="Xl_RC" value="'\n" />
-                      </node>
+                    <node concept="Xl_RD" id="1HDSUXwmsoX" role="3uHU7w">
+                      <property role="Xl_RC" value="'" />
                     </node>
                   </node>
                 </node>
@@ -8232,7 +8220,7 @@
                               </node>
                             </node>
                             <node concept="Xl_RD" id="1HDSUXwmvwD" role="3uHU7w">
-                              <property role="Xl_RC" value="', trace \n" />
+                              <property role="Xl_RC" value="', unexpected ex trace \n" />
                             </node>
                           </node>
                           <node concept="2YIFZM" id="1HDSUXwmxmL" role="3uHU7w">

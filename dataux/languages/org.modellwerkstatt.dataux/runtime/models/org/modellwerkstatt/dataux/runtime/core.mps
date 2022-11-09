@@ -1907,6 +1907,27 @@
               <property role="3oM_SC" value="one?" />
             </node>
             <node concept="3oM_SD" id="1eYp3n3bGKh" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWiv" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWiM" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWjf" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWj$" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWjU" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWkh" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWkD" role="1PaTwD">
               <property role="3oM_SC" value="" />
             </node>
           </node>
@@ -2047,11 +2068,168 @@
             <ref role="3cqZAo" node="74G01Wd4w_5" resolve="NEW22_STRATEGY" />
           </node>
         </node>
+        <node concept="3SKdUt" id="2ccDDjCpb$r" role="3cqZAp">
+          <node concept="1PaTwC" id="2ccDDjCpb$s" role="1aUNEU">
+            <node concept="3oM_SD" id="2ccDDjCoWld" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWle" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWlf" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWlg" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWlh" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWli" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCoWlj" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgNi" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgNj" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgNk" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgNl" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgNm" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgNn" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgNo" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgO0" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgO1" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgO2" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgO3" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgO4" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgO5" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgO6" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgON" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgOO" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgOP" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgOQ" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgOR" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgOS" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgOT" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgPX" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgPY" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgPZ" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgQ0" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgQ1" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgQ2" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgQ3" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgRl" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgRm" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgRn" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgRo" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgRp" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgRq" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgRr" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgSV" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgSW" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgSX" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgSY" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgSZ" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgT0" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgT1" role="1PaTwD">
+              <property role="3oM_SC" value="-" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="1eYp3n39jBM" role="3cqZAp" />
         <node concept="3SKdUt" id="74G01WcXyVK" role="3cqZAp">
           <node concept="1PaTwC" id="74G01WcXyVL" role="1aUNEU">
             <node concept="3oM_SD" id="74G01WcXyVM" role="1PaTwD">
-              <property role="3oM_SC" value="Fall" />
+              <property role="3oM_SC" value="The" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgTW" role="1PaTwD">
+              <property role="3oM_SC" value="old" />
+            </node>
+            <node concept="3oM_SD" id="2ccDDjCpgU3" role="1PaTwD">
+              <property role="3oM_SC" value="fall" />
             </node>
             <node concept="3oM_SD" id="74G01WcXCOt" role="1PaTwD">
               <property role="3oM_SC" value="back" />
@@ -20537,8 +20715,63 @@
           </node>
         </node>
         <node concept="3clFbH" id="7HSdIeXSf1v" role="3cqZAp" />
-        <node concept="3J1_TO" id="6bl3$WOKJCe" role="3cqZAp">
-          <node concept="3clFbS" id="6bl3$WOKJCg" role="1zxBo7">
+        <node concept="3J1_TO" id="2ccDDjCyDHz" role="3cqZAp">
+          <node concept="3uVAMA" id="2ccDDjCyJuL" role="1zxBo5">
+            <node concept="XOnhg" id="2ccDDjCyJuM" role="1zc67B">
+              <property role="TrG5h" value="ex" />
+              <node concept="nSUau" id="2ccDDjCyJuN" role="1tU5fm">
+                <node concept="3uibUv" id="2ccDDjCyJ_i" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2ccDDjCyJuO" role="1zc67A">
+              <node concept="3clFbF" id="2ccDDjCyT1C" role="3cqZAp">
+                <node concept="2OqwBi" id="2ccDDjCyT1D" role="3clFbG">
+                  <node concept="37vLTw" id="2ccDDjCyT1E" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                  </node>
+                  <node concept="liA8E" id="2ccDDjCyT1F" role="2OqNvi">
+                    <ref role="37wK5l" node="4FgSVMsDhDQ" resolve="logAppProblem" />
+                    <node concept="37vLTw" id="2ccDDjCyT1G" role="37wK5m">
+                      <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="fullCmdNameAndSuccessor" />
+                    </node>
+                    <node concept="10M0yZ" id="2ccDDjCyT1H" role="37wK5m">
+                      <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
+                      <ref role="3cqZAo" to="28jr:4g_sjDL91Z4" resolve="APP" />
+                    </node>
+                    <node concept="37vLTw" id="2ccDDjCyT1I" role="37wK5m">
+                      <ref role="3cqZAo" node="2ccDDjCyJuM" resolve="ex" />
+                    </node>
+                    <node concept="3cpWs3" id="2ccDDjCyT1J" role="37wK5m">
+                      <node concept="Xl_RD" id="2ccDDjCyT1K" role="3uHU7w">
+                        <property role="Xl_RC" value=")" />
+                      </node>
+                      <node concept="3cpWs3" id="2ccDDjCyT1L" role="3uHU7B">
+                        <node concept="37vLTw" id="2ccDDjCyT1M" role="3uHU7w">
+                          <ref role="3cqZAo" node="1dqt$gIfBP1" resolve="problems" />
+                        </node>
+                        <node concept="3cpWs3" id="2ccDDjCyT1N" role="3uHU7B">
+                          <node concept="3cpWs3" id="2ccDDjCyT1O" role="3uHU7B">
+                            <node concept="Xl_RD" id="2ccDDjCyT1P" role="3uHU7B">
+                              <property role="Xl_RC" value="CommandContainer.fg_cancelAndClose() ex in cmd while closing. (user_cancel " />
+                            </node>
+                            <node concept="37vLTw" id="2ccDDjCyT1Q" role="3uHU7w">
+                              <ref role="3cqZAo" node="1LBGCxvI1UA" resolve="userCancelRequested" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="2ccDDjCyT1R" role="3uHU7w">
+                            <property role="Xl_RC" value=" / " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="2ccDDjCyDH_" role="1zxBo7">
             <node concept="3clFbJ" id="40OHFM6jIQu" role="3cqZAp">
               <node concept="3clFbS" id="40OHFM6jIQw" role="3clFbx">
                 <node concept="3clFbF" id="1dqt$gIeJ3g" role="3cqZAp">
@@ -20617,7 +20850,12 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1LBGCxvG9ju" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2ccDDjCyPlq" role="3cqZAp" />
+        <node concept="3clFbH" id="2ccDDjCyPmE" role="3cqZAp" />
+        <node concept="3J1_TO" id="6bl3$WOKJCe" role="3cqZAp">
+          <node concept="3clFbS" id="6bl3$WOKJCg" role="1zxBo7">
             <node concept="3clFbF" id="3EJ222E3DbM" role="3cqZAp">
               <node concept="1rXfSq" id="3EJ222E3DbK" role="3clFbG">
                 <ref role="37wK5l" node="5_bDd1dEyit" resolve="fg_closeUiAndContainer" />
@@ -20626,7 +20864,40 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="2AsTwA4RnRv" role="3cqZAp" />
+            <node concept="3SKdUt" id="2ccDDjCzKxU" role="3cqZAp">
+              <node concept="1PaTwC" id="2ccDDjCzKxV" role="1aUNEU">
+                <node concept="3oM_SD" id="2ccDDjCzKxW" role="1PaTwD">
+                  <property role="3oM_SC" value="crash" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzKzA" role="1PaTwD">
+                  <property role="3oM_SC" value="this" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzKzD" role="1PaTwD">
+                  <property role="3oM_SC" value="container" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzKzH" role="1PaTwD">
+                  <property role="3oM_SC" value="but" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzKzM" role="1PaTwD">
+                  <property role="3oM_SC" value="not" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzK$G" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzK$N" role="1PaTwD">
+                  <property role="3oM_SC" value="whole" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzK_J" role="1PaTwD">
+                  <property role="3oM_SC" value="app" />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzK_S" role="1PaTwD">
+                  <property role="3oM_SC" value="..." />
+                </node>
+                <node concept="3oM_SD" id="2ccDDjCzKAQ" role="1PaTwD">
+                  <property role="3oM_SC" value="" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3uVAMA" id="6bl3$WOKJCh" role="1zxBo5">
             <node concept="XOnhg" id="6bl3$WOKJCj" role="1zc67B">
@@ -20667,7 +20938,7 @@
                         <node concept="3cpWs3" id="1LBGCxvJ6jp" role="3uHU7B">
                           <node concept="3cpWs3" id="6bl3$WOKL_C" role="3uHU7B">
                             <node concept="Xl_RD" id="6bl3$WOKKVK" role="3uHU7B">
-                              <property role="Xl_RC" value="CommandContainer.fg_cancelAndClose() Ex while closing. (user_cancel " />
+                              <property role="Xl_RC" value="CommandContainer.fg_cancelAndClose() frmwrk ex in fg_closeUiAndContainer(false). (user_cancel " />
                             </node>
                             <node concept="37vLTw" id="1LBGCxvJ601" role="3uHU7w">
                               <ref role="3cqZAo" node="1LBGCxvI1UA" resolve="userCancelRequested" />
