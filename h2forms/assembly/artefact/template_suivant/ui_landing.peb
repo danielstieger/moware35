@@ -49,5 +49,5 @@
     </div>
 {% endfor %}
 </div>
-<div class="w3-container"><div class="w3-right sv-tiny"> Device {{ client.device }} {{ client.deviceSw }} </div> </div>
+<div class="w3-container"><div class="w3-right sv-tiny">Suivant2 on Device {{ client.device }} {{ client.deviceSw }} </div> </div>
 {% endblock %}

@@ -28,6 +28,12 @@ function saveSubmitDueScan(){
     saveSubmit(conclusion);
 }
 
+function saveSubmitDueUpdate(){
+    // Ref delegate submits with update conclusion, Autumn 2022
+    var conclusion = $('input[name="scanconclusion"]').value;
+    saveSubmit(conclusion);
+}
+
 function saveSubmitDueGo(){
     var conclusion = $('input[name="goconclusion"]').value;
     saveSubmit(conclusion);

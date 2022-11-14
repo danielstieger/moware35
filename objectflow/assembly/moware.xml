@@ -102,7 +102,7 @@
 		<!--     H2 forms settings      -->
 		<property name="h2formsAppLoader"      value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
   		<property name="h2formsTemplate2"      value="template_suivant" /> 
-		<property name="h2formsTemplate3"      value="template_suivant2" /> 
+		<!-- <property name="h2formsTemplate3"      value="template_suivant2" />  -->
 		
 
     <echo>Copying moware.h2forms dependencies to ${mowareWorkDir}/WEB-INF/lib   
@@ -134,11 +134,10 @@
 		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate2}/" />
 		</copy>
 	
-		<mkdir dir="${mowareWorkDir}/static/${h2formsTemplate3}"/>
+		<!-- <mkdir dir="${mowareWorkDir}/static/${h2formsTemplate3}"/>
 		<copy todir="${mowareWorkDir}/static/${h2formsTemplate3}">
 		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate3}/" />
-		</copy>
-	
+		</copy> -->
 	
 	
 		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/context.xml" tofile="${mowareWorkDir}/META-INF/context.xml" filtering="yes" overwrite="yes">
