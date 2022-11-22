@@ -20710,7 +20710,7 @@
                 <node concept="1pGfFk" id="2zMjYTDylgr" role="2ShVmc">
                   <ref role="37wK5l" to="1po:~Insets.&lt;init&gt;(double,double,double,double)" resolve="Insets" />
                   <node concept="3b6qkQ" id="2zMjYTDylsa" role="37wK5m">
-                    <property role="$nhwW" value="40.0" />
+                    <property role="$nhwW" value="25.0" />
                   </node>
                   <node concept="3b6qkQ" id="2zMjYTDylLW" role="37wK5m">
                     <property role="$nhwW" value="0.0" />
@@ -20719,7 +20719,7 @@
                     <property role="$nhwW" value="0.0" />
                   </node>
                   <node concept="3b6qkQ" id="2zMjYTDym4C" role="37wK5m">
-                    <property role="$nhwW" value="40.0" />
+                    <property role="$nhwW" value="30.0" />
                   </node>
                 </node>
               </node>
