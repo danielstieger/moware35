@@ -63,6 +63,9 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="7667276221847570194" name="jetbrains.mps.lang.editor.structure.ParametersInformationStyleClassItem" flags="ln" index="2$oqgb">
+        <reference id="8863456892852949148" name="parametersInformation" index="Bvoe9" />
+      </concept>
       <concept id="8371900013785948369" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Parameter" flags="ig" index="2$S_p_" />
       <concept id="2857509971901907635" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Concepts" flags="ig" index="AZAyt" />
       <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha">
@@ -2255,11 +2258,17 @@
         </node>
         <node concept="1iCGBv" id="3n7eUMgsCzf" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:3n7eUMgsCe$" resolve="command" />
+          <node concept="2$oqgb" id="37RHpC$d1ym" role="3F10Kt">
+            <ref role="Bvoe9" to="z8tr:37RHpC$6hgc" resolve="CommandCallBasisParams" />
+          </node>
           <node concept="1sVBvm" id="3n7eUMgsCzg" role="1sWHZn">
             <node concept="3F0A7n" id="3n7eUMgsCzh" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+              <node concept="2$oqgb" id="37RHpC$st8t" role="3F10Kt">
+                <ref role="Bvoe9" to="z8tr:37RHpC$6hgc" resolve="CommandCallBasisParams" />
+              </node>
             </node>
           </node>
         </node>
@@ -2278,6 +2287,9 @@
         <node concept="3F2HdR" id="3n7eUMgsCzj" role="3EZMnx">
           <property role="2czwfO" value="," />
           <ref role="1NtTu8" to="un0u:3n7eUMgsCiP" resolve="actualArgument" />
+          <node concept="2$oqgb" id="37RHpC$st8v" role="3F10Kt">
+            <ref role="Bvoe9" to="z8tr:37RHpC$6hgc" resolve="CommandCallBasisParams" />
+          </node>
           <node concept="l2Vlx" id="3n7eUMgsCzk" role="2czzBx" />
           <node concept="3F0ifn" id="3n7eUMgsCzl" role="2czzBI">
             <node concept="VPxyj" id="3LpLOPqtIFR" role="3F10Kt">
