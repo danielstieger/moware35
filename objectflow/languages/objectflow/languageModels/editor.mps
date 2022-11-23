@@ -53,6 +53,8 @@
     <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
+    <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
+    <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -484,6 +486,7 @@
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
+        <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -505,6 +508,10 @@
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
+        <child id="1206060619838" name="condition" index="3eO9$A" />
+        <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -12796,6 +12803,7 @@
   </node>
   <node concept="3p309x" id="37RHpCyW3bD">
     <property role="TrG5h" value="ServiceMethodQualifierReferences" />
+    <property role="3GE5qa" value="Service" />
     <node concept="2kknPI" id="37RHpCyW3bF" role="1IG6uw">
       <ref role="2kkw0f" to="tpen:7S22xyp2d91" resolve="ReplaceQuilifiedReference_Substitute" />
     </node>
@@ -12836,9 +12844,6 @@
             <node concept="3clFbF" id="37RHpCzq44v" role="3cqZAp">
               <node concept="37vLTI" id="37RHpCzq52M" role="3clFbG">
                 <node concept="1PxgMI" id="37RHpCzqoU2" role="37vLTx">
-                  <node concept="chp4Y" id="37RHpCzqp5L" role="3oSUPX">
-                    <ref role="cht4Q" to="un0u:3UJHRuk6Ycv" resolve="Service" />
-                  </node>
                   <node concept="2OqwBi" id="37RHpCzqooG" role="1m5AlR">
                     <node concept="37vLTw" id="37RHpCzqohx" role="2Oq$k0">
                       <ref role="3cqZAo" node="37RHpCzq5cD" resolve="qualifiedRef" />
@@ -12846,6 +12851,9 @@
                     <node concept="2qgKlT" id="37RHpCzqowo" role="2OqNvi">
                       <ref role="37wK5l" to="tpek:7S22xyoLQG7" resolve="getClassifier" />
                     </node>
+                  </node>
+                  <node concept="chp4Y" id="4BeZcGgwvc5" role="3oSUPX">
+                    <ref role="cht4Q" to="tpee:fz12cDA" resolve="ClassConcept" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="37RHpCzq4iT" role="37vLTJ">
@@ -12951,7 +12959,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="37RHpCzuLL5" role="3cqZAp" />
-            <node concept="3clFbH" id="37RHpCzsCcm" role="3cqZAp" />
             <node concept="3clFbF" id="37RHpCzqqPu" role="3cqZAp">
               <node concept="2OqwBi" id="37RHpCzqr0j" role="3clFbG">
                 <node concept="37vLTw" id="37RHpCzqqPs" role="2Oq$k0">
@@ -12968,7 +12975,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="37RHpCz1Gym" role="2ZBHrp">
-        <ref role="ehGHo" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
+        <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
       </node>
       <node concept="2$S_p_" id="37RHpCz1Gyp" role="2$S_pT">
         <node concept="3clFbS" id="37RHpCz1Gyq" role="2VODD2">
@@ -13024,12 +13031,51 @@
                 </node>
               </node>
             </node>
+            <node concept="3eNFk2" id="4BeZcGgvQh1" role="3eNLev">
+              <node concept="2OqwBi" id="4BeZcGgwcqS" role="3eO9$A">
+                <node concept="2OqwBi" id="4BeZcGgwbuy" role="2Oq$k0">
+                  <node concept="37vLTw" id="4BeZcGgwb8E" role="2Oq$k0">
+                    <ref role="3cqZAo" node="37RHpCzpY4Q" resolve="qr" />
+                  </node>
+                  <node concept="2qgKlT" id="4BeZcGgwc3C" role="2OqNvi">
+                    <ref role="37wK5l" to="tpek:7S22xyoLQG7" resolve="getClassifier" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="4BeZcGgwdr4" role="2OqNvi">
+                  <node concept="chp4Y" id="4BeZcGgwd_u" role="cj9EA">
+                    <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="4BeZcGgvQh3" role="3eOfB_">
+                <node concept="3cpWs6" id="4BeZcGgwdJg" role="3cqZAp">
+                  <node concept="2OqwBi" id="4BeZcGgwdJh" role="3cqZAk">
+                    <node concept="1PxgMI" id="4BeZcGgwdJi" role="2Oq$k0">
+                      <node concept="chp4Y" id="4BeZcGgwdJj" role="3oSUPX">
+                        <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+                      </node>
+                      <node concept="2OqwBi" id="4BeZcGgwdJk" role="1m5AlR">
+                        <node concept="37vLTw" id="4BeZcGgwdJl" role="2Oq$k0">
+                          <ref role="3cqZAo" node="37RHpCzpY4Q" resolve="qr" />
+                        </node>
+                        <node concept="2qgKlT" id="4BeZcGgwdJm" role="2OqNvi">
+                          <ref role="37wK5l" to="tpek:7S22xyoLQG7" resolve="getClassifier" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="4BeZcGgwdJn" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:7CiiQbKHd38" resolve="repoMethods" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3cpWs6" id="37RHpCz1HJS" role="3cqZAp">
             <node concept="2ShNRf" id="37RHpCz1HLO" role="3cqZAk">
               <node concept="kMnCb" id="37RHpCz1HLK" role="2ShVmc">
                 <node concept="3Tqbb2" id="37RHpCz1HLL" role="kMuH3">
-                  <ref role="ehGHo" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
+                  <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
                 </node>
               </node>
             </node>
