@@ -12529,7 +12529,7 @@
     <node concept="3clFb_" id="20ohnkb$HAQ" role="jymVt">
       <property role="TrG5h" value="onExitRequestedEvent" />
       <node concept="37vLTG" id="64PSf$EEg9o" role="3clF46">
-        <property role="TrG5h" value="force" />
+        <property role="TrG5h" value="doNotAskBackOnOpenGO" />
         <node concept="10P_77" id="64PSf$EEhTk" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="20ohnkb$HAS" role="3clF45" />
@@ -12686,7 +12686,7 @@
           </node>
           <node concept="22lmx$" id="64PSf$EEhYO" role="3clFbw">
             <node concept="37vLTw" id="64PSf$EEibD" role="3uHU7B">
-              <ref role="3cqZAo" node="64PSf$EEg9o" resolve="force" />
+              <ref role="3cqZAo" node="64PSf$EEg9o" resolve="doNotAskBackOnOpenGO" />
             </node>
             <node concept="37vLTw" id="7G122Nuf_6m" role="3uHU7w">
               <ref role="3cqZAo" node="7G122NuetyK" resolve="noGraphsOpen" />
@@ -37263,7 +37263,9 @@
               <node concept="2ShNRf" id="2o7h3aDZ5tN" role="37wK5m">
                 <node concept="1pGfFk" id="2o7h3aDZ5OC" role="2ShVmc">
                   <ref role="37wK5l" node="zBgVaD6kfk" resolve="CancelAndCloseImmediately" />
-                  <node concept="3clFbT" id="1bKck6R3t2P" role="37wK5m" />
+                  <node concept="3clFbT" id="1rWDZTedAyl" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
                   <node concept="Xl_RD" id="2o7h3aDZ5R8" role="37wK5m">
                     <property role="Xl_RC" value="immediately shutdown app" />
                   </node>

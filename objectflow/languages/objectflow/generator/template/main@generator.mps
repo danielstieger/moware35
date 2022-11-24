@@ -8848,19 +8848,37 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="jDMPdcCv_m" role="3cqZAp" />
-                <node concept="3clFbF" id="jDMPdcC$QF" role="3cqZAp">
-                  <node concept="2OqwBi" id="jDMPdcC_WO" role="3clFbG">
-                    <node concept="37vLTw" id="jDMPdcC$QD" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
-                    </node>
-                    <node concept="liA8E" id="jDMPdcCAvf" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:1l1sktc68OC" resolve="immediateTransactionForOperation" />
-                      <node concept="37vLTw" id="jDMPdcCA$d" role="37wK5m">
-                        <ref role="3cqZAo" node="jDMPdcCvFc" resolve="cancelMarker" />
+                <node concept="3clFbJ" id="1rWDZTebbOH" role="3cqZAp">
+                  <node concept="3clFbS" id="1rWDZTebbOJ" role="3clFbx">
+                    <node concept="3clFbF" id="jDMPdcC$QF" role="3cqZAp">
+                      <node concept="2OqwBi" id="jDMPdcC_WO" role="3clFbG">
+                        <node concept="37vLTw" id="jDMPdcC$QD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
+                        </node>
+                        <node concept="liA8E" id="jDMPdcCAvf" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:1l1sktc68OC" resolve="immediateTransactionForOperation" />
+                          <node concept="37vLTw" id="jDMPdcCA$d" role="37wK5m">
+                            <ref role="3cqZAo" node="jDMPdcCvFc" resolve="cancelMarker" />
+                          </node>
+                          <node concept="37vLTw" id="jDMPdcCAE7" role="37wK5m">
+                            <ref role="3cqZAo" node="jDMPdcCvOJ" resolve="cancelJournal" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="37vLTw" id="jDMPdcCAE7" role="37wK5m">
+                    </node>
+                  </node>
+                  <node concept="22lmx$" id="1rWDZTebd5w" role="3clFbw">
+                    <node concept="3y3z36" id="1rWDZTebd$l" role="3uHU7w">
+                      <node concept="10Nm6u" id="1rWDZTebdAG" role="3uHU7w" />
+                      <node concept="37vLTw" id="1rWDZTebdmo" role="3uHU7B">
                         <ref role="3cqZAo" node="jDMPdcCvOJ" resolve="cancelJournal" />
                       </node>
+                    </node>
+                    <node concept="3y3z36" id="1rWDZTebcV6" role="3uHU7B">
+                      <node concept="37vLTw" id="1rWDZTebcAh" role="3uHU7B">
+                        <ref role="3cqZAo" node="jDMPdcCvFc" resolve="cancelMarker" />
+                      </node>
+                      <node concept="10Nm6u" id="1rWDZTebcXE" role="3uHU7w" />
                     </node>
                   </node>
                 </node>
