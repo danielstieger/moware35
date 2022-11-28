@@ -2549,7 +2549,7 @@
                 <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
               </node>
               <node concept="liA8E" id="2SRXiXAqOvU" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:2SRXiXA4QsB" resolve="getPlatformShortName" />
+                <ref role="37wK5l" to="28jr:2SRXiXA4QsB" resolve="getPlatformName" />
               </node>
             </node>
           </node>
@@ -2581,7 +2581,7 @@
               <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
             </node>
             <node concept="liA8E" id="2SRXiXAqNVf" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformName" />
               <node concept="Xl_RD" id="2SRXiXAqOCv" role="37wK5m">
                 <property role="Xl_RC" value="dan" />
               </node>
@@ -2614,7 +2614,7 @@
               <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
             </node>
             <node concept="liA8E" id="2SRXiXAqOMP" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformName" />
               <node concept="37vLTw" id="2SRXiXAqONq" role="37wK5m">
                 <ref role="3cqZAo" node="2SRXiXAqOr5" resolve="currentPlatform" />
               </node>
@@ -2652,7 +2652,7 @@
               <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
             </node>
             <node concept="liA8E" id="3sIS$IKpWY3" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformName" />
               <node concept="Xl_RD" id="3sIS$IKpXQp" role="37wK5m">
                 <property role="Xl_RC" value="Default" />
               </node>
@@ -2691,7 +2691,7 @@
               <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
             </node>
             <node concept="liA8E" id="3sIS$IKpZgh" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformName" />
               <node concept="Xl_RD" id="3sIS$IKpZgi" role="37wK5m">
                 <property role="Xl_RC" value="Platform_2" />
               </node>
@@ -2729,7 +2729,7 @@
               <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
             </node>
             <node concept="liA8E" id="3sIS$IKpZqL" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformName" />
               <node concept="Xl_RD" id="3sIS$IKriPk" role="37wK5m">
                 <property role="Xl_RC" value="Some Other Platform" />
               </node>
@@ -4105,7 +4105,7 @@
     </node>
   </node>
   <node concept="2WPaUQ" id="7$uuZ_GXf0k">
-    <property role="TrG5h" value="Tests L d a p" />
+    <property role="TrG5h" value="Tests Ldap (not in compound tests)" />
     <ref role="2WPtWl" to="rwuk:5MCXLSo4_z9" resolve="MySQLOFXLdapConfig" />
     <node concept="3yPF9F" id="7$uuZ_GXgrV" role="3yMuLx">
       <property role="TrG5h" value="Can we login a user with password." />
