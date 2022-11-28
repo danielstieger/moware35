@@ -270,6 +270,7 @@
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
+      <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
         <property id="1200397540847" name="charConstant" index="1XhdNS" />
@@ -9233,6 +9234,11 @@
       <node concept="3Tm6S6" id="53tKgUPS7eb" role="1B3o_S" />
       <node concept="17QB3L" id="53tKgUPS7ec" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="17x4T7sO6i4" role="jymVt">
+      <property role="TrG5h" value="useSsl" />
+      <node concept="3Tm6S6" id="17x4T7sO6i5" role="1B3o_S" />
+      <node concept="10P_77" id="17x4T7sO86t" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="53tKgUPRkYz" role="jymVt" />
     <node concept="2tJIrI" id="53tKgUPRl49" role="jymVt" />
     <node concept="3Tm1VV" id="53tKgUPQOx5" role="1B3o_S" />
@@ -9242,6 +9248,14 @@
       <node concept="3cqZAl" id="53tKgUPRgjB" role="3clF45" />
       <node concept="3Tm1VV" id="53tKgUPRgjC" role="1B3o_S" />
       <node concept="3clFbS" id="53tKgUPRgjD" role="3clF47">
+        <node concept="3clFbF" id="17x4T7sO94b" role="3cqZAp">
+          <node concept="37vLTI" id="17x4T7sO9_K" role="3clFbG">
+            <node concept="3clFbT" id="17x4T7sO9BJ" role="37vLTx" />
+            <node concept="37vLTw" id="17x4T7sO949" role="37vLTJ">
+              <ref role="3cqZAo" node="17x4T7sO6i4" resolve="useSsl" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="53tKgUPS9Oh" role="3cqZAp">
           <node concept="37vLTI" id="53tKgUPS9V6" role="3clFbG">
             <node concept="37vLTw" id="53tKgUPS9Zp" role="37vLTx">
@@ -9298,6 +9312,57 @@
       <node concept="37vLTG" id="53tKgUPRgVc" role="3clF46">
         <property role="TrG5h" value="searchbase" />
         <node concept="17QB3L" id="53tKgUPRgX9" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFbW" id="17x4T7sO1T4" role="jymVt">
+      <node concept="3cqZAl" id="17x4T7sO1T5" role="3clF45" />
+      <node concept="3Tm1VV" id="17x4T7sO1T6" role="1B3o_S" />
+      <node concept="3clFbS" id="17x4T7sO1T7" role="3clF47">
+        <node concept="1VxSAg" id="17x4T7sOaBe" role="3cqZAp">
+          <ref role="37wK5l" node="53tKgUPRgjA" resolve="MoLdapService" />
+          <node concept="37vLTw" id="17x4T7sOaVU" role="37wK5m">
+            <ref role="3cqZAo" node="17x4T7sO1To" resolve="server" />
+          </node>
+          <node concept="37vLTw" id="17x4T7sOaYd" role="37wK5m">
+            <ref role="3cqZAo" node="17x4T7sO1Tq" resolve="principal" />
+          </node>
+          <node concept="37vLTw" id="17x4T7sOb00" role="37wK5m">
+            <ref role="3cqZAo" node="17x4T7sO1Ts" resolve="pwd" />
+          </node>
+          <node concept="37vLTw" id="17x4T7sOb2L" role="37wK5m">
+            <ref role="3cqZAo" node="17x4T7sO1Tu" resolve="searchbase" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="17x4T7sOb5K" role="3cqZAp">
+          <node concept="37vLTI" id="17x4T7sObAK" role="3clFbG">
+            <node concept="37vLTw" id="17x4T7sObXV" role="37vLTx">
+              <ref role="3cqZAo" node="17x4T7sO3HF" resolve="aUseSsl" />
+            </node>
+            <node concept="37vLTw" id="17x4T7sOb5I" role="37vLTJ">
+              <ref role="3cqZAo" node="17x4T7sO6i4" resolve="useSsl" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="17x4T7sO1To" role="3clF46">
+        <property role="TrG5h" value="server" />
+        <node concept="17QB3L" id="17x4T7sO1Tp" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="17x4T7sO1Tq" role="3clF46">
+        <property role="TrG5h" value="principal" />
+        <node concept="17QB3L" id="17x4T7sO1Tr" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="17x4T7sO1Ts" role="3clF46">
+        <property role="TrG5h" value="pwd" />
+        <node concept="17QB3L" id="17x4T7sO1Tt" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="17x4T7sO1Tu" role="3clF46">
+        <property role="TrG5h" value="searchbase" />
+        <node concept="17QB3L" id="17x4T7sO1Tv" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="17x4T7sO3HF" role="3clF46">
+        <property role="TrG5h" value="aUseSsl" />
+        <node concept="10P_77" id="17x4T7sO6cG" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="53tKgUPReHh" role="jymVt" />
@@ -11132,25 +11197,28 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="7$uuZ_GWS4Y" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="7$uuZ_GWQQt" role="8Wnug">
-            <node concept="2OqwBi" id="7$uuZ_GWQZw" role="3clFbG">
-              <node concept="37vLTw" id="7$uuZ_GWQQr" role="2Oq$k0">
-                <ref role="3cqZAo" node="53tKgUPRUl6" resolve="userEnv" />
-              </node>
-              <node concept="liA8E" id="7$uuZ_GWRy7" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
-                <node concept="10M0yZ" id="7$uuZ_GWRDA" role="37wK5m">
-                  <ref role="1PxDUh" to="mz1c:~Context" resolve="Context" />
-                  <ref role="3cqZAo" to="mz1c:~Context.SECURITY_PROTOCOL" resolve="SECURITY_PROTOCOL" />
+        <node concept="3clFbJ" id="17x4T7sOdnc" role="3cqZAp">
+          <node concept="3clFbS" id="17x4T7sOdne" role="3clFbx">
+            <node concept="3clFbF" id="7$uuZ_GWQQt" role="3cqZAp">
+              <node concept="2OqwBi" id="7$uuZ_GWQZw" role="3clFbG">
+                <node concept="37vLTw" id="7$uuZ_GWQQr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="53tKgUPRUl6" resolve="userEnv" />
                 </node>
-                <node concept="Xl_RD" id="7$uuZ_GWRRU" role="37wK5m">
-                  <property role="Xl_RC" value="ssl" />
+                <node concept="liA8E" id="7$uuZ_GWRy7" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                  <node concept="10M0yZ" id="7$uuZ_GWRDA" role="37wK5m">
+                    <ref role="1PxDUh" to="mz1c:~Context" resolve="Context" />
+                    <ref role="3cqZAo" to="mz1c:~Context.SECURITY_PROTOCOL" resolve="SECURITY_PROTOCOL" />
+                  </node>
+                  <node concept="Xl_RD" id="7$uuZ_GWRRU" role="37wK5m">
+                    <property role="Xl_RC" value="ssl" />
+                  </node>
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="37vLTw" id="17x4T7sOdW7" role="3clFbw">
+            <ref role="3cqZAo" node="17x4T7sO6i4" resolve="useSsl" />
           </node>
         </node>
         <node concept="3clFbH" id="7$uuZ_GWkmm" role="3cqZAp" />
