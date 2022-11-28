@@ -10700,7 +10700,7 @@
                     </node>
                   </node>
                   <node concept="Xl_RD" id="4nH4LOEHcnB" role="37wK5m">
-                    <property role="Xl_RC" value="" />
+                    <property role="Xl_RC" value="in initializeApplication()" />
                   </node>
                   <node concept="37vLTw" id="2CZV3d2XgxO" role="37wK5m">
                     <ref role="3cqZAo" node="2CZV3d2XcNI" resolve="ex" />
@@ -31649,7 +31649,7 @@
             </node>
             <node concept="3clFbF" id="4FgSVMsEgZK" role="3cqZAp">
               <node concept="1rXfSq" id="4FgSVMsEgZI" role="3clFbG">
-                <ref role="37wK5l" node="4FgSVMsEmSV" resolve="logAppProblem" />
+                <ref role="37wK5l" node="6YzHNmG02iZ" resolve="logAppProblem" />
                 <node concept="37vLTw" id="4FgSVMsEu8k" role="37wK5m">
                   <ref role="3cqZAo" node="4nH4LOEGjgD" resolve="cmdOrSysName" />
                 </node>
@@ -31662,6 +31662,19 @@
                 </node>
                 <node concept="Xl_RD" id="4FgSVMsEvfs" role="37wK5m">
                   <property role="Xl_RC" value="NPE" />
+                </node>
+                <node concept="3cpWs3" id="17x4T7sTZ0s" role="37wK5m">
+                  <node concept="3cpWs3" id="17x4T7sU0HV" role="3uHU7B">
+                    <node concept="Xl_RD" id="17x4T7sU0R6" role="3uHU7w">
+                      <property role="Xl_RC" value="\n" />
+                    </node>
+                    <node concept="37vLTw" id="17x4T7sTZQ0" role="3uHU7B">
+                      <ref role="3cqZAo" node="4nH4LOEGjgF" resolve="message" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="17x4T7sSoFt" role="3uHU7w">
+                    <ref role="3cqZAo" node="4nH4LOEH5tL" resolve="contextInformation" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -31764,7 +31777,7 @@
                   <node concept="3clFbH" id="4IVaCyzxv79" role="3cqZAp" />
                   <node concept="3clFbF" id="4FgSVMsEy33" role="3cqZAp">
                     <node concept="1rXfSq" id="4FgSVMsEy34" role="3clFbG">
-                      <ref role="37wK5l" node="4FgSVMsEmSV" resolve="logAppProblem" />
+                      <ref role="37wK5l" node="6YzHNmG02iZ" resolve="logAppProblem" />
                       <node concept="37vLTw" id="4FgSVMsEy35" role="37wK5m">
                         <ref role="3cqZAo" node="4nH4LOEGjgD" resolve="cmdOrSysName" />
                       </node>
@@ -31777,6 +31790,19 @@
                       </node>
                       <node concept="Xl_RD" id="4FgSVMsEy38" role="37wK5m">
                         <property role="Xl_RC" value="IncorrectResultSetColumnCount" />
+                      </node>
+                      <node concept="3cpWs3" id="17x4T7sU1Aj" role="37wK5m">
+                        <node concept="3cpWs3" id="17x4T7sU1Ak" role="3uHU7B">
+                          <node concept="Xl_RD" id="17x4T7sU1Al" role="3uHU7w">
+                            <property role="Xl_RC" value="\n" />
+                          </node>
+                          <node concept="37vLTw" id="17x4T7sU1Am" role="3uHU7B">
+                            <ref role="3cqZAo" node="4nH4LOEGjgF" resolve="message" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="17x4T7sU1An" role="3uHU7w">
+                          <ref role="3cqZAo" node="4nH4LOEH5tL" resolve="contextInformation" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -31890,7 +31916,7 @@
                     <node concept="3clFbH" id="4IVaCyzxuTN" role="3cqZAp" />
                     <node concept="3clFbF" id="4IVaCyzxrug" role="3cqZAp">
                       <node concept="1rXfSq" id="4IVaCyzxruh" role="3clFbG">
-                        <ref role="37wK5l" node="4FgSVMsEmSV" resolve="logAppProblem" />
+                        <ref role="37wK5l" node="6YzHNmG02iZ" resolve="logAppProblem" />
                         <node concept="37vLTw" id="4IVaCyzxrui" role="37wK5m">
                           <ref role="3cqZAo" node="4nH4LOEGjgD" resolve="cmdOrSysName" />
                         </node>
@@ -31903,6 +31929,19 @@
                         </node>
                         <node concept="Xl_RD" id="4IVaCyzxrul" role="37wK5m">
                           <property role="Xl_RC" value="IncorrectResultSetColumnCount" />
+                        </node>
+                        <node concept="3cpWs3" id="17x4T7sU2hR" role="37wK5m">
+                          <node concept="3cpWs3" id="17x4T7sU2hS" role="3uHU7B">
+                            <node concept="Xl_RD" id="17x4T7sU2hT" role="3uHU7w">
+                              <property role="Xl_RC" value="\n" />
+                            </node>
+                            <node concept="37vLTw" id="17x4T7sU2hU" role="3uHU7B">
+                              <ref role="3cqZAo" node="4nH4LOEGjgF" resolve="message" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="17x4T7sU2hV" role="3uHU7w">
+                            <ref role="3cqZAo" node="4nH4LOEH5tL" resolve="contextInformation" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -31995,7 +32034,7 @@
                     <node concept="3clFbH" id="4IVaCyzxtPK" role="3cqZAp" />
                     <node concept="3clFbF" id="4IVaCyzxsRA" role="3cqZAp">
                       <node concept="1rXfSq" id="4IVaCyzxsRB" role="3clFbG">
-                        <ref role="37wK5l" node="4FgSVMsEmSV" resolve="logAppProblem" />
+                        <ref role="37wK5l" node="6YzHNmG02iZ" resolve="logAppProblem" />
                         <node concept="37vLTw" id="4IVaCyzxsRC" role="37wK5m">
                           <ref role="3cqZAo" node="4nH4LOEGjgD" resolve="cmdOrSysName" />
                         </node>
@@ -32008,6 +32047,19 @@
                         </node>
                         <node concept="Xl_RD" id="4IVaCyzxsRF" role="37wK5m">
                           <property role="Xl_RC" value="IncorrectResultSetColumnCount" />
+                        </node>
+                        <node concept="3cpWs3" id="17x4T7sU2Xr" role="37wK5m">
+                          <node concept="3cpWs3" id="17x4T7sU2Xs" role="3uHU7B">
+                            <node concept="Xl_RD" id="17x4T7sU2Xt" role="3uHU7w">
+                              <property role="Xl_RC" value="\n" />
+                            </node>
+                            <node concept="37vLTw" id="17x4T7sU2Xu" role="3uHU7B">
+                              <ref role="3cqZAo" node="4nH4LOEGjgF" resolve="message" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="17x4T7sU2Xv" role="3uHU7w">
+                            <ref role="3cqZAo" node="4nH4LOEH5tL" resolve="contextInformation" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -32155,7 +32207,7 @@
               </node>
               <node concept="3clFbF" id="4FgSVMsE$LN" role="3cqZAp">
                 <node concept="1rXfSq" id="4FgSVMsE$LO" role="3clFbG">
-                  <ref role="37wK5l" node="4FgSVMsEmSV" resolve="logAppProblem" />
+                  <ref role="37wK5l" node="6YzHNmG02iZ" resolve="logAppProblem" />
                   <node concept="37vLTw" id="4FgSVMsE$LP" role="37wK5m">
                     <ref role="3cqZAo" node="4nH4LOEGjgD" resolve="cmdOrSysName" />
                   </node>
@@ -32168,6 +32220,19 @@
                   </node>
                   <node concept="Xl_RD" id="4FgSVMsE$LS" role="37wK5m">
                     <property role="Xl_RC" value="UncategorizedSQL" />
+                  </node>
+                  <node concept="3cpWs3" id="17x4T7sU3CZ" role="37wK5m">
+                    <node concept="3cpWs3" id="17x4T7sU3D0" role="3uHU7B">
+                      <node concept="Xl_RD" id="17x4T7sU3D1" role="3uHU7w">
+                        <property role="Xl_RC" value="\n" />
+                      </node>
+                      <node concept="37vLTw" id="17x4T7sU3D2" role="3uHU7B">
+                        <ref role="3cqZAo" node="4nH4LOEGjgF" resolve="message" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="17x4T7sU3D3" role="3uHU7w">
+                      <ref role="3cqZAo" node="4nH4LOEH5tL" resolve="contextInformation" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -32352,7 +32417,7 @@
               <node concept="3clFbH" id="2ppo89mfLX6" role="3cqZAp" />
               <node concept="3clFbF" id="4FgSVMsEDCt" role="3cqZAp">
                 <node concept="1rXfSq" id="4FgSVMsEDCu" role="3clFbG">
-                  <ref role="37wK5l" node="4FgSVMsEmSV" resolve="logAppProblem" />
+                  <ref role="37wK5l" node="6YzHNmG02iZ" resolve="logAppProblem" />
                   <node concept="37vLTw" id="4FgSVMsEDCv" role="37wK5m">
                     <ref role="3cqZAo" node="4nH4LOEGjgD" resolve="cmdOrSysName" />
                   </node>
@@ -32374,6 +32439,19 @@
                     </node>
                     <node concept="liA8E" id="4WoSiUP4FbN" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs3" id="17x4T7sU4kz" role="37wK5m">
+                    <node concept="3cpWs3" id="17x4T7sU4k$" role="3uHU7B">
+                      <node concept="Xl_RD" id="17x4T7sU4k_" role="3uHU7w">
+                        <property role="Xl_RC" value="\n" />
+                      </node>
+                      <node concept="37vLTw" id="17x4T7sU4kA" role="3uHU7B">
+                        <ref role="3cqZAo" node="4nH4LOEGjgF" resolve="message" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="17x4T7sU4kB" role="3uHU7w">
+                      <ref role="3cqZAo" node="4nH4LOEH5tL" resolve="contextInformation" />
                     </node>
                   </node>
                 </node>
