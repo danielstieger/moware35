@@ -9192,33 +9192,6 @@
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
     <property role="3GE5qa" value="ldap" />
-    <node concept="Wx3nA" id="53tKgUPRmEd" role="jymVt">
-      <property role="TrG5h" value="DEFAULT_PRINCIPAL" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="53tKgUPRm2D" role="1tU5fm" />
-      <node concept="3Tm1VV" id="53tKgUPRn0t" role="1B3o_S" />
-      <node concept="Xl_RD" id="53tKgUPRhc9" role="33vP2m">
-        <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
-      </node>
-    </node>
-    <node concept="Wx3nA" id="53tKgUPRnuU" role="jymVt">
-      <property role="TrG5h" value="DEFAULT_SERVER" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="53tKgUPRnuV" role="1tU5fm" />
-      <node concept="3Tm1VV" id="53tKgUPRnuW" role="1B3o_S" />
-      <node concept="Xl_RD" id="53tKgUPRhcp" role="33vP2m">
-        <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
-      </node>
-    </node>
-    <node concept="Wx3nA" id="53tKgUPRnNk" role="jymVt">
-      <property role="TrG5h" value="DEFAULT_USER_SEARCHBASE" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="53tKgUPRnNl" role="1tU5fm" />
-      <node concept="3Tm1VV" id="53tKgUPRnNm" role="1B3o_S" />
-      <node concept="Xl_RD" id="53tKgUPS_OY" role="33vP2m">
-        <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
-      </node>
-    </node>
     <node concept="Wx3nA" id="53tKgUPS4fo" role="jymVt">
       <property role="TrG5h" value="DEFAULT_INITIAL_CONTEXT_FACTORY" />
       <property role="3TUv4t" value="true" />

@@ -47,6 +47,7 @@
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="kiw1" ref="r:94ffcee1-0674-484a-872a-0a7170595a7b(org.modellwerkstatt.objectflow.sdservices)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="n4mo" ref="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
@@ -125,6 +126,10 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
+        <child id="1083245396908" name="enumConstant" index="Qtgdg" />
+      </concept>
+      <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
       <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
         <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
         <reference id="1144432896254" name="enumClass" index="1Px2BO" />
@@ -288,6 +293,15 @@
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
+      </concept>
+      <concept id="1163670490218" name="jetbrains.mps.baseLanguage.structure.SwitchStatement" flags="nn" index="3KaCP$">
+        <child id="1163670592366" name="defaultBlock" index="3Kb1Dw" />
+        <child id="1163670766145" name="expression" index="3KbGdf" />
+        <child id="1163670772911" name="case" index="3KbHQx" />
+      </concept>
+      <concept id="1163670641947" name="jetbrains.mps.baseLanguage.structure.SwitchCase" flags="ng" index="3KbdKl">
+        <child id="1163670677455" name="expression" index="3Kbmr1" />
+        <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
@@ -11250,54 +11264,230 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="6yADK3JL4Cr" role="3cqZAp" />
-                  <node concept="3SKdUt" id="6yADK3JLV9N" role="3cqZAp">
-                    <node concept="1PaTwC" id="6yADK3JLV9O" role="1aUNEU">
-                      <node concept="3oM_SD" id="6yADK3JLV9P" role="1PaTwD">
-                        <property role="3oM_SC" value="do" />
+                  <node concept="3clFbJ" id="6yADK3JNGFR" role="3cqZAp">
+                    <node concept="3clFbS" id="6yADK3JNGFT" role="3clFbx">
+                      <node concept="3cpWs8" id="6yADK3JOEEH" role="3cqZAp">
+                        <node concept="3cpWsn" id="6yADK3JOEEK" role="3cpWs9">
+                          <property role="TrG5h" value="resultSt" />
+                          <node concept="17QB3L" id="6yADK3JOEEF" role="1tU5fm" />
+                          <node concept="Xl_RD" id="6yADK3JOEYk" role="33vP2m">
+                            <property role="Xl_RC" value="" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="3oM_SD" id="6yADK3JLVfM" role="1PaTwD">
-                        <property role="3oM_SC" value="Schema" />
-                      </node>
-                      <node concept="3oM_SD" id="6yADK3JLVjg" role="1PaTwD">
-                        <property role="3oM_SC" value="Stuff" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3cpWs8" id="6yADK3JLVIh" role="3cqZAp">
-                    <node concept="3cpWsn" id="6yADK3JLVIi" role="3cpWs9">
-                      <property role="TrG5h" value="resultDlg" />
-                      <node concept="3uibUv" id="6yADK3JLVIj" role="1tU5fm">
-                        <ref role="3uigEE" node="3VEVRTXdSYE" resolve="CopyPasteDialog" />
-                      </node>
-                      <node concept="2ShNRf" id="6yADK3JLW0I" role="33vP2m">
-                        <node concept="1pGfFk" id="6yADK3JLW0v" role="2ShVmc">
-                          <ref role="37wK5l" node="62LYtHs0z32" resolve="CopyPasteDialog" />
-                          <node concept="2OqwBi" id="6yADK3JLW4V" role="37wK5m">
-                            <node concept="2WthIp" id="6yADK3JLW4Y" role="2Oq$k0" />
-                            <node concept="1DTwFV" id="6yADK3JLW50" role="2OqNvi">
-                              <ref role="2WH_rO" node="6yADK3JnRaD" resolve="project" />
+                      <node concept="3clFbJ" id="6yADK3JNHPv" role="3cqZAp">
+                        <node concept="3clFbS" id="6yADK3JNHPx" role="3clFbx">
+                          <node concept="3clFbF" id="6yADK3JOFQJ" role="3cqZAp">
+                            <node concept="2OqwBi" id="6yADK3JOGhH" role="3clFbG">
+                              <node concept="37vLTw" id="6yADK3JOFQH" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6yADK3JJZm4" resolve="persDescriptions" />
+                              </node>
+                              <node concept="2es0OD" id="6yADK3JOHE8" role="2OqNvi">
+                                <node concept="1bVj0M" id="6yADK3JOHEa" role="23t8la">
+                                  <node concept="3clFbS" id="6yADK3JOHEb" role="1bW5cS">
+                                    <node concept="3clFbF" id="6yADK3JOHZD" role="3cqZAp">
+                                      <node concept="d57v9" id="6yADK3JOIpy" role="3clFbG">
+                                        <node concept="37vLTw" id="6yADK3JOHZC" role="37vLTJ">
+                                          <ref role="3cqZAo" node="6yADK3JOEEK" resolve="resultSt" />
+                                        </node>
+                                        <node concept="3cpWs3" id="6yADK3JOJ9y" role="37vLTx">
+                                          <node concept="Xl_RD" id="6yADK3JOJ9O" role="3uHU7w">
+                                            <property role="Xl_RC" value="\n\n" />
+                                          </node>
+                                          <node concept="2YIFZM" id="6yADK3JOFvT" role="3uHU7B">
+                                            <ref role="37wK5l" to="n4mo:7kI3k5B0dqt" resolve="getAllSqlForPersistanceDescription" />
+                                            <ref role="1Pybhc" to="n4mo:7kI3k5AZW4s" resolve="SqlOracleTableDescriptor" />
+                                            <node concept="37vLTw" id="6yADK3JOIJ3" role="37wK5m">
+                                              <ref role="3cqZAo" node="6yADK3JOHEc" resolve="it" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Rh6nW" id="6yADK3JOHEc" role="1bW2Oz">
+                                    <property role="TrG5h" value="it" />
+                                    <node concept="2jxLKc" id="6yADK3JOHEd" role="1tU5fm" />
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
-                          <node concept="Xl_RD" id="6yADK3JLWg6" role="37wK5m">
-                            <property role="Xl_RC" value="Generated result" />
+                          <node concept="3clFbH" id="6yADK3JOJPo" role="3cqZAp" />
+                        </node>
+                        <node concept="2OqwBi" id="6yADK3JNI9f" role="3clFbw">
+                          <node concept="37vLTw" id="6yADK3JNHV7" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6yADK3JFBcI" resolve="dlg" />
                           </node>
-                          <node concept="Xl_RD" id="6yADK3JLX9s" role="37wK5m">
-                            <property role="Xl_RC" value="schema here." />
+                          <node concept="liA8E" id="6yADK3JNIvh" role="2OqNvi">
+                            <ref role="37wK5l" node="6yADK3JNcJB" resolve="isResultSelected" />
+                            <node concept="Rm8GO" id="6yADK3JOA45" role="37wK5m">
+                              <ref role="Rm8GQ" node="6yADK3JNa3m" resolve="ORACLE_SCHEMA" />
+                              <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3eNFk2" id="6yADK3JOAaF" role="3eNLev">
+                          <node concept="2OqwBi" id="6yADK3JOAub" role="3eO9$A">
+                            <node concept="37vLTw" id="6yADK3JOAg3" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6yADK3JFBcI" resolve="dlg" />
+                            </node>
+                            <node concept="liA8E" id="6yADK3JOB12" role="2OqNvi">
+                              <ref role="37wK5l" node="6yADK3JNcJB" resolve="isResultSelected" />
+                              <node concept="Rm8GO" id="6yADK3JOBmq" role="37wK5m">
+                                <ref role="Rm8GQ" node="6yADK3JNaWL" resolve="MYSQL_SCHEMA" />
+                                <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="6yADK3JOAaH" role="3eOfB_">
+                            <node concept="3clFbF" id="6yADK3JOJVb" role="3cqZAp">
+                              <node concept="2OqwBi" id="6yADK3JOJVc" role="3clFbG">
+                                <node concept="37vLTw" id="6yADK3JOJVd" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6yADK3JJZm4" resolve="persDescriptions" />
+                                </node>
+                                <node concept="2es0OD" id="6yADK3JOJVe" role="2OqNvi">
+                                  <node concept="1bVj0M" id="6yADK3JOJVf" role="23t8la">
+                                    <node concept="3clFbS" id="6yADK3JOJVg" role="1bW5cS">
+                                      <node concept="3clFbF" id="6yADK3JOJVh" role="3cqZAp">
+                                        <node concept="d57v9" id="6yADK3JOJVi" role="3clFbG">
+                                          <node concept="37vLTw" id="6yADK3JOJVj" role="37vLTJ">
+                                            <ref role="3cqZAo" node="6yADK3JOEEK" resolve="resultSt" />
+                                          </node>
+                                          <node concept="3cpWs3" id="6yADK3JOJVk" role="37vLTx">
+                                            <node concept="Xl_RD" id="6yADK3JOJVl" role="3uHU7w">
+                                              <property role="Xl_RC" value="\n\n" />
+                                            </node>
+                                            <node concept="2YIFZM" id="6yADK3JOJVm" role="3uHU7B">
+                                              <ref role="1Pybhc" to="n4mo:1YSLAaBArI5" resolve="SqlMySqlTableDescriptor" />
+                                              <ref role="37wK5l" to="n4mo:1YSLAaBArPF" resolve="getAllSqlForPersistanceDescription" />
+                                              <node concept="37vLTw" id="6yADK3JOJVn" role="37wK5m">
+                                                <ref role="3cqZAo" node="6yADK3JOJVo" resolve="it" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="Rh6nW" id="6yADK3JOJVo" role="1bW2Oz">
+                                      <property role="TrG5h" value="it" />
+                                      <node concept="2jxLKc" id="6yADK3JOJVp" role="1tU5fm" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbH" id="6yADK3JOK4M" role="3cqZAp" />
+                          </node>
+                        </node>
+                        <node concept="3eNFk2" id="6yADK3JOBGW" role="3eNLev">
+                          <node concept="2OqwBi" id="6yADK3JOBGX" role="3eO9$A">
+                            <node concept="37vLTw" id="6yADK3JOBGY" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6yADK3JFBcI" resolve="dlg" />
+                            </node>
+                            <node concept="liA8E" id="6yADK3JOBGZ" role="2OqNvi">
+                              <ref role="37wK5l" node="6yADK3JNcJB" resolve="isResultSelected" />
+                              <node concept="Rm8GO" id="6yADK3JOE6b" role="37wK5m">
+                                <ref role="Rm8GQ" node="6yADK3JNazc" resolve="ORACLE_ALTER" />
+                                <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="6yADK3JOBH1" role="3eOfB_" />
+                        </node>
+                        <node concept="3eNFk2" id="6yADK3JOBPB" role="3eNLev">
+                          <node concept="2OqwBi" id="6yADK3JOBPC" role="3eO9$A">
+                            <node concept="37vLTw" id="6yADK3JOBPD" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6yADK3JFBcI" resolve="dlg" />
+                            </node>
+                            <node concept="liA8E" id="6yADK3JOBPE" role="2OqNvi">
+                              <ref role="37wK5l" node="6yADK3JNcJB" resolve="isResultSelected" />
+                              <node concept="Rm8GO" id="6yADK3JODWj" role="37wK5m">
+                                <ref role="Rm8GQ" node="6yADK3JNbc0" resolve="MYSQL_ALTER" />
+                                <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="6yADK3JOBPG" role="3eOfB_" />
+                        </node>
+                        <node concept="9aQIb" id="6yADK3JOBZj" role="9aQIa">
+                          <node concept="3clFbS" id="6yADK3JOBZk" role="9aQI4">
+                            <node concept="YS8fn" id="6yADK3JOCat" role="3cqZAp">
+                              <node concept="2ShNRf" id="6yADK3JOCfA" role="YScLw">
+                                <node concept="1pGfFk" id="6yADK3JODoC" role="2ShVmc">
+                                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                                  <node concept="Xl_RD" id="6yADK3JODoU" role="37wK5m">
+                                    <property role="Xl_RC" value="This can not happen." />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="6yADK3JNHGW" role="3cqZAp" />
+                      <node concept="3SKdUt" id="6yADK3JLV9N" role="3cqZAp">
+                        <node concept="1PaTwC" id="6yADK3JLV9O" role="1aUNEU">
+                          <node concept="3oM_SD" id="6yADK3JLV9P" role="1PaTwD">
+                            <property role="3oM_SC" value="do" />
+                          </node>
+                          <node concept="3oM_SD" id="6yADK3JLVfM" role="1PaTwD">
+                            <property role="3oM_SC" value="Schema" />
+                          </node>
+                          <node concept="3oM_SD" id="6yADK3JLVjg" role="1PaTwD">
+                            <property role="3oM_SC" value="Stuff" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="6yADK3JLVIh" role="3cqZAp">
+                        <node concept="3cpWsn" id="6yADK3JLVIi" role="3cpWs9">
+                          <property role="TrG5h" value="resultDlg" />
+                          <node concept="3uibUv" id="6yADK3JLVIj" role="1tU5fm">
+                            <ref role="3uigEE" node="3VEVRTXdSYE" resolve="CopyPasteDialog" />
+                          </node>
+                          <node concept="2ShNRf" id="6yADK3JLW0I" role="33vP2m">
+                            <node concept="1pGfFk" id="6yADK3JLW0v" role="2ShVmc">
+                              <ref role="37wK5l" node="62LYtHs0z32" resolve="CopyPasteDialog" />
+                              <node concept="2OqwBi" id="6yADK3JLW4V" role="37wK5m">
+                                <node concept="2WthIp" id="6yADK3JLW4Y" role="2Oq$k0" />
+                                <node concept="1DTwFV" id="6yADK3JLW50" role="2OqNvi">
+                                  <ref role="2WH_rO" node="6yADK3JnRaD" resolve="project" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="6yADK3JLWg6" role="37wK5m">
+                                <property role="Xl_RC" value="Generated result" />
+                              </node>
+                              <node concept="37vLTw" id="6yADK3JOF9$" role="37wK5m">
+                                <ref role="3cqZAo" node="6yADK3JOEEK" resolve="resultSt" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="6yADK3JLXME" role="3cqZAp">
+                        <node concept="2OqwBi" id="6yADK3JLY0a" role="3clFbG">
+                          <node concept="37vLTw" id="6yADK3JLXMC" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6yADK3JLVIi" resolve="resultDlg" />
+                          </node>
+                          <node concept="liA8E" id="6yADK3JLYm5" role="2OqNvi">
+                            <ref role="37wK5l" node="4JdxVp$KZaq" resolve="showDialog" />
                           </node>
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="3clFbF" id="6yADK3JLXME" role="3cqZAp">
-                    <node concept="2OqwBi" id="6yADK3JLY0a" role="3clFbG">
-                      <node concept="37vLTw" id="6yADK3JLXMC" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6yADK3JLVIi" resolve="resultDlg" />
+                    <node concept="2OqwBi" id="6yADK3JNH1P" role="3clFbw">
+                      <node concept="37vLTw" id="6yADK3JNGNH" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6yADK3JFBcI" resolve="dlg" />
                       </node>
-                      <node concept="liA8E" id="6yADK3JLYm5" role="2OqNvi">
-                        <ref role="37wK5l" node="4JdxVp$KZaq" resolve="showDialog" />
+                      <node concept="liA8E" id="6yADK3JNHpL" role="2OqNvi">
+                        <ref role="37wK5l" node="6yADK3JEXxp" resolve="isOkay" />
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="6yADK3JNGx6" role="3cqZAp" />
+                  <node concept="3clFbH" id="6yADK3JNGp6" role="3cqZAp" />
+                  <node concept="3clFbH" id="6yADK3JNGpM" role="3cqZAp" />
+                  <node concept="3clFbH" id="6yADK3JNGhO" role="3cqZAp" />
                 </node>
               </node>
             </node>
@@ -11782,7 +11972,126 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6yADK3JEXxv" role="jymVt" />
+    <node concept="3clFb_" id="6yADK3JNcJB" role="jymVt">
+      <property role="TrG5h" value="isResultSelected" />
+      <node concept="37vLTG" id="6yADK3JNi5t" role="3clF46">
+        <property role="TrG5h" value="sel" />
+        <node concept="3uibUv" id="6yADK3JNiQ$" role="1tU5fm">
+          <ref role="3uigEE" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+        </node>
+      </node>
+      <node concept="10P_77" id="6yADK3JNfGw" role="3clF45" />
+      <node concept="3Tm1VV" id="6yADK3JNcJE" role="1B3o_S" />
+      <node concept="3clFbS" id="6yADK3JNcJF" role="3clF47">
+        <node concept="3KaCP$" id="6yADK3JNnNH" role="3cqZAp">
+          <node concept="2OqwBi" id="6yADK3JNkCv" role="3KbGdf">
+            <node concept="37vLTw" id="6yADK3JNjqb" role="2Oq$k0">
+              <ref role="3cqZAo" node="6yADK3JFdio" resolve="selectedOptions" />
+            </node>
+            <node concept="liA8E" id="6yADK3JNmdp" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComboBox.getSelectedIndex()" resolve="getSelectedIndex" />
+            </node>
+          </node>
+          <node concept="3KbdKl" id="6yADK3JNpt_" role="3KbHQx">
+            <node concept="3cmrfG" id="6yADK3JNpA7" role="3Kbmr1">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="3clFbS" id="6yADK3JNqrK" role="3Kbo56">
+              <node concept="3cpWs6" id="6yADK3JNs8D" role="3cqZAp">
+                <node concept="2OqwBi" id="6yADK3JNwxF" role="3cqZAk">
+                  <node concept="37vLTw" id="6yADK3JNvwA" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6yADK3JNi5t" resolve="sel" />
+                  </node>
+                  <node concept="liA8E" id="6yADK3JNy9d" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
+                    <node concept="Rm8GO" id="6yADK3JN_mG" role="37wK5m">
+                      <ref role="Rm8GQ" node="6yADK3JNa3m" resolve="ORACLE_SCHEMA" />
+                      <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3KbdKl" id="6yADK3JNpIJ" role="3KbHQx">
+            <node concept="3cmrfG" id="6yADK3JNpRu" role="3Kbmr1">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="3clFbS" id="6yADK3JNqPv" role="3Kbo56">
+              <node concept="3cpWs6" id="6yADK3JNrY2" role="3cqZAp">
+                <node concept="2OqwBi" id="6yADK3JN_N_" role="3cqZAk">
+                  <node concept="37vLTw" id="6yADK3JN_NA" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6yADK3JNi5t" resolve="sel" />
+                  </node>
+                  <node concept="liA8E" id="6yADK3JN_NB" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
+                    <node concept="Rm8GO" id="6yADK3JNAJr" role="37wK5m">
+                      <ref role="Rm8GQ" node="6yADK3JNazc" resolve="ORACLE_ALTER" />
+                      <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3KbdKl" id="6yADK3JNpZ2" role="3KbHQx">
+            <node concept="3cmrfG" id="6yADK3JNq7V" role="3Kbmr1">
+              <property role="3cmrfH" value="2" />
+            </node>
+            <node concept="3clFbS" id="6yADK3JNr1E" role="3Kbo56">
+              <node concept="3cpWs6" id="6yADK3JNrD1" role="3cqZAp">
+                <node concept="2OqwBi" id="6yADK3JNBGe" role="3cqZAk">
+                  <node concept="37vLTw" id="6yADK3JNBGf" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6yADK3JNi5t" resolve="sel" />
+                  </node>
+                  <node concept="liA8E" id="6yADK3JNBGg" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
+                    <node concept="Rm8GO" id="6yADK3JNCuU" role="37wK5m">
+                      <ref role="Rm8GQ" node="6yADK3JNaWL" resolve="MYSQL_SCHEMA" />
+                      <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3KbdKl" id="6yADK3JNq9p" role="3KbHQx">
+            <node concept="3cmrfG" id="6yADK3JNqoB" role="3Kbmr1">
+              <property role="3cmrfH" value="3" />
+            </node>
+            <node concept="3clFbS" id="6yADK3JNqqa" role="3Kbo56">
+              <node concept="3cpWs6" id="6yADK3JNruq" role="3cqZAp">
+                <node concept="2OqwBi" id="6yADK3JNCVh" role="3cqZAk">
+                  <node concept="37vLTw" id="6yADK3JNCVi" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6yADK3JNi5t" resolve="sel" />
+                  </node>
+                  <node concept="liA8E" id="6yADK3JNCVj" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object)" resolve="equals" />
+                    <node concept="Rm8GO" id="6yADK3JNDS7" role="37wK5m">
+                      <ref role="Rm8GQ" node="6yADK3JNbc0" resolve="MYSQL_ALTER" />
+                      <ref role="1Px2BO" node="6yADK3JN92H" resolve="SchemaExportDialog.ResultSelection" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="6yADK3JNs8Q" role="3Kb1Dw">
+            <node concept="YS8fn" id="6yADK3JNs_A" role="3cqZAp">
+              <node concept="2ShNRf" id="6yADK3JNsH9" role="YScLw">
+                <node concept="1pGfFk" id="6yADK3JNu3a" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="6yADK3JNuaq" role="37wK5m">
+                    <property role="Xl_RC" value="This can not happen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6yADK3JNbP2" role="jymVt" />
     <node concept="3clFb_" id="6yADK3JEXxw" role="jymVt">
       <property role="TrG5h" value="showDialog" />
       <node concept="3cqZAl" id="6yADK3JEXxx" role="3clF45" />
@@ -11799,6 +12108,28 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="6yADK3JN7YY" role="jymVt" />
+    <node concept="Qs71p" id="6yADK3JN92H" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="ResultSelection" />
+      <node concept="QsSxf" id="6yADK3JNa3m" role="Qtgdg">
+        <property role="TrG5h" value="ORACLE_SCHEMA" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="6yADK3JNazc" role="Qtgdg">
+        <property role="TrG5h" value="ORACLE_ALTER" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="6yADK3JNaWL" role="Qtgdg">
+        <property role="TrG5h" value="MYSQL_SCHEMA" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="6yADK3JNbc0" role="Qtgdg">
+        <property role="TrG5h" value="MYSQL_ALTER" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="6yADK3JN92I" role="1B3o_S" />
     </node>
     <node concept="3uibUv" id="6yADK3JEXxC" role="1zkMxy">
       <ref role="3uigEE" to="jkm4:~DialogBuilder" resolve="DialogBuilder" />

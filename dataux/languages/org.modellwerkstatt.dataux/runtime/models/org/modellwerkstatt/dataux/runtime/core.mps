@@ -20405,7 +20405,7 @@
                         <ref role="1PxDUh" to="28jr:4FgSVMpmPYY" resolve="IOFXCoreReporter" />
                       </node>
                       <node concept="Xl_RD" id="6uo0g5Y0l2U" role="37wK5m">
-                        <property role="Xl_RC" value="CommandContainer.fg_ensureTerminatedExceptionConclusionAndCloseContainer() container closed, but closing requested with ex." />
+                        <property role="Xl_RC" value="CommandContainer.fg_ensureTerminatedExceptionConclusionAndCloseContainer() container already closed, but closing requested with ex." />
                       </node>
                       <node concept="2YIFZM" id="6uo0g5Y0mcH" role="37wK5m">
                         <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
@@ -28802,13 +28802,6 @@
         <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
       </node>
       <node concept="3clFbS" id="4xjkqfyDt2G" role="3clF47">
-        <node concept="3SKdUt" id="zBgVaD7hYm" role="3cqZAp">
-          <node concept="1PaTwC" id="5HvIBdJXHMf" role="1aUNEU">
-            <node concept="3oM_SD" id="5HvIBdJXHMg" role="1PaTwD">
-              <property role="3oM_SC" value="stateless" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="4xjkqfyDyHo" role="3cqZAp">
           <node concept="2OqwBi" id="4xjkqfyDyIw" role="3clFbG">
             <node concept="37vLTw" id="4xjkqfyDyHn" role="2Oq$k0">
