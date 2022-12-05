@@ -1545,7 +1545,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="7ubYH_ZZON1" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
+        <property role="3F0ifm" value="[" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="11LMrY" id="7ubYH_ZZOVm" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1562,7 +1562,7 @@
         <ref role="1NtTu8" to="un0u:7ubYH_ZZOMR" resolve="max" />
       </node>
       <node concept="3F0ifn" id="7ubYH_ZZON9" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
+        <property role="3F0ifm" value="]" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="11L4FC" id="7ubYH_ZZOVr" role="3F10Kt">
           <property role="VOm3f" value="true" />

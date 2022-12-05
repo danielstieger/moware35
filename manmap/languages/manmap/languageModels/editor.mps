@@ -1053,7 +1053,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="EYyuKpdvfE">
-    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="3GE5qa" value="mapping.fieldoptions.schema" />
     <ref role="1XX52x" to="r5tz:EYyuKpdvfz" resolve="SizeOption" />
     <node concept="3EZMnI" id="EYyuKpdvfG" role="2wV5jI">
       <node concept="PMmxH" id="KVbXdPfFqe" role="3EZMnx">

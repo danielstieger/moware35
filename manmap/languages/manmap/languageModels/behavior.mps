@@ -10952,10 +10952,24 @@
     </node>
   </node>
   <node concept="13h7C7" id="7K21hvEcg4s">
-    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="3GE5qa" value="mapping.fieldoptions.schema" />
     <ref role="13h7C2" to="r5tz:EYyuKpdvfz" resolve="SizeOption" />
     <node concept="13hLZK" id="7K21hvEcg4t" role="13h7CW">
-      <node concept="3clFbS" id="7K21hvEcg4u" role="2VODD2" />
+      <node concept="3clFbS" id="7K21hvEcg4u" role="2VODD2">
+        <node concept="3clFbF" id="5S2opQ4BZMb" role="3cqZAp">
+          <node concept="37vLTI" id="5S2opQ4C0Wr" role="3clFbG">
+            <node concept="3cmrfG" id="5S2opQ4C0WH" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="5S2opQ4BZUH" role="37vLTJ">
+              <node concept="13iPFW" id="5S2opQ4BZMa" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5S2opQ4C04W" role="2OqNvi">
+                <ref role="3TsBF5" to="r5tz:EYyuKpdvf_" resolve="decvalue" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="7K21hvEcg52" role="13h7CS">
       <property role="13i0iv" value="false" />

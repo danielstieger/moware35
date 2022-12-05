@@ -330,18 +330,18 @@
     </node>
   </node>
   <node concept="1TIwiD" id="EYyuKpdvfv">
-    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="3GE5qa" value="mapping.fieldoptions.schema" />
     <property role="TrG5h" value="IndexOption" />
-    <property role="R4oN_" value="add an index statement to gen. schema description" />
+    <property role="R4oN_" value="[schema] add an index statement" />
     <property role="34LRSv" value="INDEX" />
     <property role="EcuMT" value="774207833082557407" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
   <node concept="1TIwiD" id="EYyuKpdvfz">
-    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="3GE5qa" value="mapping.fieldoptions.schema" />
     <property role="TrG5h" value="SizeOption" />
     <property role="34LRSv" value="SIZE" />
-    <property role="R4oN_" value="add an size expression to gen. schema description" />
+    <property role="R4oN_" value="[schema] add an size" />
     <property role="EcuMT" value="774207833082557411" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
     <node concept="1TJgyi" id="EYyuKpdvf$" role="1TKVEl">
@@ -359,10 +359,10 @@
     </node>
   </node>
   <node concept="1TIwiD" id="EYyuKpdvfQ">
-    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <property role="3GE5qa" value="mapping.fieldoptions.schema" />
     <property role="TrG5h" value="NotnullOption" />
     <property role="34LRSv" value="NOTNULL" />
-    <property role="R4oN_" value="add an NOTNULL expression to gen. schema description" />
+    <property role="R4oN_" value="[schema] add an NOT NULL" />
     <property role="EcuMT" value="774207833082557430" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
@@ -1447,6 +1447,14 @@
     <property role="EcuMT" value="4848530023487949735" />
     <property role="3GE5qa" value="L2" />
     <property role="TrG5h" value="L2Comment" />
+  </node>
+  <node concept="1TIwiD" id="5S2opQ4_N8d">
+    <property role="EcuMT" value="6774084118680908301" />
+    <property role="3GE5qa" value="mapping.fieldoptions.schema" />
+    <property role="TrG5h" value="UniqueOption" />
+    <property role="34LRSv" value="UNIQUE" />
+    <property role="R4oN_" value="[schema] add an unique statement" />
+    <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
 </model>
 
