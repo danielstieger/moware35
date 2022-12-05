@@ -590,6 +590,7 @@
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1178894719932" name="jetbrains.mps.baseLanguage.collections.structure.DistinctOperation" flags="nn" index="1VAtEI" />
@@ -16517,6 +16518,14 @@
           </node>
         </node>
       </node>
+      <node concept="312cEg" id="_ALeoXYA_9" role="jymVt">
+        <property role="TrG5h" value="__dbDesc" />
+        <node concept="3Tm6S6" id="_ALeoXYA_a" role="1B3o_S" />
+        <node concept="3uibUv" id="_ALeoXYA_b" role="1tU5fm">
+          <ref role="3uigEE" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+        </node>
+      </node>
+      <node concept="2tJIrI" id="_ALeoXXbCc" role="jymVt" />
       <node concept="3clFbW" id="5_gFKlwJWrO" role="jymVt">
         <node concept="3cqZAl" id="5_gFKlwJWrP" role="3clF45" />
         <node concept="3Tm1VV" id="5_gFKlwJWrQ" role="1B3o_S" />
@@ -17199,7 +17208,75 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="7$A8r6g2S5h" role="3cqZAp" />
+          <node concept="3clFbH" id="_ALeoXZcV7" role="3cqZAp" />
+          <node concept="3clFbF" id="_ALeoY2e83" role="3cqZAp">
+            <node concept="2OqwBi" id="_ALeoY2tBk" role="3clFbG">
+              <node concept="37vLTw" id="_ALeoY2e81" role="2Oq$k0">
+                <ref role="3cqZAo" node="_ALeoXYA_9" resolve="__dbDesc" />
+              </node>
+              <node concept="liA8E" id="_ALeoY2KBr" role="2OqNvi">
+                <ref role="37wK5l" to="w7gk:_ALeoY1kX1" resolve="handleLimitQuery" />
+                <node concept="37vLTw" id="_ALeoY2KF9" role="37wK5m">
+                  <ref role="3cqZAo" node="1NLiuQtfW90" resolve="__sqlStatement" />
+                </node>
+                <node concept="3cmrfG" id="_ALeoY2KN_" role="37wK5m">
+                  <property role="3cmrfH" value="20" />
+                  <node concept="29HgVG" id="_ALeoY3CBf" role="lGtFl">
+                    <node concept="3NFfHV" id="_ALeoY3CD_" role="3NFExx">
+                      <node concept="3clFbS" id="_ALeoY3CDA" role="2VODD2">
+                        <node concept="3clFbF" id="_ALeoY3CGj" role="3cqZAp">
+                          <node concept="2OqwBi" id="_ALeoY3G6D" role="3clFbG">
+                            <node concept="1PxgMI" id="_ALeoY3FSD" role="2Oq$k0">
+                              <node concept="chp4Y" id="_ALeoY3FVY" role="3oSUPX">
+                                <ref role="cht4Q" to="r5tz:_ALeoXSh8y" resolve="LimitQuery" />
+                              </node>
+                              <node concept="2OqwBi" id="_ALeoY3Ex2" role="1m5AlR">
+                                <node concept="2OqwBi" id="_ALeoY3CTm" role="2Oq$k0">
+                                  <node concept="30H73N" id="_ALeoY3CGi" role="2Oq$k0" />
+                                  <node concept="3Tsc0h" id="_ALeoY3D9k" role="2OqNvi">
+                                    <ref role="3TtcxE" to="r5tz:EYyuKpelwB" resolve="queryOperation" />
+                                  </node>
+                                </node>
+                                <node concept="1yVyf7" id="_ALeoY3FEZ" role="2OqNvi" />
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="_ALeoY3Gkh" role="2OqNvi">
+                              <ref role="3Tt5mk" to="r5tz:_ALeoXSh9k" resolve="count" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1W57fq" id="_ALeoY33d7" role="lGtFl">
+              <node concept="3IZrLx" id="_ALeoY33d8" role="3IZSJc">
+                <node concept="3clFbS" id="_ALeoY33d9" role="2VODD2">
+                  <node concept="3clFbF" id="_ALeoY1d7p" role="3cqZAp">
+                    <node concept="2OqwBi" id="_ALeoY1gVc" role="3clFbG">
+                      <node concept="2OqwBi" id="_ALeoY1f_v" role="2Oq$k0">
+                        <node concept="2OqwBi" id="_ALeoY1dMb" role="2Oq$k0">
+                          <node concept="30H73N" id="_ALeoY1d7o" role="2Oq$k0" />
+                          <node concept="3Tsc0h" id="_ALeoY1dP4" role="2OqNvi">
+                            <ref role="3TtcxE" to="r5tz:EYyuKpelwB" resolve="queryOperation" />
+                          </node>
+                        </node>
+                        <node concept="1yVyf7" id="_ALeoY1gKB" role="2OqNvi" />
+                      </node>
+                      <node concept="1mIQ4w" id="_ALeoY1h6o" role="2OqNvi">
+                        <node concept="chp4Y" id="_ALeoY1hkq" role="cj9EA">
+                          <ref role="cht4Q" to="r5tz:_ALeoXSh8y" resolve="LimitQuery" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="_ALeoXVsJE" role="3cqZAp" />
           <node concept="3clFbF" id="7wLkuGB5tEN" role="3cqZAp">
             <node concept="2YIFZM" id="7wLkuGB5tFh" role="3clFbG">
               <ref role="37wK5l" to="w7gk:7wLkuGB5tDI" resolve="printDebugMsgToIDE" />

@@ -765,6 +765,7 @@
       <node concept="3Tm1VV" id="1NLiuQth2AH" role="1B3o_S" />
       <node concept="3clFbS" id="1NLiuQth2AI" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="_ALeoXVK3i" role="jymVt" />
     <node concept="3clFb_" id="BloLfz4_9V" role="jymVt">
       <property role="TrG5h" value="handleInOperatorInQuery" />
       <node concept="37vLTG" id="BloLfz4OzW" role="3clF46">
@@ -795,6 +796,7 @@
       <node concept="3Tm1VV" id="BloLfz4_9Y" role="1B3o_S" />
       <node concept="3clFbS" id="BloLfz4_9Z" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="_ALeoXVJTN" role="jymVt" />
   </node>
   <node concept="3HP615" id="2Ud4UxV8PPs">
     <property role="TrG5h" value="IM3TypeHandler" />
@@ -9416,7 +9418,23 @@
       <node concept="3clFbS" id="BloLfz1$N1" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="1YSLAaBz9tx" role="1B3o_S" />
-    <node concept="2tJIrI" id="BloLfz1_mN" role="jymVt" />
+    <node concept="3clFb_" id="_ALeoY1kX1" role="jymVt">
+      <property role="TrG5h" value="handleLimitQuery" />
+      <node concept="37vLTG" id="_ALeoY1lwv" role="3clF46">
+        <property role="TrG5h" value="whereStatement" />
+        <node concept="3uibUv" id="_ALeoY1l_x" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~StringBuilder" resolve="StringBuilder" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="_ALeoY1lI3" role="3clF46">
+        <property role="TrG5h" value="count" />
+        <node concept="10Oyi0" id="_ALeoY1lN7" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="_ALeoY1kX3" role="3clF45" />
+      <node concept="3Tm1VV" id="_ALeoY1kX4" role="1B3o_S" />
+      <node concept="3clFbS" id="_ALeoY1kX5" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="_ALeoY1ipC" role="jymVt" />
   </node>
   <node concept="312cEu" id="1YSLAaBzsbA">
     <property role="TrG5h" value="MMOracleDescription" />
@@ -9921,6 +9939,49 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2TtvlLCSjWE" role="jymVt" />
+    <node concept="3clFb_" id="_ALeoY1mE9" role="jymVt">
+      <property role="TrG5h" value="handleLimitQuery" />
+      <node concept="37vLTG" id="_ALeoY1mEa" role="3clF46">
+        <property role="TrG5h" value="whereStatement" />
+        <node concept="3uibUv" id="_ALeoY1mEb" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~StringBuilder" resolve="StringBuilder" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="_ALeoY1mEc" role="3clF46">
+        <property role="TrG5h" value="count" />
+        <node concept="10Oyi0" id="_ALeoY1mEd" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="_ALeoY1mEe" role="3clF45" />
+      <node concept="3Tm1VV" id="_ALeoY1mEf" role="1B3o_S" />
+      <node concept="3clFbS" id="_ALeoY1mEh" role="3clF47">
+        <node concept="3clFbF" id="_ALeoY1okp" role="3cqZAp">
+          <node concept="2OqwBi" id="_ALeoY1oMj" role="3clFbG">
+            <node concept="37vLTw" id="_ALeoY1oko" role="2Oq$k0">
+              <ref role="3cqZAo" node="_ALeoY1mEa" resolve="whereStatement" />
+            </node>
+            <node concept="liA8E" id="_ALeoY1p47" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
+              <node concept="3cpWs3" id="_ALeoY1qNU" role="37wK5m">
+                <node concept="Xl_RD" id="_ALeoY1re2" role="3uHU7w">
+                  <property role="Xl_RC" value=" ROWS ONLY" />
+                </node>
+                <node concept="3cpWs3" id="_ALeoY1q5i" role="3uHU7B">
+                  <node concept="Xl_RD" id="_ALeoY1pdi" role="3uHU7B">
+                    <property role="Xl_RC" value=" FETCH NEXT " />
+                  </node>
+                  <node concept="37vLTw" id="_ALeoY1q9T" role="3uHU7w">
+                    <ref role="3cqZAo" node="_ALeoY1mEc" resolve="count" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="_ALeoY1mEi" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="1YSLAaBzspJ">
     <property role="TrG5h" value="MMMySqlDescription" />
@@ -10231,6 +10292,45 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="_ALeoY1sb2" role="jymVt" />
+    <node concept="3clFb_" id="_ALeoY1sPt" role="jymVt">
+      <property role="TrG5h" value="handleLimitQuery" />
+      <node concept="37vLTG" id="_ALeoY1sPu" role="3clF46">
+        <property role="TrG5h" value="whereStatement" />
+        <node concept="3uibUv" id="_ALeoY1sPv" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~StringBuilder" resolve="StringBuilder" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="_ALeoY1sPw" role="3clF46">
+        <property role="TrG5h" value="count" />
+        <node concept="10Oyi0" id="_ALeoY1sPx" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="_ALeoY1sPy" role="3clF45" />
+      <node concept="3Tm1VV" id="_ALeoY1sPz" role="1B3o_S" />
+      <node concept="3clFbS" id="_ALeoY1sP_" role="3clF47">
+        <node concept="3clFbF" id="_ALeoY1tT9" role="3cqZAp">
+          <node concept="2OqwBi" id="_ALeoY1ueE" role="3clFbG">
+            <node concept="37vLTw" id="_ALeoY1tT8" role="2Oq$k0">
+              <ref role="3cqZAo" node="_ALeoY1sPu" resolve="whereStatement" />
+            </node>
+            <node concept="liA8E" id="_ALeoY1ut7" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
+              <node concept="3cpWs3" id="_ALeoY1uUZ" role="37wK5m">
+                <node concept="37vLTw" id="_ALeoY1v25" role="3uHU7w">
+                  <ref role="3cqZAo" node="_ALeoY1sPw" resolve="count" />
+                </node>
+                <node concept="Xl_RD" id="_ALeoY1uzy" role="3uHU7B">
+                  <property role="Xl_RC" value=" LIMIT " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="_ALeoY1sPA" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>

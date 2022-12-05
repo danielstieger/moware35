@@ -2064,7 +2064,7 @@
               <node concept="3clFbS" id="1Ysc0vs7BIw" role="3clFbx">
                 <node concept="2MkqsV" id="1Ysc0vs7BIx" role="3cqZAp">
                   <node concept="Xl_RD" id="1Ysc0vs7BIy" role="2MkJ7o">
-                    <property role="Xl_RC" value="When using get(), only the get operation can be applied." />
+                    <property role="Xl_RC" value="When using reload(), only the get operation can be applied." />
                   </node>
                   <node concept="1YBJjd" id="1Ysc0vs7BIz" role="1urrMF">
                     <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
@@ -2146,49 +2146,137 @@
             </node>
             <node concept="1Dw8fO" id="2xB8IJbKR9P" role="3cqZAp">
               <node concept="3clFbS" id="2xB8IJbKR9Q" role="2LFqv$">
-                <node concept="3clFbJ" id="2xB8IJbKRaF" role="3cqZAp">
-                  <node concept="3clFbS" id="2xB8IJbKRaG" role="3clFbx">
-                    <node concept="2MkqsV" id="7$A8r6g2S4J" role="3cqZAp">
-                      <node concept="Xl_RD" id="7$A8r6g2S4K" role="2MkJ7o">
-                        <property role="Xl_RC" value="Query from map does not support this operation. Only sortBy can be used here." />
+                <node concept="3cpWs8" id="_ALeoXTS7_" role="3cqZAp">
+                  <node concept="3cpWsn" id="_ALeoXTS7C" role="3cpWs9">
+                    <property role="TrG5h" value="op" />
+                    <node concept="3Tqbb2" id="_ALeoXTS7z" role="1tU5fm">
+                      <ref role="ehGHo" to="r5tz:EYyuKpelw$" resolve="IQueryOperation" />
+                    </node>
+                    <node concept="2OqwBi" id="_ALeoXTAdp" role="33vP2m">
+                      <node concept="2OqwBi" id="_ALeoXTzyV" role="2Oq$k0">
+                        <node concept="1YBJjd" id="_ALeoXTzmU" role="2Oq$k0">
+                          <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
+                        </node>
+                        <node concept="3Tsc0h" id="_ALeoXT$Qo" role="2OqNvi">
+                          <ref role="3TtcxE" to="r5tz:EYyuKpelwB" resolve="queryOperation" />
+                        </node>
                       </node>
-                      <node concept="2OqwBi" id="2xB8IJbKRbC" role="1urrMF">
-                        <node concept="2OqwBi" id="2xB8IJbKRbu" role="2Oq$k0">
-                          <node concept="1YBJjd" id="7$A8r6g2S4L" role="2Oq$k0">
+                      <node concept="34jXtK" id="_ALeoXTCEJ" role="2OqNvi">
+                        <node concept="37vLTw" id="_ALeoXTCHd" role="25WWJ7">
+                          <ref role="3cqZAo" node="2xB8IJbKR9S" resolve="i" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="_ALeoXTEVD" role="3cqZAp">
+                  <node concept="3cpWsn" id="_ALeoXTEVG" role="3cpWs9">
+                    <property role="TrG5h" value="lastIteration" />
+                    <node concept="10P_77" id="_ALeoXTEVB" role="1tU5fm" />
+                    <node concept="3clFbC" id="_ALeoXTFAw" role="33vP2m">
+                      <node concept="2OqwBi" id="_ALeoXTKh1" role="3uHU7w">
+                        <node concept="2OqwBi" id="_ALeoXTHcf" role="2Oq$k0">
+                          <node concept="1YBJjd" id="_ALeoXTGf2" role="2Oq$k0">
                             <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
                           </node>
-                          <node concept="3Tsc0h" id="2xB8IJbKRb$" role="2OqNvi">
+                          <node concept="3Tsc0h" id="_ALeoXTHYj" role="2OqNvi">
                             <ref role="3TtcxE" to="r5tz:EYyuKpelwB" resolve="queryOperation" />
                           </node>
                         </node>
-                        <node concept="34jXtK" id="2xB8IJbKRbI" role="2OqNvi">
-                          <node concept="37vLTw" id="KVbXdPfeBh" role="25WWJ7">
+                        <node concept="34oBXx" id="_ALeoXTNy6" role="2OqNvi" />
+                      </node>
+                      <node concept="1eOMI4" id="_ALeoXTFsI" role="3uHU7B">
+                        <node concept="3cpWs3" id="_ALeoXTF_Y" role="1eOMHV">
+                          <node concept="3cmrfG" id="_ALeoXTFA1" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                          <node concept="37vLTw" id="_ALeoXTFsW" role="3uHU7B">
                             <ref role="3cqZAo" node="2xB8IJbKR9S" resolve="i" />
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="3fqX7Q" id="2xB8IJbKRbl" role="3clFbw">
-                    <node concept="2OqwBi" id="2xB8IJbKRb8" role="3fr31v">
-                      <node concept="2OqwBi" id="2xB8IJbKRaX" role="2Oq$k0">
-                        <node concept="2OqwBi" id="2xB8IJbKRaM" role="2Oq$k0">
-                          <node concept="1YBJjd" id="2xB8IJbKRaJ" role="2Oq$k0">
-                            <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
+                </node>
+                <node concept="3clFbH" id="_ALeoXTQIV" role="3cqZAp" />
+                <node concept="3clFbJ" id="_ALeoXTzmn" role="3cqZAp">
+                  <node concept="3clFbS" id="_ALeoXTzmp" role="3clFbx">
+                    <node concept="3SKdUt" id="_ALeoXTPu2" role="3cqZAp">
+                      <node concept="1PaTwC" id="_ALeoXTPu3" role="1aUNEU">
+                        <node concept="3oM_SD" id="_ALeoXTPu4" role="1PaTwD">
+                          <property role="3oM_SC" value="this" />
+                        </node>
+                        <node concept="3oM_SD" id="_ALeoXTPua" role="1PaTwD">
+                          <property role="3oM_SC" value="is" />
+                        </node>
+                        <node concept="3oM_SD" id="_ALeoXTPud" role="1PaTwD">
+                          <property role="3oM_SC" value="okay." />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="_ALeoXTNYT" role="3clFbw">
+                    <node concept="37vLTw" id="_ALeoXTOc9" role="3uHU7B">
+                      <ref role="3cqZAo" node="_ALeoXTEVG" resolve="lastIteration" />
+                    </node>
+                    <node concept="2OqwBi" id="_ALeoXTCZT" role="3uHU7w">
+                      <node concept="1mIQ4w" id="_ALeoXTDrK" role="2OqNvi">
+                        <node concept="chp4Y" id="_ALeoXTDtM" role="cj9EA">
+                          <ref role="cht4Q" to="r5tz:_ALeoXSh8y" resolve="LimitQuery" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="_ALeoXTTqd" role="2Oq$k0">
+                        <ref role="3cqZAo" node="_ALeoXTS7C" resolve="op" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3eNFk2" id="_ALeoXTPuj" role="3eNLev">
+                    <node concept="3clFbS" id="_ALeoXTPul" role="3eOfB_">
+                      <node concept="2MkqsV" id="7$A8r6g2S4J" role="3cqZAp">
+                        <node concept="3cpWs3" id="_ALeoXTVaR" role="2MkJ7o">
+                          <node concept="Xl_RD" id="_ALeoXTVb9" role="3uHU7w">
+                            <property role="Xl_RC" value="' here. sortBy() is available. Use limit() as last element." />
                           </node>
-                          <node concept="3Tsc0h" id="2xB8IJbKRaT" role="2OqNvi">
-                            <ref role="3TtcxE" to="r5tz:EYyuKpelwB" resolve="queryOperation" />
+                          <node concept="3cpWs3" id="_ALeoXTUGn" role="3uHU7B">
+                            <node concept="Xl_RD" id="7$A8r6g2S4K" role="3uHU7B">
+                              <property role="Xl_RC" value="Query from map does not support '" />
+                            </node>
+                            <node concept="2OqwBi" id="_ALeoXTUVv" role="3uHU7w">
+                              <node concept="37vLTw" id="_ALeoXTUJQ" role="2Oq$k0">
+                                <ref role="3cqZAo" node="_ALeoXTS7C" resolve="op" />
+                              </node>
+                              <node concept="2qgKlT" id="_ALeoXTV2c" role="2OqNvi">
+                                <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
+                              </node>
+                            </node>
                           </node>
                         </node>
-                        <node concept="34jXtK" id="2xB8IJbKRb3" role="2OqNvi">
-                          <node concept="37vLTw" id="KVbXdPfe$B" role="25WWJ7">
-                            <ref role="3cqZAo" node="2xB8IJbKR9S" resolve="i" />
+                        <node concept="2OqwBi" id="2xB8IJbKRbC" role="1urrMF">
+                          <node concept="2OqwBi" id="2xB8IJbKRbu" role="2Oq$k0">
+                            <node concept="1YBJjd" id="7$A8r6g2S4L" role="2Oq$k0">
+                              <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
+                            </node>
+                            <node concept="3Tsc0h" id="2xB8IJbKRb$" role="2OqNvi">
+                              <ref role="3TtcxE" to="r5tz:EYyuKpelwB" resolve="queryOperation" />
+                            </node>
+                          </node>
+                          <node concept="34jXtK" id="2xB8IJbKRbI" role="2OqNvi">
+                            <node concept="37vLTw" id="KVbXdPfeBh" role="25WWJ7">
+                              <ref role="3cqZAo" node="2xB8IJbKR9S" resolve="i" />
+                            </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="1mIQ4w" id="2xB8IJbKRbe" role="2OqNvi">
-                        <node concept="chp4Y" id="2xB8IJbKRbg" role="cj9EA">
-                          <ref role="cht4Q" to="r5tz:EYyuKpe$eN" resolve="SortByQuery" />
+                    </node>
+                    <node concept="3fqX7Q" id="2xB8IJbKRbl" role="3eO9$A">
+                      <node concept="2OqwBi" id="2xB8IJbKRb8" role="3fr31v">
+                        <node concept="37vLTw" id="_ALeoXTUEt" role="2Oq$k0">
+                          <ref role="3cqZAo" node="_ALeoXTS7C" resolve="op" />
+                        </node>
+                        <node concept="1mIQ4w" id="2xB8IJbKRbe" role="2OqNvi">
+                          <node concept="chp4Y" id="2xB8IJbKRbg" role="cj9EA">
+                            <ref role="cht4Q" to="r5tz:EYyuKpe$eN" resolve="SortByQuery" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -2224,7 +2312,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1Ysc0vs7BJT" role="3cqZAp" />
             <node concept="3clFbH" id="1Ysc0vs7BJJ" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="1Ysc0vs7BIO" role="3eO9$A">
@@ -2240,7 +2327,7 @@
           <node concept="3clFbS" id="1Ysc0vs7BIV" role="9aQI4">
             <node concept="2MkqsV" id="7$A8r6g2S1Z" role="3cqZAp">
               <node concept="Xl_RD" id="7$A8r6g2S22" role="2MkJ7o">
-                <property role="Xl_RC" value="Query from map does not support this operation. get/where/reload is mandatory!" />
+                <property role="Xl_RC" value="Query from map does not support this operation. get/where/reload is needed as first element." />
               </node>
               <node concept="1YBJjd" id="1Ysc0vs7BIX" role="1urrMF">
                 <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
@@ -5291,6 +5378,36 @@
     <node concept="1YaCAy" id="2BBx5JAAk0L" role="1YuTPh">
       <property role="TrG5h" value="imd" />
       <ref role="1YaFvo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="_ALeoXShnU">
+    <property role="TrG5h" value="typeof_LimitQuery" />
+    <property role="3GE5qa" value="query" />
+    <node concept="3clFbS" id="_ALeoXShnV" role="18ibNy">
+      <node concept="1Z5TYs" id="_ALeoXShOA" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="_ALeoXShOY" role="1ZfhKB">
+          <node concept="2c44tf" id="_ALeoXShOU" role="mwGJk">
+            <node concept="10Oyi0" id="_ALeoXShPk" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="_ALeoXShOD" role="1ZfhK$">
+          <node concept="1Z2H0r" id="_ALeoXSho1" role="mwGJk">
+            <node concept="2OqwBi" id="_ALeoXShxU" role="1Z2MuG">
+              <node concept="1YBJjd" id="_ALeoXShpP" role="2Oq$k0">
+                <ref role="1YBMHb" node="_ALeoXShnX" resolve="limitQuery" />
+              </node>
+              <node concept="3TrEf2" id="_ALeoXShFV" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:_ALeoXSh9k" resolve="count" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="_ALeoXShnX" role="1YuTPh">
+      <property role="TrG5h" value="limitQuery" />
+      <ref role="1YaFvo" to="r5tz:_ALeoXSh8y" resolve="LimitQuery" />
     </node>
   </node>
 </model>

@@ -1457,5 +1457,23 @@
     <property role="R4oN_" value="[schema] add an unique statement" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
+  <node concept="1TIwiD" id="_ALeoXSh8y">
+    <property role="EcuMT" value="677445287125520930" />
+    <property role="3GE5qa" value="query" />
+    <property role="TrG5h" value="LimitQuery" />
+    <property role="34LRSv" value="limit" />
+    <property role="R4oN_" value="fetch next n rows only" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="_ALeoXSh9k" role="1TKVEi">
+      <property role="IQ2ns" value="677445287125520980" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="count" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="_ALeoXSh8z" role="PzmwI">
+      <ref role="PrY4T" node="EYyuKpelw$" resolve="IQueryOperation" />
+    </node>
+  </node>
 </model>
 
