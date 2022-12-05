@@ -534,6 +534,7 @@
       <concept id="781751828146429235" name="org.modellwerkstatt.manmap.structure.NoKeyMapperFieldRef" flags="ng" index="1pXOCm">
         <reference id="781751828146429245" name="noKeyMapperField" index="1pXOCo" />
       </concept>
+      <concept id="6774084118680908301" name="org.modellwerkstatt.manmap.structure.UniqueOption" flags="ng" index="3q_leg" />
       <concept id="8440420766105723374" name="org.modellwerkstatt.manmap.structure.ReferenceMapping" flags="ng" index="3rFogp">
         <reference id="8440420766105723376" name="property" index="3rFog7" />
         <child id="8440420766105755066" name="keyMapping" index="3rGzxd" />
@@ -1735,18 +1736,21 @@
           <node concept="Xl_RD" id="2i3o0he2qUt" role="12k7lF">
             <property role="Xl_RC" value="KEY_NUMBER" />
           </node>
+          <node concept="3q_leg" id="_ALeoXxxjM" role="jzqmW" />
         </node>
         <node concept="12nEzJ" id="2i3o0he2qSI" role="3caO6$">
           <ref role="12nL8z" node="5LYSiLACQhf" resolve="mandant" />
           <node concept="Xl_RD" id="2i3o0he2qSK" role="12k7lF">
             <property role="Xl_RC" value="KEY_MANDANT" />
           </node>
+          <node concept="3q_leg" id="_ALeoXxxjV" role="jzqmW" />
         </node>
         <node concept="12nEzJ" id="2i3o0he2qSa" role="3caO6$">
           <ref role="12nL8z" node="3n7eUMgdFL3" resolve="active" />
           <node concept="Xl_RD" id="2i3o0he2qSb" role="12k7lF">
             <property role="Xl_RC" value="KEY_STATUS" />
           </node>
+          <node concept="3q_leg" id="_ALeoXxxk4" role="jzqmW" />
         </node>
       </node>
       <node concept="12nEzJ" id="2i3o0he2qNo" role="3caO6$">
@@ -1754,6 +1758,7 @@
         <node concept="Xl_RD" id="2i3o0he2qNp" role="12k7lF">
           <property role="Xl_RC" value="NUM_TOTALVAL" />
         </node>
+        <node concept="3q_leg" id="_ALeoXxxkd" role="jzqmW" />
       </node>
       <node concept="3rFogp" id="2i3o0he2qNq" role="3caO6$">
         <ref role="3rFog7" node="2i3o0he2phn" resolve="relatedAccountAudit" />

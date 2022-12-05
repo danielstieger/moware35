@@ -2240,7 +2240,7 @@
           <node concept="3clFbS" id="1Ysc0vs7BIV" role="9aQI4">
             <node concept="2MkqsV" id="7$A8r6g2S1Z" role="3cqZAp">
               <node concept="Xl_RD" id="7$A8r6g2S22" role="2MkJ7o">
-                <property role="Xl_RC" value="Query from map does not support this operation. get/where/reload is mandatory! (use a fake where in order to get sortyBy)" />
+                <property role="Xl_RC" value="Query from map does not support this operation. get/where/reload is mandatory!" />
               </node>
               <node concept="1YBJjd" id="1Ysc0vs7BIX" role="1urrMF">
                 <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />

@@ -449,6 +449,7 @@
     <property role="TrG5h" value="SortByQuery" />
     <property role="34LRSv" value="sortBy" />
     <property role="EcuMT" value="774207833082839987" />
+    <property role="R4oN_" value="sort on db by property" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="EYyuKpe$fh" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
