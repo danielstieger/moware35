@@ -460,7 +460,6 @@
         <child id="6850547607509199696" name="options" index="29rIeg" />
       </concept>
       <concept id="8510097166251501634" name="org.modellwerkstatt.manmap.structure.UpdateFormSql" flags="ng" index="2KoPwa">
-        <property id="8510097166251501827" name="debugMe" index="2KoP_b" />
         <child id="8510097166251501837" name="sqlString" index="2KoP_5" />
         <child id="8510097166251501838" name="arguments" index="2KoP_6" />
       </concept>
@@ -472,11 +471,13 @@
       <concept id="7925018510949442400" name="org.modellwerkstatt.manmap.structure.UpdateSaveOption" flags="ng" index="2Msz4S" />
       <concept id="7925018510949443157" name="org.modellwerkstatt.manmap.structure.SkipAuditSaveOption" flags="ng" index="2Mszgd" />
       <concept id="7925018510949444400" name="org.modellwerkstatt.manmap.structure.ForceAuditSaveOption" flags="ng" index="2Msz_C" />
+      <concept id="677445287125520930" name="org.modellwerkstatt.manmap.structure.LimitQuery" flags="ng" index="OxXr4">
+        <child id="677445287125520980" name="count" index="OxXqM" />
+      </concept>
       <concept id="8172309840348950202" name="org.modellwerkstatt.manmap.structure.INeedsClassMapper" flags="ng" index="P14SU">
         <reference id="8172309840348950203" name="entityMapping" index="P14SV" />
       </concept>
       <concept id="8172309840348863378" name="org.modellwerkstatt.manmap.structure.SaveWithMap" flags="ng" index="P1rGi">
-        <property id="1009739194493281161" name="debugMe" index="2tzffV" />
         <child id="312461953123217536" name="options" index="2HVurX" />
         <child id="8172309840348863385" name="expression" index="P1rGp" />
       </concept>
@@ -523,7 +524,6 @@
       </concept>
       <concept id="3340964334457520113" name="org.modellwerkstatt.manmap.structure.BatchSaveOption" flags="ng" index="14MSaH" />
       <concept id="4381394697191783829" name="org.modellwerkstatt.manmap.structure.QueryFromSql" flags="ng" index="1eaaFm">
-        <property id="4381394697191785949" name="debugMe" index="1ea5au" />
         <child id="4658368375971480334" name="packaging" index="q55Dl" />
         <child id="4381394697219937324" name="arguments" index="18nGdJ" />
         <child id="4381394697191789858" name="sqlString" index="1ea49x" />
@@ -1736,21 +1736,21 @@
           <node concept="Xl_RD" id="2i3o0he2qUt" role="12k7lF">
             <property role="Xl_RC" value="KEY_NUMBER" />
           </node>
-          <node concept="3q_leg" id="_ALeoXxxjM" role="jzqmW" />
+          <node concept="3q_leg" id="_ALep0C7mq" role="jzqmW" />
         </node>
         <node concept="12nEzJ" id="2i3o0he2qSI" role="3caO6$">
           <ref role="12nL8z" node="5LYSiLACQhf" resolve="mandant" />
           <node concept="Xl_RD" id="2i3o0he2qSK" role="12k7lF">
             <property role="Xl_RC" value="KEY_MANDANT" />
           </node>
-          <node concept="3q_leg" id="_ALeoXxxjV" role="jzqmW" />
+          <node concept="3q_leg" id="_ALep0C7mz" role="jzqmW" />
         </node>
         <node concept="12nEzJ" id="2i3o0he2qSa" role="3caO6$">
           <ref role="12nL8z" node="3n7eUMgdFL3" resolve="active" />
           <node concept="Xl_RD" id="2i3o0he2qSb" role="12k7lF">
             <property role="Xl_RC" value="KEY_STATUS" />
           </node>
-          <node concept="3q_leg" id="_ALeoXxxk4" role="jzqmW" />
+          <node concept="3q_leg" id="_ALep0C7mG" role="jzqmW" />
         </node>
       </node>
       <node concept="12nEzJ" id="2i3o0he2qNo" role="3caO6$">
@@ -5309,6 +5309,88 @@
                 <ref role="3cqZAo" node="7K21hvEGE$O" resolve="invoices" />
               </node>
               <node concept="34oBXx" id="7K21hvEGEU_" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="_ALeoYK$zb" role="3yMuLx">
+      <property role="TrG5h" value="Using the limit in a query." />
+      <node concept="3cqZAl" id="_ALeoYK$zd" role="3clF45" />
+      <node concept="3clFbS" id="_ALeoYK$ze" role="3clF47">
+        <node concept="3cpWs8" id="_ALeoYK$Wy" role="3cqZAp">
+          <node concept="3cpWsn" id="_ALeoYK$W_" role="3cpWs9">
+            <property role="TrG5h" value="positions" />
+            <node concept="_YKpA" id="_ALeoYK$Wu" role="1tU5fm">
+              <node concept="3uibUv" id="_ALeoYK$WT" role="_ZDj9">
+                <ref role="3uigEE" node="612_n8HbChx" resolve="InvoicePosition" />
+              </node>
+            </node>
+            <node concept="1odsa" id="_ALeoYK$XI" role="33vP2m">
+              <ref role="1ods_" node="32etEQRuSRv" resolve="RepoInvoice" />
+              <ref role="37wK5l" node="32etEQRuSSU" resolve="findAllInvoicePositions" />
+            </node>
+          </node>
+        </node>
+        <node concept="38$l6q" id="_ALeoYK$ZS" role="3cqZAp">
+          <node concept="3cpWs3" id="_ALeoYKAi0" role="38$l6p">
+            <node concept="Xl_RD" id="_ALeoYKAii" role="3uHU7w">
+              <property role="Xl_RC" value=" positions .. .  " />
+            </node>
+            <node concept="3cpWs3" id="_ALeoYK_2U" role="3uHU7B">
+              <node concept="Xl_RD" id="_ALeoYK_0K" role="3uHU7B">
+                <property role="Xl_RC" value="We do have " />
+              </node>
+              <node concept="2OqwBi" id="_ALeoYK_wq" role="3uHU7w">
+                <node concept="37vLTw" id="_ALeoYK_3h" role="2Oq$k0">
+                  <ref role="3cqZAo" node="_ALeoYK$W_" resolve="positions" />
+                </node>
+                <node concept="34oBXx" id="_ALeoYK_LI" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="_ALeoZ3mPq" role="3cqZAp">
+          <node concept="2d3UOw" id="_ALeoZ3ola" role="1gVkn0">
+            <node concept="3cmrfG" id="_ALeoZ3omT" role="3uHU7w">
+              <property role="3cmrfH" value="10" />
+            </node>
+            <node concept="2OqwBi" id="_ALeoZ3nvs" role="3uHU7B">
+              <node concept="37vLTw" id="_ALeoZ3mYz" role="2Oq$k0">
+                <ref role="3cqZAo" node="_ALeoYK$W_" resolve="positions" />
+              </node>
+              <node concept="34oBXx" id="_ALeoZ3nKA" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="_ALeoZ3ooA" role="3cqZAp" />
+        <node concept="3cpWs8" id="_ALeoZ3lc0" role="3cqZAp">
+          <node concept="3cpWsn" id="_ALeoZ3lc1" role="3cpWs9">
+            <property role="TrG5h" value="positionsLimited" />
+            <node concept="_YKpA" id="_ALeoZ3lc2" role="1tU5fm">
+              <node concept="3uibUv" id="_ALeoZ3lc3" role="_ZDj9">
+                <ref role="3uigEE" node="612_n8HbChx" resolve="InvoicePosition" />
+              </node>
+            </node>
+            <node concept="1odsa" id="_ALeoZ3lc4" role="33vP2m">
+              <ref role="1ods_" node="32etEQRuSRv" resolve="RepoInvoice" />
+              <ref role="37wK5l" node="_ALeoZ3fni" resolve="findAllInvoicePositionsLimit" />
+              <node concept="3cmrfG" id="_ALeoZ3lwW" role="37wK5m">
+                <property role="3cmrfH" value="5" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="_ALeoZ3lxF" role="3cqZAp">
+          <node concept="3clFbC" id="_ALeoZ3mNA" role="1gVkn0">
+            <node concept="3cmrfG" id="_ALeoZ3mNL" role="3uHU7w">
+              <property role="3cmrfH" value="5" />
+            </node>
+            <node concept="2OqwBi" id="_ALeoZ3ma9" role="3uHU7B">
+              <node concept="37vLTw" id="_ALeoZ3lDg" role="2Oq$k0">
+                <ref role="3cqZAo" node="_ALeoZ3lc1" resolve="positionsLimited" />
+              </node>
+              <node concept="34oBXx" id="_ALeoZ3mrj" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -48252,7 +48334,6 @@
         <node concept="3clFbH" id="6VW5G636RuG" role="3cqZAp" />
         <node concept="3clFbF" id="6VW5G636RuH" role="3cqZAp">
           <node concept="jybIQ" id="6VW5G636RuI" role="3clFbG">
-            <property role="1v8G3g" value="true" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
             <node concept="jxyYR" id="6VW5G636RuJ" role="jxX7b">
@@ -48773,7 +48854,6 @@
       <node concept="3clFbS" id="69UELrG2BEI" role="3clF47">
         <node concept="3clFbF" id="69UELrG2BEJ" role="3cqZAp">
           <node concept="jybIQ" id="69UELrG2BEK" role="3clFbG">
-            <property role="1v8G3g" value="true" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
             <node concept="jxyYR" id="69UELrG2BEL" role="jxX7b">
@@ -48802,7 +48882,6 @@
         <node concept="3clFbH" id="4zRKoOKYOfO" role="3cqZAp" />
         <node concept="3clFbF" id="69UELrG2CpC" role="3cqZAp">
           <node concept="jybIQ" id="69UELrG2CpD" role="3clFbG">
-            <property role="1v8G3g" value="true" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
             <node concept="jxyYR" id="69UELrG2CpE" role="jxX7b">
@@ -48830,7 +48909,6 @@
       <node concept="3clFbS" id="4zRKoOL5ycP" role="3clF47">
         <node concept="3clFbF" id="4zRKoOL5ycR" role="3cqZAp">
           <node concept="jybIQ" id="4zRKoOL5ycS" role="3clFbG">
-            <property role="1v8G3g" value="true" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
             <node concept="jxyYR" id="4zRKoOL5ycT" role="jxX7b">
@@ -48862,6 +48940,48 @@
             <property role="1v8G3g" value="false" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb_R" resolve="MapInvoicePosition" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="_ALeoZ3fni" role="jymVt">
+      <property role="TrG5h" value="findAllInvoicePositionsLimit" />
+      <node concept="37vLTG" id="_ALeoZ3icS" role="3clF46">
+        <property role="TrG5h" value="lmt" />
+        <node concept="10Oyi0" id="_ALeoZ3iER" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="_ALeoZ3fnj" role="1B3o_S" />
+      <node concept="_YKpA" id="_ALeoZ3fnk" role="3clF45">
+        <node concept="3uibUv" id="_ALeoZ3fnl" role="_ZDj9">
+          <ref role="3uigEE" node="612_n8HbChx" resolve="InvoicePosition" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="_ALeoZ3fnm" role="3clF47">
+        <node concept="3clFbF" id="_ALeoZ3fnn" role="3cqZAp">
+          <node concept="jybIQ" id="_ALeoZ3fno" role="3clFbG">
+            <property role="HScZ5" value="true" />
+            <ref role="P14SV" node="70qPrkCyb_R" resolve="MapInvoicePosition" />
+            <node concept="jxyYR" id="_ALeoZ3hw9" role="jxX7b">
+              <node concept="3clFbC" id="_ALeoZ3hQa" role="jxyYK">
+                <node concept="3cmrfG" id="_ALeoZ3hWm" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="3cmrfG" id="_ALeoZ3hAD" role="3uHU7B">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+            <node concept="jxcDv" id="_ALeoZ3hXn" role="jxX7b">
+              <node concept="3_7ulE" id="_ALeoZ3ib0" role="jxcCX">
+                <ref role="3_688M" node="_ALeoZ3fno" />
+                <ref role="2OG787" node="70qPrkCybB6" />
+              </node>
+            </node>
+            <node concept="OxXr4" id="_ALeoZ3ici" role="jxX7b">
+              <node concept="37vLTw" id="_ALeoZ3klV" role="OxXqM">
+                <ref role="3cqZAo" node="_ALeoZ3icS" resolve="lmt" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -49001,7 +49121,6 @@
       <node concept="3cqZAl" id="S3k7akiQrO" role="3clF45" />
       <node concept="3clFbS" id="S3k7akiQrQ" role="3clF47">
         <node concept="P1rGi" id="S3k7akiQU4" role="3cqZAp">
-          <property role="2tzffV" value="true" />
           <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
           <node concept="37vLTw" id="S3k7akiR0Y" role="P1rGp">
             <ref role="3cqZAo" node="S3k7akiQOj" resolve="inv" />
@@ -49025,7 +49144,6 @@
       <node concept="3clFbS" id="S3k7akiR4O" role="3clF47">
         <node concept="3clFbF" id="S3k7akiRCG" role="3cqZAp">
           <node concept="jybIQ" id="S3k7akiRCE" role="3clFbG">
-            <property role="1v8G3g" value="true" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
             <node concept="TUlRj" id="S3k7akiRD0" role="jxX7b">
@@ -50316,7 +50434,6 @@
         <node concept="3clFbF" id="3EDlJFRfOJA" role="3cqZAp">
           <node concept="jybIQ" id="3EDlJFRfOJ$" role="3clFbG">
             <property role="HScZ5" value="true" />
-            <property role="1v8G3g" value="true" />
             <ref role="P14SV" node="2i3o0he2ppg" resolve="MapAccount" />
             <node concept="jxyYR" id="3EDlJFRg2by" role="jxX7b">
               <node concept="1Wc70l" id="3EDlJFRg3Fl" role="jxyYK">
@@ -51327,7 +51444,6 @@
         <node concept="3clFbH" id="7ng6PyChmdK" role="3cqZAp" />
         <node concept="3clFbF" id="7opW4z6$gzp" role="3cqZAp">
           <node concept="2KoPwa" id="7opW4z6$gzm" role="3clFbG">
-            <property role="2KoP_b" value="true" />
             <node concept="2OqwBi" id="7opW4z6$hC7" role="2KoP_6">
               <node concept="37vLTw" id="7opW4z6$hAs" role="2Oq$k0">
                 <ref role="3cqZAo" node="1vKpqtucGNf" resolve="edited" />
@@ -51379,7 +51495,6 @@
         <node concept="3clFbH" id="7ng6PyCj_ZY" role="3cqZAp" />
         <node concept="3cpWs6" id="1Mr6ahDgShP" role="3cqZAp">
           <node concept="1eaaFm" id="1Mr6ahDgSlL" role="3cqZAk">
-            <property role="1ea5au" value="true" />
             <node concept="37vLTw" id="1Mr6ahDgV8d" role="18nGdJ">
               <ref role="3cqZAo" node="1Mr6ahDfjL7" resolve="id" />
             </node>
