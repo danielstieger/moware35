@@ -445,6 +445,10 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534604311" name="jetbrains.mps.baseLanguage.structure.ByteType" flags="in" index="10PrrI" />
+      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
+        <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -11682,6 +11686,20 @@
                       <node concept="2c44tf" id="50keBnL6wHu" role="25WWJ7">
                         <node concept="3uibUv" id="50keBnL6wHv" role="2c44tc">
                           <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="E4lXEEIDIl" role="3cqZAp">
+                  <node concept="2OqwBi" id="E4lXEEIDIm" role="3clFbG">
+                    <node concept="37vLTw" id="E4lXEEIDIn" role="2Oq$k0">
+                      <ref role="3cqZAo" node="50keBnL6wF0" resolve="res" />
+                    </node>
+                    <node concept="TSZUe" id="E4lXEEIDIo" role="2OqNvi">
+                      <node concept="2c44tf" id="E4lXEEIDIp" role="25WWJ7">
+                        <node concept="10Q1$e" id="E4lXEEIXbn" role="2c44tc">
+                          <node concept="10PrrI" id="E4lXEEIWHH" role="10Q1$1" />
                         </node>
                       </node>
                     </node>
