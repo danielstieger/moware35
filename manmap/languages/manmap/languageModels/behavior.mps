@@ -325,6 +325,7 @@
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -7167,6 +7168,36 @@
         </node>
       </node>
       <node concept="10P_77" id="1Ysc0vs7BEP" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="2zJhn9PblKa" role="13h7CS">
+      <property role="TrG5h" value="isWhereCountOperation" />
+      <node concept="3Tm1VV" id="2zJhn9PblKb" role="1B3o_S" />
+      <node concept="3clFbS" id="2zJhn9PblKc" role="3clF47">
+        <node concept="3clFbF" id="2zJhn9Pbrb$" role="3cqZAp">
+          <node concept="1Wc70l" id="2zJhn9PbrtS" role="3clFbG">
+            <node concept="2OqwBi" id="2zJhn9PbuNq" role="3uHU7w">
+              <node concept="2OqwBi" id="2zJhn9Pbtwm" role="2Oq$k0">
+                <node concept="2OqwBi" id="2zJhn9PbrEL" role="2Oq$k0">
+                  <node concept="13iPFW" id="2zJhn9Pbruy" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="2zJhn9PbrVG" role="2OqNvi">
+                    <ref role="3TtcxE" to="r5tz:EYyuKpelwB" resolve="queryOperation" />
+                  </node>
+                </node>
+                <node concept="1yVyf7" id="2zJhn9PbuE7" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="2zJhn9Pbv36" role="2OqNvi">
+                <node concept="chp4Y" id="2zJhn9Pbvc5" role="cj9EA">
+                  <ref role="cht4Q" to="r5tz:2zJhn9P8Kzn" resolve="CountQuery" />
+                </node>
+              </node>
+            </node>
+            <node concept="BsUDl" id="2zJhn9Pbrbz" role="3uHU7B">
+              <ref role="37wK5l" node="1Ysc0vs7BE$" resolve="isWhereOperation" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="2zJhn9PblKA" role="3clF45" />
     </node>
     <node concept="13i0hz" id="1Ysc0vs7BEU" role="13h7CS">
       <property role="TrG5h" value="isReloadOperation" />

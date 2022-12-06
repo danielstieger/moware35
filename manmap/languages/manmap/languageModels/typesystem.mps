@@ -294,6 +294,9 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="1146253292180" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Simple" flags="nn" index="3y1jeu">
+        <child id="1146253292181" name="value" index="3y1jev" />
+      </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -469,6 +472,33 @@
               </node>
             </node>
             <node concept="3clFbH" id="1Ysc0vs7BKr" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3eNFk2" id="2zJhn9PbvFZ" role="3eNLev">
+          <node concept="2OqwBi" id="2zJhn9PbvUG" role="3eO9$A">
+            <node concept="1YBJjd" id="2zJhn9PbvIF" role="2Oq$k0">
+              <ref role="1YBMHb" node="EYyuKpdEZq" resolve="qfm" />
+            </node>
+            <node concept="2qgKlT" id="2zJhn9Pbw9Q" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:2zJhn9PblKa" resolve="isWhereCountOperation" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2zJhn9PbvG1" role="3eOfB_">
+            <node concept="1Z5TYs" id="2zJhn9Pbwa6" role="3cqZAp">
+              <node concept="mw_s8" id="2zJhn9Pbwa7" role="1ZfhKB">
+                <node concept="2c44tf" id="2zJhn9Pbwa8" role="mwGJk">
+                  <node concept="10Oyi0" id="2zJhn9PVYv8" role="2c44tc" />
+                </node>
+              </node>
+              <node concept="mw_s8" id="2zJhn9Pbwaa" role="1ZfhK$">
+                <node concept="1Z2H0r" id="2zJhn9Pbwab" role="mwGJk">
+                  <node concept="1YBJjd" id="2zJhn9Pbwac" role="1Z2MuG">
+                    <ref role="1YBMHb" node="EYyuKpdEZq" resolve="qfm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="2zJhn9Pbwbo" role="3cqZAp" />
           </node>
         </node>
       </node>
@@ -2230,12 +2260,72 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3eNFk2" id="2zJhn9PbcdZ" role="3eNLev">
+                    <node concept="1Wc70l" id="2zJhn9PbcDk" role="3eO9$A">
+                      <node concept="2OqwBi" id="2zJhn9PbcMC" role="3uHU7w">
+                        <node concept="37vLTw" id="2zJhn9PbcDG" role="2Oq$k0">
+                          <ref role="3cqZAo" node="_ALeoXTS7C" resolve="op" />
+                        </node>
+                        <node concept="1mIQ4w" id="2zJhn9PbcTQ" role="2OqNvi">
+                          <node concept="chp4Y" id="2zJhn9PbcUo" role="cj9EA">
+                            <ref role="cht4Q" to="r5tz:2zJhn9P8Kzn" resolve="CountQuery" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="2zJhn9Pbcnj" role="3uHU7B">
+                        <ref role="3cqZAo" node="_ALeoXTEVG" resolve="lastIteration" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="2zJhn9Pbce1" role="3eOfB_">
+                      <node concept="3SKdUt" id="2zJhn9PbcZi" role="3cqZAp">
+                        <node concept="1PaTwC" id="2zJhn9PbcZj" role="1aUNEU">
+                          <node concept="3oM_SD" id="2zJhn9PbcZk" role="1PaTwD">
+                            <property role="3oM_SC" value="this" />
+                          </node>
+                          <node concept="3oM_SD" id="2zJhn9PbcZp" role="1PaTwD">
+                            <property role="3oM_SC" value="is" />
+                          </node>
+                          <node concept="3oM_SD" id="2zJhn9PbcZs" role="1PaTwD">
+                            <property role="3oM_SC" value="also" />
+                          </node>
+                          <node concept="3oM_SD" id="2zJhn9PbcZw" role="1PaTwD">
+                            <property role="3oM_SC" value="okay." />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="2zJhn9Pbd2n" role="3cqZAp">
+                        <node concept="3clFbS" id="2zJhn9Pbd2p" role="3clFbx">
+                          <node concept="2MkqsV" id="2zJhn9Pbgfy" role="3cqZAp">
+                            <node concept="Xl_RD" id="2zJhn9PbgfL" role="2MkJ7o">
+                              <property role="Xl_RC" value="Mark this query as readonly when only the count() is retrieved." />
+                            </node>
+                            <node concept="1YBJjd" id="2zJhn9Pbgh2" role="1urrMF">
+                              <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="2zJhn9PbeYW" role="3clFbw">
+                          <node concept="2OqwBi" id="2zJhn9PbdeH" role="2Oq$k0">
+                            <node concept="1YBJjd" id="2zJhn9Pbd2G" role="2Oq$k0">
+                              <ref role="1YBMHb" node="5_gFKlwKvv2" resolve="qfm" />
+                            </node>
+                            <node concept="3TrcHB" id="2zJhn9PbeDF" role="2OqNvi">
+                              <ref role="3TsBF5" to="r5tz:36k2UwstchH" resolve="readOnly" />
+                            </node>
+                          </node>
+                          <node concept="3y1jeu" id="2zJhn9PbgeY" role="2OqNvi">
+                            <node concept="3clFbT" id="2zJhn9Pbgfi" role="3y1jev" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3eNFk2" id="_ALeoXTPuj" role="3eNLev">
                     <node concept="3clFbS" id="_ALeoXTPul" role="3eOfB_">
                       <node concept="2MkqsV" id="7$A8r6g2S4J" role="3cqZAp">
                         <node concept="3cpWs3" id="_ALeoXTVaR" role="2MkJ7o">
                           <node concept="Xl_RD" id="_ALeoXTVb9" role="3uHU7w">
-                            <property role="Xl_RC" value="' here. sortBy() is available. Use limit() as last element." />
+                            <property role="Xl_RC" value="' here. sortBy() is available. Use limit()/count() as last element." />
                           </node>
                           <node concept="3cpWs3" id="_ALeoXTUGn" role="3uHU7B">
                             <node concept="Xl_RD" id="7$A8r6g2S4K" role="3uHU7B">

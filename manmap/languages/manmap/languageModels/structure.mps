@@ -1475,5 +1475,16 @@
       <ref role="PrY4T" node="EYyuKpelw$" resolve="IQueryOperation" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2zJhn9P8Kzn">
+    <property role="EcuMT" value="2949652638844782807" />
+    <property role="3GE5qa" value="query" />
+    <property role="TrG5h" value="CountQuery" />
+    <property role="34LRSv" value="count" />
+    <property role="R4oN_" value="number of rows " />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2zJhn9P8Kzp" role="PzmwI">
+      <ref role="PrY4T" node="EYyuKpelw$" resolve="IQueryOperation" />
+    </node>
+  </node>
 </model>
 

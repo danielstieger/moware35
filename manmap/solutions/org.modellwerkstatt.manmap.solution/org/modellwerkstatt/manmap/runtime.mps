@@ -765,6 +765,24 @@
       <node concept="3Tm1VV" id="1NLiuQth2AH" role="1B3o_S" />
       <node concept="3clFbS" id="1NLiuQth2AI" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="2zJhn9PjCG4" role="jymVt">
+      <property role="TrG5h" value="queryCount" />
+      <node concept="37vLTG" id="2zJhn9PjCG5" role="3clF46">
+        <property role="TrG5h" value="prepStatementCreator" />
+        <node concept="17QB3L" id="2zJhn9PjCG6" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2zJhn9PjCG9" role="3clF46">
+        <property role="TrG5h" value="params" />
+        <node concept="_YKpA" id="2zJhn9PjCGa" role="1tU5fm">
+          <node concept="3uibUv" id="2zJhn9PjCGb" role="_ZDj9">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="2zJhn9PV_wj" role="3clF45" />
+      <node concept="3Tm1VV" id="2zJhn9PjCGe" role="1B3o_S" />
+      <node concept="3clFbS" id="2zJhn9PjCGf" role="3clF47" />
+    </node>
   </node>
   <node concept="3HP615" id="2Ud4UxV8PPs">
     <property role="TrG5h" value="IM3TypeHandler" />
