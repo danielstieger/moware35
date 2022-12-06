@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)">
+<model ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config2)">
   <persistence version="9" />
   <languages>
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
@@ -21,14 +21,7 @@
         <child id="3526396426289727549" name="value" index="26L8Vw" />
       </concept>
       <concept id="1440642197017487130" name="org.modellwerkstatt.objectflow.structure.StaticRessources" flags="ng" index="il5tC">
-        <child id="3146313690717155086" name="labels" index="2kzhMJ" />
         <child id="3146313690715522546" name="platforms" index="2kDvpj" />
-      </concept>
-      <concept id="1440642197017487635" name="org.modellwerkstatt.objectflow.structure.Label" flags="ng" index="il5_x">
-        <child id="3146313690717155575" name="specification" index="2kzgdm" />
-      </concept>
-      <concept id="3146313690717155301" name="org.modellwerkstatt.objectflow.structure.LabelSpecification" flags="ng" index="2kzhL4">
-        <child id="1440642197017487671" name="text" index="il5_5" />
       </concept>
       <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.PlatformDeclaration" flags="ng" index="2kDv1q" />
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
@@ -72,36 +65,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="il5tC" id="7agSOE7AYgY">
-    <property role="TrG5h" value="RessourcesForTests" />
-    <node concept="il5_x" id="7agSOE7AYh6" role="2kzhMJ">
-      <property role="TrG5h" value="SaveNClose" />
-      <node concept="2kzhL4" id="7agSOE7AYh7" role="2kzgdm">
-        <node concept="Xl_RD" id="7agSOE7AYh8" role="il5_5">
-          <property role="Xl_RC" value="Save &amp; Close" />
-        </node>
-      </node>
-    </node>
-    <node concept="il5_x" id="7agSOE7KglE" role="2kzhMJ">
-      <property role="TrG5h" value="Ok" />
-      <node concept="2kzhL4" id="7agSOE7KglF" role="2kzgdm">
-        <node concept="Xl_RD" id="7agSOE7KglG" role="il5_5">
-          <property role="Xl_RC" value="Ok" />
-        </node>
-      </node>
-    </node>
-    <node concept="il5_x" id="5LHzrvqUcMB" role="2kzhMJ">
-      <property role="TrG5h" value="Compound" />
-      <node concept="2kzhL4" id="5LHzrvqUcMC" role="2kzgdm">
-        <node concept="Xl_RD" id="5LHzrvqUcMD" role="il5_5">
-          <property role="Xl_RC" value="CompoundAction" />
-        </node>
-      </node>
-    </node>
-    <node concept="2kDv1q" id="7agSOE7AYh0" role="2kDvpj">
-      <property role="TrG5h" value="Default" />
-    </node>
-  </node>
   <node concept="2CG7Z0" id="1Z4DonBIYtH">
     <property role="TrG5h" value="MPreisLolaMDEConfig" />
     <property role="2320hu" value="2018-08-07T11:43:47.117+02:00" />
@@ -626,12 +589,6 @@
           <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMIntTypeHandler" />
         </node>
       </node>
-      <node concept="2CJf3v" id="46S55WRAj0c" role="2CJdiS">
-        <property role="TrG5h" value="_byteArrayTypeHandler" />
-        <node concept="Xl_RD" id="46S55WRAj0d" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMByteArrayTypeHandler" />
-        </node>
-      </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbn" role="2CJdiS">
         <property role="TrG5h" value="_mmTypeHandlers" />
         <node concept="Xl_RD" id="4LC0Y0L2pbo" role="2CJf0U">
@@ -1114,6 +1071,12 @@
       <node concept="Xl_RD" id="3OfvFtm9SSh" role="20ptNC">
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
       </node>
+    </node>
+  </node>
+  <node concept="il5tC" id="46S55WRsetP">
+    <property role="TrG5h" value="TestRessources" />
+    <node concept="2kDv1q" id="46S55WRsetR" role="2kDvpj">
+      <property role="TrG5h" value="FX8" />
     </node>
   </node>
 </model>
