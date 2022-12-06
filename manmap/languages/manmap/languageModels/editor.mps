@@ -3161,17 +3161,11 @@
   </node>
   <node concept="24kQdi" id="2zJhn9P8Kzy">
     <property role="3GE5qa" value="query" />
-    <ref role="1XX52x" to="r5tz:2zJhn9P8Kzn" resolve="CountQuery" />
+    <ref role="1XX52x" to="r5tz:2zJhn9P8Kzn" resolve="SizeQuery" />
     <node concept="3EZMnI" id="2zJhn9P8Kz$" role="2wV5jI">
       <node concept="PMmxH" id="2zJhn9P8Kz_" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" to="tp2u:hGdPUoh" resolve="Operation" />
-      </node>
-      <node concept="3F0ifn" id="2zJhn9P8KzA" role="3EZMnx">
-        <property role="3F0ifm" value="()" />
-        <node concept="11L4FC" id="2zJhn9Pd5RD" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="l2Vlx" id="2zJhn9P8KzD" role="2iSdaV" />
     </node>

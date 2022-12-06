@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:38200fa4-ed1e-4f5b-bf14-ca3dff023767(org.modellwerkstatt.objectflow.tests.ManmapTests)">
+<model ref="r:38200fa4-ed1e-4f5b-bf14-ca3dff023767(org.modellwerkstatt.objectflow.tests.manmap.testsuit)">
   <persistence version="9" />
   <languages>
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
@@ -538,7 +538,7 @@
         <reference id="8440420766105723376" name="property" index="3rFog7" />
         <child id="8440420766105755066" name="keyMapping" index="3rGzxd" />
       </concept>
-      <concept id="2949652638844782807" name="org.modellwerkstatt.manmap.structure.CountQuery" flags="ng" index="1tN4Q_" />
+      <concept id="2949652638844782807" name="org.modellwerkstatt.manmap.structure.SizeQuery" flags="ng" index="1tN4Q_" />
       <concept id="8489315365185875648" name="org.modellwerkstatt.manmap.structure.RowMapperFieldRef" flags="ng" index="3tYRmo">
         <reference id="8489315365185882444" name="rowMapperField" index="3tYT8k" />
       </concept>
@@ -49048,18 +49048,28 @@
       <node concept="3Tm1VV" id="2zJhn9PaoeJ" role="1B3o_S" />
       <node concept="10Oyi0" id="2zJhn9R5rXD" role="3clF45" />
       <node concept="3clFbS" id="2zJhn9PaoeM" role="3clF47">
+        <node concept="3cpWs8" id="2zJhn9RYiBu" role="3cqZAp">
+          <node concept="3cpWsn" id="2zJhn9RYiBx" role="3cpWs9">
+            <property role="TrG5h" value="id" />
+            <node concept="10Oyi0" id="2zJhn9RYiBs" role="1tU5fm" />
+            <node concept="3cmrfG" id="2zJhn9RYiK8" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2zJhn9PaoeN" role="3cqZAp">
           <node concept="jybIQ" id="2zJhn9PaoeO" role="3clFbG">
             <property role="HScZ5" value="true" />
             <property role="1v8G3g" value="true" />
             <ref role="P14SV" node="70qPrkCyb_R" resolve="MapInvoicePosition" />
             <node concept="jxyYR" id="2zJhn9PaoeP" role="jxX7b">
-              <node concept="3clFbC" id="2zJhn9PaoeQ" role="jxyYK">
-                <node concept="3cmrfG" id="2zJhn9PaoeR" role="3uHU7w">
-                  <property role="3cmrfH" value="1" />
+              <node concept="3eOSWO" id="2zJhn9RS6rf" role="jxyYK">
+                <node concept="37vLTw" id="2zJhn9RYiSx" role="3uHU7w">
+                  <ref role="3cqZAo" node="2zJhn9RYiBx" resolve="id" />
                 </node>
-                <node concept="3cmrfG" id="2zJhn9PaoeS" role="3uHU7B">
-                  <property role="3cmrfH" value="1" />
+                <node concept="3_7ulE" id="2zJhn9RS6hK" role="3uHU7B">
+                  <ref role="3_688M" node="2zJhn9RtOG8" />
+                  <ref role="2OG787" node="70qPrkCybae" />
                 </node>
               </node>
             </node>

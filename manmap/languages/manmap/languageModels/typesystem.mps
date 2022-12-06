@@ -2268,7 +2268,7 @@
                         </node>
                         <node concept="1mIQ4w" id="2zJhn9PbcTQ" role="2OqNvi">
                           <node concept="chp4Y" id="2zJhn9PbcUo" role="cj9EA">
-                            <ref role="cht4Q" to="r5tz:2zJhn9P8Kzn" resolve="CountQuery" />
+                            <ref role="cht4Q" to="r5tz:2zJhn9P8Kzn" resolve="SizeQuery" />
                           </node>
                         </node>
                       </node>
