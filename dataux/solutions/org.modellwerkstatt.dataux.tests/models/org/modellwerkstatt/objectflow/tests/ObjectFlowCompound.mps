@@ -5,14 +5,14 @@
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
   </languages>
   <imports>
-    <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)" />
+    <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.Config)" />
     <import index="qtgg" ref="r:08f2e6c6-a478-4cd3-8ac5-e7ae07a6e41b(org.modellwerkstatt.objectflow.tests.ProdConsJob)" />
-    <import index="so85" ref="r:38200fa4-ed1e-4f5b-bf14-ca3dff023767(org.modellwerkstatt.objectflow.tests.manmap.testsuit)" />
     <import index="h0l3" ref="r:9ec2b7d3-20d4-4c7b-a16d-9bf9768c1f66(org.modellwerkstatt.objectflow.tests.ObjectFlowInfra)" />
     <import index="by87" ref="r:3fd71311-ae9c-4a95-889b-8542e84d2ec1(org.modellwerkstatt.objectflow.tests.OrderDocument)" />
     <import index="7rjc" ref="r:40578ea0-bba5-4ae6-abfa-3691d42660ff(org.modellwerkstatt.objectflow.tests.OrderDocumentRunCmd)" />
     <import index="stck" ref="r:92160189-dec1-4f0a-9046-c09a5bafe28d(org.modellwerkstatt.objectflow.tests.FixedBugs)" />
-    <import index="rnm6" ref="r:5563dc37-9db2-4dbb-a901-1b0ac516aac8(org.modellwerkstatt.objectflow.tests.conv)" />
+    <import index="rnm6" ref="r:5563dc37-9db2-4dbb-a901-1b0ac516aac8(org.modellwerkstatt.objectflow.tests.ConvSerdes)" />
+    <import index="rhsm" ref="r:1e9d9498-1123-47e6-b3ad-2a4dd175afe5(org.modellwerkstatt.objectflow.tests.manmap.Tests)" />
   </imports>
   <registry>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
@@ -36,7 +36,7 @@
     <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="1DZZI9" id="7L8_IJAz2H_" role="38MLOi">
       <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" to="so85:1oH_MJfbPWk" resolve="ALL ALL ManMap Testsuits" />
+      <ref role="1DZZIc" to="rhsm:1oH_MJfbPWk" resolve="ALL ALL ManMap Testsuits" />
     </node>
     <node concept="1DZZI9" id="SgAsOS0X7t" role="38MLOi">
       <property role="26Iqih" value="true" />

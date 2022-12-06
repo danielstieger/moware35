@@ -17,9 +17,10 @@
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.runtime/)" />
-    <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)" />
-    <import index="so85" ref="r:38200fa4-ed1e-4f5b-bf14-ca3dff023767(org.modellwerkstatt.objectflow.tests.manmap.testsuit)" />
+    <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.Config)" />
+    <import index="so85" ref="r:38200fa4-ed1e-4f5b-bf14-ca3dff023767(org.modellwerkstatt.objectflow.tests.manmap.Domain)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="rhsm" ref="r:1e9d9498-1123-47e6-b3ad-2a4dd175afe5(org.modellwerkstatt.objectflow.tests.manmap.Tests)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -3256,7 +3257,7 @@
       <property role="xWaIK" value="0" />
     </node>
     <node concept="1DZZI9" id="7KkzKQQ8X96" role="38MLOi">
-      <ref role="1DZZIc" to="so85:2i3o0hdVwMp" resolve="DBinit" />
+      <ref role="1DZZIc" to="rhsm:2i3o0hdVwMp" resolve="DBinit" />
     </node>
     <node concept="1Cak35" id="1vmXD1nsPRl" role="38MLOi">
       <ref role="1Cak38" node="76zKLSr56g8" resolve="OFXS_INSTANCE" />
