@@ -17394,27 +17394,37 @@
         </node>
         <node concept="3clFbJ" id="2zJhn9SmFY0" role="3cqZAp">
           <node concept="3clFbS" id="2zJhn9SmFY1" role="3clFbx">
-            <node concept="3clFbF" id="2zJhn9SmFY2" role="3cqZAp">
-              <node concept="d57v9" id="2zJhn9SmFY3" role="3clFbG">
-                <node concept="37vLTw" id="2zJhn9SmFY4" role="37vLTJ">
-                  <ref role="3cqZAo" node="2zJhn9SmFXV" resolve="st" />
+            <node concept="3SKdUt" id="6tD2NjQrA8I" role="3cqZAp">
+              <node concept="1PaTwC" id="6tD2NjQrA8J" role="1aUNEU">
+                <node concept="3oM_SD" id="6tD2NjQrAiq" role="1PaTwD">
+                  <property role="3oM_SC" value="however," />
                 </node>
-                <node concept="3cpWs3" id="2zJhn9SmFY5" role="37vLTx">
-                  <node concept="Xl_RD" id="2zJhn9SmFY6" role="3uHU7w">
-                    <property role="Xl_RC" value=") " />
-                  </node>
-                  <node concept="3cpWs3" id="2zJhn9SmFY7" role="3uHU7B">
-                    <node concept="Xl_RD" id="2zJhn9SmFY8" role="3uHU7B">
-                      <property role="Xl_RC" value=" (" />
-                    </node>
-                    <node concept="2OqwBi" id="2zJhn9SmFY9" role="3uHU7w">
-                      <node concept="37vLTw" id="2zJhn9SmFYa" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2zJhn9SmDdo" resolve="sizeOpt" />
-                      </node>
-                      <node concept="2qgKlT" id="2zJhn9SmFYb" role="2OqNvi">
-                        <ref role="37wK5l" to="lfe3:7K21hvEcg1K" resolve="getValue" />
-                      </node>
-                    </node>
+                <node concept="3oM_SD" id="6tD2NjQrAis" role="1PaTwD">
+                  <property role="3oM_SC" value="no" />
+                </node>
+                <node concept="3oM_SD" id="6tD2NjQrAiv" role="1PaTwD">
+                  <property role="3oM_SC" value="blob" />
+                </node>
+                <node concept="3oM_SD" id="6tD2NjQrAiF" role="1PaTwD">
+                  <property role="3oM_SC" value="size" />
+                </node>
+                <node concept="3oM_SD" id="6tD2NjQrAiK" role="1PaTwD">
+                  <property role="3oM_SC" value="on" />
+                </node>
+                <node concept="3oM_SD" id="6tD2NjQrAiQ" role="1PaTwD">
+                  <property role="3oM_SC" value="oracle" />
+                </node>
+                <node concept="3oM_SD" id="6tD2NjQrBmz" role="1PaTwD">
+                  <property role="3oM_SC" value="!" />
+                </node>
+              </node>
+            </node>
+            <node concept="YS8fn" id="6tD2NjQrBts" role="3cqZAp">
+              <node concept="2ShNRf" id="6tD2NjQrB$o" role="YScLw">
+                <node concept="1pGfFk" id="6tD2NjQrBGz" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="6tD2NjQrBSQ" role="37wK5m">
+                    <property role="Xl_RC" value="Oracle Blob fields do not support any size!" />
                   </node>
                 </node>
               </node>
@@ -17424,20 +17434,6 @@
             <node concept="10Nm6u" id="2zJhn9SmFYd" role="3uHU7w" />
             <node concept="37vLTw" id="2zJhn9SmFYe" role="3uHU7B">
               <ref role="3cqZAo" node="2zJhn9SmDdo" resolve="sizeOpt" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="2zJhn9SmFYt" role="9aQIa">
-            <node concept="3clFbS" id="2zJhn9SmFYu" role="9aQI4">
-              <node concept="3clFbF" id="2zJhn9SmFYv" role="3cqZAp">
-                <node concept="d57v9" id="2zJhn9SmFYw" role="3clFbG">
-                  <node concept="Xl_RD" id="2zJhn9SmFYx" role="37vLTx">
-                    <property role="Xl_RC" value=" (1M) " />
-                  </node>
-                  <node concept="37vLTw" id="2zJhn9SmFYy" role="37vLTJ">
-                    <ref role="3cqZAo" node="2zJhn9SmFXV" resolve="st" />
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -17599,7 +17595,7 @@
       <node concept="3clFbS" id="5eu$Yb1HStX" role="3clF47">
         <node concept="3clFbF" id="5eu$Yb1HStY" role="3cqZAp">
           <node concept="Xl_RD" id="5eu$Yb1HStZ" role="3clFbG">
-            <property role="Xl_RC" value="TCN NUMER (9) NOT NULL   /* entity version */" />
+            <property role="Xl_RC" value="TCN NUMBER (9) NOT NULL   /* entity version */" />
           </node>
         </node>
       </node>

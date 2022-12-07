@@ -10,6 +10,9 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
+  <stubModelEntries>
+    <stubModelEntry path="${JavaWare35}/moware/objectflow/solutions/sandbox/jars/addons/mysql-connector-java-8.0.11.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

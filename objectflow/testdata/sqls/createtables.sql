@@ -153,3 +153,34 @@ CREATE TABLE MMT_NKARTICLE (/* for entity org.modellwerkstatt.simple.customView.
 CREATE UNIQUE INDEX I_MMT_NKARTICLE_ID ON MMT_NKARTICLE (ID);
 CREATE SEQUENCE S_NKARTICLE START WITH 3 MINVALUE 3 MAXVALUE 999999999 NOCYCLE CACHE 20 ORDER;
 
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   BlobPersistence  in  org.modellwerkstatt.objectflow.tests.manmap.ZMixedNewer
+ */
+
+/* entity org.modellwerkstatt.objectflow.tests.manmap.ZMixedNewer.BlobEntity
+ */
+CREATE TABLE MMT_BLOBENTITY(
+ ID NUMBER  (9) /* id */,
+ TEXT VARCHAR2  (20) /* text */,
+ ROOT_BLOB BLOB /* blob */,
+ TCN NUMBER (9) NOT NULL   /* entity version */
+); 
+CREATE UNIQUE INDEX I_MMT_BLOBENTITY_ID ON MMT_BLOBENTITY (ID);
+CREATE SEQUENCE S_MMTBLOBENT START WITH 1 MINVALUE 1 MAXVALUE 999999999 NOCYCLE CACHE 20 ORDER;
+
+
+
+/* entity org.modellwerkstatt.objectflow.tests.manmap.ZMixedNewer.BlobPosition
+ */
+CREATE TABLE MMT_BLOBPOS(
+ ID NUMBER  (9) /* id */,
+ ID_BLOBENTITY NUMBER  (9) /* id */,
+ POS_TEXT VARCHAR2  (20) /* posText */,
+ POS_BLOB BLOB /* posBlob */,
+ TCN NUMBER (9) NOT NULL   /* entity version */
+); 
+CREATE UNIQUE INDEX I_MMT_BLOBPOS_ID ON MMT_BLOBPOS (ID);
+CREATE INDEX I_MMT_BLOBPOS_ID_BLOBENTITY ON MMT_BLOBPOS (ID_BLOBENTITY);
+CREATE SEQUENCE S_MMTBLOBPOS START WITH 1 MINVALUE 1 MAXVALUE 999999999 NOCYCLE CACHE 20 ORDER;

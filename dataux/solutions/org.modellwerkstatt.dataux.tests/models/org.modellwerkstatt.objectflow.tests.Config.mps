@@ -681,21 +681,52 @@
     </node>
   </node>
   <node concept="2CG7Z0" id="6VW5G60I4vl">
-    <property role="TrG5h" value="LocalMySqlConfig" />
+    <property role="TrG5h" value="LocalMySqlCONFIG" />
     <property role="2320hu" value="2018-08-07T11:38:13.315+02:00" />
-    <property role="3GE5qa" value="DepConfigs" />
+    <property role="3GE5qa" value="" />
+    <node concept="2CJf3v" id="6tD2NjQNmJd" role="2CGBMS">
+      <property role="TrG5h" value="ldapService" />
+      <node concept="Xl_RD" id="6tD2NjQNmJe" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoLdapService" />
+      </node>
+      <node concept="2CJf1O" id="6tD2NjQNmJf" role="2CJ4_l">
+        <node concept="Xl_RD" id="6tD2NjQNmJg" role="2DqwMp">
+          <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
+        </node>
+        <node concept="Xl_RD" id="6tD2NjQNmJh" role="2DqwMv">
+          <property role="Xl_RC" value="0" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="6tD2NjQNmJi" role="2CJ4_l">
+        <node concept="Xl_RD" id="6tD2NjQNmJj" role="2DqwMp">
+          <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+        </node>
+        <node concept="Xl_RD" id="6tD2NjQNmJk" role="2DqwMv">
+          <property role="Xl_RC" value="1" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="6tD2NjQNmJl" role="2CJ4_l">
+        <node concept="Xl_RD" id="6tD2NjQNmJm" role="2DqwMp">
+          <property role="Xl_RC" value="pwd" />
+        </node>
+        <node concept="Xl_RD" id="6tD2NjQNmJn" role="2DqwMv">
+          <property role="Xl_RC" value="2" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="6tD2NjQNmJo" role="2CJ4_l">
+        <node concept="Xl_RD" id="6tD2NjQNmJp" role="2DqwMp">
+          <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+        </node>
+        <node concept="Xl_RD" id="6tD2NjQNmJq" role="2DqwMv">
+          <property role="Xl_RC" value="3" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="6tD2NjQNmIh" role="2CGBMS" />
     <node concept="2CJf3v" id="6VW5G60I4vm" role="2CGBMS">
       <property role="TrG5h" value="currentPlatform" />
       <node concept="Xl_RD" id="6VW5G60I4vn" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.Standards_TestSuit" />
-      </node>
-      <node concept="2CJf1O" id="6VW5G60I4vo" role="2CJ4_l">
-        <node concept="Xl_RD" id="6VW5G60I4vp" role="2DqwMp">
-          <property role="Xl_RC" value="SUGAR" />
-        </node>
-        <node concept="Xl_RD" id="6VW5G60I4vq" role="2DqwMv">
-          <property role="Xl_RC" value="0" />
-        </node>
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.config.RessourcesForTests_Default" />
       </node>
     </node>
     <node concept="2CJoq6" id="6VW5G60I4vr" role="2CGBMS">
@@ -787,6 +818,19 @@
           </node>
         </node>
       </node>
+      <node concept="2CJf3v" id="6tD2NjQWxDT" role="2CJdiS">
+        <property role="TrG5h" value="jdbcTemplate" />
+        <node concept="Xl_RD" id="6tD2NjQWxDU" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.jdbc.core.JdbcTemplate" />
+        </node>
+        <node concept="2CJ4$C" id="6tD2NjQWxDV" role="2CJ4_l">
+          <property role="2DlMY1" value="true" />
+          <property role="TrG5h" value="dataSource" />
+          <node concept="Xl_RD" id="6tD2NjQWxDW" role="2CaGCA">
+            <property role="Xl_RC" value="dataSource" />
+          </node>
+        </node>
+      </node>
       <node concept="2CJf3v" id="1YSLAaB7g8h" role="2CJdiS">
         <property role="TrG5h" value="dataSource" />
         <node concept="Xl_RD" id="1YSLAaB7g8l" role="2CJf0U">
@@ -812,7 +856,9 @@
         </node>
         <node concept="2CJ4$C" id="1YSLAaB7g8A" role="2CJ4_l">
           <property role="TrG5h" value="password" />
-          <node concept="Xl_RD" id="1YSLAaB7g8B" role="2CaGCA" />
+          <node concept="Xl_RD" id="1YSLAaB7g8B" role="2CaGCA">
+            <property role="Xl_RC" value="dan" />
+          </node>
         </node>
       </node>
       <node concept="2CPvp3" id="1YSLAaB7g4m" role="2CJdiS" />
@@ -828,9 +874,9 @@
       </node>
       <node concept="2CPvp3" id="6VW5G60I4v$" role="2CJdiS" />
       <node concept="2CJf3v" id="6VW5G60I4v_" role="2CJdiS">
-        <property role="TrG5h" value="lockService" />
+        <property role="TrG5h" value="eventBus" />
         <node concept="Xl_RD" id="6VW5G60I4vA" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeLockService" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeEventBus" />
         </node>
       </node>
       <node concept="2CJf3v" id="6VW5G60I4vB" role="2CJdiS">
@@ -843,12 +889,6 @@
         <property role="TrG5h" value="consoleAppFactory" />
         <node concept="Xl_RD" id="6cn6oSxhWos" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleAppFactory" />
-        </node>
-      </node>
-      <node concept="2CJf3v" id="6cn6oSxhWot" role="2CJdiS">
-        <property role="TrG5h" value="userServices" />
-        <node concept="Xl_RD" id="6cn6oSxhWou" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleUserServices" />
         </node>
       </node>
       <node concept="2CJ4_Q" id="6VW5G60I4vF" role="2CJdiS">
