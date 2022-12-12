@@ -4036,17 +4036,59 @@
             </node>
           </node>
         </node>
-        <node concept="9aQIb" id="4r0DqI22nNi" role="9aQIa">
-          <node concept="3clFbS" id="4r0DqI22nNj" role="9aQI4">
-            <node concept="2MkqsV" id="4upt4JN8lRL" role="3cqZAp">
-              <node concept="Xl_RD" id="4upt4JN8lRO" role="2MkJ7o">
+        <node concept="3eNFk2" id="4j0wea7is4J" role="3eNLev">
+          <node concept="3clFbS" id="4j0wea7is4K" role="3eOfB_">
+            <node concept="3SKdUt" id="4j0wea7ivqT" role="3cqZAp">
+              <node concept="1PaTwC" id="4j0wea7ivqU" role="1aUNEU">
+                <node concept="3oM_SD" id="4j0wea7ivqV" role="1PaTwD">
+                  <property role="3oM_SC" value="also" />
+                </node>
+                <node concept="3oM_SD" id="4j0wea7ivr6" role="1PaTwD">
+                  <property role="3oM_SC" value="ok;" />
+                </node>
+                <node concept="3oM_SD" id="4j0wea7iw9W" role="1PaTwD">
+                  <property role="3oM_SC" value="Winter" />
+                </node>
+                <node concept="3oM_SD" id="4j0wea7iwa2" role="1PaTwD">
+                  <property role="3oM_SC" value="2022" />
+                </node>
+                <node concept="3oM_SD" id="4j0wea7ivr9" role="1PaTwD">
+                  <property role="3oM_SC" value=":" />
+                </node>
+                <node concept="3oM_SD" id="4j0wea7ivrd" role="1PaTwD">
+                  <property role="3oM_SC" value=")" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="4j0wea7iw9O" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="4j0wea7iupH" role="3eO9$A">
+            <node concept="2OqwBi" id="4j0wea7it3k" role="2Oq$k0">
+              <node concept="1YBJjd" id="4j0wea7isS6" role="2Oq$k0">
+                <ref role="1YBMHb" node="4upt4JN8e8$" resolve="entityMapping" />
+              </node>
+              <node concept="3TrEf2" id="4j0wea7iu0Z" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:Kou8LehN3J" resolve="classConcept" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="4j0wea7ivfE" role="2OqNvi">
+              <node concept="chp4Y" id="4j0wea7ivkI" role="cj9EA">
+                <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="4j0wea7iw7f" role="9aQIa">
+          <node concept="3clFbS" id="4j0wea7iw7g" role="9aQI4">
+            <node concept="2MkqsV" id="4j0wea7is4N" role="3cqZAp">
+              <node concept="Xl_RD" id="4j0wea7is4O" role="2MkJ7o">
                 <property role="Xl_RC" value="When using objectflow language, only entities should be mapped." />
               </node>
-              <node concept="1YBJjd" id="4upt4JN8lRP" role="1urrMF">
+              <node concept="1YBJjd" id="4j0wea7is4P" role="1urrMF">
                 <ref role="1YBMHb" node="4upt4JN8e8$" resolve="entityMapping" />
               </node>
             </node>
-            <node concept="3clFbH" id="6irx7M5nA2H" role="3cqZAp" />
+            <node concept="3clFbH" id="4j0wea7iw9x" role="3cqZAp" />
           </node>
         </node>
       </node>
