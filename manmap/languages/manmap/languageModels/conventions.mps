@@ -14,6 +14,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
@@ -226,6 +227,11 @@
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
+    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
+        <child id="1196350785114" name="quotedNode" index="2c44tc" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -609,6 +615,91 @@
             </node>
             <node concept="Xl_RD" id="FaoLX6eRvi" role="3uHU7w">
               <property role="Xl_RC" value="KEY" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6irx7M5wfrp" role="jymVt" />
+    <node concept="2YIFZL" id="6irx7M5wfwI" role="jymVt">
+      <property role="TrG5h" value="isEntity" />
+      <node concept="37vLTG" id="6irx7M5wfDj" role="3clF46">
+        <property role="TrG5h" value="cc" />
+        <node concept="3Tqbb2" id="6irx7M5wfDk" role="1tU5fm">
+          <ref role="ehGHo" to="tpee:fz12cDA" resolve="ClassConcept" />
+        </node>
+      </node>
+      <node concept="10P_77" id="6irx7M5wfBD" role="3clF45" />
+      <node concept="3Tm1VV" id="6irx7M5wfwL" role="1B3o_S" />
+      <node concept="3clFbS" id="6irx7M5wfwM" role="3clF47">
+        <node concept="3clFbF" id="6irx7M5wh52" role="3cqZAp">
+          <node concept="2OqwBi" id="6irx7M5wh53" role="3clFbG">
+            <node concept="2OqwBi" id="6irx7M5wh54" role="2Oq$k0">
+              <node concept="2OqwBi" id="6irx7M5wh55" role="2Oq$k0">
+                <node concept="37vLTw" id="6irx7M5wh56" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6irx7M5wfDj" resolve="cc" />
+                </node>
+                <node concept="2yIwOk" id="6irx7M5wh57" role="2OqNvi" />
+              </node>
+              <node concept="liA8E" id="6irx7M5wh58" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6irx7M5wh59" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="Xl_RD" id="6irx7M5wh5a" role="37wK5m">
+                <property role="Xl_RC" value="BusinessObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YIFZL" id="6irx7M5xISw" role="jymVt">
+      <property role="TrG5h" value="isDTO" />
+      <node concept="37vLTG" id="6irx7M5xISx" role="3clF46">
+        <property role="TrG5h" value="cc" />
+        <node concept="3Tqbb2" id="6irx7M5xISy" role="1tU5fm">
+          <ref role="ehGHo" to="tpee:fz12cDA" resolve="ClassConcept" />
+        </node>
+      </node>
+      <node concept="10P_77" id="6irx7M5xISz" role="3clF45" />
+      <node concept="3Tm1VV" id="6irx7M5xIS$" role="1B3o_S" />
+      <node concept="3clFbS" id="6irx7M5xIS_" role="3clF47">
+        <node concept="3clFbF" id="6irx7M5xISA" role="3cqZAp">
+          <node concept="2OqwBi" id="6irx7M5xISB" role="3clFbG">
+            <node concept="2OqwBi" id="6irx7M5xISC" role="2Oq$k0">
+              <node concept="2OqwBi" id="6irx7M5xISD" role="2Oq$k0">
+                <node concept="37vLTw" id="6irx7M5xISE" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6irx7M5xISx" resolve="cc" />
+                </node>
+                <node concept="2yIwOk" id="6irx7M5xISF" role="2OqNvi" />
+              </node>
+              <node concept="liA8E" id="6irx7M5xISG" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6irx7M5xISH" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="Xl_RD" id="6irx7M5xISI" role="37wK5m">
+                <property role="Xl_RC" value="ViewObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YIFZL" id="6irx7M5_djP" role="jymVt">
+      <property role="TrG5h" value="getDTOIntKeyAsType" />
+      <node concept="3Tqbb2" id="6irx7M5_dpS" role="3clF45">
+        <ref role="ehGHo" to="tpee:g7uibYu" resolve="ClassifierType" />
+      </node>
+      <node concept="3Tm1VV" id="6irx7M5_djT" role="1B3o_S" />
+      <node concept="3clFbS" id="6irx7M5_djU" role="3clF47">
+        <node concept="3cpWs6" id="1HOHq98JxZj" role="3cqZAp">
+          <node concept="2c44tf" id="1HOHq98JxZl" role="3cqZAk">
+            <node concept="3uibUv" id="1HOHq98JxZo" role="2c44tc">
+              <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
             </node>
           </node>
         </node>
@@ -8376,6 +8467,9 @@
         </node>
       </node>
     </node>
+    <node concept="2AHcQZ" id="6irx7M5w1ez" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="312cEu" id="1YSLAaBArI5">
     <property role="TrG5h" value="SqlMySqlTableDescriptor" />
@@ -10292,6 +10386,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2AHcQZ" id="6irx7M5vX_I" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
     </node>
   </node>
   <node concept="312cEu" id="5q6dSX0eWbg">

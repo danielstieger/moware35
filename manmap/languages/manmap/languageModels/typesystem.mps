@@ -14,6 +14,7 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
+    <import index="n4mo" ref="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
@@ -48,6 +49,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -197,7 +201,9 @@
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
-      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G">
+        <property id="7181286126212894140" name="doNotApplyOnTheFly" index="1$Xk0j" />
+      </concept>
       <concept id="1236083041311" name="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" flags="ng" index="3ciAk0">
         <child id="1236083115043" name="leftOperandType" index="3ciSkW" />
         <child id="1236083115200" name="rightOperandType" index="3ciSnv" />
@@ -5498,6 +5504,135 @@
     <node concept="1YaCAy" id="_ALeoXShnX" role="1YuTPh">
       <property role="TrG5h" value="limitQuery" />
       <ref role="1YaFvo" to="r5tz:_ALeoXSh8y" resolve="LimitQuery" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6irx7M5zVQe">
+    <property role="TrG5h" value="slowCheck_DTOStuff" />
+    <property role="3GE5qa" value="query" />
+    <property role="1$Xk0j" value="true" />
+    <node concept="3clFbS" id="6irx7M5zVQf" role="18ibNy">
+      <node concept="3clFbJ" id="6irx7M5$oTL" role="3cqZAp">
+        <node concept="3clFbS" id="6irx7M5$oTN" role="3clFbx">
+          <node concept="3clFbJ" id="6irx7M5$p7O" role="3cqZAp">
+            <node concept="3clFbS" id="6irx7M5$p7Q" role="3clFbx">
+              <node concept="3cpWs8" id="6irx7M5$pMh" role="3cqZAp">
+                <node concept="3cpWsn" id="6irx7M5$pMk" role="3cpWs9">
+                  <property role="TrG5h" value="qfm" />
+                  <node concept="3Tqbb2" id="6irx7M5$pMf" role="1tU5fm">
+                    <ref role="ehGHo" to="r5tz:EYyuKpdz9q" resolve="QueryFromMap" />
+                  </node>
+                  <node concept="1PxgMI" id="6irx7M5$pVy" role="33vP2m">
+                    <node concept="chp4Y" id="6irx7M5$q43" role="3oSUPX">
+                      <ref role="cht4Q" to="r5tz:EYyuKpdz9q" resolve="QueryFromMap" />
+                    </node>
+                    <node concept="1YBJjd" id="6irx7M5$pMF" role="1m5AlR">
+                      <ref role="1YBMHb" node="6irx7M5zVQh" resolve="iNeedsClassMapper" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="6irx7M5$q5I" role="3cqZAp">
+                <node concept="3clFbS" id="6irx7M5$q5K" role="3clFbx">
+                  <node concept="2MkqsV" id="6irx7M5$rNi" role="3cqZAp">
+                    <node concept="Xl_RD" id="6irx7M5$rNx" role="2MkJ7o">
+                      <property role="Xl_RC" value="This operation is not supported for DTOs." />
+                    </node>
+                    <node concept="1YBJjd" id="6irx7M5$srq" role="1urrMF">
+                      <ref role="1YBMHb" node="6irx7M5zVQh" resolve="iNeedsClassMapper" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="22lmx$" id="6irx7M5$qPN" role="3clFbw">
+                  <node concept="2OqwBi" id="6irx7M5$qi6" role="3uHU7B">
+                    <node concept="37vLTw" id="6irx7M5$q65" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6irx7M5$pMk" resolve="qfm" />
+                    </node>
+                    <node concept="2qgKlT" id="6irx7M5$quF" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:5_gFKlwIBe$" resolve="isGetOperation" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="6irx7M5$qT5" role="3uHU7w">
+                    <node concept="37vLTw" id="6irx7M5$qQp" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6irx7M5$pMk" resolve="qfm" />
+                    </node>
+                    <node concept="2qgKlT" id="6irx7M5$rca" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:1Ysc0vs7BEU" resolve="isReloadOperation" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="6irx7M5$rOu" role="3cqZAp">
+                <node concept="3clFbS" id="6irx7M5$rOw" role="3clFbx">
+                  <node concept="2MkqsV" id="6irx7M5$soH" role="3cqZAp">
+                    <node concept="Xl_RD" id="6irx7M5$soW" role="2MkJ7o">
+                      <property role="Xl_RC" value="You have to query DTOs in readonly mode." />
+                    </node>
+                    <node concept="1YBJjd" id="6irx7M5$sr5" role="1urrMF">
+                      <ref role="1YBMHb" node="6irx7M5zVQh" resolve="iNeedsClassMapper" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="6irx7M5$sof" role="3clFbw">
+                  <node concept="2OqwBi" id="6irx7M5$soh" role="3fr31v">
+                    <node concept="37vLTw" id="6irx7M5$soi" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6irx7M5$pMk" resolve="qfm" />
+                    </node>
+                    <node concept="2qgKlT" id="6irx7M5$soj" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:4vUcH_0cRPy" resolve="isReadOnly" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6irx7M5$pLL" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="6irx7M5$piy" role="3clFbw">
+              <node concept="1YBJjd" id="6irx7M5$p87" role="2Oq$k0">
+                <ref role="1YBMHb" node="6irx7M5zVQh" resolve="iNeedsClassMapper" />
+              </node>
+              <node concept="1mIQ4w" id="6irx7M5$pxW" role="2OqNvi">
+                <node concept="chp4Y" id="6irx7M5$pyh" role="cj9EA">
+                  <ref role="cht4Q" to="r5tz:EYyuKpdz9q" resolve="QueryFromMap" />
+                </node>
+              </node>
+            </node>
+            <node concept="9aQIb" id="6irx7M5$pyD" role="9aQIa">
+              <node concept="3clFbS" id="6irx7M5$pyE" role="9aQI4">
+                <node concept="2MkqsV" id="6irx7M5zWuI" role="3cqZAp">
+                  <node concept="Xl_RD" id="6irx7M5zXr8" role="2MkJ7o">
+                    <property role="Xl_RC" value="You can not apply this operation to a DTO." />
+                  </node>
+                  <node concept="1YBJjd" id="6irx7M5zXsw" role="1urrMF">
+                    <ref role="1YBMHb" node="6irx7M5zVQh" resolve="iNeedsClassMapper" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6irx7M5$pAa" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6irx7M5$oTM" role="3cqZAp" />
+        </node>
+        <node concept="2YIFZM" id="6irx7M5zVS7" role="3clFbw">
+          <ref role="1Pybhc" to="n4mo:7kypvuI$Fje" resolve="ManmapNamingPolicy" />
+          <ref role="37wK5l" to="n4mo:6irx7M5xISw" resolve="isDTO" />
+          <node concept="2OqwBi" id="6irx7M5zWke" role="37wK5m">
+            <node concept="2OqwBi" id="6irx7M5zW1O" role="2Oq$k0">
+              <node concept="1YBJjd" id="6irx7M5zVSx" role="2Oq$k0">
+                <ref role="1YBMHb" node="6irx7M5zVQh" resolve="iNeedsClassMapper" />
+              </node>
+              <node concept="3TrEf2" id="6irx7M5zW8Q" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:75DS814rqUV" resolve="entityMapping" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="6irx7M5zWpM" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:Kou8LehQGG" resolve="getClassConcept" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6irx7M5zVQh" role="1YuTPh">
+      <property role="TrG5h" value="iNeedsClassMapper" />
+      <ref role="1YaFvo" to="r5tz:75DS814rqUU" resolve="INeedsClassMapper" />
     </node>
   </node>
 </model>
