@@ -7452,63 +7452,100 @@
             <node concept="3clFbH" id="4LngyNMW0D5" role="3cqZAp" />
             <node concept="1DcWWT" id="OpUSe1ICu3" role="3cqZAp">
               <node concept="3clFbS" id="OpUSe1ICu5" role="2LFqv$">
-                <node concept="3clFbJ" id="4LngyNMzdnO" role="3cqZAp">
-                  <node concept="3clFbS" id="4LngyNMzdnQ" role="3clFbx">
-                    <node concept="YS8fn" id="4LngyNMzfht" role="3cqZAp">
-                      <node concept="2ShNRf" id="4LngyNMzfjN" role="YScLw">
-                        <node concept="1pGfFk" id="4LngyNMzfST" role="2ShVmc">
-                          <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
-                          <node concept="3cpWs3" id="4LngyNMW0mx" role="37wK5m">
-                            <node concept="37vLTw" id="4LngyNMW0s6" role="3uHU7w">
-                              <ref role="3cqZAo" node="OpUSe1ICu6" resolve="selection" />
+                <node concept="3clFbJ" id="4pFxWGSlqsi" role="3cqZAp">
+                  <node concept="3clFbS" id="4pFxWGSlqsk" role="3clFbx">
+                    <node concept="3cpWs8" id="4pFxWGSmpKL" role="3cqZAp">
+                      <node concept="3cpWsn" id="4pFxWGSmpKM" role="3cpWs9">
+                        <property role="TrG5h" value="selectionList" />
+                        <node concept="3uibUv" id="4pFxWGSmpKN" role="1tU5fm">
+                          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                        </node>
+                        <node concept="1eOMI4" id="4pFxWGSmrzH" role="33vP2m">
+                          <node concept="10QFUN" id="4pFxWGSmrzE" role="1eOMHV">
+                            <node concept="3uibUv" id="4pFxWGSmrzJ" role="10QFUM">
+                              <ref role="3uigEE" to="33ny:~List" resolve="List" />
                             </node>
-                            <node concept="Xl_RD" id="4LngyNMzg1w" role="3uHU7B">
-                              <property role="Xl_RC" value="Command Terminated Handler can never handle pushes with list objects. This might be a programming error. You pushed " />
+                            <node concept="37vLTw" id="4pFxWGSmrzK" role="10QFUP">
+                              <ref role="3cqZAo" node="OpUSe1ICu6" resolve="selection" />
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="1DcWWT" id="4pFxWGSmtuI" role="3cqZAp">
+                      <node concept="3clFbS" id="4pFxWGSmtuK" role="2LFqv$">
+                        <node concept="3clFbF" id="4pFxWGSmwL4" role="3cqZAp">
+                          <node concept="2OqwBi" id="4pFxWGSmwL5" role="3clFbG">
+                            <node concept="2OqwBi" id="4pFxWGSmwL6" role="2Oq$k0">
+                              <node concept="Xjq3P" id="4pFxWGSmwL7" role="2Oq$k0" />
+                              <node concept="2OwXpG" id="4pFxWGSmwL8" role="2OqNvi">
+                                <ref role="2Oxat5" node="6dnXV8mIuHg" resolve="currentPage" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="4pFxWGSmwL9" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:OpUSe1EcVI" resolve="cmdTerminatedWithPushed" />
+                              <node concept="37vLTw" id="4pFxWGSmwLa" role="37wK5m">
+                                <ref role="3cqZAo" node="OpUSe0GXOu" resolve="wasChild" />
+                              </node>
+                              <node concept="37vLTw" id="4pFxWGSmwLb" role="37wK5m">
+                                <ref role="3cqZAo" node="7dYuT2dgEMg" resolve="terminatedInFinalOk" />
+                              </node>
+                              <node concept="37vLTw" id="4pFxWGSmwLc" role="37wK5m">
+                                <ref role="3cqZAo" node="4pFxWGSmtuL" resolve="obj" />
+                              </node>
+                              <node concept="37vLTw" id="4pFxWGSmwLd" role="37wK5m">
+                                <ref role="3cqZAo" node="4h62mqeXqMC" resolve="selectionRecorder" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWsn" id="4pFxWGSmtuL" role="1Duv9x">
+                        <property role="TrG5h" value="obj" />
+                        <node concept="3uibUv" id="4pFxWGSmtGK" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="4pFxWGSmwvV" role="1DdaDG">
+                        <ref role="3cqZAo" node="4pFxWGSmpKM" resolve="selectionList" />
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="4pFxWGSnhpr" role="3cqZAp" />
                   </node>
-                  <node concept="1Wc70l" id="4LngyNMVW$a" role="3clFbw">
-                    <node concept="2ZW3vV" id="4LngyNMzdAl" role="3uHU7w">
-                      <node concept="3uibUv" id="4LngyNMzdG3" role="2ZW6by">
-                        <ref role="3uigEE" to="33ny:~List" resolve="List" />
-                      </node>
-                      <node concept="37vLTw" id="4LngyNMzdvM" role="2ZW6bz">
-                        <ref role="3cqZAo" node="OpUSe1ICu6" resolve="selection" />
-                      </node>
+                  <node concept="2ZW3vV" id="4pFxWGSlqOe" role="3clFbw">
+                    <node concept="3uibUv" id="4pFxWGSlqVe" role="2ZW6by">
+                      <ref role="3uigEE" to="33ny:~List" resolve="List" />
                     </node>
-                    <node concept="1rXfSq" id="4LngyNMVYoA" role="3uHU7B">
-                      <ref role="37wK5l" node="7yNVvqMREh$" resolve="hasOption" />
-                      <node concept="Rm8GO" id="69CNZTmluov" role="37wK5m">
-                        <ref role="Rm8GQ" to="28jr:69CNZTml5XT" resolve="NEW_STYLE_TERM_HANDLING" />
-                        <ref role="1Px2BO" to="28jr:1du6qEVaZIs" resolve="IOFXCommand.OFXCmdOptions" />
-                      </node>
+                    <node concept="37vLTw" id="4pFxWGSlqCY" role="2ZW6bz">
+                      <ref role="3cqZAo" node="OpUSe1ICu6" resolve="selection" />
                     </node>
                   </node>
-                </node>
-                <node concept="3clFbF" id="OpUSe1IH2L" role="3cqZAp">
-                  <node concept="2OqwBi" id="OpUSe1IJgw" role="3clFbG">
-                    <node concept="2OqwBi" id="OpUSe1IHe0" role="2Oq$k0">
-                      <node concept="Xjq3P" id="OpUSe1IH2J" role="2Oq$k0" />
-                      <node concept="2OwXpG" id="OpUSe1IHtE" role="2OqNvi">
-                        <ref role="2Oxat5" node="6dnXV8mIuHg" resolve="currentPage" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="OpUSe1IKUq" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:OpUSe1EcVI" resolve="cmdTerminatedWithPushed" />
-                      <node concept="37vLTw" id="OpUSe1ILqc" role="37wK5m">
-                        <ref role="3cqZAo" node="OpUSe0GXOu" resolve="wasChild" />
-                      </node>
-                      <node concept="37vLTw" id="OpUSe1IMZl" role="37wK5m">
-                        <ref role="3cqZAo" node="7dYuT2dgEMg" resolve="terminatedInFinalOk" />
-                      </node>
-                      <node concept="37vLTw" id="OpUSe1IO_9" role="37wK5m">
-                        <ref role="3cqZAo" node="OpUSe1ICu6" resolve="selection" />
-                      </node>
-                      <node concept="37vLTw" id="4h62mqeXJsP" role="37wK5m">
-                        <ref role="3cqZAo" node="4h62mqeXqMC" resolve="selectionRecorder" />
+                  <node concept="9aQIb" id="4pFxWGSn9MV" role="9aQIa">
+                    <node concept="3clFbS" id="4pFxWGSn9MW" role="9aQI4">
+                      <node concept="3clFbF" id="OpUSe1IH2L" role="3cqZAp">
+                        <node concept="2OqwBi" id="OpUSe1IJgw" role="3clFbG">
+                          <node concept="2OqwBi" id="OpUSe1IHe0" role="2Oq$k0">
+                            <node concept="Xjq3P" id="OpUSe1IH2J" role="2Oq$k0" />
+                            <node concept="2OwXpG" id="OpUSe1IHtE" role="2OqNvi">
+                              <ref role="2Oxat5" node="6dnXV8mIuHg" resolve="currentPage" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="OpUSe1IKUq" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:OpUSe1EcVI" resolve="cmdTerminatedWithPushed" />
+                            <node concept="37vLTw" id="OpUSe1ILqc" role="37wK5m">
+                              <ref role="3cqZAo" node="OpUSe0GXOu" resolve="wasChild" />
+                            </node>
+                            <node concept="37vLTw" id="OpUSe1IMZl" role="37wK5m">
+                              <ref role="3cqZAo" node="7dYuT2dgEMg" resolve="terminatedInFinalOk" />
+                            </node>
+                            <node concept="37vLTw" id="OpUSe1IO_9" role="37wK5m">
+                              <ref role="3cqZAo" node="OpUSe1ICu6" resolve="selection" />
+                            </node>
+                            <node concept="37vLTw" id="4h62mqeXJsP" role="37wK5m">
+                              <ref role="3cqZAo" node="4h62mqeXqMC" resolve="selectionRecorder" />
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
