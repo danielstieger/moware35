@@ -38714,6 +38714,77 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="5G5IIdmYd1W" role="3yMuLx">
+      <property role="TrG5h" value="Load Value Object with mapper streight." />
+      <node concept="3cqZAl" id="5G5IIdmYd1Y" role="3clF45" />
+      <node concept="3clFbS" id="5G5IIdmYd1Z" role="3clF47">
+        <node concept="3cpWs8" id="5G5IIdmYdq3" role="3cqZAp">
+          <node concept="3cpWsn" id="5G5IIdmYdq6" role="3cpWs9">
+            <property role="TrG5h" value="allVos" />
+            <node concept="_YKpA" id="5G5IIdmYdq1" role="1tU5fm">
+              <node concept="3uibUv" id="5G5IIdmYdqp" role="_ZDj9">
+                <ref role="3uigEE" to="ucvh:2x95vWfB39k" resolve="NKKey" />
+              </node>
+            </node>
+            <node concept="1odsa" id="5G5IIdmYdr1" role="33vP2m">
+              <ref role="1ods_" to="ucvh:32etEQRuSUr" resolve="NKRepository" />
+              <ref role="37wK5l" to="ucvh:5G5IIdmW9Po" resolve="findAllKeys" />
+              <node concept="Xl_RD" id="5G5IIdmYdsa" role="37wK5m">
+                <property role="Xl_RC" value="DAN" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5G5IIdmYdur" role="3cqZAp">
+          <node concept="3clFbC" id="5G5IIdmYeUq" role="1gVkn0">
+            <node concept="3cmrfG" id="5G5IIdmYeU_" role="3uHU7w">
+              <property role="3cmrfH" value="2" />
+            </node>
+            <node concept="2OqwBi" id="5G5IIdmYe0b" role="3uHU7B">
+              <node concept="37vLTw" id="5G5IIdmYdvq" role="2Oq$k0">
+                <ref role="3cqZAo" node="5G5IIdmYdq6" resolve="allVos" />
+              </node>
+              <node concept="34oBXx" id="5G5IIdmYeht" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5G5IIdmYeX4" role="3cqZAp">
+          <node concept="2OqwBi" id="5G5IIdmYfvB" role="1gVkn0">
+            <node concept="37vLTw" id="5G5IIdmYeYQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="5G5IIdmYdq6" resolve="allVos" />
+            </node>
+            <node concept="2HxqBE" id="5G5IIdmYfKL" role="2OqNvi">
+              <node concept="1bVj0M" id="5G5IIdmYfKN" role="23t8la">
+                <node concept="3clFbS" id="5G5IIdmYfKO" role="1bW5cS">
+                  <node concept="3clFbF" id="5G5IIdmYfOd" role="3cqZAp">
+                    <node concept="2OqwBi" id="5G5IIdmYggi" role="3clFbG">
+                      <node concept="2OqwBi" id="5G5IIdmYfU_" role="2Oq$k0">
+                        <node concept="37vLTw" id="5G5IIdmYfOc" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5G5IIdmYfKP" resolve="it" />
+                        </node>
+                        <node concept="2S8uIT" id="5G5IIdmYfZD" role="2OqNvi">
+                          <ref role="2S8YL0" to="ucvh:2x95vWfB39r" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5G5IIdmYh0I" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                        <node concept="Xl_RD" id="5G5IIdmYhD_" role="37wK5m">
+                          <property role="Xl_RC" value="DAN" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="5G5IIdmYfKP" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5G5IIdmYfKQ" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yPF9F" id="4j0wea7dGkh" role="3yMuLx">
       <property role="TrG5h" value="Load DTO with mapper - check count" />
       <node concept="3cqZAl" id="4j0wea7dGkj" role="3clF45" />

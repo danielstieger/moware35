@@ -2113,6 +2113,72 @@
         </node>
       </node>
     </node>
+    <node concept="1o6$dd" id="5G5IIdmWb63" role="jymVt">
+      <property role="TrG5h" value="MapVoNKKey" />
+      <ref role="1o6$9c" node="2x95vWfB39k" resolve="NKKey" />
+      <node concept="12nEzJ" id="5G5IIdmWbl1" role="3caO6$">
+        <ref role="12nL8z" node="2x95vWfB39r" resolve="name" />
+        <node concept="Xl_RD" id="5G5IIdmWbl3" role="12k7lF">
+          <property role="Xl_RC" value="NAME" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="5G5IIdmWbj_" role="3caO6$">
+        <ref role="12nL8z" node="2x95vWfB3ao" resolve="count" />
+        <node concept="Xl_RD" id="5G5IIdmWbjA" role="12k7lF">
+          <property role="Xl_RC" value="COUNT" />
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="5G5IIdmW9Po" role="jymVt">
+      <property role="TrG5h" value="findAllKeys" />
+      <node concept="37vLTG" id="5G5IIdmWjDH" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="5G5IIdmWjDL" role="1tU5fm" />
+      </node>
+      <node concept="_YKpA" id="5G5IIdmW9Zi" role="3clF45">
+        <node concept="3uibUv" id="5G5IIdmWa1e" role="_ZDj9">
+          <ref role="3uigEE" node="2x95vWfB39k" resolve="NKKey" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5G5IIdmW9Pr" role="1B3o_S" />
+      <node concept="3clFbS" id="5G5IIdmW9Ps" role="3clF47">
+        <node concept="3clFbF" id="5G5IIdmWa3A" role="3cqZAp">
+          <node concept="1eaaFm" id="5G5IIdmWa3v" role="3clFbG">
+            <node concept="1Q8zPT" id="5G5IIdmWa3w" role="1ea49x">
+              <node concept="1PaTwC" id="5G5IIdmWa3x" role="2KarBZ">
+                <node concept="3oM_SD" id="5G5IIdmWadm" role="1PaTwD">
+                  <property role="3oM_SC" value="SELECT" />
+                </node>
+                <node concept="3oM_SD" id="5G5IIdmWaBm" role="1PaTwD">
+                  <property role="3oM_SC" value="NAME," />
+                </node>
+                <node concept="3oM_SD" id="5G5IIdmWaK6" role="1PaTwD">
+                  <property role="3oM_SC" value="COUNT" />
+                </node>
+                <node concept="3oM_SD" id="5G5IIdmWaKO" role="1PaTwD">
+                  <property role="3oM_SC" value="FROM" />
+                </node>
+                <node concept="3oM_SD" id="5G5IIdmZU3z" role="1PaTwD">
+                  <property role="3oM_SC" value="MMT_NKVIEWOBJECT" />
+                </node>
+                <node concept="3oM_SD" id="5G5IIdmZYXx" role="1PaTwD">
+                  <property role="3oM_SC" value="WHERE" />
+                </node>
+                <node concept="3oM_SD" id="5G5IIdn06U0" role="1PaTwD">
+                  <property role="3oM_SC" value="NAME=?" />
+                </node>
+              </node>
+            </node>
+            <node concept="1pXOCm" id="5G5IIdmWbn8" role="q55Dl">
+              <ref role="1pXOCo" node="5G5IIdmWb63" resolve="MapVoNKKey" />
+            </node>
+            <node concept="37vLTw" id="5G5IIdn06UT" role="18nGdJ">
+              <ref role="3cqZAo" node="5G5IIdmWjDH" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="DXQ2B" id="6irx7M5$hcg" role="jymVt">
       <property role="TrG5h" value="countNkDtoS_MAPPER" />
       <node concept="10Oyi0" id="6irx7M5$iZU" role="3clF45" />
