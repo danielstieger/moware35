@@ -5134,5 +5134,23 @@
     <property role="R4oN_" value="child of this command terminated" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="1WnjocVCxsZ">
+    <property role="3GE5qa" value="BusinessObject.Options" />
+    <property role="TrG5h" value="IRangeOption" />
+    <property role="34LRSv" value="RANGE" />
+    <property role="R4oN_" value="specifies value range [start, stop] for integer" />
+    <property role="EcuMT" value="2240344565676644159" />
+    <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
+    <node concept="1TJgyi" id="1WnjocVCxt0" role="1TKVEl">
+      <property role="TrG5h" value="start" />
+      <property role="IQ2nx" value="3517052249651130108" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1WnjocVCxt1" role="1TKVEl">
+      <property role="TrG5h" value="stop" />
+      <property role="IQ2nx" value="3517052249651130109" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 

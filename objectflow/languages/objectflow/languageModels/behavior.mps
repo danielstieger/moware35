@@ -2559,6 +2559,52 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="1WnjocVCNAu" role="13h7CS">
+      <property role="TrG5h" value="getIRangeOption" />
+      <node concept="3Tm1VV" id="1WnjocVCNAv" role="1B3o_S" />
+      <node concept="3Tqbb2" id="1WnjocVCONL" role="3clF45">
+        <ref role="ehGHo" to="un0u:1WnjocVCxsZ" resolve="IRangeOption" />
+      </node>
+      <node concept="3clFbS" id="1WnjocVCNAx" role="3clF47">
+        <node concept="3clFbF" id="1WnjocVCOOc" role="3cqZAp">
+          <node concept="1PxgMI" id="1WnjocVCOOd" role="3clFbG">
+            <node concept="2OqwBi" id="1WnjocVCOOe" role="1m5AlR">
+              <node concept="2OqwBi" id="1WnjocVCOOf" role="2Oq$k0">
+                <node concept="13iPFW" id="1WnjocVCOOg" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="1WnjocVCOOh" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:3bYrH4MBXir" resolve="propertyOption" />
+                </node>
+              </node>
+              <node concept="1z4cxt" id="1WnjocVCOOi" role="2OqNvi">
+                <node concept="1bVj0M" id="1WnjocVCOOj" role="23t8la">
+                  <node concept="3clFbS" id="1WnjocVCOOk" role="1bW5cS">
+                    <node concept="3clFbF" id="1WnjocVCOOl" role="3cqZAp">
+                      <node concept="2OqwBi" id="1WnjocVCOOm" role="3clFbG">
+                        <node concept="37vLTw" id="1WnjocVCOOn" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1WnjocVCOOq" resolve="it" />
+                        </node>
+                        <node concept="1mIQ4w" id="1WnjocVCOOo" role="2OqNvi">
+                          <node concept="chp4Y" id="1WnjocVCOOp" role="cj9EA">
+                            <ref role="cht4Q" to="un0u:1WnjocVCxsZ" resolve="IRangeOption" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="1WnjocVCOOq" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1WnjocVCOOr" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="chp4Y" id="1WnjocVCOOs" role="3oSUPX">
+              <ref role="cht4Q" to="un0u:1WnjocVCxsZ" resolve="IRangeOption" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="3VCHlE3$xGf" role="13h7CS">
       <property role="TrG5h" value="findBusinessObject" />
       <node concept="3Tm1VV" id="3VCHlE3$xGg" role="1B3o_S" />

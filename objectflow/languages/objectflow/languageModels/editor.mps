@@ -13315,5 +13315,52 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1WnjocVCxtd">
+    <property role="3GE5qa" value="BusinessObject.Options" />
+    <ref role="1XX52x" to="un0u:1WnjocVCxsZ" resolve="IRangeOption" />
+    <node concept="3EZMnI" id="1WnjocVCxtf" role="2wV5jI">
+      <node concept="PMmxH" id="1WnjocVCxtg" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <node concept="11LMrY" id="1WnjocVCxth" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1WnjocVCxti" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="11LMrY" id="1WnjocVCxtj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1WnjocVCxtk" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1WnjocVCxt0" resolve="start" />
+      </node>
+      <node concept="3F0ifn" id="1WnjocVCxtl" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="11LMrY" id="1WnjocVCxtm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11L4FC" id="1WnjocVCxtn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1WnjocVCxto" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1WnjocVCxt1" resolve="stop" />
+      </node>
+      <node concept="3F0ifn" id="1WnjocVCxtp" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="11L4FC" id="1WnjocVCxtq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="1WnjocVCxtr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1WnjocVCxtt" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -7987,6 +7987,24 @@
           </node>
         </node>
         <node concept="3clFbH" id="6XWBEIFIaNZ" role="3cqZAp" />
+        <node concept="3cpWs8" id="1WnjocVVwgI" role="3cqZAp">
+          <node concept="3cpWsn" id="1WnjocVVwgJ" role="3cpWs9">
+            <property role="TrG5h" value="needsPicker" />
+            <node concept="10P_77" id="1WnjocVVwgK" role="1tU5fm" />
+            <node concept="2YIFZM" id="1WnjocVVwgL" role="33vP2m">
+              <ref role="37wK5l" to="250q:5IEkTkkuA32" resolve="has" />
+              <ref role="1Pybhc" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+              <node concept="Rm8GO" id="1WnjocVVwgM" role="37wK5m">
+                <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+                <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="PICKER" />
+              </node>
+              <node concept="37vLTw" id="1WnjocVVwgN" role="37wK5m">
+                <ref role="3cqZAo" node="1WnjocVVuqU" resolve="pickerOption" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1WnjocVVw3i" role="3cqZAp" />
         <node concept="3clFbF" id="3sEA$PIygHf" role="3cqZAp">
           <node concept="37vLTI" id="3sEA$PIygHg" role="3clFbG">
             <node concept="2OqwBi" id="3sEA$PIygHh" role="37vLTx">
@@ -7995,7 +8013,9 @@
               </node>
               <node concept="liA8E" id="3sEA$PIygHj" role="2OqNvi">
                 <ref role="37wK5l" to="250q:3sEA$PIARpU" resolve="createDateEditor" />
-                <node concept="3clFbT" id="5IEkTkmHxeF" role="37wK5m" />
+                <node concept="37vLTw" id="1WnjocVVwCM" role="37wK5m">
+                  <ref role="3cqZAo" node="1WnjocVVwgJ" resolve="needsPicker" />
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="3sEA$PIygHk" role="37vLTJ">
@@ -8067,6 +8087,14 @@
       <node concept="37vLTG" id="6XWBEIFHv9E" role="3clF46">
         <property role="TrG5h" value="langIdx" />
         <node concept="10Oyi0" id="6XWBEIFHvdj" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1WnjocVVuqU" role="3clF46">
+        <property role="TrG5h" value="pickerOption" />
+        <node concept="8X2XB" id="1WnjocVVuqV" role="1tU5fm">
+          <node concept="3uibUv" id="1WnjocVVuqW" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="3sEA$PIygHs" role="jymVt" />
