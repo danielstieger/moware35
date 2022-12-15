@@ -3210,40 +3210,6 @@
     <property role="TrG5h" value="IOFXCommand" />
     <property role="3GE5qa" value="OFXArchitecture" />
     <node concept="3Tm1VV" id="7rqBz8B3ElM" role="1B3o_S" />
-    <node concept="3UR2Jj" id="2HpvI9wzMsw" role="lGtFl">
-      <node concept="TZ5HA" id="2HpvI9wzMsI" role="TZ5H$">
-        <node concept="1dT_AC" id="2HpvI9wzMsJ" role="1dT_Ay" />
-      </node>
-      <node concept="TZ5HA" id="ncJg$HbX6M" role="TZ5H$">
-        <node concept="1dT_AC" id="ncJg$HbX6N" role="1dT_Ay">
-          <property role="1dT_AB" value="Document: command is bound to the process document" />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="ncJg$HbX6O" role="TZ5H$">
-        <node concept="1dT_AC" id="ncJg$HbX6P" role="1dT_Ay" />
-      </node>
-      <node concept="TZ5HA" id="29WmUWhLmBl" role="TZ5H$">
-        <node concept="1dT_AC" id="29WmUWhLmBm" role="1dT_Ay">
-          <property role="1dT_AB" value="Command stores internally its current state. So if execution of a command is needed, create a" />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="29WmUWhLmBn" role="TZ5H$">
-        <node concept="1dT_AC" id="29WmUWhLmBo" role="1dT_Ay">
-          <property role="1dT_AB" value="new instance of the command and execute it .. " />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="29WmUWhLmBq" role="TZ5H$">
-        <node concept="1dT_AC" id="29WmUWhLmBr" role="1dT_Ay" />
-      </node>
-      <node concept="TZ5HA" id="3PmKne7RgcG" role="TZ5H$">
-        <node concept="1dT_AC" id="3PmKne7RgcH" role="1dT_Ay">
-          <property role="1dT_AB" value="isEnabled check is done by process, thus we do not need an instance here ... " />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="3PmKne7RgcI" role="TZ5H$">
-        <node concept="1dT_AC" id="3PmKne7RgcJ" role="1dT_Ay" />
-      </node>
-    </node>
     <node concept="3clFb_" id="7rqBz8B3JNr" role="jymVt">
       <property role="TrG5h" value="getCommandTitleShort" />
       <node concept="17QB3L" id="7rqBz8B3JNv" role="3clF45" />
@@ -3290,12 +3256,6 @@
     <node concept="2tJIrI" id="1HDSUXvFXob" role="jymVt" />
     <node concept="3clFb_" id="6Gy9ythMxB2" role="jymVt">
       <property role="TrG5h" value="setCommandParams" />
-      <node concept="37vLTG" id="oHsXcajdpE" role="3clF46">
-        <property role="TrG5h" value="process" />
-        <node concept="3uibUv" id="oHsXcajdxk" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXModule" />
-        </node>
-      </node>
       <node concept="37vLTG" id="oHsXcajd$4" role="3clF46">
         <property role="TrG5h" value="session" />
         <node concept="3uibUv" id="oHsXcajdGq" role="1tU5fm">
