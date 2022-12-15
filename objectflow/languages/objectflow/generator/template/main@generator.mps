@@ -13845,6 +13845,14 @@
                     <ref role="37wK5l" to="28jr:19EO7JMyBXN" resolve="getCurrentCmdName" />
                   </node>
                 </node>
+                <node concept="2OqwBi" id="1OFcMnAhZjN" role="37wK5m">
+                  <node concept="37vLTw" id="1OFcMnAhYYG" role="2Oq$k0">
+                    <ref role="3cqZAo" node="67D5vCCZhTF" resolve="__manMapSession" />
+                  </node>
+                  <node concept="liA8E" id="1OFcMnAhZVL" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:1OFcMnzCDY9" resolve="getSessionLoggingId" />
+                  </node>
+                </node>
                 <node concept="Xl_RD" id="4WoSiUMl6JR" role="37wK5m">
                   <property role="Xl_RC" value="source" />
                   <node concept="17Uvod" id="4WoSiUMl6JS" role="lGtFl">
@@ -14049,6 +14057,14 @@
                       </node>
                       <node concept="liA8E" id="19EO7JN3PUq" role="2OqNvi">
                         <ref role="37wK5l" to="28jr:19EO7JMyBXN" resolve="getCurrentCmdName" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="1OFcMnAi0MS" role="37wK5m">
+                      <node concept="37vLTw" id="1OFcMnAi093" role="2Oq$k0">
+                        <ref role="3cqZAo" node="67D5vCCZhTF" resolve="__manMapSession" />
+                      </node>
+                      <node concept="liA8E" id="1OFcMnAi17k" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:1OFcMnzCDY9" resolve="getSessionLoggingId" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="4IVaCy$VaYd" role="37wK5m">

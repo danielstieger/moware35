@@ -4675,7 +4675,6 @@
       <node concept="Xl_RD" id="4HJH2Pnkl1M" role="2CNmdL">
         <property role="Xl_RC" value="Invoice" />
       </node>
-      <node concept="2fr8A1" id="4HJH2Pnkl3e" role="0orDa" />
     </node>
     <node concept="1bOX9e" id="4HJH2PnklF_" role="TxmiU">
       <property role="2RkwnN" value="posAvalue" />
