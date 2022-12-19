@@ -563,6 +563,12 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3ooJmL_OZfw" role="jymVt" />
+    <node concept="3clFb_" id="4ztiY$CmY0N" role="jymVt">
+      <property role="TrG5h" value="isFX8LegacyImpl" />
+      <node concept="10P_77" id="4ztiY$CmYVE" role="3clF45" />
+      <node concept="3Tm1VV" id="4ztiY$CmY0Q" role="1B3o_S" />
+      <node concept="3clFbS" id="4ztiY$CmY0R" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="20ohnkbzF0e" role="1B3o_S" />
     <node concept="3uibUv" id="20ohnkbJcos" role="3HQHJm">
       <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
