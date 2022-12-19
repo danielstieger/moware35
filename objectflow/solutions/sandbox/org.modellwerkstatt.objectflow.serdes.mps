@@ -1384,6 +1384,52 @@
       </node>
       <node concept="3Tm1VV" id="6qNJO0ImcU5" role="1B3o_S" />
     </node>
+    <node concept="2YIFZL" id="4ztiY$CPjV6" role="jymVt">
+      <property role="TrG5h" value="xmlSerDes" />
+      <node concept="3clFbS" id="4ztiY$CPjV7" role="3clF47">
+        <node concept="3cpWs6" id="4ztiY$CPjV8" role="3cqZAp">
+          <node concept="2ShNRf" id="4ztiY$CPjV9" role="3cqZAk">
+            <node concept="1pGfFk" id="4ztiY$CPjVa" role="2ShVmc">
+              <ref role="37wK5l" to="kiw1:4ztiY$CJRAQ" resolve="XmlSerdes" />
+              <node concept="16syzq" id="4ztiY$CPjVb" role="1pMfVU">
+                <ref role="16sUi3" node="4ztiY$CPjVl" resolve="T" />
+              </node>
+              <node concept="37vLTw" id="4ztiY$CPjVc" role="37wK5m">
+                <ref role="3cqZAo" node="4ztiY$CPjVe" resolve="type" />
+              </node>
+              <node concept="37vLTw" id="4ztiY$CPjVd" role="37wK5m">
+                <ref role="3cqZAo" node="4ztiY$CPjVh" resolve="config" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4ztiY$CPjVe" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="4ztiY$CPjVf" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+          <node concept="16syzq" id="4ztiY$CPjVg" role="11_B2D">
+            <ref role="16sUi3" node="4ztiY$CPjVl" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4ztiY$CPjVh" role="3clF46">
+        <property role="TrG5h" value="config" />
+        <node concept="3uibUv" id="4ztiY$CPjVi" role="1tU5fm">
+          <ref role="3uigEE" node="7yJ7v78jUYu" resolve="IConvFormatOptions" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="4ztiY$CPjVj" role="3clF45">
+        <ref role="3uigEE" node="2G8k9pWNiEM" resolve="IConvSerdes" />
+        <node concept="16syzq" id="4ztiY$CPjVk" role="11_B2D">
+          <ref role="16sUi3" node="4ztiY$CPjVl" resolve="T" />
+        </node>
+      </node>
+      <node concept="16euLQ" id="4ztiY$CPjVl" role="16eVyc">
+        <property role="TrG5h" value="T" />
+      </node>
+      <node concept="3Tm1VV" id="4ztiY$CPjVm" role="1B3o_S" />
+    </node>
     <node concept="2YIFZL" id="7_PeuXElDzq" role="jymVt">
       <property role="TrG5h" value="fopXmlSer" />
       <node concept="3clFbS" id="7_PeuXElDzr" role="3clF47">

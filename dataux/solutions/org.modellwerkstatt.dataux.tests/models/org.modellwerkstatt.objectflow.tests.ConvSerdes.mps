@@ -199,6 +199,7 @@
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="4079546759073522236" name="configuredComponents" index="23Ghgl" />
+        <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
       </concept>
       <concept id="4533072425307715670" name="org.modellwerkstatt.objectflow.structure.StatusElement" flags="ng" index="2XvgOc">
@@ -226,6 +227,12 @@
         <child id="8113764509540567394" name="contains" index="16NUyR" />
       </concept>
       <concept id="3860064244065287790" name="org.modellwerkstatt.objectflow.structure.ListBuilderElement" flags="ng" index="188KQk" />
+      <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
+        <child id="2884851879187602662" name="expression" index="38$l6p" />
+      </concept>
+      <concept id="2884851879189507036" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDebugOption" flags="ng" index="38J6qz">
+        <reference id="2884851879189507039" name="test" index="38J6qw" />
+      </concept>
       <concept id="3860064244070526091" name="org.modellwerkstatt.objectflow.structure.IBuilderElement" flags="ng" index="1b$LXL">
         <reference id="3860064244073851670" name="property" index="1bDdzG" />
         <child id="3860064244073851668" name="expression" index="1bDdzI" />
@@ -6144,6 +6151,11 @@
             </node>
           </node>
         </node>
+        <node concept="38$l6q" id="4ztiY$CScfu" role="3cqZAp">
+          <node concept="37vLTw" id="4ztiY$CScP1" role="38$l6p">
+            <ref role="3cqZAo" node="16YJG28A0xO" resolve="st" />
+          </node>
+        </node>
         <node concept="1gVbGN" id="16YJG28A14R" role="3cqZAp">
           <node concept="2OqwBi" id="16YJG28A1mP" role="1gVkn0">
             <node concept="37vLTw" id="16YJG28A19j" role="2Oq$k0">
@@ -8644,6 +8656,48 @@
         <node concept="3clFbH" id="3Gvjll544s4" role="3cqZAp" />
       </node>
     </node>
+    <node concept="38J6qz" id="4ztiY$CScUt" role="38MLOi">
+      <ref role="38J6qw" node="16YJG28qXXq" resolve="Serialize and check various types here.." />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUu" role="38MLOi">
+      <ref role="38J6qw" node="3aWJ4fwLzDa" resolve="Serialize null fields to json correctly.." />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUv" role="38MLOi">
+      <ref role="38J6qw" node="16YJG28HGy$" resolve="Using Key Substitutioner for json to obj graph" />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUw" role="38MLOi">
+      <ref role="38J6qw" node="16YJG28IN0Q" resolve="Writing empty list and null object to json" />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUx" role="38MLOi">
+      <ref role="38J6qw" node="16YJG28J3$J" resolve="Writing null values to json" />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUy" role="38MLOi">
+      <ref role="38J6qw" node="16YJG28ItbW" resolve="Just trying to serialize the complex ROOT obj, but check for BOOLEAN also." />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUz" role="38MLOi">
+      <ref role="38J6qw" node="16YJG28J$0m" resolve="Just trying to serialize an entity with valueObject" />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScU$" role="38MLOi">
+      <ref role="38J6qw" node="16YJG28S3B2" resolve="Serialize a list of DTOs into a string." />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScU_" role="38MLOi">
+      <ref role="38J6qw" node="7ecvNzaoBl3" resolve="Serialize null list property to null field" />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUA" role="38MLOi">
+      <ref role="38J6qw" node="5Db$$mDCTlM" resolve="Serialize a list of simple int's " />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUB" role="38MLOi">
+      <ref role="38J6qw" node="6MByTIyr_cr" resolve="Serialize a cycle of objects" />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUC" role="38MLOi">
+      <ref role="38J6qw" node="5Db$$mDEXBB" resolve="Serialize complex object with list of simple int's " />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUD" role="38MLOi">
+      <ref role="38J6qw" node="7_PeuXEvyJS" resolve="StringSerDes: Serialize and check various types here.." />
+    </node>
+    <node concept="38J6qz" id="4ztiY$CScUE" role="38MLOi">
+      <ref role="38J6qw" node="7_PeuXFoMYo" resolve="FopXMLSerializer: Serialize and check various types here.." />
+    </node>
   </node>
   <node concept="34Athd" id="16YJG28Jyx5">
     <property role="3GE5qa" value="entity" />
@@ -9138,6 +9192,119 @@
         <node concept="3uibUv" id="6MByTIyrE_Y" role="_ZDj9">
           <ref role="3uigEE" node="6MByTIyrEyo" resolve="RootChild" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2WPaUQ" id="4ztiY$CRn0d">
+    <property role="TrG5h" value="XmlSerialization" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
+    <node concept="3yPF9F" id="4ztiY$CRn0e" role="3yMuLx">
+      <property role="TrG5h" value="Serialize and check various types here.." />
+      <node concept="3cqZAl" id="4ztiY$CRn0f" role="3clF45" />
+      <node concept="3clFbS" id="4ztiY$CRn0g" role="3clF47">
+        <node concept="3cpWs8" id="4ztiY$CRn0h" role="3cqZAp">
+          <node concept="3cpWsn" id="4ztiY$CRn0i" role="3cpWs9">
+            <property role="TrG5h" value="opts" />
+            <node concept="3uibUv" id="4ztiY$CRn0j" role="1tU5fm">
+              <ref role="3uigEE" to="18b:7yJ7v78jCli" resolve="ConvFormatOptions" />
+            </node>
+            <node concept="2ShNRf" id="4ztiY$CRn0k" role="33vP2m">
+              <node concept="1pGfFk" id="4ztiY$CRn0l" role="2ShVmc">
+                <ref role="37wK5l" to="18b:7yJ7v78kCbU" resolve="ConvFormatOptions" />
+                <node concept="Xl_RD" id="4ztiY$CRn0m" role="37wK5m">
+                  <property role="Xl_RC" value="hh:mm:ss dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="4ztiY$CRn0n" role="37wK5m">
+                  <property role="Xl_RC" value="dd.MM.yy" />
+                </node>
+                <node concept="Xl_RD" id="4ztiY$CRn0o" role="37wK5m">
+                  <property role="Xl_RC" value="#,##0.00" />
+                </node>
+                <node concept="Xl_RD" id="4ztiY$CRn0p" role="37wK5m">
+                  <property role="Xl_RC" value="en" />
+                </node>
+                <node concept="Rm8GO" id="4ztiY$CRn0q" role="37wK5m">
+                  <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
+                  <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4ztiY$CRn0r" role="3cqZAp">
+          <node concept="3cpWsn" id="4ztiY$CRn0s" role="3cpWs9">
+            <property role="TrG5h" value="myDeser" />
+            <node concept="3uibUv" id="4ztiY$CRn0t" role="1tU5fm">
+              <ref role="3uigEE" to="18b:2G8k9pWNiEM" resolve="IConvSerdes" />
+              <node concept="3uibUv" id="4ztiY$CRn0u" role="11_B2D">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="4ztiY$CRpIW" role="33vP2m">
+              <ref role="37wK5l" to="18b:4ztiY$CPjV6" resolve="xmlSerDes" />
+              <ref role="1Pybhc" to="18b:6qNJO0Imc8R" resolve="CONV" />
+              <node concept="3VsKOn" id="4ztiY$CRpIX" role="37wK5m">
+                <ref role="3VsUkX" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+              <node concept="2ShNRf" id="4ztiY$CRpIY" role="37wK5m">
+                <node concept="1pGfFk" id="4ztiY$CRpIZ" role="2ShVmc">
+                  <ref role="37wK5l" to="18b:7yJ7v78jTAN" resolve="ConvStdFormatters" />
+                  <node concept="37vLTw" id="4ztiY$CRpJ0" role="37wK5m">
+                    <ref role="3cqZAo" node="4ztiY$CRn0i" resolve="opts" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="4ztiY$CRpJ1" role="3PaCim">
+                <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4ztiY$CRn0_" role="3cqZAp">
+          <node concept="3cpWsn" id="4ztiY$CRn0A" role="3cpWs9">
+            <property role="TrG5h" value="origObj" />
+            <node concept="3uibUv" id="4ztiY$CRn0B" role="1tU5fm">
+              <ref role="3uigEE" node="1gQHsZ_W4GU" resolve="Text" />
+            </node>
+            <node concept="1odsa" id="4ztiY$CRn0C" role="33vP2m">
+              <ref role="1ods_" node="1fdEi1nROez" resolve="JsonRootFactory" />
+              <ref role="37wK5l" node="16YJG28_Rdd" resolve="create" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4ztiY$CRn0D" role="3cqZAp" />
+        <node concept="3cpWs8" id="4ztiY$CRn0E" role="3cqZAp">
+          <node concept="3cpWsn" id="4ztiY$CRn0F" role="3cpWs9">
+            <property role="TrG5h" value="st" />
+            <node concept="17QB3L" id="4ztiY$CRn0G" role="1tU5fm" />
+            <node concept="2OqwBi" id="4ztiY$CRn0H" role="33vP2m">
+              <node concept="37vLTw" id="4ztiY$CRn0I" role="2Oq$k0">
+                <ref role="3cqZAo" node="4ztiY$CRn0s" resolve="myDeser" />
+              </node>
+              <node concept="liA8E" id="4ztiY$CRn0J" role="2OqNvi">
+                <ref role="37wK5l" to="18b:23eALbvRgEu" resolve="ser" />
+                <node concept="37vLTw" id="4ztiY$CRn0K" role="37wK5m">
+                  <ref role="3cqZAo" node="4ztiY$CRn0A" resolve="origObj" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4ztiY$CRrZG" role="3cqZAp">
+          <node concept="2OqwBi" id="4ztiY$CRrZD" role="3clFbG">
+            <node concept="10M0yZ" id="4ztiY$CRrZE" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="4ztiY$CRrZF" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="37vLTw" id="4ztiY$CRsxr" role="37wK5m">
+                <ref role="3cqZAo" node="4ztiY$CRn0F" resolve="st" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4ztiY$CRrPu" role="3cqZAp" />
       </node>
     </node>
   </node>
