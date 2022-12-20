@@ -74,6 +74,10 @@
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="rnm6:2vMvnqOsTvD" resolve="JSonDeserialization" />
     </node>
+    <node concept="1DZZI9" id="3eq7P8K3m0F" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="rnm6:4ztiY$CRn0d" resolve="XmlSerDeserialization" />
+    </node>
   </node>
 </model>
 
