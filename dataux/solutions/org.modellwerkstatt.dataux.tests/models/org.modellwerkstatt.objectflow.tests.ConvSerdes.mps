@@ -22,6 +22,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
@@ -9272,7 +9273,21 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4ztiY$CRn0D" role="3cqZAp" />
+        <node concept="3clFbF" id="2DhMwl4RlCq" role="3cqZAp">
+          <node concept="d57v9" id="2DhMwl4RmdC" role="3clFbG">
+            <node concept="Xl_RD" id="2DhMwl4RmhK" role="37vLTx">
+              <property role="Xl_RC" value=" &amp; &lt;Dan&gt;" />
+            </node>
+            <node concept="2OqwBi" id="2DhMwl4RlS9" role="37vLTJ">
+              <node concept="37vLTw" id="2DhMwl4RlCo" role="2Oq$k0">
+                <ref role="3cqZAo" node="4ztiY$CRn0A" resolve="origObj" />
+              </node>
+              <node concept="2S8uIT" id="2DhMwl4RlZf" role="2OqNvi">
+                <ref role="2S8YL0" node="1gQHsZ_W4Hv" resolve="stringValue" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4ztiY$CRn0E" role="3cqZAp">
           <node concept="3cpWsn" id="4ztiY$CRn0F" role="3cpWs9">
             <property role="TrG5h" value="st" />

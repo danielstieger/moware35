@@ -21,6 +21,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -74,6 +75,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -82,6 +86,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="0eddeefa-c2d6-4437-bc2c-de50fd4ce470" name="jetbrains.mps.lang.script">
       <concept id="1177457067821" name="jetbrains.mps.lang.script.structure.MigrationScript" flags="ig" index="_UgoZ">
@@ -186,23 +191,67 @@
       <node concept="_Y34e" id="3oZR98Nhmt1" role="_XDHO">
         <node concept="3clFbS" id="3oZR98Nhmt2" role="2VODD2">
           <node concept="3clFbF" id="3oZR98NhndC" role="3cqZAp">
-            <node concept="2OqwBi" id="3oZR98Nhofh" role="3clFbG">
-              <node concept="liA8E" id="3oZR98Nhotv" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2OqwBi" id="3oZR98NhnE7" role="37wK5m">
-                  <node concept="2OqwBi" id="3oZR98NhnhZ" role="2Oq$k0">
-                    <node concept="_YI3z" id="3oZR98NhndB" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="3oZR98NhnqY" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tpee:gDPxDYr" resolve="classifier" />
+            <node concept="1Wc70l" id="2DhMwl4WGYM" role="3clFbG">
+              <node concept="1eOMI4" id="2DhMwl4WH12" role="3uHU7w">
+                <node concept="22lmx$" id="2DhMwl4WKy5" role="1eOMHV">
+                  <node concept="2OqwBi" id="2DhMwl4WJl1" role="3uHU7B">
+                    <node concept="liA8E" id="2DhMwl4WJSi" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                      <node concept="2OqwBi" id="2DhMwl4WIgh" role="37wK5m">
+                        <node concept="2OqwBi" id="2DhMwl4WHoz" role="2Oq$k0">
+                          <node concept="_YI3z" id="2DhMwl4WH5R" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="2DhMwl4WHRr" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tpee:f_2Pw7K" resolve="staticFieldDeclaration" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="2DhMwl4WISA" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="2DhMwl4WJSm" role="2Oq$k0">
+                      <property role="Xl_RC" value="out" />
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="3oZR98NhnUc" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  <node concept="2OqwBi" id="2DhMwl4WK_1" role="3uHU7w">
+                    <node concept="liA8E" id="2DhMwl4WK_7" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                      <node concept="2OqwBi" id="2DhMwl4WK_2" role="37wK5m">
+                        <node concept="2OqwBi" id="2DhMwl4WK_3" role="2Oq$k0">
+                          <node concept="_YI3z" id="2DhMwl4WK_4" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="2DhMwl4WK_5" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tpee:f_2Pw7K" resolve="staticFieldDeclaration" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="2DhMwl4WK_6" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="2DhMwl4WK_8" role="2Oq$k0">
+                      <property role="Xl_RC" value="err" />
+                    </node>
                   </node>
                 </node>
               </node>
-              <node concept="Xl_RD" id="3oZR98NhouC" role="2Oq$k0">
-                <property role="Xl_RC" value="System" />
+              <node concept="2OqwBi" id="3oZR98Nhofh" role="3uHU7B">
+                <node concept="liA8E" id="3oZR98Nhotv" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                  <node concept="2OqwBi" id="3oZR98NhnE7" role="37wK5m">
+                    <node concept="2OqwBi" id="3oZR98NhnhZ" role="2Oq$k0">
+                      <node concept="_YI3z" id="3oZR98NhndB" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3oZR98NhnqY" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:gDPxDYr" resolve="classifier" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="3oZR98NhnUc" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3oZR98NhouC" role="2Oq$k0">
+                  <property role="Xl_RC" value="System" />
+                </node>
               </node>
             </node>
           </node>
