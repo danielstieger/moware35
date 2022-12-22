@@ -31737,6 +31737,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6lXDPe$i_yu" role="3cqZAp" />
+        <node concept="3cpWs8" id="6lXDPe$nbNJ" role="3cqZAp">
+          <node concept="3cpWsn" id="6lXDPe$nbNK" role="3cpWs9">
+            <property role="TrG5h" value="editor" />
+            <node concept="3uibUv" id="6lXDPe$nbNL" role="1tU5fm">
+              <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
+            </node>
+            <node concept="1eOMI4" id="39PhcJ3RCD7" role="33vP2m">
+              <node concept="10QFUN" id="39PhcJ3RCD8" role="1eOMHV">
+                <node concept="3uibUv" id="39PhcJ3RCD9" role="10QFUM">
+                  <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
+                </node>
+                <node concept="2OqwBi" id="5Y1b9tRdnYD" role="10QFUP">
+                  <node concept="37vLTw" id="5Y1b9tRdnT7" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
+                  </node>
+                  <node concept="liA8E" id="5Y1b9tRdoxy" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:5Y1b9tRd28d" resolve="getEditor" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="39PhcJ3RCD3" role="3cqZAp">
           <node concept="3clFbS" id="39PhcJ3RCD4" role="3clFbx">
             <node concept="3clFbF" id="39PhcJ3RBhY" role="3cqZAp">
@@ -31769,24 +31793,12 @@
             <node concept="3uibUv" id="39PhcJ3RCDi" role="2ZW6by">
               <ref role="3uigEE" to="rb41:~TextArea" resolve="TextArea" />
             </node>
-            <node concept="1eOMI4" id="39PhcJ3RCD7" role="2ZW6bz">
-              <node concept="10QFUN" id="39PhcJ3RCD8" role="1eOMHV">
-                <node concept="3uibUv" id="39PhcJ3RCD9" role="10QFUM">
-                  <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
-                </node>
-                <node concept="2OqwBi" id="5Y1b9tRdnYD" role="10QFUP">
-                  <node concept="37vLTw" id="5Y1b9tRdnT7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
-                  </node>
-                  <node concept="liA8E" id="5Y1b9tRdoxy" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:5Y1b9tRd28d" resolve="getEditor" />
-                  </node>
-                </node>
-              </node>
+            <node concept="37vLTw" id="6lXDPe$nhBX" role="2ZW6bz">
+              <ref role="3cqZAo" node="6lXDPe$nbNK" resolve="editor" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2kpuhi0$yoI" role="3cqZAp" />
+        <node concept="3clFbH" id="6lXDPe$nzNz" role="3cqZAp" />
         <node concept="3clFbF" id="yJ4zx4a$mu" role="3cqZAp">
           <node concept="3uNrnE" id="yJ4zx4a$my" role="3clFbG">
             <node concept="37vLTw" id="fdGRoMYPR4" role="2$L3a6">
@@ -31810,44 +31822,6 @@
               <node concept="3uNrnE" id="yJ4zx49iuw" role="3clFbG">
                 <node concept="37vLTw" id="fdGRoMYQ0A" role="2$L3a6">
                   <ref role="3cqZAo" node="yJ4zx49isf" resolve="curRowIndex" />
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="5p1CQfOKRZh" role="3cqZAp">
-              <node concept="1PaTwC" id="HtHth3sGWP" role="1aUNEU">
-                <node concept="3oM_SD" id="HtHth3sGWQ" role="1PaTwD">
-                  <property role="3oM_SC" value="hat" />
-                </node>
-                <node concept="3oM_SD" id="HtHth3sGWR" role="1PaTwD">
-                  <property role="3oM_SC" value="nichts" />
-                </node>
-                <node concept="3oM_SD" id="HtHth3sGWS" role="1PaTwD">
-                  <property role="3oM_SC" value="gebracht" />
-                </node>
-                <node concept="3oM_SD" id="HtHth3sGWT" role="1PaTwD">
-                  <property role="3oM_SC" value=".." />
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="4xVSf7d5X7q" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="5p1CQfOxLsT" role="8Wnug">
-                <node concept="2OqwBi" id="5p1CQfOxLDe" role="3clFbG">
-                  <node concept="37vLTw" id="5p1CQfOxLsR" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1YAKtdQVJRh" resolve="gridPane" />
-                  </node>
-                  <node concept="liA8E" id="5p1CQfOxLW6" role="2OqNvi">
-                    <ref role="37wK5l" to="l152:~Region.setMinHeight(double)" resolve="setMinHeight" />
-                    <node concept="17qRlL" id="5p1CQfOxMqw" role="37wK5m">
-                      <node concept="3cmrfG" id="5p1CQfOxMzw" role="3uHU7w">
-                        <property role="3cmrfH" value="0" />
-                      </node>
-                      <node concept="37vLTw" id="5p1CQfOxM6w" role="3uHU7B">
-                        <ref role="3cqZAo" node="yJ4zx49isf" resolve="curRowIndex" />
-                      </node>
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>
@@ -31913,7 +31887,7 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="4xVSf7d5X7r" role="lGtFl">
+        <node concept="1X3_iC" id="1KRnX33YhLN" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="5n$BU0wW7Uy" role="8Wnug">
@@ -32375,6 +32349,23 @@
                       </node>
                       <node concept="37vLTw" id="fdGRoMYQwT" role="37vLTJ">
                         <ref role="3cqZAo" node="yJ4zx4azK8" resolve="newColGridPane" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1X3_iC" id="1KRnX33Ym2A" role="lGtFl">
+                    <property role="3V$3am" value="statement" />
+                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                    <node concept="3clFbF" id="6lXDPe$kdDs" role="8Wnug">
+                      <node concept="2OqwBi" id="6lXDPe$kflI" role="3clFbG">
+                        <node concept="37vLTw" id="6lXDPe$kdDq" role="2Oq$k0">
+                          <ref role="3cqZAo" node="yJ4zx4azK8" resolve="newColGridPane" />
+                        </node>
+                        <node concept="liA8E" id="6lXDPe$kgj_" role="2OqNvi">
+                          <ref role="37wK5l" to="l152:~GridPane.setGridLinesVisible(boolean)" resolve="setGridLinesVisible" />
+                          <node concept="3clFbT" id="6lXDPe$khFe" role="37wK5m">
+                            <property role="3clFbU" value="true" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
