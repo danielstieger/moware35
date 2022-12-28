@@ -11939,6 +11939,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2YbZKILnNmV" role="jymVt" />
+    <node concept="2tJIrI" id="2CJoOMXYwnt" role="jymVt" />
     <node concept="3clFb_" id="2YbZKILrIV8" role="jymVt">
       <property role="TrG5h" value="deserField" />
       <node concept="37vLTG" id="2YbZKILrIV9" role="3clF46">
@@ -11955,6 +11956,12 @@
         <property role="TrG5h" value="fld" />
         <node concept="3uibUv" id="2YbZKILrIVe" role="1tU5fm">
           <ref role="3uigEE" to="kiw1:1gQHsZ_Z$be" resolve="CField" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2CJoOMY1RY6" role="3clF46">
+        <property role="TrG5h" value="xmlRootDoc" />
+        <node concept="3uibUv" id="2CJoOMY1Sfj" role="1tU5fm">
+          <ref role="3uigEE" to="lhjl:~Document" resolve="Document" />
         </node>
       </node>
       <node concept="37vLTG" id="2YbZKILrIVf" role="3clF46">
@@ -11999,6 +12006,51 @@
                 </node>
               </node>
             </node>
+            <node concept="1X3_iC" id="2CJoOMY3e6S" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3cpWs8" id="2CJoOMY2kRm" role="8Wnug">
+                <node concept="3cpWsn" id="2CJoOMY2kRp" role="3cpWs9">
+                  <property role="TrG5h" value="alternative" />
+                  <node concept="17QB3L" id="2CJoOMY2kRk" role="1tU5fm" />
+                  <node concept="2OqwBi" id="2CJoOMY2lQS" role="33vP2m">
+                    <node concept="1eOMI4" id="2CJoOMY2My6" role="2Oq$k0">
+                      <node concept="10QFUN" id="2CJoOMY2My3" role="1eOMHV">
+                        <node concept="3uibUv" id="2CJoOMY2MR$" role="10QFUM">
+                          <ref role="3uigEE" to="lhjl:~Element" resolve="Element" />
+                        </node>
+                        <node concept="2OqwBi" id="2CJoOMY2My8" role="10QFUP">
+                          <node concept="2OqwBi" id="2CJoOMY2My9" role="2Oq$k0">
+                            <node concept="37vLTw" id="2CJoOMY2Mya" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2CJoOMY1RY6" resolve="xmlRootDoc" />
+                            </node>
+                            <node concept="liA8E" id="2CJoOMY2Myb" role="2OqNvi">
+                              <ref role="37wK5l" to="lhjl:~Document.getElementsByTagName(java.lang.String)" resolve="getElementsByTagName" />
+                              <node concept="Xl_RD" id="2CJoOMY2Myc" role="37wK5m">
+                                <property role="Xl_RC" value="artikel" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2CJoOMY2Myd" role="2OqNvi">
+                            <ref role="37wK5l" to="lhjl:~NodeList.item(int)" resolve="item" />
+                            <node concept="3cmrfG" id="2CJoOMY2Mye" role="37wK5m">
+                              <property role="3cmrfH" value="0" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2CJoOMY2ma4" role="2OqNvi">
+                      <ref role="37wK5l" to="lhjl:~Element.getAttribute(java.lang.String)" resolve="getAttribute" />
+                      <node concept="Xl_RD" id="2CJoOMY2mfg" role="37wK5m">
+                        <property role="Xl_RC" value="NUM_ARTIKEL" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="2CJoOMY3Dxm" role="3cqZAp" />
             <node concept="3clFbF" id="2YbZKILrSv7" role="3cqZAp">
               <node concept="2OqwBi" id="2YbZKILrSEV" role="3clFbG">
                 <node concept="37vLTw" id="2YbZKILrSv5" role="2Oq$k0">
@@ -12045,6 +12097,9 @@
                   </node>
                   <node concept="37vLTw" id="2YbZKILrL84" role="37wK5m">
                     <ref role="3cqZAo" node="2YbZKILrIVd" resolve="fld" />
+                  </node>
+                  <node concept="37vLTw" id="2CJoOMY1Tqe" role="37wK5m">
+                    <ref role="3cqZAo" node="2CJoOMY1RY6" resolve="xmlRootDoc" />
                   </node>
                   <node concept="37vLTw" id="2YbZKILnQ20" role="37wK5m">
                     <ref role="3cqZAo" node="2YbZKILrIVf" resolve="parentElement" />
