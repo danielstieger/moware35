@@ -2889,6 +2889,15 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         </node>
+        <node concept="3F0ifn" id="3p$I2HGjbsE" role="3EZMnx">
+          <property role="3F0ifm" value="     // can replace" />
+          <ref role="1k5W1q" node="Kou8Lei6h5" resolve="TecDetail" />
+        </node>
+        <node concept="3F1sOY" id="3p$I2HGjbsO" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;repository&gt;" />
+          <ref role="1NtTu8" to="tpee:gXzkM_H" resolve="superclass" />
+          <ref role="1k5W1q" node="Kou8Lei6h5" resolve="TecDetail" />
+        </node>
         <node concept="2iRfu4" id="1rbZyOxyh9R" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="hLEScVK" role="3EZMnx" />

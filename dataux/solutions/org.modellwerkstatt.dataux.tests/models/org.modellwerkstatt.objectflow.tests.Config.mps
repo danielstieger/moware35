@@ -13,6 +13,9 @@
       </concept>
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="406105322043153424" name="org.modellwerkstatt.objectflow.structure.GenTimeScanning" flags="ng" index="20ptEN">
+        <property id="7687690754601717372" name="includingImported" index="3LDMhY" />
+      </concept>
       <concept id="406105322043152820" name="org.modellwerkstatt.objectflow.structure.ComponentsScanning" flags="ng" index="20ptWn">
         <child id="406105322043152971" name="componentBaseName" index="20ptNC" />
       </concept>
@@ -61,6 +64,9 @@
       <concept id="478945708937917661" name="org.modellwerkstatt.objectflow.structure.OFXConfigInstanceValue" flags="ng" index="2DlbD8">
         <child id="478945708937917662" name="name" index="2DlbDb" />
         <child id="478945708937917664" name="value" index="2DlbDP" />
+      </concept>
+      <concept id="3919460072362426416" name="org.modellwerkstatt.objectflow.structure.OFXConfigReplace" flags="ng" index="1q6vwr">
+        <child id="3919460072362426452" name="className" index="1q6vxZ" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -1154,6 +1160,116 @@
       <node concept="Xl_RD" id="3OfvFtm9SSh" role="20ptNC">
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
       </node>
+    </node>
+  </node>
+  <node concept="2CG7Z0" id="3p$I2HGv5y6">
+    <property role="TrG5h" value="MPreisLolaOVERWRITES" />
+    <property role="2320hu" value="2018-08-07T11:43:47.117+02:00" />
+    <node concept="1q6vwr" id="3p$I2HGyxiN" role="2CGBMS">
+      <node concept="Xl_RD" id="3p$I2HGyxiR" role="1q6vxZ">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.manmap.Domain.TestRepoInvoice" />
+      </node>
+    </node>
+    <node concept="2CJf3v" id="3p$I2HGv5y7" role="2CGBMS">
+      <property role="TrG5h" value="ldapService" />
+      <node concept="Xl_RD" id="3p$I2HGv5y8" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoLdapService" />
+      </node>
+      <node concept="2CJf1O" id="3p$I2HGv5y9" role="2CJ4_l">
+        <node concept="Xl_RD" id="3p$I2HGv5ya" role="2DqwMp">
+          <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
+        </node>
+        <node concept="Xl_RD" id="3p$I2HGv5yb" role="2DqwMv">
+          <property role="Xl_RC" value="0" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="3p$I2HGv5yc" role="2CJ4_l">
+        <node concept="Xl_RD" id="3p$I2HGv5yd" role="2DqwMp">
+          <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+        </node>
+        <node concept="Xl_RD" id="3p$I2HGv5ye" role="2DqwMv">
+          <property role="Xl_RC" value="1" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="3p$I2HGv5yf" role="2CJ4_l">
+        <node concept="Xl_RD" id="3p$I2HGv5yg" role="2DqwMp">
+          <property role="Xl_RC" value="pwd" />
+        </node>
+        <node concept="Xl_RD" id="3p$I2HGv5yh" role="2DqwMv">
+          <property role="Xl_RC" value="2" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="3p$I2HGv5yi" role="2CJ4_l">
+        <node concept="Xl_RD" id="3p$I2HGv5yj" role="2DqwMp">
+          <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+        </node>
+        <node concept="Xl_RD" id="3p$I2HGv5yk" role="2DqwMv">
+          <property role="Xl_RC" value="3" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="3p$I2HGv5yl" role="2CGBMS" />
+    <node concept="2CJf3v" id="3p$I2HGv5ym" role="2CGBMS">
+      <property role="TrG5h" value="currentPlatform" />
+      <node concept="Xl_RD" id="3p$I2HGv5yn" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.config.RessourcesForTests_Default" />
+      </node>
+    </node>
+    <node concept="2CPvp3" id="3p$I2HGv5yo" role="2CGBMS" />
+    <node concept="2CJoq6" id="3p$I2HGv5yp" role="2CGBMS">
+      <property role="TrG5h" value="ManMapTestSuitBasics" />
+      <node concept="2CPvp3" id="3p$I2HGv5yq" role="2CJdiS" />
+      <node concept="2CJ4_Q" id="3p$I2HGv5yr" role="2CJdiS">
+        <ref role="2CJ4_N" node="4LC0Y0L2pa6" resolve="MPREIS_Winter2014_FatClient_TestConfig" />
+        <node concept="26L8Vk" id="3p$I2HGv5ys" role="2CPvpQ">
+          <ref role="26L8Vy" node="3drXVOoNMYE" resolve="user" />
+          <node concept="Xl_RD" id="3p$I2HGv5yt" role="26L8Vw">
+            <property role="Xl_RC" value="reko" />
+          </node>
+        </node>
+        <node concept="26L8Vk" id="3p$I2HGv5yu" role="2CPvpQ">
+          <ref role="26L8Vy" node="3drXVOoNMYW" resolve="password" />
+          <node concept="Xl_RD" id="3p$I2HGv5yv" role="26L8Vw">
+            <property role="Xl_RC" value="test" />
+          </node>
+        </node>
+        <node concept="26L8Vk" id="3p$I2HGv5yw" role="2CPvpQ">
+          <ref role="26L8Vy" node="3drXVOoNMYp" resolve="URL" />
+          <node concept="Xl_RD" id="3p$I2HGv5yx" role="26L8Vw">
+            <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest.mpreis.co.at:1521/LOLA" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CPvp3" id="3p$I2HGv5yy" role="2CJdiS" />
+      <node concept="2CJ4_Q" id="3p$I2HGv5yz" role="2CJdiS">
+        <ref role="2CJ4_N" node="4LC0Y0L2pbw" resolve="UserRelatedStuff" />
+      </node>
+      <node concept="2CPvp3" id="3p$I2HGv5y$" role="2CJdiS" />
+      <node concept="2CJf3v" id="3p$I2HGv5y_" role="2CJdiS">
+        <property role="TrG5h" value="printFactory" />
+        <node concept="Xl_RD" id="3p$I2HGv5yA" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="3p$I2HGv5yB" role="2CJdiS">
+        <property role="TrG5h" value="consoleAppFactory" />
+        <node concept="Xl_RD" id="3p$I2HGv5yC" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.dataux.runtime.core.FakeUiFactory" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="3p$I2HGv5yD" role="2CJdiS">
+        <property role="TrG5h" value="fakeBusService" />
+        <node concept="Xl_RD" id="3p$I2HGv5yE" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeEventBus" />
+        </node>
+      </node>
+      <node concept="2CJ4_Q" id="3p$I2HGv5yF" role="2CJdiS">
+        <ref role="2CJ4_N" node="4LC0Y0L2pbc" resolve="MPREIS_BasicInfrastructure" />
+      </node>
+    </node>
+    <node concept="2CPvp3" id="3p$I2HGv5yG" role="2CGBMS" />
+    <node concept="20ptEN" id="3p$I2HGv5zB" role="20ptHX">
+      <property role="3LDMhY" value="true" />
     </node>
   </node>
 </model>

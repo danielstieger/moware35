@@ -1674,6 +1674,11 @@
     <node concept="PrWs8" id="q_zDmI6CDV" role="PzmwI">
       <ref role="PrY4T" node="q_zDmI6CDL" resolve="IOFXConfigNamedElement" />
     </node>
+    <node concept="1TJgyi" id="3p$I2HGAw03" role="1TKVEl">
+      <property role="IQ2nx" value="3919460072364310531" />
+      <property role="TrG5h" value="primary" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="q_zDmI6nVx">
     <property role="3GE5qa" value="Configuration" />
@@ -5150,6 +5155,24 @@
       <property role="TrG5h" value="stop" />
       <property role="IQ2nx" value="3517052249651130109" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3p$I2HGvk0K">
+    <property role="EcuMT" value="3919460072362426416" />
+    <property role="3GE5qa" value="Configuration" />
+    <property role="TrG5h" value="OFXConfigPrimary" />
+    <property role="34LRSv" value="primary instance" />
+    <property role="R4oN_" value="overwriting some others" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3p$I2HGvk1k" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="className" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="3919460072362426452" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="PrWs8" id="3p$I2HGvk0L" role="PzmwI">
+      <ref role="PrY4T" node="q_zDmI5Z8G" resolve="IOFXConfigElement" />
     </node>
   </node>
 </model>

@@ -17285,5 +17285,164 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="3p$I2HGi_Z1">
+    <property role="TrG5h" value="MMRepository" />
+    <node concept="2tJIrI" id="3p$I2HGi_ZR" role="jymVt" />
+    <node concept="312cEg" id="4PEV5$Q8CcB" role="jymVt">
+      <property role="TrG5h" value="__dateTimeTypeHandler" />
+      <node concept="3Tmbuc" id="3p$I2HGiu7E" role="1B3o_S" />
+      <node concept="3uibUv" id="4PEV5$Q8CcD" role="1tU5fm">
+        <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />
+        <node concept="3uibUv" id="4PEV5$Q8CcE" role="11_B2D">
+          <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4PEV5$Q8CcF" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+      <node concept="2AHcQZ" id="4PEV5$Q8CcG" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Qualifier" resolve="Qualifier" />
+        <node concept="1SXeKx" id="4PEV5$Q8CcH" role="2B76xF">
+          <ref role="2B6OnR" to="b31h:~Qualifier.value()" resolve="value" />
+          <node concept="Xl_RD" id="4PEV5$Q8CcI" role="2B70Vg">
+            <property role="Xl_RC" value="_dateTimeTypeHandler" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="4PEV5$Q8CcJ" role="jymVt">
+      <property role="TrG5h" value="__localDateTypeHandler" />
+      <node concept="3Tmbuc" id="3p$I2HGiu8g" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4PEV5$Q8CcL" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+      <node concept="2AHcQZ" id="4PEV5$Q8CcM" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Qualifier" resolve="Qualifier" />
+        <node concept="1SXeKx" id="4PEV5$Q8CcN" role="2B76xF">
+          <ref role="2B6OnR" to="b31h:~Qualifier.value()" resolve="value" />
+          <node concept="Xl_RD" id="4PEV5$Q8CcO" role="2B70Vg">
+            <property role="Xl_RC" value="_localDateTypeHandler" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="4PEV5$Q8CcP" role="1tU5fm">
+        <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />
+        <node concept="3uibUv" id="4PEV5$Q8CcQ" role="11_B2D">
+          <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="4PEV5$Q8CcR" role="jymVt">
+      <property role="TrG5h" value="__bigDecimalTypeHandler" />
+      <node concept="3Tmbuc" id="3p$I2HGiu8Q" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4PEV5$Q8CcT" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+      <node concept="2AHcQZ" id="4PEV5$Q8CcU" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Qualifier" resolve="Qualifier" />
+        <node concept="1SXeKx" id="4PEV5$Q8CcV" role="2B76xF">
+          <ref role="2B6OnR" to="b31h:~Qualifier.value()" resolve="value" />
+          <node concept="Xl_RD" id="4PEV5$Q8CcW" role="2B70Vg">
+            <property role="Xl_RC" value="_bigDecimalTypeHandler" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="4PEV5$Q8CcX" role="1tU5fm">
+        <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />
+        <node concept="3uibUv" id="4PEV5$Q8CcY" role="11_B2D">
+          <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="4PEV5$Q8CcZ" role="jymVt">
+      <property role="TrG5h" value="__stringTypeHandler" />
+      <node concept="3Tmbuc" id="3p$I2HGiu9s" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4PEV5$Q8Cd1" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+      <node concept="2AHcQZ" id="4PEV5$Q8Cd2" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Qualifier" resolve="Qualifier" />
+        <node concept="1SXeKx" id="4PEV5$Q8Cd3" role="2B76xF">
+          <ref role="2B6OnR" to="b31h:~Qualifier.value()" resolve="value" />
+          <node concept="Xl_RD" id="4PEV5$Q8Cd4" role="2B70Vg">
+            <property role="Xl_RC" value="_stringTypeHandler" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="4PEV5$Q8Cd5" role="1tU5fm">
+        <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />
+        <node concept="3uibUv" id="4PEV5$Q8Cd6" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="4PEV5$Q8Cd7" role="jymVt">
+      <property role="TrG5h" value="__intTypeHandler" />
+      <node concept="3Tmbuc" id="3p$I2HGiua2" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4PEV5$Q8Cd9" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+      <node concept="2AHcQZ" id="4PEV5$Q8Cda" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Qualifier" resolve="Qualifier" />
+        <node concept="1SXeKx" id="4PEV5$Q8Cdb" role="2B76xF">
+          <ref role="2B6OnR" to="b31h:~Qualifier.value()" resolve="value" />
+          <node concept="Xl_RD" id="4PEV5$Q8Cdc" role="2B70Vg">
+            <property role="Xl_RC" value="_intTypeHandler" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="4PEV5$Q8Cdd" role="1tU5fm">
+        <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />
+        <node concept="3uibUv" id="4PEV5$Q8Cde" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="6tD2NjS8c5W" role="jymVt">
+      <property role="TrG5h" value="__byteArrayTypeHandler" />
+      <node concept="3Tmbuc" id="3p$I2HGiuaC" role="1B3o_S" />
+      <node concept="2AHcQZ" id="6tD2NjS8c5Y" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+      <node concept="2AHcQZ" id="6tD2NjS8c5Z" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Qualifier" resolve="Qualifier" />
+        <node concept="1SXeKx" id="6tD2NjS8c60" role="2B76xF">
+          <ref role="2B6OnR" to="b31h:~Qualifier.value()" resolve="value" />
+          <node concept="Xl_RD" id="6tD2NjS8c61" role="2B70Vg">
+            <property role="Xl_RC" value="_byteArrayTypeHandler" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="6tD2NjS8c62" role="1tU5fm">
+        <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />
+        <node concept="10Q1$e" id="6tD2NjS8c63" role="11_B2D">
+          <node concept="10PrrI" id="6tD2NjS8c64" role="10Q1$1" />
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="4PEV5$Q8Cdf" role="jymVt">
+      <property role="TrG5h" value="__dbDesc" />
+      <node concept="3Tmbuc" id="3p$I2HGiubj" role="1B3o_S" />
+      <node concept="3uibUv" id="4PEV5$Q8Cdh" role="1tU5fm">
+        <ref role="3uigEE" node="1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+      </node>
+      <node concept="2AHcQZ" id="4PEV5$Q8Cdi" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="312cEg" id="6LKPMZJk3TT" role="jymVt">
+      <property role="TrG5h" value="__jdbcTemplate" />
+      <node concept="3Tmbuc" id="3p$I2HGiubM" role="1B3o_S" />
+      <node concept="3uibUv" id="6LKPMZJk6yz" role="1tU5fm">
+        <ref role="3uigEE" to="mbv:~JdbcTemplate" resolve="JdbcTemplate" />
+      </node>
+      <node concept="2AHcQZ" id="2x95vWgjruL" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3p$I2HGi_ZT" role="jymVt" />
+    <node concept="2tJIrI" id="3p$I2HGi_ZW" role="jymVt" />
+    <node concept="3Tm1VV" id="3p$I2HGi_Z2" role="1B3o_S" />
+  </node>
 </model>
 

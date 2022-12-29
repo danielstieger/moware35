@@ -13362,5 +13362,24 @@
       <node concept="l2Vlx" id="1WnjocVCxtt" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3p$I2HGvmAw">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="1XX52x" to="un0u:3p$I2HGvk0K" resolve="OFXConfigPrimary" />
+    <node concept="3EZMnI" id="3p$I2HGvmAy" role="2wV5jI">
+      <node concept="3F0ifn" id="3p$I2HGvmAz" role="3EZMnx">
+        <property role="3F0ifm" value="primary instance" />
+        <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
+      </node>
+      <node concept="3F1sOY" id="3p$I2HGvmA$" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3p$I2HGvk1k" resolve="className" />
+      </node>
+      <node concept="l2Vlx" id="3p$I2HGvmAD" role="2iSdaV" />
+      <node concept="3F0ifn" id="3p$I2HGyxjP" role="3EZMnx">
+        <node concept="pVoyu" id="3p$I2HGyxk1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
