@@ -1674,11 +1674,6 @@
     <node concept="PrWs8" id="q_zDmI6CDV" role="PzmwI">
       <ref role="PrY4T" node="q_zDmI6CDL" resolve="IOFXConfigNamedElement" />
     </node>
-    <node concept="1TJgyi" id="3p$I2HGAw03" role="1TKVEl">
-      <property role="IQ2nx" value="3919460072364310531" />
-      <property role="TrG5h" value="primary" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
   </node>
   <node concept="1TIwiD" id="q_zDmI6nVx">
     <property role="3GE5qa" value="Configuration" />

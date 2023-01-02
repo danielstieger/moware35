@@ -2881,6 +2881,22 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="hLEXtvc" role="3EZMnx">
+          <property role="3F0ifm" value="test" />
+          <ref role="1k5W1q" node="Kou8LehH1N" resolve="UserConcept" />
+          <node concept="pkWqt" id="5_V0ApBYmPC" role="pqm2j">
+            <node concept="3clFbS" id="5_V0ApBYmPD" role="2VODD2">
+              <node concept="3clFbF" id="5_V0ApBYmQ4" role="3cqZAp">
+                <node concept="2OqwBi" id="5_V0ApBYnkr" role="3clFbG">
+                  <node concept="pncrf" id="5_V0ApBYmQ3" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="5_V0ApBYo9S" role="2OqNvi">
+                    <ref role="37wK5l" to="lfe3:5_V0ApC0ZLz" resolve="isTestImplementation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="5_V0ApBYmPy" role="3EZMnx">
           <property role="3F0ifm" value="repository" />
           <ref role="1k5W1q" node="Kou8LehH1N" resolve="UserConcept" />
         </node>
@@ -2890,13 +2906,13 @@
           <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         </node>
         <node concept="3F0ifn" id="3p$I2HGjbsE" role="3EZMnx">
-          <property role="3F0ifm" value="     // can replace" />
-          <ref role="1k5W1q" node="Kou8Lei6h5" resolve="TecDetail" />
+          <property role="3F0ifm" value="     // overwrites " />
+          <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
         </node>
         <node concept="3F1sOY" id="3p$I2HGjbsO" role="3EZMnx">
           <property role="1$x2rV" value="&lt;repository&gt;" />
           <ref role="1NtTu8" to="tpee:gXzkM_H" resolve="superclass" />
-          <ref role="1k5W1q" node="Kou8Lei6h5" resolve="TecDetail" />
+          <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
         </node>
         <node concept="2iRfu4" id="1rbZyOxyh9R" role="2iSdaV" />
       </node>

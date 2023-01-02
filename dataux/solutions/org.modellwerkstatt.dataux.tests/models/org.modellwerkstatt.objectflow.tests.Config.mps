@@ -13,9 +13,6 @@
       </concept>
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="406105322043153424" name="org.modellwerkstatt.objectflow.structure.GenTimeScanning" flags="ng" index="20ptEN">
-        <property id="7687690754601717372" name="includingImported" index="3LDMhY" />
-      </concept>
       <concept id="406105322043152820" name="org.modellwerkstatt.objectflow.structure.ComponentsScanning" flags="ng" index="20ptWn">
         <child id="406105322043152971" name="componentBaseName" index="20ptNC" />
       </concept>
@@ -65,7 +62,7 @@
         <child id="478945708937917662" name="name" index="2DlbDb" />
         <child id="478945708937917664" name="value" index="2DlbDP" />
       </concept>
-      <concept id="3919460072362426416" name="org.modellwerkstatt.objectflow.structure.OFXConfigReplace" flags="ng" index="1q6vwr">
+      <concept id="3919460072362426416" name="org.modellwerkstatt.objectflow.structure.OFXConfigPrimary" flags="ng" index="1q6vwr">
         <child id="3919460072362426452" name="className" index="1q6vxZ" />
       </concept>
     </language>
@@ -1268,8 +1265,13 @@
       </node>
     </node>
     <node concept="2CPvp3" id="3p$I2HGv5yG" role="2CGBMS" />
-    <node concept="20ptEN" id="3p$I2HGv5zB" role="20ptHX">
-      <property role="3LDMhY" value="true" />
+    <node concept="20ptWn" id="5_V0ApDpRnN" role="20ptHX">
+      <node concept="Xl_RD" id="5_V0ApDpRnO" role="20ptNC">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+      </node>
+      <node concept="Xl_RD" id="5_V0ApDpRnP" role="20ptNC">
+        <property role="Xl_RC" value="org.modellwerkstatt.dataux" />
+      </node>
     </node>
   </node>
 </model>

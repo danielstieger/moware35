@@ -15129,9 +15129,6 @@
     <node concept="2tJIrI" id="3p$I2HGoYDq" role="jymVt" />
     <node concept="2tJIrI" id="3p$I2HGoYHz" role="jymVt" />
     <node concept="3Tm1VV" id="3p$I2HGoY$4" role="1B3o_S" />
-    <node concept="3uibUv" id="3p$I2HGoY_h" role="1zkMxy">
-      <ref role="3uigEE" node="32etEQRuSRv" resolve="RepoInvoice" />
-    </node>
     <node concept="DXQ2B" id="3p$I2HGp9dW" role="jymVt">
       <property role="TrG5h" value="findAllInvoices" />
       <node concept="3Tm1VV" id="3p$I2HGp9dX" role="1B3o_S" />
@@ -15155,6 +15152,9 @@
       <node concept="2AHcQZ" id="3p$I2HGp9e4" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+    </node>
+    <node concept="3uibUv" id="5_V0ApC0ZBd" role="1zkMxy">
+      <ref role="3uigEE" node="32etEQRuSRv" resolve="RepoInvoice" />
     </node>
   </node>
 </model>
