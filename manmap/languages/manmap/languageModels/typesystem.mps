@@ -5654,5 +5654,68 @@
       <ref role="1YaFvo" to="r5tz:75DS814rqUU" resolve="INeedsClassMapper" />
     </node>
   </node>
+  <node concept="18kY7G" id="3LvdZPf0rIv">
+    <property role="TrG5h" value="check_Repository" />
+    <property role="3GE5qa" value="repository" />
+    <property role="1$Xk0j" value="true" />
+    <node concept="3clFbS" id="3LvdZPf0rIw" role="18ibNy">
+      <node concept="3clFbJ" id="3LvdZPf0rIA" role="3cqZAp">
+        <node concept="2OqwBi" id="3LvdZPf0s9q" role="3clFbw">
+          <node concept="1YBJjd" id="3LvdZPf0rIM" role="2Oq$k0">
+            <ref role="1YBMHb" node="3LvdZPf0rIy" resolve="repository" />
+          </node>
+          <node concept="2qgKlT" id="3LvdZPf0sL0" role="2OqNvi">
+            <ref role="37wK5l" to="lfe3:5_V0ApC0ZLz" resolve="isTestImplementation" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="3LvdZPf0rIC" role="3clFbx">
+          <node concept="3clFbJ" id="3LvdZPf0t0i" role="3cqZAp">
+            <node concept="2OqwBi" id="3LvdZPf0uLI" role="3clFbw">
+              <node concept="2OqwBi" id="3LvdZPf0uar" role="2Oq$k0">
+                <node concept="1PxgMI" id="3LvdZPf0u4V" role="2Oq$k0">
+                  <node concept="chp4Y" id="3LvdZPf0u9V" role="3oSUPX">
+                    <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                  </node>
+                  <node concept="2OqwBi" id="3LvdZPf0t0H" role="1m5AlR">
+                    <node concept="1YBJjd" id="3LvdZPf0t0u" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3LvdZPf0rIy" resolve="repository" />
+                    </node>
+                    <node concept="3TrEf2" id="3LvdZPf0tR$" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3LvdZPf0uqg" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="3LvdZPf0zNH" role="2OqNvi">
+                <node concept="chp4Y" id="3LvdZPf0zRI" role="cj9EA">
+                  <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="3LvdZPf0t0k" role="3clFbx" />
+            <node concept="9aQIb" id="3LvdZPf0zY_" role="9aQIa">
+              <node concept="3clFbS" id="3LvdZPf0zYA" role="9aQI4">
+                <node concept="2MkqsV" id="3LvdZPf0$9Q" role="3cqZAp">
+                  <node concept="Xl_RD" id="3LvdZPf0$a2" role="2MkJ7o">
+                    <property role="Xl_RC" value="A test repository can only overwrite another repository!" />
+                  </node>
+                  <node concept="1YBJjd" id="3LvdZPf0$ad" role="1urrMF">
+                    <ref role="1YBMHb" node="3LvdZPf0rIy" resolve="repository" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3LvdZPf0rIy" role="1YuTPh">
+      <property role="TrG5h" value="repository" />
+      <ref role="1YaFvo" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+    </node>
+  </node>
 </model>
 

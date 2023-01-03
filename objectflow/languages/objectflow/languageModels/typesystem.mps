@@ -15485,5 +15485,68 @@
       <ref role="1YaFvo" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
     </node>
   </node>
+  <node concept="18kY7G" id="3LvdZPf0$fO">
+    <property role="TrG5h" value="check_Service" />
+    <property role="3GE5qa" value="Service" />
+    <property role="1$Xk0j" value="true" />
+    <node concept="3clFbS" id="3LvdZPf0$fP" role="18ibNy">
+      <node concept="3clFbJ" id="3LvdZPf0$lS" role="3cqZAp">
+        <node concept="2OqwBi" id="3LvdZPf0$K_" role="3clFbw">
+          <node concept="1YBJjd" id="3LvdZPf0$m4" role="2Oq$k0">
+            <ref role="1YBMHb" node="3LvdZPf0$fR" resolve="service" />
+          </node>
+          <node concept="2qgKlT" id="3LvdZPf0_oo" role="2OqNvi">
+            <ref role="37wK5l" to="lfe3:5_V0ApC0ZLz" resolve="isTestImplementation" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="3LvdZPf0$lU" role="3clFbx">
+          <node concept="3clFbJ" id="3LvdZPf0_xE" role="3cqZAp">
+            <node concept="2OqwBi" id="3LvdZPf0AM4" role="3clFbw">
+              <node concept="2OqwBi" id="3LvdZPf0A0k" role="2Oq$k0">
+                <node concept="1PxgMI" id="3LvdZPf0_Ky" role="2Oq$k0">
+                  <node concept="chp4Y" id="3LvdZPf0_Py" role="3oSUPX">
+                    <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                  </node>
+                  <node concept="2OqwBi" id="3LvdZPf0_y5" role="1m5AlR">
+                    <node concept="1YBJjd" id="3LvdZPf0_xQ" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3LvdZPf0$fR" resolve="service" />
+                    </node>
+                    <node concept="3TrEf2" id="3LvdZPf0_zb" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3LvdZPf0AqA" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="3LvdZPf0Bhn" role="2OqNvi">
+                <node concept="chp4Y" id="3LvdZPf0Blo" role="cj9EA">
+                  <ref role="cht4Q" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="3LvdZPf0_xG" role="3clFbx" />
+            <node concept="9aQIb" id="3LvdZPf0Bs4" role="9aQIa">
+              <node concept="3clFbS" id="3LvdZPf0Bs5" role="9aQI4">
+                <node concept="2MkqsV" id="3LvdZPf0Bt6" role="3cqZAp">
+                  <node concept="Xl_RD" id="3LvdZPf0Bti" role="2MkJ7o">
+                    <property role="Xl_RC" value="A test component can only overwrite another component!" />
+                  </node>
+                  <node concept="1YBJjd" id="3LvdZPf0Btt" role="1urrMF">
+                    <ref role="1YBMHb" node="3LvdZPf0$fR" resolve="service" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3LvdZPf0$fR" role="1YuTPh">
+      <property role="TrG5h" value="service" />
+      <ref role="1YaFvo" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+    </node>
+  </node>
 </model>
 

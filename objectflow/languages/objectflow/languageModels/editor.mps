@@ -49,12 +49,12 @@
     <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" />
     <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
+    <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
-    <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -988,15 +988,42 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="5$XJBUCvzRH" role="3EZMnx">
-          <property role="3F0ifm" value="component" />
+          <property role="3F0ifm" value="test" />
           <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
           <node concept="pVoyu" id="5$XJBUCvzRU" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pkWqt" id="5vk963mfX3l" role="pqm2j">
+            <node concept="3clFbS" id="5vk963mfX3m" role="2VODD2">
+              <node concept="3clFbF" id="5vk963mgjJb" role="3cqZAp">
+                <node concept="2OqwBi" id="5vk963mgkdr" role="3clFbG">
+                  <node concept="pncrf" id="5vk963mgjJa" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="5vk963mgkZt" role="2OqNvi">
+                    <ref role="37wK5l" to="lfe3:5_V0ApC0ZLz" resolve="isTestImplementation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="5vk963mfX38" role="3EZMnx">
+          <property role="3F0ifm" value="component" />
+          <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
+          <node concept="pVoyu" id="5vk963mfX39" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
         <node concept="3F0A7n" id="5$XJBUCvzRJ" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
+        </node>
+        <node concept="3F0ifn" id="5vk963mgldL" role="3EZMnx">
+          <property role="3F0ifm" value="  // overwrites" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        </node>
+        <node concept="3F1sOY" id="5vk963mglsg" role="3EZMnx">
+          <ref role="1NtTu8" to="tpee:gXzkM_H" resolve="superclass" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="2iRfu4" id="1rbZyOxy463" role="2iSdaV" />
       </node>

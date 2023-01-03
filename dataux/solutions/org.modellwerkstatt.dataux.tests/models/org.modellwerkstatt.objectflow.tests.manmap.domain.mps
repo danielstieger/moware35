@@ -163,6 +163,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
@@ -15155,6 +15156,57 @@
     </node>
     <node concept="3uibUv" id="5_V0ApC0ZBd" role="1zkMxy">
       <ref role="3uigEE" node="32etEQRuSRv" resolve="RepoInvoice" />
+    </node>
+  </node>
+  <node concept="2EH5hC" id="3LvdZPeZNa_">
+    <property role="TrG5h" value="TestCreatorsFactory" />
+    <node concept="312cEg" id="3LvdZPf00IP" role="jymVt">
+      <property role="TrG5h" value="staticComponentField" />
+      <node concept="3Tm6S6" id="3LvdZPf00IQ" role="1B3o_S" />
+      <node concept="10P_77" id="3LvdZPf00Me" role="1tU5fm" />
+      <node concept="3clFbT" id="3LvdZPf00SR" role="33vP2m">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="3LvdZPeZNaA" role="1B3o_S" />
+    <node concept="3uibUv" id="3LvdZPf2lWj" role="1zkMxy">
+      <ref role="3uigEE" node="4wgjvSoeJVG" resolve="CreatorsFactory" />
+    </node>
+    <node concept="2vDG_T" id="3LvdZPeZV9j" role="jymVt">
+      <property role="TrG5h" value="CREATE_SESSION" />
+      <node concept="3uibUv" id="3LvdZPeZV9k" role="3clF45">
+        <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+      </node>
+      <node concept="3Tm1VV" id="3LvdZPeZV9A" role="1B3o_S" />
+      <node concept="3clFbS" id="3LvdZPeZV9B" role="3clF47">
+        <node concept="3clFbH" id="3LvdZPeZVhT" role="3cqZAp" />
+        <node concept="3clFbJ" id="3LvdZPeZVku" role="3cqZAp">
+          <node concept="3clFbS" id="3LvdZPeZVkw" role="3clFbx">
+            <node concept="YS8fn" id="3LvdZPeZXKP" role="3cqZAp">
+              <node concept="2ShNRf" id="3LvdZPeZXLW" role="YScLw">
+                <node concept="1pGfFk" id="3LvdZPf00m_" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="3LvdZPf00p0" role="37wK5m">
+                    <property role="Xl_RC" value="Hello World" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="3LvdZPf011a" role="3clFbw">
+            <ref role="3cqZAo" node="3LvdZPf00IP" resolve="staticComponentField" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3LvdZPeZViv" role="3cqZAp" />
+        <node concept="3clFbF" id="3LvdZPeZV9E" role="3cqZAp">
+          <node concept="3nyPlj" id="3LvdZPeZV9D" role="3clFbG">
+            <ref role="37wK5l" node="4nH4LOF0N$q" resolve="CREATE_SESSION" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3LvdZPeZV9C" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
 </model>
