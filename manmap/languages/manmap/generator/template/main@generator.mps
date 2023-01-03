@@ -499,18 +499,13 @@
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
-      </concept>
-      <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
-        <child id="1154546920563" name="concept" index="3gmYPZ" />
-      </concept>
-      <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">
-        <reference id="1154546997487" name="concept" index="3gnhBz" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -2027,16 +2022,20 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbJ" id="4$qgDG0C7S" role="3cqZAp">
-            <node concept="3clFbS" id="4$qgDG0C7T" role="3clFbx">
-              <node concept="3cpWs6" id="4$qgDG0C7U" role="3cqZAp">
-                <node concept="3clFbT" id="4$qgDG0C7V" role="3cqZAk">
-                  <property role="3clFbU" value="false" />
+          <node concept="3clFbF" id="5Xkq73s7LMW" role="3cqZAp">
+            <node concept="1Wc70l" id="5Xkq73s9rbQ" role="3clFbG">
+              <node concept="2OqwBi" id="5Xkq73s7NTV" role="3uHU7B">
+                <node concept="2OqwBi" id="5Xkq73s7MEY" role="2Oq$k0">
+                  <node concept="30H73N" id="5Xkq73s7LMV" role="2Oq$k0" />
+                  <node concept="2Rxl7S" id="5Xkq73s7Nsu" role="2OqNvi" />
+                </node>
+                <node concept="1mIQ4w" id="5Xkq73s7O4o" role="2OqNvi">
+                  <node concept="chp4Y" id="5Xkq73s7Oeb" role="cj9EA">
+                    <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+                  </node>
                 </node>
               </node>
-            </node>
-            <node concept="3fqX7Q" id="4$qgDG0C7W" role="3clFbw">
-              <node concept="2OqwBi" id="4$qgDG0C7N" role="3fr31v">
+              <node concept="2OqwBi" id="4$qgDG0C7N" role="3uHU7w">
                 <node concept="1mIQ4w" id="4$qgDG0C7O" role="2OqNvi">
                   <node concept="chp4Y" id="4$qgDG0C7P" role="cj9EA">
                     <ref role="cht4Q" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
@@ -2049,24 +2048,6 @@
                   <node concept="30H73N" id="4$qgDG0C7M" role="2Oq$k0" />
                 </node>
               </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="1TLQBdrNNf$" role="3cqZAp">
-            <node concept="2OqwBi" id="1TLQBdrNNfZ" role="3clFbG">
-              <node concept="2OqwBi" id="1TLQBdrNNfC" role="2Oq$k0">
-                <node concept="30H73N" id="1TLQBdrNNf_" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="1TLQBdrNNfI" role="2OqNvi">
-                  <node concept="3gmYPX" id="1TLQBdrNNfO" role="1xVPHs">
-                    <node concept="3gn64h" id="vSWWXGHNNw" role="3gmYPZ">
-                      <ref role="3gnhBz" to="r5tz:3PtsrckEx4k" resolve="RepositoryInstanceMethodDeclaration" />
-                    </node>
-                    <node concept="3gn64h" id="vSWWXEPTKz" role="3gmYPZ">
-                      <ref role="3gnhBz" to="r5tz:3PtsrckEx4j" resolve="Repository" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3x8VRR" id="1TLQBdrNNg5" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -2157,22 +2138,17 @@
       <ref role="30HIoZ" to="tpee:fBnyPmE" resolve="SuperMethodCall" />
       <node concept="30G5F_" id="3p$I2HGmMaq" role="30HLyM">
         <node concept="3clFbS" id="3p$I2HGmMar" role="2VODD2">
-          <node concept="3clFbF" id="3p$I2HGmMbf" role="3cqZAp">
-            <node concept="2OqwBi" id="3p$I2HGmMbg" role="3clFbG">
-              <node concept="2OqwBi" id="3p$I2HGmMbh" role="2Oq$k0">
-                <node concept="30H73N" id="3p$I2HGmMbi" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="3p$I2HGmMbj" role="2OqNvi">
-                  <node concept="3gmYPX" id="3p$I2HGmMbk" role="1xVPHs">
-                    <node concept="3gn64h" id="3p$I2HGmMbl" role="3gmYPZ">
-                      <ref role="3gnhBz" to="r5tz:3PtsrckEx4k" resolve="RepositoryInstanceMethodDeclaration" />
-                    </node>
-                    <node concept="3gn64h" id="3p$I2HGmMbm" role="3gmYPZ">
-                      <ref role="3gnhBz" to="r5tz:3PtsrckEx4j" resolve="Repository" />
-                    </node>
-                  </node>
+          <node concept="3clFbF" id="5Xkq73s7Oxo" role="3cqZAp">
+            <node concept="2OqwBi" id="5Xkq73s7Oxp" role="3clFbG">
+              <node concept="2OqwBi" id="5Xkq73s7Oxq" role="2Oq$k0">
+                <node concept="30H73N" id="5Xkq73s7Oxr" role="2Oq$k0" />
+                <node concept="2Rxl7S" id="5Xkq73s7Oxs" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="5Xkq73s7Oxt" role="2OqNvi">
+                <node concept="chp4Y" id="5Xkq73s7Oxu" role="cj9EA">
+                  <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
                 </node>
               </node>
-              <node concept="3x8VRR" id="3p$I2HGmMbn" role="2OqNvi" />
             </node>
           </node>
         </node>
