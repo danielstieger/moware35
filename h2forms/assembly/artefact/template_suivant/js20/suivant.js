@@ -17,7 +17,8 @@
 
 
 var systemMenuHandler;
-
+var serverTimeMillisOffset = 0;
+var serverClockUpdateId;
 
 function svScanEnabled(){
     return ($('input[name="scanconclusion"]') != null);
@@ -52,6 +53,8 @@ function tableSelectAndExec(selectionstr, valstr, eventSource){
     var origScrollPos = parseInt(window.scrollY);
     dbLog('tableSelectAndExec', 'with ' + selectionstr + ' / ' + valstr + ' / ' + eventSource + ' before hideconent');
 
+    clearTimeout(serverClockUpdateId);
+
     if (! svHideAllContainsDropdown()) {
         if (! isSvNavDisabled()) {
             svDisableNavigation();
@@ -78,6 +81,8 @@ function layoutSelectAndExec(selectionstr, valstr, dropdown){
 
 function saveSubmit(submitParameter){
     dbLog('saveSubmit', 'with ' + submitParameter + ' before hideconent');
+
+    clearTimeout(serverClockUpdateId);
 
     if (! svHideAllContainsDropdown()) {
         if (! isSvNavDisabled()) {
@@ -108,6 +113,8 @@ function svOnFormSubmitHandler(){
 }
 
 function svSubmitFormWithDefaultConclusion(){
+    clearTimeout(serverClockUpdateId);
+
     // android go key .. handling.
     svOnFormSubmitHandler();
     var f = $('form');
@@ -121,6 +128,15 @@ function svLogout(){
     tableSelectAndExec('logout', 'logout', 'logout');
 }
 
+
+function serverClockUpdate() {
+    var localTime = Date.now()
+    var correctServerTime = localTime - serverTimeMillisOffset;
+
+    var date = new Date(correctServerTime);
+    $('#serverClockDiv').innerHTML = date.getHours() + ":" + date.getMinutes();
+    serverClockUpdateId = setTimeout(serverClockUpdate, 5000);
+}
 
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
@@ -154,6 +170,10 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
             svAdjustFocus();
         	}, 400);
+
+    serverTimeMillisOffset = Date.now() - baseForm.ServerMillis.value;
+    serverClockUpdate();
+
 
     navigationDisabled = false;
     svLog('DOMContentLoader', 'init done ' + hwStackInfo());

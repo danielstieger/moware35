@@ -24,6 +24,7 @@
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
+    <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -11390,6 +11391,21 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="2kUkCz5ueYZ" role="3cqZAp">
+          <node concept="3cpWsn" id="2kUkCz5ueZ2" role="3cpWs9">
+            <property role="TrG5h" value="millis" />
+            <node concept="3cpWsb" id="2kUkCz5ueYX" role="1tU5fm" />
+            <node concept="2OqwBi" id="2kUkCz5uhbg" role="33vP2m">
+              <node concept="2YIFZM" id="2kUkCz5ugKU" role="2Oq$k0">
+                <ref role="37wK5l" to="28jr:3$bhckDyxQs" resolve="getSqlServerDateTime" />
+                <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
+              </node>
+              <node concept="liA8E" id="2kUkCz5uhr5" role="2OqNvi">
+                <ref role="37wK5l" to="oz00:~BaseDateTime.getMillis()" resolve="getMillis" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1Qo13pXmHrs" role="3cqZAp">
           <node concept="3cpWsn" id="1Qo13pXmHrt" role="3cpWs9">
             <property role="TrG5h" value="ctxPage" />
@@ -11404,6 +11420,9 @@
                 </node>
                 <node concept="37vLTw" id="37uIJD_BBHZ" role="37wK5m">
                   <ref role="3cqZAo" node="37uIJD_Blfv" resolve="xmlHttpReq" />
+                </node>
+                <node concept="37vLTw" id="2kUkCz5uih1" role="37wK5m">
+                  <ref role="3cqZAo" node="2kUkCz5ueZ2" resolve="millis" />
                 </node>
               </node>
             </node>
@@ -16856,6 +16875,17 @@
       </node>
       <node concept="10Oyi0" id="69$OOYrjobj" role="2RkE6I" />
     </node>
+    <node concept="2RhdJD" id="2kUkCz5pc2$" role="jymVt">
+      <property role="2RkwnN" value="srvMillis" />
+      <node concept="3Tm1VV" id="2kUkCz5pc2_" role="1B3o_S" />
+      <node concept="2RoN1w" id="2kUkCz5pc2A" role="2RnVtd">
+        <node concept="3wEZqW" id="2kUkCz5pc2B" role="3wFrgM" />
+        <node concept="3xqBd$" id="2kUkCz5pc2C" role="3xrYvX">
+          <node concept="3Tm1VV" id="2kUkCz5pc2D" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3cpWsb" id="2kUkCz5pgpl" role="2RkE6I" />
+    </node>
     <node concept="2tJIrI" id="6PWRVmw5IiB" role="jymVt" />
     <node concept="2tJIrI" id="7WBKY1WeMCm" role="jymVt" />
     <node concept="2tJIrI" id="7WBKY1WeM$h" role="jymVt" />
@@ -16867,6 +16897,10 @@
       <node concept="37vLTG" id="37uIJD_B_fM" role="3clF46">
         <property role="TrG5h" value="xmlHttp" />
         <node concept="10P_77" id="37uIJD_B_ga" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2kUkCz5pyck" role="3clF46">
+        <property role="TrG5h" value="millis" />
+        <node concept="3cpWsb" id="2kUkCz5pyfo" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="7WBKY1WeMPU" role="3clF45" />
       <node concept="3Tm1VV" id="7WBKY1WeMPV" role="1B3o_S" />
@@ -16958,6 +16992,16 @@
           </node>
         </node>
         <node concept="3clFbH" id="T1jWmsXXJY" role="3cqZAp" />
+        <node concept="3clFbF" id="2kUkCz5pynj" role="3cqZAp">
+          <node concept="37vLTI" id="2kUkCz5pyLw" role="3clFbG">
+            <node concept="37vLTw" id="2kUkCz5pyQ5" role="37vLTx">
+              <ref role="3cqZAo" node="2kUkCz5pyck" resolve="millis" />
+            </node>
+            <node concept="338YkY" id="2kUkCz5pynh" role="37vLTJ">
+              <ref role="338YkT" node="2kUkCz5pc2$" resolve="srvMillis" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="69$OOYrjogi" role="3cqZAp">
           <node concept="37vLTI" id="69$OOYrjokT" role="3clFbG">
             <node concept="3cmrfG" id="69$OOYrjomA" role="37vLTx">

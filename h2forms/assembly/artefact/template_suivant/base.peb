@@ -122,11 +122,13 @@
     <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
     <input type="hidden" name="DebugInformation" value="-"/>
     <input type="hidden" name="DeviceId" value=""/>
+    <input type="hidden" name="ServerMillis" value="{{ page.srvMillis }}"/>
 
 {% if dialog is not null and dialog.modalWithButtons %}
     <div class="w3-top">
     <div class="w3-container w3-row sv-status-gray">
-        <div class="w3-col s6 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("-") }}</div>
+        <div class="w3-col s4 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("-") }}</div>
+        <div class="w3-col s2 w3-center-align sv-cropped-text" id="serverClockDiv"></div>
         <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
     </div>
     <div class="w3-bar" onclick="svHideAllContainsDropdown()">

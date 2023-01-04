@@ -1170,6 +1170,11 @@
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.manmap.Domain.TestRepoInvoice" />
       </node>
     </node>
+    <node concept="1q6vwr" id="2kUkCz5jIaF" role="2CGBMS">
+      <node concept="Xl_RD" id="2kUkCz5jIaG" role="1q6vxZ">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.manmap.Domain.TestCreatorsFactory" />
+      </node>
+    </node>
     <node concept="2CJf3v" id="3p$I2HGv5y7" role="2CGBMS">
       <property role="TrG5h" value="ldapService" />
       <node concept="Xl_RD" id="3p$I2HGv5y8" role="2CJf0U">
