@@ -30277,28 +30277,56 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2kUkCz5jbNb" role="3cqZAp" />
-        <node concept="3cpWs6" id="4IVaCyzF6Qf" role="3cqZAp">
-          <node concept="3cpWs3" id="2kUkCz5iVIS" role="3cqZAk">
-            <node concept="2OqwBi" id="2kUkCz5iZF1" role="3uHU7w">
-              <node concept="37vLTw" id="2kUkCz5iYve" role="2Oq$k0">
-                <ref role="3cqZAo" node="4FgSVMszurY" resolve="systemName" />
-              </node>
-              <node concept="liA8E" id="2kUkCz5j2dx" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.charAt(int)" resolve="charAt" />
-                <node concept="3cmrfG" id="2kUkCz5j4Di" role="37wK5m">
-                  <property role="3cmrfH" value="0" />
+        <node concept="3clFbJ" id="4IOmh7st90q" role="3cqZAp">
+          <node concept="3clFbS" id="4IOmh7st90s" role="3clFbx">
+            <node concept="3cpWs6" id="4IVaCyzF6Qf" role="3cqZAp">
+              <node concept="3cpWs3" id="2kUkCz5iVIS" role="3cqZAk">
+                <node concept="2OqwBi" id="2kUkCz5iZF1" role="3uHU7w">
+                  <node concept="37vLTw" id="2kUkCz5iYve" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4FgSVMszurY" resolve="systemName" />
+                  </node>
+                  <node concept="liA8E" id="2kUkCz5j2dx" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.charAt(int)" resolve="charAt" />
+                    <node concept="3cmrfG" id="2kUkCz5j4Di" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="2kUkCz5iTnO" role="3uHU7B">
+                  <node concept="37vLTw" id="4IVaCyzF86W" role="3uHU7B">
+                    <ref role="3cqZAo" node="4nH4LOEF6ZU" resolve="deviceName" />
+                  </node>
+                  <node concept="Xl_RD" id="2kUkCz5iTrP" role="3uHU7w">
+                    <property role="Xl_RC" value=" " />
+                  </node>
                 </node>
               </node>
             </node>
-            <node concept="3cpWs3" id="2kUkCz5iTnO" role="3uHU7B">
-              <node concept="37vLTw" id="4IVaCyzF86W" role="3uHU7B">
-                <ref role="3cqZAo" node="4nH4LOEF6ZU" resolve="deviceName" />
+          </node>
+          <node concept="22lmx$" id="4IOmh7strYw" role="3clFbw">
+            <node concept="3clFbC" id="4IOmh7stdiW" role="3uHU7B">
+              <node concept="37vLTw" id="4IOmh7stbtS" role="3uHU7B">
+                <ref role="3cqZAo" node="4FgSVMtsiFK" resolve="platform" />
               </node>
-              <node concept="Xl_RD" id="2kUkCz5iTrP" role="3uHU7w">
-                <property role="Xl_RC" value=" " />
+              <node concept="Rm8GO" id="4IOmh7strH0" role="3uHU7w">
+                <ref role="Rm8GQ" to="28jr:4FgSVMpn0wp" resolve="MOWARE_H2" />
+                <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
               </node>
             </node>
+            <node concept="3clFbC" id="4IOmh7stuqG" role="3uHU7w">
+              <node concept="37vLTw" id="4IOmh7stuqH" role="3uHU7B">
+                <ref role="3cqZAo" node="4FgSVMtsiFK" resolve="platform" />
+              </node>
+              <node concept="Rm8GO" id="4IOmh7stvuT" role="3uHU7w">
+                <ref role="Rm8GQ" to="28jr:4FgSVMpn0yT" resolve="MOWARE_VAADIN" />
+                <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4IOmh7stBAB" role="3cqZAp">
+          <node concept="37vLTw" id="4IOmh7stEa$" role="3cqZAk">
+            <ref role="3cqZAo" node="4nH4LOEF6ZU" resolve="deviceName" />
           </node>
         </node>
       </node>
