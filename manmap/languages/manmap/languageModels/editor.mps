@@ -2910,7 +2910,7 @@
           <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
         </node>
         <node concept="3F1sOY" id="3p$I2HGjbsO" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;repository&gt;" />
+          <property role="1$x2rV" value="&lt;none&gt;" />
           <ref role="1NtTu8" to="tpee:gXzkM_H" resolve="superclass" />
           <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
         </node>

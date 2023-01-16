@@ -5669,24 +5669,35 @@
           </node>
         </node>
         <node concept="3clFbS" id="3LvdZPf0rIC" role="3clFbx">
+          <node concept="3cpWs8" id="1wJav8tM5bi" role="3cqZAp">
+            <node concept="3cpWsn" id="1wJav8tM5bl" role="3cpWs9">
+              <property role="TrG5h" value="ct" />
+              <node concept="3Tqbb2" id="1wJav8tM5bg" role="1tU5fm">
+                <ref role="ehGHo" to="tpee:g7uibYu" resolve="ClassifierType" />
+              </node>
+              <node concept="1PxgMI" id="3LvdZPf0u4V" role="33vP2m">
+                <node concept="chp4Y" id="3LvdZPf0u9V" role="3oSUPX">
+                  <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                </node>
+                <node concept="2OqwBi" id="3LvdZPf0t0H" role="1m5AlR">
+                  <node concept="1YBJjd" id="3LvdZPf0t0u" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3LvdZPf0rIy" resolve="repository" />
+                  </node>
+                  <node concept="3TrEf2" id="3LvdZPf0tR$" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbJ" id="3LvdZPf0t0i" role="3cqZAp">
             <node concept="2OqwBi" id="3LvdZPf0uLI" role="3clFbw">
               <node concept="2OqwBi" id="3LvdZPf0uar" role="2Oq$k0">
-                <node concept="1PxgMI" id="3LvdZPf0u4V" role="2Oq$k0">
-                  <node concept="chp4Y" id="3LvdZPf0u9V" role="3oSUPX">
-                    <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
-                  </node>
-                  <node concept="2OqwBi" id="3LvdZPf0t0H" role="1m5AlR">
-                    <node concept="1YBJjd" id="3LvdZPf0t0u" role="2Oq$k0">
-                      <ref role="1YBMHb" node="3LvdZPf0rIy" resolve="repository" />
-                    </node>
-                    <node concept="3TrEf2" id="3LvdZPf0tR$" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="3TrEf2" id="3LvdZPf0uqg" role="2OqNvi">
                   <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                </node>
+                <node concept="37vLTw" id="1wJav8tM5qb" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1wJav8tM5bl" resolve="ct" />
                 </node>
               </node>
               <node concept="1mIQ4w" id="3LvdZPf0zNH" role="2OqNvi">
@@ -5695,7 +5706,39 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbS" id="3LvdZPf0t0k" role="3clFbx" />
+            <node concept="3clFbS" id="3LvdZPf0t0k" role="3clFbx">
+              <node concept="3clFbJ" id="1wJav8tM3jm" role="3cqZAp">
+                <node concept="3clFbS" id="1wJav8tM3jo" role="3clFbx">
+                  <node concept="2MkqsV" id="1wJav8tM7ZF" role="3cqZAp">
+                    <node concept="Xl_RD" id="1wJav8tM7ZO" role="2MkJ7o">
+                      <property role="Xl_RC" value="A test repository can only overwrite none-test repositories." />
+                    </node>
+                    <node concept="1YBJjd" id="1wJav8tM81q" role="1urrMF">
+                      <ref role="1YBMHb" node="3LvdZPf0rIy" resolve="repository" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1wJav8tM739" role="3clFbw">
+                  <node concept="1PxgMI" id="1wJav8tM6tK" role="2Oq$k0">
+                    <node concept="chp4Y" id="1wJav8tM6z5" role="3oSUPX">
+                      <ref role="cht4Q" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+                    </node>
+                    <node concept="2OqwBi" id="1wJav8tM5TT" role="1m5AlR">
+                      <node concept="37vLTw" id="1wJav8tM5_B" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1wJav8tM5bl" resolve="ct" />
+                      </node>
+                      <node concept="3TrEf2" id="1wJav8tM695" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="1wJav8tM7Zr" role="2OqNvi">
+                    <ref role="37wK5l" to="lfe3:5_V0ApC0ZLz" resolve="isTestImplementation" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1wJav8tM3jc" role="3cqZAp" />
+            </node>
             <node concept="9aQIb" id="3LvdZPf0zY_" role="9aQIa">
               <node concept="3clFbS" id="3LvdZPf0zYA" role="9aQI4">
                 <node concept="2MkqsV" id="3LvdZPf0$9Q" role="3cqZAp">
