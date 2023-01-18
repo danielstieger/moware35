@@ -17983,26 +17983,6 @@
     <node concept="3clFb_" id="3xHfuIXoC$G" role="jymVt">
       <property role="TrG5h" value="adjustUserInputText" />
       <node concept="3clFbS" id="3xHfuIXoC$H" role="3clF47">
-        <node concept="3clFbF" id="3xHfuIXpQbC" role="3cqZAp">
-          <node concept="2OqwBi" id="3xHfuIXpQb_" role="3clFbG">
-            <node concept="10M0yZ" id="3xHfuIXpQbA" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="3xHfuIXpQbB" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="3xHfuIXpV6A" role="37wK5m">
-                <node concept="37vLTw" id="3xHfuIXpW4_" role="3uHU7w">
-                  <ref role="3cqZAo" node="3xHfuIXoC$V" resolve="txt" />
-                </node>
-                <node concept="Xl_RD" id="3xHfuIXpQer" role="3uHU7B">
-                  <property role="Xl_RC" value="&gt;&gt; adjustUserInputText " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3xHfuIXr8gG" role="3cqZAp" />
         <node concept="3clFbJ" id="3xHfuIXoSXA" role="3cqZAp">
           <node concept="3clFbS" id="3xHfuIXoSXC" role="3clFbx">
             <node concept="3cpWs8" id="3xHfuIXoSQK" role="3cqZAp">
