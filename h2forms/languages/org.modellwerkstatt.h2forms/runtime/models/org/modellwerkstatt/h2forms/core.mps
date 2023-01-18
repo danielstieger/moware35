@@ -378,7 +378,7 @@
       </node>
     </node>
     <node concept="Wx3nA" id="Gy0DA$Zk4e" role="jymVt">
-      <property role="TrG5h" value="KILL_AND_RELOAD_SESSION_ON_CHANGING_IP" />
+      <property role="TrG5h" value="KILL_AND_RELOAD_SESSION_ON_CHANGING_NETWORK" />
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="Gy0DA$ZGVm" role="1tU5fm" />
       <node concept="3Tm6S6" id="Gy0DA$Zk4g" role="1B3o_S" />
@@ -3568,7 +3568,7 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="kA5KhwbL4I" role="3uHU7w">
-                  <ref role="3cqZAo" node="Gy0DA$Zk4e" resolve="KILL_AND_RELOAD_SESSION_ON_CHANGING_IP" />
+                  <ref role="3cqZAo" node="Gy0DA$Zk4e" resolve="KILL_AND_RELOAD_SESSION_ON_CHANGING_NETWORK" />
                 </node>
               </node>
             </node>

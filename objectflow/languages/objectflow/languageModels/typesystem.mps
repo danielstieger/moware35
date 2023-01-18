@@ -344,6 +344,10 @@
       <concept id="1139867745658" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithNewOperation" flags="nn" index="1_qnLN">
         <reference id="1139867957129" name="concept" index="1_rbq0" />
       </concept>
+      <concept id="6407023681583040688" name="jetbrains.mps.lang.smodel.structure.AllAttributeQualifier" flags="ng" index="3CFTEB" />
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
+      </concept>
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
@@ -3713,7 +3717,7 @@
         <node concept="3clFbS" id="75R75qdo8KG" role="3clFbx">
           <node concept="2MkqsV" id="75R75qdo8LF" role="3cqZAp">
             <node concept="Xl_RD" id="75R75qdo8LI" role="2MkJ7o">
-              <property role="Xl_RC" value="Modelrepository checkin in final_ok does no longer need a sessionOperationAdd." />
+              <property role="Xl_RC" value="This operation is already added to session ops. A 'session operation add' can not be applied." />
             </node>
             <node concept="1YBJjd" id="75R75qdo8LJ" role="1urrMF">
               <ref role="1YBMHb" node="Kou8Lej2ts" resolve="so" />
@@ -15588,6 +15592,94 @@
     <node concept="1YaCAy" id="3LvdZPf0$fR" role="1YuTPh">
       <property role="TrG5h" value="service" />
       <ref role="1YaFvo" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2iOrfa3n6bB">
+    <property role="TrG5h" value="check_SimdApiMethod" />
+    <property role="3GE5qa" value="Service" />
+    <property role="1$Xk0j" value="true" />
+    <node concept="3clFbS" id="2iOrfa3n6bC" role="18ibNy">
+      <node concept="3cpWs8" id="2iOrfa3nYLT" role="3cqZAp">
+        <node concept="3cpWsn" id="2iOrfa3nYLW" role="3cpWs9">
+          <property role="TrG5h" value="hasComment" />
+          <node concept="10P_77" id="2iOrfa3nYLR" role="1tU5fm" />
+          <node concept="2OqwBi" id="2iOrfa3o0Eh" role="33vP2m">
+            <node concept="2OqwBi" id="2iOrfa3nafB" role="2Oq$k0">
+              <node concept="2OqwBi" id="2iOrfa3nafC" role="2Oq$k0">
+                <node concept="1YBJjd" id="2iOrfa3nafD" role="2Oq$k0">
+                  <ref role="1YBMHb" node="2iOrfa3n6bE" resolve="simdApiMethod" />
+                </node>
+                <node concept="2Xjw5R" id="2iOrfa3nafE" role="2OqNvi">
+                  <node concept="1xMEDy" id="2iOrfa3nafF" role="1xVPHs">
+                    <node concept="chp4Y" id="2iOrfa3nafG" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:6RAFKVMg6pR" resolve="ServiceInstanceMethodDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3CFZ6_" id="2iOrfa3nafH" role="2OqNvi">
+                <node concept="3CFTEB" id="2iOrfa3nafI" role="3CFYIz" />
+              </node>
+            </node>
+            <node concept="2HwmR7" id="2iOrfa3o1XW" role="2OqNvi">
+              <node concept="1bVj0M" id="2iOrfa3o1XY" role="23t8la">
+                <node concept="3clFbS" id="2iOrfa3o1XZ" role="1bW5cS">
+                  <node concept="3clFbF" id="2iOrfa3o2bY" role="3cqZAp">
+                    <node concept="2OqwBi" id="2iOrfa3o3v9" role="3clFbG">
+                      <node concept="2OqwBi" id="2iOrfa3o2An" role="2Oq$k0">
+                        <node concept="1eOMI4" id="2iOrfa3o2zH" role="2Oq$k0">
+                          <node concept="3cpWs3" id="2iOrfa3o2zI" role="1eOMHV">
+                            <node concept="37vLTw" id="2iOrfa3o2zJ" role="3uHU7w">
+                              <ref role="3cqZAo" node="2iOrfa3o1Y0" resolve="it" />
+                            </node>
+                            <node concept="Xl_RD" id="2iOrfa3o2zK" role="3uHU7B">
+                              <property role="Xl_RC" value="" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2iOrfa3o33U" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2iOrfa3o3NA" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                        <node concept="Xl_RD" id="2iOrfa3o3RS" role="37wK5m">
+                          <property role="Xl_RC" value="doc" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="2iOrfa3o1Y0" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="2iOrfa3o1Y1" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="2iOrfa3o4ig" role="3cqZAp">
+        <node concept="3clFbS" id="2iOrfa3o4ii" role="3clFbx">
+          <node concept="2MkqsV" id="2iOrfa3o4jM" role="3cqZAp">
+            <node concept="Xl_RD" id="2iOrfa3o4k1" role="2MkJ7o">
+              <property role="Xl_RC" value="Please import the javadoc language and write a documentation comment for this service method." />
+            </node>
+            <node concept="1YBJjd" id="2iOrfa3o4tl" role="1urrMF">
+              <ref role="1YBMHb" node="2iOrfa3n6bE" resolve="simdApiMethod" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="2iOrfa3o4j7" role="3clFbw">
+          <node concept="37vLTw" id="2iOrfa3o4jn" role="3fr31v">
+            <ref role="3cqZAo" node="2iOrfa3nYLW" resolve="hasComment" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2iOrfa3n6bE" role="1YuTPh">
+      <property role="TrG5h" value="simdApiMethod" />
+      <ref role="1YaFvo" to="un0u:2iOrfa3gkQX" resolve="SimdApiMethod" />
     </node>
   </node>
 </model>

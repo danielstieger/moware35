@@ -3400,7 +3400,7 @@
       <property role="20kJfa" value="options" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="1141552953265942898" />
-      <ref role="20lvS9" node="ZnB5NvHJ5L" resolve="IServiceInstanceMethodOption" />
+      <ref role="20lvS9" node="ZnB5NvHJ5L" resolve="ISimdOption" />
     </node>
     <node concept="PrWs8" id="6RAFKVMF6tV" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -3449,7 +3449,7 @@
   </node>
   <node concept="PlHQZ" id="ZnB5NvHJ5L">
     <property role="3GE5qa" value="Service" />
-    <property role="TrG5h" value="IServiceInstanceMethodOption" />
+    <property role="TrG5h" value="ISimdOption" />
     <property role="EcuMT" value="1141552953265942897" />
   </node>
   <node concept="1TIwiD" id="150ifyc27tm">
@@ -5168,6 +5168,26 @@
     </node>
     <node concept="PrWs8" id="3p$I2HGvk0L" role="PzmwI">
       <ref role="PrY4T" node="q_zDmI5Z8G" resolve="IOFXConfigElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2iOrfa3gkQX">
+    <property role="EcuMT" value="2644858670013304253" />
+    <property role="3GE5qa" value="Service" />
+    <property role="TrG5h" value="SimdApiMethod" />
+    <property role="34LRSv" value="API_METHOD" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2iOrfa3gkR0" role="PzmwI">
+      <ref role="PrY4T" node="ZnB5NvHJ5L" resolve="ISimdOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2iOrfa3gkR2">
+    <property role="EcuMT" value="2644858670013304258" />
+    <property role="3GE5qa" value="Service" />
+    <property role="TrG5h" value="SimdToSessionOps" />
+    <property role="34LRSv" value="TO_SESSION_OPS" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2iOrfa3glbx" role="PzmwI">
+      <ref role="PrY4T" node="ZnB5NvHJ5L" resolve="ISimdOption" />
     </node>
   </node>
 </model>

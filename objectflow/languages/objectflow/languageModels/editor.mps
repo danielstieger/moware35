@@ -307,6 +307,7 @@
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
         <reference id="1139959269582" name="actionMap" index="1ERwB7" />
+        <child id="1198512004906" name="focusPolicyApplicable" index="cStSX" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
         <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
         <child id="4323500428121274054" name="id" index="2SqHTX" />
@@ -1398,7 +1399,7 @@
                 <node concept="2OqwBi" id="6GJ49gS1nan" role="3clFbw">
                   <node concept="pncrf" id="6GJ49gS1n4S" role="2Oq$k0" />
                   <node concept="2qgKlT" id="6GJ49gS1nn4" role="2OqNvi">
-                    <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOk" />
+                    <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOkOrServiceASO" />
                   </node>
                 </node>
               </node>
@@ -1470,7 +1471,17 @@
         <node concept="1sVBvm" id="6S08D5JofmR" role="1sWHZn">
           <node concept="3F0A7n" id="6S08D5JofmT" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="pkWqt" id="2iOrfa3bbCB" role="cStSX">
+              <node concept="3clFbS" id="2iOrfa3bbCC" role="2VODD2">
+                <node concept="3clFbF" id="2iOrfa3bbGB" role="3cqZAp">
+                  <node concept="3clFbT" id="2iOrfa3bbGA" role="3clFbG">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -8668,11 +8679,15 @@
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         </node>
         <node concept="3F2HdR" id="ZnB5NvHJ5Q" role="3EZMnx">
+          <property role="2czwfO" value="," />
           <ref role="1NtTu8" to="un0u:ZnB5NvHJ5M" resolve="options" />
           <node concept="l2Vlx" id="ZnB5NvHJ5T" role="2czzBx" />
           <node concept="3F0ifn" id="ZnB5NvHJhH" role="2czzBI">
             <property role="ilYzB" value="&lt;options&gt;" />
             <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+            <node concept="VPxyj" id="2iOrfa3jL8F" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
           <node concept="ljvvj" id="ZnB5NvOZmS" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -8685,6 +8700,9 @@
             <property role="3F0ifm" value="" />
             <property role="ilYzB" value="&lt;preconditions&gt;" />
             <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+            <node concept="VPxyj" id="2iOrfa3lr8D" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
         </node>
         <node concept="l2Vlx" id="ZnB5NvKBxR" role="2iSdaV" />
@@ -12623,7 +12641,7 @@
                 <node concept="2OqwBi" id="I_GM29Ifdd" role="3clFbw">
                   <node concept="pncrf" id="I_GM29Ifde" role="2Oq$k0" />
                   <node concept="2qgKlT" id="I_GM29Ifdf" role="2OqNvi">
-                    <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOk" />
+                    <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOkOrServiceASO" />
                   </node>
                 </node>
               </node>
@@ -13407,6 +13425,14 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2iOrfa3gkQQ">
+    <property role="3GE5qa" value="Service" />
+    <ref role="1XX52x" to="un0u:ZnB5NvHJ5L" resolve="ISimdOption" />
+    <node concept="PMmxH" id="2iOrfa3gkQV" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
     </node>
   </node>
 </model>

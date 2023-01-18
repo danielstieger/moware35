@@ -2779,7 +2779,7 @@
               <node concept="2OqwBi" id="75R75qdpe4g" role="33vP2m">
                 <node concept="30H73N" id="75R75qdpe4h" role="2Oq$k0" />
                 <node concept="2qgKlT" id="75R75qdpe4i" role="2OqNvi">
-                  <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOk" />
+                  <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOkOrServiceASO" />
                 </node>
               </node>
             </node>
@@ -14485,39 +14485,33 @@
                                 <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
                                 <node concept="3zFVjK" id="75R75qdpe9q" role="3zH0cK">
                                   <node concept="3clFbS" id="75R75qdpe9r" role="2VODD2">
+                                    <node concept="3clFbH" id="2iOrfa3zl5N" role="3cqZAp" />
                                     <node concept="3clFbF" id="75R75qdpe9s" role="3cqZAp">
                                       <node concept="3cpWs3" id="75R75qdpe8r" role="3clFbG">
-                                        <node concept="2OqwBi" id="75R75qdpe9i" role="3uHU7w">
-                                          <node concept="2OqwBi" id="75R75qdpe8N" role="2Oq$k0">
-                                            <node concept="30H73N" id="75R75qdpe8u" role="2Oq$k0" />
-                                            <node concept="2Xjw5R" id="75R75qdpe8T" role="2OqNvi">
-                                              <node concept="1xMEDy" id="75R75qdpe8U" role="1xVPHs">
-                                                <node concept="chp4Y" id="75R75qdpe8X" role="ri$Ld">
-                                                  <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
-                                                </node>
-                                              </node>
-                                            </node>
-                                          </node>
-                                          <node concept="2qgKlT" id="75R75qdpe9o" role="2OqNvi">
-                                            <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
-                                          </node>
+                                        <node concept="2OqwBi" id="75R75qdpe8N" role="3uHU7w">
+                                          <node concept="30H73N" id="75R75qdpe8u" role="2Oq$k0" />
+                                          <node concept="2Rxl7S" id="2iOrfa3zmg7" role="2OqNvi" />
                                         </node>
                                         <node concept="3cpWs3" id="75R75qdpe83" role="3uHU7B">
                                           <node concept="3cpWs3" id="75R75qdpe6O" role="3uHU7B">
                                             <node concept="3cpWs3" id="75R75qdpe6s" role="3uHU7B">
                                               <node concept="3cpWs3" id="75R75qdpe4R" role="3uHU7B">
                                                 <node concept="Xl_RD" id="75R75qdpe4y" role="3uHU7B">
-                                                  <property role="Xl_RC" value="Checkin " />
+                                                  <property role="Xl_RC" value="Operation call to " />
                                                 </node>
-                                                <node concept="2OqwBi" id="75R75qdpe5H" role="3uHU7w">
-                                                  <node concept="2OqwBi" id="75R75qdpe5f" role="2Oq$k0">
-                                                    <node concept="30H73N" id="75R75qdpe4U" role="2Oq$k0" />
-                                                    <node concept="3TrEf2" id="75R75qdpe5n" role="2OqNvi">
-                                                      <ref role="3Tt5mk" to="un0u:6S08D5JofmO" resolve="runtimeHandledObject" />
+                                                <node concept="2YIFZM" id="2iOrfa3zn_D" role="3uHU7w">
+                                                  <ref role="37wK5l" to="28jr:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
+                                                  <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                                                  <node concept="2OqwBi" id="75R75qdpe5H" role="37wK5m">
+                                                    <node concept="2OqwBi" id="75R75qdpe5f" role="2Oq$k0">
+                                                      <node concept="30H73N" id="75R75qdpe4U" role="2Oq$k0" />
+                                                      <node concept="3TrEf2" id="75R75qdpe5n" role="2OqNvi">
+                                                        <ref role="3Tt5mk" to="un0u:6S08D5JofmO" resolve="runtimeHandledObject" />
+                                                      </node>
                                                     </node>
-                                                  </node>
-                                                  <node concept="2qgKlT" id="75R75qdpe5N" role="2OqNvi">
-                                                    <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                                                    <node concept="2qgKlT" id="75R75qdpe5N" role="2OqNvi">
+                                                      <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                                                    </node>
                                                   </node>
                                                 </node>
                                               </node>
@@ -14538,7 +14532,7 @@
                                             </node>
                                           </node>
                                           <node concept="Xl_RD" id="75R75qdpe86" role="3uHU7w">
-                                            <property role="Xl_RC" value=" in FINAL_OK of command " />
+                                            <property role="Xl_RC" value="() in " />
                                           </node>
                                         </node>
                                       </node>
