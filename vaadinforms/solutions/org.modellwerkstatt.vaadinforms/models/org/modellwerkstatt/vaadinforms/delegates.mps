@@ -3693,8 +3693,18 @@
                             </node>
                           </node>
                           <node concept="1Wc70l" id="6SMV5Xi$cvm" role="3uHU7B">
-                            <node concept="37vLTw" id="6SMV5XizYvz" role="3uHU7B">
-                              <ref role="3cqZAo" node="6SMV5XizBNz" resolve="isseUpdateConclusion" />
+                            <node concept="1Wc70l" id="2iOrfa31xLX" role="3uHU7B">
+                              <node concept="2OqwBi" id="2iOrfa31_QY" role="3uHU7B">
+                                <node concept="37vLTw" id="2iOrfa31zeY" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
+                                </node>
+                                <node concept="liA8E" id="2iOrfa31BQN" role="2OqNvi">
+                                  <ref role="37wK5l" to="waq:~AbstractComponent.isEnabled()" resolve="isEnabled" />
+                                </node>
+                              </node>
+                              <node concept="37vLTw" id="6SMV5XizYvz" role="3uHU7w">
+                                <ref role="3cqZAo" node="6SMV5XizBNz" resolve="isseUpdateConclusion" />
+                              </node>
                             </node>
                             <node concept="3fqX7Q" id="5yARNIz5HrC" role="3uHU7w">
                               <node concept="2OqwBi" id="5yARNIz5HrE" role="3fr31v">
