@@ -134,7 +134,8 @@ function serverClockUpdate() {
     var correctServerTime = localTime - serverTimeMillisOffset;
 
     var date = new Date(correctServerTime);
-    $('#serverClockDiv').innerHTML = date.getHours() + ":" + date.getMinutes();
+
+    $('#serverClockDiv').innerHTML = date.getHours() + (date.getMinutes() < 10 ? ":0": ":") + date.getMinutes();
     serverClockUpdateId = setTimeout(serverClockUpdate, 5000);
 }
 

@@ -45387,8 +45387,18 @@
                     <node concept="37vLTw" id="4FgSVMsQGQF" role="37wK5m">
                       <ref role="3cqZAo" node="4FgSVMsQu4B" resolve="systemName" />
                     </node>
-                    <node concept="Xl_RD" id="4FgSVMsQGQW" role="37wK5m">
-                      <property role="Xl_RC" value="User not logged in" />
+                    <node concept="3cpWs3" id="jTPiSNYNRI" role="37wK5m">
+                      <node concept="Xl_RD" id="jTPiSNYNTJ" role="3uHU7w">
+                        <property role="Xl_RC" value="' not logged in" />
+                      </node>
+                      <node concept="3cpWs3" id="jTPiSNYCXf" role="3uHU7B">
+                        <node concept="Xl_RD" id="4FgSVMsQGQW" role="3uHU7B">
+                          <property role="Xl_RC" value="User '" />
+                        </node>
+                        <node concept="37vLTw" id="jTPiSNYNoW" role="3uHU7w">
+                          <ref role="3cqZAo" node="vsIEjNuDgI" resolve="username" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
