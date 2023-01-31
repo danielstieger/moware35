@@ -210,6 +210,31 @@
 	</target>
 	
 	
+	<target name="turkuforms">
+		<echo>Copying moware.turkuforms dependencies to ${mowareWorkDir}/WEB-INF/lib   
+                                        and ${mowareWorkDir}/static
+                                        favicon taken from ${appFavicon} </echo>
+		<mkdir dir="${mowareWorkDir}/META-INF"/>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
+
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
+
+			
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />
+
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
+		</copy>
+		
+		
+		<!-- change favicon with local one -->		
+	</target>
 	
 	
 	
