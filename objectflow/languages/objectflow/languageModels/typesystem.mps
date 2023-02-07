@@ -3734,7 +3734,7 @@
             </node>
           </node>
           <node concept="2qgKlT" id="4vUcH_07C5$" role="2OqNvi">
-            <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOk" />
+            <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOkOrServiceASO" />
           </node>
         </node>
       </node>
@@ -10786,6 +10786,7 @@
     <property role="TrG5h" value="check_OFXRunCmdPage" />
     <property role="3GE5qa" value="ProdCons" />
     <node concept="3clFbS" id="2wQSPIfY2ij" role="18ibNy">
+      <node concept="3clFbH" id="OYEfo81q$K" role="3cqZAp" />
       <node concept="3clFbJ" id="2wQSPIfY3pi" role="3cqZAp">
         <node concept="3clFbS" id="2wQSPIfY3pk" role="3clFbx">
           <node concept="3cpWs8" id="2wQSPIfY2QK" role="3cqZAp">
@@ -10851,14 +10852,14 @@
                   <node concept="Xl_RD" id="2wQSPIfY5j3" role="2MkJ7o">
                     <property role="Xl_RC" value="This is not a search cmd. You should provide a conclusion here." />
                   </node>
-                  <node concept="1YBJjd" id="2wQSPIfY5lX" role="1urrMF">
+                  <node concept="1YBJjd" id="OYEfo7POae" role="1urrMF">
                     <ref role="1YBMHb" node="2wQSPIfY2il" resolve="ofxRunCmdPage" />
                   </node>
                 </node>
+                <node concept="3clFbH" id="OYEfo8dyrJ" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="2wQSPIfY3pj" role="3cqZAp" />
         </node>
         <node concept="2OqwBi" id="2wQSPIfY3K_" role="3clFbw">
           <node concept="2OqwBi" id="2wQSPIfY3ts" role="2Oq$k0">

@@ -29801,7 +29801,6 @@
       </node>
       <node concept="3Tmbuc" id="2ppo89mftjz" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="4FgSVMsio1f" role="jymVt" />
     <node concept="312cEg" id="2ppo89mf0K9" role="jymVt">
       <property role="TrG5h" value="appToolkitWindow" />
       <node concept="3Tmbuc" id="2ppo89mf0Ka" role="1B3o_S" />

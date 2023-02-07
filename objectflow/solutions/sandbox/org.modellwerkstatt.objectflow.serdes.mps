@@ -1344,7 +1344,7 @@
         <node concept="3cpWs6" id="1gQHsZA7uPJ" role="3cqZAp">
           <node concept="2ShNRf" id="1gQHsZA7uQJ" role="3cqZAk">
             <node concept="1pGfFk" id="1gQHsZA7wkx" role="2ShVmc">
-              <ref role="37wK5l" to="kiw1:7_PeuXEmcn6" resolve="JackySerdes" />
+              <ref role="37wK5l" to="kiw1:7_PeuXEmcn6" resolve="JackyGraphSerdes" />
               <node concept="16syzq" id="1gQHsZA7wuJ" role="1pMfVU">
                 <ref role="16sUi3" node="1gQHsZ_YoH8" resolve="T" />
               </node>
@@ -1390,7 +1390,7 @@
         <node concept="3cpWs6" id="4ztiY$CPjV8" role="3cqZAp">
           <node concept="2ShNRf" id="4ztiY$CPjV9" role="3cqZAk">
             <node concept="1pGfFk" id="4ztiY$CPjVa" role="2ShVmc">
-              <ref role="37wK5l" to="kiw1:4ztiY$CJRAQ" resolve="XmlSerdes" />
+              <ref role="37wK5l" to="kiw1:4ztiY$CJRAQ" resolve="XmlGraphSerdes" />
               <node concept="16syzq" id="4ztiY$CPjVb" role="1pMfVU">
                 <ref role="16sUi3" node="4ztiY$CPjVl" resolve="T" />
               </node>
