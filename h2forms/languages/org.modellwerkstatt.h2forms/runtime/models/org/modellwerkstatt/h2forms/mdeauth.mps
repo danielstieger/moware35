@@ -1261,7 +1261,7 @@
               <node concept="3cpWs3" id="5F7kbaBzkOQ" role="3uHU7B">
                 <node concept="3cpWs3" id="5F7kbaBzkLh" role="3uHU7B">
                   <node concept="Xl_RD" id="5F7kbaBzkIr" role="3uHU7B">
-                    <property role="Xl_RC" value="Chcking login for user " />
+                    <property role="Xl_RC" value="Checking login for user " />
                   </node>
                   <node concept="37vLTw" id="5F7kbaBzkN5" role="3uHU7w">
                     <ref role="3cqZAo" node="2f$GH$eemXK" resolve="loginUserParamName" />
@@ -1505,6 +1505,37 @@
           </node>
         </node>
         <node concept="3clFbH" id="2kUkCz5uj7o" role="3cqZAp" />
+        <node concept="3SKdUt" id="7LI3eqpoO2D" role="3cqZAp">
+          <node concept="1PaTwC" id="7LI3eqpoO2E" role="1aUNEU">
+            <node concept="3oM_SD" id="7LI3eqpoO8K" role="1PaTwD">
+              <property role="3oM_SC" value="just" />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoO8M" role="1PaTwD">
+              <property role="3oM_SC" value="display" />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoO8P" role="1PaTwD">
+              <property role="3oM_SC" value="error" />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoO91" role="1PaTwD">
+              <property role="3oM_SC" value="msg," />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoO96" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoO9k" role="1PaTwD">
+              <property role="3oM_SC" value="login," />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoO9z" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoO9N" role="1PaTwD">
+              <property role="3oM_SC" value="app" />
+            </node>
+            <node concept="3oM_SD" id="7LI3eqpoOa4" role="1PaTwD">
+              <property role="3oM_SC" value="tiles" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2462lDSomzv" role="3cqZAp">
           <node concept="2OqwBi" id="2462lDSomMk" role="3clFbG">
             <node concept="2OqwBi" id="2462lDSomC3" role="2Oq$k0">
@@ -1517,8 +1548,8 @@
             </node>
             <node concept="liA8E" id="2462lDSomX8" role="2OqNvi">
               <ref role="37wK5l" to="tea8:57ov2SAcmz" resolve="handleSpecialPageResponse" />
-              <node concept="Rm8GO" id="6PWRVmxovdG" role="37wK5m">
-                <ref role="Rm8GQ" to="tea8:57ov2SAcjG" resolve="LOGIN_PAGE" />
+              <node concept="Rm8GO" id="7LI3eqpoL_4" role="37wK5m">
+                <ref role="Rm8GQ" to="tea8:6PWRVmxoq9o" resolve="LANDING_PAGE" />
                 <ref role="1Px2BO" to="tea8:57ov2SAcdJ" resolve="IH2FormsTemplateRenderer.SpecialPage" />
               </node>
               <node concept="37vLTw" id="2462lDSon2m" role="37wK5m">
