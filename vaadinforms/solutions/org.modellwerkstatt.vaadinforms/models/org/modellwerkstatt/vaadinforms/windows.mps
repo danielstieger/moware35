@@ -18820,6 +18820,55 @@
                     </node>
                     <node concept="1DcWWT" id="3fsP_teRhIO" role="3cqZAp">
                       <node concept="3clFbS" id="3fsP_teRhIP" role="2LFqv$">
+                        <node concept="3cpWs8" id="OYEfo8t85N" role="3cqZAp">
+                          <node concept="3cpWsn" id="OYEfo8t85Q" role="3cpWs9">
+                            <property role="TrG5h" value="propName" />
+                            <node concept="17QB3L" id="OYEfo8t85L" role="1tU5fm" />
+                            <node concept="2OqwBi" id="OYEfo8t9ey" role="33vP2m">
+                              <node concept="37vLTw" id="OYEfo8t8YE" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3fsP_teRhJ9" resolve="col" />
+                              </node>
+                              <node concept="2OwXpG" id="OYEfo8t9hW" role="2OqNvi">
+                                <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3cpWs8" id="OYEfo8tc20" role="3cqZAp">
+                          <node concept="3cpWsn" id="OYEfo8tc21" role="3cpWs9">
+                            <property role="TrG5h" value="prop" />
+                            <node concept="3uibUv" id="OYEfo8tc22" role="1tU5fm">
+                              <ref role="3uigEE" to="3di0:~Property" resolve="Property" />
+                            </node>
+                            <node concept="2OqwBi" id="3fsP_teRhIS" role="33vP2m">
+                              <node concept="37vLTw" id="3fsP_teRhIT" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3fsP_teRkaL" resolve="item" />
+                              </node>
+                              <node concept="liA8E" id="3fsP_teRhIU" role="2OqNvi">
+                                <ref role="37wK5l" to="3di0:~Item.getItemProperty(java.lang.Object)" resolve="getItemProperty" />
+                                <node concept="37vLTw" id="OYEfo8tmwl" role="37wK5m">
+                                  <ref role="3cqZAo" node="OYEfo8t85Q" resolve="propName" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3cpWs8" id="OYEfo8tnhh" role="3cqZAp">
+                          <node concept="3cpWsn" id="OYEfo8tnhk" role="3cpWs9">
+                            <property role="TrG5h" value="var" />
+                            <node concept="3uibUv" id="OYEfo8txqq" role="1tU5fm">
+                              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                            </node>
+                            <node concept="2OqwBi" id="OYEfo8tooZ" role="33vP2m">
+                              <node concept="37vLTw" id="OYEfo8tojN" role="2Oq$k0">
+                                <ref role="3cqZAo" node="OYEfo8tc21" resolve="prop" />
+                              </node>
+                              <node concept="liA8E" id="OYEfo8toC4" role="2OqNvi">
+                                <ref role="37wK5l" to="3di0:~Property.getValue()" resolve="getValue" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3clFbF" id="3fsP_teRTw_" role="3cqZAp">
                           <node concept="2OqwBi" id="3fsP_teRTMf" role="3clFbG">
                             <node concept="37vLTw" id="3fsP_teRTwz" role="2Oq$k0">
@@ -18827,26 +18876,8 @@
                             </node>
                             <node concept="liA8E" id="3fsP_teRTUo" role="2OqNvi">
                               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.Object)" resolve="append" />
-                              <node concept="2OqwBi" id="3fsP_teRhIR" role="37wK5m">
-                                <node concept="2OqwBi" id="3fsP_teRhIS" role="2Oq$k0">
-                                  <node concept="37vLTw" id="3fsP_teRhIT" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="3fsP_teRkaL" resolve="item" />
-                                  </node>
-                                  <node concept="liA8E" id="3fsP_teRhIU" role="2OqNvi">
-                                    <ref role="37wK5l" to="3di0:~Item.getItemProperty(java.lang.Object)" resolve="getItemProperty" />
-                                    <node concept="2OqwBi" id="3fsP_teRhIV" role="37wK5m">
-                                      <node concept="37vLTw" id="3fsP_teRhIW" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="3fsP_teRhJ9" resolve="col" />
-                                      </node>
-                                      <node concept="2OwXpG" id="3fsP_teRhIX" role="2OqNvi">
-                                        <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="liA8E" id="3fsP_teRhIY" role="2OqNvi">
-                                  <ref role="37wK5l" to="3di0:~Property.getValue()" resolve="getValue" />
-                                </node>
+                              <node concept="37vLTw" id="OYEfo8tta9" role="37wK5m">
+                                <ref role="3cqZAo" node="OYEfo8tnhk" resolve="var" />
                               </node>
                             </node>
                           </node>
