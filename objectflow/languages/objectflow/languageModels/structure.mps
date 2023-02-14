@@ -5175,6 +5175,7 @@
     <property role="3GE5qa" value="Service" />
     <property role="TrG5h" value="SimdApiMethod" />
     <property role="34LRSv" value="API_METHOD" />
+    <property role="R4oN_" value="[ ]" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2iOrfa3gkR0" role="PzmwI">
       <ref role="PrY4T" node="ZnB5NvHJ5L" resolve="ISimdOption" />
@@ -5185,6 +5186,7 @@
     <property role="3GE5qa" value="Service" />
     <property role="TrG5h" value="SimdToSessionOps" />
     <property role="34LRSv" value="TO_SESSION_OPS" />
+    <property role="R4oN_" value="[no preconditions allowed]" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2iOrfa3glbx" role="PzmwI">
       <ref role="PrY4T" node="ZnB5NvHJ5L" resolve="ISimdOption" />

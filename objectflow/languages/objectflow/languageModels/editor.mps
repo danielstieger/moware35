@@ -2717,6 +2717,16 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="3F0ifn" id="6H5NCsq68hF" role="3EZMnx">
+          <property role="3F0ifm" value="  // throw away cmd session, cancel ops immediately in private transaction" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+          <node concept="pVoyu" id="6H5NCsq68hG" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="6H5NCsq68hH" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="3EZMnI" id="jDMPdc$lC4" role="3EZMnx">
           <node concept="VPM3Z" id="jDMPdc$lC6" role="3F10Kt">
             <property role="VOm3f" value="false" />
@@ -2761,10 +2771,6 @@
           </node>
           <node concept="lj46D" id="jDMPdc$lHU" role="3F10Kt">
             <property role="VOm3f" value="true" />
-          </node>
-          <node concept="3F0ifn" id="2c1OwJSSTxj" role="3EZMnx">
-            <property role="3F0ifm" value="  // cancel ops immediately in private transaction" />
-            <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
           </node>
         </node>
         <node concept="3F0ifn" id="1dqt$gJyR8K" role="3EZMnx">
