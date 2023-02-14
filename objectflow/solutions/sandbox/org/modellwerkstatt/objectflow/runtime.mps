@@ -44123,7 +44123,7 @@
       <node concept="17QB3L" id="3bICjcEe_cp" role="1tU5fm" />
       <node concept="3Tm6S6" id="Da7Dafe43A" role="1B3o_S" />
       <node concept="Xl_RD" id="76zKLSqSNOm" role="33vP2m">
-        <property role="Xl_RC" value="dd.MM.yyyy hh:mm:ss" />
+        <property role="Xl_RC" value="dd.MM.yyyy HH:mm:ss" />
       </node>
     </node>
     <node concept="3clFb_" id="76zKLSqYHKq" role="jymVt">
@@ -44163,7 +44163,7 @@
       <node concept="17QB3L" id="3bICjcEe_4D" role="1tU5fm" />
       <node concept="3Tm6S6" id="Da7Dafe2xh" role="1B3o_S" />
       <node concept="Xl_RD" id="76zKLSqSNO_" role="33vP2m">
-        <property role="Xl_RC" value="hh:mm" />
+        <property role="Xl_RC" value="HH:mm" />
       </node>
     </node>
     <node concept="3clFb_" id="76zKLSqYJFk" role="jymVt">
