@@ -15157,6 +15157,15 @@
         <property role="3cmrfH" value="0" />
       </node>
     </node>
+    <node concept="Wx3nA" id="6H5NCsq3ozp" role="jymVt">
+      <property role="TrG5h" value="ESC_CONCLUSION_ICON_NAME" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="6H5NCsq3Htb" role="1tU5fm" />
+      <node concept="3Tm1VV" id="6H5NCsq3ozr" role="1B3o_S" />
+      <node concept="Xl_RD" id="6H5NCsq3Dd_" role="33vP2m">
+        <property role="Xl_RC" value="arrow_back" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="7P$uL5PnIhr" role="jymVt">
       <property role="TrG5h" value="UPDATE_CONCLUSION_CODE" />
       <property role="3TUv4t" value="true" />
@@ -18527,8 +18536,8 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="27BPRG5NBa$" role="37wK5m">
-                      <property role="Xl_RC" value="arrow_back" />
+                    <node concept="37vLTw" id="6H5NCsq3JFk" role="37wK5m">
+                      <ref role="3cqZAo" node="6H5NCsq3ozp" resolve="ESC_CONCLUSION_ICON_NAME" />
                     </node>
                     <node concept="Xl_RD" id="27BPRG5NApk" role="37wK5m">
                       <property role="Xl_RC" value="ESC" />
@@ -18582,8 +18591,8 @@
                           <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="27BPRG5NBnI" role="37wK5m">
-                        <property role="Xl_RC" value="arrow_back" />
+                      <node concept="37vLTw" id="6H5NCsq3Mfe" role="37wK5m">
+                        <ref role="3cqZAo" node="6H5NCsq3ozp" resolve="ESC_CONCLUSION_ICON_NAME" />
                       </node>
                       <node concept="Xl_RD" id="27BPRG5NA8p" role="37wK5m">
                         <property role="Xl_RC" value="ESC" />
@@ -19072,8 +19081,8 @@
                     <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
                   </node>
                 </node>
-                <node concept="Xl_RD" id="5z$1ZeY_N8H" role="37wK5m">
-                  <property role="Xl_RC" value="arrow_back" />
+                <node concept="37vLTw" id="6H5NCsq3P1Z" role="37wK5m">
+                  <ref role="3cqZAo" node="6H5NCsq3ozp" resolve="ESC_CONCLUSION_ICON_NAME" />
                 </node>
                 <node concept="Xl_RD" id="5z$1ZeY_N8I" role="37wK5m">
                   <property role="Xl_RC" value="ESC" />
