@@ -3013,6 +3013,18 @@
           <property role="Xl_RC" value="Guard not fulfilled." />
         </node>
       </node>
+      <node concept="QsSxf" id="4PObcQZ$aro" role="Qtgdg">
+        <property role="TrG5h" value="COPY_CSV_FROM_TABLE" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="4PObcQZ$fc9" role="37wK5m">
+          <property role="Xl_RC" value="CSV aus Tabelleninhalt erzeugen" />
+        </node>
+        <node concept="10Nm6u" id="4PObcQZ$gFx" role="37wK5m" />
+        <node concept="10Nm6u" id="4PObcQZ$hqF" role="37wK5m" />
+        <node concept="Xl_RD" id="4PObcQZ$i9R" role="37wK5m">
+          <property role="Xl_RC" value="Create CSV from table contents" />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
       <node concept="2tJIrI" id="4DaB5G9A1mY" role="jymVt" />

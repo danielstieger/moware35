@@ -80,6 +80,7 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
         <property id="8355037393041754995" name="isNative" index="2aFKle" />
       </concept>
@@ -1244,6 +1245,7 @@
         <property role="TrG5h" value="converter" />
         <node concept="3uibUv" id="1KgqQuB_mrZ" role="1tU5fm">
           <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
+          <node concept="3qTvmN" id="3p7Ks34ibef" role="11_B2D" />
         </node>
       </node>
       <node concept="37vLTG" id="1kThbup1HGv" role="3clF46">
@@ -1467,6 +1469,9 @@
         <property role="TrG5h" value="selection" />
         <node concept="3uibUv" id="4o3conyMNMC" role="1tU5fm">
           <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+          <node concept="16syzq" id="3p7Ks33rRc8" role="11_B2D">
+            <ref role="16sUi3" node="3VIcZtBcG25" resolve="BoundElementType" />
+          </node>
         </node>
       </node>
       <node concept="10P_77" id="2zlKbqjttly" role="3clF45" />
@@ -1487,6 +1492,9 @@
         <property role="TrG5h" value="selection" />
         <node concept="3uibUv" id="4o3conyMNMD" role="1tU5fm">
           <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+          <node concept="16syzq" id="3p7Ks33rRDe" role="11_B2D">
+            <ref role="16sUi3" node="3VIcZtBcG25" resolve="BoundElementType" />
+          </node>
         </node>
       </node>
       <node concept="3cqZAl" id="42mVti4YT_m" role="3clF45" />
