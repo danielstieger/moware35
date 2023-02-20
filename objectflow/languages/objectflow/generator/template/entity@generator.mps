@@ -10727,6 +10727,43 @@
     </node>
     <node concept="2tJIrI" id="18mjR$4qC6P" role="jymVt" />
     <node concept="2tJIrI" id="18mjR$4qEf8" role="jymVt" />
+    <node concept="3clFb_" id="ntUn4L1jFC" role="jymVt">
+      <property role="TrG5h" value="compareTo" />
+      <node concept="3Tm1VV" id="ntUn4L1jFD" role="1B3o_S" />
+      <node concept="10Oyi0" id="ntUn4L1jFF" role="3clF45" />
+      <node concept="37vLTG" id="ntUn4L1jFG" role="3clF46">
+        <property role="TrG5h" value="object" />
+        <node concept="3uibUv" id="ntUn4L1jFJ" role="1tU5fm">
+          <ref role="3uigEE" node="1ckeo1plY1s" resolve="map_StatusDeclaration" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="ntUn4L1jFK" role="3clF47">
+        <node concept="3clFbF" id="ntUn4L1nwy" role="3cqZAp">
+          <node concept="2OqwBi" id="ntUn4L1owW" role="3clFbG">
+            <node concept="2OqwBi" id="ntUn4L1nQh" role="2Oq$k0">
+              <node concept="Xjq3P" id="ntUn4L1nww" role="2Oq$k0" />
+              <node concept="2OwXpG" id="ntUn4L1o93" role="2OqNvi">
+                <ref role="2Oxat5" node="1ckeo1pmZh3" resolve="idName" />
+              </node>
+            </node>
+            <node concept="liA8E" id="ntUn4L1p75" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+              <node concept="2OqwBi" id="ntUn4L1px1" role="37wK5m">
+                <node concept="37vLTw" id="ntUn4L1p9F" role="2Oq$k0">
+                  <ref role="3cqZAo" node="ntUn4L1jFG" resolve="object" />
+                </node>
+                <node concept="2OwXpG" id="ntUn4L1tW6" role="2OqNvi">
+                  <ref role="2Oxat5" node="1ckeo1pmZh3" resolve="idName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="ntUn4L1jFL" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="18mjR$4qAUu" role="jymVt">
       <property role="TrG5h" value="getAllStatusElements" />
       <node concept="3clFbS" id="18mjR$4qAUw" role="3clF47">
@@ -10783,6 +10820,12 @@
     <node concept="3uibUv" id="1ckeo1pn2xM" role="EKbjA">
       <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
       <node concept="3uibUv" id="1ckeo1pn45n" role="11_B2D">
+        <ref role="3uigEE" node="1ckeo1plY1s" resolve="map_StatusDeclaration" />
+      </node>
+    </node>
+    <node concept="3uibUv" id="ntUn4L1hTI" role="EKbjA">
+      <ref role="3uigEE" to="wyt6:~Comparable" resolve="Comparable" />
+      <node concept="3uibUv" id="ntUn4L1rSi" role="11_B2D">
         <ref role="3uigEE" node="1ckeo1plY1s" resolve="map_StatusDeclaration" />
       </node>
     </node>
