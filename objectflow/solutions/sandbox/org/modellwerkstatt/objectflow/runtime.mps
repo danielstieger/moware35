@@ -51940,6 +51940,17 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="5$VgMjq4sZa" role="jymVt">
+      <property role="TrG5h" value="propertiesMap" />
+      <node concept="3Tm6S6" id="5$VgMjq4sZb" role="1B3o_S" />
+      <node concept="3uibUv" id="5$VgMjq4ual" role="1tU5fm">
+        <ref role="3uigEE" to="33ny:~HashMap" resolve="HashMap" />
+        <node concept="17QB3L" id="5$VgMjq4uE_" role="11_B2D" />
+        <node concept="3uibUv" id="5$VgMjq4uUP" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="7ymmWYItT5y" role="jymVt" />
     <node concept="2tJIrI" id="51llZt5Pfw1" role="jymVt" />
     <node concept="3clFbW" id="51llZt5Pf$Q" role="jymVt">
@@ -51950,6 +51961,16 @@
       <node concept="37vLTG" id="51llZt5PfA2" role="3clF46">
         <property role="TrG5h" value="instance" />
         <node concept="17QB3L" id="51llZt5PfAH" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5$VgMjpWtPQ" role="3clF46">
+        <property role="TrG5h" value="paramMap" />
+        <node concept="3uibUv" id="5$VgMjpWtPR" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~HashMap" resolve="HashMap" />
+          <node concept="17QB3L" id="5$VgMjpWtPS" role="11_B2D" />
+          <node concept="3uibUv" id="5$VgMjpWtPT" role="11_B2D">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="51llZt5Pk_h" role="3clF46">
         <property role="TrG5h" value="opts" />
@@ -51999,6 +52020,16 @@
             </node>
             <node concept="37vLTw" id="51llZt5Piy5" role="37vLTJ">
               <ref role="3cqZAo" node="51llZt5PhUS" resolve="wasGuard" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5$VgMjq4w6i" role="3cqZAp">
+          <node concept="37vLTI" id="5$VgMjq4wPk" role="3clFbG">
+            <node concept="37vLTw" id="5$VgMjq4xgJ" role="37vLTx">
+              <ref role="3cqZAo" node="5$VgMjpWtPQ" resolve="paramMap" />
+            </node>
+            <node concept="37vLTw" id="5$VgMjq4w6g" role="37vLTJ">
+              <ref role="3cqZAo" node="5$VgMjq4sZa" resolve="propertiesMap" />
             </node>
           </node>
         </node>
@@ -52057,6 +52088,7 @@
           <node concept="37vLTw" id="51llZt5Pjj_" role="37wK5m">
             <ref role="3cqZAo" node="51llZt5PgPt" resolve="instance" />
           </node>
+          <node concept="10Nm6u" id="5$VgMjpWCxp" role="37wK5m" />
         </node>
         <node concept="3clFbH" id="51llZt5PuH7" role="3cqZAp" />
         <node concept="3SKdUt" id="51llZt5PiTD" role="3cqZAp">
@@ -52162,7 +52194,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="51llZt55Mlv" role="jymVt" />
-    <node concept="2tJIrI" id="51llZt55Mli" role="jymVt" />
+    <node concept="3clFb_" id="5$VgMjq4mxd" role="jymVt">
+      <property role="TrG5h" value="getPropertiesMap" />
+      <node concept="3Tm1VV" id="5$VgMjq4mxg" role="1B3o_S" />
+      <node concept="3clFbS" id="5$VgMjq4mxh" role="3clF47">
+        <node concept="3clFbF" id="5$VgMjq4$Zg" role="3cqZAp">
+          <node concept="37vLTw" id="5$VgMjq4$Zf" role="3clFbG">
+            <ref role="3cqZAo" node="5$VgMjq4sZa" resolve="propertiesMap" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="5$VgMjq4_lE" role="3clF45">
+        <ref role="3uigEE" to="33ny:~HashMap" resolve="HashMap" />
+        <node concept="17QB3L" id="5$VgMjq4_lF" role="11_B2D" />
+        <node concept="3uibUv" id="5$VgMjq4_lG" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="51llZt5PgNh" role="jymVt" />
     <node concept="3clFb_" id="1T2Sm8TZK7H" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -54345,6 +54394,7 @@
                     <ref role="3cqZAo" node="2gjGACnfOpt" resolve="msg" />
                   </node>
                   <node concept="10Nm6u" id="2gjGACngqDv" role="37wK5m" />
+                  <node concept="10Nm6u" id="5$VgMjpX5d2" role="37wK5m" />
                 </node>
               </node>
             </node>

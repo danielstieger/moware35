@@ -3365,6 +3365,13 @@
       <property role="IQ2ns" value="5788629615600818949" />
       <ref role="20lvS9" node="51llZt6ckhQ" resolve="CheckOptionRef" />
     </node>
+    <node concept="1TJgyj" id="5$VgMjpSKbj" role="1TKVEi">
+      <property role="IQ2ns" value="6429806718554931923" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="props" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="19EO7JM$uV_" resolve="LogStatementProperty" />
+    </node>
     <node concept="1QGGSu" id="wGbog3pNIu" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/references.png" />
     </node>
