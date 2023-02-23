@@ -334,6 +334,7 @@
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
+      <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
@@ -2095,6 +2096,65 @@
             </node>
             <node concept="34oBXx" id="pQ21WNlgYe" role="2OqNvi" />
           </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="3H_5MADZMyJ" role="3cqZAp" />
+      <node concept="3cpWs8" id="3H_5MADZSoe" role="3cqZAp">
+        <node concept="3cpWsn" id="3H_5MADZSoh" role="3cpWs9">
+          <property role="TrG5h" value="minweight" />
+          <node concept="3Tqbb2" id="3H_5MADZSoc" role="1tU5fm">
+            <ref role="ehGHo" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+          </node>
+          <node concept="2OqwBi" id="3H_5MADZVzX" role="33vP2m">
+            <node concept="2OqwBi" id="3H_5MADZSEg" role="2Oq$k0">
+              <node concept="1YBJjd" id="3H_5MADZSqW" role="2Oq$k0">
+                <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
+              </node>
+              <node concept="3Tsc0h" id="3H_5MADZTH2" role="2OqNvi">
+                <ref role="3TtcxE" to="1btx:3ouNayfGPCd" resolve="colWeights" />
+              </node>
+            </node>
+            <node concept="1z4cxt" id="3H_5MADZXXw" role="2OqNvi">
+              <node concept="1bVj0M" id="3H_5MADZXXy" role="23t8la">
+                <node concept="3clFbS" id="3H_5MADZXXz" role="1bW5cS">
+                  <node concept="3clFbF" id="3H_5MADZY2I" role="3cqZAp">
+                    <node concept="2OqwBi" id="3H_5MADZYes" role="3clFbG">
+                      <node concept="37vLTw" id="3H_5MADZY2H" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3H_5MADZXX$" resolve="it" />
+                      </node>
+                      <node concept="1mIQ4w" id="3H_5MADZYp3" role="2OqNvi">
+                        <node concept="chp4Y" id="3H_5MADZY$1" role="cj9EA">
+                          <ref role="cht4Q" to="1btx:6MSPLZmFqdA" resolve="MinWeight" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3H_5MADZXX$" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3H_5MADZXX_" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3H_5MADZMPU" role="3cqZAp">
+        <node concept="3clFbS" id="3H_5MADZMPW" role="3clFbx">
+          <node concept="2MkqsV" id="3H_5MADZSe0" role="3cqZAp">
+            <node concept="Xl_RD" id="3H_5MADZSef" role="2MkJ7o">
+              <property role="Xl_RC" value="Min weight not applicable to delegate form columns, use positive weights." />
+            </node>
+            <node concept="37vLTw" id="3H_5MAE00sP" role="1urrMF">
+              <ref role="3cqZAo" node="3H_5MADZSoh" resolve="minweight" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="3H_5MADZZwA" role="3clFbw">
+          <node concept="37vLTw" id="3H_5MADZZfd" role="2Oq$k0">
+            <ref role="3cqZAo" node="3H_5MADZSoh" resolve="minweight" />
+          </node>
+          <node concept="3x8VRR" id="3H_5MAE00p6" role="2OqNvi" />
         </node>
       </node>
     </node>
