@@ -2225,28 +2225,28 @@
         <property role="TrG5h" value="QUIT" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtM" role="37wK5m">
-          <property role="Xl_RC" value="Beenden (ALT-F4)" />
+          <property role="Xl_RC" value="Beenden" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQtN" role="37wK5m">
           <property role="Xl_RC" value="Beenden" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVT" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf4Ph" role="37wK5m">
-          <property role="Xl_RC" value="Quit (ALT-F4)" />
+          <property role="Xl_RC" value="Quit" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQvN" role="Qtgdg">
         <property role="TrG5h" value="OK_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQvO" role="37wK5m">
-          <property role="Xl_RC" value="Ok (F12)" />
+          <property role="Xl_RC" value="Ok" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVU" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHd" role="37wK5m">
           <property role="Xl_RC" value="Ok" />
         </node>
         <node concept="Xl_RD" id="WkCinTf4QO" role="37wK5m">
-          <property role="Xl_RC" value="Ok (F12)" />
+          <property role="Xl_RC" value="Ok" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQvQ" role="Qtgdg">
@@ -2275,46 +2275,32 @@
           <property role="Xl_RC" value="Close" />
         </node>
       </node>
-      <node concept="QsSxf" id="4vHQZKCcE0A" role="Qtgdg">
-        <property role="TrG5h" value="YES_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
-        <node concept="Xl_RD" id="4vHQZKCcRns" role="37wK5m">
-          <property role="Xl_RC" value="Ja (F12)" />
-        </node>
-        <node concept="10Nm6u" id="4M9afjaOkmz" role="37wK5m" />
-        <node concept="Xl_RD" id="4Rlyz3EmQHf" role="37wK5m">
-          <property role="Xl_RC" value="Ja" />
-        </node>
-        <node concept="Xl_RD" id="WkCinTf4Uf" role="37wK5m">
-          <property role="Xl_RC" value="Yes (F12)" />
-        </node>
-      </node>
       <node concept="QsSxf" id="4vHQZKCcRpU" role="Qtgdg">
         <property role="TrG5h" value="NO_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4vHQZKCcREd" role="37wK5m">
-          <property role="Xl_RC" value="Nein (ESC)" />
+          <property role="Xl_RC" value="Nein" />
         </node>
         <node concept="10Nm6u" id="4M9afjaOkn_" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHg" role="37wK5m">
           <property role="Xl_RC" value="Nein" />
         </node>
         <node concept="Xl_RD" id="WkCinTf4Vz" role="37wK5m">
-          <property role="Xl_RC" value="No (ESC)" />
+          <property role="Xl_RC" value="No" />
         </node>
       </node>
       <node concept="QsSxf" id="BloLfykaWT" role="Qtgdg">
         <property role="TrG5h" value="DISCARD_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="BloLfykhY$" role="37wK5m">
-          <property role="Xl_RC" value="Nicht speichern (F12)" />
+          <property role="Xl_RC" value="Nicht speichern" />
         </node>
         <node concept="10Nm6u" id="BloLfykjsC" role="37wK5m" />
         <node concept="Xl_RD" id="BloLfykkTM" role="37wK5m">
           <property role="Xl_RC" value="Nicht speichern" />
         </node>
         <node concept="Xl_RD" id="BloLfykmnO" role="37wK5m">
-          <property role="Xl_RC" value="Discard changes (F12)" />
+          <property role="Xl_RC" value="Discard changes" />
         </node>
       </node>
       <node concept="QsSxf" id="5ECQsWUk$8w" role="Qtgdg">
@@ -2687,12 +2673,12 @@
         <property role="TrG5h" value="LOGIN_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="1V62ZiDlQYV" role="37wK5m">
-          <property role="Xl_RC" value="Anmelden (F12)" />
+          <property role="Xl_RC" value="Anmelden" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD5" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWD6" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf5XP" role="37wK5m">
-          <property role="Xl_RC" value="Login (F12)" />
+          <property role="Xl_RC" value="Login" />
         </node>
       </node>
       <node concept="QsSxf" id="1EBV9L$IJAc" role="Qtgdg">

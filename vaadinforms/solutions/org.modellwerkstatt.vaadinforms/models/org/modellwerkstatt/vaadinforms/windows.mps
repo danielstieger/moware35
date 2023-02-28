@@ -6785,18 +6785,23 @@
               </node>
               <node concept="liA8E" id="6go2MrsvxyU" role="2OqNvi">
                 <ref role="37wK5l" to="waq:~MenuBar$MenuItem.addItem(java.lang.String,com.vaadin.ui.MenuBar$Command)" resolve="addItem" />
-                <node concept="2OqwBi" id="64iyuJIo3dE" role="37wK5m">
-                  <node concept="37vLTw" id="64iyuJIo36t" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6go2MrsuUX7" resolve="factory" />
+                <node concept="3cpWs3" id="66UoEub86x3" role="37wK5m">
+                  <node concept="Xl_RD" id="66UoEub8b8$" role="3uHU7w">
+                    <property role="Xl_RC" value=" (ALT-F4)" />
                   </node>
-                  <node concept="liA8E" id="64iyuJIo3jy" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
-                    <node concept="37vLTw" id="2QY_rtDtP0H" role="37wK5m">
-                      <ref role="3cqZAo" node="2QY_rtDtNzW" resolve="langIndex" />
+                  <node concept="2OqwBi" id="64iyuJIo3dE" role="3uHU7B">
+                    <node concept="37vLTw" id="64iyuJIo36t" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6go2MrsuUX7" resolve="factory" />
                     </node>
-                    <node concept="Rm8GO" id="3oZR98Nj1c6" role="37wK5m">
-                      <ref role="Rm8GQ" to="ache:4Zj1V_wFQtL" resolve="QUIT" />
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                    <node concept="liA8E" id="64iyuJIo3jy" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                      <node concept="37vLTw" id="2QY_rtDtP0H" role="37wK5m">
+                        <ref role="3cqZAo" node="2QY_rtDtNzW" resolve="langIndex" />
+                      </node>
+                      <node concept="Rm8GO" id="3oZR98Nj1c6" role="37wK5m">
+                        <ref role="Rm8GQ" to="ache:4Zj1V_wFQtL" resolve="QUIT" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -10017,18 +10022,23 @@
             <node concept="2ShNRf" id="45e9mS9v9bf" role="37vLTx">
               <node concept="1pGfFk" id="45e9mS9v9bg" role="2ShVmc">
                 <ref role="37wK5l" to="waq:~Button.&lt;init&gt;(java.lang.String,com.vaadin.ui.Button$ClickListener)" resolve="Button" />
-                <node concept="2OqwBi" id="45e9mS9v9bh" role="37wK5m">
-                  <node concept="37vLTw" id="45e9mS9v9bi" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
+                <node concept="3cpWs3" id="66UoEub8yFc" role="37wK5m">
+                  <node concept="Xl_RD" id="66UoEub8yJK" role="3uHU7w">
+                    <property role="Xl_RC" value=" (F12)" />
                   </node>
-                  <node concept="liA8E" id="45e9mS9v9bj" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
-                    <node concept="37vLTw" id="2QY_rtDudLh" role="37wK5m">
-                      <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                  <node concept="2OqwBi" id="45e9mS9v9bh" role="3uHU7B">
+                    <node concept="37vLTw" id="45e9mS9v9bi" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
                     </node>
-                    <node concept="Rm8GO" id="45e9mS9v9bk" role="37wK5m">
-                      <ref role="Rm8GQ" to="ache:4Zj1V_wFQvN" resolve="OK_BUTTON" />
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                    <node concept="liA8E" id="45e9mS9v9bj" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                      <node concept="37vLTw" id="2QY_rtDudLh" role="37wK5m">
+                        <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                      </node>
+                      <node concept="Rm8GO" id="45e9mS9v9bk" role="37wK5m">
+                        <ref role="Rm8GQ" to="ache:4Zj1V_wFQvN" resolve="OK_BUTTON" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -10433,18 +10443,23 @@
             <node concept="2ShNRf" id="45e9mS9vufB" role="37vLTx">
               <node concept="1pGfFk" id="45e9mS9vufC" role="2ShVmc">
                 <ref role="37wK5l" to="waq:~Button.&lt;init&gt;(java.lang.String,com.vaadin.ui.Button$ClickListener)" resolve="Button" />
-                <node concept="2OqwBi" id="45e9mS9vufD" role="37wK5m">
-                  <node concept="37vLTw" id="45e9mS9vufE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
+                <node concept="3cpWs3" id="66UoEub8$zb" role="37wK5m">
+                  <node concept="Xl_RD" id="66UoEub8$BJ" role="3uHU7w">
+                    <property role="Xl_RC" value=" (F12)" />
                   </node>
-                  <node concept="liA8E" id="45e9mS9vufF" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
-                    <node concept="37vLTw" id="2QY_rtDuerq" role="37wK5m">
-                      <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                  <node concept="2OqwBi" id="45e9mS9vufD" role="3uHU7B">
+                    <node concept="37vLTw" id="45e9mS9vufE" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
                     </node>
-                    <node concept="Rm8GO" id="45e9mS9vufG" role="37wK5m">
-                      <ref role="Rm8GQ" to="ache:4Zj1V_wFQvN" resolve="OK_BUTTON" />
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                    <node concept="liA8E" id="45e9mS9vufF" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                      <node concept="37vLTw" id="2QY_rtDuerq" role="37wK5m">
+                        <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                      </node>
+                      <node concept="Rm8GO" id="45e9mS9vufG" role="37wK5m">
+                        <ref role="Rm8GQ" to="ache:4Zj1V_wFQvN" resolve="OK_BUTTON" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -10809,18 +10824,23 @@
             <node concept="2ShNRf" id="2wSq35xFCeF" role="37vLTx">
               <node concept="1pGfFk" id="2wSq35xFGtR" role="2ShVmc">
                 <ref role="37wK5l" to="waq:~Button.&lt;init&gt;(java.lang.String,com.vaadin.ui.Button$ClickListener)" resolve="Button" />
-                <node concept="2OqwBi" id="2wSq35xFGVM" role="37wK5m">
-                  <node concept="37vLTw" id="2wSq35xFGLc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
+                <node concept="3cpWs3" id="66UoEub8NVQ" role="37wK5m">
+                  <node concept="Xl_RD" id="66UoEub8OPn" role="3uHU7w">
+                    <property role="Xl_RC" value=" (ESC)" />
                   </node>
-                  <node concept="liA8E" id="2wSq35xFH4B" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
-                    <node concept="37vLTw" id="2QY_rtDuf1t" role="37wK5m">
-                      <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                  <node concept="2OqwBi" id="2wSq35xFGVM" role="3uHU7B">
+                    <node concept="37vLTw" id="2wSq35xFGLc" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
                     </node>
-                    <node concept="Rm8GO" id="4vHQZKCgg$e" role="37wK5m">
-                      <ref role="Rm8GQ" to="ache:4vHQZKCcRpU" resolve="NO_BUTTON" />
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                    <node concept="liA8E" id="2wSq35xFH4B" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                      <node concept="37vLTw" id="2QY_rtDuf1t" role="37wK5m">
+                        <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                      </node>
+                      <node concept="Rm8GO" id="4vHQZKCgg$e" role="37wK5m">
+                        <ref role="Rm8GQ" to="ache:4vHQZKCcRpU" resolve="NO_BUTTON" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -10890,18 +10910,23 @@
             <node concept="2ShNRf" id="2wSq35xFCa8" role="37vLTx">
               <node concept="1pGfFk" id="2wSq35xFCa7" role="2ShVmc">
                 <ref role="37wK5l" to="waq:~Button.&lt;init&gt;(java.lang.String,com.vaadin.ui.Button$ClickListener)" resolve="Button" />
-                <node concept="2OqwBi" id="2wSq35xFMHP" role="37wK5m">
-                  <node concept="37vLTw" id="2wSq35xFM_B" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
+                <node concept="3cpWs3" id="66UoEub9cTz" role="37wK5m">
+                  <node concept="Xl_RD" id="66UoEub9cYE" role="3uHU7w">
+                    <property role="Xl_RC" value=" (F12)" />
                   </node>
-                  <node concept="liA8E" id="2wSq35xFMQD" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
-                    <node concept="37vLTw" id="2QY_rtDufyP" role="37wK5m">
-                      <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                  <node concept="2OqwBi" id="2wSq35xFMHP" role="3uHU7B">
+                    <node concept="37vLTw" id="2wSq35xFM_B" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2wSq35xFcCD" resolve="uiFactory" />
                     </node>
-                    <node concept="Rm8GO" id="BloLfykqJg" role="37wK5m">
-                      <ref role="Rm8GQ" to="ache:BloLfykaWT" resolve="DISCARD_BUTTON" />
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                    <node concept="liA8E" id="2wSq35xFMQD" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                      <node concept="37vLTw" id="2QY_rtDufyP" role="37wK5m">
+                        <ref role="3cqZAo" node="2QY_rtDu961" resolve="langIndex" />
+                      </node>
+                      <node concept="Rm8GO" id="BloLfykqJg" role="37wK5m">
+                        <ref role="Rm8GQ" to="ache:BloLfykaWT" resolve="DISCARD_BUTTON" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -32630,23 +32655,28 @@
             <node concept="2ShNRf" id="1EBV9L$Fw6I" role="37vLTx">
               <node concept="1pGfFk" id="1EBV9L$Fw7b" role="2ShVmc">
                 <ref role="37wK5l" to="waq:~Button.&lt;init&gt;(java.lang.String,com.vaadin.ui.Button$ClickListener)" resolve="Button" />
-                <node concept="2OqwBi" id="1EBV9L$K4iX" role="37wK5m">
-                  <node concept="liA8E" id="1EBV9L$K4iZ" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
-                    <node concept="3cmrfG" id="2QY_rtDAq7u" role="37wK5m">
-                      <property role="3cmrfH" value="-1" />
-                    </node>
-                    <node concept="Rm8GO" id="1EBV9L$K4Nc" role="37wK5m">
-                      <ref role="Rm8GQ" to="ache:1V62ZiDlQYU" resolve="LOGIN_BUTTON" />
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
-                    </node>
+                <node concept="3cpWs3" id="66UoEub9lze" role="37wK5m">
+                  <node concept="Xl_RD" id="66UoEub9m1z" role="3uHU7w">
+                    <property role="Xl_RC" value=" (F12)" />
                   </node>
-                  <node concept="2OqwBi" id="4FiFGILgUVR" role="2Oq$k0">
-                    <node concept="37vLTw" id="4FiFGILgUVS" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4FiFGILgOX$" resolve="loader" />
+                  <node concept="2OqwBi" id="1EBV9L$K4iX" role="3uHU7B">
+                    <node concept="liA8E" id="1EBV9L$K4iZ" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                      <node concept="3cmrfG" id="2QY_rtDAq7u" role="37wK5m">
+                        <property role="3cmrfH" value="-1" />
+                      </node>
+                      <node concept="Rm8GO" id="1EBV9L$K4Nc" role="37wK5m">
+                        <ref role="Rm8GQ" to="ache:1V62ZiDlQYU" resolve="LOGIN_BUTTON" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
+                      </node>
                     </node>
-                    <node concept="liA8E" id="4FiFGILgUVT" role="2OqNvi">
-                      <ref role="37wK5l" node="45e9mS9_mHN" resolve="getUiFactory" />
+                    <node concept="2OqwBi" id="4FiFGILgUVR" role="2Oq$k0">
+                      <node concept="37vLTw" id="4FiFGILgUVS" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4FiFGILgOX$" resolve="loader" />
+                      </node>
+                      <node concept="liA8E" id="4FiFGILgUVT" role="2OqNvi">
+                        <ref role="37wK5l" node="45e9mS9_mHN" resolve="getUiFactory" />
+                      </node>
                     </node>
                   </node>
                 </node>
