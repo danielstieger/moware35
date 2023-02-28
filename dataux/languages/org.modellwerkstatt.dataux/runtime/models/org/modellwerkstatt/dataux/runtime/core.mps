@@ -8177,12 +8177,32 @@
                   <node concept="1bVj0M" id="6QGCiYWFqDb" role="23t8la">
                     <node concept="3clFbS" id="6QGCiYWFqDc" role="1bW5cS">
                       <node concept="3clFbF" id="6QGCiYWFqNw" role="3cqZAp">
-                        <node concept="2OqwBi" id="1E9WFYq46Tb" role="3clFbG">
-                          <node concept="37vLTw" id="1E9WFYq46Jy" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6QGCiYWFqDd" resolve="it" />
+                        <node concept="1Wc70l" id="66UoEublPBg" role="3clFbG">
+                          <node concept="3fqX7Q" id="66UoEublS7v" role="3uHU7w">
+                            <node concept="2OqwBi" id="66UoEublS7x" role="3fr31v">
+                              <node concept="2OqwBi" id="66UoEublS7y" role="2Oq$k0">
+                                <node concept="37vLTw" id="66UoEublS7z" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6QGCiYWFqDd" resolve="it" />
+                                </node>
+                                <node concept="2OwXpG" id="66UoEublS7$" role="2OqNvi">
+                                  <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="public_hotKey" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="66UoEublS7_" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                                <node concept="Xl_RD" id="66UoEublS7A" role="37wK5m">
+                                  <property role="Xl_RC" value="" />
+                                </node>
+                              </node>
+                            </node>
                           </node>
-                          <node concept="2OwXpG" id="1E9WFYq471j" role="2OqNvi">
-                            <ref role="2Oxat5" to="yg8v:5ol$Nw0PJO" resolve="public_globalHotkey" />
+                          <node concept="2OqwBi" id="1E9WFYq46Tb" role="3uHU7B">
+                            <node concept="37vLTw" id="1E9WFYq46Jy" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6QGCiYWFqDd" resolve="it" />
+                            </node>
+                            <node concept="2OwXpG" id="1E9WFYq471j" role="2OqNvi">
+                              <ref role="2Oxat5" to="yg8v:5ol$Nw0PJO" resolve="public_globalHotkey" />
+                            </node>
                           </node>
                         </node>
                       </node>
