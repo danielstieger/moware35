@@ -560,14 +560,9 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="16YJG28LN4P" role="3cqZAp">
-              <node concept="37vLTI" id="16YJG28LNwr" role="3clFbG">
-                <node concept="3clFbT" id="16YJG28LNyd" role="37vLTx">
-                  <property role="3clFbU" value="true" />
-                </node>
-                <node concept="37vLTw" id="16YJG28LN4N" role="37vLTJ">
-                  <ref role="3cqZAo" node="16YJG28LD4f" resolve="arraySerdes" />
-                </node>
+            <node concept="3clFbF" id="5UIkXAmpmQk" role="3cqZAp">
+              <node concept="1rXfSq" id="5UIkXAmpmQi" role="3clFbG">
+                <ref role="37wK5l" node="5UIkXAmpkga" resolve="expectArrayAtRoot" />
               </node>
             </node>
           </node>
@@ -641,6 +636,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2DhMwl4JjwQ" role="jymVt" />
+    <node concept="3clFb_" id="5UIkXAmpkga" role="jymVt">
+      <property role="TrG5h" value="expectArrayAtRoot" />
+      <node concept="3clFbS" id="5UIkXAmpkgd" role="3clF47">
+        <node concept="3clFbF" id="5UIkXAmplVF" role="3cqZAp">
+          <node concept="37vLTI" id="5UIkXAmpmdN" role="3clFbG">
+            <node concept="3clFbT" id="5UIkXAmpmfj" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="5UIkXAmplVE" role="37vLTJ">
+              <ref role="3cqZAo" node="16YJG28LD4f" resolve="arraySerdes" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5UIkXAmpoD3" role="1B3o_S" />
+      <node concept="3cqZAl" id="5UIkXAmpkeH" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="5UIkXAmpdz9" role="jymVt" />
     <node concept="3clFb_" id="2DhMwl4J9Ok" role="jymVt">
       <property role="TrG5h" value="valueToObjectByType" />
       <node concept="37vLTG" id="2DhMwl4J9On" role="3clF46">
