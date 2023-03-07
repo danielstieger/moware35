@@ -10647,8 +10647,8 @@
                   <node concept="Xl_RD" id="2het$DEMEUM" role="37wK5m">
                     <property role="Xl_RC" value="application startup" />
                   </node>
-                  <node concept="Xl_RD" id="3PbVxlOx1Pa" role="37wK5m">
-                    <property role="Xl_RC" value="" />
+                  <node concept="1rXfSq" id="560_ERiZfUK" role="37wK5m">
+                    <ref role="37wK5l" node="5H0CcUR0u_l" resolve="getuser_connectionInfoAddOn" />
                   </node>
                   <node concept="3cmrfG" id="3PbVxlOx5EE" role="37wK5m">
                     <property role="3cmrfH" value="0" />
@@ -29867,7 +29867,7 @@
       <node concept="17QB3L" id="4n24ZlEyejn" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="5H0CcUR0Bkg" role="jymVt">
-      <property role="TrG5h" value="connectionInfoAddOn" />
+      <property role="TrG5h" value="startupInfoAddOn" />
       <node concept="3Tmbuc" id="5H0CcUR0Bkh" role="1B3o_S" />
       <node concept="17QB3L" id="5H0CcUR0Bki" role="1tU5fm" />
     </node>
@@ -30148,7 +30148,7 @@
         <node concept="17QB3L" id="5YG5DD8XuOq" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5H0CcUR1R5n" role="3clF46">
-        <property role="TrG5h" value="connInfoAddOn" />
+        <property role="TrG5h" value="startupInfo" />
         <node concept="17QB3L" id="5H0CcUR1Tk2" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5srGYRYPhBx" role="3clF46">
@@ -30378,10 +30378,10 @@
         <node concept="3clFbF" id="5H0CcUR1UY6" role="3cqZAp">
           <node concept="37vLTI" id="5H0CcUR1W8Y" role="3clFbG">
             <node concept="37vLTw" id="5H0CcUR1WCD" role="37vLTx">
-              <ref role="3cqZAo" node="5H0CcUR1R5n" resolve="connInfoAddOn" />
+              <ref role="3cqZAo" node="5H0CcUR1R5n" resolve="startupInfo" />
             </node>
             <node concept="37vLTw" id="5H0CcUR1UY4" role="37vLTJ">
-              <ref role="3cqZAo" node="5H0CcUR0Bkg" resolve="connectionInfoAddOn" />
+              <ref role="3cqZAo" node="5H0CcUR0Bkg" resolve="startupInfoAddOn" />
             </node>
           </node>
         </node>
@@ -30625,7 +30625,7 @@
       <node concept="3clFbS" id="5H0CcUR0u_o" role="3clF47">
         <node concept="3clFbF" id="5H0CcUR0u_p" role="3cqZAp">
           <node concept="37vLTw" id="5H0CcUR0u_q" role="3clFbG">
-            <ref role="3cqZAo" node="5H0CcUR0Bkg" resolve="connectionInfoAddOn" />
+            <ref role="3cqZAo" node="5H0CcUR0Bkg" resolve="startupInfoAddOn" />
           </node>
         </node>
       </node>
@@ -33698,7 +33698,7 @@
         <node concept="17QB3L" id="5YG5DD8XGy1" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5H0CcUR2ll8" role="3clF46">
-        <property role="TrG5h" value="connInfoAddOn" />
+        <property role="TrG5h" value="startupInfo" />
         <node concept="17QB3L" id="5H0CcUR2p1b" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5srGYRYP7LM" role="3clF46">
@@ -33729,7 +33729,7 @@
               <ref role="3cqZAo" node="5YG5DD8XG5x" resolve="connInfo" />
             </node>
             <node concept="37vLTw" id="5H0CcUR2tSp" role="37wK5m">
-              <ref role="3cqZAo" node="5H0CcUR2ll8" resolve="connInfoAddOn" />
+              <ref role="3cqZAo" node="5H0CcUR2ll8" resolve="startupInfo" />
             </node>
             <node concept="37vLTw" id="5srGYRYPdXM" role="37wK5m">
               <ref role="3cqZAo" node="5srGYRYP7LM" resolve="appFqName" />
