@@ -26,6 +26,7 @@
     <import index="y62k" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.util(org.modellwerkstatt.fx8forms/)" />
     <import index="28m1" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time(JDK/)" />
     <import index="6t7w" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time.format(JDK/)" />
+    <import index="ahg6" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.application(org.modellwerkstatt.fx8forms/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="os9n" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.collections(org.modellwerkstatt.fx8forms/)" implicit="true" />
   </imports>
@@ -17202,6 +17203,115 @@
                 <ref role="1PxDUh" to="yp2m:~KeyEvent" resolve="KeyEvent" />
               </node>
               <node concept="Xjq3P" id="228MdsgahcF" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nFq7WU1ZjK" role="3cqZAp">
+          <node concept="2OqwBi" id="7nFq7WU25mL" role="3clFbG">
+            <node concept="2OqwBi" id="7nFq7WU20Fi" role="2Oq$k0">
+              <node concept="37vLTw" id="7nFq7WU1ZjI" role="2Oq$k0">
+                <ref role="3cqZAo" node="5IEkTkmx5Y8" resolve="datePicker" />
+              </node>
+              <node concept="liA8E" id="7nFq7WU2425" role="2OqNvi">
+                <ref role="37wK5l" to="p18y:~Node.focusedProperty()" resolve="focusedProperty" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7nFq7WU29hh" role="2OqNvi">
+              <ref role="37wK5l" to="8j64:~ObservableValue.addListener(javafx.beans.value.ChangeListener)" resolve="addListener" />
+              <node concept="2ShNRf" id="7nFq7WU2$mx" role="37wK5m">
+                <node concept="YeOm9" id="7nFq7WU4zNU" role="2ShVmc">
+                  <node concept="1Y3b0j" id="7nFq7WU4zNX" role="YeSDq">
+                    <property role="2bfB8j" value="true" />
+                    <ref role="1Y3XeK" to="8j64:~ChangeListener" resolve="ChangeListener" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <node concept="3Tm1VV" id="7nFq7WU4zNY" role="1B3o_S" />
+                    <node concept="3clFb_" id="7nFq7WU4zO5" role="jymVt">
+                      <property role="TrG5h" value="changed" />
+                      <node concept="3Tm1VV" id="7nFq7WU4zO6" role="1B3o_S" />
+                      <node concept="3cqZAl" id="7nFq7WU4zO8" role="3clF45" />
+                      <node concept="37vLTG" id="7nFq7WU4zO9" role="3clF46">
+                        <property role="TrG5h" value="p1" />
+                        <node concept="3uibUv" id="7nFq7WU4zOa" role="1tU5fm">
+                          <ref role="3uigEE" to="8j64:~ObservableValue" resolve="ObservableValue" />
+                          <node concept="3qUE_q" id="7nFq7WU4zOb" role="11_B2D">
+                            <node concept="3uibUv" id="7nFq7WU4zSJ" role="3qUE_r">
+                              <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTG" id="7nFq7WU4zOd" role="3clF46">
+                        <property role="TrG5h" value="old" />
+                        <node concept="3uibUv" id="7nFq7WU4zSK" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                        </node>
+                      </node>
+                      <node concept="37vLTG" id="7nFq7WU4zOf" role="3clF46">
+                        <property role="TrG5h" value="newFocus" />
+                        <node concept="3uibUv" id="7nFq7WU4zSL" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="7nFq7WU4zOh" role="3clF47">
+                        <node concept="3clFbJ" id="7nFq7WU4BFb" role="3cqZAp">
+                          <node concept="3clFbS" id="7nFq7WU4BFd" role="3clFbx">
+                            <node concept="3clFbF" id="7nFq7WU5hyy" role="3cqZAp">
+                              <node concept="2YIFZM" id="7nFq7WU5U98" role="3clFbG">
+                                <ref role="37wK5l" to="ahg6:~Platform.runLater(java.lang.Runnable)" resolve="runLater" />
+                                <ref role="1Pybhc" to="ahg6:~Platform" resolve="Platform" />
+                                <node concept="2ShNRf" id="7nFq7WU5U99" role="37wK5m">
+                                  <node concept="YeOm9" id="7nFq7WU5U9a" role="2ShVmc">
+                                    <node concept="1Y3b0j" id="7nFq7WU5U9b" role="YeSDq">
+                                      <property role="2bfB8j" value="true" />
+                                      <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                      <node concept="3Tm1VV" id="7nFq7WU5U9c" role="1B3o_S" />
+                                      <node concept="3clFb_" id="7nFq7WU5U9d" role="jymVt">
+                                        <property role="TrG5h" value="run" />
+                                        <node concept="3Tm1VV" id="7nFq7WU5U9e" role="1B3o_S" />
+                                        <node concept="3cqZAl" id="7nFq7WU5U9f" role="3clF45" />
+                                        <node concept="3clFbS" id="7nFq7WU5U9g" role="3clF47">
+                                          <node concept="3clFbF" id="7nFq7WU5U9h" role="3cqZAp">
+                                            <node concept="2OqwBi" id="7nFq7WU5U9i" role="3clFbG">
+                                              <node concept="2OqwBi" id="7nFq7WU5U9j" role="2Oq$k0">
+                                                <node concept="37vLTw" id="7nFq7WU5U9k" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="5IEkTkmx5Y8" resolve="datePicker" />
+                                                </node>
+                                                <node concept="liA8E" id="7nFq7WU5U9l" role="2OqNvi">
+                                                  <ref role="37wK5l" to="rb41:~DatePicker.getEditor()" resolve="getEditor" />
+                                                </node>
+                                              </node>
+                                              <node concept="liA8E" id="7nFq7WU5U9m" role="2OqNvi">
+                                                <ref role="37wK5l" to="rb41:~TextInputControl.selectAll()" resolve="selectAll" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="2AHcQZ" id="7nFq7WU5U9s" role="2AJF6D">
+                                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="7nFq7WU4C8Z" role="3clFbw">
+                            <ref role="3cqZAo" node="7nFq7WU4zOf" resolve="newFocus" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2AHcQZ" id="7nFq7WU4zOj" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="7nFq7WU4zSI" role="2Ghqu4">
+                      <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
