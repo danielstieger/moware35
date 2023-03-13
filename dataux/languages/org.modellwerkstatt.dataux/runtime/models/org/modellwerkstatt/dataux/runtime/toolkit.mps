@@ -305,6 +305,12 @@
       <node concept="3Tm1VV" id="467ssIo$ZA4" role="1B3o_S" />
       <node concept="3clFbS" id="467ssIo$ZA5" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="7nFq7WTDmAx" role="jymVt">
+      <property role="TrG5h" value="getCollectSelections" />
+      <node concept="3clFbS" id="7nFq7WTDmA$" role="3clF47" />
+      <node concept="3Tm1VV" id="7nFq7WTDmA_" role="1B3o_S" />
+      <node concept="10P_77" id="7nFq7WTDmuF" role="3clF45" />
+    </node>
     <node concept="3clFb_" id="467ssIoEBkm" role="jymVt">
       <property role="TrG5h" value="getReloadOnTabChange" />
       <node concept="10P_77" id="467ssIoEBkn" role="3clF45" />
