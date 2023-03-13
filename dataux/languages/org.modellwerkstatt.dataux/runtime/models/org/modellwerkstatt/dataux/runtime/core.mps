@@ -14631,6 +14631,18 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3ooJmL_yyRQ" role="jymVt" />
+    <node concept="3clFb_" id="7yijJhwqsiy" role="jymVt">
+      <property role="TrG5h" value="inShutdownMode" />
+      <node concept="3clFbS" id="7yijJhwqsi_" role="3clF47">
+        <node concept="3clFbF" id="7yijJhwq_sZ" role="3cqZAp">
+          <node concept="37vLTw" id="7yijJhwq_sY" role="3clFbG">
+            <ref role="3cqZAo" node="7Mah_ahoYa7" resolve="shutdownMode" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7yijJhwqfbh" role="1B3o_S" />
+      <node concept="10P_77" id="7yijJhwqm$1" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="3ooJmL_yK83" role="jymVt" />
     <node concept="3clFb_" id="3ooJmL_yMSh" role="jymVt">
       <property role="1EzhhJ" value="false" />

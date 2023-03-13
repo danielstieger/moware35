@@ -1865,10 +1865,12 @@
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="1iCGBv" id="3AwmmzD$qrJ" role="3EZMnx">
+        <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
         <ref role="1NtTu8" to="un0u:3AwmmzD$qrI" resolve="boundObject" />
         <node concept="1sVBvm" id="3AwmmzD$qrK" role="1sWHZn">
           <node concept="3F0A7n" id="3AwmmzD$qrM" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
@@ -5754,6 +5756,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="1iCGBv" id="3nLPQZPUuMv" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;page pane&gt;" />
         <ref role="1NtTu8" to="un0u:3nLPQZPUuMm" resolve="actionProviderPagePane" />
         <node concept="1sVBvm" id="3nLPQZPUuMx" role="1sWHZn">
           <node concept="3F0A7n" id="3nLPQZPUuMI" role="2wV5jI">
