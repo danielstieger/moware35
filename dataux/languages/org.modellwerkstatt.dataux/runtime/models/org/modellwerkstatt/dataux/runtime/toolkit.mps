@@ -593,6 +593,10 @@
         <property role="TrG5h" value="locale" />
         <node concept="17QB3L" id="4$npG3z$KRj" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="U1I1ZzpMAs" role="3clF46">
+        <property role="TrG5h" value="langIndex" />
+        <node concept="10Oyi0" id="U1I1ZzpMB8" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="4$npG3zzJT9" role="3clF45" />
       <node concept="3Tm1VV" id="4$npG3zzJTa" role="1B3o_S" />
       <node concept="3clFbS" id="4$npG3zzJTb" role="3clF47" />

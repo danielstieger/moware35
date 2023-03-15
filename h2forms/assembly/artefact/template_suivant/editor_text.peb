@@ -7,8 +7,8 @@
 {% if not wide %}<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>{% endif %}
 <div class="w3-col {% if wide %}m12 s12{% else %}m9 s7{% endif %} {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
 {% if enabled %}
-    <input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input {% if isDateDelegate %}sv-datedelegate{% endif %}" type="text"
-           {% if scanable %}scanable="true"{% endif %}
+    <input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input {% if isDateDelegate and not isDateDelegateWithPicker %}sv-datedelegate{% endif %}"
+    {% if isDateDelegateWithPicker %}type="date"{% else %}type="text"{% endif %} {% if scanable %}scanable="true"{% endif %}
     {% if requestFocus %} focusme="true" {% endif %}
     {% if useNumericKeyboard %} useNumericKeyboard="true" {% endif %} {% if wide %}placeholder="{{ labelText }}"{% endif %} value="{{ text }}"/>
 {% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}

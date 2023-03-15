@@ -10303,6 +10303,10 @@
         <property role="TrG5h" value="locale" />
         <node concept="17QB3L" id="4$npG3zRosv" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="U1I1ZzQuPh" role="3clF46">
+        <property role="TrG5h" value="langIdx" />
+        <node concept="10Oyi0" id="U1I1ZzQuPi" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="4$npG3zRosw" role="3clF45" />
       <node concept="3Tm1VV" id="4$npG3zRosx" role="1B3o_S" />
       <node concept="3clFbS" id="4$npG3zRosz" role="3clF47" />
@@ -11833,6 +11837,10 @@
       <node concept="37vLTG" id="4$npG3zR37s" role="3clF46">
         <property role="TrG5h" value="locale" />
         <node concept="17QB3L" id="4$npG3zR37t" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="U1I1ZzPLEu" role="3clF46">
+        <property role="TrG5h" value="langIdx" />
+        <node concept="10Oyi0" id="U1I1ZzPO4H" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="4$npG3zR37u" role="3clF45" />
       <node concept="3Tm1VV" id="4$npG3zR37v" role="1B3o_S" />
