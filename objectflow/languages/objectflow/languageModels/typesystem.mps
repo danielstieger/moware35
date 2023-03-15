@@ -6489,18 +6489,76 @@
     <property role="TrG5h" value="typeof_ObjectMeta" />
     <property role="3GE5qa" value="BusinessObject" />
     <node concept="3clFbS" id="5WxVUBAszDP" role="18ibNy">
-      <node concept="1Z5TYs" id="5WxVUBAsIdZ" role="3cqZAp">
-        <node concept="mw_s8" id="5WxVUBAsIgS" role="1ZfhKB">
-          <node concept="2c44tf" id="5WxVUBAsIgO" role="mwGJk">
-            <node concept="3uibUv" id="5WxVUBAsIiu" role="2c44tc">
-              <ref role="3uigEE" to="28jr:5WxVUBAo8uu" resolve="IOFXMeta4Objects" />
+      <node concept="3cpWs8" id="3B2vGTdJfk6" role="3cqZAp">
+        <node concept="3cpWsn" id="3B2vGTdJfk7" role="3cpWs9">
+          <property role="TrG5h" value="exp" />
+          <node concept="3Tqbb2" id="3B2vGTdJfk8" role="1tU5fm">
+            <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
+          </node>
+          <node concept="2OqwBi" id="3B2vGTdJfk9" role="33vP2m">
+            <node concept="1PxgMI" id="3B2vGTdJfka" role="2Oq$k0">
+              <node concept="2OqwBi" id="U1I1Z_m1fM" role="1m5AlR">
+                <node concept="1YBJjd" id="U1I1Z_m0RV" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5WxVUBAszDR" resolve="objectMeta" />
+                </node>
+                <node concept="1mfA1w" id="U1I1Z_m1pY" role="2OqNvi" />
+              </node>
+              <node concept="chp4Y" id="3B2vGTdJh1V" role="3oSUPX">
+                <ref role="cht4Q" to="tpee:hqOqwz4" resolve="DotExpression" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3B2vGTdJfkc" role="2OqNvi">
+              <ref role="37wK5l" to="tpek:hEwIPI9" resolve="getClassifier" />
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="5WxVUBAsIe2" role="1ZfhK$">
-          <node concept="1Z2H0r" id="5WxVUBAsIbw" role="mwGJk">
-            <node concept="1YBJjd" id="5WxVUBAsIc7" role="1Z2MuG">
-              <ref role="1YBMHb" node="5WxVUBAszDR" resolve="objectMeta" />
+      </node>
+      <node concept="3clFbJ" id="U1I1Z_m1MF" role="3cqZAp">
+        <node concept="3clFbS" id="U1I1Z_m1MH" role="3clFbx">
+          <node concept="1Z5TYs" id="5WxVUBAsIdZ" role="3cqZAp">
+            <node concept="mw_s8" id="5WxVUBAsIgS" role="1ZfhKB">
+              <node concept="2c44tf" id="5WxVUBAsIgO" role="mwGJk">
+                <node concept="3uibUv" id="5WxVUBAsIiu" role="2c44tc">
+                  <ref role="3uigEE" to="28jr:5WxVUBAo8uu" resolve="IOFXMeta4Object" />
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="5WxVUBAsIe2" role="1ZfhK$">
+              <node concept="1Z2H0r" id="5WxVUBAsIbw" role="mwGJk">
+                <node concept="1YBJjd" id="5WxVUBAsIc7" role="1Z2MuG">
+                  <ref role="1YBMHb" node="5WxVUBAszDR" resolve="objectMeta" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="U1I1Z_m28k" role="3clFbw">
+          <node concept="37vLTw" id="U1I1Z_m1Ni" role="2Oq$k0">
+            <ref role="3cqZAo" node="3B2vGTdJfk7" resolve="exp" />
+          </node>
+          <node concept="1mIQ4w" id="U1I1Z_m2zU" role="2OqNvi">
+            <node concept="chp4Y" id="U1I1Z_m2BV" role="cj9EA">
+              <ref role="cht4Q" to="un0u:6W_Qo9eYrYE" resolve="ValueObject" />
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="U1I1Z_m3kg" role="9aQIa">
+          <node concept="3clFbS" id="U1I1Z_m3kh" role="9aQI4">
+            <node concept="1Z5TYs" id="U1I1Z_m3nB" role="3cqZAp">
+              <node concept="mw_s8" id="U1I1Z_m3nC" role="1ZfhKB">
+                <node concept="2c44tf" id="U1I1Z_m3nD" role="mwGJk">
+                  <node concept="3uibUv" id="U1I1Z_m3nE" role="2c44tc">
+                    <ref role="3uigEE" to="28jr:U1I1Z_lxEI" resolve="IOFXMeta4Entity" />
+                  </node>
+                </node>
+              </node>
+              <node concept="mw_s8" id="U1I1Z_m3nF" role="1ZfhK$">
+                <node concept="1Z2H0r" id="U1I1Z_m3nG" role="mwGJk">
+                  <node concept="1YBJjd" id="U1I1Z_m3nH" role="1Z2MuG">
+                    <ref role="1YBMHb" node="5WxVUBAszDR" resolve="objectMeta" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

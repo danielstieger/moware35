@@ -32680,7 +32680,7 @@
   </node>
   <node concept="3HP615" id="5WxVUBAo8uu">
     <property role="3GE5qa" value="OFXMetaInfo" />
-    <property role="TrG5h" value="IOFXMeta4Objects" />
+    <property role="TrG5h" value="IOFXMeta4Object" />
     <node concept="3clFb_" id="5WxVUBAolyz" role="jymVt">
       <property role="TrG5h" value="setEnabled" />
       <node concept="37vLTG" id="5WxVUBAoly$" role="3clF46">
@@ -32696,18 +32696,6 @@
       <node concept="10P_77" id="5WxVUBAolyI" role="3clF45" />
       <node concept="3Tm1VV" id="5WxVUBAolyJ" role="1B3o_S" />
       <node concept="3clFbS" id="5WxVUBAolyK" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="4ChE6YfeL42" role="jymVt">
-      <property role="TrG5h" value="getDirty" />
-      <node concept="10P_77" id="4ChE6YfeSWf" role="3clF45" />
-      <node concept="3Tm1VV" id="4ChE6YfeL45" role="1B3o_S" />
-      <node concept="3clFbS" id="4ChE6YfeL46" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="1nLGXVr3Di9" role="jymVt">
-      <property role="TrG5h" value="isNewInSession" />
-      <node concept="10P_77" id="1nLGXVr3Dia" role="3clF45" />
-      <node concept="3Tm1VV" id="1nLGXVr3Dib" role="1B3o_S" />
-      <node concept="3clFbS" id="1nLGXVr3Dic" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="5WxVUBAo8uv" role="1B3o_S" />
     <node concept="3UR2Jj" id="5WxVUBAol$A" role="lGtFl">
@@ -32845,7 +32833,7 @@
       <ref role="3uigEE" node="4LCWVoZn2is" resolve="IOFXRevertableObject" />
     </node>
     <node concept="3uibUv" id="4LCWVp0FE06" role="3HQHJm">
-      <ref role="3uigEE" node="5WxVUBAo8uu" resolve="IOFXMeta4Objects" />
+      <ref role="3uigEE" node="5WxVUBAo8uu" resolve="IOFXMeta4Object" />
     </node>
   </node>
   <node concept="312cEu" id="3$bhckDx2Vv">
@@ -65445,6 +65433,44 @@
       <node concept="3uibUv" id="2zJhn9Sof6f" role="11_B2D">
         <ref role="3uigEE" node="2zJhn9SoeZI" resolve="OFXByteArray" />
       </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="U1I1Z_lxEI">
+    <property role="3GE5qa" value="OFXMetaInfo" />
+    <property role="TrG5h" value="IOFXMeta4Entity" />
+    <node concept="3clFb_" id="4ChE6YfeL42" role="jymVt">
+      <property role="TrG5h" value="getDirty" />
+      <node concept="10P_77" id="4ChE6YfeSWf" role="3clF45" />
+      <node concept="3Tm1VV" id="4ChE6YfeL45" role="1B3o_S" />
+      <node concept="3clFbS" id="4ChE6YfeL46" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1nLGXVr3Di9" role="jymVt">
+      <property role="TrG5h" value="isNewInSession" />
+      <node concept="10P_77" id="1nLGXVr3Dia" role="3clF45" />
+      <node concept="3Tm1VV" id="1nLGXVr3Dib" role="1B3o_S" />
+      <node concept="3clFbS" id="1nLGXVr3Dic" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="U1I1Z_jbjm" role="jymVt">
+      <property role="TrG5h" value="getReadOnly" />
+      <node concept="3clFbS" id="U1I1Z_jbjp" role="3clF47" />
+      <node concept="3Tm1VV" id="U1I1Z_jbjq" role="1B3o_S" />
+      <node concept="10P_77" id="U1I1Z_jbiN" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="U1I1Z_jhPR" role="jymVt">
+      <property role="TrG5h" value="getTCN" />
+      <node concept="3clFbS" id="U1I1Z_jhPU" role="3clF47" />
+      <node concept="3Tm1VV" id="U1I1Z_jhPV" role="1B3o_S" />
+      <node concept="10Oyi0" id="U1I1Z_jhPa" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="U1I1Z_jhBP" role="jymVt">
+      <property role="TrG5h" value="getSessionObjectKeyStoreID" />
+      <node concept="10Oyi0" id="U1I1Z_jhH3" role="3clF45" />
+      <node concept="3Tm1VV" id="U1I1Z_jhBS" role="1B3o_S" />
+      <node concept="3clFbS" id="U1I1Z_jhBT" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="U1I1Z_lxEJ" role="1B3o_S" />
+    <node concept="3uibUv" id="U1I1Z_lA_y" role="3HQHJm">
+      <ref role="3uigEE" node="5WxVUBAo8uu" resolve="IOFXMeta4Object" />
     </node>
   </node>
 </model>
