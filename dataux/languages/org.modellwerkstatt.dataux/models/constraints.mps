@@ -1761,5 +1761,50 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="4aDnqFRRZtO">
+    <property role="3GE5qa" value="delegates.options" />
+    <ref role="1M2myG" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
+    <node concept="9S07l" id="4aDnqFRRZH_" role="9Vyp8">
+      <node concept="3clFbS" id="4aDnqFRRZHA" role="2VODD2">
+        <node concept="3clFbJ" id="4aDnqFRRZLv" role="3cqZAp">
+          <node concept="3clFbS" id="4aDnqFRRZLw" role="3clFbx">
+            <node concept="3cpWs6" id="4aDnqFRRZLx" role="3cqZAp">
+              <node concept="2OqwBi" id="4aDnqFRRZLy" role="3cqZAk">
+                <node concept="1PxgMI" id="4aDnqFRRZLz" role="2Oq$k0">
+                  <node concept="nLn13" id="4aDnqFRRZL$" role="1m5AlR" />
+                  <node concept="chp4Y" id="4aDnqFRRZL_" role="3oSUPX">
+                    <ref role="cht4Q" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="4aDnqFRRZLA" role="2OqNvi">
+                  <node concept="chp4Y" id="4aDnqFRRZLB" role="cj9EA">
+                    <ref role="cht4Q" to="1btx:3ouNayfF_ei" resolve="LocalDateDelegate" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4aDnqFRRZLC" role="3clFbw">
+            <node concept="2OqwBi" id="4aDnqFRRZLD" role="2Oq$k0">
+              <node concept="nLn13" id="4aDnqFRRZLE" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4aDnqFRRZLF" role="2OqNvi">
+                <node concept="1xMEDy" id="4aDnqFRRZLG" role="1xVPHs">
+                  <node concept="chp4Y" id="4aDnqFRRZLH" role="ri$Ld">
+                    <ref role="cht4Q" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4aDnqFRRZLI" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4aDnqFRRZLJ" role="3cqZAp">
+          <node concept="3clFbT" id="4aDnqFRRZLK" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -439,6 +439,21 @@
       <node concept="3Tm1VV" id="1_PJNZY9Mlm" role="1B3o_S" />
       <node concept="3cqZAl" id="1_PJNZY9Mh4" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="4aDnqFSa6Xf" role="jymVt">
+      <property role="TrG5h" value="setDelegateHook" />
+      <node concept="3clFbS" id="4aDnqFSa6Xi" role="3clF47" />
+      <node concept="3Tm1VV" id="4aDnqFSa6Xj" role="1B3o_S" />
+      <node concept="3cqZAl" id="4aDnqFSa6Pt" role="3clF45" />
+      <node concept="37vLTG" id="4aDnqFSa7c9" role="3clF46">
+        <property role="TrG5h" value="hook" />
+        <node concept="3uibUv" id="4aDnqFSa7c8" role="1tU5fm">
+          <ref role="3uigEE" node="4aDnqFRRYlg" resolve="IDataUxDelegateHook" />
+          <node concept="16syzq" id="4aDnqFSclDJ" role="11_B2D">
+            <ref role="16sUi3" node="52pTiJH2Nto" resolve="T" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="32SBLyAXNQU" role="jymVt" />
     <node concept="3clFb_" id="3EFS_eyCJrE" role="jymVt">
       <property role="TrG5h" value="preDelayedAfterFullUiInitialized" />
@@ -2082,6 +2097,37 @@
     </node>
     <node concept="2tJIrI" id="1LATE1Cf4Wj" role="jymVt" />
     <node concept="3Tm1VV" id="1LATE1Cf4V3" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="4aDnqFRRYlg">
+    <property role="TrG5h" value="IDataUxDelegateHook" />
+    <node concept="2tJIrI" id="4aDnqFRRYAv" role="jymVt" />
+    <node concept="3clFb_" id="4aDnqFRRYBs" role="jymVt">
+      <property role="TrG5h" value="isInputValid" />
+      <node concept="37vLTG" id="4aDnqFS9v0S" role="3clF46">
+        <property role="TrG5h" value="inputText" />
+        <node concept="17QB3L" id="4aDnqFS9v1m" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="4aDnqFRRYBv" role="3clF47" />
+      <node concept="3Tm1VV" id="4aDnqFRRYBw" role="1B3o_S" />
+      <node concept="17QB3L" id="4aDnqFRRYBb" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="4aDnqFRRZ3g" role="jymVt">
+      <property role="TrG5h" value="getValue" />
+      <node concept="37vLTG" id="4aDnqFS9uZe" role="3clF46">
+        <property role="TrG5h" value="inputText" />
+        <node concept="17QB3L" id="4aDnqFS9uZG" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="4aDnqFRRZ3j" role="3clF47" />
+      <node concept="3Tm1VV" id="4aDnqFRRZ3k" role="1B3o_S" />
+      <node concept="16syzq" id="4aDnqFRRYCd" role="3clF45">
+        <ref role="16sUi3" node="4aDnqFRRYAH" resolve="T" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4aDnqFRRYAx" role="jymVt" />
+    <node concept="3Tm1VV" id="4aDnqFRRYlh" role="1B3o_S" />
+    <node concept="16euLQ" id="4aDnqFRRYAH" role="16eVyc">
+      <property role="TrG5h" value="T" />
+    </node>
   </node>
 </model>
 

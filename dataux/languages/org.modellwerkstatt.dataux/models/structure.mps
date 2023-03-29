@@ -1656,5 +1656,25 @@
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4aDnqFRRZ5e">
+    <property role="EcuMT" value="4803473466451816782" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="DelegateHookDOption" />
+    <property role="34LRSv" value="HOOK" />
+    <property role="R4oN_" value="attach a custom hook" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4aDnqFRRZtr" role="1TKVEi">
+      <property role="20kJfa" value="elementHook" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="4803473466451818331" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
+    <node concept="PrWs8" id="4aDnqFRRZ5f" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+    <node concept="1QGGSu" id="4aDnqFS9r76" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
 </model>
 

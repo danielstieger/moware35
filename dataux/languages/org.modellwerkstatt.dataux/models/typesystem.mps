@@ -7984,5 +7984,130 @@
       <ref role="1YaFvo" to="1btx:2N7eHMakYIc" resolve="IModule" />
     </node>
   </node>
+  <node concept="18kY7G" id="4aDnqFRS0Md">
+    <property role="TrG5h" value="check_DelegateHookDOption" />
+    <property role="3GE5qa" value="delegates.options" />
+    <node concept="3clFbS" id="4aDnqFRS0Me" role="18ibNy">
+      <node concept="3cpWs8" id="4aDnqFRS0Mo" role="3cqZAp">
+        <node concept="3cpWsn" id="4aDnqFRS0Mp" role="3cpWs9">
+          <property role="TrG5h" value="wanted" />
+          <node concept="3Tqbb2" id="4aDnqFRS0Mq" role="1tU5fm">
+            <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
+          </node>
+          <node concept="2OqwBi" id="4aDnqFRS0Mr" role="33vP2m">
+            <node concept="2c44tf" id="4aDnqFRS0Ms" role="2Oq$k0">
+              <node concept="3uibUv" id="4aDnqFRS0Mt" role="2c44tc">
+                <ref role="3uigEE" to="zhcn:4aDnqFRRYlg" resolve="IDataUxDelegateHook" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="4aDnqFRS0Mu" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="4aDnqFRS0Mv" role="3cqZAp" />
+      <node concept="3clFbJ" id="4aDnqFRS0Mw" role="3cqZAp">
+        <node concept="3clFbS" id="4aDnqFRS0Mx" role="3clFbx">
+          <node concept="3clFbH" id="4aDnqFRS0MT" role="3cqZAp" />
+        </node>
+        <node concept="1Wc70l" id="4aDnqFRS2tU" role="3clFbw">
+          <node concept="2OqwBi" id="4aDnqFRS83P" role="3uHU7w">
+            <node concept="2OqwBi" id="4aDnqFRS4j7" role="2Oq$k0">
+              <node concept="2OqwBi" id="4aDnqFRS34t" role="2Oq$k0">
+                <node concept="1YBJjd" id="4aDnqFRS2U$" role="2Oq$k0">
+                  <ref role="1YBMHb" node="4aDnqFRS0Mg" resolve="hookFOption" />
+                </node>
+                <node concept="3TrEf2" id="4aDnqFRS3lM" role="2OqNvi">
+                  <ref role="3Tt5mk" to="1btx:4aDnqFRRZtr" resolve="elementHook" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="4aDnqFRS51G" role="2OqNvi">
+                <ref role="3TtcxE" to="tpee:fWEKbgp" resolve="implementedInterface" />
+              </node>
+            </node>
+            <node concept="2HwmR7" id="4aDnqFRSaH4" role="2OqNvi">
+              <node concept="1bVj0M" id="4aDnqFRSaH6" role="23t8la">
+                <node concept="3clFbS" id="4aDnqFRSaH7" role="1bW5cS">
+                  <node concept="3clFbF" id="4aDnqFRSaOX" role="3cqZAp">
+                    <node concept="3clFbC" id="4aDnqFRSbXG" role="3clFbG">
+                      <node concept="37vLTw" id="4aDnqFRScwx" role="3uHU7w">
+                        <ref role="3cqZAo" node="4aDnqFRS0Mp" resolve="wanted" />
+                      </node>
+                      <node concept="2OqwBi" id="4aDnqFRSbc1" role="3uHU7B">
+                        <node concept="37vLTw" id="4aDnqFRSaOW" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4aDnqFRSaH8" resolve="it" />
+                        </node>
+                        <node concept="3TrEf2" id="4aDnqFRSbxO" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="4aDnqFRSaH8" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="4aDnqFRSaH9" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4aDnqFRS0Nb" role="3uHU7B">
+            <node concept="2OqwBi" id="4aDnqFRS0Nc" role="2Oq$k0">
+              <node concept="1YBJjd" id="4aDnqFRS0Nd" role="2Oq$k0">
+                <ref role="1YBMHb" node="4aDnqFRS0Mg" resolve="hookFOption" />
+              </node>
+              <node concept="3TrEf2" id="4aDnqFRS0Ne" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:4aDnqFRRZtr" resolve="elementHook" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4aDnqFRS0Nf" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="9aQIb" id="4aDnqFRSd1c" role="9aQIa">
+          <node concept="3clFbS" id="4aDnqFRSd1d" role="9aQI4">
+            <node concept="2MkqsV" id="4aDnqFRS0MW" role="3cqZAp">
+              <node concept="3cpWs3" id="4aDnqFRS0MX" role="2MkJ7o">
+                <node concept="Xl_RD" id="4aDnqFRS0MY" role="3uHU7w">
+                  <property role="Xl_RC" value="." />
+                </node>
+                <node concept="3cpWs3" id="4aDnqFRS0MZ" role="3uHU7B">
+                  <node concept="3cpWs3" id="4aDnqFRS0N0" role="3uHU7B">
+                    <node concept="3cpWs3" id="4aDnqFRS0N1" role="3uHU7B">
+                      <node concept="Xl_RD" id="4aDnqFRS0N2" role="3uHU7B">
+                        <property role="Xl_RC" value="" />
+                      </node>
+                      <node concept="2OqwBi" id="4aDnqFRS0N3" role="3uHU7w">
+                        <node concept="1YBJjd" id="4aDnqFRS0N4" role="2Oq$k0">
+                          <ref role="1YBMHb" node="4aDnqFRS0Mg" resolve="hookFOption" />
+                        </node>
+                        <node concept="3TrEf2" id="4aDnqFRS0N5" role="2OqNvi">
+                          <ref role="3Tt5mk" to="1btx:4aDnqFRRZtr" resolve="elementHook" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4aDnqFRS0N6" role="3uHU7w">
+                      <property role="Xl_RC" value=" has to implement " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4aDnqFRS0N7" role="3uHU7w">
+                    <ref role="3cqZAo" node="4aDnqFRS0Mp" resolve="wanted" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1YBJjd" id="4aDnqFRS0N8" role="1urrMF">
+                <ref role="1YBMHb" node="4aDnqFRS0Mg" resolve="hookFOption" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="4aDnqFRSdIx" role="3cqZAp" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4aDnqFRS0Mg" role="1YuTPh">
+      <property role="TrG5h" value="hookFOption" />
+      <ref role="1YaFvo" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
+    </node>
+  </node>
 </model>
 

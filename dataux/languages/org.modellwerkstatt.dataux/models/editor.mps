@@ -4141,5 +4141,24 @@
     </node>
     <node concept="3VyMlK" id="1XgLrSKoPE$" role="3ft7WO" />
   </node>
+  <node concept="24kQdi" id="4aDnqFRRZt$">
+    <property role="3GE5qa" value="delegates.options" />
+    <ref role="1XX52x" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
+    <node concept="3EZMnI" id="4aDnqFRRZtA" role="2wV5jI">
+      <node concept="PMmxH" id="4aDnqFRRZtB" role="3EZMnx">
+        <ref role="PMmxG" node="pQ21WN8wdN" resolve="IDOptionAlias" />
+      </node>
+      <node concept="1iCGBv" id="4aDnqFRRZtC" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:4aDnqFRRZtr" resolve="elementHook" />
+        <node concept="1sVBvm" id="4aDnqFRRZtD" role="1sWHZn">
+          <node concept="3F0A7n" id="4aDnqFRRZtE" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4aDnqFRRZtF" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

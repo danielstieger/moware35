@@ -4622,6 +4622,54 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="4aDnqFS9LLJ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getDelegateHookOption" />
+      <node concept="3Tm1VV" id="4aDnqFS9LLK" role="1B3o_S" />
+      <node concept="3Tqbb2" id="4aDnqFS9LLL" role="3clF45">
+        <ref role="ehGHo" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
+      </node>
+      <node concept="3clFbS" id="4aDnqFS9LLM" role="3clF47">
+        <node concept="3clFbF" id="4aDnqFS9LLN" role="3cqZAp">
+          <node concept="1PxgMI" id="4aDnqFS9LLO" role="3clFbG">
+            <node concept="2OqwBi" id="4aDnqFS9LLP" role="1m5AlR">
+              <node concept="2OqwBi" id="4aDnqFS9LLQ" role="2Oq$k0">
+                <node concept="13iPFW" id="4aDnqFS9LLR" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="4aDnqFS9LLS" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:pQ21WN5qoe" resolve="option" />
+                </node>
+              </node>
+              <node concept="1z4cxt" id="4aDnqFS9LLT" role="2OqNvi">
+                <node concept="1bVj0M" id="4aDnqFS9LLU" role="23t8la">
+                  <node concept="3clFbS" id="4aDnqFS9LLV" role="1bW5cS">
+                    <node concept="3clFbF" id="4aDnqFS9LLW" role="3cqZAp">
+                      <node concept="2OqwBi" id="4aDnqFS9LLX" role="3clFbG">
+                        <node concept="37vLTw" id="4aDnqFS9LLY" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4aDnqFS9LM1" resolve="it" />
+                        </node>
+                        <node concept="1mIQ4w" id="4aDnqFS9LLZ" role="2OqNvi">
+                          <node concept="chp4Y" id="4aDnqFS9LM0" role="cj9EA">
+                            <ref role="cht4Q" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="4aDnqFS9LM1" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="4aDnqFS9LM2" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="chp4Y" id="4aDnqFS9LM3" role="3oSUPX">
+              <ref role="cht4Q" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="pQ21WNlmty" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />

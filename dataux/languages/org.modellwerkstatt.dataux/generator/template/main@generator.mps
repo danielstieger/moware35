@@ -10237,7 +10237,109 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5IEkTkkv01y" role="3cqZAp" />
+            <node concept="9aQIb" id="4aDnqFS9HvF" role="3cqZAp">
+              <node concept="3clFbS" id="4aDnqFS9HvH" role="9aQI4">
+                <node concept="3cpWs8" id="4aDnqFS9XgG" role="3cqZAp">
+                  <node concept="3cpWsn" id="4aDnqFS9XgH" role="3cpWs9">
+                    <property role="TrG5h" value="dlgtHool" />
+                    <node concept="3uibUv" id="4aDnqFS9XgE" role="1tU5fm">
+                      <ref role="3uigEE" to="zhcn:4aDnqFRRYlg" resolve="IDataUxDelegateHook" />
+                    </node>
+                    <node concept="10QFUN" id="4aDnqFSa1o7" role="33vP2m">
+                      <node concept="2OqwBi" id="4aDnqFS9TZ$" role="10QFUP">
+                        <node concept="37vLTw" id="4aDnqFS9SRj" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4mZSGsbYR44" resolve="factory" />
+                        </node>
+                        <node concept="liA8E" id="4aDnqFS9UPi" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:52pTiJH00BL" resolve="getNewClassInstanceByFQName" />
+                          <node concept="Xl_RD" id="4aDnqFS9UT$" role="37wK5m">
+                            <property role="Xl_RC" value="fq.Name" />
+                            <node concept="17Uvod" id="4aDnqFSbbB5" role="lGtFl">
+                              <property role="2qtEX9" value="value" />
+                              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                              <node concept="3zFVjK" id="4aDnqFSbbB6" role="3zH0cK">
+                                <node concept="3clFbS" id="4aDnqFSbbB7" role="2VODD2">
+                                  <node concept="3clFbF" id="4aDnqFSbbLo" role="3cqZAp">
+                                    <node concept="2OqwBi" id="4aDnqFSbdfO" role="3clFbG">
+                                      <node concept="2OqwBi" id="4aDnqFSbcuc" role="2Oq$k0">
+                                        <node concept="2OqwBi" id="4aDnqFSbbXv" role="2Oq$k0">
+                                          <node concept="30H73N" id="4aDnqFSbbLn" role="2Oq$k0" />
+                                          <node concept="2qgKlT" id="4aDnqFSbchd" role="2OqNvi">
+                                            <ref role="37wK5l" to="5y3p:4aDnqFS9LLJ" resolve="getDelegateHookOption" />
+                                          </node>
+                                        </node>
+                                        <node concept="3TrEf2" id="4aDnqFSbcFq" role="2OqNvi">
+                                          <ref role="3Tt5mk" to="1btx:4aDnqFRRZtr" resolve="elementHook" />
+                                        </node>
+                                      </node>
+                                      <node concept="2qgKlT" id="4aDnqFSbdRm" role="2OqNvi">
+                                        <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3uibUv" id="4aDnqFSa1o8" role="10QFUM">
+                        <ref role="3uigEE" to="zhcn:4aDnqFRRYlg" resolve="IDataUxDelegateHook" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4aDnqFS9Rxf" role="3cqZAp">
+                  <node concept="2OqwBi" id="4aDnqFS9Rxg" role="3clFbG">
+                    <node concept="37vLTw" id="4aDnqFS9Rxh" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1YAKtdR2aTo" resolve="stringDelegate" />
+                      <node concept="1ZhdrF" id="4aDnqFS9Rxi" role="lGtFl">
+                        <property role="2qtEX8" value="variableDeclaration" />
+                        <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068498886296/1068581517664" />
+                        <node concept="3$xsQk" id="4aDnqFS9Rxj" role="3$ytzL">
+                          <node concept="3clFbS" id="4aDnqFS9Rxk" role="2VODD2">
+                            <node concept="3clFbF" id="4aDnqFS9Rxl" role="3cqZAp">
+                              <node concept="2OqwBi" id="4aDnqFS9Rxm" role="3clFbG">
+                                <node concept="1iwH7S" id="4aDnqFS9Rxn" role="2Oq$k0" />
+                                <node concept="1iwH70" id="4aDnqFS9Rxo" role="2OqNvi">
+                                  <ref role="1iwH77" node="61_ZUKWBNoZ" resolve="DelegateFD" />
+                                  <node concept="30H73N" id="4aDnqFS9Rxp" role="1iwH7V" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4aDnqFS9Rxq" role="2OqNvi">
+                      <ref role="37wK5l" to="5wm0:4aDnqFSaq$$" resolve="setDelegateHook" />
+                      <node concept="37vLTw" id="4aDnqFSbbg0" role="37wK5m">
+                        <ref role="3cqZAo" node="4aDnqFS9XgH" resolve="dlgtHool" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="4aDnqFS9HvG" role="3cqZAp" />
+              </node>
+              <node concept="1W57fq" id="4aDnqFS9Kh9" role="lGtFl">
+                <node concept="3IZrLx" id="4aDnqFS9Kha" role="3IZSJc">
+                  <node concept="3clFbS" id="4aDnqFS9Khb" role="2VODD2">
+                    <node concept="3clFbF" id="4aDnqFS9KiJ" role="3cqZAp">
+                      <node concept="2OqwBi" id="4aDnqFS9R2u" role="3clFbG">
+                        <node concept="2OqwBi" id="4aDnqFS9KvP" role="2Oq$k0">
+                          <node concept="30H73N" id="4aDnqFS9KiI" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="4aDnqFS9KG4" role="2OqNvi">
+                            <ref role="37wK5l" to="5y3p:4aDnqFS9LLJ" resolve="getDelegateHookOption" />
+                          </node>
+                        </node>
+                        <node concept="3x8VRR" id="4aDnqFS9RfI" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="4aDnqFS9EL$" role="3cqZAp" />
             <node concept="3clFbF" id="1YAKtdR0kGh" role="3cqZAp">
               <node concept="2OqwBi" id="1YAKtdR0kGm" role="3clFbG">
                 <node concept="37vLTw" id="fdGRoMYPr2" role="2Oq$k0">
