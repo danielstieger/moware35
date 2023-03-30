@@ -10244,6 +10244,27 @@
                     <property role="TrG5h" value="dlgtHool" />
                     <node concept="3uibUv" id="4aDnqFS9XgE" role="1tU5fm">
                       <ref role="3uigEE" to="zhcn:4aDnqFRRYlg" resolve="IDataUxDelegateHook" />
+                      <node concept="17QB3L" id="3qLkZ_Rh6Vr" role="11_B2D">
+                        <node concept="29HgVG" id="3qLkZ_Rjyxo" role="lGtFl">
+                          <node concept="3NFfHV" id="3qLkZ_RjWIE" role="3NFExx">
+                            <node concept="3clFbS" id="3qLkZ_RjWIF" role="2VODD2">
+                              <node concept="3clFbF" id="3qLkZ_RjXl3" role="3cqZAp">
+                                <node concept="2OqwBi" id="3qLkZ_RjZ8M" role="3clFbG">
+                                  <node concept="2OqwBi" id="3qLkZ_RjXMH" role="2Oq$k0">
+                                    <node concept="30H73N" id="3qLkZ_RjXl2" role="2Oq$k0" />
+                                    <node concept="2qgKlT" id="3qLkZ_RjY_g" role="2OqNvi">
+                                      <ref role="37wK5l" to="5y3p:4aDnqFS9LLJ" resolve="getDelegateHookOption" />
+                                    </node>
+                                  </node>
+                                  <node concept="2qgKlT" id="3qLkZ_RjZ$H" role="2OqNvi">
+                                    <ref role="37wK5l" to="5y3p:3qLkZ_RjyCX" resolve="getHookDelegateType" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                     <node concept="10QFUN" id="4aDnqFSa1o7" role="33vP2m">
                       <node concept="2OqwBi" id="4aDnqFS9TZ$" role="10QFUP">

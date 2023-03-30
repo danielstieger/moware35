@@ -7867,5 +7867,45 @@
       <node concept="10Oyi0" id="7Nm35wsCZAY" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="3qLkZ_RjyCM">
+    <property role="3GE5qa" value="delegates.options" />
+    <ref role="13h7C2" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
+    <node concept="13i0hz" id="3qLkZ_RjyCX" role="13h7CS">
+      <property role="TrG5h" value="getHookDelegateType" />
+      <node concept="3Tm1VV" id="3qLkZ_RjyCY" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3qLkZ_RjyDd" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+      <node concept="3clFbS" id="3qLkZ_RjyD0" role="3clF47">
+        <node concept="3clFbF" id="3qLkZ_RjyEi" role="3cqZAp">
+          <node concept="2OqwBi" id="3qLkZ_RjThE" role="3clFbG">
+            <node concept="2OqwBi" id="3qLkZ_RjPcL" role="2Oq$k0">
+              <node concept="2OqwBi" id="3qLkZ_RjMn0" role="2Oq$k0">
+                <node concept="2OqwBi" id="3qLkZ_RjAcs" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3qLkZ_RjyO6" role="2Oq$k0">
+                    <node concept="13iPFW" id="3qLkZ_RjyEh" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3qLkZ_RjyWW" role="2OqNvi">
+                      <ref role="3Tt5mk" to="1btx:4aDnqFRRZtr" resolve="elementHook" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="3qLkZ_RjJko" role="2OqNvi">
+                    <ref role="3TtcxE" to="tpee:fWEKbgp" resolve="implementedInterface" />
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="3qLkZ_RjO$5" role="2OqNvi" />
+              </node>
+              <node concept="3Tsc0h" id="3qLkZ_RjQJJ" role="2OqNvi">
+                <ref role="3TtcxE" to="tpee:g91_B6F" resolve="parameter" />
+              </node>
+            </node>
+            <node concept="1uHKPH" id="3qLkZ_RjV6o" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="3qLkZ_RjyCN" role="13h7CW">
+      <node concept="3clFbS" id="3qLkZ_RjyCO" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
