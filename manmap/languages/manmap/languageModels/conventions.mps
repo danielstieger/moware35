@@ -17865,11 +17865,11 @@
                 </node>
                 <node concept="3cpWs3" id="5eu$Yb1HSsD" role="37vLTx">
                   <node concept="Xl_RD" id="5eu$Yb1HSsE" role="3uHU7w">
-                    <property role="Xl_RC" value=") " />
+                    <property role="Xl_RC" value=" CHAR) " />
                   </node>
                   <node concept="3cpWs3" id="5eu$Yb1HSsF" role="3uHU7B">
                     <node concept="Xl_RD" id="5eu$Yb1HSsG" role="3uHU7B">
-                      <property role="Xl_RC" value=" (CHAR " />
+                      <property role="Xl_RC" value=" (" />
                     </node>
                     <node concept="2OqwBi" id="5eu$Yb1HSsH" role="3uHU7w">
                       <node concept="37vLTw" id="5eu$Yb1HSsI" role="2Oq$k0">
@@ -17895,7 +17895,7 @@
               <node concept="3clFbF" id="5eu$Yb1TNwz" role="3cqZAp">
                 <node concept="d57v9" id="5eu$Yb1TNw$" role="3clFbG">
                   <node concept="Xl_RD" id="5eu$Yb1TNw_" role="37vLTx">
-                    <property role="Xl_RC" value=" (CHAR 5) " />
+                    <property role="Xl_RC" value=" (5 CHAR) " />
                   </node>
                   <node concept="37vLTw" id="5eu$Yb1TNwA" role="37vLTJ">
                     <ref role="3cqZAo" node="5eu$Yb1HSsu" resolve="st" />
@@ -17930,7 +17930,7 @@
               <node concept="3clFbF" id="5eu$Yb1TN$f" role="3cqZAp">
                 <node concept="d57v9" id="5eu$Yb1TN$g" role="3clFbG">
                   <node concept="Xl_RD" id="5eu$Yb1TN$h" role="37vLTx">
-                    <property role="Xl_RC" value=" (CHAR 50) " />
+                    <property role="Xl_RC" value=" (50 CHAR) " />
                   </node>
                   <node concept="37vLTw" id="5eu$Yb1TN$i" role="37vLTJ">
                     <ref role="3cqZAo" node="5eu$Yb1HSsu" resolve="st" />
@@ -18752,11 +18752,11 @@
                 </node>
                 <node concept="3cpWs3" id="5eu$Yb1XLH_" role="37vLTx">
                   <node concept="Xl_RD" id="5eu$Yb1XLHA" role="3uHU7w">
-                    <property role="Xl_RC" value=") " />
+                    <property role="Xl_RC" value=" CHAR) " />
                   </node>
                   <node concept="3cpWs3" id="5eu$Yb1XLHB" role="3uHU7B">
                     <node concept="Xl_RD" id="5eu$Yb1XLHC" role="3uHU7B">
-                      <property role="Xl_RC" value=" (CHAR " />
+                      <property role="Xl_RC" value=" (" />
                     </node>
                     <node concept="2OqwBi" id="5eu$Yb1XLHD" role="3uHU7w">
                       <node concept="37vLTw" id="5eu$Yb1XLHE" role="2Oq$k0">
@@ -18782,7 +18782,7 @@
               <node concept="3clFbF" id="5eu$Yb1XLHL" role="3cqZAp">
                 <node concept="d57v9" id="5eu$Yb1XLHM" role="3clFbG">
                   <node concept="Xl_RD" id="5eu$Yb1XLHN" role="37vLTx">
-                    <property role="Xl_RC" value=" (CHAR 5) " />
+                    <property role="Xl_RC" value=" (5 CHAR) " />
                   </node>
                   <node concept="37vLTw" id="5eu$Yb1XLHO" role="37vLTJ">
                     <ref role="3cqZAo" node="5eu$Yb1XL3z" resolve="st" />
@@ -18817,7 +18817,7 @@
               <node concept="3clFbF" id="5eu$Yb1XLHZ" role="3cqZAp">
                 <node concept="d57v9" id="5eu$Yb1XLI0" role="3clFbG">
                   <node concept="Xl_RD" id="5eu$Yb1XLI1" role="37vLTx">
-                    <property role="Xl_RC" value=" (CHAR 50) " />
+                    <property role="Xl_RC" value=" (50 CHAR) " />
                   </node>
                   <node concept="37vLTw" id="5eu$Yb1XLI2" role="37vLTJ">
                     <ref role="3cqZAo" node="5eu$Yb1XL3z" resolve="st" />
