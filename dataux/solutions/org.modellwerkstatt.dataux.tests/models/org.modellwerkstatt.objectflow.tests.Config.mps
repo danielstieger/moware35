@@ -295,16 +295,16 @@
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7agSOE7Kjvs" role="2CJdiS">
-        <property role="TrG5h" value="consoleAppFactory" />
-        <node concept="Xl_RD" id="7agSOE7Kjvt" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.dataux.runtime.core.FakeUiFactory" />
-        </node>
-      </node>
       <node concept="2CJf3v" id="7agSOE80e1P" role="2CJdiS">
         <property role="TrG5h" value="fakeBusService" />
         <node concept="Xl_RD" id="7agSOE80e1Q" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeEventBus" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="7agSOE7Kjvs" role="2CJdiS">
+        <property role="TrG5h" value="consoleAppFactory" />
+        <node concept="Xl_RD" id="7agSOE7Kjvt" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.dataux.runtime.core.FakeUiFactory" />
         </node>
       </node>
       <node concept="2CJ4_Q" id="7agSOE7Kjvu" role="2CJdiS">
@@ -1275,6 +1275,94 @@
     <node concept="2CPvp3" id="3p$I2HGv5yG" role="2CGBMS" />
     <node concept="20ptEN" id="5_V0ApDuoAI" role="20ptHX">
       <property role="3LDMhY" value="true" />
+    </node>
+  </node>
+  <node concept="2CG7Z0" id="5CzqO7LBAqM">
+    <property role="TrG5h" value="TurkuEfwws" />
+    <node concept="2CJf3v" id="1J3E0mHyS6$" role="2CGBMS">
+      <property role="TrG5h" value="platForm" />
+      <node concept="Xl_RD" id="1J3E0mHyS6_" role="2CJf0U">
+        <property role="Xl_RC" value="at.hafina.filiale.wws.shared.eFWWS_RICH_WEB" />
+      </node>
+    </node>
+    <node concept="2CPvp3" id="5CzqO7LBBFx" role="2CGBMS" />
+    <node concept="20ptWn" id="myLEe63nz6" role="20ptHX">
+      <node concept="Xl_RD" id="myLEe63nz7" role="20ptNC">
+        <property role="Xl_RC" value="at.hafina.filiale" />
+      </node>
+      <node concept="Xl_RD" id="2W8J7dvTWkw" role="20ptNC">
+        <property role="Xl_RC" value="at.hafina.firmshared" />
+      </node>
+      <node concept="Xl_RD" id="4R5QjzoyaZl" role="20ptNC">
+        <property role="Xl_RC" value="at.mlab" />
+      </node>
+    </node>
+    <node concept="2CJ4_Q" id="5CzqO7LBAWE" role="2CGBMS">
+      <ref role="2CJ4_N" node="4LC0Y0L2paJ" resolve="MPREIS_TomCat_LoLa" />
+      <node concept="26L8Vk" id="5CzqO7LAF6_" role="2CPvpQ">
+        <ref role="26L8Vy" node="4LC0Y0L2paW" resolve="url" />
+        <node concept="Xl_RD" id="5CzqO7LAF6A" role="26L8Vw">
+          <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest.mpreis.co.at:1521/LOLA" />
+        </node>
+      </node>
+      <node concept="26L8Vk" id="5CzqO7LBAZy" role="2CPvpQ">
+        <ref role="26L8Vy" node="4LC0Y0L2pb0" resolve="username" />
+        <node concept="Xl_RD" id="5CzqO7LBAZz" role="26L8Vw">
+          <property role="Xl_RC" value="fwws" />
+        </node>
+      </node>
+      <node concept="26L8Vk" id="5CzqO7LBAZ$" role="2CPvpQ">
+        <ref role="26L8Vy" node="4LC0Y0L2pb2" resolve="password" />
+        <node concept="Xl_RD" id="5CzqO7LBAZ_" role="26L8Vw">
+          <property role="Xl_RC" value="lola" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CJf3v" id="7kB3KoMew1n" role="2CGBMS">
+      <property role="TrG5h" value="fxUiFactory" />
+      <node concept="2CJ4$C" id="7kB3KoMew1o" role="2CJ4_l">
+        <property role="TrG5h" value="EventBusLocking" />
+        <node concept="Xl_RD" id="7kB3KoMew1p" role="2CaGCA">
+          <property role="Xl_RC" value="true" />
+        </node>
+      </node>
+      <node concept="2CJ4$C" id="7kB3KoMew1q" role="2CJ4_l">
+        <property role="TrG5h" value="SilentExLogging" />
+        <node concept="Xl_RD" id="7kB3KoMew1r" role="2CaGCA">
+          <property role="Xl_RC" value="false" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7kB3KoMew1s" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.turkuforms.app.TurkuAppFactory" />
+      </node>
+      <node concept="2CJ4$C" id="7zMDiEgiANP" role="2CJ4_l">
+        <property role="TrG5h" value="PortJ" />
+        <node concept="Xl_RD" id="7zMDiEgiANZ" role="2CaGCA">
+          <property role="Xl_RC" value="false" />
+        </node>
+      </node>
+      <node concept="2CJ4$C" id="1PdBb7ZYymV" role="2CJ4_l">
+        <property role="TrG5h" value="AlwaysRollbackSession" />
+        <node concept="Xl_RD" id="1PdBb7ZYyn7" role="2CaGCA">
+          <property role="Xl_RC" value="true" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="5CzqO7LBBld" role="2CGBMS" />
+    <node concept="2CJ4_Q" id="5CzqO7LBBi5" role="2CGBMS">
+      <ref role="2CJ4_N" node="4LC0Y0L2pbc" resolve="MPREIS_BasicInfrastructure" />
+    </node>
+    <node concept="2CJf3v" id="5CzqO7LBBkm" role="2CGBMS">
+      <property role="TrG5h" value="printFactory" />
+      <node concept="Xl_RD" id="5CzqO7LBBkn" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
+      </node>
+    </node>
+    <node concept="2CJf3v" id="5CzqO7LBBko" role="2CGBMS">
+      <property role="TrG5h" value="fakeBusService" />
+      <node concept="Xl_RD" id="5CzqO7LBBkp" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeEventBus" />
+      </node>
     </node>
   </node>
 </model>
