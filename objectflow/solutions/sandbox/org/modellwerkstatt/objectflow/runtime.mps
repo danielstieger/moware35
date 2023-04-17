@@ -54517,6 +54517,10 @@
         <property role="TrG5h" value="MOWARE_JOB" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
+      <node concept="QsSxf" id="4rFJdUFQaLb" role="Qtgdg">
+        <property role="TrG5h" value="MOWARE_TURKU" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
       <node concept="3Tm1VV" id="4FgSVMpn0u9" role="1B3o_S" />
     </node>
     <node concept="Qs71p" id="4FgSVMpnf8Q" role="jymVt">
