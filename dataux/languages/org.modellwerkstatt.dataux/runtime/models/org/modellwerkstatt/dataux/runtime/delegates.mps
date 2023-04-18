@@ -10214,8 +10214,13 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="37vLTw" id="5pvqQyCI29d" role="37wK5m">
-                      <ref role="3cqZAo" node="5pvqQyCHZxT" resolve="format" />
+                    <node concept="2OqwBi" id="7a2N2oKkfxm" role="37wK5m">
+                      <node concept="37vLTw" id="5pvqQyCI29d" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3DTEcmNJnAE" resolve="formatter" />
+                      </node>
+                      <node concept="liA8E" id="7a2N2oKkghD" role="2OqNvi">
+                        <ref role="37wK5l" to="25x5:~DecimalFormat.toLocalizedPattern()" resolve="toLocalizedPattern" />
+                      </node>
                     </node>
                   </node>
                 </node>
