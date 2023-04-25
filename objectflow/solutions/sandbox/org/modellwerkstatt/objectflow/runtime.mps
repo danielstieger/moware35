@@ -37790,6 +37790,15 @@
   <node concept="312cEu" id="3spXEPXIsOe">
     <property role="TrG5h" value="MoWareFormattersFactory" />
     <property role="3GE5qa" value="util" />
+    <node concept="Wx3nA" id="WuUzoM2os_" role="jymVt">
+      <property role="TrG5h" value="PIVOT_YEAR" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="WuUzoM2nMD" role="1B3o_S" />
+      <node concept="10Oyi0" id="WuUzoM2pvF" role="1tU5fm" />
+      <node concept="3cmrfG" id="WuUzoM2oxY" role="33vP2m">
+        <property role="3cmrfH" value="2000" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="1dCoTXDIM_M" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="NO0_FORMAT_OPTION" />
@@ -37894,8 +37903,8 @@
                 </node>
                 <node concept="liA8E" id="AN_117k2vC" role="2OqNvi">
                   <ref role="37wK5l" to="x5li:~DateTimeFormatter.withPivotYear(int)" resolve="withPivotYear" />
-                  <node concept="3cmrfG" id="AN_117k2xL" role="37wK5m">
-                    <property role="3cmrfH" value="2000" />
+                  <node concept="37vLTw" id="WuUzoM2pdb" role="37wK5m">
+                    <ref role="3cqZAo" node="WuUzoM2os_" resolve="PIVOT_YEAR" />
                   </node>
                 </node>
               </node>
