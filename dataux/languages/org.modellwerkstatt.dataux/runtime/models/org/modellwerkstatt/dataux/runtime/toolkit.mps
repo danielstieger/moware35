@@ -331,6 +331,12 @@
       <node concept="3Tm1VV" id="7L6pyrbn0Yo" role="1B3o_S" />
       <node concept="10P_77" id="7L6pyrbn0Yp" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="4GnAvwGTV6r" role="jymVt">
+      <property role="TrG5h" value="getAlwaysRollbackSession" />
+      <node concept="10P_77" id="4GnAvwGTVgq" role="3clF45" />
+      <node concept="3Tm1VV" id="4GnAvwGTV6u" role="1B3o_S" />
+      <node concept="3clFbS" id="4GnAvwGTV6v" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="467ssIo$YxS" role="jymVt" />
     <node concept="3clFb_" id="1SuqpWQX7r3" role="jymVt">
       <property role="2aFKle" value="false" />
