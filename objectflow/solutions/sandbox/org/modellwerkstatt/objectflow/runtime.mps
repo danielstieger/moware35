@@ -63399,7 +63399,7 @@
                       <node concept="3cpWs3" id="5PYG8oj8dqH" role="3uHU7B">
                         <node concept="3cpWs3" id="5PYG8oj8cN1" role="3uHU7B">
                           <node concept="Xl_RD" id="5PYG8oj818I" role="3uHU7B">
-                            <property role="Xl_RC" value="The destination entity '" />
+                            <property role="Xl_RC" value="The destination entity to merge into '" />
                           </node>
                           <node concept="37vLTw" id="5PYG8oj8cXl" role="3uHU7w">
                             <ref role="3cqZAo" node="5RCLcUrFmX4" resolve="destination" />
@@ -63414,7 +63414,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="5PYG8oj8fUz" role="3uHU7w">
-                      <property role="Xl_RC" value="' and can therefore not be merged." />
+                      <property role="Xl_RC" value="' and can therefore not be merged. [legacy mode enbld?]" />
                     </node>
                   </node>
                 </node>
