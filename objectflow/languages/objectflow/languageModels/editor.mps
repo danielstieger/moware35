@@ -2347,7 +2347,7 @@
           <ref role="1NtTu8" to="un0u:4ezdYK8yZAb" resolve="defaultColor" />
         </node>
         <node concept="3F0ifn" id="6Rdz00$u1DJ" role="3EZMnx">
-          <property role="3F0ifm" value="revert on FINAL_CANCEL_CONCLUSION:" />
+          <property role="3F0ifm" value="revert on FINAL_CANCEL/USER_CANCEL:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="6Rdz00$u1DK" role="3F10Kt">
             <property role="VOm3f" value="true" />
