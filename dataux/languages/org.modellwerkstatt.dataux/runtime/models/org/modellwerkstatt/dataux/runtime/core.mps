@@ -27948,26 +27948,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2UOq4H0MFw6" role="3cqZAp" />
-        <node concept="3clFbF" id="2UOq4H1IV_J" role="3cqZAp">
-          <node concept="2OqwBi" id="2UOq4H1IV_G" role="3clFbG">
-            <node concept="10M0yZ" id="2UOq4H1IV_H" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="2UOq4H1IV_I" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="2UOq4H1J4oh" role="37wK5m">
-                <node concept="37vLTw" id="2UOq4H1J7dj" role="3uHU7w">
-                  <ref role="3cqZAo" node="2UOq4H0Ncw8" resolve="deviceId" />
-                </node>
-                <node concept="Xl_RD" id="2UOq4H1J3O8" role="3uHU7B">
-                  <property role="Xl_RC" value="DEVICE NAME is " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="2UOq4H1Iy07" role="3cqZAp" />
         <node concept="3SKdUt" id="2UOq4H12FzH" role="3cqZAp">
           <node concept="1PaTwC" id="2UOq4H12FzI" role="1aUNEU">
