@@ -23,6 +23,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
+    <import index="3yh7" ref="r:aaca9c55-4fdd-48d9-9a8a-11661ecfd8a1(org.modellwerkstatt.objectflow.testsuit)" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -2595,7 +2596,7 @@
         <node concept="37vLTG" id="2w93nZwDyfI" role="3clF46">
           <property role="TrG5h" value="__testSuitHandler" />
           <node concept="3uibUv" id="2w93nZwDyiR" role="1tU5fm">
-            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitHandler" />
+            <ref role="3uigEE" to="3yh7:7ECLRBgCVsM" resolve="MoTestSuitHandler" />
           </node>
         </node>
         <node concept="3cqZAl" id="2w93nZwoWnA" role="3clF45" />
@@ -2631,7 +2632,7 @@
                     <ref role="3cqZAo" node="2w93nZwDyfI" resolve="__testSuitHandler" />
                   </node>
                   <node concept="liA8E" id="72pStkQ3qEN" role="2OqNvi">
-                    <ref role="37wK5l" to="gyq6:2w93nZwlfrf" resolve="debug" />
+                    <ref role="37wK5l" to="3yh7:2w93nZwlfrf" resolve="debug" />
                     <node concept="37vLTw" id="6I2imnYsmWE" role="37wK5m">
                       <ref role="3cqZAo" node="6I2imnYsmwM" resolve="__manMapSession" />
                     </node>
@@ -2767,7 +2768,7 @@
         <node concept="37vLTG" id="7Z3mGVdE8yM" role="3clF46">
           <property role="TrG5h" value="__testSuitHandler" />
           <node concept="3uibUv" id="7Z3mGVdE9kR" role="1tU5fm">
-            <ref role="3uigEE" to="gyq6:7ECLRBgCVsM" resolve="MoTestSuitHandler" />
+            <ref role="3uigEE" to="3yh7:7ECLRBgCVsM" resolve="MoTestSuitHandler" />
           </node>
         </node>
         <node concept="37vLTG" id="6t$pRS5I3ze" role="3clF46">
@@ -3241,7 +3242,7 @@
                               <ref role="3cqZAo" node="7Z3mGVdE8yM" resolve="__testSuitHandler" />
                             </node>
                             <node concept="liA8E" id="7Z3mGVdEhO1" role="2OqNvi">
-                              <ref role="37wK5l" to="gyq6:2w93nZwlfrf" resolve="debug" />
+                              <ref role="37wK5l" to="3yh7:2w93nZwlfrf" resolve="debug" />
                               <node concept="37vLTw" id="6I2imnYRdP3" role="37wK5m">
                                 <ref role="3cqZAo" node="6t$pRS5I3ze" resolve="__manMapSession" />
                               </node>

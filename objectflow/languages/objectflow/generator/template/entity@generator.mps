@@ -201,7 +201,6 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
-      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1202003934320" name="jetbrains.mps.baseLanguage.structure.ValueParameter" flags="nn" index="3t17PB" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -2260,38 +2259,27 @@
               </node>
             </node>
           </node>
-          <node concept="1W57fq" id="5wMObCiZ9F_" role="lGtFl">
-            <node concept="3IZrLx" id="5wMObCiZ9FA" role="3IZSJc">
-              <node concept="3clFbS" id="5wMObCiZ9FB" role="2VODD2">
-                <node concept="3clFbF" id="5wMObCiZ9FC" role="3cqZAp">
-                  <node concept="2OqwBi" id="5wMObCiZ9FD" role="3clFbG">
-                    <node concept="30H73N" id="5wMObCiZ9FE" role="2Oq$k0" />
-                    <node concept="1mIQ4w" id="5wMObCiZ9FF" role="2OqNvi">
-                      <node concept="chp4Y" id="5wMObCiZ9FG" role="cj9EA">
-                        <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="gft3U" id="5wMObCiZ9FH" role="UU_$l">
-              <node concept="3cpWs6" id="5wMObCiZym6" role="gfFT$">
-                <node concept="10Nm6u" id="5wMObCiZ$0Y" role="3cqZAk" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="1W57fq" id="5wMObCiZtkm" role="lGtFl">
         <node concept="3IZrLx" id="5wMObCiZtko" role="3IZSJc">
           <node concept="3clFbS" id="5wMObCiZtkq" role="2VODD2">
             <node concept="3clFbF" id="5wMObCiZxDu" role="3cqZAp">
-              <node concept="2OqwBi" id="5wMObCiZxDv" role="3clFbG">
-                <node concept="2qgKlT" id="5wMObCiZxDw" role="2OqNvi">
-                  <ref role="37wK5l" to="70o0:5dZoziQEPK7" resolve="hasNoSuperClass" />
+              <node concept="1Wc70l" id="5hs6isw4gGI" role="3clFbG">
+                <node concept="2OqwBi" id="5wMObCiZxDv" role="3uHU7B">
+                  <node concept="2qgKlT" id="5wMObCiZxDw" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:5dZoziQEPK7" resolve="hasNoSuperClass" />
+                  </node>
+                  <node concept="30H73N" id="5wMObCiZxDx" role="2Oq$k0" />
                 </node>
-                <node concept="30H73N" id="5wMObCiZxDx" role="2Oq$k0" />
+                <node concept="2OqwBi" id="5wMObCiZ9FD" role="3uHU7w">
+                  <node concept="30H73N" id="5wMObCiZ9FE" role="2Oq$k0" />
+                  <node concept="1mIQ4w" id="5wMObCiZ9FF" role="2OqNvi">
+                    <node concept="chp4Y" id="5wMObCiZ9FG" role="cj9EA">
+                      <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -2387,6 +2375,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5hs6isrm4Lm" role="jymVt" />
     <node concept="2tJIrI" id="5hs6isrm06V" role="jymVt" />
     <node concept="3clFb_" id="7kI3k5AZj5T" role="jymVt">
       <property role="TrG5h" value="method" />
@@ -3165,9 +3154,6 @@
       <node concept="3clFbS" id="25h1UmU2vs7" role="3clF47">
         <node concept="3clFbF" id="25h1UmU2GB_" role="3cqZAp">
           <node concept="3cpWs3" id="25h1UmU2GDo" role="3clFbG">
-            <node concept="1rXfSq" id="25h1UmU2GER" role="3uHU7w">
-              <ref role="37wK5l" node="5wMObCiZ6PJ" resolve="getKeyProperty" />
-            </node>
             <node concept="Xl_RD" id="25h1UmU2GB$" role="3uHU7B">
               <property role="Xl_RC" value="" />
               <node concept="17Uvod" id="25h1UmU2Rxb" role="lGtFl">
@@ -3190,6 +3176,12 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="1DoJHT" id="5hs6iswVxtY" role="3uHU7w">
+              <property role="1Dpdpm" value="getKeyProperty" />
+              <node concept="3uibUv" id="5hs6iswVxva" role="1Ez5kq">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
               </node>
             </node>
           </node>

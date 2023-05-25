@@ -4648,7 +4648,6 @@
       <property role="TrG5h" value="SessionEntities Test Checkout / RO marked" />
       <node concept="3cqZAl" id="rcyLvSEHn3" role="3clF45" />
       <node concept="3clFbS" id="rcyLvSEHn4" role="3clF47">
-        <node concept="3clFbH" id="rcyLvSEUbr" role="3cqZAp" />
         <node concept="1Dw8fO" id="rcyLvSEJ9l" role="3cqZAp">
           <node concept="3clFbS" id="rcyLvSEJ9n" role="2LFqv$">
             <node concept="3cpWs8" id="rcyLvSELar" role="3cqZAp">
