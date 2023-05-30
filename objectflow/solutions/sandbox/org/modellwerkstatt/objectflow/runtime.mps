@@ -53789,9 +53789,11 @@
           <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
         </node>
       </node>
-      <node concept="37vLTG" id="4_xNQNe06QN" role="3clF46">
-        <property role="TrG5h" value="initDependentTestFields" />
-        <node concept="10P_77" id="4_xNQNe06Ug" role="1tU5fm" />
+      <node concept="37vLTG" id="6_v95JOof_s" role="3clF46">
+        <property role="TrG5h" value="__manMapSession" />
+        <node concept="3uibUv" id="6_v95JOofB9" role="1tU5fm">
+          <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
       </node>
       <node concept="3cqZAl" id="6F2RWtjwraj" role="3clF45" />
       <node concept="3Tm1VV" id="6F2RWtjwrak" role="1B3o_S" />
@@ -53817,6 +53819,12 @@
           <ref role="3uigEE" node="6F2RWtjwJOe" resolve="IOFXTestSuit.IOFXTestSuitHandler" />
         </node>
       </node>
+      <node concept="37vLTG" id="6_v95JOoglB" role="3clF46">
+        <property role="TrG5h" value="__manMapSession" />
+        <node concept="3uibUv" id="6_v95JOoglC" role="1tU5fm">
+          <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="6F2RWtjwreu" role="3clF45" />
       <node concept="3Tm1VV" id="6F2RWtjwrev" role="1B3o_S" />
       <node concept="3clFbS" id="6F2RWtjwrew" role="3clF47" />
@@ -53835,10 +53843,8 @@
       <node concept="3clFb_" id="4_xNQNdZj6k" role="jymVt">
         <property role="TrG5h" value="getOrCreateTestSuit" />
         <node concept="37vLTG" id="4_xNQNdZjgA" role="3clF46">
-          <property role="TrG5h" value="cls" />
-          <node concept="3uibUv" id="4_xNQNdZjlr" role="1tU5fm">
-            <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-          </node>
+          <property role="TrG5h" value="fqName" />
+          <node concept="17QB3L" id="6_v95JOluo5" role="1tU5fm" />
         </node>
         <node concept="3uibUv" id="4_xNQNdZjdi" role="3clF45">
           <ref role="3uigEE" node="6F2RWtjwoXj" resolve="IOFXTestSuit" />
@@ -65978,7 +65984,7 @@
   </node>
   <node concept="2ABs$o" id="c_EXQOnSE">
     <property role="3GE5qa" value="OFXTestSuit" />
-    <property role="TrG5h" value="OFTextMethod" />
+    <property role="TrG5h" value="OFXTestMethod" />
     <node concept="2ACnGN" id="c_EXQOnTl" role="3MN40a">
       <property role="TrG5h" value="name" />
       <node concept="3Tm1VV" id="c_EXQOnTn" role="1B3o_S" />
@@ -66304,6 +66310,27 @@
     </node>
     <node concept="2tJIrI" id="4kNjw_lxEtD" role="jymVt" />
     <node concept="3Tm1VV" id="4kNjw_lxErz" role="1B3o_S" />
+  </node>
+  <node concept="2ABs$o" id="6_v95JOmF4f">
+    <property role="3GE5qa" value="OFXTestSuit" />
+    <property role="TrG5h" value="OFXIncludedSuit" />
+    <node concept="2ACnGN" id="6_v95JOmF4g" role="3MN40a">
+      <property role="TrG5h" value="name" />
+      <node concept="3Tm1VV" id="6_v95JOmF4h" role="1B3o_S" />
+      <node concept="3clFbS" id="6_v95JOmF4i" role="3clF47" />
+      <node concept="17QB3L" id="6_v95JOmF4j" role="3clF45" />
+    </node>
+    <node concept="3Tm1VV" id="6_v95JOmF4w" role="1B3o_S" />
+    <node concept="2AHcQZ" id="6_v95JOmF4x" role="2AJF6D">
+      <ref role="2AI5Lk" to="ouhv:~Retention" resolve="Retention" />
+      <node concept="2B6LJw" id="6_v95JOmF4y" role="2B76xF">
+        <ref role="2B6OnR" to="ouhv:~Retention.value()" resolve="value" />
+        <node concept="Rm8GO" id="6_v95JOmF4z" role="2B70Vg">
+          <ref role="Rm8GQ" to="ouhv:~RetentionPolicy.RUNTIME" resolve="RUNTIME" />
+          <ref role="1Px2BO" to="ouhv:~RetentionPolicy" resolve="RetentionPolicy" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
