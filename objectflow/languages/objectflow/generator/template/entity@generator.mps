@@ -439,16 +439,6 @@
   <node concept="bUwia" id="6RQ_77qFyfc">
     <property role="TrG5h" value="EntityMapping" />
     <property role="3$yP7D" value="true" />
-    <node concept="2rT7sh" id="6RQ_77qFyrV" role="2rTMjI">
-      <property role="TrG5h" value="DEPRECATED_BusinessPropField" />
-      <ref role="2rTdP9" to="tpee:huRhdFY" resolve="Property" />
-      <ref role="2rZz_L" to="tpee:fz12cDC" resolve="FieldDeclaration" />
-    </node>
-    <node concept="2rT7sh" id="6RQ_77qFyv3" role="2rTMjI">
-      <property role="TrG5h" value="DEPRECATED_RefKeyField" />
-      <ref role="2rTdP9" to="tpee:huRhdFY" resolve="Property" />
-      <ref role="2rZz_L" to="tpee:huRhdFY" resolve="Property" />
-    </node>
     <node concept="2rT7sh" id="1ejJFIuETYP" role="2rTMjI">
       <property role="TrG5h" value="OFXField" />
       <ref role="2rTdP9" to="tpee:huRhdFY" resolve="Property" />
