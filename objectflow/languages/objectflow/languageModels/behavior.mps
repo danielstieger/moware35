@@ -10813,7 +10813,7 @@
                     </node>
                     <node concept="3cpWs3" id="7rG0OCcC71u" role="3uHU7B">
                       <node concept="Xl_RD" id="7rG0OCcC6Xb" role="3uHU7B">
-                        <property role="Xl_RC" value="test " />
+                        <property role="Xl_RC" value="testmethod " />
                       </node>
                       <node concept="BsUDl" id="7rG0OCcC71K" role="3uHU7w">
                         <ref role="37wK5l" node="S3k7aiVNsK" resolve="getTestNum" />
