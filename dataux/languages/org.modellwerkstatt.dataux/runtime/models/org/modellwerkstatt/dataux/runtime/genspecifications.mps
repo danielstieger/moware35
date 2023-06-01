@@ -622,7 +622,7 @@
       <property role="TrG5h" value="cmdModule" />
       <node concept="3Tm6S6" id="cYdxW5KWDN" role="1B3o_S" />
       <node concept="3uibUv" id="Y3fiVJOkSp" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXModule" />
+        <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXCmdModule" />
       </node>
     </node>
     <node concept="312cEg" id="3nLGOmWz_Nt" role="jymVt">
@@ -1204,7 +1204,7 @@
       <node concept="37vLTG" id="6HvFgwbyt$y" role="3clF46">
         <property role="TrG5h" value="proc" />
         <node concept="3uibUv" id="6HvFgwbyudj" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXModule" />
+          <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXCmdModule" />
         </node>
       </node>
       <node concept="37vLTG" id="6HvFgwbyulV" role="3clF46">
@@ -1279,18 +1279,18 @@
           <node concept="3cpWsn" id="6oMnH9FTWZ5" role="3cpWs9">
             <property role="TrG5h" value="strategy" />
             <node concept="3uibUv" id="6oMnH9FTWZ6" role="1tU5fm">
-              <ref role="3uigEE" to="28jr:4z7jlGJreQ5" resolve="IOFXModule.CmdExecStrategy" />
+              <ref role="3uigEE" to="28jr:4z7jlGJreQ5" resolve="IOFXCmdModule.CmdExecStrategy" />
             </node>
             <node concept="3K4zz7" id="4uSs_3r0klp" role="33vP2m">
               <node concept="1rXfSq" id="4uSs_3r0ktN" role="3K4Cdx">
                 <ref role="37wK5l" node="WY_0Ahf18c" resolve="canPotentiallyExecWhenMultiSelection" />
               </node>
               <node concept="Rm8GO" id="4z7jlGJCF74" role="3K4GZi">
-                <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXModule.CmdExecStrategy" />
+                <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXCmdModule.CmdExecStrategy" />
                 <ref role="Rm8GQ" to="28jr:4z7jlGJreQ7" resolve="MULTI" />
               </node>
               <node concept="Rm8GO" id="4uSs_3r5LHF" role="3K4E3e">
-                <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXModule.CmdExecStrategy" />
+                <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXCmdModule.CmdExecStrategy" />
                 <ref role="Rm8GQ" to="28jr:4z7jlGJreQ8" resolve="AUTO_CON_MULTI" />
               </node>
             </node>
@@ -1334,7 +1334,7 @@
               <node concept="3cpWsn" id="4uSs_3r1eOk" role="3cpWs9">
                 <property role="TrG5h" value="x" />
                 <node concept="3uibUv" id="4uSs_3r1fDa" role="1tU5fm">
-                  <ref role="3uigEE" to="28jr:11hNSr_a7DY" resolve="IOFXModule.CommandPermission" />
+                  <ref role="3uigEE" to="28jr:11hNSr_a7DY" resolve="IOFXCmdModule.CommandPermission" />
                 </node>
                 <node concept="2OqwBi" id="206uhc7mqpO" role="33vP2m">
                   <node concept="37vLTw" id="6HvFgwbyvZ3" role="2Oq$k0">
@@ -1373,7 +1373,7 @@
               </node>
               <node concept="3clFbC" id="206uhc7msMr" role="3clFbw">
                 <node concept="Rm8GO" id="206uhc7mqpN" role="3uHU7w">
-                  <ref role="1Px2BO" to="28jr:11hNSr_a7DY" resolve="IOFXModule.CommandPermission" />
+                  <ref role="1Px2BO" to="28jr:11hNSr_a7DY" resolve="IOFXCmdModule.CommandPermission" />
                   <ref role="Rm8GQ" to="28jr:11hNSr_a7E1" resolve="DISABLED" />
                 </node>
                 <node concept="37vLTw" id="4uSs_3r1fKY" role="3uHU7B">
@@ -1454,7 +1454,7 @@
               <node concept="37vLTI" id="3y7Cfyft1Id" role="3clFbG">
                 <node concept="3y3z36" id="3oBdEpTlIGj" role="37vLTx">
                   <node concept="Rm8GO" id="3oBdEpTlJcQ" role="3uHU7w">
-                    <ref role="1Px2BO" to="28jr:11hNSr_a7DY" resolve="IOFXModule.CommandPermission" />
+                    <ref role="1Px2BO" to="28jr:11hNSr_a7DY" resolve="IOFXCmdModule.CommandPermission" />
                     <ref role="Rm8GQ" to="28jr:11hNSr_a7E1" resolve="DISABLED" />
                   </node>
                   <node concept="2OqwBi" id="3oBdEpTlBfC" role="3uHU7B">
@@ -1464,7 +1464,7 @@
                     <node concept="liA8E" id="3oBdEpTlBx1" role="2OqNvi">
                       <ref role="37wK5l" to="28jr:7rqBz8B3EmZ" resolve="getCommandPermission" />
                       <node concept="Rm8GO" id="4z7jlGJCCXH" role="37wK5m">
-                        <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXModule.CmdExecStrategy" />
+                        <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXCmdModule.CmdExecStrategy" />
                         <ref role="Rm8GQ" to="28jr:4z7jlGJreQ6" resolve="SINGLE" />
                       </node>
                       <node concept="37vLTw" id="3oBdEpTlHqL" role="37wK5m">
@@ -1858,7 +1858,7 @@
               <ref role="3cqZAo" node="Y3fiVJOkQQ" resolve="cmdModule" />
             </node>
             <node concept="liA8E" id="13qccrU5yC3" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:6XcCapQ_YNB" resolve="getDefaultCmdParams" />
+              <ref role="37wK5l" to="28jr:6XcCapQ_YNB" resolve="getCommandDefaultParams" />
               <node concept="37vLTw" id="13qccrU5z0L" role="37wK5m">
                 <ref role="3cqZAo" node="5$YtY8hobHP" resolve="public_commandFqName" />
               </node>
