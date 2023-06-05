@@ -5388,16 +5388,6 @@
         <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
       </node>
     </node>
-    <node concept="312cEg" id="5ol$NvYM$D" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="platform" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="5ol$NvYJSY" role="1B3o_S" />
-      <node concept="3uibUv" id="5ol$NvYM8c" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:7MWNCzY1Tjr" resolve="IOFXPlatform" />
-      </node>
-    </node>
     <node concept="312cEg" id="59qqFijeeMZ" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -5494,19 +5484,6 @@
             </node>
             <node concept="37vLTw" id="72_IH8puZqF" role="37vLTJ">
               <ref role="3cqZAo" node="5_bDd1d4n9D" resolve="responsibleCommandContainer" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5ol$NvYPIu" role="3cqZAp">
-          <node concept="37vLTI" id="5ol$NvYQwv" role="3clFbG">
-            <node concept="37vLTw" id="5ol$NvYQ$i" role="37vLTx">
-              <ref role="3cqZAo" node="5ol$NvYONf" resolve="plt" />
-            </node>
-            <node concept="2OqwBi" id="5ol$NvYPNg" role="37vLTJ">
-              <node concept="Xjq3P" id="5ol$NvYPIs" role="2Oq$k0" />
-              <node concept="2OwXpG" id="5ol$NvYPYx" role="2OqNvi">
-                <ref role="2Oxat5" node="5ol$NvYM$D" resolve="platform" />
-              </node>
             </node>
           </node>
         </node>
@@ -8652,17 +8629,6 @@
               <node concept="Xjq3P" id="276JbtCyv3v" role="2Oq$k0" />
               <node concept="2OwXpG" id="276JbtCyv3X" role="2OqNvi">
                 <ref role="2Oxat5" node="5_bDd1d4n9D" resolve="responsibleCommandContainer" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5ol$NvYThj" role="3cqZAp">
-          <node concept="37vLTI" id="5ol$NvYV2r" role="3clFbG">
-            <node concept="10Nm6u" id="5ol$NvYVxo" role="37vLTx" />
-            <node concept="2OqwBi" id="5ol$NvYTxb" role="37vLTJ">
-              <node concept="Xjq3P" id="5ol$NvYThh" role="2Oq$k0" />
-              <node concept="2OwXpG" id="5ol$NvYUkb" role="2OqNvi">
-                <ref role="2Oxat5" node="5ol$NvYM$D" resolve="platform" />
               </node>
             </node>
           </node>
