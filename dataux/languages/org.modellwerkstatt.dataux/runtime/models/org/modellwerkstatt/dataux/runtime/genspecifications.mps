@@ -2743,7 +2743,7 @@
     <node concept="2tJIrI" id="Y3fiVJN3Yj" role="jymVt" />
     <node concept="3clFb_" id="3nLGOmWsxPy" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getAllActionsOfMenu" />
+      <property role="TrG5h" value="getAllCmdActionsOfMenu" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <node concept="3clFbS" id="3nLGOmWsxP_" role="3clF47">
@@ -2832,7 +2832,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="3nLGOmWsAo7" role="2OqNvi">
-                            <ref role="37wK5l" node="3nLGOmWsxPy" resolve="getAllActionsOfMenu" />
+                            <ref role="37wK5l" node="3nLGOmWsxPy" resolve="getAllCmdActionsOfMenu" />
                           </node>
                         </node>
                       </node>
@@ -2879,7 +2879,7 @@
     <node concept="2tJIrI" id="4LHv1lEuYD4" role="jymVt" />
     <node concept="3clFb_" id="1H_Z5rzY9rV" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getAllMenus" />
+      <property role="TrG5h" value="getAllPlainMenus" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <node concept="3clFbS" id="1H_Z5rzY9rW" role="3clF47">
@@ -2962,7 +2962,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="1H_Z5rzY9sz" role="2OqNvi">
-                          <ref role="37wK5l" node="1H_Z5rzY9rV" resolve="getAllMenus" />
+                          <ref role="37wK5l" node="1H_Z5rzY9rV" resolve="getAllPlainMenus" />
                         </node>
                       </node>
                     </node>
@@ -3177,7 +3177,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="5j6tTptU3Lr" role="2OqNvi">
-                          <ref role="37wK5l" node="3nLGOmWsxPy" resolve="getAllActionsOfMenu" />
+                          <ref role="37wK5l" node="3nLGOmWsxPy" resolve="getAllCmdActionsOfMenu" />
                         </node>
                       </node>
                     </node>
