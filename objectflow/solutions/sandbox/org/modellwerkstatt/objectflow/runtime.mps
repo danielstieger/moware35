@@ -3504,13 +3504,6 @@
       <node concept="3Tm1VV" id="6dnXV8mIGtJ" role="1B3o_S" />
       <node concept="3clFbS" id="6dnXV8mIGtK" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="1HDSUXwCQgv" role="jymVt">
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getTermCancelMessage" />
-      <node concept="3clFbS" id="1HDSUXwCQgy" role="3clF47" />
-      <node concept="3Tm1VV" id="1HDSUXwCQgz" role="1B3o_S" />
-      <node concept="17QB3L" id="1HDSUXwCQ2H" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="1HDSUXw3Gkb" role="jymVt">
       <property role="TrG5h" value="getTerminateCancelSelections" />
       <node concept="_YKpA" id="1HDSUXw3Gkc" role="3clF45">
@@ -66711,13 +66704,6 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
-    <node concept="2tJIrI" id="1HDSUXwDtAJ" role="jymVt" />
-    <node concept="312cEg" id="1HDSUXwDkL2" role="jymVt">
-      <property role="TrG5h" value="cancelMsg" />
-      <node concept="3Tmbuc" id="2IXocwdSDfO" role="1B3o_S" />
-      <node concept="17QB3L" id="1HDSUXwDAjw" role="1tU5fm" />
-      <node concept="10Nm6u" id="1HDSUXwDELE" role="33vP2m" />
-    </node>
     <node concept="2tJIrI" id="U8r3YpSC2V" role="jymVt" />
     <node concept="312cEg" id="2IXocwdT2XG" role="jymVt">
       <property role="TrG5h" value="__manMapSession" />
@@ -70066,20 +70052,6 @@
             <node concept="37vLTw" id="4$qgDG0BZl" role="3uHU7B">
               <ref role="3cqZAo" node="6dnXV8mIGog" resolve="finalCancelStarted" />
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="1HDSUXwD1mK" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getTermCancelMessage" />
-      <node concept="3Tm1VV" id="1HDSUXwD1mM" role="1B3o_S" />
-      <node concept="17QB3L" id="1HDSUXwD1mN" role="3clF45" />
-      <node concept="3clFbS" id="1HDSUXwD1mO" role="3clF47">
-        <node concept="3clFbF" id="1HDSUXwDDJ6" role="3cqZAp">
-          <node concept="37vLTw" id="1HDSUXwDDJ5" role="3clFbG">
-            <ref role="3cqZAo" node="1HDSUXwDkL2" resolve="cancelMsg" />
           </node>
         </node>
       </node>
