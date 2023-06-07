@@ -14,7 +14,6 @@
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
-    <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.runtime/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -175,7 +174,7 @@
       <node concept="37vLTG" id="7aUgYCzxLXV" role="3clF46">
         <property role="TrG5h" value="menu" />
         <node concept="3uibUv" id="7aUgYCzxM0K" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="Menu" />
         </node>
       </node>
       <node concept="3cqZAl" id="dX9tEwAk0o" role="3clF45" />
@@ -1033,19 +1032,19 @@
       <node concept="37vLTG" id="3y7CfyfpqOh" role="3clF46">
         <property role="TrG5h" value="startMenu" />
         <node concept="3uibUv" id="3y7Cfyfpw8V" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="Menu" />
         </node>
       </node>
       <node concept="37vLTG" id="3y7Cfyfpw9T" role="3clF46">
         <property role="TrG5h" value="extraMenu" />
         <node concept="3uibUv" id="3y7CfyfpwbW" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="Menu" />
         </node>
       </node>
       <node concept="37vLTG" id="3F_ifPterdh" role="3clF46">
         <property role="TrG5h" value="helpMenu" />
         <node concept="3uibUv" id="3F_ifPterdi" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="Menu" />
         </node>
       </node>
       <node concept="3cqZAl" id="3y7CfyfpqE_" role="3clF45" />
@@ -1323,7 +1322,7 @@
       <node concept="37vLTG" id="1KgqQuBEsS9" role="3clF46">
         <property role="TrG5h" value="folder" />
         <node concept="3uibUv" id="1KgqQuBEsX5" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="Menu" />
         </node>
       </node>
       <node concept="3cqZAl" id="1KgqQuBEsCQ" role="3clF45" />
