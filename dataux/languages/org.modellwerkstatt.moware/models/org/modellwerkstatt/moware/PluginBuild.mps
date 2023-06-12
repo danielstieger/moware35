@@ -176,12 +176,12 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2023.14 (DTO)" />
+          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2023.XX (XX)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
         <node concept="3Mxwew" id="1JLTjCmZp2l" role="3MwsjC">
-          <property role="3MwjfP" value="The MoWare DDD Werkbank 2022" />
+          <property role="3MwjfP" value="The MoWare DDD Werkbank 2023" />
         </node>
       </node>
       <node concept="2iUeEo" id="3UOln1JALmW" role="2iVFfd">
