@@ -44,7 +44,6 @@
     <stubModelEntry path="${module}/jars/richclient/mailapi.jar" />
     <stubModelEntry path="${module}/jars/richclient/smtp.jar" />
     <stubModelEntry path="${module}/jars/servletclient/servlet-api.jar" />
-    <stubModelEntry path="${module}/jars/basis/spring-aop-5.2.9.RELEASE.jar" />
     <stubModelEntry path="${module}/jars/basis/slf4j-api-1.7.30.jar" />
     <stubModelEntry path="${module}/jars/basis/mo-javaxbus-1.0.jar" />
     <stubModelEntry path="${module}/jars/printing21/barcode4j-fop-ext-complete.jar" />
@@ -67,6 +66,7 @@
     <stubModelEntry path="${module}/jars/richclient/log4j-jcl-2.17.1.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-slf4j-impl-2.17.1.jar" />
     <stubModelEntry path="${module}/jars/richclient/activation-1.1.jar" />
+    <stubModelEntry path="${module}/jars/basis/spring-aop-5.3.27.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

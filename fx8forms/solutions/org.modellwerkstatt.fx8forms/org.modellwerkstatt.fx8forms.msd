@@ -18,7 +18,6 @@
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/jars/richclient/fx8flatter.jar" />
-    <stubModelEntry path="${module}/jars/designtime/commons-imaging-1.0-RC-1.jar" />
     <stubModelEntry path="${module}/jars/designtime/javafx.base.jar" />
     <stubModelEntry path="${module}/jars/designtime/javafx.controls.jar" />
     <stubModelEntry path="${module}/jars/designtime/javafx.graphics.jar" />
