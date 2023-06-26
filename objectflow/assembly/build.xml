@@ -58,7 +58,7 @@
     </copy>
     
     <copy todir="${mowareWorkDir}/WEB-INF/lib">
-	  <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />   
+	  <fileset dir="${mowarePluginHomeDir}/jars/printing28/" includes="*.jar" />   
     </copy>
 		
       
