@@ -56,7 +56,7 @@
     <stubModelEntry path="${module}/jars/richclient/log4j-api-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-core-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-jcl-2.20.0.jar" />
-    <stubModelEntry path="${module}/jars/richclient/log4j-slf4j-impl-2.20.0.jar" />
+    <stubModelEntry path="${module}/jars/richclient/log4j-slf4j2-impl-2.20.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
