@@ -732,31 +732,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3Dx8mEZ49yK" role="3bR37C">
-          <node concept="1BurEX" id="3Dx8mEZ49yL" role="1SiIV1">
-            <node concept="398BVA" id="3Dx8mEZ49yD" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="3Dx8mEZ49yE" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="3Dx8mEZ49yF" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3Dx8mEZ49yG" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="3Dx8mEZ49yH" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="3Dx8mEZ49yI" role="2Ry0An">
-                        <property role="2Ry0Am" value="basis" />
-                        <node concept="2Ry0Ak" id="3Dx8mEZ49yJ" role="2Ry0An">
-                          <property role="2Ry0Am" value="slf4j-api-1.7.30.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1BupzO" id="4EjcJZr7mTo" role="3bR31x">
           <property role="3ZfqAx" value="" />
           <property role="1Hdu6h" value="true" />
@@ -820,106 +795,6 @@
                         <property role="2Ry0Am" value="richclient" />
                         <node concept="2Ry0Ak" id="6w_G7LZgGEL" role="2Ry0An">
                           <property role="2Ry0Am" value="ojdbc8.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4zX5jmWjulF" role="3bR37C">
-          <node concept="1BurEX" id="4zX5jmWjulG" role="1SiIV1">
-            <node concept="398BVA" id="4zX5jmWjul$" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="4zX5jmWjul_" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="4zX5jmWjulA" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="4zX5jmWjulB" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="4zX5jmWjulC" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="4zX5jmWjulD" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="4zX5jmWjulE" role="2Ry0An">
-                          <property role="2Ry0Am" value="log4j-api-2.17.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4zX5jmWjulO" role="3bR37C">
-          <node concept="1BurEX" id="4zX5jmWjulP" role="1SiIV1">
-            <node concept="398BVA" id="4zX5jmWjulH" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="4zX5jmWjulI" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="4zX5jmWjulJ" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="4zX5jmWjulK" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="4zX5jmWjulL" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="4zX5jmWjulM" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="4zX5jmWjulN" role="2Ry0An">
-                          <property role="2Ry0Am" value="log4j-core-2.17.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4zX5jmWjulX" role="3bR37C">
-          <node concept="1BurEX" id="4zX5jmWjulY" role="1SiIV1">
-            <node concept="398BVA" id="4zX5jmWjulQ" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="4zX5jmWjulR" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="4zX5jmWjulS" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="4zX5jmWjulT" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="4zX5jmWjulU" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="4zX5jmWjulV" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="4zX5jmWjulW" role="2Ry0An">
-                          <property role="2Ry0Am" value="log4j-jcl-2.17.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4zX5jmWjum6" role="3bR37C">
-          <node concept="1BurEX" id="4zX5jmWjum7" role="1SiIV1">
-            <node concept="398BVA" id="4zX5jmWjulZ" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="4zX5jmWjum0" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="4zX5jmWjum1" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="4zX5jmWjum2" role="2Ry0An">
-                    <property role="2Ry0Am" value="sandbox" />
-                    <node concept="2Ry0Ak" id="4zX5jmWjum3" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="4zX5jmWjum4" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="4zX5jmWjum5" role="2Ry0An">
-                          <property role="2Ry0Am" value="log4j-slf4j-impl-2.17.1.jar" />
                         </node>
                       </node>
                     </node>
@@ -1245,6 +1120,131 @@
                         <property role="2Ry0Am" value="printing28" />
                         <node concept="2Ry0Ak" id="1b02iKYiSkT" role="2Ry0An">
                           <property role="2Ry0Am" value="batik-all-1.16.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="577hWKiPfeR" role="3bR37C">
+          <node concept="1BurEX" id="577hWKiPfeS" role="1SiIV1">
+            <node concept="398BVA" id="577hWKiPfeK" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="577hWKiPfeL" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="577hWKiPfeM" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="577hWKiPfeN" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="577hWKiPfeO" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="577hWKiPfeP" role="2Ry0An">
+                        <property role="2Ry0Am" value="basis" />
+                        <node concept="2Ry0Ak" id="577hWKiPfeQ" role="2Ry0An">
+                          <property role="2Ry0Am" value="slf4j-api-2.0.7.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="577hWKiPff0" role="3bR37C">
+          <node concept="1BurEX" id="577hWKiPff1" role="1SiIV1">
+            <node concept="398BVA" id="577hWKiPfeT" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="577hWKiPfeU" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="577hWKiPfeV" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="577hWKiPfeW" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="577hWKiPfeX" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="577hWKiPfeY" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="577hWKiPfeZ" role="2Ry0An">
+                          <property role="2Ry0Am" value="log4j-api-2.20.0.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="577hWKiPff9" role="3bR37C">
+          <node concept="1BurEX" id="577hWKiPffa" role="1SiIV1">
+            <node concept="398BVA" id="577hWKiPff2" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="577hWKiPff3" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="577hWKiPff4" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="577hWKiPff5" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="577hWKiPff6" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="577hWKiPff7" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="577hWKiPff8" role="2Ry0An">
+                          <property role="2Ry0Am" value="log4j-core-2.20.0.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="577hWKiPffi" role="3bR37C">
+          <node concept="1BurEX" id="577hWKiPffj" role="1SiIV1">
+            <node concept="398BVA" id="577hWKiPffb" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="577hWKiPffc" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="577hWKiPffd" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="577hWKiPffe" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="577hWKiPfff" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="577hWKiPffg" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="577hWKiPffh" role="2Ry0An">
+                          <property role="2Ry0Am" value="log4j-jcl-2.20.0.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="577hWKiPffr" role="3bR37C">
+          <node concept="1BurEX" id="577hWKiPffs" role="1SiIV1">
+            <node concept="398BVA" id="577hWKiPffk" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="577hWKiPffl" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="577hWKiPffm" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="577hWKiPffn" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                    <node concept="2Ry0Ak" id="577hWKiPffo" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="577hWKiPffp" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="577hWKiPffq" role="2Ry0An">
+                          <property role="2Ry0Am" value="log4j-slf4j-impl-2.20.0.jar" />
                         </node>
                       </node>
                     </node>
