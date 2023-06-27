@@ -32026,120 +32026,191 @@
         </node>
         <node concept="3clFbH" id="1qz$GoBUfNG" role="3cqZAp" />
         <node concept="3clFbH" id="3SGVCbQR2ep" role="3cqZAp" />
-        <node concept="3clFbF" id="yJ4zx4azMj" role="3cqZAp">
-          <node concept="2OqwBi" id="yJ4zx4azN2" role="3clFbG">
-            <node concept="2OqwBi" id="yJ4zx4azMx" role="2Oq$k0">
-              <node concept="2OqwBi" id="yJ4zx4azMn" role="2Oq$k0">
-                <node concept="Xjq3P" id="yJ4zx4azMk" role="2Oq$k0" />
-                <node concept="2OwXpG" id="yJ4zx4azMt" role="2OqNvi">
-                  <ref role="2Oxat5" node="yJ4zx4azJK" resolve="colGrindPane" />
-                </node>
-              </node>
-              <node concept="34jXtK" id="yJ4zx4azMA" role="2OqNvi">
-                <node concept="37vLTw" id="fdGRoMYPFZ" role="25WWJ7">
-                  <ref role="3cqZAo" node="yJ4zx49isl" resolve="curColIndex" />
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="yJ4zx4azN8" role="2OqNvi">
-              <ref role="37wK5l" to="l152:~GridPane.add(javafx.scene.Node,int,int)" resolve="add" />
-              <node concept="1eOMI4" id="1YAKtdQZVLx" role="37wK5m">
-                <node concept="10QFUN" id="1YAKtdQZVLy" role="1eOMHV">
-                  <node concept="3uibUv" id="yJ4zx49wI0" role="10QFUM">
-                    <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
-                  </node>
-                  <node concept="2OqwBi" id="5Y1b9tRdm5R" role="10QFUP">
-                    <node concept="37vLTw" id="5Y1b9tRdlRy" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
+        <node concept="3clFbJ" id="6qnpvau9fqa" role="3cqZAp">
+          <node concept="3clFbS" id="6qnpvau9fqc" role="3clFbx">
+            <node concept="3clFbF" id="6qnpvau9uit" role="3cqZAp">
+              <node concept="2OqwBi" id="6qnpvau9uiu" role="3clFbG">
+                <node concept="2OqwBi" id="6qnpvau9uiv" role="2Oq$k0">
+                  <node concept="2OqwBi" id="6qnpvau9uiw" role="2Oq$k0">
+                    <node concept="Xjq3P" id="6qnpvau9uix" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="6qnpvau9uiy" role="2OqNvi">
+                      <ref role="2Oxat5" node="yJ4zx4azJK" resolve="colGrindPane" />
                     </node>
-                    <node concept="liA8E" id="5Y1b9tRdm$P" role="2OqNvi">
-                      <ref role="37wK5l" to="250q:5Y1b9tRd2l$" resolve="getLabel" />
+                  </node>
+                  <node concept="34jXtK" id="6qnpvau9uiz" role="2OqNvi">
+                    <node concept="37vLTw" id="6qnpvau9ui$" role="25WWJ7">
+                      <ref role="3cqZAo" node="yJ4zx49isl" resolve="curColIndex" />
                     </node>
                   </node>
                 </node>
-              </node>
-              <node concept="3cmrfG" id="yJ4zx4azNc" role="37wK5m">
-                <property role="3cmrfH" value="0" />
-              </node>
-              <node concept="37vLTw" id="fdGRoMYPKV" role="37wK5m">
-                <ref role="3cqZAo" node="yJ4zx49isf" resolve="curRowIndex" />
+                <node concept="liA8E" id="6qnpvau9ui_" role="2OqNvi">
+                  <ref role="37wK5l" to="l152:~GridPane.add(javafx.scene.Node,int,int,int,int)" resolve="add" />
+                  <node concept="1eOMI4" id="6qnpvau9uiA" role="37wK5m">
+                    <node concept="10QFUN" id="6qnpvau9uiB" role="1eOMHV">
+                      <node concept="3uibUv" id="6qnpvau9uiC" role="10QFUM">
+                        <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
+                      </node>
+                      <node concept="2OqwBi" id="6qnpvau9uiD" role="10QFUP">
+                        <node concept="37vLTw" id="6qnpvau9uiE" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
+                        </node>
+                        <node concept="liA8E" id="6qnpvau9uiF" role="2OqNvi">
+                          <ref role="37wK5l" to="250q:1_PJNZXbNkj" resolve="getRightPartComponent" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="6qnpvau9uiG" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="37vLTw" id="6qnpvau9uiH" role="37wK5m">
+                    <ref role="3cqZAo" node="yJ4zx49isf" resolve="curRowIndex" />
+                  </node>
+                  <node concept="3cmrfG" id="6qnpvau9$jg" role="37wK5m">
+                    <property role="3cmrfH" value="2" />
+                  </node>
+                  <node concept="3cmrfG" id="6qnpvau9$N2" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
               </node>
             </node>
+            <node concept="3clFbH" id="6qnpvau9fqb" role="3cqZAp" />
           </node>
-        </node>
-        <node concept="3clFbF" id="pO1Bgf_2mN" role="3cqZAp">
-          <node concept="2YIFZM" id="pO1Bgf_2mW" role="3clFbG">
-            <ref role="1Pybhc" to="l152:~GridPane" resolve="GridPane" />
-            <ref role="37wK5l" to="l152:~GridPane.setHalignment(javafx.scene.Node,javafx.geometry.HPos)" resolve="setHalignment" />
-            <node concept="1eOMI4" id="pO1Bgf_2mX" role="37wK5m">
-              <node concept="10QFUN" id="pO1Bgf_2mY" role="1eOMHV">
-                <node concept="3uibUv" id="pO1Bgf_2mZ" role="10QFUM">
-                  <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
-                </node>
-                <node concept="2OqwBi" id="5Y1b9tRdnhu" role="10QFUP">
-                  <node concept="37vLTw" id="5Y1b9tRdnhv" role="2Oq$k0">
+          <node concept="1Wc70l" id="6qnpvau9hA$" role="3clFbw">
+            <node concept="2OqwBi" id="6qnpvau9j4x" role="3uHU7w">
+              <node concept="1eOMI4" id="6qnpvau9ijw" role="2Oq$k0">
+                <node concept="10QFUN" id="6qnpvau9ijt" role="1eOMHV">
+                  <node concept="3uibUv" id="6qnpvau9il_" role="10QFUM">
+                    <ref role="3uigEE" to="qhmq:6qnpvau8rDA" resolve="FX8EditorWithOptions" />
+                  </node>
+                  <node concept="37vLTw" id="6qnpvau9iP7" role="10QFUP">
                     <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
                   </node>
-                  <node concept="liA8E" id="5Y1b9tRdnhw" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:5Y1b9tRd2l$" resolve="getLabel" />
-                  </node>
                 </node>
+              </node>
+              <node concept="liA8E" id="6qnpvau9jjM" role="2OqNvi">
+                <ref role="37wK5l" to="qhmq:6qnpvau7jDO" resolve="hasWideOption" />
               </node>
             </node>
-            <node concept="Rm8GO" id="pO1Bgf_2Mj" role="37wK5m">
-              <ref role="1Px2BO" to="1po:~HPos" resolve="HPos" />
-              <ref role="Rm8GQ" to="1po:~HPos.RIGHT" resolve="RIGHT" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="yJ4zx4azNh" role="3cqZAp">
-          <node concept="2OqwBi" id="yJ4zx4azNi" role="3clFbG">
-            <node concept="2OqwBi" id="yJ4zx4azNj" role="2Oq$k0">
-              <node concept="2OqwBi" id="yJ4zx4azNk" role="2Oq$k0">
-                <node concept="Xjq3P" id="yJ4zx4azNl" role="2Oq$k0" />
-                <node concept="2OwXpG" id="yJ4zx4azNm" role="2OqNvi">
-                  <ref role="2Oxat5" node="yJ4zx4azJK" resolve="colGrindPane" />
-                </node>
+            <node concept="2ZW3vV" id="6qnpvau9gT3" role="3uHU7B">
+              <node concept="3uibUv" id="6qnpvau9hpY" role="2ZW6by">
+                <ref role="3uigEE" to="qhmq:6qnpvau8rDA" resolve="FX8EditorWithOptions" />
               </node>
-              <node concept="34jXtK" id="yJ4zx4azNn" role="2OqNvi">
-                <node concept="37vLTw" id="fdGRoMYPri" role="25WWJ7">
-                  <ref role="3cqZAo" node="yJ4zx49isl" resolve="curColIndex" />
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="yJ4zx4azNq" role="2OqNvi">
-              <ref role="37wK5l" to="l152:~GridPane.add(javafx.scene.Node,int,int)" resolve="add" />
-              <node concept="1eOMI4" id="yJ4zx4azNr" role="37wK5m">
-                <node concept="10QFUN" id="yJ4zx4azNs" role="1eOMHV">
-                  <node concept="3uibUv" id="yJ4zx4azNt" role="10QFUM">
-                    <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
-                  </node>
-                  <node concept="2OqwBi" id="5Y1b9tRdoD5" role="10QFUP">
-                    <node concept="37vLTw" id="5Y1b9tRdoD6" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
-                    </node>
-                    <node concept="liA8E" id="5Y1b9tRdoD7" role="2OqNvi">
-                      <ref role="37wK5l" to="250q:1_PJNZXbNkj" resolve="getRightPartComponent" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3cmrfG" id="yJ4zx4azNx" role="37wK5m">
-                <property role="3cmrfH" value="1" />
-              </node>
-              <node concept="37vLTw" id="fdGRoMYPXM" role="37wK5m">
-                <ref role="3cqZAo" node="yJ4zx49isf" resolve="curRowIndex" />
+              <node concept="37vLTw" id="6qnpvau9gl7" role="2ZW6bz">
+                <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3SKdUt" id="3SGVCbQSPys" role="3cqZAp">
-          <node concept="1PaTwC" id="3SGVCbQSPyt" role="1aUNEU">
-            <node concept="3oM_SD" id="3SGVCbQSPyu" role="1PaTwD">
-              <property role="3oM_SC" value="2," />
-            </node>
-            <node concept="3oM_SD" id="3SGVCbQSPY9" role="1PaTwD">
-              <property role="3oM_SC" value="1" />
+          <node concept="9aQIb" id="6qnpvau9jlb" role="9aQIa">
+            <node concept="3clFbS" id="6qnpvau9jlc" role="9aQI4">
+              <node concept="3clFbF" id="yJ4zx4azMj" role="3cqZAp">
+                <node concept="2OqwBi" id="yJ4zx4azN2" role="3clFbG">
+                  <node concept="2OqwBi" id="yJ4zx4azMx" role="2Oq$k0">
+                    <node concept="2OqwBi" id="yJ4zx4azMn" role="2Oq$k0">
+                      <node concept="Xjq3P" id="yJ4zx4azMk" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="yJ4zx4azMt" role="2OqNvi">
+                        <ref role="2Oxat5" node="yJ4zx4azJK" resolve="colGrindPane" />
+                      </node>
+                    </node>
+                    <node concept="34jXtK" id="yJ4zx4azMA" role="2OqNvi">
+                      <node concept="37vLTw" id="fdGRoMYPFZ" role="25WWJ7">
+                        <ref role="3cqZAo" node="yJ4zx49isl" resolve="curColIndex" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="yJ4zx4azN8" role="2OqNvi">
+                    <ref role="37wK5l" to="l152:~GridPane.add(javafx.scene.Node,int,int)" resolve="add" />
+                    <node concept="1eOMI4" id="1YAKtdQZVLx" role="37wK5m">
+                      <node concept="10QFUN" id="1YAKtdQZVLy" role="1eOMHV">
+                        <node concept="3uibUv" id="yJ4zx49wI0" role="10QFUM">
+                          <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
+                        </node>
+                        <node concept="2OqwBi" id="5Y1b9tRdm5R" role="10QFUP">
+                          <node concept="37vLTw" id="5Y1b9tRdlRy" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
+                          </node>
+                          <node concept="liA8E" id="5Y1b9tRdm$P" role="2OqNvi">
+                            <ref role="37wK5l" to="250q:5Y1b9tRd2l$" resolve="getLabel" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cmrfG" id="yJ4zx4azNc" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="37vLTw" id="fdGRoMYPKV" role="37wK5m">
+                      <ref role="3cqZAo" node="yJ4zx49isf" resolve="curRowIndex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="pO1Bgf_2mN" role="3cqZAp">
+                <node concept="2YIFZM" id="pO1Bgf_2mW" role="3clFbG">
+                  <ref role="37wK5l" to="l152:~GridPane.setHalignment(javafx.scene.Node,javafx.geometry.HPos)" resolve="setHalignment" />
+                  <ref role="1Pybhc" to="l152:~GridPane" resolve="GridPane" />
+                  <node concept="1eOMI4" id="pO1Bgf_2mX" role="37wK5m">
+                    <node concept="10QFUN" id="pO1Bgf_2mY" role="1eOMHV">
+                      <node concept="3uibUv" id="pO1Bgf_2mZ" role="10QFUM">
+                        <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
+                      </node>
+                      <node concept="2OqwBi" id="5Y1b9tRdnhu" role="10QFUP">
+                        <node concept="37vLTw" id="5Y1b9tRdnhv" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
+                        </node>
+                        <node concept="liA8E" id="5Y1b9tRdnhw" role="2OqNvi">
+                          <ref role="37wK5l" to="250q:5Y1b9tRd2l$" resolve="getLabel" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rm8GO" id="pO1Bgf_2Mj" role="37wK5m">
+                    <ref role="1Px2BO" to="1po:~HPos" resolve="HPos" />
+                    <ref role="Rm8GQ" to="1po:~HPos.RIGHT" resolve="RIGHT" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="yJ4zx4azNh" role="3cqZAp">
+                <node concept="2OqwBi" id="yJ4zx4azNi" role="3clFbG">
+                  <node concept="2OqwBi" id="yJ4zx4azNj" role="2Oq$k0">
+                    <node concept="2OqwBi" id="yJ4zx4azNk" role="2Oq$k0">
+                      <node concept="Xjq3P" id="yJ4zx4azNl" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="yJ4zx4azNm" role="2OqNvi">
+                        <ref role="2Oxat5" node="yJ4zx4azJK" resolve="colGrindPane" />
+                      </node>
+                    </node>
+                    <node concept="34jXtK" id="yJ4zx4azNn" role="2OqNvi">
+                      <node concept="37vLTw" id="fdGRoMYPri" role="25WWJ7">
+                        <ref role="3cqZAo" node="yJ4zx49isl" resolve="curColIndex" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="yJ4zx4azNq" role="2OqNvi">
+                    <ref role="37wK5l" to="l152:~GridPane.add(javafx.scene.Node,int,int)" resolve="add" />
+                    <node concept="1eOMI4" id="yJ4zx4azNr" role="37wK5m">
+                      <node concept="10QFUN" id="yJ4zx4azNs" role="1eOMHV">
+                        <node concept="3uibUv" id="yJ4zx4azNt" role="10QFUM">
+                          <ref role="3uigEE" to="p18y:~Node" resolve="Node" />
+                        </node>
+                        <node concept="2OqwBi" id="5Y1b9tRdoD5" role="10QFUP">
+                          <node concept="37vLTw" id="5Y1b9tRdoD6" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5Y1b9tRdhQP" resolve="cmpt" />
+                          </node>
+                          <node concept="liA8E" id="5Y1b9tRdoD7" role="2OqNvi">
+                            <ref role="37wK5l" to="250q:1_PJNZXbNkj" resolve="getRightPartComponent" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cmrfG" id="yJ4zx4azNx" role="37wK5m">
+                      <property role="3cmrfH" value="1" />
+                    </node>
+                    <node concept="37vLTw" id="fdGRoMYPXM" role="37wK5m">
+                      <ref role="3cqZAo" node="yJ4zx49isf" resolve="curRowIndex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
