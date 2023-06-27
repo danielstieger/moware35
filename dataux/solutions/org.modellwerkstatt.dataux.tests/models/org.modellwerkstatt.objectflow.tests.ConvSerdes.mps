@@ -10145,7 +10145,7 @@
             <property role="TrG5h" value="st" />
             <node concept="17QB3L" id="3eq7P8JX$zG" role="1tU5fm" />
             <node concept="Xl_RD" id="3eq7P8JX$Cj" role="33vP2m">
-              <property role="Xl_RC" value="&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;&lt;Text&gt;&lt;intValue&gt;0&lt;/intValue&gt;&lt;stringValue/&gt;&lt;bdValue/&gt;&lt;localDateValue/&gt;&lt;dateTimeValue/&gt;&lt;statusValue/&gt;&lt;textChild/&gt;&lt;multipleChilds/&gt;&lt;/Text&gt;" />
+              <property role="Xl_RC" value="&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot; standalone=\&quot;no\&quot;?&gt;&lt;Text&gt;&lt;intValue&gt;0&lt;/intValue&gt;&lt;stringValue/&gt;&lt;bdValue/&gt;&lt;localDateValue/&gt;&lt;dateTimeValue/&gt;&lt;statusValue/&gt;&lt;textChild/&gt;&lt;multipleChilds/&gt;&lt;/Text&gt;" />
             </node>
           </node>
         </node>
