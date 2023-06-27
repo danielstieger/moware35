@@ -12,19 +12,22 @@
       <sourceRoot location="fontbox-2.0.24.jar" />
       <sourceRoot location="xmlgraphics-commons-2.8.jar" />
     </modelRoot>
+    <modelRoot contentPath="${module}/jars/richclient" type="java_classes">
+      <sourceRoot location="activation-1.1.jar" />
+      <sourceRoot location="log4j-api-2.20.0.jar" />
+      <sourceRoot location="log4j-core-2.20.0.jar" />
+    </modelRoot>
     <modelRoot contentPath="${module}/jars" type="java_classes">
       <sourceRoot location="richclient/mailapi.jar" />
       <sourceRoot location="richclient/smtp.jar" />
       <sourceRoot location="basis/mo-javaxbus-1.0.jar" />
       <sourceRoot location="servletclient/servlet-api.jar" />
-      <sourceRoot location="basis/jackson-core-2.12.3.jar" />
       <sourceRoot location="printing28/pdfbox-app-2.0.24.jar" />
       <sourceRoot location="basis/slf4j-api-2.0.7.jar" />
+      <sourceRoot location="basis/jackson-core-2.15.2.jar" />
     </modelRoot>
-    <modelRoot contentPath="${module}/jars/richclient" type="java_classes">
-      <sourceRoot location="activation-1.1.jar" />
-      <sourceRoot location="log4j-api-2.20.0.jar" />
-      <sourceRoot location="log4j-core-2.20.0.jar" />
+    <modelRoot contentPath="${module}/jars/basis" type="java_classes">
+      <sourceRoot location="jackson-core-2.15.2.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -41,7 +44,6 @@
     <stubModelEntry path="${module}/jars/printing28/fop.jar" />
     <stubModelEntry path="${module}/jars/printing28/xml-apis-ext-1.3.04.jar" />
     <stubModelEntry path="${module}/jars/printing28/serializer-2.7.2.jar" />
-    <stubModelEntry path="${module}/jars/basis/jackson-core-2.12.3.jar" />
     <stubModelEntry path="${module}/jars/printing28/pdfbox-app-2.0.24.jar" />
     <stubModelEntry path="${module}/jars/richclient/ojdbc8.jar" />
     <stubModelEntry path="${module}/jars/printing28/fontbox-2.0.24.jar" />
@@ -57,6 +59,7 @@
     <stubModelEntry path="${module}/jars/richclient/log4j-core-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-jcl-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-slf4j2-impl-2.20.0.jar" />
+    <stubModelEntry path="${module}/jars/basis/jackson-core-2.15.2.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
