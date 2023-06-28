@@ -25513,11 +25513,20 @@
                           <node concept="2ShNRf" id="2jDJ2hCuVSJ" role="25WWJ7">
                             <node concept="1pGfFk" id="2jDJ2hCuW$C" role="2ShVmc">
                               <ref role="37wK5l" to="28jr:51llZt5Pf$Q" resolve="OFXProblem" />
-                              <node concept="37vLTw" id="2jDJ2hCuWLc" role="37wK5m">
-                                <ref role="3cqZAo" node="6F1Nzn_TTKm" resolve="cmdOkMsg" />
+                              <node concept="3cpWs3" id="2RoiPdbgK7s" role="37wK5m">
+                                <node concept="Xl_RD" id="2RoiPdbgKcP" role="3uHU7B">
+                                  <property role="Xl_RC" value="\n" />
+                                </node>
+                                <node concept="37vLTw" id="2jDJ2hCuWLc" role="3uHU7w">
+                                  <ref role="3cqZAo" node="6F1Nzn_TTKm" resolve="cmdOkMsg" />
+                                </node>
                               </node>
                               <node concept="10Nm6u" id="2jDJ2hCuWSC" role="37wK5m" />
                               <node concept="10Nm6u" id="2jDJ2hCuWUm" role="37wK5m" />
+                              <node concept="Rm8GO" id="2RoiPdbgJRy" role="37wK5m">
+                                <ref role="Rm8GQ" to="28jr:51llZt5Ptbk" resolve="WARNING_HINT" />
+                                <ref role="1Px2BO" to="28jr:51llZt5Ptbj" resolve="IOFXProblem.Opt" />
+                              </node>
                             </node>
                           </node>
                         </node>
