@@ -4,7 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing28" type="java_classes">
+    <modelRoot contentPath="${module}/jars/printing21" type="java_classes">
       <sourceRoot location="fop.jar" />
       <sourceRoot location="xmlgraphics-commons-2.8.jar" />
       <sourceRoot location="pdfbox-app-2.0.28.jar" />
@@ -33,24 +33,24 @@
     <stubModelEntry path="${module}/jars/richclient/smtp.jar" />
     <stubModelEntry path="${module}/jars/servletclient/servlet-api.jar" />
     <stubModelEntry path="${module}/jars/basis/mo-javaxbus-1.0.jar" />
-    <stubModelEntry path="${module}/jars/printing28/barcode4j-fop-ext-complete.jar" />
-    <stubModelEntry path="${module}/jars/printing28/fop.jar" />
+    <stubModelEntry path="${module}/jars/printing21/barcode4j-fop-ext-complete.jar" />
+    <stubModelEntry path="${module}/jars/printing21/fop.jar" />
     <stubModelEntry path="${module}/jars/richclient/ojdbc8.jar" />
-    <stubModelEntry path="${module}/jars/printing28/fontbox-2.0.24.jar" />
+    <stubModelEntry path="${module}/jars/printing21/fontbox-2.0.24.jar" />
     <stubModelEntry path="${module}/jars/richclient/activation-1.1.jar" />
     <stubModelEntry path="${module}/jars/basis/spring-aop-5.3.27.jar" />
-    <stubModelEntry path="${module}/jars/printing28/xmlgraphics-commons-2.8.jar" />
-    <stubModelEntry path="${module}/jars/printing28/commons-io-2.13.0.jar" />
-    <stubModelEntry path="${module}/jars/printing28/avalon-framework-api-4.3.1.jar" />
-    <stubModelEntry path="${module}/jars/printing28/avalon-framework-impl-4.3.1.jar" />
-    <stubModelEntry path="${module}/jars/printing28/batik-all-1.16.jar" />
+    <stubModelEntry path="${module}/jars/printing21/xmlgraphics-commons-2.8.jar" />
+    <stubModelEntry path="${module}/jars/printing21/commons-io-2.13.0.jar" />
+    <stubModelEntry path="${module}/jars/printing21/avalon-framework-api-4.3.1.jar" />
+    <stubModelEntry path="${module}/jars/printing21/avalon-framework-impl-4.3.1.jar" />
+    <stubModelEntry path="${module}/jars/printing21/batik-all-1.16.jar" />
     <stubModelEntry path="${module}/jars/basis/slf4j-api-2.0.7.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-api-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-core-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-jcl-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/richclient/log4j-slf4j2-impl-2.20.0.jar" />
     <stubModelEntry path="${module}/jars/basis/jackson-core-2.15.2.jar" />
-    <stubModelEntry path="${module}/jars/printing28/pdfbox-app-2.0.28.jar" />
+    <stubModelEntry path="${module}/jars/printing21/pdfbox-app-2.0.28.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
