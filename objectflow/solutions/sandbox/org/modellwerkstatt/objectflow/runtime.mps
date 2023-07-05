@@ -5567,15 +5567,6 @@
       <node concept="17QB3L" id="1jCLyDw8w_4" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="1X3c4oMSV$V" role="jymVt" />
-    <node concept="312cEg" id="1fVuXfYtcmr" role="jymVt">
-      <property role="TrG5h" value="exceptionOperation" />
-      <node concept="3Tm6S6" id="1fVuXfYtcms" role="1B3o_S" />
-      <node concept="3uibUv" id="1fVuXfYtcmz" role="1tU5fm">
-        <ref role="3uigEE" node="4wvbHtt1$NL" resolve="IOFXSessionOperation" />
-      </node>
-      <node concept="10Nm6u" id="1fVuXfYtcmH" role="33vP2m" />
-    </node>
-    <node concept="2tJIrI" id="4yyZK2MP6gV" role="jymVt" />
     <node concept="312cEg" id="67D5vCCQsKH" role="jymVt">
       <property role="TrG5h" value="usersServices" />
       <node concept="3Tm6S6" id="67D5vCCQsKI" role="1B3o_S" />
@@ -6201,15 +6192,6 @@
             <node concept="10Nm6u" id="7$A8r6g3xij" role="33vP2m" />
           </node>
         </node>
-        <node concept="3cpWs8" id="1fVuXfYtcoR" role="3cqZAp">
-          <node concept="3cpWsn" id="1fVuXfYtcoS" role="3cpWs9">
-            <property role="TrG5h" value="savePointObj" />
-            <node concept="3uibUv" id="1fVuXfYtcoT" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-            </node>
-            <node concept="10Nm6u" id="1fVuXfYtcoV" role="33vP2m" />
-          </node>
-        </node>
         <node concept="3clFbH" id="4yyZK2MQHLR" role="3cqZAp" />
         <node concept="3clFbJ" id="1T2Sm8TZH6W" role="3cqZAp">
           <node concept="3clFbS" id="1T2Sm8TZH6Y" role="3clFbx">
@@ -6409,42 +6391,6 @@
                 <node concept="2Kehj3" id="3Nc1z4U9gpN" role="2OqNvi" />
               </node>
             </node>
-            <node concept="3clFbH" id="5sHRklWUBky" role="3cqZAp" />
-            <node concept="3clFbJ" id="1fVuXfYtcot" role="3cqZAp">
-              <node concept="3clFbS" id="1fVuXfYtcou" role="3clFbx">
-                <node concept="3clFbF" id="1fVuXfYtcoC" role="3cqZAp">
-                  <node concept="2OqwBi" id="1fVuXfYtcoG" role="3clFbG">
-                    <node concept="37vLTw" id="6svR_JBENz9" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1fVuXfYtcmr" resolve="exceptionOperation" />
-                    </node>
-                    <node concept="liA8E" id="1fVuXfYtcoM" role="2OqNvi">
-                      <ref role="37wK5l" node="4wvbHtt1$NP" resolve="execute" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="1fVuXfYtcoW" role="3cqZAp">
-                  <node concept="37vLTI" id="1fVuXfYtcp0" role="3clFbG">
-                    <node concept="2OqwBi" id="1fVuXfYtcp8" role="37vLTx">
-                      <node concept="37vLTw" id="6svR_JBENDr" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
-                      </node>
-                      <node concept="liA8E" id="1fVuXfYtcpe" role="2OqNvi">
-                        <ref role="37wK5l" to="7bhz:~SavepointManager.createSavepoint()" resolve="createSavepoint" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="6svR_JBENU9" role="37vLTJ">
-                      <ref role="3cqZAo" node="1fVuXfYtcoS" resolve="savePointObj" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3y3z36" id="1fVuXfYtco$" role="3clFbw">
-                <node concept="37vLTw" id="6svR_JBEN_z" role="3uHU7B">
-                  <ref role="3cqZAo" node="1fVuXfYtcmr" resolve="exceptionOperation" />
-                </node>
-                <node concept="10Nm6u" id="1fVuXfYtcoB" role="3uHU7w" />
-              </node>
-            </node>
             <node concept="3clFbH" id="1fVuXfYtcos" role="3cqZAp" />
             <node concept="3SKdUt" id="7$A8r6g3qmj" role="3cqZAp">
               <node concept="1PaTwC" id="5HvIBdINIYy" role="1aUNEU">
@@ -6515,6 +6461,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="3atYQnb2GrN" role="3cqZAp" />
             <node concept="3clFbJ" id="467ssIp8cSs" role="3cqZAp">
               <node concept="3clFbS" id="467ssIp8cSu" role="3clFbx">
                 <node concept="3clFbF" id="467ssIp8e4H" role="3cqZAp">
@@ -6662,7 +6609,7 @@
           <node concept="3uVAMA" id="7$A8r6g3qny" role="1zxBo5">
             <node concept="XOnhg" id="7$A8r6g3qnz" role="1zc67B">
               <property role="3TUv4t" value="false" />
-              <property role="TrG5h" value="ex" />
+              <property role="TrG5h" value="eWhileTransaction" />
               <node concept="nSUau" id="3nCK4O9Z0Q0" role="1tU5fm">
                 <node concept="3uibUv" id="5sHRklWUClQ" role="nSUat">
                   <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
@@ -6670,149 +6617,88 @@
               </node>
             </node>
             <node concept="3clFbS" id="7$A8r6g3qn_" role="1zc67A">
-              <node concept="3clFbH" id="4FgSVMqqzmw" role="3cqZAp" />
               <node concept="3clFbJ" id="7$A8r6g3xiJ" role="3cqZAp">
                 <node concept="3clFbS" id="7$A8r6g3xiK" role="3clFbx">
-                  <node concept="3clFbJ" id="1fVuXfYtcpF" role="3cqZAp">
-                    <node concept="3clFbS" id="1fVuXfYtcpG" role="3clFbx">
-                      <node concept="3J1_TO" id="1fVuXfYtcq8" role="3cqZAp">
-                        <node concept="3clFbS" id="1fVuXfYtcq9" role="1zxBo7">
-                          <node concept="3clFbF" id="1fVuXfYtcpr" role="3cqZAp">
-                            <node concept="2OqwBi" id="1fVuXfYtcpv" role="3clFbG">
-                              <node concept="37vLTw" id="6svR_JBENVb" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
-                              </node>
-                              <node concept="liA8E" id="1fVuXfYtcp_" role="2OqNvi">
-                                <ref role="37wK5l" to="7bhz:~SavepointManager.rollbackToSavepoint(java.lang.Object)" resolve="rollbackToSavepoint" />
-                                <node concept="37vLTw" id="6svR_JBENWI" role="37wK5m">
-                                  <ref role="3cqZAo" node="1fVuXfYtcoS" resolve="savePointObj" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbJ" id="467ssIp8ih6" role="3cqZAp">
-                            <node concept="3clFbS" id="467ssIp8ih7" role="3clFbx">
-                              <node concept="3clFbF" id="467ssIp8ih8" role="3cqZAp">
-                                <node concept="2OqwBi" id="467ssIp8ih9" role="3clFbG">
-                                  <node concept="37vLTw" id="467ssIp8iha" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
-                                  </node>
-                                  <node concept="liA8E" id="467ssIp8ihb" role="2OqNvi">
-                                    <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
-                                    <node concept="37vLTw" id="467ssIp8ihc" role="37wK5m">
-                                      <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="37vLTw" id="467ssIp8ihd" role="3clFbw">
-                              <ref role="3cqZAo" node="467ssIp8003" resolve="alwaysRollbackSession" />
-                            </node>
-                            <node concept="9aQIb" id="467ssIp8ihe" role="9aQIa">
-                              <node concept="3clFbS" id="467ssIp8ihf" role="9aQI4">
-                                <node concept="3clFbF" id="467ssIp8ihg" role="3cqZAp">
-                                  <node concept="2OqwBi" id="467ssIp8ihh" role="3clFbG">
-                                    <node concept="37vLTw" id="467ssIp8ihi" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
-                                    </node>
-                                    <node concept="liA8E" id="467ssIp8ihj" role="2OqNvi">
-                                      <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.commit(org.springframework.transaction.TransactionStatus)" resolve="commit" />
-                                      <node concept="37vLTw" id="467ssIp8ihk" role="37wK5m">
-                                        <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbH" id="7bWGJuSpk18" role="3cqZAp" />
-                        </node>
-                        <node concept="3uVAMA" id="1fVuXfYtcqb" role="1zxBo5">
-                          <node concept="XOnhg" id="1fVuXfYtcqc" role="1zc67B">
-                            <property role="3TUv4t" value="false" />
-                            <property role="TrG5h" value="ex3" />
-                            <node concept="nSUau" id="e1it8Bl3GHv" role="1tU5fm">
-                              <node concept="3uibUv" id="1fVuXfYtcqf" role="nSUat">
-                                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbS" id="1fVuXfYtcqe" role="1zc67A">
-                            <node concept="3clFbF" id="1fVuXfYtcqv" role="3cqZAp">
-                              <node concept="2OqwBi" id="1fVuXfYtcqz" role="3clFbG">
-                                <node concept="37vLTw" id="6svR_JBENy_" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
-                                </node>
-                                <node concept="liA8E" id="1fVuXfYtcqC" role="2OqNvi">
-                                  <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
-                                  <node concept="37vLTw" id="6svR_JBENSi" role="37wK5m">
-                                    <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3clFbF" id="4FgSVMqq_O$" role="3cqZAp">
-                              <node concept="2OqwBi" id="4FgSVMqq_O_" role="3clFbG">
-                                <node concept="37vLTw" id="4FgSVMqqA4_" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1fVuXfYtcqc" resolve="ex3" />
-                                </node>
-                                <node concept="liA8E" id="4FgSVMqq_OB" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~Throwable.addSuppressed(java.lang.Throwable)" resolve="addSuppressed" />
-                                  <node concept="2ShNRf" id="4FgSVMqq_OC" role="37wK5m">
-                                    <node concept="1pGfFk" id="4FgSVMqq_OD" role="2ShVmc">
-                                      <ref role="37wK5l" to="w7gk:4FgSVMp9fzH" resolve="MMAdditionalInfoException" />
-                                      <node concept="3cpWs3" id="4FgSVMqq_OE" role="37wK5m">
-                                        <node concept="Xl_RD" id="4FgSVMqq_OF" role="3uHU7w">
-                                          <property role="Xl_RC" value=")." />
-                                        </node>
-                                        <node concept="3cpWs3" id="4FgSVMqq_OG" role="3uHU7B">
-                                          <node concept="Xl_RD" id="4FgSVMqq_OH" role="3uHU7B">
-                                            <property role="Xl_RC" value="Exception while rolling back to savepoint. (Could not rollback to savepoint " />
-                                          </node>
-                                          <node concept="37vLTw" id="4FgSVMqq_OI" role="3uHU7w">
-                                            <ref role="3cqZAo" node="1fVuXfYtcoS" resolve="savePointObj" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="YS8fn" id="1fVuXfYtcqG" role="3cqZAp">
-                              <node concept="37vLTw" id="6svR_JBENCX" role="YScLw">
-                                <ref role="3cqZAo" node="1fVuXfYtcqc" resolve="ex3" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
+                  <node concept="3SKdUt" id="3atYQnaXvpb" role="3cqZAp">
+                    <node concept="1PaTwC" id="3atYQnaXvpc" role="1aUNEU">
+                      <node concept="3oM_SD" id="3atYQnaXvpd" role="1PaTwD">
+                        <property role="3oM_SC" value="we" />
                       </node>
-                      <node concept="3clFbH" id="1fVuXfYtcq5" role="3cqZAp" />
-                    </node>
-                    <node concept="3y3z36" id="1fVuXfYtcpM" role="3clFbw">
-                      <node concept="10Nm6u" id="1fVuXfYtcpP" role="3uHU7w" />
-                      <node concept="37vLTw" id="6svR_JBENQ$" role="3uHU7B">
-                        <ref role="3cqZAo" node="1fVuXfYtcoS" resolve="savePointObj" />
+                      <node concept="3oM_SD" id="3atYQnaXvxr" role="1PaTwD">
+                        <property role="3oM_SC" value="do" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXvxu" role="1PaTwD">
+                        <property role="3oM_SC" value="have" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXvxy" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXvxB" role="1PaTwD">
+                        <property role="3oM_SC" value="rollback" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXvxH" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXvAu" role="1PaTwD">
+                        <property role="3oM_SC" value="ex." />
                       </node>
                     </node>
-                    <node concept="9aQIb" id="1fVuXfYtcpQ" role="9aQIa">
-                      <node concept="3clFbS" id="1fVuXfYtcpR" role="9aQI4">
-                        <node concept="3clFbF" id="7$A8r6g3qnE" role="3cqZAp">
-                          <node concept="2OqwBi" id="7$A8r6g3qnF" role="3clFbG">
-                            <node concept="37vLTw" id="6svR_JBEN_B" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                  </node>
+                  <node concept="3J1_TO" id="3atYQnaXwxb" role="3cqZAp">
+                    <node concept="3uVAMA" id="3atYQnaXwH7" role="1zxBo5">
+                      <node concept="XOnhg" id="3atYQnaXwH8" role="1zc67B">
+                        <property role="TrG5h" value="tWhileRollback" />
+                        <node concept="nSUau" id="3atYQnaXwH9" role="1tU5fm">
+                          <node concept="3uibUv" id="3atYQnaXwMC" role="nSUat">
+                            <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="3atYQnaXwHa" role="1zc67A">
+                        <node concept="3clFbF" id="3atYQnaXO6h" role="3cqZAp">
+                          <node concept="2OqwBi" id="3atYQnaXOit" role="3clFbG">
+                            <node concept="37vLTw" id="3atYQnaXO6f" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7$A8r6g3qnz" resolve="eWhileTransaction" />
                             </node>
-                            <node concept="liA8E" id="7$A8r6g3qnH" role="2OqNvi">
-                              <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
-                              <node concept="37vLTw" id="6svR_JBENHS" role="37wK5m">
-                                <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+                            <node concept="liA8E" id="3atYQnaXOrt" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~Throwable.addSuppressed(java.lang.Throwable)" resolve="addSuppressed" />
+                              <node concept="2ShNRf" id="3atYQnaXOya" role="37wK5m">
+                                <node concept="1pGfFk" id="3atYQnaXPGm" role="2ShVmc">
+                                  <ref role="37wK5l" to="w7gk:4FgSVMp9fzH" resolve="MMAdditionalInfoException" />
+                                  <node concept="3cpWs3" id="3atYQnaXQze" role="37wK5m">
+                                    <node concept="2YIFZM" id="3atYQnaXQN4" role="3uHU7w">
+                                      <ref role="37wK5l" node="50gmXGsmCtl" resolve="stackTrace2String" />
+                                      <ref role="1Pybhc" node="I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                      <node concept="37vLTw" id="3atYQnaXQWT" role="37wK5m">
+                                        <ref role="3cqZAo" node="3atYQnaXwH8" resolve="tWhileRollback" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="3atYQnaXPMT" role="3uHU7B">
+                                      <property role="Xl_RC" value="Additionally exception while trying to rollback the transaction" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
+                    </node>
+                    <node concept="3clFbS" id="3atYQnaXwxd" role="1zxBo7">
+                      <node concept="3clFbF" id="1fVuXfYtcqv" role="3cqZAp">
+                        <node concept="2OqwBi" id="1fVuXfYtcqz" role="3clFbG">
+                          <node concept="37vLTw" id="6svR_JBENy_" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                          </node>
+                          <node concept="liA8E" id="1fVuXfYtcqC" role="2OqNvi">
+                            <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
+                            <node concept="37vLTw" id="6svR_JBENSi" role="37wK5m">
+                              <ref role="3cqZAo" node="7$A8r6g3xbS" resolve="status" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="3atYQnaXwxc" role="3cqZAp" />
                     </node>
                   </node>
                   <node concept="3clFbH" id="1fVuXfYtcpE" role="3cqZAp" />
@@ -6824,37 +6710,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="4FgSVMqqzTn" role="3cqZAp">
-                <node concept="2OqwBi" id="4FgSVMqq$2A" role="3clFbG">
-                  <node concept="37vLTw" id="4FgSVMqqzTl" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7$A8r6g3qnz" resolve="ex" />
-                  </node>
-                  <node concept="liA8E" id="4FgSVMqq$gj" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Throwable.addSuppressed(java.lang.Throwable)" resolve="addSuppressed" />
-                    <node concept="2ShNRf" id="4FgSVMqq$mA" role="37wK5m">
-                      <node concept="1pGfFk" id="4FgSVMqq_qu" role="2ShVmc">
-                        <ref role="37wK5l" to="w7gk:4FgSVMp9fzH" resolve="MMAdditionalInfoException" />
-                        <node concept="3cpWs3" id="4FgSVMqq_$5" role="37wK5m">
-                          <node concept="Xl_RD" id="4FgSVMqq_$6" role="3uHU7w">
-                            <property role="Xl_RC" value=")." />
-                          </node>
-                          <node concept="3cpWs3" id="4FgSVMqq_$7" role="3uHU7B">
-                            <node concept="Xl_RD" id="4FgSVMqq_$8" role="3uHU7B">
-                              <property role="Xl_RC" value="Exception while running the transaction. (rolling back or to savepoint " />
-                            </node>
-                            <node concept="37vLTw" id="4FgSVMqq_$9" role="3uHU7w">
-                              <ref role="3cqZAo" node="1fVuXfYtcoS" resolve="savePointObj" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="YS8fn" id="7$A8r6g3xiV" role="3cqZAp">
-                <node concept="37vLTw" id="6svR_JBENTC" role="YScLw">
-                  <ref role="3cqZAo" node="7$A8r6g3qnz" resolve="ex" />
+                <node concept="37vLTw" id="3atYQnaXE$_" role="YScLw">
+                  <ref role="3cqZAo" node="7$A8r6g3qnz" resolve="eWhileTransaction" />
                 </node>
               </node>
               <node concept="3clFbH" id="7$A8r6g3qnI" role="3cqZAp" />
@@ -6876,14 +6734,6 @@
                     <ref role="3cqZAo" to="w7gk:3_3eNg0RuN5" resolve="transactionEntities" />
                   </node>
                   <node concept="2Kehj3" id="5sHRklWUCQd" role="2OqNvi" />
-                </node>
-              </node>
-              <node concept="3clFbF" id="1fVuXfYtcqK" role="3cqZAp">
-                <node concept="37vLTI" id="1fVuXfYtcr1" role="3clFbG">
-                  <node concept="10Nm6u" id="1fVuXfYtcr4" role="37vLTx" />
-                  <node concept="37vLTw" id="6svR_JBENAp" role="37vLTJ">
-                    <ref role="3cqZAo" node="1fVuXfYtcmr" resolve="exceptionOperation" />
-                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="2CaVrGD62iL" role="3cqZAp">
@@ -7418,35 +7268,104 @@
               </node>
             </node>
             <node concept="3clFbS" id="1l1sktc6IsA" role="1zc67A">
-              <node concept="3clFbJ" id="1l1sktc6IsB" role="3cqZAp">
-                <node concept="3clFbS" id="1l1sktc6IsC" role="3clFbx">
-                  <node concept="3clFbF" id="1l1sktc6Ite" role="3cqZAp">
-                    <node concept="2OqwBi" id="1l1sktc6Itf" role="3clFbG">
-                      <node concept="37vLTw" id="1l1sktc6Itg" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+              <node concept="3clFbJ" id="3atYQnaXRsi" role="3cqZAp">
+                <node concept="3clFbS" id="3atYQnaXRsj" role="3clFbx">
+                  <node concept="3SKdUt" id="3atYQnaXRsk" role="3cqZAp">
+                    <node concept="1PaTwC" id="3atYQnaXRsl" role="1aUNEU">
+                      <node concept="3oM_SD" id="3atYQnaXRsm" role="1PaTwD">
+                        <property role="3oM_SC" value="we" />
                       </node>
-                      <node concept="liA8E" id="1l1sktc6Ith" role="2OqNvi">
-                        <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
-                        <node concept="37vLTw" id="1l1sktc6Iti" role="37wK5m">
-                          <ref role="3cqZAo" node="1l1sktc6Iqz" resolve="status" />
-                        </node>
+                      <node concept="3oM_SD" id="3atYQnaXRsn" role="1PaTwD">
+                        <property role="3oM_SC" value="do" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXRso" role="1PaTwD">
+                        <property role="3oM_SC" value="have" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXRsp" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXRsq" role="1PaTwD">
+                        <property role="3oM_SC" value="rollback" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXRsr" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="3atYQnaXRss" role="1PaTwD">
+                        <property role="3oM_SC" value="ex." />
                       </node>
                     </node>
                   </node>
+                  <node concept="3J1_TO" id="3atYQnaXRst" role="3cqZAp">
+                    <node concept="3uVAMA" id="3atYQnaXRsu" role="1zxBo5">
+                      <node concept="XOnhg" id="3atYQnaXRsv" role="1zc67B">
+                        <property role="TrG5h" value="tWhileRollback" />
+                        <node concept="nSUau" id="3atYQnaXRsw" role="1tU5fm">
+                          <node concept="3uibUv" id="3atYQnaXRsx" role="nSUat">
+                            <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="3atYQnaXRsy" role="1zc67A">
+                        <node concept="3clFbF" id="3atYQnaXRsz" role="3cqZAp">
+                          <node concept="2OqwBi" id="3atYQnaXRs$" role="3clFbG">
+                            <node concept="37vLTw" id="3atYQnaXRs_" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1l1sktc6Is$" resolve="ex" />
+                            </node>
+                            <node concept="liA8E" id="3atYQnaXRsA" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~Throwable.addSuppressed(java.lang.Throwable)" resolve="addSuppressed" />
+                              <node concept="2ShNRf" id="3atYQnaXRsB" role="37wK5m">
+                                <node concept="1pGfFk" id="3atYQnaXRsC" role="2ShVmc">
+                                  <ref role="37wK5l" to="w7gk:4FgSVMp9fzH" resolve="MMAdditionalInfoException" />
+                                  <node concept="3cpWs3" id="3atYQnaXRsD" role="37wK5m">
+                                    <node concept="2YIFZM" id="3atYQnaXRsE" role="3uHU7w">
+                                      <ref role="37wK5l" node="50gmXGsmCtl" resolve="stackTrace2String" />
+                                      <ref role="1Pybhc" node="I5W9GWEHym" resolve="OFXConsoleHelper" />
+                                      <node concept="37vLTw" id="3atYQnaXRsF" role="37wK5m">
+                                        <ref role="3cqZAo" node="3atYQnaXRsv" resolve="tWhileRollback" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="3atYQnb3Dkn" role="3uHU7B">
+                                      <property role="Xl_RC" value="Additionally exception while trying to rollback the transaction" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="3atYQnaXRsH" role="1zxBo7">
+                      <node concept="3clFbF" id="3atYQnaXRsI" role="3cqZAp">
+                        <node concept="2OqwBi" id="3atYQnaXRsJ" role="3clFbG">
+                          <node concept="37vLTw" id="3atYQnaXRsK" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7$A8r6g3qlF" resolve="transactionManager" />
+                          </node>
+                          <node concept="liA8E" id="3atYQnaXRsL" role="2OqNvi">
+                            <ref role="37wK5l" to="7bhz:~PlatformTransactionManager.rollback(org.springframework.transaction.TransactionStatus)" resolve="rollback" />
+                            <node concept="37vLTw" id="3atYQnaXRsM" role="37wK5m">
+                              <ref role="3cqZAo" node="1l1sktc6Iqz" resolve="status" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="3atYQnaXRsN" role="3cqZAp" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="3y3z36" id="1l1sktc6Itk" role="3clFbw">
-                  <node concept="10Nm6u" id="1l1sktc6Itl" role="3uHU7w" />
-                  <node concept="37vLTw" id="1l1sktc6Itm" role="3uHU7B">
+                <node concept="3y3z36" id="3atYQnaXRsP" role="3clFbw">
+                  <node concept="10Nm6u" id="3atYQnaXRsQ" role="3uHU7w" />
+                  <node concept="37vLTw" id="3atYQnaXRsR" role="3uHU7B">
                     <ref role="3cqZAo" node="1l1sktc6Iqz" resolve="status" />
                   </node>
                 </node>
               </node>
-              <node concept="YS8fn" id="1l1sktc6Itn" role="3cqZAp">
-                <node concept="37vLTw" id="1l1sktc6Ito" role="YScLw">
+              <node concept="YS8fn" id="3atYQnaXSBY" role="3cqZAp">
+                <node concept="37vLTw" id="3atYQnaXSME" role="YScLw">
                   <ref role="3cqZAo" node="1l1sktc6Is$" resolve="ex" />
                 </node>
               </node>
-              <node concept="3clFbH" id="1l1sktc6Itp" role="3cqZAp" />
+              <node concept="3clFbH" id="3atYQnaXSQa" role="3cqZAp" />
             </node>
           </node>
           <node concept="1wplmZ" id="6XC6UFOitTu" role="1zxBo6">
@@ -7818,58 +7737,6 @@
         </node>
         <node concept="3clFbH" id="7rEKm3tYMIX" role="3cqZAp" />
         <node concept="3clFbH" id="7rEKm3tYMLv" role="3cqZAp" />
-        <node concept="3clFbH" id="7rEKm3tYMO2" role="3cqZAp" />
-        <node concept="3clFbJ" id="1fVuXfYtcnk" role="3cqZAp">
-          <node concept="3clFbS" id="1fVuXfYtcnl" role="3clFbx">
-            <node concept="3clFbF" id="1fVuXfYtcnv" role="3cqZAp">
-              <node concept="2OqwBi" id="1fVuXfYtcnz" role="3clFbG">
-                <node concept="37vLTw" id="6svR_JBENLM" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7$A8r6g3qoj" resolve="st" />
-                </node>
-                <node concept="liA8E" id="1fVuXfYtcnD" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
-                  <node concept="Xl_RD" id="1fVuXfYtcnF" role="37wK5m">
-                    <property role="Xl_RC" value=" No Exception operation set.\n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="1fVuXfYtcnr" role="3clFbw">
-            <node concept="10Nm6u" id="1fVuXfYtcnu" role="3uHU7w" />
-            <node concept="37vLTw" id="6svR_JBENwR" role="3uHU7B">
-              <ref role="3cqZAo" node="1fVuXfYtcmr" resolve="exceptionOperation" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="1fVuXfYtcnJ" role="9aQIa">
-            <node concept="3clFbS" id="1fVuXfYtcnK" role="9aQI4">
-              <node concept="3clFbF" id="1fVuXfYtcnM" role="3cqZAp">
-                <node concept="2OqwBi" id="1fVuXfYtcnQ" role="3clFbG">
-                  <node concept="37vLTw" id="6svR_JBENRa" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7$A8r6g3qoj" resolve="st" />
-                  </node>
-                  <node concept="liA8E" id="1fVuXfYtcnX" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
-                    <node concept="3cpWs3" id="1fVuXfYtco5" role="37wK5m">
-                      <node concept="2OqwBi" id="1fVuXfYtcoh" role="3uHU7w">
-                        <node concept="37vLTw" id="6svR_JBENyb" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1fVuXfYtcmr" resolve="exceptionOperation" />
-                        </node>
-                        <node concept="liA8E" id="1fVuXfYtcoo" role="2OqNvi">
-                          <ref role="37wK5l" node="Kou8LeiNBS" resolve="getInformation" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="1fVuXfYtcnZ" role="3uHU7B">
-                        <property role="Xl_RC" value=" Exception operation set to: " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="1fVuXfYtcoq" role="3cqZAp" />
         <node concept="1Dw8fO" id="5sHRklWZnB_" role="3cqZAp">
           <node concept="3clFbS" id="5sHRklWZnBA" role="2LFqv$">
             <node concept="3clFbF" id="5sHRklWZnC4" role="3cqZAp">
@@ -8137,17 +8004,6 @@
               </node>
             </node>
             <node concept="2Kehj3" id="5sHRklWWTN8" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="1fVuXfYtcr6" role="3cqZAp">
-          <node concept="37vLTI" id="1fVuXfYtdAZ" role="3clFbG">
-            <node concept="10Nm6u" id="1fVuXfYtdB2" role="37vLTx" />
-            <node concept="2OqwBi" id="1fVuXfYtcra" role="37vLTJ">
-              <node concept="Xjq3P" id="1fVuXfYtcr7" role="2Oq$k0" />
-              <node concept="2OwXpG" id="1fVuXfYtdAV" role="2OqNvi">
-                <ref role="2Oxat5" node="1fVuXfYtcmr" resolve="exceptionOperation" />
-              </node>
-            </node>
           </node>
         </node>
       </node>
