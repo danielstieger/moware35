@@ -5093,7 +5093,7 @@
     <node concept="25R33" id="5rqgrTyJnVX" role="25R1y">
       <property role="3tVfz5" value="6258386918140903165" />
       <property role="TrG5h" value="not_consider_session" />
-      <property role="1L1pqM" value="(do not consider session)" />
+      <property role="1L1pqM" value="(do not consider session/rw-state)" />
     </node>
   </node>
   <node concept="25R3W" id="5rqgrTzC1iS">

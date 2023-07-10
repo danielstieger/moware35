@@ -63666,62 +63666,71 @@
           </node>
         </node>
         <node concept="3clFbH" id="5PYG8oj89E5" role="3cqZAp" />
-        <node concept="3clFbH" id="5PYG8oj8hke" role="3cqZAp" />
-        <node concept="3clFbJ" id="5PYG8oj8ueV" role="3cqZAp">
-          <node concept="3clFbS" id="5PYG8oj8ueX" role="3clFbx">
-            <node concept="YS8fn" id="5PYG8oj8$Yx" role="3cqZAp">
-              <node concept="2ShNRf" id="5PYG8oj8_02" role="YScLw">
-                <node concept="1pGfFk" id="5PYG8oj8_YJ" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="5PYG8oj8A9J" role="37wK5m">
-                    <property role="Xl_RC" value="Destination entity is readonly, but a checkout integration into session is requested." />
+        <node concept="3clFbJ" id="3yzGaGhaPhE" role="3cqZAp">
+          <node concept="3clFbS" id="3yzGaGhaPhG" role="3clFbx">
+            <node concept="3clFbJ" id="5PYG8oj8ueV" role="3cqZAp">
+              <node concept="3clFbS" id="5PYG8oj8ueX" role="3clFbx">
+                <node concept="YS8fn" id="5PYG8oj8$Yx" role="3cqZAp">
+                  <node concept="2ShNRf" id="5PYG8oj8_02" role="YScLw">
+                    <node concept="1pGfFk" id="5PYG8oj8_YJ" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                      <node concept="Xl_RD" id="5PYG8oj8A9J" role="37wK5m">
+                        <property role="Xl_RC" value="Destination entity is readonly, but a checkout integration into session is requested." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="5PYG8oj8BHU" role="3clFbw">
+                <node concept="2OqwBi" id="5PYG8oj8z$w" role="3uHU7B">
+                  <node concept="37vLTw" id="5PYG8oj8xCS" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5RCLcUrFmX4" resolve="destination" />
+                  </node>
+                  <node concept="liA8E" id="5PYG8oj8$dG" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:2P7gGuymjAw" resolve="getReadOnly" />
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="5PYG8oj8C73" role="3uHU7w">
+                  <node concept="37vLTw" id="5PYG8oj8C75" role="3fr31v">
+                    <ref role="3cqZAo" node="5PYG8oj7wzY" resolve="readOnly" />
                   </node>
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="1Wc70l" id="5PYG8oj8BHU" role="3clFbw">
-            <node concept="2OqwBi" id="5PYG8oj8z$w" role="3uHU7B">
-              <node concept="37vLTw" id="5PYG8oj8xCS" role="2Oq$k0">
-                <ref role="3cqZAo" node="5RCLcUrFmX4" resolve="destination" />
-              </node>
-              <node concept="liA8E" id="5PYG8oj8$dG" role="2OqNvi">
-                <ref role="37wK5l" to="w7gk:2P7gGuymjAw" resolve="getReadOnly" />
-              </node>
-            </node>
-            <node concept="3fqX7Q" id="5PYG8oj8C73" role="3uHU7w">
-              <node concept="37vLTw" id="5PYG8oj8C75" role="3fr31v">
-                <ref role="3cqZAo" node="5PYG8oj7wzY" resolve="readOnly" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="5PYG8oj8Fz8" role="3cqZAp">
-          <node concept="3clFbS" id="5PYG8oj8Fz9" role="3clFbx">
-            <node concept="YS8fn" id="5PYG8oj8Fza" role="3cqZAp">
-              <node concept="2ShNRf" id="5PYG8oj8Fzb" role="YScLw">
-                <node concept="1pGfFk" id="5PYG8oj8Fzc" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="5PYG8oj8Fzd" role="37wK5m">
-                    <property role="Xl_RC" value="Destination entity is checkedout, but a readonly integration into session is requested." />
+            <node concept="3clFbJ" id="5PYG8oj8Fz8" role="3cqZAp">
+              <node concept="3clFbS" id="5PYG8oj8Fz9" role="3clFbx">
+                <node concept="YS8fn" id="5PYG8oj8Fza" role="3cqZAp">
+                  <node concept="2ShNRf" id="5PYG8oj8Fzb" role="YScLw">
+                    <node concept="1pGfFk" id="5PYG8oj8Fzc" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                      <node concept="Xl_RD" id="5PYG8oj8Fzd" role="37wK5m">
+                        <property role="Xl_RC" value="Destination entity is checkedout, but a readonly integration into session is requested." />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-          <node concept="1Wc70l" id="5PYG8oj8Fze" role="3clFbw">
-            <node concept="3fqX7Q" id="5PYG8oj8GlF" role="3uHU7B">
-              <node concept="2OqwBi" id="5PYG8oj8GlH" role="3fr31v">
-                <node concept="37vLTw" id="5PYG8oj8GlI" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5RCLcUrFmX4" resolve="destination" />
+              <node concept="1Wc70l" id="5PYG8oj8Fze" role="3clFbw">
+                <node concept="3fqX7Q" id="5PYG8oj8GlF" role="3uHU7B">
+                  <node concept="2OqwBi" id="5PYG8oj8GlH" role="3fr31v">
+                    <node concept="37vLTw" id="5PYG8oj8GlI" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5RCLcUrFmX4" resolve="destination" />
+                    </node>
+                    <node concept="liA8E" id="5PYG8oj8GlJ" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:2P7gGuymjAw" resolve="getReadOnly" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="5PYG8oj8GlJ" role="2OqNvi">
-                  <ref role="37wK5l" to="w7gk:2P7gGuymjAw" resolve="getReadOnly" />
+                <node concept="37vLTw" id="5PYG8oj8Fzj" role="3uHU7w">
+                  <ref role="3cqZAo" node="5PYG8oj7wzY" resolve="readOnly" />
                 </node>
               </node>
             </node>
-            <node concept="37vLTw" id="5PYG8oj8Fzj" role="3uHU7w">
-              <ref role="3cqZAo" node="5PYG8oj7wzY" resolve="readOnly" />
+          </node>
+          <node concept="3y3z36" id="3yzGaGhaSOC" role="3clFbw">
+            <node concept="10Nm6u" id="3yzGaGhaSQl" role="3uHU7w" />
+            <node concept="37vLTw" id="3yzGaGhaS0M" role="3uHU7B">
+              <ref role="3cqZAo" node="5PYG8oj5LHS" resolve="__manMapSession" />
             </node>
           </node>
         </node>
