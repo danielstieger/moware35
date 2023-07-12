@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="org.modellwerkstatt.MoWareWerkbank" uuid="b2950e54-da96-4c3b-868c-2b5e12af9605">
+  <exported-language name="5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)" />
+  <exported-language name="ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)" />
+  <exported-language name="64adc67c-5fcf-45f5-82db-6a6771963d93(org.modellwerkstatt.dataux)" />
+  <exported-language name="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <exported-language name="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
+  <exported-language name="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
+  <exported-solutions>
+    <exported-solution>86b5ca77-71d4-452d-8c64-76f13a80aab6(org.modellwerkstatt.fx8forms)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:69f66ed6-cae5-40d7-a679-9e5d76102ed0(org.modellwerkstatt.dataux.runtime.genplans)" />
+</dev-kit>
+
