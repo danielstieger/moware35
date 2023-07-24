@@ -37,7 +37,9 @@
 			
 			- vaadinforms: include http vaadin environment, dataux, .....
 			
-			- ofxbatchjob: include necessary objectflow, manmap and mps libs 
+			- ofxbatchjob: include necessary objectflow, manmap and mps libs
+			
+			- turkuforms:  include http vaadin 23+ environment 
 			
 			
             
@@ -57,6 +59,10 @@
 	
 	<property name="execInBuildClassPathUnix"     value="${mowareMpsHomeDir}/lib/mps-references.jar:${mowareMpsHomeDir}/lib/mps-collections.jar:${mowareMpsHomeDir}/lib/mps-closures.jar" />
 	<property name="execInBuildClassPathWin"      value="${mowareMpsHomeDir}/lib/mps-references.jar;${mowareMpsHomeDir}/lib/mps-collections.jar;${mowareMpsHomeDir}/lib/mps-closures.jar" />
+	
+	<property name="turkuWarLocation"		  value="/Users/danielstieger/migration/2020_3/turkuforms/build/libs/turkuforms.war" />
+	<property name="turkuLocation"			  value="turku" />
+	
 	
 	<target name="fx8forms">
     <echo>Copying moware.fx8forms dependencies to ${mowareWorkDir}/WEB-INF/lib </echo>
@@ -217,6 +223,18 @@
 		<mkdir dir="${mowareWorkDir}/META-INF"/>
 		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
 
+
+		<unzip src="${turkuWarLocation}" dest="${turkuLocation}"/>
+
+        <copy todir="${mowareWorkDir}/WEB-INF/lib">
+			<fileset dir="${turkuLocation}/WEB-INF/lib" includes="*.jar" />
+        </copy>
+		<copy todir="${mowareWorkDir}/WEB-INF/classes">
+			<fileset dir="${turkuLocation}/WEB-INF/classes" includes="**" />
+        </copy>
+
+
+
 		<copy todir="${mowareWorkDir}/WEB-INF/lib">
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
@@ -232,6 +250,20 @@
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
 		</copy>
 		
+		
+		<copy file="${turkuLocation}/META-INF/context.xml" tofile="${mowareWorkDir}/META-INF/context.xml" filtering="yes" overwrite="yes">
+    	</copy>
+    
+		<copy file="${turkuLocation}/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		  <filterchain>
+			  <tokenfilter>
+				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
+				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
+				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
+				  <replaceregex pattern="APPLICATION_HOMESCREEN"   replace="${appHomeScreen}"/>
+			  </tokenfilter>
+		  </filterchain>
+		</copy>
 		
 		<!-- change favicon with local one -->		
 	</target>
