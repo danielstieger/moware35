@@ -28188,7 +28188,7 @@
     <node concept="2tJIrI" id="2M4KcIQVgYK" role="jymVt" />
     <node concept="3clFb_" id="2M4KcIQVLWg" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="fg_lockThisSession" />
+      <property role="TrG5h" value="fg_showLockInfo" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
@@ -28199,43 +28199,6 @@
       <node concept="3clFbS" id="2M4KcIQVLWj" role="3clF47">
         <node concept="3clFbJ" id="2M4KcIQWO5c" role="3cqZAp">
           <node concept="3clFbS" id="2M4KcIQWO5e" role="3clFbx">
-            <node concept="3SKdUt" id="2M4KcIQWOPn" role="3cqZAp">
-              <node concept="1PaTwC" id="5HvIBdJXHLb" role="1aUNEU">
-                <node concept="3oM_SD" id="5HvIBdJXHLc" role="1PaTwD">
-                  <property role="3oM_SC" value="this" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLd" role="1PaTwD">
-                  <property role="3oM_SC" value="should" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLe" role="1PaTwD">
-                  <property role="3oM_SC" value="not" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLf" role="1PaTwD">
-                  <property role="3oM_SC" value="happen." />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLg" role="1PaTwD">
-                  <property role="3oM_SC" value="this" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLh" role="1PaTwD">
-                  <property role="3oM_SC" value="is" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLi" role="1PaTwD">
-                  <property role="3oM_SC" value="a" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLj" role="1PaTwD">
-                  <property role="3oM_SC" value="read" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLk" role="1PaTwD">
-                  <property role="3oM_SC" value="only" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLl" role="1PaTwD">
-                  <property role="3oM_SC" value="session" />
-                </node>
-                <node concept="3oM_SD" id="5HvIBdJXHLm" role="1PaTwD">
-                  <property role="3oM_SC" value="now?" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="2M4KcIQWORT" role="3cqZAp">
               <node concept="2OqwBi" id="2M4KcIQWOT2" role="3clFbG">
                 <node concept="37vLTw" id="2M4KcIQWORR" role="2Oq$k0">
@@ -28254,7 +28217,7 @@
                     <ref role="3cqZAo" to="28jr:4g_sjDL91Z4" resolve="APP" />
                   </node>
                   <node concept="Xl_RD" id="2M4KcIQWPdN" role="37wK5m">
-                    <property role="Xl_RC" value="A lockThisSession() was issued, but session is already locked" />
+                    <property role="Xl_RC" value="A showLockInfo() was issued, but session was not locked" />
                   </node>
                   <node concept="3cpWs3" id="4nH4LOEtUV_" role="37wK5m">
                     <node concept="2OqwBi" id="4nH4LOEtVpv" role="3uHU7w">
@@ -28290,42 +28253,17 @@
             <node concept="3clFbH" id="4L33b_FHThe" role="3cqZAp" />
           </node>
           <node concept="3fqX7Q" id="4L33b_GaSKX" role="3clFbw">
-            <node concept="1eOMI4" id="4L33b_GaSKZ" role="3fr31v">
-              <node concept="22lmx$" id="4L33b_GaSL0" role="1eOMHV">
-                <node concept="2OqwBi" id="4L33b_GaSL1" role="3uHU7w">
-                  <node concept="1rXfSq" id="4L33b_GaSL2" role="2Oq$k0">
-                    <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
-                  </node>
-                  <node concept="liA8E" id="4L33b_GaSL3" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:3_5k9VmQvru" resolve="isReadOnly" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="4L33b_GaSL4" role="3uHU7B">
-                  <node concept="1rXfSq" id="4L33b_GaSL5" role="2Oq$k0">
-                    <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
-                  </node>
-                  <node concept="liA8E" id="4L33b_GaSL6" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:4L33b_FHpM8" resolve="isLockedByOtherUser" />
-                  </node>
-                </node>
+            <node concept="2OqwBi" id="4L33b_GaSL4" role="3fr31v">
+              <node concept="1rXfSq" id="4L33b_GaSL5" role="2Oq$k0">
+                <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
+              </node>
+              <node concept="liA8E" id="4L33b_GaSL6" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:4L33b_FHpM8" resolve="isLockedByOtherUser" />
               </node>
             </node>
           </node>
           <node concept="9aQIb" id="2M4KcIQWPsv" role="9aQIa">
             <node concept="3clFbS" id="2M4KcIQWPsw" role="9aQI4">
-              <node concept="3clFbF" id="2M4KcIQWNqe" role="3cqZAp">
-                <node concept="2OqwBi" id="2M4KcIQWNqf" role="3clFbG">
-                  <node concept="1rXfSq" id="2M4KcIQWNqg" role="2Oq$k0">
-                    <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
-                  </node>
-                  <node concept="liA8E" id="4L33b_FHV9w" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:4L33b_FHpfN" resolve="setLockedByOtherUser" />
-                    <node concept="37vLTw" id="4L33b_FSf3d" role="37wK5m">
-                      <ref role="3cqZAo" node="2M4KcIQWIhd" resolve="byUsers" />
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbF" id="2M4KcIQWNqj" role="3cqZAp">
                 <node concept="2OqwBi" id="2M4KcIQWNqk" role="3clFbG">
                   <node concept="37vLTw" id="2M4KcIQWNql" role="2Oq$k0">
@@ -38523,6 +38461,45 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="1X3_iC" id="67ocaDy4PKW" role="lGtFl">
+                        <property role="3V$3am" value="statement" />
+                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                        <node concept="3clFbF" id="67ocaDy45ZK" role="8Wnug">
+                          <node concept="2OqwBi" id="67ocaDy46kn" role="3clFbG">
+                            <node concept="1rXfSq" id="67ocaDy45ZI" role="2Oq$k0">
+                              <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
+                            </node>
+                            <node concept="liA8E" id="67ocaDy480R" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:4L33b_FHpfN" resolve="setLockedByOtherUser" />
+                              <node concept="Xl_RD" id="67ocaDy48Eq" role="37wK5m">
+                                <property role="Xl_RC" value="testUser" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="1X3_iC" id="67ocaDy4QDk" role="lGtFl">
+                        <property role="3V$3am" value="statement" />
+                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                        <node concept="3clFbF" id="67ocaDxWKX0" role="8Wnug">
+                          <node concept="2OqwBi" id="67ocaDxWLxS" role="3clFbG">
+                            <node concept="37vLTw" id="67ocaDxWKWY" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7BWfrtCZtdh" resolve="containerEventQueue" />
+                            </node>
+                            <node concept="liA8E" id="67ocaDxWMjk" role="2OqNvi">
+                              <ref role="37wK5l" to="5zyv:~BlockingQueue.add(java.lang.Object)" resolve="add" />
+                              <node concept="2ShNRf" id="67ocaDxWNgR" role="37wK5m">
+                                <node concept="1pGfFk" id="67ocaDxWV84" role="2ShVmc">
+                                  <ref role="37wK5l" node="2M4KcIQWRgy" resolve="LockInfoEvent" />
+                                  <node concept="Xl_RD" id="67ocaDxWVQK" role="37wK5m">
+                                    <property role="Xl_RC" value="testUser" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbH" id="63VjT6lWSY_" role="3cqZAp" />
                     </node>
                   </node>
@@ -38760,7 +38737,7 @@
                   <node concept="3eNFk2" id="2M4KcIQXa2a" role="3eNLev">
                     <node concept="2ZW3vV" id="2M4KcIQXaP3" role="3eO9$A">
                       <node concept="3uibUv" id="2M4KcIQXb7h" role="2ZW6by">
-                        <ref role="3uigEE" node="2M4KcIQWRgw" resolve="LockSessionEvent" />
+                        <ref role="3uigEE" node="2M4KcIQWRgw" resolve="LockInfoEvent" />
                       </node>
                       <node concept="37vLTw" id="2M4KcIQXaNV" role="2ZW6bz">
                         <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
@@ -38769,12 +38746,12 @@
                     <node concept="3clFbS" id="2M4KcIQXa2c" role="3eOfB_">
                       <node concept="3clFbF" id="2M4KcIQXbXe" role="3cqZAp">
                         <node concept="1rXfSq" id="2M4KcIQXbXc" role="3clFbG">
-                          <ref role="37wK5l" node="2M4KcIQVLWg" resolve="fg_lockThisSession" />
+                          <ref role="37wK5l" node="2M4KcIQVLWg" resolve="fg_showLockInfo" />
                           <node concept="2OqwBi" id="2M4KcIQXcA6" role="37wK5m">
                             <node concept="1eOMI4" id="2M4KcIQXcgS" role="2Oq$k0">
                               <node concept="10QFUN" id="2M4KcIQXcgP" role="1eOMHV">
                                 <node concept="3uibUv" id="2M4KcIQXcgU" role="10QFUM">
-                                  <ref role="3uigEE" node="2M4KcIQWRgw" resolve="LockSessionEvent" />
+                                  <ref role="3uigEE" node="2M4KcIQWRgw" resolve="LockInfoEvent" />
                                 </node>
                                 <node concept="37vLTw" id="2M4KcIQXcgV" role="10QFUP">
                                   <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
@@ -41469,6 +41446,25 @@
                           <node concept="3clFbH" id="5FUv3QlAmfI" role="3cqZAp" />
                           <node concept="3clFbJ" id="5FUv3QlA3Vy" role="3cqZAp">
                             <node concept="3clFbS" id="5FUv3QlA3V$" role="3clFbx">
+                              <node concept="3cpWs8" id="67ocaDy0olG" role="3cqZAp">
+                                <node concept="3cpWsn" id="67ocaDy0olJ" role="3cpWs9">
+                                  <property role="TrG5h" value="lockUserName" />
+                                  <node concept="17QB3L" id="67ocaDy0olE" role="1tU5fm" />
+                                  <node concept="3cpWs3" id="2UOq4H1Hcby" role="33vP2m">
+                                    <node concept="37vLTw" id="2UOq4H1Hd5m" role="3uHU7w">
+                                      <ref role="3cqZAo" node="2UOq4H0Bd$c" resolve="reqDeviceName" />
+                                    </node>
+                                    <node concept="3cpWs3" id="2UOq4H1HaYi" role="3uHU7B">
+                                      <node concept="37vLTw" id="2M4KcIQX3_f" role="3uHU7B">
+                                        <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="reqUserName" />
+                                      </node>
+                                      <node concept="Xl_RD" id="2UOq4H1HbNW" role="3uHU7w">
+                                        <property role="Xl_RC" value=" " />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                               <node concept="3clFbF" id="4L33b_GaQjZ" role="3cqZAp">
                                 <node concept="2OqwBi" id="4L33b_GaQoE" role="3clFbG">
                                   <node concept="1rXfSq" id="4L33b_GaQjX" role="2Oq$k0">
@@ -41477,7 +41473,7 @@
                                   <node concept="liA8E" id="4L33b_GaQyr" role="2OqNvi">
                                     <ref role="37wK5l" to="28jr:4L33b_FHpfN" resolve="setLockedByOtherUser" />
                                     <node concept="37vLTw" id="4L33b_GaQEs" role="37wK5m">
-                                      <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="reqUserName" />
+                                      <ref role="3cqZAo" node="67ocaDy0olJ" resolve="lockUserName" />
                                     </node>
                                   </node>
                                 </node>
@@ -41696,19 +41692,9 @@
                                         <node concept="Xjq3P" id="3iJaUC7Gz4A" role="37wK5m" />
                                         <node concept="2ShNRf" id="3iJaUC7Gz91" role="37wK5m">
                                           <node concept="1pGfFk" id="3iJaUC7GzsJ" role="2ShVmc">
-                                            <ref role="37wK5l" node="2M4KcIQWRgy" resolve="LockSessionEvent" />
-                                            <node concept="3cpWs3" id="2UOq4H1Hcby" role="37wK5m">
-                                              <node concept="37vLTw" id="2UOq4H1Hd5m" role="3uHU7w">
-                                                <ref role="3cqZAo" node="2UOq4H0Bd$c" resolve="reqDeviceName" />
-                                              </node>
-                                              <node concept="3cpWs3" id="2UOq4H1HaYi" role="3uHU7B">
-                                                <node concept="37vLTw" id="2M4KcIQX3_f" role="3uHU7B">
-                                                  <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="reqUserName" />
-                                                </node>
-                                                <node concept="Xl_RD" id="2UOq4H1HbNW" role="3uHU7w">
-                                                  <property role="Xl_RC" value=" " />
-                                                </node>
-                                              </node>
+                                            <ref role="37wK5l" node="2M4KcIQWRgy" resolve="LockInfoEvent" />
+                                            <node concept="37vLTw" id="67ocaDy0sn5" role="37wK5m">
+                                              <ref role="3cqZAo" node="67ocaDy0olJ" resolve="lockUserName" />
                                             </node>
                                           </node>
                                         </node>
@@ -41735,19 +41721,9 @@
                                           <ref role="37wK5l" to="5zyv:~BlockingQueue.add(java.lang.Object)" resolve="add" />
                                           <node concept="2ShNRf" id="2M4KcIQX4ST" role="37wK5m">
                                             <node concept="1pGfFk" id="2M4KcIQX5yH" role="2ShVmc">
-                                              <ref role="37wK5l" node="2M4KcIQWRgy" resolve="LockSessionEvent" />
-                                              <node concept="3cpWs3" id="2UOq4H1He$8" role="37wK5m">
-                                                <node concept="37vLTw" id="2UOq4H1Hfyk" role="3uHU7w">
-                                                  <ref role="3cqZAo" node="2UOq4H0Bd$c" resolve="reqDeviceName" />
-                                                </node>
-                                                <node concept="3cpWs3" id="2UOq4H1HdBJ" role="3uHU7B">
-                                                  <node concept="37vLTw" id="2M4KcIQX5Bb" role="3uHU7B">
-                                                    <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="reqUserName" />
-                                                  </node>
-                                                  <node concept="Xl_RD" id="2UOq4H1HdDC" role="3uHU7w">
-                                                    <property role="Xl_RC" value=" " />
-                                                  </node>
-                                                </node>
+                                              <ref role="37wK5l" node="2M4KcIQWRgy" resolve="LockInfoEvent" />
+                                              <node concept="37vLTw" id="67ocaDy0tQy" role="37wK5m">
+                                                <ref role="3cqZAo" node="67ocaDy0olJ" resolve="lockUserName" />
                                               </node>
                                             </node>
                                           </node>
@@ -49261,7 +49237,7 @@
   </node>
   <node concept="312cEu" id="2M4KcIQWRgw">
     <property role="3GE5qa" value="events" />
-    <property role="TrG5h" value="LockSessionEvent" />
+    <property role="TrG5h" value="LockInfoEvent" />
     <node concept="312cEg" id="2M4KcIQWRl_" role="jymVt">
       <property role="TrG5h" value="byWhichUser" />
       <node concept="3Tm6S6" id="2M4KcIQWRlA" role="1B3o_S" />
