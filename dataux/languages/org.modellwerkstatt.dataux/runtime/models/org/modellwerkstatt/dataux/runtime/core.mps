@@ -38461,45 +38461,6 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="1X3_iC" id="67ocaDy4PKW" role="lGtFl">
-                        <property role="3V$3am" value="statement" />
-                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                        <node concept="3clFbF" id="67ocaDy45ZK" role="8Wnug">
-                          <node concept="2OqwBi" id="67ocaDy46kn" role="3clFbG">
-                            <node concept="1rXfSq" id="67ocaDy45ZI" role="2Oq$k0">
-                              <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
-                            </node>
-                            <node concept="liA8E" id="67ocaDy480R" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:4L33b_FHpfN" resolve="setLockedByOtherUser" />
-                              <node concept="Xl_RD" id="67ocaDy48Eq" role="37wK5m">
-                                <property role="Xl_RC" value="testUser" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="1X3_iC" id="67ocaDy4QDk" role="lGtFl">
-                        <property role="3V$3am" value="statement" />
-                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                        <node concept="3clFbF" id="67ocaDxWKX0" role="8Wnug">
-                          <node concept="2OqwBi" id="67ocaDxWLxS" role="3clFbG">
-                            <node concept="37vLTw" id="67ocaDxWKWY" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7BWfrtCZtdh" resolve="containerEventQueue" />
-                            </node>
-                            <node concept="liA8E" id="67ocaDxWMjk" role="2OqNvi">
-                              <ref role="37wK5l" to="5zyv:~BlockingQueue.add(java.lang.Object)" resolve="add" />
-                              <node concept="2ShNRf" id="67ocaDxWNgR" role="37wK5m">
-                                <node concept="1pGfFk" id="67ocaDxWV84" role="2ShVmc">
-                                  <ref role="37wK5l" node="2M4KcIQWRgy" resolve="LockInfoEvent" />
-                                  <node concept="Xl_RD" id="67ocaDxWVQK" role="37wK5m">
-                                    <property role="Xl_RC" value="testUser" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                       <node concept="3clFbH" id="63VjT6lWSY_" role="3cqZAp" />
                     </node>
                   </node>
