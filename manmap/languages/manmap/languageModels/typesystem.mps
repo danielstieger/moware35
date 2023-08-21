@@ -2868,7 +2868,6 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="3NdPOdOTth4" role="3cqZAp" />
       <node concept="2Gpval" id="3NdPOdOM95g" role="3cqZAp">
         <node concept="2GrKxI" id="3NdPOdOM95i" role="2Gsz3X">
           <property role="TrG5h" value="arg" />
@@ -2888,7 +2887,7 @@
                 <node concept="3clFbS" id="3NdPOdOSIY7" role="3clFbx">
                   <node concept="2MkqsV" id="3NdPOdOT$tV" role="3cqZAp">
                     <node concept="Xl_RD" id="3NdPOdOT$tW" role="2MkJ7o">
-                      <property role="Xl_RC" value="only int / string / BigDecimal / DateTime / LocalDate are supported as parameters." />
+                      <property role="Xl_RC" value="only int / string / BigDecimal / DateTime / LocalDate are supported as arguments." />
                     </node>
                     <node concept="1YBJjd" id="3NdPOdOT$tX" role="1urrMF">
                       <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
@@ -2909,7 +2908,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="3NdPOdOT$v7" role="3cqZAp" />
             </node>
             <node concept="1Z2H0r" id="3NdPOdOMdqh" role="nvjzm">
               <node concept="2GrUjf" id="3NdPOdOMdNc" role="1Z2MuG">
@@ -2923,7 +2921,80 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="7ng6PyCdMhf" role="3cqZAp" />
+      <node concept="3clFbH" id="68SDKOKt3uU" role="3cqZAp" />
+      <node concept="3SKdUt" id="68SDKOKt3s5" role="3cqZAp">
+        <node concept="1PaTwC" id="68SDKOKt3s6" role="1aUNEU">
+          <node concept="3oM_SD" id="68SDKOKt3s7" role="1PaTwD">
+            <property role="3oM_SC" value="Check" />
+          </node>
+          <node concept="3oM_SD" id="68SDKOKt3uN" role="1PaTwD">
+            <property role="3oM_SC" value="named" />
+          </node>
+          <node concept="3oM_SD" id="68SDKOKt3uQ" role="1PaTwD">
+            <property role="3oM_SC" value="params" />
+          </node>
+        </node>
+      </node>
+      <node concept="2Gpval" id="68SDKOKt2BD" role="3cqZAp">
+        <node concept="2GrKxI" id="68SDKOKt2BE" role="2Gsz3X">
+          <property role="TrG5h" value="namedParam" />
+        </node>
+        <node concept="2OqwBi" id="68SDKOKt2BF" role="2GsD0m">
+          <node concept="1YBJjd" id="68SDKOKt2BG" role="2Oq$k0">
+            <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
+          </node>
+          <node concept="3Tsc0h" id="68SDKOKt2BH" role="2OqNvi">
+            <ref role="3TtcxE" to="r5tz:68SDKOKpSTn" resolve="namedParams" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="68SDKOKt2BI" role="2LFqv$">
+          <node concept="nvevp" id="68SDKOKt2BJ" role="3cqZAp">
+            <node concept="3clFbS" id="68SDKOKt2BK" role="nvhr_">
+              <node concept="3clFbJ" id="68SDKOKt2BL" role="3cqZAp">
+                <node concept="3clFbS" id="68SDKOKt2BM" role="3clFbx">
+                  <node concept="2MkqsV" id="68SDKOKt2BN" role="3cqZAp">
+                    <node concept="Xl_RD" id="68SDKOKt2BO" role="2MkJ7o">
+                      <property role="Xl_RC" value="only int / string / BigDecimal / DateTime / LocalDate are supported as named parameters." />
+                    </node>
+                    <node concept="1YBJjd" id="68SDKOKt2BP" role="1urrMF">
+                      <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="68SDKOKt2BQ" role="3clFbw">
+                  <node concept="2OqwBi" id="68SDKOKt2BR" role="3fr31v">
+                    <node concept="35c_gC" id="68SDKOKt2BS" role="2Oq$k0">
+                      <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+                    </node>
+                    <node concept="2qgKlT" id="68SDKOKt2BT" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:5E_HiByU9lE" resolve="isPrimitiveType" />
+                      <node concept="2X3wrD" id="68SDKOKt2BU" role="37wK5m">
+                        <ref role="2X3Bk0" node="68SDKOKt2BX" resolve="targ" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1Z2H0r" id="68SDKOKt2BV" role="nvjzm">
+              <node concept="2OqwBi" id="68SDKOKt3cW" role="1Z2MuG">
+                <node concept="2GrUjf" id="68SDKOKt2BW" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="68SDKOKt2BE" resolve="namedParam" />
+                </node>
+                <node concept="3TrEf2" id="68SDKOKt3oE" role="2OqNvi">
+                  <ref role="3Tt5mk" to="r5tz:68SDKOKpSfj" resolve="argument" />
+                </node>
+              </node>
+            </node>
+            <node concept="2X1qdy" id="68SDKOKt2BX" role="2X0Ygz">
+              <property role="TrG5h" value="targ" />
+              <node concept="2jxLKc" id="68SDKOKt2BY" role="1tU5fm" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="68SDKOKt2_K" role="3cqZAp" />
+      <node concept="3clFbH" id="68SDKOKt2zS" role="3cqZAp" />
       <node concept="1ZxtTE" id="42_QlHrvF8O" role="3cqZAp">
         <property role="TrG5h" value="paramType" />
       </node>
@@ -5905,6 +5976,47 @@
     <node concept="1YaCAy" id="3LvdZPf0rIy" role="1YuTPh">
       <property role="TrG5h" value="repository" />
       <ref role="1YaFvo" to="r5tz:3PtsrckEx4j" resolve="Repository" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="68SDKOKsTG8">
+    <property role="TrG5h" value="check_QueryFromSql" />
+    <property role="3GE5qa" value="customsql" />
+    <property role="1$Xk0j" value="true" />
+    <node concept="3clFbS" id="68SDKOKsTG9" role="18ibNy">
+      <node concept="3clFbJ" id="68SDKOKsTGf" role="3cqZAp">
+        <node concept="1Wc70l" id="68SDKOKt0XH" role="3clFbw">
+          <node concept="2OqwBi" id="68SDKOKt18H" role="3uHU7w">
+            <node concept="1YBJjd" id="68SDKOKt0Ym" role="2Oq$k0">
+              <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+            </node>
+            <node concept="2qgKlT" id="68SDKOKt19T" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:68SDKOKsZji" resolve="namedParamsUsed" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="68SDKOKsTQS" role="3uHU7B">
+            <node concept="1YBJjd" id="68SDKOKsTGr" role="2Oq$k0">
+              <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+            </node>
+            <node concept="2qgKlT" id="68SDKOKt0DE" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:68SDKOKsUzE" resolve="argumentsUsed" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="68SDKOKsTGh" role="3clFbx">
+          <node concept="2MkqsV" id="68SDKOKt1eA" role="3cqZAp">
+            <node concept="Xl_RD" id="68SDKOKt1eM" role="2MkJ7o">
+              <property role="Xl_RC" value="You can not use simple arguments and named parameters at the same time." />
+            </node>
+            <node concept="1YBJjd" id="68SDKOKt1gh" role="1urrMF">
+              <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="68SDKOKsTGb" role="1YuTPh">
+      <property role="TrG5h" value="queryFromSql" />
+      <ref role="1YaFvo" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
     </node>
   </node>
 </model>

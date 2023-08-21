@@ -18849,6 +18849,29 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="68SDKOK87j1" role="3yMuLx">
+      <property role="TrG5h" value="Named Parameter Test 1" />
+      <node concept="3cqZAl" id="68SDKOK87j3" role="3clF45" />
+      <node concept="3clFbS" id="68SDKOK87j4" role="3clF47">
+        <node concept="1gVbGN" id="68SDKOKjDT2" role="3cqZAp">
+          <node concept="3clFbC" id="68SDKOKjE2i" role="1gVkn0">
+            <node concept="3cmrfG" id="68SDKOKjE3I" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="1odsa" id="68SDKOK87qN" role="3uHU7B">
+              <ref role="37wK5l" to="so85:68SDKOKj_uD" resolve="namedParamTest" />
+              <ref role="1ods_" to="so85:68SDKOK$Tr3" resolve="RepoCustomSqlNP" />
+              <node concept="3cmrfG" id="68SDKOK8cco" role="37wK5m">
+                <property role="3cmrfH" value="47000001" />
+              </node>
+              <node concept="3cmrfG" id="68SDKOK8ccN" role="37wK5m">
+                <property role="3cmrfH" value="8" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2d2NRx" id="7dEVQYbDrEU" role="3yTP5x">
       <node concept="3clFbS" id="7dEVQYbDrEV" role="2VODD2" />
     </node>

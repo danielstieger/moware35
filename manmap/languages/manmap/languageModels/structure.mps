@@ -841,6 +841,13 @@
       <property role="IQ2ns" value="4658368375971480334" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="68SDKOKpSTn" role="1TKVEi">
+      <property role="IQ2ns" value="7077590489501240919" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="namedParams" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="68SDKOKpSfg" resolve="SqlNamedParameter" />
+    </node>
     <node concept="1TJgyi" id="3NdPOdMTont" role="1TKVEl">
       <property role="TrG5h" value="debugMe" />
       <property role="IQ2nx" value="4381394697191785949" />
@@ -1484,6 +1491,22 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2zJhn9P8Kzp" role="PzmwI">
       <ref role="PrY4T" node="EYyuKpelw$" resolve="IQueryOperation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="68SDKOKpSfg">
+    <property role="EcuMT" value="7077590489501238224" />
+    <property role="3GE5qa" value="customsql" />
+    <property role="TrG5h" value="SqlNamedParameter" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="68SDKOKpSfj" role="1TKVEi">
+      <property role="IQ2ns" value="7077590489501238227" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="argument" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="68SDKOKpSfh" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
 </model>

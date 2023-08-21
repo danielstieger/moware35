@@ -21,6 +21,7 @@
     <import index="vdrq" ref="r:85354f47-14fd-40e6-a7cc-2d1aa842c4cd(jetbrains.mps.lang.text.behavior)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -10823,6 +10824,56 @@
             <node concept="1mIQ4w" id="2x95vWfmB6x" role="2OqNvi">
               <node concept="chp4Y" id="2x95vWfmB6y" role="cj9EA">
                 <ref role="cht4Q" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="68SDKOKsUzE" role="13h7CS">
+      <property role="TrG5h" value="argumentsUsed" />
+      <node concept="3Tm1VV" id="68SDKOKsUzF" role="1B3o_S" />
+      <node concept="10P_77" id="68SDKOKsUBm" role="3clF45" />
+      <node concept="3clFbS" id="68SDKOKsUzH" role="3clF47">
+        <node concept="3clFbF" id="68SDKOKsUBM" role="3cqZAp">
+          <node concept="3eOSWO" id="68SDKOKsZ7h" role="3clFbG">
+            <node concept="3cmrfG" id="68SDKOKsZ7k" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="68SDKOKsW_7" role="3uHU7B">
+              <node concept="2OqwBi" id="68SDKOKsUMg" role="2Oq$k0">
+                <node concept="13iPFW" id="68SDKOKsUBL" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="68SDKOKsUWx" role="2OqNvi">
+                  <ref role="3TtcxE" to="r5tz:3NdPOdO$LgG" resolve="arguments" />
+                </node>
+              </node>
+              <node concept="liA8E" id="68SDKOKsYf2" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="68SDKOKsZji" role="13h7CS">
+      <property role="TrG5h" value="namedParamsUsed" />
+      <node concept="3Tm1VV" id="68SDKOKsZjj" role="1B3o_S" />
+      <node concept="10P_77" id="68SDKOKsZjk" role="3clF45" />
+      <node concept="3clFbS" id="68SDKOKsZjl" role="3clF47">
+        <node concept="3clFbF" id="68SDKOKsZjm" role="3cqZAp">
+          <node concept="3eOSWO" id="68SDKOKsZjn" role="3clFbG">
+            <node concept="3cmrfG" id="68SDKOKsZjo" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="68SDKOKsZjp" role="3uHU7B">
+              <node concept="2OqwBi" id="68SDKOKsZjq" role="2Oq$k0">
+                <node concept="13iPFW" id="68SDKOKsZjr" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="68SDKOKsZjs" role="2OqNvi">
+                  <ref role="3TtcxE" to="r5tz:68SDKOKpSTn" resolve="namedParams" />
+                </node>
+              </node>
+              <node concept="liA8E" id="68SDKOKsZjt" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
               </node>
             </node>
           </node>
