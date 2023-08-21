@@ -2345,7 +2345,7 @@
           <ref role="1NtTu8" to="un0u:4ezdYK8yZAb" resolve="defaultColor" />
         </node>
         <node concept="3F0ifn" id="6Rdz00$u1DJ" role="3EZMnx">
-          <property role="3F0ifm" value="revert on FINAL_CANCEL/USER_CANCEL:" />
+          <property role="3F0ifm" value="revert on FINAL_ / USER_CANCEL:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="6Rdz00$u1DK" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -2360,6 +2360,30 @@
             <property role="ilYzB" value="&lt;objs&gt;" />
             <node concept="VPxyj" id="3LpLOPqzMr2" role="3F10Kt">
               <property role="VOm3f" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="68SDKOK0SwO" role="3EZMnx">
+          <property role="3F0ifm" value="  // when obj not null" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+          <node concept="pkWqt" id="68SDKOK34Nx" role="pqm2j">
+            <node concept="3clFbS" id="68SDKOK34Ny" role="2VODD2">
+              <node concept="3clFbF" id="68SDKOK34RA" role="3cqZAp">
+                <node concept="3eOSWO" id="68SDKOK39Xw" role="3clFbG">
+                  <node concept="3cmrfG" id="68SDKOK39X$" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="68SDKOK36X6" role="3uHU7B">
+                    <node concept="2OqwBi" id="68SDKOK35cg" role="2Oq$k0">
+                      <node concept="pncrf" id="68SDKOK34R_" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="68SDKOK35Cd" role="2OqNvi">
+                        <ref role="3TtcxE" to="un0u:6Rdz00$u0Kk" resolve="reverts" />
+                      </node>
+                    </node>
+                    <node concept="34oBXx" id="68SDKOK38DZ" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
