@@ -18849,6 +18849,51 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="Afw7Ev0mmX" role="3yMuLx">
+      <property role="TrG5h" value="Query by all types for the 47000000 invoice" />
+      <node concept="3cqZAl" id="Afw7Ev0mmZ" role="3clF45" />
+      <node concept="3clFbS" id="Afw7Ev0mn0" role="3clF47">
+        <node concept="1gVbGN" id="Afw7Ev0m_D" role="3cqZAp">
+          <node concept="3clFbC" id="Afw7Ev0pKn" role="1gVkn0">
+            <node concept="3cmrfG" id="Afw7Ev0pLz" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="1odsa" id="Afw7Ev0m_V" role="3uHU7B">
+              <ref role="1ods_" to="so85:32etEQRuSTP" resolve="RepoCustomSql" />
+              <ref role="37wK5l" to="so85:Afw7Ev0e4m" resolve="queryByAllTypes" />
+              <node concept="3cmrfG" id="Afw7Ev0mJJ" role="37wK5m">
+                <property role="3cmrfH" value="47000000" />
+              </node>
+              <node concept="Xl_RD" id="Afw7Ev0nCS" role="37wK5m">
+                <property role="Xl_RC" value="Invoice" />
+              </node>
+              <node concept="1mgVXT" id="Afw7Ev0oBS" role="37wK5m">
+                <property role="1mgVXS" value="60.0bd" />
+              </node>
+              <node concept="1$4sJh" id="Afw7Ev0oC$" role="37wK5m">
+                <property role="1$4sGW" value="21" />
+                <property role="1$4sGZ" value="9" />
+                <property role="1$4sGY" value="2016" />
+              </node>
+              <node concept="1$4sJe" id="Afw7Ev0oI1" role="37wK5m">
+                <property role="1$4sGS" value="21" />
+                <property role="1$4sGV" value="9" />
+                <property role="1$4sGU" value="2016" />
+                <property role="1$4sGT" value="0" />
+                <property role="1$4sGQ" value="0" />
+                <property role="1$4sGR" value="0" />
+              </node>
+              <node concept="2XvMaL" id="Afw7Ev0p26" role="37wK5m">
+                <ref role="2XvMaQ" to="so85:612_n8Hc$ss" resolve="HeadState" />
+                <node concept="2vefiz" id="Afw7Ev0p31" role="h55Ek">
+                  <ref role="2vefiw" to="so85:612_n8Hc$sx" resolve="stat1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yPF9F" id="68SDKOK87j1" role="3yMuLx">
       <property role="TrG5h" value="Named Parameter Test 1" />
       <node concept="3cqZAl" id="68SDKOK87j3" role="3clF45" />

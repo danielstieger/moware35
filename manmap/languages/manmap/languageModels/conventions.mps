@@ -711,6 +711,150 @@
         </node>
       </node>
     </node>
+    <node concept="2YIFZL" id="Afw7EuOvma" role="jymVt">
+      <property role="TrG5h" value="getTypeHandlerNameForType" />
+      <node concept="37vLTG" id="Afw7EuOvrX" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3Tqbb2" id="Afw7EuOvso" role="1tU5fm">
+          <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="Afw7EuOz3E" role="3clF45" />
+      <node concept="3Tm1VV" id="Afw7EuOvmd" role="1B3o_S" />
+      <node concept="3clFbS" id="Afw7EuOvme" role="3clF47">
+        <node concept="3clFbJ" id="Afw7EuOvtW" role="3cqZAp">
+          <node concept="3clFbS" id="Afw7EuOvtY" role="3clFbx">
+            <node concept="3cpWs6" id="Afw7EuO$lR" role="3cqZAp">
+              <node concept="Xl_RD" id="Afw7EuO$mC" role="3cqZAk">
+                <property role="Xl_RC" value="__intTypeHandler" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5ztwEZduv1h" role="3clFbw">
+            <node concept="2qgKlT" id="5ztwEZduv1j" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$E7P" resolve="isInteger" />
+              <node concept="37vLTw" id="Afw7EuO$kw" role="37wK5m">
+                <ref role="3cqZAo" node="Afw7EuOvrX" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="fw7nOFAcE2" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="Afw7EuO$sU" role="3cqZAp">
+          <node concept="3clFbS" id="Afw7EuO$sV" role="3clFbx">
+            <node concept="3cpWs6" id="Afw7EuO$sW" role="3cqZAp">
+              <node concept="Xl_RD" id="Afw7EuO$sX" role="3cqZAk">
+                <property role="Xl_RC" value="__bigDecimalTypeHandler" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="Afw7EuO$sY" role="3clFbw">
+            <node concept="2qgKlT" id="Afw7EuO$sZ" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$E9r" resolve="isBigDecimal" />
+              <node concept="37vLTw" id="Afw7EuO$t0" role="37wK5m">
+                <ref role="3cqZAo" node="Afw7EuOvrX" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="Afw7EuO$t1" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="Afw7EuO$uv" role="3cqZAp">
+          <node concept="3clFbS" id="Afw7EuO$uw" role="3clFbx">
+            <node concept="3cpWs6" id="Afw7EuO$ux" role="3cqZAp">
+              <node concept="Xl_RD" id="Afw7EuO$uy" role="3cqZAk">
+                <property role="Xl_RC" value="__localDateTypeHandler" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="Afw7EuO$uz" role="3clFbw">
+            <node concept="2qgKlT" id="Afw7EuO$u$" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$EaY" resolve="isLocalDate" />
+              <node concept="37vLTw" id="Afw7EuO$u_" role="37wK5m">
+                <ref role="3cqZAo" node="Afw7EuOvrX" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="Afw7EuO$uA" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="Afw7EuO$w$" role="3cqZAp">
+          <node concept="3clFbS" id="Afw7EuO$w_" role="3clFbx">
+            <node concept="3cpWs6" id="Afw7EuO$wA" role="3cqZAp">
+              <node concept="Xl_RD" id="Afw7EuO$wB" role="3cqZAk">
+                <property role="Xl_RC" value="__dateTimeTypeHandler" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="Afw7EuO$wC" role="3clFbw">
+            <node concept="2qgKlT" id="Afw7EuO$wD" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$Eap" resolve="isDateTime" />
+              <node concept="37vLTw" id="Afw7EuO$wE" role="37wK5m">
+                <ref role="3cqZAo" node="Afw7EuOvrX" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="Afw7EuO$wF" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="Afw7EuO$z9" role="3cqZAp">
+          <node concept="3clFbS" id="Afw7EuO$za" role="3clFbx">
+            <node concept="3cpWs6" id="Afw7EuO$zb" role="3cqZAp">
+              <node concept="Xl_RD" id="Afw7EuO$zc" role="3cqZAk">
+                <property role="Xl_RC" value="__stringTypeHandler" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="Afw7EuO$zd" role="3clFbw">
+            <node concept="2qgKlT" id="Afw7EuO$ze" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$E8Q" resolve="isString" />
+              <node concept="37vLTw" id="Afw7EuO$zf" role="37wK5m">
+                <ref role="3cqZAo" node="Afw7EuOvrX" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="Afw7EuO$zg" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="Afw7EuO_ZU" role="3cqZAp">
+          <node concept="3clFbS" id="Afw7EuO_ZV" role="3clFbx">
+            <node concept="3cpWs6" id="Afw7EuO_ZW" role="3cqZAp">
+              <node concept="Xl_RD" id="Afw7EuO_ZX" role="3cqZAk">
+                <property role="Xl_RC" value="__stringTypeHandler" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="Afw7EuO_ZY" role="3clFbw">
+            <node concept="2qgKlT" id="Afw7EuO_ZZ" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:3wMahqxhMld" resolve="isStatus" />
+              <node concept="37vLTw" id="Afw7EuOA00" role="37wK5m">
+                <ref role="3cqZAo" node="Afw7EuOvrX" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="Afw7EuOA01" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="YS8fn" id="Afw7EuOAj6" role="3cqZAp">
+          <node concept="2ShNRf" id="Afw7EuOArK" role="YScLw">
+            <node concept="1pGfFk" id="Afw7EuOBOr" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="Afw7EuOBYF" role="37wK5m">
+                <property role="Xl_RC" value="This can not happen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="Afw7EuOhKB" role="jymVt" />
   </node>
   <node concept="312cEu" id="17uSheOuH5Q">
     <property role="TrG5h" value="ManmapSQLStatementProvider" />
