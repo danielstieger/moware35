@@ -2195,6 +2195,9 @@
       <property role="IQ2ns" value="4986415014450757612" />
       <ref role="20lvS9" node="4kNjw_n0K3K" resolve="IFormatString" />
     </node>
+    <node concept="PrWs8" id="Afw7EvNvMG" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:Afw7EvNrE5" resolve="ICustomSqlStringContentProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3KPvoWv6Cnk">
     <property role="3GE5qa" value="Test.options" />

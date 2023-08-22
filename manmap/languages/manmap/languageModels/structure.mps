@@ -994,6 +994,9 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" to="zqge:2cLqkTm6J5A" resolve="Line" />
     </node>
+    <node concept="PrWs8" id="Afw7EvNrEG" role="PzmwI">
+      <ref role="PrY4T" node="Afw7EvNrE5" resolve="ICustomSqlStringContentProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1Rx6rUSp3_H">
     <property role="TrG5h" value="SqlStringField" />
@@ -1508,6 +1511,11 @@
     <node concept="PrWs8" id="68SDKOKpSfh" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="Afw7EvNrE5">
+    <property role="EcuMT" value="688910532166400645" />
+    <property role="3GE5qa" value="customsql" />
+    <property role="TrG5h" value="ICustomSqlStringContentProvider" />
   </node>
 </model>
 

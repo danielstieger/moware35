@@ -14472,6 +14472,19 @@
     <node concept="13hLZK" id="5zF9hZsxt48" role="13h7CW">
       <node concept="3clFbS" id="5zF9hZsxt49" role="2VODD2" />
     </node>
+    <node concept="13i0hz" id="Afw7EvNy3t" role="13h7CS">
+      <property role="TrG5h" value="getSqlStringContent" />
+      <ref role="13i0hy" to="lfe3:Afw7EvNrEh" resolve="getSqlStringContent" />
+      <node concept="3Tm1VV" id="Afw7EvNy3u" role="1B3o_S" />
+      <node concept="3clFbS" id="Afw7EvNy3x" role="3clF47">
+        <node concept="3clFbF" id="Afw7EvN$s1" role="3cqZAp">
+          <node concept="BsUDl" id="Afw7EvN$s0" role="3clFbG">
+            <ref role="37wK5l" node="4kNjw_n0vJX" resolve="getFormatString" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="Afw7EvNy3y" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="43H1fr7wQVO">
     <property role="3GE5qa" value="OFXCore.cmd" />

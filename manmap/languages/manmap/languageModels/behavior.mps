@@ -11187,6 +11187,19 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="Afw7EvNtjQ" role="13h7CS">
+      <property role="TrG5h" value="getSqlStringContent" />
+      <ref role="13i0hy" node="Afw7EvNrEh" resolve="getSqlStringContent" />
+      <node concept="3Tm1VV" id="Afw7EvNtjR" role="1B3o_S" />
+      <node concept="3clFbS" id="Afw7EvNtjU" role="3clF47">
+        <node concept="3clFbF" id="Afw7EvNtjX" role="3cqZAp">
+          <node concept="BsUDl" id="Afw7EvNtzl" role="3clFbG">
+            <ref role="37wK5l" node="6TB1IkoDjkO" resolve="getCleanedSql" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="Afw7EvNtjV" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="7dEVQYbDG4o">
     <property role="3GE5qa" value="customsql" />
@@ -12392,6 +12405,21 @@
     </node>
     <node concept="13hLZK" id="7CiiQbKHNRM" role="13h7CW">
       <node concept="3clFbS" id="7CiiQbKHNRN" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="Afw7EvNrE6">
+    <property role="3GE5qa" value="customsql" />
+    <ref role="13h7C2" to="r5tz:Afw7EvNrE5" resolve="ICustomSqlStringContentProvider" />
+    <node concept="13i0hz" id="Afw7EvNrEh" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getSqlStringContent" />
+      <node concept="3Tm1VV" id="Afw7EvNrEi" role="1B3o_S" />
+      <node concept="17QB3L" id="Afw7EvNrEx" role="3clF45" />
+      <node concept="3clFbS" id="Afw7EvNrEk" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="Afw7EvNrE7" role="13h7CW">
+      <node concept="3clFbS" id="Afw7EvNrE8" role="2VODD2" />
     </node>
   </node>
 </model>

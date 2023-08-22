@@ -31,6 +31,9 @@
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
+        <child id="8118189177080264854" name="alternative" index="nSUat" />
+      </concept>
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -50,6 +53,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -122,6 +126,10 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
+      <concept id="3093926081414150598" name="jetbrains.mps.baseLanguage.structure.MultipleCatchClause" flags="ng" index="3uVAMA">
+        <child id="8276990574895933173" name="catchBody" index="1zc67A" />
+        <child id="8276990574895933172" name="throwable" index="1zc67B" />
+      </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
@@ -129,6 +137,10 @@
       <concept id="1144231330558" name="jetbrains.mps.baseLanguage.structure.ForStatement" flags="nn" index="1Dw8fO">
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
+      </concept>
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
+        <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
+        <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
@@ -5983,33 +5995,107 @@
     <property role="3GE5qa" value="customsql" />
     <property role="1$Xk0j" value="true" />
     <node concept="3clFbS" id="68SDKOKsTG9" role="18ibNy">
-      <node concept="3clFbJ" id="68SDKOKsTGf" role="3cqZAp">
-        <node concept="1Wc70l" id="68SDKOKt0XH" role="3clFbw">
-          <node concept="2OqwBi" id="68SDKOKt18H" role="3uHU7w">
-            <node concept="1YBJjd" id="68SDKOKt0Ym" role="2Oq$k0">
-              <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+      <node concept="3clFbJ" id="Afw7EvnJB_" role="3cqZAp">
+        <node concept="3clFbS" id="Afw7EvnJBB" role="3clFbx">
+          <node concept="3clFbJ" id="68SDKOKsTGf" role="3cqZAp">
+            <node concept="2OqwBi" id="68SDKOKsTQS" role="3clFbw">
+              <node concept="1YBJjd" id="68SDKOKsTGr" role="2Oq$k0">
+                <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+              </node>
+              <node concept="2qgKlT" id="68SDKOKt0DE" role="2OqNvi">
+                <ref role="37wK5l" to="lfe3:68SDKOKsUzE" resolve="argumentsUsed" />
+              </node>
             </node>
-            <node concept="2qgKlT" id="68SDKOKt19T" role="2OqNvi">
-              <ref role="37wK5l" to="lfe3:68SDKOKsZji" resolve="namedParamsUsed" />
+            <node concept="3clFbS" id="68SDKOKsTGh" role="3clFbx">
+              <node concept="2MkqsV" id="68SDKOKt1eA" role="3cqZAp">
+                <node concept="Xl_RD" id="68SDKOKt1eM" role="2MkJ7o">
+                  <property role="Xl_RC" value="You can not use simple arguments and named parameters at the same time." />
+                </node>
+                <node concept="1YBJjd" id="68SDKOKt1gh" role="1urrMF">
+                  <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="Afw7EvnK0v" role="3cqZAp" />
+            </node>
+            <node concept="9aQIb" id="Afw7EvnK0A" role="9aQIa">
+              <node concept="3clFbS" id="Afw7EvnK0B" role="9aQI4">
+                <node concept="3J1_TO" id="Afw7EvnLo8" role="3cqZAp">
+                  <node concept="3uVAMA" id="Afw7EvnLoH" role="1zxBo5">
+                    <node concept="XOnhg" id="Afw7EvnLoI" role="1zc67B">
+                      <property role="TrG5h" value="ex" />
+                      <node concept="nSUau" id="Afw7EvnLoJ" role="1tU5fm">
+                        <node concept="3uibUv" id="Afw7EvnLoP" role="nSUat">
+                          <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="Afw7EvnLoK" role="1zc67A">
+                      <node concept="2MkqsV" id="Afw7EvnLqv" role="3cqZAp">
+                        <node concept="2OqwBi" id="Afw7EvnLCz" role="2MkJ7o">
+                          <node concept="37vLTw" id="Afw7EvnLqF" role="2Oq$k0">
+                            <ref role="3cqZAo" node="Afw7EvnLoI" resolve="ex" />
+                          </node>
+                          <node concept="liA8E" id="Afw7EvnLRL" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                          </node>
+                        </node>
+                        <node concept="1YBJjd" id="Afw7EvnLSU" role="1urrMF">
+                          <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="Afw7EvnLoa" role="1zxBo7">
+                    <node concept="3cpWs8" id="Afw7EvnK1A" role="3cqZAp">
+                      <node concept="3cpWsn" id="Afw7EvnK1D" role="3cpWs9">
+                        <property role="TrG5h" value="content" />
+                        <node concept="17QB3L" id="Afw7EvnK1$" role="1tU5fm" />
+                        <node concept="2YIFZM" id="Afw7Evy0T0" role="33vP2m">
+                          <ref role="37wK5l" to="n4mo:Afw7EvxJKZ" resolve="retrieveContent" />
+                          <ref role="1Pybhc" to="n4mo:Afw7EvnPKU" resolve="NameParameterHelper" />
+                          <node concept="2OqwBi" id="Afw7Evy147" role="37wK5m">
+                            <node concept="1YBJjd" id="Afw7Evy0U1" role="2Oq$k0">
+                              <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+                            </node>
+                            <node concept="3TrEf2" id="Afw7Evy1gC" role="2OqNvi">
+                              <ref role="3Tt5mk" to="r5tz:3NdPOdMTpky" resolve="sqlString" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="Afw7Evo3Mq" role="3cqZAp">
+                      <node concept="2YIFZM" id="Afw7Evo3NF" role="3clFbG">
+                        <ref role="37wK5l" to="n4mo:Afw7EvnPNN" resolve="checkParams" />
+                        <ref role="1Pybhc" to="n4mo:Afw7EvnPKU" resolve="NameParameterHelper" />
+                        <node concept="37vLTw" id="Afw7Evo3Of" role="37wK5m">
+                          <ref role="3cqZAo" node="Afw7EvnK1D" resolve="content" />
+                        </node>
+                        <node concept="2OqwBi" id="Afw7Evo41z" role="37wK5m">
+                          <node concept="1YBJjd" id="Afw7Evo3QN" role="2Oq$k0">
+                            <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+                          </node>
+                          <node concept="3Tsc0h" id="Afw7Evo4nI" role="2OqNvi">
+                            <ref role="3TtcxE" to="r5tz:68SDKOKpSTn" resolve="namedParams" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="Afw7Evo4r2" role="3cqZAp" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="Afw7EvnK1j" role="3cqZAp" />
+              </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="68SDKOKsTQS" role="3uHU7B">
-            <node concept="1YBJjd" id="68SDKOKsTGr" role="2Oq$k0">
-              <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
-            </node>
-            <node concept="2qgKlT" id="68SDKOKt0DE" role="2OqNvi">
-              <ref role="37wK5l" to="lfe3:68SDKOKsUzE" resolve="argumentsUsed" />
-            </node>
-          </node>
+          <node concept="3clFbH" id="Afw7EvnJBA" role="3cqZAp" />
         </node>
-        <node concept="3clFbS" id="68SDKOKsTGh" role="3clFbx">
-          <node concept="2MkqsV" id="68SDKOKt1eA" role="3cqZAp">
-            <node concept="Xl_RD" id="68SDKOKt1eM" role="2MkJ7o">
-              <property role="Xl_RC" value="You can not use simple arguments and named parameters at the same time." />
-            </node>
-            <node concept="1YBJjd" id="68SDKOKt1gh" role="1urrMF">
-              <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
-            </node>
+        <node concept="2OqwBi" id="Afw7EvnJMX" role="3clFbw">
+          <node concept="1YBJjd" id="Afw7EvnJCw" role="2Oq$k0">
+            <ref role="1YBMHb" node="68SDKOKsTGb" resolve="queryFromSql" />
+          </node>
+          <node concept="2qgKlT" id="Afw7EvnJXW" role="2OqNvi">
+            <ref role="37wK5l" to="lfe3:68SDKOKsZji" resolve="namedParamsUsed" />
           </node>
         </node>
       </node>
