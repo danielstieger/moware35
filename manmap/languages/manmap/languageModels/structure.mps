@@ -882,6 +882,13 @@
       <property role="IQ2ns" value="8510097166251501838" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="1OUNVZ7KlYB" role="1TKVEi">
+      <property role="IQ2ns" value="2106224198346170279" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="namedParams" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="68SDKOKpSfg" resolve="SqlNamedParameter" />
+    </node>
     <node concept="1TJgyi" id="7opW4z6uE$3" role="1TKVEl">
       <property role="TrG5h" value="debugMe" />
       <property role="IQ2nx" value="8510097166251501827" />

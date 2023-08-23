@@ -11,6 +11,8 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
+    <import index="n4mo" ref="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
@@ -856,6 +858,106 @@
             <node concept="10Nm6u" id="5DH_KhuVmfp" role="3uHU7w" />
             <node concept="37vLTw" id="5DH_KhuVlB$" role="3uHU7B">
               <ref role="3cqZAo" node="5DH_KhuR48I" resolve="data" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1OUNVZ8yK_U">
+    <property role="3GE5qa" value="customsql" />
+    <property role="TrG5h" value="UpdateFromSql_ExtractNP" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:7opW4z6uEx2" resolve="UpdateFormSql" />
+    <node concept="2S6ZIM" id="1OUNVZ8yK_V" role="2ZfVej">
+      <node concept="3clFbS" id="1OUNVZ8yK_W" role="2VODD2">
+        <node concept="3clFbF" id="1OUNVZ8zaEm" role="3cqZAp">
+          <node concept="Xl_RD" id="1OUNVZ8zaEl" role="3clFbG">
+            <property role="Xl_RC" value="Extract named parameters" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1OUNVZ8yK_X" role="2ZfgGD">
+      <node concept="3clFbS" id="1OUNVZ8yK_Y" role="2VODD2">
+        <node concept="3cpWs8" id="1OUNVZ8$6B2" role="3cqZAp">
+          <node concept="3cpWsn" id="1OUNVZ8$6B5" role="3cpWs9">
+            <property role="TrG5h" value="sqlcontent" />
+            <node concept="17QB3L" id="1OUNVZ8$6B0" role="1tU5fm" />
+            <node concept="2YIFZM" id="1OUNVZ8$6HL" role="33vP2m">
+              <ref role="37wK5l" to="n4mo:Afw7EvxJKZ" resolve="retrieveContent" />
+              <ref role="1Pybhc" to="n4mo:Afw7EvnPKU" resolve="NamedParameterHelper" />
+              <node concept="2OqwBi" id="1OUNVZ8$6Td" role="37wK5m">
+                <node concept="2Sf5sV" id="1OUNVZ8$6Jg" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1OUNVZ8$74l" role="2OqNvi">
+                  <ref role="3Tt5mk" to="r5tz:7opW4z6uE$d" resolve="sqlString" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1OUNVZ8$5Ik" role="3cqZAp">
+          <node concept="2YIFZM" id="1OUNVZ8$5KO" role="3clFbG">
+            <ref role="37wK5l" to="n4mo:1OUNVZ8zNL1" resolve="extractNamedParameters" />
+            <ref role="1Pybhc" to="n4mo:Afw7EvnPKU" resolve="NamedParameterHelper" />
+            <node concept="2OqwBi" id="1OUNVZ8$5WX" role="37wK5m">
+              <node concept="2Sf5sV" id="1OUNVZ8$5LX" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1OUNVZ8$686" role="2OqNvi">
+                <ref role="3TtcxE" to="r5tz:1OUNVZ7KlYB" resolve="namedParams" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1OUNVZ8$7cS" role="37wK5m">
+              <ref role="3cqZAo" node="1OUNVZ8$6B5" resolve="sqlcontent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1OUNVZ8NIXV">
+    <property role="3GE5qa" value="customsql" />
+    <property role="TrG5h" value="QueryFromSql_ExtractNP" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+    <node concept="2S6ZIM" id="1OUNVZ8NIXW" role="2ZfVej">
+      <node concept="3clFbS" id="1OUNVZ8NIXX" role="2VODD2">
+        <node concept="3clFbF" id="1OUNVZ8NIXY" role="3cqZAp">
+          <node concept="Xl_RD" id="1OUNVZ8NIXZ" role="3clFbG">
+            <property role="Xl_RC" value="Extract named parameters" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1OUNVZ8NIY0" role="2ZfgGD">
+      <node concept="3clFbS" id="1OUNVZ8NIY1" role="2VODD2">
+        <node concept="3cpWs8" id="1OUNVZ8NIY2" role="3cqZAp">
+          <node concept="3cpWsn" id="1OUNVZ8NIY3" role="3cpWs9">
+            <property role="TrG5h" value="sqlcontent" />
+            <node concept="17QB3L" id="1OUNVZ8NIY4" role="1tU5fm" />
+            <node concept="2YIFZM" id="1OUNVZ8NIY5" role="33vP2m">
+              <ref role="37wK5l" to="n4mo:Afw7EvxJKZ" resolve="retrieveContent" />
+              <ref role="1Pybhc" to="n4mo:Afw7EvnPKU" resolve="NamedParameterHelper" />
+              <node concept="2OqwBi" id="1OUNVZ8NIY6" role="37wK5m">
+                <node concept="2Sf5sV" id="1OUNVZ8NIY7" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1OUNVZ8NIY8" role="2OqNvi">
+                  <ref role="3Tt5mk" to="r5tz:3NdPOdMTpky" resolve="sqlString" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1OUNVZ8NIY9" role="3cqZAp">
+          <node concept="2YIFZM" id="1OUNVZ8NIYa" role="3clFbG">
+            <ref role="37wK5l" to="n4mo:1OUNVZ8zNL1" resolve="extractNamedParameters" />
+            <ref role="1Pybhc" to="n4mo:Afw7EvnPKU" resolve="NamedParameterHelper" />
+            <node concept="2OqwBi" id="1OUNVZ8NIYb" role="37wK5m">
+              <node concept="2Sf5sV" id="1OUNVZ8NIYc" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1OUNVZ8NIYd" role="2OqNvi">
+                <ref role="3TtcxE" to="r5tz:68SDKOKpSTn" resolve="namedParams" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1OUNVZ8NIYe" role="37wK5m">
+              <ref role="3cqZAo" node="1OUNVZ8NIY3" resolve="sqlcontent" />
             </node>
           </node>
         </node>

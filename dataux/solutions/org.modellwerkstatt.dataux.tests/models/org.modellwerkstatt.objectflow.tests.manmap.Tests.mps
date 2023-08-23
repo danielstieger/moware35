@@ -18859,8 +18859,8 @@
               <property role="3cmrfH" value="1" />
             </node>
             <node concept="1odsa" id="Afw7Ev0m_V" role="3uHU7B">
-              <ref role="1ods_" to="so85:32etEQRuSTP" resolve="RepoCustomSql" />
-              <ref role="37wK5l" to="so85:Afw7Ev0e4m" resolve="queryByAllTypes" />
+              <ref role="1ods_" to="so85:68SDKOK$Tr3" resolve="RepoCustomSqlNP" />
+              <ref role="37wK5l" to="so85:Afw7EvjRCW" resolve="queryByAllTypes" />
               <node concept="3cmrfG" id="Afw7Ev0mJJ" role="37wK5m">
                 <property role="3cmrfH" value="47000000" />
               </node>
@@ -18927,8 +18927,8 @@
               <property role="3cmrfH" value="1" />
             </node>
             <node concept="1odsa" id="Afw7EvjVAg" role="3uHU7B">
-              <ref role="37wK5l" to="so85:Afw7Ev0e4m" resolve="queryByAllTypes" />
-              <ref role="1ods_" to="so85:32etEQRuSTP" resolve="RepoCustomSql" />
+              <ref role="1ods_" to="so85:68SDKOK$Tr3" resolve="RepoCustomSqlNP" />
+              <ref role="37wK5l" to="so85:Afw7EvjRCW" resolve="queryByAllTypes" />
               <node concept="3cmrfG" id="Afw7EvjVAh" role="37wK5m">
                 <property role="3cmrfH" value="47000000" />
               </node>
@@ -18958,6 +18958,18 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="1OUNVZ8Sfix" role="3yMuLx">
+      <property role="TrG5h" value="Named Parameter Test - Insert invoice with MapUPDATE" />
+      <node concept="3cqZAl" id="1OUNVZ8Sfiz" role="3clF45" />
+      <node concept="3clFbS" id="1OUNVZ8Sfi$" role="3clF47">
+        <node concept="3clFbF" id="1OUNVZ8SfJj" role="3cqZAp">
+          <node concept="1odsa" id="1OUNVZ8SfJi" role="3clFbG">
+            <ref role="1ods_" to="so85:68SDKOK$Tr3" resolve="RepoCustomSqlNP" />
+            <ref role="37wK5l" to="so85:1OUNVZ8yl2x" resolve="insertInvoice" />
           </node>
         </node>
       </node>
