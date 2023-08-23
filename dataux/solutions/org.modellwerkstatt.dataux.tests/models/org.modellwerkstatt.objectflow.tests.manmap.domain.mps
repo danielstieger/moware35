@@ -15753,7 +15753,7 @@
     <node concept="DXQ2B" id="1OUNVZ8yl2x" role="jymVt">
       <property role="TrG5h" value="insertInvoice" />
       <property role="2a4t7v" value="3PtsrckEx4q/CHECKIN" />
-      <node concept="3cqZAl" id="1OUNVZ8yl2z" role="3clF45" />
+      <node concept="10Oyi0" id="3SAEAO0syrR" role="3clF45" />
       <node concept="3Tm1VV" id="1OUNVZ8yl2$" role="1B3o_S" />
       <node concept="3clFbS" id="1OUNVZ8yl2_" role="3clF47">
         <node concept="3cpWs8" id="1OUNVZ8yo00" role="3cqZAp">
@@ -16121,18 +16121,116 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3SAEAO0syyc" role="3cqZAp" />
+        <node concept="3cpWs6" id="3SAEAO0syCv" role="3cqZAp">
+          <node concept="37vLTw" id="3SAEAO0syL7" role="3cqZAk">
+            <ref role="3cqZAo" node="1OUNVZ8yo03" resolve="newInvoiceKey" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="DXQ2B" id="1OUNVZ8ylPD" role="jymVt">
       <property role="TrG5h" value="updateInvoice" />
       <property role="2a4t7v" value="3PtsrckEx4q/CHECKIN" />
+      <node concept="37vLTG" id="3SAEAO0syPG" role="3clF46">
+        <property role="TrG5h" value="key" />
+        <node concept="10Oyi0" id="3SAEAO0syTC" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="1OUNVZ8ylPE" role="3clF45" />
       <node concept="3Tm1VV" id="1OUNVZ8ylPF" role="1B3o_S" />
       <node concept="3clFbS" id="1OUNVZ8ylPG" role="3clF47">
         <node concept="3clFbF" id="1OUNVZ8ylPH" role="3cqZAp">
           <node concept="2KoPwa" id="1OUNVZ8ylPI" role="3clFbG">
             <node concept="1Q8zPT" id="1OUNVZ8ylPJ" role="2KoP_5">
-              <node concept="1PaTwC" id="1OUNVZ8ylPK" role="2KarBZ" />
+              <node concept="1PaTwC" id="3SAEAO0vgGG" role="2KarBZ">
+                <node concept="3oM_SD" id="3SAEAO0sycW" role="1PaTwD">
+                  <property role="3oM_SC" value="UPDATE" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0sycY" role="1PaTwD">
+                  <property role="3oM_SC" value="REKO.MMT_INVOICE" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0sydy" role="1PaTwD">
+                  <property role="3oM_SC" value="SET" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0sye7" role="1PaTwD">
+                  <property role="3oM_SC" value="NUM_INTAL" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syf2" role="1PaTwD">
+                  <property role="3oM_SC" value="=" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syfb" role="1PaTwD">
+                  <property role="3oM_SC" value=":intvalue," />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syec" role="1PaTwD">
+                  <property role="3oM_SC" value="NUM_TOTALAMNT" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syfl" role="1PaTwD">
+                  <property role="3oM_SC" value="=" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syfw" role="1PaTwD">
+                  <property role="3oM_SC" value=":bigdeci," />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syei" role="1PaTwD">
+                  <property role="3oM_SC" value="TXT_TEXT2" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syfG" role="1PaTwD">
+                  <property role="3oM_SC" value="=" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syfT" role="1PaTwD">
+                  <property role="3oM_SC" value=":someText2," />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syep" role="1PaTwD">
+                  <property role="3oM_SC" value="TXT_TEXT" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syg7" role="1PaTwD">
+                  <property role="3oM_SC" value="=" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0sygR" role="1PaTwD">
+                  <property role="3oM_SC" value=":someText" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syh7" role="1PaTwD">
+                  <property role="3oM_SC" value="WHERE" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syho" role="1PaTwD">
+                  <property role="3oM_SC" value="KEY_ID" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0syhE" role="1PaTwD">
+                  <property role="3oM_SC" value="=" />
+                </node>
+                <node concept="3oM_SD" id="3SAEAO0vgHy" role="1PaTwD">
+                  <property role="3oM_SC" value=":key_id" />
+                </node>
+              </node>
+            </node>
+            <node concept="1inMjt" id="3SAEAO0syr7" role="3qYT0o">
+              <property role="TrG5h" value="key_id" />
+              <node concept="37vLTw" id="3SAEAO0syXb" role="1inMju">
+                <ref role="3cqZAo" node="3SAEAO0syPG" resolve="key" />
+              </node>
+            </node>
+            <node concept="1inMjt" id="3SAEAO0syr3" role="3qYT0o">
+              <property role="TrG5h" value="intvalue" />
+              <node concept="37vLTw" id="3SAEAO0szkb" role="1inMju">
+                <ref role="3cqZAo" node="3SAEAO0syPG" resolve="key" />
+              </node>
+            </node>
+            <node concept="1inMjt" id="3SAEAO0syr4" role="3qYT0o">
+              <property role="TrG5h" value="bigdeci" />
+              <node concept="1mgVXT" id="3SAEAO0szj9" role="1inMju">
+                <property role="1mgVXS" value="11.11bd" />
+              </node>
+            </node>
+            <node concept="1inMjt" id="3SAEAO0syr6" role="3qYT0o">
+              <property role="TrG5h" value="someText" />
+              <node concept="Xl_RD" id="3SAEAO0sz0O" role="1inMju">
+                <property role="Xl_RC" value="some text" />
+              </node>
+            </node>
+            <node concept="1inMjt" id="3SAEAO0syr5" role="3qYT0o">
+              <property role="TrG5h" value="someText2" />
+              <node concept="Xl_RD" id="3SAEAO0syZC" role="1inMju">
+                <property role="Xl_RC" value="some text 2" />
+              </node>
             </node>
           </node>
         </node>

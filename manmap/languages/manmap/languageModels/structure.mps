@@ -87,6 +87,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+      </concept>
     </language>
   </registry>
   <node concept="1TIwiD" id="Kou8Lehoqn">
@@ -888,6 +891,9 @@
       <property role="20kJfa" value="namedParams" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="68SDKOKpSfg" resolve="SqlNamedParameter" />
+      <node concept="1KehLL" id="1OUNVZ90x2F" role="lGtFl">
+        <property role="1K8rM7" value="Constant_6h6dhy_e2a" />
+      </node>
     </node>
     <node concept="1TJgyi" id="7opW4z6uE$3" role="1TKVEl">
       <property role="TrG5h" value="debugMe" />
