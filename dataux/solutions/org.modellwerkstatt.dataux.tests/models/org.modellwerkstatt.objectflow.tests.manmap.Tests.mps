@@ -19127,6 +19127,47 @@
         <node concept="3clFbH" id="3SAEAO0sAki" role="3cqZAp" />
       </node>
     </node>
+    <node concept="3yPF9F" id="3SAEAO0Yapx" role="3yMuLx">
+      <property role="TrG5h" value="Named Parameter Test - Check for escape of : when used in ''" />
+      <node concept="3cqZAl" id="3SAEAO0Yapz" role="3clF45" />
+      <node concept="3clFbS" id="3SAEAO0Yap$" role="3clF47">
+        <node concept="3cpWs8" id="3SAEAO0YazM" role="3cqZAp">
+          <node concept="3cpWsn" id="3SAEAO0YazN" role="3cpWs9">
+            <property role="TrG5h" value="t" />
+            <node concept="3uibUv" id="3SAEAO0YazO" role="1tU5fm">
+              <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+            </node>
+            <node concept="1odsa" id="3SAEAO0Ya$j" role="33vP2m">
+              <ref role="1ods_" to="so85:68SDKOK$Tr3" resolve="RepoCustomSqlNP" />
+              <ref role="37wK5l" to="so85:3SAEAO0Y5ic" resolve="checkForEscapeFeature" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3SAEAO10Ez1" role="3cqZAp">
+          <node concept="3clFbC" id="3SAEAO10Ggk" role="1gVkn0">
+            <node concept="3cmrfG" id="3SAEAO10Gw6" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="3SAEAO10EZo" role="3uHU7B">
+              <node concept="37vLTw" id="3SAEAO10E$E" role="2Oq$k0">
+                <ref role="3cqZAo" node="3SAEAO0YazN" resolve="t" />
+              </node>
+              <node concept="liA8E" id="3SAEAO10Fl_" role="2OqNvi">
+                <ref role="37wK5l" to="oz00:~AbstractInstant.compareTo(org.joda.time.ReadableInstant)" resolve="compareTo" />
+                <node concept="1$4sJe" id="3SAEAO10Fvk" role="37wK5m">
+                  <property role="1$4sGS" value="15" />
+                  <property role="1$4sGV" value="5" />
+                  <property role="1$4sGU" value="2015" />
+                  <property role="1$4sGT" value="8" />
+                  <property role="1$4sGQ" value="30" />
+                  <property role="1$4sGR" value="25" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2d2NRx" id="7dEVQYbDrEU" role="3yTP5x">
       <node concept="3clFbS" id="7dEVQYbDrEV" role="2VODD2" />
     </node>
