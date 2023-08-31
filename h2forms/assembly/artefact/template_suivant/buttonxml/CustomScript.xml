@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<!--  Enterprise Browser Custom Script definition file -->
+<CustomScripts>
+    <scantriggerscript>
+        zzScanSubmit();
+    </scantriggerscript>
+    <defaultokconclusion>
+        zzDefaultGoSubmit();
+    </defaultokconclusion>
+</CustomScripts>

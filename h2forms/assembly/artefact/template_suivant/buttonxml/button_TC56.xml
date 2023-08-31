@@ -1,0 +1,267 @@
+<?xml version = "1.0"?>
+<!-- Enterprise Browser Button Configuration Parameter file -->
+<Buttonbargroup>
+    <ButtonBar1>
+        <barOrientation value="Horizontal" />
+        <barColor value="#0e0e0e" />
+        <barColorPressed value="#e0e0e0" />
+        <barTransparency value="0" />
+        <barFontSize value="20" />
+        <barLeft value="252" />
+        <barTop value="deviceheight-100" />
+        <barWidth value="468" />
+        <barHeight value="100" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="&lt;" />
+                <buttonActionClick value="key-67" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button1>
+            <Button2>
+                <buttonText value="0" />
+                <buttonActionClick value="key-7" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+
+            </Button2>
+            <Button3>
+                <buttonText value="," />
+                <buttonActionClick value="key-55" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="100"/>
+
+            </Button3>
+        </Buttons>
+    </ButtonBar1>
+     <ButtonBar2>
+        <barOrientation value="Horizontal" />
+        <barColor value="#0e0e0e" />
+        <barColorPressed value="#e0e0e0" />
+        <barTransparency value="0" />
+        <barFontSize value="20" />
+        <barLeft value="252" />
+        <barTop value="deviceheight-200" />
+        <barWidth value="468" />
+        <barHeight value="100" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="7" />
+                <buttonActionClick value="key-14" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button1>
+            <Button2>
+                <buttonText value="8" />
+                <buttonActionClick value="key-15" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button2>
+            <Button3>
+                <buttonText value="9" />
+                <buttonActionClick value="key-16" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button3>
+        </Buttons>
+    </ButtonBar2>
+
+    <ButtonBar3>
+        <barOrientation value="Horizontal" />
+        <barColor value="#0e0e0e" />
+        <barColorPressed value="#e0e0e0" />
+        <barTransparency value="0" />
+        <barFontSize value="20" />
+        <barLeft value="252" />
+        <barTop value="deviceheight-300" />
+        <barWidth value="468" />
+        <barHeight value="100" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="4" />
+                <buttonActionClick value="key-11" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button1>
+            <Button2>
+                <buttonText value="5" />
+                <buttonActionClick value="key-12" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button2>
+            <Button3>
+                <buttonText value="6" />
+                <buttonActionClick value="key-13" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button3>
+        </Buttons>
+    </ButtonBar3>
+
+    <ButtonBar4>
+        <barOrientation value="Horizontal" />
+        <barColor value="#0e0e0e" />
+        <barColorPressed value="#e0e0e0" />
+        <barTransparency value="0" />
+        <barFontSize value="20" />
+        <barLeft value="252" />
+        <barTop value="deviceheight-400" />
+        <barWidth value="468" />
+        <barHeight value="100" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="1" />
+                <buttonActionClick value="key-8" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button1>
+            <Button2>
+                <buttonText value="2" />
+                <buttonActionClick value="key-9" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button2>
+            <Button3>
+                <buttonText value="3" />
+                <buttonActionClick value="key-10" />
+                
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button3>
+        </Buttons>
+    </ButtonBar4>
+
+    <ButtonBar5>
+        <barOrientation value="Vertical" />
+        <barColor value="#E87E0C" />
+        <barColorPressed value="#E87E0C" />
+        <barTransparency value="0" />
+        <barFontSize value="20" />
+        <barLeft value="0" />
+        <barTop value="deviceheight-400" />
+        <barWidth value="252" />
+        <barHeight value="200" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="SCAN" />
+                <buttonActionClick value="runscript-scantriggerscript" />
+                        
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button1>
+        </Buttons>
+    </ButtonBar5>
+    
+     <ButtonBar6>
+        <barOrientation value="Vertical" />
+        <barColor value="#0e0e0e" />
+        <barColorPressed value="#e0e0e0" />
+        <barTransparency value="0" />
+        <barFontSize value="20" />
+        <barLeft value="0" />
+        <barTop value="deviceheight-200" />
+        <barWidth value="252" />
+        <barHeight value="200" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="GO" />
+                <buttonActionClick value="runscript-defaultokconclusion" />
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button1>
+        </Buttons>
+    </ButtonBar6>
+    
+    <ButtonBar7>
+        <barOrientation value="Vertical" />
+        <barColor value="#0e0e0e" />
+        <barColorPressed value="#e0e0e0" />
+        <barFontSize value="20" />
+        <barLeft value="0" />
+        <barTop value="deviceheight-400" />
+        <barWidth value="252" />
+        <barHeight value="200" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="" />
+                <buttonActionClick value="runscript-scantriggerscript" />
+            	<buttonClickable value="false"/>
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+				<buttonHapticfeedbackduration value="50"/>
+            </Button1>
+        </Buttons>
+    </ButtonBar7>
+    
+     <ButtonBar8>
+        <barOrientation value="Vertical" />
+        <barColor value="#0e0e0e" />
+        <barColorPressed value="#e0e0e0" />
+        <barFontSize value="20" />
+        <barLeft value="0" />
+        <barTop value="deviceheight-200" />
+        <barWidth value="252" />
+        <barHeight value="200" />
+        <barTextColor value="#e0e0e0" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="0" />
+        <Buttons>
+            <Button1>
+                <buttonText value="" />
+                <buttonActionClick value="runscript-defaultokconclusion" />
+                <buttonClickable value="false"/>
+                <buttonPreview value="false"/>
+                <buttonHapticfeedback value="true"/>
+              <buttonHapticfeedbackduration value="50"/>
+            </Button1>
+        </Buttons>
+    </ButtonBar8>
+    
+    
+</Buttonbargroup>
