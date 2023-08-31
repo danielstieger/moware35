@@ -15634,7 +15634,25 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="Afw7EvxLUI" role="3cqZAp" />
+        <node concept="3cpWs8" id="1MVeCDlbWtO" role="3cqZAp">
+          <node concept="3cpWsn" id="1MVeCDlbWtR" role="3cpWs9">
+            <property role="TrG5h" value="stReplaced" />
+            <node concept="17QB3L" id="1MVeCDlbWtM" role="1tU5fm" />
+            <node concept="2OqwBi" id="1MVeCDlbWFt" role="33vP2m">
+              <node concept="37vLTw" id="1MVeCDlbWxu" role="2Oq$k0">
+                <ref role="3cqZAo" node="Afw7EvxLFe" resolve="st2" />
+              </node>
+              <node concept="liA8E" id="1MVeCDlbWK7" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                <node concept="Xl_RD" id="1MVeCDlbWQa" role="37wK5m">
+                  <property role="Xl_RC" value="### BLA BLA ###" />
+                </node>
+                <node concept="Xl_RD" id="1MVeCDlbXqj" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1MVeCDlbWri" role="3cqZAp" />
         <node concept="3clFbF" id="Afw7EvxL6X" role="3cqZAp">
           <node concept="2OqwBi" id="Afw7EvxL6Y" role="3clFbG">
             <node concept="1eaaFm" id="Afw7EvxL6Z" role="2Oq$k0">
@@ -15740,7 +15758,7 @@
                     </node>
                   </node>
                   <node concept="37vLTw" id="Afw7EvxN4T" role="3uHU7w">
-                    <ref role="3cqZAo" node="Afw7EvxLFe" resolve="st2" />
+                    <ref role="3cqZAo" node="1MVeCDlbWtR" resolve="stReplaced" />
                   </node>
                 </node>
               </node>
