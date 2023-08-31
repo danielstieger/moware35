@@ -45,6 +45,7 @@ function openPage(page, fromDropDown) {
 
   if (fromDropDown || ! svHideAllContainsDropdown()) {
       svDisableNavigation();
+      setLastRequestIssuedMillis();
       window.location = page;
   }
 }
@@ -66,6 +67,7 @@ function tableSelectAndExec(selectionstr, valstr, eventSource){
             f.ScrollPosition.value = origScrollPos;
             f.SelectionId.value=selectionstr;
             f.DebugInformation.value = getDbLog();
+            setLastRequestIssuedMillis();
             f.submit();
         }
     }
@@ -93,6 +95,7 @@ function saveSubmit(submitParameter){
             var f = $('form');
             f.NaviCrtl.value = submitParameter;
             f.DebugInformation.value = getDbLog();
+            setLastRequestIssuedMillis();
             f.submit();
         }
     }
@@ -117,7 +120,9 @@ function svSubmitFormWithDefaultConclusion(){
 
     // android go key .. handling.
     svOnFormSubmitHandler();
+
     var f = $('form');
+    setLastRequestIssuedMillis();
     f.submit();
 }
 
@@ -139,10 +144,21 @@ function serverClockUpdate() {
     serverClockUpdateId = setTimeout(serverClockUpdate, 5000);
 }
 
+function setLastRequestIssuedMillis() {
+    var millis = Date.now();
+    sessionStorage.setItem("LastRequestIssuedMillis", millis);
+}
+
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
 
     var baseForm = $('form');
+
+    var lastReq = sessionStorage.getItem("LastRequestIssuedMillis");
+    if (lastReq != undefined) {
+        baseForm.LastRequestDiffMillis.value = Date.now() - lastReq;
+    }
+
     var topBar = $('.w3-top');
     if (baseForm && topBar) {
         baseForm.style.paddingTop = '' + $('.w3-top').offsetHeight + 'px';
