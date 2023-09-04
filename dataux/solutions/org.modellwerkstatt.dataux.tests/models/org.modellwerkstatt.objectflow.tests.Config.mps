@@ -1022,40 +1022,40 @@
     <property role="TrG5h" value="MPreisOFXLdapConfig" />
     <property role="2320hu" value="2018-08-07T11:37:54.314+02:00" />
     <property role="3GE5qa" value="DepConfigs" />
-    <node concept="2CJf3v" id="3OfvFtm9SRX" role="2CGBMS">
+    <node concept="2CJf3v" id="2lLSObeqReR" role="2CGBMS">
       <property role="TrG5h" value="ldapService" />
-      <node concept="Xl_RD" id="3OfvFtm9SRY" role="2CJf0U">
+      <node concept="Xl_RD" id="2lLSObeqReS" role="2CJf0U">
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoLdapService" />
       </node>
-      <node concept="2CJf1O" id="3OfvFtm9SRZ" role="2CJ4_l">
-        <node concept="Xl_RD" id="3OfvFtm9SS0" role="2DqwMp">
-          <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
+      <node concept="2CJf1O" id="bgx0FgTjYf" role="2CJ4_l">
+        <node concept="Xl_RD" id="bgx0FgTjYg" role="2DqwMp">
+          <property role="Xl_RC" value="ldap://mpreis.co.at:389" />
         </node>
-        <node concept="Xl_RD" id="3OfvFtm9SS1" role="2DqwMv">
+        <node concept="Xl_RD" id="bgx0FgTjYh" role="2DqwMv">
           <property role="Xl_RC" value="0" />
         </node>
       </node>
-      <node concept="2CJf1O" id="3OfvFtm9SS2" role="2CJ4_l">
-        <node concept="Xl_RD" id="3OfvFtm9SS3" role="2DqwMp">
+      <node concept="2CJf1O" id="2lLSObeqReW" role="2CJ4_l">
+        <node concept="Xl_RD" id="2lLSObeqReX" role="2DqwMp">
           <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
         </node>
-        <node concept="Xl_RD" id="3OfvFtm9SS4" role="2DqwMv">
+        <node concept="Xl_RD" id="2lLSObeqReY" role="2DqwMv">
           <property role="Xl_RC" value="1" />
         </node>
       </node>
-      <node concept="2CJf1O" id="3OfvFtm9SS5" role="2CJ4_l">
-        <node concept="Xl_RD" id="3OfvFtm9SS6" role="2DqwMp">
-          <property role="Xl_RC" value="pwd" />
+      <node concept="2CJf1O" id="2lLSObeqReZ" role="2CJ4_l">
+        <node concept="Xl_RD" id="2lLSObeqRf0" role="2DqwMp">
+          <property role="Xl_RC" value="qSzdCNqKELbC5J" />
         </node>
-        <node concept="Xl_RD" id="3OfvFtm9SS7" role="2DqwMv">
+        <node concept="Xl_RD" id="2lLSObeqRf1" role="2DqwMv">
           <property role="Xl_RC" value="2" />
         </node>
       </node>
-      <node concept="2CJf1O" id="3OfvFtm9SS8" role="2CJ4_l">
-        <node concept="Xl_RD" id="3OfvFtm9SS9" role="2DqwMp">
-          <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+      <node concept="2CJf1O" id="2lLSObeqRf2" role="2CJ4_l">
+        <node concept="Xl_RD" id="2lLSObeqRf3" role="2DqwMp">
+          <property role="Xl_RC" value="OU=10USER,DC=mpreis,DC=co,DC=at" />
         </node>
-        <node concept="Xl_RD" id="3OfvFtm9SSa" role="2DqwMv">
+        <node concept="Xl_RD" id="2lLSObeqRf4" role="2DqwMv">
           <property role="Xl_RC" value="3" />
         </node>
       </node>
@@ -1091,40 +1091,40 @@
     <property role="TrG5h" value="MySQLOFXLdapConfig" />
     <property role="2320hu" value="2018-06-21T13:59:03.759+02:00" />
     <property role="3GE5qa" value="DepConfigs" />
-    <node concept="2CJf3v" id="7$uuZ_GYI$i" role="2CGBMS">
+    <node concept="2CJf3v" id="1tzaZk8FS_7" role="2CGBMS">
       <property role="TrG5h" value="ldapService" />
-      <node concept="Xl_RD" id="7$uuZ_GYI$k" role="2CJf0U">
+      <node concept="Xl_RD" id="1tzaZk8FS_8" role="2CJf0U">
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoLdapService" />
       </node>
-      <node concept="2CJf1O" id="7$uuZ_GYKax" role="2CJ4_l">
-        <node concept="Xl_RD" id="7$uuZ_GYKay" role="2DqwMp">
-          <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
+      <node concept="2CJf1O" id="1tzaZk8FS_9" role="2CJ4_l">
+        <node concept="Xl_RD" id="1tzaZk8FS_a" role="2DqwMp">
+          <property role="Xl_RC" value="ldap://mpreis.co.at:389" />
         </node>
-        <node concept="Xl_RD" id="7$uuZ_GYKaC" role="2DqwMv">
+        <node concept="Xl_RD" id="1tzaZk8FS_b" role="2DqwMv">
           <property role="Xl_RC" value="0" />
         </node>
       </node>
-      <node concept="2CJf1O" id="7$uuZ_GYKaK" role="2CJ4_l">
-        <node concept="Xl_RD" id="7$uuZ_GYKaL" role="2DqwMp">
+      <node concept="2CJf1O" id="1tzaZk8FS_c" role="2CJ4_l">
+        <node concept="Xl_RD" id="1tzaZk8FS_d" role="2DqwMp">
           <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
         </node>
-        <node concept="Xl_RD" id="7$uuZ_GYKaM" role="2DqwMv">
+        <node concept="Xl_RD" id="1tzaZk8FS_e" role="2DqwMv">
           <property role="Xl_RC" value="1" />
         </node>
       </node>
-      <node concept="2CJf1O" id="7$uuZ_GYKaZ" role="2CJ4_l">
-        <node concept="Xl_RD" id="7$uuZ_GYKb0" role="2DqwMp">
-          <property role="Xl_RC" value="pwd" />
+      <node concept="2CJf1O" id="1tzaZk8FS_f" role="2CJ4_l">
+        <node concept="Xl_RD" id="1tzaZk8FS_g" role="2DqwMp">
+          <property role="Xl_RC" value="qSzdCNqKELbC5J" />
         </node>
-        <node concept="Xl_RD" id="7$uuZ_GYKb1" role="2DqwMv">
+        <node concept="Xl_RD" id="1tzaZk8FS_h" role="2DqwMv">
           <property role="Xl_RC" value="2" />
         </node>
       </node>
-      <node concept="2CJf1O" id="7$uuZ_GYKbh" role="2CJ4_l">
-        <node concept="Xl_RD" id="7$uuZ_GYKbi" role="2DqwMp">
-          <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+      <node concept="2CJf1O" id="1tzaZk8FS_i" role="2CJ4_l">
+        <node concept="Xl_RD" id="1tzaZk8FS_j" role="2DqwMp">
+          <property role="Xl_RC" value="OU=10USER,DC=mpreis,DC=co,DC=at" />
         </node>
-        <node concept="Xl_RD" id="7$uuZ_GYKbj" role="2DqwMv">
+        <node concept="Xl_RD" id="1tzaZk8FS_k" role="2DqwMv">
           <property role="Xl_RC" value="3" />
         </node>
       </node>
@@ -1285,7 +1285,6 @@
         <property role="Xl_RC" value="at.hafina.filiale.wws.shared.eFWWS_RICH_WEB" />
       </node>
     </node>
-    <node concept="2CPvp3" id="5CzqO7LBBFx" role="2CGBMS" />
     <node concept="20ptWn" id="myLEe63nz6" role="20ptHX">
       <node concept="Xl_RD" id="myLEe63nz7" role="20ptNC">
         <property role="Xl_RC" value="at.hafina.filiale" />
