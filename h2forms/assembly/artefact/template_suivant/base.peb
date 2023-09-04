@@ -124,6 +124,7 @@
     <input type="hidden" name="DeviceId" value=""/>
     <input type="hidden" name="ServerMillis" value="{{ page.srvMillis }}"/>
     <input type="hidden" name="LastRequestDiffMillis"   value=""/>
+    <input type="hidden" name="LastRequestDiffMillis2"   value=""/>
 
 {% if dialog is not null and dialog.modalWithButtons %}
     <div class="w3-top">

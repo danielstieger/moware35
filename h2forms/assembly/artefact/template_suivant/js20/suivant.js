@@ -45,7 +45,7 @@ function openPage(page, fromDropDown) {
 
   if (fromDropDown || ! svHideAllContainsDropdown()) {
       svDisableNavigation();
-      setLastRequestIssuedMillis();
+      setLastRequestIssuedMillis(null);
       window.location = page;
   }
 }
@@ -67,7 +67,7 @@ function tableSelectAndExec(selectionstr, valstr, eventSource){
             f.ScrollPosition.value = origScrollPos;
             f.SelectionId.value=selectionstr;
             f.DebugInformation.value = getDbLog();
-            setLastRequestIssuedMillis();
+            setLastRequestIssuedMillis(f);
             f.submit();
         }
     }
@@ -95,7 +95,7 @@ function saveSubmit(submitParameter){
             var f = $('form');
             f.NaviCrtl.value = submitParameter;
             f.DebugInformation.value = getDbLog();
-            setLastRequestIssuedMillis();
+            setLastRequestIssuedMillis(f);
             f.submit();
         }
     }
@@ -122,7 +122,7 @@ function svSubmitFormWithDefaultConclusion(){
     svOnFormSubmitHandler();
 
     var f = $('form');
-    setLastRequestIssuedMillis();
+    setLastRequestIssuedMillis(f);
     f.submit();
 }
 
@@ -144,10 +144,15 @@ function serverClockUpdate() {
     serverClockUpdateId = setTimeout(serverClockUpdate, 5000);
 }
 
-function setLastRequestIssuedMillis() {
+function setLastRequestIssuedMillis(baseForm) {
     var millis = Date.now();
     sessionStorage.setItem("LastRequestIssuedMillis", millis);
-}
+    if (baseForm != null) {
+        baseForm.LastRequestDiffMillis2.value =
+                 window.performance.timing.domContentLoadedEventEnd - window.performance.timing.fetchStart;
+        }
+    }
+
 
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
