@@ -149,20 +149,23 @@ function setLastRequestIssuedMillis(baseForm) {
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
     reqLogClear();
-    var diffConnectStart = window.performance.timing.connectStart - window.performance.timing.fetchStart;
-    var diffResponseStart = window.performance.timing.responseStart - window.performance.timing.fetchStart;
-    var diffResponseEnd = window.performance.timing.responseEnd - window.performance.timing.fetchStart;
-    var title = $('.sv-bartitle');
-    if (title != null) { title = title.innerHTML.trim().replaceAll("&nbsp;", ""); }
-    reqLog('' + title + ' - connected ' + diffConnectStart + ', firstByte ' + diffResponseStart + ', lastByte ' + diffResponseEnd);
+    try {
+        var diffDomainLookupStart = window.performance.timing.domainLookupStart - window.performance.timing.fetchStart;
+        var diffConnectStart = window.performance.timing.connectStart - window.performance.timing.fetchStart;
+        var diffRequestStart = window.performance.timing.requestStart - window.performance.timing.fetchStart;
+        var diffResponseStart = window.performance.timing.responseStart - window.performance.timing.fetchStart;
+        var diffResponseEnd = window.performance.timing.responseEnd - window.performance.timing.fetchStart;
+        reqLog('Performance: dnsStart ' + diffDomainLookupStart + ', tcpStart ' + diffConnectStart + ', requestStart ' + diffRequestStart + ', firstResponseByte ' + diffResponseStart + ', lastResponseByte ' + diffResponseEnd);
+
+    } catch(error) {
+        reqLog('Performance metrics issues? ' + error);
+    }
 
     var baseForm = $('form');
-
     var lastReq = sessionStorage.getItem("LastRequestIssuedMillis");
     if (lastReq != undefined) {
         baseForm.LastRequestDiffMillis.value = Date.now() - lastReq;
     }
-
 
     var topBar = $('.w3-top');
     if (baseForm && topBar) {
@@ -177,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     hwInitAfterDomReady();
-    reqLog('hwInitAfterDomReady() done');
+    reqLog('hwInitAfterDomReady() - done');
 
     if($$('.errorbeep').length > 0) {
         hwFlagBeep(1000);

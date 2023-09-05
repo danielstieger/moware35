@@ -91,6 +91,7 @@ function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'zebra enableScan called . . . .');
 
     EB.Sip.disableAllIME();
+    reqLog("hwInitAfterDomReady - disableAllIME");
 
     var focusHandler = function(event) {
         	var nodeName = event.target.nodeName.toLowerCase();
@@ -159,6 +160,8 @@ function hwInitAfterDomReady(){
     $('body').addEventListener('keydown', keyCallBack);
 
     installDateCommaReplacer();
+    reqLog("hwInitAfterDomReady - installDateCommaReplacer");
+
 
     if (svScanEnabled()) {
         try {
@@ -177,7 +180,10 @@ function hwInitAfterDomReady(){
             EB.Barcode.upca = true;
 
             svLog('hwEnableScan', 'calling EB.Barcode.enable()');
+
+            reqLog("hwInitAfterDomReady - EB.Barcode.xxxx ");
             EB.Barcode.enable({}, zzScanReceived);
+            reqLog('hwInitAfterDomReady - EB.Barcode.enable({})');
 
             /* EB.Barcode.enable({allDecoders:true,  }, scanReceived); */
             zzEnableSoftScanButton(true);
