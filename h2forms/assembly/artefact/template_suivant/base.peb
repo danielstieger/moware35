@@ -120,11 +120,13 @@
     <input type="hidden" name="PageTmpValue" value="0"/>
     <input type="hidden" name="H1HttpClient" value="{{ client.deviceSw }}"/>
     <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
-    <input type="hidden" name="DebugInformation" value="-"/>
     <input type="hidden" name="DeviceId" value=""/>
     <input type="hidden" name="ServerMillis" value="{{ page.srvMillis }}"/>
     <input type="hidden" name="LastRequestDiffMillis"   value=""/>
     <input type="hidden" name="LastRequestDiffMillis2"   value=""/>
+    <input type="hidden" name="LastRequestLog"   value=""/>
+
+
 
 {% if dialog is not null and dialog.modalWithButtons %}
     <div class="w3-top">

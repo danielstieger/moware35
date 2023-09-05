@@ -18,7 +18,14 @@
 
 
 function hwStackInfo(){
-    return '[hwsprt_zebra20]';
+    var version = '?';
+    try {
+        version = EB.Application.getVersion();
+    } catch(error) {
+
+    }
+
+    return '[hwsprt_zebra20 ' + version + ']';
 }
 
 

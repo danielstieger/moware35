@@ -3011,6 +3011,18 @@
           <property role="Xl_RC" value="Create CSV from table contents" />
         </node>
       </node>
+      <node concept="QsSxf" id="6XECzp4bdcg" role="Qtgdg">
+        <property role="TrG5h" value="LOGOUT_SUCCESS" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="6XECzp4bleK" role="37wK5m">
+          <property role="Xl_RC" value="Sie wurden erfolgreich von der Applikation abgemeldet" />
+        </node>
+        <node concept="10Nm6u" id="6XECzp4bmIk" role="37wK5m" />
+        <node concept="10Nm6u" id="6XECzp4bodt" role="37wK5m" />
+        <node concept="Xl_RD" id="6XECzp4boWD" role="37wK5m">
+          <property role="Xl_RC" value="You have been successfully logged out from the application." />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
       <node concept="2tJIrI" id="4DaB5G9A1mY" role="jymVt" />

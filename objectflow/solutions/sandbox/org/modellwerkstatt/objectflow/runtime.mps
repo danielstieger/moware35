@@ -40991,7 +40991,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2023.20 (flngr++) (dev " />
+            <property role="Xl_RC" value="moware11 2023.20A (flngr++) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
@@ -54946,6 +54946,15 @@
       <node concept="17QB3L" id="1tzaZk8czce" role="1tU5fm" />
       <node concept="Xl_RD" id="1tzaZk8czcf" role="33vP2m">
         <property role="Xl_RC" value="reqDiff2" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="6WfCNSolg8F" role="jymVt">
+      <property role="TrG5h" value="REQ_LOG" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="6WfCNSolg8G" role="1B3o_S" />
+      <node concept="17QB3L" id="6WfCNSolg8H" role="1tU5fm" />
+      <node concept="Xl_RD" id="6WfCNSolg8I" role="33vP2m">
+        <property role="Xl_RC" value="reqLog" />
       </node>
     </node>
     <node concept="2tJIrI" id="6WmswPmVLc1" role="jymVt" />

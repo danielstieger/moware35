@@ -52,7 +52,6 @@ function openPage(page, fromDropDown) {
 
 function tableSelectAndExec(selectionstr, valstr, eventSource){
     var origScrollPos = parseInt(window.scrollY);
-    dbLog('tableSelectAndExec', 'with ' + selectionstr + ' / ' + valstr + ' / ' + eventSource + ' before hideconent');
 
     clearTimeout(serverClockUpdateId);
 
@@ -60,13 +59,10 @@ function tableSelectAndExec(selectionstr, valstr, eventSource){
         if (! isSvNavDisabled()) {
             svDisableNavigation();
 
-            dbLog('tableSelectAndExec', 'before form submit.');
-
             var f = $('form');
             f.NaviCrtl.value=valstr;
             f.ScrollPosition.value = origScrollPos;
             f.SelectionId.value=selectionstr;
-            f.DebugInformation.value = getDbLog();
             setLastRequestIssuedMillis(f);
             f.submit();
         }
@@ -82,19 +78,14 @@ function layoutSelectAndExec(selectionstr, valstr, dropdown){
 
 
 function saveSubmit(submitParameter){
-    dbLog('saveSubmit', 'with ' + submitParameter + ' before hideconent');
-
     clearTimeout(serverClockUpdateId);
 
     if (! svHideAllContainsDropdown()) {
         if (! isSvNavDisabled()) {
             svDisableNavigation();
 
-            dbLog('saveSubmit', 'before form submit');
-
             var f = $('form');
             f.NaviCrtl.value = submitParameter;
-            f.DebugInformation.value = getDbLog();
             setLastRequestIssuedMillis(f);
             f.submit();
         }
@@ -150,12 +141,20 @@ function setLastRequestIssuedMillis(baseForm) {
     if (baseForm != null) {
         baseForm.LastRequestDiffMillis2.value =
                  window.performance.timing.domContentLoadedEventEnd - window.performance.timing.fetchStart;
+        baseForm.LastRequestLog.value = reqLogString;
         }
     }
 
 
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
+    reqLogClear();
+    var diffConnectStart = window.performance.timing.connectStart - window.performance.timing.fetchStart;
+    var diffResponseStart = window.performance.timing.responseStart - window.performance.timing.fetchStart;
+    var diffResponseEnd = window.performance.timing.responseEnd - window.performance.timing.fetchStart;
+    var title = $('.sv-bartitle');
+    if (title != null) { title = title.innerHTML.trim().replaceAll("&nbsp;", ""); }
+    reqLog('' + title + ' - connected ' + diffConnectStart + ', firstByte ' + diffResponseStart + ', lastByte ' + diffResponseEnd);
 
     var baseForm = $('form');
 
@@ -164,18 +163,21 @@ document.addEventListener('DOMContentLoaded', function() {
         baseForm.LastRequestDiffMillis.value = Date.now() - lastReq;
     }
 
+
     var topBar = $('.w3-top');
     if (baseForm && topBar) {
         baseForm.style.paddingTop = '' + $('.w3-top').offsetHeight + 'px';
     }
-
     var sysMenu = $('.sv-bartitle');
     if (sysMenu) {
         systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));
         svLog('DOMContentLoader', 'system menu installed.')
     }
+    reqLog('Sysmenu installed/Top padded');
+
 
     hwInitAfterDomReady();
+    reqLog('hwInitAfterDomReady() done');
 
     if($$('.errorbeep').length > 0) {
         hwFlagBeep(1000);
@@ -183,11 +185,14 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if($$('.warnbeep').length > 0) {
         hwFlagBeep(400);
     }
+    reqLog('hwFlagBeeps() done.');
 
     var scrollToMeElement = (baseForm.ScrollPosition.value > 0);
     if (scrollToMeElement) {
         window.scrollTo(0, baseForm.ScrollPosition.value);
     } 
+    reqLog('scrolling ' + scrollToMeElement + " - done");
+
 
     setTimeout(function() {
             svAdjustFocus();
@@ -196,8 +201,12 @@ document.addEventListener('DOMContentLoaded', function() {
     serverTimeMillisOffset = Date.now() - baseForm.ServerMillis.value;
     serverClockUpdate();
 
-
     navigationDisabled = false;
-    svLog('DOMContentLoader', 'init done ' + hwStackInfo());
-    dbLog('DOMContentLoader', 'init done ' + hwStackInfo());
+    svLog('DOMContentLoaded', 'init done ' + hwStackInfo());
+    reqLog('DOMContentLoaded - init done for ' + hwStackInfo());
+});
+
+
+addEventListener("load", (event) => {
+   reqLog('load event - done');
 });

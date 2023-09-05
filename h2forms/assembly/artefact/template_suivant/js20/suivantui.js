@@ -22,6 +22,22 @@ function isSvNavDisabled() {
     return navigationDisabled;
 }
 
+var reqLogString = '';
+var lastReqLogTimestamp = 0;
+
+function reqLog(msg) {
+    var now = Date.now();
+    var diff = now - lastReqLogTimestamp;
+    lastReqLogTimestamp = now;
+
+    reqLogString += '' + diff + ': ' + msg + '\n';
+}
+
+function reqLogClear() {
+    reqLogString = "";
+    lastReqLogTimestamp = Date.now();
+}
+
 function svLog(methodName, msg) {
     // console.log('- '+ methodName + "(): " + msg);
     // alert('- '+ methodName + "(): " + msg);
@@ -45,7 +61,7 @@ function svHideAllContainsDropdown() {
   // console.log('svHideAllContainsDropdown() called .... ');
   var wasDropdownAlso = false;
   $$('.w3-show').forEach(function(elem) {
-    if (svIsDropdown(elem)) { 
+    if (svIsDropdown(elem)) {
       wasDropdownAlso = true;
     }
     svHide(elem);
@@ -54,7 +70,6 @@ function svHideAllContainsDropdown() {
 }
 
 function svShowDropdown(e, dropDownDiv) {
-  console.log('svShowDropdown() ' + dropDownDiv);
   // show dropdown only in case there was no dropdown shown yet.
   if (! svHideAllContainsDropdown()) {
       svShow(dropDownDiv);
@@ -65,7 +80,6 @@ function svShowDropdown(e, dropDownDiv) {
 }
 
 function svShowTableActionButtons(e, tableItemRowDiv) {
-  console.log('showTableActionButtons() ' + tableItemRowDiv);
   // hide action bars in table item lines
   if (!svHideAllContainsDropdown()) {
     var buttons_row = tableItemRowDiv.querySelector('.sv-table-button-bar');
@@ -160,7 +174,6 @@ function SVLongTouchHandler(attachButton, dropdownMenu) {
 
    // is registration necessary ?
    if (this.attachButton) {
-     console.log('Starting registration ');
      this.attachButton.addEventListener("mousedown", this.requestSystemMenu);
      this.attachButton.addEventListener("mouseup", this.cancelSystemMenu);
      this.attachButton.addEventListener("touchstart", this.requestSystemMenu );
@@ -169,35 +182,5 @@ function SVLongTouchHandler(attachButton, dropdownMenu) {
      this.attachButton.addEventListener("touchend", this.cancelSystemMenu);
      this.attachButton.addEventListener("touchleave", this.cancelSystemMenu);
      this.attachButton.addEventListener("touchcancel", this.cancelSystemMenu);
-     console.log(' registration done ..... ');
    }
-}
-
-function getDbLog() {
-    return '' + sessionStorage.getItem("suivantLog") + '\n';
-}
-function dbLog(methodName, msg) {
-    msg = methodName + "(): " + msg + ' (nb ' + navigationDisabled + ')';
-    var messages = sessionStorage.getItem("suivantLog");
-
-    if (messages) {
-        var lines = messages.split(/\r?\n/);
-        var newMessage = ""
-
-        if (lines.length > 15) {
-            for (i = 1; i < lines.length; i++) {
-                newMessage += lines[i] + '\n';
-            }
-            newMessage += msg;
-
-        } else {
-            newMessage = messages + "\n" + msg;
-        }
-
-        sessionStorage.setItem("suivantLog", newMessage);
-
-    } else {
-        sessionStorage.setItem("suivantLog", msg);
-
-    }
 }
