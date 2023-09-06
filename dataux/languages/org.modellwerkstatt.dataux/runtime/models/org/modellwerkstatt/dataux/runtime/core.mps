@@ -30895,6 +30895,9 @@
                 <node concept="37vLTw" id="1jCLyDtYqzZ" role="37wK5m">
                   <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
                 </node>
+                <node concept="37vLTw" id="10YuSCZcMe3" role="37wK5m">
+                  <ref role="3cqZAo" node="4n24ZlEyejl" resolve="connectionInfo" />
+                </node>
                 <node concept="10M0yZ" id="4FgSVMs$Nf_" role="37wK5m">
                   <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
                   <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
@@ -45870,6 +45873,11 @@
       <node concept="3Tm6S6" id="1jCLyDtYyP3" role="1B3o_S" />
       <node concept="17QB3L" id="1jCLyDtYyP4" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="10YuSCZemas" role="jymVt">
+      <property role="TrG5h" value="deviceConnectInfo" />
+      <node concept="3Tm6S6" id="10YuSCZekSu" role="1B3o_S" />
+      <node concept="17QB3L" id="10YuSCZelVs" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="1jCLyDtY$Xg" role="jymVt" />
     <node concept="312cEg" id="19EO7JNdhnd" role="jymVt">
       <property role="TrG5h" value="appVersion" />
@@ -45902,6 +45910,10 @@
         <property role="TrG5h" value="aSystemName" />
         <node concept="17QB3L" id="4FgSVMsQtlh" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="10YuSCZejt4" role="3clF46">
+        <property role="TrG5h" value="connectInfo" />
+        <node concept="17QB3L" id="10YuSCZejIq" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="4FgSVMsQsVm" role="3clF45" />
       <node concept="3Tm1VV" id="4FgSVMsQsVn" role="1B3o_S" />
       <node concept="3clFbS" id="4FgSVMsQsVo" role="3clF47">
@@ -45922,6 +45934,16 @@
             </node>
             <node concept="37vLTw" id="4FgSVMsQuUh" role="37vLTJ">
               <ref role="3cqZAo" node="4FgSVMsQu4B" resolve="systemName" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="10YuSCZenK3" role="3cqZAp">
+          <node concept="37vLTI" id="10YuSCZeo2L" role="3clFbG">
+            <node concept="37vLTw" id="10YuSCZeomE" role="37vLTx">
+              <ref role="3cqZAo" node="10YuSCZejt4" resolve="connectInfo" />
+            </node>
+            <node concept="37vLTw" id="10YuSCZenK1" role="37vLTJ">
+              <ref role="3cqZAo" node="10YuSCZemas" resolve="deviceConnectInfo" />
             </node>
           </node>
         </node>
@@ -46347,6 +46369,9 @@
                       <node concept="37vLTw" id="1jCLyDtYBL2" role="37wK5m">
                         <ref role="3cqZAo" node="1jCLyDtYyP2" resolve="deviceId" />
                       </node>
+                      <node concept="37vLTw" id="10YuSCZEFqk" role="37wK5m">
+                        <ref role="3cqZAo" node="10YuSCZemas" resolve="deviceConnectInfo" />
+                      </node>
                       <node concept="10M0yZ" id="4FgSVMsQyVr" role="37wK5m">
                         <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
                         <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
@@ -46476,6 +46501,9 @@
                     </node>
                     <node concept="37vLTw" id="1jCLyDtYCyv" role="37wK5m">
                       <ref role="3cqZAo" node="1jCLyDtYyP2" resolve="deviceId" />
+                    </node>
+                    <node concept="37vLTw" id="10YuSCZep9b" role="37wK5m">
+                      <ref role="3cqZAo" node="10YuSCZemas" resolve="deviceConnectInfo" />
                     </node>
                     <node concept="10M0yZ" id="4FgSVMsQGQD" role="37wK5m">
                       <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
@@ -46636,6 +46664,9 @@
                 </node>
                 <node concept="37vLTw" id="1jCLyDtYDsw" role="37wK5m">
                   <ref role="3cqZAo" node="1jCLyDtYyP2" resolve="deviceId" />
+                </node>
+                <node concept="37vLTw" id="10YuSCZeq4f" role="37wK5m">
+                  <ref role="3cqZAo" node="10YuSCZemas" resolve="deviceConnectInfo" />
                 </node>
                 <node concept="10M0yZ" id="19EO7JNdOfS" role="37wK5m">
                   <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />

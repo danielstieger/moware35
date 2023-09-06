@@ -2287,6 +2287,10 @@
         <property role="TrG5h" value="devId" />
         <node concept="17QB3L" id="1jCLyDtYNSe" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="10YuSCZdaw2" role="3clF46">
+        <property role="TrG5h" value="devRemoteAdr" />
+        <node concept="17QB3L" id="10YuSCZdd1x" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="4WoSiUNa$Il" role="3clF46">
         <property role="TrG5h" value="prio" />
         <node concept="3uibUv" id="4WoSiUNaBPL" role="1tU5fm">
@@ -2350,6 +2354,9 @@
                 </node>
                 <node concept="37vLTw" id="1jCLyDtYRsb" role="37wK5m">
                   <ref role="3cqZAo" node="1jCLyDtYKFi" resolve="devId" />
+                </node>
+                <node concept="37vLTw" id="10YuSCZdj$_" role="37wK5m">
+                  <ref role="3cqZAo" node="10YuSCZdaw2" resolve="devRemoteAdr" />
                 </node>
                 <node concept="10M0yZ" id="4FgSVMsQyVr" role="37wK5m">
                   <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
@@ -3488,12 +3495,20 @@
                           <node concept="37vLTw" id="1jCLyDtYYxz" role="37wK5m">
                             <ref role="3cqZAo" node="5j5DccBQcMB" resolve="clientId" />
                           </node>
+                          <node concept="37vLTw" id="10YuSCZcVqd" role="37wK5m">
+                            <ref role="3cqZAo" node="Gy0DA$ZNwH" resolve="storedIP" />
+                          </node>
                           <node concept="Rm8GO" id="4WoSiUNaJZD" role="37wK5m">
                             <ref role="Rm8GQ" to="28jr:2dTopMvfBq_" resolve="INFO" />
                             <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
                           </node>
-                          <node concept="Xl_RD" id="1WX6wrPW7Rh" role="37wK5m">
-                            <property role="Xl_RC" value="ip adr changed" />
+                          <node concept="3cpWs3" id="10YuSCZcZ$u" role="37wK5m">
+                            <node concept="37vLTw" id="10YuSCZd10b" role="3uHU7w">
+                              <ref role="3cqZAo" node="Gy0DA$ZY87" resolve="currentIP" />
+                            </node>
+                            <node concept="Xl_RD" id="1WX6wrPW7Rh" role="3uHU7B">
+                              <property role="Xl_RC" value="ip adr changed to " />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -3945,6 +3960,14 @@
                             </node>
                             <node concept="2S8uIT" id="1WX6wrPWMe8" role="2OqNvi">
                               <ref role="2S8YL0" node="5KMLUmASjtx" resolve="deviceId" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="10YuSCZd4n4" role="37wK5m">
+                            <node concept="37vLTw" id="10YuSCZd3ML" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5tY3Zy1RDZl" resolve="client" />
+                            </node>
+                            <node concept="2S8uIT" id="10YuSCZd5Rf" role="2OqNvi">
+                              <ref role="2S8YL0" node="7WBKY1WgdlQ" resolve="remoteAddr" />
                             </node>
                           </node>
                           <node concept="Rm8GO" id="4WoSiUNaSB_" role="37wK5m">
@@ -5104,6 +5127,14 @@
                               </node>
                               <node concept="2S8uIT" id="1jCLyDuSFyT" role="2OqNvi">
                                 <ref role="2S8YL0" node="5KMLUmASjtx" resolve="deviceId" />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="10YuSCZd8NS" role="37wK5m">
+                              <node concept="37vLTw" id="10YuSCZd8sC" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7WBKY1WgNqM" resolve="client" />
+                              </node>
+                              <node concept="2S8uIT" id="10YuSCZd91k" role="2OqNvi">
+                                <ref role="2S8YL0" node="7WBKY1WgdlQ" resolve="remoteAddr" />
                               </node>
                             </node>
                             <node concept="Rm8GO" id="1jCLyDuSJDg" role="37wK5m">

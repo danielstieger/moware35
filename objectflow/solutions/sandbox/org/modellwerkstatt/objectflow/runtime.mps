@@ -40991,7 +40991,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2023.20B (flngr++) (dev " />
+            <property role="Xl_RC" value="moware11 2023.21 (eb3) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
@@ -55039,6 +55039,17 @@
       </node>
       <node concept="17QB3L" id="1jCLyDtzcX5" role="2RkE6I" />
     </node>
+    <node concept="2RhdJD" id="10YuSCZcuch" role="jymVt">
+      <property role="2RkwnN" value="actorDeviceConnInfo" />
+      <node concept="3Tm1VV" id="10YuSCZcuci" role="1B3o_S" />
+      <node concept="2RoN1w" id="10YuSCZcucj" role="2RnVtd">
+        <node concept="3wEZqW" id="10YuSCZcuck" role="3wFrgM" />
+        <node concept="3xqBd$" id="10YuSCZcucl" role="3xrYvX">
+          <node concept="3Tm1VV" id="10YuSCZcucm" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="10YuSCZcucn" role="2RkE6I" />
+    </node>
     <node concept="2tJIrI" id="10YuSCZca3s" role="jymVt" />
     <node concept="2tJIrI" id="4FgSVMpnemH" role="jymVt" />
     <node concept="2RhdJD" id="4FgSVMpneBD" role="jymVt">
@@ -55235,6 +55246,10 @@
         <property role="TrG5h" value="aActorDeviceId" />
         <node concept="17QB3L" id="1jCLyDtzkcw" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="10YuSCZcC1M" role="3clF46">
+        <property role="TrG5h" value="aActorDeviceConnInfo" />
+        <node concept="17QB3L" id="10YuSCZcCb1" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="4FgSVMsi1TB" role="3clF46">
         <property role="TrG5h" value="aMowareVersion" />
         <node concept="17QB3L" id="4FgSVMsi1Wj" role="1tU5fm" />
@@ -55411,6 +55426,19 @@
               <node concept="Xjq3P" id="1jCLyDtzkdp" role="2Oq$k0" />
               <node concept="2S8uIT" id="1jCLyDtzkoK" role="2OqNvi">
                 <ref role="2S8YL0" node="1jCLyDtzcWZ" resolve="actorDeviceId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="10YuSCZcCnG" role="3cqZAp">
+          <node concept="37vLTI" id="10YuSCZcCMh" role="3clFbG">
+            <node concept="37vLTw" id="10YuSCZcCSc" role="37vLTx">
+              <ref role="3cqZAo" node="10YuSCZcC1M" resolve="aActorDeviceConnInfo" />
+            </node>
+            <node concept="2OqwBi" id="10YuSCZcCvg" role="37vLTJ">
+              <node concept="Xjq3P" id="10YuSCZcCnE" role="2Oq$k0" />
+              <node concept="2S8uIT" id="10YuSCZcC_l" role="2OqNvi">
+                <ref role="2S8YL0" node="10YuSCZcuch" resolve="actorDeviceConnInfo" />
               </node>
             </node>
           </node>
@@ -56509,6 +56537,27 @@
                 </node>
                 <node concept="2S8uIT" id="1jCLyDtzjEO" role="2OqNvi">
                   <ref role="2S8YL0" node="1jCLyDtzcWZ" resolve="actorDeviceId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="10YuSCZcyNd" role="3cqZAp">
+          <node concept="2OqwBi" id="10YuSCZcyNe" role="3clFbG">
+            <node concept="37vLTw" id="10YuSCZcyNf" role="2Oq$k0">
+              <ref role="3cqZAo" node="4g_sjDPcIYK" resolve="obj" />
+            </node>
+            <node concept="liA8E" id="10YuSCZcyNg" role="2OqNvi">
+              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object)" resolve="set" />
+              <node concept="Xl_RD" id="10YuSCZcyNh" role="37wK5m">
+                <property role="Xl_RC" value="ActorDeviceConnInfo" />
+              </node>
+              <node concept="2OqwBi" id="10YuSCZcyNi" role="37wK5m">
+                <node concept="37vLTw" id="10YuSCZcyNj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4g_sjDPceMw" resolve="cri" />
+                </node>
+                <node concept="2S8uIT" id="10YuSCZcyNk" role="2OqNvi">
+                  <ref role="2S8YL0" node="10YuSCZcuch" resolve="actorDeviceConnInfo" />
                 </node>
               </node>
             </node>
