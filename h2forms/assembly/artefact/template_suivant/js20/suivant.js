@@ -153,9 +153,11 @@ document.addEventListener('DOMContentLoaded', function() {
         var diffDomainLookupStart = window.performance.timing.domainLookupStart - window.performance.timing.fetchStart;
         var diffConnectStart = window.performance.timing.connectStart - window.performance.timing.fetchStart;
         var diffRequestStart = window.performance.timing.requestStart - window.performance.timing.fetchStart;
+        var diffUnloadStart = window.performance.timing.unloadEventStart - window.performance.timing.fetchStart;
+        var diffUnloadEnd = window.performance.timing.unloadEventEnd - window.performance.timing.fetchStart;
         var diffResponseStart = window.performance.timing.responseStart - window.performance.timing.fetchStart;
         var diffResponseEnd = window.performance.timing.responseEnd - window.performance.timing.fetchStart;
-        reqLog('Performance: dnsStart ' + diffDomainLookupStart + ', tcpStart ' + diffConnectStart + ', requestStart ' + diffRequestStart + ', firstResponseByte ' + diffResponseStart + ', lastResponseByte ' + diffResponseEnd);
+        reqLog('Performance: dnsStart ' + diffDomainLookupStart + ', tcpStart ' + diffConnectStart + ', requestStart ' + diffRequestStart + ', unloadStart ' + diffUnloadStart + ', unloadEnd ' + diffUnloadEnd + ', firstResponseByte ' + diffResponseStart + ', lastResponseByte ' + diffResponseEnd);
 
     } catch(error) {
         reqLog('Performance metrics issues? ' + error);

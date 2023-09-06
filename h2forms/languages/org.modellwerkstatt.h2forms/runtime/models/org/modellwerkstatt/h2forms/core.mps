@@ -16539,6 +16539,13 @@
           <property role="3clFbU" value="true" />
         </node>
       </node>
+      <node concept="QsSxf" id="10YuSCZaxus" role="Qtgdg">
+        <property role="TrG5h" value="ZEBRAEB_30" />
+        <ref role="37wK5l" node="57ov2SMefa" resolve="ContextClient.DevicesSw" />
+        <node concept="3clFbT" id="10YuSCZaxut" role="37wK5m">
+          <property role="3clFbU" value="true" />
+        </node>
+      </node>
       <node concept="QsSxf" id="6PcZc$6eYQR" role="Qtgdg">
         <property role="TrG5h" value="SCANDIT" />
         <ref role="37wK5l" node="57ov2SMefa" resolve="ContextClient.DevicesSw" />
