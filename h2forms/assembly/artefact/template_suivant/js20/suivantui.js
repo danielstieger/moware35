@@ -41,6 +41,7 @@ function reqLogClear() {
 function svLog(methodName, msg) {
     // console.log('- '+ methodName + "(): " + msg);
     // alert('- '+ methodName + "(): " + msg);
+    reqLog('- '+ methodName + "(): " + msg);
 }
 
 function svIsDropdown(elem) {
