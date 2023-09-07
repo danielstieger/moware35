@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
         systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));
         svLog('DOMContentLoader', 'system menu installed.')
     }
-    reqLog('Sysmenu installed/Top padded');
+    reqLog('sysmenu stuff done');
 
 
     hwInitAfterDomReady();
@@ -208,10 +208,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     navigationDisabled = false;
     svLog('DOMContentLoaded', 'init done ' + hwStackInfo());
-    reqLog('DOMContentLoaded - init done for ' + hwStackInfo());
 });
 
 
 addEventListener("load", (event) => {
-   reqLog('load event - done');
+    reqLog('final js load event - done');
 });

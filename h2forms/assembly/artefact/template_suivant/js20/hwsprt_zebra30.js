@@ -170,7 +170,7 @@ function hwInitAfterDomReady(){
 
     if (svScanEnabled()) {
         try {
-            /* EB.Barcode.allDecoders = false;
+            EB.Barcode.allDecoders = false;
             EB.Barcode.code128 = true;
             EB.Barcode.code128ean128 = true;
             EB.Barcode.code39 = true;
@@ -183,26 +183,9 @@ function hwInitAfterDomReady(){
             EB.Barcode.qrCode = true;
             EB.Barcode.datamatrix = true;
             EB.Barcode.upca = true;
+            reqLog("hwInitAfterDomReady - EB.Barcode.xxxx ");
 
-            svLog('hwEnableScan', 'calling EB.Barcode.enable()');
-
-            reqLog("hwInitAfterDomReady - EB.Barcode.xxxx "); */
-
-            EB.Barcode.enable({
-               allDecoders:false,
-               code128:true,
-               code128ean128:true,
-               code39:true,
-               ean13:true,
-               ean8:true,
-               gs1dataBar:true,
-               gs1dataBarExpanded:true,
-               gs1dataBarLimited:true,
-               pdf417:true,
-               qrCode:true,
-               dataMatrix:true,
-               upca:true
-            }, zzScanReceived);
+            EB.Barcode.enable({ }, zzScanReceived);
             reqLog('hwInitAfterDomReady - EB.Barcode.enable({})');
 
             /* EB.Barcode.enable({allDecoders:true,  }, scanReceived); */
