@@ -84,7 +84,7 @@
   {% elseif client.deviceSw equals "ZEBRAEB_30" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi3/ebapi-modules.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi3/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra30{% if client.debug %}B{% endif %}.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra30B.js{{ page.ncs }}"></script>
   {% elseif client.deviceSw equals "SCANDIT" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_scandit.js{{ page.ncs }}"></script>
   {% else %}
