@@ -963,5 +963,42 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="3jc5lGtiHE$">
+    <property role="3GE5qa" value="query" />
+    <property role="TrG5h" value="NewLineMappingOptional" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:7ITJFzood3H" resolve="OptionalOperator" />
+    <node concept="2S6ZIM" id="3jc5lGtiHE_" role="2ZfVej">
+      <node concept="3clFbS" id="3jc5lGtiHEA" role="2VODD2">
+        <node concept="3clFbF" id="3jc5lGtiHEB" role="3cqZAp">
+          <node concept="Xl_RD" id="3jc5lGtiHEC" role="3clFbG">
+            <property role="Xl_RC" value="On new Line (toggle)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3jc5lGtiHED" role="2ZfgGD">
+      <node concept="3clFbS" id="3jc5lGtiHEE" role="2VODD2">
+        <node concept="3clFbF" id="3jc5lGtiHEF" role="3cqZAp">
+          <node concept="37vLTI" id="3jc5lGtiHEG" role="3clFbG">
+            <node concept="3fqX7Q" id="3jc5lGtiHEH" role="37vLTx">
+              <node concept="2OqwBi" id="3jc5lGtiHEI" role="3fr31v">
+                <node concept="2Sf5sV" id="3jc5lGtiHEJ" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3jc5lGtiHEK" role="2OqNvi">
+                  <ref role="3TsBF5" to="r5tz:3jc5lGtiGIM" resolve="onNewLine" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3jc5lGtiHEL" role="37vLTJ">
+              <node concept="2Sf5sV" id="3jc5lGtiHEM" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3jc5lGtiHEN" role="2OqNvi">
+                <ref role="3TsBF5" to="r5tz:3jc5lGtiGIM" resolve="onNewLine" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

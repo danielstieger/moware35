@@ -1304,6 +1304,21 @@
     <property role="3GE5qa" value="query" />
     <ref role="1XX52x" to="r5tz:7ITJFzood3H" resolve="OptionalOperator" />
     <node concept="3EZMnI" id="7ITJFzooljT" role="2wV5jI">
+      <node concept="pVoyu" id="3jc5lGtiHe$" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+        <node concept="3nzxsE" id="3jc5lGtiHe_" role="3n$kyP">
+          <node concept="3clFbS" id="3jc5lGtiHeA" role="2VODD2">
+            <node concept="3clFbF" id="3jc5lGtiHeB" role="3cqZAp">
+              <node concept="2OqwBi" id="3jc5lGtiHeC" role="3clFbG">
+                <node concept="pncrf" id="3jc5lGtiHeD" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3jc5lGtiHeE" role="2OqNvi">
+                  <ref role="3TsBF5" to="r5tz:3jc5lGtiGIM" resolve="onNewLine" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="PMmxH" id="KVbXdPfFqh" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1ERwB7" node="7$A8r6g1Nfg" resolve="OptionalOpActionMap" />

@@ -484,6 +484,11 @@
     <property role="34LRSv" value="optional" />
     <property role="EcuMT" value="8915366638470090989" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="3jc5lGtiGIM" role="1TKVEl">
+      <property role="TrG5h" value="onNewLine" />
+      <property role="IQ2nx" value="3804439266298874802" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="7ITJFzood3M" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />

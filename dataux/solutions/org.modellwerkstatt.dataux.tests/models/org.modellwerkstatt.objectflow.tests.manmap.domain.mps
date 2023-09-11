@@ -347,6 +347,7 @@
         <child id="982522369447120165" name="operand" index="2zpXf6" />
       </concept>
       <concept id="8915366638470090989" name="org.modellwerkstatt.manmap.structure.OptionalOperator" flags="ng" index="2zQmTl">
+        <property id="3804439266298874802" name="onNewLine" index="DxHVD" />
         <child id="8915366638470090994" name="expression" index="2zQmTa" />
       </concept>
       <concept id="8915366638470223859" name="org.modellwerkstatt.manmap.structure.InOperation" flags="ng" index="2zQQ_b">
@@ -9791,6 +9792,7 @@
             <node concept="jxyYR" id="2i3o0hdWbaJ" role="jxX7b">
               <node concept="22lmx$" id="2i3o0hdWbkF" role="jxyYK">
                 <node concept="2zQmTl" id="2i3o0hdWbbA" role="3uHU7B">
+                  <property role="DxHVD" value="true" />
                   <node concept="3clFbC" id="2i3o0hdWbdV" role="2zQmTa">
                     <node concept="37vLTw" id="2i3o0hdWbg9" role="3uHU7w">
                       <ref role="3cqZAo" node="2i3o0hdWb8J" resolve="id" />
@@ -9802,6 +9804,7 @@
                   </node>
                 </node>
                 <node concept="2zQmTl" id="2i3o0hdWBdE" role="3uHU7w">
+                  <property role="DxHVD" value="true" />
                   <node concept="3clFbC" id="2i3o0hdWbte" role="2zQmTa">
                     <node concept="37vLTw" id="2i3o0hdWbvK" role="3uHU7w">
                       <ref role="3cqZAo" node="2i3o0hdWb9e" resolve="name" />
