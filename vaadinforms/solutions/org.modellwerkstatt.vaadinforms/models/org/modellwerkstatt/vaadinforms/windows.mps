@@ -8904,6 +8904,22 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="17o2t3rGEiS" role="jymVt">
+      <property role="TrG5h" value="createUploadEditor" />
+      <node concept="3uibUv" id="17o2t3rGEiT" role="3clF45">
+        <ref role="3uigEE" to="250q:17o2t3r_Hp4" resolve="IToolkit_UploadEditor" />
+      </node>
+      <node concept="3Tm1VV" id="17o2t3rGEiU" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3rGEiV" role="3clF47">
+        <node concept="3clFbF" id="17o2t3rGEiW" role="3cqZAp">
+          <node concept="2ShNRf" id="17o2t3rGEiX" role="3clFbG">
+            <node concept="1pGfFk" id="17o2t3rGEiY" role="2ShVmc">
+              <ref role="37wK5l" to="8ers:17o2t3rGADt" resolve="VUploadEditor" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4QTIUTClCwd">
     <property role="TrG5h" value="VHotkeyHelper" />

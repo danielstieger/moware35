@@ -9900,6 +9900,25 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="17o2t3rAHR6" role="jymVt">
+      <property role="TrG5h" value="createUploadEditor" />
+      <node concept="3uibUv" id="17o2t3rAHR7" role="3clF45">
+        <ref role="3uigEE" to="250q:17o2t3r_Hp4" resolve="IToolkit_UploadEditor" />
+      </node>
+      <node concept="3Tm1VV" id="17o2t3rAHR8" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3rAHRb" role="3clF47">
+        <node concept="3clFbF" id="17o2t3rATPp" role="3cqZAp">
+          <node concept="2ShNRf" id="17o2t3rATPj" role="3clFbG">
+            <node concept="1pGfFk" id="17o2t3rAV0L" role="2ShVmc">
+              <ref role="37wK5l" to="qhmq:17o2t3rAWbF" resolve="FX8UploadEditor" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="17o2t3rAHRc" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2bCatzz6vPy">
     <property role="TrG5h" value="FX8MenuItem" />

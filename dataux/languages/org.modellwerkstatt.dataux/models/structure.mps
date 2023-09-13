@@ -1676,5 +1676,16 @@
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
     </node>
   </node>
+  <node concept="1TIwiD" id="17o2t3rJ0WR">
+    <property role="EcuMT" value="1285788486258659127" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="UploadDelegate" />
+    <property role="34LRSv" value="Upload" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+    <node concept="PrWs8" id="17o2t3rJ0WS" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwmHiT" resolve="IDelegate" />
+    </node>
+  </node>
 </model>
 

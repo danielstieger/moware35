@@ -1355,6 +1355,17 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7WBKY1WbVma" role="jymVt" />
+    <node concept="312cEg" id="17o2t3rIpNJ" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="uploadEditor" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="17o2t3rIpNK" role="1B3o_S" />
+      <node concept="3uibUv" id="17o2t3rIpNL" role="1tU5fm">
+        <ref role="3uigEE" to="b9zp:~PebbleTemplate" resolve="PebbleTemplate" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="17o2t3rIo76" role="jymVt" />
     <node concept="2tJIrI" id="19VJYqAtLb6" role="jymVt" />
     <node concept="3clFbW" id="6LR$_E0dACl" role="jymVt">
       <node concept="3cqZAl" id="6LR$_E0dACn" role="3clF45" />
@@ -1964,6 +1975,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="17o2t3rIuXD" role="3cqZAp">
+          <node concept="37vLTI" id="17o2t3rIuXE" role="3clFbG">
+            <node concept="37vLTw" id="17o2t3rIuXF" role="37vLTJ">
+              <ref role="3cqZAo" node="17o2t3rIpNJ" resolve="uploadEditor" />
+            </node>
+            <node concept="2OqwBi" id="17o2t3rIuXG" role="37vLTx">
+              <node concept="37vLTw" id="17o2t3rIuXH" role="2Oq$k0">
+                <ref role="3cqZAo" node="7WBKY1WbXY4" resolve="preconfiguretdRenderer" />
+              </node>
+              <node concept="liA8E" id="17o2t3rIuXI" role="2OqNvi">
+                <ref role="37wK5l" node="19VJYqAtWv0" resolve="compileTemplateFor" />
+                <node concept="2OqwBi" id="17o2t3rIuXJ" role="37wK5m">
+                  <node concept="37vLTw" id="17o2t3rIuXK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+                  </node>
+                  <node concept="2S8uIT" id="17o2t3rIuXL" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:2462lDSphk4" resolve="templateName" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="17o2t3rIuXM" role="37wK5m">
+                  <property role="Xl_RC" value="editor_upload" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="17o2t3rInwB" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="7WBKY1Wc2Bj" role="jymVt" />
@@ -2768,6 +2806,28 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3pVc9XTQAco" role="jymVt" />
+    <node concept="3clFb_" id="17o2t3rIds8" role="jymVt">
+      <property role="TrG5h" value="createUploadEditor" />
+      <node concept="3uibUv" id="17o2t3rIds9" role="3clF45">
+        <ref role="3uigEE" to="250q:17o2t3r_Hp4" resolve="IToolkit_UploadEditor" />
+      </node>
+      <node concept="3Tm1VV" id="17o2t3rIdsa" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3rIdse" role="3clF47">
+        <node concept="3cpWs6" id="17o2t3rIiI5" role="3cqZAp">
+          <node concept="2ShNRf" id="17o2t3rIiKj" role="3cqZAk">
+            <node concept="1pGfFk" id="17o2t3rIlqT" role="2ShVmc">
+              <ref role="37wK5l" node="17o2t3rI92$" resolve="UploadEditor" />
+              <node concept="37vLTw" id="17o2t3rIyyr" role="37wK5m">
+                <ref role="3cqZAo" node="17o2t3rIpNJ" resolve="uploadEditor" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="17o2t3rIdsf" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3pVc9XTQAih" role="jymVt" />
     <node concept="2tJIrI" id="3pVc9XTQAob" role="jymVt" />
     <node concept="2tJIrI" id="7CJFVfzScFr" role="jymVt" />
@@ -37040,6 +37100,244 @@
     <node concept="3Tm1VV" id="2XYulUz7I0E" role="1B3o_S" />
     <node concept="3uibUv" id="2XYulUz7I0F" role="1zkMxy">
       <ref role="3uigEE" node="1Qo13pXuiQ2" resolve="AbstractColumnDivider" />
+    </node>
+  </node>
+  <node concept="312cEu" id="17o2t3rI7e9">
+    <property role="3GE5qa" value="editors" />
+    <property role="TrG5h" value="UploadEditor" />
+    <node concept="312cEg" id="17o2t3s3x7c" role="jymVt">
+      <property role="TrG5h" value="contentString" />
+      <node concept="3Tmbuc" id="17o2t3s3wsl" role="1B3o_S" />
+      <node concept="3uibUv" id="17o2t3s3wVU" role="1tU5fm">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="17o2t3rI7Eo" role="jymVt" />
+    <node concept="3clFbW" id="17o2t3rI92$" role="jymVt">
+      <node concept="37vLTG" id="17o2t3rI92_" role="3clF46">
+        <property role="TrG5h" value="template" />
+        <node concept="3uibUv" id="17o2t3rI92A" role="1tU5fm">
+          <ref role="3uigEE" to="b9zp:~PebbleTemplate" resolve="PebbleTemplate" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="17o2t3rI92D" role="3clF45" />
+      <node concept="3Tm1VV" id="17o2t3rI92E" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3rI92F" role="3clF47">
+        <node concept="XkiVB" id="17o2t3rI92G" role="3cqZAp">
+          <ref role="37wK5l" node="1Qo13pXoZuw" resolve="AbstractEditor" />
+          <node concept="Xl_RD" id="17o2t3rI92H" role="37wK5m">
+            <property role="Xl_RC" value="upldEditor" />
+          </node>
+          <node concept="37vLTw" id="17o2t3rI92I" role="37wK5m">
+            <ref role="3cqZAo" node="17o2t3rI92_" resolve="template" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="17o2t3rI8R2" role="jymVt" />
+    <node concept="3clFb_" id="17o2t3rI7Fz" role="jymVt">
+      <property role="TrG5h" value="setDelegate" />
+      <node concept="37vLTG" id="17o2t3rI7F$" role="3clF46">
+        <property role="TrG5h" value="dlgt" />
+        <node concept="3uibUv" id="17o2t3rI7F_" role="1tU5fm">
+          <ref role="3uigEE" to="zhcn:52pTiJH2KgF" resolve="IDataUxDelegate" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="17o2t3rI7FA" role="3clF45" />
+      <node concept="3Tm1VV" id="17o2t3rI7FB" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3rI7FE" role="3clF47" />
+      <node concept="2AHcQZ" id="17o2t3rI7FF" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="17o2t3rI7FG" role="jymVt">
+      <property role="TrG5h" value="setText" />
+      <node concept="3cqZAl" id="17o2t3rI7FH" role="3clF45" />
+      <node concept="3Tm1VV" id="17o2t3rI7FI" role="1B3o_S" />
+      <node concept="37vLTG" id="17o2t3rI7FK" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <node concept="17QB3L" id="17o2t3rI7FL" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="17o2t3rI7FN" role="3clF47">
+        <node concept="3clFbF" id="17o2t3s3xTD" role="3cqZAp">
+          <node concept="37vLTI" id="17o2t3s3yf8" role="3clFbG">
+            <node concept="37vLTw" id="17o2t3s3yqO" role="37vLTx">
+              <ref role="3cqZAo" node="17o2t3rI7FK" resolve="text" />
+            </node>
+            <node concept="37vLTw" id="17o2t3s3xTC" role="37vLTJ">
+              <ref role="3cqZAo" node="17o2t3s3x7c" resolve="contentString" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="17o2t3rI7FO" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="17o2t3rI7FP" role="jymVt">
+      <property role="TrG5h" value="getText" />
+      <node concept="17QB3L" id="17o2t3rI7FQ" role="3clF45" />
+      <node concept="3Tm1VV" id="17o2t3rI7FR" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3rI7FU" role="3clF47">
+        <node concept="3clFbF" id="17o2t3rI7FX" role="3cqZAp">
+          <node concept="37vLTw" id="17o2t3s3xDr" role="3clFbG">
+            <ref role="3cqZAo" node="17o2t3s3x7c" resolve="contentString" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="17o2t3rI7FV" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="17o2t3s3twa" role="jymVt" />
+    <node concept="3clFb_" id="17o2t3s3rSh" role="jymVt">
+      <property role="TrG5h" value="toHtml" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="3cqZAl" id="17o2t3s3rSi" role="3clF45" />
+      <node concept="3Tm1VV" id="17o2t3s3rSj" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3s3rSk" role="3clF47">
+        <node concept="3cpWs8" id="17o2t3s3rSl" role="3cqZAp">
+          <node concept="3cpWsn" id="17o2t3s3rSm" role="3cpWs9">
+            <property role="TrG5h" value="renderMap" />
+            <node concept="3rvAFt" id="17o2t3s3rSn" role="1tU5fm">
+              <node concept="17QB3L" id="17o2t3s3rSo" role="3rvQeY" />
+              <node concept="3uibUv" id="17o2t3s3rSp" role="3rvSg0">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="17o2t3s3rSq" role="33vP2m">
+              <ref role="37wK5l" node="1Qo13pXpkSd" resolve="initAndGetRenderMap" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="17o2t3s3rSH" role="3cqZAp" />
+        <node concept="3clFbF" id="17o2t3s3rSI" role="3cqZAp">
+          <node concept="37vLTI" id="17o2t3s3rSJ" role="3clFbG">
+            <node concept="37vLTw" id="17o2t3s3rSK" role="37vLTx">
+              <ref role="3cqZAo" node="17o2t3s3x7c" resolve="contentString" />
+            </node>
+            <node concept="3EllGN" id="17o2t3s3rSL" role="37vLTJ">
+              <node concept="37vLTw" id="17o2t3s3rSM" role="3ElVtu">
+                <ref role="3cqZAo" node="1Qo13pXojg3" resolve="TEXT" />
+              </node>
+              <node concept="37vLTw" id="17o2t3s3rSN" role="3ElQJh">
+                <ref role="3cqZAo" node="17o2t3s3rSm" resolve="renderMap" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="17o2t3s3rTz" role="3cqZAp">
+          <node concept="2OqwBi" id="17o2t3s3rT$" role="3clFbG">
+            <node concept="37vLTw" id="17o2t3s3rT_" role="2Oq$k0">
+              <ref role="3cqZAo" node="1Qo13pXoGyl" resolve="compiledTextEditorTemplate" />
+            </node>
+            <node concept="liA8E" id="17o2t3s3rTA" role="2OqNvi">
+              <ref role="37wK5l" to="b9zp:~PebbleTemplate.evaluate(java.io.Writer,java.util.Map)" resolve="evaluate" />
+              <node concept="37vLTw" id="17o2t3s3rTB" role="37wK5m">
+                <ref role="3cqZAo" node="1Qo13pXoZ2I" resolve="writerToUse" />
+              </node>
+              <node concept="37vLTw" id="17o2t3s3rTC" role="37wK5m">
+                <ref role="3cqZAo" node="17o2t3s3rSm" resolve="renderMap" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="17o2t3s3rTD" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="17o2t3s3rTE" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="handleRequest" />
+      <node concept="37vLTG" id="17o2t3s3rTF" role="3clF46">
+        <property role="TrG5h" value="req" />
+        <node concept="3uibUv" id="17o2t3s3rTG" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletRequest" resolve="HttpServletRequest" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="17o2t3s3rTH" role="3clF45" />
+      <node concept="3Tm1VV" id="17o2t3s3rTI" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3s3rTJ" role="3clF47">
+        <node concept="3clFbJ" id="17o2t3s3rTK" role="3cqZAp">
+          <node concept="3clFbS" id="17o2t3s3rTL" role="3clFbx">
+            <node concept="3cpWs6" id="17o2t3s3rTM" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="17o2t3s3rTN" role="3clFbw">
+            <node concept="37vLTw" id="17o2t3s3rTO" role="3fr31v">
+              <ref role="3cqZAo" node="46JJF8IM5hA" resolve="enabled" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="17o2t3s3rTP" role="3cqZAp" />
+        <node concept="3cpWs8" id="17o2t3s3rTQ" role="3cqZAp">
+          <node concept="3cpWsn" id="17o2t3s3rTR" role="3cpWs9">
+            <property role="TrG5h" value="val" />
+            <node concept="17QB3L" id="17o2t3s3rTS" role="1tU5fm" />
+            <node concept="2OqwBi" id="17o2t3s3rTT" role="33vP2m">
+              <node concept="37vLTw" id="17o2t3s3rTU" role="2Oq$k0">
+                <ref role="3cqZAo" node="17o2t3s3rTF" resolve="req" />
+              </node>
+              <node concept="liA8E" id="17o2t3s3rTV" role="2OqNvi">
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
+                <node concept="37vLTw" id="17o2t3s3rTW" role="37wK5m">
+                  <ref role="3cqZAo" node="46JJF8IM4HV" resolve="editorId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="17o2t3s3rTX" role="3cqZAp" />
+        <node concept="3clFbJ" id="17o2t3s3rTY" role="3cqZAp">
+          <node concept="3clFbS" id="17o2t3s3rTZ" role="3clFbx">
+            <node concept="YS8fn" id="17o2t3s3rU0" role="3cqZAp">
+              <node concept="2ShNRf" id="17o2t3s3rU1" role="YScLw">
+                <node concept="1pGfFk" id="17o2t3s3rU2" role="2ShVmc">
+                  <ref role="37wK5l" to="tea8:2ewwURnF6fO" resolve="H2FormRequestStateException" />
+                  <node concept="3cpWs3" id="17o2t3s3rU3" role="37wK5m">
+                    <node concept="Xl_RD" id="17o2t3s3rU4" role="3uHU7B">
+                      <property role="Xl_RC" value="Client did not provide editor information in form for AUploadEditor: EditorId " />
+                    </node>
+                    <node concept="37vLTw" id="17o2t3s3rU5" role="3uHU7w">
+                      <ref role="3cqZAo" node="46JJF8IM4HV" resolve="editorId" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="17o2t3s3rU6" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="17o2t3s3rU7" role="3clFbw">
+            <node concept="10Nm6u" id="17o2t3s3rU8" role="3uHU7w" />
+            <node concept="37vLTw" id="17o2t3s3rU9" role="3uHU7B">
+              <ref role="3cqZAo" node="17o2t3s3rTR" resolve="val" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="17o2t3s3rUa" role="9aQIa">
+            <node concept="3clFbS" id="17o2t3s3rUb" role="9aQI4">
+              <node concept="3clFbF" id="17o2t3s3rUc" role="3cqZAp">
+                <node concept="37vLTI" id="17o2t3s3rUd" role="3clFbG">
+                  <node concept="37vLTw" id="17o2t3s3rUe" role="37vLTx">
+                    <ref role="3cqZAo" node="17o2t3s3rTR" resolve="val" />
+                  </node>
+                  <node concept="37vLTw" id="17o2t3s3rUf" role="37vLTJ">
+                    <ref role="3cqZAo" node="17o2t3s3x7c" resolve="contentString" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="17o2t3s3rUg" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="17o2t3s3rJW" role="jymVt" />
+    <node concept="3Tm1VV" id="17o2t3rI7ea" role="1B3o_S" />
+    <node concept="3uibUv" id="17o2t3rI7Di" role="1zkMxy">
+      <ref role="3uigEE" node="1Qo13pXoWg$" resolve="AbstractEditor" />
+    </node>
+    <node concept="3uibUv" id="17o2t3rI7DQ" role="EKbjA">
+      <ref role="3uigEE" to="250q:17o2t3r_Hp4" resolve="IToolkit_UploadEditor" />
     </node>
   </node>
 </model>

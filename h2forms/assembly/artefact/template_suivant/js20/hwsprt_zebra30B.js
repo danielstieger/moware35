@@ -87,6 +87,7 @@ function zzDefaultGoSubmit(){
     saveSubmitDueGo();
 }
 
+
 function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'zebra enableScan called . . . .');
 

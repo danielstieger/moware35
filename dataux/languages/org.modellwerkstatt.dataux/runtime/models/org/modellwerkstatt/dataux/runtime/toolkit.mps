@@ -510,6 +510,14 @@
       <node concept="3Tm1VV" id="6Ag5kTzI7ln" role="1B3o_S" />
       <node concept="3clFbS" id="6Ag5kTzI7lo" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="17o2t3r_PVk" role="jymVt">
+      <property role="TrG5h" value="createUploadEditor" />
+      <node concept="3uibUv" id="17o2t3r_Q7o" role="3clF45">
+        <ref role="3uigEE" node="17o2t3r_Hp4" resolve="IToolkit_UploadEditor" />
+      </node>
+      <node concept="3Tm1VV" id="17o2t3r_PVn" role="1B3o_S" />
+      <node concept="3clFbS" id="17o2t3r_PVo" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="3sEA$PI$eTp" role="jymVt">
       <property role="TrG5h" value="createTextAreaEditor" />
       <node concept="37vLTG" id="3sEA$PI$eUJ" role="3clF46">
@@ -1646,6 +1654,13 @@
       </node>
       <node concept="3Tm1VV" id="5lcASuuq1$e" role="1B3o_S" />
       <node concept="3clFbS" id="5lcASuuq1$f" role="3clF47" />
+    </node>
+  </node>
+  <node concept="3HP615" id="17o2t3r_Hp4">
+    <property role="TrG5h" value="IToolkit_UploadEditor" />
+    <node concept="3Tm1VV" id="17o2t3r_Hp5" role="1B3o_S" />
+    <node concept="3uibUv" id="17o2t3r_Hq2" role="3HQHJm">
+      <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
     </node>
   </node>
 </model>

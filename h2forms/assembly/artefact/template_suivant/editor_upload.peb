@@ -1,0 +1,15 @@
+{% if folded %}
+<input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input" type="hidden" value="{{ text }}"/>
+{% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
+{% else %}
+{% if not wide %}<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>{% endif %}
+<div class="w3-col {% if wide %}m12 s12{% else %}m9 s7{% endif %} {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
+{% if enabled %}
+    <input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input" type="text" {% if requestFocus %} focusme="true" {% endif %}
+    {% if wide %}placeholder="{{ labelText }}"{% endif %} value="{{ text }}"/>
+{% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
+{% else %}
+{{ text }}
+{% endif %}
+</div>
+{% endif %}

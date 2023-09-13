@@ -8166,5 +8166,53 @@
       <ref role="1YaFvo" to="1btx:4aDnqFRRZ5e" resolve="DelegateHookDOption" />
     </node>
   </node>
+  <node concept="1YbPZF" id="17o2t3rJ1gb">
+    <property role="TrG5h" value="typeof_UploadDelegate" />
+    <property role="3GE5qa" value="delegates" />
+    <node concept="3clFbS" id="17o2t3rJ1gc" role="18ibNy">
+      <node concept="3clFbJ" id="17o2t3rJ1gi" role="3cqZAp">
+        <node concept="3clFbS" id="17o2t3rJ1gj" role="3clFbx">
+          <node concept="1ZobV4" id="17o2t3rJ1gk" role="3cqZAp">
+            <property role="3wDh2S" value="true" />
+            <node concept="mw_s8" id="17o2t3rJ1gl" role="1ZfhK$">
+              <node concept="2OqwBi" id="17o2t3rJ1gm" role="mwGJk">
+                <node concept="2OqwBi" id="17o2t3rJ1gn" role="2Oq$k0">
+                  <node concept="1YBJjd" id="17o2t3rJ1go" role="2Oq$k0">
+                    <ref role="1YBMHb" node="17o2t3rJ1ge" resolve="uploadDelegate" />
+                  </node>
+                  <node concept="3TrEf2" id="17o2t3rJ1gp" role="2OqNvi">
+                    <ref role="3Tt5mk" to="1btx:1h$q6rwn4iu" resolve="boundTo" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="17o2t3rJ1gq" role="2OqNvi">
+                  <ref role="37wK5l" to="5y3p:3ouNayfEQwq" resolve="getType" />
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="17o2t3rJ1gr" role="1ZfhKB">
+              <node concept="2c44tf" id="17o2t3rJ1gs" role="mwGJk">
+                <node concept="17QB3L" id="17o2t3rJ1gt" role="2c44tc" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="17o2t3rJ1gu" role="3clFbw">
+          <node concept="2OqwBi" id="17o2t3rJ1gv" role="2Oq$k0">
+            <node concept="1YBJjd" id="17o2t3rJ1gw" role="2Oq$k0">
+              <ref role="1YBMHb" node="17o2t3rJ1ge" resolve="uploadDelegate" />
+            </node>
+            <node concept="3TrEf2" id="17o2t3rJ1gx" role="2OqNvi">
+              <ref role="3Tt5mk" to="1btx:1h$q6rwn4iu" resolve="boundTo" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="17o2t3rJ1gy" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="17o2t3rJ1ge" role="1YuTPh">
+      <property role="TrG5h" value="uploadDelegate" />
+      <ref role="1YaFvo" to="1btx:17o2t3rJ0WR" resolve="UploadDelegate" />
+    </node>
+  </node>
 </model>
 

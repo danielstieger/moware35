@@ -2585,6 +2585,18 @@
           <property role="Xl_RC" value="You have to enter more then %s characters." />
         </node>
       </node>
+      <node concept="QsSxf" id="17o2t3rAlNp" role="Qtgdg">
+        <property role="TrG5h" value="UPLOAD_CONTENT_ERR" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="17o2t3rAwXI" role="37wK5m">
+          <property role="Xl_RC" value="Es muss ein Bild angegeben werden." />
+        </node>
+        <node concept="10Nm6u" id="17o2t3rAzYd" role="37wK5m" />
+        <node concept="10Nm6u" id="17o2t3rA_uc" role="37wK5m" />
+        <node concept="Xl_RD" id="17o2t3rACto" role="37wK5m">
+          <property role="Xl_RC" value="You have to provide an Image." />
+        </node>
+      </node>
       <node concept="QsSxf" id="2k02KvYsQn9" role="Qtgdg">
         <property role="TrG5h" value="TCN_PROBLEM" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
@@ -2931,12 +2943,12 @@
         <property role="TrG5h" value="CMD_NOT_AVAILABLE" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="gGnCBOHkwK" role="37wK5m">
-          <property role="Xl_RC" value="Kommando nicht verfuegbar. API Fehler? (%s)" />
+          <property role="Xl_RC" value="Kommando nicht verfuegbar. API Fehler? \n\n(%s)" />
         </node>
         <node concept="10Nm6u" id="gGnCBOHkxP" role="37wK5m" />
         <node concept="10Nm6u" id="gGnCBOHkyQ" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6VB" role="37wK5m">
-          <property role="Xl_RC" value="Command not available or api error? (%s)" />
+          <property role="Xl_RC" value="Command not available or api error? \n\n(%s)" />
         </node>
       </node>
       <node concept="QsSxf" id="2e3BpjBfPxm" role="Qtgdg">

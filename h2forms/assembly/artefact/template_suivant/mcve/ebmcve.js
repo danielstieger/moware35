@@ -9,8 +9,8 @@
 
 
 var ebCameraEnumeration;
-//var tomcatServer = '192.168.0.73:8080';
-var tomcatServer = '10.1.1.143:8080';
+var tomcatServer = '192.168.0.73:8080';
+//var tomcatServer = '10.1.1.143:8080';
 
 
 var $ = function(query) {
@@ -122,7 +122,7 @@ function mUploadFileDone(args){
     status = args['status'];
     if ('body' in args) {
         status += ' ' + args['body'];
-        $('img').src = 'http://' + tomcatServer + '/FileUploadServlet/static/upload/'+args['body'];
+        $('img').src = 'http://' + tomcatServer + '/picupload/static/upload/'+args['body'];
     }
     mLog('mUploadFileDone', 'Status is  ' + status);
 
@@ -137,7 +137,7 @@ function mCameraPicTaken(cbData){
 
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
-            var fullUrl = 'http://' + tomcatServer +'/FileUploadServlet/';
+            var fullUrl = 'http://' + tomcatServer +'/picupload/';
 
             var uploadfileProps = {
               url: fullUrl,
@@ -149,7 +149,7 @@ function mCameraPicTaken(cbData){
              fileContentType: "image/jpeg"
            };
 
-           //below is the network module API used for uploading images when camera fire the callback
+           // below is the network module API used for uploading images when camera fire the callback
            EB.Network.uploadFile(uploadfileProps, mUploadFileDone);
 
            mLog('mCameraPicTaken', 'upload called ... ');
