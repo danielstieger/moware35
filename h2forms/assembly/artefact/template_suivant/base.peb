@@ -10,16 +10,16 @@
   <meta charset="UTF-8">
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="{{ client.staticContentUrlPrefix }}/images/android-desktop.png{{ page.ncs }}">
+  <link rel="icon" sizes="192x192" href="{{ statics.staticContentUrlPrefix }}/images/android-desktop.png{{ page.ncs }}">
 
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="{{ statics.applicationName }}">
-  <link rel="apple-touch-icon-precomposed" href="{{ client.staticContentUrlPrefix }}/images/ios-desktop.png{{ page.ncs }}">
+  <link rel="apple-touch-icon-precomposed" href="{{ statics.staticContentUrlPrefix }}/images/ios-desktop.png{{ page.ncs }}">
 
   <!-- Tile icon for Win8 (144x144 + tile color) -->
-  <meta name="msapplication-TileImage" content="{{ client.staticContentUrlPrefix }}/images/touch/ms-touch-icon-144x144-precomposed.png{{ page.ncs }}">
+  <meta name="msapplication-TileImage" content="{{ statics.staticContentUrlPrefix }}/images/touch/ms-touch-icon-144x144-precomposed.png{{ page.ncs }}">
   <meta name="msapplication-TileColor" content="#c6c6c6">
 
 
@@ -56,43 +56,44 @@
     <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
     <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
 {% endif %}
-
-  {% if defaultConclusion is not null %}
+  <meta name="h2UploadLocationRetrieve" content="{{ statics.uploadLocationRetrieve }}">
+  <meta name="h2UploadLocationStore" content="{{ statics.uploadLocationStore }}">
+{% if defaultConclusion is not null %}
   <meta name="h2DefaultConclusion" content="{{ defaultConclusion.triggerCode }}">
-  {% endif %}
+{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/suivant-tmpl.css{{ page.ncs }}">
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3-theme-teal.css{{ page.ncs }}">
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
+  <link rel="stylesheet" href="{{ statics.staticContentUrlPrefix }}/css/suivant-tmpl.css{{ page.ncs }}">
+  <link rel="stylesheet" href="{{ statics.staticContentUrlPrefix }}/css/w3-theme-teal.css{{ page.ncs }}">
+  <link rel="stylesheet" href="{{ statics.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
 
-  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/suivantui.js{{ page.ncs }}"></script>
+  <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/suivantui.js{{ page.ncs }}"></script>
   {% if client.deviceSw equals "ZEBRAEB_18" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.application.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.sip.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra18.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.application.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.sip.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_zebra18.js{{ page.ncs }}"></script>
   {% elseif client.deviceSw equals "ZEBRAEB_20" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra20.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_zebra20.js{{ page.ncs }}"></script>
   {% elseif client.deviceSw equals "ZEBRAEB_30" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi3/ebapi-modules.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi3/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_zebra30B.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi3/ebapi-modules.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi3/elements.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_zebra30B.js{{ page.ncs }}"></script>
   {% elseif client.deviceSw equals "SCANDIT" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_scandit.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_scandit.js{{ page.ncs }}"></script>
   {% else %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/hwsprt_none.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_none.js{{ page.ncs }}"></script>
   {% endif %}
-  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js20/suivant.js{{ page.ncs }}"></script>
+  <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/suivant.js{{ page.ncs }}"></script>
 
-  <link rel="icon" type="image/ico" href="{{ client.staticContentUrlPrefix }}/images/favicon.ico{{ page.ncs }}">
+  <link rel="icon" type="image/ico" href="{{ statics.staticContentUrlPrefix }}/images/favicon.ico{{ page.ncs }}">
   <style media="screen" type="text/css">
       h1   {font-size:20px}
       h2   {font-size:18px}
@@ -128,7 +129,7 @@
     <div class="w3-container w3-row sv-status-gray">
         <div class="w3-col s4 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("-") }}</div>
         <div class="w3-col s2 w3-center-align sv-cropped-text" id="serverClockDiv"></div>
-        <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
+        <div class="w3-col s6 w3-right-align sv-cropped-text">{{ statics.appVersionInfo }}</div>
     </div>
     <div class="w3-bar" onclick="svHideAllContainsDropdown()">
         {% for btn in dialog.buttons %}

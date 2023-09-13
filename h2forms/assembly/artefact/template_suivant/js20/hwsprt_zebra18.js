@@ -148,6 +148,11 @@ function hwInitAfterDomReady(){
 
     installDateCommaReplacer();
 
+    ebCameraEnumeration = EB.Camera.enumerate();
+    if (ebCameraEnumeration.length > 0) {
+        uploadCameraToUse = ebCameraEnumeration[0];
+    }
+
     if (svScanEnabled()) {
         var isInit = sessionStorage.getItem("isEBInitialized");
 

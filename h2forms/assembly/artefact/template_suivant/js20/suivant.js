@@ -11,7 +11,7 @@
  *
  *     1.0 Initial Version, Koblach Autumn 2018
  *
- *
+ *     x.x Camera support / advanced logging etc, Koblach Summer 2023
  *
  */
 
@@ -19,6 +19,9 @@
 var systemMenuHandler;
 var serverTimeMillisOffset = 0;
 var serverClockUpdateId;
+var uploadLocationStore = '?';
+var uploadLocationRetrieve = '?';
+var uploadCameraToUse = null;
 
 function svScanEnabled(){
     return ($('input[name="scanconclusion"]') != null);
@@ -146,6 +149,76 @@ function setLastRequestIssuedMillis(baseForm) {
     }
 
 
+
+/* ------------------------------------------------------------------------------------------------ */
+function svUploadFileDone(args){
+    status = args['status'];
+    if ('body' in args) {
+        status += ' ' + args['body'];
+        $('img[name=edit_upload_img]').src = uploadLocationRetrieve + args['body'];
+    }
+    svLog('mUploadFileDone', 'Status is  ' + status);
+
+//    for (let prop in args) {
+//        mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
+//    }
+}
+
+function svCameraPicTaken(cbData){
+    if ('imageUri' in cbData) {
+        svLog('mCameraPicTaken', 'Image uri is ' + cbData.imageUri);
+
+        try {
+            var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
+
+            var uploadfileProps = {
+              url: uploadLocationStore,
+             //authType: "basic",
+             //authUser: "admin",
+             //authPassword: "password",
+             filename: cbData.imageUri,
+             body: imgName,
+             fileContentType: "image/jpeg"
+           };
+
+           // below is the network module API used for uploading images when camera fire the callback
+           EB.Network.uploadFile(uploadfileProps, svUploadFileDone);
+
+           svLog('mCameraPicTaken', 'upload called ... ' + uploadLocationStore + " / " + imgName);
+
+        } catch(err) {
+            svLog('mCameraPicTaken', 'Ex while uploading file: ' + err);
+        }
+
+    } else {
+        svLog('mCameraPicTaken', 'No imageUri in cbData!!');
+        for (let prop in cbData) {
+            svLog('mCameraPicTaken', ''+ prop + ": " + cbData[prop]);
+        }
+    }
+}
+
+
+function svTakePicture() {
+  svLog('mTakePicture', 'called handler');
+
+  try {
+    var param = {
+            /* 'fileName' : '/Downloads/myImagename',
+            'outputFormat': 'imagePath'                    Argument ImagePath not working? Dan 22.Nov 21 */
+            'outputFormat': 'image'
+            };
+
+
+    uploadCameraToUse.takePicture(param, svCameraPicTaken);
+    svLog('mTakePicture', 'takePicture ebapi called.');
+
+  } catch(err) {
+    svLog('mTakePicture', 'Ex occured: ' + err);
+  }
+}
+
+
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
     reqLogClear();
@@ -205,6 +278,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     serverTimeMillisOffset = Date.now() - baseForm.ServerMillis.value;
     serverClockUpdate();
+
+    uploadLocationRetrieve = $('meta[name=h2UploadLocationRetrieve]').content;
+    uploadLocationStore = $('meta[name=h2UploadLocationStore]').content;
+    svLog('DOMContentLoaded', 'camera ' + uploadCameraToUse + ' for ' + uploadLocationStore);
+
+
 
     navigationDisabled = false;
     svLog('DOMContentLoaded', 'init done ' + hwStackInfo());

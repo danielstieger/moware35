@@ -9,7 +9,7 @@
     <div class="w3-container w3-row sv-currentfg-D3" onclick="svHideAllContainsDropdown()">
         <div class="w3-col s4 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("&nbsp;")|raw }}</div>
         <div class="w3-col s2 w3-center-align sv-cropped-text" id="serverClockDiv"></div>
-        <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
+        <div class="w3-col s6 w3-right-align sv-cropped-text">{{ statics.appVersionInfo }}</div>
     </div>
 <div class="w3-bar sv-currentfg" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}

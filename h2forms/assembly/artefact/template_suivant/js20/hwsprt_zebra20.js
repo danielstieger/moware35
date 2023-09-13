@@ -162,6 +162,11 @@ function hwInitAfterDomReady(){
     installDateCommaReplacer();
     reqLog("hwInitAfterDomReady - installDateCommaReplacer");
 
+    ebCameraEnumeration = EB.Camera.enumerate();
+    if (ebCameraEnumeration.length > 0) {
+        uploadCameraToUse = ebCameraEnumeration[0];
+    }
+    reqLog("hwInitAfterDomReady - EB.Camera.enumerate() with " + ebCameraEnumeration.length + " cameras; taking " + uploadCameraToUse);
 
     if (svScanEnabled()) {
         try {

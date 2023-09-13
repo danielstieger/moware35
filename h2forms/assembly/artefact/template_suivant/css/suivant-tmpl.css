@@ -118,6 +118,7 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
 .sv-multiline-edit-input-col-dis {line-height: 24px; border-bottom: 1px solid #FFF !important; }
 .sv-multiline-edit-label {color: #888 !important; text-align: right; padding-right: 24px;
       line-height: 24px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
+.sv-cambutton { width: 100%; }
 
 body[class="sv-back-no-session"] div[class*="sv-editor"] {padding-bottom: 300px !important; }
 
