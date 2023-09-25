@@ -4,10 +4,10 @@
 <div class="w3-col {% if wide %}m12 s12{% else %}m9 s7{% endif %} {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
 {% if enabled %}
     <button type="button" class="w3-button sv-cambutton" {% if requestFocus %} focusme="true" {% endif %} onClick="javascript: svTakePicture('{{ editorId }}');">
-    <img width="95%" name="img_{{ editorId }}" alt="" {% if text is not empty %}src="{{ statics.uploadLocationRetrieve }}/{{ text }}"{% endif %}/> <i class="material-icons">photo_camera</i> </button>
+    <img width="95%" name="img_{{ editorId }}" alt="" {% if text is not empty %}src="{{ uploadLocationRetrieve }}/{{ text }}"{% endif %}/> <i class="material-icons">photo_camera</i> </button>
 {% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
 {% else %}
-{{ text }}
+<img width="95%" name="img_{{ editorId }}" alt="" {% if text is not empty %}src="{{ uploadLocationRetrieve }}/{{ text }}"{% endif %}/>
 {% endif %}
 </div>
 {% endif %}

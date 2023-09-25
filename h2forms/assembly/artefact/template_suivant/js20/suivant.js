@@ -24,6 +24,7 @@ var uploadLocationStore = '?';
 var uploadLocationRetrieve = '?';
 var uploadCameraToUse = null;
 var uploadEditorId = null;
+var uploadInternalFilename = '/data/tmp/public/';
 
 
 function svScanEnabled(){
@@ -157,11 +158,10 @@ function setLastRequestIssuedMillis(baseForm) {
 function svUploadFileDone(args){
     var status = args['status'];
     if ('body' in args) {
-        var filename = args['body'];
+        var filename = args['body'].replace(/^\s+|\s+$/g, '');
         status += ' ' + filename;
 
-
-        $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + filename;
+        $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + filename + '?ts=' + Date.now();
         $('input[name=' + uploadEditorId + ']').value = filename;
 
     }
@@ -175,6 +175,9 @@ function svUploadFileDone(args){
 function svCameraPicTaken(cbData){
     if ('imageUri' in cbData) {
         svLog('mCameraPicTaken', 'Image uri is ' + cbData.imageUri);
+
+        $('img[name=img_' + uploadEditorId + ']').src = '';
+        $('input[name=' + uploadEditorId + ']').value = '';
 
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
@@ -214,9 +217,10 @@ function svTakePicture(editorId) {
     var param = {
             /* 'fileName' : '/Downloads/myImagename',
             'outputFormat': 'imagePath'                    Argument ImagePath not working? Dan 22.Nov 21 */
-            'outputFormat': 'image'
+            'outputFormat': 'image',
+            'fileName': uploadInternalFilename + editorId,
+            'useSystemViewfinder': true,
             };
-
 
     uploadCameraToUse.takePicture(param, svCameraPicTaken);
     svLog('mTakePicture', 'takePicture ebapi called.');
@@ -290,8 +294,6 @@ document.addEventListener('DOMContentLoaded', function() {
     uploadLocationRetrieve = $('meta[name=h2UploadLocationRetrieve]').content;
     uploadLocationStore = $('meta[name=h2UploadLocationStore]').content;
     svLog('DOMContentLoaded', 'camera ' + uploadCameraToUse + ' for ' + uploadLocationStore);
-
-
 
     navigationDisabled = false;
     svLog('DOMContentLoaded', 'init done ' + hwStackInfo());
