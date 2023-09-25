@@ -672,7 +672,7 @@
             <node concept="liA8E" id="6irx7M5wh59" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="Xl_RD" id="6irx7M5wh5a" role="37wK5m">
-                <property role="Xl_RC" value="BusinessObject" />
+                <property role="Xl_RC" value="Entity" />
               </node>
             </node>
           </node>
@@ -706,7 +706,7 @@
             <node concept="liA8E" id="6irx7M5xISH" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="Xl_RD" id="6irx7M5xISI" role="37wK5m">
-                <property role="Xl_RC" value="ViewObject" />
+                <property role="Xl_RC" value="DTO" />
               </node>
             </node>
           </node>

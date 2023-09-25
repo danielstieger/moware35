@@ -28315,7 +28315,7 @@
     </node>
     <node concept="3Tm1VV" id="5dZoziQwytV" role="1B3o_S" />
     <node concept="3uibUv" id="4GnAvwH8xev" role="EKbjA">
-      <ref role="3uigEE" node="40c7Wy_haHD" resolve="IOFXMetaViewObject" />
+      <ref role="3uigEE" node="40c7Wy_haHD" resolve="IOFXMetaDTO" />
       <node concept="16syzq" id="4GnAvwH8CtN" role="11_B2D">
         <ref role="16sUi3" node="5dZoziQwytY" resolve="ENTITY" />
       </node>
@@ -32934,7 +32934,7 @@
     <node concept="3UR2Jj" id="4LCWVoZnfUn" role="lGtFl">
       <node concept="TZ5HA" id="4LCWVoZnfUo" role="TZ5H$">
         <node concept="1dT_AC" id="4LCWVoZnfUp" role="1dT_Ay">
-          <property role="1dT_AB" value="Entity, ValueObject and ViewObjects implement the IOFXRevertableObject " />
+          <property role="1dT_AB" value="Entity, ValueObject and DTO implement the IOFXRevertableObject " />
         </node>
       </node>
       <node concept="TZ5HA" id="4LCWVoZnfV3" role="TZ5H$">
@@ -33111,7 +33111,7 @@
         </node>
         <node concept="TZ5HA" id="3$bhckDySSq" role="TZ5H$">
           <node concept="1dT_AC" id="3$bhckDySSP" role="1dT_Ay">
-            <property role="1dT_AB" value="new_LocalDateFromServer / new_DateTimeFromServer can be used in Entities / ValueObjects / ViewObjects" />
+            <property role="1dT_AB" value="new_LocalDateFromServer / new_DateTimeFromServer can be used in Entities / ValueObjects / DTOs" />
           </node>
           <node concept="1dT_AC" id="3$bhckDySSr" role="1dT_Ay">
             <property role="1dT_AB" value="" />
@@ -40978,7 +40978,9 @@
       <property role="TrG5h" value="H2_DEV_HARDLOG" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="7L6pyrb0T_5" role="33vP2m" />
+      <node concept="3clFbT" id="7L6pyrb0T_5" role="33vP2m">
+        <property role="3clFbU" value="true" />
+      </node>
     </node>
     <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
       <property role="3TUv4t" value="true" />
@@ -40991,7 +40993,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2023.23 (it) (dev " />
+            <property role="Xl_RC" value="moware11 2023.24 (pic) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
@@ -43148,7 +43150,7 @@
   </node>
   <node concept="3HP615" id="40c7Wy_haHD">
     <property role="3GE5qa" value="OFXMetaInfo" />
-    <property role="TrG5h" value="IOFXMetaViewObject" />
+    <property role="TrG5h" value="IOFXMetaDTO" />
     <node concept="3Tm1VV" id="40c7Wy_haHE" role="1B3o_S" />
     <node concept="16euLQ" id="40c7Wy_haQJ" role="16eVyc">
       <property role="TrG5h" value="T" />

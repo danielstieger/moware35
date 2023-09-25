@@ -19,9 +19,12 @@
 var systemMenuHandler;
 var serverTimeMillisOffset = 0;
 var serverClockUpdateId;
+
 var uploadLocationStore = '?';
 var uploadLocationRetrieve = '?';
 var uploadCameraToUse = null;
+var uploadEditorId = null;
+
 
 function svScanEnabled(){
     return ($('input[name="scanconclusion"]') != null);
@@ -152,10 +155,15 @@ function setLastRequestIssuedMillis(baseForm) {
 
 /* ------------------------------------------------------------------------------------------------ */
 function svUploadFileDone(args){
-    status = args['status'];
+    var status = args['status'];
     if ('body' in args) {
-        status += ' ' + args['body'];
-        $('img[name=edit_upload_img]').src = uploadLocationRetrieve + args['body'];
+        var filename = args['body'];
+        status += ' ' + filename;
+
+
+        $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + filename;
+        $('input[name=' + uploadEditorId + ']').value = filename;
+
     }
     svLog('mUploadFileDone', 'Status is  ' + status);
 
@@ -183,8 +191,7 @@ function svCameraPicTaken(cbData){
 
            // below is the network module API used for uploading images when camera fire the callback
            EB.Network.uploadFile(uploadfileProps, svUploadFileDone);
-
-           svLog('mCameraPicTaken', 'upload called ... ' + uploadLocationStore + " / " + imgName);
+           svLog('mCameraPicTaken', 'upload called ... ' + uploadLocationStore + " for " + imgName);
 
         } catch(err) {
             svLog('mCameraPicTaken', 'Ex while uploading file: ' + err);
@@ -199,8 +206,9 @@ function svCameraPicTaken(cbData){
 }
 
 
-function svTakePicture() {
-  svLog('mTakePicture', 'called handler');
+function svTakePicture(editorId) {
+  uploadEditorId = editorId;
+  svLog('mTakePicture', 'called handler for ' + uploadEditorId);
 
   try {
     var param = {

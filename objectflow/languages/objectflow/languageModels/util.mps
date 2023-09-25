@@ -4690,7 +4690,7 @@
       </node>
     </node>
     <node concept="2YIFZL" id="2qkRdAoM23n" role="jymVt">
-      <property role="TrG5h" value="isViewObject" />
+      <property role="TrG5h" value="isDTO" />
       <node concept="37vLTG" id="2qkRdAoM23o" role="3clF46">
         <property role="TrG5h" value="t" />
         <node concept="3Tqbb2" id="2qkRdAoM23p" role="1tU5fm">
@@ -4751,7 +4751,7 @@
       </node>
     </node>
     <node concept="2YIFZL" id="7ySAZj0nTQs" role="jymVt">
-      <property role="TrG5h" value="isViewObjectOrEntityOrValueObj" />
+      <property role="TrG5h" value="isDTOOrEntityOrValueObj" />
       <node concept="37vLTG" id="7ySAZj0nTQt" role="3clF46">
         <property role="TrG5h" value="t" />
         <node concept="3Tqbb2" id="7ySAZj0nTQu" role="1tU5fm">
@@ -4903,7 +4903,7 @@
               <node concept="1eOMI4" id="4JdxVp$IvAA" role="3fr31v">
                 <node concept="22lmx$" id="2qkRdAoMfG7" role="1eOMHV">
                   <node concept="2YIFZM" id="2qkRdAoMi6X" role="3uHU7w">
-                    <ref role="37wK5l" node="2qkRdAoM23n" resolve="isViewObject" />
+                    <ref role="37wK5l" node="2qkRdAoM23n" resolve="isDTO" />
                     <ref role="1Pybhc" node="vASbT$6zkP" resolve="OFXLegacyHelper" />
                     <node concept="37vLTw" id="2qkRdAoMick" role="37wK5m">
                       <ref role="3cqZAo" node="FaoLX6iqRi" resolve="t" />
