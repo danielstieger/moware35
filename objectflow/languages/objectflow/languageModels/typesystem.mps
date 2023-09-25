@@ -976,7 +976,7 @@
               </node>
               <node concept="1mIQ4w" id="2xB8IJbLLlV" role="2OqNvi">
                 <node concept="chp4Y" id="2xB8IJbLLlX" role="cj9EA">
-                  <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                  <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                 </node>
               </node>
             </node>
@@ -1224,7 +1224,7 @@
     </node>
     <node concept="1YaCAy" id="44KEWew_Lbp" role="1YuTPh">
       <property role="TrG5h" value="businessObject" />
-      <ref role="1YaFvo" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+      <ref role="1YaFvo" to="un0u:1caoEBn$Vr$" resolve="Entity" />
     </node>
   </node>
   <node concept="1YbPZF" id="6j_KBLob2Rz">
@@ -1274,7 +1274,7 @@
                 <node concept="3cpWsn" id="1GxgwjBwnAx" role="3cpWs9">
                   <property role="TrG5h" value="bo" />
                   <node concept="3Tqbb2" id="1GxgwjBwnAy" role="1tU5fm">
-                    <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                   </node>
                   <node concept="1PxgMI" id="1GxgwjBwnAK" role="33vP2m">
                     <node concept="2OqwBi" id="1GxgwjBwnAB" role="1m5AlR">
@@ -1286,7 +1286,7 @@
                       </node>
                     </node>
                     <node concept="chp4Y" id="3B2vGTdJgZP" role="3oSUPX">
-                      <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                      <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                     </node>
                   </node>
                 </node>
@@ -1340,7 +1340,7 @@
               </node>
               <node concept="1mIQ4w" id="1GxgwjBwnAt" role="2OqNvi">
                 <node concept="chp4Y" id="1GxgwjBwnAv" role="cj9EA">
-                  <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                  <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                 </node>
               </node>
             </node>
@@ -1788,7 +1788,7 @@
               <node concept="3clFbS" id="5Ee0EjqSRm$" role="9aQI4">
                 <node concept="2MkqsV" id="5Ee0EjqSRm_" role="3cqZAp">
                   <node concept="Xl_RD" id="5Ee0EjqSRmD" role="2MkJ7o">
-                    <property role="Xl_RC" value="Page initialization has to return a list or a single object! " />
+                    <property role="Xl_RC" value="PageCrtl initialization has to return a list or a single object! " />
                   </node>
                   <node concept="2OqwBi" id="5Ee0EjqSRmA" role="1urrMF">
                     <node concept="1YBJjd" id="5Ee0EjqSRmB" role="2Oq$k0">
@@ -3971,7 +3971,7 @@
                     </node>
                   </node>
                   <node concept="chp4Y" id="3B2vGTdJh0v" role="3oSUPX">
-                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="4LCWVp0dCdF" role="2OqNvi">
@@ -4049,7 +4049,7 @@
           </node>
           <node concept="1mIQ4w" id="4r0DqI22n7h" role="2OqNvi">
             <node concept="chp4Y" id="4r0DqI22nbu" role="cj9EA">
-              <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -4090,7 +4090,7 @@
             </node>
             <node concept="1mIQ4w" id="4j0wea7ivfE" role="2OqNvi">
               <node concept="chp4Y" id="4j0wea7ivkI" role="cj9EA">
-                <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="DTO" />
               </node>
             </node>
           </node>
@@ -5592,7 +5592,7 @@
     </node>
     <node concept="1YaCAy" id="11hNSr_7NCL" role="1YuTPh">
       <property role="TrG5h" value="vo" />
-      <ref role="1YaFvo" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+      <ref role="1YaFvo" to="un0u:4y30FCQIiwZ" resolve="DTO" />
     </node>
   </node>
   <node concept="18kY7G" id="3hMfwBJpvjv">
@@ -6002,7 +6002,7 @@
                       </node>
                       <node concept="1mIQ4w" id="34EwMoQBUsr" role="2OqNvi">
                         <node concept="chp4Y" id="34EwMoQBZP5" role="cj9EA">
-                          <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                          <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                         </node>
                       </node>
                     </node>
@@ -6017,7 +6017,7 @@
                       </node>
                       <node concept="1mIQ4w" id="34EwMoTup0t" role="2OqNvi">
                         <node concept="chp4Y" id="34EwMoTupr9" role="cj9EA">
-                          <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                          <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="DTO" />
                         </node>
                       </node>
                     </node>
@@ -6142,7 +6142,7 @@
             <node concept="2Xjw5R" id="IlacaDzUHJ" role="2OqNvi">
               <node concept="1xMEDy" id="IlacaDzUHL" role="1xVPHs">
                 <node concept="chp4Y" id="IlacaDzUIx" role="ri$Ld">
-                  <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                  <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="DTO" />
                 </node>
               </node>
             </node>
@@ -8916,7 +8916,7 @@
                               <node concept="3cpWs3" id="3nLPQZQN3s7" role="3uHU7B">
                                 <node concept="3cpWs3" id="3nLPQZQN2JR" role="3uHU7B">
                                   <node concept="Xl_RD" id="3nLPQZQN1ME" role="3uHU7B">
-                                    <property role="Xl_RC" value="Page provideds " />
+                                    <property role="Xl_RC" value="PageCrtl provides " />
                                   </node>
                                   <node concept="2OqwBi" id="3nLPQZQN2Vt" role="3uHU7w">
                                     <node concept="1YBJjd" id="3nLPQZQN2P_" role="2Oq$k0">
@@ -9090,7 +9090,7 @@
         <node concept="3clFbS" id="7qQ6PJv5AgG" role="3clFbx">
           <node concept="2MkqsV" id="7qQ6PJv5CXM" role="3cqZAp">
             <node concept="Xl_RD" id="7qQ6PJv5CY1" role="2MkJ7o">
-              <property role="Xl_RC" value="Only one page pane can be specified as default pane. It sould be the last one." />
+              <property role="Xl_RC" value="Only one pagepane pane can be specified as default pane. It sould be the last one." />
             </node>
             <node concept="1YBJjd" id="3Rw9V4qgmx0" role="1urrMF">
               <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
@@ -11050,7 +11050,7 @@
             <node concept="3cpWsn" id="3l87qE_Sopt" role="3cpWs9">
               <property role="TrG5h" value="vo" />
               <node concept="3Tqbb2" id="3l87qE_Sopo" role="1tU5fm">
-                <ref role="ehGHo" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                <ref role="ehGHo" to="un0u:4y30FCQIiwZ" resolve="DTO" />
               </node>
               <node concept="1PxgMI" id="3l87qE_Spl0" role="33vP2m">
                 <node concept="2OqwBi" id="3l87qE_SoUB" role="1m5AlR">
@@ -11072,7 +11072,7 @@
                   </node>
                 </node>
                 <node concept="chp4Y" id="3B2vGTdJh29" role="3oSUPX">
-                  <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                  <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="DTO" />
                 </node>
               </node>
             </node>
@@ -15068,7 +15068,7 @@
                 </node>
                 <node concept="1mIQ4w" id="4LngyNJDV4A" role="2OqNvi">
                   <node concept="chp4Y" id="4LngyNJDV9S" role="cj9EA">
-                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                   </node>
                 </node>
               </node>
@@ -15083,7 +15083,7 @@
                 </node>
                 <node concept="1mIQ4w" id="4LngyNJDVTk" role="2OqNvi">
                   <node concept="chp4Y" id="4LngyNJDVTl" role="cj9EA">
-                    <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                    <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="DTO" />
                   </node>
                 </node>
               </node>

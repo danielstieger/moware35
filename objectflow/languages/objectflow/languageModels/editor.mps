@@ -2632,7 +2632,7 @@
         </node>
         <node concept="3F0ifn" id="U8r3YqcXEp" role="3EZMnx">
           <property role="3F0ifm" value="// exec session operations in transaction, then commit session" />
-          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
           <node concept="pVoyu" id="U8r3YqcXEq" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -2653,7 +2653,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="6IXTkEOVXO7" role="3EZMnx">
-          <property role="3F0ifm" value="selection(s)/update(s):" />
+          <property role="3F0ifm" value="selection(s)/push(es):" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="6_IgSPuewAI" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -11323,7 +11323,7 @@
   </node>
   <node concept="24kQdi" id="6YzHNmEG3MD">
     <property role="3GE5qa" value="BusinessObject" />
-    <ref role="1XX52x" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+    <ref role="1XX52x" to="un0u:1caoEBn$Vr$" resolve="Entity" />
     <node concept="3EZMnI" id="6YzHNmEO4Xg" role="2wV5jI">
       <node concept="PMmxH" id="6YzHNmEO4Xh" role="3EZMnx">
         <ref role="PMmxG" to="tpen:6aS1KHf_xVK" resolve="HasAnnotation_AnnotationComponent" />
@@ -11610,7 +11610,7 @@
                       <node concept="I4A8Y" id="50keBnL6wGa" role="2OqNvi" />
                     </node>
                     <node concept="1j9C0f" id="50keBnL6wGb" role="2OqNvi">
-                      <ref role="1j9C0d" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                      <ref role="1j9C0d" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                     </node>
                   </node>
                 </node>
@@ -11728,7 +11728,7 @@
                       <node concept="I4A8Y" id="50keBnL6wH0" role="2OqNvi" />
                     </node>
                     <node concept="1j9C0f" id="50keBnL6wH1" role="2OqNvi">
-                      <ref role="1j9C0d" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                      <ref role="1j9C0d" to="un0u:4y30FCQIiwZ" resolve="DTO" />
                     </node>
                   </node>
                 </node>
@@ -12380,7 +12380,7 @@
   </node>
   <node concept="24kQdi" id="6fz7Hvelatb">
     <property role="3GE5qa" value="BusinessObject" />
-    <ref role="1XX52x" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+    <ref role="1XX52x" to="un0u:4y30FCQIiwZ" resolve="DTO" />
     <node concept="3EZMnI" id="6fz7HvelatR" role="2wV5jI">
       <node concept="2iRkQZ" id="6fz7HvelatS" role="2iSdaV" />
       <node concept="PMmxH" id="6fz7HvelatT" role="3EZMnx">

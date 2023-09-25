@@ -107,7 +107,7 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="1caoEBn$Vr$">
-    <property role="TrG5h" value="BusinessObject" />
+    <property role="TrG5h" value="Entity" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="BusinessObject" />
     <property role="34LRSv" value="Entity" />
@@ -1194,7 +1194,7 @@
   </node>
   <node concept="1TIwiD" id="4y30FCQIiwZ">
     <property role="3GE5qa" value="BusinessObject" />
-    <property role="TrG5h" value="ViewObject" />
+    <property role="TrG5h" value="DTO" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="DTO" />
     <property role="EcuMT" value="5225022991485184063" />
@@ -1566,7 +1566,7 @@
       <property role="20kJfa" value="entity" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="6855023620835054339" />
-      <ref role="20lvS9" node="1caoEBn$Vr$" resolve="BusinessObject" />
+      <ref role="20lvS9" node="1caoEBn$Vr$" resolve="Entity" />
     </node>
     <node concept="1TJgyi" id="5rqgrTzC1jg" role="1TKVEl">
       <property role="IQ2nx" value="6258386918155752656" />

@@ -427,7 +427,7 @@
   </registry>
   <node concept="13h7C7" id="7i5NrsZlxvk">
     <property role="3GE5qa" value="BusinessObject" />
-    <ref role="13h7C2" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+    <ref role="13h7C2" to="un0u:1caoEBn$Vr$" resolve="Entity" />
     <node concept="13hLZK" id="7i5NrsZlxvl" role="13h7CW">
       <node concept="3clFbS" id="7i5NrsZlxvm" role="2VODD2">
         <node concept="3clFbF" id="7i5NrsZlxvn" role="3cqZAp">
@@ -559,7 +559,7 @@
               <node concept="13iPFW" id="6svR_JBEOxz" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFp" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -587,7 +587,7 @@
                   <node concept="13iPFW" id="8dakBL9tTx" role="37wK5m" />
                 </node>
                 <node concept="35c_gC" id="3B2vGTdJgFl" role="2Oq$k0">
-                  <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                  <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                 </node>
               </node>
               <node concept="3$u5V9" id="8dakBL9tTz" role="2OqNvi">
@@ -635,7 +635,7 @@
               <node concept="13iPFW" id="50keBnLZ4_4" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFq" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -660,7 +660,7 @@
               <node concept="13iPFW" id="50keBnLZgm$" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFr" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -1245,7 +1245,7 @@
                 </node>
               </node>
               <node concept="35c_gC" id="3B2vGTdJgFo" role="2Oq$k0">
-                <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
               </node>
             </node>
           </node>
@@ -2608,7 +2608,7 @@
       <property role="TrG5h" value="findBusinessObject" />
       <node concept="3Tm1VV" id="3VCHlE3$xGg" role="1B3o_S" />
       <node concept="3Tqbb2" id="3VCHlE3$D06" role="3clF45">
-        <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+        <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="Entity" />
       </node>
       <node concept="3clFbS" id="3VCHlE3$xGi" role="3clF47">
         <node concept="3cpWs8" id="44KEWewzeDU" role="3cqZAp">
@@ -2690,7 +2690,7 @@
                       <ref role="3cqZAo" node="14x0fgULi0E" resolve="clazz" />
                     </node>
                     <node concept="chp4Y" id="3B2vGTdJh1t" role="3oSUPX">
-                      <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                      <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                     </node>
                   </node>
                 </node>
@@ -2701,7 +2701,7 @@
                 </node>
                 <node concept="1mIQ4w" id="14x0fgULi14" role="2OqNvi">
                   <node concept="chp4Y" id="14x0fgULi16" role="cj9EA">
-                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                   </node>
                 </node>
               </node>
@@ -6776,7 +6776,7 @@
               <node concept="13iPFW" id="50keBnM0YLW" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFt" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -6854,7 +6854,7 @@
               <node concept="13iPFW" id="6svR_JBEOyv" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFu" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -6882,7 +6882,7 @@
                   <node concept="13iPFW" id="8dakBL9ut9" role="37wK5m" />
                 </node>
                 <node concept="35c_gC" id="3B2vGTdJgFm" role="2Oq$k0">
-                  <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                  <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                 </node>
               </node>
               <node concept="3$u5V9" id="8dakBL9utb" role="2OqNvi">
@@ -6982,7 +6982,7 @@
               <node concept="13iPFW" id="50keBnM0ZG3" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFv" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -7436,7 +7436,7 @@
   </node>
   <node concept="13h7C7" id="4y30FCQIiyv">
     <property role="3GE5qa" value="BusinessObject" />
-    <ref role="13h7C2" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+    <ref role="13h7C2" to="un0u:4y30FCQIiwZ" resolve="DTO" />
     <node concept="13i0hz" id="4RdBniXplo" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -7451,7 +7451,7 @@
               <node concept="13iPFW" id="50keBnM2EHQ" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFw" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -7499,7 +7499,7 @@
               <node concept="13iPFW" id="6svR_JBEOxp" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFx" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>
@@ -7527,7 +7527,7 @@
                   <node concept="13iPFW" id="8dakBL9vbl" role="37wK5m" />
                 </node>
                 <node concept="35c_gC" id="3B2vGTdJgFn" role="2Oq$k0">
-                  <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                  <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                 </node>
               </node>
               <node concept="3$u5V9" id="8dakBL9vbn" role="2OqNvi">
@@ -7575,7 +7575,7 @@
               <node concept="13iPFW" id="50keBnM2FbU" role="37wK5m" />
             </node>
             <node concept="35c_gC" id="3B2vGTdJgFy" role="2Oq$k0">
-              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="35c_gD" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
           </node>
         </node>

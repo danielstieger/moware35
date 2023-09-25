@@ -714,7 +714,7 @@
       </node>
     </node>
     <node concept="37WvkG" id="7Id2iZPcawQ" role="37WGs$">
-      <ref role="37XkoT" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+      <ref role="37XkoT" to="un0u:1caoEBn$Vr$" resolve="Entity" />
       <node concept="37Y9Zx" id="7Id2iZPcawR" role="37ZfLb">
         <node concept="3clFbS" id="7Id2iZPcawS" role="2VODD2">
           <node concept="3clFbF" id="7Id2iZPca$S" role="3cqZAp">
@@ -911,7 +911,7 @@
       </node>
     </node>
     <node concept="37WvkG" id="58L_rBVqXmN" role="37WGs$">
-      <ref role="37XkoT" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+      <ref role="37XkoT" to="un0u:4y30FCQIiwZ" resolve="DTO" />
       <node concept="37Y9Zx" id="58L_rBVqXmO" role="37ZfLb">
         <node concept="3clFbS" id="58L_rBVqXmP" role="2VODD2">
           <node concept="3clFbF" id="58L_rBVqXmQ" role="3cqZAp">

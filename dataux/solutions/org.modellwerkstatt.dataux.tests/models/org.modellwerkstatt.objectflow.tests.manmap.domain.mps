@@ -272,7 +272,7 @@
       <concept id="4313579457188683399" name="org.modellwerkstatt.objectflow.structure.IOFXObject" flags="ng" index="13YVsI">
         <child id="3207218222495905601" name="businessProperties" index="TxmiU" />
       </concept>
-      <concept id="1372017518093514468" name="org.modellwerkstatt.objectflow.structure.BusinessObject" flags="ig" index="34Athd">
+      <concept id="1372017518093514468" name="org.modellwerkstatt.objectflow.structure.Entity" flags="ig" index="34Athd">
         <child id="4533072425307746563" name="status" index="2XvChp" />
       </concept>
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
@@ -14388,7 +14388,7 @@
         <node concept="3clFbF" id="4HJH2PnNs1Z" role="3cqZAp">
           <node concept="2OqwBi" id="6fvTt2kn3xy" role="3clFbG">
             <node concept="jybIQ" id="4HJH2PnNs1X" role="2Oq$k0">
-              <property role="1v8G3g" value="false" />
+              <property role="1v8G3g" value="true" />
               <property role="HScZ5" value="false" />
               <ref role="P14SV" node="4HJH2PnkorQ" resolve="MapNewInvoice" />
               <node concept="jxyYR" id="6fvTt2kn3dX" role="jxX7b">

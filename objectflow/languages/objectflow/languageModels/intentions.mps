@@ -649,7 +649,7 @@
     <property role="TrG5h" value="MakeAuditable" />
     <property role="2ZfUl0" value="true" />
     <property role="3GE5qa" value="BusinessObject" />
-    <ref role="2ZfgGC" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+    <ref role="2ZfgGC" to="un0u:1caoEBn$Vr$" resolve="Entity" />
     <node concept="2S6ZIM" id="3USpsRpxUdH" role="2ZfVej">
       <node concept="3clFbS" id="3USpsRpxUdI" role="2VODD2">
         <node concept="3clFbF" id="3USpsRpxWhU" role="3cqZAp">
@@ -3698,7 +3698,7 @@
           <node concept="3cpWsn" id="1ZjRqWr0AMc" role="3cpWs9">
             <property role="TrG5h" value="vo" />
             <node concept="3Tqbb2" id="1ZjRqWr0AM7" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+              <ref role="ehGHo" to="un0u:4y30FCQIiwZ" resolve="DTO" />
             </node>
             <node concept="2YIFZM" id="1ZjRqWr0AXD" role="33vP2m">
               <ref role="37wK5l" to="3ojc:1ZjRqWqWLrX" resolve="createAndAddViewObjectFromSql" />
@@ -4711,14 +4711,14 @@
           <node concept="3cpWsn" id="1vtHxfX_B0X" role="3cpWs9">
             <property role="TrG5h" value="entity" />
             <node concept="3Tqbb2" id="1vtHxfX_B0S" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
             <node concept="2OqwBi" id="1vtHxfX_B6J" role="33vP2m">
               <node concept="2Sf5sV" id="1vtHxfX_B23" role="2Oq$k0" />
               <node concept="2Xjw5R" id="1vtHxfX_BpM" role="2OqNvi">
                 <node concept="1xMEDy" id="1vtHxfX_BpO" role="1xVPHs">
                   <node concept="chp4Y" id="1vtHxfX_BsT" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                   </node>
                 </node>
               </node>
@@ -6188,7 +6188,7 @@
           <node concept="3cpWsn" id="7$2_qbr8Il_" role="3cpWs9">
             <property role="TrG5h" value="vo" />
             <node concept="3Tqbb2" id="7$2_qbr8IlA" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
             <node concept="2OqwBi" id="7$2_qbr8IlB" role="33vP2m">
               <node concept="2OqwBi" id="7$2_qbr8IlC" role="2Oq$k0">
@@ -6196,7 +6196,7 @@
                 <node concept="I4A8Y" id="7$2_qbr8IlE" role="2OqNvi" />
               </node>
               <node concept="15Ty1b" id="7$2_qbr8IlF" role="2OqNvi">
-                <ref role="I8UWU" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                <ref role="I8UWU" to="un0u:1caoEBn$Vr$" resolve="Entity" />
               </node>
             </node>
           </node>
@@ -6285,7 +6285,7 @@
           <node concept="3cpWsn" id="7$2_qbr8KgO" role="3cpWs9">
             <property role="TrG5h" value="entity" />
             <node concept="3Tqbb2" id="7$2_qbr8KgP" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+              <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="Entity" />
             </node>
             <node concept="2OqwBi" id="7$2_qbr8KgQ" role="33vP2m">
               <node concept="2OqwBi" id="7$2_qbr8KgR" role="2Oq$k0">
@@ -6293,7 +6293,7 @@
                 <node concept="I4A8Y" id="7$2_qbr8KgT" role="2OqNvi" />
               </node>
               <node concept="15Ty1b" id="7$2_qbr8KgU" role="2OqNvi">
-                <ref role="I8UWU" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                <ref role="I8UWU" to="un0u:1caoEBn$Vr$" resolve="Entity" />
               </node>
             </node>
           </node>
