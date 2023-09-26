@@ -120,6 +120,7 @@
     <input type="hidden" name="ServerMillis" value="{{ page.srvMillis }}"/>
     <input type="hidden" name="LastRequestDiffMillis"   value=""/>
     <input type="hidden" name="LastRequestDiffMillis2"   value=""/>
+    <input type="hidden" name="LastRequestDiffMillis3"   value=""/>
     <input type="hidden" name="LastRequestLog"   value=""/>
 
 

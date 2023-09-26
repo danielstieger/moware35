@@ -234,6 +234,9 @@ function svTakePicture(editorId) {
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
     reqLogClear();
+
+    var baseForm = $('form');
+
     try {
         var diffDomainLookupStart = window.performance.timing.domainLookupStart - window.performance.timing.fetchStart;
         var diffConnectStart = window.performance.timing.connectStart - window.performance.timing.fetchStart;
@@ -244,11 +247,12 @@ document.addEventListener('DOMContentLoaded', function() {
         var diffResponseEnd = window.performance.timing.responseEnd - window.performance.timing.fetchStart;
         reqLog('Performance: dnsStart ' + diffDomainLookupStart + ', tcpStart ' + diffConnectStart + ', requestStart ' + diffRequestStart + ', unloadStart ' + diffUnloadStart + ', unloadEnd ' + diffUnloadEnd + ', firstResponseByte ' + diffResponseStart + ', lastResponseByte ' + diffResponseEnd);
 
+        baseForm.LastRequestDiffMillis3.value = diffResponseEnd - diffResponseStart;
+
     } catch(error) {
         reqLog('Performance metrics issues? ' + error);
     }
 
-    var baseForm = $('form');
     var lastReq = sessionStorage.getItem("LastRequestIssuedMillis");
     if (lastReq != undefined) {
         baseForm.LastRequestDiffMillis.value = Date.now() - lastReq;
