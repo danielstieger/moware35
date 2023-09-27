@@ -66,6 +66,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -547,6 +550,25 @@
         </node>
         <node concept="3clFbJ" id="4Rlyz3E5SmV" role="3cqZAp">
           <node concept="3clFbS" id="4Rlyz3E5SmX" role="3clFbx">
+            <node concept="3SKdUt" id="7lr2Gyz8mO4" role="3cqZAp">
+              <node concept="1PaTwC" id="7lr2Gyz8mO5" role="1aUNEU">
+                <node concept="3oM_SD" id="7lr2Gyz8mO6" role="1PaTwD">
+                  <property role="3oM_SC" value="default" />
+                </node>
+                <node concept="3oM_SD" id="7lr2Gyz8mRR" role="1PaTwD">
+                  <property role="3oM_SC" value="currently" />
+                </node>
+                <node concept="3oM_SD" id="7lr2Gyz8mS2" role="1PaTwD">
+                  <property role="3oM_SC" value="20" />
+                </node>
+                <node concept="3oM_SD" id="7lr2Gyz8mSe" role="1PaTwD">
+                  <property role="3oM_SC" value="(Sep" />
+                </node>
+                <node concept="3oM_SD" id="7lr2Gyz8mSr" role="1PaTwD">
+                  <property role="3oM_SC" value="23)" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="4Rlyz3E777z" role="3cqZAp">
               <node concept="37vLTI" id="4Rlyz3E788Q" role="3clFbG">
                 <node concept="37vLTw" id="4Rlyz3E777x" role="37vLTJ">
@@ -572,6 +594,16 @@
                     </node>
                   </node>
                 </node>
+                <node concept="YS8fn" id="7lr2Gyz8az3" role="3cqZAp">
+                  <node concept="2ShNRf" id="7lr2Gyz8a$k" role="YScLw">
+                    <node concept="1pGfFk" id="7lr2Gyz8d1t" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="Xl_RD" id="7lr2Gyz8d3y" role="37wK5m">
+                        <property role="Xl_RC" value="Zebra EB 18 is no longer supported. (Sep 23)" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbH" id="10YuSCZax3q" role="3cqZAp" />
               </node>
               <node concept="2OqwBi" id="2kuDuEApcGh" role="3clFbw">
@@ -593,7 +625,7 @@
                         <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceSwDetected" />
                       </node>
                       <node concept="Rm8GO" id="10YuSCZayiW" role="37vLTx">
-                        <ref role="Rm8GQ" to="tea8:10YuSCZaxus" resolve="ZEBRAEB_30" />
+                        <ref role="Rm8GQ" to="tea8:10YuSCZaxus" resolve="ZEBRAEB_32" />
                         <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
                       </node>
                     </node>
@@ -612,18 +644,58 @@
                   </node>
                 </node>
               </node>
+              <node concept="3eNFk2" id="7lr2Gyz8mgh" role="3eNLev">
+                <node concept="3clFbS" id="7lr2Gyz8mgi" role="3eOfB_">
+                  <node concept="3clFbF" id="7lr2Gyz8mgj" role="3cqZAp">
+                    <node concept="37vLTI" id="7lr2Gyz8mgk" role="3clFbG">
+                      <node concept="37vLTw" id="7lr2Gyz8mgl" role="37vLTJ">
+                        <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceSwDetected" />
+                      </node>
+                      <node concept="Rm8GO" id="7lr2Gyz8mAJ" role="37vLTx">
+                        <ref role="Rm8GQ" to="tea8:7lr2Gyz8j3i" resolve="ZEBRAEB_35" />
+                        <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="7lr2Gyz8mgn" role="3cqZAp" />
+                </node>
+                <node concept="2OqwBi" id="7lr2Gyz8mgo" role="3eO9$A">
+                  <node concept="37vLTw" id="7lr2Gyz8mgp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+                  </node>
+                  <node concept="liA8E" id="7lr2Gyz8mgq" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                    <node concept="Xl_RD" id="7lr2Gyz8mgr" role="37wK5m">
+                      <property role="Xl_RC" value="EB35" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="3clFbH" id="10YuSCZavJa" role="3cqZAp" />
           </node>
-          <node concept="2OqwBi" id="4Rlyz3E6qUf" role="3clFbw">
-            <node concept="liA8E" id="4Rlyz3E6s5t" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="37vLTw" id="3Sgll4LMWwU" role="37wK5m">
-                <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
+          <node concept="22lmx$" id="3DO9NVDOJAz" role="3clFbw">
+            <node concept="2OqwBi" id="3DO9NVDOKpN" role="3uHU7w">
+              <node concept="Xl_RD" id="3DO9NVDOKbv" role="2Oq$k0">
+                <property role="Xl_RC" value="com.zebra.mdna.enterprisebrowser" />
+              </node>
+              <node concept="liA8E" id="3DO9NVDOKs$" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="37vLTw" id="3DO9NVDOKwW" role="37wK5m">
+                  <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
+                </node>
               </node>
             </node>
-            <node concept="Xl_RD" id="4Rlyz3E6s7y" role="2Oq$k0">
-              <property role="Xl_RC" value="com.symbol.enterprisebrowser" />
+            <node concept="2OqwBi" id="4Rlyz3E6qUf" role="3uHU7B">
+              <node concept="liA8E" id="4Rlyz3E6s5t" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="37vLTw" id="3Sgll4LMWwU" role="37wK5m">
+                  <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="4Rlyz3E6s7y" role="2Oq$k0">
+                <property role="Xl_RC" value="com.symbol.enterprisebrowser" />
+              </node>
             </node>
           </node>
           <node concept="3eNFk2" id="6PcZc$6eYwK" role="3eNLev">
@@ -668,7 +740,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="186V0VF2ntb" role="3cqZAp" />
-        <node concept="1X3_iC" id="7LzF1ZCzn$v" role="lGtFl">
+        <node concept="1X3_iC" id="3DO9NVDOKM_" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3cpWs8" id="186V0VF2nQO" role="8Wnug">
@@ -689,7 +761,7 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="7LzF1ZCzocE" role="lGtFl">
+        <node concept="1X3_iC" id="3DO9NVDOLh$" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="2$JKZl" id="186V0VF2oct" role="8Wnug">

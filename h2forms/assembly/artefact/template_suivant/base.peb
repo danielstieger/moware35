@@ -67,24 +67,15 @@
   <link rel="stylesheet" href="{{ statics.staticContentUrlPrefix }}/css/suivant-tmpl.css{{ page.ncs }}">
   <link rel="stylesheet" href="{{ statics.staticContentUrlPrefix }}/css/w3-theme-teal.css{{ page.ncs }}">
   <link rel="stylesheet" href="{{ statics.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
-
   <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/suivantui.js{{ page.ncs }}"></script>
-  {% if client.deviceSw equals "ZEBRAEB_18" %}
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.application.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/eb.sip.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_zebra18.js{{ page.ncs }}"></script>
-  {% elseif client.deviceSw equals "ZEBRAEB_20" %}
+
+  {% if client.deviceSw equals "ZEBRAEB_20" %}
     <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_zebra20.js{{ page.ncs }}"></script>
   {% elseif client.deviceSw equals "ZEBRAEB_30" %}
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi3/ebapi-modules.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi3/elements.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi32/ebapi-modules.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/ebapi32/elements.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_zebra30B.js{{ page.ncs }}"></script>
   {% elseif client.deviceSw equals "SCANDIT" %}
     <script charset="utf-8" src="{{ statics.staticContentUrlPrefix }}/js20/hwsprt_scandit.js{{ page.ncs }}"></script>
