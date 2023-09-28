@@ -14360,12 +14360,14 @@
       <node concept="3Tm1VV" id="6IJC_lwok4s" role="1B3o_S" />
       <node concept="3clFbS" id="6IJC_lwok4t" role="3clF47">
         <node concept="3clFbF" id="6IJC_lworqc" role="3cqZAp">
-          <node concept="2OqwBi" id="6IJC_lwortT" role="3clFbG">
-            <node concept="37vLTw" id="6IJC_lworqb" role="2Oq$k0">
-              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-            </node>
-            <node concept="liA8E" id="6IJC_lworGY" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:6IJC_lwovWV" resolve="hasCommitableSessionRunning" />
+          <node concept="3fqX7Q" id="_66gAv035a" role="3clFbG">
+            <node concept="2OqwBi" id="_66gAv035c" role="3fr31v">
+              <node concept="37vLTw" id="_66gAv035d" role="2Oq$k0">
+                <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+              </node>
+              <node concept="liA8E" id="_66gAv035e" role="2OqNvi">
+                <ref role="37wK5l" to="1e0c:_66gAuKKJE" resolve="noGraphsToCommit" />
+              </node>
             </node>
           </node>
         </node>
@@ -14524,6 +14526,54 @@
       <node concept="3cqZAl" id="701$ZaZNy8o" role="3clF45" />
       <node concept="3Tm1VV" id="701$ZaZNy8p" role="1B3o_S" />
       <node concept="3clFbS" id="701$ZaZNy8s" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="_66gAv1lz2" role="jymVt">
+      <property role="TrG5h" value="parDeploymentForwardNow" />
+      <node concept="3cqZAl" id="_66gAv1lz3" role="3clF45" />
+      <node concept="3Tm1VV" id="_66gAv1lz4" role="1B3o_S" />
+      <node concept="3clFbS" id="_66gAv1lz7" role="3clF47">
+        <node concept="3SKdUt" id="_66gAv1$QJ" role="3cqZAp">
+          <node concept="1PaTwC" id="_66gAv1$QK" role="1aUNEU">
+            <node concept="3oM_SD" id="_66gAv1$QL" role="1PaTwD">
+              <property role="3oM_SC" value="Sept" />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1EPe" role="1PaTwD">
+              <property role="3oM_SC" value="23," />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1FxA" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1FxE" role="1PaTwD">
+              <property role="3oM_SC" value="implemented" />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1FxJ" role="1PaTwD">
+              <property role="3oM_SC" value="yet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="_66gAv1HbT" role="3cqZAp">
+          <node concept="1PaTwC" id="_66gAv1HbU" role="1aUNEU">
+            <node concept="3oM_SD" id="_66gAv1HbV" role="1PaTwD">
+              <property role="3oM_SC" value="using" />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1Hc8" role="1PaTwD">
+              <property role="3oM_SC" value="legacy" />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1ZwH" role="1PaTwD">
+              <property role="3oM_SC" value="nginx" />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1LfQ" role="1PaTwD">
+              <property role="3oM_SC" value="parallel" />
+            </node>
+            <node concept="3oM_SD" id="_66gAv1LfU" role="1PaTwD">
+              <property role="3oM_SC" value="deployment" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="_66gAv1lz8" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="5hYsHqQ$1_8" role="jymVt">
       <property role="1EzhhJ" value="false" />
