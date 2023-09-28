@@ -4454,7 +4454,7 @@
                     </node>
                   </node>
                   <node concept="Xl_RD" id="2yuEF6qoRx0" role="3uHU7w">
-                    <property role="Xl_RC" value=" / " />
+                    <property role="Xl_RC" value=" " />
                   </node>
                 </node>
               </node>

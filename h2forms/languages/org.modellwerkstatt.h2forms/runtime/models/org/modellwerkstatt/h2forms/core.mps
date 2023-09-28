@@ -1477,7 +1477,7 @@
               <node concept="3cpWs3" id="2yuEF6qd4Oa" role="37wK5m">
                 <node concept="3cpWs3" id="2yuEF6qd99I" role="3uHU7B">
                   <node concept="Xl_RD" id="2yuEF6qd9wi" role="3uHU7w">
-                    <property role="Xl_RC" value=" / " />
+                    <property role="Xl_RC" value=" " />
                   </node>
                   <node concept="2OqwBi" id="2yuEF6qd6mC" role="3uHU7B">
                     <node concept="37vLTw" id="2yuEF6qd52i" role="2Oq$k0">
