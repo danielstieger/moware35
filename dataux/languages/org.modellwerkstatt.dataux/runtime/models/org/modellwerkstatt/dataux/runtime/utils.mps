@@ -2843,12 +2843,12 @@
         <property role="TrG5h" value="APPLICATION_LOCKED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="7nxGN1HIKwE" role="37wK5m">
-          <property role="Xl_RC" value="Ihre Anwendung wird durch eine neue Version ersetzt.\nEs erfolgt nun ein neu-start." />
+          <property role="Xl_RC" value="Ihre Anwendung wird durch eine neue Version ersetzt.\nSie werden zur neuen Version umgeleitet." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDq" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDr" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6jp" role="37wK5m">
-          <property role="Xl_RC" value="Your app is replaced with a newer version.\nWe will restart your app now." />
+          <property role="Xl_RC" value="Your app is replaced with a newer version.\nWe will redirect you to the new version now." />
         </node>
       </node>
       <node concept="QsSxf" id="6OyHsl_0Q4P" role="Qtgdg">

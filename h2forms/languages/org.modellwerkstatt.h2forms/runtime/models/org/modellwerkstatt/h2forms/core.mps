@@ -990,6 +990,22 @@
                 <node concept="37vLTw" id="7WBKY1WhevF" role="37wK5m">
                   <ref role="3cqZAo" node="1v_dMXwIDjp" resolve="appBehaviourFqName" />
                 </node>
+                <node concept="2OqwBi" id="64g0II1yvfp" role="37wK5m">
+                  <node concept="2OqwBi" id="XYb_C33pAx" role="2Oq$k0">
+                    <node concept="37vLTw" id="64g0II1yv5Z" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2462lDSpvEp" resolve="statics" />
+                    </node>
+                    <node concept="2S8uIT" id="XYb_C33qWj" role="2OqNvi">
+                      <ref role="2S8YL0" node="7WBKY1WePPd" resolve="servletPath" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="64g0II1yvye" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
+                    <node concept="3cmrfG" id="64g0II1yvAp" role="37wK5m">
+                      <property role="3cmrfH" value="1" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="2OqwBi" id="7WBKY1WfcTW" role="37wK5m">
                   <node concept="37vLTw" id="7WBKY1WfcRI" role="2Oq$k0">
                     <ref role="3cqZAo" node="2462lDSpvEp" resolve="statics" />

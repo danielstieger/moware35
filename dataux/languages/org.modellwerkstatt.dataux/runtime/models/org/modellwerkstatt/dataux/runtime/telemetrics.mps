@@ -234,6 +234,10 @@
         <property role="TrG5h" value="appBehaviourFqName" />
         <node concept="17QB3L" id="2yuEF6q8Sxr" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="XYb_C33jy1" role="3clF46">
+        <property role="TrG5h" value="namePostFix" />
+        <node concept="17QB3L" id="XYb_C33j_8" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="2yuEF6q8Sy_" role="3clF46">
         <property role="TrG5h" value="servletPath" />
         <node concept="17QB3L" id="2yuEF6q8Sze" role="1tU5fm" />
@@ -303,17 +307,6 @@
         <node concept="3clFbF" id="64g0II1ytGV" role="3cqZAp">
           <node concept="37vLTI" id="64g0II1yuj3" role="3clFbG">
             <node concept="3cpWs3" id="64g0II1yuYR" role="37vLTx">
-              <node concept="2OqwBi" id="64g0II1yvfp" role="3uHU7w">
-                <node concept="37vLTw" id="64g0II1yv5Z" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2yuEF6q8Sy_" resolve="servletPath" />
-                </node>
-                <node concept="liA8E" id="64g0II1yvye" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
-                  <node concept="3cmrfG" id="64g0II1yvAp" role="37wK5m">
-                    <property role="3cmrfH" value="1" />
-                  </node>
-                </node>
-              </node>
               <node concept="3cpWs3" id="64g0II1yuR_" role="3uHU7B">
                 <node concept="37vLTw" id="64g0II1yuKW" role="3uHU7B">
                   <ref role="3cqZAo" node="2yuEF6q8SwJ" resolve="appBehaviourFqName" />
@@ -321,6 +314,9 @@
                 <node concept="Xl_RD" id="64g0II1yuSU" role="3uHU7w">
                   <property role="Xl_RC" value="_" />
                 </node>
+              </node>
+              <node concept="37vLTw" id="XYb_C33jBf" role="3uHU7w">
+                <ref role="3cqZAo" node="XYb_C33jy1" resolve="namePostFix" />
               </node>
             </node>
             <node concept="37vLTw" id="64g0II1ytGT" role="37vLTJ">
@@ -2224,7 +2220,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="6V7pU2kbJA3" role="3uHU7w">
-                  <property role="Xl_RC" value="\n" />
+                  <property role="Xl_RC" value=" / " />
                 </node>
               </node>
               <node concept="Xl_RD" id="6V7pU2kbLO3" role="3uHU7w">

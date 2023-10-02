@@ -3976,7 +3976,18 @@
                 <node concept="37vLTw" id="1EBV9L$tNnc" role="37wK5m">
                   <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
                 </node>
-                <node concept="37vLTw" id="1EBV9L$tPSX" role="37wK5m">
+                <node concept="2OqwBi" id="XYb_C33N7x" role="37wK5m">
+                  <node concept="37vLTw" id="1EBV9L$tPSX" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6QRLe84jItq" resolve="servletPath" />
+                  </node>
+                  <node concept="liA8E" id="XYb_C33Nxd" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
+                    <node concept="3cmrfG" id="XYb_C33NGO" role="37wK5m">
+                      <property role="3cmrfH" value="1" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="XYb_C33KvE" role="37wK5m">
                   <ref role="3cqZAo" node="6QRLe84jItq" resolve="servletPath" />
                 </node>
                 <node concept="37vLTw" id="64g0II1EUEi" role="37wK5m">
