@@ -222,6 +222,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     ebCameraEnumeration = EB.Camera.enumerate();
 
+    var ignoreKeys = function (params){
+    }
+    EB.KeyCapture.captureKey(false, '0x04', ignoreKeys);
+
     mLog('DOMContentLoaded', 'EB API initialized - ready. tommy=' + tomcatServer);
 
  });
