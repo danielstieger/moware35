@@ -4,7 +4,7 @@
  Build.xml: Building an application with turkuforms 
             based on moware plugin 11
             
- daniel stieger, summer 2023, koblach
+ daniel stieger, autum 2023, koblach
 
  
  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jbr11/Contents/Home
@@ -12,56 +12,60 @@
  
 -->
  
-<project name="TurkuApp" default="default">      
+<project name="TurkuApp" default="mowareBuildSimpleOne">      
   
   <!-- **** include files setup **************************************************************** -->
-  <include file="../moware/objectflow/assembly/bmoware.xml" as="bmoware"/>
-  <include file="../moware/objectflow/assembly/moware.xml" as="moware"/>
-
-
-  <!-- **** app specific definitions **************************************************************** -->
-  <property name="appName"              value="TurkuEfwws" />
-  <property name="appMainclass"         value="at.mlab.erp.app.app.eFWWS" />
-  <property name="appConfiguration"     value="at/mlab/erp/app/appConf/TurkuEfwws.xml" /> 
-  <property name="appHomeScreen"        value="TurkuEfwws" />
-  <property name="turkuWarLocation"		value="/Users/danielstieger/migration/2020_3/turkuforms/build/libs/turkuforms.war" />
+  <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
+  <include file="../../objectflow/assembly/moware.xml" as="moware"/>
+  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
   
 
-  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
+  <!-- **** app specific definitions **************************************************************** -->
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.o1deploy_simpleApp.App_Desktop_Order" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/o9infra_configs/TurkuConfig.xml" /> 
+  <property name="appHomeScreen"        value="simpleone" />
+ 
+
  
  
         
   <!-- **** solutions to incorporate in this build ************************************************** -->
-  <property name="solultionSimpleGen"   value="${buildUserHome}/eFWWS/solutions/at.hafina.filiale.wws/classes_gen" />
-  <property name="solultionSimpleGen1"  value="${buildUserHome}/FIRM/solutions/at.hafina.firmshared/classes_gen" />
-  <property name="solultionJars"        value="${buildUserHome}/eFWWS/jars" />
+  <property name="solultionSimpleGen"   value="${buildUserHome}/simpleone/solutions/Simple/classes_gen" />
+  <!-- <property name="solultionSimpleGen1"  value="${buildUserHome}/FIRM/solutions/at.hafina.firmshared/classes_gen" />
+  <property name="solultionJars"        value="${buildUserHome}/eFWWS/jars" /> -->
     
-  <property name="appBuildVersion" value="0.0.1"/>
 
-
+  <!-- name of war and version -->
+  <property name="appName" value="simpleone" />
+  <exec executable="java" outputproperty="appBuildVersion">
+   <arg value="-cp"/>
+   <!-- <arg value="${solultionSimpleGen};${execInBuildClassPathWin}" /> -->
+   <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
+   <arg value="org.modellwerkstatt.simple.o8infra_objects.TestSetting" />
+  </exec>
+  
   <echo>
-    Run by ${user.name} on Java Home : ${java.home}
-    Building VERSION ${appBuildVersion} of ${appMainclass}
+  	*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+	Run by ${user.name} on Java Home : ${java.home}
+	Building VERSION ${appName}##${appBuildVersion} of ${appMainclass}
 	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}    
   </echo>
 
 
 
-
-  <target name="default" depends="moware.turkuforms">
-  
+  <target name="mowareBuildSimpleOne" depends="moware.turkuforms">
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
       <fileset dir="${solultionSimpleGen}" />
-      <fileset dir="${solultionSimpleGen1}" />
+      <!-- <fileset dir="${solultionSimpleGen1}" /> -->
     </copy>
     
-    <copy todir="work/WEB-INF/lib">
+    <!-- <copy todir="work/WEB-INF/lib">
       <fileset dir="${solultionJars}" />
-    </copy>
+    </copy> -->
     
     <mkdir dir="dist"/>  
-    <jar destfile="dist/${appName}.war" basedir="${mowareWorkDir}" update="false">
+    <jar destfile="dist/${appName}##${appBuildVersion}.war" basedir="${mowareWorkDir}" update="false">
       <manifest>
         <attribute name="Main-Class" value="${appMainclass}" />
         <attribute name="Version"    value="${appBuildVersion}" />
@@ -69,20 +73,18 @@
     </jar>
     
   </target>
-
-
-
-
-
-
-
-
-
   
-  <target name="clean" description="Delete old work and dist directories">
+  <target name="redeploy" depends="mowareBuildSimpleOne">
+  	<copy todir="${tomcatHomeDir}/webapps/">
+  		<fileset dir="dist/${appName}##${appBuildVersion}.war" />
+  	</copy>
+  </target>
+  
+  <target name="cleanApp" description="Delete old work and dist directories">
 	<delete dir="work"/>
     <delete dir="dist"/>
     <delete dir="turku"/>
     
   </target>
+  
 </project>

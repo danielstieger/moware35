@@ -10,13 +10,13 @@
              
 			 mowarePluginHomeDir    path to moware plugin base directory 
 			 mowareMpsHomeDir       path to mps installation base directory
-			 mowareWorkDir     path to target directory, where we copy dependent jars
+			 mowareWorkDir     		path to target directory, where we copy dependent jars
 			                        or the complete app setup (h2forms/vaadin)
 
 			 DEFAULTS
 			 mowarePluginHomeDir    ${user.home}/.MPS_XXX/config/plugins/moware 
 			 mowareMpsHomeDir       C:/javaexe/MPS_XXX
-			 mowareWorkDir     work
+			 mowareWorkDir     		work
 
 			 
 			 Necessary properties for jobs, h2forms & vaadin apps
@@ -60,7 +60,7 @@
 	<property name="execInBuildClassPathUnix"     value="${mowareMpsHomeDir}/lib/mps-references.jar:${mowareMpsHomeDir}/lib/mps-collections.jar:${mowareMpsHomeDir}/lib/mps-closures.jar" />
 	<property name="execInBuildClassPathWin"      value="${mowareMpsHomeDir}/lib/mps-references.jar;${mowareMpsHomeDir}/lib/mps-collections.jar;${mowareMpsHomeDir}/lib/mps-closures.jar" />
 	
-	<property name="turkuWarLocation"		  value="/Users/danielstieger/migration/2020_3/turkuforms/build/libs/turkuforms.war" />
+	<property name="turkuWarLocation"		  value="${mowarePluginHomeDir}/jars/turkuforms.war" />
 	<property name="turkuLocation"			  value="turku" />
 	
 	
@@ -254,7 +254,7 @@
 		<copy file="${turkuLocation}/META-INF/context.xml" tofile="${mowareWorkDir}/META-INF/context.xml" filtering="yes" overwrite="yes">
     	</copy>
     
-		<copy file="${turkuLocation}/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		<copy file="${mowarePluginHomeDir}/turkuassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
