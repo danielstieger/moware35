@@ -1,0 +1,88 @@
+<!--
+
+
+ Build.xml: Building an application with turkuforms 
+            based on moware plugin 11
+            
+ daniel stieger, summer 2023, koblach
+
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jbr11/Contents/Home
+ export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ 
+-->
+ 
+<project name="TurkuApp" default="default">      
+  
+  <!-- **** include files setup **************************************************************** -->
+  <include file="../moware/objectflow/assembly/bmoware.xml" as="bmoware"/>
+  <include file="../moware/objectflow/assembly/moware.xml" as="moware"/>
+
+
+  <!-- **** app specific definitions **************************************************************** -->
+  <property name="appName"              value="TurkuEfwws" />
+  <property name="appMainclass"         value="at.mlab.erp.app.app.eFWWS" />
+  <property name="appConfiguration"     value="at/mlab/erp/app/appConf/TurkuEfwws.xml" /> 
+  <property name="appHomeScreen"        value="TurkuEfwws" />
+  <property name="turkuWarLocation"		value="/Users/danielstieger/migration/2020_3/turkuforms/build/libs/turkuforms.war" />
+  
+
+  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
+ 
+ 
+        
+  <!-- **** solutions to incorporate in this build ************************************************** -->
+  <property name="solultionSimpleGen"   value="${buildUserHome}/eFWWS/solutions/at.hafina.filiale.wws/classes_gen" />
+  <property name="solultionSimpleGen1"  value="${buildUserHome}/FIRM/solutions/at.hafina.firmshared/classes_gen" />
+  <property name="solultionJars"        value="${buildUserHome}/eFWWS/jars" />
+    
+  <property name="appBuildVersion" value="0.0.1"/>
+
+
+  <echo>
+    Run by ${user.name} on Java Home : ${java.home}
+    Building VERSION ${appBuildVersion} of ${appMainclass}
+	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}    
+  </echo>
+
+
+
+
+  <target name="default" depends="moware.turkuforms">
+  
+    <mkdir dir="work/WEB-INF/classes"/>
+    <copy todir="work/WEB-INF/classes">
+      <fileset dir="${solultionSimpleGen}" />
+      <fileset dir="${solultionSimpleGen1}" />
+    </copy>
+    
+    <copy todir="work/WEB-INF/lib">
+      <fileset dir="${solultionJars}" />
+    </copy>
+    
+    <mkdir dir="dist"/>  
+    <jar destfile="dist/${appName}.war" basedir="${mowareWorkDir}" update="false">
+      <manifest>
+        <attribute name="Main-Class" value="${appMainclass}" />
+        <attribute name="Version"    value="${appBuildVersion}" />
+      </manifest>
+    </jar>
+    
+  </target>
+
+
+
+
+
+
+
+
+
+  
+  <target name="clean" description="Delete old work and dist directories">
+	<delete dir="work"/>
+    <delete dir="dist"/>
+    <delete dir="turku"/>
+    
+  </target>
+</project>

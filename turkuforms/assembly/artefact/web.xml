@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        id="WebApp_ID" version="3.0"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+    <description>
+        Moware Turkuforms APPLICATION_FQNAME - APPLICATION_BUILDVERSION
+    </description>
+    <display-name>APPLICATION_FQNAME - APPLICATION_BUILDVERSION</display-name>
+
+    <session-config>
+        <session-timeout>2</session-timeout>
+    </session-config>
+
+    <servlet>
+        <async-supported>true</async-supported>
+        <servlet-name>loaderservlet</servlet-name>
+        <servlet-class>org.modellwerkstatt.turkuforms.app.TurkuServlet</servlet-class>
+
+        <init-param>
+            <param-name>heartbeatInterval</param-name>
+            <param-value>30</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>pushmode</param-name>
+            <param-value>automatic</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>xmlConfigFile</param-name>
+            <param-value>APPLICATION_CONFIG</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>applicationFqName</param-name>
+            <param-value>APPLICATION_FQNAME</param-value>
+        </init-param>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loaderservlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+</web-app>
