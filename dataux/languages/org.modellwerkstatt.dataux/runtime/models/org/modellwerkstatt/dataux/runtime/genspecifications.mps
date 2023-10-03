@@ -8121,6 +8121,9 @@
               <node concept="2ShNRf" id="54U5LVfYP6H" role="37wK5m">
                 <node concept="1pGfFk" id="54U5LVfYP6I" role="2ShVmc">
                   <ref role="37wK5l" to="5wm0:3PmCowOXHc6" resolve="TableCellSimpleConverter" />
+                  <node concept="37vLTw" id="PWBLyAmYPM" role="37wK5m">
+                    <ref role="3cqZAo" node="PWBLyAmVFK" resolve="rightAlign" />
+                  </node>
                 </node>
               </node>
               <node concept="37vLTw" id="54U5LVfYP6O" role="37wK5m">
@@ -8177,6 +8180,10 @@
       <node concept="37vLTG" id="54U5LVfYP78" role="3clF46">
         <property role="TrG5h" value="important" />
         <node concept="10P_77" id="54U5LVfYP79" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="PWBLyAmVFK" role="3clF46">
+        <property role="TrG5h" value="rightAlign" />
+        <node concept="10P_77" id="PWBLyAmXZA" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="54U5LVfYIAJ" role="jymVt" />

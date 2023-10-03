@@ -11204,6 +11204,11 @@
   <node concept="312cEu" id="3PmCowOXHc4">
     <property role="TrG5h" value="TableCellSimpleConverter" />
     <property role="3GE5qa" value="TableConverters" />
+    <node concept="312cEg" id="PWBLyAmZHR" role="jymVt">
+      <property role="TrG5h" value="rightAlign" />
+      <node concept="3Tm6S6" id="PWBLyAmZHS" role="1B3o_S" />
+      <node concept="10P_77" id="PWBLyAmZOz" role="1tU5fm" />
+    </node>
     <node concept="3Tm1VV" id="3PmCowOXHc5" role="1B3o_S" />
     <node concept="3uibUv" id="1KgqQuBB3F6" role="EKbjA">
       <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
@@ -11214,7 +11219,22 @@
     <node concept="3clFbW" id="3PmCowOXHc6" role="jymVt">
       <node concept="3cqZAl" id="3PmCowOXHc7" role="3clF45" />
       <node concept="3Tm1VV" id="3PmCowOXHc8" role="1B3o_S" />
-      <node concept="3clFbS" id="3PmCowOXHc9" role="3clF47" />
+      <node concept="3clFbS" id="3PmCowOXHc9" role="3clF47">
+        <node concept="3clFbF" id="PWBLyAn07L" role="3cqZAp">
+          <node concept="37vLTI" id="PWBLyAn0oe" role="3clFbG">
+            <node concept="37vLTw" id="PWBLyAn0ui" role="37vLTx">
+              <ref role="3cqZAo" node="PWBLyAmZxM" resolve="right" />
+            </node>
+            <node concept="37vLTw" id="PWBLyAn07K" role="37vLTJ">
+              <ref role="3cqZAo" node="PWBLyAmZHR" resolve="rightAlign" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="PWBLyAmZxM" role="3clF46">
+        <property role="TrG5h" value="right" />
+        <node concept="10P_77" id="PWBLyAmZxL" role="1tU5fm" />
+      </node>
     </node>
     <node concept="3clFb_" id="3PmCowOXHcb" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -11400,8 +11420,10 @@
       <node concept="10P_77" id="1oA5m_ZtoD7" role="3clF45" />
       <node concept="3Tm1VV" id="1oA5m_ZtoD8" role="1B3o_S" />
       <node concept="3clFbS" id="1oA5m_ZtoD9" role="3clF47">
-        <node concept="3clFbF" id="1oA5m_ZtoDa" role="3cqZAp">
-          <node concept="3clFbT" id="1oA5m_ZtoDb" role="3clFbG" />
+        <node concept="3clFbF" id="PWBLyAn0vq" role="3cqZAp">
+          <node concept="37vLTw" id="PWBLyAn0vp" role="3clFbG">
+            <ref role="3cqZAo" node="PWBLyAmZHR" resolve="rightAlign" />
+          </node>
         </node>
       </node>
     </node>
