@@ -64,6 +64,8 @@
       <fileset dir="${solultionJars}" />
     </copy> -->
     
+    
+    
     <mkdir dir="dist"/>  
     <jar destfile="dist/${appName}##${appBuildVersion}.war" basedir="${mowareWorkDir}" update="false">
       <manifest>
@@ -76,7 +78,7 @@
   
   <target name="redeploy" depends="mowareBuildSimpleOne">
   	<copy todir="${tomcatHomeDir}/webapps/">
-  		<fileset dir="dist/${appName}##${appBuildVersion}.war" />
+  		<fileset dir="dist/" />
   	</copy>
   </target>
   

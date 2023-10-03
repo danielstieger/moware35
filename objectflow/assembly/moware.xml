@@ -60,7 +60,7 @@
 	<property name="execInBuildClassPathUnix"     value="${mowareMpsHomeDir}/lib/mps-references.jar:${mowareMpsHomeDir}/lib/mps-collections.jar:${mowareMpsHomeDir}/lib/mps-closures.jar" />
 	<property name="execInBuildClassPathWin"      value="${mowareMpsHomeDir}/lib/mps-references.jar;${mowareMpsHomeDir}/lib/mps-collections.jar;${mowareMpsHomeDir}/lib/mps-closures.jar" />
 	
-	<property name="turkuWarLocation"		  value="${mowarePluginHomeDir}/jars/turkuforms.war" />
+	<property name="turkuWarLocation"		  value="${mowarePluginHomeDir}/jars/turku/turkuforms.war" />
 	<property name="turkuLocation"			  value="turku" />
 	
 	

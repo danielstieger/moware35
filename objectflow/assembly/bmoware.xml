@@ -111,7 +111,7 @@
   </target>
   
   <target name="mowareUpdatePluginForTukru">
-  	<copy todir="${mowarePluginHomeDir}/jars/" overwrite="true" >
+  	<copy todir="${mowarePluginHomeDir}/jars/turku/" overwrite="true" >
     	<fileset dir="${mowareHome}/turkuforms/jars"/>
   	</copy>
   	<delete includeEmptyDirs="true" failonerror="false">
