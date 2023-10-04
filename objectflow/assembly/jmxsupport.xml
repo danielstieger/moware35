@@ -1,0 +1,84 @@
+<!--
+
+
+ jmxsupport.xml: jmx support for moware via catalina-ant.jar 
+				 task definitions and examples 
+
+				 you have to add catalina-ant.jar to your ant/lib folder
+ 
+            
+ daniel stieger, autumn 2023, koblach
+
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jbr11/Contents/Home
+ export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ 
+-->
+ 
+<project name="MowareJmxSupport" default="default">      
+  
+<typedef
+    name="jmxOpen"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorTask" />
+<typedef
+    name="jmxSet"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorSetTask" />
+<typedef
+    name="jmxGet"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorGetTask" />
+<typedef
+    name="jmxInvoke"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorInvokeTask" />
+<typedef
+    name="jmxQuery"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorQueryTask" />
+<typedef
+    name="jmxCreate"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorCreateTask" />
+<typedef
+    name="jmxUnregister"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorUnregisterTask" />
+<typedef
+    name="jmxEquals"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorEqualsCondition" />
+<typedef
+    name="jmxCondition"
+    classname="org.apache.catalina.ant.jmx.JMXAccessorCondition" />
+
+
+<target name="default">
+
+	<property name="appName"       			value="org.modellwerkstatt.simple.o1deploy_simpleApp.App_Desktop_Order" /> 
+	<property name="appVersion"    			value="0.9" /> 
+	<property name="appTelemetricsName"    	value="${appName}_${appVersion}:type=ApplicationTelemetrics" /> 
+
+
+<jmxOpen
+    host="localhost"
+    port="9005"
+    ref="tomcat1"
+    failOnError="true" />
+ 
+<!-- <jmxGet
+    name="${appTelemetricsName}"
+    attribute="app_parDeploymentStatus"
+	echo="false"
+    failOnError="true"
+    ref="tomcat1"
+    resultproperty="status" />
+ 
+<echo>ParDeploymentStatus currently: ${status} </echo> -->
+
+<jmxInvoke
+    name="${appTelemetricsName}"
+    operation="parDeployForwardNotDirty"
+    echo="true"
+    delimiter=" "
+    failOnError="true"
+    ref="tomcat1">
+    
+    <arg value="true" type="boolean"/>
+</jmxInvoke> 
+
+  </target>
+</project>
