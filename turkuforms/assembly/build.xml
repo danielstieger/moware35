@@ -81,6 +81,13 @@
   		<fileset dir="dist/" />
   	</copy>
   </target>
+
+  <target name="redeployOnly">
+  	<copy todir="${tomcatHomeDir}/webapps/">
+  		<fileset dir="dist/" />
+  	</copy>
+  </target>
+
   
   <target name="cleanApp" description="Delete old work and dist directories">
 	<delete dir="work"/>

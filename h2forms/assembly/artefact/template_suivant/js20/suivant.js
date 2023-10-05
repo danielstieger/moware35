@@ -219,7 +219,10 @@ function svTakePicture(editorId) {
             'outputFormat': 'imagePath'                    Argument ImagePath not working? Dan 22.Nov 21 */
             'outputFormat': 'image',
             'fileName': uploadInternalFilename + editorId,
-            'useSystemViewfinder': true,
+            'useSystemViewfinder': false,
+            'desiredHeight': 1920,
+            'desiredWidth': 1080,
+            'flashMode': 'off',
             };
 
     uploadCameraToUse.takePicture(param, svCameraPicTaken);
