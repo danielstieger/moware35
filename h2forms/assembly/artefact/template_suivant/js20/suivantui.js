@@ -25,17 +25,19 @@ function isSvNavDisabled() {
 var reqLogString = '';
 var lastReqLogTimestamp = 0;
 
+
 function reqLog(msg) {
-    var now = Date.now();
-    var diff = now - lastReqLogTimestamp;
+    var now = new Date();
+    var diff = now.getTime() - lastReqLogTimestamp.getTime();
     lastReqLogTimestamp = now;
 
-    reqLogString += '' + diff + ': ' + msg + '\n';
+    var dateSt = '' + now.getHours() + ':' + now.getMinutes() + ":" + now.getSeconds() + '.' + now.getMilliseconds();
+    reqLogString += dateSt + '  ' + diff + ': ' + msg + '\n';
 }
 
 function reqLogClear() {
     reqLogString = "";
-    lastReqLogTimestamp = Date.now();
+    lastReqLogTimestamp = new Date();
 }
 
 function svLog(methodName, msg) {
