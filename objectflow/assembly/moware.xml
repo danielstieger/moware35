@@ -232,7 +232,9 @@
 		<copy todir="${mowareWorkDir}/WEB-INF/classes">
 			<fileset dir="${turkuLocation}/WEB-INF/classes" includes="**" />
         </copy>
-
+		<copy todir="${mowareWorkDir}/static">
+			<fileset dir="${turkuLocation}/static" includes="**" />
+        </copy>
 
 
 		<copy todir="${mowareWorkDir}/WEB-INF/lib">
