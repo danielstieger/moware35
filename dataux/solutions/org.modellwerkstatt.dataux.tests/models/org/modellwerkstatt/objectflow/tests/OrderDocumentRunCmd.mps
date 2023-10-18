@@ -275,7 +275,7 @@
         <property id="830334255848575723" name="logLevel" index="Rda9K" />
         <child id="2356914237085088917" name="exp" index="3VcgQn" />
       </concept>
-      <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.ViewObject" flags="ig" index="1YeyE5" />
+      <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -406,7 +406,6 @@
           <node concept="3zdtvw" id="4DaB5G8T0Po" role="2TpcRr">
             <property role="TrG5h" value="orderDocument" />
             <ref role="3zdv75" node="4DaB5G8T0xD" resolve="Page_0" />
-            <ref role="3zdv76" node="4DaB5G8T0$r" resolve="SaveNClose" />
           </node>
           <node concept="2_HltQ" id="4DaB5G8T09o" role="2TpcRq">
             <ref role="2_Hrw8" node="4DaB5G8SXUE" resolve="GO" />

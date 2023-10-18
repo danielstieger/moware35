@@ -9,7 +9,7 @@
         <barTransparency value="0" />
         <barFontSize value="20" />
         <barLeft value="devicewidth * 0.4" />
-        <barTop value="deviceheight * 0.93" />
+        <barTop value="deviceheight * 0.87" />
         <barWidth value="devicewidth * 0.6" />
         <barHeight value="deviceheight * 0.07" />
         <barTextColor value="#e0e0e0" />
@@ -51,7 +51,7 @@
         <barTransparency value="0" />
         <barFontSize value="20" />
         <barLeft value="devicewidth * 0.4" />
-        <barTop value="deviceheight * 0.86" />
+        <barTop value="deviceheight * 0.80" />
         <barWidth value="devicewidth * 0.6" />
         <barHeight value="deviceheight * 0.07" />
         <barTextColor value="#e0e0e0" />
@@ -92,7 +92,7 @@
         <barTransparency value="0" />
         <barFontSize value="20" />
         <barLeft value="devicewidth * 0.4" />
-        <barTop value="deviceheight * 0.79" />
+        <barTop value="deviceheight * 0.731" />
         <barWidth value="devicewidth * 0.6" />
         <barHeight value="deviceheight * 0.07" />
         <barTextColor value="#e0e0e0" />
@@ -133,7 +133,7 @@
         <barTransparency value="0" />
         <barFontSize value="20" />
         <barLeft value="devicewidth * 0.4" />
-        <barTop value="deviceheight * 0.72" />
+        <barTop value="deviceheight * 0.661" />
         <barWidth value="devicewidth * 0.6" />
         <barHeight value="deviceheight * 0.07" />
         <barTextColor value="#e0e0e0" />
@@ -174,7 +174,7 @@
         <barTransparency value="0" />
         <barFontSize value="20" />
         <barLeft value="0" />
-        <barTop value="deviceheight * 0.72" />
+        <barTop value="deviceheight * 0.661" />
         <barWidth value="devicewidth * 0.4" />
         <barHeight value="deviceheight * 0.14" />
         <barTextColor value="#e0e0e0" />
@@ -199,7 +199,7 @@
         <barTransparency value="0" />
         <barFontSize value="20" />
         <barLeft value="0" />
-        <barTop value="deviceheight * 0.86" />
+        <barTop value="deviceheight * 0.8" />
         <barWidth value="devicewidth * 0.4" />
         <barHeight value="deviceheight * 0.14" />
         <barTextColor value="#e0e0e0" />
@@ -222,7 +222,7 @@
         <barColorPressed value="#e0e0e0" />
         <barFontSize value="20" />
         <barLeft value="0" />
-        <barTop value="deviceheight * 0.72" />
+        <barTop value="deviceheight * 0.661" />
         <barWidth value="devicewidth * 0.4" />
         <barHeight value="deviceheight * 0.14" />
         <barTextColor value="#e0e0e0" />
@@ -246,7 +246,7 @@
         <barColorPressed value="#e0e0e0" />
         <barFontSize value="20" />
         <barLeft value="0" />
-        <barTop value="deviceheight * 0.86" />
+        <barTop value="deviceheight * 0.8" />
         <barWidth value="devicewidth * 0.4" />
         <barHeight value="deviceheight * 0.14" />
         <barTextColor value="#e0e0e0" />
