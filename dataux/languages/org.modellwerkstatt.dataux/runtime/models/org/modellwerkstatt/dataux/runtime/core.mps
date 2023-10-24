@@ -18579,16 +18579,21 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbC" id="2FClOw1XZus" role="3clFbw">
-            <node concept="3cmrfG" id="2FClOw1Y5R6" role="3uHU7w">
-              <property role="3cmrfH" value="0" />
+          <node concept="22lmx$" id="5IGWIfzGomB" role="3clFbw">
+            <node concept="1rXfSq" id="5IGWIfzGttX" role="3uHU7w">
+              <ref role="37wK5l" node="T1jWmsXH_H" resolve="isDocumentSearch" />
             </node>
-            <node concept="2OqwBi" id="2FClOw1XNaj" role="3uHU7B">
-              <node concept="37vLTw" id="27BPRG5NyEz" role="2Oq$k0">
-                <ref role="3cqZAo" node="4mX9Xggw9s3" resolve="currentConclusions" />
+            <node concept="3clFbC" id="2FClOw1XZus" role="3uHU7B">
+              <node concept="2OqwBi" id="2FClOw1XNaj" role="3uHU7B">
+                <node concept="37vLTw" id="27BPRG5NyEz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4mX9Xggw9s3" resolve="currentConclusions" />
+                </node>
+                <node concept="liA8E" id="27BPRG5NyOW" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
+                </node>
               </node>
-              <node concept="liA8E" id="27BPRG5NyOW" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
+              <node concept="3cmrfG" id="2FClOw1Y5R6" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
               </node>
             </node>
           </node>
