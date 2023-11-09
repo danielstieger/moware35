@@ -2097,7 +2097,7 @@
         <property role="TrG5h" value="CLOS_APP_SHORT" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="3zf0S8jLMFA" role="37wK5m">
-          <property role="Xl_RC" value="Applikation schliessen?" />
+          <property role="Xl_RC" value="Applikation schließen?" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVD" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVE" role="37wK5m" />
@@ -2265,7 +2265,7 @@
         <property role="TrG5h" value="CLOSE_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="2FClOw1VSS6" role="37wK5m">
-          <property role="Xl_RC" value="Schliessen" />
+          <property role="Xl_RC" value="Schließen" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCg" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHh" role="37wK5m">
