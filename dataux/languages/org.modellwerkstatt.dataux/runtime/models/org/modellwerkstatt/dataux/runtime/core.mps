@@ -394,6 +394,7 @@
         <child id="1197932505799" name="map" index="3ElQJh" />
         <child id="1197932525128" name="key" index="3ElVtu" />
       </concept>
+      <concept id="1178894719932" name="jetbrains.mps.baseLanguage.collections.structure.DistinctOperation" flags="nn" index="1VAtEI" />
     </language>
   </registry>
   <node concept="312cEu" id="1U$SEukxJB4">
@@ -10524,6 +10525,22 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="d9nKF9gLO_" role="3cqZAp">
+              <node concept="37vLTI" id="d9nKF9gQ4v" role="3clFbG">
+                <node concept="2OqwBi" id="d9nKF9gTv9" role="37vLTx">
+                  <node concept="2OqwBi" id="d9nKF9gR67" role="2Oq$k0">
+                    <node concept="37vLTw" id="d9nKF9gQMZ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="gGnCBOCRLp" resolve="mainWinHotkeys" />
+                    </node>
+                    <node concept="1VAtEI" id="d9nKF9gRRG" role="2OqNvi" />
+                  </node>
+                  <node concept="ANE8D" id="d9nKF9gUaD" role="2OqNvi" />
+                </node>
+                <node concept="37vLTw" id="d9nKF9gLOz" role="37vLTJ">
+                  <ref role="3cqZAo" node="gGnCBOCRLp" resolve="mainWinHotkeys" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="yc6MyEf26G" role="3cqZAp">
               <node concept="1rXfSq" id="yc6MyEf26E" role="3clFbG">
                 <ref role="37wK5l" node="yc6MyE8hXp" resolve="ensureHotkeysAvailable" />
@@ -15674,7 +15691,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2Gn_LTGjCcP" role="3cqZAp" />
         <node concept="3clFbH" id="63VjT6lGoTe" role="3cqZAp" />
         <node concept="3SKdUt" id="6a7opD20mPk" role="3cqZAp">
           <node concept="1PaTwC" id="5HvIBdJXHsF" role="1aUNEU">
