@@ -5023,6 +5023,24 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="Rm8GO" id="6m2yckY_qC4" role="37wK5m">
+                    <ref role="Rm8GQ" to="250q:6m2yckY_kXu" resolve="ALTER" />
+                    <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+                    <node concept="1W57fq" id="6m2yckY_rvT" role="lGtFl">
+                      <node concept="3IZrLx" id="6m2yckY_rvU" role="3IZSJc">
+                        <node concept="3clFbS" id="6m2yckY_rvV" role="2VODD2">
+                          <node concept="3clFbF" id="6m2yckY_rCQ" role="3cqZAp">
+                            <node concept="2OqwBi" id="6m2yckY_rPW" role="3clFbG">
+                              <node concept="30H73N" id="6m2yckY_rCP" role="2Oq$k0" />
+                              <node concept="2qgKlT" id="6m2yckY_s8v" role="2OqNvi">
+                                <ref role="37wK5l" to="5y3p:6m2yckY_4Rv" resolve="isAlter" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

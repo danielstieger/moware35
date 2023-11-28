@@ -1,4 +1,4 @@
-{% if not wide %}<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>{% endif %}
+{% if not alter %} {% if not wide %}<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>{% endif %}
 <div class="w3-col {% if wide %}m12 s12{% else %}m9 s7{% endif %} {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
 {% if enabled %}
     <select name="{{ editorId }}" id="{{ editorId }}" class="w3-select sv-edit-select"{% if requestFocus %} focusme="true" {% endif %} {% if scanable %}onChange="saveSubmitDueUpdate();"{% endif %}>
@@ -10,4 +10,16 @@
 {% else %}
 {{ value }}
 {% endif %}
+</div> {% else %}
+<input id="{{ editorId }}" name="{{ editorId }}" class="w3-input sv-edit-input" type="hidden" value="{{ selectedIndex }}"/>
+<div class="w3-col m12 s12 sv-edit-label sv-refedit-label">{{ labelText }}</div>
+<div class="w3-col m12 s12">
+{% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
+<ul class="w3-ul w3-border w3-hoverable">
+{% for item in items %}
+  <li id="{{ editorId }}_{{ item.itemId }}" {% if item.selected %}class="w3-card sv-refedit-selected"{% endif %}
+      onClick="selectOnAlternativeRefDlgt('{{ editorId }}', {{ item.itemId }});{% if scanable %}saveSubmitDueUpdate();{% endif %}">{{ item.label | raw }}</li>
+{% endfor %}
+</ul>
 </div>
+{% endif %}

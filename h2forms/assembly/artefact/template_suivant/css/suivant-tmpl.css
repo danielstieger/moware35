@@ -110,10 +110,14 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
 .sv-edit-row {padding: 0px 0px; }
 .sv-edit-label {color: #888 !important; text-align: right; padding-right: 24px;
       line-height: 38px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
+.sv-refedit-label { text-align: left !important; padding-left: 16px; }
+
 .sv-edit-input-col {background-color:#FFF !important;}
 .sv-edit-input-col-dis {line-height: 38px; border-bottom: 1px solid #FFF !important;}
 .sv-edit-input { border-bottom: 1px solid #009688 !important; line-height: 22px !important; }
 .sv-edit-select { height: 39px; background-color: #FFF !important; border-bottom: 1px solid #009688 !important; }
+.sv-refedit-selected { background-color: rgba(0, 150, 136, 0.3) !important; /* = #009688 */}
+
 
 .sv-multiline-edit-input-col-dis {line-height: 24px; border-bottom: 1px solid #FFF !important; }
 .sv-multiline-edit-label {color: #888 !important; text-align: right; padding-right: 24px;

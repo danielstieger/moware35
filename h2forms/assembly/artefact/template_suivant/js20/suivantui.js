@@ -135,6 +135,22 @@ function installDateCommaReplacer() {
 
 }
 
+function selectOnAlternativeRefDlgt(inputFieldName, idx) {
+    var inputElem = $('input[name=' + inputFieldName + ']');
+    var oldVal = inputElem.value;
+
+    var oldSelectedLiName= '#' + inputFieldName + '_' + oldVal;
+    var oldSelectedLi = $(oldSelectedLiName);
+    var toSelectLiName= '#' + inputFieldName + '_' + idx;
+    var toSelectLi = $(toSelectLiName);
+
+    inputElem.value = idx;
+    toSelectLi.classList.add('w3-card');
+    toSelectLi.classList.add('sv-refedit-selected');
+    oldSelectedLi.classList.remove('w3-card');
+    oldSelectedLi.classList.remove('sv-refedit-selected');
+}
+
 
 
 /*  *  *  *  *  *  *  *  * LongTouchHandler   *  *  *  *  *  *  *  *  *  *  */
