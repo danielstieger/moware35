@@ -2481,7 +2481,7 @@
         <property role="TrG5h" value="DECIMAL_VALIDATION_ERR" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Oj" role="37wK5m">
-          <property role="Xl_RC" value="Zahl muss im Format %s eingegeben werden." />
+          <property role="Xl_RC" value="Zahl muss im Format %s eingegeben werden, nicht '%s'." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCA" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCB" role="37wK5m" />
@@ -3033,18 +3033,6 @@
         <node concept="10Nm6u" id="6XECzp4bodt" role="37wK5m" />
         <node concept="Xl_RD" id="6XECzp4boWD" role="37wK5m">
           <property role="Xl_RC" value="You have been successfully logged out from the application." />
-        </node>
-      </node>
-      <node concept="QsSxf" id="67C2gLH6aLT" role="Qtgdg">
-        <property role="TrG5h" value="TABLE_EDITOR_VALIDATION_ERROR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
-        <node concept="Xl_RD" id="67C2gLH6hdv" role="37wK5m">
-          <property role="Xl_RC" value="Diese Eingabe konnte nicht übernommen werden!" />
-        </node>
-        <node concept="10Nm6u" id="67C2gLH6kgi" role="37wK5m" />
-        <node concept="10Nm6u" id="67C2gLH6lL8" role="37wK5m" />
-        <node concept="Xl_RD" id="67C2gLH6iJv" role="37wK5m">
-          <property role="Xl_RC" value="This input was not taken over!" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
