@@ -78,7 +78,7 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
 /* document search screen -------------------------------------------------- */
 .w3-bar-item {height: 50px !important }
 .sv-dropdown-wide {min-width: 220px !important}
-.sv-bartitle {font-size: 18px; line-height: 34px}  /* bar-item height - padding (16) */
+.sv-bartitle {font-size: 18px; line-height: 34px; padding: 8px 0px !important; }  /* bar-item height - padding (16) */
 
 /* document screen itself -------------------------------------------------- */
 .sv-table-doc {color:#000 !important; background-color:#f2f2f2!important;
