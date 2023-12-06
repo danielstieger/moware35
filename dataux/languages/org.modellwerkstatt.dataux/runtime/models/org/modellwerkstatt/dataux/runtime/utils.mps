@@ -3015,12 +3015,12 @@
         <property role="TrG5h" value="COPY_CSV_FROM_TABLE" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4PObcQZ$fc9" role="37wK5m">
-          <property role="Xl_RC" value="CSV aus Tabelleninhalt erzeugen" />
+          <property role="Xl_RC" value="CSV aus Tabellen-Selektion erzeugen" />
         </node>
         <node concept="10Nm6u" id="4PObcQZ$gFx" role="37wK5m" />
         <node concept="10Nm6u" id="4PObcQZ$hqF" role="37wK5m" />
         <node concept="Xl_RD" id="4PObcQZ$i9R" role="37wK5m">
-          <property role="Xl_RC" value="Create CSV from table contents" />
+          <property role="Xl_RC" value="Create CSV from table selection" />
         </node>
       </node>
       <node concept="QsSxf" id="6XECzp4bdcg" role="Qtgdg">
