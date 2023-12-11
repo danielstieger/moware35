@@ -8777,6 +8777,10 @@
     <node concept="3clFb_" id="41UdyNB_Bhh" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createReferenceEditor" />
+      <node concept="37vLTG" id="3Rmb4cgznRo" role="3clF46">
+        <property role="TrG5h" value="alter" />
+        <node concept="10P_77" id="3Rmb4cgzr7G" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="41UdyNB_Bhi" role="3clF45">
         <ref role="3uigEE" to="250q:1YFjUjHUi1V" resolve="IToolkit_ReferenceEditor" />
       </node>
@@ -8794,6 +8798,10 @@
     <node concept="3clFb_" id="41UdyNB_Bhp" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createStatusEditor" />
+      <node concept="37vLTG" id="3Rmb4cgzrso" role="3clF46">
+        <property role="TrG5h" value="alter" />
+        <node concept="10P_77" id="3Rmb4cgzrt4" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="41UdyNB_Bhq" role="3clF45">
         <ref role="3uigEE" to="250q:1kaU3pLV2oM" resolve="IToolkit_StatusEditor" />
       </node>

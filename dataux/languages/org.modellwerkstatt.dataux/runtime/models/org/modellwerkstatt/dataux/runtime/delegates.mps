@@ -566,7 +566,7 @@
               <ref role="37wK5l" to="250q:5IEkTkkuA32" resolve="has" />
               <ref role="1Pybhc" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
               <node concept="Rm8GO" id="5IEkTkmwTEy" role="37wK5m">
-                <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="PICKER" />
+                <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="ALTER_PICKER" />
                 <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
               </node>
               <node concept="37vLTw" id="5IEkTkmwTOH" role="37wK5m">
@@ -1485,6 +1485,7 @@
             <ref role="3cqZAo" node="6XWBEIFHAzf" resolve="langIdx" />
           </node>
         </node>
+        <node concept="3clFbH" id="3Rmb4cgyn5F" role="3cqZAp" />
         <node concept="3clFbF" id="1YFjUjHUbux" role="3cqZAp">
           <node concept="37vLTI" id="1YFjUjHUbuy" role="3clFbG">
             <node concept="2OqwBi" id="1YFjUjHUbuz" role="37vLTx">
@@ -1493,6 +1494,17 @@
               </node>
               <node concept="liA8E" id="1YFjUjHUbu_" role="2OqNvi">
                 <ref role="37wK5l" to="250q:1YFjUjI0DMa" resolve="createReferenceEditor" />
+                <node concept="2YIFZM" id="3Rmb4cgyqdA" role="37wK5m">
+                  <ref role="37wK5l" to="250q:5IEkTkkuA32" resolve="has" />
+                  <ref role="1Pybhc" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+                  <node concept="Rm8GO" id="3Rmb4cgyrio" role="37wK5m">
+                    <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="ALTER_PICKER" />
+                    <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+                  </node>
+                  <node concept="37vLTw" id="3Rmb4cgyrMf" role="37wK5m">
+                    <ref role="3cqZAo" node="3Rmb4cgylK4" resolve="alterOptions" />
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="1YFjUjHUbuA" role="37vLTJ">
@@ -1500,6 +1512,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3Rmb4cgynhr" role="3cqZAp" />
         <node concept="3clFbF" id="1YFjUjHUbuB" role="3cqZAp">
           <node concept="2OqwBi" id="1YFjUjHUbuC" role="3clFbG">
             <node concept="37vLTw" id="1YFjUjHUbuD" role="2Oq$k0">
@@ -1547,6 +1560,14 @@
       <node concept="37vLTG" id="6XWBEIFHAzf" role="3clF46">
         <property role="TrG5h" value="langIdx" />
         <node concept="10Oyi0" id="6XWBEIFHAzg" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3Rmb4cgylK4" role="3clF46">
+        <property role="TrG5h" value="alterOptions" />
+        <node concept="8X2XB" id="3Rmb4cgylK5" role="1tU5fm">
+          <node concept="3uibUv" id="3Rmb4cgylK6" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1YFjUjHUbuI" role="jymVt" />
@@ -2998,6 +3019,17 @@
               </node>
               <node concept="liA8E" id="1kaU3pLSZoO" role="2OqNvi">
                 <ref role="37wK5l" to="250q:1kaU3pLUUIC" resolve="createStatusEditor" />
+                <node concept="2YIFZM" id="3Rmb4cgy$D3" role="37wK5m">
+                  <ref role="37wK5l" to="250q:5IEkTkkuA32" resolve="has" />
+                  <ref role="1Pybhc" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+                  <node concept="Rm8GO" id="3Rmb4cgy$D4" role="37wK5m">
+                    <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+                    <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="ALTER_PICKER" />
+                  </node>
+                  <node concept="37vLTw" id="3Rmb4cgy$D5" role="37wK5m">
+                    <ref role="3cqZAo" node="3Rmb4cgyyjb" resolve="alterOptions" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -3079,6 +3111,14 @@
       <node concept="37vLTG" id="6XWBEIFHBWv" role="3clF46">
         <property role="TrG5h" value="langIdx" />
         <node concept="10Oyi0" id="6XWBEIFHBWw" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3Rmb4cgyyjb" role="3clF46">
+        <property role="TrG5h" value="alterOptions" />
+        <node concept="8X2XB" id="3Rmb4cgyyjc" role="1tU5fm">
+          <node concept="3uibUv" id="3Rmb4cgyyjd" role="8Xvag">
+            <ref role="3uigEE" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1kaU3pLSZoX" role="jymVt" />
@@ -8353,7 +8393,7 @@
               <ref role="1Pybhc" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
               <node concept="Rm8GO" id="1WnjocVVwgM" role="37wK5m">
                 <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
-                <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="PICKER" />
+                <ref role="Rm8GQ" to="250q:5IEkTkktJqS" resolve="ALTER_PICKER" />
               </node>
               <node concept="37vLTw" id="1WnjocVVwgN" role="37wK5m">
                 <ref role="3cqZAo" node="1WnjocVVuqU" resolve="pickerOption" />

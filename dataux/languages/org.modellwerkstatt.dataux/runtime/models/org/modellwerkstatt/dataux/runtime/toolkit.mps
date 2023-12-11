@@ -481,6 +481,10 @@
     </node>
     <node concept="3clFb_" id="1YFjUjI0DMa" role="jymVt">
       <property role="TrG5h" value="createReferenceEditor" />
+      <node concept="37vLTG" id="3Rmb4cgyBhe" role="3clF46">
+        <property role="TrG5h" value="alter" />
+        <node concept="10P_77" id="3Rmb4cgyBot" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="1YFjUjI0DOZ" role="3clF45">
         <ref role="3uigEE" node="1YFjUjHUi1V" resolve="IToolkit_ReferenceEditor" />
       </node>
@@ -489,6 +493,10 @@
     </node>
     <node concept="3clFb_" id="1kaU3pLUUIC" role="jymVt">
       <property role="TrG5h" value="createStatusEditor" />
+      <node concept="37vLTG" id="3Rmb4cgyBwk" role="3clF46">
+        <property role="TrG5h" value="alter" />
+        <node concept="10P_77" id="3Rmb4cgyBBe" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="1kaU3pLV2q3" role="3clF45">
         <ref role="3uigEE" node="1kaU3pLV2oM" resolve="IToolkit_StatusEditor" />
       </node>
@@ -878,11 +886,11 @@
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="5IEkTkktJqS" role="Qtgdg">
-        <property role="TrG5h" value="PICKER" />
+        <property role="TrG5h" value="ALTER_PICKER" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
-      <node concept="QsSxf" id="6m2yckY_kXu" role="Qtgdg">
-        <property role="TrG5h" value="ALTER" />
+      <node concept="QsSxf" id="3Rmb4cgyEEf" role="Qtgdg">
+        <property role="TrG5h" value="ALTER_CHECKBOX" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="5IEkTkktIOU" role="1B3o_S" />

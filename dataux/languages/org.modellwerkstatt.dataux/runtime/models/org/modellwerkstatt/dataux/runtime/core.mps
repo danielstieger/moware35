@@ -50373,6 +50373,10 @@
     </node>
     <node concept="3clFb_" id="1vmXD1nb2H$" role="jymVt">
       <property role="TrG5h" value="createReferenceEditor" />
+      <node concept="37vLTG" id="3Rmb4cg_6Wu" role="3clF46">
+        <property role="TrG5h" value="alter" />
+        <node concept="10P_77" id="3Rmb4cg_7dZ" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="1vmXD1nb2H_" role="3clF45">
         <ref role="3uigEE" to="250q:1YFjUjHUi1V" resolve="IToolkit_ReferenceEditor" />
       </node>
@@ -50388,6 +50392,10 @@
     </node>
     <node concept="3clFb_" id="1vmXD1nb2HG" role="jymVt">
       <property role="TrG5h" value="createStatusEditor" />
+      <node concept="37vLTG" id="3Rmb4cg_7uK" role="3clF46">
+        <property role="TrG5h" value="alter" />
+        <node concept="10P_77" id="3Rmb4cg_7uL" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="1vmXD1nb2HH" role="3clF45">
         <ref role="3uigEE" to="250q:1kaU3pLV2oM" resolve="IToolkit_StatusEditor" />
       </node>
