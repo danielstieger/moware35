@@ -2486,7 +2486,7 @@
         <node concept="10Nm6u" id="7r26jiNRWCA" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCB" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf5ex" role="37wK5m">
-          <property role="Xl_RC" value="You have to specify the number as %s" />
+          <property role="Xl_RC" value="You have to specify the number in %s format, not '%s'." />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2OE" role="Qtgdg">
@@ -2535,6 +2535,18 @@
         <node concept="10Nm6u" id="7r26jiNRWCJ" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf5kx" role="37wK5m">
           <property role="Xl_RC" value="The number is allowed to contain only %s decimals." />
+        </node>
+      </node>
+      <node concept="QsSxf" id="2NLqVCEXFWz" role="Qtgdg">
+        <property role="TrG5h" value="NOT_TAKEN_OVER_ADDON" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="2NLqVCEXJBJ" role="37wK5m">
+          <property role="Xl_RC" value="Die Änderung wurde nicht übernommen!" />
+        </node>
+        <node concept="10Nm6u" id="2NLqVCEXL8w" role="37wK5m" />
+        <node concept="10Nm6u" id="2NLqVCEXLSS" role="37wK5m" />
+        <node concept="Xl_RD" id="2NLqVCEXME3" role="37wK5m">
+          <property role="Xl_RC" value="The changes were not applied." />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Rk" role="Qtgdg">
