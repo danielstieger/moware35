@@ -351,7 +351,27 @@
       <node concept="3Tm1VV" id="4GnAvwGTV6u" role="1B3o_S" />
       <node concept="3clFbS" id="4GnAvwGTV6v" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="467ssIo$YxS" role="jymVt" />
+    <node concept="2tJIrI" id="3P_LmWsAxdm" role="jymVt" />
+    <node concept="3clFb_" id="3P_LmWsAsbz" role="jymVt">
+      <property role="TrG5h" value="getUploadLocationRetrieve" />
+      <node concept="3clFbS" id="3P_LmWsAsbA" role="3clF47" />
+      <node concept="3Tm1VV" id="3P_LmWsAsbB" role="1B3o_S" />
+      <node concept="17QB3L" id="3P_LmWsAs7N" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="3P_LmWsAsml" role="jymVt">
+      <property role="TrG5h" value="getUploadLocationStore" />
+      <node concept="3clFbS" id="3P_LmWsAsmm" role="3clF47" />
+      <node concept="3Tm1VV" id="3P_LmWsAsmn" role="1B3o_S" />
+      <node concept="17QB3L" id="3P_LmWsAsmo" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="3P_LmWsAsxl" role="jymVt">
+      <property role="TrG5h" value="getUploadFsLocationStore" />
+      <node concept="3clFbS" id="3P_LmWsAsxm" role="3clF47" />
+      <node concept="3Tm1VV" id="3P_LmWsAsxn" role="1B3o_S" />
+      <node concept="17QB3L" id="3P_LmWsAsxo" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="3P_LmWsAs1b" role="jymVt" />
+    <node concept="2tJIrI" id="3P_LmWsAs46" role="jymVt" />
     <node concept="3clFb_" id="1SuqpWQX7r3" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createGenPagePaneByFqName" />

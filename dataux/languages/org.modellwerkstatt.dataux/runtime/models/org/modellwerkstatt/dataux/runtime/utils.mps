@@ -2601,12 +2601,24 @@
         <property role="TrG5h" value="UPLOAD_CONTENT_ERR" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="17o2t3rAwXI" role="37wK5m">
-          <property role="Xl_RC" value="Es muss ein Bild angegeben werden." />
+          <property role="Xl_RC" value="Es muss eine Datei / Bild angegeben werden." />
         </node>
         <node concept="10Nm6u" id="17o2t3rAzYd" role="37wK5m" />
         <node concept="10Nm6u" id="17o2t3rA_uc" role="37wK5m" />
         <node concept="Xl_RD" id="17o2t3rACto" role="37wK5m">
-          <property role="Xl_RC" value="You have to provide an Image." />
+          <property role="Xl_RC" value="You have to provide a File / Image." />
+        </node>
+      </node>
+      <node concept="QsSxf" id="4tuBJ$RrMho" role="Qtgdg">
+        <property role="TrG5h" value="UPLOAD_SUCCESS" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="4tuBJ$RrQFc" role="37wK5m">
+          <property role="Xl_RC" value="Der upload von %s war erfolgreich!" />
+        </node>
+        <node concept="10Nm6u" id="4tuBJ$RrSdZ" role="37wK5m" />
+        <node concept="10Nm6u" id="4tuBJ$RrTKM" role="37wK5m" />
+        <node concept="Xl_RD" id="4tuBJ$RrUy$" role="37wK5m">
+          <property role="Xl_RC" value="Successfully uploaded %s !" />
         </node>
       </node>
       <node concept="QsSxf" id="2k02KvYsQn9" role="Qtgdg">
