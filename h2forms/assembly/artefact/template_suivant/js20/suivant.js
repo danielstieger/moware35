@@ -161,8 +161,12 @@ function svUploadFileDone(args){
         var filename = args['body'].replace(/^\s+|\s+$/g, '');
         status += ' ' + filename;
 
-        $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + filename + '?ts=' + Date.now();
-        $('input[name=' + uploadEditorId + ']').value = filename;
+        if (filename.endsWith('jpg') || filename.endsWith('jpeg')) {
+            $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + filename + '?ts=' + Date.now();
+            $('input[name=' + uploadEditorId + ']').value = filename;
+        } else {
+            alert('While uploading file: ' + status);
+        }
 
     }
     svLog('mUploadFileDone', 'Status is  ' + status);

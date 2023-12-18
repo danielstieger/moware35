@@ -43815,6 +43815,11 @@
       <node concept="3Tmbuc" id="3P_LmWsA623" role="1B3o_S" />
       <node concept="17QB3L" id="3P_LmWsA624" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="6Pmr75YzGQZ" role="jymVt">
+      <property role="TrG5h" value="uploadMaxSize" />
+      <node concept="3Tmbuc" id="6Pmr75YzGR0" role="1B3o_S" />
+      <node concept="10Oyi0" id="6Pmr75Y_1qo" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="3P_LmWsAdut" role="jymVt" />
     <node concept="312cEg" id="2IXpZ5J4ekj" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -44045,6 +44050,16 @@
             <node concept="3clFbT" id="3PbVxlQfvwh" role="37vLTx" />
             <node concept="37vLTw" id="3PbVxlQfvb$" role="37vLTJ">
               <ref role="3cqZAo" node="3PbVxlQft19" resolve="logAllEventsToStdErrAdditionally" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6Pmr75YzSzA" role="3cqZAp">
+          <node concept="37vLTI" id="6Pmr75YzT8w" role="3clFbG">
+            <node concept="3cmrfG" id="6Pmr75YzTew" role="37vLTx">
+              <property role="3cmrfH" value="2000000" />
+            </node>
+            <node concept="37vLTw" id="6Pmr75YzSz$" role="37vLTJ">
+              <ref role="3cqZAo" node="6Pmr75YzGQZ" resolve="uploadMaxSize" />
             </node>
           </node>
         </node>
@@ -44662,7 +44677,40 @@
       <node concept="3Tm1VV" id="3P_LmWsAN2n" role="1B3o_S" />
       <node concept="3cqZAl" id="3P_LmWsASu7" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="3PbVxlQfgju" role="jymVt" />
+    <node concept="3clFb_" id="6Pmr75YzY21" role="jymVt">
+      <property role="TrG5h" value="setUploadMaxSize" />
+      <node concept="37vLTG" id="6Pmr75Y$4rj" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10Oyi0" id="6Pmr75Y_1kx" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6Pmr75YzY23" role="3clF45" />
+      <node concept="3Tm1VV" id="6Pmr75YzY24" role="1B3o_S" />
+      <node concept="3clFbS" id="6Pmr75YzY25" role="3clF47">
+        <node concept="3clFbF" id="6Pmr75Y$5T7" role="3cqZAp">
+          <node concept="37vLTI" id="6Pmr75Y$6pN" role="3clFbG">
+            <node concept="37vLTw" id="6Pmr75Y$6vN" role="37vLTx">
+              <ref role="3cqZAo" node="6Pmr75Y$4rj" resolve="val" />
+            </node>
+            <node concept="37vLTw" id="6Pmr75Y$5T6" role="37vLTJ">
+              <ref role="3cqZAo" node="6Pmr75YzGQZ" resolve="uploadMaxSize" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6Pmr75Y$6Ea" role="jymVt">
+      <property role="TrG5h" value="getUploadMaxSize" />
+      <node concept="10Oyi0" id="6Pmr75Y$Z3x" role="3clF45" />
+      <node concept="3Tm1VV" id="6Pmr75Y$6Ee" role="1B3o_S" />
+      <node concept="3clFbS" id="6Pmr75Y$6Ef" role="3clF47">
+        <node concept="3clFbF" id="6Pmr75Y$6Eg" role="3cqZAp">
+          <node concept="37vLTw" id="6Pmr75Y$6Ej" role="3clFbG">
+            <ref role="3cqZAo" node="6Pmr75YzGQZ" resolve="uploadMaxSize" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6Pmr75YzTAH" role="jymVt" />
     <node concept="3clFb_" id="WkCinTf0bU" role="jymVt">
       <property role="TrG5h" value="setDefaultEnglish" />
       <node concept="37vLTG" id="WkCinTf1PQ" role="3clF46">
