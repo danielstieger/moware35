@@ -1162,19 +1162,15 @@
           <ref role="PMmxG" node="7Cs1IG3kp0D" resolve="BindsObjectEditorFull" />
         </node>
         <node concept="l2Vlx" id="2zZnBEDxS4L" role="2iSdaV" />
-      </node>
-      <node concept="3F0ifn" id="2zZnBEDxS4V" role="3EZMnx" />
-      <node concept="3EZMnI" id="5XruxTJKcJm" role="3EZMnx">
-        <node concept="VPM3Z" id="5XruxTJKcJo" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="lj46D" id="3Ojm3Uuuc_q" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="l2Vlx" id="5XruxTJKcJr" role="2iSdaV" />
         <node concept="3F0ifn" id="5XruxTJKcXr" role="3EZMnx">
-          <property role="3F0ifm" value="implementation:" />
+          <property role="3F0ifm" value="impl. fq name:" />
           <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+          <node concept="pVoyu" id="6hiUAFU1gnY" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="6hiUAFU1Y0d" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="1iCGBv" id="653Wpvyfcb9" role="3EZMnx">
           <ref role="1NtTu8" to="1btx:653WpvyfcaS" resolve="customUxElement" />

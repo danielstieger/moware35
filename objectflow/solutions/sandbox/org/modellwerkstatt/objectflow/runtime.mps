@@ -3304,7 +3304,7 @@
       <node concept="37vLTG" id="7MqOxzy_yYW" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="7MqOxzy_yYX" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
         </node>
       </node>
       <node concept="3uibUv" id="3g5RX4qTK0q" role="Sfmx6">
@@ -3316,7 +3316,7 @@
       <node concept="37vLTG" id="zBgVaCo$jh" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="zBgVaCo$vI" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
         </node>
       </node>
       <node concept="3Tm1VV" id="6ffh1MXubTR" role="1B3o_S" />
@@ -3388,7 +3388,7 @@
       <node concept="37vLTG" id="4h62mqeXPFP" role="3clF46">
         <property role="TrG5h" value="selectionRecorder" />
         <node concept="3uibUv" id="4h62mqeY0XB" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
         </node>
       </node>
       <node concept="3cqZAl" id="OpUSe0Erh5" role="3clF45" />
@@ -4435,7 +4435,7 @@
   </node>
   <node concept="3HP615" id="7rqBz8B3JOi">
     <property role="3GE5qa" value="OFXArchitecture" />
-    <property role="TrG5h" value="IOFXPagePane" />
+    <property role="TrG5h" value="IOFXSelProvider" />
     <node concept="3Tm1VV" id="7rqBz8B3JOj" role="1B3o_S" />
     <node concept="16euLQ" id="7rqBz8B3JOt" role="16eVyc">
       <property role="TrG5h" value="BoundObject" />
@@ -4897,7 +4897,7 @@
       <node concept="37vLTG" id="7rqBz8B3JOk" role="3clF46">
         <property role="TrG5h" value="selRecorder" />
         <node concept="3uibUv" id="6dnXV8mIz6L" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="6dnXV8mID2l" role="11_B2D">
             <ref role="16sUi3" node="6dnXV8mID2j" resolve="BoundObject" />
           </node>
@@ -4953,7 +4953,7 @@
       <node concept="37vLTG" id="4h62mqeXiAo" role="3clF46">
         <property role="TrG5h" value="__selectionProvider" />
         <node concept="3uibUv" id="4h62mqeXiE0" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="4h62mqeXiE1" role="11_B2D">
             <ref role="16sUi3" node="6dnXV8mID2j" resolve="BoundObject" />
           </node>
@@ -4982,7 +4982,7 @@
       <node concept="37vLTG" id="4h62mqeXiH2" role="3clF46">
         <property role="TrG5h" value="__selectionProvider" />
         <node concept="3uibUv" id="4h62mqeXiNG" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="4h62mqeXiNH" role="11_B2D">
             <ref role="16sUi3" node="6dnXV8mID2j" resolve="BoundObject" />
           </node>
@@ -5004,7 +5004,7 @@
       <node concept="37vLTG" id="zBgVaCeKGV" role="3clF46">
         <property role="TrG5h" value="finalView" />
         <node concept="3uibUv" id="zBgVaCeKGW" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="zBgVaCeKGX" role="11_B2D">
             <ref role="16sUi3" node="6dnXV8mID2j" resolve="BoundObject" />
           </node>
@@ -9786,7 +9786,7 @@
       <property role="TrG5h" value="Document" />
     </node>
     <node concept="3uibUv" id="3aesqnvcEUP" role="EKbjA">
-      <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+      <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
       <node concept="16syzq" id="3aesqnvcEYG" role="11_B2D">
         <ref role="16sUi3" node="3aesqnvcERF" resolve="Document" />
       </node>
@@ -68412,7 +68412,7 @@
       <node concept="37vLTG" id="7MqOxzy_zev" role="3clF46">
         <property role="TrG5h" value="selRecorder" />
         <node concept="3uibUv" id="7MqOxzy_zew" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
         </node>
       </node>
       <node concept="3uibUv" id="1TUQyycwCFu" role="Sfmx6">
@@ -70142,7 +70142,7 @@
       <node concept="37vLTG" id="4h62mqeXqMC" role="3clF46">
         <property role="TrG5h" value="selectionRecorder" />
         <node concept="3uibUv" id="4h62mqeXFCS" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
         </node>
       </node>
       <node concept="3cqZAl" id="OpUSe0ESq1" role="3clF45" />
@@ -70509,7 +70509,7 @@
       <node concept="37vLTG" id="zBgVaCp2zj" role="3clF46">
         <property role="TrG5h" value="finalView" />
         <node concept="3uibUv" id="zBgVaCp2zk" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
         </node>
       </node>
       <node concept="10Q1$e" id="3Rw9V4pMfTy" role="3clF45">
@@ -71059,7 +71059,7 @@
       <property role="TrG5h" value="__selectionProvider" />
       <node concept="3Tmbuc" id="2IXocwi1c36" role="1B3o_S" />
       <node concept="3uibUv" id="2IXocwi1f3t" role="1tU5fm">
-        <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+        <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
         <node concept="16syzq" id="2IXocwi1gTy" role="11_B2D">
           <ref role="16sUi3" node="2IXocwi13OQ" resolve="Bound" />
         </node>
@@ -71187,7 +71187,7 @@
       <node concept="37vLTG" id="2IXocwi2AN9" role="3clF46">
         <property role="TrG5h" value="selRecorder" />
         <node concept="3uibUv" id="2IXocwi2ANa" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="2IXocwi2ANo" role="11_B2D">
             <ref role="16sUi3" node="2IXocwi13OQ" resolve="Bound" />
           </node>
@@ -71508,7 +71508,7 @@
       <node concept="37vLTG" id="2IXocwi23pi" role="3clF46">
         <property role="TrG5h" value="finalView" />
         <node concept="3uibUv" id="2IXocwi23pj" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="2IXocwi23pp" role="11_B2D">
             <ref role="16sUi3" node="2IXocwi13OQ" resolve="Bound" />
           </node>
@@ -71554,7 +71554,7 @@
       <node concept="37vLTG" id="2IXocwi14cF" role="3clF46">
         <property role="TrG5h" value="__selectionProvider" />
         <node concept="3uibUv" id="2IXocwi14cG" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="2IXocwi14cL" role="11_B2D">
             <ref role="16sUi3" node="2IXocwi13OQ" resolve="Bound" />
           </node>
@@ -71600,7 +71600,7 @@
       <node concept="37vLTG" id="2IXocwi14cV" role="3clF46">
         <property role="TrG5h" value="__selectionProvider" />
         <node concept="3uibUv" id="2IXocwi14cW" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXPagePane" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelProvider" />
           <node concept="16syzq" id="2IXocwi14d1" role="11_B2D">
             <ref role="16sUi3" node="2IXocwi13OQ" resolve="Bound" />
           </node>
