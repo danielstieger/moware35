@@ -1161,9 +1161,18 @@
         <node concept="PMmxH" id="7rG0OCcHkvo" role="3EZMnx">
           <ref role="PMmxG" node="7Cs1IG3kp0D" resolve="BindsObjectEditorFull" />
         </node>
+        <node concept="3F0ifn" id="1JCZ7rXgpW1" role="3EZMnx">
+          <property role="3F0ifm" value="" />
+          <node concept="pVoyu" id="1JCZ7rXgpWf" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="1JCZ7rXgpWg" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="l2Vlx" id="2zZnBEDxS4L" role="2iSdaV" />
         <node concept="3F0ifn" id="5XruxTJKcXr" role="3EZMnx">
-          <property role="3F0ifm" value="impl. fq name:" />
+          <property role="3F0ifm" value="impl. class fq name:" />
           <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
           <node concept="pVoyu" id="6hiUAFU1gnY" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -1172,18 +1181,19 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="1iCGBv" id="653Wpvyfcb9" role="3EZMnx">
-          <ref role="1NtTu8" to="1btx:653WpvyfcaS" resolve="customUxElement" />
-          <node concept="1sVBvm" id="653Wpvyfcbb" role="1sWHZn">
-            <node concept="3F0A7n" id="653Wpvyfcbp" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
+        <node concept="3F1sOY" id="1JCZ7rX5ztS" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;name&gt;" />
+          <ref role="1NtTu8" to="1btx:1JCZ7rX5zty" resolve="implClassFqName" />
         </node>
         <node concept="3F0ifn" id="5XruxTJKcJq" role="3EZMnx">
-          <property role="3F0ifm" value=", needs full size:" />
+          <property role="3F0ifm" value="needs full size:" />
           <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+          <node concept="pVoyu" id="1JCZ7rXgpVK" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="1JCZ7rXgpVL" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F0A7n" id="5XruxTJKcNZ" role="3EZMnx">
           <ref role="1NtTu8" to="1btx:5XruxTJKcc7" resolve="fullSize" />

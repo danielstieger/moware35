@@ -99,16 +99,17 @@
     <property role="R4oN_" value="declare a custom ui element" />
     <property role="EcuMT" value="9014591971156161485" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
+    <node concept="1TJgyj" id="1JCZ7rX5zty" role="1TKVEi">
+      <property role="IQ2ns" value="2011134821603358562" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="implClassFqName" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyi" id="5XruxTJKcc7" role="1TKVEl">
       <property role="TrG5h" value="fullSize" />
       <property role="IQ2nx" value="6871219927626334983" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyj" id="653WpvyfcaS" role="1TKVEi">
-      <property role="20kJfa" value="customUxElement" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="7008711079756612280" />
-      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzz" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxElement" />
