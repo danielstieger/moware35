@@ -5694,7 +5694,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6Pmr75YUqct" role="3cqZAp" />
+        <node concept="3clFbH" id="2xhQv04IZbW" role="3cqZAp" />
         <node concept="3clFbJ" id="6Pmr75YH92l" role="3cqZAp">
           <node concept="3clFbS" id="6Pmr75YH92n" role="3clFbx">
             <node concept="3SKdUt" id="6Pmr75YUIwN" role="3cqZAp">
@@ -5742,11 +5742,33 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="6Pmr75YI7DF" role="1zc67A">
+                  <node concept="3cpWs8" id="2xhQv04JYVC" role="3cqZAp">
+                    <node concept="3cpWsn" id="2xhQv04JYVF" role="3cpWs9">
+                      <property role="TrG5h" value="ip" />
+                      <node concept="17QB3L" id="2xhQv04JYVA" role="1tU5fm" />
+                      <node concept="2OqwBi" id="2xhQv04K0wW" role="33vP2m">
+                        <node concept="37vLTw" id="2xhQv04K0gX" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                        </node>
+                        <node concept="liA8E" id="2xhQv04K6i$" role="2OqNvi">
+                          <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                          <node concept="37vLTw" id="2xhQv04K7u_" role="37wK5m">
+                            <ref role="3cqZAo" node="2JP_IUM72yt" resolve="request" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="6Pmr75YV4Vp" role="3cqZAp">
                     <node concept="3nyPlj" id="6Pmr75YV4Vn" role="3clFbG">
                       <ref role="37wK5l" to="opgt:~GenericServlet.log(java.lang.String,java.lang.Throwable)" resolve="log" />
-                      <node concept="Xl_RD" id="6Pmr75YV6n_" role="37wK5m">
-                        <property role="Xl_RC" value="Problem while uploading a file." />
+                      <node concept="3cpWs3" id="2xhQv04JX$k" role="37wK5m">
+                        <node concept="37vLTw" id="2xhQv04K8JP" role="3uHU7w">
+                          <ref role="3cqZAo" node="2xhQv04JYVF" resolve="ip" />
+                        </node>
+                        <node concept="Xl_RD" id="6Pmr75YV6n_" role="3uHU7B">
+                          <property role="Xl_RC" value="Problem while uploading a file for " />
+                        </node>
                       </node>
                       <node concept="37vLTw" id="6Pmr75YV9It" role="37wK5m">
                         <ref role="3cqZAo" node="6Pmr75YI7DD" resolve="ex" />
@@ -5757,25 +5779,46 @@
                     <node concept="3cpWsn" id="6Pmr75YJ6hP" role="3cpWs9">
                       <property role="TrG5h" value="msg" />
                       <node concept="17QB3L" id="6Pmr75YJ6hK" role="1tU5fm" />
-                      <node concept="3cpWs3" id="6Pmr75YJbPT" role="33vP2m">
-                        <node concept="3cpWs3" id="6Pmr75YJ7Ca" role="3uHU7B">
-                          <node concept="3cpWs3" id="6Pmr75YJ7Cc" role="3uHU7B">
-                            <node concept="Xl_RD" id="6Pmr75YJ7Cd" role="3uHU7B">
-                              <property role="Xl_RC" value="Was not able to process fileupload to " />
-                            </node>
-                            <node concept="37vLTw" id="6Pmr75YU$jX" role="3uHU7w">
-                              <ref role="3cqZAo" node="6Pmr75YD_D0" resolve="URL_PICUPLOAD" />
-                            </node>
+                      <node concept="3cpWs3" id="2xhQv04Kvqy" role="33vP2m">
+                        <node concept="2OqwBi" id="2xhQv04KvNr" role="3uHU7w">
+                          <node concept="37vLTw" id="2xhQv04Kvul" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6Pmr75YI7DD" resolve="ex" />
                           </node>
-                          <node concept="Xl_RD" id="6Pmr75YJ7Cb" role="3uHU7w">
-                            <property role="Xl_RC" value=" due to an exception.\n\n" />
+                          <node concept="liA8E" id="2xhQv04Kxg0" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
                           </node>
                         </node>
-                        <node concept="2YIFZM" id="6Pmr75YIbdR" role="3uHU7w">
-                          <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                          <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                          <node concept="37vLTw" id="6Pmr75YIbdS" role="37wK5m">
-                            <ref role="3cqZAo" node="6Pmr75YI7DD" resolve="ex" />
+                        <node concept="3cpWs3" id="2xhQv04KtPV" role="3uHU7B">
+                          <node concept="3cpWs3" id="6Pmr75YJbPT" role="3uHU7B">
+                            <node concept="2OqwBi" id="2xhQv04Kq7s" role="3uHU7w">
+                              <node concept="2OqwBi" id="2xhQv04KnUI" role="2Oq$k0">
+                                <node concept="37vLTw" id="2xhQv04KnDG" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6Pmr75YI7DD" resolve="ex" />
+                                </node>
+                                <node concept="liA8E" id="2xhQv04KoEm" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="2xhQv04KsXV" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                              </node>
+                            </node>
+                            <node concept="3cpWs3" id="2xhQv04KGK2" role="3uHU7B">
+                              <node concept="Xl_RD" id="2xhQv04KGNx" role="3uHU7w">
+                                <property role="Xl_RC" value=".\n\n" />
+                              </node>
+                              <node concept="3cpWs3" id="2xhQv04KFpC" role="3uHU7B">
+                                <node concept="Xl_RD" id="2xhQv04KFpE" role="3uHU7B">
+                                  <property role="Xl_RC" value="Problem while uploading a file for " />
+                                </node>
+                                <node concept="37vLTw" id="2xhQv04KFpD" role="3uHU7w">
+                                  <ref role="3cqZAo" node="2xhQv04JYVF" resolve="ip" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="2xhQv04KtTI" role="3uHU7w">
+                            <property role="Xl_RC" value=": " />
                           </node>
                         </node>
                       </node>
@@ -17868,7 +17911,7 @@
     <node concept="2YIFZL" id="6Pmr75YHkdV" role="jymVt">
       <property role="TrG5h" value="handleUpload" />
       <node concept="3clFbS" id="6Pmr75YCjMo" role="3clF47">
-        <node concept="3clFbH" id="6Pmr75YDPC3" role="3cqZAp" />
+        <node concept="3clFbH" id="2xhQv04ItzN" role="3cqZAp" />
         <node concept="3cpWs8" id="6Pmr75YDNq3" role="3cqZAp">
           <node concept="3cpWsn" id="6Pmr75YDNq6" role="3cpWs9">
             <property role="TrG5h" value="returnMsg" />
