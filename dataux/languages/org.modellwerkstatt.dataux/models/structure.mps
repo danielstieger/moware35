@@ -114,6 +114,12 @@
     <node concept="PrWs8" id="2zZnBEDxFzz" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxElement" />
     </node>
+    <node concept="PrWs8" id="4cInu6zCMDJ" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WNcPKz" resolve="IHasDelegates" />
+    </node>
+    <node concept="PrWs8" id="4cInu6zMO6K" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
+    </node>
     <node concept="1QGGSu" id="62e43W0Y$zP" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/custom2.png" />
     </node>
@@ -739,7 +745,7 @@
     <property role="EcuMT" value="465568541575437347" />
     <node concept="1TJgyj" id="1h$q6rwmHiW" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="delegates" />
       <property role="IQ2ns" value="1469414169489626300" />
       <ref role="20lvS9" node="1h$q6rwmHiT" resolve="IDelegate" />

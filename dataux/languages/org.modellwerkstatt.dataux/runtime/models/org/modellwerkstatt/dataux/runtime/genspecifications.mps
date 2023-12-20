@@ -643,7 +643,7 @@
     </node>
     <node concept="3Tm1VV" id="3VIcZtBehi_" role="1B3o_S" />
     <node concept="3uibUv" id="3VIcZtBem6T" role="3HQHJm">
-      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
       <node concept="16syzq" id="3VIcZtBemfx" role="11_B2D">
         <ref role="16sUi3" node="3VIcZtBemcG" resolve="BoundObject" />
       </node>
@@ -3597,7 +3597,7 @@
       <node concept="3clFbS" id="72_IH8px$3O" role="3clF47" />
     </node>
     <node concept="3uibUv" id="6QGCiYX7NBC" role="3HQHJm">
-      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
       <node concept="16syzq" id="6QGCiYX7NDW" role="11_B2D">
         <ref role="16sUi3" node="72_IH8pqz3P" resolve="T" />
       </node>
@@ -8239,6 +8239,340 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="4cInu6$ar83">
+    <property role="3GE5qa" value="forms" />
+    <property role="TrG5h" value="CustomUiElement" />
+    <property role="1sVAO0" value="true" />
+    <node concept="312cEg" id="4cInu6$avOh" role="jymVt">
+      <property role="TrG5h" value="forward" />
+      <node concept="3Tmbuc" id="4cInu6$auJq" role="1B3o_S" />
+      <node concept="3uibUv" id="4cInu6$avbA" role="1tU5fm">
+        <ref role="3uigEE" to="zhcn:653Wpvyfc7o" resolve="ICustomDataUxElement" />
+        <node concept="16syzq" id="4cInu6$avuV" role="11_B2D">
+          <ref role="16sUi3" node="4cInu6$ar9E" resolve="T" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="4cInu6$ard0" role="jymVt">
+      <node concept="3cqZAl" id="4cInu6$ard2" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$ard3" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$ard4" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="4cInu6$arc4" role="jymVt" />
+    <node concept="3clFb_" id="4cInu6$awE8" role="jymVt">
+      <property role="TrG5h" value="setImplementation" />
+      <node concept="37vLTG" id="4cInu6$aymG" role="3clF46">
+        <property role="TrG5h" value="impl" />
+        <node concept="3uibUv" id="4cInu6$ayJt" role="1tU5fm">
+          <ref role="3uigEE" to="zhcn:653Wpvyfc7o" resolve="ICustomDataUxElement" />
+          <node concept="16syzq" id="4cInu6$az98" role="11_B2D">
+            <ref role="16sUi3" node="4cInu6$ar9E" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4cInu6$awEa" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$awEb" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$awEc" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$azCn" role="3cqZAp">
+          <node concept="37vLTI" id="4cInu6$a$IN" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$a$Ls" role="37vLTx">
+              <ref role="3cqZAo" node="4cInu6$aymG" resolve="impl" />
+            </node>
+            <node concept="37vLTw" id="4cInu6$azCm" role="37vLTJ">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="4cInu6$ar84" role="1B3o_S" />
+    <node concept="16euLQ" id="4cInu6$ar9E" role="16eVyc">
+      <property role="TrG5h" value="T" />
+    </node>
+    <node concept="3uibUv" id="4cInu6$ara8" role="EKbjA">
+      <ref role="3uigEE" node="3VIcZtBehi$" resolve="IGenSelControlled" />
+      <node concept="16syzq" id="4cInu6$arb6" role="11_B2D">
+        <ref role="16sUi3" node="4cInu6$ar9E" resolve="T" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$areV" role="jymVt">
+      <property role="TrG5h" value="selectionChanged" />
+      <node concept="37vLTG" id="4cInu6$areW" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="4cInu6$areX" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4cInu6$areY" role="3clF46">
+        <property role="TrG5h" value="doNotLoadReloadFollows" />
+        <node concept="10P_77" id="4cInu6$areZ" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="4cInu6$arf0" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$arf1" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$arf9" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aOmm" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aAaz" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$a_qi" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aALF" role="2OqNvi">
+              <ref role="37wK5l" node="3VIcZtBeokR" resolve="selectionChanged" />
+              <node concept="37vLTw" id="4cInu6$aBg5" role="37wK5m">
+                <ref role="3cqZAo" node="4cInu6$areW" resolve="selection" />
+              </node>
+              <node concept="37vLTw" id="4cInu6$aBRX" role="37wK5m">
+                <ref role="3cqZAo" node="4cInu6$areY" resolve="doNotLoadReloadFollows" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$arfa" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$arfd" role="jymVt">
+      <property role="TrG5h" value="loadList" />
+      <node concept="37vLTG" id="4cInu6$arfe" role="3clF46">
+        <property role="TrG5h" value="objects" />
+        <node concept="_YKpA" id="4cInu6$arff" role="1tU5fm">
+          <node concept="16syzq" id="4cInu6$arfm" role="_ZDj9">
+            <ref role="16sUi3" node="4cInu6$ar9E" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4cInu6$arfh" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="4cInu6$arfi" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4cInu6$arfj" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$arfk" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$arfn" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aCpP" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aCAC" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aCpK" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aD79" role="2OqNvi">
+              <ref role="37wK5l" node="3VIcZtBeokX" resolve="loadList" />
+              <node concept="37vLTw" id="4cInu6$aDxC" role="37wK5m">
+                <ref role="3cqZAo" node="4cInu6$arfe" resolve="objects" />
+              </node>
+              <node concept="37vLTw" id="4cInu6$aE9T" role="37wK5m">
+                <ref role="3cqZAo" node="4cInu6$arfh" resolve="selection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$arfo" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$arfp" role="jymVt">
+      <property role="TrG5h" value="saveAndValidate" />
+      <node concept="17QB3L" id="4cInu6$arfq" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$arfr" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$arfz" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aEHO" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aFfT" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aEHN" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aFKy" role="2OqNvi">
+              <ref role="37wK5l" node="2zlKbqjrMwK" resolve="saveAndValidate" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$arf$" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$arfB" role="jymVt">
+      <property role="TrG5h" value="collectDelegateChanges" />
+      <node concept="_YKpA" id="4cInu6$arfC" role="3clF45">
+        <node concept="3uibUv" id="4cInu6$arfD" role="_ZDj9">
+          <ref role="3uigEE" to="1e0c:3PbVxlOJ_In" resolve="IDelegateChange" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4cInu6$arfE" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$arfG" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aGdV" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aGuj" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aGdQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aH2s" role="2OqNvi">
+              <ref role="37wK5l" node="3PbVxlOJ$7_" resolve="collectDelegateChanges" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$arfH" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$arfI" role="jymVt">
+      <property role="TrG5h" value="forceNotEditable" />
+      <node concept="3cqZAl" id="4cInu6$arfJ" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$arfK" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$arfM" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aHwG" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aI31" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aHwB" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aIE9" role="2OqNvi">
+              <ref role="37wK5l" node="4xjkqfyaUVo" resolve="forceNotEditable" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$arfN" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$argd" role="jymVt">
+      <property role="TrG5h" value="getToolkitImplementation" />
+      <node concept="3uibUv" id="4cInu6$arge" role="3clF45">
+        <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
+      </node>
+      <node concept="3Tm1VV" id="4cInu6$argf" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$argh" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aMUe" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aNwV" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aMUd" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aNZQ" role="2OqNvi">
+              <ref role="37wK5l" node="3VIcZtBgO49" resolve="getToolkitImplementation" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$argi" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$argl" role="jymVt">
+      <property role="TrG5h" value="preDelayedAfterFullUiInitialized" />
+      <node concept="3cqZAl" id="4cInu6$argm" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$argn" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$argp" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aOXx" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aOZP" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aOXw" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aPyB" role="2OqNvi">
+              <ref role="37wK5l" node="6RDa77rBeDW" resolve="preDelayedAfterFullUiInitialized" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$argq" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$argr" role="jymVt">
+      <property role="TrG5h" value="gcClear" />
+      <node concept="3cqZAl" id="4cInu6$args" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$argt" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$argv" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aQ6h" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aQfO" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aQ6g" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aQDN" role="2OqNvi">
+              <ref role="37wK5l" node="4RDimilqv5Z" resolve="gcClear" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4cInu6$aR5K" role="3cqZAp">
+          <node concept="37vLTI" id="4cInu6$aRCo" role="3clFbG">
+            <node concept="10Nm6u" id="4cInu6$aRIx" role="37vLTx" />
+            <node concept="37vLTw" id="4cInu6$aR5I" role="37vLTJ">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$argw" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$argx" role="jymVt">
+      <property role="TrG5h" value="getSelection" />
+      <node concept="37vLTG" id="4cInu6$argy" role="3clF46">
+        <property role="TrG5h" value="clazz" />
+        <node concept="3uibUv" id="4cInu6$argz" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4cInu6$arg$" role="3clF46">
+        <property role="TrG5h" value="includingDerived" />
+        <node concept="10P_77" id="4cInu6$arg_" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="4cInu6$argA" role="3clF45">
+        <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+      </node>
+      <node concept="3Tm1VV" id="4cInu6$argB" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$argG" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aScm" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aSic" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aSch" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aS$2" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:3972coxdHu_" resolve="getSelection" />
+              <node concept="37vLTw" id="4cInu6$aT6J" role="37wK5m">
+                <ref role="3cqZAo" node="4cInu6$argy" resolve="clazz" />
+              </node>
+              <node concept="37vLTw" id="4cInu6$aTBa" role="37wK5m">
+                <ref role="3cqZAo" node="4cInu6$arg$" resolve="includingDerived" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$argH" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cInu6$argK" role="jymVt">
+      <property role="TrG5h" value="pushSelection" />
+      <node concept="37vLTG" id="4cInu6$argL" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="4cInu6$argM" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4cInu6$argN" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$argO" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$argT" role="3clF47">
+        <node concept="3clFbF" id="4cInu6$aTYf" role="3cqZAp">
+          <node concept="2OqwBi" id="4cInu6$aUfm" role="3clFbG">
+            <node concept="37vLTw" id="4cInu6$aTYa" role="2Oq$k0">
+              <ref role="3cqZAo" node="4cInu6$avOh" resolve="forward" />
+            </node>
+            <node concept="liA8E" id="4cInu6$aUMd" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:3972coxdHuF" resolve="pushSelection" />
+              <node concept="37vLTw" id="4cInu6$aVgP" role="37wK5m">
+                <ref role="3cqZAo" node="4cInu6$argL" resolve="selection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cInu6$argU" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>

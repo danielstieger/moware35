@@ -194,7 +194,24 @@
   <node concept="3HP615" id="653Wpvyfc7o">
     <property role="TrG5h" value="ICustomDataUxElement" />
     <node concept="2tJIrI" id="653Wpvyfc7M" role="jymVt" />
-    <node concept="2tJIrI" id="653Wpvyfc7O" role="jymVt" />
+    <node concept="3clFb_" id="4cInu6$bKXg" role="jymVt">
+      <property role="TrG5h" value="addDelegateInfo" />
+      <node concept="37vLTG" id="4cInu6$bL42" role="3clF46">
+        <property role="TrG5h" value="delegateName" />
+        <node concept="17QB3L" id="4cInu6$bL57" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4cInu6$bL06" role="3clF46">
+        <property role="TrG5h" value="path" />
+        <node concept="17QB3L" id="4cInu6$bL15" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4cInu6$bLak" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="17QB3L" id="4cInu6$bLbv" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4cInu6$bKXi" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$bKXj" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$bKXk" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="653Wpvyfc7p" role="1B3o_S" />
     <node concept="16euLQ" id="653Wpvygw_v" role="16eVyc">
       <property role="TrG5h" value="T" />
@@ -541,12 +558,6 @@
     <node concept="3Tm1VV" id="3Ojm3UunEzm" role="1B3o_S" />
     <node concept="3uibUv" id="3Ojm3UunEzn" role="EKbjA">
       <ref role="3uigEE" to="1e0c:7P$uL5PrtJA" resolve="IUpdateConclusionReceiver" />
-    </node>
-    <node concept="3uibUv" id="3Ojm3UunEzo" role="EKbjA">
-      <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
-      <node concept="16syzq" id="3Ojm3UuzB3d" role="11_B2D">
-        <ref role="16sUi3" node="3Ojm3Uuz$5d" resolve="T" />
-      </node>
     </node>
     <node concept="3uibUv" id="3Ojm3UutUqu" role="EKbjA">
       <ref role="3uigEE" node="653Wpvyfc7o" resolve="ICustomDataUxElement" />
@@ -1841,7 +1852,7 @@
         <property role="TrG5h" value="externalMenu" />
         <property role="3TUv4t" value="false" />
         <node concept="3uibUv" id="3Ojm3UunEG5" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="Menu" />
         </node>
       </node>
       <node concept="3clFbS" id="3Ojm3UunEG6" role="3clF47">
@@ -2000,6 +2011,28 @@
       <node concept="3cqZAl" id="3Ojm3UunEHW" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="3Ojm3Uuyb5Q" role="jymVt" />
+    <node concept="3clFb_" id="4cInu6$bS8$" role="jymVt">
+      <property role="TrG5h" value="addDelegateInfo" />
+      <node concept="37vLTG" id="4cInu6$bS8_" role="3clF46">
+        <property role="TrG5h" value="delegateName" />
+        <node concept="17QB3L" id="4cInu6$bS8A" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4cInu6$bS8B" role="3clF46">
+        <property role="TrG5h" value="path" />
+        <node concept="17QB3L" id="4cInu6$bS8C" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4cInu6$bS8D" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="17QB3L" id="4cInu6$bS8E" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4cInu6$bS8F" role="3clF45" />
+      <node concept="3Tm1VV" id="4cInu6$bS8G" role="1B3o_S" />
+      <node concept="3clFbS" id="4cInu6$bS8I" role="3clF47" />
+      <node concept="2AHcQZ" id="4cInu6$bS8J" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4cInu6$c1ot" role="jymVt" />
     <node concept="3clFb_" id="3Ojm3UunEHX" role="jymVt">
       <property role="TrG5h" value="gcClear" />
       <property role="DiZV1" value="false" />

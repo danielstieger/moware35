@@ -1841,21 +1841,6 @@
         <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
       </node>
     </node>
-    <node concept="13i0hz" id="3Ojm3UuvAK7" role="13h7CS">
-      <property role="13i0iv" value="false" />
-      <property role="13i0it" value="false" />
-      <property role="TrG5h" value="isNamed" />
-      <ref role="13i0hy" node="7Cs1IG3kzJs" resolve="isNamed" />
-      <node concept="3Tm1VV" id="3Ojm3UuvAK8" role="1B3o_S" />
-      <node concept="3clFbS" id="3Ojm3UuvAKf" role="3clF47">
-        <node concept="3clFbF" id="3Ojm3UuvAP0" role="3cqZAp">
-          <node concept="3clFbT" id="3Ojm3UuvAOZ" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-      <node concept="10P_77" id="3Ojm3UuvAKg" role="3clF45" />
-    </node>
     <node concept="13i0hz" id="6I37UbADcsE" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
