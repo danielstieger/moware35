@@ -8402,6 +8402,33 @@
                     </node>
                   </node>
                 </node>
+                <node concept="1W57fq" id="4qASoZb503s" role="lGtFl">
+                  <node concept="3IZrLx" id="4qASoZb503t" role="3IZSJc">
+                    <node concept="3clFbS" id="4qASoZb503u" role="2VODD2">
+                      <node concept="3clFbF" id="4qASoZb51Gc" role="3cqZAp">
+                        <node concept="2OqwBi" id="4qASoZb52TA" role="3clFbG">
+                          <node concept="2OqwBi" id="4qASoZb52tI" role="2Oq$k0">
+                            <node concept="2OqwBi" id="4qASoZb51XI" role="2Oq$k0">
+                              <node concept="30H73N" id="4qASoZb51Gb" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="4qASoZb52i$" role="2OqNvi">
+                                <ref role="3Tt5mk" to="1btx:3OfvFtmlqEF" resolve="onStartupCmd" />
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="4qASoZb52GI" role="2OqNvi">
+                              <ref role="3Tt5mk" to="1btx:3OfvFtmwVS5" resolve="commandCall" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="4qASoZb534m" role="2OqNvi">
+                            <ref role="37wK5l" to="70o0:5TC7JC3XxIG" resolve="hasArgumentsGiven" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="gft3U" id="4qASoZb53cv" role="UU_$l">
+                    <node concept="10Nm6u" id="4qASoZb54wN" role="gfFT$" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -8428,7 +8455,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3OfvFtmCE6R" role="3cqZAp" />
       </node>
       <node concept="37vLTG" id="hcdqIeSldv" role="3clF46">
         <property role="TrG5h" value="__manMapSession" />
