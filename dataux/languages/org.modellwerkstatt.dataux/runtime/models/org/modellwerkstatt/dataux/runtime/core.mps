@@ -20181,18 +20181,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5z$1ZeYC0SH" role="3cqZAp" />
-            <node concept="3clFbF" id="1KgqQuBRYZJ" role="3cqZAp">
-              <node concept="2OqwBi" id="1KgqQuBRZGO" role="3clFbG">
-                <node concept="37vLTw" id="1KgqQuBRYZH" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
-                </node>
-                <node concept="liA8E" id="1KgqQuBSdn8" role="2OqNvi">
-                  <ref role="37wK5l" to="250q:1KgqQuBS1uC" resolve="setCommandContainer" />
-                  <node concept="Xjq3P" id="1KgqQuBSdow" role="37wK5m" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="5z$1ZeYBYoh" role="3cqZAp" />
             <node concept="3clFbJ" id="1sUmI9zhPRU" role="3cqZAp">
               <node concept="3clFbS" id="1sUmI9zhPRX" role="3clFbx">
@@ -51680,7 +51668,7 @@
     <node concept="2tJIrI" id="7IcK5LnvHFf" role="jymVt" />
     <node concept="3Tm1VV" id="7IcK5LnvyAM" role="1B3o_S" />
     <node concept="3uibUv" id="7IcK5LnvzCR" role="EKbjA">
-      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
     </node>
     <node concept="3clFb_" id="7IcK5LnvzF5" role="jymVt">
       <property role="TrG5h" value="getSelection" />
