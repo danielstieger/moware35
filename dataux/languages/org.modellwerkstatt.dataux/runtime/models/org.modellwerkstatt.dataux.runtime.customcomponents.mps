@@ -4,10 +4,18 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
-  <imports />
+  <imports>
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+  </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -36,19 +44,19 @@
     </language>
   </registry>
   <node concept="312cEu" id="5$n7YPbM9Xy">
-    <property role="TrG5h" value="Specifiers" />
+    <property role="TrG5h" value="ExtCmpt" />
     <node concept="Wx3nA" id="5$n7YPbMa0h" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="PIECHART_CLASS_FQNAME" />
       <node concept="17QB3L" id="5$n7YPbM9ZO" role="1tU5fm" />
       <node concept="3Tm1VV" id="5$n7YPbMac_" role="1B3o_S" />
       <node concept="Xl_RD" id="5$n7YPbMa1O" role="33vP2m">
-        <property role="Xl_RC" value="org.modellwerkstatt.addons.components.PieChart" />
+        <property role="Xl_RC" value="org.modellwerkstatt.addons.components.PieChartUxElement" />
       </node>
     </node>
     <node concept="Wx3nA" id="5$n7YPbMOD9" role="jymVt">
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="PIECHART_TITEL" />
+      <property role="TrG5h" value="PIECHART_TITEL_ON_FIRST_ITEM" />
       <node concept="17QB3L" id="5$n7YPbMODa" role="1tU5fm" />
       <node concept="3Tm1VV" id="5$n7YPbMODb" role="1B3o_S" />
       <node concept="Xl_RD" id="5$n7YPbMODc" role="33vP2m">
@@ -80,6 +88,9 @@
       <node concept="3Tm1VV" id="5$n7YPbMadl" role="1B3o_S" />
       <node concept="Xl_RD" id="5$n7YPbMa3n" role="33vP2m">
         <property role="Xl_RC" value="piechart_item_valuelabel" />
+      </node>
+      <node concept="2AHcQZ" id="5d$USb$LYgu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="Wx3nA" id="5$n7YPbMaaI" role="jymVt">

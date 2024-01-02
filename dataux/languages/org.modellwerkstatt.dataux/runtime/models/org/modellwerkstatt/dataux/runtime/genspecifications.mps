@@ -8256,10 +8256,43 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="5d$USb$GkoG" role="jymVt">
+      <property role="TrG5h" value="contentClass" />
+      <node concept="3Tmbuc" id="5d$USb$GfB6" role="1B3o_S" />
+      <node concept="3uibUv" id="5d$USb$GjYz" role="1tU5fm">
+        <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+      </node>
+    </node>
+    <node concept="312cEg" id="5d$USb$GAwW" role="jymVt">
+      <property role="TrG5h" value="selcrtl" />
+      <node concept="3Tmbuc" id="5d$USb$GAwX" role="1B3o_S" />
+      <node concept="3uibUv" id="5d$USb$GAwY" role="1tU5fm">
+        <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5d$USb$GAuB" role="jymVt" />
+    <node concept="2tJIrI" id="5d$USb$w3Tz" role="jymVt" />
     <node concept="3clFbW" id="4cInu6$ard0" role="jymVt">
+      <node concept="37vLTG" id="5d$USb$Gl1n" role="3clF46">
+        <property role="TrG5h" value="cls" />
+        <node concept="3uibUv" id="5d$USb$Gllp" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="4cInu6$ard2" role="3clF45" />
       <node concept="3Tm1VV" id="4cInu6$ard3" role="1B3o_S" />
-      <node concept="3clFbS" id="4cInu6$ard4" role="3clF47" />
+      <node concept="3clFbS" id="4cInu6$ard4" role="3clF47">
+        <node concept="3clFbF" id="5d$USb$GlLF" role="3cqZAp">
+          <node concept="37vLTI" id="5d$USb$Gmgm" role="3clFbG">
+            <node concept="37vLTw" id="5d$USb$Gmjj" role="37vLTx">
+              <ref role="3cqZAo" node="5d$USb$Gl1n" resolve="cls" />
+            </node>
+            <node concept="37vLTw" id="5d$USb$GlLE" role="37vLTJ">
+              <ref role="3cqZAo" node="5d$USb$GkoG" resolve="contentClass" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="4cInu6$arc4" role="jymVt" />
     <node concept="3clFb_" id="4cInu6$awE8" role="jymVt">
