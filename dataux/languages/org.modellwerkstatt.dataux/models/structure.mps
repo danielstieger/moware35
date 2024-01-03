@@ -775,6 +775,12 @@
     <property role="R4oN_" value="might return &lt;null&gt; (no value)" />
     <property role="EcuMT" value="465568541577412058" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5JI$rOMBfQb" role="1TKVEi">
+      <property role="IQ2ns" value="6624392343692574091" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="text" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="pQ21WNknSj" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
     </node>

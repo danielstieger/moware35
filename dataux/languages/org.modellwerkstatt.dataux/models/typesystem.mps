@@ -8113,5 +8113,35 @@
       <ref role="1YaFvo" to="1btx:17o2t3rJ0WR" resolve="UploadDelegate" />
     </node>
   </node>
+  <node concept="1YbPZF" id="5JI$rOMBfQj">
+    <property role="TrG5h" value="typeof_OptionalDOption" />
+    <property role="3GE5qa" value="delegates.options" />
+    <node concept="3clFbS" id="5JI$rOMBfQk" role="18ibNy">
+      <node concept="1ZobV4" id="5JI$rOMBhay" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="5JI$rOMBhaB" role="1ZfhK$">
+          <node concept="1Z2H0r" id="5JI$rOMBhaC" role="mwGJk">
+            <node concept="2OqwBi" id="5JI$rOMBhaD" role="1Z2MuG">
+              <node concept="1YBJjd" id="5JI$rOMBhaE" role="2Oq$k0">
+                <ref role="1YBMHb" node="5JI$rOMBfQm" resolve="optionalDOption" />
+              </node>
+              <node concept="3TrEf2" id="5JI$rOMBhaF" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:5JI$rOMBfQb" resolve="text" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="5JI$rOMBha$" role="1ZfhKB">
+          <node concept="2c44tf" id="5JI$rOMBha_" role="mwGJk">
+            <node concept="17QB3L" id="5JI$rOMBhaA" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5JI$rOMBfQm" role="1YuTPh">
+      <property role="TrG5h" value="optionalDOption" />
+      <ref role="1YaFvo" to="1btx:pQ21WNknRq" resolve="OptionalDOption" />
+    </node>
+  </node>
 </model>
 
