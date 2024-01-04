@@ -2825,6 +2825,18 @@
           <property role="Xl_RC" value="If you need help with this app please consult ..." />
         </node>
       </node>
+      <node concept="QsSxf" id="3ull2Zuv69r" role="Qtgdg">
+        <property role="TrG5h" value="COMMAND_IN_READONLY" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="3ull2ZuvcFL" role="37wK5m">
+          <property role="Xl_RC" value="Kommando im Lesemodus! Daten können nicht bearbeitet werden" />
+        </node>
+        <node concept="10Nm6u" id="3ull2Zuvefd" role="37wK5m" />
+        <node concept="10Nm6u" id="3ull2ZuvhnI" role="37wK5m" />
+        <node concept="Xl_RD" id="3ull2ZuvfNe" role="37wK5m">
+          <property role="Xl_RC" value="Command in read-only mode! Data can not be edited" />
+        </node>
+      </node>
       <node concept="QsSxf" id="1sUmI9zht75" role="Qtgdg">
         <property role="TrG5h" value="LOCK_NOT_GOT_READONLY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
@@ -2836,7 +2848,7 @@
           <property role="Xl_RC" value="Nur im Lesemodus! %s bearbeitet." />
         </node>
         <node concept="Xl_RD" id="WkCinTf6cM" role="37wK5m">
-          <property role="Xl_RC" value="Command in read-only mode! USer %s is using ressources which are necessary ." />
+          <property role="Xl_RC" value="Command in read-only mode! User %s is using ressources which are necessary ." />
         </node>
       </node>
       <node concept="QsSxf" id="6G8jBJnC_iZ" role="Qtgdg">
