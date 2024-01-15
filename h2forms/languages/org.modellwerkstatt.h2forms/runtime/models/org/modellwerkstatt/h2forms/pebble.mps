@@ -10608,6 +10608,11 @@
       <node concept="3Tmbuc" id="63DqpXBUlb3" role="1B3o_S" />
       <node concept="17QB3L" id="63DqpXBUlb4" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="lLXeN8tspF" role="jymVt">
+      <property role="TrG5h" value="optionalLabelText" />
+      <node concept="3Tmbuc" id="lLXeN8tq2Z" role="1B3o_S" />
+      <node concept="17QB3L" id="lLXeN8trT4" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="5rjVZFJ$M$Y" role="jymVt" />
     <node concept="312cEg" id="6nF$iZDK$eM" role="jymVt">
       <property role="TrG5h" value="items" />
@@ -11071,7 +11076,7 @@
               <property role="3oM_SC" value="add" />
             </node>
             <node concept="3oM_SD" id="7BkDWLyCkfi" role="1PaTwD">
-              <property role="3oM_SC" value="optinal" />
+              <property role="3oM_SC" value="optional" />
             </node>
             <node concept="3oM_SD" id="7BkDWLyCkfj" role="1PaTwD">
               <property role="3oM_SC" value="ony" />
@@ -11117,7 +11122,7 @@
               <property role="3oM_SC" value="setItems" />
             </node>
             <node concept="3oM_SD" id="7BkDWLyCkfx" role="1PaTwD">
-              <property role="3oM_SC" value="allways" />
+              <property role="3oM_SC" value="always" />
             </node>
             <node concept="3oM_SD" id="7BkDWLyCkfy" role="1PaTwD">
               <property role="3oM_SC" value="called" />
@@ -11173,9 +11178,9 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="10M0yZ" id="2a9TlDqPtZH" role="2Oq$k0">
-                      <ref role="1PxDUh" to="5wm0:1kaU3pLSZon" resolve="StatusDelegate" />
-                      <ref role="3cqZAo" to="5wm0:1kaU3pLVdBW" resolve="OPTIONAL_ITEM_TEXT" />
+                    <node concept="10M0yZ" id="lLXeN8vb$Z" role="2Oq$k0">
+                      <ref role="3cqZAo" to="5wm0:lLXeN8uspE" resolve="GENERAL_OPTIONAL_ITEM_TEXT" />
+                      <ref role="1PxDUh" to="5wm0:1YFjUjHUbu8" resolve="ReferenceDelegate" />
                     </node>
                   </node>
                 </node>
@@ -11204,9 +11209,9 @@
                   <node concept="2ShNRf" id="1xTTu1NYmRj" role="25WWJ7">
                     <node concept="1pGfFk" id="1xTTu1NYmRk" role="2ShVmc">
                       <ref role="37wK5l" node="7ZfE5kQYsTk" resolve="AbstractEditor.PebItem" />
-                      <node concept="10M0yZ" id="1xTTu1NYmYT" role="37wK5m">
-                        <ref role="3cqZAo" to="5wm0:1kaU3pLVdBW" resolve="OPTIONAL_ITEM_TEXT" />
-                        <ref role="1PxDUh" to="5wm0:1kaU3pLSZon" resolve="StatusDelegate" />
+                      <node concept="10M0yZ" id="lLXeN8vbOp" role="37wK5m">
+                        <ref role="3cqZAo" to="5wm0:lLXeN8uspE" resolve="GENERAL_OPTIONAL_ITEM_TEXT" />
+                        <ref role="1PxDUh" to="5wm0:1YFjUjHUbu8" resolve="ReferenceDelegate" />
                       </node>
                       <node concept="3clFbT" id="1xTTu1NYmRm" role="37wK5m">
                         <property role="3clFbU" value="true" />
@@ -11246,6 +11251,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="lLXeN8tgrf" role="jymVt" />
     <node concept="3clFb_" id="6nF$iZDK_u9" role="jymVt">
       <property role="TrG5h" value="toHtml" />
       <property role="1EzhhJ" value="false" />
@@ -11404,9 +11410,9 @@
                       </node>
                       <node concept="liA8E" id="1xTTu1NYt78" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                        <node concept="10M0yZ" id="1xTTu1NYtc$" role="37wK5m">
-                          <ref role="1PxDUh" to="5wm0:1kaU3pLSZon" resolve="StatusDelegate" />
-                          <ref role="3cqZAo" to="5wm0:1kaU3pLVdBW" resolve="OPTIONAL_ITEM_TEXT" />
+                        <node concept="10M0yZ" id="lLXeN8vc8t" role="37wK5m">
+                          <ref role="3cqZAo" to="5wm0:lLXeN8uspE" resolve="GENERAL_OPTIONAL_ITEM_TEXT" />
+                          <ref role="1PxDUh" to="5wm0:1YFjUjHUbu8" resolve="ReferenceDelegate" />
                         </node>
                       </node>
                     </node>
@@ -12052,9 +12058,9 @@
                         <ref role="3cqZAo" node="6nF$iZDJ3R8" resolve="value" />
                       </node>
                     </node>
-                    <node concept="10M0yZ" id="1xTTu1NYuFZ" role="2Oq$k0">
-                      <ref role="1PxDUh" to="5wm0:1kaU3pLSZon" resolve="StatusDelegate" />
-                      <ref role="3cqZAo" to="5wm0:1kaU3pLVdBW" resolve="OPTIONAL_ITEM_TEXT" />
+                    <node concept="10M0yZ" id="lLXeN8vcoF" role="2Oq$k0">
+                      <ref role="3cqZAo" to="5wm0:lLXeN8uspE" resolve="GENERAL_OPTIONAL_ITEM_TEXT" />
+                      <ref role="1PxDUh" to="5wm0:1YFjUjHUbu8" resolve="ReferenceDelegate" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="1xTTu1NYtSG" role="3uHU7B">
@@ -12287,6 +12293,22 @@
             </node>
             <node concept="3oM_SD" id="7BkDWLyCkgx" role="1PaTwD">
               <property role="3oM_SC" value="Interface." />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="lLXeN8uDcd" role="3cqZAp">
+          <node concept="1PaTwC" id="lLXeN8uDce" role="1aUNEU">
+            <node concept="3oM_SD" id="lLXeN8uDcf" role="1PaTwD">
+              <property role="3oM_SC" value="do" />
+            </node>
+            <node concept="3oM_SD" id="lLXeN8uDc_" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="lLXeN8uDcC" role="1PaTwD">
+              <property role="3oM_SC" value="call" />
+            </node>
+            <node concept="3oM_SD" id="lLXeN8uDcG" role="1PaTwD">
+              <property role="3oM_SC" value="super" />
             </node>
           </node>
         </node>
