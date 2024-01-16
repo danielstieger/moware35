@@ -4393,7 +4393,7 @@
   </node>
   <node concept="2WPaUQ" id="7$uuZ_GXf0k">
     <property role="TrG5h" value="Tests Ldap (not in compound tests)" />
-    <ref role="2WPtWl" to="rwuk:5MCXLSo4_z9" resolve="MySQLOFXLdapConfig" />
+    <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3yPF9F" id="7$uuZ_GXgrV" role="3yMuLx">
       <property role="TrG5h" value="Can we login a user with password." />
       <node concept="3cqZAl" id="7$uuZ_GXgs8" role="3clF45" />
@@ -4712,10 +4712,6 @@
       <property role="TrG5h" value="userPassword" />
       <node concept="17QB3L" id="7$uuZ_GXf0J" role="1tU5fm" />
     </node>
-    <node concept="3ulXEM" id="7$uuZ_GXf0Q" role="3ulXEG">
-      <property role="TrG5h" value="ldapBindUserPassword" />
-      <node concept="17QB3L" id="7$uuZ_GXf10" role="1tU5fm" />
-    </node>
     <node concept="2d2NRx" id="7$uuZ_GXf1j" role="3yTP5x">
       <node concept="3clFbS" id="7$uuZ_GXf1k" role="2VODD2">
         <node concept="3J1_TO" id="7$uuZ_GXk6F" role="3cqZAp">
@@ -4744,54 +4740,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="7$uuZ_GXhyK" role="3cqZAp" />
-            <node concept="3clFbF" id="7$uuZ_GXf8k" role="3cqZAp">
-              <node concept="2OqwBi" id="7$uuZ_GXf8h" role="3clFbG">
-                <node concept="10M0yZ" id="7$uuZ_GXf8i" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7$uuZ_GXf8j" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
-                  <node concept="Xl_RD" id="7$uuZ_GXf8R" role="37wK5m">
-                    <property role="Xl_RC" value="Enter bind user password: " />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7$uuZ_GXfnb" role="3cqZAp">
-              <node concept="37vLTI" id="7$uuZ_GXfoO" role="3clFbG">
-                <node concept="2OqwBi" id="7$uuZ_GXjwY" role="37vLTx">
-                  <node concept="37vLTw" id="7$uuZ_GXhP2" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7$uuZ_GXh_h" resolve="br" />
-                  </node>
-                  <node concept="liA8E" id="7$uuZ_GXj$R" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~BufferedReader.readLine()" resolve="readLine" />
-                  </node>
-                </node>
-                <node concept="3urNR4" id="7$uuZ_GXfn9" role="37vLTJ">
-                  <ref role="3cqZAo" node="7$uuZ_GXf0Q" resolve="ldapBindUserPassword" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7$uuZ_GXfw9" role="3cqZAp">
-              <node concept="2OqwBi" id="7$uuZ_GXfw6" role="3clFbG">
-                <node concept="10M0yZ" id="7$uuZ_GXfw7" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7$uuZ_GXfw8" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="3cpWs3" id="7$uuZ_GXfJg" role="37wK5m">
-                    <node concept="3urNR4" id="7$uuZ_GXfL1" role="3uHU7w">
-                      <ref role="3cqZAo" node="7$uuZ_GXf0Q" resolve="ldapBindUserPassword" />
-                    </node>
-                    <node concept="Xl_RD" id="7$uuZ_GXfxK" role="3uHU7B">
-                      <property role="Xl_RC" value="Bind user password is " />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="7$uuZ_GXjZY" role="3cqZAp" />
             <node concept="3clFbF" id="7$uuZ_GXl6G" role="3cqZAp">
               <node concept="2OqwBi" id="7$uuZ_GXlaX" role="3clFbG">

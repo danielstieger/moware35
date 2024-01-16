@@ -1131,34 +1131,14 @@
     </node>
     <node concept="2CPvp3" id="5MCXLSo6ndK" role="2CGBMS" />
     <node concept="2CPvp3" id="7$uuZ_H4FHY" role="2CGBMS" />
-    <node concept="2CJf3v" id="3OfvFtm9SSb" role="2CGBMS">
-      <property role="TrG5h" value="currentPlatform" />
-      <node concept="Xl_RD" id="3OfvFtm9SSc" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.ExtendedStandards_Platform_1" />
-      </node>
-      <node concept="2CJf1O" id="3OfvFtm9SSd" role="2CJ4_l">
-        <node concept="Xl_RD" id="3OfvFtm9SSe" role="2DqwMp">
-          <property role="Xl_RC" value="SUGAR" />
-        </node>
-        <node concept="Xl_RD" id="3OfvFtm9SSf" role="2DqwMv">
-          <property role="Xl_RC" value="0" />
-        </node>
-      </node>
-    </node>
     <node concept="2CPvp3" id="7$uuZ_H4FGe" role="2CGBMS" />
     <node concept="2CJ4_Q" id="5MCXLSo6ndP" role="2CGBMS">
       <ref role="2CJ4_N" node="6VW5G60I4vr" resolve="MySQLManMapTestSuitBasics" />
     </node>
-    <node concept="2CJf3v" id="5zF9hZsEnqh" role="2CGBMS">
-      <property role="TrG5h" value="stringFormatter" />
-      <node concept="Xl_RD" id="5zF9hZsEnqj" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXStringFormatter" />
-      </node>
-    </node>
     <node concept="2CPvp3" id="5MCXLSo9cFu" role="2CGBMS" />
     <node concept="20ptWn" id="3OfvFtm9SSg" role="20ptHX">
       <node concept="Xl_RD" id="3OfvFtm9SSh" role="20ptNC">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+        <property role="Xl_RC" value="org.modellwerkstatt.dataux.tests" />
       </node>
     </node>
   </node>
