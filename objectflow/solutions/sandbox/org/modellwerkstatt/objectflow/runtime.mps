@@ -38730,6 +38730,28 @@
         <node concept="17QB3L" id="1uYQkaRuIcp" role="1tU5fm" />
       </node>
     </node>
+    <node concept="3clFb_" id="4zuzzYSBqA$" role="jymVt">
+      <property role="TrG5h" value="getNamesToAttrAndCommonName" />
+      <node concept="3clFbS" id="4zuzzYSBqAB" role="3clF47" />
+      <node concept="3Tm1VV" id="4zuzzYSBqAC" role="1B3o_S" />
+      <node concept="_YKpA" id="4zuzzYSBqzS" role="3clF45">
+        <node concept="3uibUv" id="4zuzzYSBq_O" role="_ZDj9">
+          <ref role="3uigEE" node="7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4zuzzYSBqGF" role="3clF46">
+        <property role="TrG5h" value="searchBase" />
+        <node concept="17QB3L" id="4zuzzYSBqGE" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4zuzzYSBqJN" role="3clF46">
+        <property role="TrG5h" value="attr" />
+        <node concept="17QB3L" id="4zuzzYSBqMP" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4zuzzYSBqPY" role="3clF46">
+        <property role="TrG5h" value="commonName" />
+        <node concept="17QB3L" id="4zuzzYSBqW3" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7$uuZ_GWCEs" role="jymVt" />
     <node concept="3clFb_" id="7$uuZ_GYDcL" role="jymVt">
       <property role="TrG5h" value="setBindUserPassword" />

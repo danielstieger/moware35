@@ -325,6 +325,9 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
+      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
+        <reference id="59360650270057722" name="test" index="1Cak38" />
+      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
@@ -4336,7 +4339,7 @@
       </node>
       <node concept="_YKpA" id="4nH4LOF0O7z" role="3clF45">
         <node concept="3uibUv" id="4nH4LOF0O7$" role="_ZDj9">
-          <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+          <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
         </node>
       </node>
       <node concept="3clFbS" id="4nH4LOF0O7_" role="3clF47">
@@ -4349,6 +4352,48 @@
               <ref role="37wK5l" to="28jr:7$uuZ_GYxgB" resolve="getGroupsOfUser" />
               <node concept="37vLTw" id="4nH4LOF0O7E" role="37wK5m">
                 <ref role="3cqZAo" node="4nH4LOF0O7x" resolve="user" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2vDG_T" id="4zuzzYSBGUh" role="jymVt">
+      <property role="TrG5h" value="getNamesToAttrAndCommonName" />
+      <node concept="3Tm1VV" id="4zuzzYSBGUi" role="1B3o_S" />
+      <node concept="37vLTG" id="4zuzzYSBGUj" role="3clF46">
+        <property role="TrG5h" value="srcBase" />
+        <node concept="17QB3L" id="4zuzzYSBGUk" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4zuzzYSBH72" role="3clF46">
+        <property role="TrG5h" value="attr" />
+        <node concept="17QB3L" id="4zuzzYSBHcn" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4zuzzYSBHex" role="3clF46">
+        <property role="TrG5h" value="commonName" />
+        <node concept="17QB3L" id="4zuzzYSBHeD" role="1tU5fm" />
+      </node>
+      <node concept="_YKpA" id="4zuzzYSBGUl" role="3clF45">
+        <node concept="3uibUv" id="4zuzzYSBGUm" role="_ZDj9">
+          <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4zuzzYSBGUn" role="3clF47">
+        <node concept="3clFbF" id="4zuzzYSBGUo" role="3cqZAp">
+          <node concept="2OqwBi" id="4zuzzYSBGUp" role="3clFbG">
+            <node concept="37vLTw" id="4zuzzYSBGUq" role="2Oq$k0">
+              <ref role="3cqZAo" node="7$uuZ_GYsZ5" resolve="ldapMoService" />
+            </node>
+            <node concept="liA8E" id="4zuzzYSBGUr" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:4zuzzYSBqA$" resolve="getNamesToAttrAndCommonName" />
+              <node concept="37vLTw" id="4zuzzYSBGUs" role="37wK5m">
+                <ref role="3cqZAo" node="4zuzzYSBGUj" resolve="srcBase" />
+              </node>
+              <node concept="37vLTw" id="4zuzzYSBHnL" role="37wK5m">
+                <ref role="3cqZAo" node="4zuzzYSBH72" resolve="attr" />
+              </node>
+              <node concept="37vLTw" id="4zuzzYSBHrU" role="37wK5m">
+                <ref role="3cqZAo" node="4zuzzYSBHex" resolve="commonName" />
               </node>
             </node>
           </node>
@@ -4368,7 +4413,7 @@
       </node>
       <node concept="_YKpA" id="4nH4LOF0O7L" role="3clF45">
         <node concept="3uibUv" id="4nH4LOF0O7M" role="_ZDj9">
-          <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+          <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
         </node>
       </node>
       <node concept="3clFbS" id="4nH4LOF0O7N" role="3clF47">
@@ -4570,7 +4615,7 @@
             <property role="TrG5h" value="groupInfo" />
             <node concept="_YKpA" id="7$uuZ_GYFvy" role="1tU5fm">
               <node concept="3uibUv" id="7$uuZ_GYF$f" role="_ZDj9">
-                <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+                <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
               </node>
             </node>
             <node concept="1odsa" id="7$uuZ_GYEdc" role="33vP2m">
@@ -4659,7 +4704,7 @@
             <property role="TrG5h" value="userGroupInfo" />
             <node concept="_YKpA" id="1uYQkaRvk60" role="1tU5fm">
               <node concept="3uibUv" id="1uYQkaRvk61" role="_ZDj9">
-                <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+                <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
               </node>
             </node>
             <node concept="1odsa" id="1uYQkaRvk62" role="33vP2m">
@@ -4698,7 +4743,7 @@
                       <property role="TrG5h" value="furtherGroupInfo" />
                       <node concept="_YKpA" id="1uYQkaRvl1L" role="1tU5fm">
                         <node concept="3uibUv" id="1uYQkaRvl1M" role="_ZDj9">
-                          <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+                          <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
                         </node>
                       </node>
                       <node concept="1odsa" id="1uYQkaRvl1N" role="33vP2m">
@@ -4800,6 +4845,70 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="4zuzzYSBGpI" role="3yMuLx">
+      <property role="TrG5h" value="Can retrieve names to common name." />
+      <node concept="3cqZAl" id="4zuzzYSBGpJ" role="3clF45" />
+      <node concept="3clFbS" id="4zuzzYSBGpK" role="3clF47">
+        <node concept="3cpWs8" id="4zuzzYSBGpL" role="3cqZAp">
+          <node concept="3cpWsn" id="4zuzzYSBGpM" role="3cpWs9">
+            <property role="TrG5h" value="names" />
+            <node concept="_YKpA" id="4zuzzYSBGpN" role="1tU5fm">
+              <node concept="3uibUv" id="4zuzzYSBGpO" role="_ZDj9">
+                <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
+              </node>
+            </node>
+            <node concept="1odsa" id="4zuzzYSBGpP" role="33vP2m">
+              <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
+              <ref role="37wK5l" node="4zuzzYSBGUh" resolve="getNamesToAttrAndCommonName" />
+              <node concept="Xl_RD" id="4zuzzYSBJQu" role="37wK5m">
+                <property role="Xl_RC" value="OU=DOKUMENTENARCHIV,OU=02PERMISSIONS,DC=mpreis,DC=co,DC=at" />
+              </node>
+              <node concept="Xl_RD" id="4zuzzYSBLj6" role="37wK5m">
+                <property role="Xl_RC" value="member" />
+              </node>
+              <node concept="Xl_RD" id="4zuzzYSBLEw" role="37wK5m">
+                <property role="Xl_RC" value="XS_ArchivType-KONTOAUSZUG" />
+              </node>
+              <node concept="10Nm6u" id="4zuzzYSBGpR" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4zuzzYSBMin" role="3cqZAp" />
+        <node concept="3clFbF" id="4zuzzYSBGpY" role="3cqZAp">
+          <node concept="2OqwBi" id="4zuzzYSBGpZ" role="3clFbG">
+            <node concept="37vLTw" id="4zuzzYSBGq0" role="2Oq$k0">
+              <ref role="3cqZAo" node="4zuzzYSBGpM" resolve="names" />
+            </node>
+            <node concept="2es0OD" id="4zuzzYSBGq1" role="2OqNvi">
+              <node concept="1bVj0M" id="4zuzzYSBGq2" role="23t8la">
+                <node concept="3clFbS" id="4zuzzYSBGq3" role="1bW5cS">
+                  <node concept="38$l6q" id="4zuzzYSBGqf" role="3cqZAp">
+                    <node concept="3cpWs3" id="4zuzzYSBGqg" role="38$l6p">
+                      <node concept="2OqwBi" id="4zuzzYSBGqh" role="3uHU7w">
+                        <node concept="37vLTw" id="4zuzzYSBGqi" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4zuzzYSBGqH" resolve="it" />
+                        </node>
+                        <node concept="liA8E" id="4zuzzYSBGqj" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:7$uuZ_GWDgc" resolve="getProcessedName" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="4zuzzYSBGqk" role="3uHU7B">
+                        <property role="Xl_RC" value="Member " />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="4zuzzYSBGqG" role="3cqZAp" />
+                </node>
+                <node concept="Rh6nW" id="4zuzzYSBGqH" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="4zuzzYSBGqI" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3ulXEM" id="7$uuZ_GXf0m" role="3ulXEG">
       <property role="TrG5h" value="userName" />
       <node concept="17QB3L" id="7$uuZ_GXf0s" role="1tU5fm" />
@@ -4820,6 +4929,12 @@
     </node>
     <node concept="38J6qz" id="1uYQkaRvuuS" role="38MLOi">
       <ref role="38J6qw" node="1uYQkaRvk5V" resolve="Can retrieve groups of common name." />
+    </node>
+    <node concept="1Cak35" id="4zuzzYSBGL5" role="38MLOi">
+      <ref role="1Cak38" node="7$uuZ_GXgrV" resolve="Can we login/ not log in a user with password." />
+    </node>
+    <node concept="38J6qz" id="4zuzzYSBMMF" role="38MLOi">
+      <ref role="38J6qw" node="4zuzzYSBGpI" resolve="Can retrieve names to common name." />
     </node>
   </node>
   <node concept="2WPaUQ" id="5X8QPlbBc8J">
