@@ -38703,7 +38703,7 @@
       <node concept="3Tm1VV" id="7$uuZ_GYxgF" role="1B3o_S" />
       <node concept="_YKpA" id="7$uuZ_GYtKQ" role="3clF45">
         <node concept="3uibUv" id="7$uuZ_GYtMw" role="_ZDj9">
-          <ref role="3uigEE" node="7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+          <ref role="3uigEE" node="7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
         </node>
       </node>
       <node concept="37vLTG" id="7$uuZ_GYxiw" role="3clF46">
@@ -38718,7 +38718,7 @@
       <node concept="3Tm1VV" id="1uYQkaRuIcl" role="1B3o_S" />
       <node concept="_YKpA" id="1uYQkaRuIcm" role="3clF45">
         <node concept="3uibUv" id="1uYQkaRuIcn" role="_ZDj9">
-          <ref role="3uigEE" node="7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+          <ref role="3uigEE" node="7$uuZ_GWCW6" resolve="IMoLdapService.ICnInfo" />
         </node>
       </node>
       <node concept="37vLTG" id="1uYQkaRuIYr" role="3clF46">
@@ -38744,7 +38744,7 @@
     <node concept="2tJIrI" id="7$uuZ_GYDaw" role="jymVt" />
     <node concept="3HP615" id="7$uuZ_GWCW6" role="jymVt">
       <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="IMoLdapGroupInfo" />
+      <property role="TrG5h" value="ICnInfo" />
       <node concept="3clFb_" id="7$uuZ_GWDgc" role="jymVt">
         <property role="TrG5h" value="getProcessedName" />
         <node concept="17QB3L" id="7$uuZ_GWDsm" role="3clF45" />

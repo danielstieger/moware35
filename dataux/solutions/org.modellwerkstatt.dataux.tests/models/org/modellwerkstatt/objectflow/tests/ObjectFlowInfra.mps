@@ -4395,9 +4395,117 @@
     <property role="TrG5h" value="Tests Ldap (not in compound tests)" />
     <ref role="2WPtWl" to="rwuk:7agSOE7KjuS" resolve="MPreisLolaCONFIG" />
     <node concept="3yPF9F" id="7$uuZ_GXgrV" role="3yMuLx">
-      <property role="TrG5h" value="Can we login a user with password." />
+      <property role="TrG5h" value="Can we login/ not log in a user with password." />
       <node concept="3cqZAl" id="7$uuZ_GXgs8" role="3clF45" />
       <node concept="3clFbS" id="7$uuZ_GXgrZ" role="3clF47">
+        <node concept="3cpWs8" id="21PCWhL0KZ7" role="3cqZAp">
+          <node concept="3cpWsn" id="21PCWhL0KZa" role="3cpWs9">
+            <property role="TrG5h" value="userPassword" />
+            <node concept="17QB3L" id="21PCWhL0KZ5" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3J1_TO" id="7$uuZ_GXk6F" role="3cqZAp">
+          <node concept="3clFbS" id="7$uuZ_GXk6H" role="1zxBo7">
+            <node concept="3cpWs8" id="7$uuZ_GXh_i" role="3cqZAp">
+              <node concept="3cpWsn" id="7$uuZ_GXh_h" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="br" />
+                <node concept="3uibUv" id="7$uuZ_GXhCe" role="1tU5fm">
+                  <ref role="3uigEE" to="guwi:~BufferedReader" resolve="BufferedReader" />
+                </node>
+                <node concept="2ShNRf" id="7$uuZ_GXhH1" role="33vP2m">
+                  <node concept="1pGfFk" id="7$uuZ_GXhH2" role="2ShVmc">
+                    <ref role="37wK5l" to="guwi:~BufferedReader.&lt;init&gt;(java.io.Reader)" resolve="BufferedReader" />
+                    <node concept="2ShNRf" id="7$uuZ_GXhGT" role="37wK5m">
+                      <node concept="1pGfFk" id="7$uuZ_GXhGU" role="2ShVmc">
+                        <ref role="37wK5l" to="guwi:~InputStreamReader.&lt;init&gt;(java.io.InputStream)" resolve="InputStreamReader" />
+                        <node concept="10M0yZ" id="7$uuZ_GXh_p" role="37wK5m">
+                          <ref role="3cqZAo" to="wyt6:~System.in" resolve="in" />
+                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7$uuZ_GXmGW" role="3cqZAp">
+              <node concept="2OqwBi" id="7$uuZ_GXmGT" role="3clFbG">
+                <node concept="10M0yZ" id="7$uuZ_GXmGU" role="2Oq$k0">
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                </node>
+                <node concept="liA8E" id="7$uuZ_GXmGV" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
+                  <node concept="3cpWs3" id="21PCWhL0Kki" role="37wK5m">
+                    <node concept="Xl_RD" id="21PCWhL0Kku" role="3uHU7w">
+                      <property role="Xl_RC" value=": " />
+                    </node>
+                    <node concept="3cpWs3" id="21PCWhL0JVT" role="3uHU7B">
+                      <node concept="Xl_RD" id="7$uuZ_GXmNr" role="3uHU7B">
+                        <property role="Xl_RC" value="Enter password for AD User " />
+                      </node>
+                      <node concept="3urNR4" id="21PCWhL0K0u" role="3uHU7w">
+                        <ref role="3cqZAo" node="7$uuZ_GXf0m" resolve="userName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7$uuZ_GXovr" role="3cqZAp">
+              <node concept="37vLTI" id="7$uuZ_GXo_n" role="3clFbG">
+                <node concept="2OqwBi" id="7$uuZ_GXoCM" role="37vLTx">
+                  <node concept="37vLTw" id="7$uuZ_GXoBt" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7$uuZ_GXh_h" resolve="br" />
+                  </node>
+                  <node concept="liA8E" id="7$uuZ_GXoGb" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~BufferedReader.readLine()" resolve="readLine" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="21PCWhL0QyY" role="37vLTJ">
+                  <ref role="3cqZAo" node="21PCWhL0KZa" resolve="userPassword" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7$uuZ_GXjA3" role="3cqZAp">
+              <node concept="2OqwBi" id="7$uuZ_GXjDI" role="3clFbG">
+                <node concept="37vLTw" id="7$uuZ_GXjA1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7$uuZ_GXh_h" resolve="br" />
+                </node>
+                <node concept="liA8E" id="7$uuZ_GXjHS" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~BufferedReader.close()" resolve="close" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7$uuZ_GXk6G" role="3cqZAp" />
+          </node>
+          <node concept="3uVAMA" id="7$uuZ_GXk6I" role="1zxBo5">
+            <node concept="XOnhg" id="7$uuZ_GXk6K" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="ex" />
+              <node concept="nSUau" id="3motdNK3skA" role="1tU5fm">
+                <node concept="3uibUv" id="7$uuZ_GXkiN" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="7$uuZ_GXk6O" role="1zc67A">
+              <node concept="YS8fn" id="21PCWhL0Lfo" role="3cqZAp">
+                <node concept="2ShNRf" id="21PCWhL0Lfs" role="YScLw">
+                  <node concept="1pGfFk" id="21PCWhL0Q6s" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="21PCWhL0QfT" role="37wK5m">
+                      <ref role="3cqZAo" node="7$uuZ_GXk6K" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="21PCWhL0IIL" role="3cqZAp" />
+        <node concept="3clFbH" id="21PCWhL0IIS" role="3cqZAp" />
         <node concept="1gVbGN" id="7$uuZ_GYCHf" role="3cqZAp">
           <node concept="1odsa" id="7$uuZ_GYCHp" role="1gVkn0">
             <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
@@ -4405,23 +4513,17 @@
             <node concept="3urNR4" id="7$uuZ_GYDDx" role="37wK5m">
               <ref role="3cqZAo" node="7$uuZ_GXf0m" resolve="userName" />
             </node>
-            <node concept="3urNR4" id="7$uuZ_GYDFT" role="37wK5m">
-              <ref role="3cqZAo" node="7$uuZ_GXf0B" resolve="userPassword" />
+            <node concept="37vLTw" id="21PCWhL0Q$k" role="37wK5m">
+              <ref role="3cqZAo" node="21PCWhL0KZa" resolve="userPassword" />
             </node>
             <node concept="10Nm6u" id="7$uuZ_GYDI3" role="2f8TIa" />
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="3yPF9F" id="7$uuZ_GYDIr" role="3yMuLx">
-      <property role="TrG5h" value="Can not login with a wrong user." />
-      <node concept="3cqZAl" id="7$uuZ_GYDIs" role="3clF45" />
-      <node concept="3clFbS" id="7$uuZ_GYDIt" role="3clF47">
         <node concept="1gVbGN" id="7$uuZ_GYDIu" role="3cqZAp">
           <node concept="3fqX7Q" id="7$uuZ_GYDTR" role="1gVkn0">
             <node concept="1odsa" id="7$uuZ_GYDTT" role="3fr31v">
-              <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
               <ref role="37wK5l" node="4nH4LOF0O7h" resolve="authenticatedMe" />
+              <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
               <node concept="3cpWs3" id="7$uuZ_GYDTU" role="37wK5m">
                 <node concept="Xl_RD" id="7$uuZ_GYDTV" role="3uHU7w">
                   <property role="Xl_RC" value="X" />
@@ -4430,19 +4532,13 @@
                   <ref role="3cqZAo" node="7$uuZ_GXf0m" resolve="userName" />
                 </node>
               </node>
-              <node concept="3urNR4" id="7$uuZ_GYDTX" role="37wK5m">
-                <ref role="3cqZAo" node="7$uuZ_GXf0B" resolve="userPassword" />
+              <node concept="37vLTw" id="21PCWhL0R8w" role="37wK5m">
+                <ref role="3cqZAo" node="21PCWhL0KZa" resolve="userPassword" />
               </node>
               <node concept="10Nm6u" id="7$uuZ_GYDTY" role="2f8TIa" />
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="3yPF9F" id="7$uuZ_GYDWY" role="3yMuLx">
-      <property role="TrG5h" value="Can not login with a wrong password." />
-      <node concept="3cqZAl" id="7$uuZ_GYDWZ" role="3clF45" />
-      <node concept="3clFbS" id="7$uuZ_GYDX0" role="3clF47">
         <node concept="1gVbGN" id="7$uuZ_GYDX1" role="3cqZAp">
           <node concept="3fqX7Q" id="7$uuZ_GYDX2" role="1gVkn0">
             <node concept="1odsa" id="7$uuZ_GYDX3" role="3fr31v">
@@ -4455,8 +4551,8 @@
                 <node concept="Xl_RD" id="7$uuZ_GYE9b" role="3uHU7w">
                   <property role="Xl_RC" value="X" />
                 </node>
-                <node concept="3urNR4" id="7$uuZ_GYDX7" role="3uHU7B">
-                  <ref role="3cqZAo" node="7$uuZ_GXf0B" resolve="userPassword" />
+                <node concept="37vLTw" id="21PCWhL0R6Y" role="3uHU7B">
+                  <ref role="3cqZAo" node="21PCWhL0KZa" resolve="userPassword" />
                 </node>
               </node>
               <node concept="10Nm6u" id="7$uuZ_GYDX8" role="2f8TIa" />
@@ -4708,164 +4804,15 @@
       <property role="TrG5h" value="userName" />
       <node concept="17QB3L" id="7$uuZ_GXf0s" role="1tU5fm" />
     </node>
-    <node concept="3ulXEM" id="7$uuZ_GXf0B" role="3ulXEG">
-      <property role="TrG5h" value="userPassword" />
-      <node concept="17QB3L" id="7$uuZ_GXf0J" role="1tU5fm" />
-    </node>
     <node concept="2d2NRx" id="7$uuZ_GXf1j" role="3yTP5x">
       <node concept="3clFbS" id="7$uuZ_GXf1k" role="2VODD2">
-        <node concept="3J1_TO" id="7$uuZ_GXk6F" role="3cqZAp">
-          <node concept="3clFbS" id="7$uuZ_GXk6H" role="1zxBo7">
-            <node concept="3cpWs8" id="7$uuZ_GXh_i" role="3cqZAp">
-              <node concept="3cpWsn" id="7$uuZ_GXh_h" role="3cpWs9">
-                <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="br" />
-                <node concept="3uibUv" id="7$uuZ_GXhCe" role="1tU5fm">
-                  <ref role="3uigEE" to="guwi:~BufferedReader" resolve="BufferedReader" />
-                </node>
-                <node concept="2ShNRf" id="7$uuZ_GXhH1" role="33vP2m">
-                  <node concept="1pGfFk" id="7$uuZ_GXhH2" role="2ShVmc">
-                    <ref role="37wK5l" to="guwi:~BufferedReader.&lt;init&gt;(java.io.Reader)" resolve="BufferedReader" />
-                    <node concept="2ShNRf" id="7$uuZ_GXhGT" role="37wK5m">
-                      <node concept="1pGfFk" id="7$uuZ_GXhGU" role="2ShVmc">
-                        <ref role="37wK5l" to="guwi:~InputStreamReader.&lt;init&gt;(java.io.InputStream)" resolve="InputStreamReader" />
-                        <node concept="10M0yZ" id="7$uuZ_GXh_p" role="37wK5m">
-                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                          <ref role="3cqZAo" to="wyt6:~System.in" resolve="in" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+        <node concept="3clFbF" id="21PCWhL0Kxi" role="3cqZAp">
+          <node concept="37vLTI" id="21PCWhL0KJP" role="3clFbG">
+            <node concept="Xl_RD" id="21PCWhL0KMQ" role="37vLTx">
+              <property role="Xl_RC" value="daniels" />
             </node>
-            <node concept="3clFbH" id="7$uuZ_GXhyK" role="3cqZAp" />
-            <node concept="3clFbH" id="7$uuZ_GXjZY" role="3cqZAp" />
-            <node concept="3clFbF" id="7$uuZ_GXl6G" role="3cqZAp">
-              <node concept="2OqwBi" id="7$uuZ_GXlaX" role="3clFbG">
-                <node concept="10M0yZ" id="7$uuZ_GXl6F" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7$uuZ_GXleR" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
-                  <node concept="Xl_RD" id="7$uuZ_GXlgg" role="37wK5m">
-                    <property role="Xl_RC" value="Enter AD Username: " />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7$uuZ_GXlzj" role="3cqZAp">
-              <node concept="37vLTI" id="7$uuZ_GXlD3" role="3clFbG">
-                <node concept="2OqwBi" id="7$uuZ_GXlFO" role="37vLTx">
-                  <node concept="37vLTw" id="7$uuZ_GXlEv" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7$uuZ_GXh_h" resolve="br" />
-                  </node>
-                  <node concept="liA8E" id="7$uuZ_GXlKu" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~BufferedReader.readLine()" resolve="readLine" />
-                  </node>
-                </node>
-                <node concept="3urNR4" id="7$uuZ_GXlzh" role="37vLTJ">
-                  <ref role="3cqZAo" node="7$uuZ_GXf0m" resolve="userName" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7$uuZ_GXlQm" role="3cqZAp">
-              <node concept="2OqwBi" id="7$uuZ_GXlQj" role="3clFbG">
-                <node concept="10M0yZ" id="7$uuZ_GXlQk" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7$uuZ_GXlQl" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="3cpWs3" id="7$uuZ_GXmoS" role="37wK5m">
-                    <node concept="3urNR4" id="7$uuZ_GXmuK" role="3uHU7w">
-                      <ref role="3cqZAo" node="7$uuZ_GXf0m" resolve="userName" />
-                    </node>
-                    <node concept="Xl_RD" id="7$uuZ_GXlUy" role="3uHU7B">
-                      <property role="Xl_RC" value="AD Username is " />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="7$uuZ_GXm$2" role="3cqZAp" />
-            <node concept="3clFbF" id="7$uuZ_GXmGW" role="3cqZAp">
-              <node concept="2OqwBi" id="7$uuZ_GXmGT" role="3clFbG">
-                <node concept="10M0yZ" id="7$uuZ_GXmGU" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7$uuZ_GXmGV" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
-                  <node concept="Xl_RD" id="7$uuZ_GXmNr" role="37wK5m">
-                    <property role="Xl_RC" value="Enter AD User password: " />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7$uuZ_GXovr" role="3cqZAp">
-              <node concept="37vLTI" id="7$uuZ_GXo_n" role="3clFbG">
-                <node concept="2OqwBi" id="7$uuZ_GXoCM" role="37vLTx">
-                  <node concept="37vLTw" id="7$uuZ_GXoBt" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7$uuZ_GXh_h" resolve="br" />
-                  </node>
-                  <node concept="liA8E" id="7$uuZ_GXoGb" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~BufferedReader.readLine()" resolve="readLine" />
-                  </node>
-                </node>
-                <node concept="3urNR4" id="7$uuZ_GXovp" role="37vLTJ">
-                  <ref role="3cqZAo" node="7$uuZ_GXf0B" resolve="userPassword" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7$uuZ_GXoQ4" role="3cqZAp">
-              <node concept="2OqwBi" id="7$uuZ_GXoQ1" role="3clFbG">
-                <node concept="10M0yZ" id="7$uuZ_GXoQ2" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7$uuZ_GXoQ3" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="Xl_RD" id="7$uuZ_GXoXL" role="37wK5m">
-                    <property role="Xl_RC" value="Ad user password is: ??" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7$uuZ_GXjA3" role="3cqZAp">
-              <node concept="2OqwBi" id="7$uuZ_GXjDI" role="3clFbG">
-                <node concept="37vLTw" id="7$uuZ_GXjA1" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7$uuZ_GXh_h" resolve="br" />
-                </node>
-                <node concept="liA8E" id="7$uuZ_GXjHS" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~BufferedReader.close()" resolve="close" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="7$uuZ_GXk6G" role="3cqZAp" />
-          </node>
-          <node concept="3uVAMA" id="7$uuZ_GXk6I" role="1zxBo5">
-            <node concept="XOnhg" id="7$uuZ_GXk6K" role="1zc67B">
-              <property role="3TUv4t" value="false" />
-              <property role="TrG5h" value="ex" />
-              <node concept="nSUau" id="3motdNK3skA" role="1tU5fm">
-                <node concept="3uibUv" id="7$uuZ_GXkiN" role="nSUat">
-                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbS" id="7$uuZ_GXk6O" role="1zc67A">
-              <node concept="3clFbF" id="7$uuZ_GXkks" role="3cqZAp">
-                <node concept="2OqwBi" id="7$uuZ_GXkl6" role="3clFbG">
-                  <node concept="37vLTw" id="7$uuZ_GXkkr" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7$uuZ_GXk6K" resolve="ex" />
-                  </node>
-                  <node concept="liA8E" id="7$uuZ_GXkop" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
-                  </node>
-                </node>
-              </node>
+            <node concept="3urNR4" id="21PCWhL0Kxh" role="37vLTJ">
+              <ref role="3cqZAo" node="7$uuZ_GXf0m" resolve="userName" />
             </node>
           </node>
         </node>

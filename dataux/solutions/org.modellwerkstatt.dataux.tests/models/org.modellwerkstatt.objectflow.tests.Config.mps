@@ -221,7 +221,7 @@
       </node>
       <node concept="2CJf1O" id="7agSOE7KjuV" role="2CJ4_l">
         <node concept="Xl_RD" id="7agSOE7KjuW" role="2DqwMp">
-          <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
+          <property role="Xl_RC" value="ldap://mpreis.co.at:389" />
         </node>
         <node concept="Xl_RD" id="7agSOE7KjuX" role="2DqwMv">
           <property role="Xl_RC" value="0" />
@@ -236,16 +236,14 @@
         </node>
       </node>
       <node concept="2CJf1O" id="7agSOE7Kjv1" role="2CJ4_l">
-        <node concept="Xl_RD" id="7agSOE7Kjv2" role="2DqwMp">
-          <property role="Xl_RC" value="pwd" />
-        </node>
+        <node concept="Xl_RD" id="7agSOE7Kjv2" role="2DqwMp" />
         <node concept="Xl_RD" id="7agSOE7Kjv3" role="2DqwMv">
           <property role="Xl_RC" value="2" />
         </node>
       </node>
       <node concept="2CJf1O" id="7agSOE7Kjv4" role="2CJ4_l">
         <node concept="Xl_RD" id="7agSOE7Kjv5" role="2DqwMp">
-          <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+          <property role="Xl_RC" value="OU=10USER,DC=mpreis,DC=co,DC=at" />
         </node>
         <node concept="Xl_RD" id="7agSOE7Kjv6" role="2DqwMv">
           <property role="Xl_RC" value="3" />
