@@ -4,7 +4,6 @@
 {% endmacro %}
 {% extends "./base.peb" %}
 {% block content %}
-        <!-- {{ keyboardScan }} / {{ conclusions|length }} -->
 <div class="w3-top">
     <div class="w3-container w3-row sv-currentfg-D3" onclick="svHideAllContainsDropdown()">
         <div class="w3-col s4 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("&nbsp;")|raw }}</div>

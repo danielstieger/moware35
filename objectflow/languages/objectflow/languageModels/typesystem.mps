@@ -15886,5 +15886,35 @@
       <ref role="dlsrH" to="wxye:hP3Yzmd" resolve="check_DeprecatedReference" />
     </node>
   </node>
+  <node concept="1YbPZF" id="21PCWhLgwWm">
+    <property role="TrG5h" value="typeof_OptionalAsStatusDeclOption" />
+    <property role="3GE5qa" value="Status" />
+    <node concept="3clFbS" id="21PCWhLgwWn" role="18ibNy">
+      <node concept="1ZobV4" id="21PCWhLgy4D" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="21PCWhLgy51" role="1ZfhKB">
+          <node concept="2c44tf" id="21PCWhLgy4X" role="mwGJk">
+            <node concept="17QB3L" id="21PCWhLgy62" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="21PCWhLgy4G" role="1ZfhK$">
+          <node concept="1Z2H0r" id="21PCWhLgxA8" role="mwGJk">
+            <node concept="2OqwBi" id="21PCWhLgxKU" role="1Z2MuG">
+              <node concept="1YBJjd" id="21PCWhLgxBW" role="2Oq$k0">
+                <ref role="1YBMHb" node="21PCWhLgwWp" resolve="optionalAsStatusDeclOption" />
+              </node>
+              <node concept="3TrEf2" id="21PCWhLgxTn" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:21PCWhLgwWe" resolve="string" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="21PCWhLgwWp" role="1YuTPh">
+      <property role="TrG5h" value="optionalAsStatusDeclOption" />
+      <ref role="1YaFvo" to="un0u:21PCWhLgwWc" resolve="OptionalAsStatusDeclOption" />
+    </node>
+  </node>
 </model>
 

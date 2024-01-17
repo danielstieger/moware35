@@ -13500,5 +13500,19 @@
       <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
     </node>
   </node>
+  <node concept="24kQdi" id="21PCWhLgy6t">
+    <property role="3GE5qa" value="Status" />
+    <ref role="1XX52x" to="un0u:21PCWhLgwWc" resolve="OptionalAsStatusDeclOption" />
+    <node concept="3EZMnI" id="21PCWhLgy6x" role="2wV5jI">
+      <node concept="PMmxH" id="21PCWhLgy6v" role="3EZMnx">
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="21PCWhLgy6D" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:21PCWhLgwWe" resolve="string" />
+      </node>
+      <node concept="l2Vlx" id="21PCWhLgy6y" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
