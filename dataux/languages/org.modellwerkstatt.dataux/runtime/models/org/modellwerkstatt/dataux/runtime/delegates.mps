@@ -4192,8 +4192,13 @@
           <node concept="3clFbS" id="5JI$rONe4rq" role="3clFbx">
             <node concept="3clFbF" id="5JI$rONe5oW" role="3cqZAp">
               <node concept="37vLTI" id="5JI$rONe5Xk" role="3clFbG">
-                <node concept="37vLTw" id="5JI$rONe6nu" role="37vLTx">
-                  <ref role="3cqZAo" node="5JI$rONe0Fs" resolve="labelText" />
+                <node concept="2OqwBi" id="21PCWhLepvb" role="37vLTx">
+                  <node concept="37vLTw" id="5JI$rONe6nu" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5JI$rONe0Fs" resolve="labelText" />
+                  </node>
+                  <node concept="liA8E" id="21PCWhLepVj" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
+                  </node>
                 </node>
                 <node concept="37vLTw" id="5JI$rONe5oU" role="37vLTJ">
                   <ref role="3cqZAo" node="5JI$rONdXFV" resolve="STATUS_OPTIONAL_ITEM_TEXT" />
