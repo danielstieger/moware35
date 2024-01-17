@@ -147,8 +147,11 @@ function selectOnAlternativeRefDlgt(inputFieldName, idx) {
     inputElem.value = idx;
     toSelectLi.classList.add('w3-card');
     toSelectLi.classList.add('sv-refedit-selected');
-    oldSelectedLi.classList.remove('w3-card');
-    oldSelectedLi.classList.remove('sv-refedit-selected');
+    if (oldSelectedLi) {
+        /* might not be visible due to optional("") */
+        oldSelectedLi.classList.remove('w3-card');
+        oldSelectedLi.classList.remove('sv-refedit-selected');
+    }
 }
 
 

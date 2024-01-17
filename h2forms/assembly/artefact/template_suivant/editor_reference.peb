@@ -16,10 +16,10 @@
 <div class="w3-col m12 s12">
 {% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
 <ul class="w3-ul w3-border w3-hoverable">
-{% for item in items %} {% if not item.label equals "" %}
+{% for item in items %}{% if item.label equals "" %}<!-- optional("") --> {% else %}
   <li id="{{ editorId }}_{{ item.itemId }}" {% if item.selected %}class="w3-card sv-refedit-selected"{% endif %}
       onClick="selectOnAlternativeRefDlgt('{{ editorId }}', {{ item.itemId }});{% if scanable %}saveSubmitDueUpdate();{% endif %}">{{ item.label | raw }}</li>
-  {% endif %}{% endfor %}
+{% endif %}{% endfor %}
 </ul>
 </div>
 {% endif %}
