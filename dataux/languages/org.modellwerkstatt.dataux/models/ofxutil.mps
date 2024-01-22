@@ -684,7 +684,7 @@
                   <node concept="3cpWsn" id="1GxgwjBwnAx" role="3cpWs9">
                     <property role="TrG5h" value="bo" />
                     <node concept="3Tqbb2" id="1GxgwjBwnAy" role="1tU5fm">
-                      <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                      <ref role="ehGHo" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                     </node>
                     <node concept="1PxgMI" id="1GxgwjBwnAK" role="33vP2m">
                       <node concept="2OqwBi" id="1GxgwjBwnAB" role="1m5AlR">
@@ -696,7 +696,7 @@
                         </node>
                       </node>
                       <node concept="chp4Y" id="1ZEzZmq2eQz" role="3oSUPX">
-                        <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                        <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                       </node>
                     </node>
                   </node>
@@ -728,7 +728,7 @@
                 </node>
                 <node concept="1mIQ4w" id="1GxgwjBwnAt" role="2OqNvi">
                   <node concept="chp4Y" id="1GxgwjBwnAv" role="cj9EA">
-                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                   </node>
                 </node>
               </node>
@@ -1438,6 +1438,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="48Z6qzxsHiJ" role="3cqZAp" />
         <node concept="3clFbF" id="pQ21WNdvcV" role="3cqZAp">
           <node concept="2YIFZM" id="3ouNayfKcqj" role="3clFbG">
             <ref role="37wK5l" node="3ouNayfHhlc" resolve="configureDelegates" />
@@ -1607,6 +1608,7 @@
       </node>
       <node concept="3clFbS" id="3ouNayfHhkX" role="3clF47">
         <node concept="3clFbH" id="pQ21WNaBkw" role="3cqZAp" />
+        <node concept="3clFbH" id="48Z6qzxsKr1" role="3cqZAp" />
         <node concept="3clFbF" id="3ouNayfHhpX" role="3cqZAp">
           <node concept="2OqwBi" id="3ouNayfHigm" role="3clFbG">
             <node concept="2OqwBi" id="3ouNayfHhrK" role="2Oq$k0">
@@ -2749,7 +2751,7 @@
                     </node>
                     <node concept="1mIQ4w" id="3ouNayfFXe_" role="2OqNvi">
                       <node concept="chp4Y" id="3ouNayfFXhf" role="cj9EA">
-                        <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                        <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="Entity" />
                       </node>
                     </node>
                   </node>
