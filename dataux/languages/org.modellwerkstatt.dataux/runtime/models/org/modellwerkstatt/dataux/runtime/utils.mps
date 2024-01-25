@@ -2717,6 +2717,18 @@
           <property role="Xl_RC" value="Login" />
         </node>
       </node>
+      <node concept="QsSxf" id="2jmS2T$OtTt" role="Qtgdg">
+        <property role="TrG5h" value="RELOGIN_BUTTON" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="2jmS2T$O$$H" role="37wK5m">
+          <property role="Xl_RC" value="Erneut anmelden" />
+        </node>
+        <node concept="10Nm6u" id="2jmS2T$OAb7" role="37wK5m" />
+        <node concept="10Nm6u" id="2jmS2T$OAYG" role="37wK5m" />
+        <node concept="Xl_RD" id="2jmS2T$OAZo" role="37wK5m">
+          <property role="Xl_RC" value="Login again" />
+        </node>
+      </node>
       <node concept="QsSxf" id="1EBV9L$IJAc" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_EXTENDED_USERNAME" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
@@ -2757,7 +2769,7 @@
         <property role="TrG5h" value="LOGIN_FAILED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="1Q0KaWuHvd8" role="37wK5m">
-          <property role="Xl_RC" value="Sie konnten nicht am System angemeldet werden.\n(Keine/falsche Rechte)" />
+          <property role="Xl_RC" value="Sie konnten nicht am System angemeldet werden.\n(Keine/ falsche Rechte)" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDd" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDe" role="37wK5m" />
@@ -2769,7 +2781,7 @@
         <property role="TrG5h" value="LOGIN_USER_FAILED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="7r26jiO4Dx8" role="37wK5m">
-          <property role="Xl_RC" value="Der Benutzer '%s' konnten nicht am System angemeldet werden.\n(Keine/falsche Rechte)" />
+          <property role="Xl_RC" value="Der Benutzer '%s' konnten nicht am System angemeldet werden.\n(Keine/ falsche Rechte)" />
         </node>
         <node concept="10Nm6u" id="7r26jiO4Dx9" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiO4Dxa" role="37wK5m" />
@@ -2786,7 +2798,7 @@
         <node concept="10Nm6u" id="7r26jiNRWDf" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDg" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf67a" role="37wK5m">
-          <property role="Xl_RC" value="Wrong username and/or password." />
+          <property role="Xl_RC" value="Wrong username and/ or password." />
         </node>
       </node>
       <node concept="QsSxf" id="58$$edtkjnA" role="Qtgdg">
@@ -3063,12 +3075,36 @@
         <property role="TrG5h" value="LOGOUT_SUCCESS" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="6XECzp4bleK" role="37wK5m">
-          <property role="Xl_RC" value="Sie wurden erfolgreich von der Applikation abgemeldet" />
+          <property role="Xl_RC" value="Sie wurden abgemeldet." />
         </node>
         <node concept="10Nm6u" id="6XECzp4bmIk" role="37wK5m" />
         <node concept="10Nm6u" id="6XECzp4bodt" role="37wK5m" />
         <node concept="Xl_RD" id="6XECzp4boWD" role="37wK5m">
-          <property role="Xl_RC" value="You have been successfully logged out from the application." />
+          <property role="Xl_RC" value="You have been logged out." />
+        </node>
+      </node>
+      <node concept="QsSxf" id="2jmS2T$OdZh" role="Qtgdg">
+        <property role="TrG5h" value="LOGOUT_OTHERS_OPEN" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="2jmS2T$OkDQ" role="37wK5m">
+          <property role="Xl_RC" value="Es sind noch andere Fenster mit ihrem Benutzer geöffnet." />
+        </node>
+        <node concept="10Nm6u" id="2jmS2T$OmfD" role="37wK5m" />
+        <node concept="10Nm6u" id="2jmS2T$On2B" role="37wK5m" />
+        <node concept="Xl_RD" id="2jmS2T$OoB7" role="37wK5m">
+          <property role="Xl_RC" value="Other windows for your user are still open." />
+        </node>
+      </node>
+      <node concept="QsSxf" id="2jmS2T$OQi_" role="Qtgdg">
+        <property role="TrG5h" value="LOGIN_NOT_POSSIBLE" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="2jmS2T$OW2W" role="37wK5m">
+          <property role="Xl_RC" value="Anmeldung nicht möglich." />
+        </node>
+        <node concept="10Nm6u" id="2jmS2T$OWRe" role="37wK5m" />
+        <node concept="10Nm6u" id="2jmS2T$OYu8" role="37wK5m" />
+        <node concept="Xl_RD" id="2jmS2T$P05P" role="37wK5m">
+          <property role="Xl_RC" value="Login not possible." />
         </node>
       </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />

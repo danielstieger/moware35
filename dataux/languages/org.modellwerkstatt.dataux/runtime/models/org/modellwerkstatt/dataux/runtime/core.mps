@@ -11032,6 +11032,11 @@
                             <node concept="3cqZAl" id="_66gAv4JZj" role="3clF45" />
                             <node concept="3Tm1VV" id="_66gAv4JZk" role="1B3o_S" />
                             <node concept="3clFbS" id="_66gAv4JZl" role="3clF47">
+                              <node concept="3clFbF" id="2jmS2T$MEwW" role="3cqZAp">
+                                <node concept="1rXfSq" id="2jmS2T$MEwX" role="3clFbG">
+                                  <ref role="37wK5l" node="3nLGOmWrOyj" resolve="internal_immediatelyShutdown" />
+                                </node>
+                              </node>
                               <node concept="3clFbF" id="_66gAv4JZm" role="3cqZAp">
                                 <node concept="2OqwBi" id="_66gAv4JZn" role="3clFbG">
                                   <node concept="37vLTw" id="_66gAv4JZo" role="2Oq$k0">
@@ -11111,6 +11116,11 @@
                               <node concept="3cqZAl" id="_66gAv3TRY" role="3clF45" />
                               <node concept="3Tm1VV" id="_66gAv3TRZ" role="1B3o_S" />
                               <node concept="3clFbS" id="_66gAv3TS1" role="3clF47">
+                                <node concept="3clFbF" id="2jmS2T$M_F5" role="3cqZAp">
+                                  <node concept="1rXfSq" id="2jmS2T$M_F3" role="3clFbG">
+                                    <ref role="37wK5l" node="3nLGOmWrOyj" resolve="internal_immediatelyShutdown" />
+                                  </node>
+                                </node>
                                 <node concept="3clFbF" id="_66gAv4xpk" role="3cqZAp">
                                   <node concept="2OqwBi" id="_66gAv4x$5" role="3clFbG">
                                     <node concept="37vLTw" id="_66gAv4xpj" role="2Oq$k0">
@@ -12873,7 +12883,7 @@
     <node concept="3clFb_" id="20ohnkb$HAQ" role="jymVt">
       <property role="TrG5h" value="onExitRequestedEvent" />
       <node concept="37vLTG" id="64PSf$EEg9o" role="3clF46">
-        <property role="TrG5h" value="doNotAskBackOnOpenGO" />
+        <property role="TrG5h" value="doNotCheckBackOnOpenGO" />
         <node concept="10P_77" id="64PSf$EEhTk" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="20ohnkb$HAS" role="3clF45" />
@@ -12964,7 +12974,7 @@
           </node>
           <node concept="22lmx$" id="64PSf$EEhYO" role="3clFbw">
             <node concept="37vLTw" id="64PSf$EEibD" role="3uHU7B">
-              <ref role="3cqZAo" node="64PSf$EEg9o" resolve="doNotAskBackOnOpenGO" />
+              <ref role="3cqZAo" node="64PSf$EEg9o" resolve="doNotCheckBackOnOpenGO" />
             </node>
             <node concept="37vLTw" id="7G122Nuf_6m" role="3uHU7w">
               <ref role="3cqZAo" node="_66gAuL9pp" resolve="noGraphsOpen" />
