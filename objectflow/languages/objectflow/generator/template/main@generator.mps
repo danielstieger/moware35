@@ -858,7 +858,7 @@
                 <node concept="3VmV3z" id="3m83xNEAcji" role="1EMhIo">
                   <property role="3VnrPo" value="__selectionProvider" />
                   <node concept="3uibUv" id="3m83xNEAck3" role="3Vn4Tt">
-                    <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+                    <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
                   </node>
                 </node>
               </node>
@@ -949,7 +949,7 @@
                 <node concept="3VmV3z" id="3m83xNEAsG2" role="1EMhIo">
                   <property role="3VnrPo" value="__selectionProvider" />
                   <node concept="3uibUv" id="3m83xNEAsG3" role="3Vn4Tt">
-                    <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+                    <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
                   </node>
                 </node>
               </node>
@@ -1150,7 +1150,7 @@
             <node concept="3VmV3z" id="3m83xNGspZe" role="1EMhIo">
               <property role="3VnrPo" value="__selectionProvider" />
               <node concept="3uibUv" id="3m83xNGspZf" role="3Vn4Tt">
-                <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+                <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
               </node>
             </node>
           </node>
@@ -10211,10 +10211,17 @@
                               </node>
                             </node>
                             <node concept="3cpWs6" id="ite6GQox2b" role="3cqZAp">
-                              <node concept="2OqwBi" id="ite6GQox2c" role="3cqZAk">
-                                <node concept="30H73N" id="ite6GQox2d" role="2Oq$k0" />
-                                <node concept="3TrcHB" id="ite6GQox2e" role="2OqNvi">
-                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              <node concept="3cpWs3" id="32SWqIdcrV4" role="3cqZAk">
+                                <node concept="2YIFZM" id="32SWqIdrMPx" role="3uHU7w">
+                                  <ref role="37wK5l" to="3ojc:32SWqIdc_93" resolve="resolveCmdPresmission" />
+                                  <ref role="1Pybhc" to="3ojc:32SWqIdc$L3" resolve="CommandPermissionsResolver" />
+                                  <node concept="30H73N" id="32SWqIdrNhg" role="37wK5m" />
+                                </node>
+                                <node concept="2OqwBi" id="ite6GQox2c" role="3uHU7B">
+                                  <node concept="30H73N" id="ite6GQox2d" role="2Oq$k0" />
+                                  <node concept="3TrcHB" id="ite6GQox2e" role="2OqNvi">
+                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -17904,7 +17911,7 @@
                     <node concept="37vLTG" id="2IXocwi7ytM" role="3clF46">
                       <property role="TrG5h" value="__selectionProvider" />
                       <node concept="3uibUv" id="2IXocwi7ytN" role="1tU5fm">
-                        <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+                        <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
                         <node concept="3uibUv" id="2IXocwi7ytO" role="11_B2D">
                           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                           <node concept="29HgVG" id="2IXocwi7ytP" role="lGtFl">
@@ -18249,7 +18256,7 @@
                     <node concept="37vLTG" id="2IXocwi7yw3" role="3clF46">
                       <property role="TrG5h" value="__selectionProvider" />
                       <node concept="3uibUv" id="2IXocwi7yw4" role="1tU5fm">
-                        <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXPagePane" />
+                        <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelProvider" />
                         <node concept="3uibUv" id="2IXocwi7yw5" role="11_B2D">
                           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                           <node concept="29HgVG" id="2IXocwi7yw6" role="lGtFl">
