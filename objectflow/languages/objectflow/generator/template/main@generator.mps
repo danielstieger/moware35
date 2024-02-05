@@ -10217,10 +10217,15 @@
                                   <ref role="1Pybhc" to="3ojc:32SWqIdc$L3" resolve="CommandPermissionsResolver" />
                                   <node concept="30H73N" id="32SWqIdrNhg" role="37wK5m" />
                                 </node>
-                                <node concept="2OqwBi" id="ite6GQox2c" role="3uHU7B">
-                                  <node concept="30H73N" id="ite6GQox2d" role="2Oq$k0" />
-                                  <node concept="3TrcHB" id="ite6GQox2e" role="2OqNvi">
-                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                <node concept="3cpWs3" id="32SWqIdIzkE" role="3uHU7B">
+                                  <node concept="Xl_RD" id="32SWqIdIzM7" role="3uHU7w">
+                                    <property role="Xl_RC" value=":\n\n" />
+                                  </node>
+                                  <node concept="2OqwBi" id="ite6GQox2c" role="3uHU7B">
+                                    <node concept="30H73N" id="ite6GQox2d" role="2Oq$k0" />
+                                    <node concept="3TrcHB" id="ite6GQox2e" role="2OqNvi">
+                                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                    </node>
                                   </node>
                                 </node>
                               </node>
