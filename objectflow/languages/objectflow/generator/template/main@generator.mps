@@ -10210,24 +10210,70 @@
                                 <node concept="3x8VRR" id="ite6GQox2a" role="2OqNvi" />
                               </node>
                             </node>
-                            <node concept="3cpWs6" id="ite6GQox2b" role="3cqZAp">
-                              <node concept="3cpWs3" id="32SWqIdcrV4" role="3cqZAk">
-                                <node concept="2YIFZM" id="32SWqIdrMPx" role="3uHU7w">
-                                  <ref role="37wK5l" to="3ojc:32SWqIdc_93" resolve="resolveCmdPresmission" />
-                                  <ref role="1Pybhc" to="3ojc:32SWqIdc$L3" resolve="CommandPermissionsResolver" />
-                                  <node concept="30H73N" id="32SWqIdrNhg" role="37wK5m" />
-                                </node>
-                                <node concept="3cpWs3" id="32SWqIdIzkE" role="3uHU7B">
-                                  <node concept="Xl_RD" id="32SWqIdIzM7" role="3uHU7w">
-                                    <property role="Xl_RC" value=":\n\n" />
+                            <node concept="3clFbH" id="4uJMAbFT4gx" role="3cqZAp" />
+                            <node concept="3cpWs8" id="4uJMAbFTaNn" role="3cqZAp">
+                              <node concept="3cpWsn" id="4uJMAbFTaNq" role="3cpWs9">
+                                <property role="TrG5h" value="authorization" />
+                                <node concept="17QB3L" id="4uJMAbFTaNl" role="1tU5fm" />
+                                <node concept="2OqwBi" id="4uJMAbFTc9d" role="33vP2m">
+                                  <node concept="2YIFZM" id="32SWqIdrMPx" role="2Oq$k0">
+                                    <ref role="37wK5l" to="3ojc:32SWqIdc_93" resolve="resolveCmdPresmission" />
+                                    <ref role="1Pybhc" to="3ojc:32SWqIdc$L3" resolve="CommandPermissionsResolver" />
+                                    <node concept="30H73N" id="32SWqIdrNhg" role="37wK5m" />
                                   </node>
-                                  <node concept="2OqwBi" id="ite6GQox2c" role="3uHU7B">
-                                    <node concept="30H73N" id="ite6GQox2d" role="2Oq$k0" />
-                                    <node concept="3TrcHB" id="ite6GQox2e" role="2OqNvi">
-                                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                  <node concept="liA8E" id="4uJMAbFTcOe" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3cpWs8" id="4uJMAbFTfSO" role="3cqZAp">
+                              <node concept="3cpWsn" id="4uJMAbFTfSR" role="3cpWs9">
+                                <property role="TrG5h" value="result" />
+                                <node concept="17QB3L" id="4uJMAbFTfSM" role="1tU5fm" />
+                                <node concept="2OqwBi" id="4uJMAbFTh6r" role="33vP2m">
+                                  <node concept="30H73N" id="4uJMAbFTgBy" role="2Oq$k0" />
+                                  <node concept="3TrcHB" id="4uJMAbFThxu" role="2OqNvi">
+                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbJ" id="4uJMAbFTdmL" role="3cqZAp">
+                              <node concept="3clFbS" id="4uJMAbFTdmN" role="3clFbx">
+                                <node concept="3clFbF" id="4uJMAbFTiwl" role="3cqZAp">
+                                  <node concept="d57v9" id="4uJMAbFTj_J" role="3clFbG">
+                                    <node concept="37vLTw" id="4uJMAbFTj_M" role="37vLTJ">
+                                      <ref role="3cqZAo" node="4uJMAbFTfSR" resolve="result" />
+                                    </node>
+                                    <node concept="3cpWs3" id="4uJMAbFTkDx" role="37vLTx">
+                                      <node concept="37vLTw" id="4uJMAbFTkLt" role="3uHU7w">
+                                        <ref role="3cqZAo" node="4uJMAbFTaNq" resolve="authorization" />
+                                      </node>
+                                      <node concept="Xl_RD" id="4uJMAbFTjLp" role="3uHU7B">
+                                        <property role="Xl_RC" value=":\n\n" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
+                              </node>
+                              <node concept="3fqX7Q" id="4uJMAbFTidY" role="3clFbw">
+                                <node concept="2OqwBi" id="4uJMAbFTie0" role="3fr31v">
+                                  <node concept="Xl_RD" id="4uJMAbFTie1" role="2Oq$k0">
+                                    <property role="Xl_RC" value="" />
+                                  </node>
+                                  <node concept="liA8E" id="4uJMAbFTie2" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                                    <node concept="37vLTw" id="4uJMAbFTie3" role="37wK5m">
+                                      <ref role="3cqZAo" node="4uJMAbFTaNq" resolve="authorization" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3cpWs6" id="4uJMAbFThE8" role="3cqZAp">
+                              <node concept="37vLTw" id="4uJMAbFThFq" role="3cqZAk">
+                                <ref role="3cqZAo" node="4uJMAbFTfSR" resolve="result" />
                               </node>
                             </node>
                           </node>
