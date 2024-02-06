@@ -888,12 +888,12 @@
     </node>
     <node concept="2tJIrI" id="6V7pU2kboXC" role="jymVt" />
     <node concept="312cEg" id="6V7pU2kbkWy" role="jymVt">
-      <property role="TrG5h" value="parDeploymentForwardAll" />
+      <property role="TrG5h" value="parDeploymentForwardImmediate" />
       <node concept="3Tm6S6" id="6V7pU2kbjlS" role="1B3o_S" />
       <node concept="10P_77" id="6V7pU2kbqaR" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="6V7pU2kbr$W" role="jymVt">
-      <property role="TrG5h" value="parDeploymentForwardNotDirty" />
+      <property role="TrG5h" value="parDeploymentForwardGracefully" />
       <node concept="3Tm6S6" id="6V7pU2kbr$X" role="1B3o_S" />
       <node concept="10P_77" id="6V7pU2kbr$Y" role="1tU5fm" />
     </node>
@@ -960,7 +960,7 @@
           <node concept="37vLTI" id="6V7pU2kbvfM" role="3clFbG">
             <node concept="3clFbT" id="6V7pU2kbvIl" role="37vLTx" />
             <node concept="37vLTw" id="6V7pU2kbufV" role="37vLTJ">
-              <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardAll" />
+              <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardImmediate" />
             </node>
           </node>
         </node>
@@ -968,7 +968,7 @@
           <node concept="37vLTI" id="6V7pU2kbwTt" role="3clFbG">
             <node concept="3clFbT" id="6V7pU2kbwUS" role="37vLTx" />
             <node concept="37vLTw" id="6V7pU2kbvTd" role="37vLTJ">
-              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardNotDirty" />
+              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardGracefully" />
             </node>
           </node>
         </node>
@@ -2207,16 +2207,16 @@
         <node concept="3cpWs6" id="6V7pU2kbApe" role="3cqZAp">
           <node concept="3cpWs3" id="6V7pU2kbU$u" role="3cqZAk">
             <node concept="37vLTw" id="6V7pU2kbVTQ" role="3uHU7w">
-              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardNotDirty" />
+              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardGracefully" />
             </node>
             <node concept="3cpWs3" id="6V7pU2kbLNF" role="3uHU7B">
               <node concept="3cpWs3" id="6V7pU2kbJ_y" role="3uHU7B">
                 <node concept="3cpWs3" id="6V7pU2kbFNC" role="3uHU7B">
                   <node concept="Xl_RD" id="6V7pU2kbApg" role="3uHU7B">
-                    <property role="Xl_RC" value="parDeplyomentForwardAll is " />
+                    <property role="Xl_RC" value="parDeplyomentForwardImmediate is " />
                   </node>
                   <node concept="37vLTw" id="6V7pU2kbH3O" role="3uHU7w">
-                    <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardAll" />
+                    <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardImmediate" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="6V7pU2kbJA3" role="3uHU7w">
@@ -2224,7 +2224,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="6V7pU2kbLO3" role="3uHU7w">
-                <property role="Xl_RC" value="parDeploymentForwardNotDirty is " />
+                <property role="Xl_RC" value="parDeploymentForwardGracefully is " />
               </node>
             </node>
           </node>
@@ -2235,7 +2235,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="6V7pU2kbzcb" role="jymVt">
-      <property role="TrG5h" value="parDeployForwardAll" />
+      <property role="TrG5h" value="parDeployForwardImmediate" />
       <node concept="3Tm1VV" id="6V7pU2kbzcd" role="1B3o_S" />
       <node concept="17QB3L" id="6V7pU2kbzce" role="3clF45" />
       <node concept="37vLTG" id="6V7pU2kbzcf" role="3clF46">
@@ -2249,17 +2249,17 @@
               <ref role="3cqZAo" node="6V7pU2kbzcf" resolve="status" />
             </node>
             <node concept="37vLTw" id="6V7pU2kbWXT" role="37vLTJ">
-              <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardAll" />
+              <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardImmediate" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="6V7pU2kbzcm" role="3cqZAp">
           <node concept="3cpWs3" id="6V7pU2kbYxa" role="3clFbG">
             <node concept="37vLTw" id="6V7pU2kbYya" role="3uHU7w">
-              <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardAll" />
+              <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardImmediate" />
             </node>
             <node concept="Xl_RD" id="6V7pU2kbzcl" role="3uHU7B">
-              <property role="Xl_RC" value="parDeploymentForwardAll is now " />
+              <property role="Xl_RC" value="parDeploymentForwardImmediate is now " />
             </node>
           </node>
         </node>
@@ -2269,19 +2269,19 @@
       </node>
     </node>
     <node concept="3clFb_" id="6V7pU2kc3qE" role="jymVt">
-      <property role="TrG5h" value="isParDeploymentForwardAll" />
+      <property role="TrG5h" value="isParDeploymentForwardImmediate" />
       <node concept="10P_77" id="6V7pU2kc500" role="3clF45" />
       <node concept="3Tm1VV" id="6V7pU2kc3qH" role="1B3o_S" />
       <node concept="3clFbS" id="6V7pU2kc3qI" role="3clF47">
         <node concept="3clFbF" id="6V7pU2kccok" role="3cqZAp">
           <node concept="37vLTw" id="6V7pU2kccoj" role="3clFbG">
-            <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardAll" />
+            <ref role="3cqZAo" node="6V7pU2kbkWy" resolve="parDeploymentForwardImmediate" />
           </node>
         </node>
       </node>
     </node>
     <node concept="3clFb_" id="6V7pU2kbzcn" role="jymVt">
-      <property role="TrG5h" value="parDeployForwardNotDirty" />
+      <property role="TrG5h" value="parDeployForwardGracefully" />
       <node concept="3Tm1VV" id="6V7pU2kbzcp" role="1B3o_S" />
       <node concept="17QB3L" id="6V7pU2kbzcq" role="3clF45" />
       <node concept="37vLTG" id="6V7pU2kbzcr" role="3clF46">
@@ -2295,17 +2295,17 @@
               <ref role="3cqZAo" node="6V7pU2kbzcr" resolve="status" />
             </node>
             <node concept="37vLTw" id="6V7pU2kbZ9X" role="37vLTJ">
-              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardNotDirty" />
+              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardGracefully" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="6V7pU2kc1bx" role="3cqZAp">
           <node concept="3cpWs3" id="6V7pU2kc1lT" role="3clFbG">
             <node concept="37vLTw" id="6V7pU2kc1mT" role="3uHU7w">
-              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardNotDirty" />
+              <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardGracefully" />
             </node>
             <node concept="Xl_RD" id="6V7pU2kc1bw" role="3uHU7B">
-              <property role="Xl_RC" value="parDeploymentForwardNotDirty is now " />
+              <property role="Xl_RC" value="parDeploymentForwardGracefully is now " />
             </node>
           </node>
         </node>
@@ -2315,13 +2315,13 @@
       </node>
     </node>
     <node concept="3clFb_" id="6V7pU2kccUh" role="jymVt">
-      <property role="TrG5h" value="isParDeploymentForwardNotDirty" />
+      <property role="TrG5h" value="isParDeploymentForwardGracefully" />
       <node concept="10P_77" id="6V7pU2kccUi" role="3clF45" />
       <node concept="3Tm1VV" id="6V7pU2kccUj" role="1B3o_S" />
       <node concept="3clFbS" id="6V7pU2kccUk" role="3clF47">
         <node concept="3clFbF" id="6V7pU2kccUl" role="3cqZAp">
           <node concept="37vLTw" id="6V7pU2kccUm" role="3clFbG">
-            <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardNotDirty" />
+            <ref role="3cqZAo" node="6V7pU2kbr$W" resolve="parDeploymentForwardGracefully" />
           </node>
         </node>
       </node>
@@ -2616,7 +2616,7 @@
       <node concept="3clFbS" id="1S90xUtsKMW" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6V7pU2kaSt2" role="jymVt">
-      <property role="TrG5h" value="parDeployForwardAll" />
+      <property role="TrG5h" value="parDeployForwardImmediate" />
       <node concept="3clFbS" id="6V7pU2kaSt5" role="3clF47" />
       <node concept="3Tm1VV" id="6V7pU2kaSt6" role="1B3o_S" />
       <node concept="17QB3L" id="6V7pU2kaSqf" role="3clF45" />
@@ -2626,7 +2626,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="6V7pU2kaSGN" role="jymVt">
-      <property role="TrG5h" value="parDeployForwardNotDirty" />
+      <property role="TrG5h" value="parDeployForwardGracefully" />
       <node concept="3clFbS" id="6V7pU2kaSGQ" role="3clF47" />
       <node concept="3Tm1VV" id="6V7pU2kaSGR" role="1B3o_S" />
       <node concept="17QB3L" id="6V7pU2kaSDT" role="3clF45" />
