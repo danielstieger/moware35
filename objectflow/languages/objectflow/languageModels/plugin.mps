@@ -12677,20 +12677,24 @@
             <node concept="3clFbF" id="3Z5DtHRlTAn" role="3cqZAp">
               <node concept="d57v9" id="3Z5DtHRlTAo" role="3clFbG">
                 <node concept="Xl_RD" id="3Z5DtHRlTAp" role="37vLTx">
-                  <property role="Xl_RC" value=" CONSTRAINT PK_PROJECT_STATUSDECLARATIONS PRIMARY KEY (FQ_NAME),\n" />
+                  <property role="Xl_RC" value=" CONSTRAINT PK_PROJECT_STATUSDECLARATIONS PRIMARY KEY (FQ_NAME, STATUS)\n" />
                 </node>
                 <node concept="37vLTw" id="3Z5DtHRlTAq" role="37vLTJ">
                   <ref role="3cqZAo" node="3Z5DtHRlPj0" resolve="schema" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="3Z5DtHRlTD0" role="3cqZAp">
-              <node concept="d57v9" id="3Z5DtHRlTD1" role="3clFbG">
-                <node concept="Xl_RD" id="3Z5DtHRlTD2" role="37vLTx">
-                  <property role="Xl_RC" value="  CONSTRAINT CONSTRAINT_0 UNIQUE (FQ_NAME, STATUS)\n" />
-                </node>
-                <node concept="37vLTw" id="3Z5DtHRlTD3" role="37vLTJ">
-                  <ref role="3cqZAo" node="3Z5DtHRlPj0" resolve="schema" />
+            <node concept="1X3_iC" id="5gIsyYtDTCS" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="3Z5DtHRlTD0" role="8Wnug">
+                <node concept="d57v9" id="3Z5DtHRlTD1" role="3clFbG">
+                  <node concept="Xl_RD" id="3Z5DtHRlTD2" role="37vLTx">
+                    <property role="Xl_RC" value="  CONSTRAINT CONSTRAINT_0 UNIQUE (FQ_NAME, STATUS)\n" />
+                  </node>
+                  <node concept="37vLTw" id="3Z5DtHRlTD3" role="37vLTJ">
+                    <ref role="3cqZAo" node="3Z5DtHRlPj0" resolve="schema" />
+                  </node>
                 </node>
               </node>
             </node>

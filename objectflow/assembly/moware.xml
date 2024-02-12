@@ -234,7 +234,9 @@
         </copy>
 		<copy todir="${mowareWorkDir}/static">
 			<fileset dir="${turkuLocation}/static" includes="**" />
-        </copy>
+	    </copy>
+        <copy file="${appFavicon}" tofile="${mowareWorkDir}/static/favicon-32x32.png" overwrite="true"> </copy>
+ 
 
 
 		<copy todir="${mowareWorkDir}/WEB-INF/lib">
@@ -262,7 +264,6 @@
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
 				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
 				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
-				  <replaceregex pattern="APPLICATION_HOMESCREEN"   replace="${appHomeScreen}"/>
 			  </tokenfilter>
 		  </filterchain>
 		</copy>
