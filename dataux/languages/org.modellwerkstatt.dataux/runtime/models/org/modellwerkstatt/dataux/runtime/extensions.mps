@@ -22,6 +22,9 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="2323553266850475941" name="jetbrains.mps.baseLanguage.structure.IHasModifiers" flags="ng" index="2frcj7">
+        <child id="2323553266850475953" name="modifiers" index="2frcjj" />
+      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
@@ -30,6 +33,7 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="4678410916365116210" name="jetbrains.mps.baseLanguage.structure.DefaultModifier" flags="ng" index="2JFqV2" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -49,6 +53,9 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
+        <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -555,6 +562,19 @@
       </node>
       <node concept="3Tm1VV" id="7fo5K04UYDK" role="1B3o_S" />
       <node concept="3clFbS" id="7fo5K04UYDL" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="y6iK4AUU0M" role="jymVt">
+      <property role="TrG5h" value="getColorMapOrNull" />
+      <node concept="3clFbS" id="y6iK4AUU0P" role="3clF47">
+        <node concept="3cpWs6" id="y6iK4AW0nO" role="3cqZAp">
+          <node concept="10Nm6u" id="y6iK4AW0oS" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="y6iK4AUU0Q" role="1B3o_S" />
+      <node concept="10Q1$e" id="y6iK4AUUnK" role="3clF45">
+        <node concept="17QB3L" id="y6iK4AUUn9" role="10Q1$1" />
+      </node>
+      <node concept="2JFqV2" id="y6iK4AW0mT" role="2frcjj" />
     </node>
     <node concept="16euLQ" id="7fo5K04UYC1" role="16eVyc">
       <property role="TrG5h" value="T" />

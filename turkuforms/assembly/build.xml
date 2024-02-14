@@ -41,7 +41,7 @@
    <!-- <arg value="${solultionSimpleGen};${execInBuildClassPathWin}" /> -->
    <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
    <arg value="org.modellwerkstatt.simple.o8infra_objects.TestSetting" />
-   <!-- ><arg value="odv" /> -->
+   <!-- ><arg value="odv" />  OLD Deployed version -->
   </exec>
   
   <echo>
