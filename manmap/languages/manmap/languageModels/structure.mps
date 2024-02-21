@@ -29,6 +29,7 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -446,6 +447,7 @@
     <property role="TrG5h" value="QuerySmartClosureParamDeclaration" />
     <property role="EcuMT" value="774207833082820017" />
     <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+    <node concept="asaX9" id="4p5l9Tn$H6N" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="EYyuKpe$eN">
     <property role="3GE5qa" value="query" />
