@@ -12357,11 +12357,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbF" id="4LnFRUbNu0F" role="3cqZAp">
-            <node concept="37vLTw" id="4LnFRUbNu0D" role="3clFbG">
-              <ref role="3cqZAo" node="1lpzdTmrJKv" resolve="row" />
-            </node>
-          </node>
           <node concept="3clFbF" id="1lpzdTmrJVE" role="3cqZAp">
             <node concept="37vLTI" id="1lpzdTmrJVF" role="3clFbG">
               <node concept="2OqwBi" id="1lpzdTmrJVG" role="37vLTx">

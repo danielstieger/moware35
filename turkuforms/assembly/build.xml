@@ -13,20 +13,17 @@
 -->
  
 <project name="TurkuApp" default="mowareBuildSimpleOne">      
-  
-  <!-- **** include files setup **************************************************************** -->
-  <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
-  <include file="../../objectflow/assembly/moware.xml" as="moware"/>
-  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
-  
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appMainclass"         value="org.modellwerkstatt.simple.o1deploy_simpleApp.App_Desktop_Order" />
   <property name="appConfiguration"     value="org/modellwerkstatt/simple/o9infra_configs/TurkuConfig.xml" /> 
   <property name="appFavicon"           value="./favicon.png" />
-
- 
- 
+  
+  
+  <!-- **** include files setup **************************************************************** -->
+  <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
+  <include file="../../objectflow/assembly/moware.xml" as="moware"/>
+  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
         
   <!-- **** solutions to incorporate in this build ************************************************** -->
   <property name="solultionSimpleGen"   value="${buildUserHome}/simpleone/solutions/Simple/classes_gen" />
