@@ -235,7 +235,7 @@
 		<copy todir="${mowareWorkDir}/static">
 			<fileset dir="${turkuLocation}/static" includes="**" />
 	    </copy>
-        <copy file="${appFavicon}" tofile="${mowareWorkDir}/static/favicon-32x32.png" overwrite="true"> </copy>
+        <copy file="${appFavicon}" tofile="${mowareWorkDir}/static/favicon.png" overwrite="true"> </copy>
  
 
 
