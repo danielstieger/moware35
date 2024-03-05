@@ -8143,5 +8143,48 @@
       <ref role="1YaFvo" to="1btx:pQ21WNknRq" resolve="OptionalDOption" />
     </node>
   </node>
+  <node concept="18kY7G" id="6R9cZ4h$zj7">
+    <property role="TrG5h" value="check_DateTimeDelegate" />
+    <property role="3GE5qa" value="delegates" />
+    <node concept="3clFbS" id="6R9cZ4h$zj8" role="18ibNy">
+      <node concept="3clFbJ" id="6R9cZ4h$zje" role="3cqZAp">
+        <node concept="1Wc70l" id="6R9cZ4h$$oY" role="3clFbw">
+          <node concept="2OqwBi" id="6R9cZ4h$$$y" role="3uHU7w">
+            <node concept="1YBJjd" id="6R9cZ4h$$pN" role="2Oq$k0">
+              <ref role="1YBMHb" node="6R9cZ4h$zja" resolve="dateTimeDelegate" />
+            </node>
+            <node concept="2qgKlT" id="6R9cZ4h$$Jf" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:5IEkTkksjPb" resolve="isPicker" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6R9cZ4h$zPy" role="3uHU7B">
+            <node concept="2OqwBi" id="6R9cZ4h$ztR" role="2Oq$k0">
+              <node concept="1YBJjd" id="6R9cZ4h$zjq" role="2Oq$k0">
+                <ref role="1YBMHb" node="6R9cZ4h$zja" resolve="dateTimeDelegate" />
+              </node>
+              <node concept="2qgKlT" id="6R9cZ4h$zBG" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:pQ21WNlnwi" resolve="getOverwriteFormatOption" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="6R9cZ4h$$2V" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="6R9cZ4h$zjg" role="3clFbx">
+          <node concept="2MkqsV" id="6R9cZ4h$$RN" role="3cqZAp">
+            <node concept="Xl_RD" id="6R9cZ4h$$RT" role="2MkJ7o">
+              <property role="Xl_RC" value="Currently the picker does not support custom formats. (e.g. EEEE dd.MM.yy). Custom formats put the delegate into disabled." />
+            </node>
+            <node concept="1YBJjd" id="6R9cZ4h$$Ug" role="1urrMF">
+              <ref role="1YBMHb" node="6R9cZ4h$zja" resolve="dateTimeDelegate" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6R9cZ4h$zja" role="1YuTPh">
+      <property role="TrG5h" value="dateTimeDelegate" />
+      <ref role="1YaFvo" to="1btx:3ouNayfF_eh" resolve="DateTimeDelegate" />
+    </node>
+  </node>
 </model>
 

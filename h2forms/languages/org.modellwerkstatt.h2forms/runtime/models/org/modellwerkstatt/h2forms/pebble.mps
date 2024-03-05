@@ -2562,6 +2562,10 @@
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createDateAndTimeEditor" />
+      <node concept="37vLTG" id="6R9cZ4i4yAL" role="3clF46">
+        <property role="TrG5h" value="withPicker" />
+        <node concept="10P_77" id="6R9cZ4i4yAM" role="1tU5fm" />
+      </node>
       <node concept="3Tm1VV" id="1l2SXGvSqj2" role="1B3o_S" />
       <node concept="3uibUv" id="1l2SXGvSqj3" role="3clF45">
         <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />
