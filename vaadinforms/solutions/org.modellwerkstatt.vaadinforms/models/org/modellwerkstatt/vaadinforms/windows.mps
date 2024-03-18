@@ -4214,25 +4214,35 @@
               <node concept="2OqwBi" id="Osm8eLg8kn" role="3clFbG">
                 <node concept="liA8E" id="Osm8eLg96S" role="2OqNvi">
                   <ref role="37wK5l" to="w7gk:Osm8eLfql$" resolve="setSessionInfo" />
-                  <node concept="3cpWs3" id="Osm8eLg9L4" role="37wK5m">
-                    <node concept="2OqwBi" id="Osm8eLg9L5" role="3uHU7w">
-                      <node concept="37vLTw" id="Osm8eLg9L6" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
-                      </node>
-                      <node concept="liA8E" id="Osm8eLg9L7" role="2OqNvi">
-                        <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
-                      </node>
+                  <node concept="3cpWs3" id="5Mme3Lk0sS5" role="37wK5m">
+                    <node concept="37vLTw" id="5Mme3Lk0tx5" role="3uHU7w">
+                      <ref role="3cqZAo" node="1WX6wrQ6xaq" resolve="guessedServerName" />
                     </node>
-                    <node concept="3cpWs3" id="Osm8eLg9L8" role="3uHU7B">
-                      <node concept="2OqwBi" id="Osm8eLg9L9" role="3uHU7B">
-                        <node concept="37vLTw" id="Osm8eLg9La" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                    <node concept="3cpWs3" id="5Mme3Lk0qXA" role="3uHU7B">
+                      <node concept="3cpWs3" id="Osm8eLg9L4" role="3uHU7B">
+                        <node concept="3cpWs3" id="Osm8eLg9L8" role="3uHU7B">
+                          <node concept="2OqwBi" id="Osm8eLg9L9" role="3uHU7B">
+                            <node concept="37vLTw" id="Osm8eLg9La" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                            </node>
+                            <node concept="liA8E" id="Osm8eLg9Lb" role="2OqNvi">
+                              <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="Osm8eLg9Lc" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="Osm8eLg9Lb" role="2OqNvi">
-                          <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
+                        <node concept="2OqwBi" id="Osm8eLg9L5" role="3uHU7w">
+                          <node concept="37vLTw" id="Osm8eLg9L6" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                          </node>
+                          <node concept="liA8E" id="Osm8eLg9L7" role="2OqNvi">
+                            <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
+                          </node>
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="Osm8eLg9Lc" role="3uHU7w">
+                      <node concept="Xl_RD" id="5Mme3Lk0rVG" role="3uHU7w">
                         <property role="Xl_RC" value=" " />
                       </node>
                     </node>
