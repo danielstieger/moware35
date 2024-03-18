@@ -4210,6 +4210,49 @@
               </node>
             </node>
             <node concept="3clFbH" id="5$BCFrw7nRN" role="3cqZAp" />
+            <node concept="3clFbF" id="Osm8eLrSyT" role="3cqZAp">
+              <node concept="2OqwBi" id="Osm8eLg8kn" role="3clFbG">
+                <node concept="liA8E" id="Osm8eLg96S" role="2OqNvi">
+                  <ref role="37wK5l" to="w7gk:Osm8eLfql$" resolve="setSessionInfo" />
+                  <node concept="3cpWs3" id="Osm8eLg9L4" role="37wK5m">
+                    <node concept="2OqwBi" id="Osm8eLg9L5" role="3uHU7w">
+                      <node concept="37vLTw" id="Osm8eLg9L6" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                      </node>
+                      <node concept="liA8E" id="Osm8eLg9L7" role="2OqNvi">
+                        <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="Osm8eLg9L8" role="3uHU7B">
+                      <node concept="2OqwBi" id="Osm8eLg9L9" role="3uHU7B">
+                        <node concept="37vLTw" id="Osm8eLg9La" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                        </node>
+                        <node concept="liA8E" id="Osm8eLg9Lb" role="2OqNvi">
+                          <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="Osm8eLg9Lc" role="3uHU7w">
+                        <property role="Xl_RC" value=" " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="Osm8eLg2tw" role="2Oq$k0">
+                  <node concept="37vLTw" id="Osm8eLg2tx" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5HhpRjTuA97" resolve="appContext" />
+                  </node>
+                  <node concept="liA8E" id="Osm8eLg2ty" role="2OqNvi">
+                    <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.Class)" resolve="getBean" />
+                    <node concept="3VsKOn" id="Osm8eLg2tz" role="37wK5m">
+                      <ref role="3VsUkX" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="Osm8eLrSgs" role="3cqZAp" />
+            <node concept="3clFbH" id="Osm8eLrRL2" role="3cqZAp" />
             <node concept="3cpWs8" id="5$BCFrw7oqD" role="3cqZAp">
               <node concept="3cpWsn" id="5$BCFrw7oqE" role="3cpWs9">
                 <property role="TrG5h" value="authInterfcClass" />

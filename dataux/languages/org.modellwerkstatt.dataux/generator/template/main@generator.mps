@@ -9645,6 +9645,73 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="Osm8eLsj21" role="3cqZAp">
+              <node concept="3cpWsn" id="Osm8eLsj22" role="3cpWs9">
+                <property role="TrG5h" value="uiModelInstance" />
+                <node concept="3uibUv" id="Osm8eLsj23" role="1tU5fm">
+                  <ref role="3uigEE" node="Y3fiVKxGSy" resolve="map_AppUiModule" />
+                </node>
+                <node concept="2OqwBi" id="1SuqpWQNx4f" role="33vP2m">
+                  <node concept="2OqwBi" id="1SuqpWQNwEF" role="2Oq$k0">
+                    <node concept="37vLTw" id="1SuqpWQNwv0" role="2Oq$k0">
+                      <ref role="3cqZAo" node="16HdUMOWEH$" resolve="context" />
+                    </node>
+                    <node concept="liA8E" id="1SuqpWQNx3h" role="2OqNvi">
+                      <ref role="37wK5l" to="a820:~ApplicationContext.getAutowireCapableBeanFactory()" resolve="getAutowireCapableBeanFactory" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1SuqpWQNxix" role="2OqNvi">
+                    <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class)" resolve="createBean" />
+                    <node concept="3VsKOn" id="1SuqpWQNxLA" role="37wK5m">
+                      <ref role="3VsUkX" node="Y3fiVKxGSy" resolve="map_AppUiModule" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="Osm8eLskkg" role="3cqZAp">
+              <node concept="2OqwBi" id="Osm8eLg8kn" role="3clFbG">
+                <node concept="liA8E" id="Osm8eLg96S" role="2OqNvi">
+                  <ref role="37wK5l" to="w7gk:Osm8eLfql$" resolve="setSessionInfo" />
+                  <node concept="3cpWs3" id="Osm8eLg9L4" role="37wK5m">
+                    <node concept="2OqwBi" id="Osm8eLg9L5" role="3uHU7w">
+                      <node concept="37vLTw" id="Osm8eLg9L6" role="2Oq$k0">
+                        <ref role="3cqZAo" node="Osm8eLsj22" resolve="uiModelInstance" />
+                      </node>
+                      <node concept="liA8E" id="Osm8eLg9L7" role="2OqNvi">
+                        <ref role="37wK5l" node="3sx4Hz30Yry" resolve="getApplicationVersion" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="Osm8eLg9L8" role="3uHU7B">
+                      <node concept="2OqwBi" id="Osm8eLg9L9" role="3uHU7B">
+                        <node concept="37vLTw" id="Osm8eLg9La" role="2Oq$k0">
+                          <ref role="3cqZAo" node="Osm8eLsj22" resolve="uiModelInstance" />
+                        </node>
+                        <node concept="liA8E" id="Osm8eLg9Lb" role="2OqNvi">
+                          <ref role="37wK5l" node="6CVJxS8hdNn" resolve="getShortAppName" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="Osm8eLg9Lc" role="3uHU7w">
+                        <property role="Xl_RC" value=" " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="Osm8eLg2tw" role="2Oq$k0">
+                  <node concept="37vLTw" id="Osm8eLg2tx" role="2Oq$k0">
+                    <ref role="3cqZAo" node="16HdUMOWEH$" resolve="context" />
+                  </node>
+                  <node concept="liA8E" id="Osm8eLg2ty" role="2OqNvi">
+                    <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.Class)" resolve="getBean" />
+                    <node concept="3VsKOn" id="Osm8eLg2tz" role="37wK5m">
+                      <ref role="3VsUkX" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="Osm8eLsRBm" role="3cqZAp" />
+            <node concept="3clFbH" id="Osm8eLsQaa" role="3cqZAp" />
             <node concept="3clFbF" id="4zX5jmVN1yT" role="3cqZAp">
               <node concept="2YIFZM" id="4zX5jmVN2hb" role="3clFbG">
                 <ref role="37wK5l" to="28jr:4zX5jmVMHFB" resolve="endRichClientSetup" />
@@ -9653,6 +9720,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="4zX5jmVN2xi" role="3cqZAp" />
+            <node concept="3clFbH" id="Osm8eLsPQk" role="3cqZAp" />
             <node concept="3cpWs8" id="Y3fiVL6fTB" role="3cqZAp">
               <node concept="3cpWsn" id="Y3fiVL6fTC" role="3cpWs9">
                 <property role="TrG5h" value="factory" />
@@ -9812,21 +9880,8 @@
                 <node concept="liA8E" id="Y3fiVKyq_Y" role="2OqNvi">
                   <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...)" resolve="invoke" />
                   <node concept="10Nm6u" id="Y3fiVKyr93" role="37wK5m" />
-                  <node concept="2OqwBi" id="1SuqpWQNx4f" role="37wK5m">
-                    <node concept="2OqwBi" id="1SuqpWQNwEF" role="2Oq$k0">
-                      <node concept="37vLTw" id="1SuqpWQNwv0" role="2Oq$k0">
-                        <ref role="3cqZAo" node="16HdUMOWEH$" resolve="context" />
-                      </node>
-                      <node concept="liA8E" id="1SuqpWQNx3h" role="2OqNvi">
-                        <ref role="37wK5l" to="a820:~ApplicationContext.getAutowireCapableBeanFactory()" resolve="getAutowireCapableBeanFactory" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="1SuqpWQNxix" role="2OqNvi">
-                      <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class)" resolve="createBean" />
-                      <node concept="3VsKOn" id="1SuqpWQNxLA" role="37wK5m">
-                        <ref role="3VsUkX" node="Y3fiVKxGSy" resolve="map_AppUiModule" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="Osm8eLsmzM" role="37wK5m">
+                    <ref role="3cqZAo" node="Osm8eLsj22" resolve="uiModelInstance" />
                   </node>
                   <node concept="37vLTw" id="Y3fiVL6leF" role="37wK5m">
                     <ref role="3cqZAo" node="Y3fiVL6fTC" resolve="factory" />
@@ -10350,6 +10405,32 @@
                         <node concept="3TrEf2" id="37GFZNSMGeK" role="2OqNvi">
                           <ref role="3Tt5mk" to="1btx:6K73LRuXmzJ" resolve="exp" />
                         </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFb_" id="Osm8eLtAG3" role="jymVt">
+        <property role="TrG5h" value="getName" />
+        <node concept="17QB3L" id="Osm8eLtAG4" role="3clF45" />
+        <node concept="3Tm1VV" id="Osm8eLtAG5" role="1B3o_S" />
+        <node concept="3clFbS" id="Osm8eLtAG6" role="3clF47">
+          <node concept="3cpWs6" id="Osm8eLtAG7" role="3cqZAp">
+            <node concept="Xl_RD" id="Osm8eLtAG8" role="3cqZAk">
+              <property role="Xl_RC" value="job.Name" />
+              <node concept="29HgVG" id="Osm8eLtAG9" role="lGtFl">
+                <node concept="3NFfHV" id="Osm8eLtAGa" role="3NFExx">
+                  <node concept="3clFbS" id="Osm8eLtAGb" role="2VODD2">
+                    <node concept="3cpWs6" id="Osm8eLtAGp" role="3cqZAp">
+                      <node concept="2OqwBi" id="Osm8eLtAGr" role="3cqZAk">
+                        <node concept="2qgKlT" id="Osm8eLtAGs" role="2OqNvi">
+                          <ref role="37wK5l" to="5y3p:2B50FNWcFK5" resolve="getAppNameOrDefault" />
+                        </node>
+                        <node concept="30H73N" id="Osm8eLtAGt" role="2Oq$k0" />
                       </node>
                     </node>
                   </node>
@@ -11518,6 +11599,51 @@
                 <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class)" resolve="createBean" />
                 <node concept="3VsKOn" id="5BROMrVNWLb" role="37wK5m">
                   <ref role="3VsUkX" node="5BROMrVN42N" resolve="map_BatchJobModule.__initializer__" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Osm8eLtmYM" role="3cqZAp">
+          <node concept="2OqwBi" id="Osm8eLtmYN" role="3clFbG">
+            <node concept="liA8E" id="Osm8eLtmYO" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:Osm8eLfql$" resolve="setSessionInfo" />
+              <node concept="3cpWs3" id="Osm8eLtmYP" role="37wK5m">
+                <node concept="2OqwBi" id="Osm8eLtmYQ" role="3uHU7w">
+                  <node concept="37vLTw" id="Osm8eLtmYR" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2rXgTRr5yks" resolve="cl_ProdConsInitializer" />
+                  </node>
+                  <node concept="liA8E" id="Osm8eLtmYS" role="2OqNvi">
+                    <ref role="37wK5l" node="37GFZNTCNe5" resolve="getVersion" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="Osm8eLtmYT" role="3uHU7B">
+                  <node concept="Xl_RD" id="Osm8eLtmYX" role="3uHU7w">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                  <node concept="2YIFZM" id="Osm8eLtVVr" role="3uHU7B">
+                    <ref role="37wK5l" to="28jr:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
+                    <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                    <node concept="2OqwBi" id="Osm8eLtmYU" role="37wK5m">
+                      <node concept="37vLTw" id="Osm8eLtzZp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2rXgTRr5yks" resolve="cl_ProdConsInitializer" />
+                      </node>
+                      <node concept="liA8E" id="Osm8eLtmYW" role="2OqNvi">
+                        <ref role="37wK5l" node="Osm8eLtAG3" resolve="getName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="Osm8eLtmYY" role="2Oq$k0">
+              <node concept="37vLTw" id="Osm8eLtmYZ" role="2Oq$k0">
+                <ref role="3cqZAo" node="3tgwmmDizMP" resolve="cl_SpringAppContext" />
+              </node>
+              <node concept="liA8E" id="Osm8eLtmZ0" role="2OqNvi">
+                <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.Class)" resolve="getBean" />
+                <node concept="3VsKOn" id="Osm8eLtmZ1" role="37wK5m">
+                  <ref role="3VsUkX" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
                 </node>
               </node>
             </node>
