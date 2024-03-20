@@ -154,7 +154,15 @@ function setLastRequestIssuedMillis(baseForm) {
 
 
 
-/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------
+ * EB Camera Support
+ *
+ * should not be here, but actually the same for all zebras. We will refactor that out some day.
+ *
+ *
+ *
+ *
+ */
 function svUploadFileDone(args){
     var status = args['status'];
     if ('body' in args) {
@@ -188,10 +196,10 @@ function svCameraPicTaken(cbData){
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
 
             var uploadfileProps = {
-              url: uploadLocationStore,
-             //authType: "basic",
-             //authUser: "admin",
-             //authPassword: "password",
+             url: uploadLocationStore,
+             // authType: "basic",
+             // authUser: "admin",
+             // authPassword: "password",
              filename: cbData.imageUri,
              body: imgName,
              fileContentType: "image/jpeg"
@@ -224,9 +232,9 @@ function svTakePicture(editorId) {
             'outputFormat': 'imagePath'                    Argument ImagePath not working? Dan 22.Nov 21 */
             'outputFormat': 'image',
             'fileName': uploadInternalFilename + editorId,
-            'useSystemViewfinder': false,
-            'desiredHeight': 1920,
-            'desiredWidth': 1080,
+            'useSystemViewfinder': camUseSystemViewfinder,
+            'desiredHeight': camDesiredHeight,
+            'desiredWidth': camDesiredWidth,
             'flashMode': 'off',
             };
 
@@ -305,6 +313,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     uploadLocationRetrieve = $('meta[name=h2UploadLocationRetrieve]').content;
     uploadLocationStore = $('meta[name=h2UploadLocationStore]').content;
+    camDesiredWidth = Number($('meta[name=h2CamDesiredWidth]').content);
+    camDesiredHeight = Number($('meta[name=h2CamDesiredHeight]').content);
+    camUseSystemViewfinder = $('meta[name=h2CamUseSystemViewfinder]').content === 'true';
+
     svLog('DOMContentLoaded', 'camera ' + uploadCameraToUse + ' for ' + uploadLocationStore);
 
     navigationDisabled = false;

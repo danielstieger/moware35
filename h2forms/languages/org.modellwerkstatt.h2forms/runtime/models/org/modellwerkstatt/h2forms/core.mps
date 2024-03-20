@@ -17170,6 +17170,39 @@
       </node>
       <node concept="17QB3L" id="7WLyHU5_heU" role="2RkE6I" />
     </node>
+    <node concept="2RhdJD" id="29r3SXLb6Zq" role="jymVt">
+      <property role="2RkwnN" value="camDesiredWidth" />
+      <node concept="3Tm1VV" id="29r3SXLb6Zr" role="1B3o_S" />
+      <node concept="2RoN1w" id="29r3SXLb6Zs" role="2RnVtd">
+        <node concept="3wEZqW" id="29r3SXLb6Zt" role="3wFrgM" />
+        <node concept="3xqBd$" id="29r3SXLb6Zu" role="3xrYvX">
+          <node concept="3Tm1VV" id="29r3SXLb6Zv" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="29r3SXLbliZ" role="2RkE6I" />
+    </node>
+    <node concept="2RhdJD" id="29r3SXLb73F" role="jymVt">
+      <property role="2RkwnN" value="camDesiredHeight" />
+      <node concept="3Tm1VV" id="29r3SXLb73G" role="1B3o_S" />
+      <node concept="2RoN1w" id="29r3SXLb73H" role="2RnVtd">
+        <node concept="3wEZqW" id="29r3SXLb73I" role="3wFrgM" />
+        <node concept="3xqBd$" id="29r3SXLb73J" role="3xrYvX">
+          <node concept="3Tm1VV" id="29r3SXLb73K" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="29r3SXLblfJ" role="2RkE6I" />
+    </node>
+    <node concept="2RhdJD" id="29r3SXLb78a" role="jymVt">
+      <property role="2RkwnN" value="camUseSystemViewfinder" />
+      <node concept="3Tm1VV" id="29r3SXLb78b" role="1B3o_S" />
+      <node concept="2RoN1w" id="29r3SXLb78c" role="2RnVtd">
+        <node concept="3wEZqW" id="29r3SXLb78d" role="3wFrgM" />
+        <node concept="3xqBd$" id="29r3SXLb78e" role="3xrYvX">
+          <node concept="3Tm1VV" id="29r3SXLb78f" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10P_77" id="29r3SXLblcv" role="2RkE6I" />
+    </node>
     <node concept="2tJIrI" id="7WLyHU5_h75" role="jymVt" />
     <node concept="2tJIrI" id="7WBKY1WePRp" role="jymVt" />
     <node concept="2RhdJD" id="7WBKY1WeN2g" role="jymVt">

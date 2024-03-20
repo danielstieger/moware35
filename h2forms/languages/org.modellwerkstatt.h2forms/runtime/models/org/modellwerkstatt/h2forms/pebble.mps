@@ -1403,7 +1403,52 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6tydhbZf8y4" role="3cqZAp" />
+        <node concept="3clFbF" id="29r3SXLbcJ2" role="3cqZAp">
+          <node concept="37vLTI" id="29r3SXLbfHU" role="3clFbG">
+            <node concept="3cmrfG" id="29r3SXLbmkx" role="37vLTx">
+              <property role="3cmrfH" value="1920" />
+            </node>
+            <node concept="2OqwBi" id="29r3SXLbeEN" role="37vLTJ">
+              <node concept="37vLTw" id="29r3SXLbcJ0" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+              </node>
+              <node concept="2S8uIT" id="29r3SXLbfEY" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:29r3SXLb73F" resolve="camDesiredHeight" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="29r3SXLbgFl" role="3cqZAp">
+          <node concept="37vLTI" id="29r3SXLbgFm" role="3clFbG">
+            <node concept="3cmrfG" id="29r3SXLbmqr" role="37vLTx">
+              <property role="3cmrfH" value="1080" />
+            </node>
+            <node concept="2OqwBi" id="29r3SXLbgFo" role="37vLTJ">
+              <node concept="37vLTw" id="29r3SXLbgFp" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+              </node>
+              <node concept="2S8uIT" id="29r3SXLbgFq" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:29r3SXLb6Zq" resolve="camDesiredWidth" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="29r3SXLbiR3" role="3cqZAp">
+          <node concept="37vLTI" id="29r3SXLbiR4" role="3clFbG">
+            <node concept="3clFbT" id="29r3SXLbkZw" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="29r3SXLbiR6" role="37vLTJ">
+              <node concept="37vLTw" id="29r3SXLbiR7" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+              </node>
+              <node concept="2S8uIT" id="29r3SXLbiR8" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:29r3SXLb78a" resolve="camUseSystemViewfinder" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="29r3SXLbawN" role="3cqZAp" />
         <node concept="3clFbF" id="57ov2S_I4u" role="3cqZAp">
           <node concept="37vLTI" id="57ov2S_Ild" role="3clFbG">
             <node concept="Xl_RD" id="57ov2S_Inr" role="37vLTx">
@@ -1426,8 +1471,136 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="GWkwFk9EIi" role="jymVt">
+      <property role="TrG5h" value="getCamDesiredHeight" />
+      <node concept="10Oyi0" id="GWkwFk9EIj" role="3clF45" />
+      <node concept="3Tm1VV" id="GWkwFk9EIk" role="1B3o_S" />
+      <node concept="3clFbS" id="GWkwFk9EIl" role="3clF47">
+        <node concept="3clFbF" id="GWkwFk9EIm" role="3cqZAp">
+          <node concept="2OqwBi" id="GWkwFk9EIn" role="3clFbG">
+            <node concept="37vLTw" id="GWkwFk9EIo" role="2Oq$k0">
+              <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+            </node>
+            <node concept="2S8uIT" id="GWkwFk9EIp" role="2OqNvi">
+              <ref role="2S8YL0" to="tea8:29r3SXLb73F" resolve="camDesiredHeight" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="GWkwFk9EIq" role="jymVt">
+      <property role="TrG5h" value="setCamDesiredHeight" />
+      <node concept="37vLTG" id="GWkwFk9EIr" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10Oyi0" id="GWkwFk9EIs" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="GWkwFk9EIt" role="3clF45" />
+      <node concept="3Tm1VV" id="GWkwFk9EIu" role="1B3o_S" />
+      <node concept="3clFbS" id="GWkwFk9EIv" role="3clF47">
+        <node concept="3clFbF" id="GWkwFk9EIw" role="3cqZAp">
+          <node concept="37vLTI" id="GWkwFk9EIx" role="3clFbG">
+            <node concept="37vLTw" id="GWkwFk9EIy" role="37vLTx">
+              <ref role="3cqZAo" node="GWkwFk9EIr" resolve="val" />
+            </node>
+            <node concept="2OqwBi" id="GWkwFk9EIz" role="37vLTJ">
+              <node concept="37vLTw" id="GWkwFk9EI$" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+              </node>
+              <node concept="2S8uIT" id="GWkwFk9EI_" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:29r3SXLb73F" resolve="camDesiredHeight" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6tydhbZjF44" role="jymVt" />
-    <node concept="2tJIrI" id="6tydhbZjFel" role="jymVt" />
+    <node concept="3clFb_" id="GWkwFk9ftz" role="jymVt">
+      <property role="TrG5h" value="getCamDesiredWidth" />
+      <node concept="10Oyi0" id="GWkwFk9COl" role="3clF45" />
+      <node concept="3Tm1VV" id="GWkwFk9ftA" role="1B3o_S" />
+      <node concept="3clFbS" id="GWkwFk9ftB" role="3clF47">
+        <node concept="3clFbF" id="GWkwFk9_GO" role="3cqZAp">
+          <node concept="2OqwBi" id="GWkwFk9_GQ" role="3clFbG">
+            <node concept="37vLTw" id="GWkwFk9_GR" role="2Oq$k0">
+              <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+            </node>
+            <node concept="2S8uIT" id="GWkwFk9_GS" role="2OqNvi">
+              <ref role="2S8YL0" to="tea8:29r3SXLb6Zq" resolve="camDesiredWidth" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="GWkwFk9lLG" role="jymVt">
+      <property role="TrG5h" value="setCamDesiredWidth" />
+      <node concept="37vLTG" id="GWkwFk9zkm" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10Oyi0" id="GWkwFk9_t2" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="GWkwFk9nIV" role="3clF45" />
+      <node concept="3Tm1VV" id="GWkwFk9lLI" role="1B3o_S" />
+      <node concept="3clFbS" id="GWkwFk9lLJ" role="3clF47">
+        <node concept="3clFbF" id="GWkwFk9vJE" role="3cqZAp">
+          <node concept="37vLTI" id="GWkwFk9ymd" role="3clFbG">
+            <node concept="37vLTw" id="GWkwFk9_Bg" role="37vLTx">
+              <ref role="3cqZAo" node="GWkwFk9zkm" resolve="val" />
+            </node>
+            <node concept="2OqwBi" id="GWkwFk9wKX" role="37vLTJ">
+              <node concept="37vLTw" id="GWkwFk9vJD" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+              </node>
+              <node concept="2S8uIT" id="GWkwFk9xKU" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:29r3SXLb6Zq" resolve="camDesiredWidth" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="GWkwFk8OaL" role="jymVt">
+      <property role="TrG5h" value="getCamUseSystemViewfinder" />
+      <node concept="10P_77" id="GWkwFk8Soy" role="3clF45" />
+      <node concept="3Tm1VV" id="GWkwFk8OaO" role="1B3o_S" />
+      <node concept="3clFbS" id="GWkwFk8OaP" role="3clF47">
+        <node concept="3clFbF" id="GWkwFk95ci" role="3cqZAp">
+          <node concept="2OqwBi" id="GWkwFk96eN" role="3clFbG">
+            <node concept="37vLTw" id="GWkwFk95ch" role="2Oq$k0">
+              <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+            </node>
+            <node concept="2S8uIT" id="GWkwFk97fe" role="2OqNvi">
+              <ref role="2S8YL0" to="tea8:29r3SXLb78a" resolve="camUseSystemViewfinder" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="GWkwFk8Usq" role="jymVt">
+      <property role="TrG5h" value="setCamUseSystemViewfinder" />
+      <node concept="37vLTG" id="GWkwFk9028" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="GWkwFk91q2" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="GWkwFk8Wor" role="3clF45" />
+      <node concept="3Tm1VV" id="GWkwFk8Uss" role="1B3o_S" />
+      <node concept="3clFbS" id="GWkwFk8Ust" role="3clF47">
+        <node concept="3clFbF" id="GWkwFk91Ue" role="3cqZAp">
+          <node concept="37vLTI" id="GWkwFk9494" role="3clFbG">
+            <node concept="37vLTw" id="GWkwFk94bE" role="37vLTx">
+              <ref role="3cqZAo" node="GWkwFk9028" resolve="val" />
+            </node>
+            <node concept="2OqwBi" id="GWkwFk92VV" role="37vLTJ">
+              <node concept="37vLTw" id="GWkwFk91Ud" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+              </node>
+              <node concept="2S8uIT" id="GWkwFk93WO" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:29r3SXLb78a" resolve="camUseSystemViewfinder" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="6tydhbZjHAQ" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="setScrollAdjust" />

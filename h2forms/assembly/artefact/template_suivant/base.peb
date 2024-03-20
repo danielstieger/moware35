@@ -58,6 +58,9 @@
 {% endif %}
   <meta name="h2UploadLocationRetrieve" content="{{ statics.uploadLocationRetrieve }}">
   <meta name="h2UploadLocationStore" content="{{ statics.uploadLocationStore }}">
+  <meta name="h2CamDesiredWidth" content="{{ statics.camDesiredWidth }}">
+  <meta name="h2CamDesiredHeight" content="{{ statics.camDesiredHeight }}">
+  <meta name="h2CamUseSystemViewfinder" content="{{ statics.camUseSystemViewfinder }}">
 {% if defaultConclusion is not null %}
   <meta name="h2DefaultConclusion" content="{{ defaultConclusion.triggerCode }}">
 {% endif %}
