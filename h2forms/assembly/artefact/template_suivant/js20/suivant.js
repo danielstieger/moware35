@@ -174,7 +174,7 @@ function svUploadFileDone(args){
             $('input[name=' + uploadEditorId + ']').value = filename;
 
         } else {
-            alert('While uploading file: ' + status);
+            alert('Take picture: error while uploading: ' + status);
         }
 
     }
@@ -191,6 +191,12 @@ function svCameraPicTaken(cbData){
 
         $('img[name=img_' + uploadEditorId + ']').src = '';
         $('input[name=' + uploadEditorId + ']').value = '';
+
+        if(uploadLocationStore === '-') {
+            var loc = window.location.href.split('/');
+            // protocol, server & port & servlet url
+            uploadLocationStore = loc[0]+ '//' + loc[2] + '/' + loc[3] + '/picupload/';
+        }
 
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
@@ -210,10 +216,12 @@ function svCameraPicTaken(cbData){
            svLog('mCameraPicTaken', 'upload called ... ' + uploadLocationStore + " for " + imgName);
 
         } catch(err) {
-            svLog('mCameraPicTaken', 'Ex while uploading file: ' + err);
+            alert('Take picture: upload to ' + uploadLocationStore + ': ' + err);
+            svLog('mCameraPicTaken', 'Ex while uploading file to ' + uploadLocationStore + ': ' + err);
         }
 
     } else {
+        alert('Take picture: No imageUri in cbData!');
         svLog('mCameraPicTaken', 'No imageUri in cbData!!');
         for (let prop in cbData) {
             svLog('mCameraPicTaken', ''+ prop + ": " + cbData[prop]);
@@ -242,6 +250,7 @@ function svTakePicture(editorId) {
     svLog('mTakePicture', 'takePicture ebapi called.');
 
   } catch(err) {
+    alert('Take picture: ' + err);
     svLog('mTakePicture', 'Ex occured: ' + err);
   }
 }
