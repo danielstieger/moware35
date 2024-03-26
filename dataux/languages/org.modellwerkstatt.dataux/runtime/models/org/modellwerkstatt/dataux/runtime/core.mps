@@ -11140,16 +11140,18 @@
                 <ref role="37wK5l" to="x37d:6V7pU2kc3qE" resolve="isParDeploymentForwardImmediate" />
               </node>
             </node>
-            <node concept="1Wc70l" id="_66gAv4ADl" role="3uHU7w">
-              <node concept="1rXfSq" id="_66gAv4Fwz" role="3uHU7w">
-                <ref role="37wK5l" node="_66gAuKKJE" resolve="noGraphsToCommit" />
-              </node>
-              <node concept="2OqwBi" id="_66gAuKiHu" role="3uHU7B">
-                <node concept="1rXfSq" id="_66gAuKe98" role="2Oq$k0">
-                  <ref role="37wK5l" node="2yuEF6qi9kg" resolve="getAppTelemetrics" />
+            <node concept="1eOMI4" id="4ai0YuVAAcQ" role="3uHU7w">
+              <node concept="1Wc70l" id="4ai0YuVAAcR" role="1eOMHV">
+                <node concept="1rXfSq" id="4ai0YuVAAcS" role="3uHU7w">
+                  <ref role="37wK5l" node="_66gAuKKJE" resolve="noGraphsToCommit" />
                 </node>
-                <node concept="liA8E" id="_66gAuKmXX" role="2OqNvi">
-                  <ref role="37wK5l" to="x37d:6V7pU2kccUh" resolve="isParDeploymentForwardGracefully" />
+                <node concept="2OqwBi" id="4ai0YuVAAcT" role="3uHU7B">
+                  <node concept="1rXfSq" id="4ai0YuVAAcU" role="2Oq$k0">
+                    <ref role="37wK5l" node="2yuEF6qi9kg" resolve="getAppTelemetrics" />
+                  </node>
+                  <node concept="liA8E" id="4ai0YuVAAcV" role="2OqNvi">
+                    <ref role="37wK5l" to="x37d:6V7pU2kccUh" resolve="isParDeploymentForwardGracefully" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -21422,6 +21424,42 @@
           </node>
         </node>
         <node concept="3clFbH" id="2JDNIBMQPD7" role="3cqZAp" />
+        <node concept="3clFbJ" id="4ai0YuV_muf" role="3cqZAp">
+          <node concept="3clFbS" id="4ai0YuV_muh" role="3clFbx">
+            <node concept="3SKdUt" id="4ai0YuVBoWy" role="3cqZAp">
+              <node concept="1PaTwC" id="4ai0YuVBoWx" role="1aUNEU">
+                <node concept="3oM_SD" id="4ai0YuVBom1" role="1PaTwD">
+                  <property role="3oM_SC" value="ignore" />
+                </node>
+                <node concept="3oM_SD" id="4ai0YuVBos2" role="1PaTwD">
+                  <property role="3oM_SC" value="conclusion" />
+                </node>
+                <node concept="3oM_SD" id="4ai0YuVBoxX" role="1PaTwD">
+                  <property role="3oM_SC" value="execution" />
+                </node>
+                <node concept="3oM_SD" id="4ai0YuVBoA_" role="1PaTwD">
+                  <property role="3oM_SC" value="and" />
+                </node>
+                <node concept="3oM_SD" id="4ai0YuVBp2R" role="1PaTwD">
+                  <property role="3oM_SC" value="wait" />
+                </node>
+                <node concept="3oM_SD" id="4ai0YuVBoLc" role="1PaTwD">
+                  <property role="3oM_SC" value="" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="4ai0YuVBpfw" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="4ai0YuVA3p3" role="3clFbw">
+            <node concept="37vLTw" id="4ai0YuV_UjC" role="2Oq$k0">
+              <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+            </node>
+            <node concept="liA8E" id="4ai0YuVAi4d" role="2OqNvi">
+              <ref role="37wK5l" node="4uJMAbG4p2y" resolve="checkForAppParDeploymentForward" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4ai0YuV$X5p" role="3cqZAp" />
         <node concept="3SKdUt" id="27BPRG5WWlc" role="3cqZAp">
           <node concept="1PaTwC" id="5HvIBdJXHAv" role="1aUNEU">
             <node concept="3oM_SD" id="5HvIBdJXHAw" role="1PaTwD">

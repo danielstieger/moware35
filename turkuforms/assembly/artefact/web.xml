@@ -20,7 +20,7 @@
     <servlet>
         <async-supported>true</async-supported>
         <servlet-name>loaderservlet</servlet-name>
-        <servlet-class>org.modellwerkstatt.turkuforms.app.TurkuServlet</servlet-class>
+        <servlet-class>org.modellwerkstatt.turkuforms.core.TurkuServlet</servlet-class>
 
         <init-param>
             <param-name>heartbeatInterval</param-name>
