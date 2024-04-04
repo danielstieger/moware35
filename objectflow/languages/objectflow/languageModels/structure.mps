@@ -5220,5 +5220,21 @@
       <ref role="PrY4T" node="45gKusSALGn" resolve="IStatusDeclarationOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1WRDsSumd3e">
+    <property role="EcuMT" value="2249448843585835214" />
+    <property role="3GE5qa" value="Configuration" />
+    <property role="TrG5h" value="OFXConfigPlainText" />
+    <property role="34LRSv" value="plain text hack" />
+    <property role="R4oN_" value="just add some text directly" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1WRDsSumd3f" role="1TKVEl">
+      <property role="IQ2nx" value="2249448843585835215" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="1WRDsSumd3h" role="PzmwI">
+      <ref role="PrY4T" node="q_zDmI5Z8G" resolve="IOFXConfigElement" />
+    </node>
+  </node>
 </model>
 

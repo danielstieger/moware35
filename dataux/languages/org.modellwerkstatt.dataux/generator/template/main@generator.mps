@@ -10080,7 +10080,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="3tgwmmDizMQ" role="1B3o_S" />
       <node concept="3uibUv" id="40MBoaeeM$J" role="1tU5fm">
-        <ref role="3uigEE" to="a820:~ApplicationContext" resolve="ApplicationContext" />
+        <ref role="3uigEE" to="qqeh:~AbstractApplicationContext" resolve="AbstractApplicationContext" />
       </node>
     </node>
     <node concept="312cEg" id="2rXgTRr5yks" role="jymVt">
@@ -11592,7 +11592,7 @@
                   <ref role="3cqZAo" node="3tgwmmDizMP" resolve="cl_SpringAppContext" />
                 </node>
                 <node concept="liA8E" id="3J6KGB_AFHI" role="2OqNvi">
-                  <ref role="37wK5l" to="a820:~ApplicationContext.getAutowireCapableBeanFactory()" resolve="getAutowireCapableBeanFactory" />
+                  <ref role="37wK5l" to="qqeh:~AbstractApplicationContext.getAutowireCapableBeanFactory()" resolve="getAutowireCapableBeanFactory" />
                 </node>
               </node>
               <node concept="liA8E" id="3J6KGB_AGJy" role="2OqNvi">
@@ -11641,7 +11641,7 @@
                 <ref role="3cqZAo" node="3tgwmmDizMP" resolve="cl_SpringAppContext" />
               </node>
               <node concept="liA8E" id="Osm8eLtmZ0" role="2OqNvi">
-                <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.Class)" resolve="getBean" />
+                <ref role="37wK5l" to="qqeh:~AbstractApplicationContext.getBean(java.lang.Class)" resolve="getBean" />
                 <node concept="3VsKOn" id="Osm8eLtmZ1" role="37wK5m">
                   <ref role="3VsUkX" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
                 </node>
@@ -12761,24 +12761,47 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="5BROMrVOFth" role="3cqZAp">
-              <node concept="2OqwBi" id="5BROMrVOG8A" role="3clFbG">
-                <node concept="1eOMI4" id="5BROMrVOFtf" role="2Oq$k0">
-                  <node concept="10QFUN" id="5BROMrVOFtc" role="1eOMHV">
-                    <node concept="3uibUv" id="5BROMrVOFF5" role="10QFUM">
-                      <ref role="3uigEE" to="a820:~ConfigurableApplicationContext" resolve="ConfigurableApplicationContext" />
-                    </node>
-                    <node concept="37vLTw" id="5BROMrVOFR8" role="10QFUP">
-                      <ref role="3cqZAo" node="3tgwmmDizMP" resolve="cl_SpringAppContext" />
-                    </node>
+            <node concept="3cpWs8" id="1WRDsSuF0mq" role="3cqZAp">
+              <node concept="3cpWsn" id="1WRDsSuF0mt" role="3cpWs9">
+                <property role="TrG5h" value="msg" />
+                <node concept="17QB3L" id="1WRDsSuF0mo" role="1tU5fm" />
+                <node concept="2YIFZM" id="1WRDsSuEzH1" role="33vP2m">
+                  <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                  <ref role="37wK5l" to="28jr:1WRDsSuEm$8" resolve="closeConnectionPoolExplicitly" />
+                  <node concept="37vLTw" id="1WRDsSuE$_M" role="37wK5m">
+                    <ref role="3cqZAo" node="3tgwmmDizMP" resolve="cl_SpringAppContext" />
                   </node>
-                </node>
-                <node concept="liA8E" id="5BROMrVOGuQ" role="2OqNvi">
-                  <ref role="37wK5l" to="a820:~ConfigurableApplicationContext.close()" resolve="close" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="2rXgTRr6W9X" role="3cqZAp" />
+            <node concept="3clFbJ" id="1WRDsSuF4rZ" role="3cqZAp">
+              <node concept="3clFbS" id="1WRDsSuF4s1" role="3clFbx">
+                <node concept="3clFbF" id="1WRDsSuF6R3" role="3cqZAp">
+                  <node concept="3nyPlj" id="1WRDsSuF6R1" role="3clFbG">
+                    <ref role="37wK5l" to="opgt:~GenericServlet.log(java.lang.String)" resolve="log" />
+                    <node concept="37vLTw" id="1WRDsSuF90S" role="37wK5m">
+                      <ref role="3cqZAo" node="1WRDsSuF0mt" resolve="msg" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="1WRDsSuF65l" role="3clFbw">
+                <node concept="10Nm6u" id="1WRDsSuF68J" role="3uHU7w" />
+                <node concept="37vLTw" id="1WRDsSuF56h" role="3uHU7B">
+                  <ref role="3cqZAo" node="1WRDsSuF0mt" resolve="msg" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1WRDsSuO7AR" role="3cqZAp">
+              <node concept="2OqwBi" id="1WRDsSuO8Xk" role="3clFbG">
+                <node concept="37vLTw" id="1WRDsSuO7AP" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3tgwmmDizMP" resolve="cl_SpringAppContext" />
+                </node>
+                <node concept="liA8E" id="1WRDsSuO9JG" role="2OqNvi">
+                  <ref role="37wK5l" to="qqeh:~AbstractApplicationContext.close()" resolve="close" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="7tfEsbHYe79" role="3cqZAp">
               <node concept="2OqwBi" id="7tfEsbHYelX" role="3clFbG">
                 <node concept="37vLTw" id="7tfEsbHYe77" role="2Oq$k0">

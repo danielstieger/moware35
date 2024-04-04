@@ -61,6 +61,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="4564374268190696673" name="jetbrains.mps.baseLanguage.structure.PrimitiveClassExpression" flags="nn" index="229OVn">
+        <child id="4564374268190696674" name="primitiveType" index="229OVk" />
+      </concept>
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1219920932475" name="jetbrains.mps.baseLanguage.structure.VariableArityType" flags="in" index="8X2XB">
         <child id="1219921048460" name="componentType" index="8Xvag" />
@@ -2695,6 +2698,137 @@
       <node concept="3Tm1VV" id="3J6KGB_Bx0m" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="3J6KGB__Ywz" role="jymVt" />
+    <node concept="2YIFZL" id="1WRDsSuEm$8" role="jymVt">
+      <property role="TrG5h" value="closeConnectionPoolExplicitly" />
+      <node concept="3clFbS" id="1WRDsSuEm$b" role="3clF47">
+        <node concept="3J1_TO" id="1WRDsSuDh$u" role="3cqZAp">
+          <node concept="3uVAMA" id="1WRDsSuDimA" role="1zxBo5">
+            <node concept="XOnhg" id="1WRDsSuDimB" role="1zc67B">
+              <property role="TrG5h" value="ex" />
+              <node concept="nSUau" id="1WRDsSuDimC" role="1tU5fm">
+                <node concept="3uibUv" id="1WRDsSuDjcy" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="1WRDsSuDimD" role="1zc67A">
+              <node concept="3cpWs6" id="1WRDsSuEKX8" role="3cqZAp">
+                <node concept="3cpWs3" id="1WRDsSuEOch" role="3cqZAk">
+                  <node concept="2OqwBi" id="1WRDsSuEOUv" role="3uHU7w">
+                    <node concept="37vLTw" id="1WRDsSuEOvr" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1WRDsSuDimB" resolve="ex" />
+                    </node>
+                    <node concept="liA8E" id="1WRDsSuEPys" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs3" id="1WRDsSuEU41" role="3uHU7B">
+                    <node concept="Xl_RD" id="1WRDsSuEU6b" role="3uHU7w">
+                      <property role="Xl_RC" value=" " />
+                    </node>
+                    <node concept="3cpWs3" id="1WRDsSuEQvS" role="3uHU7B">
+                      <node concept="Xl_RD" id="1WRDsSuEKZN" role="3uHU7B">
+                        <property role="Xl_RC" value="While trying to dataSource.close(true) we got a " />
+                      </node>
+                      <node concept="2OqwBi" id="1WRDsSuES4x" role="3uHU7w">
+                        <node concept="2OqwBi" id="1WRDsSuER0k" role="2Oq$k0">
+                          <node concept="37vLTw" id="1WRDsSuEQNl" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1WRDsSuDimB" resolve="ex" />
+                          </node>
+                          <node concept="liA8E" id="1WRDsSuERmY" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1WRDsSuETzh" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="1WRDsSuDh$w" role="1zxBo7">
+            <node concept="3cpWs8" id="1WRDsSuCYtD" role="3cqZAp">
+              <node concept="3cpWsn" id="1WRDsSuCYtE" role="3cpWs9">
+                <property role="TrG5h" value="dataSource" />
+                <node concept="3uibUv" id="1WRDsSuCYtF" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+                <node concept="2OqwBi" id="1WRDsSuD1D5" role="33vP2m">
+                  <node concept="37vLTw" id="1WRDsSuD1cs" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1WRDsSuEp3W" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="1WRDsSuD3zY" role="2OqNvi">
+                    <ref role="37wK5l" to="qqeh:~AbstractApplicationContext.getBean(java.lang.Class)" resolve="getBean" />
+                    <node concept="3VsKOn" id="1WRDsSuEIOI" role="37wK5m">
+                      <ref role="3VsUkX" to="iiye:~DataSource" resolve="DataSource" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="1WRDsSuDxto" role="3cqZAp">
+              <node concept="3cpWsn" id="1WRDsSuDxtp" role="3cpWs9">
+                <property role="TrG5h" value="m" />
+                <node concept="3uibUv" id="1WRDsSuDxtq" role="1tU5fm">
+                  <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
+                </node>
+                <node concept="2OqwBi" id="1WRDsSuDalk" role="33vP2m">
+                  <node concept="2OqwBi" id="1WRDsSuD90f" role="2Oq$k0">
+                    <node concept="37vLTw" id="1WRDsSuD8MB" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1WRDsSuCYtE" resolve="dataSource" />
+                    </node>
+                    <node concept="liA8E" id="1WRDsSuD9O7" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1WRDsSuDdks" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getMethod(java.lang.String,java.lang.Class...)" resolve="getMethod" />
+                    <node concept="Xl_RD" id="1WRDsSuDe4o" role="37wK5m">
+                      <property role="Xl_RC" value="close" />
+                    </node>
+                    <node concept="229OVn" id="1WRDsSuDUMi" role="37wK5m">
+                      <node concept="10P_77" id="1WRDsSuDUMg" role="229OVk" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1WRDsSuDBxQ" role="3cqZAp">
+              <node concept="2OqwBi" id="1WRDsSuDBPw" role="3clFbG">
+                <node concept="37vLTw" id="1WRDsSuDBxO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1WRDsSuDxtp" resolve="m" />
+                </node>
+                <node concept="liA8E" id="1WRDsSuDCzF" role="2OqNvi">
+                  <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...)" resolve="invoke" />
+                  <node concept="37vLTw" id="1WRDsSuDDg_" role="37wK5m">
+                    <ref role="3cqZAo" node="1WRDsSuCYtE" resolve="dataSource" />
+                  </node>
+                  <node concept="3clFbT" id="1WRDsSuDE0Z" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1WRDsSuDh$v" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1WRDsSuEKoy" role="3cqZAp">
+          <node concept="10Nm6u" id="1WRDsSuEKAw" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1WRDsSuElcg" role="1B3o_S" />
+      <node concept="17QB3L" id="1WRDsSuEJHU" role="3clF45" />
+      <node concept="37vLTG" id="1WRDsSuEp3W" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="1WRDsSuEp3V" role="1tU5fm">
+          <ref role="3uigEE" to="qqeh:~AbstractApplicationContext" resolve="AbstractApplicationContext" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1WRDsSuEdQG" role="jymVt" />
     <node concept="2YIFZL" id="6jA0RBqN1E0" role="jymVt">
       <property role="TrG5h" value="getXmlConfigFromManifest" />
       <node concept="37vLTG" id="4SIZQU4E_$s" role="3clF46">

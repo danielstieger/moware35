@@ -13514,5 +13514,23 @@
       <node concept="l2Vlx" id="21PCWhLgy6y" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1WRDsSumd3j">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="1XX52x" to="un0u:1WRDsSumd3e" resolve="OFXConfigPlainText" />
+    <node concept="3EZMnI" id="1WRDsSumd3l" role="2wV5jI">
+      <node concept="3F0ifn" id="1WRDsSumd3m" role="3EZMnx">
+        <property role="3F0ifm" value="plain text hack" />
+        <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
+      </node>
+      <node concept="3F0A7n" id="1WRDsSumd3o" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1WRDsSumd3f" resolve="text" />
+        <node concept="3vyZuw" id="1WRDsSumsuq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1WRDsSumd3s" role="2iSdaV" />
+      <node concept="3F0ifn" id="1WRDsSumd3z" role="3EZMnx" />
+    </node>
+  </node>
 </model>
 
