@@ -42,6 +42,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
@@ -6416,6 +6417,37 @@
                   <property role="TrG5h" value="it" />
                   <node concept="2jxLKc" id="2E94cTjmkOa" role="1tU5fm" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1obl$yNOJkW">
+    <property role="3GE5qa" value="StringHandling" />
+    <property role="TrG5h" value="InsertTitleDelimiter" />
+    <ref role="2ZfgGC" to="un0u:4kNjw_n0K4y" resolve="StringFormatString" />
+    <node concept="2S6ZIM" id="1obl$yNOJkX" role="2ZfVej">
+      <node concept="3clFbS" id="1obl$yNOJkY" role="2VODD2">
+        <node concept="3clFbF" id="1obl$yNOKb_" role="3cqZAp">
+          <node concept="Xl_RD" id="1obl$yNOKb$" role="3clFbG">
+            <property role="Xl_RC" value="Insert Title Delimiter" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1obl$yNOJkZ" role="2ZfgGD">
+      <node concept="3clFbS" id="1obl$yNOJl0" role="2VODD2">
+        <node concept="3clFbF" id="1obl$yNOKjh" role="3cqZAp">
+          <node concept="d57v9" id="1obl$yNOLeC" role="3clFbG">
+            <node concept="Xl_RD" id="1obl$yNOLfe" role="37vLTx">
+              <property role="Xl_RC" value="•" />
+            </node>
+            <node concept="2OqwBi" id="1obl$yNOKr9" role="37vLTJ">
+              <node concept="2Sf5sV" id="1obl$yNOKjg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1obl$yNOK$1" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:4kNjw_n0K5t" resolve="formatStringValue" />
               </node>
             </node>
           </node>
