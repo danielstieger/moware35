@@ -6432,7 +6432,7 @@
       <node concept="3clFbS" id="1obl$yNOJkY" role="2VODD2">
         <node concept="3clFbF" id="1obl$yNOKb_" role="3cqZAp">
           <node concept="Xl_RD" id="1obl$yNOKb$" role="3clFbG">
-            <property role="Xl_RC" value="Insert Title Delimiter" />
+            <property role="Xl_RC" value="Insert Title Delimiter at End" />
           </node>
         </node>
       </node>

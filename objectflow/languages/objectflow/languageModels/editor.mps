@@ -1916,9 +1916,17 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F1sOY" id="7j1iBG4L7t7" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;title&gt;" />
-          <ref role="1NtTu8" to="un0u:7j1iBG4KMlj" resolve="dynamicPageTitle" />
+        <node concept="3EZMnI" id="19ZFnT8fVCG" role="3EZMnx">
+          <node concept="VPM3Z" id="19ZFnT8fVCI" role="3F10Kt" />
+          <node concept="3F1sOY" id="7j1iBG4L7t7" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;title&gt;" />
+            <ref role="1NtTu8" to="un0u:7j1iBG4KMlj" resolve="dynamicPageTitle" />
+          </node>
+          <node concept="3F1sOY" id="19ZFnT8fVFL" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;sub title&gt;" />
+            <ref role="1NtTu8" to="un0u:19ZFnT8fKJd" resolve="dynamicPageSubTitle" />
+          </node>
+          <node concept="2iRkQZ" id="19ZFnT8fVCL" role="2iSdaV" />
         </node>
         <node concept="3F0ifn" id="1Clc7wPShHL" role="3EZMnx">
           <property role="3F0ifm" value="and scopes:" />
