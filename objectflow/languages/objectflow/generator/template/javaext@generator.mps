@@ -61,6 +61,10 @@
         <child id="1201371521209" name="type" index="2RkE6I" />
         <child id="1201372378714" name="propertyImplementation" index="2RnVtd" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1201372606839" name="jetbrains.mps.baseLanguage.structure.DefaultPropertyImplementation" flags="ng" index="2RoN1w">
         <child id="1202065356069" name="defaultGetAccessor" index="3wFrgM" />
         <child id="1202078082794" name="defaultSetAccessor" index="3xrYvX" />
@@ -7039,7 +7043,7 @@
             </node>
           </node>
           <node concept="liA8E" id="4hFGgsn_IvB" role="2OqNvi">
-            <ref role="37wK5l" to="xlxw:~BigDecimal.divide(java.math.BigDecimal)" resolve="divide" />
+            <ref role="37wK5l" to="xlxw:~BigDecimal.divide(java.math.BigDecimal,java.math.RoundingMode)" resolve="divide" />
             <node concept="2ShNRf" id="4hFGgsn_IvC" role="37wK5m">
               <node concept="1pGfFk" id="4hFGgsn_IvD" role="2ShVmc">
                 <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(java.lang.String)" resolve="BigDecimal" />
@@ -7061,6 +7065,10 @@
                   </node>
                 </node>
               </node>
+            </node>
+            <node concept="Rm8GO" id="36XALiTaW8m" role="37wK5m">
+              <ref role="Rm8GQ" to="xlxw:~RoundingMode.HALF_UP" resolve="HALF_UP" />
+              <ref role="1Px2BO" to="xlxw:~RoundingMode" resolve="RoundingMode" />
             </node>
           </node>
         </node>
