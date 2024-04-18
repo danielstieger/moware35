@@ -1043,7 +1043,7 @@
       </node>
       <node concept="2CJf1O" id="2lLSObeqReZ" role="2CJ4_l">
         <node concept="Xl_RD" id="2lLSObeqRf0" role="2DqwMp">
-          <property role="Xl_RC" value="qSzdCNqKELbC5J" />
+          <property role="Xl_RC" value="-" />
         </node>
         <node concept="Xl_RD" id="2lLSObeqRf1" role="2DqwMv">
           <property role="Xl_RC" value="2" />
