@@ -441,6 +441,7 @@
       </concept>
       <concept id="3340964334457520113" name="org.modellwerkstatt.manmap.structure.BatchSaveOption" flags="ng" index="14MSaH" />
       <concept id="4381394697191783829" name="org.modellwerkstatt.manmap.structure.QueryFromSql" flags="ng" index="1eaaFm">
+        <property id="4381394697191785949" name="debugMe" index="1ea5au" />
         <child id="4658368375971480334" name="packaging" index="q55Dl" />
         <child id="4381394697219937324" name="arguments" index="18nGdJ" />
         <child id="4381394697191789858" name="sqlString" index="1ea49x" />
@@ -16312,6 +16313,85 @@
               </node>
             </node>
             <node concept="1uHKPH" id="3SAEAO0Y8xy" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="7IS2Z1NwNq8" role="jymVt">
+      <property role="TrG5h" value="checkForNPParameterNull" />
+      <node concept="37vLTG" id="7IS2Z1NwOe0" role="3clF46">
+        <property role="TrG5h" value="someNullString" />
+        <node concept="17QB3L" id="7IS2Z1NwOlS" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="7IS2Z1NwNqa" role="3clF45" />
+      <node concept="3Tm1VV" id="7IS2Z1NwNqb" role="1B3o_S" />
+      <node concept="3clFbS" id="7IS2Z1NwNqc" role="3clF47">
+        <node concept="3cpWs8" id="7IS2Z1NwP9i" role="3cqZAp">
+          <node concept="3cpWsn" id="7IS2Z1NwP9l" role="3cpWs9">
+            <property role="TrG5h" value="ints" />
+            <node concept="_YKpA" id="7IS2Z1NwP9e" role="1tU5fm">
+              <node concept="3uibUv" id="7IS2Z1NwPaC" role="_ZDj9">
+                <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+              </node>
+            </node>
+            <node concept="1eaaFm" id="7IS2Z1NwOae" role="33vP2m">
+              <property role="1ea5au" value="true" />
+              <node concept="1inMjt" id="7IS2Z1NwOyQ" role="1inM_q">
+                <property role="TrG5h" value="key_id" />
+                <node concept="37vLTw" id="7IS2Z1NwOCz" role="1inMju">
+                  <ref role="3cqZAo" node="7IS2Z1NwOe0" resolve="someNullString" />
+                </node>
+              </node>
+              <node concept="1Q8zPT" id="7IS2Z1NwOaf" role="1ea49x">
+                <node concept="1PaTwC" id="7IS2Z1NwOag" role="2KarBZ">
+                  <node concept="3oM_SD" id="7IS2Z1NwObw" role="1PaTwD">
+                    <property role="3oM_SC" value="SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7IS2Z1NwOby" role="1PaTwD">
+                    <property role="3oM_SC" value="*" />
+                  </node>
+                  <node concept="3oM_SD" id="7IS2Z1NwOb_" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7IS2Z1NwObP" role="1PaTwD">
+                    <property role="3oM_SC" value="REKO.MMT_INVOICE" />
+                  </node>
+                  <node concept="3oM_SD" id="7IS2Z1NwObU" role="1PaTwD">
+                    <property role="3oM_SC" value="WHERE" />
+                  </node>
+                  <node concept="3oM_SD" id="7IS2Z1NwOc0" role="1PaTwD">
+                    <property role="3oM_SC" value="KEY_ID" />
+                  </node>
+                  <node concept="3oM_SD" id="7IS2Z1NwOc7" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7IS2Z1NwOcf" role="1PaTwD">
+                    <property role="3oM_SC" value=":key_id" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1bVj0M" id="7IS2Z1NwOah" role="q55Dl">
+                <node concept="3clFbS" id="7IS2Z1NwOai" role="1bW5cS">
+                  <node concept="3clFbF" id="7IS2Z1NwOH6" role="3cqZAp">
+                    <node concept="2OqwBi" id="7IS2Z1NwOLO" role="3clFbG">
+                      <node concept="37vLTw" id="7IS2Z1NwOH5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7IS2Z1NwOaj" resolve="row" />
+                      </node>
+                      <node concept="liA8E" id="7IS2Z1NwOPQ" role="2OqNvi">
+                        <ref role="37wK5l" to="w7gk:7ng6PyBXpah" resolve="getAsInteger" />
+                        <node concept="Xl_RD" id="7IS2Z1NwOUV" role="37wK5m">
+                          <property role="Xl_RC" value="KEY_ID" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="jxRLt" id="7IS2Z1NwOaj" role="1bW2Oz">
+                  <property role="TrG5h" value="row" />
+                  <node concept="2jxLKc" id="7IS2Z1NwOak" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
