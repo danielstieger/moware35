@@ -2769,7 +2769,7 @@
         <property role="TrG5h" value="LOGIN_FAILED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="1Q0KaWuHvd8" role="37wK5m">
-          <property role="Xl_RC" value="Sie konnten nicht am System angemeldet werden.\n(Keine/ falsche Rechte)" />
+          <property role="Xl_RC" value="Sie konnten nicht am System angemeldet werden.\n(Keine/ unzureichend Rechte)" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDd" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDe" role="37wK5m" />
@@ -2781,7 +2781,7 @@
         <property role="TrG5h" value="LOGIN_USER_FAILED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="7r26jiO4Dx8" role="37wK5m">
-          <property role="Xl_RC" value="Der Benutzer '%s' konnten nicht am System angemeldet werden.\n(Keine/ falsche Rechte)" />
+          <property role="Xl_RC" value="Der Benutzer '%s' konnten nicht am System angemeldet werden.\n(Keine/ unzureichend Rechte)" />
         </node>
         <node concept="10Nm6u" id="7r26jiO4Dx9" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiO4Dxa" role="37wK5m" />

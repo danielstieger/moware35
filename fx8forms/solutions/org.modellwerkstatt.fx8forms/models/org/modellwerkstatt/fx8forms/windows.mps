@@ -4466,27 +4466,20 @@
                   <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                 </node>
               </node>
-              <node concept="3cpWs3" id="2yuEF6qoRMp" role="37wK5m">
-                <node concept="2OqwBi" id="2yuEF6qoS6X" role="3uHU7w">
-                  <node concept="37vLTw" id="2yuEF6qoS0Y" role="2Oq$k0">
-                    <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
-                  </node>
-                  <node concept="liA8E" id="2yuEF6qoSrM" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
-                  </node>
+              <node concept="2OqwBi" id="2yuEF6qoQSo" role="37wK5m">
+                <node concept="37vLTw" id="2yuEF6qoQOZ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
                 </node>
-                <node concept="3cpWs3" id="2yuEF6qoRmd" role="3uHU7B">
-                  <node concept="2OqwBi" id="2yuEF6qoQSo" role="3uHU7B">
-                    <node concept="37vLTw" id="2yuEF6qoQOZ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
-                    </node>
-                    <node concept="liA8E" id="2yuEF6qoRav" role="2OqNvi">
-                      <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="2yuEF6qoRx0" role="3uHU7w">
-                    <property role="Xl_RC" value=" " />
-                  </node>
+                <node concept="liA8E" id="2yuEF6qoRav" role="2OqNvi">
+                  <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2yuEF6qoS6X" role="37wK5m">
+                <node concept="37vLTw" id="3mOf56UGyjm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
+                </node>
+                <node concept="liA8E" id="2yuEF6qoSrM" role="2OqNvi">
+                  <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
                 </node>
               </node>
               <node concept="3cpWs3" id="5YG5DD91on7" role="37wK5m">

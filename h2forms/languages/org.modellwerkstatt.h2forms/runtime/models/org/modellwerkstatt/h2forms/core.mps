@@ -1577,27 +1577,20 @@
               <node concept="37vLTw" id="7WBKY1WhevH" role="37wK5m">
                 <ref role="3cqZAo" node="1v_dMXwIDjp" resolve="appBehaviourFqName" />
               </node>
-              <node concept="3cpWs3" id="2yuEF6qd4Oa" role="37wK5m">
-                <node concept="3cpWs3" id="2yuEF6qd99I" role="3uHU7B">
-                  <node concept="Xl_RD" id="2yuEF6qd9wi" role="3uHU7w">
-                    <property role="Xl_RC" value=" " />
-                  </node>
-                  <node concept="2OqwBi" id="2yuEF6qd6mC" role="3uHU7B">
-                    <node concept="37vLTw" id="2yuEF6qd52i" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
-                    </node>
-                    <node concept="liA8E" id="2yuEF6qd7MA" role="2OqNvi">
-                      <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="2yuEF6qd6mC" role="37wK5m">
+                <node concept="37vLTw" id="2yuEF6qd52i" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
                 </node>
-                <node concept="2OqwBi" id="2yuEF6qc_hj" role="3uHU7w">
-                  <node concept="37vLTw" id="2yuEF6qc_eo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
-                  </node>
-                  <node concept="liA8E" id="2yuEF6qcC91" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
-                  </node>
+                <node concept="liA8E" id="2yuEF6qd7MA" role="2OqNvi">
+                  <ref role="37wK5l" to="yg8v:6CVJxS8gcow" resolve="getShortAppName" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2yuEF6qc_hj" role="37wK5m">
+                <node concept="37vLTw" id="2yuEF6qc_eo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                </node>
+                <node concept="liA8E" id="2yuEF6qcC91" role="2OqNvi">
+                  <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
                 </node>
               </node>
               <node concept="3cpWs3" id="7708TIHKkCo" role="37wK5m">
