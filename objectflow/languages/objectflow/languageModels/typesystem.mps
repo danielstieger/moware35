@@ -1826,7 +1826,7 @@
               <node concept="3clFbS" id="5Ee0EjqSRm$" role="9aQI4">
                 <node concept="2MkqsV" id="5Ee0EjqSRm_" role="3cqZAp">
                   <node concept="Xl_RD" id="5Ee0EjqSRmD" role="2MkJ7o">
-                    <property role="Xl_RC" value="PageCrtl initialization has to return a list or a single object! " />
+                    <property role="Xl_RC" value="PageCrtl initialization has to return a list or a single object!  (no wildcards!)" />
                   </node>
                   <node concept="2OqwBi" id="5Ee0EjqSRmA" role="1urrMF">
                     <node concept="1YBJjd" id="5Ee0EjqSRmB" role="2Oq$k0">
