@@ -610,7 +610,7 @@
               <ref role="3cqZAo" node="2yuEF6qaF3t" resolve="appTelemetrics" />
             </node>
             <node concept="liA8E" id="3mOf56UFi$F" role="2OqNvi">
-              <ref role="37wK5l" node="3mOf56UEN1b" resolve="setParDeplyAuto" />
+              <ref role="37wK5l" node="3mOf56UEN1b" resolve="setAutoParDeplyDynInfo" />
               <node concept="2ShNRf" id="3mOf56UFiAt" role="37wK5m">
                 <node concept="YeOm9" id="3mOf56UFj2j" role="2ShVmc">
                   <node concept="1Y3b0j" id="3mOf56UFj2m" role="YeSDq">
@@ -645,6 +645,46 @@
           </node>
         </node>
         <node concept="3clFbH" id="3mOf56UFhWr" role="3cqZAp" />
+        <node concept="3clFbF" id="4nugiCW0evS" role="3cqZAp">
+          <node concept="2OqwBi" id="4nugiCW0eJn" role="3clFbG">
+            <node concept="37vLTw" id="4nugiCW0evQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="2yuEF6qaF3t" resolve="appTelemetrics" />
+            </node>
+            <node concept="liA8E" id="4nugiCW0f2U" role="2OqNvi">
+              <ref role="37wK5l" node="4nugiCVZYUU" resolve="setAutoParDeplyToCurrentVersion" />
+              <node concept="2ShNRf" id="4nugiCW0lwP" role="37wK5m">
+                <node concept="YeOm9" id="4nugiCW8F3s" role="2ShVmc">
+                  <node concept="1Y3b0j" id="4nugiCW8F3v" role="YeSDq">
+                    <property role="2bfB8j" value="true" />
+                    <ref role="1Y3XeK" node="4nugiCVZyVA" resolve="ApplicationTelemetrics.DynamicAction" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <node concept="3Tm1VV" id="4nugiCW8F3w" role="1B3o_S" />
+                    <node concept="3clFb_" id="4nugiCW8F3_" role="jymVt">
+                      <property role="TrG5h" value="execAction" />
+                      <node concept="17QB3L" id="4nugiCW8F3A" role="3clF45" />
+                      <node concept="3Tm1VV" id="4nugiCW8F3B" role="1B3o_S" />
+                      <node concept="3clFbS" id="4nugiCW8F3D" role="3clF47">
+                        <node concept="3clFbF" id="4nugiCW8Fza" role="3cqZAp">
+                          <node concept="2OqwBi" id="4nugiCW8FFP" role="3clFbG">
+                            <node concept="37vLTw" id="4nugiCW8Fz9" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3mOf56UFfiU" resolve="autoForwarder" />
+                            </node>
+                            <node concept="liA8E" id="4nugiCW8FMo" role="2OqNvi">
+                              <ref role="37wK5l" node="4nugiCW0bZi" resolve="setToCurrentVersion" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2AHcQZ" id="4nugiCW8F3F" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3mOf56UFhXl" role="3cqZAp" />
         <node concept="3cpWs8" id="5H_LKg_Wgoe" role="3cqZAp">
           <node concept="3cpWsn" id="5H_LKg_Wgoh" role="3cpWs9">
@@ -1365,6 +1405,13 @@
         <ref role="3uigEE" node="1dOSBikoX3u" resolve="ApplicationTelemetrics.DynamicInfo" />
       </node>
     </node>
+    <node concept="312cEg" id="4nugiCVZRzq" role="jymVt">
+      <property role="TrG5h" value="parDeployAutoSetCurrentVersion" />
+      <node concept="3Tm6S6" id="4nugiCVZRzr" role="1B3o_S" />
+      <node concept="3uibUv" id="4nugiCVZRzs" role="1tU5fm">
+        <ref role="3uigEE" node="4nugiCVZyVA" resolve="ApplicationTelemetrics.DynamicAction" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1dOSBikp4pm" role="jymVt" />
     <node concept="2tJIrI" id="6V7pU2kboXC" role="jymVt" />
     <node concept="312cEg" id="6V7pU2kbkWy" role="jymVt">
@@ -1745,7 +1792,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="3mOf56UEN1b" role="jymVt">
-      <property role="TrG5h" value="setParDeplyAuto" />
+      <property role="TrG5h" value="setAutoParDeplyDynInfo" />
       <node concept="37vLTG" id="3mOf56UEN1c" role="3clF46">
         <property role="TrG5h" value="info" />
         <node concept="3uibUv" id="3mOf56UEN1d" role="1tU5fm">
@@ -1762,6 +1809,29 @@
             </node>
             <node concept="37vLTw" id="3mOf56UEN1k" role="37vLTJ">
               <ref role="3cqZAo" node="3mOf56UETTS" resolve="parDeployAutoDynInfo" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4nugiCVZYUU" role="jymVt">
+      <property role="TrG5h" value="setAutoParDeplyToCurrentVersion" />
+      <node concept="37vLTG" id="4nugiCVZYUV" role="3clF46">
+        <property role="TrG5h" value="act" />
+        <node concept="3uibUv" id="4nugiCVZYUW" role="1tU5fm">
+          <ref role="3uigEE" node="4nugiCVZyVA" resolve="ApplicationTelemetrics.DynamicAction" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4nugiCVZYUX" role="3clF45" />
+      <node concept="3Tm1VV" id="4nugiCVZYUY" role="1B3o_S" />
+      <node concept="3clFbS" id="4nugiCVZYUZ" role="3clF47">
+        <node concept="3clFbF" id="4nugiCVZYV0" role="3cqZAp">
+          <node concept="37vLTI" id="4nugiCVZYV1" role="3clFbG">
+            <node concept="37vLTw" id="4nugiCVZYV2" role="37vLTx">
+              <ref role="3cqZAo" node="4nugiCVZYUV" resolve="act" />
+            </node>
+            <node concept="37vLTw" id="4nugiCVZYV3" role="37vLTJ">
+              <ref role="3cqZAo" node="4nugiCVZRzq" resolve="parDeployAutoSetCurrentVersion" />
             </node>
           </node>
         </node>
@@ -2979,6 +3049,39 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="4nugiCVZG1l" role="jymVt">
+      <property role="TrG5h" value="setAutoDeployForwardToCurrentVersion" />
+      <node concept="3Tm1VV" id="4nugiCVZG1n" role="1B3o_S" />
+      <node concept="17QB3L" id="4nugiCVZG1o" role="3clF45" />
+      <node concept="3clFbS" id="4nugiCVZG1r" role="3clF47">
+        <node concept="3clFbF" id="4nugiCVZVwH" role="3cqZAp">
+          <node concept="3K4zz7" id="4nugiCVZWR6" role="3clFbG">
+            <node concept="Xl_RD" id="4nugiCVZXt0" role="3K4E3e">
+              <property role="Xl_RC" value="null" />
+            </node>
+            <node concept="2OqwBi" id="4nugiCVZYhu" role="3K4GZi">
+              <node concept="37vLTw" id="4nugiCVZXuc" role="2Oq$k0">
+                <ref role="3cqZAo" node="4nugiCVZRzq" resolve="parDeployAutoSetCurrentVersion" />
+              </node>
+              <node concept="liA8E" id="4nugiCVZYTg" role="2OqNvi">
+                <ref role="37wK5l" node="4nugiCVZyVB" resolve="execAction" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="4nugiCVZWau" role="3K4Cdx">
+              <node concept="10Nm6u" id="4nugiCVZWM6" role="3uHU7w" />
+              <node concept="37vLTw" id="4nugiCVZVwG" role="3uHU7B">
+                <ref role="3cqZAo" node="4nugiCVZRzq" resolve="parDeployAutoSetCurrentVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4nugiCVZG1s" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4nugiCVZMN$" role="jymVt" />
+    <node concept="2tJIrI" id="4nugiCVZOmu" role="jymVt" />
     <node concept="3clFb_" id="6rMtHgbDDVu" role="jymVt">
       <property role="TrG5h" value="gcClean" />
       <node concept="3cqZAl" id="6rMtHgbDDVw" role="3clF45" />
@@ -3044,6 +3147,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5OZ8iimB38f" role="jymVt" />
+    <node concept="2tJIrI" id="4nugiCVZsTc" role="jymVt" />
     <node concept="3HP615" id="1dOSBikoX3u" role="jymVt">
       <property role="TrG5h" value="DynamicInfo" />
       <node concept="3clFb_" id="1dOSBikoZZg" role="jymVt">
@@ -3054,6 +3158,17 @@
       </node>
       <node concept="3Tm1VV" id="1dOSBikoX3v" role="1B3o_S" />
     </node>
+    <node concept="3HP615" id="4nugiCVZyVA" role="jymVt">
+      <property role="TrG5h" value="DynamicAction" />
+      <node concept="3clFb_" id="4nugiCVZyVB" role="jymVt">
+        <property role="TrG5h" value="execAction" />
+        <node concept="17QB3L" id="4nugiCVZyVC" role="3clF45" />
+        <node concept="3Tm1VV" id="4nugiCVZyVD" role="1B3o_S" />
+        <node concept="3clFbS" id="4nugiCVZyVE" role="3clF47" />
+      </node>
+      <node concept="3Tm1VV" id="4nugiCVZyVF" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="4nugiCVZxcR" role="jymVt" />
     <node concept="2tJIrI" id="5OZ8iimB3kz" role="jymVt" />
     <node concept="3Tm1VV" id="4x14MABr2eq" role="1B3o_S" />
     <node concept="3uibUv" id="4x14MABr74T" role="EKbjA">
@@ -3306,6 +3421,12 @@
         <property role="TrG5h" value="status" />
         <node concept="10P_77" id="6V7pU2kaSMQ" role="1tU5fm" />
       </node>
+    </node>
+    <node concept="3clFb_" id="4nugiCVZDBc" role="jymVt">
+      <property role="TrG5h" value="setAutoDeployForwardToCurrentVersion" />
+      <node concept="3clFbS" id="4nugiCVZDBf" role="3clF47" />
+      <node concept="3Tm1VV" id="4nugiCVZDBg" role="1B3o_S" />
+      <node concept="17QB3L" id="4nugiCVZBGO" role="3clF45" />
     </node>
   </node>
   <node concept="312cEu" id="3CnNtH_0mBF">
@@ -4424,7 +4545,67 @@
       <node concept="17QB3L" id="3mOf56UDDF7" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="3mOf56UDSkO" role="jymVt" />
-    <node concept="2tJIrI" id="3mOf56UDSmR" role="jymVt" />
+    <node concept="3clFb_" id="4nugiCW0bZi" role="jymVt">
+      <property role="TrG5h" value="setToCurrentVersion" />
+      <node concept="3clFbS" id="4nugiCW0bZl" role="3clF47">
+        <node concept="3SKdUt" id="4nugiCWhg7D" role="3cqZAp">
+          <node concept="1PaTwC" id="4nugiCWhg7E" role="1aUNEU">
+            <node concept="3oM_SD" id="4nugiCWhg7F" role="1PaTwD">
+              <property role="3oM_SC" value="enabled" />
+            </node>
+            <node concept="3oM_SD" id="4nugiCWhg9u" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="4nugiCWhg9D" role="1PaTwD">
+              <property role="3oM_SC" value="changed" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4nugiCWhfEM" role="3cqZAp">
+          <node concept="37vLTI" id="4nugiCWhfSL" role="3clFbG">
+            <node concept="3clFbT" id="4nugiCWhfVg" role="37vLTx" />
+            <node concept="37vLTw" id="4nugiCWhfEK" role="37vLTJ">
+              <ref role="3cqZAo" node="3mOf56UEqJi" resolve="iAmOldVersion" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4nugiCW0cB2" role="3cqZAp">
+          <node concept="2YIFZM" id="4nugiCW0cB3" role="3clFbG">
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String)" resolve="setProperty" />
+            <node concept="37vLTw" id="4nugiCW0cB4" role="37wK5m">
+              <ref role="3cqZAo" node="3mOf56UDCTg" resolve="propKey" />
+            </node>
+            <node concept="37vLTw" id="4nugiCW0cB5" role="37wK5m">
+              <ref role="3cqZAo" node="3mOf56UDCTk" resolve="ownVersion" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4nugiCWhexR" role="3cqZAp">
+          <node concept="3cpWs3" id="4nugiCWhfdS" role="3clFbG">
+            <node concept="37vLTw" id="4nugiCWhfBj" role="3uHU7w">
+              <ref role="3cqZAo" node="3mOf56UDCTk" resolve="ownVersion" />
+            </node>
+            <node concept="3cpWs3" id="4nugiCWhf9Y" role="3uHU7B">
+              <node concept="3cpWs3" id="4nugiCWheFm" role="3uHU7B">
+                <node concept="Xl_RD" id="4nugiCWhexQ" role="3uHU7B">
+                  <property role="Xl_RC" value="set " />
+                </node>
+                <node concept="37vLTw" id="4nugiCWheHf" role="3uHU7w">
+                  <ref role="3cqZAo" node="3mOf56UDCTg" resolve="propKey" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="4nugiCWhfal" role="3uHU7w">
+                <property role="Xl_RC" value=" to " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4nugiCW0beO" role="1B3o_S" />
+      <node concept="17QB3L" id="4nugiCW0bKy" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="4nugiCW0ak_" role="jymVt" />
     <node concept="2YIFZL" id="3mOf56UDSTc" role="jymVt">
       <property role="TrG5h" value="main" />
       <node concept="37vLTG" id="3mOf56UDSTd" role="3clF46">
