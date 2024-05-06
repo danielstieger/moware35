@@ -128,6 +128,7 @@
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -477,7 +478,7 @@
         <node concept="10P_77" id="3wkdm3VYPHG" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="5_bDd1dPvn3" role="3clF45">
-        <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+        <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
       </node>
       <node concept="3Tm1VV" id="5_bDd1dPviS" role="1B3o_S" />
       <node concept="3clFbS" id="5_bDd1dPviT" role="3clF47" />
@@ -495,7 +496,7 @@
         <node concept="10P_77" id="1dzqM5xnYPl" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="5_bDd1dPvZb" role="3clF45">
-        <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+        <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
       </node>
       <node concept="3Tm1VV" id="5_bDd1dPvZc" role="1B3o_S" />
       <node concept="3clFbS" id="5_bDd1dPvZd" role="3clF47" />
@@ -1158,7 +1159,7 @@
       <node concept="37vLTG" id="1KgqQuBTUoW" role="3clF46">
         <property role="TrG5h" value="ui" />
         <node concept="3uibUv" id="1dzqM5xp0bc" role="1tU5fm">
-          <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+          <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
         </node>
       </node>
       <node concept="3cqZAl" id="1KgqQuBTUk4" role="3clF45" />
@@ -1170,7 +1171,7 @@
       <node concept="37vLTG" id="4vBE4eLRbt_" role="3clF46">
         <property role="TrG5h" value="ui" />
         <node concept="3uibUv" id="5YG5DD8RdIl" role="1tU5fm">
-          <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+          <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
         </node>
       </node>
       <node concept="3cqZAl" id="4vBE4eLRbtB" role="3clF45" />
@@ -1182,7 +1183,7 @@
       <node concept="37vLTG" id="1kxCqBRcJlF" role="3clF46">
         <property role="TrG5h" value="ui" />
         <node concept="3uibUv" id="1dzqM5xp0fF" role="1tU5fm">
-          <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+          <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
         </node>
       </node>
       <node concept="3cqZAl" id="1kxCqBRcJlH" role="3clF45" />
@@ -1428,7 +1429,7 @@
     </node>
   </node>
   <node concept="3HP615" id="5_bDd1d79MM">
-    <property role="TrG5h" value="IToolkit_CommandContainerUI" />
+    <property role="TrG5h" value="IToolkit_CommandContainerUi" />
     <node concept="2tJIrI" id="5_bDd1d86l7" role="jymVt" />
     <node concept="3clFb_" id="1KgqQuBS1uC" role="jymVt">
       <property role="TrG5h" value="setCommandContainer" />
@@ -1773,6 +1774,31 @@
     <node concept="3Tm1VV" id="17o2t3r_Hp5" role="1B3o_S" />
     <node concept="3uibUv" id="17o2t3r_Hq2" role="3HQHJm">
       <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+    </node>
+  </node>
+  <node concept="3HP615" id="6v008hbUhGo">
+    <property role="TrG5h" value="IToolkit_CommandContainerUiMDI" />
+    <node concept="2tJIrI" id="6v008hcyOIG" role="jymVt" />
+    <node concept="3Tm1VV" id="6v008hbUhGp" role="1B3o_S" />
+    <node concept="3uibUv" id="6v008hbUhHu" role="3HQHJm">
+      <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
+    </node>
+    <node concept="3UR2Jj" id="6v008hcyOJN" role="lGtFl">
+      <node concept="TZ5HA" id="6v008hcyOJO" role="TZ5H$">
+        <node concept="1dT_AC" id="6v008hcyOJP" role="1dT_Ay">
+          <property role="1dT_AB" value="- parallel depl.: close command, show msg dialog. session might be already destroyed." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6v008hcyOKn" role="TZ5H$">
+        <node concept="1dT_AC" id="6v008hcyOKo" role="1dT_Ay">
+          <property role="1dT_AB" value="- prompt window handling" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6v008hcyOKy" role="TZ5H$">
+        <node concept="1dT_AC" id="6v008hcyOKz" role="1dT_Ay">
+          <property role="1dT_AB" value="- dialog handling " />
+        </node>
+      </node>
     </node>
   </node>
 </model>
