@@ -128,7 +128,6 @@
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
-      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -1774,31 +1773,6 @@
     <node concept="3Tm1VV" id="17o2t3r_Hp5" role="1B3o_S" />
     <node concept="3uibUv" id="17o2t3r_Hq2" role="3HQHJm">
       <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
-    </node>
-  </node>
-  <node concept="3HP615" id="6v008hbUhGo">
-    <property role="TrG5h" value="IToolkit_CommandContainerUiSDI" />
-    <node concept="2tJIrI" id="6v008hcyOIG" role="jymVt" />
-    <node concept="3Tm1VV" id="6v008hbUhGp" role="1B3o_S" />
-    <node concept="3uibUv" id="6v008hbUhHu" role="3HQHJm">
-      <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
-    </node>
-    <node concept="3UR2Jj" id="6v008hcyOJN" role="lGtFl">
-      <node concept="TZ5HA" id="6v008hcyOJO" role="TZ5H$">
-        <node concept="1dT_AC" id="6v008hcyOJP" role="1dT_Ay">
-          <property role="1dT_AB" value="- parallel depl.: close command, show msg dialog. session might be already destroyed." />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="6v008hcyOKn" role="TZ5H$">
-        <node concept="1dT_AC" id="6v008hcyOKo" role="1dT_Ay">
-          <property role="1dT_AB" value="- prompt window handling" />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="6v008hcyOKy" role="TZ5H$">
-        <node concept="1dT_AC" id="6v008hcyOKz" role="1dT_Ay">
-          <property role="1dT_AB" value="- dialog handling " />
-        </node>
-      </node>
     </node>
   </node>
 </model>
