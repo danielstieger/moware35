@@ -1777,7 +1777,7 @@
     </node>
   </node>
   <node concept="3HP615" id="6v008hbUhGo">
-    <property role="TrG5h" value="IToolkit_CommandContainerUiMDI" />
+    <property role="TrG5h" value="IToolkit_CommandContainerUiSDI" />
     <node concept="2tJIrI" id="6v008hcyOIG" role="jymVt" />
     <node concept="3Tm1VV" id="6v008hbUhGp" role="1B3o_S" />
     <node concept="3uibUv" id="6v008hbUhHu" role="3HQHJm">
