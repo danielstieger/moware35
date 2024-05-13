@@ -146,6 +146,15 @@
         <child id="3189788309731917348" name="runtime" index="1E1XAP" />
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
+      <concept id="322010710375794190" name="jetbrains.mps.build.mps.structure.BuildMps_DevKit" flags="ng" index="3LEwk6">
+        <child id="322010710375832962" name="exports" index="3LEDUa" />
+      </concept>
+      <concept id="322010710375832938" name="jetbrains.mps.build.mps.structure.BuildMps_DevKitExportLanguage" flags="ng" index="3LEDTy">
+        <reference id="322010710375832947" name="language" index="3LEDTV" />
+      </concept>
+      <concept id="322010710375832954" name="jetbrains.mps.build.mps.structure.BuildMps_DevKitExportSolution" flags="ng" index="3LEDTM">
+        <reference id="322010710375832955" name="solution" index="3LEDTN" />
+      </concept>
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -176,7 +185,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2024.12 (imp)" />
+          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2024.13 (dk)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -2358,6 +2367,53 @@
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="3LEwk6" id="143EhQX8tUA" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.modellwerkstatt.MoWareWerkbank" />
+        <property role="3LESm3" value="b2950e54-da96-4c3b-868c-2b5e12af9605" />
+        <node concept="398BVA" id="143EhQX8u$C" role="3LF7KH">
+          <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+          <node concept="2Ry0Ak" id="143EhQX8uI1" role="iGT6I">
+            <property role="2Ry0Am" value="dataux" />
+            <node concept="2Ry0Ak" id="143EhQX8uQC" role="2Ry0An">
+              <property role="2Ry0Am" value="devkits" />
+              <node concept="2Ry0Ak" id="143EhQX8uZf" role="2Ry0An">
+                <property role="2Ry0Am" value="org.modellwerkstatt.MoWareWerkbank" />
+                <node concept="2Ry0Ak" id="143EhQX8vdb" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modellwerkstatt.MoWareWerkbank.devkit" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmN" role="3LEDUa">
+          <ref role="3LEDTV" node="1JLTjCmZp6M" resolve="org.modellwerkstatt.manmap" />
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmO" role="3LEDUa">
+          <ref role="3LEDTV" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmP" role="3LEDUa">
+          <ref role="3LEDTV" node="6HA5kZtPYG8" resolve="org.modellwerkstatt.dataux" />
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmQ" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmR" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmS" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZG" resolve="jetbrains.mps.baseLanguage.closures" />
+        </node>
+        <node concept="3LEDTM" id="143EhQX8vmT" role="3LEDUa">
+          <ref role="3LEDTN" node="3ZVr8i9E19j" resolve="org.modellwerkstatt.fx8forms" />
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmU" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
+        </node>
+        <node concept="3LEDTy" id="143EhQX8vmV" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
         </node>
       </node>
     </node>
