@@ -3426,7 +3426,7 @@
       <property role="TrG5h" value="appController" />
       <node concept="3Tm6S6" id="Y3fiVJRDr4" role="1B3o_S" />
       <node concept="3uibUv" id="Y3fiVJRV5r" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationController" />
+        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationMDI" />
       </node>
     </node>
     <node concept="312cEg" id="3sx4Hz35byI" role="jymVt">
@@ -3914,7 +3914,7 @@
                                                       <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                     </node>
                                                     <node concept="liA8E" id="3EJOQfNfNv1" role="2OqNvi">
-                                                      <ref role="37wK5l" to="1e0c:4FgSVMsqEn_" resolve="logFrmwrkProblem" />
+                                                      <ref role="37wK5l" to="1e0c:4nH4LOErIJJ" resolve="logFrmwrkProblem" />
                                                       <node concept="Xl_RD" id="4FgSVMtrupm" role="37wK5m">
                                                         <property role="Xl_RC" value="" />
                                                       </node>
@@ -3985,7 +3985,7 @@
                                                         <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                       </node>
                                                       <node concept="liA8E" id="6UkfGkBPEPt" role="2OqNvi">
-                                                        <ref role="37wK5l" to="1e0c:4FgSVMsqEn_" resolve="logFrmwrkProblem" />
+                                                        <ref role="37wK5l" to="1e0c:4nH4LOErIJJ" resolve="logFrmwrkProblem" />
                                                         <node concept="Xl_RD" id="6UkfGkBPXca" role="37wK5m" />
                                                         <node concept="Xl_RD" id="1OFcMn$WgJ_" role="37wK5m">
                                                           <property role="Xl_RC" value="" />
@@ -4175,7 +4175,7 @@
                                                   <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                 </node>
                                                 <node concept="liA8E" id="7vbJIwtwHnz" role="2OqNvi">
-                                                  <ref role="37wK5l" to="1e0c:4FgSVMsEmSV" resolve="logAppProblem" />
+                                                  <ref role="37wK5l" to="1e0c:4FgSVMsDhDQ" resolve="logAppProblem" />
                                                   <node concept="2OqwBi" id="7vbJIwtwP4n" role="37wK5m">
                                                     <node concept="3VsKOn" id="7vbJIwtwOKM" role="2Oq$k0">
                                                       <ref role="3VsUkX" node="6qxhjMM6dmo" resolve="FX8Application" />
@@ -4277,7 +4277,7 @@
                                                   <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                 </node>
                                                 <node concept="liA8E" id="29r3SXL14wY" role="2OqNvi">
-                                                  <ref role="37wK5l" to="1e0c:938$CrOsma" resolve="showBigInformationDialog" />
+                                                  <ref role="37wK5l" to="1e0c:7UzLC3zwhNX" resolve="showBigInformationDialog" />
                                                   <node concept="37vLTw" id="29r3SXL1JOv" role="37wK5m">
                                                     <ref role="3cqZAo" node="29r3SXL1rmP" resolve="msg" />
                                                   </node>
@@ -4286,7 +4286,7 @@
                                                       <node concept="1Y3b0j" id="29r3SXL14xd" role="YeSDq">
                                                         <property role="2bfB8j" value="true" />
                                                         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                                                        <ref role="1Y3XeK" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+                                                        <ref role="1Y3XeK" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
                                                         <node concept="3Tm1VV" id="29r3SXL14xe" role="1B3o_S" />
                                                         <node concept="3clFb_" id="29r3SXL14xf" role="jymVt">
                                                           <property role="1EzhhJ" value="false" />
@@ -4304,7 +4304,7 @@
                                                                   <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                                                                 </node>
                                                                 <node concept="liA8E" id="29r3SXL14xo" role="2OqNvi">
-                                                                  <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequestedEvent" />
+                                                                  <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequested" />
                                                                   <node concept="3clFbT" id="29r3SXL14xp" role="37wK5m">
                                                                     <property role="3clFbU" value="true" />
                                                                   </node>
@@ -4576,7 +4576,7 @@
           <node concept="37vLTI" id="20ohnkbzNcl" role="3clFbG">
             <node concept="2ShNRf" id="20ohnkbzOh3" role="37vLTx">
               <node concept="1pGfFk" id="20ohnkbzOh2" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="ApplicationController" />
+                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="ApplicationMDI" />
                 <node concept="37vLTw" id="20ohnkbzOip" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                 </node>
@@ -4845,7 +4845,7 @@
                               <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                             </node>
                             <node concept="liA8E" id="20ohnkb$LYk" role="2OqNvi">
-                              <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequestedEvent" />
+                              <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequested" />
                               <node concept="3clFbT" id="64PSf$EEjiJ" role="37wK5m">
                                 <property role="3clFbU" value="false" />
                               </node>
@@ -6040,7 +6040,7 @@
                     <node concept="YeOm9" id="7r26jiO5lqQ" role="2ShVmc">
                       <node concept="1Y3b0j" id="7r26jiO5lqT" role="YeSDq">
                         <property role="2bfB8j" value="true" />
-                        <ref role="1Y3XeK" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+                        <ref role="1Y3XeK" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
                         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                         <node concept="3Tm1VV" id="7r26jiO5lqU" role="1B3o_S" />
                         <node concept="3clFb_" id="7r26jiO5lqV" role="jymVt">
@@ -6114,7 +6114,7 @@
                     <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                   </node>
                   <node concept="liA8E" id="r$jHpF2qI3" role="2OqNvi">
-                    <ref role="37wK5l" to="1e0c:20ohnkbJa49" resolve="initializeApplication" />
+                    <ref role="37wK5l" to="1e0c:7UzLC3AMlrB" resolve="initializeApplication" />
                     <node concept="37vLTw" id="4FgSVMts27j" role="37wK5m">
                       <ref role="3cqZAo" node="4FgSVMtrEFK" resolve="systemName" />
                     </node>
@@ -7230,7 +7230,7 @@
       <node concept="37vLTG" id="vsIEjNCM73" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="2ppo89mgQkv" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="3zf0S8jSkli" role="3clF45" />
@@ -7314,7 +7314,7 @@
       <node concept="37vLTG" id="2jDJ2hCTex9" role="3clF46">
         <property role="TrG5h" value="callback" />
         <node concept="3uibUv" id="2jDJ2hCTexa" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="2jDJ2hCTexb" role="3clF45" />
@@ -7797,7 +7797,7 @@
                               <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
                             </node>
                             <node concept="liA8E" id="20ohnkbHLJe" role="2OqNvi">
-                              <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequestedEvent" />
+                              <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequested" />
                               <node concept="3clFbT" id="64PSf$EEjmy" role="37wK5m">
                                 <property role="3clFbU" value="false" />
                               </node>
@@ -8327,17 +8327,10 @@
                                       <node concept="3Tm1VV" id="2ppo89mcSEZ" role="1B3o_S" />
                                       <node concept="3cqZAl" id="2ppo89mcSF1" role="3clF45" />
                                       <node concept="3clFbS" id="2ppo89mcSF2" role="3clF47">
-                                        <node concept="3clFbF" id="2ppo89mcT3L" role="3cqZAp">
-                                          <node concept="2OqwBi" id="2ppo89mcT9a" role="3clFbG">
-                                            <node concept="37vLTw" id="2ppo89mcT3K" role="2Oq$k0">
-                                              <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
-                                            </node>
-                                            <node concept="liA8E" id="2ppo89mcTDa" role="2OqNvi">
-                                              <ref role="37wK5l" to="1e0c:1KgqQuBkLXF" resolve="lockInterface" />
-                                              <node concept="3clFbT" id="2ppo89mcTPP" role="37wK5m">
-                                                <property role="3clFbU" value="false" />
-                                              </node>
-                                            </node>
+                                        <node concept="3clFbF" id="7UzLC3A$LnU" role="3cqZAp">
+                                          <node concept="1rXfSq" id="7UzLC3A$LnS" role="3clFbG">
+                                            <ref role="37wK5l" node="1KgqQuBmyAm" resolve="lockInterface" />
+                                            <node concept="3clFbT" id="7UzLC3A$L_2" role="37wK5m" />
                                           </node>
                                         </node>
                                         <node concept="3clFbF" id="3GQ300Qy1Ku" role="3cqZAp">
@@ -8389,17 +8382,10 @@
                                         <node concept="3Tm1VV" id="938$CrVAKf" role="1B3o_S" />
                                         <node concept="3cqZAl" id="938$CrVAKh" role="3clF45" />
                                         <node concept="3clFbS" id="938$CrVAKi" role="3clF47">
-                                          <node concept="3clFbF" id="938$CrVFv4" role="3cqZAp">
-                                            <node concept="2OqwBi" id="938$CrVF$U" role="3clFbG">
-                                              <node concept="37vLTw" id="938$CrVFv2" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
-                                              </node>
-                                              <node concept="liA8E" id="938$CrVFWn" role="2OqNvi">
-                                                <ref role="37wK5l" to="1e0c:1KgqQuBkLXF" resolve="lockInterface" />
-                                                <node concept="3clFbT" id="938$CrVG1f" role="37wK5m">
-                                                  <property role="3clFbU" value="false" />
-                                                </node>
-                                              </node>
+                                          <node concept="3clFbF" id="7UzLC3A$SKM" role="3cqZAp">
+                                            <node concept="1rXfSq" id="7UzLC3A$SKK" role="3clFbG">
+                                              <ref role="37wK5l" node="1KgqQuBmyAm" resolve="lockInterface" />
+                                              <node concept="3clFbT" id="7UzLC3A$SY4" role="37wK5m" />
                                             </node>
                                           </node>
                                           <node concept="3clFbF" id="2o7h3aE0CRP" role="3cqZAp">
@@ -8507,14 +8493,12 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2ppo89mcQXI" role="3cqZAp">
-          <node concept="2OqwBi" id="2ppo89mcR3Y" role="3clFbG">
-            <node concept="37vLTw" id="2ppo89mcQXG" role="2Oq$k0">
-              <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
-            </node>
-            <node concept="liA8E" id="2ppo89mcRkM" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:1KgqQuBkLXF" resolve="lockInterface" />
-              <node concept="3clFbT" id="2ppo89mcRmL" role="37wK5m">
+        <node concept="3clFbF" id="7UzLC3A$CS5" role="3cqZAp">
+          <node concept="2OqwBi" id="7UzLC3A$Doh" role="3clFbG">
+            <node concept="Xjq3P" id="7UzLC3A$CS3" role="2Oq$k0" />
+            <node concept="liA8E" id="7UzLC3A$E0F" role="2OqNvi">
+              <ref role="37wK5l" node="1KgqQuBmyAm" resolve="lockInterface" />
+              <node concept="3clFbT" id="7UzLC3A$GQN" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
             </node>
@@ -17920,7 +17904,7 @@
       <property role="TrG5h" value="runner" />
       <node concept="3Tm6S6" id="7Mah_agJaBv" role="1B3o_S" />
       <node concept="3uibUv" id="7Mah_agJc73" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
       </node>
     </node>
     <node concept="312cEg" id="2QY_rtDkIST" role="jymVt">
@@ -18631,7 +18615,7 @@
       <node concept="37vLTG" id="vsIEjNMtBX" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="vsIEjNMupY" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="7Mah_agJhdy" role="3clF45" />
@@ -20946,7 +20930,7 @@
       <node concept="37vLTG" id="vsIEjNCSjH" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="2ppo89mgRdx" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="5_bDd1dpPqV" role="3clF45" />
@@ -21181,7 +21165,7 @@
       <node concept="37vLTG" id="2zMjYTDneag" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="2zMjYTDneah" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="2zMjYTDneai" role="3clF45" />
@@ -47041,7 +47025,7 @@
       <property role="TrG5h" value="runner" />
       <node concept="3Tm6S6" id="4YjQ5MK5YCR" role="1B3o_S" />
       <node concept="3uibUv" id="4YjQ5MK5YCS" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
       </node>
     </node>
     <node concept="312cEg" id="4YjQ5MK5YCT" role="jymVt">
@@ -48165,7 +48149,7 @@
       <node concept="37vLTG" id="4YjQ5MK5YU2" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="4YjQ5MK5YU3" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="4YjQ5MK5YU4" role="3clF45" />

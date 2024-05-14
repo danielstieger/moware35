@@ -345,7 +345,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
@@ -2156,7 +2159,7 @@
                 <node concept="YeOm9" id="4FiFGILozVY" role="2ShVmc">
                   <node concept="1Y3b0j" id="4FiFGILozW1" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+                    <ref role="1Y3XeK" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
                     <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="4FiFGILozW2" role="1B3o_S" />
                     <node concept="3clFb_" id="4FiFGILozW3" role="jymVt">
@@ -9716,6 +9719,10 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="okayAction" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zNGm3" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3Tmbuc" id="2wSq35xVhiy" role="1B3o_S" />
       <node concept="3uibUv" id="2wSq35xVhHW" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
@@ -9739,6 +9746,10 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="escAction" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zNJLR" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3Tmbuc" id="2wSq35xVihC" role="1B3o_S" />
       <node concept="3uibUv" id="2wSq35xVihD" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
@@ -9764,7 +9775,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="2wSq35xVzEQ" role="1B3o_S" />
       <node concept="3uibUv" id="r$jHpENlNc" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
       </node>
     </node>
     <node concept="312cEg" id="45e9mS9zNdc" role="jymVt">
@@ -11553,7 +11564,7 @@
       <node concept="37vLTG" id="r$jHpENkcv" role="3clF46">
         <property role="TrG5h" value="runer" />
         <node concept="3uibUv" id="r$jHpENl8B" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="5_bDd1dpPqV" role="3clF45" />
@@ -31346,7 +31357,7 @@
       <property role="TrG5h" value="cmdContainerOrAppCrtl" />
       <node concept="3Tm6S6" id="yc6MyEupCv" role="1B3o_S" />
       <node concept="3uibUv" id="2R4xDrDXA_h" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:4XXgpAAeZ45" resolve="IEventProcessor" />
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
     </node>
     <node concept="2tJIrI" id="yc6MyEupL8" role="jymVt" />
@@ -31583,7 +31594,7 @@
           </node>
           <node concept="2ZW3vV" id="2R4xDrDXCAp" role="3clFbw">
             <node concept="3uibUv" id="2R4xDrDXCNB" role="2ZW6by">
-              <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationController" />
+              <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationMDI" />
             </node>
             <node concept="37vLTw" id="2R4xDrDXCp8" role="2ZW6bz">
               <ref role="3cqZAo" node="yc6MyEupCu" resolve="cmdContainerOrAppCrtl" />
@@ -31597,7 +31608,7 @@
       <node concept="37vLTG" id="yc6MyEupRh" role="3clF46">
         <property role="TrG5h" value="starter" />
         <node concept="3uibUv" id="2R4xDrDXBxy" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:4XXgpAAeZ45" resolve="IEventProcessor" />
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
       <node concept="37vLTG" id="1yQJrOWBnZA" role="3clF46">
@@ -32078,7 +32089,7 @@
                       <node concept="1eOMI4" id="4M9afjaZtzh" role="2Oq$k0">
                         <node concept="10QFUN" id="4M9afjaZtzi" role="1eOMHV">
                           <node concept="3uibUv" id="4M9afjaZtBM" role="10QFUM">
-                            <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationController" />
+                            <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationMDI" />
                           </node>
                           <node concept="37vLTw" id="4M9afjaZtzk" role="10QFUP">
                             <ref role="3cqZAo" node="yc6MyEupCu" resolve="cmdContainerOrAppCrtl" />
@@ -32119,7 +32130,7 @@
                 </node>
                 <node concept="2ZW3vV" id="4M9afjaZtvi" role="3eO9$A">
                   <node concept="3uibUv" id="4M9afjaZtyq" role="2ZW6by">
-                    <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationController" />
+                    <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationMDI" />
                   </node>
                   <node concept="37vLTw" id="4M9afjaZtsb" role="2ZW6bz">
                     <ref role="3cqZAo" node="yc6MyEupCu" resolve="cmdContainerOrAppCrtl" />
@@ -32314,6 +32325,10 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="okayAction" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zNNTN" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3Tmbuc" id="3NyMOIyWSw8" role="1B3o_S" />
       <node concept="3uibUv" id="3NyMOIyWSw9" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
@@ -32337,6 +32352,10 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="enterAction" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zNSet" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3Tmbuc" id="5mKi2yskdrA" role="1B3o_S" />
       <node concept="3uibUv" id="5mKi2yskdrB" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
@@ -33944,6 +33963,14 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="tab_next" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zSQJK" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: null type is not a subtype of primitive type&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1215774901982,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2062135263152102064]&quot;;" />
+        <property role="huDt6" value="Error: null type is not a subtype of primitive type" />
+      </node>
+      <node concept="15s5l7" id="7UzLC3zNidD" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3uibUv" id="7ApkBIQWQKq" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
       </node>
@@ -33967,6 +33994,10 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="tab_prev" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zNiXC" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int[] is not a subtype of int&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2062135263152102064]&quot;;" />
+        <property role="huDt6" value="Error: type int[] is not a subtype of int" />
+      </node>
       <node concept="3uibUv" id="7ApkBIQWQKx" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
       </node>
@@ -33998,6 +34029,14 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="cur_down" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zSP_9" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: null type is not a subtype of primitive type&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1215774901982,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2062135263152102064]&quot;;" />
+        <property role="huDt6" value="Error: null type is not a subtype of primitive type" />
+      </node>
+      <node concept="15s5l7" id="7UzLC3zNk8e" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3uibUv" id="7ApkBIQWQKF" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
       </node>
@@ -34021,6 +34060,14 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="cur_up" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zSOVo" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: null type is not a subtype of primitive type&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1215774901982,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2062135263152102064]&quot;;" />
+        <property role="huDt6" value="Error: null type is not a subtype of primitive type" />
+      </node>
+      <node concept="15s5l7" id="7UzLC3zNkSd" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3uibUv" id="7ApkBIQWQKM" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
       </node>
@@ -34044,6 +34091,14 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="enter" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zSNKL" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: null type is not a subtype of primitive type&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1215774901982,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2062135263152102064]&quot;;" />
+        <property role="huDt6" value="Error: null type is not a subtype of primitive type" />
+      </node>
+      <node concept="15s5l7" id="7UzLC3zNm2N" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3uibUv" id="7ApkBIQWQKT" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
       </node>
@@ -35854,7 +35909,7 @@
       <property role="TrG5h" value="applicaitonCrtl" />
       <node concept="3Tm6S6" id="61_QXqSd29J" role="1B3o_S" />
       <node concept="3uibUv" id="61_QXqSd29K" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationController" />
+        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationMDI" />
       </node>
     </node>
     <node concept="312cEg" id="61_QXqSd29L" role="jymVt">
@@ -35991,7 +36046,7 @@
           <node concept="37vLTI" id="7b0XfCDImMB" role="3clFbG">
             <node concept="2ShNRf" id="61_QXqSd2cG" role="37vLTx">
               <node concept="1pGfFk" id="61_QXqSd2cH" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="ApplicationController" />
+                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="ApplicationMDI" />
                 <node concept="37vLTw" id="61_QXqSd2cI" role="37wK5m">
                   <ref role="3cqZAo" node="61_QXqSd29C" resolve="factory" />
                 </node>
@@ -36429,7 +36484,7 @@
               <ref role="3cqZAo" node="61_QXqSd29I" resolve="applicaitonCrtl" />
             </node>
             <node concept="liA8E" id="r$jHpEYDRC" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:20ohnkbJa49" resolve="initializeApplication" />
+              <ref role="37wK5l" to="1e0c:7UzLC3AMlrB" resolve="initializeApplication" />
               <node concept="37vLTw" id="1WX6wrQ8EUE" role="37wK5m">
                 <ref role="3cqZAo" node="1WX6wrQ8yUT" resolve="systemName" />
               </node>
@@ -37185,7 +37240,7 @@
                               <ref role="3cqZAo" node="61_QXqSd29I" resolve="applicaitonCrtl" />
                             </node>
                             <node concept="liA8E" id="61_QXqSd2o5" role="2OqNvi">
-                              <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequestedEvent" />
+                              <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequested" />
                               <node concept="3clFbT" id="r$jHpEN1y2" role="37wK5m">
                                 <property role="3clFbU" value="false" />
                               </node>
@@ -37393,17 +37448,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="61_QXqSd2na" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="lockInterface" />
-      <node concept="37vLTG" id="61_QXqSd2nb" role="3clF46">
-        <property role="TrG5h" value="val" />
-        <node concept="10P_77" id="61_QXqSd2nc" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="61_QXqSd2nd" role="3clF45" />
-      <node concept="3Tm1VV" id="61_QXqSd2ne" role="1B3o_S" />
-      <node concept="3clFbS" id="61_QXqSd2nf" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="r$jHpEN0ip" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="showDialog" />
@@ -37420,7 +37464,7 @@
       <node concept="37vLTG" id="r$jHpEN0iu" role="3clF46">
         <property role="TrG5h" value="callback" />
         <node concept="3uibUv" id="r$jHpEN0iv" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="r$jHpEN0iw" role="3clF45" />
@@ -37503,7 +37547,7 @@
       <node concept="37vLTG" id="2jDJ2hCTex9" role="3clF46">
         <property role="TrG5h" value="callback" />
         <node concept="3uibUv" id="2jDJ2hCTexa" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="2jDJ2hCTexb" role="3clF45" />
@@ -41534,6 +41578,10 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="okayAction" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zO01A" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3Tmbuc" id="3fsP_teP5wI" role="1B3o_S" />
       <node concept="3uibUv" id="3fsP_teP5wJ" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />
@@ -41557,6 +41605,10 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="escAction" />
       <property role="3TUv4t" value="false" />
+      <node concept="15s5l7" id="7UzLC3zO2lN" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+        <property role="huDt6" value="Error: Incompatible method signature" />
+      </node>
       <node concept="3Tmbuc" id="3fsP_teTZsu" role="1B3o_S" />
       <node concept="3uibUv" id="3fsP_teTZsv" role="1tU5fm">
         <ref role="3uigEE" to="tj3g:~Action" resolve="Action" />

@@ -245,7 +245,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
@@ -5629,6 +5632,10 @@
       <node concept="3clFbS" id="2rVYvNSb7IP" role="3clF47">
         <node concept="XkiVB" id="2rVYvNSb9hg" role="3cqZAp">
           <ref role="37wK5l" to="tj3g:~ShortcutListener.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutListener" />
+          <node concept="15s5l7" id="7UzLC3zNsJO" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int[] is not a subtype of int&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956587]&quot;;" />
+            <property role="huDt6" value="Error: type int[] is not a subtype of int" />
+          </node>
           <node concept="Xl_RD" id="2rVYvNSb9ir" role="37wK5m">
             <property role="Xl_RC" value="ENTER" />
           </node>
@@ -7045,6 +7052,10 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="tj3g:~ShortcutListener" resolve="ShortcutListener" />
                   <ref role="37wK5l" to="tj3g:~ShortcutListener.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutListener" />
+                  <node concept="15s5l7" id="7UzLC3zNx5f" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int[] is not a subtype of int&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5449655299304749835]&quot;;" />
+                    <property role="huDt6" value="Error: type int[] is not a subtype of int" />
+                  </node>
                   <node concept="3Tm1VV" id="U7p_lEfzAm" role="1B3o_S" />
                   <node concept="3clFb_" id="U7p_lEfzAn" role="jymVt">
                     <property role="1EzhhJ" value="false" />
@@ -11931,6 +11942,10 @@
       <node concept="3clFbS" id="74FDGeqdRTV" role="3clF47">
         <node concept="XkiVB" id="74FDGeqdRTW" role="3cqZAp">
           <ref role="37wK5l" to="tj3g:~ShortcutListener.&lt;init&gt;(java.lang.String,int...)" resolve="ShortcutListener" />
+          <node concept="15s5l7" id="7UzLC3zNtZw" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int[] is not a subtype of int&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956587]&quot;;" />
+            <property role="huDt6" value="Error: type int[] is not a subtype of int" />
+          </node>
           <node concept="3cpWs3" id="74FDGeqdVDL" role="37wK5m">
             <node concept="37vLTw" id="74FDGeqdVFL" role="3uHU7w">
               <ref role="3cqZAo" node="74FDGeqdVxn" resolve="keyCode" />

@@ -1024,26 +1024,6 @@
       <node concept="3clFbS" id="3sx4Hz330s$" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3sx4Hz330oO" role="jymVt" />
-    <node concept="3clFb_" id="1KgqQuBkXgZ" role="jymVt">
-      <property role="TrG5h" value="lockInterface" />
-      <node concept="37vLTG" id="1KgqQuBkXnd" role="3clF46">
-        <property role="TrG5h" value="val" />
-        <node concept="10P_77" id="1KgqQuBkXoe" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="1KgqQuBkXh1" role="3clF45" />
-      <node concept="3Tm1VV" id="1KgqQuBkXh2" role="1B3o_S" />
-      <node concept="3clFbS" id="1KgqQuBkXh3" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="701$ZaZrUMC" role="jymVt">
-      <property role="TrG5h" value="setCurrentTabModal" />
-      <node concept="37vLTG" id="701$ZaZrUMD" role="3clF46">
-        <property role="TrG5h" value="lock" />
-        <node concept="10P_77" id="701$ZaZrUME" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="701$ZaZrUMF" role="3clF45" />
-      <node concept="3Tm1VV" id="701$ZaZrUMG" role="1B3o_S" />
-      <node concept="3clFbS" id="701$ZaZrUMH" role="3clF47" />
-    </node>
     <node concept="2tJIrI" id="701$ZaZrUGG" role="jymVt" />
     <node concept="3clFb_" id="3y7CfyfpqEz" role="jymVt">
       <property role="TrG5h" value="setMenuAndInit" />
@@ -1697,7 +1677,7 @@
       <node concept="37vLTG" id="vsIEjNwO4g" role="3clF46">
         <property role="TrG5h" value="callback" />
         <node concept="3uibUv" id="2ppo89mgKzJ" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="20ohnkbA_XA" role="3clF45" />
@@ -1717,7 +1697,7 @@
       <node concept="37vLTG" id="2jDJ2hCtWGR" role="3clF46">
         <property role="TrG5h" value="callback" />
         <node concept="3uibUv" id="2jDJ2hCtWGS" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplication.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="2jDJ2hCtWGT" role="3clF45" />
@@ -1752,6 +1732,7 @@
         <node concept="17QB3L" id="20ohnkbIPdQ" role="1tU5fm" />
       </node>
     </node>
+    <node concept="2tJIrI" id="7UzLC3BpQ7J" role="jymVt" />
     <node concept="3clFb_" id="1KgqQuBTUk2" role="jymVt">
       <property role="TrG5h" value="addTab" />
       <node concept="37vLTG" id="1KgqQuBTUoW" role="3clF46">
@@ -1788,6 +1769,18 @@
       <node concept="3Tm1VV" id="1kxCqBRcJlI" role="1B3o_S" />
       <node concept="3clFbS" id="1kxCqBRcJlJ" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="7UzLC3BpQ56" role="jymVt" />
+    <node concept="3clFb_" id="701$ZaZrUMC" role="jymVt">
+      <property role="TrG5h" value="setCurrentTabModal" />
+      <node concept="37vLTG" id="701$ZaZrUMD" role="3clF46">
+        <property role="TrG5h" value="lock" />
+        <node concept="10P_77" id="701$ZaZrUME" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="701$ZaZrUMF" role="3clF45" />
+      <node concept="3Tm1VV" id="701$ZaZrUMG" role="1B3o_S" />
+      <node concept="3clFbS" id="701$ZaZrUMH" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="7UzLC3BpPUc" role="jymVt" />
   </node>
 </model>
 
