@@ -12220,6 +12220,19 @@
       <node concept="3Tm6S6" id="PWBLyAmZHS" role="1B3o_S" />
       <node concept="10P_77" id="PWBLyAmZOz" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="7YWowTUWauc" role="jymVt">
+      <property role="TrG5h" value="colorConv" />
+      <node concept="3Tm6S6" id="7YWowTUWaud" role="1B3o_S" />
+      <node concept="3uibUv" id="7YWowTUWaue" role="1tU5fm">
+        <ref role="3uigEE" to="zhcn:7YWowTUiUqE" resolve="ITableRowColor" />
+        <node concept="3uibUv" id="7YWowTUWauf" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7YWowTUWa6Q" role="jymVt" />
+    <node concept="2tJIrI" id="7YWowTUWa8_" role="jymVt" />
+    <node concept="2tJIrI" id="7YWowTUWamV" role="jymVt" />
     <node concept="3Tm1VV" id="3PmCowOXHc5" role="1B3o_S" />
     <node concept="3uibUv" id="1KgqQuBB3F6" role="EKbjA">
       <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
@@ -12245,6 +12258,45 @@
       <node concept="37vLTG" id="PWBLyAmZxM" role="3clF46">
         <property role="TrG5h" value="right" />
         <node concept="10P_77" id="PWBLyAmZxL" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFbW" id="7YWowTUWgw8" role="jymVt">
+      <node concept="3cqZAl" id="7YWowTUWgw9" role="3clF45" />
+      <node concept="3Tm1VV" id="7YWowTUWgwa" role="1B3o_S" />
+      <node concept="3clFbS" id="7YWowTUWgwb" role="3clF47">
+        <node concept="3clFbF" id="7YWowTUWgwc" role="3cqZAp">
+          <node concept="37vLTI" id="7YWowTUWgwd" role="3clFbG">
+            <node concept="37vLTw" id="7YWowTUWgwe" role="37vLTx">
+              <ref role="3cqZAo" node="7YWowTUWgwg" resolve="right" />
+            </node>
+            <node concept="37vLTw" id="7YWowTUWgwf" role="37vLTJ">
+              <ref role="3cqZAo" node="PWBLyAmZHR" resolve="rightAlign" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7YWowTUWgPY" role="3cqZAp">
+          <node concept="37vLTI" id="7YWowTUWh1T" role="3clFbG">
+            <node concept="37vLTw" id="7YWowTUWh7W" role="37vLTx">
+              <ref role="3cqZAo" node="7YWowTUWgDJ" resolve="conv" />
+            </node>
+            <node concept="37vLTw" id="7YWowTUWgPW" role="37vLTJ">
+              <ref role="3cqZAo" node="7YWowTUWauc" resolve="colorConv" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7YWowTUWgwg" role="3clF46">
+        <property role="TrG5h" value="right" />
+        <node concept="10P_77" id="7YWowTUWgwh" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7YWowTUWgDJ" role="3clF46">
+        <property role="TrG5h" value="conv" />
+        <node concept="3uibUv" id="7YWowTUWgIV" role="1tU5fm">
+          <ref role="3uigEE" to="zhcn:7YWowTUiUqE" resolve="ITableRowColor" />
+          <node concept="3uibUv" id="7YWowTUWgIW" role="11_B2D">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="3PmCowOXHcb" role="jymVt">
@@ -12451,6 +12503,29 @@
       <node concept="3Tm1VV" id="ao4XGT7yWL" role="1B3o_S" />
       <node concept="17QB3L" id="ao4XGT7yWM" role="3clF45" />
       <node concept="3clFbS" id="ao4XGT7yWN" role="3clF47">
+        <node concept="3clFbJ" id="7YWowTUWh9h" role="3cqZAp">
+          <node concept="3clFbS" id="7YWowTUWh9j" role="3clFbx">
+            <node concept="3cpWs6" id="7YWowTUWhsL" role="3cqZAp">
+              <node concept="2OqwBi" id="7YWowTUWhAT" role="3cqZAk">
+                <node concept="37vLTw" id="7YWowTUWhtA" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7YWowTUWauc" resolve="colorConv" />
+                </node>
+                <node concept="liA8E" id="7YWowTUWhUa" role="2OqNvi">
+                  <ref role="37wK5l" to="zhcn:7YWowTUiUsj" resolve="getColor" />
+                  <node concept="37vLTw" id="7YWowTUWiaK" role="37wK5m">
+                    <ref role="3cqZAo" node="ao4XGT7M6m" resolve="obj" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7YWowTUWhjj" role="3clFbw">
+            <node concept="10Nm6u" id="7YWowTUWhqH" role="3uHU7w" />
+            <node concept="37vLTw" id="7YWowTUWhbi" role="3uHU7B">
+              <ref role="3cqZAo" node="7YWowTUWauc" resolve="colorConv" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="ao4XGT7z1d" role="3cqZAp">
           <node concept="10Nm6u" id="ao4XGT7z1c" role="3clFbG" />
         </node>
@@ -12506,6 +12581,16 @@
         <ref role="3uigEE" to="25x5:~DecimalFormat" resolve="DecimalFormat" />
       </node>
     </node>
+    <node concept="312cEg" id="7YWowTUW647" role="jymVt">
+      <property role="TrG5h" value="colorConv" />
+      <node concept="3Tm6S6" id="7YWowTUW648" role="1B3o_S" />
+      <node concept="3uibUv" id="7YWowTUW6mq" role="1tU5fm">
+        <ref role="3uigEE" to="zhcn:7YWowTUiUqE" resolve="ITableRowColor" />
+        <node concept="3uibUv" id="7YWowTUW6mr" role="11_B2D">
+          <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6XWBEIFDReq" role="jymVt" />
     <node concept="3clFbW" id="3PmCowOXue0" role="jymVt">
       <node concept="37vLTG" id="3PmCowOXxct" role="3clF46">
@@ -12538,6 +12623,61 @@
             </node>
             <node concept="37vLTw" id="59qqFijfS1T" role="37vLTJ">
               <ref role="3cqZAo" node="77KX0PDrfTf" resolve="doNotDisplayZeroValue" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7YWowTUW3k5" role="jymVt">
+      <node concept="37vLTG" id="7YWowTUW3k6" role="3clF46">
+        <property role="TrG5h" value="formatter" />
+        <node concept="3uibUv" id="7YWowTUW3k7" role="1tU5fm">
+          <ref role="3uigEE" to="25x5:~DecimalFormat" resolve="DecimalFormat" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7YWowTUW3k8" role="3clF46">
+        <property role="TrG5h" value="noNullOption" />
+        <node concept="10P_77" id="7YWowTUW3k9" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7YWowTUW3Y8" role="3clF46">
+        <property role="TrG5h" value="colConv" />
+        <node concept="3uibUv" id="7YWowTUW446" role="1tU5fm">
+          <ref role="3uigEE" to="zhcn:7YWowTUiUqE" resolve="ITableRowColor" />
+          <node concept="3uibUv" id="7YWowTUW45q" role="11_B2D">
+            <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7YWowTUW3ka" role="3clF45" />
+      <node concept="3Tm1VV" id="7YWowTUW3kb" role="1B3o_S" />
+      <node concept="3clFbS" id="7YWowTUW3kc" role="3clF47">
+        <node concept="3clFbF" id="7YWowTUW3kd" role="3cqZAp">
+          <node concept="37vLTI" id="7YWowTUW3ke" role="3clFbG">
+            <node concept="37vLTw" id="7YWowTUW3kf" role="37vLTx">
+              <ref role="3cqZAo" node="7YWowTUW3k6" resolve="formatter" />
+            </node>
+            <node concept="37vLTw" id="7YWowTUW3kg" role="37vLTJ">
+              <ref role="3cqZAo" node="3PmCowOXvt5" resolve="privatFormatter" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7YWowTUW3kh" role="3cqZAp">
+          <node concept="37vLTI" id="7YWowTUW3ki" role="3clFbG">
+            <node concept="37vLTw" id="7YWowTUW3kj" role="37vLTx">
+              <ref role="3cqZAo" node="7YWowTUW3k8" resolve="noNullOption" />
+            </node>
+            <node concept="37vLTw" id="7YWowTUW3kk" role="37vLTJ">
+              <ref role="3cqZAo" node="77KX0PDrfTf" resolve="doNotDisplayZeroValue" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7YWowTUW6M3" role="3cqZAp">
+          <node concept="37vLTI" id="7YWowTUW6X$" role="3clFbG">
+            <node concept="37vLTw" id="7YWowTUW74x" role="37vLTx">
+              <ref role="3cqZAo" node="7YWowTUW3Y8" resolve="colConv" />
+            </node>
+            <node concept="37vLTw" id="7YWowTUW6M1" role="37vLTJ">
+              <ref role="3cqZAo" node="7YWowTUW647" resolve="colorConv" />
             </node>
           </node>
         </node>
@@ -12645,6 +12785,29 @@
       <node concept="3Tm1VV" id="ao4XGT7ziM" role="1B3o_S" />
       <node concept="17QB3L" id="ao4XGT7ziN" role="3clF45" />
       <node concept="3clFbS" id="ao4XGT7ziO" role="3clF47">
+        <node concept="3clFbJ" id="7YWowTUW76H" role="3cqZAp">
+          <node concept="3clFbS" id="7YWowTUW76J" role="3clFbx">
+            <node concept="3cpWs6" id="7YWowTUW7t9" role="3cqZAp">
+              <node concept="2OqwBi" id="7YWowTUW7PQ" role="3cqZAk">
+                <node concept="37vLTw" id="7YWowTUW7u4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7YWowTUW647" resolve="colorConv" />
+                </node>
+                <node concept="liA8E" id="7YWowTUW8uG" role="2OqNvi">
+                  <ref role="37wK5l" to="zhcn:7YWowTUiUsj" resolve="getColor" />
+                  <node concept="37vLTw" id="7YWowTUW8OM" role="37wK5m">
+                    <ref role="3cqZAo" node="ao4XGT7Mnd" resolve="obj" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7YWowTUW7lz" role="3clFbw">
+            <node concept="10Nm6u" id="7YWowTUW7qY" role="3uHU7w" />
+            <node concept="37vLTw" id="7YWowTUW77G" role="3uHU7B">
+              <ref role="3cqZAo" node="7YWowTUW647" resolve="colorConv" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="ao4XGT7zuL" role="3cqZAp">
           <node concept="10Nm6u" id="ao4XGT7zuK" role="3clFbG" />
         </node>

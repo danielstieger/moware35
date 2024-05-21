@@ -2192,5 +2192,24 @@
       <property role="TrG5h" value="T" />
     </node>
   </node>
+  <node concept="3HP615" id="7YWowTUiUqE">
+    <property role="TrG5h" value="ITableRowColor" />
+    <node concept="3clFb_" id="7YWowTUiUsj" role="jymVt">
+      <property role="TrG5h" value="getColor" />
+      <node concept="37vLTG" id="7YWowTUiUtm" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="16syzq" id="7YWowTUiUtJ" role="1tU5fm">
+          <ref role="16sUi3" node="7YWowTUiUrR" resolve="Value" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7YWowTUiUuw" role="3clF45" />
+      <node concept="3Tm1VV" id="7YWowTUiUsm" role="1B3o_S" />
+      <node concept="3clFbS" id="7YWowTUiUsn" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="7YWowTUiUqF" role="1B3o_S" />
+    <node concept="16euLQ" id="7YWowTUiUrR" role="16eVyc">
+      <property role="TrG5h" value="Value" />
+    </node>
+  </node>
 </model>
 

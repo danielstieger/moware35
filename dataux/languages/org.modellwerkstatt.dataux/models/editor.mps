@@ -4241,5 +4241,18 @@
       <node concept="l2Vlx" id="5JI$rOMBhuD" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="7YWowTUj4qk">
+    <property role="3GE5qa" value="delegates.options" />
+    <ref role="1XX52x" to="1btx:7YWowTUj4qa" resolve="DynColorDOption" />
+    <node concept="3EZMnI" id="7YWowTUj4qm" role="2wV5jI">
+      <node concept="PMmxH" id="7YWowTUj4qn" role="3EZMnx">
+        <ref role="PMmxG" node="pQ21WN8wdN" resolve="IDOptionAlias" />
+      </node>
+      <node concept="3F1sOY" id="7YWowTUj4qG" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:7YWowTUj4qy" resolve="func" />
+      </node>
+      <node concept="l2Vlx" id="7YWowTUj4qr" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

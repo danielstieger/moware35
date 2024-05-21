@@ -36,6 +36,7 @@
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="v61r" ref="r:40343a23-b83c-48e4-804f-f24d0cac9fd5(org.modellwerkstatt.objectflow.gen.entity@generator)" />
     <import index="nzoi" ref="r:ad1b6f40-df5e-4550-9fe5-c68f480ac1fd(org.modellwerkstatt.objectflow.gen.main@generator)" />
+    <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
@@ -2201,6 +2202,118 @@
                           <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                           <node concept="Xl_RD" id="PWBLyAmRt9" role="37wK5m">
                             <property role="Xl_RC" value="This can not happen." />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2ShNRf" id="7YWowTUVxdN" role="1EOqxR">
+              <node concept="YeOm9" id="7YWowTUVA$J" role="2ShVmc">
+                <node concept="1Y3b0j" id="7YWowTUVA$M" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="1Y3XeK" to="zhcn:7YWowTUiUqE" resolve="ITableRowColor" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <node concept="3Tm1VV" id="7YWowTUVA$N" role="1B3o_S" />
+                  <node concept="3clFb_" id="7YWowTUVA$T" role="jymVt">
+                    <property role="TrG5h" value="getColor" />
+                    <node concept="37vLTG" id="7YWowTUVA$U" role="3clF46">
+                      <property role="TrG5h" value="val" />
+                      <node concept="3uibUv" id="7YWowTUWvMO" role="1tU5fm">
+                        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+                        <node concept="1W57fq" id="7YWowTUWvMP" role="lGtFl">
+                          <node concept="3IZrLx" id="7YWowTUWvMQ" role="3IZSJc">
+                            <node concept="3clFbS" id="7YWowTUWvMR" role="2VODD2">
+                              <node concept="3clFbF" id="7YWowTUWvMS" role="3cqZAp">
+                                <node concept="2OqwBi" id="7YWowTUWvMT" role="3clFbG">
+                                  <node concept="30H73N" id="7YWowTUWvMU" role="2Oq$k0" />
+                                  <node concept="1mIQ4w" id="7YWowTUWvMV" role="2OqNvi">
+                                    <node concept="chp4Y" id="7YWowTUWvMW" role="cj9EA">
+                                      <ref role="cht4Q" to="1btx:1h$q6rwn4fL" resolve="BigDecimalDelegate" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="gft3U" id="7YWowTUWvMX" role="UU_$l">
+                            <node concept="3uibUv" id="7YWowTUWvMY" role="gfFT$">
+                              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="17QB3L" id="7YWowTUVA$W" role="3clF45" />
+                    <node concept="3Tm1VV" id="7YWowTUVA$X" role="1B3o_S" />
+                    <node concept="3clFbS" id="7YWowTUVA$Z" role="3clF47">
+                      <node concept="29HgVG" id="7YWowTUVNss" role="lGtFl">
+                        <node concept="3NFfHV" id="7YWowTUVNsU" role="3NFExx">
+                          <node concept="3clFbS" id="7YWowTUVNsV" role="2VODD2">
+                            <node concept="3clFbF" id="7YWowTUVNvT" role="3cqZAp">
+                              <node concept="2OqwBi" id="7YWowTUVOpo" role="3clFbG">
+                                <node concept="2OqwBi" id="7YWowTUVO5T" role="2Oq$k0">
+                                  <node concept="2OqwBi" id="7YWowTUVNET" role="2Oq$k0">
+                                    <node concept="30H73N" id="7YWowTUVNvS" role="2Oq$k0" />
+                                    <node concept="2qgKlT" id="7YWowTUVNWj" role="2OqNvi">
+                                      <ref role="37wK5l" to="5y3p:7YWowTUVDMI" resolve="getDynColorDOption" />
+                                    </node>
+                                  </node>
+                                  <node concept="3TrEf2" id="7YWowTUVOko" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="1btx:7YWowTUj4qy" resolve="func" />
+                                  </node>
+                                </node>
+                                <node concept="3TrEf2" id="7YWowTUVOs0" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="tpee:gyVODHa" resolve="body" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2AHcQZ" id="7YWowTUVA_1" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                    </node>
+                  </node>
+                  <node concept="3uibUv" id="7YWowTUWpaR" role="2Ghqu4">
+                    <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+                    <node concept="1W57fq" id="7YWowTUWrKE" role="lGtFl">
+                      <node concept="3IZrLx" id="7YWowTUWrKF" role="3IZSJc">
+                        <node concept="3clFbS" id="7YWowTUWrKG" role="2VODD2">
+                          <node concept="3clFbF" id="7YWowTUWrS7" role="3cqZAp">
+                            <node concept="2OqwBi" id="7YWowTUWsd9" role="3clFbG">
+                              <node concept="30H73N" id="7YWowTUWrS6" role="2Oq$k0" />
+                              <node concept="1mIQ4w" id="7YWowTUWs_a" role="2OqNvi">
+                                <node concept="chp4Y" id="7YWowTUWt89" role="cj9EA">
+                                  <ref role="cht4Q" to="1btx:1h$q6rwn4fL" resolve="BigDecimalDelegate" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="gft3U" id="7YWowTUWuyZ" role="UU_$l">
+                        <node concept="3uibUv" id="7YWowTUWuJs" role="gfFT$">
+                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1W57fq" id="7YWowTUVBF5" role="lGtFl">
+                <node concept="3IZrLx" id="7YWowTUVBF6" role="3IZSJc">
+                  <node concept="3clFbS" id="7YWowTUVBF7" role="2VODD2">
+                    <node concept="3clFbF" id="7YWowTUVBPh" role="3cqZAp">
+                      <node concept="3y3z36" id="7YWowTUVHn$" role="3clFbG">
+                        <node concept="10Nm6u" id="7YWowTUVHxj" role="3uHU7w" />
+                        <node concept="2OqwBi" id="7YWowTUVC3g" role="3uHU7B">
+                          <node concept="30H73N" id="7YWowTUVBPg" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="7YWowTUVCof" role="2OqNvi">
+                            <ref role="37wK5l" to="5y3p:7YWowTUVDMI" resolve="getDynColorDOption" />
                           </node>
                         </node>
                       </node>

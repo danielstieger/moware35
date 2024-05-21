@@ -8186,5 +8186,70 @@
       <ref role="1YaFvo" to="1btx:3ouNayfF_eh" resolve="DateTimeDelegate" />
     </node>
   </node>
+  <node concept="1YbPZF" id="7YWowTUxDIE">
+    <property role="TrG5h" value="typeof_DynColorConceptFunctionParameter" />
+    <property role="3GE5qa" value="delegates.options" />
+    <node concept="3clFbS" id="7YWowTUxDIF" role="18ibNy">
+      <node concept="3clFbJ" id="7YWowTUWFIm" role="3cqZAp">
+        <node concept="3clFbS" id="7YWowTUWFIo" role="3clFbx">
+          <node concept="1Z5TYs" id="7YWowTUxDRm" role="3cqZAp">
+            <node concept="mw_s8" id="7YWowTUxDRC" role="1ZfhKB">
+              <node concept="2c44tf" id="7YWowTV3DlS" role="mwGJk">
+                <node concept="3uibUv" id="7YWowTV3DmU" role="2c44tc">
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="7YWowTUxDRp" role="1ZfhK$">
+              <node concept="1Z2H0r" id="7YWowTUxDIL" role="mwGJk">
+                <node concept="1YBJjd" id="7YWowTUxDK_" role="1Z2MuG">
+                  <ref role="1YBMHb" node="7YWowTUxDIH" resolve="dynColorConceptFunctionParameter" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7YWowTUWGot" role="3clFbw">
+          <node concept="2OqwBi" id="7YWowTUWFUd" role="2Oq$k0">
+            <node concept="1YBJjd" id="7YWowTUWFIY" role="2Oq$k0">
+              <ref role="1YBMHb" node="7YWowTUxDIH" resolve="dynColorConceptFunctionParameter" />
+            </node>
+            <node concept="2Xjw5R" id="7YWowTUWG7g" role="2OqNvi">
+              <node concept="1xMEDy" id="7YWowTUWG7i" role="1xVPHs">
+                <node concept="chp4Y" id="7YWowTUWG99" role="ri$Ld">
+                  <ref role="cht4Q" to="1btx:1h$q6rwn4fL" resolve="BigDecimalDelegate" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3x8VRR" id="7YWowTUWGFX" role="2OqNvi" />
+        </node>
+        <node concept="9aQIb" id="7YWowTUWH0B" role="9aQIa">
+          <node concept="3clFbS" id="7YWowTUWH0C" role="9aQI4">
+            <node concept="1Z5TYs" id="7YWowTUWH5U" role="3cqZAp">
+              <node concept="mw_s8" id="7YWowTUWH5V" role="1ZfhKB">
+                <node concept="2c44tf" id="7YWowTV3Dnq" role="mwGJk">
+                  <node concept="3uibUv" id="7YWowTV3Dnr" role="2c44tc">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                </node>
+              </node>
+              <node concept="mw_s8" id="7YWowTUWH5Y" role="1ZfhK$">
+                <node concept="1Z2H0r" id="7YWowTUWH5Z" role="mwGJk">
+                  <node concept="1YBJjd" id="7YWowTUWH60" role="1Z2MuG">
+                    <ref role="1YBMHb" node="7YWowTUxDIH" resolve="dynColorConceptFunctionParameter" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7YWowTUxDIH" role="1YuTPh">
+      <property role="TrG5h" value="dynColorConceptFunctionParameter" />
+      <ref role="1YaFvo" to="1btx:7YWowTUxDAD" resolve="DynColorConceptFunctionParameter" />
+    </node>
+  </node>
 </model>
 

@@ -4665,6 +4665,54 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="7YWowTUVDMI" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getDynColorDOption" />
+      <node concept="3Tm1VV" id="7YWowTUVDMJ" role="1B3o_S" />
+      <node concept="3Tqbb2" id="7YWowTUVDMK" role="3clF45">
+        <ref role="ehGHo" to="1btx:7YWowTUj4qa" resolve="DynColorDOption" />
+      </node>
+      <node concept="3clFbS" id="7YWowTUVDML" role="3clF47">
+        <node concept="3clFbF" id="7YWowTUVDMM" role="3cqZAp">
+          <node concept="1PxgMI" id="7YWowTUVDMN" role="3clFbG">
+            <node concept="2OqwBi" id="7YWowTUVDMO" role="1m5AlR">
+              <node concept="2OqwBi" id="7YWowTUVDMP" role="2Oq$k0">
+                <node concept="13iPFW" id="7YWowTUVDMQ" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7YWowTUVDMR" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:pQ21WN5qoe" resolve="option" />
+                </node>
+              </node>
+              <node concept="1z4cxt" id="7YWowTUVDMS" role="2OqNvi">
+                <node concept="1bVj0M" id="7YWowTUVDMT" role="23t8la">
+                  <node concept="3clFbS" id="7YWowTUVDMU" role="1bW5cS">
+                    <node concept="3clFbF" id="7YWowTUVDMV" role="3cqZAp">
+                      <node concept="2OqwBi" id="7YWowTUVDMW" role="3clFbG">
+                        <node concept="37vLTw" id="7YWowTUVDMX" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7YWowTUVDN0" resolve="it" />
+                        </node>
+                        <node concept="1mIQ4w" id="7YWowTUVDMY" role="2OqNvi">
+                          <node concept="chp4Y" id="7YWowTUVDMZ" role="cj9EA">
+                            <ref role="cht4Q" to="1btx:7YWowTUj4qa" resolve="DynColorDOption" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="7YWowTUVDN0" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="7YWowTUVDN1" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="chp4Y" id="7YWowTUVDN2" role="3oSUPX">
+              <ref role="cht4Q" to="1btx:7YWowTUj4qa" resolve="DynColorDOption" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="pQ21WNlmty" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -7900,6 +7948,54 @@
     </node>
     <node concept="13hLZK" id="3qLkZ_RjyCN" role="13h7CW">
       <node concept="3clFbS" id="3qLkZ_RjyCO" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7YWowTUOmRf">
+    <property role="3GE5qa" value="delegates.options" />
+    <ref role="13h7C2" to="1btx:7YWowTUxDAC" resolve="DynColorConceptFunction" />
+    <node concept="13hLZK" id="7YWowTUOmRg" role="13h7CW">
+      <node concept="3clFbS" id="7YWowTUOmRh" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7YWowTUOmRq" role="13h7CS">
+      <property role="TrG5h" value="getParameterConcepts" />
+      <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
+      <node concept="3Tm1VV" id="7YWowTUOmRy" role="1B3o_S" />
+      <node concept="3clFbS" id="7YWowTUOmRz" role="3clF47">
+        <node concept="3cpWs6" id="7YWowTUOq1p" role="3cqZAp">
+          <node concept="2ShNRf" id="7YWowTUOxOr" role="3cqZAk">
+            <node concept="Tc6Ow" id="7YWowTUOq1H" role="2ShVmc">
+              <node concept="3bZ5Sz" id="7YWowTUOq1I" role="HW$YZ">
+                <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="35c_gC" id="7YWowTUOxU2" role="HW$Y0">
+                <ref role="35c_gD" to="1btx:7YWowTUxDAD" resolve="DynColorConceptFunctionParameter" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="7YWowTUOmR$" role="3clF45">
+        <node concept="3bZ5Sz" id="7YWowTUOmR_" role="_ZDj9">
+          <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7YWowTUOy0F" role="13h7CS">
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="7YWowTUOy0J" role="1B3o_S" />
+      <node concept="3clFbS" id="7YWowTUOy0L" role="3clF47">
+        <node concept="3cpWs6" id="7YWowTUOyak" role="3cqZAp">
+          <node concept="2ShNRf" id="7YWowTUOyaD" role="3cqZAk">
+            <node concept="3zrR0B" id="7YWowTUOykp" role="2ShVmc">
+              <node concept="3Tqbb2" id="7YWowTUOykr" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:hP7QB7G" resolve="StringType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7YWowTUOy0M" role="3clF45" />
     </node>
   </node>
 </model>

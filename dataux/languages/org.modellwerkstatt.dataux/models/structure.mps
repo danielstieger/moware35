@@ -1728,5 +1728,40 @@
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7YWowTUj4qa">
+    <property role="EcuMT" value="9204339552759334538" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="DynColorDOption" />
+    <property role="34LRSv" value="COLOR" />
+    <property role="R4oN_" value="dynamic color for item" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7YWowTUj4qy" role="1TKVEi">
+      <property role="IQ2ns" value="9204339552759334562" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="func" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7YWowTUxDAC" resolve="DynColorConceptFunction" />
+    </node>
+    <node concept="PrWs8" id="7YWowTUj4qb" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+    <node concept="1QGGSu" id="7YWowTUVmo5" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7YWowTUxDAC">
+    <property role="EcuMT" value="9204339552763156904" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="DynColorConceptFunction" />
+    <property role="34LRSv" value="dyn color concept function" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="7YWowTUxDAD">
+    <property role="EcuMT" value="9204339552763156905" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="DynColorConceptFunctionParameter" />
+    <property role="34LRSv" value="val" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 
