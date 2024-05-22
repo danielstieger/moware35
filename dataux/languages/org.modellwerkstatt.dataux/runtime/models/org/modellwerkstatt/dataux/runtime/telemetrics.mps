@@ -799,7 +799,7 @@
       <node concept="37vLTG" id="1EBV9L$_BFI" role="3clF46">
         <property role="TrG5h" value="clientTelemetrics" />
         <node concept="3uibUv" id="4n24ZlExP$M" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:SQhsWRUr6_" resolve="AppReporter" />
+          <ref role="3uigEE" to="1e0c:SQhsWRUr6_" resolve="ApplicationReporter" />
         </node>
       </node>
       <node concept="3cqZAl" id="1EBV9L$_BFK" role="3clF45" />
@@ -1043,7 +1043,7 @@
       <node concept="37vLTG" id="1EBV9L$_AM6" role="3clF46">
         <property role="TrG5h" value="clientTelemetrics" />
         <node concept="3uibUv" id="4n24ZlExPIu" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:SQhsWRUr6_" resolve="AppReporter" />
+          <ref role="3uigEE" to="1e0c:SQhsWRUr6_" resolve="ApplicationReporter" />
         </node>
       </node>
       <node concept="3cqZAl" id="1EBV9L$_AM8" role="3clF45" />
@@ -4240,75 +4240,80 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="PLRjnDAEiJ" role="3cqZAp" />
                 </node>
-              </node>
-              <node concept="3SKdUt" id="3mOf56UE4_w" role="3cqZAp">
-                <node concept="1PaTwC" id="3mOf56UE4_x" role="1aUNEU">
-                  <node concept="3oM_SD" id="3mOf56UE4_y" role="1PaTwD">
-                    <property role="3oM_SC" value="strange," />
-                  </node>
-                  <node concept="3oM_SD" id="3mOf56UE4B3" role="1PaTwD">
-                    <property role="3oM_SC" value="a" />
-                  </node>
-                  <node concept="3oM_SD" id="3mOf56UE4B6" role="1PaTwD">
-                    <property role="3oM_SC" value="newer" />
-                  </node>
-                  <node concept="3oM_SD" id="3mOf56UE4Bq" role="1PaTwD">
-                    <property role="3oM_SC" value="version" />
-                  </node>
-                  <node concept="3oM_SD" id="3mOf56UE4Bv" role="1PaTwD">
-                    <property role="3oM_SC" value="is" />
-                  </node>
-                  <node concept="3oM_SD" id="3mOf56UE4B_" role="1PaTwD">
-                    <property role="3oM_SC" value="deployed?" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="3mOf56UE4EN" role="3cqZAp">
-                <node concept="2YIFZM" id="3mOf56UEebE" role="3clFbG">
-                  <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
-                  <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
-                  <node concept="3VsKOn" id="3mOf56UEeCj" role="37wK5m">
-                    <ref role="3VsUkX" node="3mOf56UDCQu" resolve="ParDeployAutoForwarder" />
-                  </node>
-                  <node concept="Rm8GO" id="3mOf56UEm1e" role="37wK5m">
-                    <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
-                    <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
-                  </node>
-                  <node concept="3cpWs3" id="3mOf56UEpdW" role="37wK5m">
-                    <node concept="Xl_RD" id="3mOf56UEpl4" role="3uHU7w">
-                      <property role="Xl_RC" value=" is a higher version?" />
-                    </node>
-                    <node concept="3cpWs3" id="3mOf56UEp2F" role="3uHU7B">
-                      <node concept="3cpWs3" id="3mOf56UEoSV" role="3uHU7B">
-                        <node concept="3cpWs3" id="3mOf56UEo$i" role="3uHU7B">
-                          <node concept="3cpWs3" id="3mOf56UEouc" role="3uHU7B">
-                            <node concept="3cpWs3" id="3mOf56UEo9C" role="3uHU7B">
-                              <node concept="Xl_RD" id="3mOf56UEm8_" role="3uHU7B">
-                                <property role="Xl_RC" value="strange, probably an error: deployed " />
-                              </node>
-                              <node concept="37vLTw" id="3mOf56UEom2" role="3uHU7w">
-                                <ref role="3cqZAo" node="3mOf56UDCTg" resolve="propKey" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="3mOf56UEouA" role="3uHU7w">
-                              <property role="Xl_RC" value=" with " />
-                            </node>
-                          </node>
-                          <node concept="37vLTw" id="3mOf56UEoBq" role="3uHU7w">
-                            <ref role="3cqZAo" node="3mOf56UDCTk" resolve="ownVersion" />
-                          </node>
+                <node concept="9aQIb" id="PLRjnDADtA" role="9aQIa">
+                  <node concept="3clFbS" id="PLRjnDADtB" role="9aQI4">
+                    <node concept="3SKdUt" id="3mOf56UE4_w" role="3cqZAp">
+                      <node concept="1PaTwC" id="3mOf56UE4_x" role="1aUNEU">
+                        <node concept="3oM_SD" id="3mOf56UE4_y" role="1PaTwD">
+                          <property role="3oM_SC" value="strange," />
                         </node>
-                        <node concept="Xl_RD" id="3mOf56UEoWd" role="3uHU7w">
-                          <property role="Xl_RC" value=" but " />
+                        <node concept="3oM_SD" id="3mOf56UE4B3" role="1PaTwD">
+                          <property role="3oM_SC" value="a" />
+                        </node>
+                        <node concept="3oM_SD" id="3mOf56UE4B6" role="1PaTwD">
+                          <property role="3oM_SC" value="newer" />
+                        </node>
+                        <node concept="3oM_SD" id="3mOf56UE4Bq" role="1PaTwD">
+                          <property role="3oM_SC" value="version" />
+                        </node>
+                        <node concept="3oM_SD" id="3mOf56UE4Bv" role="1PaTwD">
+                          <property role="3oM_SC" value="is" />
+                        </node>
+                        <node concept="3oM_SD" id="3mOf56UE4B_" role="1PaTwD">
+                          <property role="3oM_SC" value="deployed?" />
                         </node>
                       </node>
-                      <node concept="37vLTw" id="3mOf56UEp6m" role="3uHU7w">
-                        <ref role="3cqZAo" node="3mOf56UDCTG" resolve="existing" />
+                    </node>
+                    <node concept="3clFbF" id="3mOf56UE4EN" role="3cqZAp">
+                      <node concept="2YIFZM" id="3mOf56UEebE" role="3clFbG">
+                        <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                        <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                        <node concept="3VsKOn" id="3mOf56UEeCj" role="37wK5m">
+                          <ref role="3VsUkX" node="3mOf56UDCQu" resolve="ParDeployAutoForwarder" />
+                        </node>
+                        <node concept="Rm8GO" id="3mOf56UEm1e" role="37wK5m">
+                          <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
+                          <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                        </node>
+                        <node concept="3cpWs3" id="3mOf56UEpdW" role="37wK5m">
+                          <node concept="Xl_RD" id="3mOf56UEpl4" role="3uHU7w">
+                            <property role="Xl_RC" value=" is a higher version?" />
+                          </node>
+                          <node concept="3cpWs3" id="3mOf56UEp2F" role="3uHU7B">
+                            <node concept="3cpWs3" id="3mOf56UEoSV" role="3uHU7B">
+                              <node concept="3cpWs3" id="3mOf56UEo$i" role="3uHU7B">
+                                <node concept="3cpWs3" id="3mOf56UEouc" role="3uHU7B">
+                                  <node concept="3cpWs3" id="3mOf56UEo9C" role="3uHU7B">
+                                    <node concept="Xl_RD" id="3mOf56UEm8_" role="3uHU7B">
+                                      <property role="Xl_RC" value="strange, probably an error: deployed " />
+                                    </node>
+                                    <node concept="37vLTw" id="3mOf56UEom2" role="3uHU7w">
+                                      <ref role="3cqZAo" node="3mOf56UDCTg" resolve="propKey" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="3mOf56UEouA" role="3uHU7w">
+                                    <property role="Xl_RC" value=" with " />
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="3mOf56UEoBq" role="3uHU7w">
+                                  <ref role="3cqZAo" node="3mOf56UDCTk" resolve="ownVersion" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="3mOf56UEoWd" role="3uHU7w">
+                                <property role="Xl_RC" value=" but " />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="3mOf56UEp6m" role="3uHU7w">
+                              <ref role="3cqZAo" node="3mOf56UDCTG" resolve="existing" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="10Nm6u" id="3mOf56UEmqC" role="37wK5m" />
                       </node>
                     </node>
                   </node>
-                  <node concept="10Nm6u" id="3mOf56UEmqC" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -4654,12 +4659,12 @@
               <node concept="3cpWs3" id="3mOf56UDTvb" role="37wK5m">
                 <node concept="2OqwBi" id="3mOf56UDTUF" role="3uHU7w">
                   <node concept="Xl_RD" id="3mOf56UDTyQ" role="2Oq$k0">
-                    <property role="Xl_RC" value="1.0.0" />
+                    <property role="Xl_RC" value="6.28.24" />
                   </node>
                   <node concept="liA8E" id="3mOf56UDU7E" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
                     <node concept="Xl_RD" id="3mOf56UDUbF" role="37wK5m">
-                      <property role="Xl_RC" value="0.0.9" />
+                      <property role="Xl_RC" value="6.28.2.3" />
                     </node>
                   </node>
                 </node>
@@ -4708,12 +4713,12 @@
               <node concept="3cpWs3" id="3mOf56UE22M" role="37wK5m">
                 <node concept="2OqwBi" id="3mOf56UE22N" role="3uHU7w">
                   <node concept="Xl_RD" id="3mOf56UE22O" role="2Oq$k0">
-                    <property role="Xl_RC" value="1" />
+                    <property role="Xl_RC" value="2" />
                   </node>
                   <node concept="liA8E" id="3mOf56UE22P" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
                     <node concept="Xl_RD" id="3mOf56UE22Q" role="37wK5m">
-                      <property role="Xl_RC" value="0.1.9" />
+                      <property role="Xl_RC" value="11" />
                     </node>
                   </node>
                 </node>
