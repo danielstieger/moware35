@@ -4659,12 +4659,12 @@
               <node concept="3cpWs3" id="3mOf56UDTvb" role="37wK5m">
                 <node concept="2OqwBi" id="3mOf56UDTUF" role="3uHU7w">
                   <node concept="Xl_RD" id="3mOf56UDTyQ" role="2Oq$k0">
-                    <property role="Xl_RC" value="6.28.24" />
+                    <property role="Xl_RC" value="6.28.2.3" />
                   </node>
                   <node concept="liA8E" id="3mOf56UDU7E" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
                     <node concept="Xl_RD" id="3mOf56UDUbF" role="37wK5m">
-                      <property role="Xl_RC" value="6.28.2.3" />
+                      <property role="Xl_RC" value="6.3.2.3" />
                     </node>
                   </node>
                 </node>
@@ -4713,7 +4713,7 @@
               <node concept="3cpWs3" id="3mOf56UE22M" role="37wK5m">
                 <node concept="2OqwBi" id="3mOf56UE22N" role="3uHU7w">
                   <node concept="Xl_RD" id="3mOf56UE22O" role="2Oq$k0">
-                    <property role="Xl_RC" value="2" />
+                    <property role="Xl_RC" value="02" />
                   </node>
                   <node concept="liA8E" id="3mOf56UE22P" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />

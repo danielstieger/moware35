@@ -576,6 +576,17 @@
       </node>
       <node concept="2JFqV2" id="y6iK4AW0mT" role="2frcjj" />
     </node>
+    <node concept="3clFb_" id="36iVIZAoyzs" role="jymVt">
+      <property role="TrG5h" value="hasDynamicColor" />
+      <node concept="3clFbS" id="36iVIZAoyzv" role="3clF47">
+        <node concept="3clFbF" id="84ZKdfrGEv" role="3cqZAp">
+          <node concept="3clFbT" id="84ZKdfrGEu" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="36iVIZAoyzw" role="1B3o_S" />
+      <node concept="10P_77" id="36iVIZAoyyu" role="3clF45" />
+      <node concept="2JFqV2" id="84ZKdfrGDy" role="2frcjj" />
+    </node>
     <node concept="16euLQ" id="7fo5K04UYC1" role="16eVyc">
       <property role="TrG5h" value="T" />
     </node>
