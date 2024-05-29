@@ -43077,6 +43077,25 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="7UdH_jFSvyl" role="1zc67A">
+                  <node concept="3clFbF" id="84ZKdfDIAJ" role="3cqZAp">
+                    <node concept="2YIFZM" id="84ZKdfDII9" role="3clFbG">
+                      <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                      <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                      <node concept="3VsKOn" id="84ZKdfDK1f" role="37wK5m">
+                        <ref role="3VsUkX" node="69JiVbyVOt3" resolve="BaseUiFactory" />
+                      </node>
+                      <node concept="Rm8GO" id="84ZKdfDYb7" role="37wK5m">
+                        <ref role="Rm8GQ" to="28jr:2dTopMvfBq_" resolve="INFO" />
+                        <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                      </node>
+                      <node concept="Xl_RD" id="84ZKdfDYpe" role="37wK5m">
+                        <property role="Xl_RC" value="Can not get db-driver connection info" />
+                      </node>
+                      <node concept="37vLTw" id="84ZKdfDZlA" role="37wK5m">
+                        <ref role="3cqZAo" node="7UdH_jFSvyj" resolve="sqex" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="4T6wObo7yPZ" role="3cqZAp">
                     <node concept="37vLTI" id="4T6wObo7zmA" role="3clFbG">
                       <node concept="Xl_RD" id="4T6wObo7zod" role="37vLTx">
