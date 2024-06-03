@@ -56,6 +56,10 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -865,6 +869,167 @@
             <node concept="1pGfFk" id="Afw7EuOBOr" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="Afw7EuOBYF" role="37wK5m">
+                <property role="Xl_RC" value="This can not happen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YIFZL" id="3dcA_Cv5iiU" role="jymVt">
+      <property role="TrG5h" value="getNPTForType" />
+      <node concept="37vLTG" id="3dcA_Cv5iiV" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3Tqbb2" id="3dcA_Cv5iiW" role="1tU5fm" />
+      </node>
+      <node concept="3Tqbb2" id="3dcA_Cv5nYQ" role="3clF45">
+        <ref role="ehGHo" to="tpee:fKRm8J8" resolve="EnumConstantReference" />
+      </node>
+      <node concept="3Tm1VV" id="3dcA_Cv5iiY" role="1B3o_S" />
+      <node concept="3clFbS" id="3dcA_Cv5iiZ" role="3clF47">
+        <node concept="3clFbJ" id="3dcA_Cv5ij0" role="3cqZAp">
+          <node concept="3clFbS" id="3dcA_Cv5ij1" role="3clFbx">
+            <node concept="3cpWs6" id="3dcA_Cv5ij2" role="3cqZAp">
+              <node concept="2c44tf" id="3dcA_Cv5oHJ" role="3cqZAk">
+                <node concept="Rm8GO" id="3dcA_Cv5q8A" role="2c44tc">
+                  <ref role="Rm8GQ" to="w7gk:3dcA_Cv27r7" resolve="INT" />
+                  <ref role="1Px2BO" to="w7gk:3dcA_Cv27or" resolve="IM3NamedParameter.NPT" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3dcA_Cv5ij4" role="3clFbw">
+            <node concept="2qgKlT" id="3dcA_Cv5ij5" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$E7P" resolve="isInteger" />
+              <node concept="37vLTw" id="3dcA_Cv5ij6" role="37wK5m">
+                <ref role="3cqZAo" node="3dcA_Cv5iiV" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="3dcA_Cv5ij7" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3dcA_Cv5ij8" role="3cqZAp">
+          <node concept="3clFbS" id="3dcA_Cv5ij9" role="3clFbx">
+            <node concept="3cpWs6" id="3dcA_Cv5poX" role="3cqZAp">
+              <node concept="2c44tf" id="3dcA_Cv5poY" role="3cqZAk">
+                <node concept="Rm8GO" id="3dcA_Cv5poZ" role="2c44tc">
+                  <ref role="1Px2BO" to="w7gk:3dcA_Cv27or" resolve="IM3NamedParameter.NPT" />
+                  <ref role="Rm8GQ" to="w7gk:3dcA_Cv27tJ" resolve="BD" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3dcA_Cv5ijc" role="3clFbw">
+            <node concept="2qgKlT" id="3dcA_Cv5ijd" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$E9r" resolve="isBigDecimal" />
+              <node concept="37vLTw" id="3dcA_Cv5ije" role="37wK5m">
+                <ref role="3cqZAo" node="3dcA_Cv5iiV" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="3dcA_Cv5ijf" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3dcA_Cv5ijg" role="3cqZAp">
+          <node concept="3clFbS" id="3dcA_Cv5ijh" role="3clFbx">
+            <node concept="3cpWs6" id="3dcA_Cv5pF3" role="3cqZAp">
+              <node concept="2c44tf" id="3dcA_Cv5pF4" role="3cqZAk">
+                <node concept="Rm8GO" id="3dcA_Cv5qcC" role="2c44tc">
+                  <ref role="Rm8GQ" to="w7gk:3dcA_Cv27zE" resolve="DATE" />
+                  <ref role="1Px2BO" to="w7gk:3dcA_Cv27or" resolve="IM3NamedParameter.NPT" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3dcA_Cv5ijk" role="3clFbw">
+            <node concept="2qgKlT" id="3dcA_Cv5ijl" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$EaY" resolve="isLocalDate" />
+              <node concept="37vLTw" id="3dcA_Cv5ijm" role="37wK5m">
+                <ref role="3cqZAo" node="3dcA_Cv5iiV" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="3dcA_Cv5ijn" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3dcA_Cv5ijo" role="3cqZAp">
+          <node concept="3clFbS" id="3dcA_Cv5ijp" role="3clFbx">
+            <node concept="3cpWs6" id="3dcA_Cv5pI_" role="3cqZAp">
+              <node concept="2c44tf" id="3dcA_Cv5pIA" role="3cqZAk">
+                <node concept="Rm8GO" id="3dcA_Cv5qgH" role="2c44tc">
+                  <ref role="Rm8GQ" to="w7gk:3dcA_Cv27O0" resolve="DATETIME" />
+                  <ref role="1Px2BO" to="w7gk:3dcA_Cv27or" resolve="IM3NamedParameter.NPT" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3dcA_Cv5ijs" role="3clFbw">
+            <node concept="2qgKlT" id="3dcA_Cv5ijt" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$Eap" resolve="isDateTime" />
+              <node concept="37vLTw" id="3dcA_Cv5iju" role="37wK5m">
+                <ref role="3cqZAo" node="3dcA_Cv5iiV" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="3dcA_Cv5ijv" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3dcA_Cv5ijw" role="3cqZAp">
+          <node concept="3clFbS" id="3dcA_Cv5ijx" role="3clFbx">
+            <node concept="3cpWs6" id="3dcA_Cv5pMb" role="3cqZAp">
+              <node concept="2c44tf" id="3dcA_Cv5pMc" role="3cqZAk">
+                <node concept="Rm8GO" id="3dcA_Cv5qpJ" role="2c44tc">
+                  <ref role="Rm8GQ" to="w7gk:3dcA_Cv27Ws" resolve="STRING" />
+                  <ref role="1Px2BO" to="w7gk:3dcA_Cv27or" resolve="IM3NamedParameter.NPT" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3dcA_Cv5ij$" role="3clFbw">
+            <node concept="2qgKlT" id="3dcA_Cv5ij_" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:7kypvuI$E8Q" resolve="isString" />
+              <node concept="37vLTw" id="3dcA_Cv5ijA" role="37wK5m">
+                <ref role="3cqZAo" node="3dcA_Cv5iiV" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="3dcA_Cv5ijB" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3dcA_Cv5ijC" role="3cqZAp">
+          <node concept="3clFbS" id="3dcA_Cv5ijD" role="3clFbx">
+            <node concept="3cpWs6" id="3dcA_Cv5q4t" role="3cqZAp">
+              <node concept="2c44tf" id="3dcA_Cv5q4u" role="3cqZAk">
+                <node concept="Rm8GO" id="3dcA_Cv5qy8" role="2c44tc">
+                  <ref role="Rm8GQ" to="w7gk:3dcA_Cv286O" resolve="STATUS" />
+                  <ref role="1Px2BO" to="w7gk:3dcA_Cv27or" resolve="IM3NamedParameter.NPT" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3dcA_Cv5ijG" role="3clFbw">
+            <node concept="2qgKlT" id="3dcA_Cv5ijH" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:3wMahqxhMld" resolve="isStatus" />
+              <node concept="37vLTw" id="3dcA_Cv5ijI" role="37wK5m">
+                <ref role="3cqZAo" node="3dcA_Cv5iiV" resolve="type" />
+              </node>
+            </node>
+            <node concept="35c_gC" id="3dcA_Cv5ijJ" role="2Oq$k0">
+              <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+            </node>
+          </node>
+        </node>
+        <node concept="YS8fn" id="3dcA_Cv5ijK" role="3cqZAp">
+          <node concept="2ShNRf" id="3dcA_Cv5ijL" role="YScLw">
+            <node concept="1pGfFk" id="3dcA_Cv5ijM" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="3dcA_Cv5ijN" role="37wK5m">
                 <property role="Xl_RC" value="This can not happen." />
               </node>
             </node>
