@@ -317,6 +317,12 @@
       <node concept="3Tm1VV" id="5KfzM7M2v4_" role="1B3o_S" />
       <node concept="10P_77" id="5KfzM7M2v0s" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="2pg6meC51QM" role="jymVt">
+      <property role="TrG5h" value="isSDIMode" />
+      <node concept="3clFbS" id="2pg6meC51QP" role="3clF47" />
+      <node concept="3Tm1VV" id="2pg6meC51QQ" role="1B3o_S" />
+      <node concept="10P_77" id="2pg6meC51M2" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="4X6$QoZ0_9R" role="jymVt" />
     <node concept="3clFb_" id="5XGplYAWG3H" role="jymVt">
       <property role="TrG5h" value="getSettingsDescription" />
