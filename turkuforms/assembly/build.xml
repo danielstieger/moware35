@@ -61,7 +61,9 @@
       <fileset dir="${solultionJars}" />
     </copy> -->
     
-    
+    <copy todir="${mowareWorkDir}/WEB-INF/lib">
+	  <fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="mysql*.jar" />   
+    </copy>
     
     <mkdir dir="dist"/>  
     <jar destfile="dist/${appName}##${appBuildVersion}.war" basedir="${mowareWorkDir}" update="false">
