@@ -579,7 +579,7 @@
       <node concept="37vLTG" id="19VJYqAugcf" role="3clF46">
         <property role="TrG5h" value="currentContainerUI" />
         <node concept="3uibUv" id="19VJYqAugcg" role="1tU5fm">
-          <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+          <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
         </node>
       </node>
       <node concept="3cqZAl" id="19VJYqAugch" role="3clF45" />
@@ -672,7 +672,7 @@
       <node concept="37vLTG" id="19VJYqAugcz" role="3clF46">
         <property role="TrG5h" value="currentContainerUI" />
         <node concept="3uibUv" id="19VJYqAugc$" role="1tU5fm">
-          <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+          <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
         </node>
       </node>
       <node concept="3clFbS" id="19VJYqAugc_" role="3clF47">
@@ -2512,7 +2512,7 @@
       <node concept="37vLTG" id="4M9afjaXjDP" role="3clF46">
         <property role="TrG5h" value="app" />
         <node concept="3uibUv" id="4M9afjaXjDQ" role="1tU5fm">
-          <ref role="3uigEE" to="250q:20ohnkbzYYy" resolve="IToolkit_Application" />
+          <ref role="3uigEE" to="250q:20ohnkbzYYy" resolve="IToolkit_MainWindow" />
         </node>
       </node>
       <node concept="37vLTG" id="3wkdm3W0Q$X" role="3clF46">
@@ -2520,7 +2520,7 @@
         <node concept="10P_77" id="3wkdm3W0QG5" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="kA5KhwlvfX" role="3clF45">
-        <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+        <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
       </node>
       <node concept="3Tm1VV" id="kA5KhwlvfY" role="1B3o_S" />
       <node concept="3clFbS" id="kA5Khwlvg0" role="3clF47">
@@ -2545,7 +2545,7 @@
       <node concept="37vLTG" id="r$jHpEWq$k" role="3clF46">
         <property role="TrG5h" value="app" />
         <node concept="3uibUv" id="r$jHpEWqVB" role="1tU5fm">
-          <ref role="3uigEE" to="250q:20ohnkbzYYy" resolve="IToolkit_Application" />
+          <ref role="3uigEE" to="250q:20ohnkbzYYy" resolve="IToolkit_MainWindow" />
         </node>
       </node>
       <node concept="37vLTG" id="kA5Khwlvg4" role="3clF46">
@@ -2553,7 +2553,7 @@
         <node concept="10P_77" id="kA5Khwlvg5" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="kA5Khwlvg6" role="3clF45">
-        <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+        <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
       </node>
       <node concept="3Tm1VV" id="kA5Khwlvg7" role="1B3o_S" />
       <node concept="3clFbS" id="kA5Khwlvg9" role="3clF47">
@@ -5599,7 +5599,7 @@
     </node>
     <node concept="3Tm1VV" id="2xnCXJMggZx" role="1B3o_S" />
     <node concept="3uibUv" id="2xnCXJMgkzD" role="EKbjA">
-      <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+      <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
     </node>
   </node>
   <node concept="312cEu" id="2JP_IULTUsl">
@@ -11741,7 +11741,25 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="1Qo13pXqlX$" role="3cqZAp" />
+              <node concept="3SKdUt" id="5UVCPc2hQOw" role="3cqZAp">
+                <node concept="1PaTwC" id="5UVCPc2hQOx" role="1aUNEU">
+                  <node concept="3oM_SD" id="5UVCPc2hQOy" role="1PaTwD">
+                    <property role="3oM_SC" value="TODO:" />
+                  </node>
+                  <node concept="3oM_SD" id="5UVCPc2hR0D" role="1PaTwD">
+                    <property role="3oM_SC" value="einfach" />
+                  </node>
+                  <node concept="3oM_SD" id="5UVCPc2hR0O" role="1PaTwD">
+                    <property role="3oM_SC" value="auch" />
+                  </node>
+                  <node concept="3oM_SD" id="5UVCPc2hR0S" role="1PaTwD">
+                    <property role="3oM_SC" value="value?" />
+                  </node>
+                  <node concept="3oM_SD" id="5UVCPc2hR0X" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
           <node concept="3eOSWO" id="1Qo13pXqkiJ" role="3clFbw">

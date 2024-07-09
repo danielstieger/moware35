@@ -2,7 +2,7 @@
 
 
  Build.xml: Building a tomcat batchjob with objectflow 
-            based on moware plugin R5
+            based on moware plugin 2024.17
             
             AND: organizing stuff around moware :)
             i.e. the xbus target, which updates libraries for 
@@ -59,6 +59,10 @@
     
     <copy todir="${mowareWorkDir}/WEB-INF/lib">
 	  <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />   
+    </copy>
+    
+	<copy todir="${mowareWorkDir}/WEB-INF/lib">
+	  <fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="mysql*.jar" />   
     </copy>
 		
       
