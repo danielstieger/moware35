@@ -4279,7 +4279,7 @@
                         </node>
                         <node concept="3cpWs3" id="3mOf56UEpdW" role="37wK5m">
                           <node concept="Xl_RD" id="3mOf56UEpl4" role="3uHU7w">
-                            <property role="Xl_RC" value=" is a higher version?" />
+                            <property role="Xl_RC" value="' which is the same or a lower version?" />
                           </node>
                           <node concept="3cpWs3" id="3mOf56UEp2F" role="3uHU7B">
                             <node concept="3cpWs3" id="3mOf56UEoSV" role="3uHU7B">
@@ -4287,14 +4287,14 @@
                                 <node concept="3cpWs3" id="3mOf56UEouc" role="3uHU7B">
                                   <node concept="3cpWs3" id="3mOf56UEo9C" role="3uHU7B">
                                     <node concept="Xl_RD" id="3mOf56UEm8_" role="3uHU7B">
-                                      <property role="Xl_RC" value="strange, probably an error: deployed " />
+                                      <property role="Xl_RC" value="Strange, probably an error: deployed " />
                                     </node>
                                     <node concept="37vLTw" id="3mOf56UEom2" role="3uHU7w">
                                       <ref role="3cqZAo" node="3mOf56UDCTg" resolve="propKey" />
                                     </node>
                                   </node>
                                   <node concept="Xl_RD" id="3mOf56UEouA" role="3uHU7w">
-                                    <property role="Xl_RC" value=" with " />
+                                    <property role="Xl_RC" value=" with '" />
                                   </node>
                                 </node>
                                 <node concept="37vLTw" id="3mOf56UEoBq" role="3uHU7w">
@@ -4302,7 +4302,7 @@
                                 </node>
                               </node>
                               <node concept="Xl_RD" id="3mOf56UEoWd" role="3uHU7w">
-                                <property role="Xl_RC" value=" but " />
+                                <property role="Xl_RC" value="' but found '" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="3mOf56UEp6m" role="3uHU7w">
@@ -4724,6 +4724,33 @@
                 </node>
                 <node concept="Xl_RD" id="3mOf56UE22R" role="3uHU7B">
                   <property role="Xl_RC" value="&gt; " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="rWG6ci9q4s" role="3cqZAp">
+          <node concept="2OqwBi" id="rWG6ci9q4t" role="3clFbG">
+            <node concept="10M0yZ" id="rWG6ci9q4u" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="rWG6ci9q4v" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="rWG6ci9q4w" role="37wK5m">
+                <node concept="Xl_RD" id="rWG6ci9q4_" role="3uHU7B">
+                  <property role="Xl_RC" value="&gt; " />
+                </node>
+                <node concept="2OqwBi" id="rWG6ci9qdz" role="3uHU7w">
+                  <node concept="Xl_RD" id="rWG6ci9qmy" role="2Oq$k0">
+                    <property role="Xl_RC" value="0.9" />
+                  </node>
+                  <node concept="liA8E" id="rWG6ci9qd_" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                    <node concept="Xl_RD" id="rWG6ci9qEl" role="37wK5m">
+                      <property role="Xl_RC" value="0.9" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
