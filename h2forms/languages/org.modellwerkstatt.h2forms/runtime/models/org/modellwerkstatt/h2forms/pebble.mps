@@ -5669,6 +5669,16 @@
         <property role="Xl_RC" value="dropDownActions" />
       </node>
     </node>
+    <node concept="Wx3nA" id="2jRB5dJwDXR" role="jymVt">
+      <property role="TrG5h" value="HAS_VISIBLE_ACTIONS" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2jRB5dJwDXS" role="1tU5fm" />
+      <node concept="3Tm1VV" id="2jRB5dJwDXT" role="1B3o_S" />
+      <node concept="Xl_RD" id="2jRB5dJwDXU" role="33vP2m">
+        <property role="Xl_RC" value="hasVisibleActions" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2jRB5dJwD9f" role="jymVt" />
     <node concept="Wx3nA" id="2I8y5KoQMas" role="jymVt">
       <property role="TrG5h" value="FOOTER" />
       <property role="3TUv4t" value="true" />
@@ -9835,7 +9845,19 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1Qo13pXs6St" role="3cqZAp" />
+        <node concept="3clFbF" id="2jRB5dJw_H2" role="3cqZAp">
+          <node concept="37vLTI" id="2jRB5dJwOVS" role="3clFbG">
+            <node concept="3clFbT" id="2jRB5dJwRnE" role="37vLTx" />
+            <node concept="3EllGN" id="2jRB5dJwB_z" role="37vLTJ">
+              <node concept="37vLTw" id="2jRB5dJwMVF" role="3ElVtu">
+                <ref role="3cqZAo" node="2jRB5dJwDXR" resolve="HAS_VISIBLE_ACTIONS" />
+              </node>
+              <node concept="37vLTw" id="2jRB5dJw_H0" role="3ElQJh">
+                <ref role="3cqZAo" node="1Qo13pXs8D1" resolve="renderMap" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="7RHNXGyZ49s" role="3cqZAp">
           <node concept="3clFbS" id="7RHNXGyZ49t" role="3clFbx">
             <node concept="3SKdUt" id="7RHNXGyZ49I" role="3cqZAp">
@@ -10036,6 +10058,43 @@
                     <ref role="3cqZAo" node="5j6tTptTD6x" resolve="dropDownActions" />
                   </node>
                   <node concept="34oBXx" id="5zMdI6nAYIJ" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2jRB5dJwZSv" role="3cqZAp">
+              <node concept="37vLTI" id="2jRB5dJx3RB" role="3clFbG">
+                <node concept="2OqwBi" id="2jRB5dJx6DM" role="37vLTx">
+                  <node concept="37vLTw" id="2jRB5dJx650" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1Qo13pXsZMG" resolve="actions" />
+                  </node>
+                  <node concept="2HwmR7" id="2jRB5dJx965" role="2OqNvi">
+                    <node concept="1bVj0M" id="2jRB5dJx967" role="23t8la">
+                      <node concept="3clFbS" id="2jRB5dJx968" role="1bW5cS">
+                        <node concept="3clFbF" id="2jRB5dJx9uQ" role="3cqZAp">
+                          <node concept="2OqwBi" id="2jRB5dJx9Dh" role="3clFbG">
+                            <node concept="37vLTw" id="2jRB5dJx9uP" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2jRB5dJx969" resolve="it" />
+                            </node>
+                            <node concept="2OwXpG" id="2jRB5dJx9Z2" role="2OqNvi">
+                              <ref role="2Oxat5" node="1Qo13pXsSz0" resolve="visible" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="2jRB5dJx969" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="2jRB5dJx96a" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3EllGN" id="2jRB5dJx1cb" role="37vLTJ">
+                  <node concept="37vLTw" id="2jRB5dJx1NL" role="3ElVtu">
+                    <ref role="3cqZAo" node="2jRB5dJwDXR" resolve="HAS_VISIBLE_ACTIONS" />
+                  </node>
+                  <node concept="37vLTw" id="2jRB5dJwZSt" role="3ElQJh">
+                    <ref role="3cqZAo" node="1Qo13pXs8D1" resolve="renderMap" />
+                  </node>
                 </node>
               </node>
             </node>

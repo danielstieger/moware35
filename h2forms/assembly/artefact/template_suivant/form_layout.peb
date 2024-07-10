@@ -19,13 +19,15 @@
     {% endfor %}
 </div>
 <div class="w3-cell w3-cell-bottom">
-    {% if actions is null %}<div class="sv-layout-menu-item"> &nbsp; </div>{% endif %}
+    {% if not hasVisibleActions %}<div class="sv-layout-menu-item"> &nbsp; </div>{% endif %}
     {% if dropDownActions is not null %}
         <div class="w3-dropdown-click w3-right">
             <button type="button" class="w3-button sv-layout-menu-item" onClick="svShowDropdown(event, $('#Dropdown_{{ formId }}'));"> <i class="material-icons"> more_vert </i> </button>
             <div id="Dropdown_{{ formId }}" class="w3-dropdown-content svdropdown-wide w3-bar-block w3-card" style="right:0">
             {% for act in dropDownActions %}
+                {% if act.visible %}
                 <button type="button" class="w3-bar-item w3-button" {{ jsLinkWhenEnabledLayout(act, true) }} {% if not act.enabled %} disabled {% endif %}>{{ imgAndLabel(act) }}</button>
+                {% endif %}
             {% endfor %}
             </div>
         </div>
@@ -33,7 +35,9 @@
 
     {% if topBarActions is not null %}
         {% for act in topBarActions %}
+            {% if act.visible %}
             <button type="button" class="w3-button sv-layout-menu-item  w3-right" {{ jsLinkWhenEnabledLayout(act, false) }} {% if not act.enabled %} disabled {% endif %}>{{ imgOrLabel(act) }}</button>
+            {% endif %}
         {% endfor %}
     {% endif %}
 </div>

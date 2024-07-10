@@ -29,8 +29,10 @@
             <button type="button" class="w3-button sv-layout-menu-item" onClick="svShowDropdown(event, $('#Dropdown_landing'));"> <i class="material-icons"> more_vert </i> </button>
             <div id="Dropdown_landing" class="w3-dropdown-content svdropdown-wide w3-bar-block w3-card" style="right:0">
             {% for act in page.startMenu %}
+                {% if act.visible %}
                 <button type="button" class="w3-bar-item w3-button" {% if not act.enabled %} disabled {% else %}
                         onClick="openPage('{{ statics.mainLandingPagePath }}/{{ act.uri }}/', true);"{% endif %}>{{ imgAndLabel(act) }}</button>
+                {% endif %}
             {% endfor %}
             </div>
         </div>
@@ -41,6 +43,7 @@
 {% include "./dialog.peb" %}
 <div class="w3-panel w3-row-padding sv-tile-panel">
 {% for itm in page.mainLandingMenu %}
+    {% if itm.visible %}
     <div class="w3-col s12 m6 sv-nav">
         <div class="w3-container sv-tile {% if not itm.enabled %}sv-disabled{% endif %}" style="border-color: {{ defCol(itm.color) }}!important"
              {% if itm.enabled %} onClick="javascript: openPage('{{ statics.mainLandingPagePath }}/{{ itm.uri }}/', false);"{% endif %}>
@@ -48,6 +51,7 @@
             <p style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | last }} </p>
         </div>
     </div>
+    {% endif %}
 {% endfor %}
 </div>
 <div class="w3-container"><div class="w3-right sv-tiny">Suivant2 on Device {{ client.device }} {{ client.deviceSw }} </div> </div>
