@@ -3099,12 +3099,12 @@
         <property role="TrG5h" value="LOGIN_NOT_POSSIBLE" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="2jmS2T$OW2W" role="37wK5m">
-          <property role="Xl_RC" value="Anmeldung nicht möglich." />
+          <property role="Xl_RC" value="Anmeldung nicht möglich. Andere Browser-Tabs offen?" />
         </node>
         <node concept="10Nm6u" id="2jmS2T$OWRe" role="37wK5m" />
         <node concept="10Nm6u" id="2jmS2T$OYu8" role="37wK5m" />
         <node concept="Xl_RD" id="2jmS2T$P05P" role="37wK5m">
-          <property role="Xl_RC" value="Login not possible." />
+          <property role="Xl_RC" value="Login not possible. Other Browser-Tabs open?" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
