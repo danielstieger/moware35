@@ -61,9 +61,6 @@
 	  <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />   
     </copy>
     
-	<copy todir="${mowareWorkDir}/WEB-INF/lib">
-	  <fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="mysql*.jar" />   
-    </copy>
 		
       
     <mkdir dir="dist"/>  

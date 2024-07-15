@@ -263,7 +263,6 @@
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
-      <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
@@ -12747,7 +12746,16 @@
                                   </node>
                                   <node concept="3clFbJ" id="7wLkuGB5R1n" role="3cqZAp">
                                     <node concept="3clFbS" id="7wLkuGB5R1o" role="3clFbx">
-                                      <node concept="3N13vt" id="7wLkuGB5R8X" role="3cqZAp" />
+                                      <node concept="YS8fn" id="7$mIjqTDtlK" role="3cqZAp">
+                                        <node concept="2ShNRf" id="7$mIjqTDt$X" role="YScLw">
+                                          <node concept="1pGfFk" id="7$mIjqTDxVB" role="2ShVmc">
+                                            <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                                            <node concept="Xl_RD" id="7$mIjqTDyDE" role="37wK5m">
+                                              <property role="Xl_RC" value="MoWare Summer 24 - advanced checks: Trying to load an entity from the db without key (key is null)." />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
                                     </node>
                                     <node concept="3clFbC" id="1HOHq98IJxM" role="3clFbw">
                                       <node concept="10Nm6u" id="1HOHq98IJyl" role="3uHU7w" />
