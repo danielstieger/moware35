@@ -618,7 +618,7 @@
       <property role="TrG5h" value="SqlString" />
       <node concept="2lhJJ2" id="PyQKzI9byN" role="14Sbyx" />
       <node concept="VechU" id="7YG44tSIMfX" role="3F10Kt">
-        <property role="Vb096" value="fLwANPr/green" />
+        <property role="Vb096" value="g1_qRwE/darkGreen" />
       </node>
     </node>
     <node concept="14StLt" id="Kou8LehH1N" role="V601i">
