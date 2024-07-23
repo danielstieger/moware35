@@ -30,6 +30,7 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -612,12 +613,14 @@
     <node concept="1TJgyj" id="7UDNdKJ7d8L" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="defaultStatementList" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="9127051365898310193" />
       <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
     <node concept="1QGGSu" id="4q1OD65wAiC" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/statusminor.png" />
+    </node>
+    <node concept="PrWs8" id="7LJrWwFMRTg" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="7UDNdKJ6FFr">
@@ -627,9 +630,16 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7UDNdKJ6FFv" role="1TKVEi">
       <property role="20kJfa" value="statusElement" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="9127051365898173151" />
       <ref role="20lvS9" node="3VCHlE3_rxm" resolve="StatusElement" />
+      <node concept="asaX9" id="7LJrWwG9$37" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="7LJrWwFMd8_" role="1TKVEi">
+      <property role="IQ2ns" value="8966508288636670501" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="status" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6RAFKVMR_IH" resolve="StatusElementReference" />
     </node>
     <node concept="1TJgyj" id="7UDNdKJ6FFs" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
