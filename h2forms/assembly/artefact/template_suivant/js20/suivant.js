@@ -167,7 +167,7 @@ function svUploadFileDone(args){
     var status = args['status'];
     if ('body' in args) {
         var filename = args['body'].replace(/^\s+|\s+$/g, '');
-        status += '; ' + filename;
+        status += '; (' + filename + ')';
 
         if (filename.endsWith('jpg') || filename.endsWith('jpeg')) {
             $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + filename + '?ts=' + Date.now();

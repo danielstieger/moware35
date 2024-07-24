@@ -414,6 +414,9 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
+        <child id="1176906787974" name="rightExpression" index="576Qk" />
+      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
@@ -436,6 +439,7 @@
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
+      <concept id="1205598340672" name="jetbrains.mps.baseLanguage.collections.structure.DisjunctOperation" flags="nn" index="2NgGto" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
@@ -15503,11 +15507,44 @@
           </node>
         </node>
       </node>
+      <node concept="3cpWs8" id="1ULcFtpSzEK" role="3cqZAp">
+        <node concept="3cpWsn" id="1ULcFtpSzEN" role="3cpWs9">
+          <property role="TrG5h" value="diff" />
+          <node concept="A3Dl8" id="1ULcFtpSzEH" role="1tU5fm">
+            <node concept="3Tqbb2" id="1ULcFtpSzMv" role="A3Ik2">
+              <ref role="ehGHo" to="un0u:3VCHlE3_rxm" resolve="StatusElement" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1ULcFtpSzYR" role="33vP2m">
+            <node concept="37vLTw" id="1ULcFtpSzN7" role="2Oq$k0">
+              <ref role="3cqZAo" node="3_7elNDlqMb" resolve="allElements" />
+            </node>
+            <node concept="2NgGto" id="1ULcFtpS$7a" role="2OqNvi">
+              <node concept="2OqwBi" id="1ULcFtpS$bw" role="576Qk">
+                <node concept="37vLTw" id="1ULcFtpS$86" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3_7elNDlqMb" resolve="allElements" />
+                </node>
+                <node concept="1VAtEI" id="1ULcFtpS$xp" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3clFbJ" id="3_7elNDlqZm" role="3cqZAp">
         <node concept="3clFbS" id="3_7elNDlqZo" role="3clFbx">
           <node concept="2MkqsV" id="3_7elNDluAD" role="3cqZAp">
-            <node concept="Xl_RD" id="3_7elNDluAS" role="2MkJ7o">
-              <property role="Xl_RC" value="Each status should be related to only one case here." />
+            <node concept="3cpWs3" id="1ULcFtpTGXH" role="2MkJ7o">
+              <node concept="Xl_RD" id="1ULcFtpTGXK" role="3uHU7w">
+                <property role="Xl_RC" value="." />
+              </node>
+              <node concept="3cpWs3" id="1ULcFtpTFUD" role="3uHU7B">
+                <node concept="Xl_RD" id="3_7elNDluAS" role="3uHU7B">
+                  <property role="Xl_RC" value="Each status should belong to one case. We have problems with " />
+                </node>
+                <node concept="37vLTw" id="1ULcFtpTGGB" role="3uHU7w">
+                  <ref role="3cqZAo" node="1ULcFtpSzEN" resolve="diff" />
+                </node>
+              </node>
             </node>
             <node concept="1YBJjd" id="3_7elNDluC2" role="1urrMF">
               <ref role="1YBMHb" node="3_7elNDlncZ" resolve="onStatement" />
@@ -15515,18 +15552,12 @@
           </node>
         </node>
         <node concept="3y3z36" id="3_7elNDlsiK" role="3clFbw">
-          <node concept="2OqwBi" id="3_7elNDlu5E" role="3uHU7w">
-            <node concept="2OqwBi" id="3_7elNDltbt" role="2Oq$k0">
-              <node concept="37vLTw" id="3_7elNDlsHM" role="2Oq$k0">
-                <ref role="3cqZAo" node="3_7elNDlqMb" resolve="allElements" />
-              </node>
-              <node concept="1VAtEI" id="3_7elNDltLH" role="2OqNvi" />
-            </node>
-            <node concept="34oBXx" id="3_7elNDluaZ" role="2OqNvi" />
+          <node concept="3cmrfG" id="1ULcFtpTFvv" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
           </node>
           <node concept="2OqwBi" id="3_7elNDlrdJ" role="3uHU7B">
             <node concept="37vLTw" id="3_7elNDlqZY" role="2Oq$k0">
-              <ref role="3cqZAo" node="3_7elNDlqMb" resolve="allElements" />
+              <ref role="3cqZAo" node="1ULcFtpSzEN" resolve="diff" />
             </node>
             <node concept="34oBXx" id="3_7elNDlrlT" role="2OqNvi" />
           </node>

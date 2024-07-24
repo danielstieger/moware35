@@ -12617,7 +12617,7 @@
             <node concept="3clFbF" id="3Z5DtHRlSo_" role="3cqZAp">
               <node concept="d57v9" id="3Z5DtHRlSoA" role="3clFbG">
                 <node concept="Xl_RD" id="3Z5DtHRlSoB" role="37vLTx">
-                  <property role="Xl_RC" value=" FQ_NAME VARCHAR2  (50 CHAR) /* fqName */,\n" />
+                  <property role="Xl_RC" value=" FQ_NAME VARCHAR2  (250 CHAR) /* fqName */,\n" />
                 </node>
                 <node concept="37vLTw" id="3Z5DtHRlSoC" role="37vLTJ">
                   <ref role="3cqZAo" node="3Z5DtHRlPj0" resolve="schema" />
