@@ -16,6 +16,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
+    <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -746,6 +747,26 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="1ULcFtpVs5r" role="_YvDr">
+      <property role="_XH9r" value="ALL STATUS SWITCHES YOU MIGHT WANT TO REFACTOR, i.e. remove the default branch" />
+      <ref role="_XDHR" to="un0u:7UDNdKJ6FFh" resolve="OnStatement" />
+      <node concept="_ZGcI" id="1ULcFtpVs5t" role="_XPhp">
+        <node concept="3clFbS" id="1ULcFtpVs5v" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="1ULcFtpVs6V" role="_XDHO">
+        <node concept="3clFbS" id="1ULcFtpVs6W" role="2VODD2">
+          <node concept="3clFbF" id="1ULcFtpVsaQ" role="3cqZAp">
+            <node concept="2OqwBi" id="1ULcFtpVsnu" role="3clFbG">
+              <node concept="_YI3z" id="1ULcFtpVsaP" role="2Oq$k0" />
+              <node concept="2qgKlT" id="1ULcFtpVsM8" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:7LJrWwG17Qo" resolve="usesDefaultNoChecks" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1opIMY" id="1ULcFtpVs6h" role="_YvDr" />
     <node concept="1opIMY" id="2_x_Ma0Sra1" role="_YvDr" />
     <node concept="1opIMY" id="2_x_Ma0Sra2" role="_YvDr" />
   </node>
