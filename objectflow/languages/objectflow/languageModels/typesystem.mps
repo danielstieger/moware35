@@ -15539,7 +15539,7 @@
               </node>
               <node concept="3cpWs3" id="1ULcFtpTFUD" role="3uHU7B">
                 <node concept="Xl_RD" id="3_7elNDluAS" role="3uHU7B">
-                  <property role="Xl_RC" value="Each status should belong to one case. We have problems with " />
+                  <property role="Xl_RC" value="Each status should belong to one case. We have issues with " />
                 </node>
                 <node concept="37vLTw" id="1ULcFtpTGGB" role="3uHU7w">
                   <ref role="3cqZAo" node="1ULcFtpSzEN" resolve="diff" />
