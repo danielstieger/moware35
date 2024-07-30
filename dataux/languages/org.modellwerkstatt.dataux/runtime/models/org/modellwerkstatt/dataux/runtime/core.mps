@@ -10407,7 +10407,12 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="27BPRG5FY7S" role="3cqZAp" />
+        <node concept="3clFbH" id="1WUmu1FAbvc" role="3cqZAp" />
+        <node concept="3clFbF" id="1WUmu1FA9jP" role="3cqZAp">
+          <node concept="1rXfSq" id="1WUmu1FA9jN" role="3clFbG">
+            <ref role="37wK5l" node="1WUmu1F_HrB" resolve="checkToInstallConfirmCloseAlert" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="zBgVaCWLxC" role="jymVt" />
@@ -11177,7 +11182,11 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4n24ZlEwwLy" role="3cqZAp" />
+        <node concept="3clFbF" id="1WUmu1FA6BR" role="3cqZAp">
+          <node concept="1rXfSq" id="1WUmu1FA6BP" role="3clFbG">
+            <ref role="37wK5l" node="1WUmu1F_HrB" resolve="checkToInstallConfirmCloseAlert" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="zBgVaCWGNG" role="jymVt" />
@@ -51009,7 +51018,12 @@
       <node concept="3Tm6S6" id="6z8g0a0i6Ck" role="1B3o_S" />
       <node concept="17QB3L" id="6z8g0a0i9Ed" role="1tU5fm" />
     </node>
-    <node concept="2tJIrI" id="7UzLC3AEtMH" role="jymVt" />
+    <node concept="312cEg" id="1WUmu1FAjnh" role="jymVt">
+      <property role="TrG5h" value="confirmClosedInstalled" />
+      <node concept="3Tm6S6" id="1WUmu1FAjni" role="1B3o_S" />
+      <node concept="10P_77" id="1WUmu1FApbx" role="1tU5fm" />
+      <node concept="3clFbT" id="1WUmu1FArYo" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="7UzLC3AMTm4" role="jymVt" />
     <node concept="3clFbW" id="7UzLC3zy9RM" role="jymVt">
       <node concept="37vLTG" id="7UzLC3zy9RN" role="3clF46">
@@ -52972,8 +52986,98 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="3y7CfyfoHuH" role="jymVt" />
-    <node concept="2tJIrI" id="4uJMAbG4Swt" role="jymVt" />
+    <node concept="2tJIrI" id="1WUmu1F_yam" role="jymVt" />
+    <node concept="3clFb_" id="1WUmu1F_HrB" role="jymVt">
+      <property role="TrG5h" value="checkToInstallConfirmCloseAlert" />
+      <node concept="3clFbS" id="1WUmu1F_HrE" role="3clF47">
+        <node concept="3cpWs8" id="1WUmu1FAtOO" role="3cqZAp">
+          <node concept="3cpWsn" id="1WUmu1FAtOR" role="3cpWs9">
+            <property role="TrG5h" value="needInstall" />
+            <node concept="10P_77" id="1WUmu1FAtOM" role="1tU5fm" />
+            <node concept="3fqX7Q" id="1WUmu1FAu6w" role="33vP2m">
+              <node concept="1rXfSq" id="1WUmu1FAunD" role="3fr31v">
+                <ref role="37wK5l" node="7UzLC3AJ40O" resolve="noGraphsToCommit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1WUmu1FAvQm" role="3cqZAp" />
+        <node concept="3clFbJ" id="1WUmu1FAw6W" role="3cqZAp">
+          <node concept="3clFbS" id="1WUmu1FAw6Y" role="3clFbx">
+            <node concept="3clFbF" id="1WUmu1FAyQU" role="3cqZAp">
+              <node concept="2OqwBi" id="1WUmu1FA$FU" role="3clFbG">
+                <node concept="37vLTw" id="1WUmu1FAyQS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="70fITYGBl1T" resolve="appMainWindow" />
+                </node>
+                <node concept="liA8E" id="1WUmu1FAAvt" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:1WUmu1FhiuA" resolve="installCloseConfirmQuestion" />
+                  <node concept="3clFbT" id="1WUmu1FAAMV" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1WUmu1FAB8n" role="3cqZAp">
+              <node concept="37vLTI" id="1WUmu1FABAo" role="3clFbG">
+                <node concept="3clFbT" id="1WUmu1FABJt" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="1WUmu1FAB8l" role="37vLTJ">
+                  <ref role="3cqZAo" node="1WUmu1FAjnh" resolve="confirmClosedInstalled" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1WUmu1FADet" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="1WUmu1FAwM6" role="3clFbw">
+            <node concept="3fqX7Q" id="1WUmu1FAx2C" role="3uHU7w">
+              <node concept="37vLTw" id="1WUmu1FAxba" role="3fr31v">
+                <ref role="3cqZAo" node="1WUmu1FAjnh" resolve="confirmClosedInstalled" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1WUmu1FAwu9" role="3uHU7B">
+              <ref role="3cqZAo" node="1WUmu1FAtOR" resolve="needInstall" />
+            </node>
+          </node>
+          <node concept="3eNFk2" id="1WUmu1FAMmw" role="3eNLev">
+            <node concept="1Wc70l" id="1WUmu1FAOkY" role="3eO9$A">
+              <node concept="3fqX7Q" id="1WUmu1FAPSG" role="3uHU7w">
+                <node concept="37vLTw" id="1WUmu1FAQ8G" role="3fr31v">
+                  <ref role="3cqZAo" node="1WUmu1FAtOR" resolve="needInstall" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="1WUmu1FAMHP" role="3uHU7B">
+                <ref role="3cqZAo" node="1WUmu1FAjnh" resolve="confirmClosedInstalled" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1WUmu1FAMmy" role="3eOfB_">
+              <node concept="3clFbF" id="1WUmu1FAQr4" role="3cqZAp">
+                <node concept="2OqwBi" id="1WUmu1FAQBp" role="3clFbG">
+                  <node concept="37vLTw" id="1WUmu1FAQr2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="70fITYGBl1T" resolve="appMainWindow" />
+                  </node>
+                  <node concept="liA8E" id="1WUmu1FAQKh" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:1WUmu1FhiuA" resolve="installCloseConfirmQuestion" />
+                    <node concept="3clFbT" id="1WUmu1FAQRe" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="1WUmu1FASSw" role="3cqZAp">
+                <node concept="37vLTI" id="1WUmu1FAUyR" role="3clFbG">
+                  <node concept="3clFbT" id="1WUmu1FAUE_" role="37vLTx" />
+                  <node concept="37vLTw" id="1WUmu1FASSu" role="37vLTJ">
+                    <ref role="3cqZAo" node="1WUmu1FAjnh" resolve="confirmClosedInstalled" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1WUmu1F_BT6" role="1B3o_S" />
+      <node concept="3cqZAl" id="1WUmu1FADo7" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="1WUmu1F_yIF" role="jymVt" />
     <node concept="3clFb_" id="7UzLC3AJ40O" role="jymVt">
       <property role="TrG5h" value="noGraphsToCommit" />
       <property role="1EzhhJ" value="true" />

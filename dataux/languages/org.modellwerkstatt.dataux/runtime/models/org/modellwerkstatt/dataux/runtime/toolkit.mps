@@ -1016,6 +1016,16 @@
       <node concept="3Tm1VV" id="_66gAv0xOJ" role="1B3o_S" />
       <node concept="3clFbS" id="_66gAv0xOK" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1WUmu1FhiuA" role="jymVt">
+      <property role="TrG5h" value="installCloseConfirmQuestion" />
+      <node concept="3clFbS" id="1WUmu1FhiuD" role="3clF47" />
+      <node concept="3Tm1VV" id="1WUmu1FhiuE" role="1B3o_S" />
+      <node concept="3cqZAl" id="1WUmu1Fhioj" role="3clF45" />
+      <node concept="37vLTG" id="1WUmu1FhiE4" role="3clF46">
+        <property role="TrG5h" value="installOrRemove" />
+        <node concept="10P_77" id="1WUmu1FhiE3" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5_bDd1dOt4o" role="jymVt" />
     <node concept="3clFb_" id="20ohnkbICqP" role="jymVt">
       <property role="TrG5h" value="addStatusInformation" />
