@@ -328,6 +328,7 @@
       <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
         <reference id="59360650270057722" name="test" index="1Cak38" />
       </concept>
+      <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
@@ -3540,6 +3541,7 @@
         <node concept="3clFbH" id="2WFRMaOqyAn" role="3cqZAp" />
       </node>
     </node>
+    <node concept="1DF_5m" id="43DRYVm3Vtm" role="3yMuLx" />
     <node concept="xWan4" id="6Irl3jv7iIn" role="38MLOi">
       <property role="xWaIZ" value="27" />
       <property role="xWaIW" value="1" />
