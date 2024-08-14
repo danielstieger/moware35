@@ -4839,5 +4839,73 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="4vOJ5DYR1h3">
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <ref role="1M2myG" to="un0u:4vOJ5DYQYZ0" resolve="CommandUrlOption" />
+    <node concept="9S07l" id="4vOJ5DYR1kE" role="9Vyp8">
+      <node concept="3clFbS" id="4vOJ5DYR1kF" role="2VODD2">
+        <node concept="3clFbF" id="4vOJ5DYR1o$" role="3cqZAp">
+          <node concept="3fqX7Q" id="4vOJ5DYR3fn" role="3clFbG">
+            <node concept="2OqwBi" id="4vOJ5DYR3fp" role="3fr31v">
+              <node concept="2OqwBi" id="4vOJ5DYR3fq" role="2Oq$k0">
+                <node concept="2OqwBi" id="4vOJ5DYR3fr" role="2Oq$k0">
+                  <node concept="nLn13" id="4vOJ5DYR3fs" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="4vOJ5DYR3ft" role="2OqNvi">
+                    <node concept="1xMEDy" id="4vOJ5DYR3fu" role="1xVPHs">
+                      <node concept="chp4Y" id="4vOJ5DYR3fv" role="ri$Ld">
+                        <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="4vOJ5DYR3fw" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="4vOJ5DYR3fx" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:5HvIBdINHAd" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="21noJN" id="4vOJ5DYR3fy" role="2OqNvi">
+                <node concept="21nZrQ" id="4vOJ5DYR3fz" role="21noJM">
+                  <ref role="21nZrZ" to="un0u:5HvIBdINHdI" resolve="GRAPH_EDIT_CMD" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4vOJ5DZsNia">
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <ref role="1M2myG" to="un0u:4vOJ5DZ18go" resolve="CommandUrlParamOption" />
+    <node concept="1N5Pfh" id="4vOJ5DZsNib" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:4vOJ5DZ18gp" resolve="param" />
+      <node concept="3dgokm" id="4vOJ5DZsNkb" role="1N6uqs">
+        <node concept="3clFbS" id="4vOJ5DZsNkd" role="2VODD2">
+          <node concept="3clFbF" id="4vOJ5DZOaJd" role="3cqZAp">
+            <node concept="2YIFZM" id="4vOJ5DZsPqT" role="3clFbG">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="4vOJ5DZsNXK" role="37wK5m">
+                <node concept="2OqwBi" id="4vOJ5DZsNxt" role="2Oq$k0">
+                  <node concept="2rP1CM" id="4vOJ5DZsNoS" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="4vOJ5DZsNDi" role="2OqNvi">
+                    <node concept="1xMEDy" id="4vOJ5DZsNDk" role="1xVPHs">
+                      <node concept="chp4Y" id="4vOJ5DZsNH6" role="ri$Ld">
+                        <ref role="cht4Q" to="un0u:6ffh1MXzHna" resolve="Command" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="4vOJ5DZsNLJ" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="4vOJ5DZsOeD" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:6ffh1MXA9UH" resolve="parameter" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

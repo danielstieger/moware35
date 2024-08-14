@@ -5252,5 +5252,43 @@
       <ref role="PrY4T" node="q_zDmI5Z8G" resolve="IOFXConfigElement" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4vOJ5DYQYZ0">
+    <property role="EcuMT" value="5184976167871705024" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <property role="TrG5h" value="CommandUrlOption" />
+    <property role="34LRSv" value="URL" />
+    <property role="R4oN_" value="support direct url access" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4vOJ5DYR3oa" role="1TKVEi">
+      <property role="IQ2ns" value="5184976167871723018" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="url" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="4vOJ5DZ18gX" role="1TKVEi">
+      <property role="IQ2ns" value="5184976167874364477" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4vOJ5DZ18go" resolve="CommandUrlParamOption" />
+    </node>
+    <node concept="PrWs8" id="4vOJ5DYQYZ1" role="PzmwI">
+      <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4vOJ5DZ18go">
+    <property role="EcuMT" value="5184976167874364440" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <property role="TrG5h" value="CommandUrlParamOption" />
+    <property role="R4oN_" value="param for the url" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4vOJ5DZ18gp" role="1TKVEi">
+      <property role="IQ2ns" value="5184976167874364441" />
+      <property role="20kJfa" value="param" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6ffh1MXA9UJ" resolve="ContainerParameter" />
+    </node>
+  </node>
 </model>
 
