@@ -2991,12 +2991,12 @@
         <property role="TrG5h" value="CMD_NOT_AVAILABLE" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="gGnCBOHkwK" role="37wK5m">
-          <property role="Xl_RC" value="Kommando nicht verfuegbar. API Fehler? \n\n(%s)" />
+          <property role="Xl_RC" value="Kommando nicht verfuegbar. API Fehler?\n\nVerfügbar sind %s" />
         </node>
         <node concept="10Nm6u" id="gGnCBOHkxP" role="37wK5m" />
         <node concept="10Nm6u" id="gGnCBOHkyQ" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6VB" role="37wK5m">
-          <property role="Xl_RC" value="Command not available or api error? \n\n(%s)" />
+          <property role="Xl_RC" value="Command not available or api error?\n\n Available are %s" />
         </node>
       </node>
       <node concept="QsSxf" id="2e3BpjBfPxm" role="Qtgdg">
