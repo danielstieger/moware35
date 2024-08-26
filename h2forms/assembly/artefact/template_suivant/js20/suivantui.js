@@ -17,6 +17,7 @@ var $$ = function(query) {
 };
 
 var navigationDisabled = false;
+var firstAdjustKeyboardCall = true;
 
 function isSvNavDisabled() {
     return navigationDisabled;
@@ -103,6 +104,36 @@ function svDisableNavigation() {
   });
 }
 
+function svAdjustKeyboard() {
+
+    var hasScan = $('meta[name="h2ScanConclusion"]') != null;
+    var hasGo = $('meta[name="h2GoConclusion"]') != null;
+
+    buttonBar1.show();
+    buttonBar2.show();
+    buttonBar3.show();
+    buttonBar4.show();
+    buttonBar6.show();
+
+    if (hasScan) {
+        buttonBar5.show();
+        buttonBar7.hide();
+    } else {
+        buttonBar5.hide();
+        buttonBar7.show();
+    }
+
+    if (hasGo) {
+        buttonBar6.show();
+        buttonBar8.hide();
+
+    } else {
+        buttonBar6.hide();
+        buttonBar8.show();
+
+    }
+}
+
 function svFocusOnElem(elem) {
     var elemType = elem.type;
     if (elemType == 'text' || elemType == 'textarea') {
@@ -122,7 +153,6 @@ function svAdjustFocus() {
         svFocusOnElem(elem);
     }
 }
-
 
 function installDateCommaReplacer() {
     $$('.sv-datedelegate').forEach(function(inpFld){

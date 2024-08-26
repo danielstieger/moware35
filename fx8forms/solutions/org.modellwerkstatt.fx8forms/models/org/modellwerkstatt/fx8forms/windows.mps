@@ -7714,7 +7714,7 @@
                                             </node>
                                             <node concept="3cpWs3" id="1jy7rUtAAft" role="3uHU7B">
                                               <node concept="Xl_RD" id="1jy7rUtAAm8" role="3uHU7w">
-                                                <property role="Xl_RC" value="\n\n\n" />
+                                                <property role="Xl_RC" value="\n\n\n\n\n" />
                                               </node>
                                               <node concept="37vLTw" id="1jy7rUtAzqk" role="3uHU7B">
                                                 <ref role="3cqZAo" node="3sx4Hz35byI" resolve="appVersionInfo" />
@@ -7722,7 +7722,7 @@
                                             </node>
                                           </node>
                                           <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7w">
-                                            <property role="Xl_RC" value="\nFX8 fat client     Java Ver. " />
+                                            <property role="Xl_RC" value="\n\nFX8 fat client\nJava Ver. " />
                                           </node>
                                         </node>
                                         <node concept="37vLTw" id="38_UPIIQmLm" role="3uHU7w">

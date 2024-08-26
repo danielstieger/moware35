@@ -320,6 +320,17 @@ document.addEventListener('DOMContentLoaded', function() {
     serverTimeMillisOffset = Date.now() - baseForm.ServerMillis.value;
     serverClockUpdate();
 
+    var needsKeyboardOptim = $('meta[name="h2OptimKeyboard"]') != null;
+    if (needsKeyboardOptim) {
+        $$('input[useNumericKeyboard="true"]:not(:disabled)').forEach((element) => element.addEventListener("touchend",
+            (event) => {
+                svLog('touchendHandler', "keyboard requested by touch");
+                svAdjustKeyboard();
+            })
+        );
+    }
+
+
     uploadLocationRetrieve = $('meta[name=h2UploadLocationRetrieve]').content;
     uploadLocationStore = $('meta[name=h2UploadLocationStore]').content;
     camDesiredWidth = Number($('meta[name=h2CamDesiredWidth]').content);

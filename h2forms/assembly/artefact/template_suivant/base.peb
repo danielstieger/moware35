@@ -23,7 +23,7 @@
   <meta name="msapplication-TileColor" content="#c6c6c6">
 
 
-{% if keyboard %}
+{% if keyboard and not optimKeyboard %}
     <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
@@ -56,14 +56,17 @@
     <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
     <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
 {% endif %}
+
   <meta name="h2UploadLocationRetrieve" content="{{ statics.uploadLocationRetrieve }}">
   <meta name="h2UploadLocationStore" content="{{ statics.uploadLocationStore }}">
   <meta name="h2CamDesiredWidth" content="{{ statics.camDesiredWidth }}">
   <meta name="h2CamDesiredHeight" content="{{ statics.camDesiredHeight }}">
   <meta name="h2CamUseSystemViewfinder" content="{{ statics.camUseSystemViewfinder }}">
-{% if defaultConclusion is not null %}
-  <meta name="h2DefaultConclusion" content="{{ defaultConclusion.triggerCode }}">
-{% endif %}
+{% if defaultConclusion is not null %}  <meta name="h2DefaultConclusion" content="true"> {% endif %}
+{% if scanConclusion is not null %}  <meta name="h2ScanConclusion" content="true"> {% endif %}
+{% if goConclusion is not null %}  <meta name="h2GoConclusion" content="true">{% endif %}
+{% if keyboard and optimKeyboard %}  <meta name="h2OptimKeyboard" content="true">{% endif %}
+
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 

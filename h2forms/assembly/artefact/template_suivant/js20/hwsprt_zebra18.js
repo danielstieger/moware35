@@ -100,6 +100,7 @@ function hwInitAfterDomReady(){
 
     		} else {
     		    EB.Sip.disableAllIME();
+
             }
     };
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
