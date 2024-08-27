@@ -2063,6 +2063,12 @@
           <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUi" />
         </node>
       </node>
+      <node concept="37vLTG" id="CpxjlTMza$" role="3clF46">
+        <property role="TrG5h" value="parent" />
+        <node concept="3uibUv" id="CpxjlTMznX" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="7UzLC3yZ8BI" role="3clF45" />
       <node concept="3Tm1VV" id="7UzLC3yZ8BJ" role="1B3o_S" />
       <node concept="3clFbS" id="7UzLC3yZ8BL" role="3clF47">
