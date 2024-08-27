@@ -3390,10 +3390,12 @@
     </node>
     <node concept="3clFb_" id="7rG0OCcMLxp" role="jymVt">
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isWindowTitleOverWrite" />
+      <property role="TrG5h" value="getWindowTitleType" />
       <node concept="3clFbS" id="7rG0OCcMLxs" role="3clF47" />
       <node concept="3Tm1VV" id="7rG0OCcMLxt" role="1B3o_S" />
-      <node concept="10P_77" id="7rG0OCcMLrB" role="3clF45" />
+      <node concept="3uibUv" id="R_Y55k$$hs" role="3clF45">
+        <ref role="3uigEE" node="R_Y55k$yFZ" resolve="IOFXCommand.OFXWindowTitleType" />
+      </node>
     </node>
     <node concept="3clFb_" id="7rqBz8B3JNw" role="jymVt">
       <property role="TrG5h" value="getCommandHelp" />
@@ -3869,6 +3871,22 @@
         <node concept="10P_77" id="1TzFyv1N6j9" role="3clF45" />
         <node concept="3Tm1VV" id="1TzFyv1N0JB" role="1B3o_S" />
       </node>
+    </node>
+    <node concept="Qs71p" id="R_Y55k$yFZ" role="jymVt">
+      <property role="TrG5h" value="OFXWindowTitleType" />
+      <node concept="QsSxf" id="R_Y55k$zi8" role="Qtgdg">
+        <property role="TrG5h" value="ADD_ON" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="R_Y55k$zyG" role="Qtgdg">
+        <property role="TrG5h" value="OVERWRITE" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="R_Y55k$zQz" role="Qtgdg">
+        <property role="TrG5h" value="FORCE_OVERWRITE" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="R_Y55k$yG0" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="66CXFVAgV$z" role="jymVt" />
   </node>
@@ -68193,7 +68211,9 @@
     <node concept="312cEg" id="2IXocwdUBnM" role="jymVt">
       <property role="TrG5h" value="cmdTitleOverwrite" />
       <node concept="3Tmbuc" id="2IXocwdUBnN" role="1B3o_S" />
-      <node concept="10P_77" id="2IXocwdUBWB" role="1tU5fm" />
+      <node concept="3uibUv" id="R_Y55kIjHl" role="1tU5fm">
+        <ref role="3uigEE" node="R_Y55k$yFZ" resolve="IOFXCommand.OFXWindowTitleType" />
+      </node>
     </node>
     <node concept="2tJIrI" id="2IXocwe2SPB" role="jymVt" />
     <node concept="312cEg" id="2IXocwe2aB0" role="jymVt">
@@ -68261,7 +68281,9 @@
       </node>
       <node concept="37vLTG" id="2IXocwdUwPF" role="3clF46">
         <property role="TrG5h" value="titleOverwrite" />
-        <node concept="10P_77" id="2IXocwdUx1V" role="1tU5fm" />
+        <node concept="3uibUv" id="R_Y55kIlqs" role="1tU5fm">
+          <ref role="3uigEE" node="R_Y55k$yFZ" resolve="IOFXCommand.OFXWindowTitleType" />
+        </node>
       </node>
       <node concept="37vLTG" id="2IXocwegTbo" role="3clF46">
         <property role="TrG5h" value="hasSucc" />
@@ -68448,19 +68470,21 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="2IXocwdUDoC" role="jymVt">
+    <node concept="3clFb_" id="R_Y55kInA_" role="jymVt">
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isWindowTitleOverWrite" />
-      <node concept="3Tm1VV" id="2IXocwdUDoE" role="1B3o_S" />
-      <node concept="10P_77" id="2IXocwdUDoF" role="3clF45" />
-      <node concept="3clFbS" id="2IXocwdUDoG" role="3clF47">
+      <property role="TrG5h" value="getWindowTitleType" />
+      <node concept="3Tm1VV" id="R_Y55kInAB" role="1B3o_S" />
+      <node concept="3uibUv" id="R_Y55kInAC" role="3clF45">
+        <ref role="3uigEE" node="R_Y55k$yFZ" resolve="IOFXCommand.OFXWindowTitleType" />
+      </node>
+      <node concept="3clFbS" id="R_Y55kInAD" role="3clF47">
         <node concept="3clFbF" id="2IXocwdUEON" role="3cqZAp">
           <node concept="37vLTw" id="2IXocwdUEOK" role="3clFbG">
             <ref role="3cqZAo" node="2IXocwdUBnM" resolve="cmdTitleOverwrite" />
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="2IXocwdUDoH" role="2AJF6D">
+      <node concept="2AHcQZ" id="R_Y55kInAE" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

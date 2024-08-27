@@ -21,6 +21,9 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -56,6 +59,7 @@
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -769,6 +773,67 @@
     <node concept="1opIMY" id="1ULcFtpVs6h" role="_YvDr" />
     <node concept="1opIMY" id="2_x_Ma0Sra1" role="_YvDr" />
     <node concept="1opIMY" id="2_x_Ma0Sra2" role="_YvDr" />
+  </node>
+  <node concept="_UgoZ" id="R_Y55kHGO4">
+    <property role="2BwPSy" value="4AbjR7I215i/migration" />
+    <property role="TrG5h" value="Moware11_2024_22" />
+    <property role="_Wzho" value="MoWare 11 2024.22 mirgation" />
+    <property role="2BwPS$" value="MoWare Scripts" />
+    <node concept="_XfAh" id="R_Y55kHGO5" role="_YvDr">
+      <property role="_XH9r" value="Change command window title type" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="R_Y55kHGO6" role="_XPhp">
+        <node concept="3clFbS" id="R_Y55kHGO7" role="2VODD2">
+          <node concept="3clFbJ" id="R_Y55kHYHu" role="3cqZAp">
+            <node concept="2OqwBi" id="R_Y55kHYW8" role="3clFbw">
+              <node concept="_YI3z" id="R_Y55kHYHM" role="2Oq$k0" />
+              <node concept="3TrcHB" id="R_Y55kHZd7" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:7rG0OCcIAfg" resolve="overWriteWindowTitle" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="R_Y55kHYHw" role="3clFbx">
+              <node concept="3clFbF" id="R_Y55kHZgt" role="3cqZAp">
+                <node concept="2OqwBi" id="R_Y55kHZP8" role="3clFbG">
+                  <node concept="2OqwBi" id="R_Y55kHZsf" role="2Oq$k0">
+                    <node concept="_YI3z" id="R_Y55kHZgs" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="R_Y55kHZHg" role="2OqNvi">
+                      <ref role="3TsBF5" to="un0u:R_Y55k$BtE" resolve="newWindowTitleType" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="R_Y55kHZW7" role="2OqNvi">
+                    <node concept="21nZrQ" id="R_Y55kHZXY" role="tz02z">
+                      <ref role="21nZrZ" to="un0u:R_Y55k$Btw" resolve="OVERWRITE" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="9aQIb" id="R_Y55kI01q" role="9aQIa">
+              <node concept="3clFbS" id="R_Y55kI01r" role="9aQI4">
+                <node concept="3clFbF" id="R_Y55kI02e" role="3cqZAp">
+                  <node concept="2OqwBi" id="R_Y55kI0Bi" role="3clFbG">
+                    <node concept="2OqwBi" id="R_Y55kI0e0" role="2Oq$k0">
+                      <node concept="_YI3z" id="R_Y55kI02d" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="R_Y55kI0vq" role="2OqNvi">
+                        <ref role="3TsBF5" to="un0u:R_Y55k$BtE" resolve="newWindowTitleType" />
+                      </node>
+                    </node>
+                    <node concept="tyxLq" id="R_Y55kI0I5" role="2OqNvi">
+                      <node concept="21nZrQ" id="R_Y55kI0JW" role="tz02z">
+                        <ref role="21nZrZ" to="un0u:R_Y55k$Bap" resolve="ADDON" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1opIMY" id="R_Y55kHGOL" role="_YvDr" />
+    <node concept="1opIMY" id="R_Y55kHGOM" role="_YvDr" />
+    <node concept="1opIMY" id="R_Y55kHGON" role="_YvDr" />
   </node>
 </model>
 

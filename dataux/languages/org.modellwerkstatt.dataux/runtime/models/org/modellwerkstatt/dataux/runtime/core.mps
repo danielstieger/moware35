@@ -14870,14 +14870,18 @@
                   <node concept="3clFbH" id="T1jWmtFYvt" role="3cqZAp" />
                 </node>
                 <node concept="1Wc70l" id="7rG0OCcSsup" role="3clFbw">
-                  <node concept="3fqX7Q" id="7rG0OCcSucy" role="3uHU7w">
-                    <node concept="2OqwBi" id="7rG0OCcSuc$" role="3fr31v">
+                  <node concept="3clFbC" id="R_Y55kSUkM" role="3uHU7w">
+                    <node concept="2OqwBi" id="7rG0OCcSuc$" role="3uHU7B">
                       <node concept="37vLTw" id="7rG0OCcSuc_" role="2Oq$k0">
                         <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                       </node>
                       <node concept="liA8E" id="7rG0OCcSucA" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:7rG0OCcMLxp" resolve="isWindowTitleOverWrite" />
+                        <ref role="37wK5l" to="28jr:7rG0OCcMLxp" resolve="getWindowTitleType" />
                       </node>
+                    </node>
+                    <node concept="Rm8GO" id="R_Y55kSVT7" role="3uHU7w">
+                      <ref role="Rm8GQ" to="28jr:R_Y55k$zi8" resolve="ADD_ON" />
+                      <ref role="1Px2BO" to="28jr:R_Y55k$yFZ" resolve="IOFXCommand.OFXWindowTitleType" />
                     </node>
                   </node>
                   <node concept="3y3z36" id="5_bDd1dGKAB" role="3uHU7B">
@@ -14889,12 +14893,18 @@
                 </node>
                 <node concept="3eNFk2" id="7rG0OCcSuWk" role="3eNLev">
                   <node concept="1Wc70l" id="7rG0OCcSwmX" role="3eO9$A">
-                    <node concept="2OqwBi" id="7rG0OCcSwqG" role="3uHU7w">
-                      <node concept="37vLTw" id="7rG0OCcSwoF" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                    <node concept="3clFbC" id="R_Y55kSP6q" role="3uHU7w">
+                      <node concept="Rm8GO" id="R_Y55kSTdU" role="3uHU7w">
+                        <ref role="Rm8GQ" to="28jr:R_Y55k$zyG" resolve="OVERWRITE" />
+                        <ref role="1Px2BO" to="28jr:R_Y55k$yFZ" resolve="IOFXCommand.OFXWindowTitleType" />
                       </node>
-                      <node concept="liA8E" id="7rG0OCcSxci" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:7rG0OCcMLxp" resolve="isWindowTitleOverWrite" />
+                      <node concept="2OqwBi" id="7rG0OCcSwqG" role="3uHU7B">
+                        <node concept="37vLTw" id="7rG0OCcSwoF" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                        </node>
+                        <node concept="liA8E" id="7rG0OCcSxci" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:7rG0OCcMLxp" resolve="getWindowTitleType" />
+                        </node>
                       </node>
                     </node>
                     <node concept="3y3z36" id="7rG0OCcSvTp" role="3uHU7B">

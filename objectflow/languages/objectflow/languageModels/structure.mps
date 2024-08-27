@@ -726,6 +726,12 @@
       <property role="TrG5h" value="overWriteWindowTitle" />
       <property role="IQ2nx" value="8569227807555216336" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="asaX9" id="R_Y55k$BtC" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="R_Y55k$BtE" role="1TKVEl">
+      <property role="IQ2nx" value="1001479520354727786" />
+      <property role="TrG5h" value="newWindowTitleType" />
+      <ref role="AX2Wp" node="R_Y55k$Bao" resolve="O2WindowTitleType" />
     </node>
     <node concept="1TJgyi" id="5HvIBdINHAd" role="1TKVEl">
       <property role="TrG5h" value="newCommandType" />
@@ -5295,6 +5301,27 @@
       <property role="20kJfa" value="param" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6ffh1MXA9UJ" resolve="ContainerParameter" />
+    </node>
+  </node>
+  <node concept="25R3W" id="R_Y55k$Bao">
+    <property role="3F6X1D" value="1001479520354726552" />
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <property role="TrG5h" value="O2WindowTitleType" />
+    <ref role="1H5jkz" node="R_Y55k$Bap" resolve="ADDON" />
+    <node concept="25R33" id="R_Y55k$Bap" role="25R1y">
+      <property role="3tVfz5" value="1001479520354726553" />
+      <property role="TrG5h" value="ADDON" />
+      <property role="1L1pqM" value="(addon)" />
+    </node>
+    <node concept="25R33" id="R_Y55k$Btw" role="25R1y">
+      <property role="3tVfz5" value="1001479520354727776" />
+      <property role="TrG5h" value="OVERWRITE" />
+      <property role="1L1pqM" value="(overwrite)" />
+    </node>
+    <node concept="25R33" id="R_Y55k$Btz" role="25R1y">
+      <property role="3tVfz5" value="1001479520354727779" />
+      <property role="TrG5h" value="OVERWRITE_FORCED" />
+      <property role="1L1pqM" value="(overwrite predecessor)" />
     </node>
   </node>
 </model>
