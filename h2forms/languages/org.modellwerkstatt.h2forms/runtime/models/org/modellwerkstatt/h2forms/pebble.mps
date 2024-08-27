@@ -3453,6 +3453,30 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="CpxjlTzhTZ" role="jymVt">
+      <property role="TrG5h" value="adjustWindowTitle" />
+      <node concept="37vLTG" id="CpxjlTzhU0" role="3clF46">
+        <property role="TrG5h" value="title" />
+        <node concept="17QB3L" id="CpxjlTzhU1" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="CpxjlTzhU3" role="1B3o_S" />
+      <node concept="3cqZAl" id="CpxjlTzhU4" role="3clF45" />
+      <node concept="3clFbS" id="CpxjlTzhU5" role="3clF47">
+        <node concept="3clFbF" id="CpxjlTzlQp" role="3cqZAp">
+          <node concept="37vLTI" id="CpxjlTzma6" role="3clFbG">
+            <node concept="37vLTw" id="CpxjlTzmbN" role="37vLTx">
+              <ref role="3cqZAo" node="CpxjlTzhU0" resolve="title" />
+            </node>
+            <node concept="37vLTw" id="CpxjlTzlQo" role="37vLTJ">
+              <ref role="3cqZAo" node="2xnCXJMh8RM" resolve="windowTitle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="CpxjlTzhU6" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2xnCXJMgrzx" role="jymVt" />
     <node concept="3clFb_" id="2xnCXJMgk$E" role="jymVt">
       <property role="1EzhhJ" value="false" />
