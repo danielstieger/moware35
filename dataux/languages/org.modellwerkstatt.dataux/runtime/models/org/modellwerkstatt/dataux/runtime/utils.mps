@@ -2903,12 +2903,12 @@
         <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="7S_QNZ7slv0" role="37wK5m">
-          <property role="Xl_RC" value="Die Applikation wird in einem anderen Browser-Tab bereits ausgeführt oder Sie haben sich mit der Applikation nicht abgemeldet (Menu 'START' - 'BEENDEN'). (clicken Sie auf diese Meldung, um zu bestätigen)" />
+          <property role="Xl_RC" value="Die Applikation wird bereits in einem anderen Fenster ausgeführt. Schließen sie dieses Fenster oder bestätigen Sie, um die andere Anwendung ohne speichern zu schließen." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDs" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDt" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6l2" role="37wK5m">
-          <property role="Xl_RC" value="This app is executed in another browser-tab or you did not log-off of this app (Menu 'Start' -&gt; 'Quit'). (Click on this message to confirm)" />
+          <property role="Xl_RC" value="The application is already running in a window. Close this window or confirm to close the other application without saving." />
         </node>
       </node>
       <node concept="QsSxf" id="7DInbKyry1J" role="Qtgdg">
@@ -2991,19 +2991,19 @@
         <property role="TrG5h" value="CMD_NOT_AVAILABLE" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="gGnCBOHkwK" role="37wK5m">
-          <property role="Xl_RC" value="Kommando nicht verfuegbar. API Fehler?\n\nVerfügbar sind %s" />
+          <property role="Xl_RC" value="Kommando nicht verfuegbar. API Fehler? Verfügbar sind .." />
         </node>
         <node concept="10Nm6u" id="gGnCBOHkxP" role="37wK5m" />
         <node concept="10Nm6u" id="gGnCBOHkyQ" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6VB" role="37wK5m">
-          <property role="Xl_RC" value="Command not available or api error?\n\n Available are %s" />
+          <property role="Xl_RC" value="Command not available or api error? Available are .." />
         </node>
       </node>
       <node concept="QsSxf" id="2e3BpjBfPxm" role="Qtgdg">
         <property role="TrG5h" value="INNER_CMD_NOT_ENABLED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="2e3BpjBfQ2G" role="37wK5m">
-          <property role="Xl_RC" value="Das Kommando '%s' konnte nicht angewendet werden.\nWesentliche Bedingung zur Ausführung nicht erfüllt." />
+          <property role="Xl_RC" value="Das Kommando '%s' konnte nicht angewendet werden. Wesentliche Bedingung zur Ausführung nicht erfüllt." />
         </node>
         <node concept="10Nm6u" id="2e3BpjBfQ5E" role="37wK5m" />
         <node concept="10Nm6u" id="2e3BpjBfQ6M" role="37wK5m" />
