@@ -2903,7 +2903,7 @@
         <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="7S_QNZ7slv0" role="37wK5m">
-          <property role="Xl_RC" value="Die Applikation wird bereits in einem anderen Fenster ausgeführt. Schließen sie dieses Fenster oder bestätigen Sie, um die andere Anwendung ohne speichern zu schließen." />
+          <property role="Xl_RC" value="Die Applikation wird bereits in einem anderen Fenster ausgeführt. Schließen sie dieses Fenster oder bestätigen Sie, um die andere Anwendung OHNE SPEICHERN zu schließen." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDs" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDt" role="37wK5m" />

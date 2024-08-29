@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (needsKeyboardOptim) {
         $$('input[useNumericKeyboard="true"]:not(:disabled)').forEach((element) => element.addEventListener("touchend",
             (event) => {
-                svLog('touchendHandler', "keyboard requested by touch (keyboardtouchrequest)");
+                svLog('touchendHandler', "keyboard requested by touch (keyboardtouchrequest) - " + event.target.name);
                 svAdjustKeyboard();
             })
         );
