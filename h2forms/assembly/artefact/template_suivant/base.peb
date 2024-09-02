@@ -62,7 +62,7 @@
   <meta name="h2CamDesiredWidth" content="{{ statics.camDesiredWidth }}">
   <meta name="h2CamDesiredHeight" content="{{ statics.camDesiredHeight }}">
   <meta name="h2CamUseSystemViewfinder" content="{{ statics.camUseSystemViewfinder }}">
-{% if defaultConclusion is not null %}  <meta name="h2DefaultConclusion" content="true"> {% endif %}
+{% if defaultConclusion is not null %}  <meta name="h2DefaultConclusion" content="{{ defaultConclusion.triggerCode }}"> {% endif %}
 {% if scanConclusion is not null %}  <meta name="h2ScanConclusion" content="true"> {% endif %}
 {% if goConclusion is not null %}  <meta name="h2GoConclusion" content="true">{% endif %}
 {% if keyboard and optimKeyboard %}  <meta name="h2OptimKeyboard" content="true">{% endif %}

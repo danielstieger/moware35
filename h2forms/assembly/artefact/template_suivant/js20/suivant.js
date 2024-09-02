@@ -104,6 +104,7 @@ function svOnFormSubmitHandler(){
 
     if (f.NaviCrtl.value) {
         // this is okay. a navi crtl is given
+
     } else {
         // might be a "go" from the android keyboard.
         var metaInfoDefaultConclusion = $('meta[name=h2DefaultConclusion]');

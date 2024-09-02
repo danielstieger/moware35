@@ -11,7 +11,8 @@
     <display-name>APPLICATION_FQNAME APPLICATION_BUILDVERSION</display-name>
 
     <session-config>
-        <session-timeout>3</session-timeout>  <!-- timeout is re-set int turkuapp -->
+        <session-timeout>3</session-timeout>  <!-- this is the timeout for login / start / default windows
+                                                   timeout is re-set int turkuapp -->
 	    <cookie-config>
         	<max-age>86400</max-age>          <!-- 43200 seconds = 12 hours -->
     	</cookie-config>

@@ -148,6 +148,7 @@ function hwInitAfterDomReady(){
             // last one? working on andoid "go" button?
             if (allInputs.length == 1 && allInputs[allInputs.length-1] == event.target) {
                 svSubmitFormWithDefaultConclusion();
+
             } else if (allInputs[allInputs.length-1] == event.target) {
                 //last one, take first.
                 svFocusOnElem(allInputs[0]);
