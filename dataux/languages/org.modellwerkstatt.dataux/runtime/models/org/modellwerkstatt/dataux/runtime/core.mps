@@ -32182,6 +32182,33 @@
       <node concept="3cqZAl" id="7_LnCNXPSSM" role="3clF45" />
       <node concept="3Tm1VV" id="7_LnCNXPSSN" role="1B3o_S" />
       <node concept="3clFbS" id="7_LnCNXPSSO" role="3clF47">
+        <node concept="3clFbF" id="5jtPhJ2vqIa" role="3cqZAp">
+          <node concept="2OqwBi" id="5jtPhJ2vqI7" role="3clFbG">
+            <node concept="10M0yZ" id="5jtPhJ2vqI8" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="5jtPhJ2vqI9" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="5jtPhJ2vswQ" role="37wK5m">
+                <node concept="37vLTw" id="5jtPhJ2vs$I" role="3uHU7w">
+                  <ref role="3cqZAo" node="7_LnCNXQacc" resolve="ev" />
+                </node>
+                <node concept="3cpWs3" id="5jtPhJ2w7GF" role="3uHU7B">
+                  <node concept="Xl_RD" id="5jtPhJ2w7KC" role="3uHU7w">
+                    <property role="Xl_RC" value=" received " />
+                  </node>
+                  <node concept="3cpWs3" id="5jtPhJ2w70r" role="3uHU7B">
+                    <node concept="Xl_RD" id="5jtPhJ2vrLX" role="3uHU7B">
+                      <property role="Xl_RC" value="WindowController.startCommandByEvent " />
+                    </node>
+                    <node concept="Xjq3P" id="5jtPhJ2w75L" role="3uHU7w" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4uJMAbG80VG" role="3cqZAp">
           <node concept="3cpWsn" id="4uJMAbG80VJ" role="3cpWs9">
             <property role="TrG5h" value="startIt" />
