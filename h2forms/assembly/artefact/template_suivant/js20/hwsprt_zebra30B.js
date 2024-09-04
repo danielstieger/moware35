@@ -59,6 +59,7 @@ function zzScanReceived(params){
 
     // no longer alloweder, Dez 19
     // svDisableNavigation();
+    svLog('zzScanReceived', 'scan executed');
 
     var listOfScanFields = $$('input[scanable="true"]');
     listOfScanFields[0].value = params['data'];
@@ -72,6 +73,9 @@ function zzScanReceived(params){
 function zzScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
+
+    svLog('zzScanSubmit', 'Starting a SOFT SCAN');
+
     EB.Barcode.stop();
     EB.Barcode.triggerType = EB.Barcode.SOFT_ONCE;
     EB.Barcode.start();
