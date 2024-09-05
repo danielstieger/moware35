@@ -778,7 +778,17 @@
       <node concept="3Tm1VV" id="cYdxW62TCs" role="1B3o_S" />
       <node concept="10P_77" id="1E9WFYq3aWq" role="1tU5fm" />
     </node>
-    <node concept="2tJIrI" id="cYdxW5QZMN" role="jymVt" />
+    <node concept="312cEg" id="7p7jLwWQzd7" role="jymVt">
+      <property role="TrG5h" value="urlEnabledCmd" />
+      <node concept="3Tm1VV" id="7p7jLwWQy7P" role="1B3o_S" />
+      <node concept="10P_77" id="7p7jLwWQz9a" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="7p7jLwWQMuw" role="jymVt">
+      <property role="TrG5h" value="isGraphEdit" />
+      <node concept="3Tm1VV" id="7p7jLwWQLf_" role="1B3o_S" />
+      <node concept="10P_77" id="7p7jLwWQMqz" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="7p7jLwWQJOS" role="jymVt" />
     <node concept="312cEg" id="54U5LVimAwn" role="jymVt">
       <property role="TrG5h" value="DEBUG" />
       <node concept="3Tm1VV" id="54U5LVim_qH" role="1B3o_S" />
@@ -1388,6 +1398,28 @@
             </node>
             <node concept="37vLTw" id="4LHv1lCe14K" role="37vLTJ">
               <ref role="3cqZAo" node="4LHv1lCdCW2" resolve="toolTip" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7p7jLwWQNXZ" role="3cqZAp">
+          <node concept="37vLTI" id="7p7jLwWQOvn" role="3clFbG">
+            <node concept="2OqwBi" id="7p7jLwWQOL2" role="37vLTx">
+              <node concept="37vLTw" id="7p7jLwWQOGj" role="2Oq$k0">
+                <ref role="3cqZAo" node="Y3fiVJOkQQ" resolve="cmdModule" />
+              </node>
+              <node concept="liA8E" id="7p7jLwWQOXr" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:66CXFVAskW3" resolve="isCommandType" />
+                <node concept="37vLTw" id="7p7jLwWQP2l" role="37wK5m">
+                  <ref role="3cqZAo" node="5$YtY8hobHP" resolve="commandFqName" />
+                </node>
+                <node concept="Rm8GO" id="7p7jLwWR0YX" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:66CXFVAgWJQ" resolve="GRAPH_EDIT_CMD" />
+                  <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="7p7jLwWQNXX" role="37vLTJ">
+              <ref role="3cqZAo" node="7p7jLwWQMuw" resolve="isGraphEdit" />
             </node>
           </node>
         </node>
