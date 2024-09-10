@@ -5296,6 +5296,11 @@
     <property role="TrG5h" value="CommandUrlParamOption" />
     <property role="R4oN_" value="param for the url" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4YtznjaraVp" role="1TKVEl">
+      <property role="IQ2nx" value="5736897033091722969" />
+      <property role="TrG5h" value="optional" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="4vOJ5DZ18gp" role="1TKVEi">
       <property role="IQ2ns" value="5184976167874364441" />
       <property role="20kJfa" value="param" />

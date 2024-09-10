@@ -6825,5 +6825,41 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="4YtznjaraVu">
+    <property role="3GE5qa" value="OFXCore.cmd" />
+    <property role="TrG5h" value="CommandUrlParamOption" />
+    <ref role="2ZfgGC" to="un0u:4vOJ5DZ18go" resolve="CommandUrlParamOption" />
+    <node concept="2S6ZIM" id="4YtznjaraVv" role="2ZfVej">
+      <node concept="3clFbS" id="4YtznjaraVw" role="2VODD2">
+        <node concept="3clFbF" id="4YtznjarbMf" role="3cqZAp">
+          <node concept="Xl_RD" id="4YtznjarbMe" role="3clFbG">
+            <property role="Xl_RC" value="Toggle optional" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4YtznjaraVx" role="2ZfgGD">
+      <node concept="3clFbS" id="4YtznjaraVy" role="2VODD2">
+        <node concept="3clFbF" id="4YtznjarbRw" role="3cqZAp">
+          <node concept="37vLTI" id="4Ytznjarcq$" role="3clFbG">
+            <node concept="3fqX7Q" id="4YtznjarczC" role="37vLTx">
+              <node concept="2OqwBi" id="4YtznjarcMS" role="3fr31v">
+                <node concept="2Sf5sV" id="4YtznjarcDH" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4YtznjarcUV" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:4YtznjaraVp" resolve="optional" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4YtznjarbYI" role="37vLTJ">
+              <node concept="2Sf5sV" id="4YtznjarbRv" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4Ytznjarc63" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:4YtznjaraVp" resolve="optional" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
