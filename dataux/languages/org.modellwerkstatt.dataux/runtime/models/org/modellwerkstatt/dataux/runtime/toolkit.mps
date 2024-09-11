@@ -43,16 +43,7 @@
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
-      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
-        <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
-      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
-        <child id="1164991057263" name="throwable" index="YScLw" />
-      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ" />
@@ -95,7 +86,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -1828,28 +1818,6 @@
       <node concept="3clFbS" id="1kxCqBRcJlJ" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="7UzLC3BpQ56" role="jymVt" />
-    <node concept="3clFb_" id="5idcJboByFV" role="jymVt">
-      <property role="TrG5h" value="openNewWindow" />
-      <node concept="3clFbS" id="5idcJboByFY" role="3clF47">
-        <node concept="YS8fn" id="5idcJbpcD4u" role="3cqZAp">
-          <node concept="2ShNRf" id="5idcJbpcD65" role="YScLw">
-            <node concept="1pGfFk" id="5idcJbpcDrA" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="5idcJbpcDtf" role="37wK5m">
-                <property role="Xl_RC" value="This should not happen! Not implemented for this platform." />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="5idcJboByFZ" role="1B3o_S" />
-      <node concept="3cqZAl" id="5idcJboByDd" role="3clF45" />
-      <node concept="37vLTG" id="5idcJboByRf" role="3clF46">
-        <property role="TrG5h" value="url" />
-        <node concept="17QB3L" id="5idcJboByRe" role="1tU5fm" />
-      </node>
-      <node concept="2JFqV2" id="5idcJbpcD1a" role="2frcjj" />
-    </node>
     <node concept="3clFb_" id="1WUmu1FhiuA" role="jymVt">
       <property role="TrG5h" value="installCloseConfirmQuestion" />
       <node concept="3clFbS" id="1WUmu1FhiuD" role="3clF47">
