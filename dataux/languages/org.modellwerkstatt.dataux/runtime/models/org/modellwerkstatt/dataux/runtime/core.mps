@@ -12682,6 +12682,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="1ZmiH7rldEx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="2tJIrI" id="7UzLC3ALbJ4" role="jymVt" />
     <node concept="3clFb_" id="6DdGzN5GNX2" role="jymVt">
@@ -50799,6 +50802,35 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="7UzLC3AzhK8" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1ZmiH7rk56F" role="jymVt" />
+    <node concept="3clFb_" id="1ZmiH7rkfhd" role="jymVt">
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="openUrl" />
+      <node concept="3Tm1VV" id="1ZmiH7rkfhf" role="1B3o_S" />
+      <node concept="3cqZAl" id="1ZmiH7rkfhg" role="3clF45" />
+      <node concept="37vLTG" id="1ZmiH7rkfhh" role="3clF46">
+        <property role="TrG5h" value="url" />
+        <node concept="17QB3L" id="1ZmiH7rkfhi" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="1ZmiH7rkfhl" role="3clF47">
+        <node concept="3clFbF" id="1ZmiH7rkl0$" role="3cqZAp">
+          <node concept="2OqwBi" id="1ZmiH7rklTA" role="3clFbG">
+            <node concept="37vLTw" id="1ZmiH7rkl0z" role="2Oq$k0">
+              <ref role="3cqZAo" node="3ooJmL_rU_N" resolve="appPrintService" />
+            </node>
+            <node concept="liA8E" id="1ZmiH7rkm$0" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2xJao4Wp9kZ" resolve="openUrl" />
+              <node concept="37vLTw" id="1ZmiH7rkmIw" role="37wK5m">
+                <ref role="3cqZAo" node="1ZmiH7rkfhh" resolve="url" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1ZmiH7rkfhm" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
