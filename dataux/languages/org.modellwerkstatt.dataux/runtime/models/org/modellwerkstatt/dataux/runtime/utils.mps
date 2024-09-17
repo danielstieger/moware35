@@ -2943,12 +2943,12 @@
         <property role="TrG5h" value="CMD_OPENED_IN_OTHER_TAB" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="5JJsFAvpd2h" role="37wK5m">
-          <property role="Xl_RC" value="Das Kommando wird in einem weiteren Browser-Tab ausgeführt." />
+          <property role="Xl_RC" value="Das Kommando wird in einem anderen Browser-Tab bereits ausgeführt." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDy" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDz" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6Pc" role="37wK5m">
-          <property role="Xl_RC" value="The command is executed in another browser tab." />
+          <property role="Xl_RC" value="The command is already running in another browser tab." />
         </node>
       </node>
       <node concept="QsSxf" id="5JJsFAvpd5y" role="Qtgdg">
