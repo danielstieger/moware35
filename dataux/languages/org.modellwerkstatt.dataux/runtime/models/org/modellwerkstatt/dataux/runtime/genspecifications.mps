@@ -2129,14 +2129,14 @@
               <node concept="3cpWs3" id="3nLGOmWvKpV" role="3uHU7B">
                 <node concept="3cpWs3" id="3nLGOmWvJ4k" role="3uHU7B">
                   <node concept="Xl_RD" id="3nLGOmWvIZ_" role="3uHU7B">
-                    <property role="Xl_RC" value="MenuActionGlue " />
+                    <property role="Xl_RC" value="Action '" />
                   </node>
                   <node concept="37vLTw" id="3nLGOmWvJ4P" role="3uHU7w">
                     <ref role="3cqZAo" node="Y3fiVJM08v" resolve="labelText" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3nLGOmWvKwQ" role="3uHU7w">
-                  <property role="Xl_RC" value="(" />
+                  <property role="Xl_RC" value="' (" />
                 </node>
               </node>
               <node concept="37vLTw" id="4thPVGyRPQ6" role="3uHU7w">
