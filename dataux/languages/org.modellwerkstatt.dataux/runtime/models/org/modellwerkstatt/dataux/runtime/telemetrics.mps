@@ -1715,7 +1715,7 @@
               <node concept="1pGfFk" id="1XvfUlyAav4" role="2ShVmc">
                 <ref role="37wK5l" to="28jr:4QTIUTBRe77" resolve="TelemetricsLongSampler" />
                 <node concept="3cmrfG" id="1XvfUlyAav5" role="37wK5m">
-                  <property role="3cmrfH" value="10000" />
+                  <property role="3cmrfH" value="100000" />
                 </node>
               </node>
             </node>

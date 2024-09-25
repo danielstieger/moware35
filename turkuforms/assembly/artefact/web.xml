@@ -24,6 +24,26 @@
         <servlet-class>org.modellwerkstatt.turkuforms.core.TurkuServlet</servlet-class>
 
         <init-param>
+            <param-name>org.atmosphere.cpr.broadcaster.shareableThreadPool</param-name>
+            <param-value>true</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>org.atmosphere.cpr.broadcaster.maxProcessingThreads</param-name>
+            <param-value>20</param-value>
+        </init-param>
+        
+        <init-param>
+            <param-name>org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads</param-name>
+            <param-value>20</param-value>
+        </init-param>
+        
+        <init-param>
+            <param-name>org.atmosphere.cpr.maxSchedulerThread</param-name>
+            <param-value>20</param-value>
+        </init-param>
+
+        <init-param>
             <param-name>heartbeatInterval</param-name>
             <param-value>300</param-value>
         </init-param>
