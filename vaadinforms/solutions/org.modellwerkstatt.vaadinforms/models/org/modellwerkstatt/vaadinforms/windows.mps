@@ -8666,6 +8666,10 @@
     <node concept="3clFb_" id="41UdyNB_Bgf" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createToolkitFormContainer" />
+      <node concept="37vLTG" id="7LJi68kq8$n" role="3clF46">
+        <property role="TrG5h" value="flex" />
+        <node concept="10P_77" id="7LJi68kqbaI" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="41UdyNB_Bgg" role="3clF45">
         <ref role="3uigEE" to="250q:3VIcZtBc79W" resolve="IToolkit_FormContainer" />
       </node>

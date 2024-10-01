@@ -1783,5 +1783,19 @@
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7LJi68knO_c">
+    <property role="EcuMT" value="8966464969203730764" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="FlexibleOption" />
+    <property role="34LRSv" value="FLEXIBLE" />
+    <property role="R4oN_" value="allow resizing" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7LJi68knO_O" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+    <node concept="1QGGSu" id="7LJi68ko5iV" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
 </model>
 

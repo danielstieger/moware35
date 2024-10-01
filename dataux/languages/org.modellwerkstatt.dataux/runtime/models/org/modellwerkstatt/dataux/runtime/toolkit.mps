@@ -455,6 +455,10 @@
     <node concept="2tJIrI" id="2IXpZ5J4byI" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBdaPD" role="jymVt">
       <property role="TrG5h" value="createToolkitFormContainer" />
+      <node concept="37vLTG" id="7LJi68kpZUG" role="3clF46">
+        <property role="TrG5h" value="flex" />
+        <node concept="10P_77" id="7LJi68kq02v" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="3VIcZtBdaYI" role="3clF45">
         <ref role="3uigEE" node="3VIcZtBc79W" resolve="IToolkit_FormContainer" />
       </node>

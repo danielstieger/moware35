@@ -594,7 +594,7 @@
       </node>
     </node>
     <node concept="312cEg" id="65KdKINRjzV" role="jymVt">
-      <property role="TrG5h" value="prolongedSession" />
+      <property role="TrG5h" value="appCompactMode" />
       <node concept="3Tm6S6" id="65KdKINRjzW" role="1B3o_S" />
       <node concept="10P_77" id="65KdKINRspA" role="1tU5fm" />
       <node concept="3clFbT" id="65KdKINRsR$" role="33vP2m">
@@ -1330,7 +1330,7 @@
     <node concept="2tJIrI" id="6UG$gXA73vg" role="jymVt" />
     <node concept="3clFb_" id="65KdKINRsZg" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setProlongedUserSession" />
+      <property role="TrG5h" value="setCompactMode" />
       <node concept="3cqZAl" id="65KdKINRsZh" role="3clF45" />
       <node concept="3Tm1VV" id="65KdKINRsZi" role="1B3o_S" />
       <node concept="3clFbS" id="65KdKINRsZm" role="3clF47">
@@ -1340,20 +1340,20 @@
               <property role="3clFbU" value="true" />
             </node>
             <node concept="37vLTw" id="65KdKINRtGF" role="37vLTJ">
-              <ref role="3cqZAo" node="65KdKINRjzV" resolve="prolongedSession" />
+              <ref role="3cqZAo" node="65KdKINRjzV" resolve="appCompactMode" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="3clFb_" id="65KdKINRvVm" role="jymVt">
-      <property role="TrG5h" value="isProlongedUserSession" />
+      <property role="TrG5h" value="isCompactMode" />
       <node concept="10P_77" id="65KdKINRwwh" role="3clF45" />
       <node concept="3Tm1VV" id="65KdKINRvVp" role="1B3o_S" />
       <node concept="3clFbS" id="65KdKINRvVq" role="3clF47">
         <node concept="3clFbF" id="65KdKINRysW" role="3cqZAp">
           <node concept="37vLTw" id="65KdKINRysV" role="3clFbG">
-            <ref role="3cqZAo" node="65KdKINRjzV" resolve="prolongedSession" />
+            <ref role="3cqZAo" node="65KdKINRjzV" resolve="appCompactMode" />
           </node>
         </node>
       </node>
@@ -41612,7 +41612,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2024.24B (turku500_b) (dev " />
+            <property role="Xl_RC" value="moware11 2024.25 (ref) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />

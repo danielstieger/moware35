@@ -775,6 +775,46 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="7LJi68ko987" role="3cqZAp" />
+      <node concept="3clFbJ" id="7LJi68koffo" role="3cqZAp">
+        <node concept="3clFbS" id="7LJi68koffq" role="3clFbx">
+          <node concept="2MkqsV" id="7LJi68konIs" role="3cqZAp">
+            <node concept="Xl_RD" id="7LJi68konIF" role="2MkJ7o">
+              <property role="Xl_RC" value="The flex option in grid layouts is only applicable in one column layouts." />
+            </node>
+            <node concept="1YBJjd" id="7LJi68konKA" role="1urrMF">
+              <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="7LJi68kogs8" role="3clFbw">
+          <node concept="3y3z36" id="7LJi68kon5B" role="3uHU7w">
+            <node concept="3cmrfG" id="7LJi68konBd" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="7LJi68kojbY" role="3uHU7B">
+              <node concept="2OqwBi" id="7LJi68koh2c" role="2Oq$k0">
+                <node concept="1YBJjd" id="7LJi68kogHc" role="2Oq$k0">
+                  <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
+                </node>
+                <node concept="3Tsc0h" id="7LJi68kohvx" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:6MSPLZmFqeK" resolve="colWeights" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="7LJi68kolxP" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7LJi68kofwc" role="3uHU7B">
+            <node concept="1YBJjd" id="7LJi68kofgW" role="2Oq$k0">
+              <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
+            </node>
+            <node concept="2qgKlT" id="7LJi68kog7k" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:7LJi68ko9BH" resolve="isFlex" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="7LJi68ko9aM" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="2zZnBEDypb5" role="1YuTPh">
       <property role="TrG5h" value="gridLayout" />
