@@ -1012,7 +1012,7 @@
           <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
         </node>
         <node concept="3F0ifn" id="5vk963mgldL" role="3EZMnx">
-          <property role="3F0ifm" value="  // overwrites" />
+          <property role="3F0ifm" value="  // overrides" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F1sOY" id="5vk963mglsg" role="3EZMnx">
