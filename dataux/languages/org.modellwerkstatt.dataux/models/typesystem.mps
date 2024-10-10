@@ -194,7 +194,9 @@
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
-      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G">
+        <property id="7181286126212894140" name="doNotApplyOnTheFly" index="1$Xk0j" />
+      </concept>
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
@@ -8289,6 +8291,72 @@
     <node concept="1YaCAy" id="7YWowTUxDIH" role="1YuTPh">
       <property role="TrG5h" value="dynColorConceptFunctionParameter" />
       <ref role="1YaFvo" to="1btx:7YWowTUxDAD" resolve="DynColorConceptFunctionParameter" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6quizraoOIG">
+    <property role="TrG5h" value="check_HintDOption" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="1$Xk0j" value="true" />
+    <node concept="3clFbS" id="6quizraoOIH" role="18ibNy">
+      <node concept="3cpWs8" id="6quizraoOIR" role="3cqZAp">
+        <node concept="3cpWsn" id="6quizraoOIU" role="3cpWs9">
+          <property role="TrG5h" value="refDlgt" />
+          <node concept="3Tqbb2" id="6quizraoOIP" role="1tU5fm">
+            <ref role="ehGHo" to="1btx:3ouNayfF_ek" resolve="ReferenceDelegate" />
+          </node>
+          <node concept="2OqwBi" id="6quizraoORo" role="33vP2m">
+            <node concept="1YBJjd" id="6quizraoOJi" role="2Oq$k0">
+              <ref role="1YBMHb" node="6quizraoOIJ" resolve="hintDOption" />
+            </node>
+            <node concept="2Xjw5R" id="6quizraoOZK" role="2OqNvi">
+              <node concept="1xMEDy" id="6quizraoOZM" role="1xVPHs">
+                <node concept="chp4Y" id="6quizraoP0l" role="ri$Ld">
+                  <ref role="cht4Q" to="1btx:3ouNayfF_ek" resolve="ReferenceDelegate" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6quizraoP1p" role="3cqZAp">
+        <node concept="3clFbS" id="6quizraoP1r" role="3clFbx">
+          <node concept="2MkqsV" id="6quizraoQMF" role="3cqZAp">
+            <node concept="Xl_RD" id="6quizraoQMU" role="2MkJ7o">
+              <property role="Xl_RC" value="Reference delegates providing a hint should also be optional and they should issue an update conclusion" />
+            </node>
+            <node concept="37vLTw" id="6quizrasdPX" role="1urrMF">
+              <ref role="3cqZAo" node="6quizraoOIU" resolve="refDlgt" />
+            </node>
+          </node>
+        </node>
+        <node concept="22lmx$" id="6quizraoQAK" role="3clFbw">
+          <node concept="3fqX7Q" id="6quizraoQtv" role="3uHU7B">
+            <node concept="2OqwBi" id="6quizraoQtx" role="3fr31v">
+              <node concept="37vLTw" id="6quizraoQty" role="2Oq$k0">
+                <ref role="3cqZAo" node="6quizraoOIU" resolve="refDlgt" />
+              </node>
+              <node concept="2qgKlT" id="6quizraoQtz" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:7P$uL5P_EOX" resolve="issuesUpdateConlusion" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6quizraoQfG" role="3uHU7w">
+            <node concept="2OqwBi" id="6quizraoPQo" role="2Oq$k0">
+              <node concept="37vLTw" id="6quizraoPHy" role="2Oq$k0">
+                <ref role="3cqZAo" node="6quizraoOIU" resolve="refDlgt" />
+              </node>
+              <node concept="2qgKlT" id="6quizraoQ4I" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:pQ21WNllNL" resolve="getOptionalOption" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="6quizraoQLS" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6quizraoOIJ" role="1YuTPh">
+      <property role="TrG5h" value="hintDOption" />
+      <ref role="1YaFvo" to="1btx:6quizrag0Es" resolve="HintDOption" />
     </node>
   </node>
 </model>
