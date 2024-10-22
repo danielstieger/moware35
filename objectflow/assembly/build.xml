@@ -40,7 +40,7 @@
   <exec executable="java" outputproperty="baseBuildVersion">
    <arg value="-cp"/>
    <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
-   <arg value="org.modellwerkstatt.simple.o8infra_objects.TestSetting" />
+   <arg value="org.modellwerkstatt.simple.infra.objects.TestSetting" />
   </exec>
 
   <echo>
