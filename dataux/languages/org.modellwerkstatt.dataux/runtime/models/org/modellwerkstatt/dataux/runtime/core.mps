@@ -12458,16 +12458,21 @@
             <property role="TrG5h" value="s" />
             <node concept="17QB3L" id="4n24ZlEwgFe" role="1tU5fm" />
             <node concept="3cpWs3" id="4n24ZlEwjyz" role="33vP2m">
-              <node concept="Xl_RD" id="4n24ZlEwj_8" role="3uHU7w">
-                <property role="Xl_RC" value=" * * * \n\n" />
+              <node concept="3cpWs3" id="2z6UTNh5pqK" role="3uHU7B">
+                <node concept="37vLTw" id="2z6UTNh5ten" role="3uHU7w">
+                  <ref role="3cqZAo" node="5KMLUmAvwvt" resolve="deviceId" />
+                </node>
+                <node concept="3cpWs3" id="2z6UTNh5aU1" role="3uHU7B">
+                  <node concept="1rXfSq" id="7UzLC3zds46" role="3uHU7B">
+                    <ref role="37wK5l" node="b5WIFZ3Ihh" resolve="appUserSystemVersionInfo" />
+                  </node>
+                  <node concept="Xl_RD" id="2z6UTNh5p36" role="3uHU7w">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                </node>
               </node>
-              <node concept="3cpWs3" id="4nH4LOEGPwK" role="3uHU7B">
-                <node concept="1rXfSq" id="7UzLC3zds46" role="3uHU7w">
-                  <ref role="37wK5l" node="b5WIFZ3Ihh" resolve="appUserSystemVersionInfo" />
-                </node>
-                <node concept="Xl_RD" id="4n24ZlEwgIA" role="3uHU7B">
-                  <property role="Xl_RC" value="* * * ApplicationStateInformation " />
-                </node>
+              <node concept="Xl_RD" id="2z6UTNh5yru" role="3uHU7w">
+                <property role="Xl_RC" value=": " />
               </node>
             </node>
           </node>
@@ -12536,7 +12541,7 @@
                             </node>
                           </node>
                           <node concept="Xl_RD" id="4n24ZlEyC3v" role="3uHU7w">
-                            <property role="Xl_RC" value=": " />
+                            <property role="Xl_RC" value=" " />
                           </node>
                         </node>
                         <node concept="AH0OO" id="4n24ZlEyC3w" role="3uHU7w">
@@ -12549,7 +12554,7 @@
                         </node>
                       </node>
                       <node concept="Xl_RD" id="4n24ZlEyC3z" role="3uHU7w">
-                        <property role="Xl_RC" value="\n" />
+                        <property role="Xl_RC" value=", " />
                       </node>
                     </node>
                   </node>
@@ -12573,17 +12578,12 @@
                 <node concept="37vLTw" id="4n24ZlEyDHs" role="37vLTJ">
                   <ref role="3cqZAo" node="4n24ZlEwgFi" resolve="s" />
                 </node>
-                <node concept="3cpWs3" id="4n24ZlEyC3A" role="37vLTx">
-                  <node concept="3cpWs3" id="4n24ZlEyC3B" role="3uHU7B">
-                    <node concept="Xl_RD" id="4n24ZlEyC3C" role="3uHU7B">
-                      <property role="Xl_RC" value="PROMPT:" />
-                    </node>
-                    <node concept="37vLTw" id="4n24ZlEyC3D" role="3uHU7w">
-                      <ref role="3cqZAo" node="1dzqM5xovLP" resolve="promptWindowCommandContainer" />
-                    </node>
+                <node concept="3cpWs3" id="4n24ZlEyC3B" role="37vLTx">
+                  <node concept="Xl_RD" id="4n24ZlEyC3C" role="3uHU7B">
+                    <property role="Xl_RC" value="PROMPT " />
                   </node>
-                  <node concept="Xl_RD" id="4n24ZlEyC3E" role="3uHU7w">
-                    <property role="Xl_RC" value="\n\n" />
+                  <node concept="37vLTw" id="4n24ZlEyC3D" role="3uHU7w">
+                    <ref role="3cqZAo" node="1dzqM5xovLP" resolve="promptWindowCommandContainer" />
                   </node>
                 </node>
               </node>
