@@ -45,7 +45,7 @@
 
         <init-param>
             <param-name>heartbeatInterval</param-name>
-            <param-value>300</param-value>
+            <param-value>43200</param-value>
         </init-param>
 
         <init-param>
