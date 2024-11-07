@@ -12466,6 +12466,14 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
         </node>
+        <node concept="3F0ifn" id="7hq7MPMB0zl" role="3EZMnx">
+          <property role="3F0ifm" value="extends" />
+          <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
+        </node>
+        <node concept="3F1sOY" id="7hq7MPMB0zm" role="3EZMnx">
+          <ref role="1NtTu8" to="tpee:gXzkM_H" resolve="superclass" />
+          <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
+        </node>
         <node concept="l2Vlx" id="6fz7HvelatY" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="6fz7HvelatZ" role="3EZMnx">

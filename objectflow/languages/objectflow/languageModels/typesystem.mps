@@ -6020,6 +6020,133 @@
     <property role="TrG5h" value="check_ViewObject" />
     <property role="3GE5qa" value="BusinessObject" />
     <node concept="3clFbS" id="11hNSr_7NCK" role="18ibNy">
+      <node concept="3clFbJ" id="7hq7MPMBa9n" role="3cqZAp">
+        <node concept="3clFbS" id="7hq7MPMBa9o" role="3clFbx">
+          <node concept="3SKdUt" id="7hq7MPMBa9p" role="3cqZAp">
+            <node concept="1PaTwC" id="7hq7MPMBa9q" role="1aUNEU">
+              <node concept="3oM_SD" id="7hq7MPMBa9r" role="1PaTwD">
+                <property role="3oM_SC" value="ok" />
+              </node>
+              <node concept="3oM_SD" id="7hq7MPMBa9s" role="1PaTwD">
+                <property role="3oM_SC" value=".." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eNFk2" id="7hq7MPMBa9t" role="3eNLev">
+          <node concept="3clFbS" id="7hq7MPMBa9u" role="3eOfB_">
+            <node concept="3clFbJ" id="7hq7MPMBa9v" role="3cqZAp">
+              <node concept="3clFbS" id="7hq7MPMBa9w" role="3clFbx">
+                <node concept="2MkqsV" id="7hq7MPMBa9x" role="3cqZAp">
+                  <node concept="Xl_RD" id="7hq7MPMBa9y" role="2MkJ7o">
+                    <property role="Xl_RC" value="DTOs can not extend themselves." />
+                  </node>
+                  <node concept="2OqwBi" id="7hq7MPMBa9z" role="1urrMF">
+                    <node concept="1YBJjd" id="7hq7MPMBa9$" role="2Oq$k0">
+                      <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
+                    </node>
+                    <node concept="3TrEf2" id="7hq7MPMBa9_" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="7hq7MPMBa9A" role="3clFbw">
+                <node concept="1YBJjd" id="7hq7MPMBa9B" role="3uHU7w">
+                  <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
+                </node>
+                <node concept="2OqwBi" id="7hq7MPMBa9C" role="3uHU7B">
+                  <node concept="1PxgMI" id="7hq7MPMBa9D" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7hq7MPMBa9E" role="1m5AlR">
+                      <node concept="1YBJjd" id="7hq7MPMBa9F" role="2Oq$k0">
+                        <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
+                      </node>
+                      <node concept="3TrEf2" id="7hq7MPMBa9G" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+                      </node>
+                    </node>
+                    <node concept="chp4Y" id="7hq7MPMBa9H" role="3oSUPX">
+                      <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="7hq7MPMBa9I" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7hq7MPMBa9J" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="7hq7MPMBa9K" role="3eO9$A">
+            <node concept="2OqwBi" id="7hq7MPMBa9L" role="3uHU7w">
+              <node concept="2OqwBi" id="7hq7MPMBa9M" role="2Oq$k0">
+                <node concept="1PxgMI" id="7hq7MPMBa9N" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7hq7MPMBa9O" role="1m5AlR">
+                    <node concept="1YBJjd" id="7hq7MPMBa9P" role="2Oq$k0">
+                      <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
+                    </node>
+                    <node concept="3TrEf2" id="7hq7MPMBa9Q" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+                    </node>
+                  </node>
+                  <node concept="chp4Y" id="7hq7MPMBa9R" role="3oSUPX">
+                    <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="7hq7MPMBa9S" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="7hq7MPMBa9T" role="2OqNvi">
+                <node concept="chp4Y" id="7hq7MPMBa9U" role="cj9EA">
+                  <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="DTO" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7hq7MPMBa9V" role="3uHU7B">
+              <node concept="2OqwBi" id="7hq7MPMBa9W" role="2Oq$k0">
+                <node concept="1YBJjd" id="7hq7MPMBa9X" role="2Oq$k0">
+                  <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
+                </node>
+                <node concept="3TrEf2" id="7hq7MPMBa9Y" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="7hq7MPMBa9Z" role="2OqNvi">
+                <node concept="chp4Y" id="7hq7MPMBaa0" role="cj9EA">
+                  <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="7hq7MPMBaa1" role="9aQIa">
+          <node concept="3clFbS" id="7hq7MPMBaa2" role="9aQI4">
+            <node concept="2MkqsV" id="7hq7MPMBaa3" role="3cqZAp">
+              <node concept="Xl_RD" id="7hq7MPMBaa4" role="2MkJ7o">
+                <property role="Xl_RC" value="DTOs can only extend other DTO concepts." />
+              </node>
+              <node concept="1YBJjd" id="7hq7MPMBaa5" role="1urrMF">
+                <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="7hq7MPMBaa6" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7hq7MPMBaa7" role="3clFbw">
+          <node concept="2OqwBi" id="7hq7MPMBaa8" role="2Oq$k0">
+            <node concept="1YBJjd" id="7hq7MPMBaa9" role="2Oq$k0">
+              <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
+            </node>
+            <node concept="3TrEf2" id="7hq7MPMBaaa" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="7hq7MPMBaab" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="7hq7MPMB9rg" role="3cqZAp" />
+      <node concept="3clFbH" id="7hq7MPMB9s3" role="3cqZAp" />
       <node concept="3SKdUt" id="2vvVhmsGr9g" role="3cqZAp">
         <node concept="1PaTwC" id="5HvIBdINI2m" role="1aUNEU">
           <node concept="3oM_SD" id="5HvIBdINI2n" role="1PaTwD">
@@ -6058,7 +6185,7 @@
               <property role="Xl_RC" value="A constructor is necessary for a DTO." />
             </node>
             <node concept="1YBJjd" id="2vvVhmohYHW" role="1urrMF">
-              <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
+              <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
             </node>
           </node>
         </node>
@@ -6066,7 +6193,7 @@
           <node concept="2OqwBi" id="2vvVhmtjI5L" role="3uHU7B">
             <node concept="2OqwBi" id="2vvVhmtjI5M" role="2Oq$k0">
               <node concept="1YBJjd" id="2vvVhmtjI5N" role="2Oq$k0">
-                <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
+                <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
               </node>
               <node concept="2qgKlT" id="2vvVhmtjI5O" role="2OqNvi">
                 <ref role="37wK5l" to="tpek:4_LVZ3pCvsd" resolve="constructors" />
@@ -6087,7 +6214,7 @@
               <property role="Xl_RC" value="A default constructor with 0 parameters is necessary for a DTO." />
             </node>
             <node concept="1YBJjd" id="2CQtLPQM6pU" role="1urrMF">
-              <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
+              <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
             </node>
           </node>
         </node>
@@ -6096,7 +6223,7 @@
           <node concept="2OqwBi" id="2CQtLPQM5Vd" role="3uHU7B">
             <node concept="2OqwBi" id="2CQtLPQM5Ve" role="2Oq$k0">
               <node concept="1YBJjd" id="2CQtLPQM6ce" role="2Oq$k0">
-                <ref role="1YBMHb" node="11hNSr_7NCL" resolve="vo" />
+                <ref role="1YBMHb" node="11hNSr_7NCL" resolve="dto" />
               </node>
               <node concept="2qgKlT" id="2CQtLPQM5Vg" role="2OqNvi">
                 <ref role="37wK5l" to="tpek:4_LVZ3pCvsd" resolve="constructors" />
@@ -6136,7 +6263,7 @@
       <node concept="3clFbH" id="2CQtLPQM5PW" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="11hNSr_7NCL" role="1YuTPh">
-      <property role="TrG5h" value="vo" />
+      <property role="TrG5h" value="dto" />
       <ref role="1YaFvo" to="un0u:4y30FCQIiwZ" resolve="DTO" />
     </node>
   </node>
