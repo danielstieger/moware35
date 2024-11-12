@@ -179,7 +179,8 @@ function svUploadFileDone(args){
         }
 
     }
-    svLog('mUploadFileDone', 'Status is  ' + status);
+    svLog('mUploadFileDone', 'Status is  ' + status + ' by ' + JSON.stringify(args));
+
 
 //    for (let prop in args) {
 //        mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);

@@ -28,6 +28,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.runtime/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
+    <import index="pldn" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.field(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -37860,6 +37861,106 @@
             <ref role="3cqZAo" node="17o2t3rI92_" resolve="template" />
           </node>
         </node>
+        <node concept="3clFbH" id="3D7Yc5b1zmz" role="3cqZAp" />
+        <node concept="3cpWs8" id="3D7Yc5b1vLJ" role="3cqZAp">
+          <node concept="3cpWsn" id="3D7Yc5b1vLK" role="3cpWs9">
+            <property role="TrG5h" value="dt" />
+            <node concept="3uibUv" id="3D7Yc5b1vLL" role="1tU5fm">
+              <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+            </node>
+            <node concept="2ShNRf" id="3D7Yc5b1vPk" role="33vP2m">
+              <node concept="1pGfFk" id="3D7Yc5b1vOG" role="2ShVmc">
+                <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;()" resolve="DateTime" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3D7Yc5b1sEQ" role="3cqZAp">
+          <node concept="d57v9" id="3D7Yc5b1tsg" role="3clFbG">
+            <node concept="37vLTw" id="3D7Yc5b1tsj" role="37vLTJ">
+              <ref role="3cqZAo" node="46JJF8IM4HV" resolve="editorId" />
+            </node>
+            <node concept="3cpWs3" id="3D7Yc5b1yy7" role="37vLTx">
+              <node concept="2OqwBi" id="3D7Yc5b1Qdo" role="3uHU7w">
+                <node concept="2OqwBi" id="3D7Yc5b1yUC" role="2Oq$k0">
+                  <node concept="37vLTw" id="3D7Yc5b1yC2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3D7Yc5b1vLK" resolve="dt" />
+                  </node>
+                  <node concept="liA8E" id="3D7Yc5b1z9a" role="2OqNvi">
+                    <ref role="37wK5l" to="w08f:~DateTime.minuteOfHour()" resolve="minuteOfHour" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3D7Yc5b1QkW" role="2OqNvi">
+                  <ref role="37wK5l" to="pldn:~AbstractReadableInstantFieldProperty.get()" resolve="get" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="3D7Yc5b1xO$" role="3uHU7B">
+                <node concept="3cpWs3" id="3D7Yc5b1x7a" role="3uHU7B">
+                  <node concept="3cpWs3" id="3D7Yc5b1wul" role="3uHU7B">
+                    <node concept="3cpWs3" id="3D7Yc5b1tJT" role="3uHU7B">
+                      <node concept="Xl_RD" id="3D7Yc5b1tLe" role="3uHU7B">
+                        <property role="Xl_RC" value="_" />
+                      </node>
+                      <node concept="2OqwBi" id="3D7Yc5b1Pp9" role="3uHU7w">
+                        <node concept="2OqwBi" id="3D7Yc5b1wb4" role="2Oq$k0">
+                          <node concept="37vLTw" id="3D7Yc5b1vQw" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3D7Yc5b1vLK" resolve="dt" />
+                          </node>
+                          <node concept="liA8E" id="3D7Yc5b1wmP" role="2OqNvi">
+                            <ref role="37wK5l" to="w08f:~DateTime.year()" resolve="year" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3D7Yc5b1Pxs" role="2OqNvi">
+                          <ref role="37wK5l" to="pldn:~AbstractReadableInstantFieldProperty.get()" resolve="get" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="3D7Yc5b1PCd" role="3uHU7w">
+                      <node concept="2OqwBi" id="3D7Yc5b1wQ4" role="2Oq$k0">
+                        <node concept="37vLTw" id="3D7Yc5b1wwV" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3D7Yc5b1vLK" resolve="dt" />
+                        </node>
+                        <node concept="liA8E" id="3D7Yc5b1x2r" role="2OqNvi">
+                          <ref role="37wK5l" to="w08f:~DateTime.monthOfYear()" resolve="monthOfYear" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3D7Yc5b1PIy" role="2OqNvi">
+                        <ref role="37wK5l" to="pldn:~AbstractReadableInstantFieldProperty.get()" resolve="get" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="3D7Yc5b1PMX" role="3uHU7w">
+                    <node concept="2OqwBi" id="3D7Yc5b1xsn" role="2Oq$k0">
+                      <node concept="37vLTw" id="3D7Yc5b1xaT" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3D7Yc5b1vLK" resolve="dt" />
+                      </node>
+                      <node concept="liA8E" id="3D7Yc5b1xDi" role="2OqNvi">
+                        <ref role="37wK5l" to="w08f:~DateTime.dayOfMonth()" resolve="dayOfMonth" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3D7Yc5b1PTF" role="2OqNvi">
+                      <ref role="37wK5l" to="pldn:~AbstractReadableInstantFieldProperty.get()" resolve="get" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3D7Yc5b1PYs" role="3uHU7w">
+                  <node concept="2OqwBi" id="3D7Yc5b1ybs" role="2Oq$k0">
+                    <node concept="37vLTw" id="3D7Yc5b1xTq" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3D7Yc5b1vLK" resolve="dt" />
+                    </node>
+                    <node concept="liA8E" id="3D7Yc5b1yoV" role="2OqNvi">
+                      <ref role="37wK5l" to="w08f:~DateTime.hourOfDay()" resolve="hourOfDay" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3D7Yc5b1Q5B" role="2OqNvi">
+                    <ref role="37wK5l" to="pldn:~AbstractReadableInstantFieldProperty.get()" resolve="get" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3D7Yc5b1zh2" role="3cqZAp" />
         <node concept="3clFbF" id="3nTGeEaiuyX" role="3cqZAp">
           <node concept="37vLTI" id="3nTGeEaiuTx" role="3clFbG">
             <node concept="37vLTw" id="3nTGeEaivJn" role="37vLTx">

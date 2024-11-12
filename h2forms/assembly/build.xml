@@ -61,6 +61,10 @@
       <fileset dir="${solultionSimpleGen}" />
     </copy>
     
+    <copy todir="work/WEB-INF/lib">
+	  <fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="mysql*.jar" />   
+    </copy>
+    
     
     <mkdir dir="dist"/>  
     <jar destfile="dist/${appName}.war" basedir="${mowareWorkDir}" update="false">
