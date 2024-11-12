@@ -179,7 +179,7 @@ function svUploadFileDone(args){
         }
 
     }
-    svLog('mUploadFileDone', 'Status is  ' + status + ' by ' + JSON.stringify(args));
+    svLog('mUploadFileDone', 'Status is  ' + status + ' due to ' + JSON.stringify(args));
 
 
 //    for (let prop in args) {
