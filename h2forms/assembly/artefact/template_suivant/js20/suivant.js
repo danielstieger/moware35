@@ -25,7 +25,7 @@ var uploadLocationRetrieve = '?';
 var uploadCameraToUse = null;
 var uploadEditorId = null;
 var uploadInternalFilename = '/data/tmp/public/';
-
+var uploadTmpFilename = '';
 
 function svScanEnabled(){
     return ($('input[name="scanconclusion"]') != null);
@@ -166,6 +166,9 @@ function setLastRequestIssuedMillis(baseForm) {
  */
 function svUploadFileDone(args){
     var status = args['status'];
+
+    // strange TC27 bug
+
     if ('body' in args) {
         var filename = args['body'].replace(/^\s+|\s+$/g, '');
         status += '; (' + filename + ')';
@@ -202,6 +205,7 @@ function svCameraPicTaken(cbData){
 
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
+            uploadTmpFilename = imgName;
 
             var uploadfileProps = {
              url: uploadLocationStore,

@@ -18,6 +18,16 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -48,6 +58,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -1809,6 +1820,237 @@
     </node>
     <node concept="1QGGSu" id="6quizrag0Ev" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3wPTV4XWb6I">
+    <property role="EcuMT" value="4050398188324041134" />
+    <property role="TrG5h" value="ApiDescription" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="API Description" />
+    <property role="3GE5qa" value="api" />
+    <node concept="1TJgyj" id="3wPTV4Y9Thc" role="1TKVEi">
+      <property role="IQ2ns" value="4050398188327638092" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="endpoints" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3wPTV4Y9NBM" resolve="ApiEndpoint" />
+    </node>
+    <node concept="1TJgyi" id="3wPTV4XYwpA" role="1TKVEl">
+      <property role="IQ2nx" value="4050398188324652646" />
+      <property role="TrG5h" value="majorVersion" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3wPTV4XYwqL" role="1TKVEl">
+      <property role="IQ2nx" value="4050398188324652721" />
+      <property role="TrG5h" value="externalName" />
+      <ref role="AX2Wp" to="tpee:fKFJPy9" resolve="_Identifier_String" />
+    </node>
+    <node concept="1QGGSu" id="3wPTV4XWb6O" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/api2.png" />
+    </node>
+    <node concept="PrWs8" id="3wPTV4XYxto" role="PzmwI">
+      <ref role="PrY4T" to="un0u:6ffh1MX_A5f" resolve="ISpaceNamed" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3wPTV4Y9NBM">
+    <property role="EcuMT" value="4050398188327614962" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiEndpoint" />
+    <property role="34LRSv" value="api endpoint" />
+    <property role="R4oN_" value="declare an endpoint with operations" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3F3Jzgex75x" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205449535841" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="general" />
+      <ref role="20lvS9" node="3F3JzgdPdYZ" resolve="ApiImplContainer" />
+    </node>
+    <node concept="1TJgyj" id="3wPTV4Y9O8T" role="1TKVEi">
+      <property role="IQ2ns" value="4050398188327617081" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="operations" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3wPTV4Y9O7H" resolve="ApiOperation" />
+    </node>
+    <node concept="1TJgyi" id="3wPTV4Y9O8L" role="1TKVEl">
+      <property role="IQ2nx" value="4050398188327617073" />
+      <property role="TrG5h" value="format" />
+      <ref role="AX2Wp" node="3wPTV4Y9O8r" resolve="ApiSerializationFormat" />
+    </node>
+    <node concept="PrWs8" id="3wPTV4Y9NBN" role="PzmwI">
+      <ref role="PrY4T" to="un0u:6ffh1MX_A5f" resolve="ISpaceNamed" />
+    </node>
+    <node concept="PrWs8" id="3F3Jzgez34S" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3wPTV4Y9O7H">
+    <property role="EcuMT" value="4050398188327617005" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiOperation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3F3JzgdPjzm" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438052566" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="container" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3F3JzgdPdYZ" resolve="ApiImplContainer" />
+    </node>
+    <node concept="1TJgyj" id="3F3JzgdPkhX" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438055549" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="responseType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="3F3JzgdPleu" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438059422" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="reponseSerdes" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3F3JzgdPkyg" resolve="ApiSerdesReference" />
+    </node>
+    <node concept="1TJgyi" id="3wPTV4Yd0pF" role="1TKVEl">
+      <property role="IQ2nx" value="4050398188328453739" />
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="3wPTV4YcZR8" resolve="ApiOperationType" />
+    </node>
+    <node concept="PrWs8" id="3wPTV4Y9O7I" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="3F3Jzgf7WiF" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3wPTV4Y9O8r">
+    <property role="3F6X1D" value="4050398188327617051" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiSerializationFormat" />
+    <ref role="1H5jkz" node="3wPTV4Y9O8s" resolve="JSON" />
+    <node concept="25R33" id="3wPTV4Y9O8s" role="25R1y">
+      <property role="3tVfz5" value="4050398188327617052" />
+      <property role="TrG5h" value="JSON" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3wPTV4YcZR8">
+    <property role="3F6X1D" value="4050398188328451528" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiOperationType" />
+    <ref role="1H5jkz" node="3wPTV4YcZRh" resolve="RETRIEVAL_OPERATION" />
+    <node concept="25R33" id="3wPTV4YcZR9" role="25R1y">
+      <property role="3tVfz5" value="4050398188328451529" />
+      <property role="TrG5h" value="COMPUTATION_FUNCTION" />
+    </node>
+    <node concept="25R33" id="3wPTV4YcZRa" role="25R1y">
+      <property role="3tVfz5" value="4050398188328451530" />
+      <property role="TrG5h" value="STATE_CREATION_OPERATION" />
+    </node>
+    <node concept="25R33" id="3wPTV4YcZRd" role="25R1y">
+      <property role="3tVfz5" value="4050398188328451533" />
+      <property role="TrG5h" value="STATE_TRANSITION_OPERATION" />
+    </node>
+    <node concept="25R33" id="3wPTV4YcZRh" role="25R1y">
+      <property role="3tVfz5" value="4050398188328451537" />
+      <property role="TrG5h" value="RETRIEVAL_OPERATION" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3F3JzgdPdsK">
+    <property role="EcuMT" value="4234437205438027568" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiVariable" />
+    <property role="34LRSv" value="&lt;type&gt; &lt;var&gt;" />
+    <ref role="1TJDcQ" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+    <node concept="PrWs8" id="3F3JzgdPd$V" role="PzmwI">
+      <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+    </node>
+    <node concept="1QGGSu" id="3F3JzgeOBfO" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/apiparam.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3F3JzgdPdYZ">
+    <property role="EcuMT" value="4234437205438029759" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiImplContainer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3F3JzgdPdZ0" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438029760" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3F3JzgdPdsK" resolve="ApiVariable" />
+    </node>
+    <node concept="1TJgyj" id="3F3JzgdPdZ2" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438029762" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="headers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3F3JzgdPdsK" resolve="ApiVariable" />
+    </node>
+    <node concept="1TJgyj" id="3F3JzgdPdZ5" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438029765" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="payload" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3F3Jzgeg_8k" resolve="ApiVariableSerdes" />
+    </node>
+    <node concept="1TJgyj" id="3F3JzgdPdZ9" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438029769" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="init" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
+    <node concept="1TJgyj" id="3F3JzgdPdZe" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438029774" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
+    <node concept="PrWs8" id="3F3JzgetLWE" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="3F3JzgeOHfx" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3F3JzgdPkyg">
+    <property role="EcuMT" value="4234437205438056592" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiSerdesReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3F3JzgdPkyh" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205438056593" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3F3Jzge3sST">
+    <property role="EcuMT" value="4234437205441760825" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiVariableReference" />
+    <ref role="1TJDcQ" to="tpee:fz7vLUo" resolve="VariableReference" />
+    <node concept="1TJgyj" id="3F3Jzge3sSU" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205441760826" />
+      <property role="20kJfa" value="apiVariable" />
+      <ref role="20lvS9" node="3F3JzgdPdsK" resolve="ApiVariable" />
+      <ref role="20ksaX" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
+    </node>
+    <node concept="1QGGSu" id="3F3JzgeOzl8" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/apiparam.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3F3Jzgeg_8k">
+    <property role="EcuMT" value="4234437205445202452" />
+    <property role="TrG5h" value="ApiVariableSerdes" />
+    <property role="3GE5qa" value="api" />
+    <ref role="1TJDcQ" node="3F3JzgdPdsK" resolve="ApiVariable" />
+    <node concept="1TJgyj" id="3F3Jzgeg_8l" role="1TKVEi">
+      <property role="IQ2ns" value="4234437205445202453" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="with" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3F3JzgdPkyg" resolve="ApiSerdesReference" />
     </node>
   </node>
 </model>
