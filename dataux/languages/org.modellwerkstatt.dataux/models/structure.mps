@@ -1872,6 +1872,12 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="3wPTV4Y9O7H" resolve="ApiOperation" />
     </node>
+    <node concept="1TJgyj" id="3veN3rLfEuq" role="1TKVEi">
+      <property role="IQ2ns" value="4021376053636147098" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="defSerdesOpt" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyi" id="3wPTV4Y9O8L" role="1TKVEl">
       <property role="IQ2nx" value="4050398188327617073" />
       <property role="TrG5h" value="format" />
@@ -1921,6 +1927,9 @@
     <node concept="PrWs8" id="3F3Jzgf7WiF" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="3veN3rLekAN" role="PzmwI">
+      <ref role="PrY4T" node="3veN3rLejTx" resolve="IApiVariableSerdesTypeProvider" />
+    </node>
   </node>
   <node concept="25R3W" id="3wPTV4Y9O8r">
     <property role="3F6X1D" value="4050398188327617051" />
@@ -1959,9 +1968,13 @@
     <property role="3GE5qa" value="api" />
     <property role="TrG5h" value="ApiVariable" />
     <property role="34LRSv" value="&lt;type&gt; &lt;var&gt;" />
+    <property role="R4oN_" value="named variable/field" />
     <ref role="1TJDcQ" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
     <node concept="PrWs8" id="3F3JzgdPd$V" role="PzmwI">
       <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3veN3rLejUo" role="PzmwI">
+      <ref role="PrY4T" node="3veN3rLejTx" resolve="IApiVariableSerdesTypeProvider" />
     </node>
     <node concept="1QGGSu" id="3F3JzgeOBfO" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/apiparam.png" />
@@ -1972,6 +1985,13 @@
     <property role="3GE5qa" value="api" />
     <property role="TrG5h" value="ApiImplContainer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5zbAJ4MLzW5" role="1TKVEi">
+      <property role="IQ2ns" value="6398378056339570437" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="statics" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3F3JzgdPdsK" resolve="ApiVariable" />
+    </node>
     <node concept="1TJgyj" id="3F3JzgdPdZ0" role="1TKVEi">
       <property role="IQ2ns" value="4234437205438029760" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1992,12 +2012,6 @@
       <property role="20kJfa" value="payload" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3F3Jzgeg_8k" resolve="ApiVariableSerdes" />
-    </node>
-    <node concept="1TJgyj" id="3F3JzgdPdZ9" role="1TKVEi">
-      <property role="IQ2ns" value="4234437205438029769" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="init" />
-      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
     <node concept="1TJgyj" id="3F3JzgdPdZe" role="1TKVEi">
       <property role="IQ2ns" value="4234437205438029774" />
@@ -2052,6 +2066,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3F3JzgdPkyg" resolve="ApiSerdesReference" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="3veN3rLejTx">
+    <property role="EcuMT" value="4021376053635792481" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="IApiVariableSerdesTypeProvider" />
   </node>
 </model>
 
