@@ -117,6 +117,7 @@
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414949600" name="jetbrains.mps.lang.editor.structure.AutoDeletableStyleClassItem" flags="ln" index="VPRnO" />
+      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
@@ -4481,6 +4482,9 @@
         </node>
       </node>
       <node concept="l2Vlx" id="3wPTV4YbzHQ" role="2iSdaV" />
+      <node concept="VPXOz" id="3pREN1Al0nx" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3wPTV4Y9O9A">
@@ -4561,6 +4565,12 @@
       <node concept="3F0ifn" id="3F3JzgdPk3l" role="3EZMnx">
         <property role="3F0ifm" value="" />
         <node concept="pVoyu" id="3F3JzgdPk3m" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3pREN1Al0mf" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="3pREN1Al0mg" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
