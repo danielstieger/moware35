@@ -118,7 +118,6 @@
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414949600" name="jetbrains.mps.lang.editor.structure.AutoDeletableStyleClassItem" flags="ln" index="VPRnO" />
-      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
@@ -4441,9 +4440,6 @@
         </node>
       </node>
       <node concept="l2Vlx" id="3wPTV4YbzHQ" role="2iSdaV" />
-      <node concept="VPXOz" id="3pREN1Al0nx" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3wPTV4Y9O9A">
@@ -4508,6 +4504,25 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="7dvxb8pdD$u" role="3EZMnx">
+        <property role="3F0ifm" value="// start transaction and flush" />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        <node concept="pVoyu" id="7dvxb8pdD$v" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="7dvxb8pdDJe" role="pqm2j">
+          <node concept="3clFbS" id="7dvxb8pdDJf" role="2VODD2">
+            <node concept="3clFbF" id="7dvxb8pdDNe" role="3cqZAp">
+              <node concept="2OqwBi" id="7dvxb8pdE2c" role="3clFbG">
+                <node concept="pncrf" id="7dvxb8pdDNd" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7dvxb8pdEgc" role="2OqNvi">
+                  <ref role="37wK5l" to="5y3p:7dvxb8pdEDN" resolve="transactionFlush" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="3F3JzgdPk29" role="3EZMnx">
         <property role="3F0ifm" value="response: " />
         <ref role="1k5W1q" node="1h$q6rwn4i5" resolve="SubConcept" />
@@ -4530,6 +4545,12 @@
       <node concept="3F0ifn" id="3pREN1Al0mf" role="3EZMnx">
         <property role="3F0ifm" value="" />
         <node concept="pVoyu" id="3pREN1Al0mg" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7dvxb8pFXr6" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="7dvxb8pFXr7" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
