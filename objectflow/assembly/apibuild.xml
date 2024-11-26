@@ -1,0 +1,84 @@
+<!--
+
+
+ Build.xml: Building an mde application with h2forms 
+            based on moware plugin R5
+            
+ daniel stieger, summer 2016, dornbirn
+
+ 
+ 
+ 
+ set JAVA_HOME=c:\javaexe\MPS324\jre
+ set PATH=%PATH%;c:\javaexe\ant_MPS25\bin
+ 
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jbr11/Contents/Home
+ export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ 
+-->
+ 
+<project name="ApiDesc" default="default">      
+  
+  <!-- **** include files setup **************************************************************** -->
+  <include file="./bmoware.xml" as="bmoware"/>
+  <include file="./moware.xml" as="moware"/>
+
+
+  <!-- **** app specific definitions **************************************************************** -->
+  <property name="appName"              value="TestApi" />
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.demo.coupon.domainCoupon.CouponManagement" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/infra/configs/ApiConfig.xml" /> 
+
+    
+  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
+ 
+        
+  <!-- **** solutions to incorporate in this build ************************************************** -->
+  <property name="solultionSimpleGen"   value="${buildUserHome}/simpleone/solutions/Simple/classes_gen" />
+
+  <exec executable="java" outputproperty="appBuildVersion">
+   <arg value="-cp"/>
+   <!-- <arg value="${solultionSimpleGen};${execInBuildClassPathWin}" /> -->
+   <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
+   <arg value="org.modellwerkstatt.simple.infra.objects.TestSetting" />
+  </exec>
+  
+  <echo>
+    Run by ${user.name} on Java Home : ${java.home}
+    Building VERSION ${appBuildVersion} of ${appMainclass}
+	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}    
+  </echo>
+
+
+
+
+
+  <target name="default" depends="bmoware.mowarePluginAdoption, moware.api">
+  
+    <mkdir dir="work/WEB-INF/classes"/>
+    <copy todir="work/WEB-INF/classes">
+      <fileset dir="${solultionSimpleGen}" />
+    </copy>
+    
+    <mkdir dir="dist"/>  
+    <jar destfile="dist/${appName}##${appBuildVersion}.war" basedir="${mowareWorkDir}" update="false">
+      <manifest>
+        <attribute name="Main-Class" value="${appMainclass}" />
+        <attribute name="Version"    value="${appBuildVersion}" />
+      </manifest>
+    </jar>
+    
+  </target>
+  
+  <target name="clean" description="Delete old work and dist directories">
+	<delete dir="work"/>
+    <delete dir="dist"/>
+  </target>
+  
+  <target name="redeploy" depends="default">
+  	<copy todir="${tomcatHomeDir}/webapps/">
+  		<fileset dir="dist/" />
+  	</copy>
+  </target>
+</project>

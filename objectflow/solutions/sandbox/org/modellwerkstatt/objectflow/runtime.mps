@@ -34342,6 +34342,34 @@
   <node concept="3HP615" id="3J6KGB_vWbR">
     <property role="3GE5qa" value="OFXArchitecture.reporting" />
     <property role="TrG5h" value="IOFXApplicationFactory" />
+    <node concept="2tJIrI" id="6UWxg$OqNO3" role="jymVt" />
+    <node concept="3clFb_" id="5XGplYAWG3H" role="jymVt">
+      <property role="TrG5h" value="getSettingsDescription" />
+      <node concept="17QB3L" id="5XGplYAWGf5" role="3clF45" />
+      <node concept="3Tm1VV" id="5XGplYAWG3K" role="1B3o_S" />
+      <node concept="3clFbS" id="5XGplYAWG3L" role="3clF47">
+        <node concept="3clFbF" id="6UWxg$OqWdw" role="3cqZAp">
+          <node concept="Xl_RD" id="6UWxg$OqWdv" role="3clFbG">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="2JFqV2" id="6UWxg$OqNTe" role="2frcjj" />
+    </node>
+    <node concept="3clFb_" id="1dOSBikoQhk" role="jymVt">
+      <property role="TrG5h" value="getStatusDescription" />
+      <node concept="3clFbS" id="1dOSBikoQhn" role="3clF47">
+        <node concept="3clFbF" id="6UWxg$OqWbU" role="3cqZAp">
+          <node concept="Xl_RD" id="6UWxg$OqWbT" role="3clFbG">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1dOSBikoQho" role="1B3o_S" />
+      <node concept="17QB3L" id="1dOSBikoQda" role="3clF45" />
+      <node concept="2JFqV2" id="6UWxg$OqNTN" role="2frcjj" />
+    </node>
+    <node concept="2tJIrI" id="6UWxg$OqNPg" role="jymVt" />
     <node concept="3clFb_" id="7MWNCzY5wUb" role="jymVt">
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getPlatform" />
@@ -55977,6 +56005,10 @@
       </node>
       <node concept="QsSxf" id="4rFJdUFQaLb" role="Qtgdg">
         <property role="TrG5h" value="MOWARE_TURKU" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="6UWxg$OpTGr" role="Qtgdg">
+        <property role="TrG5h" value="MOWARE_API" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="4FgSVMpn0u9" role="1B3o_S" />

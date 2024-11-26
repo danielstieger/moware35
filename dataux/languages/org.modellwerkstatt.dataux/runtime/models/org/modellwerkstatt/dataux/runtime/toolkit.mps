@@ -328,19 +328,6 @@
       <node concept="10P_77" id="5KfzM7M2v0s" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="4X6$QoZ0_9R" role="jymVt" />
-    <node concept="3clFb_" id="5XGplYAWG3H" role="jymVt">
-      <property role="TrG5h" value="getSettingsDescription" />
-      <node concept="17QB3L" id="5XGplYAWGf5" role="3clF45" />
-      <node concept="3Tm1VV" id="5XGplYAWG3K" role="1B3o_S" />
-      <node concept="3clFbS" id="5XGplYAWG3L" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="1dOSBikoQhk" role="jymVt">
-      <property role="TrG5h" value="getStatusDescription" />
-      <node concept="3clFbS" id="1dOSBikoQhn" role="3clF47" />
-      <node concept="3Tm1VV" id="1dOSBikoQho" role="1B3o_S" />
-      <node concept="17QB3L" id="1dOSBikoQda" role="3clF45" />
-    </node>
-    <node concept="2tJIrI" id="7L6pyrbn0Va" role="jymVt" />
     <node concept="3clFb_" id="467ssIo$ZA1" role="jymVt">
       <property role="TrG5h" value="getExperimentalFeatures" />
       <node concept="10P_77" id="467ssIo$ZKe" role="3clF45" />

@@ -13,10 +13,15 @@
    
   <servlet>
     <servlet-name>APPLICATION_FQNAME</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <servlet-class>org.modellwerkstatt.dataux.runtime.httpapi.ApiLoader</servlet-class>
     
     <init-param>
-    	<param-name>contextConfigLocation</param-name>
+        <param-name>applicationFqName</param-name>
+    	<param-value>APPLICATION_FQNAME</param-value>
+    </init-param>
+    
+    <init-param>
+    	<param-name>xmlConfigFile</param-name>
         <param-value>APPLICATION_CONFIG</param-value>
     </init-param>
     

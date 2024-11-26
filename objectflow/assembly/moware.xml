@@ -41,6 +41,8 @@
 			
 			- turkuforms:  include http vaadin 23+ environment 
 			
+			- api:         include nothing special, api is part of dataux runtime
+			
 			
             
  daniel stieger, spring 2021, koblach
@@ -271,6 +273,37 @@
 		<!-- change favicon with local one -->		
 	</target>
 	
+	<target name="api">
+		<echo>Copying moware.api dependencies to ${mowareWorkDir}/WEB-INF/lib </echo>
+		<mkdir dir="${mowareWorkDir}/META-INF"/>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
+
+
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
+			
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
+
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
+		</copy>
+	
+    
+		<copy file="${mowarePluginHomeDir}/ofassembly/artefact/api-web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		  <filterchain>
+			  <tokenfilter>
+ 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
+				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
+				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
+			  </tokenfilter>
+		  </filterchain>
+		</copy>
+		
+	</target>
 	
 	
 	

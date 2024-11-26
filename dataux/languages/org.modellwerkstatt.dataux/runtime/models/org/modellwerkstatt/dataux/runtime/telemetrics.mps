@@ -436,7 +436,7 @@
         <property role="TrG5h" value="factory" />
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="5XGplYAWDEl" role="1tU5fm">
-          <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
+          <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
         </node>
       </node>
       <node concept="37vLTG" id="2yuEF6qaKtG" role="3clF46">
@@ -550,7 +550,7 @@
                     <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
                   </node>
                   <node concept="liA8E" id="5XGplYAWIme" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:5XGplYAWG3H" resolve="getSettingsDescription" />
+                    <ref role="37wK5l" to="28jr:5XGplYAWG3H" resolve="getSettingsDescription" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="1dOSBikzQJk" role="37wK5m">
@@ -589,7 +589,7 @@
                               <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
                             </node>
                             <node concept="liA8E" id="1dOSBikpAuX" role="2OqNvi">
-                              <ref role="37wK5l" to="250q:1dOSBikoQhk" resolve="getStatusDescription" />
+                              <ref role="37wK5l" to="28jr:1dOSBikoQhk" resolve="getStatusDescription" />
                             </node>
                           </node>
                         </node>
