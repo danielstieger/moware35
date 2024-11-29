@@ -28,6 +28,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.runtime/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
+    <import index="jwin" ref="r:fb8c6551-89b1-47a9-b0e0-0221eb906786(org.modellwerkstatt.dataux.runtime.common)" />
     <import index="pldn" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.field(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
   <registry>
@@ -3088,105 +3089,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="ltdRgVPTpp" role="jymVt" />
-    <node concept="3clFb_" id="ltdRgVPNLh" role="jymVt">
-      <property role="TrG5h" value="getRemoteAddr" />
-      <node concept="3clFbS" id="3LZok6f9UgG" role="3clF47">
-        <node concept="3SKdUt" id="3LZok6faOXn" role="3cqZAp">
-          <node concept="1PaTwC" id="7BkDWLyCkbm" role="1aUNEU">
-            <node concept="3oM_SD" id="7BkDWLyCkbn" role="1PaTwD">
-              <property role="3oM_SC" value="nginx" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCkbo" role="1PaTwD">
-              <property role="3oM_SC" value="and" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCkbp" role="1PaTwD">
-              <property role="3oM_SC" value="other" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCkbq" role="1PaTwD">
-              <property role="3oM_SC" value="loadbalancer" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCkbr" role="1PaTwD">
-              <property role="3oM_SC" value="forwarding." />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3LZok6fah25" role="3cqZAp">
-          <node concept="3cpWsn" id="3LZok6fah28" role="3cpWs9">
-            <property role="TrG5h" value="address" />
-            <node concept="17QB3L" id="3LZok6fah24" role="1tU5fm" />
-            <node concept="2OqwBi" id="3LZok6fajmu" role="33vP2m">
-              <node concept="37vLTw" id="3LZok6fajl2" role="2Oq$k0">
-                <ref role="3cqZAo" node="3LZok6facuR" resolve="request" />
-              </node>
-              <node concept="liA8E" id="3LZok6fan3d" role="2OqNvi">
-                <ref role="37wK5l" to="nwfd:~HttpServletRequest.getHeader(java.lang.String)" resolve="getHeader" />
-                <node concept="Xl_RD" id="3LZok6fan4P" role="37wK5m">
-                  <property role="Xl_RC" value="x-forwarded-for" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="3LZok6farRT" role="3cqZAp">
-          <node concept="3clFbS" id="3LZok6farRV" role="3clFbx">
-            <node concept="3clFbF" id="3LZok6fb0L$" role="3cqZAp">
-              <node concept="37vLTI" id="3LZok6fb2fj" role="3clFbG">
-                <node concept="2OqwBi" id="3LZok6fb2wZ" role="37vLTx">
-                  <node concept="37vLTw" id="3LZok6fb2v7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3LZok6facuR" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="3LZok6fb4vf" role="2OqNvi">
-                    <ref role="37wK5l" to="opgt:~ServletRequest.getRemoteAddr()" resolve="getRemoteAddr" />
-                  </node>
-                </node>
-                <node concept="37vLTw" id="3LZok6fb0Ly" role="37vLTJ">
-                  <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="3LZok6fmKJP" role="3clFbw">
-            <node concept="37vLTw" id="3LZok6fas5N" role="3uHU7B">
-              <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-            </node>
-            <node concept="10Nm6u" id="3LZok6fati8" role="3uHU7w" />
-          </node>
-        </node>
-        <node concept="1X3_iC" id="53_cLlXRTWC" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="3LZok6fbeif" role="8Wnug">
-            <node concept="2YIFZM" id="6iq8X3aIR2D" role="3clFbG">
-              <ref role="1Pybhc" to="tea8:3h3MBx3irbo" resolve="H2ApplicationLoader" />
-              <ref role="37wK5l" to="tea8:4QTIUTCpF18" resolve="hardLog" />
-              <node concept="3cpWs3" id="6iq8X3aIR2E" role="37wK5m">
-                <node concept="37vLTw" id="6iq8X3aIR2F" role="3uHU7w">
-                  <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-                </node>
-                <node concept="Xl_RD" id="6iq8X3aIR2G" role="3uHU7B">
-                  <property role="Xl_RC" value="getRemoteAddr(): Address is " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="3LZok6fa$0j" role="3cqZAp">
-          <node concept="37vLTw" id="3LZok6fb7rI" role="3cqZAk">
-            <ref role="3cqZAo" node="3LZok6fah28" resolve="address" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="3LZok6facuR" role="3clF46">
-        <property role="TrG5h" value="request" />
-        <node concept="3uibUv" id="3LZok6fakxk" role="1tU5fm">
-          <ref role="3uigEE" to="nwfd:~HttpServletRequest" resolve="HttpServletRequest" />
-        </node>
-      </node>
-      <node concept="17QB3L" id="3LZok6f9Yh_" role="3clF45" />
-      <node concept="3Tm1VV" id="3LZok6f9UgF" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="ltdRgVPJ6Z" role="jymVt" />
     <node concept="3Tm1VV" id="4IVaCyzFJTZ" role="1B3o_S" />
     <node concept="3uibUv" id="2xnCXJMm6l7" role="EKbjA">
       <ref role="3uigEE" to="tea8:2xnCXJMm5Qy" resolve="IH2UiFactory" />

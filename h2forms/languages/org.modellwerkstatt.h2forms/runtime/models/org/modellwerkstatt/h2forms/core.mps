@@ -26,6 +26,7 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
     <import index="3qog" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.annotation(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
+    <import index="jwin" ref="r:fb8c6551-89b1-47a9-b0e0-0221eb906786(org.modellwerkstatt.dataux.runtime.common)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
   <registry>
@@ -1741,7 +1742,7 @@
                     <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
                   </node>
                   <node concept="liA8E" id="ltdRgVQ1PA" role="2OqNvi">
-                    <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                    <ref role="37wK5l" to="jwin:ltdRgVPNLh" resolve="getRemoteAddr" />
                     <node concept="37vLTw" id="ltdRgVQ2zk" role="37wK5m">
                       <ref role="3cqZAo" node="1XvfUlyouZk" resolve="request" />
                     </node>
@@ -1786,7 +1787,7 @@
                 <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
               </node>
               <node concept="liA8E" id="ltdRgVQ3k_" role="2OqNvi">
-                <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                <ref role="37wK5l" to="jwin:ltdRgVPNLh" resolve="getRemoteAddr" />
                 <node concept="37vLTw" id="ltdRgVQ3kA" role="37wK5m">
                   <ref role="3cqZAo" node="1XvfUlyouZk" resolve="request" />
                 </node>
@@ -3220,7 +3221,7 @@
                         <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="ltdRgVQ4Gj" role="2OqNvi">
-                        <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                        <ref role="37wK5l" to="jwin:ltdRgVPNLh" resolve="getRemoteAddr" />
                         <node concept="37vLTw" id="ltdRgVQ4Gk" role="37wK5m">
                           <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
                         </node>
@@ -5759,7 +5760,7 @@
                           <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
                         </node>
                         <node concept="liA8E" id="2xhQv04K6i$" role="2OqNvi">
-                          <ref role="37wK5l" node="ltdRgVMDDa" resolve="getRemoteAddr" />
+                          <ref role="37wK5l" to="jwin:ltdRgVPNLh" resolve="getRemoteAddr" />
                           <node concept="37vLTw" id="2xhQv04K7u_" role="37wK5m">
                             <ref role="3cqZAo" node="2JP_IUM72yt" resolve="request" />
                           </node>
@@ -15428,6 +15429,9 @@
     <node concept="3uibUv" id="2xnCXJMm5Ss" role="3HQHJm">
       <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
     </node>
+    <node concept="3uibUv" id="5sMIS3Cpo9K" role="3HQHJm">
+      <ref role="3uigEE" to="jwin:5sMIS3Cj4we" resolve="IRemoteIpNginx" />
+    </node>
     <node concept="2tJIrI" id="2xnCXJMowGu" role="jymVt" />
     <node concept="3clFb_" id="7WBKY1Wce7j" role="jymVt">
       <property role="TrG5h" value="initRenderer" />
@@ -15514,18 +15518,6 @@
       <node concept="3clFbS" id="7CJFVfzQZCZ" role="3clF47" />
       <node concept="3uibUv" id="7CJFVfzS6mz" role="Sfmx6">
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="ltdRgVMDDa" role="jymVt">
-      <property role="TrG5h" value="getRemoteAddr" />
-      <node concept="17QB3L" id="ltdRgVPVQb" role="3clF45" />
-      <node concept="3Tm1VV" id="ltdRgVMDDd" role="1B3o_S" />
-      <node concept="3clFbS" id="ltdRgVMDDe" role="3clF47" />
-      <node concept="37vLTG" id="ltdRgVMDMT" role="3clF46">
-        <property role="TrG5h" value="req" />
-        <node concept="3uibUv" id="ltdRgVMDMS" role="1tU5fm">
-          <ref role="3uigEE" to="nwfd:~HttpServletRequest" resolve="HttpServletRequest" />
-        </node>
       </node>
     </node>
   </node>
