@@ -57,6 +57,7 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
+      <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -80,6 +81,7 @@
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
@@ -123,6 +125,7 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -168,7 +171,9 @@
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
-      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
+        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
+      </concept>
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
@@ -808,8 +813,21 @@
               <node concept="YS8fn" id="7yJ7v78kfif" role="3cqZAp">
                 <node concept="2ShNRf" id="7yJ7v78kfls" role="YScLw">
                   <node concept="1pGfFk" id="7yJ7v78kjw1" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="7yJ7v78kj$z" role="37wK5m">
+                    <ref role="37wK5l" node="4GLQUIBtPHa" resolve="SerdesException" />
+                    <node concept="3cpWs3" id="4GLQUIBuhc1" role="37wK5m">
+                      <node concept="Xl_RD" id="4GLQUIBuhcP" role="3uHU7w">
+                        <property role="Xl_RC" value="' to a decimal." />
+                      </node>
+                      <node concept="3cpWs3" id="4GLQUIBugQQ" role="3uHU7B">
+                        <node concept="Xl_RD" id="4GLQUIBugB1" role="3uHU7B">
+                          <property role="Xl_RC" value="Can not convert '" />
+                        </node>
+                        <node concept="37vLTw" id="4GLQUIBugYx" role="3uHU7w">
+                          <ref role="3cqZAo" node="7yJ7v78jWVn" resolve="bdSt" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="4GLQUIBuhGG" role="37wK5m">
                       <ref role="3cqZAo" node="7yJ7v78keUw" resolve="e" />
                     </node>
                   </node>
@@ -1268,8 +1286,6 @@
     <property role="TrG5h" value="IConvSerdes" />
     <property role="3GE5qa" value="" />
     <node concept="2tJIrI" id="2G8k9pWNiEN" role="jymVt" />
-    <node concept="2tJIrI" id="5ncAbMsJ9s8" role="jymVt" />
-    <node concept="2tJIrI" id="5ncAbMsJ9so" role="jymVt" />
     <node concept="3clFb_" id="1gQHsZ_Yo_K" role="jymVt">
       <property role="TrG5h" value="deser" />
       <node concept="3clFbS" id="1gQHsZ_Yo_N" role="3clF47" />
@@ -1531,6 +1547,98 @@
           <property role="1dT_AB" value="" />
         </node>
       </node>
+      <node concept="TZ5HA" id="4GLQUIBt90b" role="TZ5H$">
+        <node concept="1dT_AC" id="4GLQUIBt90c" role="1dT_Ay">
+          <property role="1dT_AB" value="technical exceptions, security, introspection etc. result in RuntimeException" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4GLQUIBt90J" role="TZ5H$">
+        <node concept="1dT_AC" id="4GLQUIBt90K" role="1dT_Ay">
+          <property role="1dT_AB" value="missing fields, too may, generally wrong json results in SerdesException" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4GLQUIBt90r" role="TZ5H$">
+        <node concept="1dT_AC" id="4GLQUIBt90s" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="4GLQUIBjTnK">
+    <property role="TrG5h" value="IConvSerdesPartial" />
+    <property role="3GE5qa" value="" />
+    <node concept="2tJIrI" id="4GLQUIBjTnL" role="jymVt" />
+    <node concept="3clFb_" id="4GLQUIBjT$U" role="jymVt">
+      <property role="TrG5h" value="internalDeser" />
+      <node concept="37vLTG" id="4GLQUIBjZl4" role="3clF46">
+        <property role="TrG5h" value="root" />
+        <node concept="3uibUv" id="4GLQUIBk0_p" role="1tU5fm">
+          <ref role="3uigEE" to="kiw1:16YJG28Mu__" resolve="VParent" />
+        </node>
+      </node>
+      <node concept="16syzq" id="4GLQUIBjZkE" role="3clF45">
+        <ref role="16sUi3" node="4GLQUIBjTo0" resolve="T" />
+      </node>
+      <node concept="3Tm1VV" id="4GLQUIBjT$X" role="1B3o_S" />
+      <node concept="3clFbS" id="4GLQUIBjT$Y" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="4GLQUIBjTnZ" role="1B3o_S" />
+    <node concept="16euLQ" id="4GLQUIBjTo0" role="16eVyc">
+      <property role="TrG5h" value="T" />
+    </node>
+    <node concept="3uibUv" id="4GLQUIBjTpl" role="3HQHJm">
+      <ref role="3uigEE" node="2G8k9pWNiEM" resolve="IConvSerdes" />
+      <node concept="16syzq" id="4GLQUIBjTwn" role="11_B2D">
+        <ref role="16sUi3" node="4GLQUIBjTo0" resolve="T" />
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="4GLQUIBtqTl">
+    <property role="TrG5h" value="SerdesException" />
+    <node concept="3clFbW" id="4GLQUIBtqUn" role="jymVt">
+      <node concept="3cqZAl" id="4GLQUIBtqUp" role="3clF45" />
+      <node concept="3Tm1VV" id="4GLQUIBtqUq" role="1B3o_S" />
+      <node concept="3clFbS" id="4GLQUIBtqUr" role="3clF47">
+        <node concept="XkiVB" id="4GLQUIBtqVG" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="4GLQUIBtqW6" role="37wK5m">
+            <ref role="3cqZAo" node="4GLQUIBtqUK" resolve="msg" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4GLQUIBtqUK" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="4GLQUIBtqUJ" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFbW" id="4GLQUIBtPHa" role="jymVt">
+      <node concept="3cqZAl" id="4GLQUIBtPHb" role="3clF45" />
+      <node concept="3Tm1VV" id="4GLQUIBtPHc" role="1B3o_S" />
+      <node concept="3clFbS" id="4GLQUIBtPHd" role="3clF47">
+        <node concept="XkiVB" id="4GLQUIBtPY4" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="4GLQUIBtPZ5" role="37wK5m">
+            <ref role="3cqZAo" node="4GLQUIBtPHg" resolve="msg" />
+          </node>
+          <node concept="37vLTw" id="4GLQUIBtQ0a" role="37wK5m">
+            <ref role="3cqZAo" node="4GLQUIBtPMk" resolve="t" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4GLQUIBtPHg" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="4GLQUIBtPL2" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4GLQUIBtPMk" role="3clF46">
+        <property role="TrG5h" value="t" />
+        <node concept="3uibUv" id="4GLQUIBtPNp" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="4GLQUIBtqTm" role="1B3o_S" />
+    <node concept="3uibUv" id="4GLQUIBtqU7" role="1zkMxy">
+      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
     </node>
   </node>
 </model>
