@@ -41,7 +41,6 @@
     <import index="w1x3" ref="r:76480de2-fa88-48a2-bd7b-72164b8122e1(org.modellwerkstatt.vaadinforms.auth)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
-    <import index="a820" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context(org.modellwerkstatt.manmap.runtime/)" />
     <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.runtime/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
@@ -2510,7 +2509,7 @@
                       <ref role="3cqZAo" node="5$BCFrwb1fT" resolve="env" />
                     </node>
                     <node concept="liA8E" id="65KdKINSi6D" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:65KdKINRvVm" resolve="isProlongedUserSession" />
+                      <ref role="37wK5l" to="28jr:65KdKINRvVm" resolve="isCompactMode" />
                     </node>
                   </node>
                 </node>

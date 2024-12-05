@@ -1825,7 +1825,6 @@
   <node concept="1TIwiD" id="3wPTV4XWb6I">
     <property role="EcuMT" value="4050398188324041134" />
     <property role="TrG5h" value="ApiDescription" />
-    <property role="19KtqR" value="true" />
     <property role="34LRSv" value="API Description" />
     <property role="3GE5qa" value="api" />
     <node concept="1TJgyj" id="6UWxg$OBM2Q" role="1TKVEi">

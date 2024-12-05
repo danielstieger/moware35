@@ -185,7 +185,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2024.34 (h2dbg)" />
+          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2024.35 (tkit)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -2409,11 +2409,8 @@
         <node concept="3LEDTM" id="143EhQX8vmT" role="3LEDUa">
           <ref role="3LEDTN" node="3ZVr8i9E19j" resolve="org.modellwerkstatt.fx8forms" />
         </node>
-        <node concept="3LEDTy" id="143EhQX8vmU" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
-        </node>
-        <node concept="3LEDTy" id="143EhQX8vmV" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+        <node concept="3LEDTy" id="3qlTsJQ8M9c" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L1S" resolve="jetbrains.mps.baseLanguage.javadoc" />
         </node>
       </node>
     </node>
