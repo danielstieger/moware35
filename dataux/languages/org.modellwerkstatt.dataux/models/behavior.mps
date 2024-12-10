@@ -9119,6 +9119,47 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="17vnS6Cahjl" role="13h7CS">
+      <property role="TrG5h" value="needsTransactionAccordingRepoCalls" />
+      <node concept="3Tm1VV" id="17vnS6Cahjm" role="1B3o_S" />
+      <node concept="10P_77" id="17vnS6Cak84" role="3clF45" />
+      <node concept="3clFbS" id="17vnS6Cahjo" role="3clF47">
+        <node concept="3clFbF" id="17vnS6Cak98" role="3cqZAp">
+          <node concept="2OqwBi" id="17vnS6Cao1q" role="3clFbG">
+            <node concept="2OqwBi" id="17vnS6Cakla" role="2Oq$k0">
+              <node concept="13iPFW" id="17vnS6Cak97" role="2Oq$k0" />
+              <node concept="2Rf3mk" id="17vnS6Cakyh" role="2OqNvi">
+                <node concept="1xMEDy" id="17vnS6Cakyj" role="1xVPHs">
+                  <node concept="chp4Y" id="17vnS6CakKH" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2HwmR7" id="17vnS6CaqpB" role="2OqNvi">
+              <node concept="1bVj0M" id="17vnS6CaqpD" role="23t8la">
+                <node concept="3clFbS" id="17vnS6CaqpE" role="1bW5cS">
+                  <node concept="3clFbF" id="17vnS6CaqtC" role="3cqZAp">
+                    <node concept="2OqwBi" id="17vnS6CaqIb" role="3clFbG">
+                      <node concept="37vLTw" id="17vnS6CaqtB" role="2Oq$k0">
+                        <ref role="3cqZAo" node="17vnS6CaqpF" resolve="it" />
+                      </node>
+                      <node concept="2qgKlT" id="17vnS6Car0R" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOkOrServiceASO" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="17vnS6CaqpF" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="17vnS6CaqpG" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="3F3JzgdPdYx">
     <property role="3GE5qa" value="api" />

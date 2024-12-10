@@ -9976,6 +9976,39 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="17vnS6Ca72r" role="3cqZAp" />
+                <node concept="3clFbJ" id="17vnS6Ca84v" role="3cqZAp">
+                  <node concept="3clFbS" id="17vnS6Ca84x" role="3clFbx">
+                    <node concept="2MkqsV" id="17vnS6CawCE" role="3cqZAp">
+                      <node concept="Xl_RD" id="17vnS6CawKd" role="2MkJ7o">
+                        <property role="Xl_RC" value="You need to run the session transaction. Is it a STATE_CREATION_OPERATION or STATE_TRANSITION_OPERATION ?" />
+                      </node>
+                      <node concept="37vLTw" id="17vnS6CazT3" role="1urrMF">
+                        <ref role="3cqZAo" node="3pREN1A8W4o" resolve="op" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="17vnS6CavBX" role="3clFbw">
+                    <node concept="3fqX7Q" id="17vnS6CavIw" role="3uHU7B">
+                      <node concept="2OqwBi" id="17vnS6Cawmn" role="3fr31v">
+                        <node concept="37vLTw" id="17vnS6CavZ9" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3pREN1A8W4o" resolve="op" />
+                        </node>
+                        <node concept="2qgKlT" id="17vnS6CawvW" role="2OqNvi">
+                          <ref role="37wK5l" to="5y3p:7dvxb8pdEDN" resolve="transactionFlush" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="17vnS6Ca8jO" role="3uHU7w">
+                      <node concept="37vLTw" id="17vnS6Ca8bh" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3pREN1A8W4o" resolve="op" />
+                      </node>
+                      <node concept="2qgKlT" id="17vnS6Ca8se" role="2OqNvi">
+                        <ref role="37wK5l" to="5y3p:17vnS6Cahjl" resolve="needsTransactionAccordingRepoCalls" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
               <node concept="Rh6nW" id="3pREN1A8W4o" role="1bW2Oz">
                 <property role="TrG5h" value="op" />
