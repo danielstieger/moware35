@@ -1946,6 +1946,9 @@
     <node concept="PrWs8" id="3veN3rLekAN" role="PzmwI">
       <ref role="PrY4T" node="3veN3rLejTx" resolve="IApiVariableSerdesTypeProvider" />
     </node>
+    <node concept="PrWs8" id="17vnS6BiFa6" role="PzmwI">
+      <ref role="PrY4T" to="un0u:17vnS6BiDli" resolve="ITransactionAware" />
+    </node>
   </node>
   <node concept="25R3W" id="3wPTV4Y9O8r">
     <property role="3F6X1D" value="4050398188327617051" />

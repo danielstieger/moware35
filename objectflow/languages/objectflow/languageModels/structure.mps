@@ -5329,5 +5329,10 @@
       <property role="1L1pqM" value="(overwrite predecessor)" />
     </node>
   </node>
+  <node concept="PlHQZ" id="17vnS6BiDli">
+    <property role="EcuMT" value="1287853028913354066" />
+    <property role="3GE5qa" value="OFXCore.infra" />
+    <property role="TrG5h" value="ITransactionAware" />
+  </node>
 </model>
 

@@ -4558,14 +4558,8 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0ifn" id="3F3JzgdPk0Y" role="3EZMnx">
-        <property role="3F0ifm" value="" />
-        <node concept="pVoyu" id="3F3JzgdPk27" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="7dvxb8pdD$u" role="3EZMnx">
-        <property role="3F0ifm" value="// start transaction and flush" />
+        <property role="3F0ifm" value="// start transaction and flush before last return" />
         <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
         <node concept="pVoyu" id="7dvxb8pdD$v" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -4581,6 +4575,12 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3F3JzgdPk0Y" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="3F3JzgdPk27" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="3F3JzgdPk29" role="3EZMnx">
