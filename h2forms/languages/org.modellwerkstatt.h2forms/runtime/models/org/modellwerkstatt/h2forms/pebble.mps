@@ -1192,6 +1192,15 @@
         <property role="Xl_RC" value="template_suivant" />
       </node>
     </node>
+    <node concept="Wx3nA" id="2gcpqd5_rfG" role="jymVt">
+      <property role="TrG5h" value="SUIVANT_MPREIS_RESSOURCES" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="2gcpqd5_rfH" role="1B3o_S" />
+      <node concept="17QB3L" id="2gcpqd5_rfI" role="1tU5fm" />
+      <node concept="Xl_RD" id="2gcpqd5_rfJ" role="33vP2m">
+        <property role="Xl_RC" value="mpreis" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="2XYulUz7Wzk" role="jymVt">
       <property role="TrG5h" value="LEG_TEMPLATE" />
       <property role="3TUv4t" value="true" />
@@ -1368,6 +1377,21 @@
               </node>
               <node concept="2S8uIT" id="2XYulUz7puA" role="2OqNvi">
                 <ref role="2S8YL0" to="tea8:2462lDSphk4" resolve="templateName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2gcpqd5_CW2" role="3cqZAp">
+          <node concept="37vLTI" id="2gcpqd5_G70" role="3clFbG">
+            <node concept="37vLTw" id="2gcpqd5_Hea" role="37vLTx">
+              <ref role="3cqZAo" node="2gcpqd5_rfG" resolve="SUIVANT_MPREIS_RESSOURCES" />
+            </node>
+            <node concept="2OqwBi" id="2gcpqd5_ETt" role="37vLTJ">
+              <node concept="37vLTw" id="2gcpqd5_CW0" role="2Oq$k0">
+                <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
+              </node>
+              <node concept="2S8uIT" id="2gcpqd5_FWg" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:2gcpqd5_zin" resolve="staticRessources" />
               </node>
             </node>
           </node>
