@@ -4350,7 +4350,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="6UWxg$OrLEB" role="3EZMnx">
-          <property role="3F0ifm" value="leading to uri part &lt;servletname&gt;/" />
+          <property role="3F0ifm" value="leading to uri part" />
           <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
         </node>
         <node concept="1HlG4h" id="6UWxg$OrLFh" role="3EZMnx">
@@ -4359,10 +4359,15 @@
             <node concept="3TQlhw" id="6UWxg$OrLFl" role="1Hhtcw">
               <node concept="3clFbS" id="6UWxg$OrLFn" role="2VODD2">
                 <node concept="3clFbF" id="6UWxg$OrLKa" role="3cqZAp">
-                  <node concept="2OqwBi" id="6UWxg$OrOSp" role="3clFbG">
-                    <node concept="pncrf" id="6UWxg$OrOFu" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="6UWxg$OrP55" role="2OqNvi">
-                      <ref role="37wK5l" to="5y3p:6UWxg$OrM$Q" resolve="location" />
+                  <node concept="3cpWs3" id="6CTx7CeboHt" role="3clFbG">
+                    <node concept="Xl_RD" id="6CTx7CeboQR" role="3uHU7B">
+                      <property role="Xl_RC" value="&lt;servletname&gt;" />
+                    </node>
+                    <node concept="2OqwBi" id="6UWxg$OrOSp" role="3uHU7w">
+                      <node concept="pncrf" id="6UWxg$OrOFu" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="6UWxg$OrP55" role="2OqNvi">
+                        <ref role="37wK5l" to="5y3p:6UWxg$OrM$Q" resolve="location" />
+                      </node>
                     </node>
                   </node>
                 </node>

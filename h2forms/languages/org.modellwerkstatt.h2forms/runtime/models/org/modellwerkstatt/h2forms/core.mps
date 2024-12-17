@@ -8391,26 +8391,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2gcpqd5saWl" role="3cqZAp">
-          <node concept="37vLTI" id="2gcpqd5sfeQ" role="3clFbG">
-            <node concept="2OqwBi" id="2gcpqd5siC$" role="37vLTx">
-              <node concept="37vLTw" id="2gcpqd5siqo" role="2Oq$k0">
-                <ref role="3cqZAo" node="7r26jiO5Kc3" resolve="userEnv" />
-              </node>
-              <node concept="liA8E" id="2gcpqd5skGU" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:2gcpqd5ruNc" resolve="getBrandingId" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="2gcpqd5sbAq" role="37vLTJ">
-              <node concept="37vLTw" id="2gcpqd5saWj" role="2Oq$k0">
-                <ref role="3cqZAo" node="kA5KhwgqX2" resolve="ctxCli" />
-              </node>
-              <node concept="2S8uIT" id="2gcpqd5seM0" role="2OqNvi">
-                <ref role="2S8YL0" node="2gcpqd5rZhu" resolve="brandingId" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="2QY_rtDqeOa" role="3cqZAp" />
         <node concept="3clFbF" id="54mRB2k0PZH" role="3cqZAp">
           <node concept="37vLTI" id="54mRB2k0Qyo" role="3clFbG">
@@ -11773,7 +11753,31 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6z8g0a0tdPa" role="3cqZAp" />
+        <node concept="3clFbF" id="2gcpqd5saWl" role="3cqZAp">
+          <node concept="37vLTI" id="2gcpqd5sfeQ" role="3clFbG">
+            <node concept="2OqwBi" id="2gcpqd5siC$" role="37vLTx">
+              <node concept="2OqwBi" id="7eWhJ0KdUml" role="2Oq$k0">
+                <node concept="37vLTw" id="2gcpqd5siqo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                </node>
+                <node concept="liA8E" id="7eWhJ0KdX_N" role="2OqNvi">
+                  <ref role="37wK5l" to="1e0c:2daTpzJn9IB" resolve="getUserEnvironment" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2gcpqd5skGU" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2gcpqd5ruNc" resolve="getBrandingId" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2gcpqd5sbAq" role="37vLTJ">
+              <node concept="37vLTw" id="2gcpqd5saWj" role="2Oq$k0">
+                <ref role="3cqZAo" node="kA5KhwgqX2" resolve="ctxCli" />
+              </node>
+              <node concept="2S8uIT" id="2gcpqd5seM0" role="2OqNvi">
+                <ref role="2S8YL0" node="2gcpqd5rZhu" resolve="brandingId" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="54mRB2k0MzY" role="3cqZAp">
           <node concept="37vLTI" id="54mRB2k0NBZ" role="3clFbG">
             <node concept="2OqwBi" id="54mRB2k0OCH" role="37vLTx">

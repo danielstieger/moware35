@@ -9823,7 +9823,30 @@
         </node>
       </node>
       <node concept="3clFbH" id="6UWxg$OrKch" role="3cqZAp" />
-      <node concept="3clFbH" id="6UWxg$OrKfO" role="3cqZAp" />
+      <node concept="3clFbJ" id="7eWhJ0JrwBL" role="3cqZAp">
+        <node concept="3clFbS" id="7eWhJ0JrwBN" role="3clFbx">
+          <node concept="2MkqsV" id="7eWhJ0Jryi4" role="3cqZAp">
+            <node concept="Xl_RD" id="7eWhJ0Jryij" role="2MkJ7o">
+              <property role="Xl_RC" value="Specify a Version for this api implementation." />
+            </node>
+            <node concept="1YBJjd" id="7eWhJ0JryjF" role="1urrMF">
+              <ref role="1YBMHb" node="3pREN1A8LKe" resolve="apiDescription" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7eWhJ0JrxBl" role="3clFbw">
+          <node concept="2OqwBi" id="7eWhJ0JrwVE" role="2Oq$k0">
+            <node concept="1YBJjd" id="7eWhJ0JrwKr" role="2Oq$k0">
+              <ref role="1YBMHb" node="3pREN1A8LKe" resolve="apiDescription" />
+            </node>
+            <node concept="2qgKlT" id="7eWhJ0Jrxp$" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:6UWxg$OJI$e" resolve="getVersion" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="7eWhJ0JrydU" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="7eWhJ0Jrw$w" role="3cqZAp" />
       <node concept="3cpWs8" id="3pREN1A8LKk" role="3cqZAp">
         <node concept="3cpWsn" id="3pREN1A8LKn" role="3cpWs9">
           <property role="TrG5h" value="allOperations" />
@@ -10491,6 +10514,53 @@
         <node concept="3fqX7Q" id="1RBp0HanAeP" role="3clFbw">
           <node concept="37vLTw" id="1RBp0HanAf5" role="3fr31v">
             <ref role="3cqZAo" node="1RBp0Han_zl" resolve="ok" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="7eWhJ0JSm3I" role="3cqZAp" />
+      <node concept="3clFbH" id="7eWhJ0JSm4R" role="3cqZAp" />
+      <node concept="3clFbJ" id="7eWhJ0JSm7d" role="3cqZAp">
+        <node concept="3clFbS" id="7eWhJ0JSm7f" role="3clFbx">
+          <node concept="2MkqsV" id="7eWhJ0JSztv" role="3cqZAp">
+            <node concept="Xl_RD" id="7eWhJ0JSztI" role="2MkJ7o">
+              <property role="Xl_RC" value="Retrieval Operations can use params/headers, but no payload." />
+            </node>
+            <node concept="1YBJjd" id="7eWhJ0JSzvR" role="1urrMF">
+              <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="7eWhJ0JSnYC" role="3clFbw">
+          <node concept="3y3z36" id="7eWhJ0JSyUl" role="3uHU7w">
+            <node concept="3cmrfG" id="7eWhJ0JSzp4" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="7eWhJ0JStHV" role="3uHU7B">
+              <node concept="2OqwBi" id="7eWhJ0JSodH" role="2Oq$k0">
+                <node concept="1YBJjd" id="7eWhJ0JSo27" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />
+                </node>
+                <node concept="2qgKlT" id="7eWhJ0JSohz" role="2OqNvi">
+                  <ref role="37wK5l" to="5y3p:4GLQUIC7oVS" resolve="getAllPayloadOfOperation" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="7eWhJ0JSxv3" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7eWhJ0JSn4r" role="3uHU7B">
+            <node concept="2OqwBi" id="7eWhJ0JSmkA" role="2Oq$k0">
+              <node concept="1YBJjd" id="7eWhJ0JSm8_" role="2Oq$k0">
+                <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />
+              </node>
+              <node concept="3TrcHB" id="7eWhJ0JSmVj" role="2OqNvi">
+                <ref role="3TsBF5" to="1btx:3wPTV4Yd0pF" resolve="type" />
+              </node>
+            </node>
+            <node concept="21noJN" id="7eWhJ0JSnGp" role="2OqNvi">
+              <node concept="21nZrQ" id="7eWhJ0JSnGr" role="21noJM">
+                <ref role="21nZrZ" to="1btx:3wPTV4YcZRh" resolve="RETRIEVAL_OPERATION" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
