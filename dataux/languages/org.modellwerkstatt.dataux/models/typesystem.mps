@@ -10564,6 +10564,60 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="3FzBJN$BHOL" role="3cqZAp" />
+      <node concept="3clFbJ" id="3FzBJN$BHTw" role="3cqZAp">
+        <node concept="3clFbS" id="3FzBJN$BHTy" role="3clFbx">
+          <node concept="2MkqsV" id="3FzBJN$BORW" role="3cqZAp">
+            <node concept="Xl_RD" id="3FzBJN$BOSb" role="2MkJ7o">
+              <property role="Xl_RC" value="Operation names have to be lowercase." />
+            </node>
+            <node concept="1YBJjd" id="3FzBJN$BOT7" role="1urrMF">
+              <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="3FzBJN$BKze" role="3clFbw">
+          <node concept="3fqX7Q" id="3FzBJN$BOLs" role="3uHU7w">
+            <node concept="2OqwBi" id="3FzBJN$BOLu" role="3fr31v">
+              <node concept="2OqwBi" id="3FzBJN$BOLv" role="2Oq$k0">
+                <node concept="1YBJjd" id="3FzBJN$BOLw" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />
+                </node>
+                <node concept="3TrcHB" id="3FzBJN$BOLx" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3FzBJN$BOLy" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="2OqwBi" id="3FzBJN$BOLz" role="37wK5m">
+                  <node concept="2OqwBi" id="3FzBJN$BOL$" role="2Oq$k0">
+                    <node concept="1YBJjd" id="3FzBJN$BOL_" role="2Oq$k0">
+                      <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />
+                    </node>
+                    <node concept="3TrcHB" id="3FzBJN$BOLA" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3FzBJN$BOLB" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3FzBJN$BIX7" role="3uHU7B">
+            <node concept="2OqwBi" id="3FzBJN$BI8Y" role="2Oq$k0">
+              <node concept="1YBJjd" id="3FzBJN$BHWX" role="2Oq$k0">
+                <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />
+              </node>
+              <node concept="3TrcHB" id="3FzBJN$BIpm" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="17RvpY" id="3FzBJN$BKge" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="1RBp0Hant7b" role="1YuTPh">
       <property role="TrG5h" value="apiOperation" />

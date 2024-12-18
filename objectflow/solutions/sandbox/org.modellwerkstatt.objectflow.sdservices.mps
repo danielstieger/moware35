@@ -9863,38 +9863,53 @@
                   <node concept="2ShNRf" id="1fdEi1n_NMp" role="YScLw">
                     <node concept="1pGfFk" id="1fdEi1n_Oao" role="2ShVmc">
                       <ref role="37wK5l" to="18b:4GLQUIBtqUn" resolve="SerdesException" />
-                      <node concept="3cpWs3" id="1fdEi1n_Rj_" role="37wK5m">
-                        <node concept="Xl_RD" id="1fdEi1n_Rk7" role="3uHU7w">
-                          <property role="Xl_RC" value="." />
+                      <node concept="3cpWs3" id="1fdEi1n_Poq" role="37wK5m">
+                        <node concept="3cpWs3" id="1fdEi1n_OCE" role="3uHU7B">
+                          <node concept="3cpWs3" id="3FzBJN$AGCQ" role="3uHU7B">
+                            <node concept="3cpWs3" id="3FzBJN$AMQn" role="3uHU7B">
+                              <node concept="2OqwBi" id="3FzBJN$B1S$" role="3uHU7w">
+                                <node concept="37vLTw" id="3FzBJN$AMZN" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5WgknX1wJ5F" resolve="curConcept" />
+                                </node>
+                                <node concept="2OwXpG" id="3FzBJN$B2XZ" role="2OqNvi">
+                                  <ref role="2Oxat5" node="1gQHsZ_Z$dU" resolve="fields" />
+                                </node>
+                              </node>
+                              <node concept="3cpWs3" id="3FzBJN$Bjc8" role="3uHU7B">
+                                <node concept="Xl_RD" id="3FzBJN$BjeD" role="3uHU7w">
+                                  <property role="Xl_RC" value=" " />
+                                </node>
+                                <node concept="3cpWs3" id="3FzBJN$Beb5" role="3uHU7B">
+                                  <node concept="3cpWs3" id="3FzBJN$AP$Q" role="3uHU7B">
+                                    <node concept="3cpWs3" id="3FzBJN$AOpc" role="3uHU7B">
+                                      <node concept="Xl_RD" id="3FzBJN$AMpv" role="3uHU7B">
+                                        <property role="Xl_RC" value="Number of fields in json data '" />
+                                      </node>
+                                      <node concept="37vLTw" id="3FzBJN$AOtd" role="3uHU7w">
+                                        <ref role="3cqZAo" node="5WgknX1wJjY" resolve="data" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="3FzBJN$APBf" role="3uHU7w">
+                                      <property role="Xl_RC" value="' do not match " />
+                                    </node>
+                                  </node>
+                                  <node concept="37vLTw" id="3FzBJN$Bfop" role="3uHU7w">
+                                    <ref role="3cqZAo" node="5WgknX1wJ5F" resolve="curConcept" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="1fdEi1n_OiT" role="3uHU7w">
+                              <property role="Xl_RC" value=" (mode " />
+                            </node>
+                          </node>
+                          <node concept="Rm8GO" id="5Db$$mDxTpU" role="3uHU7w">
+                            <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
+                            <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
+                          </node>
                         </node>
-                        <node concept="3cpWs3" id="1fdEi1n_R39" role="3uHU7B">
-                          <node concept="3cpWs3" id="1fdEi1n_Qw3" role="3uHU7B">
-                            <node concept="3cpWs3" id="1fdEi1n_Q39" role="3uHU7B">
-                              <node concept="3cpWs3" id="1fdEi1n_Poq" role="3uHU7B">
-                                <node concept="3cpWs3" id="1fdEi1n_OCE" role="3uHU7B">
-                                  <node concept="Xl_RD" id="1fdEi1n_OiT" role="3uHU7B">
-                                    <property role="Xl_RC" value="Mode is " />
-                                  </node>
-                                  <node concept="Rm8GO" id="5Db$$mDxTpU" role="3uHU7w">
-                                    <ref role="1Px2BO" to="18b:1fdEi1n$XA9" resolve="IConvFormatOptions.Mode" />
-                                    <ref role="Rm8GQ" to="18b:1fdEi1n$XC4" resolve="ALL_PROPERTIES_NECESSARY" />
-                                  </node>
-                                </node>
-                                <node concept="Xl_RD" id="1fdEi1n_Ppb" role="3uHU7w">
-                                  <property role="Xl_RC" value=" but number of fields do not match in object " />
-                                </node>
-                              </node>
-                              <node concept="37vLTw" id="1fdEi1n_Qey" role="3uHU7w">
-                                <ref role="3cqZAo" node="5WgknX1wJ5F" resolve="curConcept" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="1fdEi1n_QFq" role="3uHU7w">
-                              <property role="Xl_RC" value=" and json " />
-                            </node>
-                          </node>
-                          <node concept="37vLTw" id="1fdEi1n_R44" role="3uHU7w">
-                            <ref role="3cqZAo" node="5WgknX1wJjY" resolve="data" />
-                          </node>
+                        <node concept="Xl_RD" id="3FzBJN$AR1B" role="3uHU7w">
+                          <property role="Xl_RC" value=")" />
                         </node>
                       </node>
                     </node>
