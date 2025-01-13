@@ -4587,7 +4587,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="5IUblnEI$J2" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:5IUblnEI$p9" resolve="responseDecl" />
+        <ref role="1NtTu8" to="1btx:5IUblnEI$p9" resolve="response" />
         <node concept="l2Vlx" id="5IUblnEI$J4" role="2czzBx" />
         <node concept="lj46D" id="5IUblnEI$Y7" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -4953,6 +4953,26 @@
       <node concept="3F1sOY" id="5IUblnE4n2x" role="3EZMnx">
         <ref role="1NtTu8" to="1btx:3veN3rLfEuq" resolve="defSerdesOpt" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5IUblnFsxkk">
+    <property role="3GE5qa" value="api" />
+    <ref role="1XX52x" to="1btx:5IUblnFswOH" resolve="ApiOperationResponse" />
+    <node concept="3EZMnI" id="h02eMj9tj_" role="2wV5jI">
+      <node concept="3F1sOY" id="h02eMj9tjG" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:4VkOLwjf83e" resolve="type" />
+      </node>
+      <node concept="3F0A7n" id="h02eMj9tjM" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:h02eMj9tjz" resolve="fldName" />
+      </node>
+      <node concept="3F0ifn" id="h02eMj9tjU" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" to="tpen:hF$iUjy" resolve="Operator" />
+      </node>
+      <node concept="3F1sOY" id="h02eMj9tk4" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:h02eMj9tjw" resolve="value" />
+      </node>
+      <node concept="l2Vlx" id="h02eMj9tjC" role="2iSdaV" />
     </node>
   </node>
 </model>
