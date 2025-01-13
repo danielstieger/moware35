@@ -1342,8 +1342,5 @@
       </node>
     </node>
   </node>
-  <node concept="2CG7Z0" id="7eWhJ0Jk6LV">
-    <property role="TrG5h" value="ApiConfig" />
-  </node>
 </model>
 

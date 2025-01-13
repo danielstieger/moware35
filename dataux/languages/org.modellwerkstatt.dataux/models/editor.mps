@@ -73,7 +73,6 @@
       <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha">
         <property id="2162403111523065396" name="cellId" index="1lyBwo" />
       </concept>
-      <concept id="8383079901754291618" name="jetbrains.mps.lang.editor.structure.CellModel_NextEditor" flags="ng" index="B$lHz" />
       <concept id="3473224453637651916" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform_PlaceInCellHolder" flags="ng" index="CtIbL">
         <property id="3473224453637651917" name="placeInCell" index="CtIbK" />
       </concept>
@@ -4449,26 +4448,18 @@
         <property role="3F0ifm" value="PROCESSING_RESSOURCE" />
         <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
       </node>
-      <node concept="3F0ifn" id="3veN3rLfEsW" role="3EZMnx">
-        <property role="3F0ifm" value="using" />
-        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
-        <node concept="pVoyu" id="3veN3rLfEti" role="3F10Kt">
+      <node concept="3F1sOY" id="5IUblnE4mM1" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;endpoint serdes&gt;" />
+        <ref role="1NtTu8" to="1btx:5IUblnE4mLH" resolve="serdes" />
+        <node concept="pVoyu" id="5IUblnE4mMj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="5IUblnE4mMl" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0A7n" id="3wPTV4Y9O8N" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:3wPTV4Y9O8L" resolve="format" />
-      </node>
-      <node concept="3F0ifn" id="3veN3rLfEtF" role="3EZMnx">
-        <property role="3F0ifm" value="with default serdes options" />
-        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
-      </node>
-      <node concept="3F1sOY" id="3veN3rLfEuu" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;serdes option&gt;" />
-        <ref role="1NtTu8" to="1btx:3veN3rLfEuq" resolve="defSerdesOpt" />
-      </node>
-      <node concept="3F0ifn" id="3wPTV4Y9O83" role="3EZMnx">
-        <node concept="pVoyu" id="3veN3rLfENX" role="3F10Kt">
+      <node concept="3F0ifn" id="3F3Jzgex7bj" role="3EZMnx">
+        <node concept="pVoyu" id="3veN3rLfEOr" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -4482,8 +4473,8 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0ifn" id="3F3Jzgex7bj" role="3EZMnx">
-        <node concept="pVoyu" id="3veN3rLfEOr" role="3F10Kt">
+      <node concept="3F0ifn" id="5IUblnE4mMo" role="3EZMnx">
+        <node concept="pVoyu" id="5IUblnE4mMp" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -4589,17 +4580,28 @@
         </node>
       </node>
       <node concept="3F0ifn" id="3F3JzgdPk29" role="3EZMnx">
-        <property role="3F0ifm" value="response: " />
+        <property role="3F0ifm" value="response:" />
         <ref role="1k5W1q" node="1h$q6rwn4i5" resolve="SubConcept" />
         <node concept="pVoyu" id="3F3JzgdPk2a" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="3F3JzgdPkiN" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:3F3JzgdPkhX" resolve="responseType" />
-      </node>
-      <node concept="3F1sOY" id="3F3JzgdPlrx" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:3F3JzgdPleu" resolve="reponseSerdes" />
+      <node concept="3F2HdR" id="5IUblnEI$J2" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:5IUblnEI$p9" resolve="responseDecl" />
+        <node concept="l2Vlx" id="5IUblnEI$J4" role="2czzBx" />
+        <node concept="lj46D" id="5IUblnEI$Y7" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="5IUblnEI$Y9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="5IUblnEI$Yc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="5IUblnEI_oA" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;response&gt;" />
+        </node>
       </node>
       <node concept="3F0ifn" id="3F3JzgdPk3l" role="3EZMnx">
         <property role="3F0ifm" value="" />
@@ -4746,23 +4748,6 @@
     <property role="3GE5qa" value="api" />
     <ref role="1XX52x" to="1btx:3F3JzgdPdYZ" resolve="ApiImplContainer" />
     <node concept="3EZMnI" id="3F3JzgdPe19" role="2wV5jI">
-      <node concept="3F2HdR" id="5zbAJ4MLzWC" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:5zbAJ4MLzW5" resolve="staticsVar" />
-        <node concept="pVoyu" id="5zbAJ4MLzXa" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pj6Ft" id="5zbAJ4MLzXb" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="5zbAJ4MLzXc" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="l2Vlx" id="5zbAJ4MLzWE" role="2czzBx" />
-        <node concept="3F0ifn" id="5zbAJ4MLzX8" role="2czzBI">
-          <property role="3F0ifm" value="" />
-          <property role="ilYzB" value="&lt;static vars&gt;" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="3F3JzgdPhnz" role="3EZMnx">
         <property role="3F0ifm" value="params:" />
         <ref role="1k5W1q" node="1h$q6rwn4i5" resolve="SubConcept" />
@@ -4956,30 +4941,18 @@
       <node concept="l2Vlx" id="3F3JzgdPe1c" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="3F3JzgdPky_">
+  <node concept="24kQdi" id="5IUblnE4k5E">
     <property role="3GE5qa" value="api" />
-    <ref role="1XX52x" to="1btx:3F3JzgdPkyg" resolve="ApiSerdesReference" />
-    <node concept="3EZMnI" id="3F3JzgdPkyB" role="2wV5jI">
-      <node concept="3F0ifn" id="3F3JzgdPkyI" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
-        <ref role="1k5W1q" to="q1sf:6IvalsggzKe" resolve="UserHint" />
+    <ref role="1XX52x" to="1btx:5IUblnE4k5y" resolve="ApiJsonEndpoint" />
+    <node concept="3EZMnI" id="5IUblnE4n2k" role="2wV5jI">
+      <node concept="3F0ifn" id="5IUblnE4n2r" role="3EZMnx">
+        <property role="3F0ifm" value="using JSON serdes with " />
+        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
       </node>
-      <node concept="3F1sOY" id="3F3JzgdPkyO" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;serdes&gt;" />
-        <ref role="1NtTu8" to="1btx:3F3JzgdPkyh" resolve="expression" />
+      <node concept="l2Vlx" id="5IUblnE4n2n" role="2iSdaV" />
+      <node concept="3F1sOY" id="5IUblnE4n2x" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:3veN3rLfEuq" resolve="defSerdesOpt" />
       </node>
-      <node concept="l2Vlx" id="3F3JzgdPkyE" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="3F3Jzgeg_ig">
-    <property role="3GE5qa" value="api" />
-    <ref role="1XX52x" to="1btx:3F3Jzgeg_8k" resolve="ApiVariableSerdes" />
-    <node concept="3EZMnI" id="3F3Jzgeg_ii" role="2wV5jI">
-      <node concept="B$lHz" id="3F3Jzgeg_ip" role="3EZMnx" />
-      <node concept="3F1sOY" id="3F3Jzgeg_iv" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:3F3Jzgeg_8l" resolve="with" />
-      </node>
-      <node concept="2iRfu4" id="3F3Jzgeg_il" role="2iSdaV" />
     </node>
   </node>
 </model>

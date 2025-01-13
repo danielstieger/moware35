@@ -2101,23 +2101,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="3F3Jzgetxye">
-    <property role="3GE5qa" value="api" />
-    <ref role="1M2myG" to="1btx:3F3Jzgeg_8k" resolve="ApiVariableSerdes" />
-    <node concept="9S07l" id="3F3Jzgetxyf" role="9Vyp8">
-      <node concept="3clFbS" id="3F3Jzgetxyg" role="2VODD2">
-        <node concept="3clFbF" id="3F3JzgetEt9" role="3cqZAp">
-          <node concept="17R0WA" id="3F3JzgetF5$" role="3clFbG">
-            <node concept="2DA6wF" id="3F3JzgetF5_" role="3uHU7B" />
-            <node concept="359W_D" id="3F3JzgetF5A" role="3uHU7w">
-              <ref role="359W_E" to="1btx:3F3JzgdPdYZ" resolve="ApiImplContainer" />
-              <ref role="359W_F" to="1btx:3F3JzgdPdZ5" resolve="payloadVar" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="6UWxg$OBOK3">
     <property role="3GE5qa" value="api" />
     <ref role="1M2myG" to="1btx:3wPTV4XWb6I" resolve="ApiDescription" />
