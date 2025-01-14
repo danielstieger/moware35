@@ -1895,6 +1895,13 @@
       <property role="20kJfa" value="serdes" />
       <ref role="20lvS9" node="5IUblnE4mnt" resolve="IApiEndpointSerdes" />
     </node>
+    <node concept="1TJgyj" id="6_DnTrflgVu" role="1TKVEi">
+      <property role="IQ2ns" value="7595707347865243358" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6_DnTrflgVt" resolve="IApiEndpointOption" />
+    </node>
     <node concept="PrWs8" id="3wPTV4Y9NBN" role="PzmwI">
       <ref role="PrY4T" to="un0u:6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
@@ -1977,13 +1984,6 @@
     <property role="3GE5qa" value="api" />
     <property role="TrG5h" value="ApiImplContainer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6UWxg$O247j" role="1TKVEi">
-      <property role="IQ2ns" value="7979398914367832531" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="requestVar" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3F3JzgdPdsK" resolve="ApiVariable" />
-    </node>
     <node concept="1TJgyj" id="3F3JzgdPdZ0" role="1TKVEi">
       <property role="IQ2ns" value="4234437205438029760" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2079,6 +2079,26 @@
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6_DnTrflgVt">
+    <property role="EcuMT" value="7595707347865243357" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="IApiEndpointOption" />
+  </node>
+  <node concept="1TIwiD" id="6_DnTrfJD_s">
+    <property role="EcuMT" value="7595707347872160092" />
+    <property role="3GE5qa" value="api" />
+    <property role="TrG5h" value="ApiGlobalVarDeclarationStatement" />
+    <property role="R4oN_" value="gloabl api var declaration" />
+    <property role="34LRSv" value="global" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="6_DnTrfJDE5" role="1TKVEi">
+      <property role="IQ2ns" value="7595707347872160389" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="apiVar" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3F3JzgdPdsK" resolve="ApiVariable" />
     </node>
   </node>
 </model>

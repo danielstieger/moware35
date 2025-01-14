@@ -2135,5 +2135,29 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6_DnTrfKV2b">
+    <property role="3GE5qa" value="api" />
+    <ref role="1M2myG" to="1btx:6_DnTrfJD_s" resolve="ApiGlobalVarDeclarationStatement" />
+    <node concept="9S07l" id="6_DnTrfKV2c" role="9Vyp8">
+      <node concept="3clFbS" id="6_DnTrfKV2d" role="2VODD2">
+        <node concept="3clFbF" id="6_DnTrfKV67" role="3cqZAp">
+          <node concept="2OqwBi" id="6_DnTrfKVPZ" role="3clFbG">
+            <node concept="2OqwBi" id="6_DnTrfKVlR" role="2Oq$k0">
+              <node concept="nLn13" id="6_DnTrgyGrU" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="6_DnTrfKVzg" role="2OqNvi">
+                <node concept="1xMEDy" id="6_DnTrfKVzi" role="1xVPHs">
+                  <node concept="chp4Y" id="6_DnTrfKVEQ" role="ri$Ld">
+                    <ref role="cht4Q" to="1btx:3F3JzgdPdYZ" resolve="ApiImplContainer" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="6_DnTrgsXHo" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="6_DnTrfKW17" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -1074,5 +1074,41 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="6_DnTrfS8rr">
+    <property role="TrG5h" value="ConvertLvdsToGlobalApiVarDecl" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="tpee:fzcpWvK" resolve="LocalVariableDeclarationStatement" />
+    <node concept="2S6ZIM" id="6_DnTrfS8rs" role="2ZfVej">
+      <node concept="3clFbS" id="6_DnTrfS8rt" role="2VODD2">
+        <node concept="3clFbF" id="6_DnTrfSsT9" role="3cqZAp">
+          <node concept="Xl_RD" id="6_DnTrfSsT8" role="3clFbG">
+            <property role="Xl_RC" value="Convert to endpoint global var declaration." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6_DnTrfS8ru" role="2ZfgGD">
+      <node concept="3clFbS" id="6_DnTrfS8rv" role="2VODD2">
+        <node concept="3clFbF" id="6_DnTrfSydK" role="3cqZAp">
+          <node concept="2YIFZM" id="6_DnTrfSyhJ" role="3clFbG">
+            <ref role="37wK5l" to="tm9u:6_DnTrfSenn" resolve="convertToGlobalVarDecl" />
+            <ref role="1Pybhc" to="tm9u:3veN3rLsqdM" resolve="DataUxApiHelper" />
+            <node concept="2Sf5sV" id="6_DnTrfSyjR" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="6_DnTrfSt9e" role="2ZfVeh">
+      <node concept="3clFbS" id="6_DnTrfSt9f" role="2VODD2">
+        <node concept="3clFbF" id="6_DnTrfSy2c" role="3cqZAp">
+          <node concept="2YIFZM" id="6_DnTrfSy9A" role="3clFbG">
+            <ref role="37wK5l" to="tm9u:6_DnTrfSv3p" resolve="invalidLvds" />
+            <ref role="1Pybhc" to="tm9u:3veN3rLsqdM" resolve="DataUxApiHelper" />
+            <node concept="2Sf5sV" id="6_DnTrfSybl" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
