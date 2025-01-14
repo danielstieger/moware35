@@ -1905,9 +1905,6 @@
     <node concept="PrWs8" id="3wPTV4Y9NBN" role="PzmwI">
       <ref role="PrY4T" to="un0u:6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
-    <node concept="PrWs8" id="3F3Jzgez34S" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3wPTV4Y9O7H">
     <property role="EcuMT" value="4050398188327617005" />
@@ -1935,9 +1932,6 @@
     </node>
     <node concept="PrWs8" id="3wPTV4Y9O7I" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="3F3Jzgf7WiF" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="PrWs8" id="17vnS6BiFa6" role="PzmwI">
       <ref role="PrY4T" to="un0u:17vnS6BiDli" resolve="ITransactionAware" />
@@ -2012,7 +2006,7 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
-    <node concept="PrWs8" id="3F3JzgetLWE" role="PzmwI">
+    <node concept="PrWs8" id="6_DnTrh0HpF" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="PrWs8" id="3F3JzgeOHfx" role="PzmwI">
@@ -2037,7 +2031,7 @@
   <node concept="1TIwiD" id="5IUblnE4k5y">
     <property role="EcuMT" value="6609645250142093666" />
     <property role="3GE5qa" value="api" />
-    <property role="TrG5h" value="ApiJsonEndpoint" />
+    <property role="TrG5h" value="ApiMwJsonEndpoint" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3veN3rLfEuq" role="1TKVEi">
       <property role="IQ2ns" value="4021376053636147098" />

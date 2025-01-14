@@ -1914,7 +1914,7 @@
                 </node>
               </node>
               <node concept="2DeJnY" id="5IUblnFmquU" role="2OqNvi">
-                <ref role="1A9B2P" to="1btx:5IUblnE4k5y" resolve="ApiJsonEndpoint" />
+                <ref role="1A9B2P" to="1btx:5IUblnE4k5y" resolve="ApiMwJsonEndpoint" />
               </node>
             </node>
           </node>
