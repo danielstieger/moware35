@@ -215,7 +215,6 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="3609453419506221441" name="jetbrains.mps.baseLanguage.structure.IncompleteMemberDeclaration" flags="ng" index="3kUTH3" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -21467,9 +21466,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="MRrcOLj6tP" role="jymVt" />
-    <node concept="3kUTH3" id="6LaubQHxwGK" role="jymVt">
-      <node concept="3Tmbuc" id="6LaubQHxwGI" role="1B3o_S" />
-    </node>
     <node concept="3clFb_" id="23eALbvVu39" role="jymVt">
       <property role="TrG5h" value="serField" />
       <node concept="37vLTG" id="23eALbvVxJZ" role="3clF46">

@@ -23,6 +23,7 @@
     <import index="f0db" ref="r:aa27368b-63c9-4643-a604-6d46069ff111(org.modellwerkstatt.objectflow.scopes)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -84,6 +85,9 @@
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -9092,6 +9096,119 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="6_DnTreBD$V" role="13h7CS">
+      <property role="TrG5h" value="getScope" />
+      <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+      <node concept="3Tm1VV" id="6_DnTreBD$W" role="1B3o_S" />
+      <node concept="3clFbS" id="6_DnTreBD_5" role="3clF47">
+        <node concept="3clFbH" id="6_DnTreBKK2" role="3cqZAp" />
+        <node concept="3clFbJ" id="6_DnTre_tWo" role="3cqZAp">
+          <node concept="3clFbS" id="6_DnTre_tWq" role="3clFbx">
+            <node concept="3clFbF" id="6_DnTreAq4J" role="3cqZAp">
+              <node concept="2OqwBi" id="6_DnTreAq4G" role="3clFbG">
+                <node concept="10M0yZ" id="6_DnTreAq4H" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="6_DnTreAq4I" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                  <node concept="Xl_RD" id="6_DnTreAqaN" role="37wK5m">
+                    <property role="Xl_RC" value="Checking VarDecl in ApiOperation ... " />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="6_DnTreCMM0" role="3cqZAp">
+              <node concept="3cpWsn" id="6_DnTreCMM1" role="3cpWs9">
+                <property role="TrG5h" value="s" />
+                <node concept="3uibUv" id="6_DnTreCMM2" role="1tU5fm">
+                  <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+                </node>
+                <node concept="2OqwBi" id="6_DnTreJrNH" role="33vP2m">
+                  <node concept="2OqwBi" id="6_DnTreCLQo" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6_DnTreCLl7" role="2Oq$k0">
+                      <node concept="13iPFW" id="6_DnTreCL97" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6_DnTreCLEF" role="2OqNvi">
+                        <ref role="3Tt5mk" to="1btx:3F3JzgdPjzm" resolve="container" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6_DnTreJrzv" role="2OqNvi">
+                      <ref role="3Tt5mk" to="1btx:3F3JzgdPdZe" resolve="body" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="6_DnTreJsby" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+                    <node concept="37vLTw" id="6_DnTreJswc" role="37wK5m">
+                      <ref role="3cqZAo" node="6_DnTreBD_6" resolve="kind" />
+                    </node>
+                    <node concept="37vLTw" id="6_DnTreJsyQ" role="37wK5m">
+                      <ref role="3cqZAo" node="6_DnTreBD_8" resolve="child" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6_DnTreCNqs" role="3cqZAp">
+              <node concept="2OqwBi" id="6_DnTreCNqp" role="3clFbG">
+                <node concept="10M0yZ" id="6_DnTreCNqq" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="6_DnTreCNqr" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                  <node concept="Xl_RD" id="6_DnTreCNt1" role="37wK5m">
+                    <property role="Xl_RC" value="... scope calculation done." />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="6_DnTreCL8W" role="3cqZAp">
+              <node concept="37vLTw" id="6_DnTreCN7y" role="3cqZAk">
+                <ref role="3cqZAo" node="6_DnTreCMM1" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6_DnTre_ujQ" role="3clFbw">
+            <node concept="37vLTw" id="6_DnTre_u2a" role="2Oq$k0">
+              <ref role="3cqZAo" node="6_DnTreBD_6" resolve="kind" />
+            </node>
+            <node concept="3O6GUB" id="6_DnTre_uFJ" role="2OqNvi">
+              <node concept="chp4Y" id="6_DnTre_uJ0" role="3QVz_e">
+                <ref role="cht4Q" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6_DnTreBKKa" role="3cqZAp" />
+        <node concept="3clFbF" id="6_DnTreBD_g" role="3cqZAp">
+          <node concept="2OqwBi" id="6_DnTreBD_d" role="3clFbG">
+            <node concept="13iAh5" id="6_DnTreBD_e" role="2Oq$k0">
+              <ref role="3eA5LN" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+            </node>
+            <node concept="2qgKlT" id="6_DnTreBD_f" role="2OqNvi">
+              <ref role="37wK5l" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+              <node concept="37vLTw" id="6_DnTreBD_b" role="37wK5m">
+                <ref role="3cqZAo" node="6_DnTreBD_6" resolve="kind" />
+              </node>
+              <node concept="37vLTw" id="6_DnTreBD_c" role="37wK5m">
+                <ref role="3cqZAo" node="6_DnTreBD_8" resolve="child" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6_DnTreBD_6" role="3clF46">
+        <property role="TrG5h" value="kind" />
+        <node concept="3bZ5Sz" id="6_DnTreBD_7" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6_DnTreBD_8" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="6_DnTreBD_9" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="6_DnTreBD_a" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="3F3JzgdPdYx">
     <property role="3GE5qa" value="api" />
@@ -10318,6 +10435,45 @@
     </node>
     <node concept="13hLZK" id="6UWxg$OrM$G" role="13h7CW">
       <node concept="3clFbS" id="6UWxg$OrM$H" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6_DnTremSk7">
+    <property role="3GE5qa" value="api" />
+    <ref role="13h7C2" to="1btx:5IUblnFswOH" resolve="ApiOperationResponse" />
+    <node concept="13i0hz" id="6_DnTremSki" role="13h7CS">
+      <property role="TrG5h" value="isSingleResponse" />
+      <node concept="3Tm1VV" id="6_DnTremSkj" role="1B3o_S" />
+      <node concept="10P_77" id="6_DnTremSky" role="3clF45" />
+      <node concept="3clFbS" id="6_DnTremSkl" role="3clF47">
+        <node concept="3clFbF" id="6_DnTremSle" role="3cqZAp">
+          <node concept="3clFbC" id="6_DnTren08t" role="3clFbG">
+            <node concept="3cmrfG" id="6_DnTren0$D" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="6_DnTremUM4" role="3uHU7B">
+              <node concept="2OqwBi" id="6_DnTremSNE" role="2Oq$k0">
+                <node concept="2OqwBi" id="6_DnTremSu8" role="2Oq$k0">
+                  <node concept="13iPFW" id="6_DnTremSld" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="6_DnTremS_z" role="2OqNvi">
+                    <node concept="1xMEDy" id="6_DnTremS__" role="1xVPHs">
+                      <node concept="chp4Y" id="6_DnTremSBJ" role="ri$Ld">
+                        <ref role="cht4Q" to="1btx:3wPTV4Y9O7H" resolve="ApiOperation" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="6_DnTremSZZ" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:5IUblnEI$p9" resolve="response" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="6_DnTremWv1" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="6_DnTremSk8" role="13h7CW">
+      <node concept="3clFbS" id="6_DnTremSk9" role="2VODD2" />
     </node>
   </node>
 </model>

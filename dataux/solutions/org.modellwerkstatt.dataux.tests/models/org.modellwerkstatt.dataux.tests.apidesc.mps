@@ -71,6 +71,7 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -187,7 +188,10 @@
         <child id="6609645250142104685" name="serdes" index="2LEO4S" />
         <child id="4234437205449535841" name="general" index="OhWXl" />
       </concept>
-      <concept id="6609645250165214509" name="org.modellwerkstatt.dataux.structure.ApiOperationResponse" flags="ng" index="2KM21S" />
+      <concept id="6609645250165214509" name="org.modellwerkstatt.dataux.structure.ApiOperationResponse" flags="ng" index="2KM21S">
+        <child id="306254586835227872" name="value" index="2nptKc" />
+        <child id="5680397130376446158" name="type" index="1tU5fn" />
+      </concept>
       <concept id="6609645250142093666" name="org.modellwerkstatt.dataux.structure.ApiJsonEndpoint" flags="ng" index="2LEQKR">
         <child id="4021376053636147098" name="defSerdesOpt" index="36W6IG" />
       </concept>
@@ -567,6 +571,10 @@
       <node concept="64Eps" id="7eWhJ0JYJM1" role="64Em8">
         <property role="TrG5h" value="multipayloadtest" />
         <property role="60u7q" value="3wPTV4YcZR9/COMPUTATION_FUNCTION" />
+        <node concept="2KM21S" id="6_DnTre_nf1" role="2L06Gs">
+          <node concept="10Oyi0" id="6_DnTre_nfb" role="1tU5fn" />
+          <node concept="33vP2n" id="6_DnTre_nf3" role="2nptKc" />
+        </node>
         <node concept="R5Q6b" id="7eWhJ0JYJM2" role="R5Cry">
           <node concept="R5Q$4" id="5IUblnFEk9J" role="R5Q7L">
             <property role="TrG5h" value="simple" />
@@ -677,12 +685,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3FzBJN$CXPe" role="3cqZAp" />
-            <node concept="3cpWs6" id="7eWhJ0JYJMf" role="3cqZAp">
-              <node concept="37vLTw" id="3FzBJN$CYbl" role="3cqZAk">
-                <ref role="3cqZAo" node="3FzBJN$CVh_" resolve="size" />
-              </node>
-            </node>
+            <node concept="3clFbH" id="6_DnTreBl_V" role="3cqZAp" />
           </node>
         </node>
       </node>
