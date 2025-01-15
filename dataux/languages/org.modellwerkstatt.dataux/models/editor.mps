@@ -465,7 +465,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
-      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
@@ -4835,7 +4834,7 @@
               </node>
               <node concept="3clFbF" id="1RBp0HajikC" role="3cqZAp">
                 <node concept="Xl_RD" id="1RBp0HajikB" role="3clFbG">
-                  <property role="Xl_RC" value="// field name of single payload is omitted." />
+                  <property role="Xl_RC" value="// field name of single payload is omitted, payload is at root." />
                 </node>
               </node>
             </node>
@@ -4863,20 +4862,12 @@
             </node>
             <node concept="3clFbF" id="1RBp0HajfY2" role="3cqZAp">
               <node concept="1Wc70l" id="1RBp0HajgXA" role="3clFbG">
-                <node concept="3clFbC" id="3$IQDV$su5b" role="3uHU7w">
-                  <node concept="3cmrfG" id="3$IQDV$su_j" role="3uHU7w">
-                    <property role="3cmrfH" value="1" />
+                <node concept="2OqwBi" id="1RBp0Hajh1x" role="3uHU7w">
+                  <node concept="37vLTw" id="1RBp0HajgYI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1RBp0Hajff_" resolve="op" />
                   </node>
-                  <node concept="2OqwBi" id="3$IQDV$slzs" role="3uHU7B">
-                    <node concept="2OqwBi" id="1RBp0Hajh1x" role="2Oq$k0">
-                      <node concept="37vLTw" id="1RBp0HajgYI" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1RBp0Hajff_" resolve="op" />
-                      </node>
-                      <node concept="2qgKlT" id="1RBp0Hajh77" role="2OqNvi">
-                        <ref role="37wK5l" to="5y3p:4GLQUIC7oVS" resolve="getAllPayloadOfOperation" />
-                      </node>
-                    </node>
-                    <node concept="34oBXx" id="3$IQDV$ss7f" role="2OqNvi" />
+                  <node concept="2qgKlT" id="1RBp0Hajh77" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:3$IQDV_K4oR" resolve="singlePayload" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="1RBp0Hajgdi" role="3uHU7B">
