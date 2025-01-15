@@ -194,7 +194,7 @@
         <child id="306254586835227872" name="value" index="2nptKc" />
         <child id="5680397130376446158" name="type" index="1tU5fn" />
       </concept>
-      <concept id="6609645250142093666" name="org.modellwerkstatt.dataux.structure.ApiJsonEndpoint" flags="ng" index="2LEQKR">
+      <concept id="6609645250142093666" name="org.modellwerkstatt.dataux.structure.ApiMwJsonEndpoint" flags="ng" index="2LEQKR">
         <child id="4021376053636147098" name="defSerdesOpt" index="36W6IG" />
       </concept>
       <concept id="7784207101902285036" name="org.modellwerkstatt.dataux.structure.OptVersion" flags="ng" index="2MWAvL">

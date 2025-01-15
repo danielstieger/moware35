@@ -7156,6 +7156,10 @@
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="3$IQDV$GPLv" role="3clF46">
+        <property role="TrG5h" value="array" />
+        <node concept="10P_77" id="3$IQDV$GPNK" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="5IUblnE3yz1" role="3clF45" />
       <node concept="3Tm1VV" id="5IUblnE3yz2" role="1B3o_S" />
       <node concept="3clFbS" id="5IUblnE3yz3" role="3clF47" />
@@ -7163,8 +7167,45 @@
         <property role="TrG5h" value="T" />
       </node>
     </node>
+    <node concept="2tJIrI" id="3$IQDV$rDIa" role="jymVt" />
+    <node concept="3clFb_" id="3$IQDV$rDxw" role="jymVt">
+      <property role="TrG5h" value="startPayload" />
+      <node concept="37vLTG" id="3$IQDV$rDEo" role="3clF46">
+        <property role="TrG5h" value="numFlds" />
+        <node concept="10Oyi0" id="3$IQDV$rDFM" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="3$IQDV$rD$a" role="3clF45">
+        <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.IDeserialized" />
+      </node>
+      <node concept="3Tm1VV" id="3$IQDV$rDxz" role="1B3o_S" />
+      <node concept="3clFbS" id="3$IQDV$rDx$" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5IUblnE3HLe" role="jymVt">
+      <property role="TrG5h" value="checkKnownFieldNames" />
+      <node concept="37vLTG" id="3$IQDV$rDQh" role="3clF46">
+        <property role="TrG5h" value="root" />
+        <node concept="3uibUv" id="3$IQDV$rDRO" role="1tU5fm">
+          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.IDeserialized" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5IUblnE3HNu" role="3clF46">
+        <property role="TrG5h" value="flds" />
+        <node concept="8X2XB" id="5IUblnE3HP0" role="1tU5fm">
+          <node concept="17QB3L" id="5IUblnE3HO7" role="8Xvag" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5IUblnE3HLg" role="3clF45" />
+      <node concept="3Tm1VV" id="5IUblnE3HLh" role="1B3o_S" />
+      <node concept="3clFbS" id="5IUblnE3HLi" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="5IUblnE3HQ1" role="jymVt">
       <property role="TrG5h" value="deserWithPartial" />
+      <node concept="37vLTG" id="3$IQDV$rDgF" role="3clF46">
+        <property role="TrG5h" value="root" />
+        <node concept="3uibUv" id="3$IQDV$rDit" role="1tU5fm">
+          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.IDeserialized" />
+        </node>
+      </node>
       <node concept="37vLTG" id="5IUblnE3HVF" role="3clF46">
         <property role="TrG5h" value="type" />
         <node concept="3uibUv" id="5IUblnE3HVG" role="1tU5fm">
@@ -7173,6 +7214,10 @@
             <ref role="16sUi3" node="5IUblnE3HQZ" resolve="T" />
           </node>
         </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$GoC_" role="3clF46">
+        <property role="TrG5h" value="array" />
+        <node concept="10P_77" id="3$IQDV$GoEI" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5IUblnE3HWk" role="3clF46">
         <property role="TrG5h" value="fldNameOrNull" />
@@ -7188,12 +7233,6 @@
           <ref role="16sUi3" node="5IUblnE3HQZ" resolve="T" />
         </node>
       </node>
-      <node concept="37vLTG" id="5IUblnE3Tpq" role="3clF46">
-        <property role="TrG5h" value="root" />
-        <node concept="3uibUv" id="5IUblnE3Tqe" role="1tU5fm">
-          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.ISerdesRoot" />
-        </node>
-      </node>
       <node concept="16syzq" id="5IUblnE3HRs" role="3clF45">
         <ref role="16sUi3" node="5IUblnE3HQZ" resolve="T" />
       </node>
@@ -7203,64 +7242,110 @@
         <property role="TrG5h" value="T" />
       </node>
     </node>
-    <node concept="3clFb_" id="5IUblnE3HTF" role="jymVt">
-      <property role="TrG5h" value="deserPrimitive" />
-      <node concept="37vLTG" id="5IUblnE3TrO" role="3clF46">
+    <node concept="2tJIrI" id="5IUblnE3u$w" role="jymVt" />
+    <node concept="2tJIrI" id="3$IQDV$rDVU" role="jymVt" />
+    <node concept="3clFb_" id="3$IQDVzAckD" role="jymVt">
+      <property role="TrG5h" value="serPrimitive" />
+      <node concept="3clFbS" id="3$IQDVzAckG" role="3clF47" />
+      <node concept="3Tm1VV" id="3$IQDVzAckH" role="1B3o_S" />
+      <node concept="3cqZAl" id="3$IQDVzAcjl" role="3clF45" />
+      <node concept="37vLTG" id="3$IQDVzAcZD" role="3clF46">
+        <property role="TrG5h" value="__response" />
+        <node concept="3uibUv" id="3$IQDVzAcZE" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletResponse" resolve="HttpServletResponse" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDVzAcmW" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="3$IQDVzAcmV" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="3$IQDVzAkTi" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3$IQDV$qWY3" role="jymVt">
+      <property role="TrG5h" value="startResponse" />
+      <node concept="3clFbS" id="3$IQDV$qWY6" role="3clF47" />
+      <node concept="3Tm1VV" id="3$IQDV$qWY7" role="1B3o_S" />
+      <node concept="3uibUv" id="3$IQDV$qWVZ" role="3clF45">
+        <ref role="3uigEE" node="3$IQDV$qTCb" resolve="IApiEndpointSerdes.ISerialzed" />
+      </node>
+      <node concept="37vLTG" id="3$IQDV$qX15" role="3clF46">
+        <property role="TrG5h" value="numFlds" />
+        <node concept="10Oyi0" id="3$IQDV$qX14" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3$IQDV$rgyu" role="jymVt">
+      <property role="TrG5h" value="writeResponse" />
+      <node concept="3clFbS" id="3$IQDV$rgyx" role="3clF47" />
+      <node concept="3Tm1VV" id="3$IQDV$rgyy" role="1B3o_S" />
+      <node concept="3cqZAl" id="3$IQDV$rguI" role="3clF45" />
+      <node concept="37vLTG" id="3$IQDV$rg_D" role="3clF46">
+        <property role="TrG5h" value="ser" />
+        <node concept="3uibUv" id="3$IQDV$rg_C" role="1tU5fm">
+          <ref role="3uigEE" node="3$IQDV$qTCb" resolve="IApiEndpointSerdes.ISerialzed" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$rgDv" role="3clF46">
         <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="5IUblnE3TrP" role="1tU5fm">
+        <node concept="3uibUv" id="3$IQDV$rgDw" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-          <node concept="16syzq" id="5IUblnE3TrQ" role="11_B2D">
-            <ref role="16sUi3" node="5IUblnE3HTJ" resolve="T" />
+          <node concept="16syzq" id="3$IQDV$rgDx" role="11_B2D">
+            <ref role="16sUi3" node="3$IQDV$rgI5" resolve="T" />
           </node>
         </node>
       </node>
-      <node concept="37vLTG" id="5IUblnE3TrR" role="3clF46">
+      <node concept="37vLTG" id="3$IQDV$GoGN" role="3clF46">
+        <property role="TrG5h" value="array" />
+        <node concept="10P_77" id="3$IQDV$GoIE" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3$IQDV$rgG1" role="3clF46">
         <property role="TrG5h" value="fldNameOrNull" />
-        <node concept="17QB3L" id="5IUblnE3TrS" role="1tU5fm" />
+        <node concept="17QB3L" id="3$IQDV$rgG2" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="5IUblnE3TrT" role="3clF46">
-        <property role="TrG5h" value="throwEx" />
-        <node concept="10P_77" id="5IUblnE3TrU" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="5IUblnE3TrV" role="3clF46">
-        <property role="TrG5h" value="defaultObj" />
-        <node concept="16syzq" id="5IUblnE3TrW" role="1tU5fm">
-          <ref role="16sUi3" node="5IUblnE3HTJ" resolve="T" />
+      <node concept="37vLTG" id="3$IQDV$rgBA" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="3$IQDV$rgKI" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
-      <node concept="37vLTG" id="5IUblnE3TrX" role="3clF46">
-        <property role="TrG5h" value="root" />
-        <node concept="3uibUv" id="5IUblnE3TrY" role="1tU5fm">
-          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.ISerdesRoot" />
-        </node>
-      </node>
-      <node concept="16syzq" id="5IUblnE3HTG" role="3clF45">
-        <ref role="16sUi3" node="5IUblnE3HTJ" resolve="T" />
-      </node>
-      <node concept="3Tm1VV" id="5IUblnE3HTH" role="1B3o_S" />
-      <node concept="3clFbS" id="5IUblnE3HTI" role="3clF47" />
-      <node concept="16euLQ" id="5IUblnE3HTJ" role="16eVyc">
+      <node concept="16euLQ" id="3$IQDV$rgI5" role="16eVyc">
         <property role="TrG5h" value="T" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5IUblnE3u$w" role="jymVt" />
+    <node concept="3clFb_" id="3$IQDV$rfMC" role="jymVt">
+      <property role="TrG5h" value="finishResponse" />
+      <node concept="37vLTG" id="3$IQDV$rfpv" role="3clF46">
+        <property role="TrG5h" value="__response" />
+        <node concept="3uibUv" id="3$IQDV$rfpw" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletResponse" resolve="HttpServletResponse" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$rIIL" role="3clF46">
+        <property role="TrG5h" value="ser" />
+        <node concept="3uibUv" id="3$IQDV$rIIM" role="1tU5fm">
+          <ref role="3uigEE" node="3$IQDV$qTCb" resolve="IApiEndpointSerdes.ISerialzed" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3$IQDV$rfME" role="3clF45" />
+      <node concept="3Tm1VV" id="3$IQDV$rfMF" role="1B3o_S" />
+      <node concept="3clFbS" id="3$IQDV$rfMG" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="3$IQDV$rfIP" role="jymVt" />
     <node concept="3HP615" id="5IUblnE3x3t" role="jymVt">
       <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="ISerdesRoot" />
+      <property role="TrG5h" value="IDeserialized" />
       <node concept="3Tm1VV" id="5IUblnE3x3u" role="1B3o_S" />
-      <node concept="3clFb_" id="5IUblnE3HLe" role="jymVt">
-        <property role="TrG5h" value="checkKnownFieldNames" />
-        <node concept="37vLTG" id="5IUblnE3HNu" role="3clF46">
-          <property role="TrG5h" value="flds" />
-          <node concept="8X2XB" id="5IUblnE3HP0" role="1tU5fm">
-            <node concept="17QB3L" id="5IUblnE3HO7" role="8Xvag" />
-          </node>
-        </node>
-        <node concept="3cqZAl" id="5IUblnE3HLg" role="3clF45" />
-        <node concept="3Tm1VV" id="5IUblnE3HLh" role="1B3o_S" />
-        <node concept="3clFbS" id="5IUblnE3HLi" role="3clF47" />
-      </node>
     </node>
+    <node concept="2tJIrI" id="3$IQDV$rfEO" role="jymVt" />
+    <node concept="3HP615" id="3$IQDV$qTCb" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="ISerialzed" />
+      <node concept="3Tm1VV" id="3$IQDV$qTCc" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="3$IQDV$qTAt" role="jymVt" />
     <node concept="3Tm1VV" id="5IUblnE3uyO" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="5IUblnE3y_n">
@@ -7281,7 +7366,7 @@
         <node concept="1pGfFk" id="5IUblnE3$$a" role="2ShVmc">
           <ref role="37wK5l" to="33ny:~HashMap.&lt;init&gt;(int)" resolve="HashMap" />
           <node concept="3cmrfG" id="5IUblnE3$Af" role="37wK5m">
-            <property role="3cmrfH" value="20" />
+            <property role="3cmrfH" value="10" />
           </node>
         </node>
       </node>
@@ -7333,6 +7418,10 @@
             <ref role="16sUi3" node="5IUblnE3A6z" resolve="T" />
           </node>
         </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$GQy4" role="3clF46">
+        <property role="TrG5h" value="array" />
+        <node concept="10P_77" id="3$IQDV$GQPL" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="5IUblnE3$Dd" role="3clF45" />
       <node concept="3Tm1VV" id="5IUblnE3$De" role="1B3o_S" />
@@ -7388,99 +7477,250 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5IUblnE3GgR" role="jymVt" />
-    <node concept="2tJIrI" id="5IUblnE3GhD" role="jymVt" />
-    <node concept="3clFb_" id="5IUblnE3TMP" role="jymVt">
-      <property role="TrG5h" value="deserWithPartial" />
-      <node concept="37vLTG" id="5IUblnE3TMQ" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="5IUblnE3TMR" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-          <node concept="16syzq" id="5IUblnE3TMS" role="11_B2D">
-            <ref role="16sUi3" node="5IUblnE3TN4" resolve="T" />
-          </node>
+    <node concept="2tJIrI" id="3$IQDVzAdJW" role="jymVt" />
+    <node concept="3clFb_" id="3$IQDV$rFip" role="jymVt">
+      <property role="TrG5h" value="startPayload" />
+      <node concept="37vLTG" id="3$IQDV$rFiq" role="3clF46">
+        <property role="TrG5h" value="numFlds" />
+        <node concept="10Oyi0" id="3$IQDV$rFir" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="3$IQDV$rFis" role="3clF45">
+        <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.IDeserialized" />
+      </node>
+      <node concept="3Tm1VV" id="3$IQDV$rFit" role="1B3o_S" />
+      <node concept="3clFbS" id="3$IQDV$rFiv" role="3clF47">
+        <node concept="3clFbF" id="3$IQDV$rFiy" role="3cqZAp">
+          <node concept="10Nm6u" id="3$IQDV$rFix" role="3clFbG" />
         </node>
       </node>
-      <node concept="37vLTG" id="5IUblnE3TMT" role="3clF46">
-        <property role="TrG5h" value="fldName" />
-        <node concept="17QB3L" id="5IUblnE3TMU" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="5IUblnE3TMV" role="3clF46">
-        <property role="TrG5h" value="throwEx" />
-        <node concept="10P_77" id="5IUblnE3TMW" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="5IUblnE3TMX" role="3clF46">
-        <property role="TrG5h" value="defaultObj" />
-        <node concept="16syzq" id="5IUblnE3TMY" role="1tU5fm">
-          <ref role="16sUi3" node="5IUblnE3TN4" resolve="T" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5IUblnE3TMZ" role="3clF46">
-        <property role="TrG5h" value="root" />
-        <node concept="3uibUv" id="5IUblnE3TN0" role="1tU5fm">
-          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.ISerdesRoot" />
-        </node>
-      </node>
-      <node concept="16syzq" id="5IUblnE3TN1" role="3clF45">
-        <ref role="16sUi3" node="5IUblnE3TN4" resolve="T" />
-      </node>
-      <node concept="3Tm1VV" id="5IUblnE3TN2" role="1B3o_S" />
-      <node concept="16euLQ" id="5IUblnE3TN4" role="16eVyc">
-        <property role="TrG5h" value="T" />
-      </node>
-      <node concept="3clFbS" id="5IUblnE3TN5" role="3clF47">
-        <node concept="3clFbF" id="5IUblnE3UBD" role="3cqZAp">
-          <node concept="10Nm6u" id="5IUblnE3UBC" role="3clFbG" />
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="5IUblnE3TN6" role="2AJF6D">
+      <node concept="2AHcQZ" id="3$IQDV$rFiw" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="5IUblnE3TN7" role="jymVt">
-      <property role="TrG5h" value="deserPrimitive" />
-      <node concept="37vLTG" id="5IUblnE3TN8" role="3clF46">
+    <node concept="3clFb_" id="3$IQDV$rFiz" role="jymVt">
+      <property role="TrG5h" value="checkKnownFieldNames" />
+      <node concept="37vLTG" id="3$IQDV$rFi$" role="3clF46">
+        <property role="TrG5h" value="root" />
+        <node concept="3uibUv" id="3$IQDV$rFi_" role="1tU5fm">
+          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.IDeserialized" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$rFiA" role="3clF46">
+        <property role="TrG5h" value="flds" />
+        <node concept="8X2XB" id="3$IQDV$rFiB" role="1tU5fm">
+          <node concept="17QB3L" id="3$IQDV$rFiC" role="8Xvag" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3$IQDV$rFiD" role="3clF45" />
+      <node concept="3Tm1VV" id="3$IQDV$rFiE" role="1B3o_S" />
+      <node concept="3clFbS" id="3$IQDV$rFiG" role="3clF47" />
+      <node concept="2AHcQZ" id="3$IQDV$rFiH" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3$IQDV$Gqh5" role="jymVt">
+      <property role="TrG5h" value="deserWithPartial" />
+      <node concept="37vLTG" id="3$IQDV$Gqh6" role="3clF46">
+        <property role="TrG5h" value="root" />
+        <node concept="3uibUv" id="3$IQDV$Gqh7" role="1tU5fm">
+          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.IDeserialized" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$Gqh8" role="3clF46">
         <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="5IUblnE3TN9" role="1tU5fm">
+        <node concept="3uibUv" id="3$IQDV$Gqh9" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-          <node concept="16syzq" id="5IUblnE3TNa" role="11_B2D">
-            <ref role="16sUi3" node="5IUblnE3TNm" resolve="T" />
+          <node concept="16syzq" id="3$IQDV$Gqha" role="11_B2D">
+            <ref role="16sUi3" node="3$IQDV$Gqhm" resolve="T" />
           </node>
         </node>
       </node>
-      <node concept="37vLTG" id="5IUblnE3TNb" role="3clF46">
-        <property role="TrG5h" value="fldName" />
-        <node concept="17QB3L" id="5IUblnE3TNc" role="1tU5fm" />
+      <node concept="37vLTG" id="3$IQDV$Gqhb" role="3clF46">
+        <property role="TrG5h" value="array" />
+        <node concept="10P_77" id="3$IQDV$Gqhc" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="5IUblnE3TNd" role="3clF46">
+      <node concept="37vLTG" id="3$IQDV$Gqhd" role="3clF46">
+        <property role="TrG5h" value="fldNameOrNull" />
+        <node concept="17QB3L" id="3$IQDV$Gqhe" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3$IQDV$Gqhf" role="3clF46">
         <property role="TrG5h" value="throwEx" />
-        <node concept="10P_77" id="5IUblnE3TNe" role="1tU5fm" />
+        <node concept="10P_77" id="3$IQDV$Gqhg" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="5IUblnE3TNf" role="3clF46">
+      <node concept="37vLTG" id="3$IQDV$Gqhh" role="3clF46">
         <property role="TrG5h" value="defaultObj" />
-        <node concept="16syzq" id="5IUblnE3TNg" role="1tU5fm">
-          <ref role="16sUi3" node="5IUblnE3TNm" resolve="T" />
+        <node concept="16syzq" id="3$IQDV$Gqhi" role="1tU5fm">
+          <ref role="16sUi3" node="3$IQDV$Gqhm" resolve="T" />
         </node>
       </node>
-      <node concept="37vLTG" id="5IUblnE3TNh" role="3clF46">
-        <property role="TrG5h" value="root" />
-        <node concept="3uibUv" id="5IUblnE3TNi" role="1tU5fm">
-          <ref role="3uigEE" node="5IUblnE3x3t" resolve="IApiEndpointSerdes.ISerdesRoot" />
-        </node>
+      <node concept="16syzq" id="3$IQDV$Gqhj" role="3clF45">
+        <ref role="16sUi3" node="3$IQDV$Gqhm" resolve="T" />
       </node>
-      <node concept="16syzq" id="5IUblnE3TNj" role="3clF45">
-        <ref role="16sUi3" node="5IUblnE3TNm" resolve="T" />
-      </node>
-      <node concept="3Tm1VV" id="5IUblnE3TNk" role="1B3o_S" />
-      <node concept="16euLQ" id="5IUblnE3TNm" role="16eVyc">
+      <node concept="3Tm1VV" id="3$IQDV$Gqhk" role="1B3o_S" />
+      <node concept="16euLQ" id="3$IQDV$Gqhm" role="16eVyc">
         <property role="TrG5h" value="T" />
       </node>
-      <node concept="3clFbS" id="5IUblnE3TNn" role="3clF47">
-        <node concept="3clFbF" id="5IUblnE3UCw" role="3cqZAp">
-          <node concept="10Nm6u" id="5IUblnE3UCv" role="3clFbG" />
+      <node concept="3clFbS" id="3$IQDV$Gqhn" role="3clF47">
+        <node concept="3clFbF" id="3$IQDV$Gr$a" role="3cqZAp">
+          <node concept="10Nm6u" id="3$IQDV$Gr$9" role="3clFbG" />
         </node>
       </node>
-      <node concept="2AHcQZ" id="5IUblnE3TNo" role="2AJF6D">
+      <node concept="2AHcQZ" id="3$IQDV$Gqho" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3$IQDV$rFj0" role="jymVt">
+      <property role="TrG5h" value="startResponse" />
+      <node concept="3Tm1VV" id="3$IQDV$rFj2" role="1B3o_S" />
+      <node concept="3uibUv" id="3$IQDV$rFj3" role="3clF45">
+        <ref role="3uigEE" node="3$IQDV$qTCb" resolve="IApiEndpointSerdes.ISerialzed" />
+      </node>
+      <node concept="37vLTG" id="3$IQDV$rFj4" role="3clF46">
+        <property role="TrG5h" value="numFlds" />
+        <node concept="10Oyi0" id="3$IQDV$rFj5" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3$IQDV$rFj6" role="3clF47">
+        <node concept="3clFbF" id="3$IQDV$rFj9" role="3cqZAp">
+          <node concept="10Nm6u" id="3$IQDV$rFj8" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3$IQDV$rFj7" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3$IQDV$Gqhp" role="jymVt">
+      <property role="TrG5h" value="writeResponse" />
+      <node concept="3Tm1VV" id="3$IQDV$Gqhr" role="1B3o_S" />
+      <node concept="3cqZAl" id="3$IQDV$Gqhs" role="3clF45" />
+      <node concept="37vLTG" id="3$IQDV$Gqht" role="3clF46">
+        <property role="TrG5h" value="ser" />
+        <node concept="3uibUv" id="3$IQDV$Gqhu" role="1tU5fm">
+          <ref role="3uigEE" node="3$IQDV$qTCb" resolve="IApiEndpointSerdes.ISerialzed" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$Gqhv" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="3$IQDV$Gqhw" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+          <node concept="16syzq" id="3$IQDV$Gqhx" role="11_B2D">
+            <ref role="16sUi3" node="3$IQDV$GqhC" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$Gqhy" role="3clF46">
+        <property role="TrG5h" value="array" />
+        <node concept="10P_77" id="3$IQDV$Gqhz" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3$IQDV$Gqh$" role="3clF46">
+        <property role="TrG5h" value="fldNameOrNull" />
+        <node concept="17QB3L" id="3$IQDV$Gqh_" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3$IQDV$GqhA" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="3$IQDV$GqhB" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="16euLQ" id="3$IQDV$GqhC" role="16eVyc">
+        <property role="TrG5h" value="T" />
+      </node>
+      <node concept="3clFbS" id="3$IQDV$GqhD" role="3clF47" />
+      <node concept="2AHcQZ" id="3$IQDV$GqhE" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3$IQDV$rFjq" role="jymVt">
+      <property role="TrG5h" value="finishResponse" />
+      <node concept="37vLTG" id="3$IQDV$rFjr" role="3clF46">
+        <property role="TrG5h" value="__response" />
+        <node concept="3uibUv" id="3$IQDV$rFjs" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletResponse" resolve="HttpServletResponse" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDV$rI2p" role="3clF46">
+        <property role="TrG5h" value="ser" />
+        <node concept="3uibUv" id="3$IQDV$rI2q" role="1tU5fm">
+          <ref role="3uigEE" node="3$IQDV$qTCb" resolve="IApiEndpointSerdes.ISerialzed" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3$IQDV$rFjt" role="3clF45" />
+      <node concept="3Tm1VV" id="3$IQDV$rFju" role="1B3o_S" />
+      <node concept="3clFbS" id="3$IQDV$rFjw" role="3clF47">
+        <node concept="3clFbF" id="7eWhJ0JQhMu" role="3cqZAp">
+          <node concept="2OqwBi" id="7eWhJ0JQikp" role="3clFbG">
+            <node concept="37vLTw" id="7eWhJ0JQhMs" role="2Oq$k0">
+              <ref role="3cqZAo" node="3$IQDV$rFjr" resolve="__response" />
+            </node>
+            <node concept="liA8E" id="7eWhJ0JQjo4" role="2OqNvi">
+              <ref role="37wK5l" to="opgt:~ServletResponse.setContentType(java.lang.String)" resolve="setContentType" />
+              <node concept="Xl_RD" id="7eWhJ0JQjtT" role="37wK5m">
+                <property role="Xl_RC" value="application/json" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3$IQDV$rJeI" role="3cqZAp" />
+      </node>
+      <node concept="2AHcQZ" id="3$IQDV$rFjx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3$IQDVzAdYj" role="jymVt" />
+    <node concept="3clFb_" id="3$IQDVzAef8" role="jymVt">
+      <property role="TrG5h" value="serPrimitive" />
+      <node concept="3Tm1VV" id="3$IQDVzAefa" role="1B3o_S" />
+      <node concept="3cqZAl" id="3$IQDVzAefb" role="3clF45" />
+      <node concept="37vLTG" id="3$IQDVzAefc" role="3clF46">
+        <property role="TrG5h" value="__response" />
+        <node concept="3uibUv" id="3$IQDVzAefd" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletResponse" resolve="HttpServletResponse" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3$IQDVzAefe" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="3$IQDVzAeff" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3$IQDVzAefg" role="3clF47">
+        <node concept="3clFbH" id="3$IQDVzASJl" role="3cqZAp" />
+        <node concept="3clFbF" id="7eWhJ0JQX_Q" role="3cqZAp">
+          <node concept="2OqwBi" id="7eWhJ0JQX_S" role="3clFbG">
+            <node concept="37vLTw" id="7eWhJ0JQX_T" role="2Oq$k0">
+              <ref role="3cqZAo" node="3$IQDVzAefc" resolve="__response" />
+            </node>
+            <node concept="liA8E" id="7eWhJ0JQX_U" role="2OqNvi">
+              <ref role="37wK5l" to="opgt:~ServletResponse.setContentType(java.lang.String)" resolve="setContentType" />
+              <node concept="Xl_RD" id="7eWhJ0JQX_V" role="37wK5m">
+                <property role="Xl_RC" value="text/plain" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1RBp0Hadam$" role="3cqZAp">
+          <node concept="2OqwBi" id="1RBp0HabTFB" role="3clFbG">
+            <node concept="2OqwBi" id="1RBp0HabT4e" role="2Oq$k0">
+              <node concept="37vLTw" id="1RBp0HabSMF" role="2Oq$k0">
+                <ref role="3cqZAo" node="3$IQDVzAefc" resolve="__response" />
+              </node>
+              <node concept="liA8E" id="1RBp0HabTmq" role="2OqNvi">
+                <ref role="37wK5l" to="opgt:~ServletResponse.getWriter()" resolve="getWriter" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1RBp0HabU0T" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintWriter.print(java.lang.Object)" resolve="print" />
+              <node concept="37vLTw" id="1RBp0HabUud" role="37wK5m">
+                <ref role="3cqZAo" node="3$IQDVzAefe" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3$IQDVzAefh" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3uibUv" id="3$IQDVzAgft" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
     <node concept="2tJIrI" id="5IUblnE3GCK" role="jymVt" />
