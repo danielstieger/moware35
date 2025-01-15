@@ -149,6 +149,7 @@
       </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
+        <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
       </concept>
       <concept id="4313579457188683399" name="org.modellwerkstatt.objectflow.structure.IOFXObject" flags="ng" index="13YVsI">
@@ -168,6 +169,9 @@
       </concept>
       <concept id="7192042020165155288" name="org.modellwerkstatt.objectflow.structure.ContainerVariableReference" flags="ng" index="3urNR4" />
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
+      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
+        <reference id="59360650270057722" name="test" index="1Cak38" />
+      </concept>
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
@@ -578,7 +582,7 @@
         <node concept="2KM21S" id="6_DnTre_nf1" role="2L06Gs">
           <node concept="10Oyi0" id="6_DnTre_nfb" role="1tU5fn" />
           <node concept="ONB0d" id="6_DnTrhQLC6" role="2nptKc">
-            <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="size" />
+            <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="content" />
           </node>
         </node>
         <node concept="R5Q6b" id="7eWhJ0JYJM2" role="R5Cry">
@@ -612,8 +616,8 @@
             <node concept="3clFbH" id="7eWhJ0JYJM4" role="3cqZAp" />
             <node concept="2APWra" id="6_DnTrhPiMb" role="3cqZAp">
               <node concept="R5Q$4" id="6_DnTrhPiMc" role="2APWkj">
-                <property role="TrG5h" value="size" />
-                <node concept="10Oyi0" id="3FzBJN$CVhw" role="1tU5fm" />
+                <property role="TrG5h" value="content" />
+                <node concept="10Oyi0" id="4e04jF15Owc" role="1tU5fm" />
                 <node concept="2OqwBi" id="3FzBJN$CVNz" role="33vP2m">
                   <node concept="ONB0d" id="3FzBJN$CViE" role="2Oq$k0">
                     <ref role="3cqZAo" node="5IUblnFEk9J" resolve="simple" />
@@ -633,7 +637,7 @@
                       <node concept="34oBXx" id="3FzBJN$CXJf" role="2OqNvi" />
                     </node>
                     <node concept="ONB0d" id="6_DnTrhPjTV" role="37vLTJ">
-                      <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="size" />
+                      <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="content" />
                     </node>
                   </node>
                 </node>
@@ -656,7 +660,7 @@
                       <node concept="34oBXx" id="3FzBJN$CXQm" role="2OqNvi" />
                     </node>
                     <node concept="ONB0d" id="6_DnTrhPkds" role="37vLTJ">
-                      <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="size" />
+                      <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="content" />
                     </node>
                   </node>
                 </node>
@@ -679,7 +683,7 @@
                       <node concept="34oBXx" id="5IUblnFEomf" role="2OqNvi" />
                     </node>
                     <node concept="ONB0d" id="6_DnTrhPkdo" role="37vLTJ">
-                      <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="size" />
+                      <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="content" />
                     </node>
                   </node>
                 </node>
@@ -1900,6 +1904,11 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="4e04jF0ZGCe" role="3yMuLx">
+      <property role="TrG5h" value="Writing single payload list in json" />
+      <node concept="3cqZAl" id="4e04jF0ZGCg" role="3clF45" />
+      <node concept="3clFbS" id="4e04jF0ZGCh" role="3clF47" />
+    </node>
     <node concept="3yPF9F" id="3FzBJN$B_TR" role="3yMuLx">
       <property role="TrG5h" value="Writing multi payload in json." />
       <node concept="3cqZAl" id="3FzBJN$B_TS" role="3clF45" />
@@ -2037,6 +2046,39 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1Cak35" id="4e04jF161_A" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0JBECZ" resolve="Ressource not found" />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_B" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0JP3sp" resolve="Default Params/Headers and Single Payload on optionalparam" />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_C" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0JP91W" resolve="Writing Params/Headers and no Payload on optionalparam" />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_D" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0JP$wx" resolve="Bad request for Params optionalparam - can not convert to int" />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_E" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0K4hFp" resolve="Bad request for Unknown Param" />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_F" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0JPNr9" resolve="Writing with a POST to optionalparam leads to a 404 - not found." />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_G" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0K3XA0" resolve="Writing single payload in json." />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_H" role="38MLOi">
+      <ref role="1Cak38" node="7eWhJ0KcEYW" resolve="Writing single payload in json with additional unknown field." />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_I" role="38MLOi">
+      <ref role="1Cak38" node="3FzBJN$ArAp" resolve="Writing single payload in json with missing field." />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_J" role="38MLOi">
+      <ref role="1Cak38" node="4e04jF0ZGCe" resolve="Writing single payload list in json" />
+    </node>
+    <node concept="1Cak35" id="4e04jF161_L" role="38MLOi">
+      <ref role="1Cak38" node="3FzBJN$CLQy" resolve="Writing multi payload in json - omit not mandatory payload." />
     </node>
   </node>
   <node concept="312cEu" id="1SuqpWQMcfd">
