@@ -9343,7 +9343,7 @@
         <node concept="3clFbS" id="7eWhJ0JSm7f" role="3clFbx">
           <node concept="2MkqsV" id="7eWhJ0JSztv" role="3cqZAp">
             <node concept="Xl_RD" id="7eWhJ0JSztI" role="2MkJ7o">
-              <property role="Xl_RC" value="Retrieval Operations can use params/headers, but no payload." />
+              <property role="Xl_RC" value="Retrieval Operations can use params/headers, but no payload (due to http get?)." />
             </node>
             <node concept="1YBJjd" id="7eWhJ0JSzvR" role="1urrMF">
               <ref role="1YBMHb" node="1RBp0Hant7b" resolve="apiOperation" />

@@ -10,6 +10,8 @@
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
     <import index="rwuk" ref="r:9a581386-85ce-41a3-b17b-b79192665eb8(org.modellwerkstatt.objectflow.tests.config)" />
+    <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
+    <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -110,9 +112,6 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
@@ -147,10 +146,22 @@
       <concept id="6525155817177697680" name="org.modellwerkstatt.objectflow.structure.OFXDocumentation" flags="ng" index="20vkWO">
         <child id="1083620718216065081" name="singleLines" index="13z7HO" />
       </concept>
+      <concept id="1707086779731223260" name="org.modellwerkstatt.objectflow.structure.OnCreationStatusElemOption" flags="ng" index="2_5uyX" />
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
-        <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
+      </concept>
+      <concept id="4533072425307715670" name="org.modellwerkstatt.objectflow.structure.StatusElement" flags="ng" index="2XvgOc">
+        <property id="4533072425307715682" name="value" index="2XvgOS" />
+        <child id="1707086779727598829" name="options" index="2_RhUc" />
+        <child id="6436022531938294753" name="shortDescNew" index="3RLGe5" />
+        <child id="6436022531938294806" name="longDescNew" index="3RLGhM" />
+      </concept>
+      <concept id="4533072425307715669" name="org.modellwerkstatt.objectflow.structure.StatusDeclaration" flags="ng" index="2XvgOf">
+        <child id="4533072425307715672" name="element" index="2XvgO2" />
+      </concept>
+      <concept id="4533072425307800381" name="org.modellwerkstatt.objectflow.structure.StatusType" flags="ig" index="2XvVpB">
+        <reference id="6600213247848012755" name="status" index="3$lB4D" />
       </concept>
       <concept id="4313579457188683399" name="org.modellwerkstatt.objectflow.structure.IOFXObject" flags="ng" index="13YVsI">
         <child id="3207218222495905601" name="businessProperties" index="TxmiU" />
@@ -169,10 +180,9 @@
       </concept>
       <concept id="7192042020165155288" name="org.modellwerkstatt.objectflow.structure.ContainerVariableReference" flags="ng" index="3urNR4" />
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
+      <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5">
+        <child id="3498431509526788839" name="status" index="kV5ob" />
       </concept>
-      <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
       <concept id="4050398188324041134" name="org.modellwerkstatt.dataux.structure.ApiDescription" flags="ng" index="5Llov">
@@ -626,29 +636,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="3FzBJN$CW6j" role="3cqZAp">
-              <node concept="3clFbS" id="3FzBJN$CW6l" role="3clFbx">
-                <node concept="3clFbF" id="3FzBJN$CWgH" role="3cqZAp">
-                  <node concept="d57v9" id="3FzBJN$CWFl" role="3clFbG">
-                    <node concept="2OqwBi" id="3FzBJN$CXu1" role="37vLTx">
-                      <node concept="ONB0d" id="3FzBJN$CWFA" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5IUblnFEk9J" resolve="simple" />
-                      </node>
-                      <node concept="34oBXx" id="3FzBJN$CXJf" role="2OqNvi" />
-                    </node>
-                    <node concept="ONB0d" id="6_DnTrhPjTV" role="37vLTJ">
-                      <ref role="3cqZAo" node="6_DnTrhPiMc" resolve="content" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3y3z36" id="3FzBJN$CWfP" role="3clFbw">
-                <node concept="10Nm6u" id="3FzBJN$CWgf" role="3uHU7w" />
-                <node concept="ONB0d" id="3FzBJN$CW7n" role="3uHU7B">
-                  <ref role="3cqZAo" node="5IUblnFEk9J" resolve="simple" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbJ" id="3FzBJN$CXQg" role="3cqZAp">
               <node concept="3clFbS" id="3FzBJN$CXQh" role="3clFbx">
                 <node concept="3clFbF" id="3FzBJN$CXQi" role="3cqZAp">
@@ -825,6 +812,118 @@
           </node>
         </node>
       </node>
+      <node concept="64Eps" id="3dg6okDfNm2" role="64Em8">
+        <property role="TrG5h" value="singlefields" />
+        <property role="60u7q" value="3wPTV4YcZR9/COMPUTATION_FUNCTION" />
+        <node concept="R5Q6b" id="3dg6okDfNm3" role="R5Cry">
+          <node concept="R5Q$4" id="3dg6okDfNq2" role="R5Q7L">
+            <property role="TrG5h" value="id" />
+            <node concept="10Oyi0" id="3dg6okDjBxG" role="1tU5fm" />
+          </node>
+          <node concept="R5Q$4" id="3dg6okDfNqf" role="R5Q7L">
+            <property role="TrG5h" value="name" />
+            <node concept="17QB3L" id="3dg6okDfNqn" role="1tU5fm" />
+          </node>
+          <node concept="R5Q$4" id="3dg6okDfNqs" role="R5Q7L">
+            <property role="TrG5h" value="bd" />
+            <node concept="3uibUv" id="3dg6okDfNqC" role="1tU5fm">
+              <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+            </node>
+          </node>
+          <node concept="R5Q$4" id="3dg6okDfNqJ" role="R5Q7L">
+            <property role="TrG5h" value="ld" />
+            <node concept="3uibUv" id="3dg6okDfOhk" role="1tU5fm">
+              <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+            </node>
+          </node>
+          <node concept="R5Q$4" id="3dg6okDfOhp" role="R5Q7L">
+            <property role="TrG5h" value="dt" />
+            <node concept="3uibUv" id="3dg6okDfOhD" role="1tU5fm">
+              <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+            </node>
+          </node>
+          <node concept="R5Q$4" id="3dg6okDfOhK" role="R5Q7L">
+            <property role="TrG5h" value="status" />
+            <node concept="2XvVpB" id="3dg6okDfQcE" role="1tU5fm">
+              <ref role="3$lB4D" node="3dg6okDfPwX" resolve="SimpleDtoStatus" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="3dg6okDfNm5" role="R5Q7U">
+            <node concept="3clFbH" id="3dg6okDfNm7" role="3cqZAp" />
+            <node concept="2APWra" id="3dg6okDh3dM" role="3cqZAp">
+              <node concept="R5Q$4" id="3dg6okDh3dN" role="2APWkj">
+                <property role="TrG5h" value="res" />
+                <node concept="17QB3L" id="3dg6okDh3dz" role="1tU5fm" />
+                <node concept="3cpWs3" id="3dg6okDkFcs" role="33vP2m">
+                  <node concept="ONB0d" id="3dg6okDkFeQ" role="3uHU7w">
+                    <ref role="3cqZAo" node="3dg6okDfOhK" resolve="status" />
+                  </node>
+                  <node concept="3cpWs3" id="3dg6okDkF6I" role="3uHU7B">
+                    <node concept="3cpWs3" id="3dg6okDkEPB" role="3uHU7B">
+                      <node concept="3cpWs3" id="3dg6okDkEAv" role="3uHU7B">
+                        <node concept="3cpWs3" id="3dg6okDkEm_" role="3uHU7B">
+                          <node concept="3cpWs3" id="3dg6okDkE9V" role="3uHU7B">
+                            <node concept="3cpWs3" id="3dg6okDkDYP" role="3uHU7B">
+                              <node concept="3cpWs3" id="3dg6okDkDXC" role="3uHU7B">
+                                <node concept="3cpWs3" id="3dg6okDkDWC" role="3uHU7B">
+                                  <node concept="3cpWs3" id="3dg6okDkDLs" role="3uHU7B">
+                                    <node concept="3cpWs3" id="3dg6okDkDib" role="3uHU7B">
+                                      <node concept="Xl_RD" id="3dg6okDkD8M" role="3uHU7B">
+                                        <property role="Xl_RC" value="" />
+                                      </node>
+                                      <node concept="ONB0d" id="3dg6okDkDit" role="3uHU7w">
+                                        <ref role="3cqZAo" node="3dg6okDfNq2" resolve="id" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="3dg6okDkDLW" role="3uHU7w">
+                                      <property role="Xl_RC" value=" / " />
+                                    </node>
+                                  </node>
+                                  <node concept="ONB0d" id="3dg6okDkDWS" role="3uHU7w">
+                                    <ref role="3cqZAo" node="3dg6okDfNqf" resolve="name" />
+                                  </node>
+                                </node>
+                                <node concept="Xl_RD" id="3dg6okDkDXW" role="3uHU7w">
+                                  <property role="Xl_RC" value=" / " />
+                                </node>
+                              </node>
+                              <node concept="ONB0d" id="3dg6okDkDZY" role="3uHU7w">
+                                <ref role="3cqZAo" node="3dg6okDfNqs" resolve="bd" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="3dg6okDkEbh" role="3uHU7w">
+                              <property role="Xl_RC" value=" / " />
+                            </node>
+                          </node>
+                          <node concept="ONB0d" id="3dg6okDkEo9" role="3uHU7w">
+                            <ref role="3cqZAo" node="3dg6okDfNqJ" resolve="ld" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="3dg6okDkEB3" role="3uHU7w">
+                          <property role="Xl_RC" value=" / " />
+                        </node>
+                      </node>
+                      <node concept="ONB0d" id="3dg6okDkEQf" role="3uHU7w">
+                        <ref role="3cqZAo" node="3dg6okDfOhp" resolve="dt" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="3dg6okDkF7q" role="3uHU7w">
+                      <property role="Xl_RC" value=" / " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3dg6okDfNma" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="2KM21S" id="3dg6okDfNmb" role="2L06Gs">
+          <node concept="17QB3L" id="3dg6okDiFlh" role="1tU5fn" />
+          <node concept="ONB0d" id="3dg6okDiFlk" role="2nptKc">
+            <ref role="3cqZAo" node="3dg6okDh3dN" resolve="res" />
+          </node>
+        </node>
+      </node>
       <node concept="R5Q6b" id="7eWhJ0Jipud" role="OhWXl">
         <node concept="R5Q$4" id="7eWhJ0JiqSW" role="R5Q7Q">
           <property role="TrG5h" value="headerParam" />
@@ -910,6 +1009,30 @@
   </node>
   <node concept="1YeyE5" id="7eWhJ0JiqTC">
     <property role="TrG5h" value="SimpleDTO" />
+    <node concept="2XvgOf" id="3dg6okDfPwX" role="kV5ob">
+      <property role="TrG5h" value="SimpleDtoStatus" />
+      <node concept="2XvgOc" id="3dg6okDfPwY" role="2XvgO2">
+        <property role="TrG5h" value="ON" />
+        <property role="2XvgOS" value="ON" />
+        <node concept="Xl_RD" id="3dg6okDfPwZ" role="3RLGe5">
+          <property role="Xl_RC" value="ON" />
+        </node>
+        <node concept="Xl_RD" id="3dg6okDfPx0" role="3RLGhM">
+          <property role="Xl_RC" value="ON" />
+        </node>
+        <node concept="2_5uyX" id="3dg6okDfPx1" role="2_RhUc" />
+      </node>
+      <node concept="2XvgOc" id="3dg6okDfPAa" role="2XvgO2">
+        <property role="TrG5h" value="OFF" />
+        <property role="2XvgOS" value="OFF" />
+        <node concept="Xl_RD" id="3dg6okDfPAb" role="3RLGe5">
+          <property role="Xl_RC" value="OFF" />
+        </node>
+        <node concept="Xl_RD" id="3dg6okDfPAc" role="3RLGhM">
+          <property role="Xl_RC" value="OFF" />
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="7eWhJ0JiqTE" role="1B3o_S" />
     <node concept="3clFbW" id="7eWhJ0JiqTF" role="jymVt">
       <node concept="3cqZAl" id="7eWhJ0JiqTG" role="3clF45" />
@@ -1907,18 +2030,13 @@
     <node concept="3yPF9F" id="4e04jF0ZGCe" role="3yMuLx">
       <property role="TrG5h" value="Writing single payload list in json" />
       <node concept="3cqZAl" id="4e04jF0ZGCg" role="3clF45" />
-      <node concept="3clFbS" id="4e04jF0ZGCh" role="3clF47" />
-    </node>
-    <node concept="3yPF9F" id="3FzBJN$B_TR" role="3yMuLx">
-      <property role="TrG5h" value="Writing multi payload in json." />
-      <node concept="3cqZAl" id="3FzBJN$B_TS" role="3clF45" />
-      <node concept="3clFbS" id="3FzBJN$B_TT" role="3clF47">
+      <node concept="3clFbS" id="4e04jF0ZGCh" role="3clF47">
         <node concept="3cpWs8" id="3FzBJN$B_TU" role="3cqZAp">
           <node concept="3cpWsn" id="3FzBJN$B_TV" role="3cpWs9">
             <property role="TrG5h" value="payLoad" />
             <node concept="17QB3L" id="3FzBJN$B_TW" role="1tU5fm" />
             <node concept="Xl_RD" id="3FzBJN$B_TX" role="33vP2m">
-              <property role="Xl_RC" value="{\&quot;simple\&quot;:{\&quot;name\&quot;: \&quot;dan1\&quot;,\&quot;id\&quot;:4711},\&quot;simple1\&quot;:{\&quot;name\&quot;: \&quot;dan2\&quot;,\&quot;id\&quot;:4712},\&quot;simple2\&quot;:{\&quot;name\&quot;: \&quot;dan3\&quot;,\&quot;id\&quot;:4713}}" />
+              <property role="Xl_RC" value="[{\&quot;name\&quot;: \&quot;dan1\&quot;,\&quot;id\&quot;:4711}, {\&quot;name\&quot;: \&quot;dan2\&quot;,\&quot;id\&quot;:4712}]" />
             </node>
           </node>
         </node>
@@ -1938,7 +2056,7 @@
                   <ref role="3cqZAo" node="7eWhJ0JBVmh" resolve="url" />
                 </node>
                 <node concept="Xl_RD" id="3FzBJN$B_U5" role="3uHU7w">
-                  <property role="Xl_RC" value="multipayloadtest" />
+                  <property role="Xl_RC" value="listsinglepayloadtest" />
                 </node>
               </node>
               <node concept="10Nm6u" id="3FzBJN$B_U6" role="37wK5m" />
@@ -1949,14 +2067,68 @@
           </node>
         </node>
         <node concept="1gVbGN" id="3FzBJN$CLkL" role="3cqZAp">
-          <node concept="2OqwBi" id="3FzBJN$CLGZ" role="1gVkn0">
-            <node concept="37vLTw" id="3FzBJN$CLvt" role="2Oq$k0">
-              <ref role="3cqZAo" node="3FzBJN$B_TZ" resolve="ret" />
+          <node concept="2OqwBi" id="3dg6okDf$G2" role="1gVkn0">
+            <node concept="Xl_RD" id="3dg6okDf$oN" role="2Oq$k0">
+              <property role="Xl_RC" value="2" />
             </node>
-            <node concept="liA8E" id="3FzBJN$CLKf" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-              <node concept="Xl_RD" id="3FzBJN$CLMm" role="37wK5m">
-                <property role="Xl_RC" value="dan1 dan2 dan3" />
+            <node concept="liA8E" id="3dg6okDf$N1" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="37vLTw" id="3dg6okDf$OU" role="37wK5m">
+                <ref role="3cqZAo" node="3FzBJN$B_TZ" resolve="ret" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="3dg6okDfAat" role="3yMuLx">
+      <property role="TrG5h" value="Writing multi payload in json." />
+      <node concept="3cqZAl" id="3dg6okDfAau" role="3clF45" />
+      <node concept="3clFbS" id="3dg6okDfAav" role="3clF47">
+        <node concept="3cpWs8" id="3dg6okDfAaw" role="3cqZAp">
+          <node concept="3cpWsn" id="3dg6okDfAax" role="3cpWs9">
+            <property role="TrG5h" value="payLoad" />
+            <node concept="17QB3L" id="3dg6okDfAay" role="1tU5fm" />
+            <node concept="Xl_RD" id="3dg6okDfAaz" role="33vP2m">
+              <property role="Xl_RC" value="{\&quot;simple\&quot;:[{\&quot;name\&quot;: \&quot;dan1\&quot;,\&quot;id\&quot;:4711}],\&quot;simple1\&quot;:[{\&quot;name\&quot;: \&quot;dan2\&quot;,\&quot;id\&quot;:4712}],\&quot;simple2\&quot;:[{\&quot;name\&quot;: \&quot;dan3\&quot;,\&quot;id\&quot;:4713},{\&quot;name\&quot;: \&quot;dan4\&quot;,\&quot;id\&quot;:4714}]}" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3dg6okDfAa$" role="3cqZAp">
+          <node concept="3cpWsn" id="3dg6okDfAa_" role="3cpWs9">
+            <property role="TrG5h" value="ret" />
+            <node concept="17QB3L" id="3dg6okDfAaA" role="1tU5fm" />
+            <node concept="2YIFZM" id="3dg6okDfAaB" role="33vP2m">
+              <ref role="1Pybhc" to="gyq6:7eWhJ0JhMTL" resolve="HttpConnection" />
+              <ref role="37wK5l" to="gyq6:7eWhJ0K3Gst" resolve="jsonCon" />
+              <node concept="Rm8GO" id="3dg6okDfAaC" role="37wK5m">
+                <ref role="1Px2BO" to="gyq6:7eWhJ0Jic06" resolve="HttpConnection.RequestType" />
+                <ref role="Rm8GQ" to="gyq6:7eWhJ0JidpA" resolve="POST" />
+              </node>
+              <node concept="3cpWs3" id="3dg6okDfAaD" role="37wK5m">
+                <node concept="3urNR4" id="3dg6okDfAaE" role="3uHU7B">
+                  <ref role="3cqZAo" node="7eWhJ0JBVmh" resolve="url" />
+                </node>
+                <node concept="Xl_RD" id="3dg6okDfAaF" role="3uHU7w">
+                  <property role="Xl_RC" value="multipayloadtest" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="3dg6okDfAaG" role="37wK5m" />
+              <node concept="37vLTw" id="3dg6okDfAaH" role="37wK5m">
+                <ref role="3cqZAo" node="3dg6okDfAax" resolve="payLoad" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3dg6okDfAaI" role="3cqZAp">
+          <node concept="2OqwBi" id="3dg6okDfAaJ" role="1gVkn0">
+            <node concept="Xl_RD" id="3dg6okDfAaK" role="2Oq$k0">
+              <property role="Xl_RC" value="4" />
+            </node>
+            <node concept="liA8E" id="3dg6okDfAaL" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="37vLTw" id="3dg6okDfAaM" role="37wK5m">
+                <ref role="3cqZAo" node="3dg6okDfAa_" resolve="ret" />
               </node>
             </node>
           </node>
@@ -1971,8 +2143,8 @@
           <node concept="3cpWsn" id="3FzBJN$CLQA" role="3cpWs9">
             <property role="TrG5h" value="payLoad" />
             <node concept="17QB3L" id="3FzBJN$CLQB" role="1tU5fm" />
-            <node concept="Xl_RD" id="3FzBJN$CLQC" role="33vP2m">
-              <property role="Xl_RC" value="{\&quot;simple\&quot;:{\&quot;name\&quot;: \&quot;dan1\&quot;,\&quot;id\&quot;:4711}}" />
+            <node concept="Xl_RD" id="3dg6okDf$Qu" role="33vP2m">
+              <property role="Xl_RC" value="{\&quot;simple\&quot;:[{\&quot;name\&quot;: \&quot;dan1\&quot;,\&quot;id\&quot;:4711}]}" />
             </node>
           </node>
         </node>
@@ -2002,83 +2174,20 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="3FzBJN$CLQN" role="3cqZAp">
-          <node concept="2OqwBi" id="3FzBJN$CMOs" role="1gVkn0">
-            <node concept="37vLTw" id="3FzBJN$CMOt" role="2Oq$k0">
-              <ref role="3cqZAo" node="3FzBJN$CLQE" resolve="ret" />
+        <node concept="1gVbGN" id="3dg6okDf_Bv" role="3cqZAp">
+          <node concept="2OqwBi" id="3dg6okDf_W1" role="1gVkn0">
+            <node concept="Xl_RD" id="3dg6okDf_IP" role="2Oq$k0">
+              <property role="Xl_RC" value="1" />
             </node>
-            <node concept="liA8E" id="3FzBJN$CMOu" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-              <node concept="Xl_RD" id="3FzBJN$CMOv" role="37wK5m">
-                <property role="Xl_RC" value="dan1" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="3FzBJN$CMQE" role="3cqZAp">
-          <node concept="3fqX7Q" id="3FzBJN$CMQF" role="1gVkn0">
-            <node concept="2OqwBi" id="3FzBJN$CMQG" role="3fr31v">
-              <node concept="37vLTw" id="3FzBJN$CMQH" role="2Oq$k0">
+            <node concept="liA8E" id="3dg6okDf_Yc" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="37vLTw" id="3dg6okDfA06" role="37wK5m">
                 <ref role="3cqZAo" node="3FzBJN$CLQE" resolve="ret" />
-              </node>
-              <node concept="liA8E" id="3FzBJN$CMQI" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                <node concept="Xl_RD" id="3FzBJN$CMQJ" role="37wK5m">
-                  <property role="Xl_RC" value="dan2" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="3FzBJN$CN09" role="3cqZAp">
-          <node concept="3fqX7Q" id="3FzBJN$CN0a" role="1gVkn0">
-            <node concept="2OqwBi" id="3FzBJN$CN0b" role="3fr31v">
-              <node concept="37vLTw" id="3FzBJN$CN0c" role="2Oq$k0">
-                <ref role="3cqZAo" node="3FzBJN$CLQE" resolve="ret" />
-              </node>
-              <node concept="liA8E" id="3FzBJN$CN0d" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                <node concept="Xl_RD" id="3FzBJN$CN0e" role="37wK5m">
-                  <property role="Xl_RC" value="dan3" />
-                </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1Cak35" id="4e04jF161_A" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0JBECZ" resolve="Ressource not found" />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_B" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0JP3sp" resolve="Default Params/Headers and Single Payload on optionalparam" />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_C" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0JP91W" resolve="Writing Params/Headers and no Payload on optionalparam" />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_D" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0JP$wx" resolve="Bad request for Params optionalparam - can not convert to int" />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_E" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0K4hFp" resolve="Bad request for Unknown Param" />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_F" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0JPNr9" resolve="Writing with a POST to optionalparam leads to a 404 - not found." />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_G" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0K3XA0" resolve="Writing single payload in json." />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_H" role="38MLOi">
-      <ref role="1Cak38" node="7eWhJ0KcEYW" resolve="Writing single payload in json with additional unknown field." />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_I" role="38MLOi">
-      <ref role="1Cak38" node="3FzBJN$ArAp" resolve="Writing single payload in json with missing field." />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_J" role="38MLOi">
-      <ref role="1Cak38" node="4e04jF0ZGCe" resolve="Writing single payload list in json" />
-    </node>
-    <node concept="1Cak35" id="4e04jF161_L" role="38MLOi">
-      <ref role="1Cak38" node="3FzBJN$CLQy" resolve="Writing multi payload in json - omit not mandatory payload." />
     </node>
   </node>
   <node concept="312cEu" id="1SuqpWQMcfd">

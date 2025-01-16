@@ -1453,7 +1453,7 @@
           <node concept="16GPin" id="1fdEi1n_Xow" role="lGtFl">
             <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
             <node concept="Xl_RD" id="1fdEi1n_XQd" role="16NUyR">
-              <property role="Xl_RC" value="number of fields do not match" />
+              <property role="Xl_RC" value="do not match" />
             </node>
           </node>
         </node>
@@ -1567,7 +1567,7 @@
           <node concept="16GPin" id="5Db$$mDyY_0" role="lGtFl">
             <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
             <node concept="Xl_RD" id="5Db$$mDyY_1" role="16NUyR">
-              <property role="Xl_RC" value="number of fields do not match" />
+              <property role="Xl_RC" value="do not match" />
             </node>
           </node>
         </node>
