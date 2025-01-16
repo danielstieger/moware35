@@ -653,8 +653,7 @@
       <node concept="3Tm1VV" id="5UIkXAmpoD3" role="1B3o_S" />
       <node concept="3cqZAl" id="5UIkXAmpkeH" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="5UIkXAmpdz9" role="jymVt" />
-    <node concept="2tJIrI" id="3dg6okDmc4$" role="jymVt" />
+    <node concept="2tJIrI" id="3dg6okDw8IQ" role="jymVt" />
     <node concept="2YIFZL" id="3dg6okDme3Y" role="jymVt">
       <property role="TrG5h" value="parseInt" />
       <node concept="37vLTG" id="3dg6okDmfeo" role="3clF46">
@@ -722,7 +721,7 @@
                     <ref role="37wK5l" to="18b:4GLQUIBtqUn" resolve="SerdesException" />
                     <node concept="3cpWs3" id="2DhMwl4J9P5" role="37wK5m">
                       <node concept="Xl_RD" id="2DhMwl4J9P6" role="3uHU7w">
-                        <property role="Xl_RC" value="'." />
+                        <property role="Xl_RC" value="' (wrong format?)." />
                       </node>
                       <node concept="3cpWs3" id="2DhMwl4J9P7" role="3uHU7B">
                         <node concept="Xl_RD" id="2DhMwl4J9P8" role="3uHU7B">
@@ -827,7 +826,7 @@
                     <ref role="37wK5l" to="18b:4GLQUIBtqUn" resolve="SerdesException" />
                     <node concept="3cpWs3" id="3dg6okDmFZL" role="37wK5m">
                       <node concept="Xl_RD" id="3dg6okDmG0z" role="3uHU7w">
-                        <property role="Xl_RC" value="'." />
+                        <property role="Xl_RC" value="' (wrong format?)." />
                       </node>
                       <node concept="3cpWs3" id="2DhMwl4J9PI" role="3uHU7B">
                         <node concept="Xl_RD" id="2DhMwl4J9PJ" role="3uHU7B">
@@ -932,7 +931,7 @@
                     <ref role="37wK5l" to="18b:4GLQUIBtqUn" resolve="SerdesException" />
                     <node concept="3cpWs3" id="2DhMwl4J9Ql" role="37wK5m">
                       <node concept="Xl_RD" id="2DhMwl4J9Qm" role="3uHU7w">
-                        <property role="Xl_RC" value="'." />
+                        <property role="Xl_RC" value="' (wrong format?)." />
                       </node>
                       <node concept="3cpWs3" id="2DhMwl4J9Qn" role="3uHU7B">
                         <node concept="Xl_RD" id="2DhMwl4J9Qo" role="3uHU7B">
@@ -1001,6 +1000,89 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2YIFZL" id="3dg6okDvUep" role="jymVt">
+      <property role="TrG5h" value="parseStatus" />
+      <node concept="37vLTG" id="3dg6okDvUeq" role="3clF46">
+        <property role="TrG5h" value="statusClass" />
+        <node concept="3uibUv" id="3dg6okDvUer" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3dg6okDvUes" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="17QB3L" id="3dg6okDvUet" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="3dg6okDvUeu" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="3dg6okDvUev" role="1B3o_S" />
+      <node concept="3clFbS" id="3dg6okDvUew" role="3clF47">
+        <node concept="3J1_TO" id="3dg6okE7i_I" role="3cqZAp">
+          <node concept="3uVAMA" id="3dg6okE7iLk" role="1zxBo5">
+            <node concept="XOnhg" id="3dg6okE7iLl" role="1zc67B">
+              <property role="TrG5h" value="ex" />
+              <node concept="nSUau" id="3dg6okE7iLm" role="1tU5fm">
+                <node concept="3uibUv" id="3dg6okE7iM8" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="3dg6okE7iLn" role="1zc67A">
+              <node concept="YS8fn" id="3dg6okE7iO4" role="3cqZAp">
+                <node concept="2ShNRf" id="3dg6okE7iO5" role="YScLw">
+                  <node concept="1pGfFk" id="3dg6okE7iO6" role="2ShVmc">
+                    <ref role="37wK5l" to="18b:4GLQUIBtqUn" resolve="SerdesException" />
+                    <node concept="3cpWs3" id="3dg6okE7jYU" role="37wK5m">
+                      <node concept="Xl_RD" id="3dg6okE7jZH" role="3uHU7w">
+                        <property role="Xl_RC" value="." />
+                      </node>
+                      <node concept="3cpWs3" id="3dg6okE7jkO" role="3uHU7B">
+                        <node concept="3cpWs3" id="3dg6okE7iO7" role="3uHU7B">
+                          <node concept="3cpWs3" id="3dg6okE7iO9" role="3uHU7B">
+                            <node concept="Xl_RD" id="3dg6okE7iOa" role="3uHU7B">
+                              <property role="Xl_RC" value="Can not convert '" />
+                            </node>
+                            <node concept="37vLTw" id="3dg6okE7iOb" role="3uHU7w">
+                              <ref role="3cqZAo" node="3dg6okDvUes" resolve="value" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="3dg6okE7iO8" role="3uHU7w">
+                            <property role="Xl_RC" value="' to status " />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="3dg6okE7j_u" role="3uHU7w">
+                          <node concept="37vLTw" id="3dg6okE7jrJ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3dg6okDvUeq" resolve="statusClass" />
+                          </node>
+                          <node concept="liA8E" id="3dg6okE7jKC" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="3dg6okE7i_K" role="1zxBo7">
+            <node concept="3cpWs6" id="3dg6okE7k8l" role="3cqZAp">
+              <node concept="2YIFZM" id="2hUlHm_AhzC" role="3cqZAk">
+                <ref role="37wK5l" node="2hUlHm_AbEi" resolve="statusFromString" />
+                <ref role="1Pybhc" node="3t1W4GCaIVn" resolve="MoWareEntityReflector" />
+                <node concept="37vLTw" id="3dg6okDw75u" role="37wK5m">
+                  <ref role="3cqZAo" node="3dg6okDvUeq" resolve="statusClass" />
+                </node>
+                <node concept="37vLTw" id="3dg6okDw7bI" role="37wK5m">
+                  <ref role="3cqZAo" node="3dg6okDvUes" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3dg6okE7iKK" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="3dg6okDmd$8" role="jymVt" />
@@ -2302,16 +2384,24 @@
               <node concept="YS8fn" id="2G8k9pWNiL8" role="3cqZAp">
                 <node concept="2ShNRf" id="2G8k9pWNiL9" role="YScLw">
                   <node concept="1pGfFk" id="2G8k9pWNiLa" role="2ShVmc">
-                    <ref role="37wK5l" to="18b:4GLQUIBtPHa" resolve="SerdesException" />
-                    <node concept="Xl_RD" id="4GLQUIBtQMT" role="37wK5m">
-                      <property role="Xl_RC" value="Can not parse json content" />
-                    </node>
-                    <node concept="37vLTw" id="4GLQUIBtRYQ" role="37wK5m">
-                      <ref role="3cqZAo" node="2G8k9pWNiLc" resolve="e" />
+                    <ref role="37wK5l" to="18b:4GLQUIBtqUn" resolve="SerdesException" />
+                    <node concept="3cpWs3" id="3dg6okE9o$b" role="37wK5m">
+                      <node concept="Xl_RD" id="3dg6okE9oKL" role="3uHU7w">
+                        <property role="Xl_RC" value="'" />
+                      </node>
+                      <node concept="3cpWs3" id="3dg6okE7RXv" role="3uHU7B">
+                        <node concept="Xl_RD" id="4GLQUIBtQMT" role="3uHU7B">
+                          <property role="Xl_RC" value="Can not parse json content - last parsed was '" />
+                        </node>
+                        <node concept="37vLTw" id="3dg6okE7S9$" role="3uHU7w">
+                          <ref role="3cqZAo" node="2G8k9pWOGlF" resolve="current" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="3dg6okE7PCW" role="3cqZAp" />
             </node>
             <node concept="XOnhg" id="2G8k9pWNiLc" role="1zc67B">
               <property role="TrG5h" value="e" />
@@ -21351,7 +21441,7 @@
                       </node>
                       <node concept="3cpWs3" id="173gpc0JAV3" role="3uHU7B">
                         <node concept="Xl_RD" id="5cxt4ETIovF" role="3uHU7B">
-                          <property role="Xl_RC" value="DTO Field " />
+                          <property role="Xl_RC" value="Field " />
                         </node>
                         <node concept="2OqwBi" id="173gpc0JBjf" role="3uHU7w">
                           <node concept="37vLTw" id="173gpc0JAZp" role="2Oq$k0">
@@ -21396,38 +21486,38 @@
         <node concept="3clFbH" id="MRrcOLjwNC" role="3cqZAp" />
         <node concept="3clFbJ" id="1fdEi1nA_PM" role="3cqZAp">
           <node concept="3clFbS" id="1fdEi1nA_PO" role="3clFbx">
-            <node concept="3clFbF" id="2hUlHm_Ahrq" role="3cqZAp">
-              <node concept="37vLTI" id="2hUlHm_AhvO" role="3clFbG">
-                <node concept="2YIFZM" id="2hUlHm_AhzC" role="37vLTx">
-                  <ref role="37wK5l" node="2hUlHm_AbEi" resolve="statusFromString" />
-                  <ref role="1Pybhc" node="3t1W4GCaIVn" resolve="MoWareEntityReflector" />
-                  <node concept="2OqwBi" id="2hUlHm_AhEX" role="37wK5m">
-                    <node concept="37vLTw" id="2hUlHm_Ah_u" role="2Oq$k0">
+            <node concept="3clFbF" id="3dg6okDvQCk" role="3cqZAp">
+              <node concept="37vLTI" id="3dg6okDvQNU" role="3clFbG">
+                <node concept="2YIFZM" id="3dg6okDw2iB" role="37vLTx">
+                  <ref role="1Pybhc" node="2o1C51ToThc" resolve="BaseSerdes" />
+                  <ref role="37wK5l" node="3dg6okDvUep" resolve="parseStatus" />
+                  <node concept="2OqwBi" id="3dg6okDw3DP" role="37wK5m">
+                    <node concept="37vLTw" id="3dg6okDw3sO" role="2Oq$k0">
                       <ref role="3cqZAo" node="MRrcOLjarn" resolve="fieldMeta" />
                     </node>
-                    <node concept="2OwXpG" id="2hUlHm_AhIN" role="2OqNvi">
+                    <node concept="2OwXpG" id="3dg6okDw3O9" role="2OqNvi">
                       <ref role="2Oxat5" node="1gQHsZ_Z$bl" resolve="typeParameter" />
                     </node>
                   </node>
-                  <node concept="3K4zz7" id="1fdEi1nBcOE" role="37wK5m">
-                    <node concept="3y3z36" id="1fdEi1nBd0R" role="3K4Cdx">
-                      <node concept="10Nm6u" id="1fdEi1nBd3L" role="3uHU7w" />
-                      <node concept="37vLTw" id="1fdEi1nBcSM" role="3uHU7B">
+                  <node concept="3K4zz7" id="3dg6okDw3S9" role="37wK5m">
+                    <node concept="3y3z36" id="3dg6okDw3Sa" role="3K4Cdx">
+                      <node concept="10Nm6u" id="3dg6okDw3Sb" role="3uHU7w" />
+                      <node concept="37vLTw" id="3dg6okDw3Sc" role="3uHU7B">
                         <ref role="3cqZAo" node="MRrcOLjiHn" resolve="fieldData" />
                       </node>
                     </node>
-                    <node concept="10Nm6u" id="1fdEi1nBd4E" role="3K4GZi" />
-                    <node concept="2OqwBi" id="2hUlHm_AhTz" role="3K4E3e">
-                      <node concept="37vLTw" id="2hUlHm_AhLV" role="2Oq$k0">
+                    <node concept="10Nm6u" id="3dg6okDw3Sd" role="3K4GZi" />
+                    <node concept="2OqwBi" id="3dg6okDw3Se" role="3K4E3e">
+                      <node concept="37vLTw" id="3dg6okDw3Sf" role="2Oq$k0">
                         <ref role="3cqZAo" node="MRrcOLjiHn" resolve="fieldData" />
                       </node>
-                      <node concept="2OwXpG" id="2hUlHm_AhXI" role="2OqNvi">
+                      <node concept="2OwXpG" id="3dg6okDw3Sg" role="2OqNvi">
                         <ref role="2Oxat5" node="2G8k9pWNizU" resolve="value" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="37vLTw" id="2hUlHm_Ahro" role="37vLTJ">
+                <node concept="37vLTw" id="3dg6okDvQCi" role="37vLTJ">
                   <ref role="3cqZAo" node="5WgknX1xmwa" resolve="objToSet" />
                 </node>
               </node>

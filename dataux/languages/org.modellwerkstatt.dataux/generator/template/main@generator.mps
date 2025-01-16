@@ -16644,6 +16644,68 @@
                                                     </node>
                                                     <node concept="liA8E" id="3$IQDV$pRHa" role="2OqNvi">
                                                       <ref role="37wK5l" to="v2rs:5IUblnE3HQ1" resolve="deserToVariable" />
+                                                      <node concept="Rm8GO" id="3dg6okDtD8K" role="37wK5m">
+                                                        <ref role="Rm8GQ" to="v2rs:3dg6okDtuVH" resolve="PARTIAL" />
+                                                        <ref role="1Px2BO" to="v2rs:3dg6okDtpk5" resolve="IApiEndpointSerdes.Hint" />
+                                                        <node concept="29HgVG" id="3dg6okDtRNY" role="lGtFl">
+                                                          <node concept="3NFfHV" id="3dg6okDtRNZ" role="3NFExx">
+                                                            <node concept="3clFbS" id="3dg6okDtRO0" role="2VODD2">
+                                                              <node concept="3clFbJ" id="3dg6okDtSt$" role="3cqZAp">
+                                                                <node concept="2YIFZM" id="3dg6okDtSBX" role="3clFbw">
+                                                                  <ref role="37wK5l" to="3ojc:FaoLX6ipgB" resolve="isStatus" />
+                                                                  <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
+                                                                  <node concept="2OqwBi" id="3dg6okDtSQw" role="37wK5m">
+                                                                    <node concept="30H73N" id="3dg6okDtSEt" role="2Oq$k0" />
+                                                                    <node concept="3TrEf2" id="3dg6okDtThW" role="2OqNvi">
+                                                                      <ref role="3Tt5mk" to="tpee:4VkOLwjf83e" resolve="type" />
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                                <node concept="3clFbS" id="3dg6okDtStA" role="3clFbx">
+                                                                  <node concept="3cpWs6" id="3dg6okDtTom" role="3cqZAp">
+                                                                    <node concept="2c44tf" id="3dg6okDtTs3" role="3cqZAk">
+                                                                      <node concept="Rm8GO" id="3dg6okDtTFv" role="2c44tc">
+                                                                        <ref role="Rm8GQ" to="v2rs:3dg6okDtpsP" resolve="STATUS" />
+                                                                        <ref role="1Px2BO" to="v2rs:3dg6okDtpk5" resolve="IApiEndpointSerdes.Hint" />
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                              <node concept="3clFbJ" id="3dg6okDuKO7" role="3cqZAp">
+                                                                <node concept="3clFbS" id="3dg6okDuKO9" role="3clFbx">
+                                                                  <node concept="3cpWs6" id="3dg6okDuRTF" role="3cqZAp">
+                                                                    <node concept="2c44tf" id="3dg6okDuRTG" role="3cqZAk">
+                                                                      <node concept="Rm8GO" id="3dg6okDuSc1" role="2c44tc">
+                                                                        <ref role="Rm8GQ" to="v2rs:3dg6okDuJ2r" resolve="PRIMITIVE" />
+                                                                        <ref role="1Px2BO" to="v2rs:3dg6okDtpk5" resolve="IApiEndpointSerdes.Hint" />
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                                <node concept="2YIFZM" id="3dg6okDuR3T" role="3clFbw">
+                                                                  <ref role="37wK5l" to="3ojc:_ALeoZADhT" resolve="isMwPrimitive" />
+                                                                  <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
+                                                                  <node concept="2OqwBi" id="3dg6okDuRjs" role="37wK5m">
+                                                                    <node concept="30H73N" id="3dg6okDuR4u" role="2Oq$k0" />
+                                                                    <node concept="3TrEf2" id="3dg6okDuRHM" role="2OqNvi">
+                                                                      <ref role="3Tt5mk" to="tpee:4VkOLwjf83e" resolve="type" />
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                              <node concept="3cpWs6" id="3dg6okDtTQz" role="3cqZAp">
+                                                                <node concept="2c44tf" id="3dg6okDtTQ$" role="3cqZAk">
+                                                                  <node concept="Rm8GO" id="3dg6okDtTXa" role="2c44tc">
+                                                                    <ref role="Rm8GQ" to="v2rs:3dg6okDtuVH" resolve="PARTIAL" />
+                                                                    <ref role="1Px2BO" to="v2rs:3dg6okDtpk5" resolve="IApiEndpointSerdes.Hint" />
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
                                                       <node concept="37vLTw" id="3$IQDV$sCPc" role="37wK5m">
                                                         <ref role="3cqZAo" node="3$IQDV$sySr" resolve="__deserialized" />
                                                       </node>
