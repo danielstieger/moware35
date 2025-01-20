@@ -9651,5 +9651,40 @@
       <ref role="1YaFvo" to="1btx:5IUblnFswOH" resolve="ApiOperationResponse" />
     </node>
   </node>
+  <node concept="1YbPZF" id="4QjxxPpXRt3">
+    <property role="TrG5h" value="typeof_ApiOperationResponse" />
+    <property role="3GE5qa" value="api" />
+    <node concept="3clFbS" id="4QjxxPpXRt4" role="18ibNy">
+      <node concept="1Z5TYs" id="4QjxxPpXRXV" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="4QjxxPpXRYj" role="1ZfhKB">
+          <node concept="2OqwBi" id="4QjxxPpXS7J" role="mwGJk">
+            <node concept="1YBJjd" id="4QjxxPpXS0K" role="2Oq$k0">
+              <ref role="1YBMHb" node="4QjxxPpXRt6" resolve="apiOperationResponse" />
+            </node>
+            <node concept="3TrEf2" id="4QjxxPpXShE" role="2OqNvi">
+              <ref role="3Tt5mk" to="1btx:4VkOLwjf83e" resolve="type" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4QjxxPpXRXY" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4QjxxPpXRuG" role="mwGJk">
+            <node concept="2OqwBi" id="4QjxxPpXREg" role="1Z2MuG">
+              <node concept="1YBJjd" id="4QjxxPpXRww" role="2Oq$k0">
+                <ref role="1YBMHb" node="4QjxxPpXRt6" resolve="apiOperationResponse" />
+              </node>
+              <node concept="3TrEf2" id="4QjxxPpXRMQ" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:h02eMj9tjw" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4QjxxPpXRt6" role="1YuTPh">
+      <property role="TrG5h" value="apiOperationResponse" />
+      <ref role="1YaFvo" to="1btx:5IUblnFswOH" resolve="ApiOperationResponse" />
+    </node>
+  </node>
 </model>
 

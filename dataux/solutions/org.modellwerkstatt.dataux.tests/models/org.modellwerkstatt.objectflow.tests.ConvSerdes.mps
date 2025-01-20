@@ -3725,7 +3725,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="MRrcOLc$S0" role="3yMuLx">
-      <property role="TrG5h" value="Deserialize a list of 100 object for performance checks." />
+      <property role="TrG5h" value="Deserialize a list of 1000 object for performance checks." />
       <node concept="3cqZAl" id="MRrcOLc$S1" role="3clF45" />
       <node concept="3clFbS" id="MRrcOLc$S2" role="3clF47">
         <node concept="3cpWs8" id="MRrcOLc$S3" role="3cqZAp">

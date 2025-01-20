@@ -171,9 +171,7 @@
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
-      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
-        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
-      </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
@@ -1561,36 +1559,6 @@
         <node concept="1dT_AC" id="4GLQUIBt90s" role="1dT_Ay">
           <property role="1dT_AB" value="" />
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="3HP615" id="4GLQUIBjTnK">
-    <property role="TrG5h" value="IConvSerdesPartial" />
-    <property role="3GE5qa" value="" />
-    <node concept="2tJIrI" id="4GLQUIBjTnL" role="jymVt" />
-    <node concept="3clFb_" id="4GLQUIBjT$U" role="jymVt">
-      <property role="TrG5h" value="internalDeser" />
-      <node concept="37vLTG" id="4GLQUIBjZl4" role="3clF46">
-        <property role="TrG5h" value="root" />
-        <node concept="3uibUv" id="4GLQUIBk0_p" role="1tU5fm">
-          <ref role="3uigEE" to="kiw1:16YJG28Mu__" resolve="VParent" />
-        </node>
-      </node>
-      <node concept="16syzq" id="4GLQUIBjZkE" role="3clF45">
-        <ref role="16sUi3" node="4GLQUIBjTo0" resolve="T" />
-      </node>
-      <node concept="3Tm1VV" id="4GLQUIBjT$X" role="1B3o_S" />
-      <node concept="3clFbS" id="4GLQUIBjT$Y" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="3IpaCrDJS1d" role="jymVt" />
-    <node concept="3Tm1VV" id="4GLQUIBjTnZ" role="1B3o_S" />
-    <node concept="16euLQ" id="4GLQUIBjTo0" role="16eVyc">
-      <property role="TrG5h" value="T" />
-    </node>
-    <node concept="3uibUv" id="4GLQUIBjTpl" role="3HQHJm">
-      <ref role="3uigEE" node="2G8k9pWNiEM" resolve="IConvSerdes" />
-      <node concept="16syzq" id="4GLQUIBjTwn" role="11_B2D">
-        <ref role="16sUi3" node="4GLQUIBjTo0" resolve="T" />
       </node>
     </node>
   </node>
