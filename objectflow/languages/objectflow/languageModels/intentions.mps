@@ -1152,7 +1152,7 @@
       <node concept="3clFbS" id="vASbTzXMJn" role="2VODD2">
         <node concept="3clFbF" id="vASbTzXMJq" role="3cqZAp">
           <node concept="Xl_RD" id="vASbTzXMJr" role="3clFbG">
-            <property role="Xl_RC" value="Toggle &gt;from Server&lt;" />
+            <property role="Xl_RC" value="Toggle 'from Server'" />
           </node>
         </node>
       </node>
@@ -1197,7 +1197,7 @@
       <node concept="3clFbS" id="vASbTzXMKR" role="2VODD2">
         <node concept="3clFbF" id="vASbTzXMKU" role="3cqZAp">
           <node concept="Xl_RD" id="vASbTzXMKV" role="3clFbG">
-            <property role="Xl_RC" value="Toggle &gt;from Server&lt;" />
+            <property role="Xl_RC" value="Toggle 'from Server'" />
           </node>
         </node>
       </node>

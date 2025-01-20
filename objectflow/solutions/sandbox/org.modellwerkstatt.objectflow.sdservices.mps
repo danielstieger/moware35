@@ -10842,7 +10842,7 @@
         <ref role="16sUi3" node="7_PeuXEmcjd" resolve="T" />
       </node>
     </node>
-    <node concept="2tJIrI" id="4GLQUIBgzNJ" role="jymVt" />
+    <node concept="2tJIrI" id="3IpaCrDJWdA" role="jymVt" />
     <node concept="3clFb_" id="1I$Al$8aKC7" role="jymVt">
       <property role="TrG5h" value="serObject" />
       <node concept="37vLTG" id="1I$Al$8aS_5" role="3clF46">
@@ -11366,26 +11366,40 @@
                     </node>
                   </node>
                   <node concept="3clFbF" id="1I$Al$8avdC" role="3cqZAp">
-                    <node concept="1rXfSq" id="1I$Al$8avdA" role="3clFbG">
-                      <ref role="37wK5l" node="23eALbvVu39" resolve="serField" />
-                      <node concept="37vLTw" id="1I$Al$8aw1g" role="37wK5m">
+                    <node concept="2YIFZM" id="3IpaCrCXekA" role="3clFbG">
+                      <ref role="1Pybhc" node="1I$Al$85PfY" resolve="JackyFieldSerdes" />
+                      <ref role="37wK5l" node="3IpaCrCWWWZ" resolve="serField" />
+                      <node concept="37vLTw" id="3IpaCrCXekB" role="37wK5m">
                         <ref role="3cqZAo" node="23eALbvVlUq" resolve="gen" />
                       </node>
-                      <node concept="37vLTw" id="MRrcOL4536" role="37wK5m">
-                        <ref role="3cqZAo" node="MRrcOL8RQh" resolve="fqPath" />
+                      <node concept="37vLTw" id="3IpaCrCXhBa" role="37wK5m">
+                        <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
                       </node>
-                      <node concept="37vLTw" id="1I$Al$8a$IG" role="37wK5m">
-                        <ref role="3cqZAo" node="23eALbvTifo" resolve="fldConcept" />
+                      <node concept="2OqwBi" id="3IpaCrCXjkd" role="37wK5m">
+                        <node concept="37vLTw" id="3IpaCrCXekD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="23eALbvTifo" resolve="fldConcept" />
+                        </node>
+                        <node concept="2OwXpG" id="3IpaCrCXjua" role="2OqNvi">
+                          <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
+                        </node>
                       </node>
-                      <node concept="37vLTw" id="1I$Al$8a$Xw" role="37wK5m">
+                      <node concept="2OqwBi" id="3IpaCrCXk2b" role="37wK5m">
+                        <node concept="37vLTw" id="3IpaCrCXjSI" role="2Oq$k0">
+                          <ref role="3cqZAo" node="23eALbvTifo" resolve="fldConcept" />
+                        </node>
+                        <node concept="2OwXpG" id="3IpaCrCXkcv" role="2OqNvi">
+                          <ref role="2Oxat5" node="1gQHsZA7Y_C" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="3IpaCrCXekE" role="37wK5m">
                         <ref role="3cqZAo" node="23eALbvT$Cz" resolve="fieldValue" />
                       </node>
-                      <node concept="37vLTw" id="1I$Al$8a_bU" role="37wK5m">
+                      <node concept="37vLTw" id="3IpaCrCXekF" role="37wK5m">
                         <ref role="3cqZAo" node="5Db$$mDEa3q" resolve="compactThis" />
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="MRrcOL4KwR" role="3cqZAp" />
+                  <node concept="3clFbH" id="3IpaCrCXqsR" role="3cqZAp" />
                 </node>
               </node>
               <node concept="3eNFk2" id="23eALbvTigH" role="3eNLev">
@@ -21656,36 +21670,10 @@
       </node>
     </node>
     <node concept="2tJIrI" id="MRrcOLj6tP" role="jymVt" />
-    <node concept="3clFb_" id="23eALbvVu39" role="jymVt">
+    <node concept="2tJIrI" id="3IpaCrCWVe4" role="jymVt" />
+    <node concept="2tJIrI" id="3IpaCrCWVlf" role="jymVt" />
+    <node concept="2YIFZL" id="3IpaCrCWWWZ" role="jymVt">
       <property role="TrG5h" value="serField" />
-      <node concept="37vLTG" id="23eALbvVxJZ" role="3clF46">
-        <property role="TrG5h" value="gen" />
-        <node concept="3uibUv" id="23eALbvVxSQ" role="1tU5fm">
-          <ref role="3uigEE" to="i4mf:~JsonGenerator" resolve="JsonGenerator" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="1I$Al$8ahlm" role="3clF46">
-        <property role="TrG5h" value="fqPath" />
-        <node concept="17QB3L" id="1I$Al$8ahEu" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="23eALbvVu3e" role="3clF46">
-        <property role="TrG5h" value="fldMeta" />
-        <node concept="3uibUv" id="23eALbvVzOS" role="1tU5fm">
-          <ref role="3uigEE" node="1gQHsZ_Z$be" resolve="CField" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="23eALbvVu3c" role="3clF46">
-        <property role="TrG5h" value="value" />
-        <node concept="3uibUv" id="23eALbvVxip" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5Db$$mDDNIi" role="3clF46">
-        <property role="TrG5h" value="compactArrayMem" />
-        <node concept="10P_77" id="5Db$$mDDPgK" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="23eALbvVxt1" role="3clF45" />
-      <node concept="3Tmbuc" id="MRrcOL7B5S" role="1B3o_S" />
       <node concept="3clFbS" id="23eALbvVu3i" role="3clF47">
         <node concept="3clFbH" id="MRrcOL8Gyu" role="3cqZAp" />
         <node concept="3clFbJ" id="1B6k9MY8iDR" role="3cqZAp">
@@ -21701,17 +21689,12 @@
                       <ref role="37wK5l" to="i4mf:~JsonGenerator.writeFieldName(java.lang.String)" resolve="writeFieldName" />
                       <node concept="2OqwBi" id="16YJG28IftW" role="37wK5m">
                         <node concept="37vLTw" id="16YJG28Iflm" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
+                          <ref role="3cqZAo" node="3IpaCrCWYYQ" resolve="frmtOpt" />
                         </node>
                         <node concept="liA8E" id="16YJG28IfOl" role="2OqNvi">
                           <ref role="37wK5l" to="18b:1fdEi1nzz7a" resolve="fieldPathToJson" />
-                          <node concept="2OqwBi" id="16YJG28IfX9" role="37wK5m">
-                            <node concept="37vLTw" id="16YJG28IfS8" role="2Oq$k0">
-                              <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                            </node>
-                            <node concept="2OwXpG" id="16YJG28Ig6X" role="2OqNvi">
-                              <ref role="2Oxat5" node="1gQHsZA7Y_C" resolve="name" />
-                            </node>
+                          <node concept="37vLTw" id="3IpaCrCX8qX" role="37wK5m">
+                            <ref role="3cqZAo" node="3IpaCrCX5lq" resolve="fldName" />
                           </node>
                         </node>
                       </node>
@@ -21756,17 +21739,12 @@
                         <ref role="37wK5l" to="i4mf:~JsonGenerator.writeFieldName(java.lang.String)" resolve="writeFieldName" />
                         <node concept="2OqwBi" id="16YJG28IgbQ" role="37wK5m">
                           <node concept="37vLTw" id="16YJG28IgbR" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
+                            <ref role="3cqZAo" node="3IpaCrCWYYQ" resolve="frmtOpt" />
                           </node>
                           <node concept="liA8E" id="16YJG28IgbS" role="2OqNvi">
                             <ref role="37wK5l" to="18b:1fdEi1nzz7a" resolve="fieldPathToJson" />
-                            <node concept="2OqwBi" id="16YJG28IgbT" role="37wK5m">
-                              <node concept="37vLTw" id="16YJG28IgbU" role="2Oq$k0">
-                                <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                              </node>
-                              <node concept="2OwXpG" id="16YJG28IgbV" role="2OqNvi">
-                                <ref role="2Oxat5" node="1gQHsZA7Y_C" resolve="name" />
-                              </node>
+                            <node concept="37vLTw" id="3IpaCrCX8_Q" role="37wK5m">
+                              <ref role="3cqZAo" node="3IpaCrCX5lq" resolve="fldName" />
                             </node>
                           </node>
                         </node>
@@ -21821,13 +21799,8 @@
                     <ref role="1Px2BO" node="1gQHsZ_Z$cD" resolve="CField.OFXType" />
                     <ref role="Rm8GQ" node="1gQHsZ_Z$cG" resolve="OFX_INT" />
                   </node>
-                  <node concept="2OqwBi" id="23eALbvV$de" role="3uHU7B">
-                    <node concept="37vLTw" id="23eALbvVu3s" role="2Oq$k0">
-                      <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                    </node>
-                    <node concept="2OwXpG" id="23eALbvV$ij" role="2OqNvi">
-                      <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
-                    </node>
+                  <node concept="37vLTw" id="3IpaCrCX54J" role="3uHU7B">
+                    <ref role="3cqZAo" node="3IpaCrCX26L" resolve="type" />
                   </node>
                 </node>
                 <node concept="3eNFk2" id="1B6k9MY8t0p" role="3eNLev">
@@ -21866,17 +21839,12 @@
                     <node concept="3clFbH" id="1B6k9MY8zec" role="3cqZAp" />
                   </node>
                   <node concept="3clFbC" id="23eALbvVu3x" role="3eO9$A">
-                    <node concept="2OqwBi" id="1B6k9MY8vZb" role="3uHU7B">
-                      <node concept="37vLTw" id="23eALbvVu3y" role="2Oq$k0">
-                        <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                      </node>
-                      <node concept="2OwXpG" id="1B6k9MY8w2Z" role="2OqNvi">
-                        <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
-                      </node>
-                    </node>
                     <node concept="Rm8GO" id="23eALbvVu3z" role="3uHU7w">
                       <ref role="1Px2BO" node="1gQHsZ_Z$cD" resolve="CField.OFXType" />
                       <ref role="Rm8GQ" node="1gQHsZ_Z$cI" resolve="OFX_STRING" />
+                    </node>
+                    <node concept="37vLTw" id="3IpaCrCX8OG" role="3uHU7B">
+                      <ref role="3cqZAo" node="3IpaCrCX26L" resolve="type" />
                     </node>
                   </node>
                 </node>
@@ -21909,7 +21877,7 @@
                           <ref role="37wK5l" to="i4mf:~JsonGenerator.writeString(java.lang.String)" resolve="writeString" />
                           <node concept="2OqwBi" id="1B6k9MY8_av" role="37wK5m">
                             <node concept="37vLTw" id="1B6k9MY8$Y2" role="2Oq$k0">
-                              <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
+                              <ref role="3cqZAo" node="3IpaCrCWYYQ" resolve="frmtOpt" />
                             </node>
                             <node concept="liA8E" id="1B6k9MY8_hK" role="2OqNvi">
                               <ref role="37wK5l" to="18b:7yJ7v78jV4j" resolve="printLocalDate" />
@@ -21924,17 +21892,12 @@
                     <node concept="3clFbH" id="1B6k9MY8_o2" role="3cqZAp" />
                   </node>
                   <node concept="3clFbC" id="23eALbvVu3Z" role="3eO9$A">
-                    <node concept="2OqwBi" id="1B6k9MY8zms" role="3uHU7B">
-                      <node concept="37vLTw" id="23eALbvVu40" role="2Oq$k0">
-                        <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                      </node>
-                      <node concept="2OwXpG" id="1B6k9MY8zA6" role="2OqNvi">
-                        <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
-                      </node>
-                    </node>
                     <node concept="Rm8GO" id="23eALbvVu41" role="3uHU7w">
                       <ref role="1Px2BO" node="1gQHsZ_Z$cD" resolve="CField.OFXType" />
                       <ref role="Rm8GQ" node="1gQHsZ_Z$cK" resolve="OFX_LOCALDATE" />
+                    </node>
+                    <node concept="37vLTw" id="3IpaCrCX8XF" role="3uHU7B">
+                      <ref role="3cqZAo" node="3IpaCrCX26L" resolve="type" />
                     </node>
                   </node>
                 </node>
@@ -21967,7 +21930,7 @@
                           <ref role="37wK5l" to="i4mf:~JsonGenerator.writeString(java.lang.String)" resolve="writeString" />
                           <node concept="2OqwBi" id="1B6k9MY8_vU" role="37wK5m">
                             <node concept="37vLTw" id="1B6k9MY8_vV" role="2Oq$k0">
-                              <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
+                              <ref role="3cqZAo" node="3IpaCrCWYYQ" resolve="frmtOpt" />
                             </node>
                             <node concept="liA8E" id="1B6k9MY8_vW" role="2OqNvi">
                               <ref role="37wK5l" to="18b:7yJ7v78jVbk" resolve="printDateTime" />
@@ -21982,33 +21945,23 @@
                     <node concept="3clFbH" id="1B6k9MY8_vY" role="3cqZAp" />
                   </node>
                   <node concept="3clFbC" id="1B6k9MY8_vZ" role="3eO9$A">
-                    <node concept="2OqwBi" id="1B6k9MY8_w0" role="3uHU7B">
-                      <node concept="37vLTw" id="1B6k9MY8_w1" role="2Oq$k0">
-                        <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                      </node>
-                      <node concept="2OwXpG" id="1B6k9MY8_w2" role="2OqNvi">
-                        <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
-                      </node>
-                    </node>
                     <node concept="Rm8GO" id="1B6k9MY8ApK" role="3uHU7w">
                       <ref role="1Px2BO" node="1gQHsZ_Z$cD" resolve="CField.OFXType" />
                       <ref role="Rm8GQ" node="1gQHsZ_Z$cL" resolve="OFX_DATETIME" />
+                    </node>
+                    <node concept="37vLTw" id="3IpaCrCX992" role="3uHU7B">
+                      <ref role="3cqZAo" node="3IpaCrCX26L" resolve="type" />
                     </node>
                   </node>
                 </node>
                 <node concept="3eNFk2" id="1B6k9MY8AKE" role="3eNLev">
                   <node concept="3clFbC" id="1B6k9MY8Cjt" role="3eO9$A">
-                    <node concept="2OqwBi" id="1B6k9MY8BXu" role="3uHU7B">
-                      <node concept="37vLTw" id="1B6k9MY8BRO" role="2Oq$k0">
-                        <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                      </node>
-                      <node concept="2OwXpG" id="1B6k9MY8C1H" role="2OqNvi">
-                        <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
-                      </node>
-                    </node>
                     <node concept="Rm8GO" id="1B6k9MY8CxS" role="3uHU7w">
                       <ref role="1Px2BO" node="1gQHsZ_Z$cD" resolve="CField.OFXType" />
                       <ref role="Rm8GQ" node="1gQHsZ_Z$cH" resolve="OFX_BIGDECIMAL" />
+                    </node>
+                    <node concept="37vLTw" id="3IpaCrCX9kp" role="3uHU7B">
+                      <ref role="3cqZAo" node="3IpaCrCX26L" resolve="type" />
                     </node>
                   </node>
                   <node concept="3clFbS" id="1B6k9MY8AKG" role="3eOfB_">
@@ -22041,7 +21994,7 @@
                               <ref role="37wK5l" to="i4mf:~JsonGenerator.writeString(java.lang.String)" resolve="writeString" />
                               <node concept="2OqwBi" id="1B6k9MY8ERP" role="37wK5m">
                                 <node concept="37vLTw" id="1B6k9MY8ENe" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
+                                  <ref role="3cqZAo" node="3IpaCrCWYYQ" resolve="frmtOpt" />
                                 </node>
                                 <node concept="liA8E" id="1B6k9MY8F3H" role="2OqNvi">
                                   <ref role="37wK5l" to="18b:7yJ7v78jVeU" resolve="printBigDecimal" />
@@ -22056,7 +22009,7 @@
                       </node>
                       <node concept="2OqwBi" id="2E94cTkA7nz" role="3clFbw">
                         <node concept="37vLTw" id="2E94cTkA7gd" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
+                          <ref role="3cqZAo" node="3IpaCrCWYYQ" resolve="frmtOpt" />
                         </node>
                         <node concept="liA8E" id="2E94cTkA7Ef" role="2OqNvi">
                           <ref role="37wK5l" to="18b:2E94cTkA0mE" resolve="serializeBigDecimalAsString" />
@@ -22073,7 +22026,7 @@
                                 <ref role="37wK5l" to="i4mf:~JsonGenerator.writeNumber(java.lang.String)" resolve="writeNumber" />
                                 <node concept="2OqwBi" id="2E94cTkAaYe" role="37wK5m">
                                   <node concept="37vLTw" id="2E94cTkAaYf" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="2o1C51ToU4u" resolve="formatters" />
+                                    <ref role="3cqZAo" node="3IpaCrCWYYQ" resolve="frmtOpt" />
                                   </node>
                                   <node concept="liA8E" id="2E94cTkAaYg" role="2OqNvi">
                                     <ref role="37wK5l" to="18b:7yJ7v78jVeU" resolve="printBigDecimal" />
@@ -22096,13 +22049,8 @@
                       <ref role="1Px2BO" node="1gQHsZ_Z$cD" resolve="CField.OFXType" />
                       <ref role="Rm8GQ" node="1gQHsZ_Z$cM" resolve="OFX_STATUS" />
                     </node>
-                    <node concept="2OqwBi" id="1B6k9MY8K2f" role="3uHU7B">
-                      <node concept="37vLTw" id="1B6k9MY8JXT" role="2Oq$k0">
-                        <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                      </node>
-                      <node concept="2OwXpG" id="1B6k9MY8K3i" role="2OqNvi">
-                        <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
-                      </node>
+                    <node concept="37vLTw" id="3IpaCrCX9wq" role="3uHU7B">
+                      <ref role="3cqZAo" node="3IpaCrCX26L" resolve="type" />
                     </node>
                   </node>
                   <node concept="3clFbS" id="1B6k9MY8J3B" role="3eOfB_">
@@ -22296,18 +22244,13 @@
                     <node concept="YS8fn" id="23eALbvVu55" role="3cqZAp">
                       <node concept="2ShNRf" id="23eALbvVu56" role="YScLw">
                         <node concept="1pGfFk" id="23eALbvVu57" role="2ShVmc">
-                          <ref role="37wK5l" to="18b:4GLQUIBtqUn" resolve="SerdesException" />
+                          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                           <node concept="3cpWs3" id="23eALbvVu58" role="37wK5m">
-                            <node concept="2OqwBi" id="1B6k9MY8HYO" role="3uHU7w">
-                              <node concept="37vLTw" id="23eALbvVu59" role="2Oq$k0">
-                                <ref role="3cqZAo" node="23eALbvVu3e" resolve="fldMeta" />
-                              </node>
-                              <node concept="2OwXpG" id="1B6k9MY8I5s" role="2OqNvi">
-                                <ref role="2Oxat5" node="1gQHsZ_Z$bi" resolve="type" />
-                              </node>
-                            </node>
                             <node concept="Xl_RD" id="23eALbvVu5a" role="3uHU7B">
                               <property role="Xl_RC" value="This can not happen. Unknown type " />
+                            </node>
+                            <node concept="37vLTw" id="3IpaCrCX9HC" role="3uHU7w">
+                              <ref role="3cqZAo" node="3IpaCrCX26L" resolve="type" />
                             </node>
                           </node>
                         </node>
@@ -22321,9 +22264,43 @@
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="23eALbvVxJZ" role="3clF46">
+        <property role="TrG5h" value="gen" />
+        <node concept="3uibUv" id="23eALbvVxSQ" role="1tU5fm">
+          <ref role="3uigEE" to="i4mf:~JsonGenerator" resolve="JsonGenerator" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3IpaCrCWYYQ" role="3clF46">
+        <property role="TrG5h" value="frmtOpt" />
+        <node concept="3uibUv" id="3IpaCrCWZor" role="1tU5fm">
+          <ref role="3uigEE" to="18b:7yJ7v78jUYu" resolve="IConvFormatOptions" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3IpaCrCX26L" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="3IpaCrCX4PJ" role="1tU5fm">
+          <ref role="3uigEE" node="1gQHsZ_Z$cD" resolve="CField.OFXType" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3IpaCrCX5lq" role="3clF46">
+        <property role="TrG5h" value="fldName" />
+        <node concept="17QB3L" id="3IpaCrCX6se" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="23eALbvVu3c" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="23eALbvVxip" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5Db$$mDDNIi" role="3clF46">
+        <property role="TrG5h" value="compactArrayMem" />
+        <node concept="10P_77" id="5Db$$mDDPgK" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="23eALbvVxt1" role="3clF45" />
       <node concept="3uibUv" id="1B6k9MY8lef" role="Sfmx6">
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
+      <node concept="3Tm1VV" id="3IpaCrDEGFk" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="1I$Al$8aezt" role="jymVt" />
     <node concept="3Tm1VV" id="1I$Al$85PfZ" role="1B3o_S" />
