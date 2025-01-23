@@ -10967,90 +10967,185 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="1JHLrPL$fum" role="3cqZAp">
+          <node concept="3cpWsn" id="1JHLrPL$fup" role="3cpWs9">
+            <property role="TrG5h" value="sent" />
+            <node concept="10P_77" id="1JHLrPL$fuk" role="1tU5fm" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="1YUU7GVWwji" role="3cqZAp">
           <node concept="3clFbS" id="1YUU7GVWwjk" role="3clFbx">
-            <node concept="3cpWs6" id="1YUU7GVWwvk" role="3cqZAp">
-              <node concept="3clFbT" id="7WMhZiS6_Y6" role="3cqZAk">
-                <property role="3clFbU" value="true" />
+            <node concept="3clFbF" id="1JHLrPL$hDO" role="3cqZAp">
+              <node concept="37vLTI" id="1JHLrPL$izG" role="3clFbG">
+                <node concept="3clFbT" id="1JHLrPL$i$E" role="37vLTx" />
+                <node concept="37vLTw" id="1JHLrPL$hDM" role="37vLTJ">
+                  <ref role="3cqZAo" node="1JHLrPL$fup" resolve="sent" />
+                </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1JHLrPL_0eU" role="3cqZAp" />
           </node>
           <node concept="3fqX7Q" id="1YUU7GVWwox" role="3clFbw">
             <node concept="37vLTw" id="1YUU7GVWwuw" role="3fr31v">
               <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
             </node>
           </node>
-        </node>
-        <node concept="3clFbJ" id="6LCrX7JDcY6" role="3cqZAp">
-          <node concept="3clFbS" id="6LCrX7JDcY8" role="3clFbx">
-            <node concept="3J1_TO" id="6LCrX7JDa3U" role="3cqZAp">
-              <node concept="3clFbS" id="6LCrX7JDa3W" role="1zxBo7">
-                <node concept="3clFbF" id="4NXmMPR2r0T" role="3cqZAp">
-                  <node concept="2OqwBi" id="4NXmMPR2r5V" role="3clFbG">
-                    <node concept="37vLTw" id="4NXmMPR2r0R" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
-                    </node>
-                    <node concept="liA8E" id="4NXmMPR2ra$" role="2OqNvi">
-                      <ref role="37wK5l" to="ybfw:~EventBus.send(java.lang.String,mjson.Json)" resolve="send" />
-                      <node concept="37vLTw" id="4X6$QoYy6Nr" role="37wK5m">
-                        <ref role="3cqZAo" node="4X6$QoYy68t" resolve="ch" />
+          <node concept="3eNFk2" id="1JHLrPL$k0F" role="3eNLev">
+            <node concept="3clFbS" id="1JHLrPL$k0H" role="3eOfB_">
+              <node concept="3J1_TO" id="6LCrX7JDa3U" role="3cqZAp">
+                <node concept="3clFbS" id="6LCrX7JDa3W" role="1zxBo7">
+                  <node concept="3clFbF" id="4NXmMPR2r0T" role="3cqZAp">
+                    <node concept="2OqwBi" id="4NXmMPR2r5V" role="3clFbG">
+                      <node concept="37vLTw" id="4NXmMPR2r0R" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
                       </node>
-                      <node concept="37vLTw" id="7WMhZiR6Gkf" role="37wK5m">
-                        <ref role="3cqZAo" node="1YUU7GVWtxw" resolve="msg" />
+                      <node concept="liA8E" id="4NXmMPR2ra$" role="2OqNvi">
+                        <ref role="37wK5l" to="ybfw:~EventBus.send(java.lang.String,mjson.Json)" resolve="send" />
+                        <node concept="37vLTw" id="4X6$QoYy6Nr" role="37wK5m">
+                          <ref role="3cqZAo" node="4X6$QoYy68t" resolve="ch" />
+                        </node>
+                        <node concept="37vLTw" id="7WMhZiR6Gkf" role="37wK5m">
+                          <ref role="3cqZAo" node="1YUU7GVWtxw" resolve="msg" />
+                        </node>
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbF" id="1JHLrPL$nuA" role="3cqZAp">
+                    <node concept="37vLTI" id="1JHLrPL$nGe" role="3clFbG">
+                      <node concept="3clFbT" id="1JHLrPL$nHa" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="1JHLrPL$nu$" role="37vLTJ">
+                        <ref role="3cqZAo" node="1JHLrPL$fup" resolve="sent" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="1JHLrPL$o6a" role="3cqZAp" />
                 </node>
-                <node concept="3clFbH" id="6LCrX7JDa3V" role="3cqZAp" />
+                <node concept="3uVAMA" id="6LCrX7JDa3X" role="1zxBo5">
+                  <node concept="XOnhg" id="6LCrX7JDa3Z" role="1zc67B">
+                    <property role="3TUv4t" value="false" />
+                    <property role="TrG5h" value="ex" />
+                    <node concept="nSUau" id="1XOn8RQFwuS" role="1tU5fm">
+                      <node concept="3uibUv" id="6LCrX7JDaAl" role="nSUat">
+                        <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="6LCrX7JDa43" role="1zc67A">
+                    <node concept="3clFbF" id="4FgSVMqq6sf" role="3cqZAp">
+                      <node concept="2YIFZM" id="4FgSVMqq6sg" role="3clFbG">
+                        <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                        <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                        <node concept="3VsKOn" id="4FgSVMqq6sh" role="37wK5m">
+                          <ref role="3VsUkX" node="1PUq9fiYGac" resolve="MoOptionalEventBus" />
+                        </node>
+                        <node concept="Rm8GO" id="1JHLrPL$rr0" role="37wK5m">
+                          <ref role="Rm8GQ" to="28jr:2dTopMveSUl" resolve="FATAL" />
+                          <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                        </node>
+                        <node concept="Xl_RD" id="4FgSVMqq80n" role="37wK5m">
+                          <property role="Xl_RC" value="Exception while trying to write to global log. This seriously impacts portJ monitoring." />
+                        </node>
+                        <node concept="37vLTw" id="4FgSVMqq80o" role="37wK5m">
+                          <ref role="3cqZAo" node="6LCrX7JDa3Z" resolve="ex" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="1JHLrPL$mSf" role="3cqZAp">
+                      <node concept="37vLTI" id="1JHLrPL$ns1" role="3clFbG">
+                        <node concept="3clFbT" id="1JHLrPL$nsX" role="37vLTx" />
+                        <node concept="37vLTw" id="1JHLrPL$mSd" role="37vLTJ">
+                          <ref role="3cqZAo" node="1JHLrPL$fup" resolve="sent" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="1JHLrPL$nIb" role="3cqZAp" />
+                  </node>
+                </node>
               </node>
-              <node concept="3uVAMA" id="6LCrX7JDa3X" role="1zxBo5">
-                <node concept="XOnhg" id="6LCrX7JDa3Z" role="1zc67B">
-                  <property role="3TUv4t" value="false" />
-                  <property role="TrG5h" value="ex" />
-                  <node concept="nSUau" id="1XOn8RQFwuS" role="1tU5fm">
-                    <node concept="3uibUv" id="6LCrX7JDaAl" role="nSUat">
-                      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
-                    </node>
+              <node concept="3clFbH" id="1JHLrPL_1nr" role="3cqZAp" />
+              <node concept="3clFbH" id="1JHLrPL_1nU" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="1JHLrPL$lvD" role="3eO9$A">
+              <node concept="37vLTw" id="6LCrX7JDd7c" role="2Oq$k0">
+                <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
+              </node>
+              <node concept="liA8E" id="1JHLrPL$lIt" role="2OqNvi">
+                <ref role="37wK5l" to="ybfw:~EventBus.isConnected()" resolve="isConnected" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="1JHLrPL$o7j" role="9aQIa">
+            <node concept="3clFbS" id="1JHLrPL$o7k" role="9aQI4">
+              <node concept="3clFbF" id="1JHLrPL$pcC" role="3cqZAp">
+                <node concept="37vLTI" id="1JHLrPL$pod" role="3clFbG">
+                  <node concept="3clFbT" id="1JHLrPL$pp9" role="37vLTx" />
+                  <node concept="37vLTw" id="1JHLrPL$pcB" role="37vLTJ">
+                    <ref role="3cqZAo" node="1JHLrPL$fup" resolve="sent" />
                   </node>
-                </node>
-                <node concept="3clFbS" id="6LCrX7JDa43" role="1zc67A">
-                  <node concept="3clFbF" id="4FgSVMqq6sf" role="3cqZAp">
-                    <node concept="2YIFZM" id="4FgSVMqq6sg" role="3clFbG">
-                      <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
-                      <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
-                      <node concept="3VsKOn" id="4FgSVMqq6sh" role="37wK5m">
-                        <ref role="3VsUkX" node="1PUq9fiYGac" resolve="MoOptionalEventBus" />
-                      </node>
-                      <node concept="Rm8GO" id="4FgSVMqq6si" role="37wK5m">
-                        <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
-                        <ref role="Rm8GQ" to="28jr:2dTopMvfA_o" resolve="ERROR" />
-                      </node>
-                      <node concept="Xl_RD" id="4FgSVMqq80n" role="37wK5m">
-                        <property role="Xl_RC" value="Exception while trying to write to global log" />
-                      </node>
-                      <node concept="37vLTw" id="4FgSVMqq80o" role="37wK5m">
-                        <ref role="3cqZAo" node="6LCrX7JDa3Z" resolve="ex" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="5HvIBdJ06yA" role="3cqZAp" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="6LCrX7JDcY7" role="3cqZAp" />
           </node>
-          <node concept="2OqwBi" id="6LCrX7JDddQ" role="3clFbw">
-            <node concept="37vLTw" id="6LCrX7JDd7c" role="2Oq$k0">
-              <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
+        </node>
+        <node concept="3clFbH" id="1JHLrPL$dZO" role="3cqZAp" />
+        <node concept="3clFbJ" id="1JHLrPL$Jll" role="3cqZAp">
+          <node concept="3clFbS" id="1JHLrPL$Jln" role="3clFbx">
+            <node concept="3clFbF" id="1JHLrPL$EA7" role="3cqZAp">
+              <node concept="2YIFZM" id="1JHLrPL$EA8" role="3clFbG">
+                <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                <ref role="37wK5l" to="28jr:4FgSVMqlSRi" resolve="log" />
+                <node concept="3VsKOn" id="1JHLrPL$EA9" role="37wK5m">
+                  <ref role="3VsUkX" node="1PUq9fiYGac" resolve="MoOptionalEventBus" />
+                </node>
+                <node concept="Rm8GO" id="1JHLrPL$EAa" role="37wK5m">
+                  <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+                  <ref role="Rm8GQ" to="28jr:2dTopMveSUl" resolve="FATAL" />
+                </node>
+                <node concept="3cpWs3" id="1JHLrPL$TDR" role="37wK5m">
+                  <node concept="3cpWs3" id="1JHLrPL$RT$" role="3uHU7B">
+                    <node concept="3cpWs3" id="1JHLrPL$Q4Q" role="3uHU7B">
+                      <node concept="3cpWs3" id="1JHLrPL$OhU" role="3uHU7B">
+                        <node concept="Xl_RD" id="1JHLrPL$EAb" role="3uHU7B">
+                          <property role="Xl_RC" value="Investigatingh h2forms portj issues (Spring 25), message NOT sent!.  Now upnRunning=" />
+                        </node>
+                        <node concept="37vLTw" id="1JHLrPL$Pxs" role="3uHU7w">
+                          <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="1JHLrPL$QEz" role="3uHU7w">
+                        <property role="Xl_RC" value=", bus.isconnected()=" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="1JHLrPL$SED" role="3uHU7w">
+                      <node concept="37vLTw" id="1JHLrPL$Si1" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
+                      </node>
+                      <node concept="liA8E" id="1JHLrPL$TiR" role="2OqNvi">
+                        <ref role="37wK5l" to="ybfw:~EventBus.isConnected()" resolve="isConnected" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="1JHLrPL$UC8" role="3uHU7w">
+                    <property role="Xl_RC" value="." />
+                  </node>
+                </node>
+                <node concept="10Nm6u" id="1JHLrPL$VjD" role="37wK5m" />
+              </node>
             </node>
-            <node concept="liA8E" id="6LCrX7JDdmq" role="2OqNvi">
-              <ref role="37wK5l" to="ybfw:~EventBus.isConnected()" resolve="isConnected" />
+            <node concept="3clFbH" id="1JHLrPL$Jlm" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="1JHLrPL$K61" role="3clFbw">
+            <node concept="37vLTw" id="1JHLrPL$Kfr" role="3fr31v">
+              <ref role="3cqZAo" node="1JHLrPL$fup" resolve="sent" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1JHLrPL$Dxp" role="3cqZAp" />
         <node concept="3cpWs6" id="7WMhZiS6$Nw" role="3cqZAp">
-          <node concept="3clFbT" id="7WMhZiS6_dK" role="3cqZAk">
-            <property role="3clFbU" value="true" />
+          <node concept="37vLTw" id="1JHLrPL$qzs" role="3cqZAk">
+            <ref role="3cqZAo" node="1JHLrPL$fup" resolve="sent" />
           </node>
         </node>
       </node>
