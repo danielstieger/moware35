@@ -2,7 +2,7 @@
 
 
  moware.xml: Include file to be used in application projects, 
-             like fx8, h2forms, vaadinforms or batchjobs. 
+             like fx8, h2forms, turkuforms or batchjobs. 
               
              There are defaults set for the necessary properties, but 
              you can define the following properties in your project
@@ -34,9 +34,7 @@
 			- fx8forms:    include fx8 components, dataux, objectflow and mps libs.
 			
 			- h2forms:     include http h2forms components, dataux, ..... 
-			
-			- vaadinforms: include http vaadin environment, dataux, .....
-			
+				
 			- ofxbatchjob: include necessary objectflow, manmap and mps libs
 			
 			- turkuforms:  include http vaadin 23+ environment 
@@ -162,61 +160,7 @@
 			  </tokenfilter>
 		  </filterchain>
 		</copy>
-	</target>
-	
-	
-	
-	
-	
-	
-	
-	<target name="vaadinforms">
-		<echo>Copying moware.vaadinforms dependencies to ${mowareWorkDir}/WEB-INF/lib   
-                                       and ${mowareWorkDir}/static
-                        favicon taken from ${appFavicon} </echo>
-		<mkdir dir="${mowareWorkDir}/META-INF"/>
-		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
-
-		<copy todir="${mowareWorkDir}/WEB-INF/lib">
-			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
-			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
-			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
-			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.vaadinforms.jar" />
-	  		<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="moware-vaadin-theme-1.0.jar" />
-			
-			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />
-			<fileset dir="${mowarePluginHomeDir}/jars/vaadinclient/" includes="*.jar" />
-
-			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
-			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
-			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
-			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
-		</copy>
-		
-		
-		<!-- change favicon with local one -->
-		<jar destfile="${mowareWorkDir}/WEB-INF/lib/moware-updated-theme-1.0.jar">
-			<zipfileset src="${mowareWorkDir}/WEB-INF/lib/moware-vaadin-theme-1.0.jar"  excludes="VAADIN/themes/moware/*.ico"/>
-			<zipfileset file="${appFavicon}"                                            fullpath="VAADIN/themes/moware/favicon.ico" />
-		</jar>
-		<delete file="${mowareWorkDir}/WEB-INF/lib/moware-vaadin-theme-1.0.jar" />
-		
-		<copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/context.xml" tofile="${mowareWorkDir}/WEB-INF/context.xml" filtering="yes" overwrite="yes">
-    	</copy>
-    
-		<copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
-		  <filterchain>
-			  <tokenfilter>
-				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
-				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
-				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
-				  <replaceregex pattern="APPLICATION_HOMESCREEN"   replace="${appHomeScreen}"/>
-			  </tokenfilter>
-		  </filterchain>
-		</copy>
-	</target>
-	
+	</target>	
 	
 	<target name="turkuforms">
 		<echo>Copying moware.turkuforms dependencies to ${mowareWorkDir}/WEB-INF/lib   
@@ -377,44 +321,4 @@
 		  </filterchain>
 		</copy>
 	</target>
-	
-	<target name="restful">
-		<echo>Copying moware.restful dependencies to ${mowareWorkDir}/WEB-INF/lib</echo>
-		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
-
-		<copy todir="${mowareWorkDir}/WEB-INF/lib">
-			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
-			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
-			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
-							
-			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="spring-web*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="springdoc-openapi*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="swagger*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="spring-boot*.jar"/>
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="jackson*.jar"/> 
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="commons-lang3*.jar"/> 
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="jakarta*.jar"/> 
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="webjars*.jar"/> 
-			<fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="classgraph*.jar"/> 
-			
-			
-			
-            <fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
-			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
-			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
-			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
-		</copy>
-		
-		<copy file="${mowarePluginHomeDir}/ofassembly/artefact/rest-web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
-		  <filterchain>
-			  <tokenfilter>
-				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
-				  <replaceregex pattern="APPLICATION_CONFIG"       replace="WEB-INF/classes/${appConfiguration}"/>
-				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
-			  </tokenfilter>
-		  </filterchain>
-		</copy>
-	</target>
-	
 </project>

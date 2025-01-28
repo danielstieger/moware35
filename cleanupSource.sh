@@ -65,10 +65,6 @@ rm -rf /Users/danielstieger/migration/2020_3/moware/h1forms/solutions/org.modell
 rm -rf /Users/danielstieger/migration/2020_3/moware/h1forms/solutions/org.modellwerkstatt.h1forms/source_gen
 rm -rf /Users/danielstieger/migration/2020_3/moware/h1forms/solutions/org.modellwerkstatt.h1forms/source_gen.caches
 
-rm -rf /Users/danielstieger/migration/2020_3/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen
-rm -rf /Users/danielstieger/migration/2020_3/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/source_gen
-rm -rf /Users/danielstieger/migration/2020_3/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms//source_gen.caches
-
 
 rm -rf /Users/danielstieger/migration/2020_3/moware/h2forms/assembly/work
 rm -rf /Users/danielstieger/migration/2020_3/moware/h2forms/assembly/dist
@@ -76,5 +72,6 @@ rm -rf /Users/danielstieger/migration/2020_3/moware/h2forms/assembly/dist
 rm -rf /Users/danielstieger/migration/2020_3/moware/objectflow/assembly/work
 rm -rf /Users/danielstieger/migration/2020_3/moware/objectflow/assembly/dist
 
-rm -rf /Users/danielstieger/migration/2020_3/moware/vaadinforms/assembly/work
-rm -rf /Users/danielstieger/migration/2020_3/moware/vaadinforms/assembly/dist
+rm -rf /Users/danielstieger/migration/2020_3/moware/turkuforms/assembly/work
+rm -rf /Users/danielstieger/migration/2020_3/moware/turkuforms/assembly/dist
+

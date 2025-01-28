@@ -52,12 +52,6 @@
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h2forms.jar" 
          basedir="${mowareHome}/h2forms/languages/org.modellwerkstatt.h2forms/runtime/classes_gen" />
          
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.vaadinforms.jar" 
-         basedir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen"/>
-
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
-         basedir="${mowareHome}/vaadinforms/assembly/artefact/moware-theme"/>
-
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.fx8forms.jar" 
          basedir="${mowareHome}/fx8forms/solutions/org.modellwerkstatt.fx8forms/classes_gen"/>
     
@@ -79,14 +73,7 @@
   	<copy todir="${mowarePluginHomeDir}/h2assembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/h2forms/assembly/artefact/"/>
   	</copy>
-  	
-  	<delete includeEmptyDirs="true" failonerror="false">
-  		<fileset dir="${mowarePluginHomeDir}/vaadinassembly/artefact/" includes="**/*" defaultexcludes="no"/>
-	</delete>
-  	<copy todir="${mowarePluginHomeDir}/vaadinassembly/artefact/" overwrite="true" >
-    	<fileset dir="${mowareHome}/vaadinforms/assembly/artefact/"/>
-  	</copy>
-  	 
+  		 
   	<delete includeEmptyDirs="true" failonerror="false">
   		<fileset dir="${mowarePluginHomeDir}/turkuassembly/artefact/" includes="**/*" defaultexcludes="no"/>
 	</delete>
@@ -105,7 +92,6 @@
   	<copy todir="${mowarePluginHomeDir}/jars/" overwrite="true" >
     	<fileset dir="${mowareHome}/objectflow/solutions/sandbox/jars"/>
     	<fileset dir="${mowareHome}/fx8forms/solutions/org.modellwerkstatt.fx8forms/jars"/>
-    	<fileset dir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/jars"/>
     	<fileset dir="${mowareHome}/h2forms/languages/org.modellwerkstatt.h2forms/runtime/jars"/>    	
   	</copy>
   </target>

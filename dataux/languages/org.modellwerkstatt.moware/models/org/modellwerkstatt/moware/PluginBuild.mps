@@ -35,7 +35,6 @@
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
-      <concept id="7389400916848050074" name="jetbrains.mps.build.structure.BuildLayout_Jar" flags="ng" index="3981dx" />
       <concept id="7389400916848050071" name="jetbrains.mps.build.structure.BuildLayout_Zip" flags="ng" index="3981dG" />
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
@@ -185,7 +184,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2025.1 (trmp)" />
+          <property role="3MwjfP" value="MPS 2020.3.6 / moware11 2025.2 (cln)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -2039,215 +2038,6 @@
           </node>
         </node>
       </node>
-      <node concept="1E1JtA" id="6SBwZitQlSO" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.modellwerkstatt.vaadinforms" />
-        <property role="3LESm3" value="0460caee-4107-44cf-b689-af78c260c48e" />
-        <node concept="398BVA" id="6SBwZitQmuI" role="3LF7KH">
-          <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-          <node concept="2Ry0Ak" id="6SBwZitQn9E" role="iGT6I">
-            <property role="2Ry0Am" value="vaadinforms" />
-            <node concept="2Ry0Ak" id="6SBwZitQn9J" role="2Ry0An">
-              <property role="2Ry0Am" value="solutions" />
-              <node concept="2Ry0Ak" id="6SBwZitQn9O" role="2Ry0An">
-                <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                <node concept="2Ry0Ak" id="6SBwZitQn9T" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms.msd" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6SBwZitQn9V" role="3bR37C">
-          <node concept="3bR9La" id="6SBwZitQn9W" role="1SiIV1">
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6SBwZitQn9Z" role="3bR37C">
-          <node concept="3bR9La" id="6SBwZitQna0" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6SBwZitQna1" role="3bR37C">
-          <node concept="3bR9La" id="6SBwZitQna2" role="1SiIV1">
-            <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.objectflow.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6SBwZitQna3" role="3bR37C">
-          <node concept="3bR9La" id="6SBwZitQna4" role="1SiIV1">
-            <ref role="3bR37D" node="6HA5kZtQ0G3" resolve="org.modellwerkstatt.dataux.runtime" />
-          </node>
-        </node>
-        <node concept="3rtmxn" id="L2tPFI1PNu" role="3bR31x">
-          <node concept="3LXTmp" id="L2tPFI1PNv" role="3rtmxm">
-            <node concept="3qWCbU" id="L2tPFI1PNw" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
-            <node concept="398BVA" id="L2tPFI1PNx" role="3LXTmr">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="L2tPFI1PNy" role="iGT6I">
-                <property role="2Ry0Am" value="vaadinforms" />
-                <node concept="2Ry0Ak" id="L2tPFI1PNz" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="L2tPFI1PN$" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5cOCID51cdH" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51cdI" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51cdA" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51cdB" role="iGT6I">
-                <property role="2Ry0Am" value="vaadinforms" />
-                <node concept="2Ry0Ak" id="5cOCID51cdC" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51cdD" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                    <node concept="2Ry0Ak" id="5cOCID51cdE" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51cdF" role="2Ry0An">
-                        <property role="2Ry0Am" value="vaadinclient" />
-                        <node concept="2Ry0Ak" id="5cOCID51cdG" role="2Ry0An">
-                          <property role="2Ry0Am" value="contextmenu-4.5.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5cOCID51cdQ" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51cdR" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51cdJ" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51cdK" role="iGT6I">
-                <property role="2Ry0Am" value="vaadinforms" />
-                <node concept="2Ry0Ak" id="5cOCID51cdL" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51cdM" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                    <node concept="2Ry0Ak" id="5cOCID51cdN" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51cdO" role="2Ry0An">
-                        <property role="2Ry0Am" value="vaadinclient" />
-                        <node concept="2Ry0Ak" id="5cOCID51cdP" role="2Ry0An">
-                          <property role="2Ry0Am" value="vaadin-server-7.6.4.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5cOCID51cdZ" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51ce0" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51cdS" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51cdT" role="iGT6I">
-                <property role="2Ry0Am" value="vaadinforms" />
-                <node concept="2Ry0Ak" id="5cOCID51cdU" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51cdV" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                    <node concept="2Ry0Ak" id="5cOCID51cdW" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51cdX" role="2Ry0An">
-                        <property role="2Ry0Am" value="vaadinclient" />
-                        <node concept="2Ry0Ak" id="5cOCID51cdY" role="2Ry0An">
-                          <property role="2Ry0Am" value="vaadin-shared-7.6.4.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5cOCID51ce8" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51ce9" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51ce1" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51ce2" role="iGT6I">
-                <property role="2Ry0Am" value="vaadinforms" />
-                <node concept="2Ry0Ak" id="5cOCID51ce3" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51ce4" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                    <node concept="2Ry0Ak" id="5cOCID51ce5" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51ce6" role="2Ry0An">
-                        <property role="2Ry0Am" value="vaadinclient" />
-                        <node concept="2Ry0Ak" id="5cOCID51ce7" role="2Ry0An">
-                          <property role="2Ry0Am" value="vaadin-themes-7.6.4.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5cOCID51ceh" role="3bR37C">
-          <node concept="1BurEX" id="5cOCID51cei" role="1SiIV1">
-            <node concept="398BVA" id="5cOCID51cea" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5cOCID51ceb" role="iGT6I">
-                <property role="2Ry0Am" value="vaadinforms" />
-                <node concept="2Ry0Ak" id="5cOCID51cec" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5cOCID51ced" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                    <node concept="2Ry0Ak" id="5cOCID51cee" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5cOCID51cef" role="2Ry0An">
-                        <property role="2Ry0Am" value="vaadinclient" />
-                        <node concept="2Ry0Ak" id="5cOCID51ceg" role="2Ry0An">
-                          <property role="2Ry0Am" value="jsoup-1.8.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="4EjcJZr7mVz" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="4EjcJZr7mV$" role="1HemKq">
-            <node concept="398BVA" id="4EjcJZr7mVu" role="3LXTmr">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="4EjcJZr7mVv" role="iGT6I">
-                <property role="2Ry0Am" value="vaadinforms" />
-                <node concept="2Ry0Ak" id="4EjcJZr7mVw" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="4EjcJZr7mVx" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                    <node concept="2Ry0Ak" id="4EjcJZr7mVy" role="2Ry0An">
-                      <property role="2Ry0Am" value="models" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="4EjcJZr7mV_" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="1E1JtA" id="phsLeeLbCJ" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modellwerkstatt.h2forms" />
@@ -2465,44 +2255,6 @@
         </node>
         <node concept="m$_wl" id="1JLTjCmZp35" role="39821P">
           <ref role="m_rDy" node="1JLTjCmZp23" resolve="org.modellwerkstatt.moware" />
-          <node concept="398223" id="3Jw5WAOQlmb" role="39821P">
-            <node concept="398223" id="161OgMtt102" role="39821P">
-              <node concept="3_J27D" id="161OgMtt104" role="Nbhlr">
-                <node concept="3Mxwew" id="161OgMtt1tO" role="3MwsjC">
-                  <property role="3MwjfP" value="MoWareLangAndSolutions" />
-                </node>
-              </node>
-              <node concept="3981dx" id="161OgMttcl7" role="39821P">
-                <node concept="3_J27D" id="161OgMttcl8" role="Nbhlr">
-                  <node concept="3Mxwew" id="161OgMttcBF" role="3MwsjC">
-                    <property role="3MwjfP" value="moware-vaadin-theme-1.0.jar" />
-                  </node>
-                </node>
-                <node concept="2HvfSZ" id="3Jw5WAOQ51Z" role="39821P">
-                  <node concept="398BVA" id="3Jw5WAOQ58s" role="2HvfZ0">
-                    <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-                    <node concept="2Ry0Ak" id="3Jw5WAOQ5ee" role="iGT6I">
-                      <property role="2Ry0Am" value="vaadinforms" />
-                      <node concept="2Ry0Ak" id="3Jw5WAOQb$C" role="2Ry0An">
-                        <property role="2Ry0Am" value="assembly" />
-                        <node concept="2Ry0Ak" id="3Jw5WAOQb_2" role="2Ry0An">
-                          <property role="2Ry0Am" value="artefact" />
-                          <node concept="2Ry0Ak" id="3Jw5WAOQb_l" role="2Ry0An">
-                            <property role="2Ry0Am" value="moware-theme" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3_J27D" id="3Jw5WAOQlmd" role="Nbhlr">
-              <node concept="3Mxwew" id="3Jw5WAOQlsM" role="3MwsjC">
-                <property role="3MwjfP" value="languages" />
-              </node>
-            </node>
-          </node>
           <node concept="398223" id="1JLTjCmZp37" role="39821P">
             <node concept="3_J27D" id="1JLTjCmZp38" role="Nbhlr">
               <node concept="3Mxwew" id="1JLTjCmZp3b" role="3MwsjC">
@@ -2560,23 +2312,6 @@
                     <node concept="2Ry0Ak" id="5cOCID51d2T" role="2Ry0An">
                       <property role="2Ry0Am" value="org.modellwerkstatt.fx8forms" />
                       <node concept="2Ry0Ak" id="5cOCID51d8d" role="2Ry0An">
-                        <property role="2Ry0Am" value="jars" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2HvfSZ" id="2jfddY9MMR5" role="39821P">
-              <node concept="398BVA" id="2jfddY9MMR6" role="2HvfZ0">
-                <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-                <node concept="2Ry0Ak" id="2jfddY9MMR7" role="iGT6I">
-                  <property role="2Ry0Am" value="vaadinforms" />
-                  <node concept="2Ry0Ak" id="5cOCID51d8M" role="2Ry0An">
-                    <property role="2Ry0Am" value="solutions" />
-                    <node concept="2Ry0Ak" id="5cOCID51de8" role="2Ry0An">
-                      <property role="2Ry0Am" value="org.modellwerkstatt.vaadinforms" />
-                      <node concept="2Ry0Ak" id="5cOCID51deK" role="2Ry0An">
                         <property role="2Ry0Am" value="jars" />
                       </node>
                     </node>
@@ -2653,24 +2388,6 @@
                 <node concept="2Ry0Ak" id="2QMuF3JFXTM" role="iGT6I">
                   <property role="2Ry0Am" value="h2forms" />
                   <node concept="2Ry0Ak" id="2QMuF3JFZxQ" role="2Ry0An">
-                    <property role="2Ry0Am" value="assembly" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="398223" id="2QMuF3JFY02" role="39821P">
-            <node concept="3_J27D" id="2QMuF3JFY03" role="Nbhlr">
-              <node concept="3Mxwew" id="2QMuF3JFY04" role="3MwsjC">
-                <property role="3MwjfP" value="vaadinassembly" />
-              </node>
-            </node>
-            <node concept="2HvfSZ" id="2QMuF3JFY05" role="39821P">
-              <node concept="398BVA" id="2QMuF3JFY06" role="2HvfZ0">
-                <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-                <node concept="2Ry0Ak" id="2QMuF3JFY07" role="iGT6I">
-                  <property role="2Ry0Am" value="vaadinforms" />
-                  <node concept="2Ry0Ak" id="2QMuF3JFZDD" role="2Ry0An">
                     <property role="2Ry0Am" value="assembly" />
                   </node>
                 </node>
