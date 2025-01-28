@@ -4103,7 +4103,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="4QjxxPpYSSP" role="3yMuLx">
-      <property role="TrG5h" value="Response Testing - list prim string response" />
+      <property role="TrG5h" value="Response Testing - list prim empty string response" />
       <node concept="3cqZAl" id="4QjxxPpYSSQ" role="3clF45" />
       <node concept="3clFbS" id="4QjxxPpYSSR" role="3clF47">
         <node concept="3cpWs8" id="4QjxxPpYSSS" role="3cqZAp">

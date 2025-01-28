@@ -22112,5 +22112,33 @@
       <node concept="3clFbS" id="5idcJbnwoEX" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="3QzQT80EF7a">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="13h7C2" to="un0u:1WRDsSumd3e" resolve="OFXConfigPlainText" />
+    <node concept="13hLZK" id="3QzQT80EF7b" role="13h7CW">
+      <node concept="3clFbS" id="3QzQT80EF7c" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3QzQT80EF7l" role="13h7CS">
+      <property role="TrG5h" value="getConfigPropertiesToOverwrite" />
+      <ref role="13i0hy" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
+      <node concept="3Tm1VV" id="3QzQT80EF7m" role="1B3o_S" />
+      <node concept="3clFbS" id="3QzQT80EF7q" role="3clF47">
+        <node concept="3clFbF" id="3QzQT80EF7G" role="3cqZAp">
+          <node concept="2ShNRf" id="3QzQT80EF7E" role="3clFbG">
+            <node concept="Tc6Ow" id="3QzQT80EFw$" role="2ShVmc">
+              <node concept="3Tqbb2" id="3QzQT80EFTN" role="HW$YZ">
+                <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="3QzQT80EF7r" role="3clF45">
+        <node concept="3Tqbb2" id="3QzQT80EF7s" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
