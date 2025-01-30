@@ -11103,32 +11103,46 @@
                   <ref role="1Px2BO" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
                   <ref role="Rm8GQ" to="28jr:2dTopMveSUl" resolve="FATAL" />
                 </node>
-                <node concept="3cpWs3" id="1JHLrPL$TDR" role="37wK5m">
-                  <node concept="3cpWs3" id="1JHLrPL$RT$" role="3uHU7B">
-                    <node concept="3cpWs3" id="1JHLrPL$Q4Q" role="3uHU7B">
-                      <node concept="3cpWs3" id="1JHLrPL$OhU" role="3uHU7B">
-                        <node concept="Xl_RD" id="1JHLrPL$EAb" role="3uHU7B">
-                          <property role="Xl_RC" value="Investigatingh h2forms portj issues (Spring 25), message NOT sent!.  Now upnRunning=" />
-                        </node>
-                        <node concept="37vLTw" id="1JHLrPL$Pxs" role="3uHU7w">
-                          <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="1JHLrPL$QEz" role="3uHU7w">
-                        <property role="Xl_RC" value=", bus.isconnected()=" />
-                      </node>
-                    </node>
-                    <node concept="2OqwBi" id="1JHLrPL$SED" role="3uHU7w">
-                      <node concept="37vLTw" id="1JHLrPL$Si1" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
-                      </node>
-                      <node concept="liA8E" id="1JHLrPL$TiR" role="2OqNvi">
-                        <ref role="37wK5l" to="ybfw:~EventBus.isConnected()" resolve="isConnected" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="1JHLrPL$UC8" role="3uHU7w">
+                <node concept="3cpWs3" id="2E9876aoFx8" role="37wK5m">
+                  <node concept="Xl_RD" id="2E9876aoFxP" role="3uHU7w">
                     <property role="Xl_RC" value="." />
+                  </node>
+                  <node concept="3cpWs3" id="2E9876an1qf" role="3uHU7B">
+                    <node concept="3cpWs3" id="1JHLrPL$TDR" role="3uHU7B">
+                      <node concept="3cpWs3" id="1JHLrPL$RT$" role="3uHU7B">
+                        <node concept="3cpWs3" id="1JHLrPL$Q4Q" role="3uHU7B">
+                          <node concept="3cpWs3" id="1JHLrPL$OhU" role="3uHU7B">
+                            <node concept="Xl_RD" id="1JHLrPL$EAb" role="3uHU7B">
+                              <property role="Xl_RC" value="Investigatingh h2forms portj issues (Spring 25), message NOT sent!.  Now upnRunning=" />
+                            </node>
+                            <node concept="37vLTw" id="1JHLrPL$Pxs" role="3uHU7w">
+                              <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="1JHLrPL$QEz" role="3uHU7w">
+                            <property role="Xl_RC" value=", bus.isconnected()=" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="1JHLrPL$SED" role="3uHU7w">
+                          <node concept="37vLTw" id="1JHLrPL$Si1" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
+                          </node>
+                          <node concept="liA8E" id="1JHLrPL$TiR" role="2OqNvi">
+                            <ref role="37wK5l" to="ybfw:~EventBus.isConnected()" resolve="isConnected" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="1JHLrPL$UC8" role="3uHU7w">
+                        <property role="Xl_RC" value=". Tried to send " />
+                      </node>
+                    </node>
+                    <node concept="2YIFZM" id="2E9876aoEPw" role="3uHU7w">
+                      <ref role="37wK5l" to="28jr:2E9876anpP0" resolve="simpleInfo" />
+                      <ref role="1Pybhc" to="28jr:4FgSVMqlPtR" resolve="OFXLogger" />
+                      <node concept="37vLTw" id="2E9876aoEWF" role="37wK5m">
+                        <ref role="3cqZAo" node="1YUU7GVWtxw" resolve="msg" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="10Nm6u" id="1JHLrPL$VjD" role="37wK5m" />
