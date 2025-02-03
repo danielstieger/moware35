@@ -41737,30 +41737,13 @@
   </node>
   <node concept="312cEu" id="7sK_OLreJFv">
     <property role="TrG5h" value="MoVersion" />
-    <node concept="Wx3nA" id="79n7_omq6WT" role="jymVt">
-      <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="H2_DEV_HARDLOG" />
-      <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
-      <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="4olOpH0IUd" role="33vP2m" />
-    </node>
     <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
       <node concept="3Tm1VV" id="79n7_omqfJV" role="1B3o_S" />
       <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
-      <node concept="3cpWs3" id="3Ig$6jfKDGH" role="33vP2m">
-        <node concept="Xl_RD" id="3Ig$6jfKDIf" role="3uHU7w">
-          <property role="Xl_RC" value=")" />
-        </node>
-        <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
-          <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware11 2025.2 (cln) (dev " />
-          </node>
-          <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
-            <ref role="3cqZAo" node="79n7_omq6WT" resolve="H2_DEV_HARDLOG" />
-          </node>
-        </node>
+      <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
+        <property role="Xl_RC" value="moware11 2025.2 (cln)" />
       </node>
     </node>
     <node concept="2tJIrI" id="7sK_OLreK7K" role="jymVt" />
