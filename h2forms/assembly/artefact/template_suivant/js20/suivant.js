@@ -165,10 +165,12 @@ function setLastRequestIssuedMillis(baseForm) {
  *
  */
 function svUploadFileDone(args){
+
+
+    console.log("svUploadFileDone() _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+    console.log(args);
+
     var status = args['status'];
-
-    // strange TC27 bug
-
     if ('body' in args) {
         var filename = args['body'].replace(/^\s+|\s+$/g, '');
         status += '; (' + filename + ')';
@@ -206,6 +208,7 @@ function svCameraPicTaken(cbData){
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
             uploadTmpFilename = imgName;
+            console.log('Uploading ' + cbData.imageUri + " to " + uploadLocationStore);
 
             var uploadfileProps = {
              url: uploadLocationStore,
