@@ -40,6 +40,7 @@
     <import index="v2rs" ref="r:0e5f176a-c068-4e87-9d0f-155a473a0a7f(org.modellwerkstatt.dataux.runtime.httpapi)" />
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="n4mo" ref="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" />
+    <import index="kiw1" ref="r:94ffcee1-0674-484a-872a-0a7170595a7b(org.modellwerkstatt.objectflow.sdservices)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
@@ -16154,7 +16155,26 @@
     <node concept="3clFb_" id="3pREN1Ab8gS" role="jymVt">
       <property role="TrG5h" value="initApiDescription" />
       <node concept="3clFbS" id="3pREN1Ab8gV" role="3clF47">
-        <node concept="3clFbH" id="3pREN1Ab8ia" role="3cqZAp" />
+        <node concept="3cpWs8" id="2NU_nKSUvpA" role="3cqZAp">
+          <node concept="3cpWsn" id="2NU_nKSUvpB" role="3cpWs9">
+            <property role="TrG5h" value="errorReporter" />
+            <node concept="3uibUv" id="2NU_nKSUvpC" role="1tU5fm">
+              <ref role="3uigEE" to="v2rs:dOYSaxZfTX" resolve="IApiErrorReporter" />
+            </node>
+            <node concept="2ShNRf" id="2NU_nKSUzNQ" role="33vP2m">
+              <node concept="1pGfFk" id="2NU_nKSUYjq" role="2ShVmc">
+                <ref role="37wK5l" to="v2rs:2NU_nKSUWav" resolve="JSonApiErrorReporter" />
+                <node concept="2ShNRf" id="2NU_nKSVb6q" role="37wK5m">
+                  <node concept="1pGfFk" id="2NU_nKSVbOi" role="2ShVmc">
+                    <ref role="37wK5l" to="kiw1:23eALbvUn$J" resolve="JackyInfra" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NU_nKSUQjv" role="3cqZAp" />
+        <node concept="3clFbH" id="2NU_nKSUlnc" role="3cqZAp" />
         <node concept="9aQIb" id="6b88ASmSAn_" role="3cqZAp">
           <node concept="3clFbS" id="6b88ASmSAnB" role="9aQI4">
             <node concept="3cpWs8" id="6b88ASmSCyP" role="3cqZAp">
@@ -17867,9 +17887,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2NU_nKSU_ph" role="3cqZAp" />
+        <node concept="3clFbF" id="2NU_nKSUFlX" role="3cqZAp">
+          <node concept="37vLTw" id="2NU_nKSUFlV" role="3clFbG">
+            <ref role="3cqZAo" node="2NU_nKSUvpB" resolve="errorReporter" />
+          </node>
+        </node>
       </node>
       <node concept="3Tm1VV" id="3pREN1Ab86P" role="1B3o_S" />
-      <node concept="3cqZAl" id="3pREN1Ab8g$" role="3clF45" />
+      <node concept="3uibUv" id="2NU_nKSU9PM" role="3clF45">
+        <ref role="3uigEE" to="v2rs:dOYSaxZfTX" resolve="IApiErrorReporter" />
+      </node>
     </node>
     <node concept="2tJIrI" id="3pREN1Ab7Vj" role="jymVt" />
     <node concept="2tJIrI" id="3veN3rLrjyX" role="jymVt" />
