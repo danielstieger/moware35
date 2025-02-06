@@ -187,6 +187,24 @@
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
         <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
       </concept>
+      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
+        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
+      </concept>
+      <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
+        <child id="5788629615582331968" name="instance" index="lgxeR" />
+        <child id="5788629615582331966" name="problem" index="lgxf9" />
+      </concept>
+      <concept id="5788629615582326299" name="org.modellwerkstatt.objectflow.structure.Guard" flags="ng" index="lgBBG">
+        <child id="5788629615582344424" name="desc" index="lgycv" />
+      </concept>
+      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Precondition" flags="ng" index="mlg3r">
+        <child id="6429806718554931923" name="props" index="20Q47R" />
+        <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
+        <child id="5788629615600818949" name="options" index="mp0NM" />
+      </concept>
+      <concept id="5788629615600813174" name="org.modellwerkstatt.objectflow.structure.CheckOptionRef" flags="ng" index="mp1e1">
+        <reference id="5788629615600813175" name="option" index="mp1e0" />
+      </concept>
       <concept id="7919209473516657581" name="org.modellwerkstatt.objectflow.structure.StatusElementReference" flags="ng" index="2vefiz">
         <reference id="7919209473516657582" name="statusElement" index="2vefiw" />
       </concept>
@@ -194,6 +212,9 @@
       <concept id="1707086779731223260" name="org.modellwerkstatt.objectflow.structure.OnCreationStatusElemOption" flags="ng" index="2_5uyX" />
       <concept id="1707086779731422527" name="org.modellwerkstatt.objectflow.structure.WhenNullOnDbStatusElemOption" flags="ng" index="2_6etu" />
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
+      <concept id="2252697316673436458" name="org.modellwerkstatt.objectflow.structure.ValidationStatement" flags="ng" index="Hy8HG">
+        <child id="2252697316673436459" name="statements" index="Hy8HH" />
+      </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
@@ -217,6 +238,9 @@
       <concept id="4313579457188683399" name="org.modellwerkstatt.objectflow.structure.IOFXObject" flags="ng" index="13YVsI">
         <child id="3207218222495905601" name="businessProperties" index="TxmiU" />
       </concept>
+      <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
+        <child id="4986415014450757612" name="formatString" index="icr7_" />
+      </concept>
       <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
         <reference id="8113764509539932973" name="classifier" index="16PnFS" />
         <child id="8113764509540567394" name="contains" index="16NUyR" />
@@ -233,6 +257,10 @@
         <child id="7192042020164640432" name="variable" index="3ulXEG" />
       </concept>
       <concept id="7192042020165155288" name="org.modellwerkstatt.objectflow.structure.ContainerVariableReference" flags="ng" index="3urNR4" />
+      <concept id="1327102270983237349" name="org.modellwerkstatt.objectflow.structure.LogStatementProperty" flags="ng" index="3wYNUu">
+        <child id="1327102270983237706" name="propName" index="3wYM0L" />
+        <child id="1327102270983237708" name="value" index="3wYM0R" />
+      </concept>
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
       <concept id="569389511234497392" name="org.modellwerkstatt.objectflow.structure.DateTimeLiteral" flags="ng" index="1$4sJe">
         <property id="569389511234497416" name="minute" index="1$4sGQ" />
@@ -1818,6 +1846,126 @@
           </node>
         </node>
       </node>
+      <node concept="64Eps" id="26B_wwNMPG" role="64Em8">
+        <property role="TrG5h" value="guard" />
+        <node concept="R5Q6b" id="26B_wwNMPH" role="R5Cry">
+          <node concept="3clFbS" id="26B_wwNMPJ" role="R5Q7U">
+            <node concept="3clFbH" id="26B_wwNMPL" role="3cqZAp" />
+            <node concept="3clFbH" id="26B_wwNMPM" role="3cqZAp" />
+            <node concept="3clFbJ" id="26B_wwOcl3" role="3cqZAp">
+              <node concept="3clFbS" id="26B_wwOcl5" role="3clFbx">
+                <node concept="3clFbH" id="26B_wwOcl4" role="3cqZAp" />
+                <node concept="lgBBG" id="26B_wwNN6s" role="3cqZAp">
+                  <node concept="lgADV" id="26B_wwNN6v" role="lgycv">
+                    <node concept="35AVbj" id="26B_wwNN6w" role="lgxf9">
+                      <node concept="ic4WF" id="26B_wwNN6x" role="icr7_">
+                        <property role="ic4Xk" value="This is a guard." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOVzh" id="26B_wwOcSG" role="3clFbw">
+                <node concept="3cmrfG" id="26B_wwOcSY" role="3uHU7w">
+                  <property role="3cmrfH" value="100" />
+                </node>
+                <node concept="3cmrfG" id="26B_wwOclq" role="3uHU7B">
+                  <property role="3cmrfH" value="20" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="26B_wwNMPN" role="3cqZAp" />
+            <node concept="3clFbH" id="26B_wwNMPO" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="2KM21S" id="26B_wwNMPP" role="2L06Gs">
+          <node concept="17QB3L" id="26B_wwNN6a" role="1tU5fn" />
+          <node concept="Xl_RD" id="26B_wwNN6f" role="2nptKc">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="64Eps" id="26B_wwOSnV" role="64Em8">
+        <property role="TrG5h" value="precondition" />
+        <node concept="R5Q6b" id="26B_wwOSnW" role="R5Cry">
+          <node concept="3clFbS" id="26B_wwOSnY" role="R5Q7U">
+            <node concept="2APWra" id="26B_wwOSM3" role="3cqZAp">
+              <node concept="R5Q$4" id="26B_wwOSM4" role="2APWkj">
+                <property role="TrG5h" value="inst" />
+                <node concept="17QB3L" id="26B_wwOSMm" role="1tU5fm" />
+                <node concept="Xl_RD" id="26B_wwOSMB" role="33vP2m">
+                  <property role="Xl_RC" value="instance4711" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="26B_wwOSLt" role="3cqZAp" />
+            <node concept="Hy8HG" id="26B_wwOSJB" role="3cqZAp">
+              <node concept="3clFbS" id="26B_wwOSJD" role="Hy8HH">
+                <node concept="mlg3r" id="26B_wwOSJJ" role="3cqZAp">
+                  <node concept="3wYNUu" id="26B_wwOSNf" role="20Q47R">
+                    <node concept="Xl_RD" id="26B_wwOSNg" role="3wYM0L">
+                      <property role="Xl_RC" value="myporp1" />
+                    </node>
+                    <node concept="3cmrfG" id="26B_wwOSND" role="3wYM0R">
+                      <property role="3cmrfH" value="4711" />
+                    </node>
+                  </node>
+                  <node concept="3wYNUu" id="26B_wwOSO6" role="20Q47R">
+                    <node concept="Xl_RD" id="26B_wwOSO7" role="3wYM0L">
+                      <property role="Xl_RC" value="myprop2" />
+                    </node>
+                    <node concept="3cmrfG" id="26B_wwOSOH" role="3wYM0R">
+                      <property role="3cmrfH" value="4712" />
+                    </node>
+                  </node>
+                  <node concept="lgADV" id="26B_wwOSJM" role="mlgNH">
+                    <node concept="35AVbj" id="26B_wwOSJN" role="lgxf9">
+                      <node concept="ic4WF" id="26B_wwOSJO" role="icr7_">
+                        <property role="ic4Xk" value="precondition 1 - with props and instance" />
+                      </node>
+                    </node>
+                    <node concept="ONB0d" id="26B_wwOSN5" role="lgxeR">
+                      <ref role="3cqZAo" node="26B_wwOSM4" resolve="inst" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="26B_wwOSNS" role="3cqZAp" />
+                <node concept="mlg3r" id="26B_wwOSKB" role="3cqZAp">
+                  <node concept="lgADV" id="26B_wwOSKC" role="mlgNH">
+                    <node concept="35AVbj" id="26B_wwOSKD" role="lgxf9">
+                      <node concept="ic4WF" id="26B_wwOSKE" role="icr7_">
+                        <property role="ic4Xk" value="precondition 2 - no props" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="mp1e1" id="26B_wwPqnP" role="mp0NM">
+                    <ref role="mp1e0" to="28jr:7ymmWYItnyt" resolve="PRIO_INFO" />
+                  </node>
+                </node>
+                <node concept="mlg3r" id="26B_wwP_h0" role="3cqZAp">
+                  <node concept="lgADV" id="26B_wwP_h1" role="mlgNH">
+                    <node concept="35AVbj" id="26B_wwP_h2" role="lgxf9">
+                      <node concept="ic4WF" id="26B_wwP_h3" role="icr7_">
+                        <property role="ic4Xk" value="precondition 3 - Warning hint" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="mp1e1" id="26B_wwP_h4" role="mp0NM">
+                    <ref role="mp1e0" to="28jr:51llZt5Ptbk" resolve="WARNING_HINT" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="26B_wwOSo3" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="2KM21S" id="26B_wwOSo4" role="2L06Gs">
+          <node concept="17QB3L" id="26B_wwOSJo" role="1tU5fn" />
+          <node concept="Xl_RD" id="26B_wwOSJt" role="2nptKc">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
       <node concept="R5Q6b" id="7eWhJ0Jipud" role="OhWXl">
         <node concept="R5Q$4" id="7eWhJ0JiqSW" role="R5Q7Q">
           <property role="TrG5h" value="headerParam" />
@@ -2202,11 +2350,18 @@
       <property role="TrG5h" value="Ressource not found" />
       <node concept="3cqZAl" id="7eWhJ0JBED1" role="3clF45" />
       <node concept="3clFbS" id="7eWhJ0JBED2" role="3clF47">
-        <node concept="3cpWs8" id="7eWhJ0JBEEu" role="3cqZAp">
-          <node concept="3cpWsn" id="7eWhJ0JBEEx" role="3cpWs9">
+        <node concept="3cpWs8" id="26B_wwMzTb" role="3cqZAp">
+          <node concept="3cpWsn" id="26B_wwMzTe" role="3cpWs9">
             <property role="TrG5h" value="ret" />
-            <node concept="17QB3L" id="7eWhJ0JBEEs" role="1tU5fm" />
-            <node concept="2YIFZM" id="7eWhJ0JC7_A" role="33vP2m">
+            <node concept="17QB3L" id="26B_wwMzT9" role="1tU5fm" />
+            <node concept="Xl_RD" id="26B_wwM$vE" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26B_wwM$vV" role="3cqZAp">
+          <node concept="37vLTI" id="26B_wwM$vX" role="3clFbG">
+            <node concept="2YIFZM" id="7eWhJ0JC7_A" role="37vLTx">
               <ref role="1Pybhc" to="gyq6:7eWhJ0JhMTL" resolve="HttpConnection" />
               <ref role="37wK5l" to="gyq6:7eWhJ0K3Gst" resolve="jsonCon" />
               <node concept="Rm8GO" id="7eWhJ0JC7_B" role="37wK5m">
@@ -2224,11 +2379,106 @@
               <node concept="10Nm6u" id="7eWhJ0JC7_D" role="37wK5m" />
               <node concept="10Nm6u" id="7eWhJ0JC7_E" role="37wK5m" />
             </node>
+            <node concept="37vLTw" id="26B_wwM$w1" role="37vLTJ">
+              <ref role="3cqZAo" node="26B_wwMzTe" resolve="ret" />
+            </node>
           </node>
-          <node concept="16GPin" id="7eWhJ0JP6PS" role="lGtFl">
+          <node concept="16GPin" id="26B_wwOugh" role="lGtFl">
             <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
-            <node concept="Xl_RD" id="7eWhJ0JP74l" role="16NUyR">
+            <node concept="Xl_RD" id="26B_wwOvw1" role="16NUyR">
               <property role="Xl_RC" value="404" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="26B_wwNWVX" role="3yMuLx">
+      <property role="TrG5h" value="Guard in endpoint operation" />
+      <node concept="3cqZAl" id="26B_wwNWVY" role="3clF45" />
+      <node concept="3clFbS" id="26B_wwNWVZ" role="3clF47">
+        <node concept="3cpWs8" id="26B_wwNWW0" role="3cqZAp">
+          <node concept="3cpWsn" id="26B_wwNWW1" role="3cpWs9">
+            <property role="TrG5h" value="ret" />
+            <node concept="17QB3L" id="26B_wwNWW2" role="1tU5fm" />
+            <node concept="Xl_RD" id="26B_wwNWW3" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26B_wwNWW4" role="3cqZAp">
+          <node concept="37vLTI" id="26B_wwNWW5" role="3clFbG">
+            <node concept="2YIFZM" id="26B_wwNWW6" role="37vLTx">
+              <ref role="1Pybhc" to="gyq6:7eWhJ0JhMTL" resolve="HttpConnection" />
+              <ref role="37wK5l" to="gyq6:7eWhJ0K3Gst" resolve="jsonCon" />
+              <node concept="Rm8GO" id="26B_wwNWW7" role="37wK5m">
+                <ref role="1Px2BO" to="gyq6:7eWhJ0Jic06" resolve="HttpConnection.RequestType" />
+                <ref role="Rm8GQ" to="gyq6:7eWhJ0Jidfp" resolve="GET" />
+              </node>
+              <node concept="3cpWs3" id="26B_wwNWW8" role="37wK5m">
+                <node concept="Xl_RD" id="26B_wwNWW9" role="3uHU7w">
+                  <property role="Xl_RC" value="guard" />
+                </node>
+                <node concept="3urNR4" id="26B_wwNWWa" role="3uHU7B">
+                  <ref role="3cqZAo" node="7eWhJ0JBVmh" resolve="url" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="26B_wwNWWb" role="37wK5m" />
+              <node concept="10Nm6u" id="26B_wwNWWc" role="37wK5m" />
+            </node>
+            <node concept="37vLTw" id="26B_wwNWWd" role="37vLTJ">
+              <ref role="3cqZAo" node="26B_wwNWW1" resolve="ret" />
+            </node>
+          </node>
+          <node concept="16GPin" id="26B_wwOrZU" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="26B_wwOth6" role="16NUyR">
+              <property role="Xl_RC" value="500" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="26B_wwOT8Z" role="3yMuLx">
+      <property role="TrG5h" value="Multiple preconditions in endpoint operation" />
+      <node concept="3cqZAl" id="26B_wwOT90" role="3clF45" />
+      <node concept="3clFbS" id="26B_wwOT91" role="3clF47">
+        <node concept="3cpWs8" id="26B_wwOT92" role="3cqZAp">
+          <node concept="3cpWsn" id="26B_wwOT93" role="3cpWs9">
+            <property role="TrG5h" value="ret" />
+            <node concept="17QB3L" id="26B_wwOT94" role="1tU5fm" />
+            <node concept="Xl_RD" id="26B_wwOT95" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26B_wwOT96" role="3cqZAp">
+          <node concept="37vLTI" id="26B_wwOT97" role="3clFbG">
+            <node concept="2YIFZM" id="26B_wwOT98" role="37vLTx">
+              <ref role="1Pybhc" to="gyq6:7eWhJ0JhMTL" resolve="HttpConnection" />
+              <ref role="37wK5l" to="gyq6:7eWhJ0K3Gst" resolve="jsonCon" />
+              <node concept="Rm8GO" id="26B_wwOT99" role="37wK5m">
+                <ref role="1Px2BO" to="gyq6:7eWhJ0Jic06" resolve="HttpConnection.RequestType" />
+                <ref role="Rm8GQ" to="gyq6:7eWhJ0Jidfp" resolve="GET" />
+              </node>
+              <node concept="3cpWs3" id="26B_wwOT9a" role="37wK5m">
+                <node concept="Xl_RD" id="26B_wwOT9b" role="3uHU7w">
+                  <property role="Xl_RC" value="precondition" />
+                </node>
+                <node concept="3urNR4" id="26B_wwOT9c" role="3uHU7B">
+                  <ref role="3cqZAo" node="7eWhJ0JBVmh" resolve="url" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="26B_wwOT9d" role="37wK5m" />
+              <node concept="10Nm6u" id="26B_wwOT9e" role="37wK5m" />
+            </node>
+            <node concept="37vLTw" id="26B_wwOT9f" role="37vLTJ">
+              <ref role="3cqZAo" node="26B_wwOT93" resolve="ret" />
+            </node>
+          </node>
+          <node concept="16GPin" id="26B_wwQbUx" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="26B_wwQcxV" role="16NUyR">
+              <property role="Xl_RC" value="202" />
             </node>
           </node>
         </node>
@@ -2692,7 +2942,7 @@
           <node concept="16GPin" id="7eWhJ0JPJei" role="lGtFl">
             <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
             <node concept="Xl_RD" id="7eWhJ0JPJMC" role="16NUyR">
-              <property role="Xl_RC" value="400" />
+              <property role="Xl_RC" value="422" />
             </node>
           </node>
         </node>
@@ -2748,7 +2998,7 @@
           <node concept="16GPin" id="7eWhJ0K4hFJ" role="lGtFl">
             <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
             <node concept="Xl_RD" id="7eWhJ0K4hFK" role="16NUyR">
-              <property role="Xl_RC" value="400" />
+              <property role="Xl_RC" value="422" />
             </node>
           </node>
         </node>
