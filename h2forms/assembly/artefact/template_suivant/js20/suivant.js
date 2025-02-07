@@ -166,10 +166,6 @@ function setLastRequestIssuedMillis(baseForm) {
  */
 function svUploadFileDone(args){
 
-
-    console.log("svUploadFileDone() _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
-    console.log(args);
-
     var status = args['status'];
     if ('body' in args) {
         var filename = args['body'].replace(/^\s+|\s+$/g, '');
@@ -208,7 +204,7 @@ function svCameraPicTaken(cbData){
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
             uploadTmpFilename = imgName;
-            console.log('Uploading ' + cbData.imageUri + " to " + uploadLocationStore);
+            // console.log('Uploading ' + cbData.imageUri + " to " + uploadLocationStore);
 
             var uploadfileProps = {
              url: uploadLocationStore,
