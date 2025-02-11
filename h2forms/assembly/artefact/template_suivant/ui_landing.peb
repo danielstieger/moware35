@@ -31,7 +31,7 @@
             {% for act in page.startMenu %}
                 {% if act.visible %}
                 <button type="button" class="w3-bar-item w3-button" {% if not act.enabled %} disabled {% else %}
-                        onClick="openPage('{{ statics.mainLandingPagePath }}/{{ act.uri }}/', true);"{% endif %}>{{ imgAndLabel(act) }}</button>
+                        onClick="openPage('{{ statics.servletPath }}/{{ act.uri }}/', true);"{% endif %}>{{ imgAndLabel(act) }}</button>
                 {% endif %}
             {% endfor %}
             </div>
@@ -46,7 +46,7 @@
     {% if itm.visible %}
     <div class="w3-col s12 m6 sv-nav">
         <div class="w3-container sv-tile {% if not itm.enabled %}sv-disabled{% endif %}" style="border-color: {{ defCol(itm.color) }}!important"
-             {% if itm.enabled %} onClick="javascript: openPage('{{ statics.mainLandingPagePath }}/{{ itm.uri }}/', false);"{% endif %}>
+             {% if itm.enabled %} onClick="javascript: openPage('{{ statics.servletPath }}/{{ itm.uri }}/', false);"{% endif %}>
             <h1 style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | first }} {% if itm.cntNumStr is not null %}<span class="w3-badge sv-tile-badge-h1">{{ itm.cntNumStr }}</span>{% endif %}</h1>
             <p style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | last }} </p>
         </div>

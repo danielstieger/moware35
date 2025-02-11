@@ -1550,7 +1550,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="1wwgtxzgkgU" role="3cqZAp" />
-        <node concept="3clFbH" id="2kUkCz5uiZ1" role="3cqZAp" />
         <node concept="3cpWs8" id="1wwgtxzgm_P" role="3cqZAp">
           <node concept="3cpWsn" id="1wwgtxzgm_Q" role="3cpWs9">
             <property role="TrG5h" value="h2msg" />
@@ -2143,6 +2142,14 @@
       <node concept="3Tmbuc" id="3lbccgqkter" role="1B3o_S" />
       <node concept="10P_77" id="3lbccgqktes" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="49BXeScQn56" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="lastUrlLocation" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="49BXeScQn57" role="1B3o_S" />
+      <node concept="17QB3L" id="49BXeScQnXk" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="57ov2S_z6Y" role="jymVt" />
     <node concept="2tJIrI" id="57ov2S_z6Z" role="jymVt" />
     <node concept="3clFbW" id="57ov2S_z70" role="jymVt">
@@ -2223,6 +2230,26 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="49BXeScQpAC" role="3cqZAp">
+          <node concept="37vLTI" id="49BXeScQpWp" role="3clFbG">
+            <node concept="2OqwBi" id="49BXeScQqzq" role="37vLTx">
+              <node concept="2OqwBi" id="49BXeScQqj1" role="2Oq$k0">
+                <node concept="37vLTw" id="49BXeScQq9v" role="2Oq$k0">
+                  <ref role="3cqZAo" node="57ov2S_z71" resolve="factory" />
+                </node>
+                <node concept="liA8E" id="49BXeScQqsY" role="2OqNvi">
+                  <ref role="37wK5l" to="tea8:2462lDSnlNr" resolve="getContextStatics" />
+                </node>
+              </node>
+              <node concept="2S8uIT" id="49BXeScQqB9" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:7WBKY1WePPd" resolve="servletPath" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="49BXeScQpAA" role="37vLTJ">
+              <ref role="3cqZAo" node="49BXeScQn56" resolve="lastUrlLocation" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="57ov2S_z7s" role="jymVt" />
@@ -2251,7 +2278,27 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="57ov2S_z9t" role="3cqZAp" />
+        <node concept="3clFbF" id="49BXeScQqCS" role="3cqZAp">
+          <node concept="37vLTI" id="49BXeScQru3" role="3clFbG">
+            <node concept="2OqwBi" id="49BXeScQtte" role="37vLTx">
+              <node concept="2OqwBi" id="49BXeScQsqy" role="2Oq$k0">
+                <node concept="37vLTw" id="49BXeScQs8_" role="2Oq$k0">
+                  <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
+                </node>
+                <node concept="liA8E" id="49BXeScQsCT" role="2OqNvi">
+                  <ref role="37wK5l" to="nwfd:~HttpServletRequest.getRequestURL()" resolve="getRequestURL" />
+                </node>
+              </node>
+              <node concept="liA8E" id="49BXeScQvwo" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~StringBuffer.toString()" resolve="toString" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="49BXeScQqCQ" role="37vLTJ">
+              <ref role="3cqZAo" node="49BXeScQn56" resolve="lastUrlLocation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="49BXeScQsJ$" role="3cqZAp" />
         <node concept="3clFbF" id="57ov2S_ZnI" role="3cqZAp">
           <node concept="2YIFZM" id="57ov2S_Zvd" role="3clFbG">
             <ref role="37wK5l" node="7WBKY1WhWkJ" resolve="detectAndSetClient" />
@@ -2973,18 +3020,8 @@
                     <node concept="Xl_RD" id="3lbccgqkt1R" role="3uHU7w">
                       <property role="Xl_RC" value="/" />
                     </node>
-                    <node concept="2OqwBi" id="5RU7BPyeUEk" role="3uHU7B">
-                      <node concept="2OqwBi" id="5RU7BPyeUEl" role="2Oq$k0">
-                        <node concept="37vLTw" id="5RU7BPyeUEm" role="2Oq$k0">
-                          <ref role="3cqZAo" node="57ov2S_z6E" resolve="uiFactory" />
-                        </node>
-                        <node concept="liA8E" id="5RU7BPyeUEn" role="2OqNvi">
-                          <ref role="37wK5l" to="tea8:2462lDSnlNr" resolve="getContextStatics" />
-                        </node>
-                      </node>
-                      <node concept="2S8uIT" id="5RU7BPyeUEo" role="2OqNvi">
-                        <ref role="2S8YL0" to="tea8:7WBKY1WePO9" resolve="mainLandingPagePath" />
-                      </node>
+                    <node concept="37vLTw" id="49BXeScQvMT" role="3uHU7B">
+                      <ref role="3cqZAo" node="49BXeScQn56" resolve="lastUrlLocation" />
                     </node>
                   </node>
                 </node>

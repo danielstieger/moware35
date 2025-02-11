@@ -29,7 +29,6 @@
   <property name="appName"              value="CmdTests" />
   <property name="appMainclass"         value="org.modellwerkstatt.objectflow.tests.OrderDocumentUi.OrderApp" />
   <property name="appConfiguration"     value="org/modellwerkstatt/objectflow/tests/OrderDocumentUi/MPreisLolaMDEConfig.xml" /> 
-  <property name="appHomeScreen"        value="${appName}" />
     
   <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
  

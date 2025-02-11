@@ -23,7 +23,6 @@
 			 * appMainclass
 			 * appConfiguration
 			 * appBuildVersion
-			 * appHomeScreen
 			 * appFavicon       (custom path + filename)
 			 
 			 
@@ -113,7 +112,7 @@
 
     <echo>Copying moware.h2forms dependencies to ${mowareWorkDir}/WEB-INF/lib   
                          			 and ${mowareWorkDir}s/static 
-                         			 homescreen ${appHomeScreen} </echo>
+    </echo>
                                    
 		<mkdir dir="${mowareWorkDir}/META-INF"/>
 		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
@@ -156,7 +155,6 @@
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
 				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
 				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
-				  <replaceregex pattern="APPLICATION_HOMESCREEN"   replace="${appHomeScreen}"/>
 			  </tokenfilter>
 		  </filterchain>
 		</copy>
