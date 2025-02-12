@@ -5099,8 +5099,18 @@
                     <node concept="3cpWs3" id="41K2VAjrJXZ" role="3uHU7B">
                       <node concept="3cpWs3" id="41K2VAjrJqq" role="3uHU7B">
                         <node concept="3cpWs3" id="41K2VAjrJ_O" role="3uHU7B">
-                          <node concept="Xl_RD" id="41K2VAjrJFG" role="3uHU7B">
-                            <property role="Xl_RC" value="" />
+                          <node concept="3cpWs3" id="49BXeSdPLtf" role="3uHU7B">
+                            <node concept="2OqwBi" id="49BXeSdPMwE" role="3uHU7B">
+                              <node concept="37vLTw" id="49BXeSdPM4a" role="2Oq$k0">
+                                <ref role="3cqZAo" node="41K2VAjrHTO" resolve="dt" />
+                              </node>
+                              <node concept="liA8E" id="49BXeSdPMTN" role="2OqNvi">
+                                <ref role="37wK5l" to="oz00:~AbstractDateTime.getHourOfDay()" resolve="getHourOfDay" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="41K2VAjrJFG" role="3uHU7w">
+                              <property role="Xl_RC" value=":" />
+                            </node>
                           </node>
                           <node concept="2OqwBi" id="41K2VAjrIz8" role="3uHU7w">
                             <node concept="37vLTw" id="41K2VAjrIiU" role="2Oq$k0">
@@ -5172,7 +5182,7 @@
                     <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
                     <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
                     <node concept="Xl_RD" id="41K2VAjs3al" role="37wK5m">
-                      <property role="Xl_RC" value="%9s %30s %s" />
+                      <property role="Xl_RC" value="%9s %35s %s" />
                     </node>
                     <node concept="37vLTw" id="41K2VAjsatt" role="37wK5m">
                       <ref role="3cqZAo" node="41K2VAjrHob" resolve="time" />
