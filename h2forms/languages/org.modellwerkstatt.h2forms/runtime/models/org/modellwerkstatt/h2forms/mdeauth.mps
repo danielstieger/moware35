@@ -1437,9 +1437,6 @@
                   <node concept="37vLTw" id="1wwgtxzgJsD" role="37wK5m">
                     <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
                   </node>
-                  <node concept="3clFbT" id="57ov2SLuGa" role="37wK5m">
-                    <property role="3clFbU" value="false" />
-                  </node>
                   <node concept="37vLTw" id="7j$Y$Tj9J3r" role="37wK5m">
                     <ref role="3cqZAo" node="7j$Y$Tj9Hxj" resolve="cookieInfo" />
                   </node>
@@ -2496,7 +2493,7 @@
                   <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
                   <node concept="10M0yZ" id="3lbccgq6SHb" role="37wK5m">
                     <ref role="1PxDUh" to="tea8:kWPevMd7Le" resolve="H2Application" />
-                    <ref role="3cqZAo" to="tea8:4jqQZFyY2K$" resolve="SHOW_LOGIN" />
+                    <ref role="3cqZAo" to="tea8:4jqQZFyY2K$" resolve="NO_AUTO_LOGIN" />
                   </node>
                 </node>
               </node>
@@ -2666,9 +2663,6 @@
                       <ref role="37wK5l" to="tea8:7r26jiO5Eg7" resolve="initializeAndLogin" />
                       <node concept="37vLTw" id="57ov2S_zaz" role="37wK5m">
                         <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                      </node>
-                      <node concept="3clFbT" id="57ov2SLv0b" role="37wK5m">
-                        <property role="3clFbU" value="false" />
                       </node>
                       <node concept="37vLTw" id="7j$Y$Tj9Fjo" role="37wK5m">
                         <ref role="3cqZAo" node="7j$Y$Tj9DIs" resolve="cookieInfo" />
@@ -2904,9 +2898,6 @@
                             <ref role="37wK5l" to="tea8:7r26jiO5Eg7" resolve="initializeAndLogin" />
                             <node concept="37vLTw" id="3lbccgqkq4N" role="37wK5m">
                               <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
-                            </node>
-                            <node concept="3clFbT" id="3lbccgqkq4O" role="37wK5m">
-                              <property role="3clFbU" value="true" />
                             </node>
                             <node concept="37vLTw" id="7j$Y$Tj9FNV" role="37wK5m">
                               <ref role="3cqZAo" node="7j$Y$Tj9DIs" resolve="cookieInfo" />
