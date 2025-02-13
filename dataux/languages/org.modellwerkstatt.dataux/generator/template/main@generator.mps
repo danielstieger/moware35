@@ -5890,9 +5890,6 @@
                               <node concept="2ShNRf" id="39R747s4OUl" role="33vP2m">
                                 <node concept="1pGfFk" id="39R747s4OUb" role="2ShVmc">
                                   <ref role="37wK5l" to="1e0c:63VjT6l$Poy" resolve="CompoundOuterCmdStart" />
-                                  <node concept="37vLTw" id="39R747tgXyb" role="37wK5m">
-                                    <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="uriIdentifier" />
-                                  </node>
                                   <node concept="37vLTw" id="39R747tgXyd" role="37wK5m">
                                     <ref role="3cqZAo" to="yg8v:5$YtY8hobHP" resolve="commandFqName" />
                                   </node>
@@ -8687,40 +8684,6 @@
           <node concept="2ShNRf" id="3OfvFtmCUsp" role="3cqZAk">
             <node concept="1pGfFk" id="3OfvFtmCUsq" role="2ShVmc">
               <ref role="37wK5l" to="1e0c:7_LnCNXPtIo" resolve="BasisCmdStart" />
-              <node concept="Xl_RD" id="3OfvFtmDjOa" role="37wK5m">
-                <property role="Xl_RC" value="uri" />
-                <node concept="17Uvod" id="2G0kEsKGWaa" role="lGtFl">
-                  <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                  <property role="2qtEX9" value="value" />
-                  <node concept="3zFVjK" id="2G0kEsKGWab" role="3zH0cK">
-                    <node concept="3clFbS" id="2G0kEsKGWac" role="2VODD2">
-                      <node concept="3clFbF" id="2G0kEsKGX_A" role="3cqZAp">
-                        <node concept="2OqwBi" id="2G0kEsKH3_7" role="3clFbG">
-                          <node concept="2OqwBi" id="2G0kEsKGYcO" role="2Oq$k0">
-                            <node concept="2OqwBi" id="2G0kEsKGY0a" role="2Oq$k0">
-                              <node concept="2OqwBi" id="2G0kEsKGXEB" role="2Oq$k0">
-                                <node concept="30H73N" id="2G0kEsKGX__" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="2G0kEsKGXOK" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="1btx:3OfvFtmlqEF" resolve="onStartupCmd" />
-                                </node>
-                              </node>
-                              <node concept="3TrEf2" id="2G0kEsKGY6d" role="2OqNvi">
-                                <ref role="3Tt5mk" to="1btx:3OfvFtmwVS5" resolve="commandCall" />
-                              </node>
-                            </node>
-                            <node concept="3TrEf2" id="2G0kEsKH3t4" role="2OqNvi">
-                              <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
-                            </node>
-                          </node>
-                          <node concept="3TrcHB" id="2G0kEsKH3I2" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="Xl_RD" id="3OfvFtmDgWF" role="37wK5m">
                 <property role="Xl_RC" value="cmdName" />
                 <node concept="17Uvod" id="2G0kEsKH3OB" role="lGtFl">
