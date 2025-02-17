@@ -2061,6 +2061,14 @@
                     <node concept="37vLTw" id="7AhZkK4_INy" role="37wK5m">
                       <ref role="3cqZAo" node="69doFuFhO3Q" resolve="urlParam" />
                     </node>
+                    <node concept="2OqwBi" id="4wk4eGgBFpO" role="37wK5m">
+                      <node concept="37vLTw" id="4wk4eGgBDU2" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5jtPhJ2z1lF" resolve="appLandingPageProcessor" />
+                      </node>
+                      <node concept="liA8E" id="4wk4eGgBGLI" role="2OqNvi">
+                        <ref role="37wK5l" to="1e0c:4xjkqfyCvqU" resolve="getSession" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

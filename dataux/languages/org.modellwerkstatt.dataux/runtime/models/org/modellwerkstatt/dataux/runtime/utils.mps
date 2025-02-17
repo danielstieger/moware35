@@ -3000,7 +3000,7 @@
         </node>
       </node>
       <node concept="QsSxf" id="2e3BpjBfPxm" role="Qtgdg">
-        <property role="TrG5h" value="INNER_CMD_NOT_ENABLED" />
+        <property role="TrG5h" value="CMD_NOT_ENABLED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="2e3BpjBfQ2G" role="37wK5m">
           <property role="Xl_RC" value="Das Kommando '%s' konnte nicht angewendet werden. Wesentliche Bedingung zur Ausführung nicht erfüllt." />

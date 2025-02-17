@@ -160,6 +160,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
         <property id="1214996933829" name="extends" index="3ztuRv" />
       </concept>
@@ -6115,6 +6116,7 @@
                   </node>
                   <node concept="liA8E" id="r$jHpF2qI3" role="2OqNvi">
                     <ref role="37wK5l" to="1e0c:7UzLC3AMlrB" resolve="initializeApplication" />
+                    <node concept="33vP2n" id="4wk4eGi5UzR" role="37wK5m" />
                     <node concept="37vLTw" id="4FgSVMts27j" role="37wK5m">
                       <ref role="3cqZAo" node="4FgSVMtrEFK" resolve="systemName" />
                     </node>
