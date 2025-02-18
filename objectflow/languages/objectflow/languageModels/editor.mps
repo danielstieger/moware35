@@ -2550,7 +2550,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="1rbZyOx3wxy" role="3EZMnx">
-          <property role="3F0ifm" value="url adjust:" />
+          <property role="3F0ifm" value="url param adjust:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="4W_zHnBGWvj" role="3F10Kt">
             <property role="VOm3f" value="true" />

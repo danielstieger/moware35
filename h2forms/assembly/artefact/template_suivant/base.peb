@@ -128,7 +128,7 @@
     <input type="hidden" name="LastRequestDiffMillis3"   value=""/>
     <input type="hidden" name="LastRequestLog"   value=""/>
 
-
+{% if page.appStateText is not null %} <div class="w3-card sv-top-dlg-uicmd sv-warning-orange warnbeep">{{ page.appStateText }}</div> {% endif %}
 {% if dialog is not null and dialog.modalWithButtons %}
     <div class="w3-top">
     <div class="w3-container w3-row sv-status-gray">

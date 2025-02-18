@@ -2875,28 +2875,28 @@
           <property role="Xl_RC" value="%s is using ressources neccessary for the execution of this command.\n Command canceled." />
         </node>
       </node>
-      <node concept="QsSxf" id="7DInbKypMVW" role="Qtgdg">
-        <property role="TrG5h" value="MAINTAINANCE_MODE" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
-        <node concept="Xl_RD" id="7DInbKypNbD" role="37wK5m">
-          <property role="Xl_RC" value="Dieser Dienst steht gegenwärtig nicht zu Verfügung. Wartungsarbeiten werden durchgeführt." />
-        </node>
-        <node concept="10Nm6u" id="7r26jiNRWDo" role="37wK5m" />
-        <node concept="10Nm6u" id="7r26jiNRWDp" role="37wK5m" />
-        <node concept="Xl_RD" id="WkCinTf6hu" role="37wK5m">
-          <property role="Xl_RC" value="This services is not available at the moment. Maintenance work is carried out." />
-        </node>
-      </node>
       <node concept="QsSxf" id="7nxGN1HIKgU" role="Qtgdg">
         <property role="TrG5h" value="APPLICATION_LOCKED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="7nxGN1HIKwE" role="37wK5m">
-          <property role="Xl_RC" value="Ihre Anwendung wird durch eine neue Version ersetzt.\nSie werden zur neuen Version umgeleitet." />
+          <property role="Xl_RC" value="Ihre App wird durch eine neuere Version ersetzt.\nSie werden zur neuen Version umgeleitet." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDq" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDr" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6jp" role="37wK5m">
           <property role="Xl_RC" value="Your app is replaced with a newer version.\nWe will redirect you to the new version now." />
+        </node>
+      </node>
+      <node concept="QsSxf" id="4kA4APOol$O" role="Qtgdg">
+        <property role="TrG5h" value="APPLICATION_REPLACED" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="4kA4APOol$P" role="37wK5m">
+          <property role="Xl_RC" value="Ihre App wurde soeben durch eine neuere Version ersetzt." />
+        </node>
+        <node concept="10Nm6u" id="4kA4APOol$Q" role="37wK5m" />
+        <node concept="10Nm6u" id="4kA4APOol$R" role="37wK5m" />
+        <node concept="Xl_RD" id="4kA4APOol$S" role="37wK5m">
+          <property role="Xl_RC" value="Your app has just been replaced by a newer version." />
         </node>
       </node>
       <node concept="QsSxf" id="6OyHsl_0Q4P" role="Qtgdg">
@@ -2909,18 +2909,6 @@
         <node concept="10Nm6u" id="7r26jiNRWDt" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6l2" role="37wK5m">
           <property role="Xl_RC" value="The application is already running in a window. Close this window or confirm to close the other application without saving." />
-        </node>
-      </node>
-      <node concept="QsSxf" id="7DInbKyry1J" role="Qtgdg">
-        <property role="TrG5h" value="SERVLET_BASE_ADR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
-        <node concept="Xl_RD" id="7DInbKyry1K" role="37wK5m">
-          <property role="Xl_RC" value="Ihr letztes Kommando wurde abgebrochen. Sie sind nun im Start-Menü." />
-        </node>
-        <node concept="10Nm6u" id="7r26jiNRWDu" role="37wK5m" />
-        <node concept="10Nm6u" id="7r26jiNRWDv" role="37wK5m" />
-        <node concept="Xl_RD" id="WkCinTf6oh" role="37wK5m">
-          <property role="Xl_RC" value="Your last command was canceled. You are back on the landing page." />
         </node>
       </node>
       <node concept="QsSxf" id="7708TIHHbb2" role="Qtgdg">
@@ -3035,18 +3023,6 @@
           <property role="Xl_RC" value="You do not have permissions for the command '%s'" />
         </node>
       </node>
-      <node concept="QsSxf" id="18nf27m6wZ8" role="Qtgdg">
-        <property role="TrG5h" value="SESSION_SHUTDOWN" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
-        <node concept="Xl_RD" id="18nf27m6xmw" role="37wK5m">
-          <property role="Xl_RC" value="Alle aktuellen Kommandos werden nun abgebrochen. Das Programm wird neu gestartet. Drücken sie eine Taste." />
-        </node>
-        <node concept="10Nm6u" id="18nf27m6xnu" role="37wK5m" />
-        <node concept="10Nm6u" id="18nf27m6xoo" role="37wK5m" />
-        <node concept="Xl_RD" id="WkCinTf71Q" role="37wK5m">
-          <property role="Xl_RC" value="All running commands are now terminated. The app will be restarted, press a key." />
-        </node>
-      </node>
       <node concept="QsSxf" id="4DaB5G9A1K$" role="Qtgdg">
         <property role="TrG5h" value="GUARD_MSG" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
@@ -3093,18 +3069,6 @@
         <node concept="10Nm6u" id="2jmS2T$On2B" role="37wK5m" />
         <node concept="Xl_RD" id="2jmS2T$OoB7" role="37wK5m">
           <property role="Xl_RC" value="Other windows for your user are still open." />
-        </node>
-      </node>
-      <node concept="QsSxf" id="2jmS2T$OQi_" role="Qtgdg">
-        <property role="TrG5h" value="LOGIN_NOT_POSSIBLE" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
-        <node concept="Xl_RD" id="2jmS2T$OW2W" role="37wK5m">
-          <property role="Xl_RC" value="Anmeldung nicht möglich. Andere Browser-Tabs offen?" />
-        </node>
-        <node concept="10Nm6u" id="2jmS2T$OWRe" role="37wK5m" />
-        <node concept="10Nm6u" id="2jmS2T$OYu8" role="37wK5m" />
-        <node concept="Xl_RD" id="2jmS2T$P05P" role="37wK5m">
-          <property role="Xl_RC" value="Login not possible. Other Browser-Tabs open?" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />

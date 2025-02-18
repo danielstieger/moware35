@@ -397,6 +397,18 @@
       <node concept="3Tm1VV" id="6Pmr75Y$Top" role="1B3o_S" />
       <node concept="10Oyi0" id="6Pmr75Y$Vfd" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="4kA4APOvk$Z" role="jymVt">
+      <property role="TrG5h" value="isAutoParDeploymentForwardGracefully" />
+      <node concept="3Tm1VV" id="4kA4APOvk_0" role="1B3o_S" />
+      <node concept="3clFbS" id="4kA4APOvk_1" role="3clF47" />
+      <node concept="10P_77" id="4kA4APOvk_2" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="4kA4APOEqCW" role="jymVt">
+      <property role="TrG5h" value="isCheckDeployedVersion" />
+      <node concept="3Tm1VV" id="4kA4APOEqCX" role="1B3o_S" />
+      <node concept="3clFbS" id="4kA4APOEqCY" role="3clF47" />
+      <node concept="10P_77" id="4kA4APOEqCZ" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="3P_LmWsAs1b" role="jymVt" />
     <node concept="3clFb_" id="7AhZkK4sYsG" role="jymVt">
       <property role="TrG5h" value="getAllCmdUrlDefaults" />

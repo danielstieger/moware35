@@ -1434,6 +1434,9 @@
                 </node>
                 <node concept="liA8E" id="1wwgtxzgJqT" role="2OqNvi">
                   <ref role="37wK5l" to="tea8:7r26jiO5Eg7" resolve="initializeAndLogin" />
+                  <node concept="37vLTw" id="6voZ_IEerKD" role="37wK5m">
+                    <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
+                  </node>
                   <node concept="37vLTw" id="1wwgtxzgJsD" role="37wK5m">
                     <ref role="3cqZAo" node="1wwgtxziF0P" resolve="env" />
                   </node>
@@ -2493,7 +2496,7 @@
                   <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String)" resolve="getParameter" />
                   <node concept="10M0yZ" id="3lbccgq6SHb" role="37wK5m">
                     <ref role="1PxDUh" to="tea8:kWPevMd7Le" resolve="H2Application" />
-                    <ref role="3cqZAo" to="tea8:4jqQZFyY2K$" resolve="NO_AUTO_LOGIN" />
+                    <ref role="3cqZAo" to="tea8:4jqQZFyY2K$" resolve="LOGGEDOUT_CODE" />
                   </node>
                 </node>
               </node>
@@ -2661,6 +2664,9 @@
                     </node>
                     <node concept="liA8E" id="57ov2S_zay" role="2OqNvi">
                       <ref role="37wK5l" to="tea8:7r26jiO5Eg7" resolve="initializeAndLogin" />
+                      <node concept="37vLTw" id="6voZ_IEhpnt" role="37wK5m">
+                        <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
+                      </node>
                       <node concept="37vLTw" id="57ov2S_zaz" role="37wK5m">
                         <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
                       </node>
@@ -2896,6 +2902,9 @@
                           </node>
                           <node concept="liA8E" id="3lbccgqkq4M" role="2OqNvi">
                             <ref role="37wK5l" to="tea8:7r26jiO5Eg7" resolve="initializeAndLogin" />
+                            <node concept="37vLTw" id="6voZ_IEetEI" role="37wK5m">
+                              <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
+                            </node>
                             <node concept="37vLTw" id="3lbccgqkq4N" role="37wK5m">
                               <ref role="3cqZAo" node="57ov2S_z9F" resolve="env" />
                             </node>
