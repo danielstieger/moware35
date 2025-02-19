@@ -2462,28 +2462,6 @@
         </node>
         <node concept="3clFbH" id="3lbccgq6SX5" role="3cqZAp" />
         <node concept="3clFbH" id="3lbccgq6TTy" role="3cqZAp" />
-        <node concept="3SKdUt" id="3lbccgq6Ur2" role="3cqZAp">
-          <node concept="1PaTwC" id="7BkDWLyCk9M" role="1aUNEU">
-            <node concept="3oM_SD" id="7BkDWLyCk9N" role="1PaTwD">
-              <property role="3oM_SC" value="changed" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCk9O" role="1PaTwD">
-              <property role="3oM_SC" value="behaviour" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCk9P" role="1PaTwD">
-              <property role="3oM_SC" value="in" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCk9Q" role="1PaTwD">
-              <property role="3oM_SC" value="winter" />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCk9R" role="1PaTwD">
-              <property role="3oM_SC" value="19," />
-            </node>
-            <node concept="3oM_SD" id="7BkDWLyCk9S" role="1PaTwD">
-              <property role="3oM_SC" value="mrs" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="3lbccgqktQv" role="3cqZAp">
           <node concept="37vLTI" id="3lbccgqktQx" role="3clFbG">
             <node concept="3y3z36" id="3lbccgq6Sl7" role="37vLTx">

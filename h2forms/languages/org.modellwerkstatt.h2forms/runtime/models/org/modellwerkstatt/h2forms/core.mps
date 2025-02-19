@@ -9161,14 +9161,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="uIozejAN6F" role="3cqZAp">
-                  <node concept="3uNrnE" id="uIozejANdE" role="3clFbG">
-                    <node concept="37vLTw" id="uIozejANdG" role="2$L3a6">
-                      <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbH" id="uIozejAMYi" role="3cqZAp" />
               </node>
               <node concept="3uVAMA" id="2ewwURnGpdl" role="1zxBo5">
                 <node concept="XOnhg" id="2ewwURnGpdn" role="1zc67B">
@@ -9185,16 +9177,46 @@
                     <node concept="3cpWsn" id="rb7MXaKSWO" role="3cpWs9">
                       <property role="TrG5h" value="msg" />
                       <node concept="17QB3L" id="rb7MXaKSWJ" role="1tU5fm" />
-                      <node concept="3cpWs3" id="uIozejALCj" role="33vP2m">
-                        <node concept="Xl_RD" id="uIozejALEI" role="3uHU7w">
-                          <property role="Xl_RC" value="\n\n" />
-                        </node>
-                        <node concept="3cpWs3" id="uIozejAL67" role="3uHU7B">
-                          <node concept="Xl_RD" id="2ewwURnGuH1" role="3uHU7B">
-                            <property role="Xl_RC" value="Form request processing led to an exception (this is just a reload for the client) currentAppFormSeq is " />
+                      <node concept="3cpWs3" id="7ztTxgZlrf9" role="33vP2m">
+                        <node concept="2OqwBi" id="7ztTxgZluJw" role="3uHU7w">
+                          <node concept="37vLTw" id="7ztTxgZluda" role="2Oq$k0">
+                            <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
                           </node>
-                          <node concept="37vLTw" id="uIozejALgI" role="3uHU7w">
-                            <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
+                          <node concept="liA8E" id="7ztTxgZlyom" role="2OqNvi">
+                            <ref role="37wK5l" to="1e0c:4n24ZlEyn1Q" resolve="fullApplicationCrtlState" />
+                          </node>
+                        </node>
+                        <node concept="3cpWs3" id="uIozejALCj" role="3uHU7B">
+                          <node concept="3cpWs3" id="uIozejAL67" role="3uHU7B">
+                            <node concept="3cpWs3" id="7ztTxgZjJPI" role="3uHU7B">
+                              <node concept="Xl_RD" id="7ztTxgZjJWH" role="3uHU7w">
+                                <property role="Xl_RC" value=" (currentAppFormSequence " />
+                              </node>
+                              <node concept="3cpWs3" id="7ztTxgZkxkt" role="3uHU7B">
+                                <node concept="37vLTw" id="7ztTxgZkxCL" role="3uHU7w">
+                                  <ref role="3cqZAo" node="2xnCXJMgsQm" resolve="currentCommandUI" />
+                                </node>
+                                <node concept="3cpWs3" id="7ztTxgZkwOy" role="3uHU7B">
+                                  <node concept="2OqwBi" id="7ztTxgZjJlf" role="3uHU7B">
+                                    <node concept="37vLTw" id="7ztTxgZjIQH" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="2ewwURnGpdn" resolve="ex" />
+                                    </node>
+                                    <node concept="liA8E" id="7ztTxgZjJyX" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="7ztTxgZkwVx" role="3uHU7w">
+                                    <property role="Xl_RC" value=" in " />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="uIozejALgI" role="3uHU7w">
+                              <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="uIozejALEI" role="3uHU7w">
+                            <property role="Xl_RC" value=")\n" />
                           </node>
                         </node>
                       </node>
@@ -9417,31 +9439,23 @@
               </node>
               <node concept="3clFbH" id="4kA4APNE3$$" role="3cqZAp" />
             </node>
-            <node concept="1Wc70l" id="4kA4APPfMDl" role="3eO9$A">
-              <node concept="3y3z36" id="4kA4APPfUoU" role="3uHU7w">
-                <node concept="10Nm6u" id="4kA4APPfXk7" role="3uHU7w" />
-                <node concept="37vLTw" id="4kA4APPfRlt" role="3uHU7B">
-                  <ref role="3cqZAo" node="kA5KhwhNnH" resolve="latestDialog" />
+            <node concept="1Wc70l" id="4wk4eGhraAd" role="3eO9$A">
+              <node concept="3fqX7Q" id="4wk4eGhqZvZ" role="3uHU7B">
+                <node concept="2OqwBi" id="4wk4eGhqZw1" role="3fr31v">
+                  <node concept="37vLTw" id="4wk4eGhqZw2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                  </node>
+                  <node concept="liA8E" id="4wk4eGhqZw3" role="2OqNvi">
+                    <ref role="37wK5l" to="1e0c:4wk4eGgk30c" resolve="isCommandRunning" />
+                  </node>
                 </node>
               </node>
-              <node concept="1Wc70l" id="4wk4eGhraAd" role="3uHU7B">
-                <node concept="3fqX7Q" id="4wk4eGhqZvZ" role="3uHU7B">
-                  <node concept="2OqwBi" id="4wk4eGhqZw1" role="3fr31v">
-                    <node concept="37vLTw" id="4wk4eGhqZw2" role="2Oq$k0">
-                      <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                    </node>
-                    <node concept="liA8E" id="4wk4eGhqZw3" role="2OqNvi">
-                      <ref role="37wK5l" to="1e0c:4wk4eGgk30c" resolve="isCommandRunning" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="4wk4eGhrfTG" role="3uHU7w">
+                <node concept="37vLTw" id="4wk4eGhrfDc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4kA4APPdV5S" resolve="lastUrl" />
                 </node>
-                <node concept="2OqwBi" id="4wk4eGhrfTG" role="3uHU7w">
-                  <node concept="37vLTw" id="4wk4eGhrfDc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4kA4APPdV5S" resolve="lastUrl" />
-                  </node>
-                  <node concept="liA8E" id="4wk4eGhrgpO" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:7HigzTRbG9U" resolve="hasCmdName" />
-                  </node>
+                <node concept="liA8E" id="4wk4eGhrgpO" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:7HigzTRbG9U" resolve="hasCmdName" />
                 </node>
               </node>
             </node>
@@ -9499,6 +9513,14 @@
       <node concept="3cqZAl" id="5pIRrzleUle" role="3clF45" />
       <node concept="3Tm1VV" id="5pIRrzleUlf" role="1B3o_S" />
       <node concept="3clFbS" id="5pIRrzleUlg" role="3clF47">
+        <node concept="3clFbF" id="uIozejAN6F" role="3cqZAp">
+          <node concept="3uNrnE" id="uIozejANdE" role="3clFbG">
+            <node concept="37vLTw" id="uIozejANdG" role="2$L3a6">
+              <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ztTxgZiRYW" role="3cqZAp" />
         <node concept="3clFbF" id="41K2VAjz64M" role="3cqZAp">
           <node concept="2YIFZM" id="41K2VAjYRZ8" role="3clFbG">
             <ref role="37wK5l" to="x37d:4QTIUTCpF18" resolve="hl" />
