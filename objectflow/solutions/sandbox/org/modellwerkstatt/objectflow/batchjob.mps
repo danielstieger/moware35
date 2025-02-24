@@ -344,7 +344,7 @@
       <node concept="10Oyi0" id="7BWfrtCZesl" role="1tU5fm" />
       <node concept="3Tm6S6" id="7BWfrtCZepO" role="1B3o_S" />
       <node concept="3cmrfG" id="7BWfrtCZeP7" role="33vP2m">
-        <property role="3cmrfH" value="3" />
+        <property role="3cmrfH" value="15" />
       </node>
     </node>
     <node concept="Wx3nA" id="4$zcAetqYm_" role="jymVt">
@@ -454,7 +454,7 @@
           <node concept="37vLTI" id="7BWfrtCZcFh" role="3clFbG">
             <node concept="2ShNRf" id="7BWfrtCZd45" role="37vLTx">
               <node concept="1pGfFk" id="7BWfrtCZedg" role="2ShVmc">
-                <ref role="37wK5l" to="5zyv:~LinkedBlockingQueue.&lt;init&gt;(int)" resolve="LinkedBlockingQueue" />
+                <ref role="37wK5l" to="5zyv:~ArrayBlockingQueue.&lt;init&gt;(int)" resolve="ArrayBlockingQueue" />
                 <node concept="37vLTw" id="7BWfrtCZeR8" role="37wK5m">
                   <ref role="3cqZAo" node="7BWfrtCZe$W" resolve="QUEUE_CAPACITY" />
                 </node>
