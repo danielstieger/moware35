@@ -2891,12 +2891,12 @@
         <property role="TrG5h" value="APPLICATION_REPLACED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="4kA4APOol$P" role="37wK5m">
-          <property role="Xl_RC" value="Ihre App wurde soeben durch eine neuere Version ersetzt." />
+          <property role="Xl_RC" value="Ihre App wurde soeben durch eine neuere Version ersetzt. Sie können weiterarbeiten!" />
         </node>
         <node concept="10Nm6u" id="4kA4APOol$Q" role="37wK5m" />
         <node concept="10Nm6u" id="4kA4APOol$R" role="37wK5m" />
         <node concept="Xl_RD" id="4kA4APOol$S" role="37wK5m">
-          <property role="Xl_RC" value="Your app has just been replaced by a newer version." />
+          <property role="Xl_RC" value="Your app has just been replaced by a newer version. You can proceed with your work!" />
         </node>
       </node>
       <node concept="QsSxf" id="6OyHsl_0Q4P" role="Qtgdg">

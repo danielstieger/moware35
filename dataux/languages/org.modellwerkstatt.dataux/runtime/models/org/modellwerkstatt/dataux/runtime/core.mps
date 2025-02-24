@@ -11905,7 +11905,7 @@
                     </node>
                   </node>
                   <node concept="Xl_RD" id="6U$jPhBRFfj" role="3uHU7w">
-                    <property role="Xl_RC" value=" was not terminated as running prompt or tab in internal_closeAllRunningCmds(). [Dialog not acknowledged?]" />
+                    <property role="Xl_RC" value=" was not terminated as running prompt or tab in internal_closeAllRunningCmds(). [Dialog not acknowledged, but killed?]" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="6U$jPhBSE5Q" role="37wK5m">
