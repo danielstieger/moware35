@@ -2979,12 +2979,12 @@
         <property role="TrG5h" value="CMD_NOT_AVAILABLE" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="gGnCBOHkwK" role="37wK5m">
-          <property role="Xl_RC" value="Kein Kommando zu dieser Url. Verfügbar sind bspw. %s" />
+          <property role="Xl_RC" value="Kein Kommando zu dieser Url (mit angegebenen Parametern). Verfügbar sind bspw. %s" />
         </node>
         <node concept="10Nm6u" id="gGnCBOHkxP" role="37wK5m" />
         <node concept="10Nm6u" id="gGnCBOHkyQ" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6VB" role="37wK5m">
-          <property role="Xl_RC" value="No command for this url. Available are for example %s" />
+          <property role="Xl_RC" value="No command for this url (with provided parameters). Available are for example %s" />
         </node>
       </node>
       <node concept="QsSxf" id="2e3BpjBfPxm" role="Qtgdg">
