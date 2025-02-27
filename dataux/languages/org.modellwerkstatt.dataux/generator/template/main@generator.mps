@@ -16120,6 +16120,30 @@
                               <node concept="2ShNRf" id="3$IQDVz_JEH" role="37vLTx">
                                 <node concept="1pGfFk" id="3$IQDVz_LNN" role="2ShVmc">
                                   <ref role="37wK5l" to="v2rs:5IUblnE3$x7" resolve="ApiEndpointJSonSerdes" />
+                                  <node concept="3clFbT" id="7N3MkWDW0G2" role="37wK5m">
+                                    <property role="3clFbU" value="true" />
+                                    <node concept="17Uvod" id="7N3MkWDW1eQ" role="lGtFl">
+                                      <property role="2qtEX9" value="value" />
+                                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                                      <node concept="3zFVjK" id="7N3MkWDW1eR" role="3zH0cK">
+                                        <node concept="3clFbS" id="7N3MkWDW1eS" role="2VODD2">
+                                          <node concept="3clFbF" id="7N3MkWDWdOP" role="3cqZAp">
+                                            <node concept="2OqwBi" id="7N3MkWDWeCe" role="3clFbG">
+                                              <node concept="2OqwBi" id="7N3MkWDWe2R" role="2Oq$k0">
+                                                <node concept="30H73N" id="7N3MkWDWdOO" role="2Oq$k0" />
+                                                <node concept="3TrEf2" id="7N3MkWDWest" role="2OqNvi">
+                                                  <ref role="3Tt5mk" to="1btx:5IUblnE4mLH" resolve="serdes" />
+                                                </node>
+                                              </node>
+                                              <node concept="2qgKlT" id="7N3MkWDWeVH" role="2OqNvi">
+                                                <ref role="37wK5l" to="5y3p:7N3MkWDW2wW" resolve="usingPackagedResponse" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
                                   <node concept="10Nm6u" id="3$IQDVz_LPN" role="37wK5m">
                                     <node concept="29HgVG" id="3$IQDVz_MwL" role="lGtFl">
                                       <node concept="3NFfHV" id="3$IQDVz_MwM" role="3NFExx">
@@ -16962,7 +16986,25 @@
                                               </node>
                                             </node>
                                           </node>
-                                          <node concept="3clFbH" id="3IpaCrCVSR7" role="3cqZAp" />
+                                          <node concept="3cpWs8" id="3V$0FZ7At27" role="3cqZAp">
+                                            <node concept="3cpWsn" id="3V$0FZ7At2a" role="3cpWs9">
+                                              <property role="TrG5h" value="warnings" />
+                                              <node concept="_YKpA" id="3V$0FZ7At23" role="1tU5fm">
+                                                <node concept="3uibUv" id="3V$0FZ7AwFZ" role="_ZDj9">
+                                                  <ref role="3uigEE" to="28jr:51llZt5Pk22" resolve="IOFXProblem" />
+                                                </node>
+                                              </node>
+                                              <node concept="2OqwBi" id="3V$0FZ7Ax0F" role="33vP2m">
+                                                <node concept="37vLTw" id="3V$0FZ7AwNV" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="3pREN1Abg9p" resolve="__manMapSession" />
+                                                </node>
+                                                <node concept="liA8E" id="3V$0FZ7AxeK" role="2OqNvi">
+                                                  <ref role="37wK5l" to="28jr:1T2Sm8TZoaP" resolve="getAndclearProblemState" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="3clFbH" id="3V$0FZ7AxhF" role="3cqZAp" />
                                           <node concept="9aQIb" id="3$IQDV$r2zS" role="3cqZAp">
                                             <node concept="3clFbS" id="3$IQDV$r2zU" role="9aQI4">
                                               <node concept="3cpWs8" id="3$IQDV$qZLS" role="3cqZAp">
@@ -17207,9 +17249,13 @@
                                                         <node concept="37vLTw" id="3$IQDV$rKRA" role="37wK5m">
                                                           <ref role="3cqZAo" node="3$IQDV$qZLT" resolve="serialized" />
                                                         </node>
+                                                        <node concept="37vLTw" id="3V$0FZ7ATtJ" role="37wK5m">
+                                                          <ref role="3cqZAo" node="3V$0FZ7At2a" resolve="warnings" />
+                                                        </node>
                                                       </node>
                                                     </node>
                                                   </node>
+                                                  <node concept="3clFbH" id="3V$0FZ7A_kN" role="3cqZAp" />
                                                 </node>
                                                 <node concept="1wplmZ" id="3IpaCrCVRBP" role="1zxBo6">
                                                   <node concept="3clFbS" id="3IpaCrCVRBQ" role="1wplMD">
@@ -17286,6 +17332,9 @@
                                                             </node>
                                                           </node>
                                                         </node>
+                                                      </node>
+                                                      <node concept="37vLTw" id="3V$0FZ7AUEW" role="37wK5m">
+                                                        <ref role="3cqZAo" node="3V$0FZ7At2a" resolve="warnings" />
                                                       </node>
                                                     </node>
                                                   </node>

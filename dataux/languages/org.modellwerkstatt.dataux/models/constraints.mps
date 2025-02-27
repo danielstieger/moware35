@@ -13,6 +13,8 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" />
+    <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
@@ -2720,6 +2722,34 @@
               </node>
             </node>
             <node concept="3x8VRR" id="6_DnTrfKW17" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3V$0FZ7$8dg">
+    <property role="3GE5qa" value="api" />
+    <ref role="1M2myG" to="1btx:5IUblnFswOH" resolve="ApiOperationResponse" />
+    <node concept="EnEH3" id="3V$0FZ7$8dh" role="1MhHOB">
+      <ref role="EomxK" to="1btx:h02eMj9tjz" resolve="fldName" />
+      <node concept="QB0g5" id="3V$0FZ7$8eR" role="QCWH9">
+        <node concept="3clFbS" id="3V$0FZ7$8eS" role="2VODD2">
+          <node concept="3clFbF" id="3V$0FZ7$aWl" role="3cqZAp">
+            <node concept="2OqwBi" id="3jCIZp$uTLS" role="3clFbG">
+              <node concept="2OqwBi" id="hDMFLSy" role="2Oq$k0">
+                <node concept="liA8E" id="3jCIZp$uToT" role="2OqNvi">
+                  <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
+                  <node concept="1Wqviy" id="3jCIZp$uTvL" role="37wK5m" />
+                </node>
+                <node concept="10M0yZ" id="3jCIZp$uSVj" role="2Oq$k0">
+                  <ref role="1PxDUh" to="18ew:~JavaNameUtil" resolve="JavaNameUtil" />
+                  <ref role="3cqZAo" to="18ew:~JavaNameUtil.VALID_ID_PATTERN" resolve="VALID_ID_PATTERN" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3jCIZp$uU2m" role="2OqNvi">
+                <ref role="37wK5l" to="ni5j:~Matcher.matches()" resolve="matches" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
