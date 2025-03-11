@@ -3071,6 +3071,18 @@
           <property role="Xl_RC" value="Other windows for your user are still open." />
         </node>
       </node>
+      <node concept="QsSxf" id="7d7AqVfY4ep" role="Qtgdg">
+        <property role="TrG5h" value="LOGIN_NOT_POSSIBLE" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="7d7AqVfY7Ta" role="37wK5m">
+          <property role="Xl_RC" value="Anmeldung nicht möglich. Sind andere Browser-Tabs offen?" />
+        </node>
+        <node concept="10Nm6u" id="7d7AqVfY9uv" role="37wK5m" />
+        <node concept="10Nm6u" id="7d7AqVfYb3I" role="37wK5m" />
+        <node concept="Xl_RD" id="7d7AqVfYbQ0" role="37wK5m">
+          <property role="Xl_RC" value="Login not possible. Are there other browser-tabs open?" />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
       <node concept="2tJIrI" id="4DaB5G9A1mY" role="jymVt" />
