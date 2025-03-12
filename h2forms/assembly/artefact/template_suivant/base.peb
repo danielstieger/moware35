@@ -62,6 +62,8 @@
   <meta name="h2CamDesiredWidth" content="{{ statics.camDesiredWidth }}">
   <meta name="h2CamDesiredHeight" content="{{ statics.camDesiredHeight }}">
   <meta name="h2CamUseSystemViewfinder" content="{{ statics.camUseSystemViewfinder }}">
+  <meta name="h2ClientDeviceSw" content="{{ client.deviceSw }}">
+
 {% if defaultConclusion is not null %}  <meta name="h2DefaultConclusion" content="{{ defaultConclusion.triggerCode }}"> {% endif %}
 {% if scanConclusion is not null %}  <meta name="h2ScanConclusion" content="true"> {% endif %}
 {% if goConclusion is not null %}  <meta name="h2GoConclusion" content="true">{% endif %}
@@ -119,7 +121,7 @@
     <input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>
     <input type="hidden" name="ScrollPosition" value="{{ page.scrollPosition }}"/>
     <input type="hidden" name="PageTmpValue" value="0"/>
-    <input type="hidden" name="H1HttpClient" value="{{ client.deviceSw }}"/>
+    <input type="hidden" name="ClientDeviceSw" value="{{ client.deviceSw }}"/>
     <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
     <input type="hidden" name="DeviceId" value=""/>
     <input type="hidden" name="ServerMillis" value="{{ page.srvMillis }}"/>

@@ -20,6 +20,7 @@ var systemMenuHandler;
 var serverTimeMillisOffset = 0;
 var serverClockUpdateId;
 
+var clientDeviceSw = '?';
 var uploadLocationStore = '?';
 var uploadLocationRetrieve = '?';
 var uploadCameraToUse = null;
@@ -165,9 +166,23 @@ function setLastRequestIssuedMillis(baseForm) {
  *
  */
 function svUploadFileDone(args){
-
     var status = args['status'];
-    if ('body' in args) {
+
+    if (clientDeviceSw == 'ZEBRAEB_50') {
+        var code = args['response_code'];
+        status = 'EB50 - ' + code;
+
+        if (code == 200) {
+            $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + uploadTmpFilename + '?ts=' + Date.now();
+            $('input[name=' + uploadEditorId + ']').value = uploadTmpFilename;
+            uploadTmpFilename = '';
+
+        } else {
+            alert('Take picture EB5: error while uploading: ' + status);
+        }
+
+
+    } else if ('body' in args) {
         var filename = args['body'].replace(/^\s+|\s+$/g, '');
         status += '; (' + filename + ')';
 
@@ -178,14 +193,13 @@ function svUploadFileDone(args){
         } else {
             alert('Take picture: error while uploading: ' + status);
         }
-
     }
     svLog('mUploadFileDone', 'Status is  ' + status + ' due to ' + JSON.stringify(args));
 
 
-//    for (let prop in args) {
-//        mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
-//    }
+    // for (let prop in args) {
+    //    mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
+    // }
 }
 
 function svCameraPicTaken(cbData){
@@ -208,17 +222,20 @@ function svCameraPicTaken(cbData){
 
             var uploadfileProps = {
              url: uploadLocationStore,
-             // authType: "basic",
-             // authUser: "admin",
-             // authPassword: "password",
              filename: cbData.imageUri,
              body: imgName,
              fileContentType: "image/jpeg"
-           };
+            };
 
-           // below is the network module API used for uploading images when camera fire the callback
-           EB.Network.uploadFile(uploadfileProps, svUploadFileDone);
-           svLog('mCameraPicTaken', 'upload called ... ' + uploadLocationStore + " for " + imgName);
+            if (clientDeviceSw == 'ZEBRAEB_50') {
+                uploadfileProps['authType'] = 'basic';
+                uploadfileProps['authUser'] = 'admin';
+                uploadfileProps['authPassword'] = 'password';
+            }
+
+            // below is the network module API used for uploading images when camera fire the callback
+            EB.Network.uploadFile(uploadfileProps, svUploadFileDone);
+            svLog('mCameraPicTaken', 'upload called ... ' + uploadLocationStore + " for " + imgName);
 
         } catch(err) {
             alert('Take picture: upload to ' + uploadLocationStore + ': ' + err);
@@ -341,6 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
     camDesiredWidth = Number($('meta[name=h2CamDesiredWidth]').content);
     camDesiredHeight = Number($('meta[name=h2CamDesiredHeight]').content);
     camUseSystemViewfinder = $('meta[name=h2CamUseSystemViewfinder]').content === 'true';
+    clientDeviceSw = $('meta[name=h2ClientDeviceSw]').content;
 
     svLog('DOMContentLoaded', 'camera ' + uploadCameraToUse + ' for ' + uploadLocationStore);
 
