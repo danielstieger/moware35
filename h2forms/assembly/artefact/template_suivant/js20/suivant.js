@@ -26,7 +26,6 @@ var uploadLocationRetrieve = '?';
 var uploadCameraToUse = null;
 var uploadEditorId = null;
 var uploadInternalFilename = '/data/tmp/public/';
-var uploadTmpFilename = '';
 
 function svScanEnabled(){
     return ($('input[name="scanconclusion"]') != null);
@@ -168,21 +167,7 @@ function setLastRequestIssuedMillis(baseForm) {
 function svUploadFileDone(args){
     var status = args['status'];
 
-    if (clientDeviceSw == 'ZEBRAEB_50') {
-        var code = args['response_code'];
-        status = 'EB50 - ' + code;
-
-        if (code == 200) {
-            $('img[name=img_' + uploadEditorId + ']').src = uploadLocationRetrieve + uploadTmpFilename + '?ts=' + Date.now();
-            $('input[name=' + uploadEditorId + ']').value = uploadTmpFilename;
-            uploadTmpFilename = '';
-
-        } else {
-            alert('Take picture EB5: error while uploading: ' + status);
-        }
-
-
-    } else if ('body' in args) {
+    if ('body' in args) {
         var filename = args['body'].replace(/^\s+|\s+$/g, '');
         status += '; (' + filename + ')';
 
@@ -191,6 +176,7 @@ function svUploadFileDone(args){
             $('input[name=' + uploadEditorId + ']').value = filename;
 
         } else {
+            svLog('mUploadFileDone', 'Take picture: error while uploading: ' + status);
             alert('Take picture: error while uploading: ' + status);
         }
     }
@@ -198,8 +184,8 @@ function svUploadFileDone(args){
 
 
     // for (let prop in args) {
-    //    mLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
-    // }
+    //    svLog('mUploadFileDone', ''+ prop + ": " + args[prop]);
+    //}
 }
 
 function svCameraPicTaken(cbData){
@@ -217,7 +203,6 @@ function svCameraPicTaken(cbData){
 
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
-            uploadTmpFilename = imgName;
             // console.log('Uploading ' + cbData.imageUri + " to " + uploadLocationStore);
 
             var uploadfileProps = {
