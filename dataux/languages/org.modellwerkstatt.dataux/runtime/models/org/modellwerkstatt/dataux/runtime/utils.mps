@@ -2931,7 +2931,7 @@
         <property role="TrG5h" value="CMD_OPENED_IN_OTHER_TAB" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
         <node concept="Xl_RD" id="5JJsFAvpd2h" role="37wK5m">
-          <property role="Xl_RC" value="Das Kommando wird in einem anderen Browser-Tab bereits ausgeführt." />
+          <property role="Xl_RC" value="Das Kommando wird in einem anderen Browser-Tab bereits ausgeführt!" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDy" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDz" role="37wK5m" />
@@ -2949,6 +2949,18 @@
         <node concept="10Nm6u" id="7r26jiNRWD_" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6QM" role="37wK5m">
           <property role="Xl_RC" value="The command in this tab was canceled." />
+        </node>
+      </node>
+      <node concept="QsSxf" id="7IUYreGhXms" role="Qtgdg">
+        <property role="TrG5h" value="APP_IN_MODAL_NO_CMD_START" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="7IUYreGi4Us" role="37wK5m">
+          <property role="Xl_RC" value="Das Kommando '%s' wird in einem anderen Browser-Tab modal ausgeführt. Es muss erst beendet werden!" />
+        </node>
+        <node concept="10Nm6u" id="7IUYreGi6xG" role="37wK5m" />
+        <node concept="10Nm6u" id="7IUYreGi889" role="37wK5m" />
+        <node concept="Xl_RD" id="7IUYreGi8VK" role="37wK5m">
+          <property role="Xl_RC" value="The command '%s' is running in a modal Browser-Tab. You have to end that one first." />
         </node>
       </node>
       <node concept="QsSxf" id="6eUMu2ekBdf" role="Qtgdg">
