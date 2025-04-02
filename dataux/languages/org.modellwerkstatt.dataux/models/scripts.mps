@@ -106,6 +106,25 @@
     <property role="TrG5h" value="Moware2022Analytics" />
     <property role="_Wzho" value="MoWare 2022 Analysis" />
     <property role="2BwPS$" value="MoWare Scripts" />
+    <node concept="_XfAh" id="7IUYreGRY7M" role="_YvDr">
+      <property role="_XH9r" value="Search for Delegate Forms with specified property" />
+      <ref role="_XDHR" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
+      <node concept="_ZGcI" id="7IUYreGRY7O" role="_XPhp">
+        <node concept="3clFbS" id="7IUYreGRY7Q" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7IUYreGRY91" role="_XDHO">
+        <node concept="3clFbS" id="7IUYreGRY92" role="2VODD2">
+          <node concept="3clFbF" id="7IUYreGRZvS" role="3cqZAp">
+            <node concept="2OqwBi" id="7IUYreGRZKc" role="3clFbG">
+              <node concept="_YI3z" id="7IUYreGRZvR" role="2Oq$k0" />
+              <node concept="2qgKlT" id="7IUYreGS03m" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:7rG0OCcGP9m" resolve="isBoundOnProperty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="_ALeoXpSIn" role="_YvDr">
       <property role="_XH9r" value="Scale Used in RANGE Option, scale &gt; 0" />
       <ref role="_XDHR" to="un0u:33f56ccWqVT" resolve="RangeOption" />
