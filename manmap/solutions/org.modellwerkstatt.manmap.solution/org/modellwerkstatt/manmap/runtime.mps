@@ -2725,24 +2725,6 @@
       <node concept="3cqZAl" id="5dZoziQsHVU" role="3clF45" />
       <node concept="3Tm1VV" id="5dZoziQsHVV" role="1B3o_S" />
       <node concept="3clFbS" id="5dZoziQsHVW" role="3clF47" />
-      <node concept="P$JXv" id="5dZoziQsIBy" role="lGtFl">
-        <node concept="TZ5HA" id="5dZoziQsIBz" role="TZ5H$">
-          <node concept="1dT_AC" id="5dZoziQsIB$" role="1dT_Ay">
-            <property role="1dT_AB" value="" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="5dZoziQsIEE" role="TZ5H$">
-          <node concept="1dT_AC" id="5dZoziQsIEF" role="1dT_Ay">
-            <property role="1dT_AB" value="There are couple of old methods and there are also new ones.. The new ones first. " />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="5dZoziQsIB_" role="3nqlJM">
-          <property role="TUZQ4" value="entity state" />
-          <node concept="zr_55" id="5dZoziQsIBB" role="zr_5Q">
-            <ref role="zr_51" node="5dZoziQsIxZ" resolve="readOny" />
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="3clFb_" id="75DS814t7O7" role="jymVt">
       <property role="TrG5h" value="setReadOnly" />
@@ -2798,18 +2780,19 @@
       <node concept="3Tm1VV" id="6nb2rfW349T" role="1B3o_S" />
       <node concept="3clFbS" id="6nb2rfW349U" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="3ApzSql$_ZC" role="jymVt">
+      <property role="TrG5h" value="rollback" />
+      <node concept="3clFbS" id="3ApzSql$_ZF" role="3clF47" />
+      <node concept="3Tm1VV" id="3ApzSql$_ZG" role="1B3o_S" />
+      <node concept="3cqZAl" id="3ApzSql$_Yu" role="3clF45" />
+    </node>
     <node concept="16euLQ" id="5dZoziQv8NC" role="16eVyc">
       <property role="TrG5h" value="Key" />
     </node>
     <node concept="3UR2Jj" id="5dZoziQv8XI" role="lGtFl">
       <node concept="TZ5HA" id="5dZoziQv8XJ" role="TZ5H$">
         <node concept="1dT_AC" id="5dZoziQv8XK" role="1dT_Ay">
-          <property role="1dT_AB" value="IM3Entity is what entities have to implement at least. " />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="5dZoziQv90p" role="TZ5H$">
-        <node concept="1dT_AC" id="5dZoziQv90q" role="1dT_Ay">
-          <property role="1dT_AB" value="IM3Key is no longer used, since TypeHandler/ClassMapper determin the needsInsert? " />
+          <property role="1dT_AB" value="IM3Entity is what entities have to implement at least " />
         </node>
       </node>
       <node concept="TZ5HA" id="5dZoziQv90v" role="TZ5H$">
@@ -5118,6 +5101,12 @@
       <node concept="3cqZAl" id="6nb2rfW3ZKR" role="3clF45" />
       <node concept="3Tm1VV" id="6nb2rfW3ZKS" role="1B3o_S" />
       <node concept="3clFbS" id="6nb2rfW3ZKU" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="3ApzSql_Omg" role="jymVt">
+      <property role="TrG5h" value="rollback" />
+      <node concept="3Tm1VV" id="3ApzSql_Omi" role="1B3o_S" />
+      <node concept="3cqZAl" id="3ApzSql_Omj" role="3clF45" />
+      <node concept="3clFbS" id="3ApzSql_Omk" role="3clF47" />
     </node>
   </node>
   <node concept="3HP615" id="2P7gGuyliuf">

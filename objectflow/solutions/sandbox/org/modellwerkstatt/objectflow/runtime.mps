@@ -7329,6 +7329,63 @@
                         </node>
                       </node>
                       <node concept="3clFbH" id="3P1jWkzQz08" role="3cqZAp" />
+                      <node concept="1Dw8fO" id="3ApzSqlABkJ" role="3cqZAp">
+                        <node concept="3clFbS" id="3ApzSqlABkK" role="2LFqv$">
+                          <node concept="3cpWs8" id="3ApzSqlABkL" role="3cqZAp">
+                            <node concept="3cpWsn" id="3ApzSqlABkM" role="3cpWs9">
+                              <property role="TrG5h" value="entity" />
+                              <node concept="3uibUv" id="3ApzSqlABkN" role="1tU5fm">
+                                <ref role="3uigEE" to="w7gk:5_gFKlwInsW" resolve="IM3Entity" />
+                              </node>
+                              <node concept="2OqwBi" id="3ApzSqlABkO" role="33vP2m">
+                                <node concept="37vLTw" id="3ApzSqlABkP" role="2Oq$k0">
+                                  <ref role="3cqZAo" to="w7gk:3_3eNg0RuN5" resolve="transactionEntities" />
+                                </node>
+                                <node concept="34jXtK" id="3ApzSqlABkQ" role="2OqNvi">
+                                  <node concept="37vLTw" id="3ApzSqlABkR" role="25WWJ7">
+                                    <ref role="3cqZAo" node="3ApzSqlABkX" resolve="i" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="3ApzSqlABkS" role="3cqZAp">
+                            <node concept="2OqwBi" id="3ApzSqlABkT" role="3clFbG">
+                              <node concept="37vLTw" id="3ApzSqlABkU" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3ApzSqlABkM" resolve="entity" />
+                              </node>
+                              <node concept="liA8E" id="3ApzSqlABkV" role="2OqNvi">
+                                <ref role="37wK5l" to="w7gk:3ApzSql$_ZC" resolve="rollback" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3cpWsn" id="3ApzSqlABkX" role="1Duv9x">
+                          <property role="TrG5h" value="i" />
+                          <node concept="10Oyi0" id="3ApzSqlABkY" role="1tU5fm" />
+                          <node concept="3cmrfG" id="3ApzSqlABkZ" role="33vP2m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                        <node concept="3eOVzh" id="3ApzSqlABl0" role="1Dwp0S">
+                          <node concept="2OqwBi" id="3ApzSqlABl1" role="3uHU7w">
+                            <node concept="37vLTw" id="3ApzSqlABl2" role="2Oq$k0">
+                              <ref role="3cqZAo" to="w7gk:3_3eNg0RuN5" resolve="transactionEntities" />
+                            </node>
+                            <node concept="34oBXx" id="3ApzSqlABl3" role="2OqNvi" />
+                          </node>
+                          <node concept="37vLTw" id="3ApzSqlABl4" role="3uHU7B">
+                            <ref role="3cqZAo" node="3ApzSqlABkX" resolve="i" />
+                          </node>
+                        </node>
+                        <node concept="3uNrnE" id="3ApzSqlABl5" role="1Dwrff">
+                          <node concept="37vLTw" id="3ApzSqlABl6" role="2$L3a6">
+                            <ref role="3cqZAo" node="3ApzSqlABkX" resolve="i" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="3ApzSqlABeL" role="3cqZAp" />
+                      <node concept="3clFbH" id="3ApzSqlA$_m" role="3cqZAp" />
                     </node>
                   </node>
                   <node concept="3clFbH" id="1fVuXfYtcpE" role="3cqZAp" />
@@ -67647,7 +67704,22 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5hs6isqmCB0" role="jymVt" />
+    <node concept="312cEg" id="3ApzSql$W6m" role="jymVt">
+      <property role="TrG5h" value="_BEFORESAVE_TCN" />
+      <node concept="3Tmbuc" id="3ApzSql$TCg" role="1B3o_S" />
+      <node concept="10Oyi0" id="3ApzSql$V8x" role="1tU5fm" />
+      <node concept="3cmrfG" id="3ApzSql$XDh" role="33vP2m">
+        <property role="3cmrfH" value="0" />
+      </node>
+    </node>
+    <node concept="312cEg" id="3ApzSql$YBd" role="jymVt">
+      <property role="TrG5h" value="_BEFORESAVE_KEY" />
+      <node concept="3Tmbuc" id="3ApzSql$YBe" role="1B3o_S" />
+      <node concept="16syzq" id="3ApzSql_1m3" role="1tU5fm">
+        <ref role="16sUi3" node="5hs6isqmAyl" resolve="Key" />
+      </node>
+      <node concept="10Nm6u" id="3ApzSql_3$b" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="5hs6isqmU9w" role="jymVt" />
     <node concept="3clFb_" id="5hs6isr3ovy" role="jymVt">
       <property role="TrG5h" value="_META" />
@@ -67803,7 +67875,51 @@
       <property role="TrG5h" value="beforeSave" />
       <node concept="3cqZAl" id="5hs6isqt8Kj" role="3clF45" />
       <node concept="3Tm1VV" id="5hs6isqt8Kk" role="1B3o_S" />
-      <node concept="3clFbS" id="5hs6isqt8Kl" role="3clF47" />
+      <node concept="3clFbS" id="5hs6isqt8Kl" role="3clF47">
+        <node concept="3clFbF" id="3ApzSql_4KA" role="3cqZAp">
+          <node concept="37vLTI" id="3ApzSql_5Qy" role="3clFbG">
+            <node concept="1rXfSq" id="3ApzSql_7pz" role="37vLTx">
+              <ref role="37wK5l" to="w7gk:5dZoziQsIK$" resolve="getIM3Key" />
+            </node>
+            <node concept="37vLTw" id="3ApzSql_4K_" role="37vLTJ">
+              <ref role="3cqZAo" node="3ApzSql$YBd" resolve="_BEFORESAVE_KEY" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3ApzSql_8R8" role="3cqZAp">
+          <node concept="37vLTI" id="3ApzSql_axB" role="3clFbG">
+            <node concept="37vLTw" id="3ApzSql_bMc" role="37vLTx">
+              <ref role="3cqZAo" node="5hs6isqmG7X" resolve="_TCN" />
+            </node>
+            <node concept="37vLTw" id="3ApzSql_8R6" role="37vLTJ">
+              <ref role="3cqZAo" node="3ApzSql$W6m" resolve="_BEFORESAVE_TCN" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3ApzSql_ql3" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3ApzSql_enW" role="jymVt">
+      <property role="TrG5h" value="rollback" />
+      <node concept="3Tm1VV" id="3ApzSql_enY" role="1B3o_S" />
+      <node concept="3cqZAl" id="3ApzSql_enZ" role="3clF45" />
+      <node concept="3clFbS" id="3ApzSql_eo5" role="3clF47">
+        <node concept="3clFbF" id="3ApzSql_hm6" role="3cqZAp">
+          <node concept="37vLTI" id="3ApzSql_j0x" role="3clFbG">
+            <node concept="37vLTw" id="3ApzSql_kkG" role="37vLTx">
+              <ref role="3cqZAo" node="3ApzSql$W6m" resolve="_BEFORESAVE_TCN" />
+            </node>
+            <node concept="37vLTw" id="3ApzSql_hm5" role="37vLTJ">
+              <ref role="3cqZAo" node="5hs6isqmG7X" resolve="_TCN" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3ApzSql_eo6" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="5hs6isw4vJo" role="jymVt">
       <property role="TrG5h" value="getKeyProperty" />
