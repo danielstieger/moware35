@@ -308,9 +308,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -14465,108 +14462,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgk" role="38MLOi">
-      <ref role="1Cak38" node="4pH_TM_J4sF" resolve="Load same object read-only twice (with get)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgl" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkGaD" resolve="Load same object read-only twice (with where)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgm" role="38MLOi">
-      <ref role="1Cak38" node="4pH_TM_Jn$t" resolve="Queue an checkin operation and commit" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgn" role="38MLOi">
-      <ref role="1Cak38" node="4pH_TMA1K_g" resolve="Queue a checkin operation and rollback." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgo" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkvHZ" resolve="Checkin and delete in same transaction." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgp" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkAw8" resolve="Session marked dirty when changing checked out entity." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgq" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlkOpX" resolve="Checkout of entity already checked out leads to exception (with get)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgr" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlmbJN" resolve="Checkout of entity already checked out leads to exception (with where)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgs" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlmeOP" resolve="Checkout of entity already loaded in ReadOnly leads to an exception (with get)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgt" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlnIR8" resolve="Checkout of entity already loaded in ReadOnly leads to an exception (with where)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgu" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMln__j" resolve="Query entity ready only when already checked out leads to an exception (wtih get)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgv" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlnLEX" resolve="Query entity ready only when already checked out leads to an exception (with where)." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgw" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlnRDY" resolve="Deleting a readonly entity leads to an exception." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgx" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlwa3p" resolve="Saving a new entity adds entity to session, checkout leads to error." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgy" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMl$KQH" resolve="Saving a new entity adds entity to session, radonly find leads to error." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgz" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlwhET" resolve="Deleting an entity removes entity from session." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawg$" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlBGBt" resolve="Using Session multiple times to store an entity." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawg_" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlC2b_" resolve="Load same list twice (readonly where)" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgA" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlJXPO" resolve="Load two graphs in session with join on childs" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgB" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlK8Rh" resolve="Load two graphs in session with join on childs reverse" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgC" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlQoDW" resolve="One query - Load two graphs in session with join on childs" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgD" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlQoE_" resolve="One query - Load two graphs in session with join on childs reverse" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgE" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlSm_0" resolve="One query - Load two graphs in session with join on childs, pos readonly" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgF" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlSm_I" resolve="One query - Load two graphs in session with join on childs, pos readonly reverse" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgG" role="38MLOi">
-      <ref role="1Cak38" node="4eJAcMlZRDc" resolve="One query - load 2 invoices, joins pos and join reference" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgH" role="38MLOi">
-      <ref role="1Cak38" node="1S2v2TUhOaS" resolve="Remove element from list should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgI" role="38MLOi">
-      <ref role="1Cak38" node="1S2v2TUle4M" resolve="Add element to list should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgJ" role="38MLOi">
-      <ref role="1Cak38" node="1S2v2TUlm4C" resolve="Remove an element and add another one to list should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgK" role="38MLOi">
-      <ref role="1Cak38" node="16VphDIPhTy" resolve="Setting new list with same elements should not change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgL" role="38MLOi">
-      <ref role="1Cak38" node="16VphDIPZ0I" resolve="Setting new list with one element less should change dirty state of session." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgM" role="38MLOi">
-      <ref role="1Cak38" node="5XGplYBe3R$" resolve="Adding a new entity to session sets session dirty." />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgN" role="38MLOi">
-      <ref role="1Cak38" node="1nLGXVrnlc0" resolve="Loading an entity from db results in a isNewInSession false" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgO" role="38MLOi">
-      <ref role="1Cak38" node="1nLGXVrn_rp" resolve="Creating Entity with new() sets isNewInSession to true" />
-    </node>
-    <node concept="1Cak35" id="1fLsstAawgP" role="38MLOi">
-      <ref role="1Cak38" node="6AXaBg8oTkQ" resolve="Load invoices in a read only manner with reverse ref-join." />
     </node>
   </node>
   <node concept="2WPaUQ" id="3oFz76qCK$S">
