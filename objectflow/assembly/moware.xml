@@ -151,7 +151,6 @@
 		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
-			  	  <replaceregex pattern="TURKU_APP_IMPLCLASS_FQ"   replace="org.modellwerkstatt.turkuforms.core.TurkuApp"/>
 				  <replaceregex pattern="LOADER_FQNAME"            replace="${h2formsAppLoader}"/>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
 				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
@@ -206,7 +205,7 @@
 		<copy file="${mowarePluginHomeDir}/turkuassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
-			      <replaceregex pattern="TURKU_APP_IMPLCLASS_FQ"   replace="org.modellwerkstatt.turkuforms.sdi.BrowserTab"/>
+				  <replaceregex pattern="TURKU_APP_IMPLCLASS_FQ"   replace="org.modellwerkstatt.turkuforms.core.TurkuApp"/>
 				  <replaceregex pattern="APPLICATION_HEARTBEAT"       replace="43200"/>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
 				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>

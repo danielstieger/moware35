@@ -75,7 +75,7 @@
     
   </target>
   
-    <target name="mowareBuildSimpleOneSDI" depends="moware.turkusdi">
+  <target name="mowareBuildSimpleOneSDI" depends="moware.turkusdi">
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
       <fileset dir="${solultionSimpleGen}" />
