@@ -75,6 +75,31 @@
     
   </target>
   
+    <target name="mowareBuildSimpleOneSDI" depends="moware.turkusdi">
+    <mkdir dir="work/WEB-INF/classes"/>
+    <copy todir="work/WEB-INF/classes">
+      <fileset dir="${solultionSimpleGen}" />
+      <!-- <fileset dir="${solultionSimpleGen1}" /> -->
+    </copy>
+    
+    <!-- <copy todir="work/WEB-INF/lib">
+      <fileset dir="${solultionJars}" />
+    </copy> -->
+    
+    <copy todir="${mowareWorkDir}/WEB-INF/lib">
+	  <fileset dir="${mowarePluginHomeDir}/jars/addons/" includes="mysql*.jar" />   
+    </copy>
+    
+    <mkdir dir="dist"/>  
+    <jar destfile="dist/${appName}##${appBuildVersion}.war" basedir="${mowareWorkDir}" update="false">
+      <manifest>
+        <attribute name="Main-Class" value="${appMainclass}" />
+        <attribute name="Version"    value="${appBuildVersion}" />
+      </manifest>
+    </jar>
+    
+  </target>
+  
   <target name="redeploy" depends="mowareBuildSimpleOne">
   	<copy todir="${tomcatHomeDir}/webapps/">
   		<fileset dir="dist/" />

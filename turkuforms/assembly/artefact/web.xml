@@ -45,7 +45,7 @@
 
         <init-param>
             <param-name>heartbeatInterval</param-name>
-            <param-value>43200</param-value>
+            <param-value>APPLICATION_HEARTBEAT</param-value>
         </init-param>
 
         <init-param>
@@ -61,6 +61,11 @@
         <init-param>
             <param-name>applicationFqName</param-name>
             <param-value>APPLICATION_FQNAME</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>turkuAppImplClassFq</param-name>
+            <param-value>TURKU_APP_IMPLCLASS_FQ</param-value>
         </init-param>
 
     </servlet>

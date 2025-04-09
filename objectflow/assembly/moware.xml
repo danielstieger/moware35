@@ -151,6 +151,7 @@
 		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
+			  	  <replaceregex pattern="TURKU_APP_IMPLCLASS_FQ"   replace="org.modellwerkstatt.turkuforms.core.TurkuApp"/>
 				  <replaceregex pattern="LOADER_FQNAME"            replace="${h2formsAppLoader}"/>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
 				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
@@ -205,6 +206,65 @@
 		<copy file="${mowarePluginHomeDir}/turkuassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
+			      <replaceregex pattern="TURKU_APP_IMPLCLASS_FQ"   replace="org.modellwerkstatt.turkuforms.sdi.BrowserTab"/>
+				  <replaceregex pattern="APPLICATION_HEARTBEAT"       replace="43200"/>
+				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
+				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
+				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
+			  </tokenfilter>
+		  </filterchain>
+		</copy>
+		
+		<!-- change favicon with local one -->		
+	</target>
+	
+		<target name="turkusdi">
+		<echo>Copying moware.turkuforms dependencies to ${mowareWorkDir}/WEB-INF/lib   
+                                        and ${mowareWorkDir}/static
+                                        favicon taken from ${appFavicon} </echo>
+		<mkdir dir="${mowareWorkDir}/META-INF"/>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
+
+
+		<unzip src="${turkuWarLocation}" dest="${turkuLocation}"/>
+
+        <copy todir="${mowareWorkDir}/WEB-INF/lib">
+			<fileset dir="${turkuLocation}/WEB-INF/lib" includes="*.jar" />
+        </copy>
+		<copy todir="${mowareWorkDir}/WEB-INF/classes">
+			<fileset dir="${turkuLocation}/WEB-INF/classes" includes="**" />
+        </copy>
+		<copy todir="${mowareWorkDir}/static">
+			<fileset dir="${turkuLocation}/static" includes="**" />
+	    </copy>
+        <copy file="${appFavicon}" tofile="${mowareWorkDir}/static/favicon.png" overwrite="true"> </copy>
+ 
+
+
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
+
+			
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" excludes="slf4j-api*.jar"/>
+			<fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />
+
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-references.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
+		</copy>
+		
+		
+		<copy file="${turkuLocation}/META-INF/context.xml" tofile="${mowareWorkDir}/META-INF/context.xml" filtering="yes" overwrite="yes">
+    	</copy>
+    
+		<copy file="${mowarePluginHomeDir}/turkuassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		  <filterchain>
+			  <tokenfilter>
+				  <replaceregex pattern="TURKU_APP_IMPLCLASS_FQ"   replace="org.modellwerkstatt.turkuforms.sdi.BrowserTab"/>
+				  <replaceregex pattern="APPLICATION_HEARTBEAT"    replace="20"/>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
 				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
 				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
