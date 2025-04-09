@@ -16442,7 +16442,7 @@
             </node>
             <node concept="3fqX7Q" id="_ALeoZALCI" role="3clFbw">
               <node concept="2YIFZM" id="_ALeoZALCK" role="3fr31v">
-                <ref role="37wK5l" to="3ojc:_ALeoZADhT" resolve="isPrimitive" />
+                <ref role="37wK5l" to="3ojc:_ALeoZADhT" resolve="isMwPrimitive" />
                 <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
                 <node concept="37vLTw" id="_ALeoZALCL" role="37wK5m">
                   <ref role="3cqZAo" node="_ALeoZAtx_" resolve="type" />
@@ -16940,22 +16940,34 @@
       <node concept="nvevp" id="1ByVt7WfEtv" role="3cqZAp">
         <node concept="3clFbS" id="1ByVt7WfEtx" role="nvhr_">
           <node concept="3clFbJ" id="1ByVt7WfEvn" role="3cqZAp">
-            <node concept="22lmx$" id="1ByVt7WfF4A" role="3clFbw">
-              <node concept="2OqwBi" id="1ByVt7WfFh0" role="3uHU7w">
-                <node concept="2X3wrD" id="1ByVt7WfF5k" role="2Oq$k0">
+            <node concept="22lmx$" id="61zvfalIIXj" role="3clFbw">
+              <node concept="2OqwBi" id="61zvfalINeY" role="3uHU7w">
+                <node concept="2X3wrD" id="61zvfalIN4q" role="2Oq$k0">
                   <ref role="2X3Bk0" node="1ByVt7WfEt_" resolve="type" />
                 </node>
-                <node concept="1mIQ4w" id="1ByVt7WfFsr" role="2OqNvi">
-                  <node concept="chp4Y" id="1ByVt7WfFtd" role="cj9EA">
-                    <ref role="cht4Q" to="tpee:hP7QB7G" resolve="StringType" />
+                <node concept="1mIQ4w" id="61zvfalINmz" role="2OqNvi">
+                  <node concept="chp4Y" id="61zvfalINoe" role="cj9EA">
+                    <ref role="cht4Q" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
                   </node>
                 </node>
               </node>
-              <node concept="2YIFZM" id="1ByVt7Wg_br" role="3uHU7B">
-                <ref role="37wK5l" to="3ojc:2YYXlupEla$" resolve="isIntOrObjectInt" />
-                <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
-                <node concept="2X3wrD" id="1ByVt7Wg_ln" role="37wK5m">
-                  <ref role="2X3Bk0" node="1ByVt7WfEt_" resolve="type" />
+              <node concept="22lmx$" id="1ByVt7WfF4A" role="3uHU7B">
+                <node concept="2YIFZM" id="1ByVt7Wg_br" role="3uHU7B">
+                  <ref role="37wK5l" to="3ojc:2YYXlupEla$" resolve="isIntOrObjectInt" />
+                  <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
+                  <node concept="2X3wrD" id="1ByVt7Wg_ln" role="37wK5m">
+                    <ref role="2X3Bk0" node="1ByVt7WfEt_" resolve="type" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1ByVt7WfFh0" role="3uHU7w">
+                  <node concept="2X3wrD" id="1ByVt7WfF5k" role="2Oq$k0">
+                    <ref role="2X3Bk0" node="1ByVt7WfEt_" resolve="type" />
+                  </node>
+                  <node concept="1mIQ4w" id="1ByVt7WfFsr" role="2OqNvi">
+                    <node concept="chp4Y" id="1ByVt7WfFtd" role="cj9EA">
+                      <ref role="cht4Q" to="tpee:hP7QB7G" resolve="StringType" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -16972,7 +16984,7 @@
               <node concept="3clFbS" id="1ByVt7WfFxr" role="9aQI4">
                 <node concept="2MkqsV" id="1ByVt7WfFEg" role="3cqZAp">
                   <node concept="Xl_RD" id="1ByVt7WfFEv" role="2MkJ7o">
-                    <property role="Xl_RC" value="Only string or integer types are currently supported as url params." />
+                    <property role="Xl_RC" value="Only string, status or integer types are currently supported as url params." />
                   </node>
                   <node concept="1YBJjd" id="1ByVt7WfFFk" role="1urrMF">
                     <ref role="1YBMHb" node="1ByVt7WdEKw" resolve="commandUrlParamOption" />
