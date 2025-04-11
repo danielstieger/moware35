@@ -1749,7 +1749,7 @@
     <node concept="3clFb_" id="l9AkMR8Vz2" role="jymVt">
       <property role="TrG5h" value="hasToRunStartupCmdAsModalFirst" />
       <node concept="37vLTG" id="3rYvYyfitMt" role="3clF46">
-        <property role="TrG5h" value="isStartupCmd" />
+        <property role="TrG5h" value="checkStartupCmd" />
         <node concept="3uibUv" id="3rYvYyfiA0V" role="1tU5fm">
           <ref role="3uigEE" to="28jr:7HigzTRbG7f" resolve="OFXUrlParams" />
         </node>
@@ -1801,9 +1801,6 @@
                       <ref role="3cqZAo" node="l9AkMR9BPr" resolve="potentialStartupCmdExecuted" />
                     </node>
                   </node>
-                </node>
-                <node concept="3cpWs6" id="3rYvYyfhrP6" role="3cqZAp">
-                  <node concept="3clFbT" id="3rYvYyfhrWI" role="3cqZAk" />
                 </node>
                 <node concept="3clFbH" id="3rYvYyfhzBx" role="3cqZAp" />
               </node>
@@ -1874,7 +1871,7 @@
                               </node>
                             </node>
                             <node concept="37vLTw" id="3rYvYyfj48R" role="37wK5m">
-                              <ref role="3cqZAo" node="3rYvYyfitMt" resolve="isStartupCmd" />
+                              <ref role="3cqZAo" node="3rYvYyfitMt" resolve="checkStartupCmd" />
                             </node>
                           </node>
                         </node>
@@ -1883,7 +1880,7 @@
                     <node concept="1Wc70l" id="3rYvYyfj48S" role="3clFbw">
                       <node concept="2OqwBi" id="3rYvYyfj48T" role="3uHU7w">
                         <node concept="37vLTw" id="3rYvYyfj48U" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3rYvYyfitMt" resolve="isStartupCmd" />
+                          <ref role="3cqZAo" node="3rYvYyfitMt" resolve="checkStartupCmd" />
                         </node>
                         <node concept="liA8E" id="3rYvYyfj48V" role="2OqNvi">
                           <ref role="37wK5l" to="28jr:7HigzTRbG9U" resolve="hasCmdName" />
@@ -1891,7 +1888,7 @@
                       </node>
                       <node concept="3y3z36" id="3rYvYyfj48W" role="3uHU7B">
                         <node concept="37vLTw" id="3rYvYyfj48X" role="3uHU7B">
-                          <ref role="3cqZAo" node="3rYvYyfitMt" resolve="isStartupCmd" />
+                          <ref role="3cqZAo" node="3rYvYyfitMt" resolve="checkStartupCmd" />
                         </node>
                         <node concept="10Nm6u" id="3rYvYyfj48Y" role="3uHU7w" />
                       </node>
@@ -2085,6 +2082,16 @@
                           </node>
                         </node>
                         <node concept="3clFbH" id="7E8sdG$qB49" role="3cqZAp" />
+                        <node concept="3clFbF" id="5_MGdbFuvva" role="3cqZAp">
+                          <node concept="37vLTI" id="5_MGdbFuBSR" role="3clFbG">
+                            <node concept="3clFbT" id="5_MGdbFuEC5" role="37vLTx">
+                              <property role="3clFbU" value="true" />
+                            </node>
+                            <node concept="37vLTw" id="5_MGdbFuvv8" role="37vLTJ">
+                              <ref role="3cqZAo" node="l9AkMR9BPr" resolve="potentialStartupCmdExecuted" />
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3clFbF" id="3rYvYyfm8mP" role="3cqZAp">
                           <node concept="1rXfSq" id="3rYvYyfm8mN" role="3clFbG">
                             <ref role="37wK5l" node="3rYvYyfkAHE" resolve="intenal_startCmd" />
