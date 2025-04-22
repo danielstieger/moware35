@@ -2899,6 +2899,18 @@
           <property role="Xl_RC" value="Your app has just been replaced by a newer version. You can proceed with your work!" />
         </node>
       </node>
+      <node concept="QsSxf" id="4aQY2770YT2" role="Qtgdg">
+        <property role="TrG5h" value="APPLICATION_RESTARTED" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />
+        <node concept="Xl_RD" id="4aQY27718ai" role="37wK5m">
+          <property role="Xl_RC" value="Ihr letztes Kommando wurde abgebrochen. Die Applikation wurde neu gestartet." />
+        </node>
+        <node concept="10Nm6u" id="4aQY27719ND" role="37wK5m" />
+        <node concept="10Nm6u" id="4aQY2771brk" role="37wK5m" />
+        <node concept="Xl_RD" id="4aQY2771d31" role="37wK5m">
+          <property role="Xl_RC" value="Your last command was terminated. The Application was restarted." />
+        </node>
+      </node>
       <node concept="QsSxf" id="6OyHsl_0Q4P" role="Qtgdg">
         <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="MoWareTranslations.Key" />

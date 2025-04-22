@@ -8033,8 +8033,8 @@
                           <ref role="2S8YL0" node="2QY_rtDqe0T" resolve="langIndex" />
                         </node>
                       </node>
-                      <node concept="Rm8GO" id="4kA4APP1mGF" role="37wK5m">
-                        <ref role="Rm8GQ" to="ache:4kA4APOol$O" resolve="APPLICATION_REPLACED" />
+                      <node concept="Rm8GO" id="4aQY2771quo" role="37wK5m">
+                        <ref role="Rm8GQ" to="ache:4aQY2770YT2" resolve="APPLICATION_RESTARTED" />
                         <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                       </node>
                     </node>
