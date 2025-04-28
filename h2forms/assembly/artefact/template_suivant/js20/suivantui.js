@@ -125,8 +125,7 @@ function svWriteToScanField(data, type) {
     var listOfScanFields = $$('input[scanable="true"]');
 
     if (listOfScanFields.length == 0) {
-        alert("ERROR - call Support: No fields to scan here ...");
-        svLog('svWriteToScanField', 'no scannable fields here cnt=' + listOfScanFields.length);
+        svLog('svWriteToScanField', 'no scanable(scannable) fields here cnt=' + listOfScanFields.length);
 
     } else {
         listOfScanFields[0].value = data;
