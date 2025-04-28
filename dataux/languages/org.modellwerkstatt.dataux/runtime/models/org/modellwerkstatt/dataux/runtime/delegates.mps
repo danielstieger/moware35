@@ -5075,6 +5075,23 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="2GjTsalTTkI" role="3cqZAp">
+          <node concept="3cpWsn" id="2GjTsalTTkL" role="3cpWs9">
+            <property role="TrG5h" value="timeOnly" />
+            <node concept="10P_77" id="2GjTsalTTkG" role="1tU5fm" />
+            <node concept="2YIFZM" id="2GjTsalTTwz" role="33vP2m">
+              <ref role="37wK5l" to="250q:5IEkTkkuA32" resolve="has" />
+              <ref role="1Pybhc" to="250q:5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+              <node concept="Rm8GO" id="2GjTsalTTYv" role="37wK5m">
+                <ref role="Rm8GQ" to="250q:2GjTsalTA5H" resolve="DATETIME_TIMEONLY" />
+                <ref role="1Px2BO" to="250q:5IEkTkktIOT" resolve="IToolkit_TextEditor.Option" />
+              </node>
+              <node concept="37vLTw" id="2GjTsalTTw_" role="37wK5m">
+                <ref role="3cqZAo" node="6R9cZ4i4s2Q" resolve="pickerOption" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6R9cZ4i4ujU" role="3cqZAp" />
         <node concept="3SKdUt" id="1l2SXGvJUdz" role="3cqZAp">
           <node concept="1PaTwC" id="5HvIBdJXHXL" role="1aUNEU">
@@ -5164,6 +5181,9 @@
                 <ref role="37wK5l" to="250q:1l2SXGvBqc4" resolve="createDateAndTimeEditor" />
                 <node concept="37vLTw" id="6R9cZ4i4v0U" role="37wK5m">
                   <ref role="3cqZAo" node="6R9cZ4i4ukZ" resolve="needsPicker" />
+                </node>
+                <node concept="37vLTw" id="2GjTsalTVli" role="37wK5m">
+                  <ref role="3cqZAo" node="2GjTsalTTkL" resolve="timeOnly" />
                 </node>
               </node>
             </node>

@@ -49117,6 +49117,10 @@
         <property role="TrG5h" value="withPicker" />
         <node concept="10P_77" id="5IEkTkmwVnw" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="2GjTsalTW5b" role="3clF46">
+        <property role="TrG5h" value="timeOnly" />
+        <node concept="10P_77" id="2GjTsalTW5c" role="1tU5fm" />
+      </node>
       <node concept="3Tm1VV" id="1vmXD1nb2HY" role="1B3o_S" />
       <node concept="3uibUv" id="1vmXD1nb2HZ" role="3clF45">
         <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateOrTimeEditor" />

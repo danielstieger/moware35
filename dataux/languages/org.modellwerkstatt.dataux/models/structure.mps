@@ -2095,5 +2095,19 @@
       <ref role="20lvS9" node="3F3JzgdPdsK" resolve="ApiVariable" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2GjTsalT7g5">
+    <property role="EcuMT" value="3104077192089596933" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="TimeOnlyDOption" />
+    <property role="34LRSv" value="TIME PICKER ONLY" />
+    <property role="R4oN_" value="no date, only the picker for time" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2GjTsalT7g6" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+    <node concept="1QGGSu" id="2GjTsalT7g8" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
 </model>
 
