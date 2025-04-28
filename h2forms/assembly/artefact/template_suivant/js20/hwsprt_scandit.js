@@ -46,8 +46,8 @@ function scScanReceived(scanSession){
 
     if (scanSession.newlyRecognizedCodes.length == 1){
         var data = scanSession.newlyRecognizedCodes[0].data;
-        $$('input[scanable="true"]')[0].value = data;
 
+        svWriteToScanField(data, '');
         // svLog('scScanReceived', 'submitting now')
 
         console.log('scScanReceived() DONE on this page - submitting page next via http.POST!');

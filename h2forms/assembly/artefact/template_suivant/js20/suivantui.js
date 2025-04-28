@@ -104,9 +104,41 @@ function svDisableNavigation() {
   });
 }
 
+function svHasKeyboard() {
+    return $('meta[name="h2Keyboard"]') != null
+}
+
+function svHasOptimKeyboard() {
+    return $('meta[name="h2OptimKeyboard"]') != null
+}
+
+function svHasScanableFld() {
+    return $$('input[scanable="true"]').length > 0;
+}
+
+function svScanEnabled(){
+    return $('meta[name="h2ScanConclusion"]') != null && svHasScanableFld();
+}
+
+function svWriteToScanField(data, type) {
+
+    var listOfScanFields = $$('input[scanable="true"]');
+
+    if (listOfScanFields.length == 0) {
+        alert("ERROR - call Support: No fields to scan here ...");
+        svLog('svWriteToScanField', 'no scannable fields here cnt=' + listOfScanFields.length);
+
+    } else {
+        listOfScanFields[0].value = data;
+        if (listOfScanFields.length >= 2) {
+            listOfScanFields[1].value = type;
+        }
+    }
+}
+
 function svAdjustKeyboard() {
 
-    var hasScan = $('meta[name="h2ScanConclusion"]') != null;
+    var hasScan = svScanEnabled();
     var hasGo = $('meta[name="h2GoConclusion"]') != null;
 
     buttonBar1.show();

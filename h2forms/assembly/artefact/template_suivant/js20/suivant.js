@@ -27,9 +27,6 @@ var uploadCameraToUse = null;
 var uploadEditorId = null;
 var uploadInternalFilename = '/data/tmp/public/';
 
-function svScanEnabled(){
-    return ($('input[name="scanconclusion"]') != null);
-}
 
 function saveSubmitDueScan(){
     var conclusion = $('input[name="scanconclusion"]').value;
@@ -301,7 +298,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     reqLog('sysmenu stuff done');
 
-
     hwInitAfterDomReady();
     reqLog('hwInitAfterDomReady() - done');
 
@@ -321,20 +317,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     setTimeout(function() {
+            if (svHasKeyboard()) {
+                svAdjustKeyboard();
+            }
+
             svAdjustFocus();
         	}, 400);
 
     serverTimeMillisOffset = Date.now() - baseForm.ServerMillis.value;
     serverClockUpdate();
 
-    var needsKeyboardOptim = $('meta[name="h2OptimKeyboard"]') != null;
-    if (needsKeyboardOptim) {
+    if (svHasOptimKeyboard()) {
         $$('input[useNumericKeyboard="true"]:not(:disabled)').forEach((element) => element.addEventListener("touchend",
             (event) => {
                 svLog('touchendHandler', "keyboard requested by touch (keyboardtouchrequest) - " + event.target.name);
                 svAdjustKeyboard();
             })
         );
+
     }
 
 

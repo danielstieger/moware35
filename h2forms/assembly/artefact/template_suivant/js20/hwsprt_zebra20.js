@@ -56,16 +56,10 @@ function zzScanReceived(params){
         return;
     }
 
-
     // no longer alloweder, Dez 19
     // svDisableNavigation();
     svLog('zzScanReceived', 'scan executed');
-
-    var listOfScanFields = $$('input[scanable="true"]');
-    listOfScanFields[0].value = params['data'];
-    if (listOfScanFields.length >= 2) {
-        listOfScanFields[1].value = params['type'];
-    }
+    svWriteToScanField(params['data'], params['type']);
 
     zzDisableScan();
     saveSubmitDueScan();

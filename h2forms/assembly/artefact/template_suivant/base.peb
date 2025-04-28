@@ -24,6 +24,7 @@
 
 
 {% if keyboard and not optimKeyboard %}
+    <meta name="h2Keyboard" content="true">
     <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
