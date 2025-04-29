@@ -2100,7 +2100,7 @@
     <property role="3GE5qa" value="delegates.options" />
     <property role="TrG5h" value="TimeOnlyDOption" />
     <property role="34LRSv" value="TIME PICKER ONLY" />
-    <property role="R4oN_" value="no date, only the picker for time" />
+    <property role="R4oN_" value="using allways current date" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2GjTsalT7g6" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
