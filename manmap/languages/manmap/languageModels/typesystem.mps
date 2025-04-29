@@ -2820,24 +2820,65 @@
     <property role="TrG5h" value="typeof_LikeOperator" />
     <property role="3GE5qa" value="query" />
     <node concept="3clFbS" id="QyBIeILkPr" role="18ibNy">
-      <node concept="1Z5TYs" id="QyBIeILkPG" role="3cqZAp">
-        <property role="3wDh2S" value="true" />
-        <node concept="mw_s8" id="QyBIeILkPK" role="1ZfhKB">
-          <node concept="2c44tf" id="QyBIeILkPL" role="mwGJk">
-            <node concept="17QB3L" id="QyBIeILkPN" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="QyBIeILkPJ" role="1ZfhK$">
-          <node concept="1Z2H0r" id="QyBIeILkPu" role="mwGJk">
-            <node concept="2OqwBi" id="QyBIeILkPz" role="1Z2MuG">
-              <node concept="1YBJjd" id="QyBIeILkPw" role="2Oq$k0">
-                <ref role="1YBMHb" node="QyBIeILkPs" resolve="lo" />
+      <node concept="nvevp" id="2TcbFOjKAtt" role="3cqZAp">
+        <node concept="3clFbS" id="2TcbFOjKAtv" role="nvhr_">
+          <node concept="3clFbJ" id="2TcbFOjKAXU" role="3cqZAp">
+            <node concept="1Wc70l" id="2TcbFOjKCz6" role="3clFbw">
+              <node concept="3fqX7Q" id="2TcbFOjKCvG" role="3uHU7B">
+                <node concept="2OqwBi" id="2TcbFOjKCvI" role="3fr31v">
+                  <node concept="2X3wrD" id="2TcbFOjKCvJ" role="2Oq$k0">
+                    <ref role="2X3Bk0" node="2TcbFOjKAtz" resolve="typeOperand" />
+                  </node>
+                  <node concept="1mIQ4w" id="2TcbFOjKCvK" role="2OqNvi">
+                    <node concept="chp4Y" id="2TcbFOjKCvL" role="cj9EA">
+                      <ref role="cht4Q" to="tpee:hP7QB7G" resolve="StringType" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node concept="3TrEf2" id="QyBIeILkPD" role="2OqNvi">
-                <ref role="3Tt5mk" to="r5tz:QyBIeILkO_" resolve="operand" />
+              <node concept="3fqX7Q" id="2TcbFOjKCCi" role="3uHU7w">
+                <node concept="2OqwBi" id="2TcbFOjKCCk" role="3fr31v">
+                  <node concept="2X3wrD" id="2TcbFOjKCCl" role="2Oq$k0">
+                    <ref role="2X3Bk0" node="2TcbFOjKAtz" resolve="typeOperand" />
+                  </node>
+                  <node concept="1mIQ4w" id="2TcbFOjKCCm" role="2OqNvi">
+                    <node concept="chp4Y" id="2TcbFOjKCCn" role="cj9EA">
+                      <ref role="cht4Q" to="tpee:f_0OyhT" resolve="IntegerType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2TcbFOjKAXW" role="3clFbx">
+              <node concept="2MkqsV" id="2TcbFOjKCMw" role="3cqZAp">
+                <node concept="Xl_RD" id="2TcbFOjKCMA" role="2MkJ7o">
+                  <property role="Xl_RC" value="Currently the like op supports only string / int." />
+                </node>
+                <node concept="2OqwBi" id="2TcbFOjKD4x" role="1urrMF">
+                  <node concept="1YBJjd" id="2TcbFOjKCWj" role="2Oq$k0">
+                    <ref role="1YBMHb" node="QyBIeILkPs" resolve="lo" />
+                  </node>
+                  <node concept="3TrEf2" id="2TcbFOjKDo4" role="2OqNvi">
+                    <ref role="3Tt5mk" to="r5tz:QyBIeILkO_" resolve="operand" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
+        </node>
+        <node concept="1Z2H0r" id="2TcbFOjKAxL" role="nvjzm">
+          <node concept="2OqwBi" id="2TcbFOjKAFq" role="1Z2MuG">
+            <node concept="1YBJjd" id="2TcbFOjKAz0" role="2Oq$k0">
+              <ref role="1YBMHb" node="QyBIeILkPs" resolve="lo" />
+            </node>
+            <node concept="3TrEf2" id="2TcbFOjKAS0" role="2OqNvi">
+              <ref role="3Tt5mk" to="r5tz:QyBIeILkO_" resolve="operand" />
+            </node>
+          </node>
+        </node>
+        <node concept="2X1qdy" id="2TcbFOjKAtz" role="2X0Ygz">
+          <property role="TrG5h" value="typeOperand" />
+          <node concept="2jxLKc" id="2TcbFOjKAt$" role="1tU5fm" />
         </node>
       </node>
       <node concept="1Z5TYs" id="QyBIeILkPO" role="3cqZAp">
