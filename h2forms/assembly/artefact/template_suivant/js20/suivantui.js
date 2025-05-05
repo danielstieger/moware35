@@ -113,7 +113,7 @@ function svHasOptimKeyboard() {
 }
 
 function svHasScanableFld() {
-    return $$('input[scanable="true"]').length > 0;
+    return $$('input[scanable="true"]:not([type="hidden"]').length > 0;
 }
 
 function svScanEnabled(){
