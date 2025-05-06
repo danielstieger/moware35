@@ -1725,8 +1725,14 @@
               <node concept="2ShNRf" id="4kA4APOvC3J" role="YScLw">
                 <node concept="1pGfFk" id="4kA4APOvErJ" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="4kA4APOvF1a" role="37wK5m">
-                    <property role="Xl_RC" value="This application is set to parDeploy forward! Why does the container not shift forward to newer version? Not deplyoed?" />
+                  <node concept="3cpWs3" id="2m3o_FdpuZc" role="37wK5m">
+                    <node concept="2YIFZM" id="2m3o_Fdpx86" role="3uHU7w">
+                      <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                    </node>
+                    <node concept="Xl_RD" id="4kA4APOvF1a" role="3uHU7B">
+                      <property role="Xl_RC" value="This application is set to parDeploy forward! Why does the container not shift forward to newer version? Not deplyoed?" />
+                    </node>
                   </node>
                 </node>
               </node>
