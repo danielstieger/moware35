@@ -396,6 +396,13 @@
         <ref role="3uigEE" to="b9zp:~PebbleTemplate" resolve="PebbleTemplate" />
       </node>
     </node>
+    <node concept="312cEg" id="2ALAMOe0r17" role="jymVt">
+      <property role="TrG5h" value="compiledMessageTemplate" />
+      <node concept="3Tm6S6" id="2ALAMOe0r18" role="1B3o_S" />
+      <node concept="3uibUv" id="2ALAMOe0r19" role="1tU5fm">
+        <ref role="3uigEE" to="b9zp:~PebbleTemplate" resolve="PebbleTemplate" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2AQWB$ePeqy" role="jymVt" />
     <node concept="2tJIrI" id="2AQWB$ePery" role="jymVt" />
     <node concept="2tJIrI" id="7WBKY1Wig4W" role="jymVt" />
@@ -424,6 +431,10 @@
       <node concept="37vLTG" id="57ov2SAhf4" role="3clF46">
         <property role="TrG5h" value="loginTemplate" />
         <node concept="17QB3L" id="57ov2SAhnn" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2ALAMOe0tid" role="3clF46">
+        <property role="TrG5h" value="messageTemplate" />
+        <node concept="17QB3L" id="2ALAMOe0tie" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="2AQWB$ePeL0" role="3clF45" />
       <node concept="3Tm1VV" id="2AQWB$ePeL1" role="1B3o_S" />
@@ -494,6 +505,22 @@
               </node>
               <node concept="37vLTw" id="57ov2SAhDx" role="37wK5m">
                 <ref role="3cqZAo" node="57ov2SAhf4" resolve="loginTemplate" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2ALAMOe0rHN" role="3cqZAp">
+          <node concept="37vLTI" id="2ALAMOe0rHO" role="3clFbG">
+            <node concept="37vLTw" id="2ALAMOe0rHP" role="37vLTJ">
+              <ref role="3cqZAo" node="2ALAMOe0r17" resolve="compiledMessageTemplate" />
+            </node>
+            <node concept="1rXfSq" id="2ALAMOe0rHQ" role="37vLTx">
+              <ref role="37wK5l" node="19VJYqAtWv0" resolve="compileTemplateFor" />
+              <node concept="37vLTw" id="2ALAMOe0rHR" role="37wK5m">
+                <ref role="3cqZAo" node="7WBKY1Wc6Aw" resolve="templateName" />
+              </node>
+              <node concept="37vLTw" id="2ALAMOe0rHS" role="37wK5m">
+                <ref role="3cqZAo" node="2ALAMOe0tid" resolve="messageTemplate" />
               </node>
             </node>
           </node>
@@ -1114,6 +1141,41 @@
                 </node>
               </node>
               <node concept="3clFbH" id="6PWRVmxopK1" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2ALAMOe0qra" role="3eNLev">
+            <node concept="3clFbC" id="2ALAMOe0qrb" role="3eO9$A">
+              <node concept="Rm8GO" id="2ALAMOe0qRE" role="3uHU7w">
+                <ref role="Rm8GQ" to="tea8:2ALAMOdYpBJ" resolve="MESSAGE_PAGE" />
+                <ref role="1Px2BO" to="tea8:57ov2SAcdJ" resolve="IH2FormsTemplateRenderer.SpecialPage" />
+              </node>
+              <node concept="37vLTw" id="2ALAMOe0qrd" role="3uHU7B">
+                <ref role="3cqZAo" node="57ov2SBsGm" resolve="typeOfPage" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="2ALAMOe0qre" role="3eOfB_">
+              <node concept="3clFbF" id="2ALAMOe0qrf" role="3cqZAp">
+                <node concept="2OqwBi" id="2ALAMOe0qrg" role="3clFbG">
+                  <node concept="37vLTw" id="2ALAMOe0qrh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2ALAMOe0r17" resolve="compiledMessageTemplate" />
+                  </node>
+                  <node concept="liA8E" id="2ALAMOe0qri" role="2OqNvi">
+                    <ref role="37wK5l" to="b9zp:~PebbleTemplate.evaluate(java.io.Writer,java.util.Map)" resolve="evaluate" />
+                    <node concept="2OqwBi" id="2ALAMOe0qrj" role="37wK5m">
+                      <node concept="37vLTw" id="2ALAMOe0qrk" role="2Oq$k0">
+                        <ref role="3cqZAo" node="57ov2SBsGo" resolve="response" />
+                      </node>
+                      <node concept="liA8E" id="2ALAMOe0qrl" role="2OqNvi">
+                        <ref role="37wK5l" to="opgt:~ServletResponse.getWriter()" resolve="getWriter" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="2ALAMOe0qrm" role="37wK5m">
+                      <ref role="3cqZAo" node="57ov2SAds_" resolve="renderMap" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="2ALAMOe0qrn" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -1940,6 +2002,9 @@
               </node>
               <node concept="Xl_RD" id="57ov2SAiZF" role="37wK5m">
                 <property role="Xl_RC" value="ui_login" />
+              </node>
+              <node concept="Xl_RD" id="2ALAMOe0xvL" role="37wK5m">
+                <property role="Xl_RC" value="ui_message" />
               </node>
             </node>
           </node>

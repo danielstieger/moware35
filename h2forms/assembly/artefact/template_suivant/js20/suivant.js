@@ -28,6 +28,11 @@ var uploadEditorId = null;
 var uploadInternalFilename = '/data/tmp/public/';
 
 
+function fullyReloadThisPageWithParams() {
+  var loc = window.location;
+  window.location.assign(loc)
+}
+
 function saveSubmitDueScan(){
     var conclusion = $('input[name="scanconclusion"]').value;
     saveSubmit(conclusion);
