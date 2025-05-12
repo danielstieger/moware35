@@ -36,6 +36,10 @@
     {% for prblm in dialog.problems %}
     <div class="w3-card sv-top-dlg-uicmd {% if prblm.isWarningOnly %}sv-warning-orange warnbeep{% else %}sv-question-red errorbeep{% endif %}">{{ prblm.SimpleUserText|raw }}</div>
     {% endfor %}
-
+    {% endif %}
+    {% if dialog.isReloadEnabled %}
+    <div class="w3-panel svMessage">
+        <button type="button" onClick="javascript:fullyReloadThisPageWithParams()" class="w3-bar-item w3-button sv-question-red"> <i class="material-icons"> done </i> OK </button>
+    </div>
     {% endif %}
 {% endif %}

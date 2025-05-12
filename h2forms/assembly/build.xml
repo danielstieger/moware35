@@ -22,7 +22,7 @@
 
 
   <!-- **** app specific definitions **************************************************************** -->
-  <property name="appName"              value="MDEApp" />
+  <property name="appName"              value="serles#MDEApp" />
   <property name="appMainclass"         value="org.modellwerkstatt.simple.app.App_MDE_Order" />
   <property name="appConfiguration"     value="org/modellwerkstatt/simple/infra/configs/MdeConfig.xml" /> 
     

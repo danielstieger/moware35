@@ -28826,7 +28826,34 @@
       <node concept="3Tm1VV" id="b5WIFZ3Ehz" role="1B3o_S" />
       <node concept="17QB3L" id="b5WIFZ3HnM" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="4vOJ5DYKqjF" role="jymVt" />
+    <node concept="3clFb_" id="3iaIn_b9Vmy" role="jymVt">
+      <property role="TrG5h" value="getEscSwAppVersion" />
+      <node concept="17QB3L" id="3iaIn_b9Yow" role="3clF45" />
+      <node concept="3Tm1VV" id="3iaIn_b9Vm_" role="1B3o_S" />
+      <node concept="3clFbS" id="3iaIn_b9VmA" role="3clF47">
+        <node concept="3clFbF" id="3iaIn_babiW" role="3cqZAp">
+          <node concept="2OqwBi" id="3iaIn_bacEu" role="3clFbG">
+            <node concept="2OqwBi" id="3iaIn_babvT" role="2Oq$k0">
+              <node concept="37vLTw" id="3iaIn_babiV" role="2Oq$k0">
+                <ref role="3cqZAo" node="4nH4LOEEP8H" resolve="swAppVersion" />
+              </node>
+              <node concept="liA8E" id="3iaIn_bacnw" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3iaIn_bad_Z" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+              <node concept="Xl_RD" id="3iaIn_badJj" role="37wK5m">
+                <property role="Xl_RC" value="\\W" />
+              </node>
+              <node concept="Xl_RD" id="3iaIn_badQm" role="37wK5m">
+                <property role="Xl_RC" value="_" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1bKck6S1g6Y" role="jymVt">
       <property role="TrG5h" value="touch" />
       <node concept="3cqZAl" id="1bKck6S1g70" role="3clF45" />

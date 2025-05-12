@@ -197,12 +197,6 @@ function svCameraPicTaken(cbData){
         $('img[name=img_' + uploadEditorId + ']').src = '';
         $('input[name=' + uploadEditorId + ']').value = '';
 
-        if(uploadLocationStore === '-') {
-            var loc = window.location.href.split('/');
-            // protocol, server & port & servlet url
-            uploadLocationStore = loc[0]+ '//' + loc[2] + '/' + loc[3] + '/picupload/';
-        }
-
         try {
             var imgName = cbData.imageUri.substring(cbData.imageUri.lastIndexOf('/') + 1);
             // console.log('Uploading ' + cbData.imageUri + " to " + uploadLocationStore);
@@ -230,8 +224,8 @@ function svCameraPicTaken(cbData){
         }
 
     } else {
-        alert('Take picture: No imageUri in cbData!');
-        svLog('mCameraPicTaken', 'No imageUri in cbData!!');
+        alert('No Picture taken (no imageUri in cbData)!');
+        svLog('mCameraPicTaken', 'No Picture taken (no imageUri in cbData)!');
         for (let prop in cbData) {
             svLog('mCameraPicTaken', ''+ prop + ": " + cbData[prop]);
         }
@@ -345,6 +339,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     uploadLocationRetrieve = $('meta[name=h2UploadLocationRetrieve]').content;
     uploadLocationStore = $('meta[name=h2UploadLocationStore]').content;
+    if(!uploadLocationStore.startsWith('http')) {
+        var loc = window.location.href.split('/');
+        // protocol, server & port & servlet url
+        uploadLocationStore = loc[0]+ '//' + loc[2] + uploadLocationStore;
+    }
+
     camDesiredWidth = Number($('meta[name=h2CamDesiredWidth]').content);
     camDesiredHeight = Number($('meta[name=h2CamDesiredHeight]').content);
     camUseSystemViewfinder = $('meta[name=h2CamUseSystemViewfinder]').content === 'true';

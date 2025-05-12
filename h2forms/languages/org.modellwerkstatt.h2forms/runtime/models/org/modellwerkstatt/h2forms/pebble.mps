@@ -396,13 +396,6 @@
         <ref role="3uigEE" to="b9zp:~PebbleTemplate" resolve="PebbleTemplate" />
       </node>
     </node>
-    <node concept="312cEg" id="2ALAMOe0r17" role="jymVt">
-      <property role="TrG5h" value="compiledMessageTemplate" />
-      <node concept="3Tm6S6" id="2ALAMOe0r18" role="1B3o_S" />
-      <node concept="3uibUv" id="2ALAMOe0r19" role="1tU5fm">
-        <ref role="3uigEE" to="b9zp:~PebbleTemplate" resolve="PebbleTemplate" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="2AQWB$ePeqy" role="jymVt" />
     <node concept="2tJIrI" id="2AQWB$ePery" role="jymVt" />
     <node concept="2tJIrI" id="7WBKY1Wig4W" role="jymVt" />
@@ -431,10 +424,6 @@
       <node concept="37vLTG" id="57ov2SAhf4" role="3clF46">
         <property role="TrG5h" value="loginTemplate" />
         <node concept="17QB3L" id="57ov2SAhnn" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="2ALAMOe0tid" role="3clF46">
-        <property role="TrG5h" value="messageTemplate" />
-        <node concept="17QB3L" id="2ALAMOe0tie" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="2AQWB$ePeL0" role="3clF45" />
       <node concept="3Tm1VV" id="2AQWB$ePeL1" role="1B3o_S" />
@@ -505,22 +494,6 @@
               </node>
               <node concept="37vLTw" id="57ov2SAhDx" role="37wK5m">
                 <ref role="3cqZAo" node="57ov2SAhf4" resolve="loginTemplate" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2ALAMOe0rHN" role="3cqZAp">
-          <node concept="37vLTI" id="2ALAMOe0rHO" role="3clFbG">
-            <node concept="37vLTw" id="2ALAMOe0rHP" role="37vLTJ">
-              <ref role="3cqZAo" node="2ALAMOe0r17" resolve="compiledMessageTemplate" />
-            </node>
-            <node concept="1rXfSq" id="2ALAMOe0rHQ" role="37vLTx">
-              <ref role="37wK5l" node="19VJYqAtWv0" resolve="compileTemplateFor" />
-              <node concept="37vLTw" id="2ALAMOe0rHR" role="37wK5m">
-                <ref role="3cqZAo" node="7WBKY1Wc6Aw" resolve="templateName" />
-              </node>
-              <node concept="37vLTw" id="2ALAMOe0rHS" role="37wK5m">
-                <ref role="3cqZAo" node="2ALAMOe0tid" resolve="messageTemplate" />
               </node>
             </node>
           </node>
@@ -1143,41 +1116,6 @@
               <node concept="3clFbH" id="6PWRVmxopK1" role="3cqZAp" />
             </node>
           </node>
-          <node concept="3eNFk2" id="2ALAMOe0qra" role="3eNLev">
-            <node concept="3clFbC" id="2ALAMOe0qrb" role="3eO9$A">
-              <node concept="Rm8GO" id="2ALAMOe0qRE" role="3uHU7w">
-                <ref role="Rm8GQ" to="tea8:2ALAMOdYpBJ" resolve="MESSAGE_PAGE" />
-                <ref role="1Px2BO" to="tea8:57ov2SAcdJ" resolve="IH2FormsTemplateRenderer.SpecialPage" />
-              </node>
-              <node concept="37vLTw" id="2ALAMOe0qrd" role="3uHU7B">
-                <ref role="3cqZAo" node="57ov2SBsGm" resolve="typeOfPage" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="2ALAMOe0qre" role="3eOfB_">
-              <node concept="3clFbF" id="2ALAMOe0qrf" role="3cqZAp">
-                <node concept="2OqwBi" id="2ALAMOe0qrg" role="3clFbG">
-                  <node concept="37vLTw" id="2ALAMOe0qrh" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2ALAMOe0r17" resolve="compiledMessageTemplate" />
-                  </node>
-                  <node concept="liA8E" id="2ALAMOe0qri" role="2OqNvi">
-                    <ref role="37wK5l" to="b9zp:~PebbleTemplate.evaluate(java.io.Writer,java.util.Map)" resolve="evaluate" />
-                    <node concept="2OqwBi" id="2ALAMOe0qrj" role="37wK5m">
-                      <node concept="37vLTw" id="2ALAMOe0qrk" role="2Oq$k0">
-                        <ref role="3cqZAo" node="57ov2SBsGo" resolve="response" />
-                      </node>
-                      <node concept="liA8E" id="2ALAMOe0qrl" role="2OqNvi">
-                        <ref role="37wK5l" to="opgt:~ServletResponse.getWriter()" resolve="getWriter" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="2ALAMOe0qrm" role="37wK5m">
-                      <ref role="3cqZAo" node="57ov2SAds_" resolve="renderMap" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="2ALAMOe0qrn" role="3cqZAp" />
-            </node>
-          </node>
         </node>
       </node>
     </node>
@@ -1265,15 +1203,6 @@
       <node concept="17QB3L" id="2gcpqd5_rfI" role="1tU5fm" />
       <node concept="Xl_RD" id="2gcpqd5_rfJ" role="33vP2m">
         <property role="Xl_RC" value="mpreis" />
-      </node>
-    </node>
-    <node concept="Wx3nA" id="2XYulUz7Wzk" role="jymVt">
-      <property role="TrG5h" value="LEG_TEMPLATE" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm1VV" id="2XYulUz7Wzl" role="1B3o_S" />
-      <node concept="17QB3L" id="2XYulUz7Wzm" role="1tU5fm" />
-      <node concept="Xl_RD" id="2XYulUz7Wzn" role="33vP2m">
-        <property role="Xl_RC" value="template_leg" />
       </node>
     </node>
     <node concept="312cEg" id="3k6NRaQrtG9" role="jymVt">
@@ -2002,9 +1931,6 @@
               </node>
               <node concept="Xl_RD" id="57ov2SAiZF" role="37wK5m">
                 <property role="Xl_RC" value="ui_login" />
-              </node>
-              <node concept="Xl_RD" id="2ALAMOe0xvL" role="37wK5m">
-                <property role="Xl_RC" value="ui_message" />
               </node>
             </node>
           </node>
@@ -2742,72 +2668,22 @@
       <node concept="3clFbS" id="7RHNXGyQGhd" role="3clF47">
         <node concept="3clFbJ" id="3V1gzeLYpyy" role="3cqZAp">
           <node concept="3clFbS" id="3V1gzeLYpy$" role="3clFbx">
-            <node concept="3cpWs6" id="2XYulUz7Afs" role="3cqZAp">
-              <node concept="2ShNRf" id="19VJYqAtdFg" role="3cqZAk">
-                <node concept="1pGfFk" id="19VJYqAteSv" role="2ShVmc">
+            <node concept="3cpWs6" id="2XYulUz7ORr" role="3cqZAp">
+              <node concept="2ShNRf" id="2XYulUz7OTP" role="3cqZAk">
+                <node concept="1pGfFk" id="2XYulUz7Qbs" role="2ShVmc">
                   <ref role="37wK5l" node="7RHNXGyZ4jO" resolve="TableForm" />
-                  <node concept="37vLTw" id="19VJYqAtz_C" role="37wK5m">
+                  <node concept="37vLTw" id="2XYulUz7R5O" role="37wK5m">
                     <ref role="3cqZAo" node="19VJYqAtxss" resolve="tableTemplate" />
                   </node>
-                  <node concept="2ShNRf" id="19VJYqAt$k9" role="37wK5m">
-                    <node concept="1pGfFk" id="19VJYqAt$_0" role="2ShVmc">
-                      <ref role="37wK5l" node="1Qo13pXujCQ" resolve="TwoOnTopRestBelowDivider" />
+                  <node concept="2ShNRf" id="2XYulUz7SDD" role="37wK5m">
+                    <node concept="1pGfFk" id="2XYulUz7TOb" role="2ShVmc">
+                      <ref role="37wK5l" node="2XYulUz7HTs" resolve="TwoTop12Divider" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
             <node concept="3clFbH" id="2XYulUz7UI0" role="3cqZAp" />
-          </node>
-          <node concept="2OqwBi" id="2XYulUz7zBI" role="3clFbw">
-            <node concept="liA8E" id="2XYulUz7zBJ" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="2OqwBi" id="2XYulUz7zBK" role="37wK5m">
-                <node concept="37vLTw" id="2XYulUz7zBL" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2462lDSqmsj" resolve="ctxStatics" />
-                </node>
-                <node concept="2S8uIT" id="2XYulUz7zBM" role="2OqNvi">
-                  <ref role="2S8YL0" to="tea8:2462lDSphk4" resolve="templateName" />
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="2XYulUz81Nw" role="2Oq$k0">
-              <ref role="3cqZAo" node="2XYulUz7Wzk" resolve="LEG_TEMPLATE" />
-            </node>
-          </node>
-          <node concept="3eNFk2" id="2XYulUz7EGG" role="3eNLev">
-            <node concept="2OqwBi" id="2XYulUz7H3k" role="3eO9$A">
-              <node concept="liA8E" id="2XYulUz7HmH" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                <node concept="2OqwBi" id="2XYulUz7GQM" role="37wK5m">
-                  <node concept="Xjq3P" id="2XYulUz7GNM" role="2Oq$k0" />
-                  <node concept="2OwXpG" id="2XYulUz7GW6" role="2OqNvi">
-                    <ref role="2Oxat5" node="2XYulUz7kJ8" resolve="dividerNamer" />
-                  </node>
-                </node>
-              </node>
-              <node concept="Xl_RD" id="2XYulUz7HpB" role="2Oq$k0">
-                <property role="Xl_RC" value="org.modellwerkstatt.h2forms.pebble.TwoTop12Divider" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="2XYulUz7EGI" role="3eOfB_">
-              <node concept="3cpWs6" id="2XYulUz7ORr" role="3cqZAp">
-                <node concept="2ShNRf" id="2XYulUz7OTP" role="3cqZAk">
-                  <node concept="1pGfFk" id="2XYulUz7Qbs" role="2ShVmc">
-                    <ref role="37wK5l" node="7RHNXGyZ4jO" resolve="TableForm" />
-                    <node concept="37vLTw" id="2XYulUz7R5O" role="37wK5m">
-                      <ref role="3cqZAo" node="19VJYqAtxss" resolve="tableTemplate" />
-                    </node>
-                    <node concept="2ShNRf" id="2XYulUz7SDD" role="37wK5m">
-                      <node concept="1pGfFk" id="2XYulUz7TOb" role="2ShVmc">
-                        <ref role="37wK5l" node="2XYulUz7HTs" resolve="TwoTop12Divider" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="2XYulUz7VB$" role="3cqZAp" />
-            </node>
           </node>
           <node concept="9aQIb" id="2XYulUz7FEA" role="9aQIa">
             <node concept="3clFbS" id="2XYulUz7FEB" role="9aQI4">
@@ -2826,6 +2702,20 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2XYulUz7H3k" role="3clFbw">
+            <node concept="liA8E" id="2XYulUz7HmH" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="2OqwBi" id="2XYulUz7GQM" role="37wK5m">
+                <node concept="Xjq3P" id="2XYulUz7GNM" role="2Oq$k0" />
+                <node concept="2OwXpG" id="2XYulUz7GW6" role="2OqNvi">
+                  <ref role="2Oxat5" node="2XYulUz7kJ8" resolve="dividerNamer" />
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="2XYulUz7HpB" role="2Oq$k0">
+              <property role="Xl_RC" value="org.modellwerkstatt.h2forms.pebble.TwoTop12Divider" />
             </node>
           </node>
         </node>
