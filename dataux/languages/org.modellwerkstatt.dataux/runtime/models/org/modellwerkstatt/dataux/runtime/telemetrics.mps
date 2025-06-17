@@ -79,6 +79,10 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -698,6 +702,71 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="h6mu9WZYn4" role="3cqZAp" />
+        <node concept="3clFbJ" id="h6mu9WZZ2R" role="3cqZAp">
+          <node concept="3clFbS" id="h6mu9WZZ2T" role="3clFbx">
+            <node concept="3clFbF" id="h6mu9WZZL$" role="3cqZAp">
+              <node concept="2OqwBi" id="h6mu9X0001" role="3clFbG">
+                <node concept="37vLTw" id="h6mu9WZZLy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2yuEF6qaF3t" resolve="appTelemetrics" />
+                </node>
+                <node concept="liA8E" id="h6mu9X00a6" role="2OqNvi">
+                  <ref role="37wK5l" node="h6mu9WZDnm" resolve="setResetEventBusAction" />
+                  <node concept="2ShNRf" id="h6mu9X00cK" role="37wK5m">
+                    <node concept="YeOm9" id="h6mu9X00yF" role="2ShVmc">
+                      <node concept="1Y3b0j" id="h6mu9X00yI" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <ref role="1Y3XeK" node="4nugiCVZyVA" resolve="ApplicationTelemetrics.DynamicAction" />
+                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                        <node concept="3Tm1VV" id="h6mu9X00yJ" role="1B3o_S" />
+                        <node concept="3clFb_" id="h6mu9X00yO" role="jymVt">
+                          <property role="TrG5h" value="execAction" />
+                          <node concept="17QB3L" id="h6mu9X00yP" role="3clF45" />
+                          <node concept="3Tm1VV" id="h6mu9X00yQ" role="1B3o_S" />
+                          <node concept="3clFbS" id="h6mu9X00yS" role="3clF47">
+                            <node concept="3clFbF" id="h6mu9X015c" role="3cqZAp">
+                              <node concept="2OqwBi" id="h6mu9X01tE" role="3clFbG">
+                                <node concept="2OqwBi" id="h6mu9X01g7" role="2Oq$k0">
+                                  <node concept="1eOMI4" id="h6mu9X015a" role="2Oq$k0">
+                                    <node concept="10QFUN" id="h6mu9X0157" role="1eOMHV">
+                                      <node concept="3uibUv" id="h6mu9X015F" role="10QFUM">
+                                        <ref role="3uigEE" to="1e0c:69JiVbyVOt3" resolve="BaseUiFactory" />
+                                      </node>
+                                      <node concept="37vLTw" id="h6mu9X018B" role="10QFUP">
+                                        <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="h6mu9X01pm" role="2OqNvi">
+                                    <ref role="37wK5l" to="1e0c:7HkVpVcgYkW" resolve="getEventBus" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="h6mu9X01_4" role="2OqNvi">
+                                  <ref role="37wK5l" to="28jr:h6mu9WYqxY" resolve="testReset" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2AHcQZ" id="h6mu9X00yU" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="h6mu9WZZyg" role="3clFbw">
+            <node concept="3uibUv" id="h6mu9WZZKp" role="2ZW6by">
+              <ref role="3uigEE" to="1e0c:69JiVbyVOt3" resolve="BaseUiFactory" />
+            </node>
+            <node concept="37vLTw" id="h6mu9WZZfG" role="2ZW6bz">
+              <ref role="3cqZAo" node="5XGplYAWBWY" resolve="factory" />
             </node>
           </node>
         </node>
@@ -1465,6 +1534,13 @@
       <property role="TrG5h" value="parDeployAutoSetCurrentVersion" />
       <node concept="3Tm6S6" id="4nugiCVZRzr" role="1B3o_S" />
       <node concept="3uibUv" id="4nugiCVZRzs" role="1tU5fm">
+        <ref role="3uigEE" node="4nugiCVZyVA" resolve="ApplicationTelemetrics.DynamicAction" />
+      </node>
+    </node>
+    <node concept="312cEg" id="h6mu9WZi55" role="jymVt">
+      <property role="TrG5h" value="resetEventBusConnection" />
+      <node concept="3Tm6S6" id="h6mu9WZi56" role="1B3o_S" />
+      <node concept="3uibUv" id="h6mu9WZi57" role="1tU5fm">
         <ref role="3uigEE" node="4nugiCVZyVA" resolve="ApplicationTelemetrics.DynamicAction" />
       </node>
     </node>
@@ -3163,7 +3239,65 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4nugiCVZMN$" role="jymVt" />
-    <node concept="2tJIrI" id="4nugiCVZOmu" role="jymVt" />
+    <node concept="3clFb_" id="h6mu9WZDnm" role="jymVt">
+      <property role="TrG5h" value="setResetEventBusAction" />
+      <node concept="37vLTG" id="h6mu9WZJzW" role="3clF46">
+        <property role="TrG5h" value="act" />
+        <node concept="3uibUv" id="h6mu9WZKRs" role="1tU5fm">
+          <ref role="3uigEE" node="4nugiCVZyVA" resolve="ApplicationTelemetrics.DynamicAction" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="h6mu9WZDno" role="3clF45" />
+      <node concept="3Tm1VV" id="h6mu9WZDnp" role="1B3o_S" />
+      <node concept="3clFbS" id="h6mu9WZDnq" role="3clF47">
+        <node concept="3clFbF" id="h6mu9WZLxo" role="3cqZAp">
+          <node concept="37vLTI" id="h6mu9WZMaT" role="3clFbG">
+            <node concept="37vLTw" id="h6mu9WZMcg" role="37vLTx">
+              <ref role="3cqZAo" node="h6mu9WZJzW" resolve="act" />
+            </node>
+            <node concept="37vLTw" id="h6mu9WZLxn" role="37vLTJ">
+              <ref role="3cqZAo" node="h6mu9WZi55" resolve="resetEventBusConnection" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="h6mu9WZdWv" role="jymVt">
+      <property role="TrG5h" value="tryResetEventBusConnection" />
+      <node concept="3Tm1VV" id="h6mu9WZdWx" role="1B3o_S" />
+      <node concept="17QB3L" id="h6mu9WZdWy" role="3clF45" />
+      <node concept="3clFbS" id="h6mu9WZdW_" role="3clF47">
+        <node concept="3clFbJ" id="h6mu9WZi4p" role="3cqZAp">
+          <node concept="3clFbS" id="h6mu9WZi4r" role="3clFbx">
+            <node concept="3cpWs6" id="h6mu9WZozb" role="3cqZAp">
+              <node concept="2OqwBi" id="h6mu9WZsJt" role="3cqZAk">
+                <node concept="37vLTw" id="h6mu9WZrPK" role="2Oq$k0">
+                  <ref role="3cqZAo" node="h6mu9WZi55" resolve="resetEventBusConnection" />
+                </node>
+                <node concept="liA8E" id="h6mu9WZu2P" role="2OqNvi">
+                  <ref role="37wK5l" node="4nugiCVZyVB" resolve="execAction" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="h6mu9WZoAM" role="3clFbw">
+            <node concept="10Nm6u" id="h6mu9WZq0A" role="3uHU7w" />
+            <node concept="37vLTw" id="h6mu9WZnVl" role="3uHU7B">
+              <ref role="3cqZAo" node="h6mu9WZi55" resolve="resetEventBusConnection" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="h6mu9WZvDl" role="3cqZAp">
+          <node concept="Xl_RD" id="h6mu9WZwT9" role="3cqZAk">
+            <property role="Xl_RC" value="no reset action set :/" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="h6mu9WZdWA" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="h6mu9WZMNj" role="jymVt" />
     <node concept="3clFb_" id="6rMtHgbDDVu" role="jymVt">
       <property role="TrG5h" value="gcClean" />
       <node concept="3cqZAl" id="6rMtHgbDDVw" role="3clF45" />
@@ -3509,6 +3643,12 @@
       <node concept="3clFbS" id="4nugiCVZDBf" role="3clF47" />
       <node concept="3Tm1VV" id="4nugiCVZDBg" role="1B3o_S" />
       <node concept="17QB3L" id="4nugiCVZBGO" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="h6mu9WZbgk" role="jymVt">
+      <property role="TrG5h" value="tryResetEventBusConnection" />
+      <node concept="3clFbS" id="h6mu9WZbgl" role="3clF47" />
+      <node concept="3Tm1VV" id="h6mu9WZbgm" role="1B3o_S" />
+      <node concept="17QB3L" id="h6mu9WZbgn" role="3clF45" />
     </node>
   </node>
   <node concept="312cEu" id="3CnNtH_0mBF">
