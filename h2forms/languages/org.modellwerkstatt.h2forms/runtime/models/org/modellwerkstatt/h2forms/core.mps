@@ -14806,13 +14806,6 @@
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
-    <node concept="2tJIrI" id="h6mu9XfPLt" role="jymVt" />
-    <node concept="3clFb_" id="h6mu9XfPSt" role="jymVt">
-      <property role="TrG5h" value="getLicenseKey" />
-      <node concept="3clFbS" id="h6mu9XfPSw" role="3clF47" />
-      <node concept="3Tm1VV" id="h6mu9XfPSx" role="1B3o_S" />
-      <node concept="17QB3L" id="h6mu9XfPZy" role="3clF45" />
-    </node>
   </node>
   <node concept="312cEu" id="5hYsHqQzcYi">
     <property role="TrG5h" value="H2Dialog" />
@@ -16194,6 +16187,13 @@
           <property role="3clFbU" value="true" />
         </node>
       </node>
+      <node concept="QsSxf" id="1NSMOpDNrpJ" role="Qtgdg">
+        <property role="TrG5h" value="STRICH" />
+        <ref role="37wK5l" node="57ov2SMefa" resolve="ContextClient.DevicesSw" />
+        <node concept="3clFbT" id="1NSMOpDNrPy" role="37wK5m">
+          <property role="3clFbU" value="true" />
+        </node>
+      </node>
       <node concept="QsSxf" id="7WBKY1WeOL8" role="Qtgdg">
         <property role="TrG5h" value="STANDARD" />
         <ref role="37wK5l" node="57ov2SMefa" resolve="ContextClient.DevicesSw" />
@@ -16503,6 +16503,19 @@
       <node concept="10P_77" id="6tydhbZf1iw" role="2RkE6I" />
     </node>
     <node concept="2tJIrI" id="57ov2SWlRl" role="jymVt" />
+    <node concept="2RhdJD" id="1NSMOpDXSQ3" role="jymVt">
+      <property role="2RkwnN" value="strichLicenseKey" />
+      <node concept="3Tm1VV" id="1NSMOpDXSQ4" role="1B3o_S" />
+      <node concept="2RoN1w" id="1NSMOpDXSQ5" role="2RnVtd">
+        <node concept="3wEZqW" id="1NSMOpDXSQ6" role="3wFrgM" />
+        <node concept="3xqBd$" id="1NSMOpDXSQ7" role="3xrYvX">
+          <node concept="3Tm1VV" id="1NSMOpDXSQ8" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="1NSMOpDXSQ9" role="2RkE6I" />
+    </node>
+    <node concept="2tJIrI" id="1NSMOpDXSOc" role="jymVt" />
+    <node concept="2tJIrI" id="1NSMOpDXSJw" role="jymVt" />
     <node concept="3clFbW" id="7WBKY1WeZfY" role="jymVt">
       <node concept="3cqZAl" id="7WBKY1WeZg0" role="3clF45" />
       <node concept="3Tm1VV" id="7WBKY1WeZg1" role="1B3o_S" />
@@ -17360,6 +17373,50 @@
       </node>
       <node concept="3Tm1VV" id="6Pmr75YCjMm" role="1B3o_S" />
     </node>
+  </node>
+  <node concept="312cEu" id="1NSMOpDXlPM">
+    <property role="TrG5h" value="H2Licenses" />
+    <node concept="3Tm1VV" id="1NSMOpDXlPN" role="1B3o_S" />
+    <node concept="312cEg" id="1NSMOpDXm3I" role="jymVt">
+      <property role="TrG5h" value="strichLicenseKey" />
+      <node concept="3Tm6S6" id="1NSMOpDXm3J" role="1B3o_S" />
+      <node concept="17QB3L" id="1NSMOpDXm43" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="1NSMOpDXm58" role="jymVt" />
+    <node concept="3clFb_" id="1NSMOpDXm5x" role="jymVt">
+      <property role="TrG5h" value="setStrichLicenseKey" />
+      <node concept="37vLTG" id="1NSMOpDXm7s" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="17QB3L" id="1NSMOpDXm7w" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1NSMOpDXm5z" role="3clF45" />
+      <node concept="3Tm1VV" id="1NSMOpDXm5$" role="1B3o_S" />
+      <node concept="3clFbS" id="1NSMOpDXm5_" role="3clF47">
+        <node concept="3clFbF" id="1NSMOpDXm8B" role="3cqZAp">
+          <node concept="37vLTI" id="1NSMOpDXmi_" role="3clFbG">
+            <node concept="37vLTw" id="1NSMOpDXmjQ" role="37vLTx">
+              <ref role="3cqZAo" node="1NSMOpDXm7s" resolve="val" />
+            </node>
+            <node concept="37vLTw" id="1NSMOpDXm8A" role="37vLTJ">
+              <ref role="3cqZAo" node="1NSMOpDXm3I" resolve="strichLicenseKey" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1NSMOpDXmkv" role="jymVt">
+      <property role="TrG5h" value="getStrichLicenseKey" />
+      <node concept="17QB3L" id="1NSMOpDXmnk" role="3clF45" />
+      <node concept="3Tm1VV" id="1NSMOpDXmkz" role="1B3o_S" />
+      <node concept="3clFbS" id="1NSMOpDXmk$" role="3clF47">
+        <node concept="3clFbF" id="1NSMOpDXmk_" role="3cqZAp">
+          <node concept="37vLTw" id="1NSMOpDXmkC" role="3clFbG">
+            <ref role="3cqZAo" node="1NSMOpDXm3I" resolve="strichLicenseKey" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1NSMOpDXm3x" role="jymVt" />
   </node>
 </model>
 

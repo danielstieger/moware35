@@ -27,6 +27,8 @@
             <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
             {% if client.deviceSw equals "SCANDIT" %}
                 <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: scScanSubmit();" disabled><i class="material-icons">camera</i></button>
+            {% elseif client.deviceSw equals "STRICH" %}
+                <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: strichScanSubmit();" disabled><i class="material-icons">camera</i></button>
             {% elseif client.deviceSw equals "STANDARD" %}
                 <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmitDueScan();"{% if not conc.enabled %} disabled {% endif %}><i class="material-icons">camera</i></button>
             {% endif %}

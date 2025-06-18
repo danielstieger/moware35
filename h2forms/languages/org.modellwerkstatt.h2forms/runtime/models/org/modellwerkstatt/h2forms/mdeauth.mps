@@ -456,8 +456,8 @@
             <node concept="3uibUv" id="1DW7q9hK_1i" role="1tU5fm">
               <ref role="3uigEE" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
             </node>
-            <node concept="Rm8GO" id="7WBKY1WhPdb" role="33vP2m">
-              <ref role="Rm8GQ" to="tea8:7WBKY1WeOL8" resolve="STANDARD" />
+            <node concept="Rm8GO" id="1NSMOpDNsFu" role="33vP2m">
+              <ref role="Rm8GQ" to="tea8:1NSMOpDNrpJ" resolve="STRICH" />
               <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
             </node>
           </node>
