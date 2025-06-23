@@ -59,6 +59,9 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -767,7 +770,31 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3SFZEotp2yV" role="3cqZAp" />
+        <node concept="3clFbF" id="3SFZEot$lSk" role="3cqZAp">
+          <node concept="2OqwBi" id="3SFZEot$lSh" role="3clFbG">
+            <node concept="10M0yZ" id="3SFZEot$lSi" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="3SFZEot$lSj" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="3SFZEot$nl$" role="37wK5m">
+                <node concept="3cpWs3" id="3SFZEot$n0_" role="3uHU7B">
+                  <node concept="Xl_RD" id="3SFZEot$mk6" role="3uHU7B">
+                    <property role="Xl_RC" value="GooglOAuth2 (1) got " />
+                  </node>
+                  <node concept="37vLTw" id="3SFZEot$n6B" role="3uHU7w">
+                    <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3SFZEot$n$J" role="3uHU7w">
+                  <property role="Xl_RC" value=" from TOKEN_ENDPOINT" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3SFZEot$kL2" role="3cqZAp" />
         <node concept="3cpWs8" id="3SFZEotoVuU" role="3cqZAp">
           <node concept="3cpWsn" id="3SFZEotoVuV" role="3cpWs9">
             <property role="TrG5h" value="someJson" />
@@ -865,7 +892,32 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3SFZEot$oq0" role="3cqZAp">
+          <node concept="2OqwBi" id="3SFZEot$oq1" role="3clFbG">
+            <node concept="10M0yZ" id="3SFZEot$oq2" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="3SFZEot$oq3" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="3SFZEot$oq4" role="37wK5m">
+                <node concept="3cpWs3" id="3SFZEot$oq5" role="3uHU7B">
+                  <node concept="Xl_RD" id="3SFZEot$oq6" role="3uHU7B">
+                    <property role="Xl_RC" value="GooglOAuth2 (2) got " />
+                  </node>
+                  <node concept="37vLTw" id="3SFZEot$oq7" role="3uHU7w">
+                    <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3SFZEot$oq8" role="3uHU7w">
+                  <property role="Xl_RC" value=" from USERINFO_ENDPOINT" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3SFZEotp15b" role="3cqZAp" />
+        <node concept="3clFbH" id="3SFZEot$nH$" role="3cqZAp" />
         <node concept="3clFbF" id="3SFZEotpbPV" role="3cqZAp">
           <node concept="37vLTI" id="3SFZEotpds5" role="3clFbG">
             <node concept="2YIFZM" id="3SFZEotpdLM" role="37vLTx">
@@ -923,6 +975,31 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3SFZEot$q2T" role="3cqZAp">
+          <node concept="2OqwBi" id="3SFZEot$q2U" role="3clFbG">
+            <node concept="10M0yZ" id="3SFZEot$q2V" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="3SFZEot$q2W" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="3SFZEot$q2X" role="37wK5m">
+                <node concept="3cpWs3" id="3SFZEot$q2Y" role="3uHU7B">
+                  <node concept="Xl_RD" id="3SFZEot$q2Z" role="3uHU7B">
+                    <property role="Xl_RC" value="GooglOAuth2 (3) got " />
+                  </node>
+                  <node concept="37vLTw" id="3SFZEot$q30" role="3uHU7w">
+                    <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3SFZEot$q31" role="3uHU7w">
+                  <property role="Xl_RC" value=" is the mail to use." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3SFZEot$q0g" role="3cqZAp" />
         <node concept="3cpWs6" id="3SFZEotoGEq" role="3cqZAp">
           <node concept="37vLTw" id="3SFZEotoGEr" role="3cqZAk">
             <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
