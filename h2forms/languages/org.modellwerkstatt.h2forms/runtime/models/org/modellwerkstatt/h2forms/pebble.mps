@@ -2648,6 +2648,44 @@
               </node>
             </node>
           </node>
+          <node concept="3eNFk2" id="4W0T8adpFLu" role="3eNLev">
+            <node concept="2OqwBi" id="4W0T8adpIwI" role="3eO9$A">
+              <node concept="37vLTw" id="4W0T8adpIfP" role="2Oq$k0">
+                <ref role="3cqZAo" node="57ov2S_GJb" resolve="authentiactorName" />
+              </node>
+              <node concept="liA8E" id="4W0T8adpJLi" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <node concept="2OqwBi" id="4W0T8adpKf1" role="37wK5m">
+                  <node concept="3VsKOn" id="4W0T8adpK0y" role="2Oq$k0">
+                    <ref role="3VsUkX" to="95x5:4W0T8adlZsy" resolve="H2MpreisLoginOAuth" />
+                  </node>
+                  <node concept="liA8E" id="4W0T8adpKzL" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="4W0T8adpFLw" role="3eOfB_">
+              <node concept="3cpWs6" id="4W0T8adpKIc" role="3cqZAp">
+                <node concept="2ShNRf" id="4W0T8adpKId" role="3cqZAk">
+                  <node concept="1pGfFk" id="4W0T8adpKIe" role="2ShVmc">
+                    <ref role="37wK5l" to="95x5:4W0T8adlZsU" resolve="H2MpreisLoginOAuth" />
+                    <node concept="Xjq3P" id="4W0T8adpKIf" role="37wK5m" />
+                    <node concept="37vLTw" id="4W0T8adpKIg" role="37wK5m">
+                      <ref role="3cqZAo" node="1wwgtxzhBqy" resolve="genApp" />
+                    </node>
+                    <node concept="37vLTw" id="4W0T8adpKIh" role="37wK5m">
+                      <ref role="3cqZAo" node="1wwgtxzhBq$" resolve="regHelper" />
+                    </node>
+                    <node concept="37vLTw" id="4W0T8adpKIi" role="37wK5m">
+                      <ref role="3cqZAo" node="1wwgtxzhBqA" resolve="ctxClient" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="4W0T8adpNeY" role="3cqZAp" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

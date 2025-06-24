@@ -177,8 +177,18 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -191,7 +201,7 @@
     </language>
   </registry>
   <node concept="3HP615" id="3SFZEotnOsc">
-    <property role="TrG5h" value="ExtAuthProvider" />
+    <property role="TrG5h" value="IExtAuthProvider" />
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3SFZEotnOsd" role="1B3o_S" />
     <node concept="3clFb_" id="3SFZEotnOse" role="jymVt">
@@ -442,7 +452,7 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3SFZEotoGBg" role="1B3o_S" />
     <node concept="3uibUv" id="3SFZEotoGBh" role="EKbjA">
-      <ref role="3uigEE" node="3SFZEotnOsc" resolve="ExtAuthProvider" />
+      <ref role="3uigEE" node="3SFZEotnOsc" resolve="IExtAuthProvider" />
     </node>
     <node concept="312cEg" id="3SFZEotoGBi" role="jymVt">
       <property role="TrG5h" value="AUTHINIT_ENDPOINT" />
@@ -770,25 +780,29 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3SFZEot$lSk" role="3cqZAp">
-          <node concept="2OqwBi" id="3SFZEot$lSh" role="3clFbG">
-            <node concept="10M0yZ" id="3SFZEot$lSi" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="3SFZEot$lSj" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="3SFZEot$nl$" role="37wK5m">
-                <node concept="3cpWs3" id="3SFZEot$n0_" role="3uHU7B">
-                  <node concept="Xl_RD" id="3SFZEot$mk6" role="3uHU7B">
-                    <property role="Xl_RC" value="GooglOAuth2 (1) got " />
+        <node concept="1X3_iC" id="1wTKWX_XJ8e" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="3SFZEot$lSk" role="8Wnug">
+            <node concept="2OqwBi" id="3SFZEot$lSh" role="3clFbG">
+              <node concept="10M0yZ" id="3SFZEot$lSi" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="3SFZEot$lSj" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <node concept="3cpWs3" id="3SFZEot$nl$" role="37wK5m">
+                  <node concept="3cpWs3" id="3SFZEot$n0_" role="3uHU7B">
+                    <node concept="Xl_RD" id="3SFZEot$mk6" role="3uHU7B">
+                      <property role="Xl_RC" value="GooglOAuth2 (1) got " />
+                    </node>
+                    <node concept="37vLTw" id="3SFZEot$n6B" role="3uHU7w">
+                      <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                    </node>
                   </node>
-                  <node concept="37vLTw" id="3SFZEot$n6B" role="3uHU7w">
-                    <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                  <node concept="Xl_RD" id="3SFZEot$n$J" role="3uHU7w">
+                    <property role="Xl_RC" value=" from TOKEN_ENDPOINT" />
                   </node>
-                </node>
-                <node concept="Xl_RD" id="3SFZEot$n$J" role="3uHU7w">
-                  <property role="Xl_RC" value=" from TOKEN_ENDPOINT" />
                 </node>
               </node>
             </node>
@@ -892,25 +906,29 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3SFZEot$oq0" role="3cqZAp">
-          <node concept="2OqwBi" id="3SFZEot$oq1" role="3clFbG">
-            <node concept="10M0yZ" id="3SFZEot$oq2" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="3SFZEot$oq3" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="3SFZEot$oq4" role="37wK5m">
-                <node concept="3cpWs3" id="3SFZEot$oq5" role="3uHU7B">
-                  <node concept="Xl_RD" id="3SFZEot$oq6" role="3uHU7B">
-                    <property role="Xl_RC" value="GooglOAuth2 (2) got " />
+        <node concept="1X3_iC" id="1wTKWX_XJRm" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="3SFZEot$oq0" role="8Wnug">
+            <node concept="2OqwBi" id="3SFZEot$oq1" role="3clFbG">
+              <node concept="10M0yZ" id="3SFZEot$oq2" role="2Oq$k0">
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              </node>
+              <node concept="liA8E" id="3SFZEot$oq3" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <node concept="3cpWs3" id="3SFZEot$oq4" role="37wK5m">
+                  <node concept="3cpWs3" id="3SFZEot$oq5" role="3uHU7B">
+                    <node concept="Xl_RD" id="3SFZEot$oq6" role="3uHU7B">
+                      <property role="Xl_RC" value="GooglOAuth2 (2) got " />
+                    </node>
+                    <node concept="37vLTw" id="3SFZEot$oq7" role="3uHU7w">
+                      <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                    </node>
                   </node>
-                  <node concept="37vLTw" id="3SFZEot$oq7" role="3uHU7w">
-                    <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                  <node concept="Xl_RD" id="3SFZEot$oq8" role="3uHU7w">
+                    <property role="Xl_RC" value=" from USERINFO_ENDPOINT" />
                   </node>
-                </node>
-                <node concept="Xl_RD" id="3SFZEot$oq8" role="3uHU7w">
-                  <property role="Xl_RC" value=" from USERINFO_ENDPOINT" />
                 </node>
               </node>
             </node>
@@ -975,25 +993,29 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3SFZEot$q2T" role="3cqZAp">
-          <node concept="2OqwBi" id="3SFZEot$q2U" role="3clFbG">
-            <node concept="10M0yZ" id="3SFZEot$q2V" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="3SFZEot$q2W" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="3SFZEot$q2X" role="37wK5m">
-                <node concept="3cpWs3" id="3SFZEot$q2Y" role="3uHU7B">
-                  <node concept="Xl_RD" id="3SFZEot$q2Z" role="3uHU7B">
-                    <property role="Xl_RC" value="GooglOAuth2 (3) got " />
+        <node concept="1X3_iC" id="1wTKWX_XKjB" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="3SFZEot$q2T" role="8Wnug">
+            <node concept="2OqwBi" id="3SFZEot$q2U" role="3clFbG">
+              <node concept="10M0yZ" id="3SFZEot$q2V" role="2Oq$k0">
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              </node>
+              <node concept="liA8E" id="3SFZEot$q2W" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <node concept="3cpWs3" id="3SFZEot$q2X" role="37wK5m">
+                  <node concept="3cpWs3" id="3SFZEot$q2Y" role="3uHU7B">
+                    <node concept="Xl_RD" id="3SFZEot$q2Z" role="3uHU7B">
+                      <property role="Xl_RC" value="GooglOAuth2 (3) got " />
+                    </node>
+                    <node concept="37vLTw" id="3SFZEot$q30" role="3uHU7w">
+                      <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                    </node>
                   </node>
-                  <node concept="37vLTw" id="3SFZEot$q30" role="3uHU7w">
-                    <ref role="3cqZAo" node="3SFZEotoGDg" resolve="content" />
+                  <node concept="Xl_RD" id="3SFZEot$q31" role="3uHU7w">
+                    <property role="Xl_RC" value=" is the mail to use." />
                   </node>
-                </node>
-                <node concept="Xl_RD" id="3SFZEot$q31" role="3uHU7w">
-                  <property role="Xl_RC" value=" is the mail to use." />
                 </node>
               </node>
             </node>
@@ -1622,7 +1644,7 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3SFZEotpkLw" role="1B3o_S" />
     <node concept="3uibUv" id="3SFZEotpkLx" role="EKbjA">
-      <ref role="3uigEE" node="3SFZEotnOsc" resolve="ExtAuthProvider" />
+      <ref role="3uigEE" node="3SFZEotnOsc" resolve="IExtAuthProvider" />
     </node>
     <node concept="312cEg" id="3SFZEotpkLy" role="jymVt">
       <property role="TrG5h" value="AUTHINIT_ENDPOINT" />
@@ -1982,7 +2004,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3SFZEotpkNS" role="2OqNvi">
-                <ref role="37wK5l" to=":^" resolve="asString" />
+                <ref role="37wK5l" to="vpat:~Json.asString()" resolve="asString" />
               </node>
             </node>
           </node>
@@ -2112,7 +2134,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3SFZEotpkOD" role="2OqNvi">
-                <ref role="37wK5l" to=":^" resolve="asString" />
+                <ref role="37wK5l" to="vpat:~Json.asString()" resolve="asString" />
               </node>
             </node>
           </node>
@@ -2166,7 +2188,7 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3SFZEotpyUb" role="1B3o_S" />
     <node concept="3uibUv" id="3SFZEotpyUc" role="EKbjA">
-      <ref role="3uigEE" node="3SFZEotnOsc" resolve="ExtAuthProvider" />
+      <ref role="3uigEE" node="3SFZEotnOsc" resolve="IExtAuthProvider" />
     </node>
     <node concept="312cEg" id="3SFZEotpyUd" role="jymVt">
       <property role="TrG5h" value="AUTHINIT_ENDPOINT" />

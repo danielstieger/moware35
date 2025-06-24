@@ -33,6 +33,7 @@
     <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.runtime/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="sihr" ref="r:5aa5291b-70e4-4688-8b56-39e32a65c9ef(org.modellwerkstatt.dataux.runtime.sdicore)" />
+    <import index="m80o" ref="r:aec764a2-d9b9-4dcb-89d1-16cfb45d01be(org.modellwerkstatt.dataux.runtime.auth)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
@@ -41595,6 +41596,16 @@
       </node>
       <node concept="3Tmbuc" id="7AhZkK4u$_z" role="1B3o_S" />
     </node>
+    <node concept="312cEg" id="4W0T8adgPSm" role="jymVt">
+      <property role="TrG5h" value="extAuthProviders" />
+      <node concept="3uibUv" id="4W0T8adgPSn" role="1tU5fm">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="4W0T8adgPSo" role="11_B2D">
+          <ref role="3uigEE" to="m80o:3SFZEotnOsc" resolve="IExtAuthProvider" />
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="4W0T8adgPSp" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="7AhZkK4saQi" role="jymVt" />
     <node concept="312cEg" id="3J6KGB_wfdo" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -42039,6 +42050,102 @@
         <ref role="3uigEE" to="33ny:~List" resolve="List" />
         <node concept="3uibUv" id="7AhZkK4sYsN" role="11_B2D">
           <ref role="3uigEE" to="28jr:4vOJ5E00tJ1" resolve="IOFXCmdModule.CmdUrlDefaults" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4W0T8adgqUY" role="jymVt" />
+    <node concept="3clFb_" id="4W0T8adgHat" role="jymVt">
+      <property role="TrG5h" value="initExtAuthProviders" />
+      <node concept="3clFbS" id="4W0T8adgHaw" role="3clF47">
+        <node concept="3clFbF" id="4W0T8adgY0E" role="3cqZAp">
+          <node concept="37vLTI" id="4W0T8adgYJr" role="3clFbG">
+            <node concept="2ShNRf" id="4W0T8adgZ0O" role="37vLTx">
+              <node concept="1pGfFk" id="4W0T8adh3n0" role="2ShVmc">
+                <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                <node concept="3uibUv" id="4W0T8adh9R1" role="1pMfVU">
+                  <ref role="3uigEE" to="m80o:3SFZEotnOsc" resolve="IExtAuthProvider" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="4W0T8adgY0C" role="37vLTJ">
+              <ref role="3cqZAo" node="4W0T8adgPSm" resolve="extAuthProviders" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4W0T8adgLyG" role="3cqZAp">
+          <node concept="3cpWsn" id="4W0T8adgLyF" role="3cpWs9">
+            <property role="TrG5h" value="allProviders" />
+            <node concept="3uibUv" id="4W0T8adgLyH" role="1tU5fm">
+              <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
+              <node concept="3uibUv" id="4W0T8adgLyI" role="11_B2D">
+                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+              </node>
+              <node concept="3uibUv" id="4W0T8adgLyJ" role="11_B2D">
+                <ref role="3uigEE" to="m80o:3SFZEotnOsc" resolve="IExtAuthProvider" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4W0T8adh5pr" role="33vP2m">
+              <node concept="37vLTw" id="4W0T8adh4_0" role="2Oq$k0">
+                <ref role="3cqZAo" node="3J6KGB_wfdo" resolve="context" />
+              </node>
+              <node concept="liA8E" id="4W0T8adh60F" role="2OqNvi">
+                <ref role="37wK5l" to="te48:~ListableBeanFactory.getBeansOfType(java.lang.Class)" resolve="getBeansOfType" />
+                <node concept="3VsKOn" id="4W0T8adh6st" role="37wK5m">
+                  <ref role="3VsUkX" to="m80o:3SFZEotnOsc" resolve="IExtAuthProvider" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1DcWWT" id="4W0T8adhdMB" role="3cqZAp">
+          <node concept="3clFbS" id="4W0T8adhdMD" role="2LFqv$">
+            <node concept="3clFbF" id="4W0T8adhhIe" role="3cqZAp">
+              <node concept="2OqwBi" id="4W0T8adhiaY" role="3clFbG">
+                <node concept="37vLTw" id="4W0T8adhhIc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4W0T8adgPSm" resolve="extAuthProviders" />
+                </node>
+                <node concept="liA8E" id="4W0T8adhiIC" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
+                  <node concept="37vLTw" id="4W0T8adhiOZ" role="37wK5m">
+                    <ref role="3cqZAo" node="4W0T8adhdME" resolve="provider" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="4W0T8adhdME" role="1Duv9x">
+            <property role="TrG5h" value="provider" />
+            <node concept="3uibUv" id="4W0T8adhgiP" role="1tU5fm">
+              <ref role="3uigEE" to="m80o:3SFZEotnOsc" resolve="IExtAuthProvider" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4W0T8adhezn" role="1DdaDG">
+            <node concept="37vLTw" id="4W0T8adheks" role="2Oq$k0">
+              <ref role="3cqZAo" node="4W0T8adgLyF" resolve="allProviders" />
+            </node>
+            <node concept="liA8E" id="4W0T8adhfk2" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.values()" resolve="values" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4W0T8adgD8f" role="1B3o_S" />
+      <node concept="3cqZAl" id="4W0T8adgH5b" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="4W0T8adhrjS" role="jymVt">
+      <property role="TrG5h" value="getAllExtAuthProviders" />
+      <node concept="3uibUv" id="4W0T8adh$Xd" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="4W0T8adhD7p" role="11_B2D">
+          <ref role="3uigEE" to="m80o:3SFZEotnOsc" resolve="IExtAuthProvider" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4W0T8adhrjV" role="1B3o_S" />
+      <node concept="3clFbS" id="4W0T8adhrjW" role="3clF47">
+        <node concept="3clFbF" id="4W0T8adhD8G" role="3cqZAp">
+          <node concept="37vLTw" id="4W0T8adhD8F" role="3clFbG">
+            <ref role="3cqZAo" node="4W0T8adgPSm" resolve="extAuthProviders" />
+          </node>
         </node>
       </node>
     </node>
@@ -45512,6 +45619,134 @@
       </node>
       <node concept="2AHcQZ" id="19EO7JNcGHw" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1wTKWX_WneF" role="jymVt">
+      <property role="TrG5h" value="logExOnCoreReporter" />
+      <node concept="37vLTG" id="1wTKWX_WneG" role="3clF46">
+        <property role="TrG5h" value="cmdFqName" />
+        <node concept="17QB3L" id="1wTKWX_WneH" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1wTKWX_WneI" role="3clF46">
+        <property role="TrG5h" value="sessId" />
+        <node concept="17QB3L" id="1wTKWX_WneJ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1wTKWX_WneK" role="3clF46">
+        <property role="TrG5h" value="source" />
+        <node concept="17QB3L" id="1wTKWX_WneL" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1wTKWX_WneM" role="3clF46">
+        <property role="TrG5h" value="prio" />
+        <node concept="3uibUv" id="1wTKWX_WneN" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2dTopMveSQ3" resolve="IOFXCoreReporter.LogPriority" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1wTKWX_WneO" role="3clF46">
+        <property role="TrG5h" value="desc" />
+        <node concept="17QB3L" id="1wTKWX_WneP" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1wTKWX_WneQ" role="3clF46">
+        <property role="TrG5h" value="ex" />
+        <node concept="3uibUv" id="1wTKWX_WsUv" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1wTKWX_WneU" role="3clF45" />
+      <node concept="3Tm1VV" id="1wTKWX_WneV" role="1B3o_S" />
+      <node concept="3clFbS" id="1wTKWX_WneW" role="3clF47">
+        <node concept="3clFbH" id="1wTKWX_WneX" role="3cqZAp" />
+        <node concept="3cpWs8" id="1wTKWX_WneY" role="3cqZAp">
+          <node concept="3cpWsn" id="1wTKWX_WneZ" role="3cpWs9">
+            <property role="TrG5h" value="info" />
+            <node concept="3uibUv" id="1wTKWX_Wnf0" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:4FgSVMpn0nI" resolve="CoreReporterInfo" />
+            </node>
+            <node concept="2ShNRf" id="1wTKWX_Wnf1" role="33vP2m">
+              <node concept="1pGfFk" id="1wTKWX_Wnf2" role="2ShVmc">
+                <ref role="37wK5l" to="28jr:4FgSVMshTNQ" resolve="CoreReporterInfo" />
+                <node concept="Rm8GO" id="1wTKWX_Wnf3" role="37wK5m">
+                  <ref role="1Px2BO" to="28jr:4FgSVMpnf8Q" resolve="IOFXCoreReporter.Type" />
+                  <ref role="Rm8GQ" to="28jr:4FgSVMpnf8U" resolve="APP_MESSAGE" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnf4" role="37wK5m">
+                  <ref role="3cqZAo" node="19EO7JNditQ" resolve="appFqName" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnf5" role="37wK5m">
+                  <ref role="3cqZAo" node="19EO7JNdhnd" resolve="appVersion" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnf6" role="37wK5m">
+                  <ref role="3cqZAo" node="1wTKWX_WneK" resolve="source" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnf7" role="37wK5m">
+                  <ref role="3cqZAo" node="1wTKWX_WneG" resolve="cmdFqName" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnf8" role="37wK5m">
+                  <ref role="3cqZAo" node="1wTKWX_WneI" resolve="sessId" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnf9" role="37wK5m">
+                  <ref role="3cqZAo" node="1wTKWX_WneM" resolve="prio" />
+                </node>
+                <node concept="3cmrfG" id="1wTKWX_Wnfa" role="37wK5m">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="Xl_RD" id="1wTKWX_Wnfb" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnfc" role="37wK5m">
+                  <ref role="3cqZAo" node="19EO7JNdfGH" resolve="deviceNameAndSw" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnfd" role="37wK5m">
+                  <ref role="3cqZAo" node="1jCLyDtYyP2" resolve="deviceId" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnfe" role="37wK5m">
+                  <ref role="3cqZAo" node="10YuSCZemas" resolve="deviceConnectInfo" />
+                </node>
+                <node concept="10M0yZ" id="1wTKWX_Wnff" role="37wK5m">
+                  <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                  <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnfg" role="37wK5m">
+                  <ref role="3cqZAo" node="4FgSVMsQtJd" resolve="pltfrm" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnfh" role="37wK5m">
+                  <ref role="3cqZAo" node="4FgSVMsQu4B" resolve="systemName" />
+                </node>
+                <node concept="37vLTw" id="1wTKWX_Wnfi" role="37wK5m">
+                  <ref role="3cqZAo" node="1wTKWX_WneO" resolve="desc" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1wTKWX_WwTM" role="3cqZAp" />
+        <node concept="3clFbF" id="1wTKWX_Wvfm" role="3cqZAp">
+          <node concept="37vLTI" id="1wTKWX_WvY0" role="3clFbG">
+            <node concept="37vLTw" id="1wTKWX_Ww7j" role="37vLTx">
+              <ref role="3cqZAo" node="1wTKWX_WneQ" resolve="ex" />
+            </node>
+            <node concept="2OqwBi" id="1wTKWX_WvA0" role="37vLTJ">
+              <node concept="37vLTw" id="1wTKWX_Wvfk" role="2Oq$k0">
+                <ref role="3cqZAo" node="1wTKWX_WneZ" resolve="info" />
+              </node>
+              <node concept="2S8uIT" id="1wTKWX_WvNM" role="2OqNvi">
+                <ref role="2S8YL0" to="28jr:4FgSVMshZZr" resolve="exception" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1wTKWX_WnfE" role="3cqZAp">
+          <node concept="2OqwBi" id="1wTKWX_WnfF" role="3clFbG">
+            <node concept="37vLTw" id="1wTKWX_WnfG" role="2Oq$k0">
+              <ref role="3cqZAo" node="19EO7JNd7mj" resolve="fact" />
+            </node>
+            <node concept="liA8E" id="1wTKWX_WnfH" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:4FgSVMpn6uk" resolve="report" />
+              <node concept="37vLTw" id="1wTKWX_WnfI" role="37wK5m">
+                <ref role="3cqZAo" node="1wTKWX_WneZ" resolve="info" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="6DdGzN5FB5h" role="jymVt">

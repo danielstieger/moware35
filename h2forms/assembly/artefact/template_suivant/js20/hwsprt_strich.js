@@ -70,7 +70,7 @@ async function strichScanSubmit() {
     if (barcodes) {
         svLog('strichScanSubmit', 'code at barcodes[0] is ' + barcodes[0].data);
 
-        svWriteToScanField(barcodes[0].data, '');
+        svWriteToScanField(barcodes[0].data, barcodes[0].symbologyIdentifier);
         saveSubmitDueScan();
     }
 }

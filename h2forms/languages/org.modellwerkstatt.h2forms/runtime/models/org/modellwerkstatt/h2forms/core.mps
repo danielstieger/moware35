@@ -25,6 +25,7 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
     <import index="3qog" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.annotation(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="jwin" ref="r:fb8c6551-89b1-47a9-b0e0-0221eb906786(org.modellwerkstatt.dataux.runtime.common)" />
+    <import index="m80o" ref="r:aec764a2-d9b9-4dcb-89d1-16cfb45d01be(org.modellwerkstatt.dataux.runtime.auth)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.runtime/)" implicit="true" />
   </imports>
   <registry>
@@ -1290,7 +1291,16 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="36zBZ2NdxGn" role="3cqZAp" />
+            <node concept="3clFbF" id="4W0T8adndvC" role="3cqZAp">
+              <node concept="2OqwBi" id="4W0T8adneOF" role="3clFbG">
+                <node concept="37vLTw" id="4W0T8adndvA" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                </node>
+                <node concept="liA8E" id="4W0T8adnsnC" role="2OqNvi">
+                  <ref role="37wK5l" node="4W0T8adnmQW" resolve="initExtAuthProviders" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbH" id="5RGNApEoxaI" role="3cqZAp" />
             <node concept="3clFbF" id="7WBKY1WfH9c" role="3cqZAp">
               <node concept="37vLTI" id="7WBKY1WfILx" role="3clFbG">
@@ -14806,6 +14816,26 @@
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4W0T8adnmW1" role="jymVt" />
+    <node concept="3clFb_" id="4W0T8adnmQW" role="jymVt">
+      <property role="TrG5h" value="initExtAuthProviders" />
+      <node concept="3Tm1VV" id="4W0T8adnmQX" role="1B3o_S" />
+      <node concept="3clFbS" id="4W0T8adnmQY" role="3clF47" />
+      <node concept="3cqZAl" id="4W0T8adnmQZ" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="4W0T8adnmR0" role="jymVt">
+      <property role="TrG5h" value="getAllExtAuthProviders" />
+      <node concept="3Tm1VV" id="4W0T8adnmR1" role="1B3o_S" />
+      <node concept="3clFbS" id="4W0T8adnmR2" role="3clF47" />
+      <node concept="3uibUv" id="4W0T8adnmR3" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="4W0T8adnmR4" role="11_B2D">
+          <ref role="3uigEE" to="m80o:3SFZEotnOsc" resolve="IExtAuthProvider" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4W0T8adnhdN" role="jymVt" />
+    <node concept="2tJIrI" id="4W0T8adnheE" role="jymVt" />
   </node>
   <node concept="312cEu" id="5hYsHqQzcYi">
     <property role="TrG5h" value="H2Dialog" />
