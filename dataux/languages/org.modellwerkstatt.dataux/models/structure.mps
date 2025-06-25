@@ -2109,5 +2109,34 @@
       <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
     </node>
   </node>
+  <node concept="1TIwiD" id="22FEmk38oz4">
+    <property role="EcuMT" value="2354161481540536516" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="TableCustomCsvExportFOption" />
+    <property role="34LRSv" value="CUSTOM CSV EXPORT" />
+    <property role="R4oN_" value="for content" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="22FEmk38pJg" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="2354161481540541392" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="22FEmk38p3n" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+    <node concept="1QGGSu" id="22FEmk38prj" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/containerelement2.png" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="22FEmk38Utr">
+    <property role="EcuMT" value="2354161481540675419" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="TableCustomCsvExportFOptionTableColParam" />
+    <property role="34LRSv" value="columns" />
+    <property role="R4oN_" value="of table" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
 </model>
 

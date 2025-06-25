@@ -61,6 +61,22 @@ function svShow(elem) {
   }
 }
 
+function svToggleImgViewer(elem) {
+  if (elem.className.indexOf("sv-image-viewer-editor") >= 0) {
+    // is small
+    elem.className = elem.className.replace("sv-image-viewer-editor", "sv-image-viewer-large");
+    $('html').style.overflow = "visible";
+    $('body').style.visibility = "hidden";
+    elem.style.visibility = "visible";
+
+  } else {
+     elem.className = elem.className.replace("sv-image-viewer-large", "sv-image-viewer-editor");
+     $('html').style.overflow = "";
+     $('body').style.visibility = "";
+     elem.style.visibility = "";
+  }
+}
+
 function svHideAllContainsDropdown() {
   // console.log('svHideAllContainsDropdown() called .... ');
   var wasDropdownAlso = false;

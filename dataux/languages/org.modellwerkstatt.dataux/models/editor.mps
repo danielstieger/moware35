@@ -5002,5 +5002,37 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="22FEmk38pSa">
+    <property role="3GE5qa" value="formopt" />
+    <ref role="1XX52x" to="1btx:22FEmk38oz4" resolve="TableCustomCsvExportFOption" />
+    <node concept="3EZMnI" id="22FEmk38pY$" role="2wV5jI">
+      <node concept="PMmxH" id="22FEmk38pY_" role="3EZMnx">
+        <ref role="PMmxG" node="pQ21WN5qB5" resolve="AliasFOptionEditor" />
+        <node concept="pVoyu" id="22FEmk38pYA" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="22FEmk38pYB" role="3EZMnx">
+        <property role="3F0ifm" value="{~allObjects, ~selectedObjects, ~columns =&gt;" />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+      </node>
+      <node concept="3F1sOY" id="22FEmk38pYC" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:22FEmk38pJg" resolve="result" />
+      </node>
+      <node concept="3F0ifn" id="22FEmk38pYD" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+      </node>
+      <node concept="l2Vlx" id="22FEmk38pYE" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="22FEmk38WLK">
+    <property role="3GE5qa" value="formopt" />
+    <ref role="1XX52x" to="1btx:22FEmk38Utr" resolve="TableCustomCsvExportFOptionTableColParam" />
+    <node concept="3F0ifn" id="22FEmk38WM_" role="2wV5jI">
+      <property role="3F0ifm" value="columns" />
+      <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
+    </node>
+  </node>
 </model>
 

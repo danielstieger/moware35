@@ -1,0 +1,7 @@
+{% if not folded %}
+{% if not wide %}<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>{% endif %}
+<div class="w3-col {% if wide %}m12 s12{% else %}m9 s7{% endif %} sv-edit-input-col-dis">
+<img name="img_{{ editorId }}" class="sv-image-viewer-editor" alt="{{ value }}" {% if value is not empty %}src="{{ uploadLocationRetrieve }}{{ value }}"{% endif %} onClick="svToggleImgViewer(this);" />
+{% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
+</div>
+{% endif %}

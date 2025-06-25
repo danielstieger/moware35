@@ -355,8 +355,3 @@ document.addEventListener('DOMContentLoaded', function() {
     navigationDisabled = false;
     svLog('DOMContentLoaded', 'init done ' + hwStackInfo());
 });
-
-
-addEventListener("load", (event) => {
-    reqLog('final js load event - done');
-});

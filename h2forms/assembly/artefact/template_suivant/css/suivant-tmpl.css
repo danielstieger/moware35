@@ -127,3 +127,6 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
 body[class="sv-back-no-session"] div[class*="sv-editor"] {padding-bottom: 300px !important; }
 
 .sv-keyboard-spacer { min-height: 460px; height: 460px; }
+
+.sv-image-viewer-editor { width: 95%; }
+.sv-image-viewer-large { position: absolute; top: 0px; left: 0px; z-index: 1; }

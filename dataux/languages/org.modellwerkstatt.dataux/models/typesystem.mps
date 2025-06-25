@@ -14,6 +14,7 @@
     <import index="tpeh" ref="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="18b" ref="r:897bfb69-0a8e-477a-9053-de701ae9e158(org.modellwerkstatt.objectflow.serdes)" />
+    <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
@@ -9684,6 +9685,92 @@
     <node concept="1YaCAy" id="4QjxxPpXRt6" role="1YuTPh">
       <property role="TrG5h" value="apiOperationResponse" />
       <ref role="1YaFvo" to="1btx:5IUblnFswOH" resolve="ApiOperationResponse" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="22FEmk38rag">
+    <property role="TrG5h" value="typeof_CustomCsvFOption" />
+    <property role="3GE5qa" value="formopt" />
+    <node concept="3clFbS" id="22FEmk38rah" role="18ibNy">
+      <node concept="1ZobV4" id="22FEmk38rbX" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="22FEmk38rbY" role="1ZfhK$">
+          <node concept="1Z2H0r" id="22FEmk38rbZ" role="mwGJk">
+            <node concept="2OqwBi" id="22FEmk38rc0" role="1Z2MuG">
+              <node concept="1YBJjd" id="22FEmk38rc1" role="2Oq$k0">
+                <ref role="1YBMHb" node="22FEmk38raj" resolve="customCsvFOption" />
+              </node>
+              <node concept="3TrEf2" id="22FEmk38rc2" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:22FEmk38pJg" resolve="result" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="22FEmk38rc3" role="1ZfhKB">
+          <node concept="2c44tf" id="22FEmk38rc4" role="mwGJk">
+            <node concept="17QB3L" id="22FEmk38rc5" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="22FEmk38raj" role="1YuTPh">
+      <property role="TrG5h" value="customCsvFOption" />
+      <ref role="1YaFvo" to="1btx:22FEmk38oz4" resolve="TableCustomCsvExportFOption" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="22FEmk38YsU">
+    <property role="TrG5h" value="typeof_CustomCsvFOptionTableColParam" />
+    <property role="3GE5qa" value="formopt" />
+    <node concept="3clFbS" id="22FEmk38YsV" role="18ibNy">
+      <node concept="3cpWs8" id="22FEmk38YyA" role="3cqZAp">
+        <node concept="3cpWsn" id="22FEmk38YyB" role="3cpWs9">
+          <property role="TrG5h" value="lt" />
+          <node concept="3Tqbb2" id="22FEmk38YyC" role="1tU5fm">
+            <ref role="ehGHo" to="tp2q:gK_YKtE" resolve="ListType" />
+          </node>
+          <node concept="2ShNRf" id="22FEmk38YyD" role="33vP2m">
+            <node concept="3zrR0B" id="22FEmk38YyE" role="2ShVmc">
+              <node concept="3Tqbb2" id="22FEmk38YyF" role="3zrR0E">
+                <ref role="ehGHo" to="tp2q:gK_YKtE" resolve="ListType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="22FEmk38YyP" role="3cqZAp">
+        <node concept="37vLTI" id="22FEmk38YyQ" role="3clFbG">
+          <node concept="2OqwBi" id="22FEmk38YyU" role="37vLTJ">
+            <node concept="37vLTw" id="22FEmk38YyV" role="2Oq$k0">
+              <ref role="3cqZAo" node="22FEmk38YyB" resolve="lt" />
+            </node>
+            <node concept="3TrEf2" id="22FEmk38YyW" role="2OqNvi">
+              <ref role="3Tt5mk" to="tp2q:gK_ZDn5" resolve="elementType" />
+            </node>
+          </node>
+          <node concept="2c44tf" id="22FEmk38YXk" role="37vLTx">
+            <node concept="3uibUv" id="22FEmk38Z4K" role="2c44tc">
+              <ref role="3uigEE" to="250q:3WTQ4mPQptM" resolve="IToolkit_TableForm.TableColumn" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="22FEmk38YyX" role="3cqZAp">
+        <node concept="mw_s8" id="22FEmk38YyY" role="1ZfhKB">
+          <node concept="37vLTw" id="22FEmk38YyZ" role="mwGJk">
+            <ref role="3cqZAo" node="22FEmk38YyB" resolve="lt" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="22FEmk38Yz0" role="1ZfhK$">
+          <node concept="1Z2H0r" id="22FEmk38Yz1" role="mwGJk">
+            <node concept="1YBJjd" id="22FEmk38Yz2" role="1Z2MuG">
+              <ref role="1YBMHb" node="22FEmk38YsX" resolve="customCsvFOptionTableColParam" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="22FEmk38YsX" role="1YuTPh">
+      <property role="TrG5h" value="customCsvFOptionTableColParam" />
+      <ref role="1YaFvo" to="1btx:22FEmk38Utr" resolve="TableCustomCsvExportFOptionTableColParam" />
     </node>
   </node>
 </model>
