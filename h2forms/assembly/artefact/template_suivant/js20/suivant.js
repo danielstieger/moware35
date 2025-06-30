@@ -287,9 +287,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     var topBar = $('.w3-top');
+    var accordion = svSetupAccordion();
+
+
     if (baseForm && topBar) {
         baseForm.style.paddingTop = '' + $('.w3-top').offsetHeight + 'px';
     }
+
     var sysMenu = $('.sv-bartitle');
     if (sysMenu) {
         systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));

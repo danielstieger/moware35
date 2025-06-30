@@ -232,6 +232,68 @@ function selectOnAlternativeRefDlgt(inputFieldName, idx) {
 }
 
 
+function svToggleAccordion(accordionId, id) {
+  var x = document.getElementById(id);
+
+  var toOpen = sessionStorage.getItem(accordionId);
+  if (toOpen == null){ toOpen = ''; }
+  console.log('Reqeust to toggle accordion ' + accordionId + " tab " + id);
+  console.log('ToOpen was ' + toOpen);
+
+  var storageKey = " " + id;
+  // always remove, might be a call to install
+  toOpen = toOpen.replace(storageKey, "");
+
+
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    toOpen += storageKey;
+
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+
+  }
+
+  sessionStorage.setItem(accordionId, toOpen);
+}
+
+
+function svSetupAccordion() {
+    var accordion = $('.sv-accordion');
+    var id = ""
+
+    if (accordion) {
+        id = accordion.id;
+        var toOpen = sessionStorage.getItem(id);
+        if (toOpen) {
+            toOpen.trim().split(' ').forEach((elem) => svToggleAccordion(accordion.id, elem));
+
+        } else {
+            var first = accordion.getElementsByClassName('sv-accordion-tab')[0];
+            if (first) {
+                svToggleAccordion(accordion.id, first.id);
+            }
+        }
+
+        Object.keys(sessionStorage).forEach(function (key) {
+            if (key.startsWith("Accordion_") && key != id) {
+                sessionStorage.removeItem(key);
+            }
+        });
+
+    }
+
+   Object.keys(sessionStorage).forEach(function (key) {
+    if (key.startsWith("Accordion_") && key != id) {
+        sessionStorage.removeItem(key);
+    }
+   });
+
+
+    return accordion;
+}
+
+
 
 /*  *  *  *  *  *  *  *  * LongTouchHandler   *  *  *  *  *  *  *  *  *  *  */
 function SVLongTouchHandler(attachButton, dropdownMenu) {
