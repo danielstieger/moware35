@@ -287,11 +287,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     var topBar = $('.w3-top');
+    var splittedTitle = $('.sv-splittedtitle');
     var accordion = svSetupAccordion();
 
+    if (baseForm) {
+        var offHeight = 0;
+        if (topBar) {
+            offHeight = topBar.offsetHeight;
+        }
 
-    if (baseForm && topBar) {
-        baseForm.style.paddingTop = '' + $('.w3-top').offsetHeight + 'px';
+        if (accordion && splittedTitle) {
+            topBar.appendChild(splittedTitle)
+            offHeight += splittedTitle.offsetHeight;
+        }
+
+        if (offHeight > 0) {
+            baseForm.style.paddingTop = '' + offHeight + 'px';
+        }
     }
 
     var sysMenu = $('.sv-bartitle');
@@ -312,8 +324,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     reqLog('hwFlagBeeps() done.');
 
+    // do not scroll when accordion is present.
     var scrollToMeElement = (baseForm.ScrollPosition.value > 0);
-    if (scrollToMeElement) {
+    if (scrollToMeElement && accordion == null) {
         window.scrollTo(0, baseForm.ScrollPosition.value);
     } 
     reqLog('scrolling ' + scrollToMeElement + " - done");

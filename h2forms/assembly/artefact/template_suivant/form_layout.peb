@@ -11,13 +11,11 @@
 {% endmacro %}
 
 {% if actions is not null or splittedPageTitleText is not null%}
-<div class="sv-layout-menu w3-cell-row {% if formId == 1 %}sv-top-title{% endif %}" onclick="svHideAllContainsDropdown()">
-<div class="w3-cell w3-cell-middle">
+<div class="sv-layout-menu w3-cell-row {% if formId == 1 %}sv-top-title sv-splittedtitle{% endif %}" onclick="svHideAllContainsDropdown()">
+    <div class="w3-cell w3-cell-middle">
     {% if splittedPageTitleText is null %}&nbsp;{% endif %}
-    {% for line in splittedPageTitleText %}
-        {{ line }} <br>
-    {% endfor %}
-</div>
+    {% for line in splittedPageTitleText %} {{ line }} <br> {% endfor %}
+    </div>
 <div class="w3-cell w3-cell-bottom">
     {% if not hasVisibleActions %}<div class="sv-layout-menu-item"> &nbsp; </div>{% endif %}
     {% if dropDownActions is not null %}

@@ -195,7 +195,6 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
-      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
@@ -770,20 +769,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="6HZE0_UknSX" role="3cqZAp" />
-        <node concept="1X3_iC" id="5kphc5afDBK" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="5kphc5ae8bz" role="8Wnug">
-            <node concept="3cpWsn" id="5kphc5ae8bA" role="3cpWs9">
-              <property role="TrG5h" value="millisStart" />
-              <node concept="3cpWsb" id="5kphc5ae8i5" role="1tU5fm" />
-              <node concept="2YIFZM" id="5kphc5ae8l8" role="33vP2m">
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
-                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="6jihzUGMGU7" role="3cqZAp">
           <node concept="3clFbS" id="6jihzUGMGU8" role="3clFbx">
             <node concept="YS8fn" id="6PWRVmxotRF" role="3cqZAp">
@@ -832,38 +817,6 @@
               </node>
               <node concept="37vLTw" id="6jihzUGMHnB" role="37wK5m">
                 <ref role="3cqZAo" node="19VJYqAugcx" resolve="infoMessage" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5kphc5ae8V6" role="3cqZAp" />
-        <node concept="1X3_iC" id="5kphc5afDIN" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5kphc5ae8rb" role="8Wnug">
-            <node concept="2OqwBi" id="5kphc5ae8r8" role="3clFbG">
-              <node concept="10M0yZ" id="5kphc5ae8r9" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              </node>
-              <node concept="liA8E" id="5kphc5ae8ra" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                <node concept="3cpWs3" id="5kphc5ae8F6" role="37wK5m">
-                  <node concept="1eOMI4" id="5kphc5ae8HN" role="3uHU7w">
-                    <node concept="3cpWsd" id="5kphc5ae8Qy" role="1eOMHV">
-                      <node concept="37vLTw" id="5kphc5ae8Sx" role="3uHU7w">
-                        <ref role="3cqZAo" node="5kphc5ae8bA" resolve="millisStart" />
-                      </node>
-                      <node concept="2YIFZM" id="5kphc5ae8KA" role="3uHU7B">
-                        <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
-                        <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="5kphc5ae8wZ" role="3uHU7B">
-                    <property role="Xl_RC" value="Rendering took: " />
-                  </node>
-                </node>
               </node>
             </node>
           </node>

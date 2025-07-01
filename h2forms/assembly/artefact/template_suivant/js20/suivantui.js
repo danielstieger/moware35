@@ -51,6 +51,10 @@ function svIsDropdown(elem) {
   return (elem.className.indexOf("w3-dropdown-content") != -1);
 }
 
+function svIsAccordionTab(elem) {
+  return (elem.className.indexOf("sv-accordion-tab") != -1);
+}
+
 function svHide(elem) {
   elem.className = elem.className.replace(" w3-show", "");
 }
@@ -78,13 +82,18 @@ function svToggleImgViewer(elem) {
 }
 
 function svHideAllContainsDropdown() {
-  // console.log('svHideAllContainsDropdown() called .... ');
+  // used to hide dropdown and selected table lines with menu
+  // but do not affect accordions
   var wasDropdownAlso = false;
   $$('.w3-show').forEach(function(elem) {
     if (svIsDropdown(elem)) {
       wasDropdownAlso = true;
     }
-    svHide(elem);
+
+    if (!svIsAccordionTab(elem)) {
+      svHide(elem);
+    }
+
   });
   return wasDropdownAlso;
 }
@@ -235,60 +244,52 @@ function selectOnAlternativeRefDlgt(inputFieldName, idx) {
 function svToggleAccordion(accordionId, id) {
   var x = document.getElementById(id);
 
-  var toOpen = sessionStorage.getItem(accordionId);
-  if (toOpen == null){ toOpen = ''; }
-  console.log('Reqeust to toggle accordion ' + accordionId + " tab " + id);
-  console.log('ToOpen was ' + toOpen);
+  // var toOpen = sessionStorage.getItem(accordionId);
+  // if (toOpen == null){ toOpen = ''; }
 
-  var storageKey = " " + id;
+  // var storageKey = " " + id;
   // always remove, might be a call to install
-  toOpen = toOpen.replace(storageKey, "");
+  // toOpen = toOpen.replace(storageKey, "");
 
 
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
-    toOpen += storageKey;
+  //  toOpen += storageKey;
 
   } else {
     x.className = x.className.replace(" w3-show", "");
 
   }
 
-  sessionStorage.setItem(accordionId, toOpen);
+  // sessionStorage.setItem(accordionId, toOpen);
 }
 
 
 function svSetupAccordion() {
+    // check also scrolling behaviour
     var accordion = $('.sv-accordion');
     var id = ""
 
     if (accordion) {
         id = accordion.id;
-        var toOpen = sessionStorage.getItem(id);
-        if (toOpen) {
-            toOpen.trim().split(' ').forEach((elem) => svToggleAccordion(accordion.id, elem));
+        // var toOpen = sessionStorage.getItem(id);
+        // if (toOpen) {
+        //    toOpen.trim().split(' ').forEach((elem) => svToggleAccordion(accordion.id, elem));
+        //
+        // } else {
 
-        } else {
-            var first = accordion.getElementsByClassName('sv-accordion-tab')[0];
-            if (first) {
-                svToggleAccordion(accordion.id, first.id);
-            }
+        var first = accordion.getElementsByClassName('sv-accordion-tab')[0];
+        if (first) {
+            svToggleAccordion(accordion.id, first.id);
+
         }
-
-        Object.keys(sessionStorage).forEach(function (key) {
-            if (key.startsWith("Accordion_") && key != id) {
-                sessionStorage.removeItem(key);
-            }
-        });
-
     }
 
-   Object.keys(sessionStorage).forEach(function (key) {
-    if (key.startsWith("Accordion_") && key != id) {
-        sessionStorage.removeItem(key);
-    }
-   });
-
+    // Object.keys(sessionStorage).forEach(function (key) {
+    // if (key.startsWith("Accordion_") && key != id) {
+    //    sessionStorage.removeItem(key);
+    //}
+    //});
 
     return accordion;
 }
