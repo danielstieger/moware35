@@ -470,6 +470,11 @@
         <property id="1173995448817" name="fqClassName" index="1n_ezw" />
         <property id="1173995466678" name="fieldName" index="1n_iUB" />
       </concept>
+      <concept id="1173996401517" name="jetbrains.mps.baseLanguageInternal.structure.InternalNewExpression" flags="nn" index="1nCR9W">
+        <property id="1173996588177" name="fqClassName" index="1nD$Q0" />
+        <child id="1179332974947" name="type" index="2lIhxL" />
+        <child id="319021450862590135" name="actualArgument" index="2U2pNA" />
+      </concept>
       <concept id="1174294166120" name="jetbrains.mps.baseLanguageInternal.structure.InternalPartialInstanceMethodCall" flags="nn" index="1DoJHT">
         <property id="1174294288199" name="methodName" index="1Dpdpm" />
         <child id="1174313653259" name="returnType" index="1Ez5kq" />
@@ -1664,6 +1669,12 @@
       <ref role="30HIoZ" to="un0u:4wvbHtt4g$4" resolve="SessionOperationAdd" />
       <node concept="j$656" id="4wvbHtt72fi" role="1lVwrX">
         <ref role="v9R2y" node="4wvbHtt72fg" resolve="reduce_SessionOperation" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="7PNf$vRfbgn" role="3acgRq">
+      <ref role="30HIoZ" to="un0u:7PNf$vR1f3d" resolve="SessionQueueNextCommand" />
+      <node concept="j$656" id="7PNf$vRff76" role="1lVwrX">
+        <ref role="v9R2y" node="7PNf$vRff74" resolve="reduce_SessionQueueNextCommand" />
       </node>
     </node>
     <node concept="3aamgX" id="x0kurEkwi$" role="3acgRq">
@@ -21098,6 +21109,106 @@
       <node concept="3Tqbb2" id="7nTUzy861dr" role="1N15GL">
         <ref role="ehGHo" to="un0u:4vOJ5DZ18go" resolve="CommandUrlParamOption" />
       </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="7PNf$vRff74">
+    <property role="TrG5h" value="reduce_SessionQueueNextCommand" />
+    <ref role="3gUMe" to="un0u:7PNf$vR1f3d" resolve="SessionQueueNextCommand" />
+    <node concept="312cEu" id="7PNf$vRfhnJ" role="13RCb5">
+      <property role="TrG5h" value="reduce_SessionQueueNextCommand" />
+      <node concept="2tJIrI" id="7PNf$vRfhnY" role="jymVt" />
+      <node concept="2tJIrI" id="7PNf$vRfs$m" role="jymVt" />
+      <node concept="2YIFZL" id="7PNf$vRfrXL" role="jymVt">
+        <property role="TrG5h" value="someFunction" />
+        <node concept="3cqZAl" id="7PNf$vRfrXN" role="3clF45" />
+        <node concept="3Tm1VV" id="7PNf$vRfrXO" role="1B3o_S" />
+        <node concept="3clFbS" id="7PNf$vRfrXP" role="3clF47">
+          <node concept="3clFbF" id="7PNf$vRfrYg" role="3cqZAp">
+            <node concept="2OqwBi" id="7PNf$vRfrYh" role="3clFbG">
+              <node concept="liA8E" id="7PNf$vRfrYi" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:1VVl5ejzpxN" resolve="registerUxEvent" />
+                <node concept="1nCR9W" id="7PNf$vRfsFn" role="37wK5m">
+                  <property role="1nD$Q0" value="org.modellwerkstatt.dataux.runtime.core.BasisCmdStart" />
+                  <node concept="2OqwBi" id="7PNf$vRkGh9" role="2U2pNA">
+                    <node concept="3VsKOn" id="7PNf$vRkFSq" role="2Oq$k0">
+                      <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
+                      <node concept="1ZhdrF" id="7PNf$vRkGPq" role="lGtFl">
+                        <property role="2qtEX8" value="classifier" />
+                        <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1116615150612/1116615189566" />
+                        <node concept="3$xsQk" id="7PNf$vRkGPr" role="3$ytzL">
+                          <node concept="3clFbS" id="7PNf$vRkGPs" role="2VODD2">
+                            <node concept="3clFbF" id="7PNf$vRkGTf" role="3cqZAp">
+                              <node concept="2OqwBi" id="7PNf$vRkI6K" role="3clFbG">
+                                <node concept="2OqwBi" id="7PNf$vRkHAT" role="2Oq$k0">
+                                  <node concept="2OqwBi" id="7PNf$vRkH9W" role="2Oq$k0">
+                                    <node concept="30H73N" id="7PNf$vRkGTe" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="7PNf$vRkHqd" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+                                    </node>
+                                  </node>
+                                  <node concept="3TrEf2" id="7PNf$vRkHOz" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
+                                  </node>
+                                </node>
+                                <node concept="2qgKlT" id="7PNf$vRkIta" role="2OqNvi">
+                                  <ref role="37wK5l" to="70o0:6ffh1MX_A66" resolve="getEscapedFqName" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="7PNf$vRkGLk" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="1VVl5ejBrjT" role="2U2pNA">
+                    <node concept="3g6Rrh" id="1VVl5ejBrsC" role="2ShVmc">
+                      <node concept="10Nm6u" id="1VVl5ejBrvN" role="3g7hyw">
+                        <node concept="2b32R4" id="7PNf$vRfxKV" role="lGtFl">
+                          <node concept="3JmXsc" id="7PNf$vRfxKW" role="2P8S$">
+                            <node concept="3clFbS" id="7PNf$vRfxKX" role="2VODD2">
+                              <node concept="3clFbF" id="7PNf$vRfxPE" role="3cqZAp">
+                                <node concept="2OqwBi" id="7PNf$vRfywX" role="3clFbG">
+                                  <node concept="2OqwBi" id="7PNf$vRfy5N" role="2Oq$k0">
+                                    <node concept="30H73N" id="7PNf$vRfxPD" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="7PNf$vRfymr" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+                                    </node>
+                                  </node>
+                                  <node concept="3Tsc0h" id="7PNf$vRfyGg" role="2OqNvi">
+                                    <ref role="3TtcxE" to="un0u:3n7eUMgsCiP" resolve="actualArgument" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3uibUv" id="1VVl5ejBrjS" role="3g7fb8">
+                        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3uibUv" id="7PNf$vRfsGi" role="2lIhxL">
+                    <ref role="3uigEE" to="28jr:1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3VmV3z" id="7PNf$vRfrYO" role="2Oq$k0">
+                <property role="3VnrPo" value="__manMapSession" />
+                <node concept="3uibUv" id="7PNf$vRfrYP" role="3Vn4Tt">
+                  <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+                </node>
+              </node>
+            </node>
+            <node concept="raruj" id="7PNf$vRfrYQ" role="lGtFl" />
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="7PNf$vRfhoc" role="jymVt" />
+      <node concept="3Tm1VV" id="7PNf$vRfhnK" role="1B3o_S" />
     </node>
   </node>
 </model>

@@ -4766,6 +4766,27 @@
       <node concept="3clFbS" id="1jCLyDwAgKg" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="19EO7JMyCli" role="jymVt" />
+    <node concept="3clFb_" id="1VVl5ejzpxN" role="jymVt">
+      <property role="TrG5h" value="registerUxEvent" />
+      <node concept="37vLTG" id="1VVl5ejzpDS" role="3clF46">
+        <property role="TrG5h" value="uxEvent" />
+        <node concept="3uibUv" id="1VVl5ejzG42" role="1tU5fm">
+          <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1VVl5ejzpxP" role="3clF45" />
+      <node concept="3Tm1VV" id="1VVl5ejzpxQ" role="1B3o_S" />
+      <node concept="3clFbS" id="1VVl5ejzpxR" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1VVl5ejzGaE" role="jymVt">
+      <property role="TrG5h" value="getRegisteredUxEvent" />
+      <node concept="3uibUv" id="1VVl5ejzHoo" role="3clF45">
+        <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+      </node>
+      <node concept="3Tm1VV" id="1VVl5ejzGaI" role="1B3o_S" />
+      <node concept="3clFbS" id="1VVl5ejzGaJ" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1VVl5ejza_P" role="jymVt" />
     <node concept="3clFb_" id="g2nNIPmzuh" role="jymVt">
       <property role="TrG5h" value="inSuccessorPattern" />
       <node concept="10P_77" id="g2nNIPmzBP" role="3clF45" />
@@ -4966,6 +4987,24 @@
           <property role="x79VB" value="logging, user specific printing " />
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="1VVl5ejzqHr" role="jymVt" />
+    <node concept="3HP615" id="1VVl5ejzCPT" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="IUxEvent" />
+      <node concept="3clFb_" id="1VVl5ejzFct" role="jymVt">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1VVl5ejCvwD" role="3clF45" />
+        <node concept="3Tm1VV" id="1VVl5ejzFcw" role="1B3o_S" />
+        <node concept="3clFbS" id="1VVl5ejzFcx" role="3clF47" />
+      </node>
+      <node concept="3clFb_" id="1VVl5ejzFl_" role="jymVt">
+        <property role="TrG5h" value="paramInfo" />
+        <node concept="17QB3L" id="1VVl5ejzFt5" role="3clF45" />
+        <node concept="3Tm1VV" id="1VVl5ejzFlB" role="1B3o_S" />
+        <node concept="3clFbS" id="1VVl5ejzFlC" role="3clF47" />
+      </node>
+      <node concept="3Tm1VV" id="1VVl5ejzCPU" role="1B3o_S" />
     </node>
     <node concept="3UR2Jj" id="3$bhckF1LZJ" role="lGtFl">
       <node concept="TZ5HA" id="3$bhckF1LZK" role="TZ5H$">
@@ -6125,6 +6164,13 @@
       <node concept="3Tm6S6" id="1jCLyDw8w_3" role="1B3o_S" />
       <node concept="17QB3L" id="1jCLyDw8w_4" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="1VVl5ejzPFw" role="jymVt">
+      <property role="TrG5h" value="registeredEvent" />
+      <node concept="3Tm6S6" id="1VVl5ejzPFx" role="1B3o_S" />
+      <node concept="3uibUv" id="1VVl5ejzWhk" role="1tU5fm">
+        <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1X3c4oMSV$V" role="jymVt" />
     <node concept="312cEg" id="67D5vCCQsKH" role="jymVt">
       <property role="TrG5h" value="usersServices" />
@@ -6259,6 +6305,17 @@
               <node concept="Xjq3P" id="3P1jWkzQqU7" role="2Oq$k0" />
               <node concept="2OwXpG" id="3P1jWkzQrfM" role="2OqNvi">
                 <ref role="2Oxat5" node="3P1jWkzQ81G" resolve="postTransactionOperation" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1VVl5ejzX$L" role="3cqZAp">
+          <node concept="37vLTI" id="1VVl5ejzYBA" role="3clFbG">
+            <node concept="10Nm6u" id="1VVl5ejzZcL" role="37vLTx" />
+            <node concept="2OqwBi" id="1VVl5ejzXN3" role="37vLTJ">
+              <node concept="Xjq3P" id="1VVl5ejzX$J" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1VVl5ejzXX5" role="2OqNvi">
+                <ref role="2Oxat5" node="1VVl5ejzPFw" resolve="registeredEvent" />
               </node>
             </node>
           </node>
@@ -6470,6 +6527,109 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1VVl5ejzZS_" role="jymVt">
+      <property role="TrG5h" value="registerUxEvent" />
+      <node concept="37vLTG" id="1VVl5ejzZSA" role="3clF46">
+        <property role="TrG5h" value="uxEvent" />
+        <node concept="3uibUv" id="1VVl5ejzZSB" role="1tU5fm">
+          <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1VVl5ejzZSC" role="3clF45" />
+      <node concept="3Tm1VV" id="1VVl5ejzZSD" role="1B3o_S" />
+      <node concept="3clFbS" id="1VVl5ejzZSG" role="3clF47">
+        <node concept="3clFbJ" id="7PNf$vR0ErU" role="3cqZAp">
+          <node concept="3clFbS" id="7PNf$vR0ErW" role="3clFbx">
+            <node concept="YS8fn" id="7PNf$vR0FYg" role="3cqZAp">
+              <node concept="2ShNRf" id="7PNf$vR0G1d" role="YScLw">
+                <node concept="1pGfFk" id="7PNf$vR0QEE" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="3cpWs3" id="7PNf$vR0XMQ" role="37wK5m">
+                    <node concept="2OqwBi" id="7PNf$vR0ZdP" role="3uHU7w">
+                      <node concept="37vLTw" id="7PNf$vR0Yym" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1VVl5ejzZSA" resolve="uxEvent" />
+                      </node>
+                      <node concept="liA8E" id="7PNf$vR0ZUi" role="2OqNvi">
+                        <ref role="37wK5l" node="1VVl5ejzFct" resolve="name" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="7PNf$vR0WvQ" role="3uHU7B">
+                      <node concept="3cpWs3" id="7PNf$vR0U2d" role="3uHU7B">
+                        <node concept="3cpWs3" id="7PNf$vR0Tla" role="3uHU7B">
+                          <node concept="3cpWs3" id="7PNf$vR0Rwn" role="3uHU7B">
+                            <node concept="Xl_RD" id="7PNf$vR0R4y" role="3uHU7B">
+                              <property role="Xl_RC" value="There is already the event " />
+                            </node>
+                            <node concept="2OqwBi" id="7PNf$vR0SnC" role="3uHU7w">
+                              <node concept="37vLTw" id="7PNf$vR0RB1" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1VVl5ejzZSA" resolve="uxEvent" />
+                              </node>
+                              <node concept="liA8E" id="7PNf$vR0SrN" role="2OqNvi">
+                                <ref role="37wK5l" node="1VVl5ejzFct" resolve="name" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="7PNf$vR0To3" role="3uHU7w">
+                            <property role="Xl_RC" value=" [" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="7PNf$vR0Vzc" role="3uHU7w">
+                          <node concept="37vLTw" id="7PNf$vR0UL0" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1VVl5ejzZSA" resolve="uxEvent" />
+                          </node>
+                          <node concept="liA8E" id="7PNf$vR0Wkg" role="2OqNvi">
+                            <ref role="37wK5l" node="1VVl5ejzFl_" resolve="paramInfo" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="7PNf$vR0WyV" role="3uHU7w">
+                        <property role="Xl_RC" value="] registered, while you are registering " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7PNf$vR0Fhm" role="3clFbw">
+            <node concept="10Nm6u" id="7PNf$vR0Fk4" role="3uHU7w" />
+            <node concept="37vLTw" id="7PNf$vR0Eys" role="3uHU7B">
+              <ref role="3cqZAo" node="1VVl5ejzPFw" resolve="registeredEvent" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1VVl5ej$67B" role="3cqZAp">
+          <node concept="37vLTI" id="1VVl5ej$6P3" role="3clFbG">
+            <node concept="37vLTw" id="1VVl5ej$7$M" role="37vLTx">
+              <ref role="3cqZAo" node="1VVl5ejzZSA" resolve="uxEvent" />
+            </node>
+            <node concept="37vLTw" id="1VVl5ej$67A" role="37vLTJ">
+              <ref role="3cqZAo" node="1VVl5ejzPFw" resolve="registeredEvent" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1VVl5ejzZSH" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1VVl5ejzZSI" role="jymVt">
+      <property role="TrG5h" value="getRegisteredUxEvent" />
+      <node concept="3uibUv" id="1VVl5ejzZSJ" role="3clF45">
+        <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+      </node>
+      <node concept="3Tm1VV" id="1VVl5ejzZSK" role="1B3o_S" />
+      <node concept="3clFbS" id="1VVl5ejzZSN" role="3clF47">
+        <node concept="3clFbF" id="1VVl5ej$8jJ" role="3cqZAp">
+          <node concept="37vLTw" id="1VVl5ej$8jG" role="3clFbG">
+            <ref role="3cqZAo" node="1VVl5ejzPFw" resolve="registeredEvent" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1VVl5ejzZSO" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="hm5BQD5u31" role="jymVt">

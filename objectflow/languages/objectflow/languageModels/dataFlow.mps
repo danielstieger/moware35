@@ -1129,5 +1129,54 @@
       </node>
     </node>
   </node>
+  <node concept="3_zdsH" id="7PNf$vR1qDl">
+    <property role="3GE5qa" value="OFXCore.session" />
+    <ref role="3_znuS" to="un0u:7PNf$vR1f3d" resolve="SessionQueueNextCommand" />
+    <node concept="3__wT9" id="7PNf$vR1qDm" role="3_A6iZ">
+      <node concept="3clFbS" id="7PNf$vR1qDn" role="2VODD2">
+        <node concept="3AgYrR" id="7PNf$vR1qDC" role="3cqZAp">
+          <node concept="2OqwBi" id="7PNf$vR1qOZ" role="3Ah4Yx">
+            <node concept="3__QtB" id="7PNf$vR1qEb" role="2Oq$k0" />
+            <node concept="3TrEf2" id="7PNf$vR1r7X" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3_zdsH" id="7PNf$vR1reD">
+    <property role="3GE5qa" value="OFXCore.cmdCall" />
+    <ref role="3_znuS" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
+    <node concept="3__wT9" id="7PNf$vR1reE" role="3_A6iZ">
+      <node concept="3clFbS" id="7PNf$vR1reF" role="2VODD2">
+        <node concept="3clFbF" id="7PNf$vR1reX" role="3cqZAp">
+          <node concept="2OqwBi" id="7PNf$vR1sVr" role="3clFbG">
+            <node concept="2OqwBi" id="7PNf$vR1rmP" role="2Oq$k0">
+              <node concept="3__QtB" id="7PNf$vR1reW" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="7PNf$vR1rze" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:3n7eUMgsCiP" resolve="actualArgument" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="7PNf$vR1v6U" role="2OqNvi">
+              <node concept="1bVj0M" id="7PNf$vR1v6W" role="23t8la">
+                <node concept="3clFbS" id="7PNf$vR1v6X" role="1bW5cS">
+                  <node concept="3AgYrR" id="7PNf$vR1vbt" role="3cqZAp">
+                    <node concept="37vLTw" id="7PNf$vR1vgf" role="3Ah4Yx">
+                      <ref role="3cqZAo" node="7PNf$vR1v6Y" resolve="it" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="7PNf$vR1v6Y" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="7PNf$vR1v6Z" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

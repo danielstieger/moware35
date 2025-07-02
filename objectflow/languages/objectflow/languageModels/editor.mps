@@ -7210,22 +7210,40 @@
         <node concept="1HfYo3" id="5SRT4dTCPjH" role="1HlULh">
           <node concept="3TQlhw" id="5SRT4dTCPjJ" role="1Hhtcw">
             <node concept="3clFbS" id="5SRT4dTCPjL" role="2VODD2">
-              <node concept="3clFbF" id="5SRT4dTCPU2" role="3cqZAp">
-                <node concept="3cpWs3" id="5SRT4dTCQxE" role="3clFbG">
-                  <node concept="Xl_RD" id="5SRT4dTCQxK" role="3uHU7w">
-                    <property role="Xl_RC" value="." />
-                  </node>
-                  <node concept="2OqwBi" id="5SRT4dTCQdX" role="3uHU7B">
-                    <node concept="2OqwBi" id="5SRT4dTCPX9" role="2Oq$k0">
-                      <node concept="pncrf" id="5SRT4dTCPU1" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5SRT4dTCQ3J" role="2OqNvi">
-                        <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
+              <node concept="3clFbJ" id="7PNf$vRb4jw" role="3cqZAp">
+                <node concept="3clFbS" id="7PNf$vRb4jy" role="3clFbx">
+                  <node concept="3cpWs6" id="7PNf$vRb6sK" role="3cqZAp">
+                    <node concept="3cpWs3" id="5SRT4dTCQxE" role="3cqZAk">
+                      <node concept="Xl_RD" id="5SRT4dTCQxK" role="3uHU7w">
+                        <property role="Xl_RC" value="." />
+                      </node>
+                      <node concept="2OqwBi" id="5SRT4dTCQdX" role="3uHU7B">
+                        <node concept="2OqwBi" id="5SRT4dTCPX9" role="2Oq$k0">
+                          <node concept="pncrf" id="5SRT4dTCPU1" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="5SRT4dTCQ3J" role="2OqNvi">
+                            <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="5SRT4dTCQqY" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:5SRT4dTCMKa" resolve="modelLastName" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="2qgKlT" id="5SRT4dTCQqY" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:5SRT4dTCMKa" resolve="modelLastName" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7PNf$vRb5hM" role="3clFbw">
+                  <node concept="2OqwBi" id="7PNf$vRb4Rb" role="2Oq$k0">
+                    <node concept="pncrf" id="7PNf$vRb4$_" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7PNf$vRb52o" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
                     </node>
                   </node>
+                  <node concept="3x8VRR" id="7PNf$vRb5WU" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="3cpWs6" id="7PNf$vRb6UB" role="3cqZAp">
+                <node concept="Xl_RD" id="7PNf$vRb6Wa" role="3cqZAk">
+                  <property role="Xl_RC" value="" />
                 </node>
               </node>
             </node>
@@ -13671,6 +13689,31 @@
         </node>
       </node>
       <node concept="l2Vlx" id="4YtznjarcZk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7PNf$vR1g54">
+    <property role="3GE5qa" value="OFXCore.session" />
+    <ref role="1XX52x" to="un0u:7PNf$vR1f3d" resolve="SessionQueueNextCommand" />
+    <node concept="3EZMnI" id="7PNf$vR1g56" role="2wV5jI">
+      <node concept="PMmxH" id="7PNf$vR1g57" role="3EZMnx">
+        <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="l2Vlx" id="7PNf$vR1g58" role="2iSdaV" />
+      <node concept="3F1sOY" id="7PNf$vR1g59" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+      </node>
+      <node concept="3F0ifn" id="7PNf$vR1g5e" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <ref role="1k5W1q" to="tpen:hFDgi_W" resolve="Semicolon" />
+      </node>
+      <node concept="3F0ifn" id="7PNf$vRfbeR" role="3EZMnx">
+        <property role="3F0ifm" value="// ignored when executed without ui (tests, jobs, etc)" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="7PNf$vRfbeX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

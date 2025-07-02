@@ -1132,6 +1132,7 @@
     <property role="TrG5h" value="SessionOperationAdd" />
     <property role="34LRSv" value="session operation add" />
     <property role="EcuMT" value="5196923997523085572" />
+    <property role="R4oN_" value="to current session" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="2UKuXobCcuj" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -5333,6 +5334,30 @@
     <property role="EcuMT" value="1287853028913354066" />
     <property role="3GE5qa" value="OFXCore.infra" />
     <property role="TrG5h" value="ITransactionAware" />
+  </node>
+  <node concept="1TIwiD" id="7PNf$vR1f3d">
+    <property role="EcuMT" value="9039637355870613709" />
+    <property role="3GE5qa" value="OFXCore.session" />
+    <property role="TrG5h" value="SessionQueueNextCommand" />
+    <property role="34LRSv" value="session queue next command" />
+    <property role="R4oN_" value="after session owner in final ok" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="7PNf$vR1g4V" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="commandCall" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="9039637355870617915" />
+      <ref role="20lvS9" node="3n7eUMgsANq" resolve="CommandCallBasis" />
+    </node>
+    <node concept="PrWs8" id="7PNf$vR1f6q" role="PzmwI">
+      <ref role="PrY4T" to="r5tz:5dYK2oPFKmz" resolve="L2RTHasSession" />
+    </node>
+    <node concept="PrWs8" id="7PNf$vRdncw" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
+    <node concept="1QGGSu" id="7PNf$vRaM55" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/ofxconcept2.png" />
+    </node>
   </node>
 </model>
 

@@ -4907,5 +4907,31 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="7PNf$vR1kW7">
+    <property role="3GE5qa" value="OFXCore.session" />
+    <ref role="1M2myG" to="un0u:7PNf$vR1f3d" resolve="SessionQueueNextCommand" />
+    <node concept="9S07l" id="7PNf$vR1kW8" role="9Vyp8">
+      <node concept="3clFbS" id="7PNf$vR1kW9" role="2VODD2">
+        <node concept="3clFbF" id="7PNf$vR1l0e" role="3cqZAp">
+          <node concept="2OqwBi" id="7PNf$vR1l0g" role="3clFbG">
+            <node concept="2OqwBi" id="7PNf$vR1l0h" role="2Oq$k0">
+              <node concept="nLn13" id="7PNf$vR1l0i" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="7PNf$vR1l0j" role="2OqNvi">
+                <node concept="3gmYPX" id="7PNf$vR1l0k" role="1xVPHs">
+                  <node concept="3gn64h" id="7PNf$vR1l0l" role="3gmYPZ">
+                    <ref role="3gnhBz" to="un0u:6ffh1MXzHna" resolve="Command" />
+                  </node>
+                  <node concept="3gn64h" id="7PNf$vR1l0m" role="3gmYPZ">
+                    <ref role="3gnhBz" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="7PNf$vR1l0p" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

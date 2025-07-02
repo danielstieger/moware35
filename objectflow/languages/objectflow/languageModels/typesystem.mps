@@ -17011,5 +17011,47 @@
       <ref role="1YaFvo" to="un0u:4vOJ5DZ18go" resolve="CommandUrlParamOption" />
     </node>
   </node>
+  <node concept="18kY7G" id="7PNf$vRdRkx">
+    <property role="TrG5h" value="check_SessionQueueNextCommand" />
+    <property role="3GE5qa" value="OFXCore.session" />
+    <node concept="3clFbS" id="7PNf$vRdRky" role="18ibNy">
+      <node concept="3clFbJ" id="7PNf$vRdRkC" role="3cqZAp">
+        <node concept="3fqX7Q" id="7PNf$vRdSd5" role="3clFbw">
+          <node concept="2OqwBi" id="7PNf$vRdSd7" role="3fr31v">
+            <node concept="2OqwBi" id="7PNf$vRdSd8" role="2Oq$k0">
+              <node concept="1YBJjd" id="7PNf$vRdSd9" role="2Oq$k0">
+                <ref role="1YBMHb" node="7PNf$vRdRk$" resolve="sessionQueueNextCommand" />
+              </node>
+              <node concept="3TrEf2" id="7PNf$vRdSda" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="7PNf$vRdSdb" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:5TC7JC3XxIG" resolve="hasArgumentsGiven" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="7PNf$vRdRkE" role="3clFbx">
+          <node concept="2MkqsV" id="7PNf$vRdSdL" role="3cqZAp">
+            <node concept="Xl_RD" id="7PNf$vRdSdX" role="2MkJ7o">
+              <property role="Xl_RC" value="You have to provide arguments for the command." />
+            </node>
+            <node concept="2OqwBi" id="7PNf$vRdSr2" role="1urrMF">
+              <node concept="1YBJjd" id="7PNf$vRdSfe" role="2Oq$k0">
+                <ref role="1YBMHb" node="7PNf$vRdRk$" resolve="sessionQueueNextCommand" />
+              </node>
+              <node concept="3TrEf2" id="7PNf$vRdSLy" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7PNf$vRdRk$" role="1YuTPh">
+      <property role="TrG5h" value="sessionQueueNextCommand" />
+      <ref role="1YaFvo" to="un0u:7PNf$vR1f3d" resolve="SessionQueueNextCommand" />
+    </node>
+  </node>
 </model>
 
