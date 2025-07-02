@@ -65,19 +65,27 @@ function svShow(elem) {
   }
 }
 
-function svToggleImgViewer(elem) {
+function svToggleImgViewer(viewContainer, elem) {
   if (elem.className.indexOf("sv-image-viewer-editor") >= 0) {
     // is small
     elem.className = elem.className.replace("sv-image-viewer-editor", "sv-image-viewer-large");
     $('html').style.overflow = "visible";
     $('body').style.visibility = "hidden";
+
+    viewContainer.style.visibility = "visible";
+    viewContainer.style.display = "block";
     elem.style.visibility = "visible";
+    viewContainer.appendChild(elem)
 
   } else {
      elem.className = elem.className.replace("sv-image-viewer-large", "sv-image-viewer-editor");
      $('html').style.overflow = "";
      $('body').style.visibility = "";
+
+     viewContainer.style.visibility = "";
+     viewContainer.style.display = "none";
      elem.style.visibility = "";
+     viewContainer.parentNode.insertBefore(elem, viewContainer.nextSibling);
   }
 }
 
