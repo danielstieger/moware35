@@ -5887,6 +5887,9 @@
             <node concept="2ShNRf" id="r$jHpF5_s_" role="33vP2m">
               <node concept="1pGfFk" id="4FgSVMts3Yu" role="2ShVmc">
                 <ref role="37wK5l" to="1e0c:4FgSVMsQsVk" resolve="LoginController" />
+                <node concept="37vLTw" id="7Xjd0Mb7os1" role="37wK5m">
+                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                </node>
                 <node concept="Rm8GO" id="4FgSVMts5zj" role="37wK5m">
                   <ref role="Rm8GQ" to="28jr:4FgSVMpn0zc" resolve="MOWARE_FX8" />
                   <ref role="1Px2BO" to="28jr:4FgSVMpn0u8" resolve="IOFXCoreReporter.MoWarePlatform" />
@@ -5948,9 +5951,6 @@
                 </node>
                 <node concept="37vLTw" id="r$jHpF5Cdw" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
-                </node>
-                <node concept="37vLTw" id="r$jHpF5CtD" role="37wK5m">
-                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                 </node>
               </node>
             </node>
