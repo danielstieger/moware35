@@ -669,29 +669,42 @@
               </node>
             </node>
           </node>
-          <node concept="3eNFk2" id="7Xjd0MaCepo" role="3eNLev">
-            <node concept="3clFbS" id="7Xjd0MaCepq" role="3eOfB_">
-              <node concept="3clFbF" id="10YuSCZawBV" role="3cqZAp">
-                <node concept="37vLTI" id="10YuSCZawWd" role="3clFbG">
-                  <node concept="37vLTw" id="10YuSCZawBU" role="37vLTJ">
+          <node concept="3eNFk2" id="1WUySaDvDDT" role="3eNLev">
+            <node concept="3clFbS" id="1WUySaDvDDU" role="3eOfB_">
+              <node concept="3clFbF" id="1WUySaDvDDV" role="3cqZAp">
+                <node concept="37vLTI" id="1WUySaDvDDW" role="3clFbG">
+                  <node concept="37vLTw" id="1WUySaDvDDX" role="37vLTJ">
                     <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceSwDetected" />
                   </node>
-                  <node concept="Rm8GO" id="1qs1YQQIdcz" role="37vLTx">
-                    <ref role="Rm8GQ" to="tea8:7lr2Gyz8j3i" resolve="ZEBRAEB_35" />
+                  <node concept="Rm8GO" id="1WUySaDvEq2" role="37vLTx">
+                    <ref role="Rm8GQ" to="tea8:10YuSCZaxus" resolve="ZEBRAEB_32" />
                     <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="7Xjd0MaCeNs" role="3cqZAp" />
+              <node concept="3clFbH" id="1WUySaDvDDZ" role="3cqZAp" />
             </node>
-            <node concept="2OqwBi" id="10YuSCZawhN" role="3eO9$A">
-              <node concept="37vLTw" id="10YuSCZaw42" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+            <node concept="22lmx$" id="1WUySaDC0Kd" role="3eO9$A">
+              <node concept="2OqwBi" id="1WUySaDvDE0" role="3uHU7B">
+                <node concept="37vLTw" id="1WUySaDvDE1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="1WUySaDvDE2" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                  <node concept="Xl_RD" id="1WUySaDvDE3" role="37wK5m">
+                    <property role="Xl_RC" value="EB32" />
+                  </node>
+                </node>
               </node>
-              <node concept="liA8E" id="10YuSCZawjw" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                <node concept="Xl_RD" id="10YuSCZawnk" role="37wK5m">
-                  <property role="Xl_RC" value="EB3" />
+              <node concept="2OqwBi" id="10YuSCZawhN" role="3uHU7w">
+                <node concept="37vLTw" id="10YuSCZaw42" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="10YuSCZawjw" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                  <node concept="Xl_RD" id="10YuSCZawnk" role="37wK5m">
+                    <property role="Xl_RC" value="EB3" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -783,6 +796,33 @@
                 <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                 <node concept="Xl_RD" id="33eyNC4pFfy" role="37wK5m">
                   <property role="Xl_RC" value="TC25" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="1WUySaDvEwc" role="3eNLev">
+            <node concept="3clFbS" id="1WUySaDvEwd" role="3eOfB_">
+              <node concept="3clFbF" id="1WUySaDvEwe" role="3cqZAp">
+                <node concept="37vLTI" id="1WUySaDvEwf" role="3clFbG">
+                  <node concept="Rm8GO" id="1WUySaDvEUO" role="37vLTx">
+                    <ref role="Rm8GQ" to="tea8:10YuSCZaxus" resolve="ZEBRAEB_32" />
+                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.DevicesSw" />
+                  </node>
+                  <node concept="37vLTw" id="1WUySaDvEwh" role="37vLTJ">
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceSwDetected" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1WUySaDvEwi" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="1WUySaDvEwj" role="3eO9$A">
+              <node concept="37vLTw" id="1WUySaDvEwk" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+              </node>
+              <node concept="liA8E" id="1WUySaDvEwl" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                <node concept="Xl_RD" id="1WUySaDvEwm" role="37wK5m">
+                  <property role="Xl_RC" value="TC26" />
                 </node>
               </node>
             </node>
