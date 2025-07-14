@@ -6861,5 +6861,50 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="51AvyDsmOzu">
+    <property role="3GE5qa" value="OFXCore.cmdCrtl" />
+    <property role="TrG5h" value="AddCmdToSolve" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:51llZt605sG" resolve="Precondition" />
+    <node concept="2S6ZIM" id="51AvyDsmOzv" role="2ZfVej">
+      <node concept="3clFbS" id="51AvyDsmOzw" role="2VODD2">
+        <node concept="3clFbF" id="51AvyDsmOCu" role="3cqZAp">
+          <node concept="Xl_RD" id="51AvyDsmOCt" role="3clFbG">
+            <property role="Xl_RC" value="Add a GRAPH_EDIT command to resolve this condition" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="51AvyDsmOzx" role="2ZfgGD">
+      <node concept="3clFbS" id="51AvyDsmOzy" role="2VODD2">
+        <node concept="3clFbF" id="51AvyDsmOTy" role="3cqZAp">
+          <node concept="2OqwBi" id="51AvyDsmPrg" role="3clFbG">
+            <node concept="2OqwBi" id="51AvyDsmP42" role="2Oq$k0">
+              <node concept="2Sf5sV" id="51AvyDsmOTx" role="2Oq$k0" />
+              <node concept="3TrEf2" id="51AvyDsmPiR" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
+              </node>
+            </node>
+            <node concept="2DeJnY" id="51AvyDsmPCj" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="51AvyDsmPDZ" role="2ZfVeh">
+      <node concept="3clFbS" id="51AvyDsmPE0" role="2VODD2">
+        <node concept="3clFbF" id="51AvyDsmPIG" role="3cqZAp">
+          <node concept="2OqwBi" id="51AvyDsmQyK" role="3clFbG">
+            <node concept="2OqwBi" id="51AvyDsmQ1w" role="2Oq$k0">
+              <node concept="2Sf5sV" id="51AvyDsmPIF" role="2Oq$k0" />
+              <node concept="3TrEf2" id="51AvyDsmQks" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="51AvyDsmQLu" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

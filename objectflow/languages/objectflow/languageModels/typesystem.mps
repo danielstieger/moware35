@@ -14526,6 +14526,89 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="51AvyDsmSrw" role="3cqZAp" />
+      <node concept="3clFbJ" id="51AvyDsmTxV" role="3cqZAp">
+        <node concept="3clFbS" id="51AvyDsmTxX" role="3clFbx">
+          <node concept="3clFbJ" id="51AvyDso5pp" role="3cqZAp">
+            <node concept="3clFbS" id="51AvyDso5pr" role="3clFbx">
+              <node concept="2MkqsV" id="51AvyDso6LI" role="3cqZAp">
+                <node concept="Xl_RD" id="51AvyDso6LX" role="2MkJ7o">
+                  <property role="Xl_RC" value="Only GRAPH_EDIT commands can be used to resolve conditions." />
+                </node>
+                <node concept="2OqwBi" id="51AvyDso6YK" role="1urrMF">
+                  <node concept="1YBJjd" id="51AvyDso6Ne" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
+                  </node>
+                  <node concept="3TrEf2" id="51AvyDso7wc" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="51AvyDso6lE" role="3clFbw">
+              <node concept="2OqwBi" id="51AvyDso5Vu" role="2Oq$k0">
+                <node concept="2OqwBi" id="51AvyDso5Am" role="2Oq$k0">
+                  <node concept="1YBJjd" id="51AvyDso5q8" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
+                  </node>
+                  <node concept="3TrEf2" id="51AvyDso5Li" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="51AvyDso66M" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="51AvyDso6E1" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="51AvyDsmSs2" role="3cqZAp">
+            <node concept="3fqX7Q" id="51AvyDsmSs3" role="3clFbw">
+              <node concept="2OqwBi" id="51AvyDsmSs4" role="3fr31v">
+                <node concept="2OqwBi" id="51AvyDsmSs5" role="2Oq$k0">
+                  <node concept="1YBJjd" id="51AvyDsmSs6" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
+                  </node>
+                  <node concept="3TrEf2" id="51AvyDsmSs7" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="51AvyDsmSs8" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:5TC7JC3XxIG" resolve="hasArgumentsGiven" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="51AvyDsmSs9" role="3clFbx">
+              <node concept="2MkqsV" id="51AvyDsmSsa" role="3cqZAp">
+                <node concept="Xl_RD" id="51AvyDsmSsb" role="2MkJ7o">
+                  <property role="Xl_RC" value="You have to provide arguments for the command." />
+                </node>
+                <node concept="2OqwBi" id="51AvyDsmSsc" role="1urrMF">
+                  <node concept="1YBJjd" id="51AvyDsmSsd" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
+                  </node>
+                  <node concept="3TrEf2" id="51AvyDsmSse" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="51AvyDsmUA0" role="3clFbw">
+          <node concept="2OqwBi" id="51AvyDsmTSg" role="2Oq$k0">
+            <node concept="1YBJjd" id="51AvyDsmTFt" role="2Oq$k0">
+              <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
+            </node>
+            <node concept="3TrEf2" id="51AvyDsmUao" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="51AvyDssNBe" role="2OqNvi" />
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="7ymmWYIuqY0" role="1YuTPh">
       <property role="TrG5h" value="precondition" />
@@ -17015,6 +17098,44 @@
     <property role="TrG5h" value="check_SessionQueueNextCommand" />
     <property role="3GE5qa" value="OFXCore.session" />
     <node concept="3clFbS" id="7PNf$vRdRky" role="18ibNy">
+      <node concept="3clFbJ" id="51AvyDsmWgM" role="3cqZAp">
+        <node concept="3clFbS" id="51AvyDsmWgO" role="3clFbx">
+          <node concept="2MkqsV" id="51AvyDsmY9n" role="3cqZAp">
+            <node concept="Xl_RD" id="51AvyDsmY9o" role="2MkJ7o">
+              <property role="Xl_RC" value="Only session owner commands can be enqueued." />
+            </node>
+            <node concept="2OqwBi" id="51AvyDsmY9p" role="1urrMF">
+              <node concept="1YBJjd" id="51AvyDsmY9q" role="2Oq$k0">
+                <ref role="1YBMHb" node="7PNf$vRdRk$" resolve="sessionQueueNextCommand" />
+              </node>
+              <node concept="3TrEf2" id="51AvyDsmY9r" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="51AvyDsmY7V" role="3clFbw">
+          <node concept="2OqwBi" id="51AvyDsmY7X" role="3fr31v">
+            <node concept="2OqwBi" id="51AvyDsmY7Y" role="2Oq$k0">
+              <node concept="2OqwBi" id="51AvyDsmY7Z" role="2Oq$k0">
+                <node concept="1YBJjd" id="51AvyDsmY80" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7PNf$vRdRk$" resolve="sessionQueueNextCommand" />
+                </node>
+                <node concept="3TrEf2" id="51AvyDsmY81" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:7PNf$vR1g4V" resolve="commandCall" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="51AvyDsmY82" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" resolve="command" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="51AvyDsmY83" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="51AvyDsmYo$" role="3cqZAp" />
       <node concept="3clFbJ" id="7PNf$vRdRkC" role="3cqZAp">
         <node concept="3fqX7Q" id="7PNf$vRdSd5" role="3clFbw">
           <node concept="2OqwBi" id="7PNf$vRdSd7" role="3fr31v">

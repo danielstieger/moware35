@@ -3405,8 +3405,17 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="19EO7JM$uV_" resolve="LogStatementProperty" />
     </node>
+    <node concept="1TJgyj" id="51AvyDsmyHj" role="1TKVEi">
+      <property role="IQ2ns" value="5793456691061861203" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cmdAction" />
+      <ref role="20lvS9" node="3nLPQZPP4Ds" resolve="Action" />
+    </node>
     <node concept="1QGGSu" id="wGbog3pNIu" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/references.png" />
+    </node>
+    <node concept="PrWs8" id="51AvyDsmyHp" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
   </node>
   <node concept="1TIwiD" id="51llZt6ckhQ">
