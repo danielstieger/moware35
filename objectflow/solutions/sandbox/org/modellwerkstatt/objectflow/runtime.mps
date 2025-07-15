@@ -5006,6 +5006,26 @@
       </node>
       <node concept="3Tm1VV" id="1VVl5ejzCPU" role="1B3o_S" />
     </node>
+    <node concept="3HP615" id="5nwh8JsYDTf" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="IUxEventActionable" />
+      <node concept="3clFb_" id="5nwh8JsYEgR" role="jymVt">
+        <property role="TrG5h" value="performAction" />
+        <node concept="3cqZAl" id="5nwh8JsYEgT" role="3clF45" />
+        <node concept="3Tm1VV" id="5nwh8JsYEgU" role="1B3o_S" />
+        <node concept="3clFbS" id="5nwh8JsYEgV" role="3clF47" />
+      </node>
+      <node concept="3clFb_" id="5nwh8JsZqNh" role="jymVt">
+        <property role="TrG5h" value="getLabelText" />
+        <node concept="17QB3L" id="5nwh8JsZuCq" role="3clF45" />
+        <node concept="3Tm1VV" id="5nwh8JsZqNk" role="1B3o_S" />
+        <node concept="3clFbS" id="5nwh8JsZqNl" role="3clF47" />
+      </node>
+      <node concept="3Tm1VV" id="5nwh8JsYDTg" role="1B3o_S" />
+      <node concept="3uibUv" id="5nwh8JsYEab" role="3HQHJm">
+        <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+      </node>
+    </node>
     <node concept="3UR2Jj" id="3$bhckF1LZJ" role="lGtFl">
       <node concept="TZ5HA" id="3$bhckF1LZK" role="TZ5H$">
         <node concept="1dT_AC" id="3$bhckF1LZL" role="1dT_Ay">
@@ -53726,7 +53746,7 @@
       <property role="TrG5h" value="basisCmdStart" />
       <node concept="3Tm6S6" id="51AvyDtbqNK" role="1B3o_S" />
       <node concept="3uibUv" id="51AvyDtbNbd" role="1tU5fm">
-        <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+        <ref role="3uigEE" node="5nwh8JsYDTf" resolve="IOFXSession.IUxEventActionable" />
       </node>
     </node>
     <node concept="2tJIrI" id="7ymmWYItT5y" role="jymVt" />
@@ -53818,7 +53838,7 @@
       <node concept="37vLTG" id="51AvyDtcKXN" role="3clF46">
         <property role="TrG5h" value="cmdStart" />
         <node concept="3uibUv" id="51AvyDtcMqH" role="1tU5fm">
-          <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+          <ref role="3uigEE" node="5nwh8JsYDTf" resolve="IOFXSession.IUxEventActionable" />
         </node>
       </node>
       <node concept="37vLTG" id="51AvyDtcJB4" role="3clF46">
@@ -54235,7 +54255,6 @@
             <ref role="37wK5l" node="51llZt5PoG2" resolve="isWarningOnly" />
           </node>
         </node>
-        <node concept="3clFbH" id="1T2Sm8TZOs1" role="3cqZAp" />
         <node concept="3clFbF" id="1T2Sm8TZKCf" role="3cqZAp">
           <node concept="2OqwBi" id="1T2Sm8TZKEO" role="3clFbG">
             <node concept="37vLTw" id="1T2Sm8TZKCd" role="2Oq$k0">
@@ -54828,7 +54847,7 @@
       <property role="TrG5h" value="getResolveActionOrNull" />
       <node concept="3Tm1VV" id="5nwh8Jrxh8j" role="1B3o_S" />
       <node concept="3uibUv" id="5nwh8Jrxh8k" role="3clF45">
-        <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+        <ref role="3uigEE" node="5nwh8JsYDTf" resolve="IOFXSession.IUxEventActionable" />
       </node>
       <node concept="3clFbS" id="5nwh8Jrxh8l" role="3clF47">
         <node concept="3clFbF" id="5nwh8JrxjIa" role="3cqZAp">
@@ -54948,7 +54967,7 @@
       <node concept="3clFbS" id="5nwh8JrxeqC" role="3clF47" />
       <node concept="3Tm1VV" id="5nwh8JrxeqD" role="1B3o_S" />
       <node concept="3uibUv" id="5nwh8Jrxeln" role="3clF45">
-        <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
+        <ref role="3uigEE" node="5nwh8JsYDTf" resolve="IOFXSession.IUxEventActionable" />
       </node>
     </node>
     <node concept="2tJIrI" id="5nwh8JrwQXd" role="jymVt" />
