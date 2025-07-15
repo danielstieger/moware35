@@ -36300,6 +36300,52 @@
                   </node>
                 </node>
               </node>
+              <node concept="3cpWs8" id="HgTr38x2cA" role="3cqZAp">
+                <node concept="3cpWsn" id="HgTr38x2cD" role="3cpWs9">
+                  <property role="TrG5h" value="conntainsAction" />
+                  <node concept="10P_77" id="HgTr38x2c$" role="1tU5fm" />
+                  <node concept="2OqwBi" id="HgTr38x6cf" role="33vP2m">
+                    <node concept="37vLTw" id="HgTr38x5A6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5ng$mPCBW$S" resolve="listOfProblems" />
+                    </node>
+                    <node concept="2HwmR7" id="HgTr38x6O1" role="2OqNvi">
+                      <node concept="1bVj0M" id="HgTr38x6O3" role="23t8la">
+                        <node concept="3clFbS" id="HgTr38x6O4" role="1bW5cS">
+                          <node concept="3clFbF" id="HgTr38x6XR" role="3cqZAp">
+                            <node concept="3y3z36" id="HgTr38x7wb" role="3clFbG">
+                              <node concept="10Nm6u" id="HgTr38x7Dm" role="3uHU7w" />
+                              <node concept="2OqwBi" id="HgTr38x76J" role="3uHU7B">
+                                <node concept="37vLTw" id="HgTr38x6XQ" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="HgTr38x6O5" resolve="it" />
+                                </node>
+                                <node concept="liA8E" id="HgTr38x7i2" role="2OqNvi">
+                                  <ref role="37wK5l" to="28jr:5nwh8Jrxeq_" resolve="getResolveActionOrNull" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="HgTr38x6O5" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="HgTr38x6O6" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="5nwh8JsU15M" role="3cqZAp">
+                <node concept="3cpWsn" id="5nwh8JsU15N" role="3cpWs9">
+                  <property role="TrG5h" value="extra" />
+                  <node concept="3uibUv" id="5nwh8JsU15O" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
+                  </node>
+                  <node concept="3b6qkQ" id="5nwh8JsU1vw" role="33vP2m">
+                    <property role="$nhwW" value="1.5" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="HgTr38wOOY" role="3cqZAp" />
               <node concept="1DcWWT" id="2gjGACn6kpA" role="3cqZAp">
                 <node concept="3clFbS" id="2gjGACn6kpC" role="2LFqv$">
                   <node concept="3cpWs8" id="2gjGACn6mmd" role="3cqZAp">
@@ -36323,37 +36369,57 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbJ" id="7w5bIQyNlF8" role="3cqZAp">
-                    <node concept="3clFbS" id="7w5bIQyNlFa" role="3clFbx">
-                      <node concept="3clFbF" id="7w5bIQyNnU7" role="3cqZAp">
-                        <node concept="2OqwBi" id="7w5bIQyNob4" role="3clFbG">
-                          <node concept="37vLTw" id="7w5bIQyNnU5" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2gjGACn6mme" resolve="problemLabel" />
-                          </node>
-                          <node concept="liA8E" id="7w5bIQyNoqV" role="2OqNvi">
-                            <ref role="37wK5l" to="l152:~Region.setMinHeight(double)" resolve="setMinHeight" />
-                            <node concept="37vLTw" id="7w5bIQyNpr$" role="37wK5m">
-                              <ref role="3cqZAo" node="5p1CQfOse9X" resolve="minHeight" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="7w5bIQyNpRx" role="3cqZAp">
-                        <node concept="2OqwBi" id="7w5bIQyNpRy" role="3clFbG">
-                          <node concept="37vLTw" id="7w5bIQyNpRz" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2gjGACn6mme" resolve="problemLabel" />
-                          </node>
-                          <node concept="liA8E" id="7w5bIQyNpR$" role="2OqNvi">
-                            <ref role="37wK5l" to="l152:~Region.setMaxHeight(double)" resolve="setMaxHeight" />
-                            <node concept="37vLTw" id="7w5bIQyNpR_" role="37wK5m">
-                              <ref role="3cqZAo" node="5p1CQfOse9X" resolve="minHeight" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+                  <node concept="3clFbH" id="HgTr38x90p" role="3cqZAp" />
+                  <node concept="3clFbJ" id="HgTr38xaVO" role="3cqZAp">
+                    <node concept="3clFbS" id="HgTr38xaVQ" role="3clFbx">
+                      <node concept="3clFbH" id="HgTr38xaVP" role="3cqZAp" />
                     </node>
-                    <node concept="37vLTw" id="7w5bIQyNn7N" role="3clFbw">
-                      <ref role="3cqZAo" node="7w5bIQyNhSU" resolve="shrink" />
+                    <node concept="37vLTw" id="HgTr38xgIm" role="3clFbw">
+                      <ref role="3cqZAo" node="HgTr38x2cD" resolve="conntainsAction" />
+                    </node>
+                    <node concept="3eNFk2" id="HgTr38xhGU" role="3eNLev">
+                      <node concept="37vLTw" id="HgTr38xhO7" role="3eO9$A">
+                        <ref role="3cqZAo" node="7w5bIQyNhSU" resolve="shrink" />
+                      </node>
+                      <node concept="3clFbS" id="HgTr38xhGW" role="3eOfB_">
+                        <node concept="3clFbF" id="7w5bIQyNnU7" role="3cqZAp">
+                          <node concept="2OqwBi" id="7w5bIQyNob4" role="3clFbG">
+                            <node concept="37vLTw" id="7w5bIQyNnU5" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2gjGACn6mme" resolve="problemLabel" />
+                            </node>
+                            <node concept="liA8E" id="7w5bIQyNoqV" role="2OqNvi">
+                              <ref role="37wK5l" to="l152:~Region.setMinHeight(double)" resolve="setMinHeight" />
+                              <node concept="17qRlL" id="HgTr38xodF" role="37wK5m">
+                                <node concept="37vLTw" id="HgTr38xoFu" role="3uHU7w">
+                                  <ref role="3cqZAo" node="5nwh8JsU15N" resolve="extra" />
+                                </node>
+                                <node concept="37vLTw" id="HgTr38xhRt" role="3uHU7B">
+                                  <ref role="3cqZAo" node="5p1CQfOse9X" resolve="minHeight" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="7w5bIQyNpRx" role="3cqZAp">
+                          <node concept="2OqwBi" id="7w5bIQyNpRy" role="3clFbG">
+                            <node concept="37vLTw" id="7w5bIQyNpRz" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2gjGACn6mme" resolve="problemLabel" />
+                            </node>
+                            <node concept="liA8E" id="7w5bIQyNpR$" role="2OqNvi">
+                              <ref role="37wK5l" to="l152:~Region.setMaxHeight(double)" resolve="setMaxHeight" />
+                              <node concept="17qRlL" id="HgTr38xpzF" role="37wK5m">
+                                <node concept="37vLTw" id="HgTr38xpCL" role="3uHU7w">
+                                  <ref role="3cqZAo" node="5nwh8JsU15N" resolve="extra" />
+                                </node>
+                                <node concept="37vLTw" id="HgTr38xhRG" role="3uHU7B">
+                                  <ref role="3cqZAo" node="5p1CQfOse9X" resolve="minHeight" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="HgTr38xk2z" role="3cqZAp" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbH" id="7w5bIQyNl75" role="3cqZAp" />
@@ -36411,6 +36477,7 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="HgTr38x7M$" role="3cqZAp" />
                   <node concept="3clFbJ" id="5nwh8JsPqAk" role="3cqZAp">
                     <node concept="3clFbS" id="5nwh8JsPqAm" role="3clFbx">
                       <node concept="3clFbF" id="2gjGACn6qlh" role="3cqZAp">
@@ -36474,17 +36541,6 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3cpWs8" id="5nwh8JsU15M" role="3cqZAp">
-                          <node concept="3cpWsn" id="5nwh8JsU15N" role="3cpWs9">
-                            <property role="TrG5h" value="extra" />
-                            <node concept="3uibUv" id="5nwh8JsU15O" role="1tU5fm">
-                              <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
-                            </node>
-                            <node concept="3b6qkQ" id="5nwh8JsU1vw" role="33vP2m">
-                              <property role="$nhwW" value="1.5" />
-                            </node>
-                          </node>
-                        </node>
                         <node concept="3clFbF" id="5nwh8JsRS3c" role="3cqZAp">
                           <node concept="2OqwBi" id="5nwh8JsRS3d" role="3clFbG">
                             <node concept="37vLTw" id="5nwh8JsRS3e" role="2Oq$k0">
@@ -36529,7 +36585,7 @@
                             <node concept="liA8E" id="5nwh8JsWxUa" role="2OqNvi">
                               <ref role="37wK5l" to="l152:~HBox.setSpacing(double)" resolve="setSpacing" />
                               <node concept="3cmrfG" id="5nwh8JsWysw" role="37wK5m">
-                                <property role="3cmrfH" value="15" />
+                                <property role="3cmrfH" value="20" />
                               </node>
                             </node>
                           </node>
@@ -36630,11 +36686,11 @@
                             </node>
                             <node concept="liA8E" id="5nwh8JsQ6eF" role="2OqNvi">
                               <ref role="37wK5l" to="os9n:~ObservableList.addAll(java.lang.Object...)" resolve="addAll" />
-                              <node concept="37vLTw" id="5nwh8JsUlS4" role="37wK5m">
-                                <ref role="3cqZAo" node="5nwh8JsPwVL" resolve="btn" />
-                              </node>
                               <node concept="37vLTw" id="5nwh8JsQ72x" role="37wK5m">
                                 <ref role="3cqZAo" node="2gjGACn6mme" resolve="problemLabel" />
+                              </node>
+                              <node concept="37vLTw" id="HgTr38xNxz" role="37wK5m">
+                                <ref role="3cqZAo" node="5nwh8JsPwVL" resolve="btn" />
                               </node>
                             </node>
                           </node>
