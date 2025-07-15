@@ -14597,16 +14597,13 @@
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="51AvyDsmUA0" role="3clFbw">
-          <node concept="2OqwBi" id="51AvyDsmTSg" role="2Oq$k0">
-            <node concept="1YBJjd" id="51AvyDsmTFt" role="2Oq$k0">
-              <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
-            </node>
-            <node concept="3TrEf2" id="51AvyDsmUao" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:51AvyDsmyHj" resolve="cmdAction" />
-            </node>
+        <node concept="2OqwBi" id="51AvyDsmTSg" role="3clFbw">
+          <node concept="1YBJjd" id="51AvyDsmTFt" role="2Oq$k0">
+            <ref role="1YBMHb" node="7ymmWYIuqY0" resolve="precondition" />
           </node>
-          <node concept="3x8VRR" id="51AvyDssNBe" role="2OqNvi" />
+          <node concept="2qgKlT" id="5nwh8Jr$VZW" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:5nwh8Jr$Sgp" resolve="hasResolveAction" />
+          </node>
         </node>
       </node>
     </node>
