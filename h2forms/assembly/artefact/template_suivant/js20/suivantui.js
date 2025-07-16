@@ -249,27 +249,25 @@ function selectOnAlternativeRefDlgt(inputFieldName, idx) {
 }
 
 
-function svToggleAccordion(accordionId, id) {
-  var x = document.getElementById(id);
+function svShowAccordionTab(accordionId, id) {
+  var accordion = document.getElementById(accordionId);
+  var tab = document.getElementById(id);
 
-  // var toOpen = sessionStorage.getItem(accordionId);
-  // if (toOpen == null){ toOpen = ''; }
-
-  // var storageKey = " " + id;
-  // always remove, might be a call to install
-  // toOpen = toOpen.replace(storageKey, "");
-
-
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  //  toOpen += storageKey;
-
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-
-  }
-
-  // sessionStorage.setItem(accordionId, toOpen);
+  var allTabs = accordion.getElementsByClassName('sv-accordion-tab');
+  Array.from(allTabs).forEach((item) =>
+  {
+    if (item == tab) {
+        // show it
+        if (item.className.indexOf("w3-show") == -1) {
+            item.className += " w3-show";
+        } else {
+            item.className = item.className.replace(" w3-show", "");
+        }
+    } else {
+        // hide it anyway
+        item.className = item.className.replace(" w3-show", "");
+    }
+  });
 }
 
 
@@ -280,24 +278,13 @@ function svSetupAccordion() {
 
     if (accordion) {
         id = accordion.id;
-        // var toOpen = sessionStorage.getItem(id);
-        // if (toOpen) {
-        //    toOpen.trim().split(' ').forEach((elem) => svToggleAccordion(accordion.id, elem));
-        //
-        // } else {
 
         var first = accordion.getElementsByClassName('sv-accordion-tab')[0];
         if (first) {
-            svToggleAccordion(accordion.id, first.id);
+            svShowAccordionTab(accordion.id, first.id);
 
         }
     }
-
-    // Object.keys(sessionStorage).forEach(function (key) {
-    // if (key.startsWith("Accordion_") && key != id) {
-    //    sessionStorage.removeItem(key);
-    //}
-    //});
 
     return accordion;
 }

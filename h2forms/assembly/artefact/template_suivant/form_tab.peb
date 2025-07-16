@@ -1,6 +1,6 @@
 <div class="sv-accordion" id="{{ accordionId }}">
 {% for labelAndForm in children %}
-    <button type="button" onclick="svToggleAccordion('{{ accordionId }}', '{{ labelAndForm.id }}')" class="w3-button w3-block w3-left-align w3-theme">{{ labelAndForm.label }}<i class="material-icons"> arrow_drop_down </i> </button>
+    <button type="button" onclick="svShowAccordionTab('{{ accordionId }}', '{{ labelAndForm.id }}')" class="w3-button w3-block w3-left-align w3-theme">{{ labelAndForm.label }}<i class="material-icons"> arrow_drop_down </i> </button>
     <div id="{{ labelAndForm.id }}" class="sv-accordion-tab w3-hide">
     {{ labelAndForm.form.toHtml }}
     </div>

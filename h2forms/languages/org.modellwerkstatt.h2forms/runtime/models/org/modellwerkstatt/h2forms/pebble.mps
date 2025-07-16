@@ -38009,8 +38009,15 @@
         <node concept="3clFbH" id="1wTKWXA_H6B" role="3cqZAp" />
         <node concept="3clFbF" id="1wTKWXA_H6C" role="3cqZAp">
           <node concept="37vLTI" id="1wTKWXA_H6D" role="3clFbG">
-            <node concept="37vLTw" id="1wTKWXA_H6E" role="37vLTx">
-              <ref role="3cqZAo" node="1wTKWXA_JHI" resolve="imageName" />
+            <node concept="2YIFZM" id="3iLtcI6VyB$" role="37vLTx">
+              <ref role="37wK5l" to="5wm0:3iLtcI6Vy3D" resolve="adjustPath" />
+              <ref role="1Pybhc" to="5wm0:6Ag5kTzI7bG" resolve="ImageDelegate" />
+              <node concept="37vLTw" id="3iLtcI6VyJ8" role="37wK5m">
+                <ref role="3cqZAo" node="1wTKWXA_D2V" resolve="uploadLocationRetrieve" />
+              </node>
+              <node concept="37vLTw" id="3iLtcI6Vz54" role="37wK5m">
+                <ref role="3cqZAo" node="1wTKWXA_JHI" resolve="imageName" />
+              </node>
             </node>
             <node concept="3EllGN" id="1wTKWXA_H6F" role="37vLTJ">
               <node concept="37vLTw" id="1wTKWXA_H6N" role="3ElVtu">
