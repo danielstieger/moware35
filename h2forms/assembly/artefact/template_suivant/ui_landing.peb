@@ -20,7 +20,7 @@
     </div>
 
     <div class="w3-right">
-        {% if not (client.deviceSw equals "STANDARD" or client.deviceSw equals "SCANDIT") %}
+        {% if not (client.deviceSw equals "STANDARD" or client.deviceSw equals "SCANDIT" or client.deviceSw equals "STRICH") %}
         <button id="minimizeSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: hwMinimize();"><i class="material-icons">swap_horiz</i></button>
         {% endif %}
 
