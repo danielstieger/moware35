@@ -5021,6 +5021,12 @@
         <node concept="3Tm1VV" id="5nwh8JsZqNk" role="1B3o_S" />
         <node concept="3clFbS" id="5nwh8JsZqNl" role="3clF47" />
       </node>
+      <node concept="3clFb_" id="42qnHiIhmQw" role="jymVt">
+        <property role="TrG5h" value="getTriggerCode" />
+        <node concept="3clFbS" id="42qnHiIhmQz" role="3clF47" />
+        <node concept="3Tm1VV" id="42qnHiIhmQ$" role="1B3o_S" />
+        <node concept="10Oyi0" id="42qnHiIrlsd" role="3clF45" />
+      </node>
       <node concept="3Tm1VV" id="5nwh8JsYDTg" role="1B3o_S" />
       <node concept="3uibUv" id="5nwh8JsYEab" role="3HQHJm">
         <ref role="3uigEE" node="1VVl5ejzCPT" resolve="IOFXSession.IUxEvent" />
@@ -54860,6 +54866,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="42qnHiIguBC" role="jymVt" />
   </node>
   <node concept="3HP615" id="51llZt5Pk22">
     <property role="3GE5qa" value="OFXArchitecture" />
