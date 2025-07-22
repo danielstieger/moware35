@@ -35,8 +35,8 @@
 
         {% elseif conc.visible and conc.hotKey equals "GO" %}
             <input name="goconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
-            {% if client.deviceSw equals "STANDARD" or client.deviceSw equals "SCANDIT" %}
-                <button id="goSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmitDueGo();"{% if not conc.enabled %} disabled {% endif %}><i class="material-icons">gavel</i></button>
+            {% if client.deviceSw equals "STANDARD" or client.deviceSw equals "SCANDIT" or client.deviceSw equals "STRICH" %}
+                <button id="goSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmitDueGo();"{% if not conc.enabled %} disabled {% endif %}>GO</button>
             {% endif %}
 
         {% elseif conc.visible %}

@@ -80,7 +80,15 @@ function hwInitAfterDomReady(){
 
     if (svScanEnabled()) {
         $$('input[scanable="true"]').forEach((it) => {
-            it.onclick = function() { strichScanSubmit(); };
+            it.ondblclick = function() { strichScanSubmit(); };
+            it.onkeydown = function(event) {
+             console.log(event);
+             if (event.keyCode == 13) {
+                event.preventDefault();
+                saveSubmitDueScan();
+                return false;
+                }
+             };
         });
 
         strichEnableSoftscanBtn(true);
@@ -98,6 +106,7 @@ function hwInitAfterDomReady(){
                 svLog('hwInitAfterDomReady.focusHandler', 'disable sip please');
     		}
     };
+
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
 
     installDateCommaReplacer();
