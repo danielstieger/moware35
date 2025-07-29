@@ -42619,7 +42619,45 @@
       <node concept="17QB3L" id="7$2_qbr8stL" role="3clF45" />
       <node concept="3Tm1VV" id="7$2_qbr8rTX" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="29r3SXKRFrY" role="jymVt" />
+    <node concept="2YIFZL" id="35B2N8V65hw" role="jymVt">
+      <property role="TrG5h" value="removeNL" />
+      <node concept="37vLTG" id="35B2N8V65HQ" role="3clF46">
+        <property role="TrG5h" value="withNL" />
+        <node concept="17QB3L" id="35B2N8V65It" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="35B2N8V67qA" role="3clF45" />
+      <node concept="3Tm1VV" id="35B2N8V65hz" role="1B3o_S" />
+      <node concept="3clFbS" id="35B2N8V65h$" role="3clF47">
+        <node concept="3clFbF" id="35B2N8V65TI" role="3cqZAp">
+          <node concept="2OqwBi" id="35B2N8V66KN" role="3clFbG">
+            <node concept="2OqwBi" id="35B2N8V66bC" role="2Oq$k0">
+              <node concept="37vLTw" id="35B2N8V65TH" role="2Oq$k0">
+                <ref role="3cqZAo" node="35B2N8V65HQ" resolve="withNL" />
+              </node>
+              <node concept="liA8E" id="35B2N8V66im" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                <node concept="Xl_RD" id="35B2N8V66k2" role="37wK5m">
+                  <property role="Xl_RC" value="\n" />
+                </node>
+                <node concept="Xl_RD" id="35B2N8V66zE" role="37wK5m">
+                  <property role="Xl_RC" value=" " />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="35B2N8V66Zx" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+              <node concept="Xl_RD" id="35B2N8V675H" role="37wK5m">
+                <property role="Xl_RC" value="\r" />
+              </node>
+              <node concept="Xl_RD" id="35B2N8V67kS" role="37wK5m">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="35B2N8V5L5F" role="jymVt" />
     <node concept="2YIFZL" id="7sK_OLrf0DT" role="jymVt">
       <property role="TrG5h" value="main" />
       <node concept="37vLTG" id="7sK_OLrf0DU" role="3clF46">
