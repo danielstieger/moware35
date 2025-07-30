@@ -69,6 +69,9 @@ function svToggleImgViewer(viewContainer, elem) {
   if (elem.className.indexOf("sv-image-viewer-editor") >= 0) {
     // is small
     elem.className = elem.className.replace("sv-image-viewer-editor", "sv-image-viewer-large");
+    elem.setAttribute("style-dep", elem.getAttribute("style"));
+    elem.setAttribute("style", "");
+
     $('html').style.overflow = "visible";
     $('body').style.visibility = "hidden";
 
@@ -85,6 +88,10 @@ function svToggleImgViewer(viewContainer, elem) {
      viewContainer.style.visibility = "";
      viewContainer.style.display = "none";
      elem.style.visibility = "";
+
+    elem.setAttribute("style", elem.getAttribute("style-dep"));
+    elem.setAttribute("style-dep", "");
+
      viewContainer.parentNode.insertBefore(elem, viewContainer.nextSibling);
   }
 }

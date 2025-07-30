@@ -128,7 +128,7 @@ body[class="sv-back-no-session"] div[class*="sv-editor"] {padding-bottom: 300px 
 
 .sv-keyboard-spacer { min-height: 460px; height: 460px; }
 
-.sv-image-viewer-editor { width: 95%; }
+.sv-image-viewer-editor { }
 .sv-image-viewer-large { padding-top: 6em; }
 .sv-image-viewer { display: none; position: absolute; top: 0px; left: 0px; z-index: 1; }
 .sv-image-viewer-button { position: fixed; top: 1em; left: 1em; }
