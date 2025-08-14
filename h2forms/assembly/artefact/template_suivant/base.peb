@@ -8,6 +8,9 @@
 <html>
   <title>{{ statics.applicationName }} {{ client.deviceSw }}/{{ client.debug }}</title>
   <meta charset="UTF-8">
+
+  <link rel="manifest" href="{{ statics.staticContentUrlPrefix }}/manifest.json" />
+
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="icon" sizes="192x192" href="{{ statics.staticContentUrlPrefix }}/images/android-desktop.png{{ page.ncs }}">
