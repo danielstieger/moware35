@@ -10880,7 +10880,7 @@
                   </node>
                   <node concept="3cpWs3" id="1YUU7GVWpdh" role="37wK5m">
                     <node concept="Xl_RD" id="1YUU7GVWpfl" role="3uHU7w">
-                      <property role="Xl_RC" value=", global logging disabled!" />
+                      <property role="Xl_RC" value="." />
                     </node>
                     <node concept="3cpWs3" id="1YUU7GVWp16" role="3uHU7B">
                       <node concept="3cpWs3" id="1YUU7GVWoVi" role="3uHU7B">
