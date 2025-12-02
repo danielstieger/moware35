@@ -346,6 +346,13 @@
       <node concept="3Tm1VV" id="467ssIo$ZA4" role="1B3o_S" />
       <node concept="3clFbS" id="467ssIo$ZA5" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="4sSQgXaAkXf" role="jymVt">
+      <property role="TrG5h" value="getDecimalDelegateInsensibleThousand" />
+      <node concept="3Tm1VV" id="4sSQgXaAkXg" role="1B3o_S" />
+      <node concept="3clFbS" id="4sSQgXaAkXh" role="3clF47" />
+      <node concept="10P_77" id="4sSQgXaAkXi" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="4sSQgXaAkSN" role="jymVt" />
     <node concept="3clFb_" id="7nFq7WTDmAx" role="jymVt">
       <property role="TrG5h" value="getCollectSelections" />
       <node concept="3clFbS" id="7nFq7WTDmA$" role="3clF47" />

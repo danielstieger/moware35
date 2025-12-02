@@ -11123,13 +11123,8 @@
                             <property role="Xl_RC" value=", bus.isconnected()=" />
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="1JHLrPL$SED" role="3uHU7w">
-                          <node concept="37vLTw" id="1JHLrPL$Si1" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
-                          </node>
-                          <node concept="liA8E" id="1JHLrPL$TiR" role="2OqNvi">
-                            <ref role="37wK5l" to="ybfw:~EventBus.isConnected()" resolve="isConnected" />
-                          </node>
+                        <node concept="37vLTw" id="7_k$_QqpASc" role="3uHU7w">
+                          <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
                         </node>
                       </node>
                       <node concept="Xl_RD" id="1JHLrPL$UC8" role="3uHU7w">

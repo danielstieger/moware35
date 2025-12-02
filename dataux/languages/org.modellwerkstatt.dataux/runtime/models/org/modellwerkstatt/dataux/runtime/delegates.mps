@@ -11744,6 +11744,11 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="4sSQgXaA$zr" role="jymVt">
+      <property role="TrG5h" value="decimalDelegateInsensibleThousand" />
+      <node concept="3Tm6S6" id="4sSQgXaA$zs" role="1B3o_S" />
+      <node concept="10P_77" id="4sSQgXaADnK" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="3sEA$PIstNM" role="jymVt" />
     <node concept="3clFbW" id="3sEA$PIstNN" role="jymVt">
       <node concept="3cqZAl" id="3sEA$PIstNO" role="3clF45" />
@@ -11841,6 +11846,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4sSQgXaAESk" role="3cqZAp">
+          <node concept="37vLTI" id="4sSQgXaAFyW" role="3clFbG">
+            <node concept="2OqwBi" id="4sSQgXaAGgD" role="37vLTx">
+              <node concept="37vLTw" id="4sSQgXaAG6y" role="2Oq$k0">
+                <ref role="3cqZAo" node="3sEA$PIstO4" resolve="factory" />
+              </node>
+              <node concept="liA8E" id="4sSQgXaAGpJ" role="2OqNvi">
+                <ref role="37wK5l" to="250q:4sSQgXaAkXf" resolve="getDecimalDelegateInsensibleThousand" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4sSQgXaAESi" role="37vLTJ">
+              <ref role="3cqZAo" node="4sSQgXaA$zr" resolve="decimalDelegateInsensibleThousand" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4sSQgXaAGs5" role="3cqZAp" />
       </node>
       <node concept="37vLTG" id="3sEA$PIstO4" role="3clF46">
         <property role="TrG5h" value="factory" />
@@ -11852,6 +11873,88 @@
         <property role="TrG5h" value="langIdx" />
         <node concept="10Oyi0" id="6XWBEIFHxvC" role="1tU5fm" />
       </node>
+    </node>
+    <node concept="3clFb_" id="4sSQgXaAr7y" role="jymVt">
+      <property role="TrG5h" value="getAndAdjustTextFromToolkitEditor" />
+      <node concept="3clFbS" id="4sSQgXaAr7z" role="3clF47">
+        <node concept="3cpWs8" id="4sSQgXaAr7_" role="3cqZAp">
+          <node concept="3cpWsn" id="4sSQgXaAr7$" role="3cpWs9">
+            <property role="TrG5h" value="asText" />
+            <node concept="17QB3L" id="4sSQgXaAIRF" role="1tU5fm" />
+            <node concept="2OqwBi" id="4sSQgXaAtEe" role="33vP2m">
+              <node concept="37vLTw" id="4sSQgXaAtEd" role="2Oq$k0">
+                <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+              </node>
+              <node concept="liA8E" id="4sSQgXaAtEf" role="2OqNvi">
+                <ref role="37wK5l" to="250q:5Y1b9tR2iZp" resolve="getText" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4sSQgXaAr7C" role="3cqZAp">
+          <node concept="1Wc70l" id="4sSQgXaAr7D" role="3clFbw">
+            <node concept="37vLTw" id="4sSQgXaAr7E" role="3uHU7B">
+              <ref role="3cqZAo" node="4sSQgXaA$zr" resolve="decimalDelegateInsensibleThousand" />
+            </node>
+            <node concept="3y3z36" id="4sSQgXaAr7F" role="3uHU7w">
+              <node concept="37vLTw" id="4sSQgXaAr7G" role="3uHU7B">
+                <ref role="3cqZAo" node="4sSQgXaAr7$" resolve="asText" />
+              </node>
+              <node concept="10Nm6u" id="4sSQgXaAr7H" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4sSQgXaAr7J" role="3clFbx">
+            <node concept="3clFbF" id="4sSQgXaAr7K" role="3cqZAp">
+              <node concept="37vLTI" id="4sSQgXaAr7L" role="3clFbG">
+                <node concept="37vLTw" id="4sSQgXaAr7M" role="37vLTJ">
+                  <ref role="3cqZAo" node="4sSQgXaAr7$" resolve="asText" />
+                </node>
+                <node concept="2OqwBi" id="4sSQgXaAulU" role="37vLTx">
+                  <node concept="37vLTw" id="4sSQgXaAulT" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4sSQgXaAr7$" resolve="asText" />
+                  </node>
+                  <node concept="liA8E" id="4sSQgXaAulV" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.replace(char,char)" resolve="replace" />
+                    <node concept="2OqwBi" id="4sSQgXaAulW" role="37wK5m">
+                      <node concept="2OqwBi" id="4sSQgXaAulX" role="2Oq$k0">
+                        <node concept="37vLTw" id="4sSQgXaAulY" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3DTEcmNJnAE" resolve="formatter" />
+                        </node>
+                        <node concept="liA8E" id="4sSQgXaAulZ" role="2OqNvi">
+                          <ref role="37wK5l" to="25x5:~DecimalFormat.getDecimalFormatSymbols()" resolve="getDecimalFormatSymbols" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4sSQgXaAum0" role="2OqNvi">
+                        <ref role="37wK5l" to="25x5:~DecimalFormatSymbols.getGroupingSeparator()" resolve="getGroupingSeparator" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4sSQgXaAuqd" role="37wK5m">
+                      <node concept="2OqwBi" id="4sSQgXaAuqe" role="2Oq$k0">
+                        <node concept="37vLTw" id="4sSQgXaAuqf" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3DTEcmNJnAE" resolve="formatter" />
+                        </node>
+                        <node concept="liA8E" id="4sSQgXaAuqg" role="2OqNvi">
+                          <ref role="37wK5l" to="25x5:~DecimalFormat.getDecimalFormatSymbols()" resolve="getDecimalFormatSymbols" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4sSQgXaAuqh" role="2OqNvi">
+                        <ref role="37wK5l" to="25x5:~DecimalFormatSymbols.getDecimalSeparator()" resolve="getDecimalSeparator" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4sSQgXaAr7U" role="3cqZAp">
+          <node concept="37vLTw" id="4sSQgXaAr7V" role="3cqZAk">
+            <ref role="3cqZAo" node="4sSQgXaAr7$" resolve="asText" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4sSQgXaAr7W" role="1B3o_S" />
+      <node concept="17QB3L" id="4sSQgXaAGC1" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="3sEA$PIstO6" role="jymVt" />
     <node concept="3clFb_" id="3sEA$PIstO7" role="jymVt">
@@ -11887,13 +11990,8 @@
                       </node>
                       <node concept="liA8E" id="3sEA$PItDNt" role="2OqNvi">
                         <ref role="37wK5l" to="25x5:~NumberFormat.parse(java.lang.String)" resolve="parse" />
-                        <node concept="2OqwBi" id="3sEA$PItDNu" role="37wK5m">
-                          <node concept="37vLTw" id="3sEA$PItDNv" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
-                          </node>
-                          <node concept="liA8E" id="3sEA$PItDNw" role="2OqNvi">
-                            <ref role="37wK5l" to="250q:5Y1b9tR2iZp" resolve="getText" />
-                          </node>
+                        <node concept="1rXfSq" id="4sSQgXaANj0" role="37wK5m">
+                          <ref role="37wK5l" node="4sSQgXaAr7y" resolve="getAndAdjustTextFromToolkitEditor" />
                         </node>
                       </node>
                     </node>
@@ -12276,13 +12374,8 @@
             <node concept="3clFbH" id="73W0U3C0G5x" role="3cqZAp" />
             <node concept="3clFbF" id="7H7HCj4HJG7" role="3cqZAp">
               <node concept="37vLTI" id="7H7HCj4HJG9" role="3clFbG">
-                <node concept="2OqwBi" id="3sEA$PIu$Ck" role="37vLTx">
-                  <node concept="37vLTw" id="3sEA$PIu$fx" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
-                  </node>
-                  <node concept="liA8E" id="3sEA$PIu$I4" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:5Y1b9tR2iZp" resolve="getText" />
-                  </node>
+                <node concept="1rXfSq" id="4sSQgXaAPCv" role="37vLTx">
+                  <ref role="37wK5l" node="4sSQgXaAr7y" resolve="getAndAdjustTextFromToolkitEditor" />
                 </node>
                 <node concept="37vLTw" id="7H7HCj4HJGd" role="37vLTJ">
                   <ref role="3cqZAo" node="7H7HCj4HHI9" resolve="text" />
